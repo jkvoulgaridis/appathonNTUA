@@ -1,0 +1,183 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04319809</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MHS-OF01</org_study_id>
+    <nct_id>NCT04319809</nct_id>
+  </id_info>
+  <brief_title>Object Finder for a Retinal Prosthesis</brief_title>
+  <official_title>Object Finder for a Retinal Prosthesis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Minnesota HealthSolutions</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Johns Hopkins University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Second Sight Medical Products</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Minnesota HealthSolutions</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>Yes</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The proposed project seeks to provide object recognition as a feature in a retinal implant
+      system. Participants will be able to direct an object recognition application to find a
+      desired object in the field of view of the head-mounted camera, and to direct the
+      participant's view towards it through the presentation of a recognizable icon. A prototype
+      system will be developed and evaluated in human subjects in phase I. A full system
+      implementation and a second phase of the trial will be completed in phase II.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The investigators propose to add an object-finding feature to a retinal prosthesis system. To
+      use this feature, the participant will enable a special mode and input the desired object
+      from a set of pre-programmed object types. Imagery from the visible light camera in the
+      system eyeglasses will be processed using object recognition software as the participant
+      scans their head across the room scene. When the object is identified in the scene by the
+      processor, a flashing icon will be output to the epiretinal array in the appropriate position
+      to guide the participant to the physical location of the object. Once located, the system
+      will track the location of the object.
+
+      There will be two phases to the human subjects evaluation, each run initially through
+      simulations in sighted human subjects, followed by tests in Argus II participants. In phase
+      1, system evaluation in human subjects at Johns Hopkins UNiversity (JHU) will explore
+      performance in representative tasks and compare prosthetic visual performance without and
+      with the new object finding feature. An important aspect of the evaluation will be the
+      comparison of different icons and presentation modes to assist participants in locating and
+      reaching objects. In phase 2, the system will be integrated into the Argus II video
+      processing unit (VPU), and JHU will conduct human trials that include functional testing of
+      the integrated prototype in representative environments and optimizing the ergonomics of the
+      system, e.g. simultaneous finding and tracking of multiple objects/icons.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">July 1, 2017</start_date>
+  <completion_date type="Anticipated">April 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">April 30, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>This is a small sample open label feasibility study for an object recognition and localization system based on machine learning</intervention_model_description>
+    <primary_purpose>Device Feasibility</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Performance (% correct)</measure>
+    <time_frame>Year 1 (prototype)</time_frame>
+    <description>This outcome measure will compare task completion without and with use of the subsystem</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Performance (% correct)</measure>
+    <time_frame>Year 3 (pre-producton unit)</time_frame>
+    <description>This outcome measure will compare task completion without and with use of the subsystem</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Time to completion</measure>
+    <time_frame>Year 1 (prototype)</time_frame>
+    <description>This outcome measure will compare task completion without and with use of the subsystem</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Time to completion</measure>
+    <time_frame>Year 3 (pre-producton unit)</time_frame>
+    <description>This outcome measure will compare task completion without and with use of the subsystem</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">10</enrollment>
+  <condition>Retinitis Pigmentosa</condition>
+  <arm_group>
+    <arm_group_label>Device feasibility</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>To investigate the utility of a device adaptation allowing Argus II users to detect the presence and location of desired objects. Performance of the unaided Argus II system will be compared with performance using the system augmented with object recognition.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Object recognition subsystem</intervention_name>
+    <description>The object recognition subsystem is an add-on to the Argus II retinal prosthesis system. in the early stage of the study the subsystem will run on a separate processor; in the later stage the subsystem will run in the Argus II user's video processing unit.</description>
+    <arm_group_label>Device feasibility</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  For healthy volunteers: Vision corrected to 20/25, good general health
+
+          -  For retinitis pigmentosa (RP) patients: End-stage retinitis pigmentosa, recipient of
+             an Argus II retinal prosthesis system
+
+        Exclusion Criteria:
+
+          -  None
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Gislin Dagnelie, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Johns Hopkins University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Johns Hopkins Hospital</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21287</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>March 16, 2020</study_first_submitted>
+  <study_first_submitted_qc>March 20, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 24, 2020</study_first_posted>
+  <last_update_submitted>March 20, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 20, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 24, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>retinitis pigmentosa</keyword>
+  <keyword>Argus II retinal prosthesis system</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Retinitis</mesh_term>
+    <mesh_term>Retinitis Pigmentosa</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Deidentified data will be available from the investigative team, following initial publication of the results</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_time_frame>Spring 2022 onward</ipd_time_frame>
+    <ipd_access_criteria>Any researchers wit ha legitimate reason for wishing to re-analyze the data or compare them to study data collected in similar experiments</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

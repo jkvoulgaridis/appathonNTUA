@@ -1,0 +1,188 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03798795</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Sarcoma_Grading_Radiomics</org_study_id>
+    <nct_id>NCT03798795</nct_id>
+  </id_info>
+  <brief_title>Radiomics for Tumor Grading of Soft Tissue Sarcomas.</brief_title>
+  <official_title>Development of an MRI-based Radiomic Model for Non-invasive Tumor Grading of Soft Tissue Sarcomas.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Technische Universität München</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Washington</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Technische Universität München</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Radiomics is defined as a quantitative high-throughput analysis of imaging data combined with
+      model development aiming to predict biological correlates or clinical endpoints. The
+      investigators of this study hypothesize that radiomic features may correlate with
+      pathology-defined tumor grading in soft tissue sarcoma patients. The aim of this study is to
+      develop a predictive radiomics model for tumor grading determination.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Soft tissue sarcomas (STS) constitute an overall rare malignant entity comprising 1% of all
+      cancers with a yearly incidence rate of 3.8 per 100.000 inhabitants. Therapy decisions are
+      made using clinical and pathological determinants defined by the American Joint Committee on
+      Cancer (AJCC). It involves the TNM staging system that classifies STS by their tumor size
+      (measured as maximal diameter), pathological tumor grading defined by the French Fédération
+      Nationale des Centres de Lutte Contre le Cancer (FNCLCC) and the occurrence of nodal or
+      distant metastases.
+
+      For the guidance of therapy, the most important factor constitutes tumor grading. In
+      &quot;low-grade&quot; sarcomas (G1), surgical resection is often sufficient for durable tumor control.
+      In &quot;high risk&quot; STS, however, resection of the tumor is combined with radiotherapy improving
+      locoregional control and eventually survival.
+
+      Currently, invasive biopsies followed by pathological work-up are necessary to determine
+      tumor grading. However, bioptic specimens are always restricted to small tumor subvolume.
+
+      Medical imaging-based analyses constitutes an alternative tool to characterize tissue. Recent
+      developments in quantitative image analysis and data science have led to the evolvement of
+      &quot;Radiomics&quot;. It is defined as an algorithm-based large-scale quantitative analysis of imaging
+      features. It should be considered as a two-step process with (1) extraction of relevant
+      imaging features, and (2) incorporating these features into a mathematical model to
+      ultimately predict patient or tumor-specific outcomes. In previous scientific studies,
+      radiomic models have been associated with survival, tumor progression, and molecular changes
+      including genetic mutations or expression profiles as shown in multiple malignant entities.
+      In addition, radiomic models were able to predict tumor grading e.g. for gliomas,
+      meningiomas, hepatocellular carcinoma or pancreatic neuroendocrine tumors. In contrast to
+      pathology, quantitative image analysis (radiomics) has the principal advantage of analyzing
+      the whole tumor.
+
+      In this study, the investigators are aiming to correlate radiomic features with tumor grading
+      of STS. The ultimate goal is to develop a prediction model to non-invasively classify tumor
+      grading. In a first step, the focus will be laid on differentiating &quot;low-grade&quot; and
+      &quot;high-grade&quot; STS. In a second step, &quot;high-grade&quot; STS will be divided into G2 and G3 tumors.
+
+      To this end, the investigators will retrospectively analyze a patient cohort of 138 patients
+      (139 tumors) with known tumor grading and available pre-therapeutic MRI-scans. As secondary
+      endpoint overall survival will be determined for all patients. An independent patient cohort
+      from the University of Washington (139 patients) will be used for external validation of the
+      developed models.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">October 1, 2017</start_date>
+  <completion_date type="Actual">March 1, 2019</completion_date>
+  <primary_completion_date type="Actual">March 31, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Pathological tumor grading</measure>
+    <time_frame>Baseline</time_frame>
+    <description>Defined by the French Fédération Nationale des Centres de Lutte Contre le Cancer (FNCLCC)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Overall Survival</measure>
+    <time_frame>From initial pathologic diagnosis to the time point of death or the time point of censoring up to 100 months.</time_frame>
+    <description>Overall Survival</description>
+  </secondary_outcome>
+  <enrollment type="Actual">285</enrollment>
+  <condition>Sarcoma, Soft Tissue</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with histologically proven soft tissue sarcomas with known FNCLCC tumor grading
+        determined by biopsy prior to therapy.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Histologically proven soft tissue sarcoma
+
+          -  Available pre-therapeutic MRI with a contrast-enhanced T1 weight fat saturated
+             sequence +/- fat saturated T2 sequences (e.g. STIR)
+
+        Exclusion Criteria:
+
+          -  Indeterminate tumor grading
+
+          -  Osteosarcoma
+
+          -  Ewing Sarcoma
+
+          -  Endoprothesis-dependent MRI artifacts
+
+          -  Previous radiotherapy or chemotherapy
+
+          -  Lack of a contrast-enhanced T1 weight fat saturated MRI sequence
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Stephanie E Combs, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Technische Universität München</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Klinik für RadioOnkologie Strahlentherapie</name>
+      <address>
+        <city>Munich</city>
+        <state>Bavaria</state>
+        <zip>81675</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+  </location_countries>
+  <reference>
+    <citation>Liang W, Yang P, Huang R, Xu L, Wang J, Liu W, Zhang L, Wan D, Huang Q, Lu Y, Kuang Y, Niu T. A Combined Nomogram Model to Preoperatively Predict Histologic Grade in Pancreatic Neuroendocrine Tumors. Clin Cancer Res. 2019 Jan 15;25(2):584-594. doi: 10.1158/1078-0432.CCR-18-1305. Epub 2018 Nov 5.</citation>
+    <PMID>30397175</PMID>
+  </reference>
+  <reference>
+    <citation>Aerts HJ, Velazquez ER, Leijenaar RT, Parmar C, Grossmann P, Carvalho S, Bussink J, Monshouwer R, Haibe-Kains B, Rietveld D, Hoebers F, Rietbergen MM, Leemans CR, Dekker A, Quackenbush J, Gillies RJ, Lambin P. Decoding tumour phenotype by noninvasive imaging using a quantitative radiomics approach. Nat Commun. 2014 Jun 3;5:4006. doi: 10.1038/ncomms5006. Erratum in: Nat Commun. 2014;5:4644. Cavalho, Sara [corrected to Carvalho, Sara].</citation>
+    <PMID>24892406</PMID>
+  </reference>
+  <verification_date>April 2019</verification_date>
+  <study_first_submitted>January 7, 2019</study_first_submitted>
+  <study_first_submitted_qc>January 8, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 10, 2019</study_first_posted>
+  <last_update_submitted>April 8, 2019</last_update_submitted>
+  <last_update_submitted_qc>April 8, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 10, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sarcoma</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

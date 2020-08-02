@@ -1,0 +1,311 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04080674</url>
+  </required_header>
+  <id_info>
+    <org_study_id>271953</org_study_id>
+    <nct_id>NCT04080674</nct_id>
+  </id_info>
+  <brief_title>Using DBS to Probe Basal Ganglia Dysfunction</brief_title>
+  <official_title>Studying the Role of the Basal Ganglia in Motor Symptoms Using Deep Brain Stimulation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Oxford</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Oxford</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will probe the function of collections of neurons deep in the brain termed the
+      basal ganglia It will investigate the role of the basal ganglia in how and why movement is
+      disrupted in conditions like Parkinson's disease, Dystonia and Essential Tremor. Deep brain
+      recording and stimulation will be used to probe the basal ganglia's contribution. Patients
+      with relatively severe movement disorders may have electrodes implanted in the basal ganglia
+      so that stimulation can be delivered chronically as a form of therapy. Studying these
+      patients allows researchers (a) to record brain activity from these electrodes in the basal
+      ganglia during symptoms related to abnormal motor control and (b) to stimulate the same
+      electrodes while patients experience symptoms. Like this they can see what aspects of the
+      activity of groups of nerve cells in the basal ganglia are associated with which symptoms and
+      also establish that these aspects of activity help cause linked symptoms. This means studying
+      patients just after electrode implantation, while the leads from the electrodes may still be
+      available for hooking up to external recording and stimulating devices. Understanding how the
+      activity of groups of nerve cells in the basal ganglia controls movement may help us develop
+      improved treatments.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study investigates how the basal ganglia contribute to motor symptoms like tremor,
+      bradykinesia and muscle spasm. The basic research approach is to record from sites in the
+      basal ganglia whilst patients are symptomatic, so that brain waves can be correlated with
+      symptoms/signs. Once a brain wave is implicated in an aspect of abnormal movement, the
+      researchers can try and confirm its central role in function or dysfunction by triggering
+      stimulation whenever the brain wave is picked up. For stimulation the researchers will use
+      the same high frequency stimulation (130 Hz) as used clinically, as this is thought to
+      effectively suppress neural activity at the stimulation site. Thus, if a given brain wave is
+      important in, for example, slowing movement, then by triggering stimulation whenever this
+      brain wave is big it can be expected that movement speed will be increased.
+
+      The investigators hope to follow this two-stage procedure to document the role of the
+      different brain activities picked up from basal ganglia sites in driving tremor, muscle spasm
+      and slowness of movement in patients with Parkinson's disease, dystonia and essential tremor.
+      This study is important, as if the researchers can alter brain function and specific symptoms
+      with stimulation they can use the same form of feedback-controlled stimulation as a
+      potentially efficient form of treatment. Conventional deep brain stimulation delivers fixed
+      stimulation all of the time. For example, researchers are beginning to see that stimulation
+      control based on feedback from beta activity in the basal ganglia may have advantages over
+      conventional continuous deep brain stimulation in treating Parkinson's disease.
+
+      The current study is particularly interested in the processes contributing to slowness
+      (bradykinesia) and rigidity (stiffness) in patients with Parkinson's disease, tremor in
+      patients with Parkinson's disease and Essential Tremor, and muscle spasms in patients with
+      dystonia.
+
+        1. Bradykinesia and Rigidity in patients with Parkinson's disease Here there is already
+           evidence that these impairments are associated with beta frequency band activity
+           (~20Hz). Such activity is exaggerated in patients with Parkinson's disease in whom it
+           comes in bursts lasting several hundred milliseconds or even longer. The investigators
+           have already shown that by triggering stimulation when bursts of beta activity occur
+           they can speed up movement and reduce rigidity. In the present study they are interested
+           in (a) determining whether it is necessary to trigger off beta bursts or whether it is
+           sufficient to trigger off the general level of beta activity (ie averaged over long
+           periods), (b) whether if it is necessary to trigger off all beta bursts, or is it just
+           the long bursts that need to be triggered off, and (c) whether triggered stimulation is
+           also sufficient to control tremor where this is a co-existent symptom. Exploration of
+           these issues requires the investigators to record basal ganglia activity (the feedback)
+           and to deliver stimulation, whilst varying how the feedback is processed before driving
+           the stimulation. In engineering terms the investigators vary the signal processing and
+           control policy details, but the net result is feedback-controlled deep brain
+           stimulation. Note that the investigators only control the amplitude of stimulation
+           within a clinically determined range that goes no higher than the threshold for
+           eliciting side-effects. All the remaining stimulation parameters, e.g. frequency and
+           pulse width, are set to standard clinical settings.
+
+        2. Tremor in patients with Parkinson's disease or Essential Tremor Here the evidence that
+           tremor is associated with a discrete brain activity is less robust, although
+           oscillations at tremor frequency (and twice this) are suspected of playing a role. In
+           conditions where the investigators are unsure of the exact nature of the factors
+           contributing to a state, in this case tremor, they often use machine learning to find
+           the relevant factors. Here the investigators propose to record both basal ganglia
+           activity and tremor in the limbs and then use these with machine learning algorithms to
+           point out the relevant combination of signals associated with tremor. The investigators
+           can then use machine learning outputs to tell them how to control tremor with
+           stimulation, whilst interrogating the weights of the inputs to the machine learning
+           algorithms to deduce the important relationships. As above, they will explore the
+           optimal signal processing and control policy details, but the net result is
+           feedback-controlled deep brain stimulation. Note that they only control the amplitude of
+           stimulation within a clinically determined range that goes no higher than the threshold
+           for eliciting side-effects. All the remaining stimulation parameters, e.g. frequency and
+           pulse width, are set to standard clinical settings.
+
+        3. Involuntary muscle spasms in patients with Dystonia Here the evidence that muscle spasms
+           are associated with a discrete brain activity is also relatively weak, although
+           oscillations at theta-alpha frequencies (5-12 Hz) are suspected of playing a role. The
+           investigators propose to record both basal ganglia activity and muscle spasms in the
+           body and then use these with machine learning algorithms to point out the relevant
+           combination of signals associated with muscle spasms. They can then use machine learning
+           outputs to tell them how to control muscle spasms with stimulation. As above, the
+           investigators will explore the optimal signal processing and control policy details, but
+           the net result is feedback-controlled deep brain stimulation. Note that they only
+           control the amplitude of stimulation within a clinically determined range that goes no
+           higher than the threshold for eliciting side-effects. All the remaining stimulation
+           parameters, e.g. frequency and pulse width, are set to standard clinical settings.
+
+      Techniques to be used
+
+      Our study involves several techniques:
+
+        1. Evaluation of symptoms using standard clinical rating scales e.g Part III motor UPDRS,
+           Unified dyskinesia rating scale and speech intelligibility test in patients with
+           Parkinson's disease; essential tremor rating assessment scale (TETRAS) for patients with
+           essential tremor; Burke Fahn Marsden dystonia rating scale (BFMDRS) for patients with
+           dystonia. The performance of these rating scales will also be videoed for off-line
+           review.
+
+        2. Recording of peripheral symptoms like movement speed, tremor or spasm with standard
+           techniques e.g. recording joystick movement speed, recording tremor and other movements
+           with the bradykinesia akinesia incoordination test, skin mounted accelerometers and skin
+           mounted electromyographic (EMG) electrodes. These are standard, non-invasive techniques
+           that do not involve any side-effects of discomfort.
+
+        3. Recording of EEG using scalp mounted electrodes. This is a standard, non-invasive
+           technique that does not involve any side-effects or discomfort. However, there is an
+           important caveat here that as these patients will have recent surgical scars on their
+           scalps these will avoided so that no electrode is applied to the scalp within 4 cm of
+           any wound. EEG electrodes are applied to the scalp with a conductive paste which helps
+           hold them in place. Sometimes, where lack of hair allows, the investigators bolster that
+           attachment with some tape. There is no increase in infection risk due to recordings in
+           patients with externalised deep brain stimulation leads.
+
+        4. Recordings of depth EEG from the deep brain stimulation electrodes implanted in to the
+           brain by the surgeon for standard clinical therapy. As these are passive recordings
+           there are no side-effects or risks. Recordings in 2-4 will be performed using an
+           amplifier that holds a certification mark that indicates conformity with health, safety,
+           and environmental protection standards for products sold within the European Economic
+           Area.
+
+        5. Stimulation of the deep brain stimulation electrodes implanted in to the brain by the
+           surgeon for standard clinical therapy. Stimulation can cause side-effects, so
+           importantly the investigators will only deliver stimulation in the form and range used
+           clinically, taking care to always remain below the threshold for side-effects.
+           Stimulation will be delivered through an in-house, custom-built, battery-supplied,
+           bilateral stimulator that does not hold a certification mark that indicates conformity
+           with health, safety, and environmental protection standards for products sold within the
+           European Economic Area. Nevertheless, it has been fully safety tested. The stimulator is
+           an updated version of that used for several past studies that have been reviewed and
+           approved by the United Kingdom National Research Ethics Service Committee South Central.
+           To allow for stimulation return, the amplifier is connected to a conducting pad placed
+           over the neck. Periodic impedance checks will ensure this connection is robust through
+           the course of the experiment.
+
+      Participants will be given the choice to undergo the study without their usual medication for
+      their motor symptoms or with such medication. The former state is preferred to facilitate the
+      demonstration of a link between neural activities and symptoms, but the final decision will
+      be down to the participant. Symptoms may be worse with the temporary withdrawal of
+      medication, but most participants will be familiar with this as a result of forgetting their
+      medication in the past or because their medication was temporarily withdrawn as part of a
+      clinical test like the levodopa challenge.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">December 1, 2019</start_date>
+  <completion_date type="Anticipated">November 30, 2023</completion_date>
+  <primary_completion_date type="Anticipated">November 30, 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Kinematic recordings</measure>
+    <time_frame>During stimulation</time_frame>
+    <description>Change in kinematic data</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Electromyographic signals</measure>
+    <time_frame>During stimulation</time_frame>
+    <description>Change in electromyographic data</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Disease relevant rating scale</measure>
+    <time_frame>During stimulation</time_frame>
+    <description>Change in disease relevant rating scale</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Parkinson's Disease</condition>
+  <condition>Tremor</condition>
+  <condition>Dystonia</condition>
+  <arm_group>
+    <arm_group_label>Parkinson's disease</arm_group_label>
+    <description>30 participants</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Essential Tremor</arm_group_label>
+    <description>10 participants</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Dystonia</arm_group_label>
+    <description>20 participants</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Feed-back controlled deep brain stimulation</intervention_name>
+    <description>Feed-back controlled deep brain stimulation</description>
+    <arm_group_label>Dystonia</arm_group_label>
+    <arm_group_label>Essential Tremor</arm_group_label>
+    <arm_group_label>Parkinson's disease</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients undergoing staged implantation of DBS electrodes
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Participant is willing and able to give informed consent for participation in the
+             study.
+
+          -  Male or Female, aged 18 to 80 years old.
+
+          -  Diagnosed with Parkinson's disease, Essential Tremor or Dystonia.
+
+          -  Undergoing two-stage surgery for deep brain stimulation as therapy for their movement
+             disorder.
+
+        Exclusion Criteria:
+
+          -  Cognitive impairment (judged by the clinician on the care team or in the research team
+             as a participant not having sufficient mental capacity to understand the study and its
+             requirements). This includes anyone who, in the opinion of clinicians on the care team
+             or clinicians in the research team, is unlikely to retain sufficient mental capacity
+             for the duration of their involvement in the study.
+
+          -  Intracranial bleeding, confusion, cerebrospinal fluid leak or any other complication
+             after the first stage of surgery.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Peter Brown, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Oxford</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Peter Brown, MD</last_name>
+    <phone>01865 572 482</phone>
+    <email>peter.brown@ndcn.ox.ac.uk</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>University of Oxford</name>
+      <address>
+        <city>Oxford</city>
+        <zip>OX3 9DU</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>August 2019</verification_date>
+  <study_first_submitted>September 2, 2019</study_first_submitted>
+  <study_first_submitted_qc>September 5, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 6, 2019</study_first_posted>
+  <last_update_submitted>September 5, 2019</last_update_submitted>
+  <last_update_submitted_qc>September 5, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 6, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Parkinson Disease</mesh_term>
+    <mesh_term>Dystonia</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Undecided</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

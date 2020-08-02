@@ -1,0 +1,158 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03650686</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Buisson PHRIP 2017 PAMPILLE</org_study_id>
+    <nct_id>NCT03650686</nct_id>
+  </id_info>
+  <brief_title>Validity, Reliability and Feasibility of an Automated Photographic Measurement/Assessment of Food Intake in the Hospitalized Elderly</brief_title>
+  <acronym>PAMPILLE</acronym>
+  <official_title>Validity, Reliability and Feasibility of an Automated Photographic Measurement/Assessment of Food Intake in the Hospitalized Elderly</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Centre Hospitalier Universitaire Dijon</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Centre Hospitalier Universitaire Dijon</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Malnutrition affects 50% to 70% of hospitalized elderly people, and is all the more worrying
+      in the elderly because of its clinical impact. A measurement of food consumption is essential
+      to recognize needs, monitor the nutritional status of the elderly in hospital and implement
+      specific therapeutic action such as supplements or an increase in energy-protein to combat
+      malnutrition or the risk of malnourishment. Unfortunately, this measure is rarely done
+      effectively in practice, keeping the patient in nutritional deficit, contributing to a risk
+      of increased morbidity and mortality.
+
+      Although weighing food intake is the reference method, it is a routine burden for healthcare
+      teams. To overcome these constraints in hospital environments, intake is estimated by food
+      readings over three consecutive days using a semi-quantitative method. It should be noted
+      that this method remains complex, imprecise and reserved only for the most malnourished
+      patients. In recent years, the development of photographic methods has become an interesting
+      alternative to the measurement by weight. Based on photographs taken before and after the
+      meal in order to deduce what is actually ingested, these methods obtain results comparable to
+      the weighing method, though there is still a number of limitations (need for human
+      intervention, constraint to have standardized menus in weight and lack of nutritional
+      management adapted to patients). To overcome these limitations, an automated photographic
+      method based on modern techniques for automatic processing of 2D and 3D images coupled with
+      techniques derived from artificial intelligence has recently been developed in the
+      investigator's unit, but has not yet been validated.
+
+      The originality and innovation of this project lies in the automated analysis of the photos
+      taken and the conversion into percentage of remaining food thanks to the design of algorithms
+      for image preprocessing and neural classification by a 2D and 3D software (patent pending).
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">May 3, 2018</start_date>
+  <completion_date type="Anticipated">December 2019</completion_date>
+  <primary_completion_date type="Anticipated">May 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Average percentage quantification of ingesta</measure>
+    <time_frame>Over 3 consecutive days</time_frame>
+  </primary_outcome>
+  <enrollment type="Anticipated">70</enrollment>
+  <condition>Elderly People</condition>
+  <condition>Food Intake Measurement</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Food weighing (gold standard)</intervention_name>
+    <description>Method which consists in weighing precisely the main dish at the beginning and then end of meal using a SOEHNLE scale (+/- 1g).</description>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Automated photographic method (method to be evaluated)</intervention_name>
+    <description>The nursing staff will position the tray for automatic picture taking before and after the meal. Taking a photograph of the entire tray will allow the patient's identity to be identified by his meal card which will then be coded for analysis and the plate will be targeted at the time of the nutritional analysis by the software. This method will automatically provide the percentage of each main dish food consumed using an advanced image processing algorithm and an optimized artificial intelligence system that will recognize the food before and after consumption. Automatic processing and transfer will enable food intake to be collected.</description>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Semi-quantitative method (routine method)</intervention_name>
+    <description>Staff will indicate whether 1, ¾, ½, ¼ or 0 (corresponding to 100%, 75%, 50% 25% or 0) of the food in the main course has been consumed.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Elderly persons hospitalised in geriatric rehabilitation follow-up care and in acute
+        geriatric units
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  patient who has given oral consent to participate
+
+          -  adult patient
+
+          -  inpatient geriatric rehabilitation follow-up care (SSRG) and acute geriatric units
+
+          -  patient eating alone or with help
+
+        Exclusion Criteria:
+
+          -  patient with enteral or parenteral nutrition
+
+          -  patient not affiliated to a social security scheme
+
+          -  end-of-life patient or palliative care
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Corinne BUISSON</last_name>
+    <phone>+33 380293776</phone>
+    <email>corinne.buisson@chu-dijon.fr</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Chu Dijon Bourogne</name>
+      <address>
+        <city>Dijon</city>
+        <zip>21000</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Corinne BUISSON</last_name>
+      <phone>+33 380293776</phone>
+      <email>corinne.buisson@chu-dijon.fr</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>August 2018</verification_date>
+  <study_first_submitted>August 27, 2018</study_first_submitted>
+  <study_first_submitted_qc>August 28, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 29, 2018</study_first_posted>
+  <last_update_submitted>August 28, 2018</last_update_submitted>
+  <last_update_submitted_qc>August 28, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 29, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

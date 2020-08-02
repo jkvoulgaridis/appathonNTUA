@@ -1,0 +1,319 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03748420</url>
+  </required_header>
+  <id_info>
+    <org_study_id>A16-691</org_study_id>
+    <secondary_id>1R01HL136937-01A1</secondary_id>
+    <nct_id>NCT03748420</nct_id>
+  </id_info>
+  <brief_title>Medication Adherence Clinical Decision Support</brief_title>
+  <acronym>ADH Wizard</acronym>
+  <official_title>A Team-Based and Technology-Driven Adherence Intervention to Improve Chronic Disease Outcomes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>HealthPartners Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Heart, Lung, and Blood Institute (NHLBI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>HealthPartners Institute</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      More than 50% of adults treated for diabetes, hypertension, or lipid disorders have
+      suboptimal medication adherence, a prominent barrier to continued improvement in chronic
+      disease care in the United States. Primary care providers (PCPs) often fail to identify
+      medication nonadherence and/or have insufficient time and training to address underlying
+      reasons for it. In this project, we propose a patient-centered and technology-driven strategy
+      to identify patients with adherence issues and apply a team approach to help them achieve
+      evidence-based personalized goals for glucose, blood pressure, or lipids. This intervention
+      extends the use of a widely available clinical decision support (CDS) infrastructure to
+      support a model of care that, for the first time outside of a fully integrated care
+      environment, will integrate pharmacists within the primary care team. The intervention relies
+      on a continuous health informatics loop to do the following: (a) identify high-risk patients
+      with adherence problems at the point of care by expanding the capability of an electronic
+      medical record (EMR)-linked CDS to identify poor adherence to medications; (b) establish and
+      maintain an auto-populating up-to-date registry of patients identified for proactive
+      pharmacist outreach; (c) implement a pharmacist outreach strategy based on an
+      information-motivation-behavioral (IMB) framework recommended by the World Health
+      Organization (WHO) with demonstrated ability to influence adherence across a variety of
+      clinical applications; and (d) coordinate care and adherence information by incorporating
+      pharmacist assessment and action plans into CDS at subsequent office encounters.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Clinics are randomly allocated 1:1 through a computer-generated program to either control or
+      intervention.
+
+      Control: All control clinics will continue to use the basic Electronic Medical Record
+      (EMR)-linked Clinical Decision Support (CDS) tool for cardiovascular (CV) risk factor
+      management. This CDS includes algorithmically derived identification of high CV risk patients
+      and prioritized treatment suggestions for lipids, Blood Pressure (BP), glycemic control,
+      weight, tobacco, and aspirin use based on distance from goal, current medications, labs,
+      allergies, and safety considerations. The basic CDS does not include any information on
+      medication adherence. Patients will receive basic CDS plus usual care.
+
+      Intervention: In intervention clinics, the basic CDS system for CV risk-factor control is
+      enhanced to support a team-based care model that identifies risk of non-adherence, computes
+      adherence information and incorporates it in the CDS, creates a registry to direct proactive
+      pharmacist outreach, and coordinates action plans. To do this, the CDS Web service will
+      combine EMR-identified medications with Epic Medication Adherence score (e-PDC) data.
+      Algorithms will identify poor adherence using e-PDC scores available within the Epic EMR at
+      patient encounters. When medication adherence issues are identified, alert messages will
+      appear on the CDS tools for patients and providers. Patients with index visits will be
+      followed-up for 6 months as they continue to receive CDS. At 6 months, patient e-PDC as well
+      as clinical outcomes will be reevaluated. Patients with persistent adherence issues
+      identified are added to a registry that is used by the pharmacists to conduct outreach.
+      Pharmacist outreach will be conducted primarily by phone, but in-person arrangements are also
+      an option. Pharmacists conducting outreach will identify themselves to patients as part of
+      the care team working with the primary care provider (PCP). Examples of specific action plans
+      that may be recommended includes education, recommending lower cost alternative medications
+      or combination medications, addressing side effects, using pill boxes, modifying pill-taking
+      schedules and/or using reminder systems, or referrals to medication therapy management (MTM)
+      services or health educators. Pharmacists will be guided by a script template for the phone
+      outreach that walks them through the IMB intervention and data collection. The date of the
+      pharmacist outreach and actions that result from the IMB intervention will be documented in
+      the EMR and incorporated into subsequent CDS tools and registries to reflect the new patient
+      state.
+    </textblock>
+  </detailed_description>
+  <overall_status>Suspended</overall_status>
+  <why_stopped>
+    Loss of clinic level randomization after clinics were restructured in response to the Covid-19
+    pandemic
+  </why_stopped>
+  <start_date type="Actual">November 6, 2019</start_date>
+  <completion_date type="Anticipated">July 2022</completion_date>
+  <primary_completion_date type="Anticipated">July 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in blood pressure medication adherence</measure>
+    <time_frame>12 months after an index visit</time_frame>
+    <description>Number of patients who achieve an Epic Medication Adherence Score (e-PDC) greater than or equal to 80% for all blood pressure medications</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Change in blood pressure control</measure>
+    <time_frame>12 months after an index visit</time_frame>
+    <description>Mean change in SBP from the last BP within the 12 months prior to the index visit, to the last BP value within 12 months after the index visit.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Change in non-insulin glycemic medication adherence</measure>
+    <time_frame>12 months after an index visit</time_frame>
+    <description>Number of patients who achieve an Epic Medication Adherence Score (e-PDC) greater than or equal to 80% for all non-insulin glycemic medications</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Change in glycemic control</measure>
+    <time_frame>12 months after an index visit</time_frame>
+    <description>Change in A1C value from the last lab test within the 12 months prior to the index visit, to the last lab test within 12 months after the index visit.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Change in statin medication adherence</measure>
+    <time_frame>12 months after an index visit</time_frame>
+    <description>Number of patients who achieve an Epic Medication Adherence Score (e-PDC) greater than or equal to 80% for all statin medications</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Cost of the intervention</measure>
+    <time_frame>12 months after an index visit</time_frame>
+    <description>Intervention costs and incremental medical care costs attributable to the intervention, defined from the health system perspective.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Long-term Health Impact</measure>
+    <time_frame>Simulated 10, 20 and 30-years post intervention</time_frame>
+    <description>We will estimate the long-term health impact as predicted by the HealthPartners Institute ModelHealthTM: Cardiovascular Disease microsimulation model.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Long-term cost-effectiveness</measure>
+    <time_frame>Simulated 10, 20 and 30-years post intervention</time_frame>
+    <description>We will estimate the cost-effectiveness of the intervention as predicted by the HealthPartners Institute ModelHealthTM: Cardiovascular Disease microsimulation model.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">8500</enrollment>
+  <condition>Hyperlipidemia</condition>
+  <condition>Hypertension</condition>
+  <condition>Diabetes</condition>
+  <condition>Medication Nonadherence</condition>
+  <arm_group>
+    <arm_group_label>Usual Care</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Basic clinical decision support alone</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>ReachOut Adherence intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Adherence-enhanced clinical decision support plus pharmacist-based adherence outreach</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Adherence-enhanced clinical decision support</intervention_name>
+    <description>Clinical decision support system integrating electronic medication data with claims data on prescription fills</description>
+    <arm_group_label>ReachOut Adherence intervention</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>ReachOut Adherence intervention</intervention_name>
+    <description>The pharmacist outreach intervention is based on the theoretically grounded and evidence-based Information-Motivation-Behavioral framework endorsed by the World Health Organization to improve adherence</description>
+    <arm_group_label>ReachOut Adherence intervention</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  One or more of the following clinical criteria:
+
+        A. In the 12 months prior to the index visit, most recent A1C ≥8% AND have one or more
+        active non-insulin glycemic medications on their electronic health record (EHR) medication
+        list AND a potential adherence issue for one or more of these medications based on the Epic
+        Medication Adherence score (e-PDC &lt;80%, moderate or high confidence).
+
+        B. Two consecutive encounters with BP values ≥140/90 mm Hg AND one or more BP medications
+        on their EHR medication list AND a potential adherence issue identified (e-PDC &lt;80%,
+        moderate/high confidence).
+
+        C. Meet the American College of Cardiology/American Heart Association (ACC/AHA) criteria
+        listed below for moderate or high-intensity statin use AND a statin medication on their EHR
+        medication list AND a potential statin adherence issue identified (e-PDC &lt;80%,
+        moderate/high confidence):
+
+          1. Age &gt;21 with atherosclerotic cardiovascular disease (ASCVD) identified by a
+             cardiovascular disease (CVD) diagnosis on the problem list or two or more
+             International Classification of Diseases (ICD)-10 diagnostic codes in the last 2 years
+
+          2. Age &gt;21 and LDL &gt;190 mg/dL
+
+          3. Aged 40 to 75 AND diabetes identified by the diagnosis on the problem list or two or
+             more ICD-10 diagnostic codes in the last 2 years
+
+          4. Aged 40 to 75 with 10-year CV Risk Score &gt;7.5% based on the ACC/AHA 10-year ASCVD risk
+             equation.
+
+        Exclusion Criteria:
+
+        An individual who meets any of the following criteria will be excluded from the study
+        analysis:
+
+          1. Patients enrolled in hospice,
+
+          2. Patients with active cancer or undergoing chemotherapy
+
+          3. Patients with pregnancy in the last year
+
+          4. Patients without HealthPartners insurance coverage for at least 11 of the 12 months
+             before the index visit will be excluded from cost analysis.
+
+          5. For Statin cohort, ≥1 LDL result &lt;100 mg/dl within 2 years
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>JoAnn M Sperl-Hillen, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>HealthPartners Institute</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>HealthPartners Care System</name>
+      <address>
+        <city>Bloomington</city>
+        <state>Minnesota</state>
+        <zip>55425</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Gilmer TP, O'Connor PJ, Sperl-Hillen JM, Rush WA, Johnson PE, Amundson GH, Asche SE, Ekstrom HL. Cost-effectiveness of an electronic medical record based clinical decision support system. Health Serv Res. 2012 Dec;47(6):2137-58. doi: 10.1111/j.1475-6773.2012.01427.x. Epub 2012 May 11.</citation>
+    <PMID>22578085</PMID>
+  </reference>
+  <reference>
+    <citation>Desai JR, Sperl-Hillen JM, O'Connor PJ. Patient preferences in diabetes care: overcoming barriers using new strategies. J Comp Eff Res. 2013 Jul;2(4):351-4. doi: 10.2217/cer.13.36.</citation>
+    <PMID>24236672</PMID>
+  </reference>
+  <reference>
+    <citation>Kharbanda EO, Nordin JD, Sinaiko AR, Ekstrom HL, Stultz JM, Sherwood NE, Fontaine PL, Asche SE, Dehmer SP, Amundson JH, Appana DX, Bergdall AR, Hayes MG, O'Connor PJ. TeenBP: Development and Piloting of an EHR-Linked Clinical Decision Support System to Improve Recognition of Hypertension in Adolescents. EGEMS (Wash DC). 2015 Jul 9;3(2):1142. doi: 10.13063/2327-9214.1142. eCollection 2015.</citation>
+    <PMID>26290886</PMID>
+  </reference>
+  <reference>
+    <citation>O'Connor P. Opportunities to Increase the Effectiveness of EHR-Based Diabetes Clinical Decision Support. Appl Clin Inform. 2011 Aug 31;2(3):350-4. doi: 10.4338/ACI-2011-05-IE-0032. Print 2011.</citation>
+    <PMID>23616881</PMID>
+  </reference>
+  <reference>
+    <citation>O'Connor PJ, Desai JR, Butler JC, Kharbanda EO, Sperl-Hillen JM. Current status and future prospects for electronic point-of-care clinical decision support in diabetes care. Curr Diab Rep. 2013 Apr;13(2):172-6. doi: 10.1007/s11892-012-0350-z.</citation>
+    <PMID>23225213</PMID>
+  </reference>
+  <reference>
+    <citation>O'Connor PJ, Sperl-Hillen JM, Rush WA, Johnson PE, Amundson GH, Asche SE, Ekstrom HL, Gilmer TP. Impact of electronic health record clinical decision support on diabetes care: a randomized trial. Ann Fam Med. 2011 Jan-Feb;9(1):12-21. doi: 10.1370/afm.1196.</citation>
+    <PMID>21242556</PMID>
+  </reference>
+  <reference>
+    <citation>Sperl-Hillen JM, Averbeck B, Palattao K, Amundson J, Rush B, PJ OC. Outpatient EHR-Based Diabetes Clinical Decision Support That Works: Lessons Learned From Implementing Diabetes Wizard. Diabetes Spectrum. 2010;23(3):150-154.</citation>
+  </reference>
+  <reference>
+    <citation>Sperl-Hillen JM, Crain AL, Margolis KL, Ekstrom HL, Appana D, Amundson G, Sharma R, Desai JR, O'Connor PJ. Clinical decision support directed to primary care patients and providers reduces cardiovascular risk: a randomized trial. J Am Med Inform Assoc. 2018 Sep 1;25(9):1137-1146. doi: 10.1093/jamia/ocy085.</citation>
+    <PMID>29982627</PMID>
+  </reference>
+  <reference>
+    <citation>HealthPartners Institute for Education and Research. ModelHealth Microsimulation Models. 2015. https://www.healthpartners.com/hprf/modelhealth/index.html. Accessed March 2, 2017.</citation>
+  </reference>
+  <reference>
+    <citation>Agency for Healthcare Research and Quality. Medical Expenditure Panel Survey. 2001-2010; http://meps.ahrq.gov/mepsweb/. Accessed March 2, 2017.</citation>
+  </reference>
+  <reference>
+    <citation>Kung Yee L, Zeger S. Longitudinal data analysis using generalized linear models. Biometrika. 1986;73(1):13-22.</citation>
+  </reference>
+  <reference>
+    <citation>Raebel MA, Schmittdiel J, Karter AJ, Konieczny JL, Steiner JF. Standardizing terminology and definitions of medication adherence and persistence in research employing electronic databases. Med Care. 2013 Aug;51(8 Suppl 3):S11-21. doi: 10.1097/MLR.0b013e31829b1d2a.</citation>
+    <PMID>23774515</PMID>
+  </reference>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>November 14, 2018</study_first_submitted>
+  <study_first_submitted_qc>November 19, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 20, 2018</study_first_posted>
+  <last_update_submitted>March 28, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 28, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 31, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Decision Support Systems, Clinical</keyword>
+  <keyword>Cardiovascular Diseases</keyword>
+  <keyword>Cardiovascular Risk Factor</keyword>
+  <keyword>Medication Non-adherence</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hyperlipidemias</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

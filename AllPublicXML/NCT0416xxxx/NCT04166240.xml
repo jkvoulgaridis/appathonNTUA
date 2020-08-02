@@ -1,0 +1,244 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04166240</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IIR 17-127</org_study_id>
+    <secondary_id>H-45450</secondary_id>
+    <nct_id>NCT04166240</nct_id>
+  </id_info>
+  <brief_title>Measuring and Improving the Safety of Test Result Follow-Up</brief_title>
+  <official_title>Measuring and Improving the Safety of Test Result Follow-Up</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>VA Office of Research and Development</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>White River Junction Veterans Affairs Medical Center</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Michael Debakey Veterans Affairs Medical Center</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Baylor College of Medicine</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>VA Office of Research and Development</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Improving communication is foundational to improving patient safety. Electronic health
+      records (EHRs) can improve communication, but also introduce unique vulnerabilities. Failure
+      to follow-up abnormal test results (missed results) is a key preventable factor in diagnosis
+      and treatment delays in the VHA and often involves EHR-based communication breakdowns.
+      Effective methods are needed to detect diagnostic delays and intervene appropriately. Manual
+      techniques to detect care delays, such as spontaneous reporting and random chart reviews,
+      have limited effectiveness, due in part to bias and lack of provider awareness of delays.
+      They are also inefficient and cost-prohibitive when applied to large numbers of patients.
+
+      Diagnostic errors are considered harder to tackle, in part because they are difficult to
+      measure. Rigorous measurement of diagnostic safety is essential and should be prioritized
+      given the increasing amount of electronically available data. To create an effective
+      measurement and learning program researchers must (1) ensure teams know how to take
+      actionable steps on data and have assistance in doing so and (2) prioritize diagnostic safety
+      at the organizational level by securing commitment from local VA leadership and clinical
+      operations personnel. This will ensure that safety measurement will translate into action.
+      The proposed study focuses on creating a novel program to develop and evaluate multifaceted
+      socio-technical tools and strategies to help prevent, detect, mitigate, and ameliorate
+      breakdowns in EHR-based communication that often lead to &quot;missed&quot; test results in the VHA.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The goal of this study is to develop and evaluate a new program for surveillance and
+      improvement of test results-related diagnostic safety. The investigators will use a
+      multifaceted measurement approach, the Virtual Breakthrough Series (VBTS) model, to account
+      for processes of care and work systems issues as well as outcomes and implement change.
+
+      This is for Aim 2 of the study which was approved under IRB Protocol Number: H-45450. This
+      study will implement the Change Package which was developed in the research team's recent
+      work (Aim1, prior IRB Protocol Number: H-43661 from October 2018 - September 2019) via
+      Virtual Breakthrough Series using a stepped-wedge cluster-randomized control trial. The study
+      design involves random and sequential crossover of clusters from control to intervention
+      until all clusters are exposed. A Change Package is a catalogue of evidence-based practices,
+      change concepts, and action steps/strategies that help guide improvement efforts. VBTS
+      involves monthly learning sessions where participants are provided with education/review of a
+      specific component of a Change Package along with reviewing de-identified data, and having a
+      facilitated discussion about successes, challenges, and implementation progress related to
+      needed changes. The intervention will consist of coached implementation of the SAFER Change
+      Package using a VBTS Collaborative, plus automated near real-time surveillance data on
+      potentially missed test results through monthly data extraction within the Corporate Data
+      Warehouse (CDW) platform.
+
+      The study's outcome measures will be the rate of missed test results, determined through
+      random manual medical record review conducted nationally as part of the VHA
+      performance-measurement system, known as the External Peer Review Program (EPRP) which has
+      been collecting facility-level data on timeliness of communication of test results to
+      patients within the time periods specified by VHA Directive 1088, as well as automated
+      indicators (Triggers) of missed test results. Electronic surveillance will be made possible
+      through the use of the research team's trigger algorithms which will determine the number of
+      patients potentially lost to follow-up for the specified condition based on a previously
+      validated timeframe. The triggers use the national EHR data warehouse (VINCI/CDW) to identify
+      patients at risk for delays or patients who may have fallen through the cracks. For data
+      surveillance, the investigators will apply five triggers to the medical record data contained
+      within the CDW for the participating facilities during the Intervention Phase along with
+      evaluating EPRP data. The research team hypothesizes there will be fewer missed test results
+      in participating sites during the SAFER TRACKS Intervention as compared to during the
+      pre-intervention period.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">October 1, 2018</start_date>
+  <completion_date type="Anticipated">September 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">April 1, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>It's a cluster randomized control trial where 12 sites are randomized in groups of 4 in 3 clusters each.</intervention_model_description>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+    <masking_description>VBTS participants, providers, and outcome assessors know about the intervention and in which conditions sites are in and when.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Trigger Outcome</measure>
+    <time_frame>6 months</time_frame>
+    <description>Number of missed test results determined by electronic indicators</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>EPRP Outcome</measure>
+    <time_frame>6 months</time_frame>
+    <description>Percentage of patients notified of actionable test results within seven days via EPRP</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">12</enrollment>
+  <condition>Lung Cancer</condition>
+  <condition>Breast Cancer</condition>
+  <condition>Colon Cancer</condition>
+  <condition>Bladder Cancer</condition>
+  <condition>Hepatocellular Cancer</condition>
+  <arm_group>
+    <arm_group_label>SAFER TRACKS Intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Each cluster starts receiving the intervention in sequence per cluster randomized control trial designs. Each cluster will participate in attending monthly coaching calls and compare their data on test results from pre-intervention to receiving the intervention.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Non-intervention period</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>When the cluster is not in active intervention, they are in the non-intervention period. The amount of time that each site contributes to the intervention depends on which cluster they belong to.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>SAFER TRACKS Intervention</intervention_name>
+    <description>SAFER Change Package delivered using a Virtual Breakthrough Series [VBTS] Collaborative supplemented with automated surveillance data on test results.</description>
+    <arm_group_label>SAFER TRACKS Intervention</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Medical records identified via CDW which fall under the EPRP measures (FOBT/FIT, HCV,
+             Mammogram, AFP, DEXA Scan, Pap/HPV, Chest X-ray, and Chest CT)
+
+          -  Medical records containing clinical findings suspicious for breast cancer, lung
+             cancer, bladder cancer, hepatocellular carcinoma, and colorectal cancer (CRC)
+
+        Exclusion Criteria:
+
+          -  Medical records that don't contain any tests, procedures, or appointments that need to
+             be followed up on
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Hardeep Singh, MD MPH</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Michael E. DeBakey VA Medical Center, Houston, TX</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Michael E. DeBakey VA Medical Center, Houston, TX</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>White River Junction VA Medical Center, White River Junction, VT</name>
+      <address>
+        <city>White River Junction</city>
+        <state>Vermont</state>
+        <zip>05009-0001</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Walter FM, Thompson MJ, Wellwood I, Abel GA, Hamilton W, Johnson M, Lyratzopoulos G, Messenger MP, Neal RD, Rubin G, Singh H, Spencer A, Sutton S, Vedsted P, Emery JD. Evaluating diagnostic strategies for early detection of cancer: the CanTest framework. BMC Cancer. 2019 Jun 14;19(1):586. doi: 10.1186/s12885-019-5746-6.</citation>
+    <PMID>31200676</PMID>
+  </reference>
+  <results_reference>
+    <citation>Murphy DR, Giardina TD, Satterly T, Sittig DF, Singh H. An Exploration of Barriers, Facilitators, and Suggestions for Improving Electronic Health Record Inbox-Related Usability: A Qualitative Analysis. JAMA Netw Open. 2019 Oct 2;2(10):e1912638. doi: 10.1001/jamanetworkopen.2019.12638.</citation>
+    <PMID>31584683</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Gandhi TK, Singh H. Reducing the Risk of Diagnostic Error in the COVID-19 Era. J Hosp Med. 2020 Jun;15(6):363-366. doi: 10.12788/jhm.3461. Review.</citation>
+    <PMID>32490798</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Giardina TD, Royse KE, Khanna A, Haskell H, Hallisy J, Southwick F, Singh H. Health Care Provider Factors Associated with Patient-Reported Adverse Events and Harm. Jt Comm J Qual Patient Saf. 2020 May;46(5):282-290. doi: 10.1016/j.jcjq.2020.02.004. Epub 2020 Feb 21.</citation>
+    <PMID>32362355</PMID>
+  </results_reference>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>November 14, 2019</study_first_submitted>
+  <study_first_submitted_qc>November 14, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 18, 2019</study_first_posted>
+  <last_update_submitted>June 4, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 4, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 9, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Diagnostic Errors</keyword>
+  <keyword>Quality Improvement</keyword>
+  <keyword>Patient Safety</keyword>
+  <keyword>Delayed Diagnosis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Liver Neoplasms</mesh_term>
+    <mesh_term>Carcinoma, Hepatocellular</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>No plans to share individual site data.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

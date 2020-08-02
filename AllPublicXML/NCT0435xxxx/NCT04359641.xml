@@ -1,0 +1,259 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04359641</url>
+  </required_header>
+  <id_info>
+    <org_study_id>22196</org_study_id>
+    <nct_id>NCT04359641</nct_id>
+  </id_info>
+  <brief_title>Predictive Monitoring - IMPact in Acute Care Cardiology Trial</brief_title>
+  <acronym>PM-IMPACCT</acronym>
+  <official_title>Predictive Monitoring - IMPact in Acute Care Cardiology Trial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Jamieson Bourque, MD</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Advanced Medical Predictive Devices, Diagnostics and Displays, Inc.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Virginia</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Hypothesis: display of predictive analytics monitoring on acute care cardiology wards
+      improves patient outcomes and is cost-effective to the health system.
+
+      The investigators have developed and validated computational models for predicting key
+      outcomes in adults, and a useful display has been developed, implemented and iteratively
+      optimized. These models estimate risk of imminent patient deterioration using trends in vital
+      signs, labs and cardiorespiratory dynamics derived from readily available continuous bedside
+      monitoring. They are presented on LCD monitors using software called CoMET (Continuous
+      Monitoring of Event Trajectories; AMP3D, Advanced Medical Predictive Devices, Diagnostics,
+      and Displays, Charlottesville, VA)
+
+      To test the impact on patient outcomes, the investigators propose a 22-month
+      cluster-randomized control trial on the 4th floor of UVa Hospital, a medical-surgical floor
+      for cardiology and cardiovascular surgery patients. Clinicians will receive standard CoMET
+      device training. Three- to five-bed clusters will be randomized to intervention (predictive
+      display plus standard monitoring) or control (standard monitoring alone) for two months at a
+      time. In addition, risk scores for patients in the intervention clusters will be presented
+      daily during rounds to members of the care team of physicians, residents, nurses, and other
+      clinicians. Data on outcomes will be statistically compared between intervention and control
+      clusters.
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">December 25, 2020</start_date>
+  <completion_date type="Anticipated">July 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">July 1, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Hours free of events of clinical deterioration</measure>
+    <time_frame>within 21 days of the admission</time_frame>
+    <description>(1) The number of hours free of acute clinical events within 21 day of admission. Hours of acute clinical events are defined as time when one or more of the following occur:
+An emergent ICU transfer (emergent defined as urgent, unplanned) and ICU stay
+Emergent intubation (emergent is defined by clinician's notes as a non-planned procedure)
+Cardiac arrest, if prior to ICU transfer or death
+Death
+A maximum score will be 21 event-free days (504 hours). Patients who are discharged from the hospital prior to 21 days without an event will be counted as having 21 event-free days. Patients who die during the admission will be counted as having 0 event-free days. Patients will be censored (with no event observed) at the time of non-emergent ICU transfer, surgery transfer, or other transfer.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Hours to proactive clinical response</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>We will use a Kaplan Meier or Cox Proportional Hazard Curve to determine differences in response time between display and control.
+Time to the 1st order for transfusion of 3 units or more of blood ordered within 24 hours
+Time to first order for IV inotropes or pressors administered
+Time to first order for blood or urine culture obtained for suspicion of infection
+Time to first order for lactate drawn
+Time to first order for antibiotics given for suspicion of infection
+Time to first order for fluid resuscitation given for suspicion of shock
+Time to rapid response team (RRT or MET) call initiation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Subgroup secondary outcome: post-ICU transfer event-free survival</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>A subgroup secondary outcome will be a Kaplan Meier or Cox Proportional Hazard curve showing post-ICU transfer, event-free survival, hours free of the following events:
+Time of emergent intubation post-ICU transfer (emergent is defined by clinician's notes as a non-planned procedure)
+Time of the 1st order post-ICU transfer for transfusion of 3 units or more of blood ordered within 24 hours
+Time of first order post-ICU transfer of IV inotropes or pressors administered for shock (including septic shock)
+Time of cardiac arrest post-ICU transfer
+Time of CHF escalation, defined by the time of first order for diuretic drip, time of first order for CVVHD, or time of dialysis initiation
+Time of death post-ICU transfer
+Discharge from the ICU without an event will count as &quot;infinite&quot; event-free survival.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of Emergent ICU transfer at any point in the hospital stay</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>Proportion of patients experiencing emergent ICU transfer (emergent defined as urgent, unplanned) at any point in the hospital stay after admission to the fourth floor:</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of emergent intubation at any point in the hospital stay</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>Proportion of patients experiencing emergent intubation (emergent is defined by clinician's notes as a non-planned procedure) at any point in the hospital stay after admission to the fourth floor</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of 3 units or more of blood ordered in 24 hours at any point in the hospital stay</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>Proportion of patients with 3 units or more of blood ordered in 24 hours at any point in the hospital stay after admission to the fourth floor</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of IV inotropes or pressors at any point in the hospital stay</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>Proportion of patients receiving IV inotropes or pressors at any point in the hospital stay after admission to the fourth floor</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportions of Shock requiring inotropes or pressors at any point in the hospital stay</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>Proportions of patients with shock requiring inotropes or pressors at any point in the hospital stay after admission to the fourth floor</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of Sepsis 2 criteria at any point in the hospital stay</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>Proportion of patients meeting Sepsis 2 criteria at any point in the hospital stay after admission to the fourth floor</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of septic shock at any point in the hospital stay</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>Proportion of patients with septic shock requiring inotropes or pressors (defined by a combination of Outcome 8 and 9) at any point in the hospital stay after admission to the fourth floor</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of Cardiac arrest at any point in the hospital stay</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>Proportion of patients experiencing cardiac arrest at any point in the hospital stay after admission to the fourth floor</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of death at any point in the hospital stay</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>Proportion of patients experiencing death at any point in the hospital stay after admission to the fourth floor</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of Congestive heart failure at any point in the hospital stay</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>Proportion of patients receiving diuretic drip indicating Congestive Heart Failure escalation at any point in the hospital stay after admission to the fourth floor</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of Inotropes or pressors for refractory heart failure at any point in the hospital</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>Proportion patients receiving inotropes or pressors for refractory heart failure at any point in the hospital stay after admission to the fourth floor</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hospital length of stay</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>Hospital length of stay</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Length of stay on floor</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>In patients who are never transferred to the ICU, the length of stay on the floor.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ICU length of stay</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>ICU length of stay</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hospital readmission</measure>
+    <time_frame>within 72 hours post-discharge</time_frame>
+    <description>Readmission to hospital within 72 hours post-discharge</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Shock in sepsis</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>In patients who meet the Sepsis 2 criteria, the proportion of Shock, i.e. Hypotension requiring inotropes or pressors</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Death in sepsis</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>In patients who meet the Sepsis 2 criteria, the proportion of death</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cost of Care</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>Observed:Expected ratio</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of days on IV antibiotics</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>Number of days on IV antibiotics</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>duration of mechanical intubation</measure>
+    <time_frame>through study completion, on average one week</time_frame>
+    <description>Total duration of mechanical intubation (emergent and non-emergent)</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">10424</enrollment>
+  <condition>Clinical Deterioration</condition>
+  <arm_group>
+    <arm_group_label>CoMET Display</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Display of Continuous Monitoring of Event Trajectories (CoMET) predictive monitoring score, with standard CoMET device training.Risk scores will also be presented daily during rounds to members of the care team.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No Display</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Standard CoMET device training but no display or presentation of predictive monitoring score.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>CoMET Display</intervention_name>
+    <description>Display and presentation of predictive monitoring score CoMET</description>
+    <arm_group_label>CoMET Display</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Assigned for clinical purposes to a beds which is part of a randomized cluster
+
+        Exclusion Criteria:
+
+          -  none
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>March 20, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 22, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 24, 2020</study_first_posted>
+  <last_update_submitted>April 22, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 22, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 24, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>University of Virginia</investigator_affiliation>
+    <investigator_full_name>Jamieson Bourque, MD</investigator_full_name>
+    <investigator_title>Associate Professor of Medicine</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Clinical Deterioration</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,590 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03348761</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CRE-2014.041</org_study_id>
+    <nct_id>NCT03348761</nct_id>
+  </id_info>
+  <brief_title>rTMS Response Trajectories in Depression</brief_title>
+  <official_title>Pre-treatment Biomarker for Clinical Response to Neuronavigation Repetitive Transcranial Magnetic Stimulation (rTMS) in the Acute Phase Treatment of Refractory Major Depressive Episode- Role of Intrinsic Functional Connectivity</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Chinese University of Hong Kong</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Rudolf Magnus Institute – University of Utrecht</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Icahn School of Medicine at Mount Sinai</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Chinese University of Hong Kong</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Previous studies on network mechanism of repetitive transcranial magnetic stimulation (rTMS)
+      suggest that pretreatment resting-state functional magnetic resonance imaging (rs-fMRI)
+      connectivity may serve as a predictive biomarker for antidepressant treatment response. In
+      phase I of the study, the focus was on the predictive value of pretreatment connectivity
+      between the left dorsolateral prefrontal cortex (DLPFC) and subgenual anterior cingulate
+      cortex (sgACC). However, preliminary results indicated a more complex pattern. Additionally,
+      accessibility to magnetic resonance imaging scanners is often limited and costly. Therefore,
+      in phase II of the study, a more affordable way to measure the blood-oxygen-level-dependent
+      signal was examined, known as functional near-infrared spectroscopy (fNIRS). The aims of this
+      study are identifying biomarkers for predicting and monitoring treatment response to
+      neuronavigated TMS in medication-resistant depression and examine the clinical utility of
+      fNIRS.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Research Plan and Methodology
+
+      i. Sampling Participants will be referred by psychiatrists from specialist outpatient clinics
+      based in the regional hospitals of New Territories East Cluster under the Hospital Authority
+      of Hong Kong. Written informed consents will be obtained from all participants according to
+      the Declaration of Helsinki.
+
+      ii. Pretreatment assessment A) Baseline clinical assessment At baseline (before treatment),
+      subjects' age, level of education, handedness will be noted by research assistant. A research
+      psychiatrist will administer MADRS1, HDRS2, DSM-IV SCID-I/II 3-4 to ascertain current/
+      lifetime Axis I and II psychiatric diagnosis and score on Global Assessment of Functioning,
+      age at onset of MDD and number of major depressive episodes, number of failed
+      antidepressants, current life stressor(s) and the perceived severity on a visual analog scale
+      of 0-10, and clinical global impression scale (CGI).5 Subjects are asked to complete
+      self-administered questionnaires including 1) Beck Depression Inventory II 6 that has been
+      validated in local Chinese dialect 7; 2) a 60-item NEO Five Factor Inventory that measures
+      five personality traits on neuroticism, extraversion, openness to experience, agreeableness
+      and conscientiousness;8 3) ruminative response subscale (Chinese version) (RRS) of the
+      response style questionnaire, a 22-item questionnaire comprising of two distinct factors on
+      brooding and reflection.9 Published data suggest rumination may be correlated positively with
+      duration of depressive episode and predict onset of depressive episode10.
+
+      B1) Structural Magnetic Resonance Imaging (MRI) of brain for neuro-navigated rTMS and resting
+      state functional MRI (rs-fMRI) to map intrinsic functional connectivity (baseline, 2 weeks
+      and 8 weeks post-treatment) A whole brain anatomical data set is acquired with T1-weighted
+      sequence (repetition time(TR)/echo time(TE): 7.6/3.5ms, field of view 230mm, 250 contiguous
+      slices, 0.6mm thickness, reconstruction matrix 224 x 224) for voxel-based morphometry (VBM)
+      analysis and functional to anatomical image co-registration.
+
+      A resting-state functional MRI will be taken for either six (phase I) or twelve minutes
+      (phase II). Subjects will be instructed with written cues projected (for 5 seconds) on the
+      screen to stay relaxed and look at the fixation cross hair. Stimuli are projected on a TV
+      monitor equipped by MRI-compatible Esys (Invivo) system. Subjects view the screen through
+      mirror glasses. The functional scans are acquired on a 3.0-T whole-body scanner (Achieva TX,
+      Philips Healthcare, Best, the Netherlands) using PRESTO (principles of echo shifting with a
+      train of observation) sequence (TR28ms, TE 12ms, flip angle 7°. Slab thickness 125mm, 230mm
+      field of view, data matrix 80 x 51 x 25) with a nominal in-plane resolution of 2.8 x 2.8mm
+      and a temporal resolution of 2.7 sec/scan. Slices will be tilted about 30º clockwise along
+      the AC-PC plane to obtain better signal in the orbitofrontal cortex.
+
+      All the functional and anatomical MRI data are transferred to an offline workstation for
+      image analysis. MRI data will be preprocessed using the default pipeline of the CONN toolbox
+      v18.b11, which is an open-source MATLAB (2019B, Mathworks, Natick, MA, USA) and SPM-based
+      (Statistical Parametric Mapping, www.fil.ion.ucl.ac.uk/spm/) cross-platform software1. The
+      preprocessing steps included realignment and unwarping, temporal slice time correction,
+      functional outlier detection (ART-based identification of outlier scans), segmentation,
+      normalization and smoothing (8 mm Gaussian kernel). The best way to denoise resting-state
+      fMRI data is currently still a controversial topic12. Therefore, component based noise
+      correction with and without global signal regression11,13. will be applied. For denoising
+      with component based noise correction a principal component analysis was used to identify the
+      time series data from the noise regions, including white matter and cerebrospinal fluid.
+      Significant principal components are then introduced as covariates in the general linear
+      model as an estimate of the physiological noise signal space. Regressors: white matter (10
+      dimensions), cerebrospinal fluid (5 dimensions), realignment parameters (6 dimensions),
+      scrubbing (61 dimensions). Further, a default temporal band-pass filter (.008-.09 Hz) and
+      detrending. For global signal regression the same procedure was performed, but an additional
+      regressor of the global signal (1 dimension) was added. The Subject-level correlation
+      coefficients of the regions of interest and seed maps were converted to normally distributed
+      Fisher-transformed Z scores to conform to the assumptions of generalised linear models. These
+      connectivity values and statistical seed maps were subsequently used for the second-level
+      analyses to examine group differences (responders versus nonresponders) and perform
+      correlational analyses to examine whether either pretreatment connectivity or change in
+      functional connectivity is associated with TMS treatment response.
+
+      B2) Offline resting state FNIRS (baseline and serial measures) In a sub-sample of subjects
+      who agree for extra brain mapping sessions, offline resting state FNIRS measures will be
+      taken in pre-treatment phase (within 7-10 days before first rTMS session), week 2 and week 4
+      in the course of rTMS treatment, 2 weeks and 8 weeks post-treatment.
+
+      The FNIRS measurements will be taken in a specialized laboratory situated in the Center for
+      Cognition and Brain Studies, Department of Psychology of CUHK (Sino Building of Chung Chi
+      College), which is in close proximity to University MTR station and inside the same amenity
+      as the CU Clinical Psychology Department.
+
+      All subjects will be instructed to keep still with eyes closed, relax their mind and remain
+      motionless for two blocks of 15-minute resting state session (totaling 30 minutes). The
+      target mapping areas are bilateral fronto-parietal areas for their roles in default mode
+      network (DMN). Optical signals will be recorded on a two-wavelength (690 and 830 nm, 110MHz)
+      frequency-domain oximeter (Imagent, ISS Inc., Champaign, IL, USA).
+
+      Offline mode is opted in this study as clinical applicability is our main concern.
+      Simultaneous FNIRS-rTMS is theoretically possible but the set-up will substantially increase
+      session time, compromising the tolerability of rTMS session and likely compliance. Aside,
+      previous studies have shown the FNIRS signal changes are sustainable and detectable with
+      offline measures after TMS.
+
+      The FNIRS are measured with source fibers emitting light at the two different wavelengths
+      that are co-localized as a pair, giving rise to 24 source locations. Photons that scatter
+      through the head are collected by 16 detector fiber bundles connected to photomultiplier
+      tubes (PMTs). These sources and detectors are held on the participants' scalp with a rigid
+      custom-made head-mount system (montage).
+
+      Sources and detectors are arranged in groups of two parallel rows (1.7 cm to 2.5 cm apart
+      from each other) to create overlapping light channels so as to increase the spatial
+      resolution and signal-to-noise ratio.
+
+      Source-detector placement in each of the four mapping areas (left and right frontal, left and
+      right parietal) is opted. After the montage is positioned, coordinates of 230 points on the
+      scalp, including the locations of source-detector pairs and three fiducial points (nasion,
+      left and right pre-auricular points), are digitized using ASA 4.5 software (ANT, Netherlands)
+      in conjunction with an infrared camera and 3-dimensional digitization system (Visor, ANT BV,
+      1mm spatial resolution). These points are used for calculation of the exact source-detector
+      distance for data analysis and, more importantly, for co-registration of functional optical
+      data with each participant's structural MRI.
+
+      The individually co-registered data are then Talairach-transformed to permit comparison
+      across subjects. The ISS Imagent control box is connected to a computer that controls and
+      records the intensity of emitted and recorded signals. The sampling rate used in this study
+      is 19.5Hz, giving rise to a 51.3ms sampling interval. During this interval, light sources are
+      time multiplexed to allow different sources to be distinguished from each other. Light
+      intensity and phase-delay data are computed and stored in ASCII format in the computer during
+      the recording. Similar to fMRI analyses, predicted time series are generated by convolving
+      the hemodynamic response function (SPM 8) with the impulse function for each event, i.e.,
+      from the onset to the offset of one sequence trial.
+
+      The pulse-corrected bandpass-filtered oxy-haemoglobin concentration change from each channel
+      is then correlated with the predicted time series for repeated and random conditions
+      separately for each recording block and each participant. The Beta weight for each condition
+      is estimated, Fisher-transformed, and averaged across each recording block for each
+      participant in each session. The averaged data are analyzed using Opt-3 for the generation of
+      statistical maps. In Opt-3D, the optical signal, in this case, hemoglobin concentration
+      change, for a given voxel is defined as the mean value of the channels that overlap at that
+      particular voxel. Channels with source-detector distances shorter than 20mm and longer than
+      60mm are excluded from statistical map analysis as the light path would be too short to have
+      reached the cortical surface or too long to have enough light reaching the detector,
+      respectively. Channels will be removed if the standard deviation of the phase delay data is
+      greater than 230 picoseconds (i.e. the channel is excessively noisy).
+
+      C) Neuro-navigated rTMS protocol rTMS treatment suite and personnel: the treatment facilities
+      are based in Chen Wai Wai Vivien Foundation Therapeutic Physical Mental Exercise Centre,
+      which is a CU clinical and research center sponsored by private funds where the physicians
+      delivering the treatment (PI and co-PI) are serving on-site. The treatment center is equipped
+      with resuscitation facilities. Full-time research staff and physiotherapists are available to
+      handle medical and behavioral emergencies.
+
+      Stimulator set-up: Neuro-navigated high-frequency rTMS over a specific area on left DLPFC
+      (between BA9 and BA46, junction of middle and anterior two-thirds of the middle frontal
+      gyrus) will be provided using Magstim Super Rapid2 (Phase I) or Neurosoft Neuro-MS/D Advanced
+      Therapeutic Transcranial Magnetic Stimulator (Phase II) that both generate short duration
+      biphasic pulses. A figure-of-eight coil will be held in place with a custom-made stand
+      tangential to the scalp with the handle pointing back and away from the midline at 45
+      degrees. The resting motor threshold will be determined Motor Evoked Potential or the
+      standard visual method (whichever revealed the lowest motor threshold).
+
+      Stimulation parameters Phase I: 10 hertz, 120% motor threshold, thirty trains of 5 seconds
+      with 25 seconds between trains, 1500 pulses per day delivered 5 days per week, totaling 30000
+      pulses over 4 weeks.
+
+      Stimulation parameters Phase II: triplet 50 hertz, repeated at 5 hertz, 120% motor threshold,
+      twenty trains of 2 seconds with 8 seconds between trains, 600 pulses per day delivered 5 days
+      per week, totaling 12000 pulses over 4 weeks.
+
+      Stimulation localization: The DLPFC coordinates of the stimulation target site is determined
+      individually for each participant using a structural T1-weighted MRI scan. This area is
+      defined around the junction of Brodmann area 9 and 46. To coregister the scan with the
+      patient's head, advanced stereotactic techniques incorporated into Brainsight TMS (Rogue
+      Research Inc., Canada) for phase I of the study and the Neural Navigator (Brain Science Tools
+      BV, Netherlands) for phase II of the study were used.
+
+      iv. Clinical follow-up and outcome assessments All participants are evaluated by a research
+      psychiatrist who is blinded to the functional connectivity maps of the participants and other
+      potential clinical predictors of response measured at baseline. Follow-up assessments are
+      scheduled at the end of week 2, week 4, week 6, week 8, and week 12.
+
+      Primary outcome measures are the percentage change in symptom scores on MADRS and CGI at week
+      4, week 6, week 8, and week 12 compared to baseline. Secondary outcome measures include
+      scores on GAF, BDI and RRS.
+
+      Clinical response is defined as CGI= 2 and 50% reduction of MADRS score from baseline,
+      respectively at the end of six weeks and twelve weeks.
+
+      Clinical remission criteria is MADRS &lt;7 and CGI of 1, respectively at the end of six weeks
+      and twelve weeks.
+
+      v. Management of decompensated mental states, serious adverse somatic reactions to rTMS and
+      drop-outs The research psychiatrists (PI and co-I) are responsible for the detection of
+      high-risk mental states (emergence of psychotic symptoms, catatonic state, suicide ideation,
+      and para-suicide state) at the regular follow-up assessments. Physical adverse effects will
+      be checked at each follow-up and evaluated on the severity. In times of emergent risky mental
+      state and adverse somatic reactions, the research psychiatrists will work collaboratively
+      with the participant and if necessary, the treating psychiatrists on the necessary
+      psychiatric and medical management plans. All adverse effects will be reported to the
+      &quot;serious adverse effect monitoring sub-committee&quot; under the local ethics committee. All
+      drop-out participants will be assessed by phone followed by clinic-based interviews to work
+      out the care plan as indicated clinically. At the end of the study, the subjects will receive
+      the generic psychiatric service as they are originally entitled to. The research team will
+      ensure seamless aftercare will be arranged for all participants.
+
+      vi. Sample size estimation The sample size estimation is based on the parameter estimate that
+      addresses the main objective. In our study, it is the expected Pearson correlation
+      coefficient between functional connectivity of the ROIs and quantitative measure of clinical
+      efficacy (percentage drop in MADRS score). In Fox et al's study (2012)14, the correlation
+      coefficient is -0.355 (p&lt;0.05 one-tailed). According to Friedman's partial power table, the
+      required sample size is at least 58 at alpha=0.8 and Pearson r= 0.35. Taking into account the
+      drop-out rate of 20% reported in the active rTMS group of a prior randomized controlled trial
+      comparing the efficacy of neuro-navigated rTMS and conventional targeting protocol, the
+      required sample size that is sufficiently powered to examine the main objective is adjusted
+      to 128.
+
+      vii. Data analyses Intention-to-treat analysis will be adopted with the last observation
+      carried forward for participants with at least one post-baseline observation. To describe the
+      trajectory of clinical response over the course of follow-up, survival analysis will be used
+      to track the proportions of responders and remitters respectively at 2, 4, 6, 8, 10, 12
+      weeks.
+
+      To test the main objectives, we plan to perform:
+
+        1. Group comparison of functional connectivity between ROIs between clinically defined
+           responders and non-responders at 4 weeks, 6 weeks and 12 weeks, respectively. We
+           hypothesize pre-treatment anti-correlation between the left DLPFC target and subgenual
+           cingulate is stronger in responders than non-responders at the respective time points.
+
+        2. Group comparison of functional connectivity between ROIs in clinically defined remitters
+           and non-remitters at 4 weeks, 6 weeks and 12 weeks, respectively. We hypothesize
+           pre-treatment anti-correlation between the left DLPFC target and subgenual cingulate is
+           stronger in remitters than non-remitters at the respective time points.
+
+        3. Correlations analyses of the functional connectivity between ROIs and percentage drop in
+           MADRS scores at 4 weeks, 6 weeks and 12 weeks compared to baseline, respectively. We
+           hypothesize larger percentage drop in MADRS from baseline correlates with greater
+           anti-correlation between the left DLPFC target and subgenual cingulate, at the
+           respective time points.
+
+        4. multiple linear regression of functional connectivity between ROIs on percentage drop in
+           MADRS score from baseline at 4 weeks, 6 weeks and 12 weeks respectively, in the presence
+           of other baseline demographic and clinical characteristics. We hypothesize higher
+           percentage drop in MADRS from baseline correlates with greater anti-correlation between
+           the left DLPFC target and subgenual cingulate, at the respective time points after
+           adjusting for baseline demographic and clinical characteristics.
+
+        5. Correlate FNIRS signals in left DLPFC detected in week 1 and 2 with depressive symptom
+           scores (MADRS) in week 6, 8, and 12 in order to look for early biomarkers for treatment
+           response.
+
+        6. Group comparison of FNIRS signals in left DLPFC detected 7-10 days before rTMS treatment
+           in clinically defined responders and non-responders at 6 weeks and 12 weeks,
+           respectively.
+
+      Declaration:
+
+      The research protocol fully complies with the Declaration of Helsinki and the guidelines of
+      ICH-GCP.
+
+      References:
+
+        1. Montgomery SA, Asberg M. A new depression scale designed to be sensitive to change.
+           British Journal of Psychiatry 1979; 134: 382-389.
+
+        2. Hamilton M. A rating scale for depression. Journal of Neurology, Neurosurgery and
+           Neuropsychiatry 1960; 2: 56-62.
+
+        3. So E, Kam I, Leung CM, Chung D, Liu Z, Fong S. The Chinese-Bilingual SCID-I/P Project:
+           stage 1- reliability for mood disorders and schizophrenia. East Asian Archives of
+           Psychiatry 2003; 13: 7-18.
+
+        4. Wong HM, Chow LY. Borderline Personality Disorder Subscale (Chinese Version) of the
+           Structured Clinical Interview for DSM-IV Axis II Personality Disorders: a Validation
+           Study in Cantonese-speaking Hong Kong Chinese. East Asian Archives of Psychiatry
+           2011;21:52-57.
+
+        5. Ballenger JC. Clinical guidelines for establishing remission in patients with depression
+           and anxiety. Journal of Clinical Psychiatry 1999; 60: 29-34.
+
+        6. Beck A, Steer R, Brown G. RCMAR Measurement Tools Beck Depression Inventory - 2nd
+           Edition (BDI-II). The Psychological Corporation, San Antonio 1996.
+
+        7. Wu PC, Chang L. Psychometric Properties of the Chinese Version of the Beck Depression
+           Inventory-II Using the Rasch Model. Measurement &amp; Evaluation in Counseling &amp; Development
+           2008; 41:13-31.
+
+        8. Trull T, Geary D. Comparison of the big-five factor structures across samples of Chinese
+           and American adults. Journal of Personality Assessment 1997; 69: 324-341.
+
+        9. Lo C SL, Ho SMY, Hollon SD. The effects of rumination and negative cognitive styles on
+           depression: a mediation analysis. Behavior research and therapy 2008; 487-495.
+
+       10. Robinson LA, Alloy LB. Negative cognitive styles and stress-reactive rumination interact
+           to predict depression: a prospective study. Cognitive therapy and research 2003; 27:
+           275-292.
+
+       11. Whitfield-Gabrieli S, Nieto-Castanon A. Conn: A Functional Connectivity Toolbox for
+           Correlated and Anticorrelated Brain Networks. Brain Connect. 2012; 2: 125-141.
+
+      12 Murphy K, Fox MD. Towards a consensus regarding global signal regression for resting state
+      functional connectivity MRI. Neuroimage 2017; 154: 169-173.
+
+      13) Behzadi Y, Restom K, Liau J, Liu TTA. Component based noise correction method (CompCor)
+      for BOLD and perfusion based fMRI. Neuroimage 2007; 37: 90-101.
+
+      14) Fox MD, Buckner RL, White MP, Greicius MD, Pascual-Leone A. Efficacy of transcranial
+      magnetic stimulation targets for depression is related to intrinsic functional connectivity
+      with the subgenual cingulate. Biological Psychiatry 2012; 72: 595-603.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">August 4, 2015</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Phase I: Participants with medication-refractory depression receive 20 sessions of conventional high-frequency neuronavigated rTMS (10Hz). Before and after the treatment brain scans are collected including six minutes of resting-state fMRI.
+Phase II: Participants with medication-refractory depression receive 20 sessions of intermittent theta-burst stimulation (triplet 50 hertz, repeated at 5 hertz). Brain scans are collected pretreatment, 2 weeks and 8 weeks posttreatment including twelve minutes of resting-state fMRI. Additionally, functional near-infrared spectroscopy measures are collected pretreatment, after 10 treatment sessions, 2 weeks and 8 weeks posttreatment.</intervention_model_description>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Montgomery-Ashberg Depression Rating Scale</measure>
+    <time_frame>Percentage change baseline versus week 4</time_frame>
+    <description>Questionnaire used to measure the severity of depressive symptoms and treatment response in patients with mood disorders consisting of 10 items. The score range is 0-60 and higher score indicates more severe depression.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Montgomery-Ashberg Depression Rating Scale</measure>
+    <time_frame>Percentage change baseline versus week 6</time_frame>
+    <description>Questionnaire used to measure the severity of depressive symptoms and treatment response in patients with mood disorders consisting of 10 items. The score range is 0-60 and higher score indicates more severe depression.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Montgomery-Ashberg Depression Rating Scale</measure>
+    <time_frame>Percentage change baseline versus week 8</time_frame>
+    <description>Questionnaire used to measure the severity of depressive symptoms and treatment response in patients with mood disorders consisting of 10 items. The score range is 0-60 and higher score indicates more severe depression.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Montgomery-Ashberg Depression Rating Scale</measure>
+    <time_frame>Percentage change baseline versus week 12</time_frame>
+    <description>Questionnaire used to measure the severity of depressive symptoms and treatment response in patients with mood disorders consisting of 10 items. The score range is 0-60 and higher score indicates more severe depression.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Clinical Global Impression Scale</measure>
+    <time_frame>Percentage change baseline versus week 4</time_frame>
+    <description>A 7-point scale that requires the clinician to rate the severity of the patient's illness at the time of assessment, relative to the clinician's past experience with patients who have the same diagnosis. Score of 2 indicates significant clinical response while score of 1 indicates clinical remission.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Clinical Global Impression Scale</measure>
+    <time_frame>Percentage change baseline versus week 6</time_frame>
+    <description>A 7-point scale that requires the clinician to rate the severity of the patient's illness at the time of assessment, relative to the clinician's past experience with patients who have the same diagnosis. Score of 2 indicates significant clinical response while score of 1 indicates clinical remission.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Clinical Global Impression Scale</measure>
+    <time_frame>Percentage change baseline versus week 8</time_frame>
+    <description>A 7-point scale that requires the clinician to rate the severity of the patient's illness at the time of assessment, relative to the clinician's past experience with patients who have the same diagnosis. Score of 2 indicates significant clinical response while score of 1 indicates clinical remission.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Clinical Global Impression Scale</measure>
+    <time_frame>Percentage change baseline versus week 12</time_frame>
+    <description>A 7-point scale that requires the clinician to rate the severity of the patient's illness at the time of assessment, relative to the clinician's past experience with patients who have the same diagnosis. Score of 2 indicates significant clinical response while score of 1 indicates clinical remission.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">128</enrollment>
+  <condition>Depression</condition>
+  <arm_group>
+    <arm_group_label>rTMS Group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Twenty sessions of neurostimulation at the left DLPFC.
+Phase I: A Magstim Super-Rapid device with a 70-mm figure-of-eight double air film coil (Magstim Ltd, UK) and Brainsight neuronavigation (Rogue Resolutions Ltd, Canada) are used. Stimulation parameters: 10 Hz, 120% resting motor threshold, 30 trains of 5 seconds with 25 seconds rest, 3000 pulses per day delivered 5 days per week (total: 60000 pulses).
+Phase II: A Neuro-MS/D Advanced Therapeutic Transcranial Magnetic Stimulator (Neurosoft, Russia) with a 100-mm cooled figure-of-eight coil and Neural Navigator navigation (Brain Science Tools, the Netherlands) are used. Stimulation parameters: triplet 50 hertz, repeated at 5 hertz, 120% resting motor threshold, 20 trains of 2 seconds with 8 seconds between trains, 600 pulses per day delivered 5 days per week (total: 12000 pulses).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>rTMS group</intervention_name>
+    <arm_group_label>rTMS Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  right-handed
+
+          -  meet the Diagnostic and Statistical Manual of Mental Disorder, Fourth Edition (DSM-IV)
+             criteria for major depressive disorder
+
+          -  at least moderate episode or with a score of &gt;20 on Montgomery-asberg Depression
+             Rating Scale (MADRS) and &gt;18 on Hamilton Depression Rating Scale(HDRS) 17-item;
+
+          -  has failed to respond adequately to at least one full course (&gt;6 weeks) of
+             antidepressant medication or medication intolerant.
+
+        Exclusion Criteria:
+
+          -  significant head trauma
+
+          -  active abuse of alcohol or illegal substances
+
+          -  current psychotic symptoms
+
+          -  suicide ideation/recent suicide attempts
+
+          -  other DSM-IV Axis I and II psychiatric diagnosis
+
+          -  neurological disorders and contraindications to fMRI (e.g. pace makers, metal
+             implants, pregnancy) or rTMS, or having undergone electroconvulsive therapy in the
+             preceding year.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>64 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sau Man S Chan</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Chinese University of Hong Kong</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>The Department of Psychiatry</last_name>
+    <phone>852-2607-6027</phone>
+    <email>psychiatry@cuhk.edu.hk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Helene J Hopman</last_name>
+    <phone>852-5597-1622</phone>
+    <email>hjhopman@link.cuhk.edu.hk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Department of Psychiatry, CUHK</name>
+      <address>
+        <city>Hong Kong</city>
+        <zip>852</zip>
+        <country>Hong Kong</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Wing Sze Ho, M.Sc</last_name>
+      <phone>852-6309-3272</phone>
+      <email>stephy0306@hotmail.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Helene J Hopman, PhD</last_name>
+      <phone>852-5597-1622</phone>
+      <email>hjhopman@cuhk.edu.hk</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Sau Man S Chan</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Hong Kong</country>
+  </location_countries>
+  <reference>
+    <citation>Montgomery SA, Asberg M. A new depression scale designed to be sensitive to change. Br J Psychiatry. 1979 Apr;134:382-9.</citation>
+    <PMID>444788</PMID>
+  </reference>
+  <reference>
+    <citation>HAMILTON M. A rating scale for depression. J Neurol Neurosurg Psychiatry. 1960 Feb;23:56-62.</citation>
+    <PMID>14399272</PMID>
+  </reference>
+  <reference>
+    <citation>So E, Kam I, Leung CM, Chung D, Liu Z, Fong S. The Chinese-Bilingual SCID-I/P Project: stage 1- reliability for mood disorders and schizophrenia. East Asian Archives of Psychiatry 2003; 13: 7-18.</citation>
+  </reference>
+  <reference>
+    <citation>Wong HM, Chow LY. Borderline personality disorder subscale (Chinese version) of the structured clinical interview for DSM-IV axis II personality disorders: a validation study in Cantonese-speaking Hong Kong Chinese. East Asian Arch Psychiatry. 2011 Jun;21(2):52-7.</citation>
+    <PMID>21838207</PMID>
+  </reference>
+  <reference>
+    <citation>Ballenger JC. Clinical guidelines for establishing remission in patients with depression and anxiety. J Clin Psychiatry. 1999;60 Suppl 22:29-34.</citation>
+    <PMID>10634353</PMID>
+  </reference>
+  <reference>
+    <citation>Beck A, Steer R, Brown G. RCMAR Measurement Tools Beck Depression Inventory - 2nd Edition (BDI-II). The Psychological Corporation, San Antonio 1996.</citation>
+  </reference>
+  <reference>
+    <citation>Wu PC, Chang L. Psychometric Properties of the Chinese Version of the Beck Depression Inventory-II Using the Rasch Model. Measurement &amp; Evaluation in Counseling &amp; Development 2008; 41:13-31.</citation>
+  </reference>
+  <reference>
+    <citation>Trull TJ, Geary DC. Comparison of the big-five factor structure across samples of Chinese and American adults. J Pers Assess. 1997 Oct;69(2):324-41.</citation>
+    <PMID>9392894</PMID>
+  </reference>
+  <reference>
+    <citation>Lo CS, Ho SM, Hollon SD. The effects of rumination and negative cognitive styles on depression: a mediation analysis. Behav Res Ther. 2008 Apr;46(4):487-95. doi: 10.1016/j.brat.2008.01.013. Epub 2008 Jan 30.</citation>
+    <PMID>18316063</PMID>
+  </reference>
+  <reference>
+    <citation>Robinson LA, Alloy LB. Negative cognitive styles and stress-reactive rumination interact to predict depression: a prospective study. Cognitive therapy and research 2003; 27: 275-292.</citation>
+  </reference>
+  <reference>
+    <citation>Murphy K, Fox MD. Towards a consensus regarding global signal regression for resting state functional connectivity MRI. Neuroimage. 2017 Jul 1;154:169-173. doi: 10.1016/j.neuroimage.2016.11.052. Epub 2016 Nov 22.</citation>
+    <PMID>27888059</PMID>
+  </reference>
+  <reference>
+    <citation>Behzadi Y, Restom K, Liau J, Liu TT. A component based noise correction method (CompCor) for BOLD and perfusion based fMRI. Neuroimage. 2007 Aug 1;37(1):90-101. Epub 2007 May 3.</citation>
+    <PMID>17560126</PMID>
+  </reference>
+  <reference>
+    <citation>Whitfield-Gabrieli S, Nieto-Castanon A. Conn: a functional connectivity toolbox for correlated and anticorrelated brain networks. Brain Connect. 2012;2(3):125-41. doi: 10.1089/brain.2012.0073. Epub 2012 Jul 19.</citation>
+    <PMID>22642651</PMID>
+  </reference>
+  <reference>
+    <citation>Fox MD, Buckner RL, White MP, Greicius MD, Pascual-Leone A. Efficacy of transcranial magnetic stimulation targets for depression is related to intrinsic functional connectivity with the subgenual cingulate. Biol Psychiatry. 2012 Oct 1;72(7):595-603. doi: 10.1016/j.biopsych.2012.04.028. Epub 2012 Jun 1.</citation>
+    <PMID>22658708</PMID>
+  </reference>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>November 12, 2017</study_first_submitted>
+  <study_first_submitted_qc>November 15, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 21, 2017</study_first_posted>
+  <last_update_submitted>July 21, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 21, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 23, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Chinese University of Hong Kong</investigator_affiliation>
+    <investigator_full_name>CHAN SAU MAN, SANDRA</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <keyword>Repetitive Transcranial Magnetic Stimulation</keyword>
+  <keyword>resting-state Functional magnetic resonance imaging</keyword>
+  <keyword>treatment response</keyword>
+  <keyword>neurostimulation</keyword>
+  <keyword>dorsolateral prefrontal cortex</keyword>
+  <keyword>subgenual anterior cingulate cortex</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Depression</mesh_term>
+    <mesh_term>Depressive Disorder</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>As they are all clinical subjects, their data should be strictly confidential.</ipd_description>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>June 3, 2019</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/61/NCT03348761/Prot_SAP_002.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,173 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04478929</url>
+  </required_header>
+  <id_info>
+    <org_study_id>REDM0227_RP01</org_study_id>
+    <nct_id>NCT04478929</nct_id>
+  </id_info>
+  <brief_title>Early Detection of Barrett's Esophagus Through Deep Image Retrieval</brief_title>
+  <official_title>Early Detection of Cancer in Cases of Barrett's Esophagus Using Robotic Endoscopy Image Analysis Through Deep Image Retrieval</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Leigh Taylor</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Cancer Research UK</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of the West of England</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Barrett's oesophagus is a condition in which the area between the oesophagus and stomach no
+      longer closes, allowing acidic contents of the stomach to enter the oesophagus and damage the
+      lining. The project aims to assist clinicians by offering informed biopsy process, in which
+      the system presents the operator with clinical outcomes of patients with visually similar GI
+      tracts. The project goal is to assess the use of artificial intelligence-based similarity
+      detection systems to better inform biopsy placement, increasing the reliability of bi-yearly
+      inspections.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The project intention is to acquire secondary endoscopy captured data from clinicians to
+      create a sufficient dataset to train a learning system to achieve the stated objective. The
+      data required will feature footage (images/videos) from inside the oesophagus. The preferred
+      data would contain associated diagnosis notes and description, however, data without
+      diagnosis can still be used. All data can and will be anonymised, as personal information
+      will not be useful in this work.
+
+      The data will be labelled by either researchers, or professional clinicians and prepared
+      ready to feed into a chosen learning AI system. Through an iterative learning process, the
+      chosen AI system will learn to discriminate between severity of Barrett's oesophagus and
+      output optimal biopsy target.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">August 2020</start_date>
+  <completion_date type="Anticipated">August 2021</completion_date>
+  <primary_completion_date type="Anticipated">June 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>gastroscopy image data set</measure>
+    <time_frame>12 months</time_frame>
+    <description>Images collected during routine gastroscopy with examination notes</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">300</enrollment>
+  <condition>Barrett Esophagus</condition>
+  <arm_group>
+    <arm_group_label>gastroscopy clinic patients</arm_group_label>
+    <description>NBT gastroscopy clinic invited participants. Patients are already due to attend the clinic, and we are inviting them to share their gastroscopy data with our research study.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Gastroscopy</intervention_name>
+    <description>Routine gastroscopy</description>
+    <arm_group_label>gastroscopy clinic patients</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Attending NBT clinic for on OGD phase 1, then later attending NBT clinic due to suspected
+        Barrett's.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult
+
+          -  Attending Southmead Hospital for on OGD
+
+          -  Has capacity
+
+          -  Initially any indication, later patients with known Barrett's oesophagus
+
+        Exclusion Criteria:
+
+          -  Children (&lt;18)
+
+          -  Patients without capacity
+
+          -  Urgent and emergency procedures
+
+          -  Limited English
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Lyndon Winstone, PhD</last_name>
+    <phone>+4411732 82009</phone>
+    <email>Lyndon.Smith@uwe.ac.uk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>benjamin winstone, PhD</last_name>
+    <phone>07890080486</phone>
+    <email>benjamin2.winstone@uwe.ac.uk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>NBT, Southmead Hospital</name>
+      <address>
+        <city>Bristol</city>
+        <state>Avon</state>
+        <zip>BS10 5NB</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>leonard griffiths</last_name>
+      <phone>0117 414 6353</phone>
+      <phone_ext>6353</phone_ext>
+      <email>leonard.griffiths@nbt.nhs.uk</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>July 15, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 15, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 21, 2020</study_first_posted>
+  <last_update_submitted>July 15, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 15, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 21, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>University of the West of England</investigator_affiliation>
+    <investigator_full_name>Leigh Taylor</investigator_full_name>
+    <investigator_title>Senior Research Officer</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Barrett Esophagus</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

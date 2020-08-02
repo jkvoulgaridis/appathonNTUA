@@ -1,0 +1,162 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03552497</url>
+  </required_header>
+  <id_info>
+    <org_study_id>BIIIP_18</org_study_id>
+    <nct_id>NCT03552497</nct_id>
+  </id_info>
+  <brief_title>The Potential of Radiomics to Differentiate Between Malignant and Benign Bosniak 3 Renal Cysts.</brief_title>
+  <acronym>BIII</acronym>
+  <official_title>The Potential of Radiomics to Differentiate Between Malignant and Benign Bosniak 3 Renal Cysts.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Maastricht University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of California, San Francisco</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Stanford University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Erasmus Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Memorial Sloan Kettering Cancer Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Sao Paulo General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University Hospital, Aachen</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Maastricht University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      More than 200,000 new cases of renal cancer are diagnosed in the world each year, with more
+      than 63,000 new cases in Europe alone. Of those, renal cell carcinoma (RCC) is the most
+      common type in adults, making up more than 90% of the cases. Deciding on the benign or
+      malignant nature of some RCC on the basis of medical images (CT, MRI, US) is an issue, which
+      often leads to unnecessary surgery, morbidity and costs.
+
+      A categorization for renal cysts was introduced in the late 1980s known as the Bosniak
+      classification. The Bosniak classification system classifies them into groups that are benign
+      (I and II) and those that need surgical resection (III and IV), based on specific imaging
+      features. However, defining the malignancy of category III lesions still remains a challenge.
+      Though Bosniak classification for renal cysts is used worldwide and underwent a number of
+      modifications, Bosniak III cysts still have almost a 1:1 chance of being malignant. So the
+      problem is that approximately half of the Bosniak category III cystic lesions prove to be
+      benign after surgery.
+
+      The proposed project aims to develop a quantitative image analysis (QIA) based multifactorial
+      decision support system (mDSS) capable of classifying renal cysts with high accuracy into
+      benign or malignant status, thus reducing the amount of unnecessary surgeries performed.
+      Using standard-of-care CT images and clinical parameters, the customized DSS will then guide
+      experts in planning a safe and effective diagnostic and treatment strategy for all RCC
+      patients.
+    </textblock>
+  </brief_summary>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">August 7, 2018</start_date>
+  <completion_date type="Anticipated">January 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 1, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>malignancy classifier</measure>
+    <time_frame>1 year</time_frame>
+    <description>Machine learning algorithm that can differentiate between malignant and beingn bosniak 3 renal cysts.</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Renal Cyst Complex</condition>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Radiomics</intervention_name>
+    <description>The high-throughput extraction of large amounts of quantitative image features from radiographic medical images</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with renal cysts classified as bosniak 3 in one of the collaborating institutes.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients who underwent contrast-enhanced CT-Scan, with radiological findings
+             suggestive of Bosniak 3 renal cyst and have available results for pathology analysis
+             of the cyst.
+
+        Exclusion Criteria:
+
+          -  CT-Scans that are reformatted or secondary.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Maastricht University Medical Center</name>
+      <address>
+        <city>Maastricht</city>
+        <state>Limburg</state>
+        <zip>6200 MD</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Netherlands</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>May 29, 2018</study_first_submitted>
+  <study_first_submitted_qc>May 29, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 12, 2018</study_first_posted>
+  <last_update_submitted>April 3, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 3, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 6, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Radiomics</keyword>
+  <keyword>Bosniak classification</keyword>
+  <keyword>Renal cell carcinoma</keyword>
+  <keyword>Medical imaging</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cysts</mesh_term>
+    <mesh_term>Kidney Diseases, Cystic</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

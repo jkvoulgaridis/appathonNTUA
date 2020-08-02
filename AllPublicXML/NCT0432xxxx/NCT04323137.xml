@@ -1,0 +1,407 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04323137</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020-0290</org_study_id>
+    <nct_id>NCT04323137</nct_id>
+  </id_info>
+  <brief_title>Encouraging Flu Vaccination Among High-Risk Patients Identified by ML</brief_title>
+  <official_title>Encouraging Flu Vaccination Among High-Risk Patients Identified by a Machine-Learning Model of Flu Complication Risk</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Geisinger Clinic</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Geisinger Clinic</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of the current study is to test different interventions to determine the most
+      effective way to promote flu vaccine uptake in a high-risk population identified by an
+      &quot;artificial intelligence&quot; (AI) or machine learning (ML) algorithm. The specific aims are:
+
+        1. Evaluate the effect on flu vaccination rates of informing health-system patients who are
+           identified by an ML analysis of EHR data to be at high risk for flu complications that
+           they are at high risk with either (a) no additional explanation, (b) an explanation that
+           this determination comes from an analysis of their medical records, and (c) the
+           additional explanation that an AI or ML algorithm made this determination.
+
+        2. Evaluate the effects of the same three interventions on diagnoses of flu in the same
+           patients.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background
+
+      On average, 8% of the US population gets sick from flu each flu season (Tokars et al. 2018).
+      Since 2010, the annual disease burden of influenza has included 9-45 million illnesses,
+      140,000-810,000 hospitalizations, and 12,000-61,000 deaths (CDC 2020). The CDC recommends the
+      flu vaccination to everyone aged 6+ months, with rare exception; almost anyone can benefit
+      from the vaccine, which can reduce illnesses, missed work, hospitalizations, and death (CDC
+      2019a). Flu vaccination will be especially important for high-risk patients during the
+      COVID-19 pandemic so that flu cases are reduced and resources conserved.
+
+      While most recover from influenza without treatment, the elderly, those with comorbidities,
+      and other high-risk individuals can experience complications such as pneumonia, other
+      respiratory illness, and death. Geisinger, a large health system in Pennsylvania and New
+      Jersey, has partnered with Medial EarlySign (Medial; www.earlysign.com) to develop a machine
+      learning (ML) algorithm to identify patients at risk for serious (moderate to severe)
+      flu-associated complications on the basis of their existing electronic health record (EHR)
+      data. Geisinger will deploy this system during the 2020-21 flu season and contact the
+      identified patients with special messages (in addition to standard efforts made by the health
+      system every flu season) to encourage vaccination. Flu vaccination will be especially
+      important for high-risk patients during the COVID-19 pandemic so that flu cases are reduced
+      and resources conserved.
+
+      Published results suggest Medial's ML systems identify high-risk patients in other contexts
+      (Goshen et al., 2018; Zack et al., 2019). However, there is little evidence about (a) whether
+      informing patients they are at high risk makes them more likely to receive vaccination; (b)
+      how patients react to being told their risk status is the result of an analysis of their
+      health records; and (c) whether informing patients their risk status has been determined by
+      an &quot;algorithm,&quot; by &quot;machine learning,&quot; and/or by &quot;artificial intelligence&quot; will increase or
+      decrease their likelihood of getting vaccinated. This study will address these gaps in the
+      literature, which are especially important in light of the anticipated future growth of AI/ML
+      system use throughout healthcare.
+
+      Medial's algorithm is an example of how interoperable health information exchange (HIE)—the
+      ability for health information technology to share patient data—can improve the efficiency
+      and effectiveness of healthcare. However, patients may not appreciate these benefits or the
+      fact that healthcare has become substantially more integrated and collaborative. A systematic
+      review of patient privacy concerns about HIE found that 15-74% of patients expressed privacy
+      concerns, depending on the study, and concluded that patient perspectives remain poorly
+      understood. A flu outreach message that explicitly references a review of patient medical
+      records might backfire as patients react badly to a sense they have lost control of their
+      health records.
+
+      There is conflicting evidence on how people respond to advice or information that comes from
+      an algorithm or machine. Dietvorst et al. (2015) documented a pattern of &quot;algorithm
+      aversion,&quot; in which people choose inferior human over superior algorithmic forecasts,
+      especially after they observed the algorithm make an error. In contrast, Logg et al. (2018)
+      described &quot;algorithm appreciation,&quot; in which people followed advice more when they thought it
+      came from algorithms than when they thought it came from human beings. Finally, Bigman and
+      Gray (2019) found aversion to algorithms that make &quot;moral decisions,&quot; including a
+      (fictitious) medical decision of choosing whether or not to operate on a high-risk patient.
+      In the current setting, the algorithm is merely advising patients on taking an action (an
+      annual flu shot) that is already the standard of care, and there is no opportunity to observe
+      an erroneous recommendation, so the hypothesis is that &quot;algorithm appreciation&quot; will cause
+      people to react positively to being informed of the algorithm's role. Thus, this study will
+      address two important research questions:
+
+        1. Does informing patients that they are at high risk for flu complications (a) increase
+           the likelihood that they will receive flu vaccine; and (b) decrease the likelihood that
+           they receive diagnoses of flu and/or flu-like symptoms in the ensuing flu season?
+
+        2. Does informing patients that their high-risk status was determined (a) by analyzing
+           their medical records (vs. by no specified method); and (b) by an AI/ML algorithm*
+           analyzing their medical records (as opposed to via unspecified methods or human medical
+           records analysis) affect the likelihood that they receive the flu vaccine and/or
+           diagnoses of flu and/or flu-like symptoms in the ensuing flu season?
+
+      Our specific aims are:
+
+        1. Evaluate the effect on flu vaccination rates of informing health-system patients who are
+           identified by an ML analysis of EHR data to be at high-risk for flu complications that
+           they are at high risk with either (a) no additional explanation, (b) an explanation that
+           this determination comes from an analysis of their medical records, and (c) the
+           additional explanation that an AI or ML algorithm made this determination.
+
+        2. Evaluate the effects of the same three interventions on diagnoses of flu in the same
+           patients.
+
+      Research Strategy
+
+      Included in the study will be current Geisinger patients 18+ years of age with one or more
+      visits to a Geisinger primary care physician (PCP) between January 1, 2008 and January 30,
+      2020 and no contraindications for flu vaccine. Medial will provide flu-complication risk
+      scores from their ML algorithm (based on coded EHR data), on the basis of which the top 3% of
+      patients at highest risk will be included. Based on prior behavior and other predictors in a
+      second ML model, Medial will also provide the likelihood each patient will get vaccinated
+      during the study flu season; these values and the primary risk scores will be used as
+      covariates in exploratory data analyses. The anticipated number of patients in the top 3% of
+      risk is 16,500.**
+
+      According to the CDC (https://www.cdc.gov/flu/fluvaxview/coverage-1819estimates.htm),
+      approximately 68% of people age 65+ are vaccinated each year, so this will be used in a power
+      analysis as a proxy base rate for a control condition. The study will have 84% power to
+      detect a 3% absolute difference or greater in the vaccination outcome between conditions (68%
+      vs 71%, two-tailed alpha of .05), on the assumption that each condition will have
+      16,500/4=4125 patients. For the rarer outcome of flu diagnosis, the study will have 86% power
+      to detect a 1.2% difference or greater—from an estimated 3.9% rate in this high-risk
+      population (based on the CDC estimate for people age 65+ [Tokars et al., 2018]) to a 2.7%
+      rate.
+
+      The primary study outcomes will be the rates of flu vaccination and flu diagnoses during the
+      2020-21 season (September-March) by targeted patients. Secondary, exploratory outcomes will
+      also be measured: The rates of flu vaccination and diagnoses by non-targeted first-degree
+      relatives (parents, spouses/partners, children) of targeted patients; the rates of flu
+      complications and flu-like symptoms among targeted patients and relatives; and rates of other
+      relevant healthcare utilization outcomes such as ER visits and hospitalizations.
+
+      Generalized linear mixed models (GLMMs) will examine the primary study outcomes as a function
+      of the study arms (between-subjects), with patient-visited PCPs and/or clinics included as
+      random effects variables, assuming high intraclass correlation coefficients. GLMMs will
+      specify a binary distribution and log-link function in the case of dichotomous outcome
+      variables (e.g., flu vaccination, flu diagnosis), and a negative binomial distribution and
+      log-link function in the case of any highly positively skewed count variables such as ER
+      visits and hospitalizations (where over-dispersion typically remains in the case of a Poisson
+      distribution model). For these exploratory analyses, within-patient change (from the same
+      period one year earlier) will also be analyzed. Also, each patient will receive the same type
+      of communication (a/b/c/d) via up to three modalities—printed letter to their mailing
+      address, SMS to their mobile phone, and/or secure message via Geisinger's patient
+      portal—depending on what information is on file for each patient. The communication channels
+      used for each patient will be covariates in later analyses.
+
+      *Note: The study will not necessarily use the terms &quot;AI,&quot; &quot;ML,&quot; or &quot;algorithm&quot; in the
+      messages to groups b, c, and d; instead, these messages will be designed to be readable and
+      comprehensible by the patient audience while still including the key concepts that
+      differentiate the interventions from one another.
+
+      **Note: Sample size (n) will be defined by the top x% of patients at risk for flu
+      complications. It is anticipated that x=3 and n=16,500, and these conservative assumptions
+      are used throughout this entry. It is conceivable that x&gt;3 and 16,500&gt;n≤45,000; in that case,
+      the investigators will update the record accordingly.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">September 2020</start_date>
+  <completion_date type="Anticipated">May 2021</completion_date>
+  <primary_completion_date type="Anticipated">May 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Patients from the high-risk sample will be randomly assigned to one of 4 groups:
+Control: group that receives no additional pro-vaccination intervention beyond Geisinger's normal efforts. Although some patients are currently targeted for flu vaccination messages due to a non-ML assessment that they are at high risk for complications, these patients are not told that they are at high risk or that they have been targeted
+High Risk Only: group that receives messages telling them they have been identified to be at high risk for flu complications without specifying how/why Geisinger believes this to be the case
+High Risk Based on Medical Records: group that receives messages telling them they have been identified to be at high risk for flu complications via analysis of their medical records
+High Risk Based on Algorithm: group that receives messages telling them they have been identified to be at high risk for flu complications via analysis of their medical records by AI/ML</intervention_model_description>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>Double (Participant, Care Provider)</masking>
+    <masking_description>Participants (i.e., patients) will not be informed specifically of their assignment to different arms throughout the study. Providers who prescribe vaccination and diagnose conditions will not be randomized to study arms or informed of patient assignment.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Flu vaccination rate</measure>
+    <time_frame>Within 9 months of the intervention</time_frame>
+    <description>Patient received a flu vaccination</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Flu diagnosis rate</measure>
+    <time_frame>Within 9 months of the intervention</time_frame>
+    <description>Patient received a flu diagnosis</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Flu-like symptoms rate</measure>
+    <time_frame>Within 9 months of the intervention</time_frame>
+    <description>Patient was diagnosed with flu-like symptoms</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Flu complications rate</measure>
+    <time_frame>Within 9 months of the intervention</time_frame>
+    <description>Patient was diagnosed with flu-related complications</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in ER visits from pre- to post-intervention</measure>
+    <time_frame>Within 9 months pre-intervention (Time 1) and within 9 months post-intervention (Time 2)</time_frame>
+    <description>Number of patient visits to the ER, examining relative rate of visits across Time 1 and 2</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in hospitalizations from pre- to post-intervention</measure>
+    <time_frame>Within 9 months pre-intervention (Time 1) and within 9 months post-intervention (Time 2)</time_frame>
+    <description>Number of patient hospital visits, examining relative rate of visits across Time 1 and 2</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Flu vaccination among relatives</measure>
+    <time_frame>Within 9 months of the intervention</time_frame>
+    <description>Non-targeted first-degree relatives (parents, spouses/partners, children) of targeted patients received a flu vaccination</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Flu diagnosis among relatives</measure>
+    <time_frame>Within 9 months of the intervention</time_frame>
+    <description>Non-targeted first-degree relatives (parents, spouses/partners, children) of targeted patients received a flu diagnosis</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Flu-like symptoms among relatives</measure>
+    <time_frame>Within 9 months of the intervention</time_frame>
+    <description>Non-targeted first-degree relatives (parents, spouses/partners, children) of targeted patients were diagnosed with flu-like symptoms</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Flu complications among relatives</measure>
+    <time_frame>Within 9 months of the intervention</time_frame>
+    <description>Non-targeted first-degree relatives (parents, spouses/partners, children) of targeted patients were diagnosed with flu-related complications</description>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Anticipated">16500</enrollment>
+  <condition>Influenza</condition>
+  <condition>Vaccination</condition>
+  <condition>Health Promotion</condition>
+  <condition>Health Behavior</condition>
+  <condition>Risk Reduction</condition>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>This group receives no additional pro-vaccination intervention beyond the health system's normal efforts. Although some patients are currently targeted for flu vaccination encouragement due to a non-ML assessment that they are at high risk for complications, these patients are not told that they are at high risk or that they have been targeted.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>High risk only</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>This group receives messages telling them they have been identified to be at high risk for flu complications without specifying how or why the health system believes this to be the case.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>High risk based on medical records</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>This group receives messages telling them they have been identified to be at high risk for flu complications via analysis of their medical records.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>High risk based on algorithm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>This group receives messages telling them they have been identified to be at high risk for flu complications via analysis of their medical records by an AI/ML system.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Risk reduction</intervention_name>
+    <description>Mailed letter, SMS, and/or patient portal message</description>
+    <arm_group_label>High risk based on algorithm</arm_group_label>
+    <arm_group_label>High risk based on medical records</arm_group_label>
+    <arm_group_label>High risk only</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Medical records-based recommendation</intervention_name>
+    <description>Mailed letter, SMS, and/or patient portal message</description>
+    <arm_group_label>High risk based on algorithm</arm_group_label>
+    <arm_group_label>High risk based on medical records</arm_group_label>
+    <other_name>Credibility</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Algorithm-based recommendation</intervention_name>
+    <description>Mailed letter, SMS, and/or patient portal message</description>
+    <arm_group_label>High risk based on algorithm</arm_group_label>
+    <other_name>Credibility</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Current Geisinger patient at the time of study
+
+          -  Falls in the top ~3% (depending on distribution) of patients at highest risk, as
+             identified by the flu-complication risk scores of Medial's machine learning algorithm
+             (which operates on coded EHR data)
+
+          -  May limit inclusion to patients that are under Geisinger primary care, depending on
+             algorithm performance of patients who have non-Geisinger PCPs
+
+        Exclusion Criteria:
+
+          -  Has contraindications for flu vaccination
+
+          -  Has opted out of receiving communications from Geisinger via all of the modalities
+             being tested
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Christopher Chabris, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Geisinger Clinic</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Amir Goren, PhD</last_name>
+    <phone>570-214-4395</phone>
+    <email>agoren@geisinger.edu</email>
+  </overall_contact>
+  <reference>
+    <citation>Bigman YE, Gray K. People are averse to machines making moral decisions. Cognition. 2018 Dec;181:21-34. doi: 10.1016/j.cognition.2018.08.003. Epub 2018 Aug 11.</citation>
+    <PMID>30107256</PMID>
+  </reference>
+  <reference>
+    <citation>Dietvorst BJ, Simmons JP, Massey C. Algorithm aversion: people erroneously avoid algorithms after seeing them err. J Exp Psychol Gen. 2015 Feb;144(1):114-26. doi: 10.1037/xge0000033. Epub 2014 Nov 17.</citation>
+    <PMID>25401381</PMID>
+  </reference>
+  <reference>
+    <citation>Goshen R, Choman E, Ran A, Muller E, Kariv R, Chodick G, Ash N, Narod S, Shalev V. Computer-Assisted Flagging of Individuals at High Risk of Colorectal Cancer in a Large Health Maintenance Organization Using the ColonFlag Test. JCO Clin Cancer Inform. 2018 Dec;2:1-8. doi: 10.1200/CCI.17.00130.</citation>
+    <PMID>30652563</PMID>
+  </reference>
+  <reference>
+    <citation>Logg, J.M., Minson, J.A., &amp; Moore, D.A. (2019). Algorithm appreciation: People prefer algorithmic to human judgment. Organizational Behavior and Human Decision Processes, 151, 90-103. https://doi.org/10.1016/j.obhdp.2018.12.005</citation>
+  </reference>
+  <reference>
+    <citation>Shen N, Bernier T, Sequeira L, Strauss J, Silver MP, Carter-Langford A, Wiljer D. Understanding the patient privacy perspective on health information exchange: A systematic review. Int J Med Inform. 2019 May;125:1-12. doi: 10.1016/j.ijmedinf.2019.01.014. Epub 2019 Feb 1.</citation>
+    <PMID>30914173</PMID>
+  </reference>
+  <reference>
+    <citation>Rothberg MB, Haessler SD. Complications of seasonal and pandemic influenza. Crit Care Med. 2010 Apr;38(4 Suppl):e91-7. doi: 10.1097/CCM.0b013e3181c92eeb. Review.</citation>
+    <PMID>19935413</PMID>
+  </reference>
+  <reference>
+    <citation>Tokars JI, Olsen SJ, Reed C. Seasonal Incidence of Symptomatic Influenza in the United States. Clin Infect Dis. 2018 May 2;66(10):1511-1518. doi: 10.1093/cid/cix1060.</citation>
+    <PMID>29206909</PMID>
+  </reference>
+  <reference>
+    <citation>Turner D, Wailoo A, Nicholson K, Cooper N, Sutton A, Abrams K. Systematic review and economic decision modelling for the prevention and treatment of influenza A and B. Health Technol Assess. 2003;7(35):iii-iv, xi-xiii, 1-170. Review.</citation>
+    <PMID>14609480</PMID>
+  </reference>
+  <reference>
+    <citation>WHO Guidelines for Pharmacological Management of Pandemic Influenza A(H1N1) 2009 and Other Influenza Viruses. Geneva: World Health Organization; 2010 Feb.</citation>
+    <PMID>23741777</PMID>
+  </reference>
+  <reference>
+    <citation>Zack CJ, Senecal C, Kinar Y, Metzger Y, Bar-Sinai Y, Widmer RJ, Lennon R, Singh M, Bell MR, Lerman A, Gulati R. Leveraging Machine Learning Techniques to Forecast Patient Prognosis After Percutaneous Coronary Intervention. JACC Cardiovasc Interv. 2019 Jul 22;12(14):1304-1311. doi: 10.1016/j.jcin.2019.02.035. Epub 2019 Jun 26.</citation>
+    <PMID>31255564</PMID>
+  </reference>
+  <reference>
+    <citation>Centers for Disease Control and Prevention. (2020). Disease Burden of Influenza. https://www.cdc.gov/flu/ about/burden/index.html (Jan 10).</citation>
+  </reference>
+  <reference>
+    <citation>Centers for Disease Control and Prevention. (2019a). Who Needs a Flu Vaccine and When. https://www.cdc.gov/flu/prevent/vaccinations.htm (Oct 11).</citation>
+  </reference>
+  <reference>
+    <citation>Centers for Disease Control and Prevention. (2019b). Flu Vaccination Coverage, United States, 2018-19 Influenza Season. https://www.cdc .gov/flu/fluvaxview/coverage-1819estimates.htm</citation>
+  </reference>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>March 19, 2020</study_first_submitted>
+  <study_first_submitted_qc>March 25, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 26, 2020</study_first_posted>
+  <last_update_submitted>March 25, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 25, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 26, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Geisinger Clinic</investigator_affiliation>
+    <investigator_full_name>Christopher F Chabris, PhD</investigator_full_name>
+    <investigator_title>Faculty Co-Director, Behavioral Insights Team</investigator_title>
+  </responsible_party>
+  <keyword>Flu Vaccine</keyword>
+  <keyword>Choice Architecture</keyword>
+  <keyword>Machine Learning</keyword>
+  <keyword>Perceived Credibility</keyword>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Data with no personally identifiable information will be made available to other researchers on the Open Science Framework for transparency. This will include the essential data and code needed to replicate the analysis that yielded reported findings.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_time_frame>The data will become available after publication of study results in a scientific journal and will be available as long as the Open Science Framework hosts the data.</ipd_time_frame>
+    <ipd_access_criteria>The data on the Open Science Framework will be open to anyone requesting that information.</ipd_access_criteria>
+    <ipd_url>http://osf.io</ipd_url>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

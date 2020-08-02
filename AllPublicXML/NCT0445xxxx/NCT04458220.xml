@@ -1,0 +1,148 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04458220</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SH9H-2020-T91-2</org_study_id>
+    <nct_id>NCT04458220</nct_id>
+  </id_info>
+  <brief_title>Effects and Application Values of AI Portrait Feature Recognition in Difficult Airway Prediction</brief_title>
+  <official_title>Effects and Application Values of AI Portrait Feature Recognition in Difficult Airway Prediction</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shanghai Ninth People's Hospital Affiliated to Shanghai Jiao Tong University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Shanghai Ninth People's Hospital Affiliated to Shanghai Jiao Tong University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study is performed in Shanghai Ninth People's Hospital Affiliated with Shanghai Jiao Tong
+      University School of Medicine . According to inclusion and exclusion criteria ,the
+      investigators are expected to enroll 4000 participants who performed endotracheal intubation
+      under general anesthesia. All enrolled participants must sign a written informed consent.In
+      the preset studio,The 3D face scanner is used to obtain three-dimensional portrait images of
+      patients in different positions and from different angles.Then,Statistical experts use
+      quantitative software to quantify the data.The investigators will put all the data and images
+      into a confidential database in order to build a large database of difficult airways.
+
+      Anesthesiologist will give every patient an endotracheal intubation as planned. After that
+      the anesthesiologist will be asked to fill out the questionnaire immediately.This
+      questionnaire allows obtaining a ground truth for the intubation difficulty.All data will be
+      used for AI deep learning and intelligent analysis,Several of the most relevant landmarks
+      will be selected to build an early warning model.The overall study did not involve any
+      intervention in the process of anaesthesia and operation of the patients, only the
+      three-dimensional facial images of the patients were obtained, without any trauma or injury.
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">June 30, 2020</start_date>
+  <completion_date type="Anticipated">May 30, 2023</completion_date>
+  <primary_completion_date type="Anticipated">May 30, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Diagnosed as a difficult airway</measure>
+    <time_frame>Just after intubation</time_frame>
+    <description>Meet one of the following conditions：Mask ventilation≥Ⅱgrade，C-L≥ⅢorⅣgrade，LEMON≥2 score，IDS≥1 score.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">4000</enrollment>
+  <condition>Difficult Airway</condition>
+  <arm_group>
+    <arm_group_label>difficult airway</arm_group_label>
+    <description>Meet one of the following conditions：Mask ventilation≥Ⅱgrade，C-L≥ⅢorⅣgrade，LEMON≥2 score，IDS≥1 score.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>none difficult airway</arm_group_label>
+    <description>Meet none of the following conditions：Mask ventilation≥Ⅱgrade，C-L≥ⅢorⅣgrade，LEMON≥2 score，IDS≥1 score.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study is performed in Shanghai Ninth People's Hospital Affiliated with Shanghai Jiao
+        Tong University School of Medicine . According to inclusion and exclusion criteria ,We are
+        expected to enroll 4000 participants who performed endotracheal intubation under general
+        anesthesia.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  American Society of Anesthesiologists (ASA) physical status lower than III.
+
+          -  Patients to be intubated under general anesthesia.
+
+        Exclusion Criteria:
+
+          -  Patients with deaf-mutism or communication disorders.
+
+          -  Patients with language deficiency or non-native language.
+
+          -  Patients with mental or central nervous system disease.
+
+          -  Patients with stupefaction or disturbance of consciousness.
+
+          -  Patients with terrible injury.
+
+          -  Patients cannot follow instructions to perform standard actions.
+
+          -  Patients participated in other relevant clinical investigation in the past 3 months.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Ren Zhou, Dr</last_name>
+    <phone>86-15121007303</phone>
+    <email>zhouren77@126.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Ming Xia, Dr</last_name>
+    <phone>86-15021306970</phone>
+    <email>jianghongjiuyuan@163.com</email>
+  </overall_contact_backup>
+  <verification_date>May 2020</verification_date>
+  <study_first_submitted>June 18, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 1, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 7, 2020</study_first_posted>
+  <last_update_submitted>July 1, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 1, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 7, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Informed Consent Form</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>June 12, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/20/NCT04458220/ICF_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

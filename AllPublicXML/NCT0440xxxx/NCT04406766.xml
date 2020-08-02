@@ -1,0 +1,240 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04406766</url>
+  </required_header>
+  <id_info>
+    <org_study_id>38RC19.343</org_study_id>
+    <nct_id>NCT04406766</nct_id>
+  </id_info>
+  <brief_title>Evaluation of a Data Transmission Solution for Connected Nutrition Pump for Patients Treated by Home Parenteral Nutrition (HPN). Proof of Concept, Prospective, Monocentric, Non-randomized, and Open-label Study.</brief_title>
+  <acronym>SERENE-eNUTRI</acronym>
+  <official_title>Evaluation of a Data Transmission Solution for Connected Nutrition Pump for Patients Treated by Home Parenteral Nutrition (HPN). Proof of Concept, Prospective, Monocentric, Non-randomized, and Open-label Study.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Grenoble</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Clinical Investigation Centre for Innovative Technology Network</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>AGIR à Dom</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>MAATEL</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Orange Business</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital, Grenoble</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Patients requiring long-term parenteral home nutrition (NPAD) suffer from chronic bowel
+      failure. The causes of this syndrome can be variable either anatomical (extensive resection
+      of the small intestine) or functional (occlusion, pseudo-occlusion, malabsorption). Their
+      consequences mean that patients are unable to cover their oral energy and / or
+      hydroelectrolytic needs. Consequently these patients survive only thanks to a nutritional
+      support by venous way (parenteral nutrition).
+
+      NPAD is a complex and risky practice framed by decrees. For nutrition over 3 months,
+      treatment must be carried out in a center recognized by the Ministry (historically: approved
+      center, in the future: labeled center). The active patient queue in NPAD on the national
+      territory is around 1,500 patients (2017 figure).
+
+      At home, and for safety reasons, these infusions are carried out by infusion pumps ensuring a
+      constant flow rate and capable of detecting two anomalies: occlusion of the venous route and
+      the presence of bubble in the infusion line [1] .
+
+      The purpose of this study is to test the reliability and usefulness of pumps capable of
+      communicating information to prescribing physicians.
+
+      The hypothesis of this project is that the information reported by the pumps connected to the
+      clinician could represent an aid to medical reasoning, and allow the latter to modify the
+      proposed treatment when necessary, in patients followed for complex treatment and at risk,
+      such as treatment with NPAD.
+
+      The usability and acceptability of the proposed solution will also be assessed with the
+      healthcare team and patients.
+
+      During this study, the management of the patient will not be modified, the clinician not
+      having access in real time to the data collected.
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">September 2020</start_date>
+  <completion_date type="Anticipated">May 2021</completion_date>
+  <primary_completion_date type="Anticipated">May 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Device Feasibility</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Proportion of data and events correctly transmitted between the infusion pump and the PatHView2 platform.</measure>
+    <time_frame>1 month</time_frame>
+    <description>Evaluate the proportion of the data set (24-hour infusion volume, duration, infusion speed and mode) and events (technical notifications of system use) correctly transmitted in different transmission modalities (LoRaWan, BLE+GSM, GSM LTE-M, multimodality), between the infusion pump and the PatHView2 platform.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Volume of data transmitted between the infusion pump and the PatHView2 platform compared to the volume of data to be transmitted.</measure>
+    <time_frame>1 month</time_frame>
+    <description>Evaluate the proportion of the data set (volume infused over 24 hours, duration, infusion speed and mode) and events (technical notifications of system use) transmitted in terms of volume using different transmission modalities (LoRaWan, BLE+GSM, GSM LTE-M, multimodality), between the infusion pump and the PatHView2 platform.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Type and variable (value / field / date / time) for data and events from extracted files : - from the pump before the IoT module; - from the PatHView2 interface.</measure>
+    <time_frame>1 month</time_frame>
+    <description>Evaluate the proportion for subgroups of data (volume infused over 24 hours, duration, speed and infusion mode) and events (technical notifications of system use) correctly transmitted through the four transmission modalities (LoRaWan, BLE+GSM, GSM LTE-M, multimodality), between the infusion pump and the PatHView2 platform. This target will be verified if the proportion of the main target is &lt; 98%.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Frequency and type of problems encountered.</measure>
+    <time_frame>1 month</time_frame>
+    <description>Descriptive analysis of the problems encountered.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>- Quantitative criterion: number of situations in which the physician would have changed patient management over the entire study ; - Qualitative criterion: nature of the change (no change, delayed, immediate) in man</measure>
+    <time_frame>1 month</time_frame>
+    <description>Evaluate quantitatively and qualitatively the contribution of the use of the PatHView2 interface in terms of aiding medical reasoning for a possible improvement in patient follow-up (i.e. compliance with a prescription).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Analysis of the effectiveness, efficiency, difficulties and errors of use of the PatHView2 interface according to test scenarios carried out in interviews with an ergonomist (with voice + screen recording).</measure>
+    <time_frame>1 month</time_frame>
+    <description>Evaluate the usability of the PatHView2 interface by the healthcare team (doctors, nurses, interns).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Customised hetero-questionnaire at the end of the study visit (uninstallation of the equipment at the patient's home). au domicile du patient).</measure>
+    <time_frame>1 month</time_frame>
+    <description>Assess the acceptability of the connected pump solution to the patient.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">15</enrollment>
+  <condition>Parenteral Nutrition, Home</condition>
+  <arm_group>
+    <arm_group_label>patients requiring long-term parenteral nutrition at home</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>the patient will be equipped with a Fresenius-Kabi infusion pump connected to an IoT Maatel module</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>connected feeding pump</intervention_name>
+    <description>The objective of the SERENE-IoT-Fresenius study is to test connected infusion pumps, able to record their operation (infusion data and events) and to send this information, according to different transmission modalities (LoRaWan, BLE+GSM, GSM LTE-M, multimodality) on a web platform, to prescribing physicians for NPAD patients.</description>
+    <arm_group_label>patients requiring long-term parenteral nutrition at home</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age &lt; 18 years
+
+          -  Patient receiving a home parenteral nutrition (HPN) and followed by the Artificial
+             Nutrition Service of the CHUGA
+
+          -  Patient carrying out all his infusions at home during the month of use of the
+             connected pump (constraint due to the LoRaWAn transmission mode)
+
+          -  Patient affiliated to the French social security system or an equivalent system
+
+          -  Patient who has signed consent form
+
+        Exclusion Criteria:
+
+          -  Presenting any other pathology or treatment that the physician may deem incompatible
+             with this study
+
+          -  Patient under exclusion period from another study
+
+          -  Protected persons (patient concerned by articles L1121-5, L1121-6, L1121-8 of the
+             French public health code)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Eric Fontaine, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>CHU Grenoble Alpes</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Maud Barbado</last_name>
+    <phone>+33 4 76 76 66 45</phone>
+    <email>mbarbado1@chu-grenoble.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Eric Fontaine, MD</last_name>
+    <phone>+33 4 76 76 55 74</phone>
+    <email>efontaine@chu-grenoble.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>CHU Grenoble Alpes</name>
+      <address>
+        <city>Grenoble</city>
+        <zip>38000</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <investigator>
+      <last_name>Eric Fontaine, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <link>
+    <url>https://maatel.com/savoir-faire/etudes-de-cas-conception-electronique/serene-iot/</url>
+    <description>Related Info</description>
+  </link>
+  <link>
+    <url>https://www.has-sante.fr/upload/docs/application/pdf/2008-07/rapport_nutrition_parenterale_a_domicile_2008-07-31_14-29-41_874.pdf</url>
+    <description>Related Info</description>
+  </link>
+  <reference>
+    <citation>Pironi L, Miglioli M, Ruggeri E, Longo N, Suriani U, Maselli S, Gnudi S, Barbara L. Home parenteral nutrition for the management of chronic intestinal failure: a 34 patient-year experience. Ital J Gastroenterol. 1993 Oct;25(8):411-8.</citation>
+    <PMID>8286774</PMID>
+  </reference>
+  <reference>
+    <citation>Detsky AS, McLaughlin JR, Abrams HB, L'Abbe KA, Whitwell J, Bombardier C, Jeejeebhoy KN. Quality of life of patients on long-term total parenteral nutrition at home. J Gen Intern Med. 1986 Jan-Feb;1(1):26-33.</citation>
+    <PMID>3095514</PMID>
+  </reference>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>May 22, 2020</study_first_submitted>
+  <study_first_submitted_qc>May 22, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 28, 2020</study_first_posted>
+  <last_update_submitted>July 16, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 16, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 20, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>connected feeding pump</keyword>
+  <keyword>Data transmission chain</keyword>
+  <keyword>Reduce costs due to late management of complications.</keyword>
+  <keyword>improve the quality of life of patients</keyword>
+  <keyword>improve the clinical management of patients' pathology</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

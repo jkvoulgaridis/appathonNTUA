@@ -1,0 +1,209 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03748862</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RNG003104</org_study_id>
+    <nct_id>NCT03748862</nct_id>
+  </id_info>
+  <brief_title>The Effect of Primary Care Opioid Taper Plans on Sustained Opioid Taper</brief_title>
+  <official_title>The Effect of Primary Care Opioid Taper Plans and Their Components on Sustained Opioid Taper and Opioid Discontinuation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Kaiser Permanente</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Washington</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Kaiser Permanente</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of this study is to examine the effects of opioid taper plans as documented in
+      the electronic medical record for Kaiser Permanente Washington (KPWA) patients. The study
+      will compare different types of opioid tapering plans and will report on their effectiveness
+      in producing sustained taper or discontinuation of long-term opioid therapy for chronic
+      non-cancer pain while maintaining adequate pain control. The study population is KPWA
+      patients receiving long-term opioid therapy from 2010 to 2017.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Opioid taper is now encouraged by many health care organizations, but it is unclear if
+      explicit plans for opioid taper by primary care providers are effective at promoting tapering
+      or discontinuation, and if they are effective, which components account for their
+      effectiveness. Patients receiving long-term opioid therapy (LtOT), who are candidates for
+      tapering, often perceive a low risk of overdose and a high risk of increased pain with opioid
+      tapering. They fear opioid withdrawal and lack of effectiveness of non-opioid therapies. For
+      patients with opioid tapering experience, support from family and a trusted health care
+      provider eased opioid tapering. Many patients report improved quality of life following
+      taper.
+
+      Little data exists on the optimal opioid taper strategy, including: use of long or
+      short-acting opioids, frequency of clinic visits, use of adjunctive medications and the role
+      of psychological support. Recent initiatives to reduce high-dose opioid use at Kaiser
+      Permanente Washington offer an opportunity to study the effect of opioid taper plans and
+      their components in an integrated care system with an electronic health record including all
+      health encounters and pharmacy dispensing.
+
+      This study will report the proportion of LtOT patients who successfully taper compared to a
+      similar group of LtOT patients who don't achieve tapering or discontinuation of tapering. We
+      will also evaluate whether taper plans, defined by the patient's primary care provider,
+      increase the likelihood of successfully tapering comparing the two groups cited above.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 1, 2018</start_date>
+  <completion_date type="Actual">March 31, 2019</completion_date>
+  <primary_completion_date type="Actual">October 30, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Description of patients with high-dose opioid therapy</measure>
+    <time_frame>This study takes place from 2010 to 2017.</time_frame>
+    <description>First, the study will describe the proportion and characteristics of patients on long-term, high-dose opioid therapy (LtOT) for chronic non-cancer pain who: a) initiate a taper attempt, b) successfully taper, or c) discontinue opioids. Demographic and clinical characteristics of patients who successfully taper will be compared to characteristics of patients who do not. We consider a successful taper to have occurred when a patient's average quarterly morphine milligram equivalents (MME) dose (calculated as the rolling average of the current and previous quarter's mean quarterly MME) falls below a specified threshold for two consecutive quarters after study entry. Each quarter of a sustained taper must meet one of the following two criteria and can be a combination of the two:
+Low dose of ≤30 MME (considered a &quot;safe&quot; dose)
+At least a 50% reduction in MME from the near peak dose</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Taper Plan Assessment</measure>
+    <time_frame>This study takes place from 2010 to 2017.</time_frame>
+    <description>The study will assess whether the presence of EHR-documented opioid taper plans is associated with successful taper, and if so, determine which components of taper plans are associated with the greatest likelihood of success.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">2500</enrollment>
+  <condition>Opiate Replacement Therapy</condition>
+  <arm_group>
+    <arm_group_label>Cases</arm_group_label>
+    <description>Patients who were receiving high-dose, long-term opioid therapy at study entry and achieved a sustained taper during the follow-up period.
+A Taper Plan is a plan to reduce or discontinue use of opioids discussed with the primary care provider. Evidence of a taper plan is found in the prescription notes or medical encounter notes in the electronic health record.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Controls</arm_group_label>
+    <description>Patients who were receiving high-dose, long-term opioid therapy at study entry and didn't achieve a sustained taper during the follow-up period.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Taper Plan</intervention_name>
+    <description>Occurrence of a taper plan defined by a primary care provider during the follow-up period. Evidence of a taper plan will be obtained by searching prescriptions (SIGs) and medical encounter notes using natural language processing (NLP).</description>
+    <arm_group_label>Cases</arm_group_label>
+    <arm_group_label>Controls</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        To be eligible for this study a patient must be receiving long-term opioid therapy (LtOT)
+        as follows: 1) must be Kaiser Permanente Washington (KPWA) patient, 2) must receive opioid
+        therapy consisting of at least a 60-day supply and a mean daily dose of at least 50
+        milligrams morphine equivalent (MME) per calendar quarter for two consecutive calendar
+        quarters between Jan 2011 and Dec 2015, 3) must not die, have a gap in health plan
+        enrollment or pharmacy benefits during the two calendar quarters in which they qualified
+        for study entry, 4) must have no cancer diagnoses during the study period (2010-2017), and
+        5) must have at least two quarters of follow-up after study entry.
+
+        A sub-analysis will focus on LtOT patients with a mean daily dose of at least 90 MME
+        instead of 50 MME.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  A cohort of patients enrolled in Kaiser Permanente Washington who were receiving high
+             dose, long-term opioid therapy (LtOT) for treatment of chronic non-cancer pain during
+             2010-2017. High dose LtOT defined above.
+
+          -  Patients must be age &gt;18 years as of cohort entry and enrolled for at least 18 months
+             during the study period.
+
+        Exclusion Criteria:
+
+          -  Patients under 18 years old
+
+          -  Patients with any cancer diagnosis, hospice, nursing home care, methadone maintenance,
+             buprenorphine for opioid use disorder, cognitive impairment, spinal cord stimulator,
+             or intrathecal opioids.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Mark Sullivan, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Washington</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>David S Carrell, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Kaiser Permanente</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Kaiser Permanente Washington Health Research Institute</name>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <zip>98101</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <results_reference>
+    <citation>Von Korff M, Dublin S, Walker RL, Parchman M, Shortreed SM, Hansen RN, Saunders K. The Impact of Opioid Risk Reduction Initiatives on High-Dose Opioid Prescribing for Patients on Chronic Opioid Therapy. J Pain. 2016 Jan;17(1):101-10. doi: 10.1016/j.jpain.2015.10.002. Epub 2015 Oct 22.</citation>
+    <PMID>26476264</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Thielke SM, Turner JA, Shortreed SM, Saunders K, Leresche L, Campbell CI, Weisner CC, Korff MV. Do patient-perceived pros and cons of opioids predict sustained higher-dose use? Clin J Pain. 2014 Feb;30(2):93-101. doi: 10.1097/AJP.0b013e31828e361b.</citation>
+    <PMID>23535150</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Von Korff M, Turner JA, Shortreed SM, Saunders K, Rosenberg D, Thielke S, LeResche L. Timeliness of Care Planning upon Initiation of Chronic Opioid Therapy for Chronic Pain. Pain Med. 2016 Mar;17(3):511-520. Epub 2015 Dec 14.</citation>
+    <PMID>26814284</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Hylan TR, Von Korff M, Saunders K, Masters E, Palmer RE, Carrell D, Cronkite D, Mardekian J, Gross D. Automated prediction of risk for problem opioid use in a primary care setting. J Pain. 2015 Apr;16(4):380-7. doi: 10.1016/j.jpain.2015.01.011. Epub 2015 Jan 29.</citation>
+    <PMID>25640294</PMID>
+  </results_reference>
+  <verification_date>August 2019</verification_date>
+  <study_first_submitted>November 19, 2018</study_first_submitted>
+  <study_first_submitted_qc>November 19, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 21, 2018</study_first_posted>
+  <last_update_submitted>August 19, 2019</last_update_submitted>
+  <last_update_submitted_qc>August 19, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 21, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Opioids</keyword>
+  <keyword>Chronic Pain</keyword>
+  <keyword>Opioid Therapy</keyword>
+  <keyword>Opioid Taper</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>No IPD will be shared with other researchers or institutions.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

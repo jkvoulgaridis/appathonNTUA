@@ -1,0 +1,250 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03804606</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2018-0735</org_study_id>
+    <nct_id>NCT03804606</nct_id>
+  </id_info>
+  <brief_title>Risk and Benefit Informed MTM Pharmacist Intervention in Heart Failure</brief_title>
+  <official_title>Risk and Benefit Informed MTM Pharmacist Intervention in Heart Failure</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Geisinger Clinic</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Geisinger Clinic</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>Yes</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Out-of-hospital care of complex diseases, such as heart failure, is transitioning from an
+      individual patient-doctor relationship to population health management strategies. As an
+      example, at our institution, medication therapy management (MTM) pharmacists are being
+      deployed to patients with heart failure with the intent of improving patient outcomes
+      (through proper medication management and adherence) while reducing cost (e.g., keeping these
+      patients out of the hospital). The success of such strategies will be dependent on the
+      ability to effectively direct scarce resources to deliver appropriate/needed care to
+      patients. In this prospective, pragmatic randomized and matched controlled study, the
+      investigators hypothesize that the combination of accurate, data-driven benefit models and
+      MTM pharmacist intervention in patients with heart failure will result in reduced 1-year
+      mortality and hospital admissions. Using our extensive historical electronic health record
+      data, the investigators have developed a machine learning model that, for individual patients
+      with heart failure, predicts risk and benefit (that is, reduction in risk) associated with
+      closing specific &quot;care gaps&quot;. These care gaps represent standard evidence-based treatments
+      that may be missing for an individual patient, such as beta blockers or flu shots. The
+      investigators will use this model to define three cohorts to be studied: 1) a high risk/high
+      benefit group to be referred for MTM pharmacist intervention, 2) a high risk/high benefit
+      group to continue with existing standard of care (not necessarily involving MTM pharmacy),
+      and 3) a high risk/low benefit group to be referred for MTM pharmacist intervention.
+      Comparison of groups 1 and 2 (for which assignment is randomized) will evaluate the
+      effectiveness of the MTM pharmacy intervention, while comparison of groups 1 and 3 will
+      evaluate the accuracy of the benefit model prediction and importance of appropriate patient
+      selection for treatment. The primary study outcomes will be mortality and number of hospital
+      admissions during 1-year follow-up following study enrollment.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Heart failure is a highly prevalent, complex disease associated with significant morbidity
+      and cost. For example, Geisinger manages over 900 heart failure admissions per year, with
+      each admission costing an estimated $10,000-$12,000. As payment models continue to shift from
+      fee-for-service to value-based, significant investments are occurring in care team resources
+      to help manage populations of patients with heart failure. These care team resources have
+      demonstrated effectiveness. For example, internal Geisinger metrics indicate that
+      interventions led by clinical pharmacists aimed at poorly controlled type II diabetics have
+      resulted in a sustained median 1% (absolute) drop in hemoglobin hemoglobin a1C (glycated
+      hemoglobin). In this new environment, intelligent deployment of limited resources is critical
+      to drive quality and contain costs.
+
+      In heart failure, current risk prediction have demonstrated poor prognostic abilities and
+      present a barrier to &quot;precision delivery&quot; of care team resources. Currently approaches are
+      limited due to not fully utilizing rich, highly granular objective data such as imaging,
+      laboratory values, and vital signs, and therefore are not optimized to accurately predict
+      outcomes. The investigators have generated a machine learning model to predict both 1-year
+      survival and heart failure hospitalization within 6 months of echocardiography. This model
+      utilized 169 input variables including clinical data, imaging measures, and 18 care gap
+      variables. Our results showed not only that the machine learning model had far superior
+      accuracy to predict the morbidity endpoints compared to current approaches utilizing billing
+      code data, but also that care gap variables were important for predicting 1-year survival.
+      Moreover, the investigators showed that closing four of the care gap variables (flu
+      vaccination, evidence-based beta blocker treatment, ACE (angiotensin-converting-enzyme)
+      inhibitor/ARB (angiotensin receptor blockers) treatment, and control of diabetic a1C (i.e.,
+      values &quot;in goal)) resulted in a predicted improvement in 1-year survival of ~1200 (out of
+      ~11,000) patients. This study therefore aims to apply this machine learning approach to
+      direct care team resources in a clinical setting to evaluate its impact on patient survival
+      and healthcare utilization.
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">February 28, 2019</start_date>
+  <completion_date type="Anticipated">July 2021</completion_date>
+  <primary_completion_date type="Anticipated">July 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>Double (Participant, Care Provider)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>All-cause mortality</measure>
+    <time_frame>1 year</time_frame>
+    <description>Death following randomization</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Hospital admission</measure>
+    <time_frame>1 year</time_frame>
+    <description>Number of admissions to the hospital</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Healthcare utilization - Total cost of care</measure>
+    <time_frame>1 year</time_frame>
+    <description>Total cost of care (co-pays, claims paid, co-insurance, out-of-pocket costs) for the subset of patients in the study covered by the Geisinger Health Plan</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of flu vaccine care gap closure; relationship to mortality</measure>
+    <time_frame>1 year</time_frame>
+    <description>The investigators will compare rates of closure for the flu vaccine care gap among arms and compare predicted versus actual mortality as a function of the observed care gap closure.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of evidence-based beta blocker care gap closure; relationship to mortality</measure>
+    <time_frame>1 year</time_frame>
+    <description>The investigators will compare rates of closure for the evidence-based beta blocker care gap among arms and compare predicted versus actual hospitalization as a function of the observed care gap closure.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of ACE inhibitor/ARB care gap closure; relationship to mortality</measure>
+    <time_frame>1 year</time_frame>
+    <description>The investigators will compare rates of closure for the ACE inhibitor/ARB care gap among arms and compare predicted versus actual hospitalization as a function of the observed care gap closure.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of diabetic a1C &quot;in goal&quot; care gap closure; relationship to mortality</measure>
+    <time_frame>1 year</time_frame>
+    <description>The investigators will compare rates of closure for the diabetic a1C &quot;in goal&quot; care gap among arms and compare predicted versus actual hospitalization as a function of the observed care gap closure.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">600</enrollment>
+  <condition>Heart Failure</condition>
+  <arm_group>
+    <arm_group_label>High benefit, MTM</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>This arm will comprise patients with heart failure who are predicted to receive high benefit (reduction in mortality risk) by addressing open care gaps. Following randomization, they will be referred to MTM pharmacy for review of treatments in an attempt to close appropriate care gaps.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>High benefit, no MTM</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>This arm will comprise patients with heart failure who are predicted to receive high benefit (reduction in mortality risk) by addressing open care gaps. Following randomization, they will continue to receive clinical standard-of-care: regular follow-ups with Community Medicine (every 3 months) and Cardiology (every six months). Importantly, these individuals are eligible for referral to MTM at the discretion of their physicians.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Low benefit, MTM</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>This arm will comprise patients with heart failure who are predicted to receive low benefit (reduction in mortality risk) by addressing open care gaps. They will be selected based on age, sex, and risk-matching to the High benefit, MTM arm. They will be referred to MTM pharmacy for review of treatments in an attempt to close appropriate care gaps.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Referral to MTM Pharmacist</intervention_name>
+    <description>Patients will be referred for an encounter with a medication therapy management pharmacist.</description>
+    <arm_group_label>High benefit, MTM</arm_group_label>
+    <arm_group_label>Low benefit, MTM</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All adult Geisinger patients with heart failure, as identified by a validated EHR
+             (Electonic Health Record)-based phenotype algorithm,
+
+          -  Patients with a Geisinger primary care provider (PCP)
+
+          -  Patients who follow with Geisinger Cardiology (at least 1 visit in past two years).
+
+          -  Fulfills the specifications for arm assignment based on the results of the care gap
+             benefit model.
+
+        Exclusion Criteria:
+
+          -  Patients with a Geisinger PCP or Cardiologist in the South Central Region (part of the
+             Geisinger Holy Spirit footprint) as MTM availability is limited in this service area.
+
+          -  Patients who have indicated they do not wish to participate in research studies
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Christopher M Haggerty, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Geisinger Clinic</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Brandon K Fornwalt, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Geisinger Clinic</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Geisinger Health System</name>
+      <address>
+        <city>Danville</city>
+        <state>Pennsylvania</state>
+        <zip>17822</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Mortazavi BJ, Downing NS, Bucholz EM, Dharmarajan K, Manhapra A, Li SX, Negahban SN, Krumholz HM. Analysis of Machine Learning Techniques for Heart Failure Readmissions. Circ Cardiovasc Qual Outcomes. 2016 Nov;9(6):629-640. doi: 10.1161/CIRCOUTCOMES.116.003039. Epub 2016 Nov 8.</citation>
+    <PMID>28263938</PMID>
+  </reference>
+  <reference>
+    <citation>Bhavnani SP, Parakh K, Atreja A, Druz R, Graham GN, Hayek SS, Krumholz HM, Maddox TM, Majmudar MD, Rumsfeld JS, Shah BR. 2017 Roadmap for Innovation-ACC Health Policy Statement on Healthcare Transformation in the Era of Digital Health, Big Data, and Precision Health: A Report of the American College of Cardiology Task Force on Health Policy Statements and Systems of Care. J Am Coll Cardiol. 2017 Nov 28;70(21):2696-2718. doi: 10.1016/j.jacc.2017.10.018.</citation>
+    <PMID>29169478</PMID>
+  </reference>
+  <reference>
+    <citation>Haga K, Murray S, Reid J, Ness A, O'Donnell M, Yellowlees D, Denvir MA. Identifying community based chronic heart failure patients in the last year of life: a comparison of the Gold Standards Framework Prognostic Indicator Guide and the Seattle Heart Failure Model. Heart. 2012 Apr;98(7):579-83. doi: 10.1136/heartjnl-2011-301021.</citation>
+    <PMID>22422744</PMID>
+  </reference>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>January 11, 2019</study_first_submitted>
+  <study_first_submitted_qc>January 14, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 15, 2019</study_first_posted>
+  <last_update_submitted>July 10, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 10, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 14, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Heart Failure</keyword>
+  <keyword>Machine Learning</keyword>
+  <keyword>Medication Therapy Management</keyword>
+  <keyword>Supervised Machine Learning</keyword>
+  <keyword>Population Health Management</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Failure</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Upon reasonable request to the PI, IPD (individual patient data) related to evaluation of the primary outcomes (group designation, vital status, number of hospital admissions, statuses of care gaps) will be made available to other researchers.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

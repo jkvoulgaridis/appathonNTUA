@@ -1,0 +1,472 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04395482</url>
+  </required_header>
+  <id_info>
+    <org_study_id>TAC-COVID19</org_study_id>
+    <nct_id>NCT04395482</nct_id>
+  </id_info>
+  <brief_title>Lung CT Scan Analysis of SARS-CoV2 Induced Lung Injury</brief_title>
+  <acronym>TAC-COVID19</acronym>
+  <official_title>Lung CT Scan Analysis of SARS-CoV2 Induced Lung Injury by Machine Learning: a Multicenter Retrospective Cohort Study.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Milano Bicocca</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Milano Bicocca</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a multicenter observational retrospective cohort study that aims to study the
+      morphological characteristics of the lung parenchyma of SARS-CoV2 positive patients
+      identifiable in patterns through artificial intelligence techniques and their impact on
+      patient outcome.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      BACKGROUND:
+
+      In February, the first case of SARS-CoV2 positive patient was recorded in Lombardy (Italy), a
+      virus capable of causing a severe form of acute respiratory failure called Coronavirus
+      Disease 2019 (COVID-19).
+
+      Qualitative assessments of lung morphology have been identified to describe macroscopic
+      characteristics of this infection upon admission and during the hospitalization of patients.
+
+      At the moment, there are no studies that have exhaustively described the parenchymal lung
+      damage induced by SARS-CoV2 by quantitative analysis.
+
+      The hypothesis of this study is that specific morphological and quantitative alterations of
+      the lung parenchyma assessed by means of CT scan in patients suffering from severe
+      respiratory insufficiency induced by SARS-CoV2 may have an impact on the severity of the
+      degree of alteration of the respiratory exchanges (oxygenation and clearance of the CO2) and
+      have an impact on patient outcome.
+
+      The presence of characteristic lung morphological patterns assessed by CT scan could allow
+      the recognition of specific patient clusters who can benefit from intensive treatment
+      differently, making a significant contribution to stratifying the severity of patients and
+      their risk of mortality.
+
+      This is an exploratory clinical descriptive study of lung CT images in a completely new
+      patient population who are nucleic acid amplification test confirmed SARS-CoV2 positive.
+
+      SAMPLE SIZE (n. patients):
+
+      The study will collect all patients with the inclusion criteria; a total of 500 patients are
+      expected to be collected.
+
+      About 80 patients will be enrolled for each local experimental center.
+
+      The following patient data will be analyzed:
+
+        -  blood gas analytical data assigned to the CT scan, checks performed upon entering the
+           hospital, at the time of performing the CT scan, admission to intensive care and 7 days
+           after entry
+
+        -  patient characteristics such as age, gender and body mass index (BMI)
+
+        -  comorbidity
+
+        -  presence of organ dysfunction with the Sequential Organ Failure Assessment (SOFA)
+
+        -  laboratory data relating to hospital admission and symptoms prior to hospitalization.
+
+        -  ventilator and hemodynamic parameters upon entering the hospital, at the time of
+           carrying out the CT scan, upon admission to intensive care and 7 days after entry.
+
+      The machine learning approach of lung CT scan analysis will aim at evaluating:
+
+        1. Quantitative and qualitative lung alterations;
+
+        2. The stratification of such morphological characteristics in specific morphological lung
+           clusters identified by the means of artificial intelligence using deep learning
+           algorithms.
+
+      ETHICAL ASPECTS:
+
+      The lung CT scan images will be collected and anonymized. Images will be subsequently sent by
+      University of Milano-Bicocca Institutional google drive account to the University of
+      Pennsylvania, Department of Anesthesiology and Critical Care and the Department of Radiology
+      in a deidentified format for advanced quantitative analysis taking advantage of artificial
+      intelligence using deep learning algorithms.
+
+      The data will be collected in a pseudo-anonymous way through paper Case Report Form (CRF) and
+      analyzed by the scientific coordinator of the project.
+
+      Given the retrospective nature of the study and in the presence of technical difficult in
+      obtaining an informed consent of patients in this period of pandemic emergency, informed
+      consent will be waived.
+
+      STATISTICAL ANALYSIS:
+
+      Continuous data will be expressed as mean ± standard deviation or median and interquartile
+      range, according to data distribution that will be evaluated by the Shapiro-Wilk test.
+      Categorical variables will be expressed as proportions (frequency).
+
+      The deep learning segmentation algorithm will segment the lung parenchyma from the entire CT
+      lung. Lung volume, lung weight and opacity intensity distribution analysis will be applied.
+      Second, clustering analysis to stratify the patients will be performed. Both an intensity and
+      a spatial clustering algorithm will be tested. Third, a model will be trained to predict the
+      injury progression using the images and all other patient data. Statistical significance will
+      be considered in the presence of a p&lt;0.05 (two-tailed).
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 15, 2020</start_date>
+  <completion_date type="Anticipated">October 15, 2020</completion_date>
+  <primary_completion_date type="Anticipated">June 15, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>A qualitative analysis of parenchymal lung damage induced by COVID-19</measure>
+    <time_frame>Until patient discharge from the hospital (approximately 6 months)</time_frame>
+    <description>Describe the parenchymal lung damage induced by COVID-19 through a qualitative analysis with chest CT through artificial intelligence techniques.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>A quantitative analysis of parenchymal lung damage induced by COVID-19</measure>
+    <time_frame>Until patient discharge from the hospital (approximately 6 months)</time_frame>
+    <description>Describe the parenchymal lung damage induced by COVID-19 through a quantitative analysis with chest CT through artificial intelligence techniques.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The potential impact of parenchymal morphological CT scans in patients with severe moderate respiratory failure.</measure>
+    <time_frame>Until patient discharge from the hospital (approximately 6 months)</time_frame>
+    <description>The potential impact of parenchymal morphological CT scans in patients with severe moderate respiratory failure assessed as intensive care mortality.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The potential impact of parenchymal morphological CT scans in patients with severe moderate respiratory failure.</measure>
+    <time_frame>Until patient discharge from the hospital (approximately 6 months)</time_frame>
+    <description>The potential impact of parenchymal morphological CT scans in patients with severe moderate respiratory failure assessed as hospital mortality.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The potential impact of parenchymal morphological CT scans in patients with severe moderate respiratory failure.</measure>
+    <time_frame>Until patient discharge from the hospital (approximately 6 months)</time_frame>
+    <description>The potential impact of parenchymal morphological CT scans in patients with severe moderate respiratory failure assessed as days free from mechanical ventilation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Automated segmentation of lung scans of patients with COVID-19 and ARDS.</measure>
+    <time_frame>Until patient discharge from the hospital (approximately 6 months)</time_frame>
+    <description>The hypothesis is that the uso of deep neural network models for lung segmentation in Acute Respiratory Distress Syndrome (ARDS) in animal models and Chronic Obstructive Pulmonary Disease (COPD) in patients that could be applied to self-segment the lungs of COVID-19 patients through a learning transfer mechanism with artificial intelligence.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Knowledge of chest CT features in COVID-19 patients and their detail through the use of machine learning and other quantitative techniques.</measure>
+    <time_frame>Until patient discharge from the hospital (approximately 6 months)</time_frame>
+    <description>Expand the knowledge of chest CT features in COVID-19 patients and their detail through the use of machine learning and other quantitative techniques comparing CT patterns of COVID-19 patients to those of patients with ARDS.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The ability within which the analysis of artificial intelligence that uses deep learning models can be used to predict clinical outcomes</measure>
+    <time_frame>Until patient discharge from the hospital (approximately 6 months)</time_frame>
+    <description>Determine the capacity within which the artificial intelligence analysis that uses deep learning models can be used to predict clinical outcomes from the analysis of the characteristics of the chest CT obtained within 7 days of hospital admission; combining quantitative CT data with clinical data.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>covid19</condition>
+  <arm_group>
+    <arm_group_label>covid-19 pneumonia related patients</arm_group_label>
+    <description>The study aims to collect the highest number possible of lung CT scan images performed in patients with COVID-19, in order to obtain a large sample size that will allow us to characterize the extent of lung injury, the presence of specific patterns of lung alteration, and their potential association with the outcome of patients - in view of assisting the medical staff in better understanding the grade of the severity impairment in these patients which might be potentially candidates to more intensive therapeutic strategies.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Lung CT scan analysis in COVID-19 patients</intervention_name>
+    <description>This research project will evaluate the morphological characteristics of the lung by CT scan analysis in COVID-19 patients which will be identified as specific patterns using artificial intelligence technology and their impact on outcome.</description>
+    <arm_group_label>covid-19 pneumonia related patients</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The goal is to collect as many lung CT scan images as possible in patients with COVID-19;
+        according to the preliminary evaluation estimate, a total of 500 patients are expected to
+        be collected.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria (COVID-19 cohort):
+
+          -  Patients 18 years old or above;
+
+          -  Positive confirmation with nucleic acid amplification test or serology of SARS-CoV2 by
+             naso-pharyngeal swab, bronchoaspirate sample or bronchoalveolar lavage;
+
+          -  Lung CT scan performed within 7 days of hospital admission;
+
+        Inclusion criteria (ARDS cohort):
+
+          -  Patients above 18 years old or above;
+
+          -  Patients admitted to the hospital with a diagnosis of ARDS according to the Berlin
+             criteria;
+
+          -  Lung CT scan performed within 7 days of ARDS diagnosis;
+
+        Exclusion criteria (ARDS cohort):
+
+        ● Positive confirmation with nucleic acid amplification test or serology of SARS-CoV2 by
+        naso-pharyngeal swab, bronchoaspirate sample or bronchoalveolar lavage
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Emanuele Rezoagli</last_name>
+    <phone>039/2339323</phone>
+    <email>emanuele.rezoagli@unimib.it</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Giacomo Bellani</last_name>
+    <phone>+39 0392339269</phone>
+    <email>giacomo.bellani1@unimib.it</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Ospedale Papa Giovanni XXIII</name>
+      <address>
+        <city>Bergamo</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Luca Lorini</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Policlinico San Marco-San Donato group</name>
+      <address>
+        <city>Bergamo</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Giovanni Vitale</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Azienda Ospedaliero-Universitaria di Ferrara</name>
+      <address>
+        <city>Ferrara</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Savino Spadaro</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>ASST di Lecco Ospedale Alessandro Manzoni</name>
+      <address>
+        <city>Lecco</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Mario Tavola</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>ASST Melegnano-Martesana, Ospedale Santa Maria delle Stelle</name>
+      <address>
+        <city>Melzo</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Matteo Subert</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>ASST Monza</name>
+      <address>
+        <city>Monza</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Giacomo Bellani</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>AUSL Romagna-Ospedale Infermi di Rimini</name>
+      <address>
+        <city>Rimini</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Giuseppe Nardi</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Istituto per la Sicurezza Sociale-Ospedale della Repubblica di San Marino</name>
+      <address>
+        <city>San Marino</city>
+        <country>San Marino</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Massimo Arlotti</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+    <country>San Marino</country>
+  </location_countries>
+  <link>
+    <url>http://coronavirus.jhu.edu/map.html</url>
+    <description>Related Info</description>
+  </link>
+  <link>
+    <url>http://www.cnr.it/it/nota-stampa/n-9281/analisi-numerica-dei-dati-relativi-alla-diffusione-del-covid-19-in-italia-e-nel-mondo</url>
+    <description>Related Info</description>
+  </link>
+  <link>
+    <url>http://www.whitehouse.gov/presidential-actions/proclamation-declaring-national-emergency-concerning-novel-coronavirus-disease-covid-19-outbreak.</url>
+    <description>Related Info</description>
+  </link>
+  <reference>
+    <citation>Grasselli G, Pesenti A, Cecconi M. Critical Care Utilization for the COVID-19 Outbreak in Lombardy, Italy: Early Experience and Forecast During an Emergency Response. JAMA. 2020 Mar 13. doi: 10.1001/jama.2020.4031. [Epub ahead of print]</citation>
+    <PMID>32167538</PMID>
+  </reference>
+  <reference>
+    <citation>Remuzzi A, Remuzzi G. COVID-19 and Italy: what next? Lancet. 2020 Apr 11;395(10231):1225-1228. doi: 10.1016/S0140-6736(20)30627-9. Epub 2020 Mar 13. Review.</citation>
+    <PMID>32178769</PMID>
+  </reference>
+  <reference>
+    <citation>Dong E, Du H, Gardner L. An interactive web-based dashboard to track COVID-19 in real time. Lancet Infect Dis. 2020 May;20(5):533-534. doi: 10.1016/S1473-3099(20)30120-1. Epub 2020 Feb 19. Erratum in: Lancet Infect Dis. 2020 Jun 12;:.</citation>
+    <PMID>32087114</PMID>
+  </reference>
+  <reference>
+    <citation>Zhou F, Yu T, Du R, Fan G, Liu Y, Liu Z, Xiang J, Wang Y, Song B, Gu X, Guan L, Wei Y, Li H, Wu X, Xu J, Tu S, Zhang Y, Chen H, Cao B. Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study. Lancet. 2020 Mar 28;395(10229):1054-1062. doi: 10.1016/S0140-6736(20)30566-3. Epub 2020 Mar 11. Erratum in: Lancet. 2020 Mar 28;395(10229):1038. Lancet. 2020 Mar 28;395(10229):1038.</citation>
+    <PMID>32171076</PMID>
+  </reference>
+  <reference>
+    <citation>Zhou S, Wang Y, Zhu T, Xia L. CT Features of Coronavirus Disease 2019 (COVID-19) Pneumonia in 62 Patients in Wuhan, China. AJR Am J Roentgenol. 2020 Jun;214(6):1287-1294. doi: 10.2214/AJR.20.22975. Epub 2020 Mar 5.</citation>
+    <PMID>32134681</PMID>
+  </reference>
+  <reference>
+    <citation>Xiong Y, Sun D, Liu Y, Fan Y, Zhao L, Li X, Zhu W. Clinical and High-Resolution CT Features of the COVID-19 Infection: Comparison of the Initial and Follow-up Changes. Invest Radiol. 2020 Jun;55(6):332-339. doi: 10.1097/RLI.0000000000000674.</citation>
+    <PMID>32134800</PMID>
+  </reference>
+  <reference>
+    <citation>Salehi S, Abedi A, Balakrishnan S, Gholamrezanezhad A. Coronavirus Disease 2019 (COVID-19): A Systematic Review of Imaging Findings in 919 Patients. AJR Am J Roentgenol. 2020 Jul;215(1):87-93. doi: 10.2214/AJR.20.23034. Epub 2020 Mar 14.</citation>
+    <PMID>32174129</PMID>
+  </reference>
+  <reference>
+    <citation>Dai WC, Zhang HW, Yu J, Xu HJ, Chen H, Luo SP, Zhang H, Liang LH, Wu XL, Lei Y, Lin F. CT Imaging and Differential Diagnosis of COVID-19. Can Assoc Radiol J. 2020 May;71(2):195-200. doi: 10.1177/0846537120913033. Epub 2020 Mar 4.</citation>
+    <PMID>32129670</PMID>
+  </reference>
+  <reference>
+    <citation>Li Y, Xia L. Coronavirus Disease 2019 (COVID-19): Role of Chest CT in Diagnosis and Management. AJR Am J Roentgenol. 2020 Jun;214(6):1280-1286. doi: 10.2214/AJR.20.22954. Epub 2020 Mar 4.</citation>
+    <PMID>32130038</PMID>
+  </reference>
+  <reference>
+    <citation>Xie X, Zhong Z, Zhao W, Zheng C, Wang F, Liu J. Chest CT for Typical 2019-nCoV Pneumonia: Relationship to Negative RT-PCR Testing. Radiology. 2020 Feb 12:200343. doi: 10.1148/radiol.2020200343. [Epub ahead of print]</citation>
+    <PMID>32049601</PMID>
+  </reference>
+  <reference>
+    <citation>Ai T, Yang Z, Hou H, Zhan C, Chen C, Lv W, Tao Q, Sun Z, Xia L. Correlation of Chest CT and RT-PCR Testing in Coronavirus Disease 2019 (COVID-19) in China: A Report of 1014 Cases. Radiology. 2020 Feb 26:200642. doi: 10.1148/radiol.2020200642. [Epub ahead of print]</citation>
+    <PMID>32101510</PMID>
+  </reference>
+  <reference>
+    <citation>Fang Y, Zhang H, Xie J, Lin M, Ying L, Pang P, Ji W. Sensitivity of Chest CT for COVID-19: Comparison to RT-PCR. Radiology. 2020 Aug;296(2):E115-E117. doi: 10.1148/radiol.2020200432. Epub 2020 Feb 19.</citation>
+    <PMID>32073353</PMID>
+  </reference>
+  <reference>
+    <citation>Bai HX, Hsieh B, Xiong Z, Halsey K, Choi JW, Tran TML, Pan I, Shi LB, Wang DC, Mei J, Jiang XL, Zeng QH, Egglin TK, Hu PF, Agarwal S, Xie F, Li S, Healey T, Atalay MK, Liao WH. Performance of radiologists in differentiating COVID-19 from viral pneumonia on chest CT. Radiology. 2020 Mar 10:200823. doi: 10.1148/radiol.2020200823. [Epub ahead of print]</citation>
+    <PMID>32155105</PMID>
+  </reference>
+  <reference>
+    <citation>Pan F, Ye T, Sun P, Gui S, Liang B, Li L, Zheng D, Wang J, Hesketh RL, Yang L, Zheng C. Time Course of Lung Changes at Chest CT during Recovery from Coronavirus Disease 2019 (COVID-19). Radiology. 2020 Jun;295(3):715-721. doi: 10.1148/radiol.2020200370. Epub 2020 Feb 13.</citation>
+    <PMID>32053470</PMID>
+  </reference>
+  <reference>
+    <citation>Chung M, Bernheim A, Mei X, Zhang N, Huang M, Zeng X, Cui J, Xu W, Yang Y, Fayad ZA, Jacobi A, Li K, Li S, Shan H. CT Imaging Features of 2019 Novel Coronavirus (2019-nCoV). Radiology. 2020 Apr;295(1):202-207. doi: 10.1148/radiol.2020200230. Epub 2020 Feb 4.</citation>
+    <PMID>32017661</PMID>
+  </reference>
+  <reference>
+    <citation>Bernheim A, Mei X, Huang M, Yang Y, Fayad ZA, Zhang N, Diao K, Lin B, Zhu X, Li K, Li S, Shan H, Jacobi A, Chung M. Chest CT Findings in Coronavirus Disease-19 (COVID-19): Relationship to Duration of Infection. Radiology. 2020 Jun;295(3):200463. doi: 10.1148/radiol.2020200463. Epub 2020 Feb 20.</citation>
+    <PMID>32077789</PMID>
+  </reference>
+  <reference>
+    <citation>Huang C, Wang Y, Li X, Ren L, Zhao J, Hu Y, Zhang L, Fan G, Xu J, Gu X, Cheng Z, Yu T, Xia J, Wei Y, Wu W, Xie X, Yin W, Li H, Liu M, Xiao Y, Gao H, Guo L, Xie J, Wang G, Jiang R, Gao Z, Jin Q, Wang J, Cao B. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet. 2020 Feb 15;395(10223):497-506. doi: 10.1016/S0140-6736(20)30183-5. Epub 2020 Jan 24. Erratum in: Lancet. 2020 Jan 30;:.</citation>
+    <PMID>31986264</PMID>
+  </reference>
+  <reference>
+    <citation>Shi H, Han X, Jiang N, Cao Y, Alwalid O, Gu J, Fan Y, Zheng C. Radiological findings from 81 patients with COVID-19 pneumonia in Wuhan, China: a descriptive study. Lancet Infect Dis. 2020 Apr;20(4):425-434. doi: 10.1016/S1473-3099(20)30086-4. Epub 2020 Feb 24.</citation>
+    <PMID>32105637</PMID>
+  </reference>
+  <reference>
+    <citation>Guo L, Wei D, Zhang X, Wu Y, Li Q, Zhou M, Qu J. Clinical Features Predicting Mortality Risk in Patients With Viral Pneumonia: The MuLBSTA Score. Front Microbiol. 2019 Dec 3;10:2752. doi: 10.3389/fmicb.2019.02752. eCollection 2019. Erratum in: Front Microbiol. 2020 Jun 09;11:1304.</citation>
+    <PMID>31849894</PMID>
+  </reference>
+  <reference>
+    <citation>Wang D, Hu B, Hu C, Zhu F, Liu X, Zhang J, Wang B, Xiang H, Cheng Z, Xiong Y, Zhao Y, Li Y, Wang X, Peng Z. Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus-Infected Pneumonia in Wuhan, China. JAMA. 2020 Feb 7. doi: 10.1001/jama.2020.1585. [Epub ahead of print]</citation>
+    <PMID>32031570</PMID>
+  </reference>
+  <reference>
+    <citation>Chen N, Zhou M, Dong X, Qu J, Gong F, Han Y, Qiu Y, Wang J, Liu Y, Wei Y, Xia J, Yu T, Zhang X, Zhang L. Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. Lancet. 2020 Feb 15;395(10223):507-513. doi: 10.1016/S0140-6736(20)30211-7. Epub 2020 Jan 30.</citation>
+    <PMID>32007143</PMID>
+  </reference>
+  <reference>
+    <citation>Yang X, Yu Y, Xu J, Shu H, Xia J, Liu H, Wu Y, Zhang L, Yu Z, Fang M, Yu T, Wang Y, Pan S, Zou X, Yuan S, Shang Y. Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study. Lancet Respir Med. 2020 May;8(5):475-481. doi: 10.1016/S2213-2600(20)30079-5. Epub 2020 Feb 24. Erratum in: Lancet Respir Med. 2020 Apr;8(4):e26.</citation>
+    <PMID>32105632</PMID>
+  </reference>
+  <reference>
+    <citation>Ki M; Task Force for 2019-nCoV. Epidemiologic characteristics of early cases with 2019 novel coronavirus (2019-nCoV) disease in Korea. Epidemiol Health. 2020;42:e2020007. doi: 10.4178/epih.e2020007. Epub 2020 Feb 9.</citation>
+    <PMID>32035431</PMID>
+  </reference>
+  <verification_date>May 2020</verification_date>
+  <study_first_submitted>May 18, 2020</study_first_submitted>
+  <study_first_submitted_qc>May 19, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 20, 2020</study_first_posted>
+  <last_update_submitted>May 21, 2020</last_update_submitted>
+  <last_update_submitted_qc>May 21, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 26, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Lung injury</keyword>
+  <keyword>sars-covid-2</keyword>
+  <keyword>coronavirus infection</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lung Injury</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

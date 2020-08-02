@@ -1,0 +1,369 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03813875</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2017-12-024BC</org_study_id>
+    <nct_id>NCT03813875</nct_id>
+  </id_info>
+  <brief_title>Modeling and Application of Triple Drug Response Surface Models</brief_title>
+  <official_title>Triple Drug Response Surface Modeling for Patients Receiving Airway Managements</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Taipei Veterans General Hospital, Taiwan</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Taipei Veterans General Hospital, Taiwan</source>
+  <oversight_info>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Demand for anesthesiologists outside the operating rooms is increasing. Surgeons,
+      radiologists, endoscopists and other interventionists are performing procedures with greater
+      complexity, sometimes accompanied by greater pain and therefore require some sedation. This
+      growing need place a pivotal role on careful handling the delivered drugs. Specifically, the
+      investigators wish to know how different classes of drugs interact in order for us to titrate
+      the effects more precisely. Early studies used isobolograms and concentration effect curves
+      as their tools but these methods are limited and incapable of making continuous bedside
+      monitoring. Researchers integrated these methodologies mathematically and developed response
+      surface models. It's becoming a very convenient tool to assess drug interactions. Drug
+      interactions are visualized with a three dimensional graph, or a surface. Users will only
+      need the calculated drug concentrations and a predicted loss of response probability will be
+      given after a model is built. The process of model construction is complex and time demanding
+      process. Our team has successfully built a dual-drug model for midazolam and alfentanil and
+      several works have been published in renowned anesthesia journals. Dual-drug models are
+      simple but their use is very limited. The investigators often use more than two drugs during
+      practice and a three-drug model will be a great leap to monitor clinical pharmacodynamics.
+      The investigators will collect vital signs, anesthestic depth (BIS=bispectral index,
+      analgesia nociception index (ANI)), drug dosing (propofol, midazolam and alfentanil), and the
+      MOAA/S (modified observer's assessment/alertness score) scores in patient who are receive
+      routine general anesthesia under laryngeal mask or sedation for TEE (transesophageal
+      echocardiography) examinations. Patient's consent will be obtained prior to enrollment. These
+      recordings will be pooled into computer program for model construction. A novel model in the
+      field of anesthesia was chosen and modified. As pioneers in this field in Taiwan, the
+      investigators plan to perform a series of analysis using a novel model the investigators have
+      built to look into detail on how drugs interact with each other. A safety boundary to avoid
+      excessive respiratory depression can be drawn by the model. The main goal is to provide
+      sedation that gives precision, patient comfort, rapid return of consciousness and safety
+      based on the triple-drug response surface model.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is an observational study of the routine clinical practice with no specific additional
+      interventions required.
+
+      Data acquisition (TEE patients)
+
+        1. After screening for eligible patients, protocol and study details will be thoroughly
+           explained to them.
+
+        2. Strict fasting protocols were followed. A 22-gauge intravenous catheter was secured for
+           drug administration. Each patient received standard anesthetic care monitors comprised
+           of ECG (electrocardiography), oxygenation saturation (SpO2) and NIBP (non-invasive blood
+           pressure). ECG and SpO2 (oxygenation saturation) were monitored continuously and NIBP
+           were measured every 5 minutes. Supplemental oxygen (3~5 L/m) was given via nasal
+           cannula, and SpO2 (oxygenation saturation) maintained above 90%. Intravenous bolus
+           midazolam, alfentanil and propofol were given according to the anesthesiologist's
+           preferences. Reference dosage range for midazolam is 0~5mg, alfentanil 0~1000mcg and
+           propofol 0~60mg. Anesthetic depth was monitored with BIS and analgesia nociception index
+           (ANI). BIS and ANI (analgesia nociception index) were for monitoring purposes only.
+
+        3. Instrumentation began after loss of response as evaluated by the anesthesiologist with
+           the modified observer's assessment/alertness scale (MOAA/S). Intolerable desaturation
+           was managed with mask ventilation or insertion of a nasal airway. An MOAA/S score lesser
+           than 2 was considered loss of response (LOR) and fit for instrumentation. MOAA/S score
+           would be recorded at induction, instrumentation, and emergence phase. Recordings will be
+           added if patient had a MOAA/S score greater than 2. ANI (analgesia nociception index)
+           and forehead BIS monitors will be used as an adjunct to assess anesthetic depth.
+           Additional drug boluses were given if the patient expresses pain or excessive movements
+           observed.
+
+        4. At the end of the procedure, the patient was observed until return of consciousness
+           (MOAA/S &gt; 5). The patients will be randomly divided into a model training group and a
+           validation group after data acquisition by computer randomization using computer clock
+           as seed.
+
+      Data acquisition (Laryngeal mask patients)
+
+        1. After screening for eligible patients, protocol and study details will be thoroughly
+           explained to them.
+
+        2. Strict fasting protocols were followed. A 22 or 20-gauge intravenous catheter was
+           secured for drug administration. Each patient received standard anesthetic care monitors
+           comprised of electrocardiography (ECG), SpO2 (oxygen saturation) and non-invasive blood
+           pressure (NIBP). ECG and SpO2 (oxygen saturation) were monitored continuously and NIBP
+           were measured every 5 minutes. Intravenous fentanyl and propofol were given according to
+           the anesthesiologist's preferences. Reference dosage range for fentanyl 0~150mcg and
+           propofol 0~200mg. Anesthetic depth was monitored with BIS and ANI (analgesia nociception
+           index). BIS and ANI were for monitoring purposes only.
+
+        3. Instrumentation began after loss of response as evaluated by the anesthesiologist with
+           the MOAA/S score. A MOAA/S score lesser than 2 was considered LOR (loss of response) and
+           fit for instrumentation. After LMA placement, sevoflurane was started at 2~3% with a
+           fresh gas flow at 1~6 L/m. The end-tidal sevoflurane concentration would be maintained
+           above 0.7 minimal alveolar concentration to avoid awareness. MOAA/S score would be
+           recorded at induction, instrumentation, during skin incision/closure and emergence
+           phase. Recordings would be added if patient had a MOAA/S score greater than 2. ANI
+           (analgesia nociception index) and forehead BIS monitors would be used as an adjunct to
+           assess anesthetic depth. Additional drug boluses were given if the patient expresses
+           pain or excessive movements observed.
+
+        4. At the end of the procedure, LMA was removed if the patient was breathing smoothly. The
+           patient was observed until return of consciousness (MOAA/S &gt; 5). The patients will be
+           randomly divided into a model training group and a validation group after data
+           acquisition by computer randomization using computer clock as seed.
+
+      Model building, assessment and validation (both groups)
+
+        1. Collected data were fed to a pharmacokinetic simulation software (TIVA trainer Version
+           9.1) to calculate second-by-second plasma and effect-site drug concentration changes for
+           all three drugs. The training patient group is used for model training. The bootstrap
+           technique is used with 2000 iterations. Model fit was optimized using -2 Log likelihood
+           (-2LL).
+
+        2. MOAA/S, BIS and ANI (analgesia nociception index) models would be constructed.
+
+        3. The results are validated with the validation patient data to confirm its clinical
+           utility. Receiver operating characteristics (ROC) curve analysis is used to assess the
+           quality of model prediction. ROC and area under the curve (AUC) will be compared between
+           the training and validation group.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 12, 2019</start_date>
+  <completion_date type="Anticipated">July 2020</completion_date>
+  <primary_completion_date type="Anticipated">July 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Modified Observer's Assessment Alertness Scale(MOAA/S) score and changes between specified timepoints.</measure>
+    <time_frame>Specific events during the surgical or examination procedure (LMA insertion, TEE insertion, skin incision, skin closure, emergence, and patient movements).Reference time: TEE 15 minutes, LMA 2 hours.</time_frame>
+    <description>Our study records these parameters on an observational basis. Anesthetic management remains identical regardless of patient participation or not.
+Lack of patient movement during TEE(transesophageal echocardiography) or LMA (laryngeal mask airway) insertion is considered Modified Observer's Assessment Alertness Scale score(MOAA/S) &lt; 1.
+Return of consciousness is defined by a score of MOAA/S greater than 4. MOAA/S is a unitless score between 0 and 5 and is applicable in different anesthesia settings such as sedation for gastrointestinal endoscopy or awake craniotomies. Different procedures do not give different MOAA/S units.
+The score is a part of anesthetic depth evaluation and the recordings are aggregated to perform fit in a mathematic model.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>BIS (bispectral index) value and changes between specified timepoints.</measure>
+    <time_frame>BIS will recorded continuously during the total anesthesia time (from induction to emergence). Reference time: TEE 15 minutes, LMA 2 hours..</time_frame>
+    <description>Our study records these parameters on an observational basis. Anesthetic management remains identical regardless of patient participation or not. BIS values are recorded throughout the surgery or TEE examination to correlate with clinical observations. The recorded BIS reading is uniform and contains only a unitless number ranging from 0 to 100. Different procedures do not give different units. The value is a part of anesthetic depth evaluation and the recordings are aggregated to perform fit in a mathematic model.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ANI (Analgesia nociception index) and changes between specified timepoints.</measure>
+    <time_frame>ANI will recorded continuously during the total anesthesia time (from induction to emergence).Reference time: TEE 15 minutes, LMA 2 hours..</time_frame>
+    <description>Our study records these parameters on an observational basis. Anesthetic management remains identical regardless of patient participation or not. ANI values are recorded throughout the surgery or TEE examination to correlate with clinical observations. The recorded ANI reading is uniform and contains only a unitless number ranging from 0 to 100. Different procedures do not give different units. The index is a part of anesthetic depth evaluation and the recordings are aggregated to perform fit in a mathematic model.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">120</enrollment>
+  <condition>Pharmacodynamics</condition>
+  <condition>Drug Interactions</condition>
+  <arm_group>
+    <arm_group_label>TEE (transesophageal echocardiography)</arm_group_label>
+    <description>This is a purely observational study of the routine anesthestic practice involving the simultaneous use of three drugs.
+TEE group: the routine sedation medication for the procedure include midazolam (approximately 1~5mg per patient), alfentanil (200~1000mcg per patient) and propofol (small boluses of 10~20mg on demand, total dose usually below 100mg per patient depending on the overall examination timespan) all in intravenous boluses. Patients are monitored with standard monitors (electrocardiography, Non-invasive blood pressure, and pulse oximetry), bispectral index (BIS) and analgesia nociception index (ANI). Patients are observed in the recovery unit with designate nursing staff until full conscious recovery before discharge.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>LMA (laryngeal mask airway)</arm_group_label>
+    <description>This is a purely observational study of the routine anesthestic practice involving the simultaneous use of three drugs.
+LMA group: routine induction medications include propofol (50~200mg per patient), fentanyl (50~150mcg per patient) and sevoflurane (machine setting at 1.5% to 3% according to clinical needs). Patients are monitored with standard monitors (electrocardiography, Non-invasive blood pressure, and pulse oximetry), bispectral index (BIS) and analgesia nociception index (ANI). Patients are observed in the recovery unit with designate nursing staff until full conscious recovery before discharge.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Fentanyl</intervention_name>
+    <description>The investigators assess the depth of anesthesia based on bispectral index (BIS) and modified observer's assessment/alertness scale (MOAA/S) after routine drug regimen is given. BIS is maintained between 40 and 60 and MOAA/S less than 1. The drug doses are given as a part of routine anesthesia practice and is identical regardless of study participation. Typical fentanyl ranged from 0~200mcg according to patient condition. The timing and doses are recorded for backend analysis. At the conclusion of the surgery, the patient is observed in the operation room until return of consciousness before sending them to the recovery unit.</description>
+    <arm_group_label>LMA (laryngeal mask airway)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Bispectral index (BIS) and analgesia nociception index (ANI)</intervention_name>
+    <description>After giving routine anesthetic medications, the investigators assess the depth of anesthesia based on bispectral index (BIS) and modified observer's assessment/alertness scale (MOAA/S). BIS is maintained between 40 - 60 and MOAA/S less than 2. The vital signs, BIS, analgesia nociception index (ANI) are recorded automatically and continuously through computerized software. ANI is used to observational purposes only and do not guide anesthetic management in our protocol. Upon conclusion of the surgery or examination, the patient is observed until return of consciousness (MOAA/S = 5) before sending them to the recovery unit.</description>
+    <arm_group_label>LMA (laryngeal mask airway)</arm_group_label>
+    <arm_group_label>TEE (transesophageal echocardiography)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>alfentanil</intervention_name>
+    <description>The investigators assess the depth of anesthesia based on bispectral index (BIS) and modified observer's assessment/alertness scale (MOAA/S) after routine drug regimen is given. BIS is maintained between 40 and 60 and MOAA/S less than 2. The drug doses are given as a part of routine anesthesia practice and is identical regardless of study participation. Typical alfentanil ranged from 0~1000mcg according to patient condition. The timing and doses are recorded for backend analysis. At the conclusion of the examination, the patient is observed in the examination room until return of consciousness before sending them to the recovery unit.</description>
+    <arm_group_label>TEE (transesophageal echocardiography)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Propofol</intervention_name>
+    <description>The investigators assess the depth of anesthesia based on bispectral index (BIS) and modified observer's assessment/alertness scale (MOAA/S) after routine drug regimen is given. BIS is maintained between 40 and 60 and MOAA/S less than 2. The drug doses are given as a part of routine anesthesia practice and is identical regardless of study participation. Typical propofol ranged from 0~200mg according to patient condition. The timing and doses are recorded for backend analysis. At the conclusion of the surgery or examination, the patient is observed in the surgery or examination room until return of consciousness before sending them to the recovery unit.</description>
+    <arm_group_label>LMA (laryngeal mask airway)</arm_group_label>
+    <arm_group_label>TEE (transesophageal echocardiography)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>sevoflurane</intervention_name>
+    <description>The investigators assess the depth of anesthesia based on bispectral index (BIS) and modified observer's assessment/alertness scale (MOAA/S) after routine triple drug regimen is given. BIS is maintained between 40 and 60 and MOAA/S less than 1. The drug doses are given as a part of routine anesthesia practice and is identical regardless of study participation. Typical sevoflurane concentration ranged from 0~3% according to patient condition. The timing and concentrations data are acquired for backend analysis. At the conclusion of the surgery, the patient is observed in the surgery room until return of consciousness before sending them to the recovery unit.</description>
+    <arm_group_label>LMA (laryngeal mask airway)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>midazolam</intervention_name>
+    <description>The investigators assess the depth of anesthesia based on bispectral index (BIS) and modified observer's assessment/alertness scale (MOAA/S) after routine drug regimen is given. BIS is maintained between 40 and 60 and MOAA/S less than 2. The drug doses are given as a part of routine anesthesia practice and is identical regardless of study participation. Typical midazolam ranged from 0~5mg in boluses according to patient condition. The timing and doses are recorded for backend analysis. At the conclusion of the examination, the patient is observed in the examination room until return of consciousness before sending them to the recovery unit.</description>
+    <arm_group_label>TEE (transesophageal echocardiography)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        TEE (transesophageal echocardiography) population: patients were sent to TEE examination
+        based on cardiologist's expertise. Patients who are willing to receive sedation are
+        candidates for enrollment and will be screened for eligibility.
+
+        LMA (laryngeal mask airway) population: The investigators plan to enroll patients who will
+        receive breast surgery under LMA as requested by general surgeons. These patients will be
+        screened for eligibility.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients aged between 20 and 85
+
+          -  Scheduled for transesophageal echocardiography (TEE) examination or surgery under
+             laryngeal mask airway (LMA) depending on study arm.
+
+          -  American Society of Anesthesiologists (ASA) physical status I to III.
+
+        Exclusion Criteria:
+
+        TEE arm:
+
+          -  hearing impairment
+
+          -  neurologic or behavioral disorders
+
+          -  habitual sedative use
+
+          -  alcoholism
+
+          -  allergy to midazolam, alfentanil or propofol
+
+          -  resting room air SpO2 &lt; 90%.
+
+          -  History of upper airway tumors
+
+        LMA arm
+
+          -  hearing impairment
+
+          -  neurologic or behavioral disorders
+
+          -  habitual sedative use
+
+          -  alcoholism
+
+          -  allergy to sevoflurane, fentanyl or propofol, resting room air
+
+          -  SpO2 &lt; 90%
+
+          -  poor dentition
+
+          -  non-fitting LMA
+
+          -  LMA insertion attempt greater than 2.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>85 Years</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Jing Yang Liou, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Taipei Veterans General Hospital; National Yang-Ming University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jing Yang Liou, MD</last_name>
+    <phone>886-2-2875-7549</phone>
+    <phone_ext>368</phone_ext>
+    <email>archmastertw@yahoo.com.tw</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Taipei Veterans General Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <zip>11217</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jing Yang Liou, MD</last_name>
+      <phone>+886-2-2875－7549</phone>
+      <phone_ext>368</phone_ext>
+      <email>archmastertw@yahoo.com.tw</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <reference>
+    <citation>Liou JY, Ting CK, Teng WN, Mandell MS, Tsou MY. Adaptation of non-linear mixed amount with zero amount response surface model for analysis of concentration-dependent synergism and safety with midazolam, alfentanil, and propofol sedation. Br J Anaesth. 2018 Jun;120(6):1209-1218. doi: 10.1016/j.bja.2018.01.041. Epub 2018 Apr 17.</citation>
+    <PMID>29793588</PMID>
+  </reference>
+  <reference>
+    <citation>Liou JY, Ting CK, Mandell MS, Chang KY, Teng WN, Huang YY, Tsou MY. Predicting the Best Fit: A Comparison of Response Surface Models for Midazolam and Alfentanil Sedation in Procedures With Varying Stimulation. Anesth Analg. 2016 Aug;123(2):299-308. doi: 10.1213/ANE.0000000000001299.</citation>
+    <PMID>27192475</PMID>
+  </reference>
+  <reference>
+    <citation>LaPierre CD, Johnson KB, Randall BR, Egan TD. A simulation study of common propofol and propofol-opioid dosing regimens for upper endoscopy: implications on the time course of recovery. Anesthesiology. 2012 Aug;117(2):252-62.</citation>
+    <PMID>22728781</PMID>
+  </reference>
+  <reference>
+    <citation>Ting CK, Johnson KB, Teng WN, Synoid ND, Lapierre C, Yu L, Westenskow DR. Response surface model predictions of wake-up time during scoliosis surgery. Anesth Analg. 2014 Mar;118(3):546-53. doi: 10.1213/ANE.0000000000000094.</citation>
+    <PMID>24557102</PMID>
+  </reference>
+  <reference>
+    <citation>Liou JY, Ting CK, Huang YY, Tsou MY. Previously published midazolam-alfentanil response surface model cannot predict patient response well in gastrointestinal endoscopy sedation. J Chin Med Assoc. 2016 Mar;79(3):146-51. doi: 10.1016/j.jcma.2015.11.002. Epub 2016 Jan 28.</citation>
+    <PMID>26831450</PMID>
+  </reference>
+  <reference>
+    <citation>[40 years of scientific-research work in medicine]. Patol Fiziol Eksp Ter. 1969 May-Jun;13(3):91-4. Russian.</citation>
+    <PMID>4907643</PMID>
+  </reference>
+  <reference>
+    <citation>Chernik DA, Gillings D, Laine H, Hendler J, Silver JM, Davidson AB, Schwam EM, Siegel JL. Validity and reliability of the Observer's Assessment of Alertness/Sedation Scale: study with intravenous midazolam. J Clin Psychopharmacol. 1990 Aug;10(4):244-51.</citation>
+    <PMID>2286697</PMID>
+  </reference>
+  <verification_date>June 2019</verification_date>
+  <study_first_submitted>October 29, 2018</study_first_submitted>
+  <study_first_submitted_qc>January 21, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 23, 2019</study_first_posted>
+  <last_update_submitted>June 14, 2019</last_update_submitted>
+  <last_update_submitted_qc>June 14, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 17, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Fentanyl</mesh_term>
+    <mesh_term>Midazolam</mesh_term>
+    <mesh_term>Alfentanil</mesh_term>
+    <mesh_term>Propofol</mesh_term>
+    <mesh_term>Sevoflurane</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

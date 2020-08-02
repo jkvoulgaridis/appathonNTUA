@@ -1,0 +1,183 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03872362</url>
+  </required_header>
+  <id_info>
+    <org_study_id>UM2019DLABGY1</org_study_id>
+    <nct_id>NCT03872362</nct_id>
+  </id_info>
+  <brief_title>Radiomics Multifactorial Biomarker for Pulmonary Nodules</brief_title>
+  <acronym>RMBPN</acronym>
+  <official_title>Radiomics and Clinical Variables Can Differentiate Malignant Nodules and Detect Invasive Adenocarcinoma in Pulmonary Nodules: a Multi-center Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Maastricht University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>The Affiliated Zhongshan Hospital of Dalian University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The Second Affiliated Hospital of Dalian Medical University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The Fifth Hospital of Dalian</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Maastricht University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators aim to investigate the utility of radiomics to differentiate malignant
+      nodules from benign nodules and invasive adenocarcinoma from non-invasive adenocarcinoma.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      With the development of computed tomography (CT) equipment and the increasing use of lung
+      cancer screening programs with low-dose CT, a growing number of early-stage lung cancers were
+      detected so that a large number of patients have undergone surgery.
+
+      Although a number of radiological studies have been used morphological signs so-called
+      semantic features to make a differential diagnosis, it is still hard to apply by clinician
+      because pulmonary nodules especially ground-glass nodules and small size nodules have
+      atypical radiology signs and have strong subjectivity from different observers. Recently,
+      CT-based radiomics, extracting the quantitative high-throughput features from medical images
+      and facilitating clinical decision-making system, showed a good performance to predict
+      diagnosis and prognosis of diverse cancer.
+
+      Therefore, the proposed project aims to develop and validate radiomics models based on CT
+      images to identify malignant nodules and then to discriminate the different types of lung
+      adenocarcinoma in patients with pulmonary nodules.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 11, 2018</start_date>
+  <completion_date type="Actual">February 1, 2019</completion_date>
+  <primary_completion_date type="Actual">January 11, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Malignant nodules classifier</measure>
+    <time_frame>30 days</time_frame>
+    <description>Model based on Radiomic that can differentiate malignant nodules from benign nodules.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Invasive adenocarcinoma classifier</measure>
+    <time_frame>30 days</time_frame>
+    <description>Model based on Radiomic that can differentiate invasive adenocarcinoma from non-invasive adenocarcinoma.</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Actual">800</enrollment>
+  <condition>Lung Neoplasms</condition>
+  <condition>Carcinoma, Non-Small-Cell Lung</condition>
+  <condition>Lung Diseases</condition>
+  <condition>Neoplasms</condition>
+  <condition>Pathology</condition>
+  <arm_group>
+    <arm_group_label>Training dataset</arm_group_label>
+    <description>No interventions</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>External validation1</arm_group_label>
+    <description>No interventions</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>External validation2</arm_group_label>
+    <description>No interventions</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>radiomics</intervention_name>
+    <description>The high-throughput extraction of large amounts of quantitative image features from medical images</description>
+    <arm_group_label>External validation1</arm_group_label>
+    <arm_group_label>External validation2</arm_group_label>
+    <arm_group_label>Training dataset</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with pulmonary nodules in the collaborating institutes.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  intraoperative frozen section diagnosis and final pathology diagnosis are available
+
+          -  preoperative standard non-enhanced CT is available
+
+          -  Pathologically confirmed
+
+        Exclusion Criteria:
+
+          -  with a previous history of radiation therapy, chemotherapy or biopsy
+
+          -  the time interval between the CT examination and surgery was more than two weeks
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Affiliated Zhongshan Hospital of Dalian University</name>
+      <address>
+        <city>Dalian</city>
+        <state>Liaoning</state>
+        <zip>116000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>January 2019</verification_date>
+  <study_first_submitted>March 11, 2019</study_first_submitted>
+  <study_first_submitted_qc>March 11, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 13, 2019</study_first_posted>
+  <last_update_submitted>March 11, 2019</last_update_submitted>
+  <last_update_submitted_qc>March 11, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 13, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Lung cancer</keyword>
+  <keyword>CT</keyword>
+  <keyword>Frozen sections</keyword>
+  <keyword>Radiomics</keyword>
+  <keyword>Lung adenocarcinoma</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma, Non-Small-Cell Lung</mesh_term>
+    <mesh_term>Lung Neoplasms</mesh_term>
+    <mesh_term>Multiple Pulmonary Nodules</mesh_term>
+    <mesh_term>Lung Diseases</mesh_term>
+    <mesh_term>Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

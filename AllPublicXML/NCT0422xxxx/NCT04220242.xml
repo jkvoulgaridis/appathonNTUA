@@ -1,0 +1,299 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04220242</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DT 2018 0240</org_study_id>
+    <nct_id>NCT04220242</nct_id>
+  </id_info>
+  <brief_title>Future of Colorectal Cancer Surgery</brief_title>
+  <acronym>FOCCuS1</acronym>
+  <official_title>Future of Colorectal Cancer Surgery 1- Development of an Artificial Intelligence Model for the Interpretation of Colorectal Cancer Fluorescence Signalling Using Indocyanine Green</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Mater Misericordiae University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Royal College of Surgeons, Ireland</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>IBM Research In Ireland</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Mater Misericordiae University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Colorectal cancer is the third most common cancer in the UK and Ireland, it is the second
+      commonest cancer in both men and women. Very often the diagnosis is made by either
+      endoscopy/colonoscopy and the surgical treatment is carried out by a minimally invasive
+      approach (&quot;Keyhole&quot;surgery). Tissue samples gathered by either approach are sent to the
+      pathologist to confirm the nature of their content. At present this takes some time (days)
+      and so the information cannot guide the procedure being done or indeed any other
+      investigations or processes that need implementation as soon as possible until the pathology
+      process is completed. Fluorescence guided surgery uses an approved dye along with approved
+      cameras to add more information regarding tissue characteristics then is available by normal
+      viewing alone. It has already been shown to be associated with an improvement in safety
+      related to healing after colorectal surgery and the investigators are sooning in a randomised
+      trial examining this in rectal cancer to prove it. Whether or not this trial proves this or
+      not, the ability to better understand tissue health during investigation/operation needs
+      further examination and development. In this study, the investigators will examine the role
+      of computer vision and machine learning in determining the nature of the tissue being seen in
+      real-time additive to the surgeons' own opinion and experience. This is needed because the
+      dynamic phases of fluorescence inflow into any tissue is difficult to interpret most
+      especially when it relates to microvasculature as is present within a cancer site or deposit.
+      By this means the investigators hope to better understand the dynamic perfusion in and out of
+      tissue whether normal or abnormal and define signatures that can speed up and/or help inform
+      the surgeon regarding the actual nature of the tissue being seen. The investigators will
+      compare the data being generated with that already being captured with regard to standard
+      pathology and radiology and other laboratory measures of clinical course. Tissue resected
+      from a patient will also be examined in the laboratory under near-infrared microscopy and
+      analysed for fluorescence intensity to understand where exactly and how much of the dye
+      accumulates in specific regions of tissue. There are no new operations in this study and no
+      new interventions are being made on the basis of the information being gathered- it's a
+      comparative study to see how this added information can add value to interventionalists
+      during surgery. There are four collaborating groups involved in this research consortium, two
+      are commercial partners as they add value in both this advanced field of analytics and in the
+      ensuring a clinical business case is included so that findings of this work can be useful for
+      patients.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a combined retrospective and prospective, unblinded, non-CTIMP, multicentre,
+      observational study to develop and determine methods of applying CV and AI with IFA in
+      surgery for clinical benefit in surgery. Surgery can be performed via a minimally invasive
+      fashion whether by an endoscopic or a laparoscopic or robotic technique (the latter depending
+      on surgeon's preference) as part of either a diagnostic or therapeutic intervention in the
+      standard way based on the patients' clinical need. Either before or during the procedure, a
+      visual contrast agent will be administered by peripheral cannula and the area of interest
+      examined by use of a near-infrared scope to determine presence, persistence and
+      inflow/outflow pathways of the dye. The video image will be subjected to further analysis by
+      computer vision and data analytics for the purposes of elucidating specific patterns enabling
+      machine learning to build algorithms for flow characterisation informed by biophysics and
+      pseudo-anonymised clinical data. The developmental algorithms will be additionally informed
+      by mechanistic work quantifying and localising the fluorescence agent within and around sites
+      of abnormal disease by digital fluorescence scanning and near-infrared microscopy as well as
+      deep characterisation of dye clearance dynamics and local tissue metabolites (particularly
+      acidosis). In addition, some tissue from the resected specimens provided in the course of
+      diagnostic investigation or cancer surgery will be used to develop organoids for the purpose
+      of examining in vitro tumour uptake and distribution of fluorescence agents.
+
+      In all 250 patients will be studied over the three-year period, comprising 100 patients
+      undergoing anastomotic construction and 100 undergoing cancer diagnostics/resection. Some
+      patients can be included in both groups). Following development (potentially earlier then
+      above), prospective validation will be performed on approximately 25 patients in each group.
+      The follow-up period ends 30 days after recruitment. The trial will not be blinded to
+      participants, medical staff, or clinical trial staff. The contrast agents used are clinically
+      approved (including indocyanine green) for such use within this study. While the validation
+      component of this work will be performed prospectively, the initial model development will
+      include some data from patients retrospectively who have already undergone similar
+      evaluation.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Anticipated">December 30, 2019</start_date>
+  <completion_date type="Anticipated">March 1, 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 1, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Video recordings of Colorectal Cancer.</measure>
+    <time_frame>6 months</time_frame>
+    <description>Video from colorectal endoscopies and laparoscopies recorded from patients undergoing endoscopic or laparoscopic evaluation of colorectal cancer including at the time of intravenous administration of a fluorophore (indocyanine green).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Analysis of video recordings</measure>
+    <time_frame>6 months</time_frame>
+    <description>Computer vision analysis of fluorescence intensity patterns seen in the videos- i.e. ICG perfusion patterns (including presence, persistence and flow).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Biophysics visualisation software development</measure>
+    <time_frame>6 months</time_frame>
+    <description>Biophysics-based visualisation software development that automatically determines ICG perfusion patterns within the field of view of the video related to different colorectal tissue types (cancer and non-cancer).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Biophysics model training</measure>
+    <time_frame>6 months</time_frame>
+    <description>Results from standard clinical tests including histopathology reports used to inform the software analysis profiles so that specific, significant characterisation signatures reflective of underlying tissue architecture and behaviour (and hence nature) are generated.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Validation of predictive accuracy biophysics-visualisation model</measure>
+    <time_frame>3 years</time_frame>
+    <description>Determinative analysis of accuracy of the biophysics model in the prediction of patient course including standard clinical tests (specficially histopathology and expert opinion). Calculation of accuracy, predictive values (positive and negative) and sensitivity and specificity calculation.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Coefficients of Variation</measure>
+    <time_frame>3 years</time_frame>
+    <description>Comparison of localised quantification of ICG in colorectal tissue between the real-time visualisation algorithm and the locally sampled ICG concentrations.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Microscopic Map of intratumoral fluorophore accumulation</measure>
+    <time_frame>3 years</time_frame>
+    <description>Microscopic examination of fresh tissue sections taken at the time of surgery using nearinfrared microscopy examining sites of ICG distribution in normal and abnormal tissue regions. Relative concentrations of ICG intensity throughout the tissue examination by Near-infrared Digital Scanning</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Realtime delineation display of tumour area including margins</measure>
+    <time_frame>3 years</time_frame>
+    <description>Automated display map of tumour area and margins by modelling based on other outcome measures listed including video recording analysis, fluorescence intensity modelling and histopathological reporting along with microscopic analysis of tissue specimens</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">250</enrollment>
+  <condition>Colorectal Cancer</condition>
+  <condition>Surgery</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Video recordings with analysis thereafter applied</intervention_name>
+    <description>Recordings of surgical assessments in order to develop a model for Artificial Intelligence analysis</description>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Examination of microsections of tissue excised for the purposes of cancer resection</intervention_name>
+    <description>Microscopic examination including by near-infrared examination of some of the tissue excised for the purposes of cancer resection to examine cellular mechanisms of fluorescence uptake and distribution</description>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Cancer organoid development and testing</intervention_name>
+    <description>Some tissue will be taken from the specimens excised for the purposes of the cancer operation to develop experimental models of cancer tissue to allow examination of mechanisms of uptake and distribution of the fluorophores in cancer</description>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Video Recordings Pathology slides of human tissue, cancer, benign and normal tissue.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Participants with or suspected of colorectal neoplasia undergoing endoscopic evaluation or
+        laparoscopic resection of same or other colorectal disease by segmental resection and
+        anastomosis. Clinically fit for elective intervention and meeting inclusion/exclusion
+        criteria.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  • Participant is willing and able to give informed consent for participation in the
+             study.
+
+               -  Male or Female, aged 18 years or above.
+
+               -  Clinical features suspicious of or diagnosed with colorectal neoplasia or other
+                  colorectal disease requiring segmental resection with anastomosis.
+
+               -  No prior allergy to indocyanine green or iodine.
+
+               -  If female and of potential child-bearing age, have a negative pregnancy test at
+                  time of study participation.
+
+               -  Participant has clinically acceptable laboratory results, including liver
+                  function tests.
+
+               -  In the Investigator's opinion, is able and willing to comply with all study
+                  requirements.
+
+               -  Willing to allow his or her General Practitioner and consultant, if appropriate,
+                  to be notified of participation in the study.
+
+        Exclusion Criteria:
+
+          -  • Female participant who is pregnant, lactating or planning pregnancy during the
+             course of the study.
+
+               -  Significant renal or hepatic impairment.
+
+               -  Any other significant disease or disorder which, in the opinion of the
+                  Investigator, may either put the participants at risk because of participation in
+                  the study, or may influence the result of the study, or the participant's ability
+                  to participate in the study.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Ronan Cahill</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University College Dublin</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Ronan Cahill</last_name>
+    <phone>+35317164597</phone>
+    <email>ronan.cahill@ucd.ie</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Mater Misericordiae University Hospital</name>
+      <address>
+        <city>Dublin</city>
+        <state>Other (Non U.s.)</state>
+        <zip>D07 R2WY</zip>
+        <country>Ireland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ronan Cahill</last_name>
+      <phone>0035317164597</phone>
+      <email>ronan.cahill@ucd.ie</email>
+    </contact>
+    <contact_backup>
+      <last_name>Debbie Killeen</last_name>
+      <phone>00353 1 7164597</phone>
+      <email>debbie.killeen@ucd.ie</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Ireland</country>
+  </location_countries>
+  <link>
+    <url>http://www.ucd.ie/medicine/precision%20surgery/</url>
+    <description>Website explaining background and concept of work in Digital Surgery and Fluorescence Surgery</description>
+  </link>
+  <verification_date>January 2020</verification_date>
+  <study_first_submitted>December 30, 2019</study_first_submitted>
+  <study_first_submitted_qc>January 3, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 7, 2020</study_first_posted>
+  <last_update_submitted>January 3, 2020</last_update_submitted>
+  <last_update_submitted_qc>January 3, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 7, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Mater Misericordiae University Hospital</investigator_affiliation>
+    <investigator_full_name>Ronan Cahill</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>artificial intelligence</keyword>
+  <keyword>colorectal surgery</keyword>
+  <keyword>nearinfrared</keyword>
+  <keyword>perfusion</keyword>
+  <keyword>cancer</keyword>
+  <keyword>anastomosis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Colorectal Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

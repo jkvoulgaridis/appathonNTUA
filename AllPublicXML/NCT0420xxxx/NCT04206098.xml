@@ -1,0 +1,419 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04206098</url>
+  </required_header>
+  <id_info>
+    <org_study_id>H2020</org_study_id>
+    <nct_id>NCT04206098</nct_id>
+  </id_info>
+  <brief_title>Chart Review of Patients With COPD, Using Electronic Medical Records and Artificial Intelligence</brief_title>
+  <acronym>BigCOPData</acronym>
+  <official_title>Chart Review of Patients With COPD, Using Electronic Medical Records and Artificial Intelligence: BigCOPData</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sociedad Española de Neumología y Cirugía Torácica</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>SAVANA</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>European Commission</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Sociedad Española de Neumología y Cirugía Torácica</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Chronic obstructive pulmonary disease (COPD) is the third leading cause of death in the World
+      since 2003. Many people suffer from this disease or its complications for many years and die
+      prematurely. In the European Union, the total direct costs of respiratory diseases are
+      estimated to be around 6% of the total healthcare budget, with COPD accounting for 56% (38.6
+      billion Euros) of the costs of respiratory diseases.
+
+      In the natural history of COPD, many patients may experience acute exacerbations (AECOPD)
+      that are described as episodes of sustained worsening of the respiratory symptoms that result
+      in additional therapy. These episodes of exacerbation that often require been seen in the
+      emergency department and/or a hospital admission are associated with significant morbidity
+      and mortality; they are responsible for a significant portion of the economic burden of the
+      disease too. The pharmacological approach used in the management of AECOPD (inhaled
+      bronchodilators, corticosteroids, and antibiotics), has the objective to minimize the
+      negative impact of the current exacerbation and to prevent subsequent events.
+
+      Despite the collaborative effort between the European Respiratory Society, the American
+      Thoracic Society, and others to provide clinical recommendations for the prevention of
+      AECOPD, there is still a considerable number of patients that are prone to suffer from
+      recurrent exacerbations and to experience a more severe impairment in health status.
+
+      Based on all the above, the aim is to identify the factors potentially associated with
+      hospital admission in patients with AECOPD in English, French, German, and Spanish, speaking
+      countries, and to develop a predictive model that predicts the risk of hospitalization in
+      this group of patients, by using artificial intelligence. In this study proposes to take
+      advantage of SAVANA, a new clinical platform, created in the context of the era of electronic
+      medical records (EMRs), to analyse the information included in the electronic medical files
+      (i.e., big data). This clinical platform is a powerful free-text analysis engine, capable of
+      meaningfully interpreting the contents of the EMRs, regardless of the management system in
+      which they operate. In this context, this machine learning analytical method can be used to
+      build a flexible, customized and automated predictive model using the information available
+      in EMRs.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The study will be conducted in accordance with legal and regulatory requirements, as well as
+      with scientific purpose, value and rigor and follow generally accepted research practices
+      described in the International Conference Harmonization (ICH) Guideline for Good Clinical
+      Practice, the Helsinki Declaration in its latest edition, Good Pharmacoepidemiology
+      Practices, and applicable local regulations.
+
+      To maintain patient confidentiality, demographic and personal identifying information (e.g.,
+      initials, date of birth, etc.) will not be collected; only age will be collected. In no case
+      Savana staff will handle a correspondence table between the anonymized patient codes and
+      their EMRs. Only the healthcare centre can identify patients. In any case, SEPAR, the study
+      sponsor, or its partners, will not have gto EMRs. It will only access a report, which will
+      contain aggregated information on the data obtained as described in this protocol. The final
+      results will be published.
+
+      According to the European Data Protection Authority, an anonymous clinical record is released
+      from its status as personal data, so that the General Data Protection Regulation no longer
+      applies. The anonymization is performed at each site by the owner of the information (so that
+      nobody else has access to that information and so that it is not possible to track it).
+
+      All actions will be taken in accordance with the Code of Good Data Protection Practices for
+      Big Data Projects of the European Data Protection Authority, the European General Data
+      Protection Regulation or another that may replace it.
+
+      In addition, clinical records will never be stored in a location other than the institution
+      where it is implemented. Savana does not use EMRs from individual patients, but aggregate
+      clinical information, which is also encrypted and secured. The aggregation of the data
+      ensures the impossibility of identifying patients or individual centres. The system is based
+      on the processing of a large amount of information (Big Data), so that the impact of random
+      errors is minimized. The use of this software is possible nowadays since there has been a
+      notable improvement in the implementation of EMRs, which may result in the use of this
+      software in significant investments for the use and better knowledge of the health system.
+
+      In summary, this new technology allows a complete dissociation between the data obtained for
+      the current study and the personal data of the patient, since this information is obtained in
+      an aggregated and completely anonymous form. This clearly represents an advance in data
+      protection in the context of classical observational epidemiological studies.
+
+      Therefore, only aggregated and completely anonymous data will be obtained, completely
+      dissociated from the personal data of each patient and centre. The confidentiality of patient
+      records will be maintained at all times. All study reports will contain only aggregated data
+      and will not identify patients, doctors or individual centres. At no time during the study,
+      the sponsor will receive information that may allow the identification of a patient or
+      individual centre.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 8, 2020</start_date>
+  <completion_date type="Anticipated">December 30, 2020</completion_date>
+  <primary_completion_date type="Anticipated">October 1, 2020</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <target_duration>5 Years</target_duration>
+  <primary_outcome>
+    <measure>Number of factors associated with hospital admission of patients with AECOPD</measure>
+    <time_frame>5 years</time_frame>
+    <description>Number of factors associated with hospital admission of patients with AECOPD, using EMRs and artificial intelligence learning tool</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of clinical characteristics of COPD hospitalized patients</measure>
+    <time_frame>5 years</time_frame>
+    <description>Number of clinical characteristics of COPD patients that require hospital admission</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of comorbidities of COPD patients hospitalized per sex</measure>
+    <time_frame>5 years</time_frame>
+    <description>Number and description of comorbidities associated with hospitalized COPD patients, presented per sex, such as cardiovascular disease, anxiety, depression, gastroesophageal reflux.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of patients with increased eosinophil blood counts</measure>
+    <time_frame>5 years</time_frame>
+    <description>Number of patients with COPD hospitalized with increased eosinophil blood counts.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of patients with COPD hospitalized with elevated inflammatory parameters</measure>
+    <time_frame>5 years</time_frame>
+    <description>Number of COPD patients hospitalized with elevated inflammatory parameters such as white cell counts, neutrophil count and C-reactive protein, presented in a descriptive model</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of clinical phenotypes identified in COPD patients hospitalized</measure>
+    <time_frame>5 years</time_frame>
+    <description>Number of clinical phenotypes of patients with COPD that exacerbate and require hospital admissions</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of COPD patients hospitalized do not follow treatment recommendations</measure>
+    <time_frame>5 years</time_frame>
+    <description>Number of COPD patients hospitalized do not follow 100% treatment recommendations within the previous 6 weeks</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Risk on COPD patients hospitalized</measure>
+    <time_frame>5 years</time_frame>
+    <description>Number of identified risks per COPD patient hospitalized, such as Spanish Guide COPD (GesEPOC), the Dyspnoea, Eosinopenia, Consolidation, Acidemia and Atrial Fibrillation [DECAF] Score, or another multicomponent index.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of biologic biomarkers different to eosinophil count</measure>
+    <time_frame>5 years</time_frame>
+    <description>Number of biologic biomarkers (different to eosinophil count) associated to hospitalization and/or rehospitalizations due to COPD exacerbations</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">2500000</enrollment>
+  <condition>Chronic Obstructive Pulmonary Disease</condition>
+  <arm_group>
+    <arm_group_label>Sex</arm_group_label>
+    <description>Male/Female</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Factors associated with Hospital admission for an Acute Exacerbation Chronic Obstructive Pulmonary Disease (AECOPD)</intervention_name>
+    <description>Develop a descriptive predictive model fo factors that influence clinical characteristic of patients that require hospital admission</description>
+    <arm_group_label>Sex</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        COPD patients that may experience acute exacerbations requiring emergency department and
+        /or a hospital admission
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Subjects aged ≥ 35-year-old, smokers or former smokers of more than 10 pack-years.
+
+          -  Had a diagnosis of COPD (a post-bronchodilator ratio forced expiratory volume in the
+             first second (FEV1) / forced vital capacity (FVC) &lt; 0.70, and the presence of
+             respiratory symptoms such as cough, sputum, and dyspnoea).
+
+          -  Admitted for ''respiratory disease'' [respiratory infection or pleural effusion (OR)
+             respiratory failure (OR) right/left heart failure (OR) chronic bronchitis (OR)
+             bronchospasms (AND) [historical diagnosis of COPD (OR) a documented FEV1/FVC &lt; 0.70 in
+             the absence of other obstructive diseases, such as asthma or bronchiolitis].
+
+        Exclusion Criteria:
+
+          -  Patients with a specific diagnosis upon admission of pulmonary oedema, pneumonia,
+             radiological infiltration, pulmonary embolism, pneumothorax, rib fractures,
+             aspiration, or any other associated respiratory or of non-respiratory condition, such
+             as major cardiopathy with chronic heart failure, extended neoplasia, liver or kidney
+             failure.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>35 Years</minimum_age>
+    <maximum_age>99 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>JB Soriano, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Sociedad Española de Neumología y Cirugía Torácica</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>JB Soriano, MD</last_name>
+    <phone>+34915202200</phone>
+    <email>jbsoriano2@gmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Anna Gibernau, PhD</last_name>
+    <phone>+34663363039</phone>
+    <phone_ext>+34663363039</phone_ext>
+    <email>anna.gibernau@clementine.global</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Kepler Universitäts Klinikum</name>
+      <address>
+        <city>Linz</city>
+        <country>Austria</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Bernd Lamprecht, MD</last_name>
+      <phone>+43 (0) 5 7680 83 6910</phone>
+      <email>bernd.lamprecht@kepleruniklinikum.at</email>
+    </contact>
+    <investigator>
+      <last_name>Bernd Lamprecht, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario de Guadalajara</name>
+      <address>
+        <city>Alcalá De Henares</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Príncipe de Asturias</name>
+      <address>
+        <city>Alcalá De Henares</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Vall d'Hebron</name>
+      <address>
+        <city>Barcelona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario La Princesa</name>
+      <address>
+        <city>Madrid</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>JB Soriano, MD</last_name>
+      <phone>+34915202200</phone>
+      <email>jbsoriano2@gmail.com</email>
+    </contact>
+    <investigator>
+      <last_name>JB Soriano, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Julio Ancochea, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Son Espases</name>
+      <address>
+        <city>Palma De Mallorca</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Santiago de Compostela</name>
+      <address>
+        <city>Santiago De Compostela</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Virgen del Rocio</name>
+      <address>
+        <city>Sevilla</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Arnau de Vilanova</name>
+      <address>
+        <city>Valencia</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>HUG</name>
+      <address>
+        <city>Geneva</city>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Salim G Chucri</last_name>
+      <phone>+41765677688</phone>
+      <email>scuc@hcuge.ch</email>
+    </contact>
+    <investigator>
+      <last_name>Salim G Chucri, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Queen Elizabeth Hospital University</name>
+      <address>
+        <city>Birmingham</city>
+        <zip>B9 5SS</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Robert A Stockley, MA</last_name>
+      <phone>+441213716808</phone>
+      <email>rob.stockley@uhb.nhs.uk</email>
+    </contact>
+    <investigator>
+      <last_name>Robert A Stockley</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Austria</country>
+    <country>Spain</country>
+    <country>Switzerland</country>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>December 2019</verification_date>
+  <study_first_submitted>December 13, 2019</study_first_submitted>
+  <study_first_submitted_qc>December 17, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 20, 2019</study_first_posted>
+  <last_update_submitted>January 9, 2020</last_update_submitted>
+  <last_update_submitted_qc>January 9, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 13, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>COPD</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lung Diseases, Obstructive</mesh_term>
+    <mesh_term>Pulmonary Disease, Chronic Obstructive</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Final results of the study will be disseminated in the form of a manuscript/s in the peer-reviewed literature. In addition, where relevant, data from potential interim analyses will be presented at (a) relevant congress(es).</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

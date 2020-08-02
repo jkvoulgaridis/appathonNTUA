@@ -1,0 +1,270 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04088747</url>
+  </required_header>
+  <id_info>
+    <org_study_id>FibromyalgiaDiagnosis</org_study_id>
+    <nct_id>NCT04088747</nct_id>
+  </id_info>
+  <brief_title>Logistic Regression and Elastic Net Regularization for the Diagnosis of Fibromyalgia</brief_title>
+  <acronym>LEDF</acronym>
+  <official_title>Logistic Regression and Elastic Net Regularization for the Diagnosis of Fibromyalgia: A Quantitative Approach Using B-Mode Ultrasound</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Toronto Rehabilitation Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Toronto Rehabilitation Institute</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will utilize ultrasound image texture variables to construct an elastic net
+      regularized, logistic regression model to differentiate between healthy and Fibromyalgia
+      patients. The collected ultrasound data will be from participants who are healthy, and from
+      participants who have Fibromyalgia. The predicted performance accuracy of the diagnostic
+      model will be validated and this will confirm or deny the hypothesis that differentiation
+      between the two cohorts is possible.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Fibromyalgia (FM) diagnosis remains a challenge for clinicians due to a lack of objective
+      diagnostic tools. One proposed solution is the use of quantitative ultrasound (US)
+      techniques, such as image texture analysis, which has demonstrated discriminatory
+      capabilities with other chronic pain conditions. The investigators propose the use of US
+      image texture variables to construct an elastic net regularized, logistic regression model,
+      for differentiating between the trapezius muscle in the healthy and FM patients. 162
+      Ultrasound videos of the right and left trapezius muscle were acquired from healthy
+      participants and participants with FM. The videos will then be put through a mutli-step
+      processing pipe including converting them into skeletal muscle regions of interest (ROI). The
+      ROI's will be then filtered by an algorithm utilizing the complex wavelet structural
+      similarity index (CW-SSIM), which removes ROI's that are too similar to one another.
+      Eighty-eight texture variables will be extracted from the ROI's, which will be used in nested
+      cross-validation to construct a logistic regression model with and without elastic net
+      regularization. The generalized performance accuracy of both models will be estimated and
+      confirmed with a final validation on a holdout test set. Depending on the predicted,
+      generalized performance accuracy it will be validated or not by the final, holdout test set
+      (confirming the model construction is accurate). These models should then confirm or deny the
+      hypothesis that a regularized logistic regression model built on ultrasound texture features
+      can accurately differentiate between healthy trapezius muscle and that of patients with FM.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">September 1, 2018</start_date>
+  <completion_date type="Actual">September 6, 2019</completion_date>
+  <primary_completion_date type="Actual">September 6, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Ultrasound Image Texture Variables</measure>
+    <time_frame>1 hour</time_frame>
+    <description>91 statistical image texture variables are extracted from the B mode ultrasound images from both cohorts in order to construct a diagnostic model. The texture variables will be extracted using MATLAB.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Fibromyalgia Diagnostic Criteria</measure>
+    <time_frame>10 minutes</time_frame>
+    <description>This evaluates symptoms related to Fibromyalgia and determines a score to assess the severity. This score is comprised of the Widespread Pain Index(WPI), which quantifies the regions of pain, and the Symptom Severity Scale(SSS), which measures qualitative aspects of pain such as fatigue and cognitive symptoms. The WPI scale ranges from 0-19 (0- no areas of body pain, 19- all body regions have pain), whereas the SSS ranges from 0-12 (0-no qualitative aspects of pain, 12-many qualitative aspects of pain). This criteria was evaluated on each patient to determine which cohort they belong to. According to the Fibromyalgia Diagnostic Criteria, one is diagnosed with Fibromyalgia if they have a WPI score of 7 or higher, and a SSS score of 5 or higher. Fibromyalgia is also diagnosed with a score of 3-6 on the WPI score, and a score of 9 or higher on the SSS score.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Central Sensitization Inventory</measure>
+    <time_frame>10 minutes</time_frame>
+    <description>This is a self reported outcome measure designed to identify patients that experience central sensitization. It involves 25 questions which include symptomatic experiences. The subject must answer on a scale of 0(never) to 5(always) corresponding to how often they experience these. The maximum score is 100 and a score of more than 40 indicates the presence of Central Sensitization. This criteria was evaluated on each patient to determine which cohort they belong to.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">81</enrollment>
+  <condition>Fibromyalgia</condition>
+  <arm_group>
+    <arm_group_label>Fibromyalgia</arm_group_label>
+    <description>Patients who display symptoms and have a history of Fibromyalgia, between 20-65 years of age.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy Controls</arm_group_label>
+    <description>Age-matched, healthy controls, between 20-65 years of age who present no signs of chronic pain.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Ultrasound Imaging</intervention_name>
+    <description>B-mode ultrasound pictures of the upper Trapezius were collected from both left and right sides.</description>
+    <arm_group_label>Fibromyalgia</arm_group_label>
+    <arm_group_label>Healthy Controls</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients diagnosed with Fibromyalgia and healthy age-matched controls.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  gender independent; chronic widespread pain, fitting the 2016 FM criteria, absence of
+             myofascial pain syndrome trigger points and between the ages of 20 and 65 years (44.3
+             ± 13.9 years).
+
+          -  Healthy asymptomatic volunteers who were age matched (n = 17) with no physical
+             complaints or abnormality on physical examination also participated.
+
+        Exclusion Criteria:
+
+          -  Participants were excluded if they demonstrated clinical evidence of another cause for
+             widespread pain, such as polymyositis, dermatomyositis, endocrine disorders, etc. None
+             of the participants had performed any physical exercise during the two to three days
+             prior to entry into the study.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Dinesh Kumbhare, MD,PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Toronto Rehabilitation Institute</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Toronto Rehabilitation Institute</name>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <zip>M5G2A2</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <reference>
+    <citation>Wolfe F, Ross K, Anderson J, Russell IJ, Hebert L. The prevalence and characteristics of fibromyalgia in the general population. Arthritis Rheum. 1995 Jan;38(1):19-28.</citation>
+    <PMID>7818567</PMID>
+  </reference>
+  <reference>
+    <citation>Gittins R, Howard M, Ghodke A, Ives TJ, Chelminski P. The Accuracy of a Fibromyalgia Diagnosis in General Practice. Pain Med. 2018 Mar 1;19(3):491-498. doi: 10.1093/pm/pnx155.</citation>
+    <PMID>29016895</PMID>
+  </reference>
+  <reference>
+    <citation>Schaefer C, Mann R, Masters ET, Cappelleri JC, Daniel SR, Zlateva G, McElroy HJ, Chandran AB, Adams EH, Assaf AR, McNett M, Mease P, Silverman S, Staud R. The Comparative Burden of Chronic Widespread Pain and Fibromyalgia in the United States. Pain Pract. 2016 Jun;16(5):565-79. doi: 10.1111/papr.12302. Epub 2015 May 16.</citation>
+    <PMID>25980433</PMID>
+  </reference>
+  <reference>
+    <citation>Wolfe F, Clauw DJ, Fitzcharles MA, Goldenberg DL, Häuser W, Katz RL, Mease PJ, Russell AS, Russell IJ, Walitt B. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. Semin Arthritis Rheum. 2016 Dec;46(3):319-329. doi: 10.1016/j.semarthrit.2016.08.012. Epub 2016 Aug 30.</citation>
+    <PMID>27916278</PMID>
+  </reference>
+  <reference>
+    <citation>Ablin JN, Wolfe F. A Comparative Evaluation of the 2011 and 2016 Criteria for Fibromyalgia. J Rheumatol. 2017 Aug;44(8):1271-1276. doi: 10.3899/jrheum.170095. Epub 2017 Jun 1.</citation>
+    <PMID>28572464</PMID>
+  </reference>
+  <reference>
+    <citation>U.S. Department of Health and Human Services Food and Drug Administration/Centre for Drug Evaluation and Research. Guidance for Industry and FDA Staff Qualification Process for Drug Development Tools. Silver Spring, MD: Author; 2014</citation>
+  </reference>
+  <reference>
+    <citation>Kravis MM, Munk PL, McCain GA, Vellet AD, Levin MF. MR imaging of muscle and tender points in fibromyalgia. J Magn Reson Imaging. 1993 Jul-Aug;3(4):669-70.</citation>
+    <PMID>8347962</PMID>
+  </reference>
+  <reference>
+    <citation>Meenagh G, Sakellariou G, Iagnocco A, Delle Sedie A, Riente L, Filippucci E, Di Geso L, Grassi W, Bombardieri S, Valesini G, Montecucco C. Ultrasound imaging for the rheumatologist XXXIX. Sonographic assessment of the hip in fibromyalgia patients. Clin Exp Rheumatol. 2012 May-Jun;30(3):319-21. Epub 2012 Jun 26.</citation>
+    <PMID>22734970</PMID>
+  </reference>
+  <reference>
+    <citation>Bendtsen L, Nørregaard J, Jensen R, Olesen J. Evidence of qualitatively altered nociception in patients with fibromyalgia. Arthritis Rheum. 1997 Jan;40(1):98-102.</citation>
+    <PMID>9008605</PMID>
+  </reference>
+  <reference>
+    <citation>Kumbhare DA, Ahmed S, Behr MG, Noseworthy MD. Quantitative Ultrasound Using Texture Analysis of Myofascial Pain Syndrome in the Trapezius. Crit Rev Biomed Eng. 2018;46(1):1-31. doi: 10.1615/CritRevBiomedEng.2017024947.</citation>
+    <PMID>29717675</PMID>
+  </reference>
+  <reference>
+    <citation>MathWorks. Image Processing Toolbox., Release 2018a, The MathWorks Inc.,Natick, Massachusetts, United States</citation>
+  </reference>
+  <reference>
+    <citation>Sampat MP, Wang Z, Gupta S, Bovik AC, Markey MK. Complex wavelet structural similarity: a new image similarity index. IEEE Trans Image Process. 2009 Nov;18(11):2385-401. doi: 10.1109/TIP.2009.2025923. Epub 2009 Jun 23.</citation>
+    <PMID>19556195</PMID>
+  </reference>
+  <reference>
+    <citation>Behr M, Noseworthy M, Kumbhare D. Feasibility of a Support Vector Machine Classifier for Myofascial Pain Syndrome: Diagnostic Case-Control Study. J Ultrasound Med. 2019 Aug;38(8):2119-2132. doi: 10.1002/jum.14909. Epub 2019 Jan 7.</citation>
+    <PMID>30614553</PMID>
+  </reference>
+  <reference>
+    <citation>Haralick, R. M., &amp; Shanmugam, K. Textural features for image classification. IEEE Transactions on systems, man, and cybernetics. 1973;SMC-3(6):610-621.</citation>
+  </reference>
+  <reference>
+    <citation>Galloway, M. M. Texture classification using gray level run length. Computer graphics and image processing. 1975;4(2):172-179.</citation>
+  </reference>
+  <reference>
+    <citation>Zou, H., &amp; Hastie, T. Regularization and variable selection via the elastic net. Journal of the royal statistical society: series B (statistical methodology) 2005;67(2):301-320.</citation>
+  </reference>
+  <reference>
+    <citation>MathWorks. Statistics and Machine Learning Toolbox., Release 2018a, The MathWorks Inc.,Natick, Massachusetts, United States</citation>
+  </reference>
+  <reference>
+    <citation>Jalalian A, Mashohor SB, Mahmud HR, Saripan MI, Ramli AR, Karasfi B. Computer-aided detection/diagnosis of breast cancer in mammography and ultrasound: a review. Clin Imaging. 2013 May-Jun;37(3):420-6. doi: 10.1016/j.clinimag.2012.09.024. Epub 2012 Nov 13. Review.</citation>
+    <PMID>23153689</PMID>
+  </reference>
+  <reference>
+    <citation>Virmani, J., Kumar, V., Kalra, N., &amp; Khandelwal, N. Prediction of liver cirrhosis based on multiresolution texture descriptors from B-mode ultrasound. International Journal of Convergence Computing 2013;1(1):19-37.</citation>
+  </reference>
+  <reference>
+    <citation>Xian, G. M. An identification method of malignant and benign liver tumors from ultrasonography based on GLCM texture features and fuzzy SVM. Expert Systems with Applications 2010;37(10):6737-6741.</citation>
+  </reference>
+  <reference>
+    <citation>Bishop, C. M. Pattern recognition and machine learning. New York, NY: Springer-Verlag: 2006. p. 205-207.</citation>
+  </reference>
+  <reference>
+    <citation>Sarle, W. S. Stopped training and other remedies for overfitting. Computing science and statistics, 1996:352-360.</citation>
+  </reference>
+  <verification_date>September 2019</verification_date>
+  <study_first_submitted>September 11, 2019</study_first_submitted>
+  <study_first_submitted_qc>September 12, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 13, 2019</study_first_posted>
+  <last_update_submitted>September 12, 2019</last_update_submitted>
+  <last_update_submitted_qc>September 12, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 17, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Toronto Rehabilitation Institute</investigator_affiliation>
+    <investigator_full_name>Dinesh Kumbhare</investigator_full_name>
+    <investigator_title>Affiliate Scientist</investigator_title>
+  </responsible_party>
+  <keyword>Fibromyalgia</keyword>
+  <keyword>Ultrasound</keyword>
+  <keyword>Regularization</keyword>
+  <keyword>Logistic Regression</keyword>
+  <keyword>Imaging</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Fibromyalgia</mesh_term>
+    <mesh_term>Myofascial Pain Syndromes</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>September 9, 2019</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/47/NCT04088747/Prot_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

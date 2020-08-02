@@ -1,0 +1,188 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04221100</url>
+  </required_header>
+  <id_info>
+    <org_study_id>xrAI ClinicalEvaluation Rads</org_study_id>
+    <nct_id>NCT04221100</nct_id>
+  </id_info>
+  <brief_title>xrAI - Improving Quality and Efficiency in Chest Radiograph Interpretation by Radiologists</brief_title>
+  <official_title>xrAI - Improving Quality and Efficiency in Chest Radiograph Interpretation by Radiologists</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>1QB Information Technologies Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>1QB Information Technologies Inc.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      xrAI (pronounced &quot;X-ray&quot;) serves as a clinical assistance tool for trained clinical
+      professionals who are interpreting chest radiographs. The tool is designed as a quality
+      control and adjunct, limited, clinical decision support tool, and does not replace the role
+      of clinical professionals. It highlights areas on chest radiographs for review by an
+      interpreting clinician.
+
+      The objective of this study is to utilize machine learning and artificial intelligence
+      algorithms (xrAI) to improve the quality and efficiency in the interpretation of chest
+      radiographs by radiologists.
+
+      The hypothesis is that the addition of xrAI's analysis will reduce inter-observer variability
+      in the interpretation of chest radiographs and increase participants' sensitivity, recall,
+      and accuracy in pulmonary abnormality screening.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      To investigate the effect of xrAI for radiologists that interpret chest radiographs as part
+      of their daily responsibilities, the investigators have designed a randomized control trial.
+
+      The pulmonary abnormalities detected by xrAI and included in the definition of abnormal are
+      as follows: any linear scar or fibrosis, atelectasis, consolidation, abscess or cavity,
+      nodule, pleural effusion, severe cases of emphysema and COPD (mild cases with hyperinflation
+      but not significant emphysema are not flagged), and pneumothorax.
+
+      To assess the causal effect of xrAI the investigators randomly assign 10 to 14 radiologists
+      to either treatment (x-ray images processed by xrAI) or control (no xrAI processing) groups.
+      Participants will only review images once. Each participant will perform 500 radiograph
+      interpretations in total.
+
+      Participants in the control group will be asked to interpret the same 500 images without
+      xrAI's analysis.
+
+      To increase the precision of the estimate and better investigate potential differences
+      between clinical professionals, investigators block randomize the assignment of treatment or
+      control group.
+
+      To analyse the effect of xrAI, the investigators will estimate the average treatment effect
+      (ATE) for each group by comparing the performance of the treatment and control groups using
+      randomization-based inference (Green and Gerber, 2012).
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">March 2020</start_date>
+  <completion_date type="Anticipated">May 2020</completion_date>
+  <primary_completion_date type="Anticipated">May 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of abnormalities identified divided by number of total of images analyzed (accuracy)</measure>
+    <time_frame>Time needed to analyze 500 images. Participants will be asked to completed the exercise within 2 weeks.</time_frame>
+    <description>Accuracy is defined as the ratio of the images where the physician's prediction matched the labels of the dataset.
+Accuracy= (TP+FP) / (TP+FP+TN+FN)
+TP (true positives) = cases interpreted as abnormal that are abnormal; FP (false positives) = cases wrongly interpreted to be abnormal; TN (true negatives) = cases correctly interpreted to be normal; FN (false negatives) = abnormal cases wrongly interpreted as normal.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of true abnormalities identified divided by the total of abnormalities identified (precision)</measure>
+    <time_frame>Time needed to analyze 500 images. Participants will be asked to completed the exercise within 2 weeks.</time_frame>
+    <description>Precision is defined as the probability of a radiograph being abnormal if a physician makes the determination that it is abnormal.
+Precision= TP / (TP+FP)
+TP (true positives) = cases interpreted as abnormal that are abnormal; FP (false positives) = cases wrongly interpreted to be abnormal; TN (true negatives) = cases correctly interpreted to be normal; FN (false negatives) = abnormal cases wrongly interpreted as normal.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of true abnormalities identified divided by the sum of true abnormalities identified and abnormalities missed (recall)</measure>
+    <time_frame>Time needed to analyze 500 images. Participants will be asked to completed the exercise within 2 weeks.</time_frame>
+    <description>Recall is defined as the probability of a physician catching an abnormality in an image if one exists (based on the labels of the dataset).
+Recall= TP / (TP+FN)
+TP (true positives) = cases interpreted as abnormal that are abnormal; FP (false positives) = cases wrongly interpreted to be abnormal; TN (true negatives) = cases correctly interpreted to be normal; FN (false negatives) = abnormal cases wrongly interpreted as normal.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Mean of radiologist accuracy (as defined in outcome 1)</measure>
+    <time_frame>Time needed to analyze 500 images. Participants will be asked to completed the exercise within 2 weeks.</time_frame>
+    <description>Investigators will calculate the mean of the accuracy of all participants in each group.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean of radiologist precision (as defined in outcome 2)</measure>
+    <time_frame>Time needed to analyze 500 images. Participants will be asked to completed the exercise within 2 weeks.</time_frame>
+    <description>Investigators will calculate the mean of the precision of all participants in each group.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean of radiologist recall (as defined in outcome 3)</measure>
+    <time_frame>Time needed to analyze 500 images. Participants will be asked to completed the exercise within 2 weeks.</time_frame>
+    <description>Investigators will calculate the mean of the recall of all participants in each group.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">12</enrollment>
+  <condition>Pulmonary Disease</condition>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Participants will review the 500 chest radiographs without the assistance of xrAI</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Treatment</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will review the 500 chest radiographs with the assistance of xrAI</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Radiograph interpretation for pulmonary abnormalities</intervention_name>
+    <description>The pulmonary abnormalities detected by xrAI and included in the definition of abnormality are as follows: any linear scar or fibrosis, atelectasis, consolidation, abscess or cavity, nodule, pleural effusion, severe cases of emphysema and COPD (mild cases with hyperinflation but not significant emphysema are not flagged), pneumothorax.
+Participants in the treatment group will interpret 500 images presented alongside the results of xrAI's processing in a dark room and asked to categorize each image into one of the following categories: lungs are clear, at least one pulmonary abnormality is present, not sure.
+Participants in the control group will be asked to interpret the same 500 images as the treatment group but without xrAI's analysis.</description>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_label>Treatment</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Radiologist currently practicing at a Pureform Radiology clinic in Calgary, Canada.
+
+        Exclusion Criteria:
+
+          -  Radiologists not currently practicing at a Pureform Radiology clinic in Calgary,
+             Canada.
+
+          -  Physicians currently practicing at a Pureform Radiology clinic in Calgary, Canada, but
+             that are not radiologists by training.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Natalia Grane</last_name>
+    <phone>6478589944</phone>
+    <email>natalia.grane@1qbit.com</email>
+  </overall_contact>
+  <verification_date>January 2020</verification_date>
+  <study_first_submitted>January 6, 2020</study_first_submitted>
+  <study_first_submitted_qc>January 6, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 9, 2020</study_first_posted>
+  <last_update_submitted>January 6, 2020</last_update_submitted>
+  <last_update_submitted_qc>January 6, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 9, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lung Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>The results of this study will be shared though we have not yet decided the format (publication in a medical journal, conference, white paper) not the type of information that will be shared (individual anonymized participant data or outcomes of the study). We will update this section once the IPD sharing plan is confirmed.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

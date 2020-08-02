@@ -1,0 +1,222 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03739073</url>
+  </required_header>
+  <id_info>
+    <org_study_id>69HCL18_0301</org_study_id>
+    <secondary_id>2018-A01181-54</secondary_id>
+    <nct_id>NCT03739073</nct_id>
+  </id_info>
+  <brief_title>Can we Predict COronary Resistance By EYE Examination ? (COREYE)</brief_title>
+  <acronym>COREYE</acronym>
+  <official_title>Can we Predict COronary Resistance By EYE Examination ?</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hospices Civils de Lyon</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hospices Civils de Lyon</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Prospective interventional study, open, non-comparative and non-randomized. The research
+      concerns physiological parameters of the coronary and ocular blood circulation.
+
+      At the coronary level, the curves of pressure and Doppler flow will be extracted from
+      ComboMap® (Philips). The coronary microvascular resistances, basal and hyperemic, will be
+      determined by the average ratio of the distal pressure and flow.
+
+      At the ocular level, a fundus oculi and an OCTA (angiography by tomography in optical
+      coherence) examination will be performed. The measures of the FFR and the coronary
+      microvascular resistance will be determined by a specific guidewire allowing simultaneous
+      measures of pressure and Doppler flow (ComboWire®, Philips), in 200 patients with
+      intermediate stenosis of the left anterior descending artery (LDA). Topological parameters
+      characterizing the retinal area and choriocapillaries will be determined by statistical
+      approaches and mathematical morphology.
+
+      To establish a predictor of the coronary microvascular resistance from the eye vascular
+      parameters, we shall use a non-linear regression by supervised machine learning. The main
+      cardiovascular risk factors (hypertension, diabetes, dyslipidemia, age, sex) will be part of
+      predetermined input features for the machine learning.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 4, 2018</start_date>
+  <completion_date type="Anticipated">April 5, 2021</completion_date>
+  <primary_completion_date type="Anticipated">April 5, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Coronary microvascular resistance results (Combowire)</measure>
+    <time_frame>Day 1</time_frame>
+    <description>Estimed by Combowire During coronary angiography, coronary resistance will be measured by pressure and Doppler guides in patients with intermediate coronary stenosis according to the usual procedure.
+Correlation between results of Combowire® coronary microvascular resistance and OCTA ophthalmologic findings. A machine learning technique will be used to analyze this series of ocular data and to determine a predictor of post-treatment coronary microvascular resistance.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Coronary microvascular resistance results (OCTA)</measure>
+    <time_frame>Day 1</time_frame>
+    <description>Estimated by ophthalmological examinations data from OCTA. An examination of fundus of the eye will then be performed by optical coherence tomography angiography without injection PLEX Elite 9000.
+Correlation between results of Combowire® coronary microvascular resistance and OCTA ophthalmologic findings. A machine learning technique will be used to analyze this series of ocular data and to determine a predictor of post-treatment coronary microvascular resistance.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>angiographical stenosis</measure>
+    <time_frame>Day 1</time_frame>
+    <description>measurement will be determined by specific guide allowing simultaneous measurements of pressure and spectral Doppler (Combowire®)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Fractional Flow Reserve (FFR)</measure>
+    <time_frame>Day 1</time_frame>
+    <description>measurement of FFR will be determined by specific guide allowing simultaneous measurements of pressure and spectral Doppler (Combowire®)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>coronary microvascular resistance (CFR)</measure>
+    <time_frame>Day 1</time_frame>
+    <description>measurement of CFR will be determined by specific guide allowing simultaneous measurements of pressure and spectral Doppler (Combowire®)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>microvascular resistance values</measure>
+    <time_frame>Year 1</time_frame>
+    <description>Microvascular resistances will be measured using (Combowire®). The values of these resistances will be compared between the patient groups according to their cardiovascular risk factor</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>total area of flow signal void on the choriocapillaris layer</measure>
+    <time_frame>Year 1</time_frame>
+    <description>The total area of flow signal void on the choriocapillaris layer will be calculated with help of MATLAB software and will be correlated with cardiovascular risk-factors</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">210</enrollment>
+  <condition>Coronary Artery Disease</condition>
+  <arm_group>
+    <arm_group_label>Patient with coronary arterial indication</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>A fundus oculi and an OCTA (angiography by tomography in optical coherence) examination will be performed for patients with intermediate stenosis of the left anterior descending artery (LDA).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>OCTA (angiography by tomography in optical coherence)</intervention_name>
+    <description>The study concerns patients with intermediate stenosis of the left anterior descending artery (LDA). A fundus oculi and an OCTA (angiography by tomography in optical coherence) examination will be performed; it's a non-invasive imaging test. OCT uses light waves to take cross-section pictures of your retina and then ophthalmological examination data will correlate with coronary angiography.</description>
+    <arm_group_label>Patient with coronary arterial indication</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Male and female patient's ≥18 years of age with coronary arterial indication as usual
+             and with proximal and / or mean IVA stenosis ≥ 50%.
+
+          2. Signed informed consent
+
+          3. Affiliation to the social security system
+
+        Exclusion Criteria:
+
+          1. Unstable Coronary Artery Disease
+
+          2. Atrial fibrillation
+
+          3. History of myocardial infarction &lt;6 months in the territory of the proximal and / or
+             mean IVA.
+
+          4. Asthma
+
+          5. Aortocoronary bypass surgery.
+
+          6. Collateral development at the level of the proximal and / or mean IVA.
+
+          7. Allergy to iodine, severe renal insufficiency.
+
+          8. Ametropia&gt; = 6 diopters.
+
+          9. History of retinal ocular pathologies other than uncomplicated diabetic retinopathy
+             and hypertensive retinopathy.
+
+         10. History of ophthalmic treatments such as macular or panretinal laser photocoagulation,
+             intravitreal injection of anti-VEGF or cortisone.
+
+         11. Chronic glaucoma
+
+         12. Patients under guardianship or curators.
+
+         13. Pregnant or lactating women.
+
+         14. Patient's not affiliated to the French social security.
+
+         15. Persons placed under the protection of justice,
+
+         16. Subject participating in another research including an exclusion period still in
+             progress at pre-inclusion
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Brahim HARBAOUI</last_name>
+    <phone>+33472072696</phone>
+    <email>Brahim.Harbaoui@chu-lyon.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Fatou LANGEVIN</last_name>
+    <email>fatou.langevin@chu-lyon.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Hospices Civils de Lyon - Hopital de la Croix Rousse</name>
+      <address>
+        <city>Lyon</city>
+        <zip>69004</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Brahim Harbaoui</last_name>
+      <phone>+33472072696</phone>
+      <email>brahim.harbaoui@chu-lyon.fr</email>
+    </contact>
+    <contact_backup>
+      <last_name>Fatou LANGEVIN</last_name>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>December 2018</verification_date>
+  <study_first_submitted>November 5, 2018</study_first_submitted>
+  <study_first_submitted_qc>November 9, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 13, 2018</study_first_posted>
+  <last_update_submitted>December 28, 2018</last_update_submitted>
+  <last_update_submitted_qc>December 28, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 31, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronary Artery Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

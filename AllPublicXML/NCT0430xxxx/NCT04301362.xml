@@ -1,0 +1,291 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04301362</url>
+  </required_header>
+  <id_info>
+    <org_study_id>FIIT_Project</org_study_id>
+    <nct_id>NCT04301362</nct_id>
+  </id_info>
+  <brief_title>Biomarkers of Thrombosis as Predictors of Venous Thromboembolism Risk in Cancer Patients</brief_title>
+  <acronym>FIIT_Score</acronym>
+  <official_title>FIIT Project - Biomarkers of Thrombosis as Predictors of Venous Thromboembolism Risk in Cancer Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Centro Hospitalar de Vila Nova de Gaia/Espinho, E.P.E.</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>LEO Pharma</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Diagnostica Stago</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Centro Hospitalar de Vila Nova de Gaia/Espinho, E.P.E.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The main venous thromboembolism (VTE) risk prediction model for ambulatory cancer patients is
+      Khorana. Cancer thrombosis is associated with elevated thrombin generation. Its
+      quantification is a promising method for evaluating patient's thrombotic profile.
+
+      This study aims to develop a predictive model of VTE risk in ambulatory cancer patients,
+      combining thrombosis biomarkers (D-dimers and thrombin generation potential) with the Khorana
+      score.
+
+      This is a prospective observational study that includes newly diagnosed cancer patients
+      proposed for anti-tumor treatment (chemotherapy, immunotherapy or targeted therapies).
+      Patients with disease progression are allowed if chemotherapy-free for 3 months. A 6-month
+      mean incidence of VTE 6-10% is expected, requiring a sample size of 600 patients. Blood
+      sample is collected at inclusion to analyze thrombosis biomarkers and blood count. The
+      primary endpoint is the occurrence of symptomatic or incidental VTE within 6 months of
+      inclusion. Models will follow a logistic approach with K-fold cross-validation (k=10). Model
+      quality will be assessed with Akaike Information Criterion (AIC) and Bayesian Information
+      Criterion (BIC). Decision for entering predictors in multivariate models will be based on p
+      &lt;.10 in the univariate analysis.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The main aims will be the following:
+
+        -  Evaluate the utility of the combination of thrombosis biomarkers (D-dimers and thrombin
+           generation potential) with the Khorana score in order to stratify VTE risk in ambulatory
+           cancer patients;
+
+        -  Determine the potential of this new score in the stratification of cancer patients into
+           high- and low-risk VTE groups, in order to identify patients who would benefit from
+           primary thromboprophylaxis;
+
+        -  Determine the applicability of the thrombin generation test as an independent factor in
+           the stratification of VTE risk in the cancer population under study;
+
+        -  Determine the predictive value of D-dimers in the cancer population under study (high
+           versus low risk discrimination).
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 19, 2019</start_date>
+  <completion_date type="Anticipated">December 19, 2021</completion_date>
+  <primary_completion_date type="Anticipated">July 19, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Occurrence of symptomatic or incidental VTE</measure>
+    <time_frame>6 months</time_frame>
+    <description>Confirmed by vascular ultrasound, thoracic angiography, and/or ventilation/perfusion scintigraphy. There will be no routine screening for VTE diagnosis. The symptomatic and incidental episodes documented in the clinical process and complementary diagnostic tests will be considered.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Mortality</measure>
+    <time_frame>6 months</time_frame>
+    <description>deaths per 100 persons</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Risk factors for the development of VTE</measure>
+    <time_frame>6 months</time_frame>
+    <description>Identify risk factors for the development of VTE in ambulatory cancer patients</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Major Bleeding</measure>
+    <time_frame>6 months</time_frame>
+    <description>major bleeding event</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">600</enrollment>
+  <condition>Cancer</condition>
+  <condition>Thromboembolism</condition>
+  <condition>Thrombosis</condition>
+  <condition>Biomarkers</condition>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Thrombosis biomarkers</intervention_name>
+    <description>Blood samples shall be prepared according to the manufacturer's instructions and stored at -80°C until analysis. Thrombin generation will be measured using the commercial kit STG®-Tromboscreen kit (Stago). The D-dimers will be quantified using STA LIATEST® D-DI PLUS (Stago).</description>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Plasma
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Cancer patients admitted to Medical Oncology, Clinical Hematology, and Pulmonology
+        consultations at Centro Hospitalar Vila Nova de Gaia/Espinho, Portugal.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients older than 18 years.
+
+          -  Newly diagnosed cancer patients, proposed for anti-tumor medical treatment
+             (chemotherapy, immunotherapy and targeted therapies).
+
+          -  Patients with a cancer diagnosis, previously under medical anti-tumor treatments, with
+             disease progression proposed for a new line of anti-tumor treatment, who have not
+             recently received chemotherapy (within the last three months).
+
+          -  Follow-up in Medical Oncology, Clinical Hematology, and Pulmonology consultations at
+             Centro Hospitalar Vila Nova de Gaia/Espinho.
+
+        Exclusion Criteria:
+
+          -  Major bleeding in the last 3 months.
+
+          -  Major surgery in the last 28 days.
+
+          -  Patients on anticoagulation/antithrombotic therapy
+
+          -  Pregnant or breastfeeding women.
+
+          -  Patients previously submitted to bone marrow transplantation.
+
+          -  Inaccessibility to the results of the biomarkers or other elements provided for in the
+             Khorana score.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>David Ferreira, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Centro Hospitalar Vila Nova de Gaia/Espinho</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Ferreira</last_name>
+    <phone>+351933203930</phone>
+    <email>dr.davidferreira@gmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Lopes</last_name>
+    <phone>+351915281937</phone>
+    <email>sarapblopes@gmail.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Centro Hospitalar Vila Nova de Gaia/Espinho</name>
+      <address>
+        <city>Vila Nova De Gaia</city>
+        <zip>4434-502</zip>
+        <country>Portugal</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>David Ferreira, MD</last_name>
+      <phone>+351933203930</phone>
+      <email>dr.davidferreira@gmail.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Sara Lopes, MD</last_name>
+      <phone>+351915281937</phone>
+      <email>sarapblopes@gmail.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>David Ferreira, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sara Lopes, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Joana Marinho, MD,PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Telma Costa, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Henrique Coelho, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ana Barroso, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Inês Leão, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Lúcia Vieira, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ema Neto, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Joana Marques, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Liliana Morais, BSc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Isis Alonso, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Filipa Azevedo, BSc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Edgar Mesquita, MSc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Portugal</country>
+  </location_countries>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>March 6, 2020</study_first_submitted>
+  <study_first_submitted_qc>March 6, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 10, 2020</study_first_posted>
+  <last_update_submitted>March 10, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 10, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 12, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Centro Hospitalar de Vila Nova de Gaia/Espinho, E.P.E.</investigator_affiliation>
+    <investigator_full_name>Dr. David Ferreira</investigator_full_name>
+    <investigator_title>MD Immunohemotherapy Department</investigator_title>
+  </responsible_party>
+  <keyword>Khorana</keyword>
+  <keyword>Thrombin generation</keyword>
+  <keyword>Venous thromboembolism</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Thrombosis</mesh_term>
+    <mesh_term>Thromboembolism</mesh_term>
+    <mesh_term>Venous Thromboembolism</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>No applicable</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

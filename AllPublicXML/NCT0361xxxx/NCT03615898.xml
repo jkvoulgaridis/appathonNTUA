@@ -1,0 +1,194 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03615898</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DAV-OPI-2018-01</org_study_id>
+    <nct_id>NCT03615898</nct_id>
+  </id_info>
+  <brief_title>Medication Errors in the Spanish System of Communication of Incidents in Anaesthesia: Ten Year Analysis.</brief_title>
+  <acronym>SENSAMED</acronym>
+  <official_title>SENSAMED. Medication Errors in the Spanish System of Communication of Incidents in Anaesthesia: Ten Year Analysis.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hospital Universitario La Fe</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>SENSAR (Sistema español de notificación en seguridad en anestesia y reanimación)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Hospital Universitario La Fe</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Background: The incidents related to medication are an important cause of avoidable health
+      damage in the perioperative environment.
+
+      Objectives: Describe the incidents related to medication reported in the national
+      communication system of incidents in anaesthesia and resuscitation in Spain (SENSAR), and
+      their relationship with morbidity.
+
+      Methods: The investigators studied the incidents identified as medication errors of all those
+      reported in the SENSAR database between January 1, 2008 and December 31, 2017. The
+      researchers performed a descriptive analysis of independent variables: type of medication
+      incident, moment in which the incident occurred, drug group involved and then a logistic
+      regression in order to establish the relationship with the dependent variable: morbidity.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      DESIGN AND APPROVAL This observational study was conducted between January 1, 2008, and
+      December 31, 2017, after approval from the institutional review board (Ethics Committee of
+      the La Fe University and Polytechnic Hospital (number) Valencia, using data from the Spanish
+      Anaesthesia and Reanimation Incident Reporting System (SENSAR) to retrieve the medication
+      related patient safety incidents. The methodology followed the recommendations of the
+      Strengthening the Reporting of Observational studies in Epidemiology (STROBE) statement. The
+      Standards for Quality Improvement Reporting Excellence (SQUIRE) were used to write the
+      manuscript.
+
+      FRAMEWORK (study setting) All the data analysed in this study was obtained from SENSAR, which
+      is a national, multi centre incident notification system focusing on the perioperative
+      environment. Until December 2017, it included 104 hospitals in Spain and Chile. The
+      incorporation of hospitals into the network was gradual and progressive since its inception
+      in 2008. Voluntarily, anonymously and on a non-punitive basis, anaesthesiologists, resident
+      doctors in training and anaesthesia and resuscitation nurses can communicate any security
+      incident using a web form accessed with a generic key for each assigned centre, ensuring the
+      anonymity of the communicator. In this database, the communication is recorded in a
+      structured form together with a free text for the detailed description of the incident. In
+      each hospital there is a group of professionals in charge of the anonymous and confidential
+      analysis of the incidents based on the London Protocol (*+*), which proposes measures to
+      avoid the repetition of incidents and gives feedback to the notifiers.
+
+      The investigators define patient safety incident as any event or circumstance in which there
+      could be, or has been, unnecessary harm caused to a patient (*).
+
+      During the analysis process, the incidents reported are classified according to the type of
+      incident through a classification adapted to the perioperative environment. Adverse Events
+      that are not preventable are also included in the researchers classification (annex).
+
+      STUDY POPULATION (Subjects) (Data collection) (Observers) The study population consisted of
+      communications and analysis of the SENSAR database between January 1, 2008 and December 31,
+      2017. The investigators selected incidents classified as medication incidents from the
+      structured information included in the database at the time of notification and subsequent
+      analysis of the incident. In incidents for which there was no classification of type of
+      incident, two authors (ER and YS) individually reviewed each case with the reading of the
+      free texts of the form in search of incidents related to medication. The discrepancies
+      between the two observers were resolved by a third author (DA).
+
+      STUDY VARIABLES For the descriptive analysis of the incidents, the investigators used the
+      following categorical variables: type of medication incident, moment in which the incident
+      occurred, drug group involved, and morbidity generated. Regarding the independent variables,
+      the type of medication incident was classified by omission of the administration of the drug,
+      the administration of expired products, the mistake in the selection of drug, recommendation,
+      concentration or points of administration; the moment in which the incident occurred in the
+      prescription, preparation, dispensing, administration or monitoring of the drug, following
+      SENSAR's own classification, adapted to the perioperative environment. For the analysis of
+      the drugs involved, the investigators used their own classification (Table 1).
+
+      For the dependent variable, morbidity caused by the incident, the researchers used the WHO
+      taxonomy that orders the morbidity degrees in the following categories: no harm, minor
+      morbidity, intermediate morbidity, major morbidity and death (*).
+
+      STATISTICAL METHODS. The researchers use the statistical software, &quot;R&quot;, version 3.4.1, to
+      perform the analysis of the sample obtaining, in absolute numbers and percentages, the
+      frequency with which the different types of reported incidents have occurred. To determine
+      the existence of a population-level relationship between the different independent variables
+      used and the damage produced in the patient, the researchers used the Kruskal-Wallis
+      non-parametric test with a level of significance of 5%. The result of this test will be
+      expressed with the obtained contrast statistic and its p-value. To identify the factors that
+      best estimate the risk of producing different degrees of morbidity in the patient, the
+      investigators generated a multiple ordinal logistic regression model. The effects presented
+      in this case will be the estimator, the standard error, the &quot;odds ratio&quot;, the confidence
+      intervals at 95% and the p-value for a significance of 5%.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 1, 2008</start_date>
+  <completion_date type="Actual">July 31, 2018</completion_date>
+  <primary_completion_date type="Actual">December 31, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>INCIDENTS RELATED TO MEDICATION</measure>
+    <time_frame>10 YEARS</time_frame>
+    <description>Describe the incidents related to medication reported in the national communication system of incidents in anaesthesia and resuscitation in Spain (SENSAR), and their relationship with morbidity.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>MORBILITY</measure>
+    <time_frame>10 YEARS</time_frame>
+    <description>MORBILITY RELATED TO MEDICATION INCIDENTS</description>
+  </secondary_outcome>
+  <enrollment type="Actual">7072</enrollment>
+  <condition>Safety Issues</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Medication errors analysis</intervention_name>
+    <description>TEN YEAR ANALYSIS OF MEDICATION ERRORS IN THE SPANISH INCIDENTS REPORTING SYSTEM IN ANAESTHESIA</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study population consisted of communications and analysis of the SENSAR database
+        between January 1, 2008 and December 31, 2017
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Incidents reported during the 10 years evaluation period.
+
+        Exclusion Criteria:
+
+          -  Reports with missing data.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>EVA ROMERO-GARCIA, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Hospital Universitario La Fe</affiliation>
+  </overall_official>
+  <link>
+    <url>http://sensar.org/</url>
+    <description>Website for SPANISH SYSTEM OF COMMUNICATION OF INCIDENTS IN ANAESTHESIA</description>
+  </link>
+  <verification_date>September 2018</verification_date>
+  <study_first_submitted>July 31, 2018</study_first_submitted>
+  <study_first_submitted_qc>July 31, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 6, 2018</study_first_posted>
+  <last_update_submitted>September 7, 2018</last_update_submitted>
+  <last_update_submitted_qc>September 7, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 10, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Hospital Universitario La Fe</investigator_affiliation>
+    <investigator_full_name>Oscar Diaz-Cambronero</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>medication incidents reporting system errors morbidity Spain</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

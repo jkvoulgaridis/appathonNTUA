@@ -1,0 +1,503 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04208789</url>
+  </required_header>
+  <id_info>
+    <org_study_id>0111190912</org_study_id>
+    <nct_id>NCT04208789</nct_id>
+  </id_info>
+  <brief_title>Artificial Inteligent for Diagnosing Drug-Resistant Tuberculosis</brief_title>
+  <official_title>Artificial Neural Network as Diagnostic Tools For Rifampicin-Resistant Tuberculosis In Indonesia: A Predictive Model Study and Economic Evaluation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hasanuddin University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Chulalongkorn University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Hasanuddin University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Title: Artificial Neural Network as Diagnostic Tools For Rifampicin-Resistant Tuberculosis In
+      Indonesia. A Predictive Model Study and Economic Evaluation.
+
+      Background: Drug-resistant tuberculosis has become a global threat particularly in Indonesia.
+      The need to increase detection, followed by appropriate treatment is a concern in dealing
+      with these cases. The rapid molecular test (specifically for detecting rifampicin-resistant)
+      is now being utilized in health care service, particularly at primary care level with some
+      challenges including the lack of quality control (including how to obtained and treat the
+      specimen properly prior to the examination) which then, affect the reliability of the
+      results. Drug-Susceptibility Test (DST) is still, the gold standard in diagnosing
+      drug-resistant tuberculosis but this procedure is time-consuming and costly. The artificial
+      intelligent including data exploration and modeling is a promising method to classify
+      potential drug-resistant cases based on the association of several factors.
+
+      Objective :
+
+        1. To develop a model using an artificial intelligence approach that is able to classify
+           the possibility of rifampicin-resistant tuberculosis.
+
+        2. To assess the diagnostic ability and the accuracy of the model in comparison to existing
+           rapid test and the gold standard
+
+        3. To evaluate the cost-effectiveness evaluation of Artificial Neural Network model in
+           Web-Based Application in comparison with the standard diagnostic tools
+
+      Methodology
+
+        1. A cross-sectional study involving all suspected drug-resistant tuberculosis cases that
+           being referred to the study center to undergo rapid molecular test and DST test over the
+           past 5 years.
+
+        2. A comprehensive, retrospective medical records assessment and tuberculosis individual
+           report will be performed to obtain a variable of interest.
+
+        3. Questionnaire assessment for confirmation of insufficient information.
+
+        4. Model Building through machine learning and deep learning procedure
+
+        5. Model Validation and testing using training data set and data from the different study
+           center
+
+      Hypothesis :
+
+      Artificial Intelligent Model will yield a similar or superior result of diagnostic ability
+      compare the Rapid Molecular Test according to the Drug-Susceptibility Test. (Superiority
+      Trial)
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      PROCEDURE
+
+        1. Under the permission granted by the study centers, the team will obtain the medical
+           records of all eligible cases within the past 5 years
+
+        2. The investigators then collect the information of interest variable/parameter which
+           obtained by history taking and further examinations and also medical Billing and
+           Hospital pay per service. For participants with Health Insurance, the direct spending
+           for treatment will be based on INA-CBGs (case-based group) payment. This data then will
+           be recorded in an electronic database.
+
+           Parameter for model development :
+
+           Host-based :
+
+             1. Presence of Diabetes Mellitus (Including years of being diagnosed, HbA1c Before DST
+                examination and treatment, medication either insulin or oral anti-diabetic)
+
+             2. Presence of HIV ((Including years of being diagnosed, CD4 level Before DST
+                examination and treatment, and anti-retroviral medication)
+
+             3. Tobacco cessation (Brinkman Index)
+
+             4. Alcohol consumption
+
+             5. History of Immunosuppressant use (steroid)
+
+             6. Presence of other diseases (cancer, stroke, cardiovascular disease)
+
+             7. History of drug abuse
+
+             8. History of adverse drug reaction during tuberculosis treatment
+
+             9. Adherence of previous tuberculosis therapy
+
+            10. Presence of COPD
+
+            11. Body Mass Index
+
+           Environment
+
+             1. History of Contact with Tuberculosis Patients
+
+             2. Healthy Index of Living Environment (Household crowds)
+
+           Agent
+
+             1. Level of Bacterial Smear Before DST
+
+             2. Extension of Lesion in Chest X-Ray
+
+             3. Presence of Cavitation
+
+           Sociodemographic Factors
+
+             1. Age
+
+             2. Gender
+
+             3. Education
+
+             4. Income Level
+
+             5. Health Insurance
+
+             6. Marital Status
+
+             7. Employment Status
+
+        3. For incomplete information, a confirmation to the health center that was referring the
+           cases will be done using the Tuberculosis Registration or questionnaire.
+
+        4. The model building will be done using an Artificial Intelligent Model in R. A selected
+           model is an Artificial Neural Network either using Radial Base Function or multi-layer
+           perceptron. Several important procedures including :
+
+             1. Determine Significant Parameter
+
+             2. Dealing with Insufficient and Imbalanced data class (over or under-sampling)
+
+             3. Normalization (Batch, Min-Max)
+
+             4. Layer and design
+
+             5. Training and test distribution (70:30)
+
+             6. Model Selection
+
+        5. External Validation will be done to the appointed study center. Precision: (true
+           positive + True Negative)/All cases
+
+        6. The Incremental Cost-Effectiveness Ratio Simulation will be done, comparing the best
+           model versus the gold standard and GeneXpert yielding a saving per unit of effectiveness
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 15, 2020</start_date>
+  <completion_date type="Anticipated">December 30, 2020</completion_date>
+  <primary_completion_date type="Anticipated">September 30, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy of Artificial Intelligent Model to Drug Susceptibility Test Results</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>The accuracy is the number of correct cases (the results obtained by the model is the same as obtained by culture) predicted by the model per total cases.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of Rapid Molecular Drug Resistant Tuberculosis test to Drug Susceptibility Test Results</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>The accuracy is the number of correct cases (the results obtained by the GeneXpert MTB/RIF is the same as obtained by culture) predicted by the model per total cases.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Diagnostic Ability of Artificial Intelligent Model to Drug Susceptibility Test Results</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>Sensitivity, Specificity, Negative Predictive Value and Positive Predictive value of Artificial Intelligent Model to Drug Susceptibility Test Results</description>
+  </other_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">528</enrollment>
+  <condition>MDR Tuberculosis</condition>
+  <condition>Resistance to Tuberculostatic Drugs</condition>
+  <arm_group>
+    <arm_group_label>Positive Rifampicin-Resistant Tuberculosis</arm_group_label>
+    <description>All suspected cases that yielded Positive Rifampicin-Resistant Tuberculosis under the Gold-Standard Test (Culture on Lowenstein-Jensen Medium)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Negative Rifampicin-Resistant Tuberculosis</arm_group_label>
+    <description>All suspected cases that yielded Negative Rifampicin-Resistant Tuberculosis under the Gold-Standard Test (Culture on Lowenstein-Jensen Medium)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Rapid Molecular Drug-Resistant Tuberculosis Test</intervention_name>
+    <description>GeneXpert MTB/RIF assay is a nucleic acid amplification (NAA) test which simultaneously detects DNA of Mycobacterium tuberculosis complex (MTBC) and resistance to rifampin (RIF) (i.e. mutation of the rpoB gene) in less than two hours. This system integrates and automates sample processing, nucleic acid amplification, and detection of the target sequences. The primers in the XpertMTB/RIF assay amplify a portion of the rpoB gene containing the 81 base pair &quot;core&quot; region. The probes are able to differentiate between the conserved wild-type sequence and mutations in the core region that is associated with rifampicin resistance. The output of this procedure is detected, undetected, or indeterminate.</description>
+    <arm_group_label>Negative Rifampicin-Resistant Tuberculosis</arm_group_label>
+    <arm_group_label>Positive Rifampicin-Resistant Tuberculosis</arm_group_label>
+    <other_name>GeneXpert MTB/RIF</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Artificial Intelligent Model</intervention_name>
+    <description>The artificial intelligent model is a model that developed from several associated factors with machine learning and deep learning method in order to classify the possibility of drug-resistant tuberculosis. The Artificial neural network will be built using deep learning software.</description>
+    <arm_group_label>Negative Rifampicin-Resistant Tuberculosis</arm_group_label>
+    <arm_group_label>Positive Rifampicin-Resistant Tuberculosis</arm_group_label>
+    <other_name>Artificial Neural Network</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Drug Susceptibility Test</intervention_name>
+    <description>This procedure uses Löwenstein-Jensen (LJ) medium to determine whether the isolates of M. tuberculosis are susceptible to anti-TB agents. Media containing the critical concentration of the anti-TB agent is inoculated with a dilution of a culture suspension (usually a 10-2 dilution of a MacFarland 1 suspension) and control media without the anti-TB agent is inoculated with usually a 10-4 dilution of a MacFarland 1 suspension. Growth (i.e. a number of colonies) on the agent-containing media is compared to the growth on the agent-free control media. The ratio of the number of colonies on the medium containing the anti-TB agent to the number of colonies (corrected for the dilution factor) on the medium without the anti-TB agent is calculated, and the proportion is expressed as a percentage. Provisional results for susceptible isolates may be read after 3-4 weeks of incubation; definitive results may be read after 6 weeks of incubation. Resistance may be reported within 3-4 weeks.</description>
+    <arm_group_label>Negative Rifampicin-Resistant Tuberculosis</arm_group_label>
+    <arm_group_label>Positive Rifampicin-Resistant Tuberculosis</arm_group_label>
+    <other_name>Lowenstein-Jensen Medium Drug Susceptibility Test</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All suspected/presumptive Drug-Resistant Tuberculosis cases that were sent to the appointed
+        Study Center within the last 3 years
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion criteria:
+
+          1. Default cases under WHO criteria
+
+          2. Failure cases under WHO criteria
+
+          3. Physician-referred cases for presumptive drug-resistant TB as follows :
+
+        With or without immunocompromised condition, With or without any adverse reaction of anti
+        TB drug, With or without any comorbidities (such as diabetes mellitus, heart disease)
+
+        Exclusion Criteria:
+
+          1. Incomplete Information on Rapid Molecular Test Results, and Culture Results
+
+          2. Participants or family are unable/unwilling to provide additional information obtained
+             through questionnaire
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sathirakorn Pongpanich, Prof</last_name>
+    <role>Study Director</role>
+    <affiliation>Chulalongkorn University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Wandee Sirichokchatchawan, Ph.D</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Chulalongkorn University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Bumi Herman, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Hasanuddin University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Bumi Herman, MD</last_name>
+    <phone>+66638275008</phone>
+    <email>bumiherman2@gmail.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Kanudjoso Djatiwibowo General Hospital</name>
+      <address>
+        <city>Balikpapan</city>
+        <state>East Kalimantan</state>
+        <zip>76115</zip>
+        <country>Indonesia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Bumi Herman, MD</last_name>
+      <phone>+6281355596644</phone>
+      <email>bumiherman@med.unhas.ac.id</email>
+    </contact>
+    <investigator>
+      <last_name>Bumi Herman, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Tarakan General Hospital</name>
+      <address>
+        <city>Tarakan</city>
+        <state>North Kalimantan</state>
+        <zip>77113</zip>
+        <country>Indonesia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Karina Patricia, MD</last_name>
+      <phone>+6281318035695</phone>
+      <email>karinapatriciamd@gmail.com</email>
+    </contact>
+    <investigator>
+      <last_name>Karina Patricia, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Labuang Baji General Hospital</name>
+      <address>
+        <city>Makasar</city>
+        <state>South Sulawesi</state>
+        <zip>90132</zip>
+        <country>Indonesia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Muh D Wahyu, MD</last_name>
+      <phone>+6281243814431</phone>
+      <email>muhdwiwahyu@gmail.com</email>
+    </contact>
+    <investigator>
+      <last_name>Ranisa Handayani, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Muh D Wahyu, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Balai Besar Kesehatan Paru Masyarakat</name>
+      <address>
+        <city>Makasar</city>
+        <state>South Sulawesi</state>
+        <country>Indonesia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Bumi Herman, MD</last_name>
+      <phone>+6281355596644</phone>
+      <email>bumiherman2@gmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Wahidin Sudirohusodo General Hospital</name>
+      <address>
+        <city>Makassar</city>
+        <state>South Sulawesi</state>
+        <zip>76124</zip>
+        <country>Indonesia</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Muhammad D Wahyu, MD</last_name>
+      <phone>+6281243814431</phone>
+      <email>muhdwiwahyu@gmail.com</email>
+    </contact>
+    <investigator>
+      <last_name>Bumi Herman, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Muhammad D Wahyu, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Indonesia</country>
+  </location_countries>
+  <reference>
+    <citation>GBD Tuberculosis Collaborators. The global burden of tuberculosis: results from the Global Burden of Disease Study 2015. Lancet Infect Dis. 2018 Mar;18(3):261-284. doi: 10.1016/S1473-3099(17)30703-X. Epub 2017 Dec 7.</citation>
+    <PMID>29223583</PMID>
+  </reference>
+  <reference>
+    <citation>Dean AS, Cox H, Zignol M. Epidemiology of Drug-Resistant Tuberculosis. Adv Exp Med Biol. 2017;1019:209-220. doi: 10.1007/978-3-319-64371-7_11. Review.</citation>
+    <PMID>29116637</PMID>
+  </reference>
+  <reference>
+    <citation>Kendall EA, Azman AS, Cobelens FG, Dowdy DW. MDR-TB treatment as prevention: The projected population-level impact of expanded treatment for multidrug-resistant tuberculosis. PLoS One. 2017 Mar 8;12(3):e0172748. doi: 10.1371/journal.pone.0172748. eCollection 2017.</citation>
+    <PMID>28273116</PMID>
+  </reference>
+  <reference>
+    <citation>Dheda K, Gumbo T, Maartens G, Dooley KE, McNerney R, Murray M, Furin J, Nardell EA, London L, Lessem E, Theron G, van Helden P, Niemann S, Merker M, Dowdy D, Van Rie A, Siu GK, Pasipanodya JG, Rodrigues C, Clark TG, Sirgel FA, Esmail A, Lin HH, Atre SR, Schaaf HS, Chang KC, Lange C, Nahid P, Udwadia ZF, Horsburgh CR Jr, Churchyard GJ, Menzies D, Hesseling AC, Nuermberger E, McIlleron H, Fennelly KP, Goemaere E, Jaramillo E, Low M, Jara CM, Padayatchi N, Warren RM. The epidemiology, pathogenesis, transmission, diagnosis, and management of multidrug-resistant, extensively drug-resistant, and incurable tuberculosis. Lancet Respir Med. 2017 Mar 15. pii: S2213-2600(17)30079-6. doi: 10.1016/S2213-2600(17)30079-6. [Epub ahead of print] Review.</citation>
+    <PMID>28344011</PMID>
+  </reference>
+  <reference>
+    <citation>Collins D, Hafidz F, Mustikawati D. The economic burden of tuberculosis in Indonesia. Int J Tuberc Lung Dis. 2017 Sep 1;21(9):1041-1048. doi: 10.5588/ijtld.16.0898.</citation>
+    <PMID>28826455</PMID>
+  </reference>
+  <reference>
+    <citation>Falzon D, Mirzayev F, Wares F, Baena IG, Zignol M, Linh N, Weyer K, Jaramillo E, Floyd K, Raviglione M. Multidrug-resistant tuberculosis around the world: what progress has been made? Eur Respir J. 2015 Jan;45(1):150-60. doi: 10.1183/09031936.00101814. Epub 2014 Sep 26.</citation>
+    <PMID>25261327</PMID>
+  </reference>
+  <reference>
+    <citation>Falzon D, Jaramillo E, Wares F, Zignol M, Floyd K, Raviglione MC. Universal access to care for multidrug-resistant tuberculosis: an analysis of surveillance data. Lancet Infect Dis. 2013 Aug;13(8):690-7. doi: 10.1016/S1473-3099(13)70130-0. Epub 2013 Jun 4.</citation>
+    <PMID>23743044</PMID>
+  </reference>
+  <reference>
+    <citation>van Kampen SC, Susanto NH, Simon S, Astiti SD, Chandra R, Burhan E, Farid MN, Chittenden K, Mustikawati DE, Alisjahbana B. Effects of Introducing Xpert MTB/RIF on Diagnosis and Treatment of Drug-Resistant Tuberculosis Patients in Indonesia: A Pre-Post Intervention Study. PLoS One. 2015 Jun 15;10(6):e0123536. doi: 10.1371/journal.pone.0123536. eCollection 2015.</citation>
+    <PMID>26075722</PMID>
+  </reference>
+  <reference>
+    <citation>Soeroto AY, Lestari BW, Santoso P, Chaidir L, Andriyoko B, Alisjahbana B, van Crevel R, Hill PC. Evaluation of Xpert MTB-RIF guided diagnosis and treatment of rifampicin-resistant tuberculosis in Indonesia: A retrospective cohort study. PLoS One. 2019 Feb 28;14(2):e0213017. doi: 10.1371/journal.pone.0213017. eCollection 2019.</citation>
+    <PMID>30818352</PMID>
+  </reference>
+  <reference>
+    <citation>Prada-Medina CA, Fukutani KF, Pavan Kumar N, Gil-Santana L, Babu S, Lichtenstein F, West K, Sivakumar S, Menon PA, Viswanathan V, Andrade BB, Nakaya HI, Kornfeld H. Systems Immunology of Diabetes-Tuberculosis Comorbidity Reveals Signatures of Disease Complications. Sci Rep. 2017 May 17;7(1):1999. doi: 10.1038/s41598-017-01767-4.</citation>
+    <PMID>28515464</PMID>
+  </reference>
+  <reference>
+    <citation>Pradipta IS, Forsman LD, Bruchfeld J, Hak E, Alffenaar JW. Risk factors of multidrug-resistant tuberculosis: A global systematic review and meta-analysis. J Infect. 2018 Dec;77(6):469-478. doi: 10.1016/j.jinf.2018.10.004. Epub 2018 Oct 16.</citation>
+    <PMID>30339803</PMID>
+  </reference>
+  <reference>
+    <citation>Wang MG, Huang WW, Wang Y, Zhang YX, Zhang MM, Wu SQ, Sandford AJ, He JQ. Association between tobacco smoking and drug-resistant tuberculosis. Infect Drug Resist. 2018 Jun 12;11:873-887. doi: 10.2147/IDR.S164596. eCollection 2018. Review.</citation>
+    <PMID>29928135</PMID>
+  </reference>
+  <reference>
+    <citation>Alipanah N, Jarlsberg L, Miller C, Linh NN, Falzon D, Jaramillo E, Nahid P. Adherence interventions and outcomes of tuberculosis treatment: A systematic review and meta-analysis of trials and observational studies. PLoS Med. 2018 Jul 3;15(7):e1002595. doi: 10.1371/journal.pmed.1002595. eCollection 2018 Jul.</citation>
+    <PMID>29969463</PMID>
+  </reference>
+  <reference>
+    <citation>Tegegne BS, Mengesha MM, Teferra AA, Awoke MA, Habtewold TD. Association between diabetes mellitus and multi-drug-resistant tuberculosis: evidence from a systematic review and meta-analysis. Syst Rev. 2018 Oct 15;7(1):161. doi: 10.1186/s13643-018-0828-0.</citation>
+    <PMID>30322409</PMID>
+  </reference>
+  <reference>
+    <citation>Darsey JA, Griffin WO, Joginipelli S, Melapu VK. Architecture and biological applications of artificial neural networks: a tuberculosis perspective. Methods Mol Biol. 2015;1260:269-83. doi: 10.1007/978-1-4939-2239-0_17.</citation>
+    <PMID>25502388</PMID>
+  </reference>
+  <reference>
+    <citation>Souza Filho JBOE, Sanchez M, Seixas JM, Maidantchik C, Galliez R, Moreira ADSR, da Costa PA, Oliveira MM, Harries AD, Kritski AL. Screening for active pulmonary tuberculosis: Development and applicability of artificial neural network models. Tuberculosis (Edinb). 2018 Jul;111:94-101. doi: 10.1016/j.tube.2018.05.012. Epub 2018 May 19.</citation>
+    <PMID>30029922</PMID>
+  </reference>
+  <reference>
+    <citation>Dande P, Samant P. Acquaintance to Artificial Neural Networks and use of artificial intelligence as a diagnostic tool for tuberculosis: A review. Tuberculosis (Edinb). 2018 Jan;108:1-9. doi: 10.1016/j.tube.2017.09.006. Epub 2017 Sep 20. Review.</citation>
+    <PMID>29523307</PMID>
+  </reference>
+  <reference>
+    <citation>de O Souza Filho JB, de Seixas JM, Galliez R, de Bragança Pereira B, de Q Mello FC, Dos Santos AM, Kritski AL. A screening system for smear-negative pulmonary tuberculosis using artificial neural networks. Int J Infect Dis. 2016 Aug;49:33-9. doi: 10.1016/j.ijid.2016.05.019. Epub 2016 May 24.</citation>
+    <PMID>27235086</PMID>
+  </reference>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>December 6, 2019</study_first_submitted>
+  <study_first_submitted_qc>December 19, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 23, 2019</study_first_posted>
+  <last_update_submitted>June 23, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 23, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 25, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Hasanuddin University</investigator_affiliation>
+    <investigator_full_name>Bumi Zulheri Herman MD</investigator_full_name>
+    <investigator_title>Researcher</investigator_title>
+  </responsible_party>
+  <keyword>Artificial Neural Network</keyword>
+  <keyword>GeneXpert MTB/RIF</keyword>
+  <keyword>Drug-Resistant Tb</keyword>
+  <keyword>Diagnosis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Tuberculosis</mesh_term>
+    <mesh_term>Tuberculosis, Multidrug-Resistant</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

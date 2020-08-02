@@ -1,0 +1,230 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03545178</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2018-00207</org_study_id>
+    <nct_id>NCT03545178</nct_id>
+  </id_info>
+  <brief_title>Systematic Evaluation of Continuous Glucose Monitoring Data</brief_title>
+  <acronym>SECOND</acronym>
+  <official_title>Systematic Evaluation of Continuous Glucose Monitoring Data to for the Development of Clinical Solutions</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital Inselspital, Berne</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University Hospital Inselspital, Berne</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study retrospectively evaluates continuous glucose monitoring (CGM) and flash glucose
+      monitoring (FGM) data and pursues two main objectives: First, the investigators analyze if
+      glucose values are better controlled in the days directly before a consultation at our
+      tertiary referral centre (so called &quot;white coat adherence&quot;). Second, the investigators use
+      the collected CGM and FGM data to develop a hypoglycemia prediction model.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Substudy A.) Presence of white coat adherence in diabetic patients:
+
+      The investigators aim at evaluating the existence of a so called &quot;white coat adherence&quot; with
+      regard to diabetes control, which means that blood-glucose is better controlled in the days
+      immediately prior to a consultation at the diabetes clinic compared to the time-period
+      further back. To analyse this phenomenon, the investigators use continuous glucose monitoring
+      (CGM) and flash glucose monitoring (FGM) of diabetic patients and compare CGM-/FGM data of
+      the last three days prior to the consultation with the CGM-/FGM data of the days 4-28 prior
+      to the consultation, as well as the last seven days prior to the consultation with days 8-28
+      prior to the consultation.
+
+      Substudy B.) Retrospective data collection for the development and evaluation of a
+      hypoglycemia prediction model:
+
+      Scope of the study is to use retrospective data for training and evaluation of a deep
+      recurrent neural network based system for predicting the onset of hypoglycemic event at least
+      20 min ahead in time. The study aims to: I, assess the ability of deep learning algorithm to
+      predict hypoglycemic events using the data collected during substudy 1. II, assess the
+      ability of global model to be personalized using the data collected during sub-study 1. III,
+      investigate the amount of &quot;history&quot; to be involved to achieve maximum performance in terms of
+      prediction ability. IV, develop a global model, which can be easily further personalized to
+      achieve optimum prediction performance per patient.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">April 1, 2018</start_date>
+  <completion_date type="Actual">July 19, 2019</completion_date>
+  <primary_completion_date type="Actual">July 19, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change of time in target glucose range day 0-3 compared to day 4-28 and day 0-7 compared to day 8-28 prior to consultation (for Substudy A)</measure>
+    <time_frame>01.01.2013 - 31.07.2018; outcome assessed at study end</time_frame>
+    <description>The time spent in the target glucose range from 3.9 to 10.0 mmol/l assessed by CGM/FGM.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Hypoglycemia prediction (for Substudy B)</measure>
+    <time_frame>01.01.2013 - 31.07.2018; outcome assessed at study end</time_frame>
+    <description>Proportion of times a deep learning based algorithm can predict a hypoglycemic event (BG &lt;4.0 mmol/l) at least 20 min ahead in time?</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change of time above and below glucose target range day 0-3 compared to day 4-28 and day 0-7 compared to day 8-28 prior to consultation (for Substudy A)</measure>
+    <time_frame>01.01.2013 - 31.07.2018; outcome assessed at study end</time_frame>
+    <description>The time spent above and below the target glucose (3.9 to 10.0 mmol/l) assessed by CGM/FGM.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of average and standard deviation glucose day 0-3 compared to day 4-28 and day 0-7 compared to day 8-28 prior to consultation (for Substudy A)</measure>
+    <time_frame>01.01.2013 - 31.07.2018; outcome assessed at study end</time_frame>
+    <description>Average and standard deviation glucose levels based on CGM/FGM data</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sensor wearing time day 0-3 compared to day 4-28 and day 0-7 compared to day 8-28 prior to consultation (for Substudy A)</measure>
+    <time_frame>01.01.2013 - 31.07.2018; outcome assessed at study end</time_frame>
+    <description>Time CGM-/FGM sensor has been worn (%)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of coefficient of variation (CV) day 0-3 compared to day 4-28 and day 0-7 compared to day 8-28 prior to consultation (for Substudy A)</measure>
+    <time_frame>01.01.2013 - 31.07.2018; outcome assessed at study end</time_frame>
+    <description>Coefficient of variation (CV) based on CGM/FGM data</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of time in hypoglycemia day 0-3 compared to day 4-28 and day 0-7 compared to day 8-28 prior to consultation (for Substudy A)</measure>
+    <time_frame>01.01.2013 - 31.07.2018; outcome assessed at study end</time_frame>
+    <description>The time with glucose levels &lt; 3.0 based on CGM/FGM data</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of time in hyperglycemia day 0-3 compared to day 4-28 and day 0-7 compared to day 8-28 prior to consultation (for Substudy A)</measure>
+    <time_frame>01.01.2013 - 31.07.2018; outcome assessed at study end</time_frame>
+    <description>The time with glucose levels in the significant hyperglycaemia, as based on CGM/FGM (glucose levels &gt; 13.9 mmol/l)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of mean amplitude of glucose excursion (MAGE) day 0-3 compared to day 4-28 and day 0-7 compared to day 8-28 prior to consultation (for Substudy A)</measure>
+    <time_frame>01.01.2013 - 31.07.2018; outcome assessed at study end</time_frame>
+    <description>The mean amplitude of glucose excursion assessed by CGM/FGM</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Change of total, basal and bolus insulin dose day 0-7 compared to day 8-28 prior to consultation (for Substudy A)</measure>
+    <time_frame>01.01.2013 - 31.07.2018; outcome assessed at study end</time_frame>
+    <description>Total, basal and bolus insulin dose based on data of continuous subcutaneous insulin infusion data in patients treated with insulin pumps</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Change of periods with glucose below 3.0mmol/l for at least 15 minutes day 0-3 compared to day 4-28 and day 0-7 compared to day 8-28 prior to consultation (for Substudy A)</measure>
+    <time_frame>01.01.2013 - 31.07.2018; outcome assessed at study end</time_frame>
+    <description>Duration of periods when sensor glucose values was below 3.0mmol/l for at least 15 minutes</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Change of periods with glucose above 13.9mmol/l for at least 15 minutes day 0-3 compared to day 4-28 and day 0-7 compared to day 8-28 prior to consultation (for Substudy A)</measure>
+    <time_frame>01.01.2013 - 31.07.2018; outcome assessed at study end</time_frame>
+    <description>Duration of periods when sensor glucose values was above 13.9mmol/l for at least 15 minutes</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Change of mean of daily differences (MODD) day 0-3 compared to day 4-28 and day 0-7 compared to day 8-28 prior to consultation (for Substudy A)</measure>
+    <time_frame>01.01.2013 - 31.07.2018; outcome assessed at study end</time_frame>
+    <description>Mean of daily differences (MODD) based on CGM/FGM data</description>
+  </other_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">384</enrollment>
+  <condition>Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>Diabetic patients using CGM/FGM</arm_group_label>
+    <description>Evaluation of glucose control and application of hypoglycemia prediction models in diabetic patients wearing CGM and/or FGM devices for at least 50% of the time during the last 4 weeks prior to the medical consultation.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>glucose control (Substudy A)</intervention_name>
+    <description>Comparison of glucose values during days 0 - 3 with days 4 - 28 and 0 - 7 with days 8 - 28 before a medical consultation at the diabetes clinic in patients suffering from diabetes and wearing a continuous glucose monitoring and/or flash glucose monitoring device</description>
+    <arm_group_label>Diabetic patients using CGM/FGM</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>hypoglycemia prediction (Substudy B)</intervention_name>
+    <description>Use of CGM/FGM data to develop and evaluate a neural network based hypoglycemia prediction model</description>
+    <arm_group_label>Diabetic patients using CGM/FGM</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All patients suffering from diabetes mellitus controlled at our tertiary referral centre
+        using a CGM/FMG device for at least 50% of the time
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Diabetes mellitus
+
+          -  CGM and/or FGM available for at least 50% of the time in last 4 weeks before
+             consultation
+
+          -  Written informed general consent for the retrospective analysis of data
+
+        Exclusion Criteria:
+
+          -  Pregnancy
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>16 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Thomas Zueger, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Department of Diabetes, Endocrinology, Clinical Nutrition and Metabolism, Inselspital, Bern University Hospital, University of Bern, 3010 Bern, Switzerland</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Christoph Stettler, Prof.</last_name>
+    <role>Study Director</role>
+    <affiliation>Department of Diabetes, Endocrinology, Clinical Nutrition and Metabolism, Inselspital, Bern University Hospital, University of Bern, 3010 Bern, Switzerland</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Inselspital, Bern University Hospital, University of Bern</name>
+      <address>
+        <city>Bern</city>
+        <state>BE</state>
+        <zip>3010</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <verification_date>August 2019</verification_date>
+  <study_first_submitted>April 18, 2018</study_first_submitted>
+  <study_first_submitted_qc>May 22, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 4, 2018</study_first_posted>
+  <last_update_submitted>August 12, 2019</last_update_submitted>
+  <last_update_submitted_qc>August 12, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 13, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>white coat adherence</keyword>
+  <keyword>continuous glucose monitoring</keyword>
+  <keyword>flash glucose monitoring</keyword>
+  <keyword>hypoglycemia prediction</keyword>
+  <keyword>deep learning algorithm</keyword>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

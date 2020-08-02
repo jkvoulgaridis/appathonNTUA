@@ -1,0 +1,320 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04418804</url>
+  </required_header>
+  <id_info>
+    <org_study_id>0011-20-EMC</org_study_id>
+    <nct_id>NCT04418804</nct_id>
+  </id_info>
+  <brief_title>Diagnosis and Classification of Pleural Diseases Using Ultrasound Channel Data</brief_title>
+  <official_title>An Open Labeled Clinical Trial of Medical Device, for Diagnosis and Classification of Pleural Diseases Using Ultrasound Channel Data, While Minimizing Sampling Rate and Data Volume</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Israel Aharoni</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Weizmann Institute of Science</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>HaEmek Medical Center, Israel</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Background:
+
+      The Pleura is a double-layered membrane that surrounds the lungs. Pathological processes that
+      involve the Pleura are called &quot;Pleural diseases&quot;. Among them are included Pneumothorax (Air
+      the chest cavity), Pleural effusions, and tumor formation.
+
+      Ultrasound imaging of the Pleura to detect and assess pleural diseases has been proven as an
+      excellent diagnostic and safe option. Ultrasound test uses sound waves to characterize the
+      structure and function of different organs in health and disease.
+
+      The standard technique used to create two-dimensional ultrasound picture is called Delay and
+      Sum (DAS). Signals are transmitted and received from a series of elements and allow a two
+      dimensional picture to be created. Because a large number of sensors is required, creating a
+      two dimensional picture creates a large and usually redundant data pool.
+
+      This fact leads to a need for stronger processors and larger operating systems, Consumption
+      of higher energy, and hence an ungainly, slow, and expensive system.
+
+      Signal Acquisition Modeling and Processing Laboratory (SAMPLE) in Weizmann institute has
+      developed a data processing system that allows narrowing down the number of elements needed
+      to process the ultrasound signal, while creating an ultrasound picture of abdominal organs in
+      a satisfying resolution. Sometimes even better than standard methods.
+
+      Research goal:
+
+      Improvement of diagnosis and characterization of pleural diseases by Ultrasound, using a
+      novel algorithm that was developed in SAMPLE laboratory in Weizmann Institute. The aim is to
+      create a faster, more reliable ultrasound imaging while minimizing sampling rate and data
+      volume.
+
+      Methods:
+
+      Tested population: Women and/or men who were diagnosed with Pneumothorax or Plural effusion
+      with other imaging modalities, and healthy volunteers as a control group, Up to 30
+      participants per each group (Total up to 90), in a 1:1:1 Ratio.
+
+      Research type:
+
+      An open-labeled study.
+
+      Experimental design:
+
+      Participants that will meet the required conditions will be summoned to an exam in our
+      imaging institute or will be scanned bedside, using the Verasonics ultrasound system, which
+      allows free access to ultrasound raw Channel data. The information acquired, as well as other
+      imaging scans of the participant, will be coded and delivered anonymously to SAMPLE
+      laboratory for analysis.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background and rationale:
+
+      The Pleura is a double-layered membrane surrounding the lungs. It is anatomically divided
+      into Visceral Pleura, which is attached to the outer part of the lungs, and to the Parietal
+      Pleura, which is attached to the inner side of the rib cage. Pathological processes involving
+      the Pleura are incorporated under the name &quot;Pleural diseases&quot; which include, among others,
+      pneumothorax, pleural effusion, and various tumors. This disease group is relatively
+      widespread, and as evidence that the incidence reported in the literature is over 300 to
+      100,000 people in one year.
+
+      Diagnosis and evaluation of pleural disease involve the use of various neuroimaging devices
+      such as chest radiographs, ultrasound, CT, and MRI. Most often, chest radiographs are widely
+      accepted as the first means of identifying pleural diseases, with ultrasound, CT, and MRI
+      supplementing or constituting a diagnostic confirmation if necessary.
+
+      Over the past few years, a significant perceptual change has been made in the use of chest
+      ultrasound to diagnose pleural diseases as part of emergent and none emergent situations.
+      Ultrasound has been shown to be an excellent imaging device for the assessment of pleural
+      diseases. It is used as an auxiliary in a variety of clinical situations, such as
+      pneumothorax detection in emergency situations, characterization of pleural fluid as simple
+      or complex, the distinction between pleura thickening and pleural fluid loculations, and
+      more. In addition to the diagnostic aspect, the ultrasound serves as a means of performing
+      invasive operations in the chest. The use of ultrasound imaging for the chest is increasing,
+      resulting in a significant increase in the quality of the diagnosis and a decrease in the
+      incidence of various complications.
+
+      The ultrasound test uses sound waves to characterize various organ structure and function in
+      health and disease. The test does not involve the use of ionizing radiation, so its use is
+      safer than other techniques such as chest x-rays or CT examinations. The acquired and viewed
+      images in the ultrasound device are real-time, so that changes can be detected and evaluated,
+      which in many cases affects the final diagnosis. The test is non-invasive and does not
+      require the use of contrast material containing substances that may cause an allergic
+      reaction or impairment of kidney function. In addition, the instrumentation is more readily
+      available for use at bedside examinations, and most tests do not require special preparations
+      except for up to 6 hours of fasting in some cases.
+
+      On the other side, ultrasound testing has its drawbacks as well. The method is highly
+      dependent on the operator's skill, so a great deal of experience is required to produce
+      sufficient quality information and to make an accurate diagnosis. The ultrasound does not
+      penetrate well through bones, and the quality of the test is impaired by the presence of air
+      between the transducer and the organ or area being examined. In addition, the quality of the
+      test is highly dependent on the subject's cooperation during the test, such as posture
+      changes and deep breathing.
+
+      The standard technique for creating a standard 2D ultrasound image is now called Delay and
+      Sum (DAS). Signals are transmitted and received from a series of elements, and by appropriate
+      spacing of each signal, the signal readout can be focused in the required direction and
+      distance. Due to the need for many sensors, a significant amount of data is required to
+      produce the desired 2D picture. This fact leads to a need of using stronger processors,
+      resulting in higher energy consumption, larger and more expensive operating systems.
+      Therefore, Lowering the number of required samples while effectively processing the signals
+      allows creating a high-quality 2D image, while narrowing down the burden of unnecessary data.
+
+      The SAMPL Laboratory at the Weizmann Institute demonstrated this data processing method with
+      ultrasound tests on stationary organs such as the liver and kidneys where the number of
+      elements needed for signal processing could be reduced for the purpose of creating an
+      ultrasound image with a smaller volume of information, while not compromising on picture
+      quality.
+
+      Objectives of the medical experiment:
+
+      The purpose of this study is to improve the diagnosis and characterization of pleural
+      diseases by ultrasound, using a new algorithm developed in the SAMPL laboratory at the
+      Weizmann Institute. The goal is to enable a fast and reliable diagnostic tool comparable to
+      the ultrasound imaging used today while minimizing the sampling rate and volume of
+      information.
+
+      Technical details:
+
+      B-Mode, M-Mode, and Doppler operation of an Ultrasonic system can provide spatial-, temporal-
+      and motion-related aspects of Pleural composition and dynamics. The standard technique used
+      by commercial medical ultrasound systems for B-mode imaging is delay and sum (DAS)
+      beamforming. However, DAS often yields images of limited resolution and contrast, which are
+      governed by the center frequency and the aperture size of the ultrasound transducer. A large
+      number of elements leads to improved resolution, but simultaneously increases data size and
+      system cost due to receiver electronics required per element. The reduction of receiving
+      channels while producing high-quality images is thus of great importance. Methods and
+      algorithms developed at SAMPL, such as the Convolutional Beamforming Algorithm (COBA), can be
+      used to achieve significant improvement of lateral resolution and contrast. COBA can also be
+      implemented efficiently using the fast Fourier transform. Based on this concept, sparse
+      beamformers were developed, resulting in the same beam pattern as DAS and COBA while using
+      far fewer array elements. Optimization of the number of elements shows an approximate
+      square-root reduction in required elements, compared to DAS. The performance of the proposed
+      methods was tested and validated using simulated data, phantom scans and in vivo cardiac
+      data. The technique may be applied to Pleural disease detection, allowing for both improved
+      image quality and reduction of the number of elements used to produce an image, and therefore
+      ultimately facilitate cheap, portable, and wireless ultrasound imaging. In addition, the
+      methods developed at SAMPL yield imaging that is fully dedicated to the assessment of pleural
+      pathologies, enabling straightforward interpretation even by untrained clinicians. Jointly,
+      wireless, cheap, and portable lung imaging, along with straightforward interpretation opens
+      up a wealth of opportunities, spanning from fast diagnosis of pneumothorax in ambulatory
+      (trauma) settings as well as in rural clinics and developing countries.
+
+      Equipment:
+
+      The Verasonics Vantage ultrasound system is an ultrasound system suitable for human research
+      use. This system allows for raw sound wave data to be retrieved when performing ultrasound
+      scanning.
+
+      Data security:
+
+      Volunteers will be scanned at Haemek Medical Center (As detailed in the &quot;Intervention&quot;
+      section), and the data will be processed at the SAMPL laboratory at the Weizmann Institute.
+      All information transmitted to the laboratory at the Weizmann Institute will be encoded
+      beforehand, i.e. removing identifying information such as name, identification number,
+      address, and assignment of a serial number by the medical center, so that the patient
+      information is will be unavailable to SAMPL laboratory.
+
+      Transferring the images from the imaging tests will be done after encoding the tested
+      information in an Excel file. Only the primary investigator will be exposed to pre-coding
+      information, which will be stored on a dedicated computer by the primary investigator,
+      password protected. The encoded information will be transmitted continuously to the Weizmann
+      Institute, in order to ensure reliable data acquisition and the possibility of real-time
+      feedback to the principal investigator in favor of higher quality data enabling data
+      analysis.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">September 2020</start_date>
+  <completion_date type="Anticipated">September 2021</completion_date>
+  <primary_completion_date type="Anticipated">June 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Women and / or men over the age of 18 who expressed their consent to participate in the study and signed a formal consent form, will be divided into 3 groups according to their medical condition:
+Participants without an active diagnosis of pleural disease.
+Participants diagnosed with pneumothorax.
+Participants diagnosed with pleural effusion.</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Ultrasound data</measure>
+    <time_frame>1 year</time_frame>
+    <description>Detection of pneumothorax or pleural effusion will be documented and assessed for the following parameters:
+Pneumothorax:
+The presence of &quot;lung sliding sign&quot; in B bode.
+The presence of &quot;Comet tail artifacts&quot; in B mode.
+The &quot;Barcode sign&quot; mark in M mode.
+Pleural effusion:
+Quantity of fluid according to acceptable clinical assessment: no fluid, minimal, medium, or large fluid.
+Effusion characteristics by evaluation of Echogenicity, Homogenicity, presence of septations and loculations.</description>
+  </primary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">90</enrollment>
+  <condition>Pneumothorax</condition>
+  <condition>Pleural Effusion</condition>
+  <arm_group>
+    <arm_group_label>Healthy</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants without an active diagnosis of pleural disease.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Pneumothorax</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants diagnosed with pneumothorax during the past 24 hours.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Pleural effusion</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants diagnosed with current pleural effusion during the past 48 hours.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Chest ultrasound</intervention_name>
+    <description>Each research volunteer will undergo a chest-directed ultrasound examination using a commercial device located in the Valley Hospital and approved for clinical use. After completing the above scan, the patient will undergo another ultrasound scan using a Vantage system device (by Verasonics), which is a research ultrasound device that will be provided on loan to the Haemek Hospital by the Weizmann Institute SAMPL Laboratory prior to the start of the trial. The scan will be made with a linear transducer sampled at a rate of about 8-12Mhz and / or with a curved transducer sampled at a rate of about 4-6Mhz.
+The total estimated duration of the test is approximately 30 to 40 minutes per patient.</description>
+    <arm_group_label>Healthy</arm_group_label>
+    <arm_group_label>Pleural effusion</arm_group_label>
+    <arm_group_label>Pneumothorax</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Healthy volunteers
+
+          -  Volunteers with active Pneumothorax, detected by prior imaging studies up to 24 hours
+             before the ultrasound scan
+
+          -  Volunteers with active Pleural effusion, detected by prior imaging studies up to 48
+             hours before the ultrasound scan ult
+
+        Exclusion Criteria:
+
+          -  Volunteers with the aforementioned diagnosis, which was not detected during the actual
+             ultrasound exam
+
+          -  Volunteers who expressed their desire to be excluded from the study at any given time
+             point.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Israel Israel, M.D. Ph.D</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Imaging institute, Haemek Medical Center, Afula, Israel.</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Israel Aharony, M.D. Ph.D</last_name>
+    <phone>97246495635</phone>
+    <email>elik.aharony@gmail.com</email>
+  </overall_contact>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>June 3, 2020</study_first_submitted>
+  <study_first_submitted_qc>June 3, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 5, 2020</study_first_posted>
+  <last_update_submitted>June 15, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 15, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 17, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>HaEmek Medical Center, Israel</investigator_affiliation>
+    <investigator_full_name>Israel Aharoni</investigator_full_name>
+    <investigator_title>Radiology resident, HaEmek Medical Center Radiology institute, Principal investigator.</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pleural Effusion</mesh_term>
+    <mesh_term>Pneumothorax</mesh_term>
+    <mesh_term>Pleural Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Patient Scan details and ultrasound data will be sent anonymously to SAMPLE laboratory in Weizmann institute of science throughout the study period as described earlier. Currently, there is no plan to sent the data to other researchers after the publication of the study. However, it may be necessary to send the data to other researchers as part of future collaborations. In this case, only anonymous ultrasound data will be sent, and no identifying patient data will be available.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

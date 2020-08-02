@@ -1,0 +1,292 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03709108</url>
+  </required_header>
+  <id_info>
+    <org_study_id>21040</org_study_id>
+    <nct_id>NCT03709108</nct_id>
+  </id_info>
+  <brief_title>Safety and Feasibility of an Insulin Sensitivity-Informed Bolus Calculator in Type 1 Diabetes</brief_title>
+  <official_title>Safety and Feasibility of an Insulin Sensitivity-Informed Bolus Calculator in Type 1 Diabetes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Virginia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Juvenile Diabetes Research Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>DexCom, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Virginia</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a single-center randomized crossover trial. The investigators will target completion
+      of 15 adults (age 18-65 years) with Type 1 Diabetes who use an insulin pump. After completion
+      of the Screening Visit, each subject will participate in a 28-day at home Data Collection
+      Period while using their personal insulin pump, a personal glucometer, a study CGM, and a
+      study activity tracker (i.e., Fitbit). This data collection period may be extended to obtain
+      to gather more days of quality data, if needed per principal investigator judgement.
+
+      Once the data has been collected and processed, subjects will participate in two 24-hour
+      admissions (Experimental and Control Admission) in a semi-controlled environment (i.e.,
+      hotel), performed in the assigned random order. During both admissions, subjects will use the
+      personal insulin pump and glucometer, and a study CGM. The exercise session will consist of
+      three 15-minute bouts of moderate-intensity exercise (i.e., stationary bicycle). Subjects
+      will be provided a controlled dinner; the SI-informed bolus calculator will be used in the
+      Experimental Admission while standard therapy will be used in the Control Admission. Subjects
+      will then be observed overnight and discharged in the following morning.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Individuals with Type 1 Diabetes (T1D) require exogenous insulin to keep their blood glucose
+      concentration in a safe euglycemic range, because of the absent internal insulin secretion
+      caused by the autoimmune destruction of pancreatic beta-cells. As a consequence, the quality
+      of glycemic control in T1D is heavily dependent on multiple daily treatment decisions by the
+      patients, which are complicated by a wide variety of factors influencing insulin demand
+      (e.g., circadian rhythms, physical activity, food, stress, etc.). Insulin sensitivity (SI) is
+      a key metabolic parameter in diabetes as it informs on how sensitive the body is to the
+      effects of insulin. In general, if someone has higher SI, the amount of insulin required to
+      lower his blood glucose levels is smaller than that needed by someone who has low
+      sensitivity. However, SI levels within the same person are not constant, and fluctuations of
+      SI happen very frequently in the life of subjects with diabetes, making insulin dosing very
+      difficult to tune.
+
+      In this context, the aim of this research project is to develop an SI-informed insulin bolus
+      calculator, with the aim of tailoring the insulin dose to the individual's insulin need at
+      the time the bolus is administered. The SI-informed bolus calculator relies on a Kalman
+      filter-based algorithm which uses continuous glucose monitoring (CGM) data, insulin, and meal
+      records to estimate SI. For each subject, a 24-hour SI profile is computed using data
+      collected over several days of monitoring, and the optimal bolus is then computed by
+      adjusting the standard insulin dose by the ratio between usual SI (from the profile) and
+      real-time SI of the individual at the time the bolus is administered. In this way, if the
+      real-time SI is larger/smaller than the profile SI at that time of day, the insulin dose will
+      be reduced/incremented accordingly.
+
+      The study is thus designed as a single-center randomized clinical trial targeting completion
+      of 15 subjects, who will undergo a 28-day at home Data Collection Period followed by two
+      24-hour admissions (Control and Experimental Admission) performed in random order in a
+      semi-controlled environment (i.e., hotel). The Data Collection is meant to collect data
+      needed to build the 24-hour SI profile for the subject. During the admissions, subjects will
+      undergo a 45-minute afternoon exercise session designed to alter the late-afternoon/evening
+      SI. The dinner meal will then be controlled, and the postprandial glycemic control obtained
+      using the standard bolus calculator (Control Admission) will be compared to the control
+      obtained in response to the optimized SI-informed bolus calculator (Experimental Admission).
+      Metrics computed on CGM data will be compared between the two admissions, including mean
+      blood glucose, time above 250 and 300 mg/dL, time below 70 and 54 mg/dL, and time in 70-180
+      mg/dL, the primary outcome being the postprandial exposure to hypoglycemia as measured by the
+      Low Blood Glucose Index (a glycemic variability indicator which summarizes the number and
+      extent of low blood glucose events in one single number). If successful, this study will
+      provide a novel, data-oriented paradigm for insulin dosing in T1D.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">November 19, 2018</start_date>
+  <completion_date type="Actual">March 31, 2019</completion_date>
+  <primary_completion_date type="Actual">March 31, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Safety and feasibility of the SI-informed bolus calculator: Low Blood Glucose Index</measure>
+    <time_frame>LBGI will be assessed in the postprandial period following the controlled dinner meal (up to 4 hours following dinner) and overnight (e.g., from 11PM until 6AM), and will be compared between the two admissions.</time_frame>
+    <description>Safety and feasibility of the SI-informed bolus calculator as measured by overall and postprandial occurrence of hypoglycemia quantified using the Low Blood Glucose Index (LBGI) computed from CGM data. LBGI is a previously introduced glucose variability measure and strong predictor of severe hypoglycemia, designed to aggregate the frequency and extent of low blood glucose events into a single number. By this definition, a higher LBGI may indicate a large number of mild hypoglycemic events, a small number of significant events, or a combination of both. As a higher LBGI indicates higher exposure to hypoglycemia, LBGI is expected to be better (i.e., lower) when the optimized bolus calculator is used, as compared to standard therapy.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">15</enrollment>
+  <condition>Type 1 Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>Experimental-Control</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Subjects randomized to this Arm would go through the Experimental Admission (SI-informed bolus calculator) first and Control Admission (regular bolus calculator) second</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control-Experimental</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Subjects randomized to this Arm would go through the Control Admission (regular bolus calculator) first and Experimental Admission (SI-informed bolus calculator) second</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>SI-Informed Bolus Calculator</intervention_name>
+    <description>The SI-Informed Bolus Calculator will be used to dose the dinner meal insulin bolus during the Experimental Admission</description>
+    <arm_group_label>Control-Experimental</arm_group_label>
+    <arm_group_label>Experimental-Control</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Type 1 diabetes for at least 12 months
+
+          2. Current use of an insulin pump for at least 12 months
+
+          3. Current or historical use of a CGM system for at least 6 months
+
+          4. Age ≥18 to ≤65 years old
+
+          5. HbA1c &lt;8.5% at screening; if HbA1c &lt;6.0% then total daily insulin must be ≥0.5 U/kg
+
+          6. For females, not currently known to be pregnant. If female and sexually active, must
+             agree to use a form of contraception to prevent pregnancy while a participant in the
+             study. A negative urine pregnancy test will be required for all premenopausal women
+             who are not surgically sterile. Subjects who become pregnant will be discontinued from
+             the study
+
+          7. Willingness to use the same set of insulin therapy parameters (i.e., basal rate,
+             insulin-to-carbohydrate ratio, correction factor) during both admissions
+
+          8. Willingness to upload data during the study
+
+          9. An understanding of and willingness to follow the protocol and sign the informed
+             consent
+
+        Exclusion Criteria:
+
+          1. Diabetes ketoacidosis (DKA) in the 6 months prior to enrollment
+
+          2. Clinically significant electrocardiogram (ECG) found at Screening as determined by the
+             study medical physician
+
+          3. Severe hypoglycemia resulting in seizure or loss of consciousness in the 6 months
+             prior to enrollment
+
+          4. Currently being treated for a seizure disorder
+
+          5. Coronary artery disease or heart failure, unless written clearance is received from a
+             cardiologist or primary care provider and documentation of a negative stress test
+             within the year
+
+          6. History of cardiac arrhythmia (except for benign premature atrial contractions and
+             benign premature ventricular contractions which are permitted)
+
+          7. Cystic fibrosis
+
+          8. Pregnancy, breast-feeding, or intention of becoming pregnant over time of study
+             procedures
+
+          9. Abnormal liver function test results (Transaminase &gt;2 times the upper limit of normal)
+
+         10. Abnormal renal function test results (calculated GFR &lt;60 mL/min/1.73m2)
+
+         11. Uncontrolled thyroid disease (TSH undetectable or &gt;10 mIU/L)
+
+         12. A known medical condition that in the judgment of the investigator might interfere
+             with the completion of the protocol such as the following examples:
+
+               -  Inpatient psychiatric treatment in the past 6 months for either the subject or
+                  the subject's care companion
+
+               -  Presence of a known adrenal disorder
+
+               -  Active gastroparesis
+
+               -  If on antihypertensive, thyroid, anti-depressant or lipid lowering medication,
+                  lack of stability on the medication for the past 2 months prior to enrollment in
+                  the study
+
+         13. Abuse of alcohol or recreational drugs
+
+         14. Infectious process not anticipated to resolve prior to study procedures (e.g.
+             meningitis, pneumonia, osteomyelitis)
+
+         15. Uncontrolled arterial hypertension (Resting diastolic blood pressure &gt;90 mmHg and/or
+             systolic blood pressure &gt;160 mmHg)
+
+         16. A recent injury to body or limb, muscular disorder, use of any medication, any
+             carcinogenic disease, or other significant medical disorder if that injury, medication
+             or disease in the judgment of the investigator will affect the completion of the
+             protocol
+
+         17. Basal Rate &lt;0.01 units/hour
+
+         18. Inability to be physically active for more than 30 minutes per day
+
+         19. Conditions that would make use of a CGM difficult (e.g., blindness, severe arthritis,
+             immobility)
+
+         20. Current enrollment in another intervention clinical trial
+
+        List any restrictions on use of other drugs or treatments:
+
+          1. Medications being taken to lower blood glucose, such as Pramlintide, Metformin, GLP-1
+             Analogs such as Liraglutide, and nutraceuticals intended to lower blood glucose
+
+          2. Any other medication that the investigator believes is a contraindication to the
+             subject's participation
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Chiara Fabris, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Virginia</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Virginia</name>
+      <address>
+        <city>Charlottesville</city>
+        <state>Virginia</state>
+        <zip>22908</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2019</verification_date>
+  <study_first_submitted>October 8, 2018</study_first_submitted>
+  <study_first_submitted_qc>October 15, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 17, 2018</study_first_posted>
+  <last_update_submitted>May 16, 2019</last_update_submitted>
+  <last_update_submitted_qc>May 16, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 20, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Virginia</investigator_affiliation>
+    <investigator_full_name>Chiara Fabris, PhD</investigator_full_name>
+    <investigator_title>Research Associate</investigator_title>
+  </responsible_party>
+  <keyword>Continuous Glucose Monitor</keyword>
+  <keyword>Insulin Sensitivity</keyword>
+  <keyword>Exercise</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+    <mesh_term>Insulin Resistance</mesh_term>
+    <mesh_term>Hypersensitivity</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

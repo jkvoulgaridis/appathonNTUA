@@ -1,0 +1,3447 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03563313</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DCLP3</org_study_id>
+    <secondary_id>UC4DK108483</secondary_id>
+    <nct_id>NCT03563313</nct_id>
+  </id_info>
+  <brief_title>The International Diabetes Closed Loop (iDCL) Trial: Clinical Acceptance of the Artificial Pancreas</brief_title>
+  <acronym>DCLP3</acronym>
+  <official_title>A Pivotal Study of t:Slim X2 With Control-IQ Technology</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Virginia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Jaeb Center for Health Research</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Tandem Diabetes Care, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>DexCom, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Roche Diagnostics</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Virginia</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of the study is to assess efficacy and safety of a closed loop system (t:slim
+      X2 with Control-IQ Technology) in a large randomized controlled trial.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      After consent is signed, eligibility will be assessed. Eligible participants not currently
+      using an insulin pump and Dexcom CGM with minimum data requirements will initiate a run-in
+      phase of 2 to 8 weeks that will be customized based on whether the participant is already a
+      pump or CGM user. Participants who skip or successfully complete the run-in will be randomly
+      assigned 2:1 to the use of closed-loop control (CLC group) using t:slim X2 with Control-IQ
+      Technology vs. SAP for 6 months.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">June 28, 2018</start_date>
+  <completion_date type="Actual">April 8, 2019</completion_date>
+  <primary_completion_date type="Actual">April 8, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>A randomized controlled trial of 6 month at home closed loop system vs. sensor-augmented pump.</intervention_model_description>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Time in Target Range</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>The primary outcome is time in target range 70-180 mg/dL measured by CGM in CLC group vs. SAP group.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>CGM Time Above 180</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>CGM-measured % above 180 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM Mean Glucose</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>CGM-measured mean glucose</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HbA1c at 26 Weeks</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Hemoglobin A1c measured at 26 weeks</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM Time Below 70</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>CGM-measured % below 70 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM Time Below 54</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>CGM-measured % below 54 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM Time in Range 70-140 mg/dL</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>CGM-measured % in range 70-140 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Coefficient of Variability</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>CGM measured glucose variability measured with the coefficient of variation (CV)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Standard Deviation of CGM</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>CGM measured glucose variability measured with the standard deviation (SD)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM Time Below 60</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>CGM-measured % below 60 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>LBGI</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Low blood glucose index by CGM with higher index indicating higher risk of hypoglycemia. Values &lt;1 suggest minimal risk. Index of risk of low blood glucose excursion based on a standard formula for non-linear transformation of the blood glucose scale (Kovatchev BP, Cox DJ, Gonder-Frederick LA, Young-Hyman D, Schlundt D, Clarke WL: Assessment of risk for severe hypoglycemia among adults with IDDM: validation of the low blood glucose index. Diabetes Care 21:1870-1875, 1998)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM Hypoglycemia Events</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>CGM-measured events of at least 15 consecutive minutes &lt;70mg/dL per week</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM Time &gt;250</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>CGM-measured % &gt;250 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM Time &gt;300</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>CGM-measured % &gt;300 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HBGI</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>High blood glucose index by CGM with higher values indicating higher risk of hyperglycemia. Index of risk of high blood glucose excursion based on a standard formula for non-linear transformation of the blood glucose scale (Kovatchev BP, Cox DJ, Kumar A, Gonder-Frederick L, Clarke WL. Algorithmic evaluation of metabolic control and risk of severe hypoglycemia in type 1 and type 2 diabetes using self-monitoring blood glucose data. Diabetes Technol Ther 2003;5:817-828pmid:14633347)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With HbA1c &lt;7.0% at 26 Weeks</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Number of participants HbA1c &lt;7.0% at 26 weeks</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With HbA1c &lt;7.5% at 26 Weeks</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Number of Participants with HbA1c &lt;7.5% at 26 weeks</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With HbA1c Improvement From Baseline to 26 Weeks &gt;0.5%</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>HbA1c improvement from baseline to 26 weeks &gt;0.5%</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With HbA1c Improvement From Baseline to 26 Weeks &gt;1.0%</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>HbA1c improvement from baseline to 26 weeks &gt;1.0%</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HbA1c Relative Improvement From Baseline to 26 Weeks &gt;10%</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>HbA1c relative improvement from baseline to 26 weeks &gt;10%</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With HbA1c Improvement From Baseline to 26 Weeks &gt;1.0% or HbA1c &lt;7.0% at 26 Weeks</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>HbA1c improvement from baseline to 26 weeks &gt;1.0% or HbA1c &lt;7.0% at 26 weeks</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HFS-II</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>For adults, teens and parents items on this survey are rated on a 5 point Likert scale from never (0) to almost always (4). The survey is scored by summing item responses. Fear of Hypoglycemia Survey (HFS-II) for adults has a total score that is summed from the two subscale scores (33 items) and ranges from 0 to 132 with higher scores indicating greater degrees of fear of hypoglycemia. The teen survey has a total of 25 items and the range of Total scores is 0 to 100. The parent version of the survey has a total of 26 items with Total scores that range from 0 to 108.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hyperglycemia Avoidance Scale</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Hyperglycemia Avoidance Scale total score is the sum of 21 items rated on a 4 point Likert scale from 0 (never) to 4 (almost always) and ranges from 0 to 84 with a higher score indicating greater degrees of avoiding hyperglycemia.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diabetes Distress Scale</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Diabetes Distress Scale for adults has 28 items rated on a 6 point Likert scale that ranges from 1 (not a problem) to 6 (a very serious problem). The total score is the mean of the sum of responses and ranges from 1 to 6 where a higher score indicates greater degrees of diabetes distress.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hypoglycemia Confidence Scale</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Hypoglycemia Confidence Scale has 20 items which are rated on a 4-point Likert Scale ranging from 1 (not confident at all) to 4 (very confident) with higher scores indicating higher confidence in dealing with hypoglycemia. A single score is computed by calculating the mean of the sum of all items and ranges from 1 to 4.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Clarke Hypoglycemia Awareness Scores</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Clarke Hypoglycemia Awareness Scores (0-7 score with higher scores associated with impaired awareness)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>INSPIRE Survey Scores</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>The INSPIRE questionnaire assesses user expectations and experiences with Insulin Delivery Systems: Perceptions, Ideas, Reflections, Expectations (INSPIRE). Survey total scores are computed by calculating the mean of the sum of all item ratings then multiplying the mean by 25 to scale the score to a range from 0 to 100. Higher scores indicate a more positive perception of insulin delivery systems. Items are rated on a 5 point Likert scale ranging from 0 (strongly disagree) to 4 (strongly agree). The Adult survey has 22 items, the Teens/Adolescents survey has 17 items and the Parent survey has 21 items.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>System Usability Scores (SUS)</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>System Usability Scores (SUS)-composite score from 0 to 100 with higher scores indicate better perceived usability</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Technology Acceptance Questionnaire</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Technology Acceptance Survey measures the user's perceptions regarding the burdens and the barriers associated with a technology with a higher score indicates increased technology acceptance. There total score uses 37 items with items are rated on a 5 point scale ranging from 1 (strongly disagree) to 5 (strongly agree) for total score range of 37-185.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total Daily Insulin</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Total Daily Insulin (units)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Basal:Bolus Insulin Ratio</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Basal:Bolus Insulin Ratio</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Weight</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Weight (kg)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>BMI</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Body Mass Index (BMI) kg/m^2</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Number of Participants With Severe Hypoglycemia (Per Protocol)</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Severe hypoglycemia (per protocol)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Number of Participants With Diabetic Ketoacidosis (Per Protocol)</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Diabetic ketoacidosis (per protocol)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Ketone Events Defined as Day With Ketone Level &gt;1.0 mmol/L</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Ketone events defined as day with ketone level &gt;1.0 mmol/L</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>CGM-measured Hypoglycemic Events (&gt;15 Minutes With Glucose Concentration &lt;54 mg/dL)</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>CGM-measured hypoglycemic events (&gt;15 minutes with glucose concentration &lt;54 mg/dL)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>CGM-measured Hyperglycemic Events (&gt;15 Minutes With Glucose Concentration &gt;300 mg/dL)</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>CGM-measured hyperglycemic events (&gt;15 minutes with glucose concentration &gt;300 mg/dL)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>BG-measured Hypoglycemic Events (One BG Record &lt;54 mg/dL)</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>BG-measured hypoglycemic events (one BG record &lt;54 mg/dL)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>BG-measured Hyperglycemic Events (One BG Record &gt;350 mg/dL)</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>BG-measured hyperglycemic events (one BG record &gt;350 mg/dL)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Worsening of HbA1c From Baseline to 26 Weeks by &gt;0.5%</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Worsening of HbA1c from baseline to 26 weeks by &gt;0.5%</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Other Serious Adverse Events (SAE) and Serious Adverse Device Events (SADE)</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Other serious adverse events (SAE) and serious adverse device events (SADE)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Adverse Device Effects (ADE)</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Adverse device effects (ADE)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Unanticipated Adverse Device Effects (UADE)</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Unanticipated adverse device effects (UADE)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Number of Participants With SH Events</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>For this outcome, mean +/- SD or summary statistics appropriate to the distribution will be tabulated by treatment group</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>SH Event Rate Per 100 Person-years</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>For this outcome, severe hypoglycemia event rate per 100 person-years will be calculated as a rate.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Number of Participants With DKA Events</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>For this outcome, number of participants with diabetic ketoacidosis (DKA) will be tabulated.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>DKA Event Rate Per 100 Person-years</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>For this outcome, the diabetic ketoacidosis event rate per 100 person-years will be calculated as a rate.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Any Adverse Event Rate Per 100 Person-years</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>For this outcome, the adverse event rate per 100 person-years calculated as a rate.</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">168</enrollment>
+  <condition>Type 1 Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>Closed Loop Control (CLC)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Sensor-Augmented Pump (SAP)</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM</intervention_name>
+    <description>Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+    <arm_group_label>Closed Loop Control (CLC)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Sensor-augmented pump (SAP)</intervention_name>
+    <description>Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+    <arm_group_label>Sensor-Augmented Pump (SAP)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Clinical diagnosis, based on investigator assessment, of type 1 diabetes for at least
+             one year and using insulin for at least 1 year.
+
+          2. Familiarity and use of a carbohydrate ratio for meal boluses.
+
+          3. Age ≥14.0 years old.
+
+          4. For females, not currently known to be pregnant. If female and sexually active, must
+             agree to use a form of contraception to prevent pregnancy while a participant in the
+             study. A negative serum or urine pregnancy test will be required for all females of
+             child-bearing potential. Participants who become pregnant will be discontinued from
+             the study. Also, participants who during the study develop and express the intention
+             to become pregnant within the timespan of the study will be discontinued.
+
+          5. For participants &lt;18 years old, living with one or more parent/legal guardian
+             knowledgeable about emergency procedures for severe hypoglycemia and able to contact
+             the participant in case of an emergency.
+
+          6. Willingness to suspend use of any personal CGM for the duration of the clinical trial
+             once the study CGM is in use.
+
+          7. Willingness to use a regular insulin pump during the study with no automatic insulin
+             adjustment based on glucose level when assigned to participate in an SAP group
+
+          8. Investigator has confidence that the participant can successfully operate all study
+             devices and is capable of adhering to the protocol.
+
+          9. Willingness to switch to lispro (Humalog) or aspart (Novolog) if not using already,
+             and to use no other insulin besides lispro (Humalog) or aspart (Novolog) during the
+             study.
+
+         10. Total daily insulin dose (TDD) at least 10 U/day.
+
+         11. Willingness not to start any new non-insulin glucose-lowering agent during the course
+             of the trial.
+
+        Exclusion Criteria
+
+          1. Concurrent use of any non-insulin glucose-lowering agent other than metformin
+             (including GLP-1 agonists, Symlin, DPP-4 inhibitors, SGLT-2 inhibitors,
+             sulfonylureas).
+
+          2. Hemophilia or any other bleeding disorder.
+
+          3. A condition, which in the opinion of the investigator or designee, would put the
+             participant or study at risk.
+
+          4. Participation in another pharmaceutical or device trial at the time of enrollment or
+             during the study.
+
+          5. Employed by, or having immediate family members employed by Tandem Diabetes Care, Inc.
+             or TypeZero Technologies, LLC, or having a direct supervisor at place of employment
+             who is also directly involved in conducting the clinical trial (as a study
+             investigator, coordinator, etc.); or having a first-degree relative who is directly
+             involved in conducting the clinical trial.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>14 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sue A. Brown, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Virginia</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Sansum Diabetes Research Institute</name>
+      <address>
+        <city>Santa Barbara</city>
+        <state>California</state>
+        <zip>93105</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Stanford University</name>
+      <address>
+        <city>Stanford</city>
+        <state>California</state>
+        <zip>94304</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Barbara Davis Center, University of Colorado</name>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Harvard University (Joslin Diabetes Center)</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02215</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Mayo Clinic</name>
+      <address>
+        <city>Rochester</city>
+        <state>Minnesota</state>
+        <zip>55902</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Icahn School of Medicine at Mount Sinai</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10029</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Virginia Center for Diabetes Technology</name>
+      <address>
+        <city>Charlottesville</city>
+        <state>Virginia</state>
+        <zip>22903</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>June 7, 2018</study_first_submitted>
+  <study_first_submitted_qc>June 18, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 20, 2018</study_first_posted>
+  <results_first_submitted>March 31, 2020</results_first_submitted>
+  <results_first_submitted_qc>March 31, 2020</results_first_submitted_qc>
+  <results_first_posted type="Actual">April 16, 2020</results_first_posted>
+  <last_update_submitted>April 17, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 17, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 28, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Virginia</investigator_affiliation>
+    <investigator_full_name>Sue Brown</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Artificial Pancreas (AP)</keyword>
+  <keyword>Type 1 Diabetes Mellitus</keyword>
+  <keyword>Insulin Pump</keyword>
+  <keyword>Continuous Glucose Monitor (CGM)</keyword>
+  <keyword>Closed Loop Control (CLC)</keyword>
+  <keyword>Sensor-Augmented Pump (SAP)</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Will follow the NIH Data Sharing Policy and Implementation Guidance on sharing research resources for research purposes to qualified individuals within the scientific community.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_time_frame>Generally, data will be made available after the primary publications of each study.</ipd_time_frame>
+    <ipd_access_criteria>The Data Sharing Agreements will be formulated by the Steering Committee in collaboration with the NIH Project Scientist Program Official.
+In addition, under special arrangements, complete data sets will be provided to industry partners who would use the data for regulatory clearance (PMA - pre-market approval) of the tested artificial pancreas system. This will be done in response to the specific requirements of RFA-DK-14-024 for this project to &quot;…generate data able to satisfy safety and efficacy requirements by regulatory agencies regarding the clinical testing of artificial pancreas device systems&quot; in the target population of people with type 1 diabetes.</ipd_access_criteria>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>November 5, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/13/NCT03563313/Prot_000.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Statistical Analysis Plan</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>October 12, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/13/NCT03563313/SAP_001.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Informed Consent Form</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>August 31, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/13/NCT03563313/ICF_002.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Closed Loop Control (CLC)</title>
+          <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+        </group>
+        <group group_id="P2">
+          <title>Sensor-Augmented Pump (SAP)</title>
+          <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="112"/>
+                <participants group_id="P2" count="56"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="112"/>
+                <participants group_id="P2" count="56"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Closed Loop Control (CLC)</title>
+          <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+        </group>
+        <group group_id="B2">
+          <title>Sensor-Augmented Pump (SAP)</title>
+          <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="112"/>
+            <count group_id="B2" value="56"/>
+            <count group_id="B3" value="168"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="31"/>
+                    <measurement group_id="B2" value="17"/>
+                    <measurement group_id="B3" value="48"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="81"/>
+                    <measurement group_id="B2" value="39"/>
+                    <measurement group_id="B3" value="120"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="33" spread="16"/>
+                    <measurement group_id="B2" value="33" spread="17"/>
+                    <measurement group_id="B3" value="33" spread="16"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="54"/>
+                    <measurement group_id="B2" value="30"/>
+                    <measurement group_id="B3" value="84"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="58"/>
+                    <measurement group_id="B2" value="26"/>
+                    <measurement group_id="B3" value="84"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="13"/>
+                    <measurement group_id="B2" value="5"/>
+                    <measurement group_id="B3" value="18"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="99"/>
+                    <measurement group_id="B2" value="51"/>
+                    <measurement group_id="B3" value="150"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3"/>
+                    <measurement group_id="B2" value="2"/>
+                    <measurement group_id="B3" value="5"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="4"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="94"/>
+                    <measurement group_id="B2" value="53"/>
+                    <measurement group_id="B3" value="147"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="8"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="112"/>
+                    <measurement group_id="B2" value="56"/>
+                    <measurement group_id="B3" value="168"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>CGM Time in Target Range 70-180 mg/dL</title>
+          <description>CGM percentage of time in target range measured over 2-week baseline.</description>
+          <units>percentage of time</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="61" spread="17"/>
+                    <measurement group_id="B2" value="59" spread="14"/>
+                    <measurement group_id="B3" value="60" spread="16"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Time in Target Range</title>
+        <description>The primary outcome is time in target range 70-180 mg/dL measured by CGM in CLC group vs. SAP group.</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Time in Target Range</title>
+          <description>The primary outcome is time in target range 70-180 mg/dL measured by CGM in CLC group vs. SAP group.</description>
+          <units>percentage of time</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="71" spread="12"/>
+                    <measurement group_id="O2" value="59" spread="14"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>&lt;0.001</p_value>
+            <method>Mixed Models Analysis</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>CGM Time Above 180</title>
+        <description>CGM-measured % above 180 mg/dL</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>CGM Time Above 180</title>
+          <description>CGM-measured % above 180 mg/dL</description>
+          <units>percentage</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="27" spread="12"/>
+                    <measurement group_id="O2" value="38" spread="15"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>&lt;0.001</p_value>
+            <method>Mixed Models Analysis</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>CGM Mean Glucose</title>
+        <description>CGM-measured mean glucose</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>CGM Mean Glucose</title>
+          <description>CGM-measured mean glucose</description>
+          <units>mg/dL</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="156" spread="19"/>
+                    <measurement group_id="O2" value="170" spread="25"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>&lt;0.001</p_value>
+            <method>Mixed Models Analysis</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>HbA1c at 26 Weeks</title>
+        <description>Hemoglobin A1c measured at 26 weeks</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>HbA1c at 26 Weeks</title>
+          <description>Hemoglobin A1c measured at 26 weeks</description>
+          <units>percentage</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="7.06" spread="0.79"/>
+                    <measurement group_id="O2" value="7.39" spread="0.92"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.001</p_value>
+            <method>Mixed Models Analysis</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>CGM Time Below 70</title>
+        <description>CGM-measured % below 70 mg/dL</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>CGM Time Below 70</title>
+          <description>CGM-measured % below 70 mg/dL</description>
+          <units>percentage</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.58" spread="1.15"/>
+                    <measurement group_id="O2" value="2.25" spread="1.46"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>&lt;0.001</p_value>
+            <method>Mixed Models Analysis</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>CGM Time Below 54</title>
+        <description>CGM-measured % below 54 mg/dL</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>CGM Time Below 54</title>
+          <description>CGM-measured % below 54 mg/dL</description>
+          <units>percentage</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.29" spread="0.29"/>
+                    <measurement group_id="O2" value="0.35" spread="0.32"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.02</p_value>
+            <method>Mixed Models Analysis</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>CGM Time in Range 70-140 mg/dL</title>
+        <description>CGM-measured % in range 70-140 mg/dL</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>CGM Time in Range 70-140 mg/dL</title>
+          <description>CGM-measured % in range 70-140 mg/dL</description>
+          <units>percentage</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="46" spread="12"/>
+                    <measurement group_id="O2" value="36" spread="12"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Coefficient of Variability</title>
+        <description>CGM measured glucose variability measured with the coefficient of variation (CV)</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Coefficient of Variability</title>
+          <description>CGM measured glucose variability measured with the coefficient of variation (CV)</description>
+          <units>percentage SD of Mean</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="34" spread="5"/>
+                    <measurement group_id="O2" value="36" spread="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Standard Deviation of CGM</title>
+        <description>CGM measured glucose variability measured with the standard deviation (SD)</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Standard Deviation of CGM</title>
+          <description>CGM measured glucose variability measured with the standard deviation (SD)</description>
+          <units>mg/dL</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="53" spread="12"/>
+                    <measurement group_id="O2" value="62" spread="13"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>CGM Time Below 60</title>
+        <description>CGM-measured % below 60 mg/dL</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>CGM Time Below 60</title>
+          <description>CGM-measured % below 60 mg/dL</description>
+          <units>percentage</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.58" spread="0.52"/>
+                    <measurement group_id="O2" value="0.75" spread="0.61"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>LBGI</title>
+        <description>Low blood glucose index by CGM with higher index indicating higher risk of hypoglycemia. Values &lt;1 suggest minimal risk. Index of risk of low blood glucose excursion based on a standard formula for non-linear transformation of the blood glucose scale (Kovatchev BP, Cox DJ, Gonder-Frederick LA, Young-Hyman D, Schlundt D, Clarke WL: Assessment of risk for severe hypoglycemia among adults with IDDM: validation of the low blood glucose index. Diabetes Care 21:1870-1875, 1998)</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>LBGI</title>
+          <description>Low blood glucose index by CGM with higher index indicating higher risk of hypoglycemia. Values &lt;1 suggest minimal risk. Index of risk of low blood glucose excursion based on a standard formula for non-linear transformation of the blood glucose scale (Kovatchev BP, Cox DJ, Gonder-Frederick LA, Young-Hyman D, Schlundt D, Clarke WL: Assessment of risk for severe hypoglycemia among adults with IDDM: validation of the low blood glucose index. Diabetes Care 21:1870-1875, 1998)</description>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.51" spread="0.29"/>
+                    <measurement group_id="O2" value="0.65" spread="0.35"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>CGM Hypoglycemia Events</title>
+        <description>CGM-measured events of at least 15 consecutive minutes &lt;70mg/dL per week</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>CGM Hypoglycemia Events</title>
+          <description>CGM-measured events of at least 15 consecutive minutes &lt;70mg/dL per week</description>
+          <units>events per week</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3.3" spread="2.1"/>
+                    <measurement group_id="O2" value="4.3" spread="2.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>CGM Time &gt;250</title>
+        <description>CGM-measured % &gt;250 mg/dL</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>CGM Time &gt;250</title>
+          <description>CGM-measured % &gt;250 mg/dL</description>
+          <units>percentage</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="7" spread="6.7"/>
+                    <measurement group_id="O2" value="12.3" spread="10.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>CGM Time &gt;300</title>
+        <description>CGM-measured % &gt;300 mg/dL</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>CGM Time &gt;300</title>
+          <description>CGM-measured % &gt;300 mg/dL</description>
+          <units>percentage</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.4" spread="3.4"/>
+                    <measurement group_id="O2" value="4.6" spread="6.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>HBGI</title>
+        <description>High blood glucose index by CGM with higher values indicating higher risk of hyperglycemia. Index of risk of high blood glucose excursion based on a standard formula for non-linear transformation of the blood glucose scale (Kovatchev BP, Cox DJ, Kumar A, Gonder-Frederick L, Clarke WL. Algorithmic evaluation of metabolic control and risk of severe hypoglycemia in type 1 and type 2 diabetes using self-monitoring blood glucose data. Diabetes Technol Ther 2003;5:817-828pmid:14633347)</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>HBGI</title>
+          <description>High blood glucose index by CGM with higher values indicating higher risk of hyperglycemia. Index of risk of high blood glucose excursion based on a standard formula for non-linear transformation of the blood glucose scale (Kovatchev BP, Cox DJ, Kumar A, Gonder-Frederick L, Clarke WL. Algorithmic evaluation of metabolic control and risk of severe hypoglycemia in type 1 and type 2 diabetes using self-monitoring blood glucose data. Diabetes Technol Ther 2003;5:817-828pmid:14633347)</description>
+          <units>index</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6.3" spread="3.1"/>
+                    <measurement group_id="O2" value="9.0" spread="4.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Participants With HbA1c &lt;7.0% at 26 Weeks</title>
+        <description>Number of participants HbA1c &lt;7.0% at 26 weeks</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With HbA1c &lt;7.0% at 26 Weeks</title>
+          <description>Number of participants HbA1c &lt;7.0% at 26 weeks</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="111"/>
+                <count group_id="O2" value="55"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="52"/>
+                    <measurement group_id="O2" value="17"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Participants With HbA1c &lt;7.5% at 26 Weeks</title>
+        <description>Number of Participants with HbA1c &lt;7.5% at 26 weeks</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With HbA1c &lt;7.5% at 26 Weeks</title>
+          <description>Number of Participants with HbA1c &lt;7.5% at 26 weeks</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="111"/>
+                <count group_id="O2" value="55"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="79"/>
+                    <measurement group_id="O2" value="33"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Participants With HbA1c Improvement From Baseline to 26 Weeks &gt;0.5%</title>
+        <description>HbA1c improvement from baseline to 26 weeks &gt;0.5%</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With HbA1c Improvement From Baseline to 26 Weeks &gt;0.5%</title>
+          <description>HbA1c improvement from baseline to 26 weeks &gt;0.5%</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="35"/>
+                    <measurement group_id="O2" value="6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Participants With HbA1c Improvement From Baseline to 26 Weeks &gt;1.0%</title>
+        <description>HbA1c improvement from baseline to 26 weeks &gt;1.0%</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With HbA1c Improvement From Baseline to 26 Weeks &gt;1.0%</title>
+          <description>HbA1c improvement from baseline to 26 weeks &gt;1.0%</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="12"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>HbA1c Relative Improvement From Baseline to 26 Weeks &gt;10%</title>
+        <description>HbA1c relative improvement from baseline to 26 weeks &gt;10%</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>HbA1c Relative Improvement From Baseline to 26 Weeks &gt;10%</title>
+          <description>HbA1c relative improvement from baseline to 26 weeks &gt;10%</description>
+          <units>percentage</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="21" spread="19"/>
+                    <measurement group_id="O2" value="2" spread="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Participants With HbA1c Improvement From Baseline to 26 Weeks &gt;1.0% or HbA1c &lt;7.0% at 26 Weeks</title>
+        <description>HbA1c improvement from baseline to 26 weeks &gt;1.0% or HbA1c &lt;7.0% at 26 weeks</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With HbA1c Improvement From Baseline to 26 Weeks &gt;1.0% or HbA1c &lt;7.0% at 26 Weeks</title>
+          <description>HbA1c improvement from baseline to 26 weeks &gt;1.0% or HbA1c &lt;7.0% at 26 weeks</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="59"/>
+                    <measurement group_id="O2" value="17"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>HFS-II</title>
+        <description>For adults, teens and parents items on this survey are rated on a 5 point Likert scale from never (0) to almost always (4). The survey is scored by summing item responses. Fear of Hypoglycemia Survey (HFS-II) for adults has a total score that is summed from the two subscale scores (33 items) and ranges from 0 to 132 with higher scores indicating greater degrees of fear of hypoglycemia. The teen survey has a total of 25 items and the range of Total scores is 0 to 100. The parent version of the survey has a total of 26 items with Total scores that range from 0 to 108.</description>
+        <time_frame>26 weeks</time_frame>
+        <population>Total Score at 26 weeks</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC) in Adults</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP) in Adults</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+          <group group_id="O3">
+            <title>CLC in Teens</title>
+            <description>Survey response from a teen in CLC (14-18 years old)</description>
+          </group>
+          <group group_id="O4">
+            <title>SAP in Teens</title>
+            <description>Survey response from a Teen in the SAP group (ages 14-18).</description>
+          </group>
+          <group group_id="O5">
+            <title>Parent of Teen in CLC</title>
+            <description>Survey response from a parent of a teen in CLC</description>
+          </group>
+          <group group_id="O6">
+            <title>Parent of a Teen in SAP</title>
+            <description>Survey response from a parent of a teen in SAP</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>HFS-II</title>
+          <description>For adults, teens and parents items on this survey are rated on a 5 point Likert scale from never (0) to almost always (4). The survey is scored by summing item responses. Fear of Hypoglycemia Survey (HFS-II) for adults has a total score that is summed from the two subscale scores (33 items) and ranges from 0 to 132 with higher scores indicating greater degrees of fear of hypoglycemia. The teen survey has a total of 25 items and the range of Total scores is 0 to 100. The parent version of the survey has a total of 26 items with Total scores that range from 0 to 108.</description>
+          <population>Total Score at 26 weeks</population>
+          <units>score on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="80"/>
+                <count group_id="O2" value="39"/>
+                <count group_id="O3" value="31"/>
+                <count group_id="O4" value="16"/>
+                <count group_id="O5" value="31"/>
+                <count group_id="O6" value="15"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="33" spread="12"/>
+                    <measurement group_id="O2" value="38" spread="18"/>
+                    <measurement group_id="O3" value="32" spread="10"/>
+                    <measurement group_id="O4" value="31" spread="16"/>
+                    <measurement group_id="O5" value="33" spread="14"/>
+                    <measurement group_id="O6" value="36" spread="15"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Hyperglycemia Avoidance Scale</title>
+        <description>Hyperglycemia Avoidance Scale total score is the sum of 21 items rated on a 4 point Likert scale from 0 (never) to 4 (almost always) and ranges from 0 to 84 with a higher score indicating greater degrees of avoiding hyperglycemia.</description>
+        <time_frame>26 weeks</time_frame>
+        <population>Total Score at 26 weeks</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Hyperglycemia Avoidance Scale</title>
+          <description>Hyperglycemia Avoidance Scale total score is the sum of 21 items rated on a 4 point Likert scale from 0 (never) to 4 (almost always) and ranges from 0 to 84 with a higher score indicating greater degrees of avoiding hyperglycemia.</description>
+          <population>Total Score at 26 weeks</population>
+          <units>score on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="111"/>
+                <count group_id="O2" value="55"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="39" spread="7"/>
+                    <measurement group_id="O2" value="37" spread="11"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Diabetes Distress Scale</title>
+        <description>Diabetes Distress Scale for adults has 28 items rated on a 6 point Likert scale that ranges from 1 (not a problem) to 6 (a very serious problem). The total score is the mean of the sum of responses and ranges from 1 to 6 where a higher score indicates greater degrees of diabetes distress.</description>
+        <time_frame>26 weeks</time_frame>
+        <population>Total Score at 26 weeks</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Diabetes Distress Scale</title>
+          <description>Diabetes Distress Scale for adults has 28 items rated on a 6 point Likert scale that ranges from 1 (not a problem) to 6 (a very serious problem). The total score is the mean of the sum of responses and ranges from 1 to 6 where a higher score indicates greater degrees of diabetes distress.</description>
+          <population>Total Score at 26 weeks</population>
+          <units>score on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="111"/>
+                <count group_id="O2" value="55"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.7" spread="0.6"/>
+                    <measurement group_id="O2" value="1.9" spread="0.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Hypoglycemia Confidence Scale</title>
+        <description>Hypoglycemia Confidence Scale has 20 items which are rated on a 4-point Likert Scale ranging from 1 (not confident at all) to 4 (very confident) with higher scores indicating higher confidence in dealing with hypoglycemia. A single score is computed by calculating the mean of the sum of all items and ranges from 1 to 4.</description>
+        <time_frame>26 weeks</time_frame>
+        <population>First two items on hypoglycemia confidence scale</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC) in Adults</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP) in Adults</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Hypoglycemia Confidence Scale</title>
+          <description>Hypoglycemia Confidence Scale has 20 items which are rated on a 4-point Likert Scale ranging from 1 (not confident at all) to 4 (very confident) with higher scores indicating higher confidence in dealing with hypoglycemia. A single score is computed by calculating the mean of the sum of all items and ranges from 1 to 4.</description>
+          <population>First two items on hypoglycemia confidence scale</population>
+          <units>score on a scale</units>
+          <param>Mean</param>
+          <dispersion>Full Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="111"/>
+                <count group_id="O2" value="55"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Execise</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.3" lower_limit="0" upper_limit="3"/>
+                    <measurement group_id="O2" value="1.9" lower_limit="0" upper_limit="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Sleeping</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.3" lower_limit="1" upper_limit="3"/>
+                    <measurement group_id="O2" value="1.9" lower_limit="0" upper_limit="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Clarke Hypoglycemia Awareness Scores</title>
+        <description>Clarke Hypoglycemia Awareness Scores (0-7 score with higher scores associated with impaired awareness)</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Clarke Hypoglycemia Awareness Scores</title>
+          <description>Clarke Hypoglycemia Awareness Scores (0-7 score with higher scores associated with impaired awareness)</description>
+          <units>score on a scale</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="111"/>
+                <count group_id="O2" value="55"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1" lower_limit="0" upper_limit="3"/>
+                    <measurement group_id="O2" value="2" lower_limit="0" upper_limit="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>INSPIRE Survey Scores</title>
+        <description>The INSPIRE questionnaire assesses user expectations and experiences with Insulin Delivery Systems: Perceptions, Ideas, Reflections, Expectations (INSPIRE). Survey total scores are computed by calculating the mean of the sum of all item ratings then multiplying the mean by 25 to scale the score to a range from 0 to 100. Higher scores indicate a more positive perception of insulin delivery systems. Items are rated on a 5 point Likert scale ranging from 0 (strongly disagree) to 4 (strongly agree). The Adult survey has 22 items, the Teens/Adolescents survey has 17 items and the Parent survey has 21 items.</description>
+        <time_frame>26 weeks</time_frame>
+        <population>Scores are measured at 26 weeks</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC) in Adults</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP) in Adults</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+          <group group_id="O3">
+            <title>CLC in Teens</title>
+            <description>Survey response from a teen in CLC (14-18 years old)</description>
+          </group>
+          <group group_id="O4">
+            <title>SAP in Teens</title>
+            <description>Survey response from a Teen in the SAP group (ages 14-18).</description>
+          </group>
+          <group group_id="O5">
+            <title>Parent of Teen in CLC</title>
+            <description>Survey response from a parent of a teen in CLC</description>
+          </group>
+          <group group_id="O6">
+            <title>Parent of a Teen in SAP</title>
+            <description>Survey response from a parent of a teen in SAP</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>INSPIRE Survey Scores</title>
+          <description>The INSPIRE questionnaire assesses user expectations and experiences with Insulin Delivery Systems: Perceptions, Ideas, Reflections, Expectations (INSPIRE). Survey total scores are computed by calculating the mean of the sum of all item ratings then multiplying the mean by 25 to scale the score to a range from 0 to 100. Higher scores indicate a more positive perception of insulin delivery systems. Items are rated on a 5 point Likert scale ranging from 0 (strongly disagree) to 4 (strongly agree). The Adult survey has 22 items, the Teens/Adolescents survey has 17 items and the Parent survey has 21 items.</description>
+          <population>Scores are measured at 26 weeks</population>
+          <units>score on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="80"/>
+                <count group_id="O2" value="39"/>
+                <count group_id="O3" value="31"/>
+                <count group_id="O4" value="16"/>
+                <count group_id="O5" value="31"/>
+                <count group_id="O6" value="15"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="87" spread="14"/>
+                    <measurement group_id="O2" value="86" spread="13"/>
+                    <measurement group_id="O3" value="87" spread="13"/>
+                    <measurement group_id="O4" value="74" spread="12"/>
+                    <measurement group_id="O5" value="87" spread="13"/>
+                    <measurement group_id="O6" value="76" spread="12"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>System Usability Scores (SUS)</title>
+        <description>System Usability Scores (SUS)-composite score from 0 to 100 with higher scores indicate better perceived usability</description>
+        <time_frame>26 weeks</time_frame>
+        <population>Administered to CLC group only. Results from 26-week.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>System Usability Scores (SUS)</title>
+          <description>System Usability Scores (SUS)-composite score from 0 to 100 with higher scores indicate better perceived usability</description>
+          <population>Administered to CLC group only. Results from 26-week.</population>
+          <units>score on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="109"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="87" spread="12"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Technology Acceptance Questionnaire</title>
+        <description>Technology Acceptance Survey measures the user's perceptions regarding the burdens and the barriers associated with a technology with a higher score indicates increased technology acceptance. There total score uses 37 items with items are rated on a 5 point scale ranging from 1 (strongly disagree) to 5 (strongly agree) for total score range of 37-185.</description>
+        <time_frame>26 weeks</time_frame>
+        <population>Administered to CLC arm only. Result from 26-weeks.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Technology Acceptance Questionnaire</title>
+          <description>Technology Acceptance Survey measures the user's perceptions regarding the burdens and the barriers associated with a technology with a higher score indicates increased technology acceptance. There total score uses 37 items with items are rated on a 5 point scale ranging from 1 (strongly disagree) to 5 (strongly agree) for total score range of 37-185.</description>
+          <population>Administered to CLC arm only. Result from 26-weeks.</population>
+          <units>score on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="111"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="155" spread="19"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Total Daily Insulin</title>
+        <description>Total Daily Insulin (units)</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Total Daily Insulin</title>
+          <description>Total Daily Insulin (units)</description>
+          <units>units</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="111"/>
+                <count group_id="O2" value="55"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="55" spread="27"/>
+                    <measurement group_id="O2" value="51" spread="20"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Basal:Bolus Insulin Ratio</title>
+        <description>Basal:Bolus Insulin Ratio</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Basal:Bolus Insulin Ratio</title>
+          <description>Basal:Bolus Insulin Ratio</description>
+          <units>ratio</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="111"/>
+                <count group_id="O2" value="55"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.1" spread="0.7"/>
+                    <measurement group_id="O2" value="1.1" spread="0.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Weight</title>
+        <description>Weight (kg)</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Weight</title>
+          <description>Weight (kg)</description>
+          <units>kilograms</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="111"/>
+                <count group_id="O2" value="55"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="78.7" spread="17.0"/>
+                    <measurement group_id="O2" value="76.0" spread="18.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>BMI</title>
+        <description>Body Mass Index (BMI) kg/m^2</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>BMI</title>
+          <description>Body Mass Index (BMI) kg/m^2</description>
+          <units>kg/m^2</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="111"/>
+                <count group_id="O2" value="55"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="26.2" spread="4.9"/>
+                    <measurement group_id="O2" value="26.1" spread="6.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Number of Participants With Severe Hypoglycemia (Per Protocol)</title>
+        <description>Severe hypoglycemia (per protocol)</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With Severe Hypoglycemia (Per Protocol)</title>
+          <description>Severe hypoglycemia (per protocol)</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Number of Participants With Diabetic Ketoacidosis (Per Protocol)</title>
+        <description>Diabetic ketoacidosis (per protocol)</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With Diabetic Ketoacidosis (Per Protocol)</title>
+          <description>Diabetic ketoacidosis (per protocol)</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Ketone Events Defined as Day With Ketone Level &gt;1.0 mmol/L</title>
+        <description>Ketone events defined as day with ketone level &gt;1.0 mmol/L</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Ketone Events Defined as Day With Ketone Level &gt;1.0 mmol/L</title>
+          <description>Ketone events defined as day with ketone level &gt;1.0 mmol/L</description>
+          <units>days</units>
+          <param>Number</param>
+          <units_analyzed>Days</units_analyzed>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+            <analyzed>
+              <units>Days</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20571"/>
+                <count group_id="O2" value="10285"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="14"/>
+                    <measurement group_id="O2" value="15"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>CGM-measured Hypoglycemic Events (&gt;15 Minutes With Glucose Concentration &lt;54 mg/dL)</title>
+        <description>CGM-measured hypoglycemic events (&gt;15 minutes with glucose concentration &lt;54 mg/dL)</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>CGM-measured Hypoglycemic Events (&gt;15 Minutes With Glucose Concentration &lt;54 mg/dL)</title>
+          <description>CGM-measured hypoglycemic events (&gt;15 minutes with glucose concentration &lt;54 mg/dL)</description>
+          <units>events per week</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.4" lower_limit="0.1" upper_limit="0.9"/>
+                    <measurement group_id="O2" value="0.5" lower_limit="0.2" upper_limit="0.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>CGM-measured Hyperglycemic Events (&gt;15 Minutes With Glucose Concentration &gt;300 mg/dL)</title>
+        <description>CGM-measured hyperglycemic events (&gt;15 minutes with glucose concentration &gt;300 mg/dL)</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>CGM-measured Hyperglycemic Events (&gt;15 Minutes With Glucose Concentration &gt;300 mg/dL)</title>
+          <description>CGM-measured hyperglycemic events (&gt;15 minutes with glucose concentration &gt;300 mg/dL)</description>
+          <units>events per week</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.2" lower_limit="0.4" upper_limit="2.6"/>
+                    <measurement group_id="O2" value="2.7" lower_limit="1.1" upper_limit="4.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>BG-measured Hypoglycemic Events (One BG Record &lt;54 mg/dL)</title>
+        <description>BG-measured hypoglycemic events (one BG record &lt;54 mg/dL)</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>BG-measured Hypoglycemic Events (One BG Record &lt;54 mg/dL)</title>
+          <description>BG-measured hypoglycemic events (one BG record &lt;54 mg/dL)</description>
+          <units>days</units>
+          <param>Number</param>
+          <units_analyzed>Days</units_analyzed>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+            <analyzed>
+              <units>Days</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20571"/>
+                <count group_id="O2" value="10285"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="129"/>
+                    <measurement group_id="O2" value="72"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>BG-measured Hyperglycemic Events (One BG Record &gt;350 mg/dL)</title>
+        <description>BG-measured hyperglycemic events (one BG record &gt;350 mg/dL)</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>BG-measured Hyperglycemic Events (One BG Record &gt;350 mg/dL)</title>
+          <description>BG-measured hyperglycemic events (one BG record &gt;350 mg/dL)</description>
+          <units>days</units>
+          <param>Number</param>
+          <units_analyzed>Days</units_analyzed>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+            <analyzed>
+              <units>Days</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20571"/>
+                <count group_id="O2" value="10285"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="243"/>
+                    <measurement group_id="O2" value="181"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Worsening of HbA1c From Baseline to 26 Weeks by &gt;0.5%</title>
+        <description>Worsening of HbA1c from baseline to 26 weeks by &gt;0.5%</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Worsening of HbA1c From Baseline to 26 Weeks by &gt;0.5%</title>
+          <description>Worsening of HbA1c from baseline to 26 weeks by &gt;0.5%</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="8"/>
+                    <measurement group_id="O2" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Other Serious Adverse Events (SAE) and Serious Adverse Device Events (SADE)</title>
+        <description>Other serious adverse events (SAE) and serious adverse device events (SADE)</description>
+        <time_frame>26 weeks</time_frame>
+        <population>Other Serious Adverse Events that do not include DKA or Severe Hypoglycemia</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Other Serious Adverse Events (SAE) and Serious Adverse Device Events (SADE)</title>
+          <description>Other serious adverse events (SAE) and serious adverse device events (SADE)</description>
+          <population>Other Serious Adverse Events that do not include DKA or Severe Hypoglycemia</population>
+          <units>participants</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Concussion</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Otitis</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Cardiac Bypass Surgery</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Adverse Device Effects (ADE)</title>
+        <description>Adverse device effects (ADE)</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC) in Adults</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP) in Adults</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Adverse Device Effects (ADE)</title>
+          <description>Adverse device effects (ADE)</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="11"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Unanticipated Adverse Device Effects (UADE)</title>
+        <description>Unanticipated adverse device effects (UADE)</description>
+        <time_frame>26 weeks</time_frame>
+        <population>Study Device</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Unanticipated Adverse Device Effects (UADE)</title>
+          <description>Unanticipated adverse device effects (UADE)</description>
+          <population>Study Device</population>
+          <units>Unanticipated Adverse Device Effects</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Number of Participants With SH Events</title>
+        <description>For this outcome, mean +/- SD or summary statistics appropriate to the distribution will be tabulated by treatment group</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With SH Events</title>
+          <description>For this outcome, mean +/- SD or summary statistics appropriate to the distribution will be tabulated by treatment group</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>SH Event Rate Per 100 Person-years</title>
+        <description>For this outcome, severe hypoglycemia event rate per 100 person-years will be calculated as a rate.</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>SH Event Rate Per 100 Person-years</title>
+          <description>For this outcome, severe hypoglycemia event rate per 100 person-years will be calculated as a rate.</description>
+          <units>rate per 100 person-years</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Number of Participants With DKA Events</title>
+        <description>For this outcome, number of participants with diabetic ketoacidosis (DKA) will be tabulated.</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With DKA Events</title>
+          <description>For this outcome, number of participants with diabetic ketoacidosis (DKA) will be tabulated.</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>DKA Event Rate Per 100 Person-years</title>
+        <description>For this outcome, the diabetic ketoacidosis event rate per 100 person-years will be calculated as a rate.</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>DKA Event Rate Per 100 Person-years</title>
+          <description>For this outcome, the diabetic ketoacidosis event rate per 100 person-years will be calculated as a rate.</description>
+          <units>rate per 100 person-years</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.8"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Any Adverse Event Rate Per 100 Person-years</title>
+        <description>For this outcome, the adverse event rate per 100 person-years calculated as a rate.</description>
+        <time_frame>26 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop Control (CLC)</title>
+            <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sensor-Augmented Pump (SAP)</title>
+            <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Any Adverse Event Rate Per 100 Person-years</title>
+          <description>For this outcome, the adverse event rate per 100 person-years calculated as a rate.</description>
+          <units>events per 100 person-yr</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="112"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="30.2"/>
+                    <measurement group_id="O2" value="7.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>From protocol entry through last study date which is approximately 26-28 weeks per participant.</time_frame>
+      <desc>Definitions are the same as the clinicaltrials.gov definition. Please see clinical protocol for exclusions to adverse event collection.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Closed Loop Control (CLC)</title>
+          <description>Participants randomized to the closed loop control (CLC) arm will use the t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months.
+t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM: Participants will use the Tandem t:slim X2 with Control-IQ Technology &amp; Dexcom G6 CGM for 6 months at home.</description>
+        </group>
+        <group group_id="E2">
+          <title>Sensor-Augmented Pump (SAP)</title>
+          <description>Participants randomized to sensor-augmented pump (SAP) will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months.
+Sensor-augmented pump (SAP): Participants will use an insulin pump with no automated insulin delivery and a study CGM (Dexcom G6) for 6 months at home. Pump-users at the time of enrollment will use their personal pump in this arm. Multiple daily injection (MDI) users at the time of enrollment will use a t:slim X2 insulin pump without Control-IQ technology.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="112"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="56"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="4" subjects_at_risk="112"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="56"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Cardiac disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Cardiac Bypass Surgery</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="112"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="56"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Ear and labyrinth disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Otitis</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="112"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="56"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Endocrine disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Diabetic Ketoacidosis</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="112"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="56"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Nervous system disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Concussion</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="112"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="56"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="12" subjects_at_risk="112"/>
+                <counts group_id="E2" subjects_affected="2" subjects_at_risk="56"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Endocrine disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Hyperglycemia or ketosis events without meeting criteria for Diabetic Ketoacidosis</sub_title>
+                <counts group_id="E1" events="13" subjects_affected="12" subjects_at_risk="112"/>
+                <counts group_id="E2" events="2" subjects_affected="2" subjects_at_risk="56"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Sue Brown, MD</name_or_title>
+      <organization>University of Virginia</organization>
+      <phone>434-962-0602</phone>
+      <email>sab2f@virginia.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

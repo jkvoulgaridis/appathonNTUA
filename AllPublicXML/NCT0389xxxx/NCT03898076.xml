@@ -1,0 +1,191 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03898076</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2019003271</org_study_id>
+    <nct_id>NCT03898076</nct_id>
+  </id_info>
+  <brief_title>Predictive A1c Based on CGM Data Using CGM Data</brief_title>
+  <acronym>A1c</acronym>
+  <official_title>The Prediction of A1c Based on CGM Data Through Applying Machine Learning Approaches</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sidra Medical and Research Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Sidra Medical and Research Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Introduction. The hemoglobin A1C (HbA1c) reflects the average blood glucose level for last
+      two to three months. Recent advancements in the sensor technology facilitate the daily
+      monitoring of the blood glucose using CGM devices. The future prediction of the HbA1C based
+      on the CGM data holds a critical significance in maintaining long term health of diabetes
+      patients. A higher than normal value of the HbA1c greatly increases the likelihood of
+      diabetes related cardiovascular disease.
+
+      Goal. The aim this study is to predict the HbA1c in advance by utilizing the CGM data through
+      applying machine learning techniques. The outcomes of this research will assist in improving
+      the health of diabetic patients.
+
+      Methods. This is a retrospective analysis. The investigators will de-identify and analyze 120
+      patients with T1D who using CGM sensor for last three months. Past 15 days of CGM data will
+      be analyzed and different glucose variability features such as time in range (TIR),
+      coefficient of variation (CV), mean amplitude of glycemic excursion (MAGE), mean of daily
+      differences (MODD), continuous overall net glycemic action (CONGA) will be extracted. A
+      machine learning model will calculate (predict) HbA1c in 2-3 months advance based on these 15
+      days of CGM data. To evaluate the performance of the proposed prediction model, predicted
+      HbA1c will be compared with the real HbA1c.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a retrospective analysis. The investigators will de-identify and analyze 120 patients
+      with T1D using Continuous Glucose Monitoring (CGM) system for last three months. Past 15 days
+      of CGM data will be analyzed and different glucose variability features such as time in range
+      (TIR), coefficient of variation (CV), mean amplitude of glycemic excursion (MAGE), mean of
+      daily differences (MODD), continuous overall net glycemic action (CONGA) will be extracted. A
+      machine learning model will be developed to predict HbA1c in 2-3 months advance based on
+      these 15 days of CGM data. The model is using linear regression, penalized regression (Ridge
+      regression, Lasso regression and Elastic net regression) in combination gradient boosting to
+      calculate predictive A1c
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">December 1, 2019</start_date>
+  <completion_date type="Anticipated">March 30, 2020</completion_date>
+  <primary_completion_date type="Anticipated">January 30, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The difference of Predictive A1c level from CGM data with Real A1c level from EMR</measure>
+    <time_frame>3 months</time_frame>
+    <description>Difference (%) between Predicted A1c and laboratory A1c from the Electronic Medical Record</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">120</enrollment>
+  <condition>Diabetes Mellitus, Type 1</condition>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Flash Glucose Monitoring</intervention_name>
+    <description>Continuous Glucose Monitoring (CGM) values will be downloaded from CGM device for a period of 90 days.</description>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>A1c</intervention_name>
+    <description>A1c levels will be collected from Hospital EMR prior to CGM data downoad</description>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Predictive A1c</intervention_name>
+    <description>Predictive A1c will be calculated based on the first 15 days of CGM data using time in range (TIR), coefficient of variation (CV), mean amplitude of glycemic excursion (MAGE), mean of daily differences (MODD), continuous overall net glycemic action (CONGA). Predictive A1c will be correlated with actual A1c.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with Type 1 Diabetes and Flash glucose monitoring
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Type 1 Diabetes
+
+          -  Flash glucose Monitoring system
+
+        Exclusion Criteria:
+
+          -  Less than 70% od CGM data in the last 90 days.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>2 Years</minimum_age>
+    <maximum_age>18 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Marwa Qaraqe, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Hamad Bin Khalifa University, Doha</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Hasan Abbas, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>TAMUQ, Doha</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Goran Petrovski, MD, MSc, PhD</last_name>
+    <phone>+97470745178</phone>
+    <email>gpetrovski@sidra.org</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Islam Shafiqul, MD</last_name>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Sidra Medicine</name>
+      <address>
+        <city>Doha</city>
+        <state>Qa</state>
+        <zip>26999</zip>
+        <country>Qatar</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Qatar</country>
+  </location_countries>
+  <results_reference>
+    <citation>Ball MJ, Lillis J. E-health: transforming the physician/patient relationship. Int J Med Inform. 2001 Apr;61(1):1-10. Review.</citation>
+    <PMID>11248599</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Alberti KG, Zimmet PZ. Definition, diagnosis and classification of diabetes mellitus and its complications. Part 1: diagnosis and classification of diabetes mellitus provisional report of a WHO consultation. Diabet Med. 1998 Jul;15(7):539-53.</citation>
+    <PMID>9686693</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Ogurtsova K, da Rocha Fernandes JD, Huang Y, Linnenkamp U, Guariguata L, Cho NH, Cavan D, Shaw JE, Makaroff LE. IDF Diabetes Atlas: Global estimates for the prevalence of diabetes for 2015 and 2040. Diabetes Res Clin Pract. 2017 Jun;128:40-50. doi: 10.1016/j.diabres.2017.03.024. Epub 2017 Mar 31.</citation>
+    <PMID>28437734</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Rohlfing CL, Wiedmeyer HM, Little RR, England JD, Tennill A, Goldstein DE. Defining the relationship between plasma glucose and HbA(1c): analysis of glucose profiles and HbA(1c) in the Diabetes Control and Complications Trial. Diabetes Care. 2002 Feb;25(2):275-8.</citation>
+    <PMID>11815495</PMID>
+  </results_reference>
+  <verification_date>September 2019</verification_date>
+  <study_first_submitted>March 27, 2019</study_first_submitted>
+  <study_first_submitted_qc>March 28, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 1, 2019</study_first_posted>
+  <last_update_submitted>October 23, 2019</last_update_submitted>
+  <last_update_submitted_qc>October 23, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 24, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Sidra Medical and Research Center</investigator_affiliation>
+    <investigator_full_name>Goran Petrovski</investigator_full_name>
+    <investigator_title>Goran Petrovski Clinical Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

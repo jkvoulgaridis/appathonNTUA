@@ -1,0 +1,136 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04432961</url>
+  </required_header>
+  <id_info>
+    <org_study_id>A095625</org_study_id>
+    <nct_id>NCT04432961</nct_id>
+  </id_info>
+  <brief_title>Natural Language Processing (NLP) Analysis of Free Text Notes to Investigate Coronavirus (COVID-19)</brief_title>
+  <official_title>A Database and Analytics Study of Free Text Clinical Notes and Structured Data to Investigate Phenotype Associations With Outcomes in Patients With COVID-19</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Cambridge University Hospitals NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Cambridge</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Cambridge University Hospitals NHS Foundation Trust</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      A retrospective cohort study investigating clinical notes using Natural Language Processing
+      in combination with structured data from the Electronic Health Record (EHR) to create a
+      database for analytics to identify features associated with outcomes.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Patients admitted to Cambridge University Hospitals (CUH)with COVID-19 have undergone routine
+      clinical documentation and specific investigation and testing for COVID-19. The pathway for
+      these patients ranges from supportive measures on the ward to deterioration requiring
+      Intensive therapy Unit (ITU) admission and ventilatory support. Patients are also at risk of
+      developing complications such as Acute Kidney Injury and thromboembolism. Identification of
+      the risk factors for these and other outcomes such as the requirement for ventilation remain
+      a challenge and reviewing the clinical data for these patients is critical in the
+      understanding of the relationship between patient characteristics and outcomes.
+
+      There is data available in structured fields in the EHR, however, this is sometimes
+      incomplete and inaccurate. An assessment of the free text clinical notes provides an
+      opportunity to fill in the gaps and provide a much richer dataset for evaluation. We plan to
+      use Natural Language Processing (NLP) (a field of machine learning that allows computers to
+      analyse human language) to review Discharge Summaries of patients admitted to hospital with
+      COVID-19 and convert free text data into structured data for analysis.
+
+      The NLP techniques developed by Dr Collier's team include methods for coding of free texts to
+      SNOMED CT and other biomedical ontologies. These methods, based on statistical machine
+      learning from human annotated texts, have been benchmarked for scientific texts and social
+      media. In this project we intend to adapt these techniques for patient records. The
+      techniques will require a number of human annotated patient records in order to adapt. The
+      NLP output will be combined with structured data from the EHR and undergo statistical
+      analysis to identify the rates of complications in patients with COVID-19 and risk factors
+      associated with these. This may help to guide management decisions by earlier intervention to
+      prevent poor outcomes in these patients.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">July 2020</start_date>
+  <completion_date type="Anticipated">July 2021</completion_date>
+  <primary_completion_date type="Anticipated">September 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>research database of EHR records from COVID-19 patients processed using NLP tools for named entity recognition and linking adapted to CUH EMR data to identify variables of interest</measure>
+    <time_frame>1 year</time_frame>
+    <description>Our overarching hypothesis is that the NLP-extracted data from the free-text discharge summary can be combined with structured data from the EMR to yield insights into the development of complications. Patient with severe disease requiring ITU admission and non severe disease managed on an inpatient ward will be included. The variables of interest will include patient characteristics and specific encounter related information including length of stay and baseline investigations (e.g., blood tests) and interventions received</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>A set of annotation guidelines to produce human-expert (gold) labelled data for a subset of the EHR</measure>
+    <time_frame>6 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>A comparison of the NLP output to terms in the structured problem list to identify missing terms in the structured problem list</measure>
+    <time_frame>1 year</time_frame>
+  </secondary_outcome>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>COVID-19</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients admitted to Cambridge University Hospitals NHS Foundation Trust with confirmed
+        COVID-19
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Male and female
+
+          -  Age range: 18 to 100 years
+
+          -  Patients admitted to Cambridge University Hospitals with confirmed COVID-19 on lab
+             testing
+
+        Exclusion Criteria:
+
+        Children and patients with a negative COVID test.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>100 Years</maximum_age>
+  </eligibility>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>June 15, 2020</study_first_submitted>
+  <study_first_submitted_qc>June 15, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 16, 2020</study_first_posted>
+  <last_update_submitted>June 15, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 15, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 16, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Cambridge University Hospitals NHS Foundation Trust</investigator_affiliation>
+    <investigator_full_name>Dr Sapna Trivedi</investigator_full_name>
+    <investigator_title>Doctor</investigator_title>
+  </responsible_party>
+  <keyword>Natural Language Processing</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

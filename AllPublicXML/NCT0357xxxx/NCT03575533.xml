@@ -1,0 +1,197 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03575533</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NL61810.058.17</org_study_id>
+    <nct_id>NCT03575533</nct_id>
+  </id_info>
+  <brief_title>Bayesian Hemodynamics Model for Personalized Monitoring of Congestive Heart Failure Patients</brief_title>
+  <official_title>Bayesian Hemodynamics Model for Personalized Monitoring of Congestive Heart Failure Patients - Translating Physician's Reasoning Into Computational Models, Part II</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Leiden University Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Philips Healthcare</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Leiden University Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Heart failure (HF) is a serious and challenging syndrome. Globally 26 million people are
+      living with this chronic disease and the prevalence is still increasing. Besides this growing
+      number in prevalence, HF is also responsible for almost 1 million hospitalizations a year in
+      the US and in Europe. Consequently, this has a major economic impact especially due to
+      recurrent admissions of these patients. Adequate prediction of decompensation could prevent
+      (un)necessary admissions as a result of heart failure. Philips is developing a Bayesian
+      Hemodynamics model for general practitioners. This model uses different observables, which
+      can be measured at home. The outcome of the model could be used as an aid in clinical
+      decision making in HF patients.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Heart failure (HF) is a world-wide problem. At the moment 26 million people are living with
+      this chronic disease and the prevalence is still increasing. Besides this growing number in
+      prevalence, HF is also responsible for almost 1 million hospitalizations a year in the US and
+      in Europe. Consequently, this has also a major economic impact especially due to recurrent
+      admissions of these patients. Adequate prediction of decompensation could prevent
+      (un)necessary admissions as a result of heart failure. Philips is developing a Bayesian model
+      for chronic heart failure, enabling monitoring of patients with heart failure in the hospital
+      and at home. An important characteristic of such a Bayesian model is that it is a
+      knowledge-based model, in contrast to data-mining based models, and requires only a few
+      patient data to get started (10-20 patients). Another important characteristic is that these
+      'knowledge-based models' are applicable in any setting, again in contrast to data-mining
+      based models. This makes the proposed model different from conventional data-mining
+      approaches to modelling. During a hospital admission, the model will be &quot;filled in&quot; with
+      personal patient data. Subsequently, during the rest of the hospital stay or after release
+      from the hospital, a number of symptoms and lab measurement variables (&quot;observables&quot;), will
+      be the input for the model. The output of the model (the result) will be a probability of
+      improvement (versus worsening) of the condition of the patient or the status of the heart
+      failure condition on a scale (from 1-10). The model can deal with less input variables than
+      the number it has been &quot;personalized&quot; with. With less input measurements, naturally the
+      reliability of the result will be reduced. This modelling approach basically captures the
+      clinical way of thinking into a model. If interpreted in the right way using smart Bayesian
+      modelling, the GP or geriatrician will be able to monitor and treat the majority of heart
+      failure patients. This fits in current thinking to reduce HC costs by keeping patients at
+      home and out of the hospital.
+
+      The clinical investigation is designed to evaluate whether the outcome of the &quot;Bayesian
+      Hemodynamics model&quot; compares with the cardiologist's status assessment. The purpose of this
+      study is to validate the computer model that has been developed to assess the status of a
+      heart failure patient. With the model, the investigators aim to support healthcare
+      professionals with early detection of deterioration of heart failure patients and with
+      providing the right treatment when it is needed. If successful, this could help heart failure
+      patients to stay at home longer and reduce hospital admissions.
+
+      The clinical literature review is documented in report, Personalized Heart Failure Monitoring
+      using a Bayesian network, Anja v.d. Stolpe, Wim Verhaegh, Folke Noertemann, PR-TN 2017/00180.
+
+      This clinical investigation is needed, because no complete datasets, including ground truth
+      assessments by cardiologists, are available, neither in existing databases, nor in clinical
+      literature.
+
+      The clinical investigation needs to be performed on a population that fulfills the
+      inclusion/exclusion criteria described in Chapter 6, because the &quot;Bayesian Hemodynamics
+      model&quot; is only valid for these cases.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 1, 2019</start_date>
+  <completion_date type="Anticipated">January 1, 2020</completion_date>
+  <primary_completion_date type="Anticipated">September 1, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Validate Bayesian Hemodynamics model 'Sherlock'</measure>
+    <time_frame>1 year</time_frame>
+    <description>Based on all measurements of the physical examination, lab results and echocardiogram, a patient will receive a score (scale 1-10 in which 1 is no heart failure and 10 is the worst possible state) by both the cardiologist as well as 'Sherlock'.</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Heart Failure</condition>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Bayesian network 'Sherlock'</intervention_name>
+    <description>Primary objective is to validate the Bayesian Hemodynamics model 'Sherlock'. Criterion for validation is a match between Sherlock's estimate of the Hemodynamic status of a patient and a ground truth based on a cardiologist's judgement.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study population consists of patients who are admitted to the ward due to congestive
+        heart failure. All patients are admitted at the department of cardiology in the LUMC.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  At least 45 years of age
+
+          -  Able to communicate in Dutch
+
+          -  Willing and able to provide informed consent
+
+          -  Echocardiographically confirmed measurement of ejection fraction
+
+          -  Daily obtained physical exam during hospital stay
+
+          -  Lab investigations 3x / week
+
+          -  Available treatment and medication information
+
+        Exclusion Criteria:
+
+          -  Incomplete admission data
+
+          -  Cardiac asthma patients that need invasive respiratory aid
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>45 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Leiden University Medical Center</name>
+      <address>
+        <city>Leiden</city>
+        <state>Zuid Holland</state>
+        <zip>2333 ZA</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Tom E Biersteker, MD</last_name>
+      <phone>+31 71 565389</phone>
+      <email>t.e.biersteker@lumc.nl</email>
+    </contact>
+    <contact_backup>
+      <last_name>Douwe E Atsma, MD, PhD</last_name>
+      <email>d.e.atsma@lumc.nl</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Netherlands</country>
+  </location_countries>
+  <verification_date>February 2019</verification_date>
+  <study_first_submitted>June 12, 2018</study_first_submitted>
+  <study_first_submitted_qc>June 28, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 2, 2018</study_first_posted>
+  <last_update_submitted>February 26, 2019</last_update_submitted>
+  <last_update_submitted_qc>February 26, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 28, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Leiden University Medical Center</investigator_affiliation>
+    <investigator_full_name>DouweEAtsma</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Failure</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

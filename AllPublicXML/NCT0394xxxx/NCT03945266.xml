@@ -1,0 +1,472 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03945266</url>
+  </required_header>
+  <id_info>
+    <org_study_id>00003752</org_study_id>
+    <secondary_id>5R01HL119245-05</secondary_id>
+    <nct_id>NCT03945266</nct_id>
+  </id_info>
+  <brief_title>Healthy Mom Zone: A Gestational Weight Gain Management Intervention</brief_title>
+  <acronym>HMZ</acronym>
+  <official_title>Control Systems Engineering for Optimizing a Prenatal Weight Gain Intervention</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Penn State University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Heart, Lung, and Blood Institute (NHLBI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Arizona State University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Penn State University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose is to establish feasibility of delivering an individually-tailored, behavioral
+      intervention to manage gestational weight gain [GWG] that adapts to the unique needs and
+      challenges of overweight/obese pregnant women [OW/OBPW] and will utilize control systems
+      engineering to optimize this intervention; in other words, make this intervention manage GWG
+      in OW/OBPW as effectively and efficiently as possible.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The research proposed here will establish the dosage of components needed to impact GWG and
+      develop an efficient (optimized) intervention to effectively manage GWG in OW/OBPW before a
+      randomized controlled trial (RCT) can be implemented. The aims of the proposed research are:
+      to establish feasibility of delivering an individually-tailored behavioral intervention for
+      managing GWG in OW/OBPW. Two studies will be conducted to establish feasibility. Study 1 will
+      examine viability of delivering dosages/sequencing of components (education, goal-setting,
+      self-monitoring, HE/PA), GWG/HE/PA self-monitoring using e-health technology mechanisms, and
+      data collection by delivering varied dosages to OW/OBPW over a brief, 4-week period followed
+      by focus groups to evaluate user acceptability. The investigators will then make necessary
+      revisions to the intervention. Study 2 will pilot test intervention delivery with decision
+      rules for when/how to adapt dosages for an individual and randomization/retention/data
+      collection procedures with treatment and control groups in a new cohort of OW/OBPW. Also, the
+      investigators aim to use feasibility data collected from Aim 1 and control systems
+      engineering to build a model that characterizes the effects of energy balance and
+      planned/self-regulatory behaviors on GWG over time and use this model to develop an optimized
+      intervention. The investigators will identify a dynamical model from feasibility data
+      collected in Aim 1 that considers how changes in GWG responds to changes in energy intake,
+      PA, and planned/self-regulatory behaviors. Model predictive control (a decision-making method
+      from control systems engineering) will inform how the dosage adaptations are decided. The
+      investigators will then identify a customized intervention plan for each woman based on her
+      levels of energy intake, PA, planned/self-regulatory behaviors and the extent to which she is
+      meeting GWG goals over pregnancy. This will lead to final program modifications and result in
+      an individually-tailored, optimized intervention. The investigators will test the efficacy of
+      this optimized intervention for managing GWG in OW/OBPW in a future RCT. This innovative
+      research will develop an individually-tailored, optimized intervention that effectively and
+      efficiently manages GWG in OW/OBPW and that will eventually be available to all pregnant
+      women (via e-health technology) to improve the health of mothers and infants and impact the
+      etiology of obesity and cardiovascular disease at a critical time in the life cycle.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 8, 2014</start_date>
+  <completion_date type="Actual">March 30, 2018</completion_date>
+  <primary_completion_date type="Actual">January 11, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Participants are randomly assigned to an intervention or control group</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Gestational Weight Change</measure>
+    <time_frame>Baseline, through study completion (ever day for ~6 months). Weight will also be measured for a week at 6 weeks postpartum</time_frame>
+    <description>Gestational weight change will be measured daily at home using the FitBit Aria Wi-Fi Smart Scale (www.fitbit.com; weights will be wirelessly uploaded to online program). Gestational weight change will be standardized: target weight gain will be determined for each woman based on BMI (kg/m^2) status (OW = 15-25 lb, OB = 11-20 lb). For the criterion measure to determine when to adapt the intervention, weight gain will be calculated to determine if a woman is gaining &lt; her goal (-), at the exact amount of her goal (0), or &gt; her goal (+). Pre-pregnancy weight and gestational weight change from the first prenatal visit to the last pre-delivery weight will also be obtained from clinical records. overweight/obese pregnant women (OW/OBPW) often exceed the GWG guidelines, managing weight gain in this population is critical. Participants weigh themselves daily using a WiFi connected scale.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Theory of Planned Behavior (Motivational Determinants of Healthy Eating)</measure>
+    <time_frame>Baseline, through study completion (each week and each month for ~6 months), 6 weeks postpartum</time_frame>
+    <description>The Theory of Planned Behavior will inform our dynamical model in order to create individualized interventions for OW/OBPW. Beliefs: These items were developed from the work of Blanchard et al. (2009a; 2009b), Murnaghan et al. (2010) and the research team to assess Theory of Planned Behavior (TPB) behavioral, control, and normative beliefs. Main Constructs: The Theory of Planned Behavior (TPB) Healthy Eating Main Constructs measure is a 38-item measure developed from the work of Blanchard et al. (2009a; 2009b), Murnaghan et al. (2010), as well as from the recommendations of Azjen (1991) and the research team to assess the main constructs of the TPB (i.e., attitude, subjective norm, perceived behavioral control, intention) as they relate to healthy eating behavior. Higher total scores (summed) of main constructs indicate higher levels of those main constructs.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Theory of Planned Behavior (Motivational Determinants of Physical Activity)</measure>
+    <time_frame>Baseline, through study completion (each week and each month for ~6 months), 6 weeks postpartum</time_frame>
+    <description>The Theory of Planned Behavior will inform our dynamical model in order to create individualized interventions for OW/OBPW. Beliefs: These items were developed from the work of Blanchard et al. (2009a; 2009b), Murnaghan et al. (2010) and the research team to assess Theory of Planned Behavior (TPB) behavioral, control, and normative beliefs. Main Constructs: The Theory of Planned Behavior (TPB) Physical Activity Main Constructs measure is a 38-item measure developed from the work of Blanchard et al. (2009a; 2009b), Murnaghan et al. (2010), as well as from the recommendations of Azjen (1991) and the research team to assess the main constructs of the TPB (i.e., attitude, subjective norm, perceived behavioral control, intention) as they relate to physical activity behavior. Higher total scores (summed) of main constructs indicate higher levels of those main constructs.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Self-regulation of Healthy Eating</measure>
+    <time_frame>Baseline, through study completion (every other week for ~6 months), 6 weeks postpartum</time_frame>
+    <description>Self-regulation of HE will be measured in order to inform our dynamical model and to how well OW/OBPW are at regulating their energy intake and expenditure and how it impacts their GWG.
+These items were taken from Ryan Rhodes items for self-regulation of PA and adapted for HE behaviors. Ryan has indicated that these items work really well as an index for HE self-regulation because these behaviors are naturally inter-connected but to look at specific self-regulatory behaviors:
+Item #1: self-monitoring
+Item #2: goal-setting
+Item # 3: action planning
+Item #4: coping planning
+Item #5: scheduling
+Item #6, 7, 8, and 9 - #6 was developed by Ryan, 7, 8, and 9 the investigators developed
+Items 10 &amp;11: affective There are also 2 sets of 8 questions—first 8 examine prospective behaviors while the second set assesses retrospective behaviors. Total scores range from 22-110. A higher score indicates higher levels of HE self-regulation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Self-regulation of Physical Activity</measure>
+    <time_frame>Baseline, through study completion (every other week for ~6 months), 6 weeks postpartum</time_frame>
+    <description>Self-regulation of PA will be measured in order to inform our dynamical model and to how well OW/OBPW are at regulating their energy intake and expenditure and how it impacts their GWG. These items are taken from Ryan Rhodes. Ryan has indicated that these items work really well as an index because these behaviors are naturally inter-connected but to look at specific self-regulatory behaviors:
+Item #1: self-monitoring
+Item #2: goal-setting
+Item # 3: action planning
+Item #4: coping planning
+Item #5: scheduling
+Item #6, 7, 8, 9: cuing - #6 was developed by Ryan, 7, 8, and 9 the investigators developed
+Items 10 &amp; 11: affective There are also 2 sets of 8 questions—first 8 examine prospective behaviors while the second set assesses retrospective behaviors. Total scores range from 22-110. A higher score indicates higher levels of PA self-regulation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Tangney Self-Control Scale</measure>
+    <time_frame>Baseline, through study completion (every month for ~6 months), 6 weeks postpartum</time_frame>
+    <description>The Tangney Self Control Scale is a 13-item scale, developed by Tangney et al. (2004), designed to measure the degree of self-control participants have in their lives. Tangney and colleagues began by generating a larger pool of 93 items that encompassed all the spheres of self-control failure covered in an extensive review they conducted on published studies on self-control processes and failures (i.e., control over thoughts, emotional control, impulse control, performance regulation, and habit breaking). Items were rated on a 5-point scale, anchored from 1 &quot;not at all like me&quot; to 5 &quot;very much like me.&quot; Scores range from 13-65. Higher scores indicate higher self-control.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>MyFitnessPal</measure>
+    <time_frame>Baseline, through study completion (every day for ~6 months), 6 weeks postpartum</time_frame>
+    <description>MyFitness Pal: Web-based and smartphone app dietary intake tracker.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Leisure Time Exercise Questionnaire</measure>
+    <time_frame>Baseline, through study completion (every month for ~6 months), 6 weeks postpartum</time_frame>
+    <description>The Leisure-Time Exercise Questionnaire (LTEQ) is a 3 item questionnaire developed by Godin and Shephard (1985) to measure the amount and intensity of exercise a person engages in during a one week period.A total metabolic equivalent (MET) score is generated by multiplying the intensity level by the estimated rate of energy expenditure [total LTEQ = (9 x strenuous) + (5 x moderate) + (3 x mild)]. Previous research using this measure has modified the quantification of exercise to include average minutes rather than metabolic equivalents across a week to better examine whether or not participants were meeting exercise guidelines (Courneya et al., 2004; Courneya, et al., 2007). Thus, outcomes can be quantified in MET equivalents or by multiplying reported values of strenuous, moderate, and mild physical activity (PA) by 15 to get total min/week for each type and then adding those values together to total min of weekly exercise.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Self-report physical activity log</measure>
+    <time_frame>Baseline, through study completion (every other week for ~6 months), 6 weeks postpartum</time_frame>
+    <description>Physical Activity (PA) Log: A daily log asking a series of questions: 'if they were physically active that day'- if yes 'what activities they did', if it was a normal day in terms of their physical activity and if no, an 'explanation of why'.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Objective activity monitor Actigraph wGt3X-BTl</measure>
+    <time_frame>Baseline, through study completion (every day, for 3 week, ever 2 weeks for ~6 months), 6 weeks postpartum</time_frame>
+    <description>Women will be wearing the Actigraph monitor for 7 days during their free living immediately following their baseline appointment and again for 7 days immediately following their final appointment. Women will also be wearing the Actigraph for 3 weeks during the intervention phase of the study - the Actigraph is being counterbalanced with the UP Jawbone where half of the women will wear the Actigraph for the first two weeks of the intervention phase and the other half for the last two weeks of the intervention phase.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Objective activity monitor UP Jawbone</measure>
+    <time_frame>Baseline, through study completion (every day for ~6 months), 6 weeks postpartum</time_frame>
+    <description>Women will be wearing the UP Jawbone for the entire six week intervention. UP will track how the participants sleep, move and eat so the women will be able to make smarter choices. Women will be wearing the UP Jawbone in counterbalance with the Actigraph wGt3X-BTI.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Three Factor Eating Questionnaire</measure>
+    <time_frame>Baseline, through study completion (every month for ~6 months), 6 weeks postpartum</time_frame>
+    <description>The Three Factor Eating Questionnaire is a 51-item questionnaire developed by Stunkard and Messick (1985) to measure three dimensions of human eating behavior: 1) dietary restraint, or cognitive control of eating behavior, 2) dietary disinhibition, or disinhibition of cognitive control of eating, and 3) susceptibility to hunger. The investigators are only using 18 items of the revised TFEQ from Cappelleri (2009). These items are known as TFEQ-R18 as reported in (de Lauzon et al., 2004). The TFEQ is examined by subscale scores and not by a total score. Subscale scores for the cognitive restraint scale range from 6-24; higher scores indicate higher levels of cognitive restraint of eating. Uncontrolled eating scale range from 9-36; higher scores indicate higher levels of uncontrolled eating behaviors. Emotional eating scale range from 3-12; higher scores indicate higher levels of emotional eating behaviors.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Remote Food Photography</measure>
+    <time_frame>Three days a week at study's end (~35 weeks gestation) and three days a week at 6 weeks postpartum</time_frame>
+    <description>Remote Food Photography Method: Participants capture photos of all food and beverages consumed both prior to consuming the meal or snack and of the leftover food or beverage that was not consumed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pittsburgh Sleep Quality Index</measure>
+    <time_frame>Baseline, through study completion (every month for ~6 months), 6 weeks postpartum</time_frame>
+    <description>Pittsburgh Sleep Quality Index: The Pittsburgh Sleep Quality Index (PSQI) is an 18-item measure developed by Smyth (2003) to measure the quality and patterns of sleep in older adults. It differentiates &quot;poor&quot; from &quot;good&quot; sleep by measuring seven areas: subjective sleep quality, sleep latency, sleep duration, habitual sleep efficiency, sleep disturbances, use of sleeping medication and daytime dysfunction over the last month. The participant self-rates each of these seven areas of sleep. Scoring of answers is based on a 0 to 3 scale, whereby 3 reflects the negative extreme on the Likert Scale. An overall sleep quality score greater than or equal to 5 reflects poor sleep quality.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sleep Behaviors (activity monitor)</measure>
+    <time_frame>Baseline, through study completion (every day for ~6 months), 6 weeks postpartum</time_frame>
+    <description>UP Jawbone activity monitor: women wear the monitor during the night and day. The monitor measures sleep duration, number of awakenings, nap duration, etc.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Adult Temperament (Rothbart Adult Temperament)</measure>
+    <time_frame>Baseline</time_frame>
+    <description>The Adult Temperament Questionnaire (ATQ) is a 19 item questionnaire adapted from the Physiological Reactions Questionnaire developed by Derryberry and Rothbart (1988) that assesses the constructs associated with adult temperament. Based upon recent studies (Rothbart, Ahadi, &amp; Evans, 2000) the investigators have formulated a self-report model of temperament including general constructs of effortful control and negative affect. The investigators are using the Effortful Control (factors: Attentional Control, Inhibitory Control, Activation Control) and Negative Affect Subscales (factors: Fear, Sadness, Discomfort, and Frustration: Negative affect related to interruption of ongoing tasks or goal blocking.) Total score ranges from 19-133 and the factor scales are averaged.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Socio-demographic and health correlates</measure>
+    <time_frame>Baseline</time_frame>
+    <description>Participants will be completing measures assessing general demographic information, their health history and family health history as well as their pregnancy history and complications in any previous pregnancies that did go to full term.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Fetal measure: ultrasounds [fetal growth]</measure>
+    <time_frame>Through study completion (every month for ~6 months), 6 weeks postpartum</time_frame>
+    <description>Ultrasounds are conducted each month to measure fetal growth.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Infant birthweight</measure>
+    <time_frame>6 weeks postpartum</time_frame>
+    <description>The infant's birth weight will be obtained through medical records or self-report from mother</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Infant length</measure>
+    <time_frame>6 weeks postpartum</time_frame>
+    <description>The infant's birth length will be obtained through medical records or self-report from mother</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Resting Metabolic Rate</measure>
+    <time_frame>Baseline, through study completion (every week for ~6 months), 6 weeks postpartum</time_frame>
+    <description>The Breezing Device: An indirect calorimetry analyzer that measures the rate of oxygen consumption and carbon dioxide production and determines how much energy the body is burning due to the metabolism of nutrients (named Resting Energy Expenditure, REE), and the type of nutrients the body uses to produce energy (Energy source = respiratory quotient, RQ). Developed at Arizona State University. The Breezing is a cellphone-size, battery operated, portable technology that syncs with smartphones. This tracker takes a traditional laboratory-based measurement and makes it faster, more affordable and mobile. Breezing has a 99.8% correlation with the gold standard method, Douglas Bag (Forzani, Tao, et.al., Clinical Nutrition, 2013).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Body Area Satisfaction Scale</measure>
+    <time_frame>Baseline, through study completion (every month for ~6 months), 6 weeks postpartum</time_frame>
+    <description>The Body Area Satisfaction Scale (BASS) measure is a 9-item subscale originating from the Multidimensional Body-Self Relations Questionnaire (MBSRQ), which is a 69-item self-report inventory for the assessment of self-attitudinal aspects of the construct of body-image. Developed by Cash (1990), the BASS assesses one's personal satisfaction with body parts such as arms, legs, and face in which participants rate their degree of body satisfaction with each specified body party from 1 (very dissatisfied) to 5 (very satisfied). The first 8 of the 9 items are added together for a total score.Scores range from 8-40. A higher score indicates higher body satisfaction</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Center for Epidemiological Studies Depression Scale</measure>
+    <time_frame>Baseline, through study completion (every month for ~6 months)</time_frame>
+    <description>Center for Epidemiological Studies Depression Scale (CESD): Measures current levels of depressive symptomology. A cut off score of 16 is used to determine case status (depressed versus not depressed). A total CES-D score can be calculated [Total CES-D Score = sum (items 1-20)]. Scores range from 0-60</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pregnancy Figure Rating Scale</measure>
+    <time_frame>Baseline, through study completion (every day for ~6 months)</time_frame>
+    <description>The Body Figures Rating Scale is a 3-item scale that was developed by Stunkard, Sorenson and Schulsinger (1983), to assess body dissatisfaction. The scale consists of a set of nine male and female figures that range from underweight to overweight. Subjects are asked to rate the nine figures based on their current body size and their ideal body size which has been adapted to pregnancy figures. Subjects are asked to rate the figures based on the following instructional protocol: (a) current size (i.e. &quot;which figure looks the most like you&quot;) and (b) ideal size (i.e. &quot;which figure would you like to look like&quot;). The difference between the ratings is a discrepancy index and is considered to represent the individual's level of dissatisfaction. For analyzing purposes, satisfaction scores can be grouped categorically where 1 = satisfied, 2 = wants to be thinner, and 3 = wants to be fatter.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>State-Trait Anxiety Inventory</measure>
+    <time_frame>Baseline, through study completion (every month for ~6 months), 6 weeks postpartum</time_frame>
+    <description>The State-Trait Anxiety Inventory (STAI) is a 20-item questionnaire developed by Spielberger (1983), to measure state and trait anxiety. The State version of the STAI is being used for the current study. This scale consists of twenty items that evaluate how respondents feel &quot;right now, at this moment.&quot; In responding to the STAI State-Anxiety scale, participants choose the response statement that best describes the intensity of their feelings: (1) not at all; (2) somewhat; (3) moderately so; (4) very much so. The state version of the STAI can also be used to evaluate how someone felt at a particular time in the recent past and how they anticipated to feel either in a specific situation that is likely to be encountered in the future or in a variety of hypothetical situations. A total score is used to determine anxiety with a higher score indicating higher anxiety.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Perceived Stress Scale</measure>
+    <time_frame>Baseline, through study completion (every week for ~6 months), 6 weeks postpartum</time_frame>
+    <description>The Perceived Stress Scale (PSS) is a 10-item scale developed by Cohen (1988) that measures the degree to which situations in one's life are appraised as stressful. The PSS was designed for use with community samples with at least a junior high-school education. The 14 items are easy to understand and the response alternatives (never, almost never, neutral, sometimes, fairly often, very often) are simple to grasp. The questions are quite general in nature and hence relatively free of content specific to any sub-population group. Scores range from 0-40. A higher score indicates higher levels of perceived stress.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">31</enrollment>
+  <condition>Overweight and Obesity</condition>
+  <condition>Physical Activity</condition>
+  <condition>Weight Change, Body</condition>
+  <condition>Eating Behavior</condition>
+  <arm_group>
+    <arm_group_label>Intervention group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive the allocated intervention to help manage gestational weight gain that includes education on weight regulation, healthy eating, physical activity, and goal setting.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control group</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Participants do not receive the allocated intervention but self-monitor their behaviors, complete study tasks and receive prenatal care as normal.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Intervention group</intervention_name>
+    <description>During the intervention, all participants will start out at the Baseline level. The baseline level will last 2 weeks and there will be an assessment to determine weight gain over those 2 weeks. If weight gain has succeeded the recommended amount, participants will be adapted up to a new level of intervention that includes education on GWG, healthy eating and physical activity. After every 4 weeks, an assessment will be performed and adaptations up will be made if necessary. Adaptations include addition of exercise sessions, healthy eating recipe demonstrations, and meal replacements. Participants will weigh themselves daily, wear an activity monitor, record their diet, and complete paper and online surveys.</description>
+    <arm_group_label>Intervention group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Control group</intervention_name>
+    <description>Participants will follow the same self-monitoring/assessment schedule but will not receive the GWG, healthy eating, and physical activity education or adaptations.</description>
+    <arm_group_label>Control group</arm_group_label>
+    <other_name>Prenatal care as usual</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Pregnant women
+
+          -  Overweight or obese [body mass index range 24- &gt;40 (if BMI (kg/m^2) is &gt; 40,
+             consultation with woman's health care provider (PCP/OBGYN) will be made to determine
+             eligibility and ensure she does not have any contraindications to exercise) PI
+             Danielle Downs will have communication with Dr. Hovick from MNPG to give information
+             on the woman. The investigators also have a physician consent form (see Physician
+             Patient Consent to Participate in documents) that the physician will complete as to
+             whether the woman is eligible or not eligible to participate.
+
+          -  Normal weight women with a BMI range of 18.0 to 23.9 can be enrolled in to the study
+             as control participants (same measures of data collection, no opportunity for
+             intervention).
+
+          -  Ages 18-40 years [based on pilot data this group comprises &gt;85% of the live births in
+             Central Pennsylvania]
+
+          -  1st, 2nd or 3rd pregnancy 6-16 weeks gestation
+
+          -  Able to read, understand, and speak English
+
+          -  Residing in and around State College, PA
+
+          -  1st and 2nd time pregnant mothers [none or one other live or still born, biological
+             children &gt; 25 weeks gestation prior to this pregnancy; it may be conceivable that a
+             woman has a blended family due to a mixed marriage and she will not be excluded if she
+             is a parent to a guardian, foster child, or step child]
+
+          -  Access to a computer or willingness to come onsite to complete study materials
+
+          -  Infants born to participants who are 6-10 weeks old
+
+        Exclusion Criteria:
+
+          -  Having more than one live or stillborn child &gt; 25 weeks gestation; late-term pregnancy
+             loss
+
+          -  Diabetes at study entry [while future adaptations of this study will target women with
+             diabetes, for the pilot study, they will be excluded to control for this confound]
+
+          -  Contraindications to exercise in pregnancy [Hemodynamically significant heart disease,
+             Restrictive lung disease, Incompetent cervix/cerclage, Persistent second [or third]
+             trimester bleeding, Placenta previa after 26 weeks of gestation, Premature labor
+             during the current pregnancy, Ruptured membranes, Preeclampsia/pregnancy-induced
+             hypertension] per the ACOG guidelines [ACOG Committee on Obstetric Practice. [(2015,
+             December). ACOG Committee opinion. Number 650: Physical Activity and Exercise During
+             Pregnancy and the Postpartum Period. Obstetrics and Gynecology, 126,(6), 135-142].
+
+          -  Having a body mass index less than 18 or over 40 (exclusion only if physician doesn't
+             provide consent for BMI is over 40)
+
+          -  Not planning to live in the area for the study duration
+
+          -  Severe allergies or dietary restrictions that would preclude eating healthy foods
+
+          -  Not able to read, understand, and/or speak English
+
+          -  Cognitively impaired
+
+          -  Currently smoking
+
+          -  Infants not born to participants
+
+          -  Infants younger than 6 weeks old
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>40 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Danielle S Downs, Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The Pennsylvania State University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Noll Laboratory</name>
+      <address>
+        <city>University Park</city>
+        <state>Pennsylvania</state>
+        <zip>16802</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://youtu.be/7Zqmgw_Cuss?list=PLXtTiUbk7YSArO9xX3wHp0YO2IPt3qKR0</url>
+    <description>Youtube video describing the intervention</description>
+  </link>
+  <reference>
+    <citation>Symons Downs D, Savage JS, Rivera DE, Smyth JM, Rolls BJ, Hohman EE, McNitt KM, Kunselman AR, Stetter C, Pauley AM, Leonard KS, Guo P. Individually Tailored, Adaptive Intervention to Manage Gestational Weight Gain: Protocol for a Randomized Controlled Trial in Women With Overweight and Obesity. JMIR Res Protoc. 2018 Jun 8;7(6):e150. doi: 10.2196/resprot.9220.</citation>
+    <PMID>29884603</PMID>
+  </reference>
+  <reference>
+    <citation>Guo P, Rivera DE, Pauley AM, Leonard KS, Savage JS, Downs DS. A &quot;Model-on-Demand&quot; Methodology For Energy Intake Estimation to Improve Gestational Weight Control Interventions. Proc IFAC World Congress. 2018;51(15):144-149. doi: 10.1016/j.ifacol.2018.09.105. Epub 2018 Oct 8.</citation>
+    <PMID>30480263</PMID>
+  </reference>
+  <reference>
+    <citation>Rauff EL, Downs DS. A Prospective Examination of Physical Activity Predictors in Pregnant Women with Normal Weight and Overweight/Obesity. Womens Health Issues. 2018 Nov - Dec;28(6):502-508. doi: 10.1016/j.whi.2018.09.003. Epub 2018 Oct 15.</citation>
+    <PMID>30337214</PMID>
+  </reference>
+  <reference>
+    <citation>Rauff EL, Downs DS. Mobile Health Technology in Prenatal Care: Understanding OBGYN Providers' Beliefs about Using Technology to Manage Gestational Weight Gain. J Technol Behav Sci. 2019 Mar;4(1):17-24. doi: 10.1007/s41347-018-0068-0. Epub 2018 Aug 15.</citation>
+    <PMID>30906851</PMID>
+  </reference>
+  <reference>
+    <citation>Savage JS, Hohman EE, McNitt KM, Pauley AM, Leonard KS, Turner T, Pauli JM, Gernand AD, Rivera DE, Symons Downs D. Uncontrolled Eating during Pregnancy Predicts Fetal Growth: The Healthy Mom Zone Trial. Nutrients. 2019 Apr 21;11(4). pii: E899. doi: 10.3390/nu11040899.</citation>
+    <PMID>31010102</PMID>
+  </reference>
+  <reference>
+    <citation>Pauley AM, Hohman E, Savage JS, Rivera DE, Guo P, Leonard KS, Symons Downs D. Gestational Weight Gain Intervention Impacts Determinants of Healthy Eating and Exercise in Overweight/Obese Pregnant Women. J Obes. 2018 Oct 1;2018:6469170. doi: 10.1155/2018/6469170. eCollection 2018.</citation>
+    <PMID>30364005</PMID>
+  </reference>
+  <reference>
+    <citation>Guo P, Rivera DE, Savage JS, Hohman EE, Pauley AM, Leonard KS, Downs DS. System Identification Approaches For Energy Intake Estimation: Enhancing Interventions For Managing Gestational Weight Gain. IEEE Trans Control Syst Technol. 2020 Jan;28(1):63-78. doi: 10.1109/TCST.2018.2871871. Epub 2018 Oct 12.</citation>
+    <PMID>31903018</PMID>
+  </reference>
+  <reference>
+    <citation>Freigoun MT, Rivera DE, Guo P, Hohman EE, Gernand AD, Downs DS, Savage JS. A Dynamical Systems Model of Intrauterine Fetal Growth. Math Comput Model Dyn Syst. 2018;24(6):661-687. doi: 10.1080/13873954.2018.1524387. Epub 2018 Oct 7.</citation>
+    <PMID>30498392</PMID>
+  </reference>
+  <reference>
+    <citation>Guo P, Rivera DE, Savage JS, Downs DS. State Estimation Under Correlated Partial Measurement Losses: Implications for Weight Control Interventions. Proc IFAC World Congress. 2017 Jul;50(1):13532-13537. doi: 10.1016/j.ifacol.2017.08.2347. Epub 2017 Oct 18.</citation>
+    <PMID>29242854</PMID>
+  </reference>
+  <reference>
+    <citation>Downs DS. Obesity in Special Populations: Pregnancy. Prim Care. 2016 Mar;43(1):109-20, ix. doi: 10.1016/j.pop.2015.09.003. Epub 2016 Jan 12. Review.</citation>
+    <PMID>26896204</PMID>
+  </reference>
+  <reference>
+    <citation>Devlin CA, Huberty J, Downs DS. Influences of prior miscarriage and weight status on perinatal psychological well-being, exercise motivation and behavior. Midwifery. 2016 Dec;43:29-36. doi: 10.1016/j.midw.2016.10.010. Epub 2016 Oct 29.</citation>
+    <PMID>27838526</PMID>
+  </reference>
+  <reference>
+    <citation>Guo P, Rivera DE, Downs DS, Savage JS. Semi-physical Identification and State Estimation of Energy Intake for Interventions to Manage Gestational Weight Gain. Proc Am Control Conf. 2016 Jul;2016:1271-1276. Epub 2016 Aug 1.</citation>
+    <PMID>27570366</PMID>
+  </reference>
+  <reference>
+    <citation>Downs DS, Devlin CA, Rhodes RE. The Power of Believing: Salient Belief Predictors of Exercise Behavior in Normal Weight, Overweight, and Obese Pregnant Women. J Phys Act Health. 2015 Aug;12(8):1168-76. doi: 10.1123/jpah.2014-0262. Epub 2014 Nov 19.</citation>
+    <PMID>25409425</PMID>
+  </reference>
+  <reference>
+    <citation>Savage JS, Downs DS, Dong Y, Rivera DE. Control systems engineering for optimizing a prenatal weight gain intervention to regulate infant birth weight. Am J Public Health. 2014 Jul;104(7):1247-54. doi: 10.2105/AJPH.2014.301959. Epub 2014 May 15.</citation>
+    <PMID>24832411</PMID>
+  </reference>
+  <reference>
+    <citation>Dong Y, Deshpande S, Rivera DE, Downs DS, Savage JS. Hybrid Model Predictive Control for Sequential Decision Policies in Adaptive Behavioral Interventions. Proc Am Control Conf. 2014 Jun;2014:4198-4203.</citation>
+    <PMID>25635157</PMID>
+  </reference>
+  <reference>
+    <citation>Downs DS, Savage JS, Rauff EL. Falling Short of Guidelines? Nutrition and Weight Gain Knowledge in Pregnancy. J Womens Health Care. 2014;3. pii: 1000184.</citation>
+    <PMID>25599012</PMID>
+  </reference>
+  <reference>
+    <citation>Dong Y, Rivera DE, Downs DS, Savage JS, Thomas DM, Collins LM. Hybrid Model Predictive Control for Optimizing Gestational Weight Gain Behavioral Interventions. Proc Am Control Conf. 2013:1970-1975.</citation>
+    <PMID>24336314</PMID>
+  </reference>
+  <reference>
+    <citation>Dong Y, Rivera DE, Thomas DM, Navarro-Barrientos JE, Downs DS, Savage JS, Collins LM. A Dynamical Systems Model for Improving Gestational Weight Gain Behavioral Interventions. Proc Am Control Conf. 2012:4059-4064.</citation>
+    <PMID>24309837</PMID>
+  </reference>
+  <verification_date>May 2019</verification_date>
+  <study_first_submitted>May 6, 2019</study_first_submitted>
+  <study_first_submitted_qc>May 7, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 10, 2019</study_first_posted>
+  <last_update_submitted>May 7, 2019</last_update_submitted>
+  <last_update_submitted_qc>May 7, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 10, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Penn State University</investigator_affiliation>
+    <investigator_full_name>Danielle Downs</investigator_full_name>
+    <investigator_title>Professor, Kinesiology and Obstetrics &amp; Gyneocology</investigator_title>
+  </responsible_party>
+  <keyword>gestational weight gain</keyword>
+  <keyword>pregnancy weight regulation</keyword>
+  <keyword>individually tailored intervention</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Body Weight</mesh_term>
+    <mesh_term>Overweight</mesh_term>
+    <mesh_term>Weight Gain</mesh_term>
+    <mesh_term>Body Weight Changes</mesh_term>
+    <mesh_term>Gestational Weight Gain</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Data sharing plan per NIH guidelines per investigator user agreement and distribution agreement. Non-identified data, no hard-copy data can leave study site. Confidentiality agreements established.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_info_type>Clinical Study Report (CSR)</ipd_info_type>
+    <ipd_info_type>Analytic Code</ipd_info_type>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

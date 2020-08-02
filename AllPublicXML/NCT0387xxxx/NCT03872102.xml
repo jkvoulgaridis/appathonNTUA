@@ -1,0 +1,406 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03872102</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Bioinformatics Study</org_study_id>
+    <nct_id>NCT03872102</nct_id>
+  </id_info>
+  <brief_title>Facilitating Diagnostics and Prognostics of Parkinsonian Syndromes Using Neuroimaging</brief_title>
+  <official_title>Quantitative Diagnostics of Parkinsonian Syndromes Using Multi-modal Neuroimaging and Deep Learning</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Texas Southwestern Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Texas Southwestern Medical Center</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The goals of this study are: 1) to identify biomarkers using neuroimaging that are associated
+      with progression rate using statistical methods, and 2) to identify biomarkers that are
+      associated with the differential diagnosis of Parkinson's disease and atypical parkinsonism.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Management of patients with parkinsonian symptoms has two critical gaps: (1) there are no
+      clinically accepted biomarkers that may be used to inform disease progression rate in an
+      individual with Parkinson disease (PD), and (2) no biomarkers exist to inform differential
+      diagnosis of conditions that exhibit parkinsonian symptoms and signs. This 2-year study aims
+      to develop a multi-modal neuroimaging biomarker that enables the prediction of disease
+      progression rate in PD, and a biomarker that enables the differential diagnosis of PD,
+      multiple systems atrophy (MSA), progressive supranuclear palsy (PSP), and healthy controls.
+
+      This study consists of two parts; neuroimaging of a defined population of mid to late stage
+      PD subjects currently followed at UT Southwestern Medical Center, and recruitment of new
+      subjects with PD, MSA, and PSP who will be followed clinically over 2 years and who will
+      undergo neuroimaging.
+
+      Participants will be asked to undergo several types of neuroimaging which will be analyzed
+      using machine learning techniques.
+
+      At each study visit of the newly recruited cohorts, appropriate clinical scales will be
+      performed based on their diagnosis and used to track and measure disease severity and
+      progression.
+    </textblock>
+  </detailed_description>
+  <overall_status>Suspended</overall_status>
+  <why_stopped>
+    The study is temporarily suspended due to guidelines received during the COVID-19 Pandemic.
+  </why_stopped>
+  <start_date type="Actual">March 28, 2019</start_date>
+  <completion_date type="Anticipated">October 2022</completion_date>
+  <primary_completion_date type="Anticipated">August 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Imaging biomarker of progression rate</measure>
+    <time_frame>Baseline</time_frame>
+    <description>The imaging biomarker consists of a machine learning model that distinguishes fast and slow progressors using the neuroimaging data. The performance of the model will be assessed quantitatively using widely adopted performance metrics: sensitivity, specificity, and accuracy.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Imaging biomarker that discriminates different neurodegenerative diseases</measure>
+    <time_frame>Baseline</time_frame>
+    <description>The imaging biomarker consists of a machine learning model that differentiates the parkinsonian diseases: PD, PSP, and MSA using the neuroimaging data. The performance of the model will be assessed quantitatively using widely adopted performance metrics from the classification confusion matrix. The metrics will include disease sensitivity, disease specificity, and disease specific accuracy and overall accuracy.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change from baseline in MDS-UPDRS score</measure>
+    <time_frame>Baseline, 6-8 Month Visit, End of Study Visit (12-16 Month)</time_frame>
+    <description>The Movement Disorder Society revision of the Uniﬁed Parkinson's Disease Rating Scale (MDS-UPDRS) is the standard measure of PD severity used in multiple trials. This consists of four sub scales, Part I: non-motor experiences of daily living (13 items), Part ll: motor experiences of daily living (13 items), Part III: motor examination (18 items), and Part IV: motor complications (six items). Each subscale has a ﬁve-point scale ranging from 0-4, where 0 = normal, 1 = slight, 2 = mild, 3 = moderate, and 4 = severe. The total score is the sum of the subscale scores for all four parts and ranges from 0 (no disability) to 200 (total dependence). Negative change from baseline scores indicate improvement.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change from baseline in Uniﬁed Multiple System Atrophy Rating Scale (UMSARS) score</measure>
+    <time_frame>Baseline, 6-8 Month Visit, End of Study Visit (12-16 Month)</time_frame>
+    <description>The Uniﬁed Multiple System Atrophy Rating Scale (UMSARS) is the standard scale for measuring disease severity in MSA. This scale is composed of 2 sub-scales: Part I: Historical Review that includes 12 items and Part II: Motor Examination that includes 14 items. All items range from 0 to 4. Each subscale score is the sum of its items and the total UMSARS score is the sum of all 26 items. Hence the total UMSARS score can range from 0 to 104, with 0 meaning no impairment and 104 indicating severe impairment. Negative change from baseline scores indicate improvement.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change from baseline in Progressive Supranuclear Palsy Rating Scale (PSPRS) score</measure>
+    <time_frame>Baseline, 6-8 Month Visit, End of Study Visit (12-16 Month)</time_frame>
+    <description>The Progressive Supranuclear Palsy Rating Scale (PSPRS) is the standard scale used to quantitate severity in PSP. This is a quantitative measure of disability in participants with PSP. The PSPRS comprises 28 items in 6 areas. The available total score ranges from 0 (normal) to 100. Six items are rated on a 3-point scale (0-2) and 22 are rated on a 5-point scale (0-4). The History/Daily Activities area includes 7 items with ta total maximum of 24 points, the mentation area 4 items with 16 points, the bulbar area 2 items with 8 points, the ocular motor area 4 items with 16 points, the limb motor area 6 items with 16 points, and the gait area 5 items with 20 points. Negative change from baseline scores indicate improvement.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change from baseline in Parkinson disease questionnaire</measure>
+    <time_frame>Baseline, 6-8 Month Visit, End of Study Visit (12-16 Month)</time_frame>
+    <description>The Parkinson's Disease Questionnaire (PDQ-39) assesses to what degree PD subjects experience difficulties across 8 dimensions of daily living. The 39-question PDQ provides scores (expressed as a percentage) for each of the 8 scales: mobility, activities of daily living, emotional well-being, stigma, social support, cognition, communication, and bodily discomfort. individual items are rated on a 5-point scale (0-4). Higher percentages represent worse quality of life, and a reduction in score over time represents improvement.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change from baseline in Schwab and England Activities of Daily Living Scale</measure>
+    <time_frame>Baseline, 6-8 Month Visit, End of Study Visit (12-16 Month)</time_frame>
+    <description>The Schwab and England Activities of Daily Living Scale (S&amp;E) is a commonly used measure of daily function for Parkinson's disease (PD). The S&amp;E Scale rates a PD patient's function on a scale from 0 indicating worst possible function to 100 indicating no impairment. An increase in the score over time indicates clinical improvement.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">90</enrollment>
+  <condition>Parkinson Disease</condition>
+  <condition>Multiple System Atrophy</condition>
+  <condition>Progressive Supranuclear Palsy</condition>
+  <arm_group>
+    <arm_group_label>Aim 1: Develop a biomarker of PD disease progression rate</arm_group_label>
+    <description>For Aim 1, we will enroll PD subjects spanning a range of progression rates that have been tracked at UT Southwestern Medical Center.
+Multimodal neuroimaging will be acquired from each subject. We will evaluate imaging data and known data on clinical progression using statistical techniques to determine a biomarker that associates with progression rate.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Aim 2: Develop a biomarker to distinguish between PD, PSP, MSA</arm_group_label>
+    <description>For Aim 2, we will recruit subjects with PD, MSA, and PSP. We will also recruit healthy age/sex-matched controls. All subjects will complete a series of clinical assessments at three different time points, roughly 6-8 months apart:
+Levodopa Equivalent Daily Dose
+Parkinson disease questionnaire
+Schwab and England ADL Scale
+MDS-UPDRS (PD and healthy controls only)
+UMSARS (MSA subjects only)
+PSPRS (PSP subjects only)
+Multimodal neuroimaging will be acquired from each subject. We will evaluate imaging data from the participants along with prospectively collected information on clinical progression using statistical techniques to determine a biomarker that associates with the differentiation of PD, MSA, and PSP.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        There are 4 study populations:
+
+          1. Subjects with PD
+
+          2. Subjects with PSP
+
+          3. Subjects with MSA
+
+          4. Control subjects
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        For Aim 1:
+
+          -  Diagnosis of Parkinson disease
+
+          -  Existence of sufﬁcient clinical data from previous UTS Southwestern longitudinal study
+             to determine progression rate (categorized as fast or slow)
+
+          -  Availability of suitable matched participant in the alternate progression group (fast
+             or slow)
+
+          -  Willingness to participate in the imaging studies required for this study and to
+             provide written informed consent
+
+        For Aim 2:
+
+        PD subjects will be recruited in accordance with the MDS Clinical Diagnostic Criteria for
+        PD.
+
+          -  Duration of PD (since diagnosis) is &lt; 5 years
+
+          -  Willing to participate in imaging and clinical scoring visits, and provide written
+             informed consent
+
+          -  Subject and investigator agree that it is highly likely subject will be able to
+             participate throughout the 2-year study period (no plans to move)
+
+        MSA subjects will be recruited in accordance with the Second Consensus Statement on
+        Diagnosis of Multiple System Atrophy.
+
+          -  Duration of MSA (since diagnosis) is &lt; 5 years
+
+          -  Willing to participate in imaging and clinical scoring visits, and provide written
+             informed consent
+
+          -  Subject and investigator agree that it is highly likely subject will be able to
+             participate throughout the 2-year study period (no plans to move away during the
+             study)
+
+        PSP subjects will be recruited in accordance with the MDS Criteria for Diagnosis of
+        Progressive Supranuclear Palsy and must meet the designation of &quot;probable PSP&quot; for
+        inclusion.
+
+          -  Willing to participate in imaging and clinical scoring visits, and provide written
+             informed consent
+
+          -  Subject and investigator agree that it is highly likely subject will be able to
+             participate throughout the 2-year study period (no plans to move away during the
+             study)
+
+        Control subjects will be recruited who meet the following criteria:
+
+          -  Roughly age and sex matched with the subjects in the PD cohort
+
+          -  No history or examination findings suggestive of any neurodegenerative disease
+
+          -  Normal gait, balance, and eye movements for age
+
+          -  No clinical evidence for symptomatic orthostatic hypotension
+
+          -  Willing to participate in imaging and clinical scoring visits, and provide written
+             informed consent
+
+          -  Subject and investigator agree that it is highly likely subject will be able to
+             participate throughout the 2-year study period (no plans to move away during the
+             study)
+
+        Exclusion Criteria:
+
+        For Aims 1 and 2:
+
+          -  Any contraindications to undergoing the multimodal imaging program
+
+          -  All females of child-bearing potential, between the ages of 18-55, will be excluded
+             from the study, unless they are confirmed to be not pregnant with a pregnancy test
+             prior to scanning
+
+          -  This study will require constant clear communication throughout the duration of the
+             study; therefore, non-English speakers will be excluded
+
+          -  Right-handed finger amputees
+
+          -  Cast on right hand or fingers at the time of enrollment
+
+          -  Has clinically significant liver, kidney, lung, metabolic or hormone disturbances
+             which pose safety risk
+
+          -  Has a current clinically significant heart disease that poses a safety risk
+
+          -  Has a current clinically significant infectious disease or a medical comorbidity which
+             poses a safety risk
+
+          -  Has a history of relevant severe drug allergy or hypersensitivity
+
+          -  Have a history of drug, alcohol, or substance dependence or abuse within the last
+             year, or prior prolonged history of dependence or abuse
+
+          -  Currently undergoing chemotherapy or radiation for cancer
+
+          -  Recreational drug use in past six months
+
+          -  Central nervous systems disease or brain injury that would preclude participation in
+             this study
+
+          -  Psychiatric or neurological disorder that would preclude participation in this study
+
+          -  Inability to keep or maintain research appointments
+
+        For Aim 1:
+
+          -  Severe disease progression such that participation in the imaging tests would be
+             impossible or difficult
+
+          -  Non-availability of a suitable matched participant in the alternate progression group
+             (fast or slow)
+
+        For Aim 2:
+
+        PD subjects
+
+          1. Unequivocal cerebellar abnormalities
+
+          2. Downward vertical gaze limitation or slowing of downward saccades
+
+          3. Diagnosis of behavioral variant frontotemporal dementia or primary progressive aphasia
+
+          4. Parkinsonian features restricted to the lower limbs for &gt; 3 years
+
+          5. Treatment with dopamine blockers or depleters in a time course consistent with drug
+             induced parkinsonism
+
+          6. Absence of an observable response to high dose levodopa despite moderate disease
+             severity
+
+          7. Expert considers a diagnosis of alternative syndrome more likely than PD
+
+          8. Rapid progression of gait impairment requiring wheelchair within 5 years of onset
+
+          9. Complete absence of progression of motor symptoms over 5 years unless due to treatment
+
+         10. Early bulbar dysfunction within the first 5 years since diagnosis
+
+         11. Inspiratory respiratory dysfunction (stridor or frequent sighs)
+
+         12. Severe autonomic failure in the first 5 years
+
+         13. Recurrent falls (&gt;1 per year) because of impaired balance in the first 3 years
+
+         14. Disproportionate dystonic anterocollis or hand contractures of hands or feet within 10
+             years
+
+         15. Absence of any of the common non-motor features of PD despite 5 years of disease
+
+         16. Otherwise unexplained pyramidal tract signs (weakness, hyperreflexia, or extensor toe
+             signs)
+
+         17. Bilateral symmetric parkinsonism
+
+        MSA subjects
+
+          1. Clinically significant neuropathy
+
+          2. Hallucinations not induced by drugs
+
+          3. Onset after age 75 years
+
+          4. Family history of ataxia or parkinsonism
+
+          5. White matter lesions suggesting multiple sclerosis
+
+        PSP subjects
+
+          1. Predominant, otherwise unexplained impairment of episodic memory, suggestive of AD
+             (Alzheimer's disease)
+
+          2. Predominant, otherwise unexplained autonomic failure, e.g., orthostatic hypotension
+             (orthostatic reduction in blood pressure after 3 minutes standing &gt; 30 mm Hg systolic
+             or &gt; 15 mm Hg diastolic), suggestive of multiple system atrophy or Lewy body disease
+
+          3. Predominant, otherwise unexplained visual hallucinations or fluctuations in alertness,
+             suggestive of dementia with Lewy bodies
+
+          4. Predominant, otherwise unexplained multisegmental upper and lower motor neuron signs,
+             suggestive of motor neuron disease (pure upper motor neuron signs are not an exclusion
+             criterion)
+
+          5. Sudden onset or step-wise or rapid progression of symptoms, in conjunction with
+             corresponding imaging or laboratory findings, suggestive of vascular etiology,
+             autoimmune encephalitis, metabolic encephalopathies, or prion disease
+
+          6. History of encephalitis
+
+          7. Prominent appendicular ataxia
+
+          8. Identifiable cause of postural instability, e.g., primary sensory deficit, vestibular
+             dysfunction, severe spasticity, or lower motor neuron syndrome
+
+        Control subjects
+
+        a. In the investigator's opinion, an unsuitable candidate to serve as a control
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Richard B Dewey, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>UT Southwestern Medical Center</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Albert Montillo, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>UT Southwestern Medical Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>UT Southwestern Medical Center</name>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <zip>75390</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Tomlinson CL, Stowe R, Patel S, Rick C, Gray R, Clarke CE. Systematic review of levodopa dose equivalency reporting in Parkinson's disease. Mov Disord. 2010 Nov 15;25(15):2649-53. doi: 10.1002/mds.23429. Review.</citation>
+    <PMID>21069833</PMID>
+  </reference>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>March 7, 2019</study_first_submitted>
+  <study_first_submitted_qc>March 11, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 13, 2019</study_first_posted>
+  <last_update_submitted>April 2, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 2, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 6, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Texas Southwestern Medical Center</investigator_affiliation>
+    <investigator_full_name>Richard Dewey</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Parkinson Disease</mesh_term>
+    <mesh_term>Multiple System Atrophy</mesh_term>
+    <mesh_term>Shy-Drager Syndrome</mesh_term>
+    <mesh_term>Supranuclear Palsy, Progressive</mesh_term>
+    <mesh_term>Parkinsonian Disorders</mesh_term>
+    <mesh_term>Atrophy</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

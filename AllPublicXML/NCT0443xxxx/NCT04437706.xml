@@ -1,0 +1,190 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04437706</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Pro00105430</org_study_id>
+    <nct_id>NCT04437706</nct_id>
+  </id_info>
+  <brief_title>Network-Targeted Strategies for Efficient Community SARS-CoV-2 (COVID-19) Sampling</brief_title>
+  <acronym>Snowball</acronym>
+  <official_title>Network-Targeted Strategies for Efficient Community SARS-CoV-2 (COVID-19) Sampling</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Duke University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Duke University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The primary objective is to use &quot;network targeted sampling design&quot; to detect active and/or
+      undiagnosed cases of COVID-19 in the community and determine the spread or distribution of 1)
+      active infection, and 2) past exposure. The hypothesis is that there are many undiagnosed
+      and/or asymptomatic people in the community who may be unknowingly spreading the virus or
+      have been exposed and have antibodies. We propose to implement respondent-driven sampling
+      (RDS) which leverages effort on the part of seed or index cases to recruit contacts for
+      participation.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Purpose and objective: The purpose of this study is to use community sampling to detect
+      active, undiagnosed COVID-19 cases and/or determine the spread or distribution of active
+      infection. The objective is to use a network targeted sampling design to direct testing to
+      yield a higher proportion of results which indicate active infection and possibly
+      differentiating between venues or communities where transmission is active and undiagnosed.
+
+      Study activities: A person who tests positive for COVID-19 will be given a set of &quot;tokens&quot; to
+      give to contacts that will entitle these contacts to make an appointment to receive a test
+      for COVID-19.
+
+      Population groups: The population group will include people with index cases of COVID-19 and
+      their contacts for the past 14 days. As these contacts are tested and receive positive
+      results, they will be given tokens to hand out to their contacts over the past 14 days. The
+      network of positive cases will &quot;blossom&quot; to reveal community transmission and asymptomatic
+      cases, thus giving researchers an indication of disease prevalence.
+
+      Data analysis: At the completion of each epoch and at the end of the study, we will scale the
+      social networks up and conduct network analysis using SAS and the igraph package in R. These
+      analyses will be applied in an ongoing manner to guide selection of seeds in subsequent
+      epochs to ensure representativeness and to guide selection of alters to encourage longer
+      referral chain lengths.
+
+      Risk/safety issues: The primary risks include discomfort from the nasal swab and risks from
+      the venous blood draw used in testing and the potential loss of confidentiality. All efforts
+      will be made to securely manage the data to ensure participant confidentiality.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">August 1, 2020</start_date>
+  <completion_date type="Anticipated">June 30, 2021</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Ecologic or Community</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of Participants with Active Infection</measure>
+    <time_frame>12 months</time_frame>
+    <description>Number of participants with active COVID-19 infection</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Participants with Antibodies Indicating Past Exposure</measure>
+    <time_frame>12 months</time_frame>
+    <description>Number of participants with antibodies indicating past exposure to SARS-CoV-2</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>COVID-19</condition>
+  <condition>SARS-CoV 2</condition>
+  <arm_group>
+    <arm_group_label>Participants</arm_group_label>
+    <description>Participants completing COVID-19 testing</description>
+  </arm_group>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Blood and pharyngeal swabs
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adults (18+ years) in the community who have tested positive for COVID-19 or have been in
+        close contact with someone who is known to be COVID-19 positive
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Positive COVID-19 test result -or- receipt of a coupon from a previous study
+             participant
+
+          -  Resident of Durham County (for seed participant only)
+
+          -  Willing to undergo COVID-19 test nasopharyngeal swab for RT-PCR testing and blood draw
+             for COVID-19 antibody testing
+
+          -  Age 18+
+
+          -  Speak and understand English
+
+        Exclusion Criteria:
+
+          -  Currently receiving inpatient treatment for COVID-19
+
+          -  Unable to consent
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Erich Huang, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Duke University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Margaret K Pendzich, MSPH</last_name>
+    <phone>919-613-6294</phone>
+    <email>margaret.pendzich@duke.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Duke University Medical Center</name>
+      <address>
+        <city>Durham</city>
+        <state>North Carolina</state>
+        <zip>27710</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Pedro Gomez, MS</last_name>
+      <phone>919-613-1239</phone>
+      <email>pedro.gomez@duke.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Margaret Pendzich</last_name>
+      <phone>9196136294</phone>
+      <email>margaret.pendzich@duke.edu</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>June 17, 2020</study_first_submitted>
+  <study_first_submitted_qc>June 17, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 18, 2020</study_first_posted>
+  <last_update_submitted>July 23, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 23, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 27, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>network analysis</keyword>
+  <keyword>contact tracing</keyword>
+  <keyword>respondent driven sampling</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

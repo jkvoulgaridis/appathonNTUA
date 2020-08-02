@@ -1,0 +1,149 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03995030</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NYMC 181</org_study_id>
+    <nct_id>NCT03995030</nct_id>
+  </id_info>
+  <brief_title>Massively Parallel Sequencing to Identify Microbiological Organisms in Bronchoalveolar Lavage Fluid</brief_title>
+  <official_title>Massively Parallel Sequencing to Identify Microbiological Organisms in Bronchoalveolar Lavage Fluid in Children, Adolescents and Young Adults Post Hematopoietic Stem Cell Transplant</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>New York Medical College</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>New York Medical College</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Patients who are post hematopoietic stem cell transplantation who require a bronchoalveolar
+      lavage (BAL) for standard clinical car will have extra fluid collected and sent for massively
+      parallel sequencing to see if it is as sensitive for detecting a microbial pulmonary
+      infection compared to standard cultures.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      5.1 Subjects will undergo bronchoscopy and BAL based on clinical indications. Techniques and
+      equipment will be per current clinical practice at Westchester Medical Center (WMC). The
+      bronchoscope is usually introduced either via an artificial airway (endotracheal tube or
+      laryngeal mask airway). The lavage is performed with sterile normal saline. The site of
+      performing the lavage is selected based on radiologic or clinical data and on the appearance
+      of the airways during the bronchoscopy. The typical volume of the lavage is 3 aliquots of 1
+      ml/kg each, with a max of 20 ml per aliquot.
+
+      5.2 When 10 ml or more of BAL fluid is received by the WMC laboratory, the BAL fluid will be
+      divided by the WMC laboratory for all physician ordered clinical laboratory tests and for
+      massively parallel sequencing research tests. This will ensure that sufficient BAL material
+      is available for all clinical tests.
+
+      5.3 The BAL fluid for research will be held by the WMC laboratory and picked up by research
+      personnel for processing at New York Medical College Genomics Core Facility.
+
+      5.4 The research portion will be further divided for isolation of viral, bacterial, and
+      fungal nucleic acid isolation. A control sample of fluid used for the BAL will be prepared in
+      parallel. Bacterial/fungal DNA and viral DNA and RNA will be isolated. Whole genome
+      sequencing libraries will be generated and sequenced in batches on the Illumina MiSeq.
+
+      FASTQ files will be demultiplexed and then aligned to microbial genomes using Phylosift.11
+      DNA sequences present in both the patient and control samples will be discarded as
+      contaminant. The preponderant organism(s) identified will be matched to the results of the
+      culture based techniques used to verify the culture independent results.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">September 15, 2016</start_date>
+  <completion_date type="Anticipated">December 31, 2020</completion_date>
+  <primary_completion_date type="Actual">January 31, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percentage concordance between massively paralleled sequencing (MPS) and standard microbiological technique results.</measure>
+    <time_frame>10 days</time_frame>
+    <description>Children, adolescents and young adult (CAYA) hematopoietic stem cell transplantation (HSCT) subjects with clinical symptoms/indications will undergo bronchoalveolar lavage (BAL), with samples from those with sufficient BAL fluid yield (&gt;10ml) undergoing both massively paralleled sequencing and standard microbiological technique comparison.</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">10</enrollment>
+  <condition>Pulmonary Infection</condition>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>massively paralleled sequencing</intervention_name>
+    <description>Whole genome sequencing libraries will be generated and sequenced in batches on the Illumina MiSeq. FASTQ files will be demultiplexed and then aligned to microbial genomes using Phylosift.</description>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Extra BAL fluids will be sent to for massively parallel sequencing research tests at New York
+      Medical College Genomics Core Facility.
+
+      The research portion will be further divided for isolation of viral, bacterial, and fungal
+      nucleic acid isolation. A control sample of fluid used for the BAL will be prepared in
+      parallel. Bacterial/fungal DNA and viral DNA and RNA will be isolated. Whole genome
+      sequencing libraries will be generated and sequenced in batches on the Illumina MiSeq.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients less than 30 years old who have had a hematopoietic stem cell transplantation and
+        require a BAL for clinical diagnosis.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion criteria
+
+          -  Patient age &lt; 30 years
+
+          -  Recipient of an autologous or allogeneic stem cell transplant in the previous 365 days
+
+          -  Requires a bronchoalveolar lavage for clinical indications
+
+          -  Signed consent Exclusion criteria
+
+          -  Lack of signed informed consent
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>29 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jeremy Rosenblum, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>New York Medical College</affiliation>
+  </overall_official>
+  <verification_date>February 2020</verification_date>
+  <study_first_submitted>June 6, 2019</study_first_submitted>
+  <study_first_submitted_qc>June 19, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 21, 2019</study_first_posted>
+  <last_update_submitted>February 26, 2020</last_update_submitted>
+  <last_update_submitted_qc>February 26, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 27, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Will submit manuscript for peer-reviewed publication.</ipd_description>
+    <ipd_info_type>Clinical Study Report (CSR)</ipd_info_type>
+    <ipd_time_frame>submit for publication Q4 2019</ipd_time_frame>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

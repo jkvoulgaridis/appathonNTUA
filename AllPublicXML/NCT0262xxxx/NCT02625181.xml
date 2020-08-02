@@ -1,0 +1,1059 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02625181</url>
+  </required_header>
+  <id_info>
+    <org_study_id>151750</org_study_id>
+    <nct_id>NCT02625181</nct_id>
+  </id_info>
+  <brief_title>Real-time Decision Support for Postoperative Nausea and Vomiting (PONV) Prophylaxis</brief_title>
+  <official_title>Real-time Decision Support for Postoperative Nausea and Vomiting (PONV) Prophylaxis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Vanderbilt University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Vanderbilt University Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to determine how automated recommendations are best presented to
+      optimize the adherence to guidelines on prophylaxis for nausea and vomiting after surgery.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Nausea and vomiting after surgery (PONV) is a common side effect of the surgical procedure,
+      general anesthesia and opioid use occurring in about one third of patients. In addition to
+      being very unpleasant for patients, it is associated with longer recovery room stays and
+      increased costs. Much research has been done on prophylactic interventions that may be
+      applied during the surgical procedure to prevent PONV. Current national guidelines recommend
+      that a risk score is used to decide on the number of prophylactic interventions to administer
+      to a patient. Based on specific characteristics of individual patients and the procedures
+      that they are about to undergo, such a risk score predicts the risk of PONV for each
+      individual. According to the national guidelines, patients with higher risks of PONV should
+      receive more prophylactic interventions. However, in a busy operating room where the
+      anesthesia provider performs multiple patient care tasks, closely following the
+      recommendations to minimize the risk of PONV is often difficult.
+
+      Computers may help anesthesia providers to adhere to best practices for PONV prevention by
+      providing so-called decision support. A decision support system for PONV automatically
+      calculates the risk of PONV for an individual patient and presents this predicted risk to the
+      anesthesia provider on the computer screen that is being used by the anesthesia team for
+      record keeping. In recent studies, such decision support systems have been demonstrated to
+      improve adherence to PONV guidelines, especially when a recommendation on the number of
+      interventions is added to the predicted risk. However, in these studies there was still quite
+      some room for improvement of the adherence to PONV guidelines. In general, implementation
+      science is only beginning to understand how such decision support systems are best used to
+      improve medical decision making and minimize practice variations among providers. Further
+      study of how the design of decision support systems impacts the decision making of healthcare
+      providers is therefore warranted.
+
+      In this proposed study, the investigators will implement several decision support elements
+      for PONV that aim to help anesthesia providers to adhere to the departmental PONV guidelines
+      during the anesthetic case. The study consists of three phases. The first phase is the
+      preintervention phase - i.e. before the decision support has been implemented. The second
+      phase is the first intervention phase with one CDSS feature added. The third phase is the
+      second intervention phase with another CDSS feature added.
+
+      The decision support elements will provide information about the patient's predicted risk of
+      PONV and the number of prophylactic interventions that the departmental guidelines recommend
+      based on that risk. We will start with preoperative email notifications, followed by an
+      element within the anesthesia information management system (AIMS) that are displayed around
+      the start and end of the procedure. All forms of decision support only provide
+      recommendations. The anesthesia provider is free to act on the message or ignore the
+      notifications.
+
+      The investigators will compare the adherence to PONV guidelines and the actual occurrence of
+      PONV (both nausea and emetic events: vomiting and retching) in the post-anesthesia care unit
+      (PACU) between all study phases and between the different interventions. The goal of the
+      comparison is to evaluate which decision support elements have an added value to optimize
+      guideline adherence for PONV prophylaxis.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 2016</start_date>
+  <completion_date type="Actual">November 30, 2017</completion_date>
+  <primary_completion_date type="Actual">November 2, 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Adherence to PONV Guidelines</measure>
+    <time_frame>A specific time frame on the day of surgery: the start of admission at the holding room to the end of the anesthetic case</time_frame>
+    <description>PONV guideline adherence: percentage of patients who received the exact number of prophylactic interventions for PONV that were recommended by the decision support.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>PONV Incidence: Number of Participants With Postoperative Nausea and Vomiting</measure>
+    <time_frame>PACU recovery period</time_frame>
+    <description>The occurrence of PONV, as defined by the administration of antiemetics in the PACU between admission to PACU and discharge from PACU.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The Number of Prophylactic Interventions for PONV</measure>
+    <time_frame>A specific time frame on the day of surgery: from the start of admission at the holding room to the end of the anesthetic case</time_frame>
+    <description>the absolute number of prophylactic interventions applied between the admission of the patient in the holding room until admission to the PACU.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to Discharge From the Postanesthesia Care Unit (PACU)</measure>
+    <time_frame>A specific time frame on the day of surgery: from the start of admission to the PACU to discharge from the PACU</time_frame>
+    <description>This is the number of minutes from admission to the PACU until discharge, assessed up to 2 days</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">27034</enrollment>
+  <condition>Postoperative Nausea and Vomiting</condition>
+  <arm_group>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Automated recommendations on PONV prophylaxis provided to anesthesia providers through the anesthesia information management system and email.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Automated recommendation at the start of the case</intervention_name>
+    <description>The first notification is the main notification that informs the anesthesia providers at the start of anesthesia of the risk score for that individual patient and the recommended number of prophylactic interventions. The notification occurs within the anesthesia information management system (AIMS)</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Automated notification at the start of surgery</intervention_name>
+    <description>The second notification within the AIMS will notify the anesthesia providers at the start of surgery when no prophylaxis has been given while three or more interventions were recommended.</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Preoperative recommendations: by email</intervention_name>
+    <description>A recommendation on PONV prophylaxis to anesthesia providers through email at the Vanderbilt University Medical Center.</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Automated notification at the end of surgery</intervention_name>
+    <description>A notification will remind anesthesia providers at the closing of surgery how many prophylactic interventions are required to adhere to the recommended number of interventions.</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Anesthesia Information Management System (AIMS)</intervention_name>
+    <description>The anesthesia electronic record keeping system</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Perioperative Data Warehouse (PDW)</intervention_name>
+    <description>The data warehouse that is used to gather perioperative data and create user reports. In this instance the PDW will be used to send the preoperative emails.</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>General anesthesia</intervention_name>
+    <description>Any anesthetic drugs that are used to induce general anesthesia above the level of sedation.</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Elective surgery</intervention_name>
+    <description>Surgical procedures that are scheduled and not an emergency.</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Propofol</intervention_name>
+    <description>Anesthetic drug used to maintain general anesthesia</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sevoflurane</intervention_name>
+    <description>Anesthetic drug used to maintain general anesthesia</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Isoflurane</intervention_name>
+    <description>Anesthetic drug used to maintain general anesthesia</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Desflurane</intervention_name>
+    <description>Anesthetic drug used to maintain general anesthesia</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Scopolamine</intervention_name>
+    <description>Prophylactic antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Droperidol</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Haloperidol</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Dexamethasone</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Promethazine</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Meclizine</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Aprepitant</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Metoclopramide</intervention_name>
+    <description>Rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Fentanyl</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sufentanil</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Alfentanil</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Remifentanil</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Morphine</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Meperidine</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Hydromorphone</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Methadone</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Oxycodone</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Oxymorphone</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Hydrocodone</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ketamine</intervention_name>
+    <description>Analgetic / Analgesic drug</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ondansetron</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Granisetron</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Dolasetron mesylate</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Palonosetron</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Tropisetron</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ramosetron</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All adult patients (18 years and older) that are scheduled for an elective surgical
+             procedure under general anesthesia
+
+        Exclusion Criteria:
+
+          -  Patients undergoing emergency surgery or organ transplantation
+
+          -  Patients that are transferred directly to the Intensive Care Unit after the end of the
+             procedure
+
+          -  Patients that die intraoperatively
+
+          -  Procedures that only require a sedative level of anesthesia
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jonathan P Wanderer, MD, MPhil</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Vanderbilt University Medical Center, Division of Anesthesiology</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Vanderbilt University Medical Center</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <zip>37212</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>March 2019</verification_date>
+  <study_first_submitted>November 12, 2015</study_first_submitted>
+  <study_first_submitted_qc>December 8, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 9, 2015</study_first_posted>
+  <results_first_submitted>October 30, 2018</results_first_submitted>
+  <results_first_submitted_qc>March 5, 2019</results_first_submitted_qc>
+  <results_first_posted type="Actual">March 7, 2019</results_first_posted>
+  <last_update_submitted>March 5, 2019</last_update_submitted>
+  <last_update_submitted_qc>March 5, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 7, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Vanderbilt University</investigator_affiliation>
+    <investigator_full_name>Jonathan Wanderer</investigator_full_name>
+    <investigator_title>Medical Director of Procedure Preparation Center</investigator_title>
+  </responsible_party>
+  <keyword>Decision support</keyword>
+  <keyword>Prediction models</keyword>
+  <keyword>PONV</keyword>
+  <keyword>prophylaxis</keyword>
+  <keyword>Decision Support Systems, Clinical</keyword>
+  <keyword>Decision Support Techniques</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Nausea</mesh_term>
+    <mesh_term>Vomiting</mesh_term>
+    <mesh_term>Postoperative Nausea and Vomiting</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Promethazine</mesh_term>
+    <mesh_term>Diphenhydramine</mesh_term>
+    <mesh_term>Meclizine</mesh_term>
+    <mesh_term>Dexamethasone</mesh_term>
+    <mesh_term>Fentanyl</mesh_term>
+    <mesh_term>Sufentanil</mesh_term>
+    <mesh_term>Scopolamine</mesh_term>
+    <mesh_term>Oxymorphone</mesh_term>
+    <mesh_term>Meperidine</mesh_term>
+    <mesh_term>Droperidol</mesh_term>
+    <mesh_term>Morphine</mesh_term>
+    <mesh_term>Remifentanil</mesh_term>
+    <mesh_term>Oxycodone</mesh_term>
+    <mesh_term>Methadone</mesh_term>
+    <mesh_term>Hydromorphone</mesh_term>
+    <mesh_term>Hydrocodone</mesh_term>
+    <mesh_term>Alfentanil</mesh_term>
+    <mesh_term>Ketamine</mesh_term>
+    <mesh_term>Haloperidol</mesh_term>
+    <mesh_term>Ondansetron</mesh_term>
+    <mesh_term>Aprepitant</mesh_term>
+    <mesh_term>Palonosetron</mesh_term>
+    <mesh_term>Metoclopramide</mesh_term>
+    <mesh_term>Granisetron</mesh_term>
+    <mesh_term>Ramosetron</mesh_term>
+    <mesh_term>Tropisetron</mesh_term>
+    <mesh_term>Dolasetron</mesh_term>
+    <mesh_term>Anesthetics</mesh_term>
+    <mesh_term>Propofol</mesh_term>
+    <mesh_term>Sevoflurane</mesh_term>
+    <mesh_term>Desflurane</mesh_term>
+    <mesh_term>Isoflurane</mesh_term>
+    <mesh_term>Butylscopolammonium Bromide</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>October 28, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/81/NCT02625181/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Baseline Measurement</title>
+          <description>No recommendations were provided for PONV prophylaxis.</description>
+        </group>
+        <group group_id="P2">
+          <title>CDS Email Recommendations</title>
+          <description>Automated recommendations on PONV prophylaxis provided by email only.</description>
+        </group>
+        <group group_id="P3">
+          <title>CDS Email + Real TIme Recommenations</title>
+          <description>Number of interventions for PONV prophylaxis were provided both by real-time clinical decision support and via email.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="1518"/>
+                <participants group_id="P2" count="12809"/>
+                <participants group_id="P3" count="12707"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="1518"/>
+                <participants group_id="P2" count="12809"/>
+                <participants group_id="P3" count="12707"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>This population was analyzed prior to the institution of CDS for PONV prophylaxis.</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Baseline Measurement</title>
+          <description>No recommendations were provided for PONV prophylaxis.</description>
+        </group>
+        <group group_id="B2">
+          <title>CDS Email Recommendations</title>
+          <description>Automated recommendations on PONV prophylaxis provided by email only.</description>
+        </group>
+        <group group_id="B3">
+          <title>CDS Email + Real TIme Recommenations</title>
+          <description>Number of interventions for PONV prophylaxis were provided both by real-time clinical decision support and via email.</description>
+        </group>
+        <group group_id="B4">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="1518"/>
+            <count group_id="B2" value="12809"/>
+            <count group_id="B3" value="12707"/>
+            <count group_id="B4" value="27034"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                    <measurement group_id="B4" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1131"/>
+                    <measurement group_id="B2" value="9573"/>
+                    <measurement group_id="B3" value="9603"/>
+                    <measurement group_id="B4" value="20307"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="387"/>
+                    <measurement group_id="B2" value="3236"/>
+                    <measurement group_id="B3" value="3104"/>
+                    <measurement group_id="B4" value="6727"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="53" spread="16.78"/>
+                    <measurement group_id="B2" value="52" spread="16.73"/>
+                    <measurement group_id="B3" value="51" spread="17.15"/>
+                    <measurement group_id="B4" value="52" spread="16.94"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="813"/>
+                    <measurement group_id="B2" value="6550"/>
+                    <measurement group_id="B3" value="6212"/>
+                    <measurement group_id="B4" value="13575"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="705"/>
+                    <measurement group_id="B2" value="6259"/>
+                    <measurement group_id="B3" value="6495"/>
+                    <measurement group_id="B4" value="13459"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3"/>
+                    <measurement group_id="B2" value="12"/>
+                    <measurement group_id="B3" value="23"/>
+                    <measurement group_id="B4" value="38"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="11"/>
+                    <measurement group_id="B2" value="100"/>
+                    <measurement group_id="B3" value="110"/>
+                    <measurement group_id="B4" value="221"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                    <measurement group_id="B4" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="170"/>
+                    <measurement group_id="B2" value="1321"/>
+                    <measurement group_id="B3" value="1595"/>
+                    <measurement group_id="B4" value="3086"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1279"/>
+                    <measurement group_id="B2" value="10823"/>
+                    <measurement group_id="B3" value="10498"/>
+                    <measurement group_id="B4" value="22600"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                    <measurement group_id="B4" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="55"/>
+                    <measurement group_id="B2" value="553"/>
+                    <measurement group_id="B3" value="481"/>
+                    <measurement group_id="B4" value="1089"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1518"/>
+                    <measurement group_id="B2" value="12809"/>
+                    <measurement group_id="B3" value="12707"/>
+                    <measurement group_id="B4" value="27034"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>History of PONV/Motion Sickness</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="226"/>
+                    <measurement group_id="B2" value="2303"/>
+                    <measurement group_id="B3" value="10728"/>
+                    <measurement group_id="B4" value="13257"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Smoking Status is Current Non Smoker</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1183"/>
+                    <measurement group_id="B2" value="9723"/>
+                    <measurement group_id="B3" value="9352"/>
+                    <measurement group_id="B4" value="20258"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Adherence to PONV Guidelines</title>
+        <description>PONV guideline adherence: percentage of patients who received the exact number of prophylactic interventions for PONV that were recommended by the decision support.</description>
+        <time_frame>A specific time frame on the day of surgery: the start of admission at the holding room to the end of the anesthetic case</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Baseline Measurement</title>
+            <description>No recommendations were provided for PONV prophylaxis.</description>
+          </group>
+          <group group_id="O2">
+            <title>CDS Email Recommendations</title>
+            <description>Automated recommendations on PONV prophylaxis provided by email only.</description>
+          </group>
+          <group group_id="O3">
+            <title>CDS Email + Real TIme Recommenations</title>
+            <description>Number of interventions for PONV prophylaxis were provided both by real-time clinical decision support and via email.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Adherence to PONV Guidelines</title>
+          <description>PONV guideline adherence: percentage of patients who received the exact number of prophylactic interventions for PONV that were recommended by the decision support.</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1518"/>
+                <count group_id="O2" value="12809"/>
+                <count group_id="O3" value="12707"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="666"/>
+                    <measurement group_id="O2" value="5260"/>
+                    <measurement group_id="O3" value="5863"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>PONV Incidence: Number of Participants With Postoperative Nausea and Vomiting</title>
+        <description>The occurrence of PONV, as defined by the administration of antiemetics in the PACU between admission to PACU and discharge from PACU.</description>
+        <time_frame>PACU recovery period</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Baseline Measurement</title>
+            <description>No recommendations were provided for PONV prophylaxis.</description>
+          </group>
+          <group group_id="O2">
+            <title>CDS Email Recommendations</title>
+            <description>Automated recommendations on PONV prophylaxis provided by email only.</description>
+          </group>
+          <group group_id="O3">
+            <title>CDS Email + Real TIme Recommenations</title>
+            <description>Number of interventions for PONV prophylaxis were provided both by real-time clinical decision support and via email.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>PONV Incidence: Number of Participants With Postoperative Nausea and Vomiting</title>
+          <description>The occurrence of PONV, as defined by the administration of antiemetics in the PACU between admission to PACU and discharge from PACU.</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1518"/>
+                <count group_id="O2" value="12809"/>
+                <count group_id="O3" value="12707"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="139"/>
+                    <measurement group_id="O2" value="1323"/>
+                    <measurement group_id="O3" value="1343"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>The Number of Prophylactic Interventions for PONV</title>
+        <description>the absolute number of prophylactic interventions applied between the admission of the patient in the holding room until admission to the PACU.</description>
+        <time_frame>A specific time frame on the day of surgery: from the start of admission at the holding room to the end of the anesthetic case</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Baseline Measurement</title>
+            <description>No recommendations were provided for PONV prophylaxis.</description>
+          </group>
+          <group group_id="O2">
+            <title>CDS Email Recommendations</title>
+            <description>Automated recommendations on PONV prophylaxis provided by email only.</description>
+          </group>
+          <group group_id="O3">
+            <title>CDS Email + Real TIme Recommenations</title>
+            <description>Number of interventions for PONV prophylaxis were provided both by real-time clinical decision support and via email.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>The Number of Prophylactic Interventions for PONV</title>
+          <description>the absolute number of prophylactic interventions applied between the admission of the patient in the holding room until admission to the PACU.</description>
+          <units>prophylactic antiemetics administered</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1518"/>
+                <count group_id="O2" value="12809"/>
+                <count group_id="O3" value="12707"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.196" spread="0.932"/>
+                    <measurement group_id="O2" value="2.176" spread="0.988"/>
+                    <measurement group_id="O3" value="2.129" spread="0.977"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Time to Discharge From the Postanesthesia Care Unit (PACU)</title>
+        <description>This is the number of minutes from admission to the PACU until discharge, assessed up to 2 days</description>
+        <time_frame>A specific time frame on the day of surgery: from the start of admission to the PACU to discharge from the PACU</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Baseline Measurement</title>
+            <description>No recommendations were provided for PONV prophylaxis.</description>
+          </group>
+          <group group_id="O2">
+            <title>CDS Email Recommendations</title>
+            <description>Automated recommendations on PONV prophylaxis provided by email only.</description>
+          </group>
+          <group group_id="O3">
+            <title>CDS Email + Real TIme Recommenations</title>
+            <description>Number of interventions for PONV prophylaxis were provided both by real-time clinical decision support and via email.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Time to Discharge From the Postanesthesia Care Unit (PACU)</title>
+          <description>This is the number of minutes from admission to the PACU until discharge, assessed up to 2 days</description>
+          <units>minutes</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1518"/>
+                <count group_id="O2" value="12809"/>
+                <count group_id="O3" value="12707"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="266" spread="374"/>
+                    <measurement group_id="O2" value="264" spread="371"/>
+                    <measurement group_id="O3" value="266" spread="361"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>We analyzed adverse events in this patient population during their intraoperative course from entry into OR until exit from the OR (adverse events sourced from our adverse event reporting system), and during their hospitalization (source for mortality data), an average of 4.9 days.</time_frame>
+      <desc>We utilized our perioperative information management system to determine the number of adverse events that occurred associated with the patients' intraoperative course. We used our hospital registration system to determine all cause mortality for this patient population.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>PONV Clinical Decision Support System</title>
+          <description>Automated recommendations on PONV prophylaxis provided to anesthesia providers through the anesthesia information management system and email.
+Automated recommendation at the start of the case: The first notification is the main notification that informs the anesthesia providers at the start of anesthesia of the risk score for that individual patient and the recommended number of prophylactic interventions. The notification occurs within the anesthesia information management system (AIMS)
+Preoperative recommendations: by email: A recommendation on PONV prophylaxis to anesthesia providers through email.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="90" subjects_at_risk="27034"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="90" subjects_at_risk="27034"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Investigations</title>
+            <event_list>
+              <event>
+                <sub_title>Mortality - Baseline</sub_title>
+                <counts group_id="E1" events="7" subjects_affected="7" subjects_at_risk="1518"/>
+              </event>
+              <event>
+                <sub_title>Mortality - CDS Email Recommendations</sub_title>
+                <counts group_id="E1" events="43" subjects_affected="43" subjects_at_risk="12809"/>
+              </event>
+              <event>
+                <sub_title>Mortality - CDS Email + Real Time Recommendations</sub_title>
+                <counts group_id="E1" events="40" subjects_affected="40" subjects_at_risk="12707"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>5</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="27034"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>We were unable to complete analysis of hyperlink data for PONV recommendations as planned because the data were not archived as intended. We were unable to include University of Washington as a collaborative site due to technical differences.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Jonathan Wanderer</name_or_title>
+      <organization>Vanderbilt University Medical Center</organization>
+      <phone>615-536-5194</phone>
+      <email>jon.wanderer@vanderbilt.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

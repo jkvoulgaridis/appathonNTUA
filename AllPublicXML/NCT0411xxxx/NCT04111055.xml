@@ -1,0 +1,183 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04111055</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P2018-276</org_study_id>
+    <nct_id>NCT04111055</nct_id>
+  </id_info>
+  <brief_title>Closed-loop Vasopressor Infusion Using Continuous Noninvasive Blood Pressure Monitoring</brief_title>
+  <official_title>Feasibility of Computer-assisted Vasopressor Infusion Using Continuous Noninvasive Blood Pressure Monitoring in High-risk Patients Undergoing Renal Transplant Surgery</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Erasme University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of California, Los Angeles</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of California, Irvine</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Erasme University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Intraoperative hypotension and blood pressure variability are associated with postoperative
+      complications in surgical patients.
+
+      The investigators have developed a closed-loop vasopressor (CLV) controller that titrates
+      norepinephrine to correct hypotension.
+
+      After having tested the system in a small cohort series of patients undergoing major
+      surgeries, the investigators aimed to test the feasibility of the CLV controller guided
+      noninvasively and continuously with the ClearSight system (Edwards Lifesciences, USA) in
+      three high risk patients undergoing renal transplant surgery
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Intraoperative hypotension is frequent in patients undergoing surgery and can negatively
+      impact organ perfusion.
+
+      The investigators have developed a closed-loop vasopressor (CLV) controller to more
+      efficiently correct hypotension.
+
+      The investigators tested it extensively in preclinical studies and recently demonstrated its
+      feasibility and excellent performance metrics in a short series of high-risk patients
+      undergoing major surgical procedures.
+
+      In these studies, the controller was linked to a minimally-invasive advanced hemodynamic
+      monitoring device utilizing an arterial line which then controlled a vasopressor infusion.
+      However, the vast majority of patients who undergo surgery do not require an arterial line
+      but should still benefit from rapid corrections of hypotensive episodes that are less rapidly
+      detected via an intermittent non-invasive blood pressure cuff. Fortunately, completely
+      noninvasive technology now allows us to continuously monitor blood pressure and therefore
+      extend the use of our closed-loop vasopressor system to patients in whom an arterial catheter
+      would not typically be placed. Patients undergoing renal transplant surgeries are the ideal
+      patient population.
+
+      The investigators aimed to test the feasibility of guiding our CLV controller with a
+      continuous noninvasive blood pressure monitoring device (ClearSight system, Edwards
+      Lifesciences, Irvine, CA, USA) in three patients (case series)
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">June 15, 2018</start_date>
+  <completion_date type="Actual">July 20, 2018</completion_date>
+  <primary_completion_date type="Actual">July 20, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Single prospective pilot study</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percentage of case time in hypotension</measure>
+    <time_frame>during surgery</time_frame>
+    <description>% of case time without hypotension. MAP of at least 5mmHg below the chosen CLV target</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of active treatment time spent in a hypertensive state</measure>
+    <time_frame>during surgery</time_frame>
+    <description>Percentage of active treatment time spent in a hypertensive state, defined as a MAP &gt;5mmHg above the chosen target MAP with an active norepinephrine infusion</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Amount of vasopressor used</measure>
+    <time_frame>during surgery</time_frame>
+    <description>Amount of vasopressor administered to the patient</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of acute kidney injury</measure>
+    <time_frame>30 days postsurgery</time_frame>
+    <description>Incidence of acute kidney injury defined with the KDIGO classification</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">3</enrollment>
+  <condition>Hemodynamic (MAP) Stability</condition>
+  <arm_group>
+    <arm_group_label>Closed-loop group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The MAP of the patient will be managed by the CLV system to avoid hypotension. The MAP target selected in the closed-loop system will be the patient's MAP target ( same target as patient's MAP value preoperatively). Then the closed-loop system will have to adjust norepinephrine infusion rate to keep that MAP value within 10% of patient's target.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Closed-loop system</intervention_name>
+    <description>the CLV system will correct hypotension by automated adjustment of norepinephrine.</description>
+    <arm_group_label>Closed-loop group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Adult high risk patients undergoing renal transplant surgery
+
+          2. Patients equipped with a clearsight advanced hemodynamic monitoring system
+
+        Exclusion Criteria:
+
+          1. Atrial fibrillation
+
+          2. No consent obtained from the patient.
+
+          3. Ejection fraction &lt; 30%
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>99 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Alexandre J Joosten, MD PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>ERASME</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Erasme</name>
+      <address>
+        <city>Brussels</city>
+        <zip>1070</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+  </location_countries>
+  <verification_date>November 2019</verification_date>
+  <study_first_submitted>September 29, 2019</study_first_submitted>
+  <study_first_submitted_qc>September 29, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 1, 2019</study_first_posted>
+  <last_update_submitted>November 14, 2019</last_update_submitted>
+  <last_update_submitted_qc>November 14, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 18, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Erasme University Hospital</investigator_affiliation>
+    <investigator_full_name>Alexandre Joosten, MD PhD</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

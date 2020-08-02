@@ -1,0 +1,276 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04087109</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2019-5062</org_study_id>
+    <nct_id>NCT04087109</nct_id>
+  </id_info>
+  <brief_title>MedSafer E-care: an Automated Deprescribing Solution (E-CARE Study)</brief_title>
+  <acronym>E-CARE</acronym>
+  <official_title>MedSafer E-care: an Automated Deprescribing Solution for Community-dwelling Older Adults Living With Polypharmacy (E-CARE Study)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>McGill University Health Centre/Research Institute of the McGill University Health Centre</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>MED e-care Healthcare Solutions</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>OMNI Health Care</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Centre for Aging and Brain Health Innovation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>McGill University Health Centre/Research Institute of the McGill University Health Centre</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators will link MedSafer (a Canadian-made electronic tool) with a large
+      multi-national electronic medical record (EMR), MED e-care, through an existing application
+      programming interface (API) that provides clinicians with electronic, patient-specific
+      deprescribing reports. They will implement a highly scalable deprescribing intervention in a
+      staged and controlled fashion across five Canadian Aged Care Facilities. The investigators
+      aim to test the feasibility of the API for the purposes of generating real time automated
+      deprescribing reports, displayed to the user in the EMR.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      MedSafer is a Canadian-made electronic tool that automates deprescribing and generates
+      individualized, prioritized deprescribing opportunities for older adults based on existing
+      evidence from algorithms such as the Beer's criteria and STOPP/START in order to stop
+      potentially inappropriate medications. Its clinical content has been in place for over a year
+      in a Canadian Institutes for Health Research funded study and has been tested on over 5000
+      hospitalized patients. Software output has been analyzed and validated by Canadian experts in
+      internal medicine, geriatrics, palliative care, nursing, and pharmacy.
+
+      In the previous study funded by the Canadian Institutes for Health Research (expected total
+      recruitment: 6000), while deprescribing reports were generated automatically, data still had
+      to be entered manually, by trained research assistants. For this study, the next stage of
+      development involved creating an API that could accept medical conditions in the format of
+      ICD10 codes and medications as DINs.
+
+      &quot;MedSafer e-Care&quot; addresses the needs of patients and caretakers by facilitating safe
+      deprescribing. Deprescribing is time consuming, complex, and not all caretakers (clinicians)
+      are trained with the expert knowledge required to cross reference multiple medical conditions
+      with often 10 or more medications. &quot;MED e-care&quot; is an EMR (electronic medical record) that
+      contains patient medical conditions and medications stored as international disease
+      classification codes (ICD10) and drug identification numbers (DIN). The MedSafer team has
+      designed an API that cross-references ICD10 codes and DINs against existing evidence-based
+      algorithms for safe deprescribing. The API has been tested on a variety of medical conditions
+      and medications contained within the MedSafer rule set. This process can overcome barriers to
+      stopping medications including caretaker time constraints and knowledge gaps.
+
+      Data packets are processed by the MedSafer API and deprescribing reports are returned to MED
+      e-care and displayed to the user on the EMR interface. Reports will be available to
+      caretakers (nurses, physicians and pharmacists) who can choose to stop or taper medications
+      within the EMR. Opportunities are prioritized based on potential for harm and ease of
+      discontinuation, and factor in a measure of patient frailty and life expectancy. When
+      necessary, instructions for tapering medications are provided. Links to patient educational
+      brochures are included and can be printed for the patient and family detailing harmful
+      medications and deprescribing rationale. MED e-care has already entered negotiations with the
+      nursing home group OMNI Health Care to recruit at least five and up to 18 of the 18 care
+      sites from within the OMNI group of homes across Ontario.
+
+      The estimated duration of the study is 12 months. Deployment will approximate a Stepped Wedge
+      Cluster Randomized Trial Design (calculations performed with steppedwedge function in Stata
+      v. 15). To accomplish this, at least 10 unique patients would need to be enrolles per ACF
+      every 2 months following a 3-month baseline period (minimum total 300 patients).
+
+      The 5 OMNI ACFs will be grouped in 3 clusters. During the control phase, the MedSafer API
+      will not be accessible to the caretakers at the ACF. This serves to obtain baseline
+      deprescribing levels for each ACF. When the first cluster completes its baseline phase, the
+      MedSafer API feature will become accessible in MED e-care for the physicians, pharmacists and
+      nurses. Staff at the ACFs will receive a communiqué before entering the intervention phase as
+      well as a brief training on how to access this feature in the EMR. Following a 3 month
+      intervention period, the 2nd cluster will switch from its baseline phase to intervention. The
+      last cluster will enter the intervention phase 3 months after that. Once in the intervention
+      phase, users will receive quarterly deprescribing reports for their patients. MED e-care will
+      selectively allow access to the MedSafer feature for each site when it is their turn to enter
+      the intervention phase.
+
+      Cluster 1: 3 months control + 9 months intervention
+
+      Cluster 2: 6 months control + 6 months intervention
+
+      Cluster 3: 9 months control + 3 months intervention
+
+      During the control phase, residents at the 5 nursing homes or their proxy will be contacted
+      by a trained research assistant who will ask them to participate in the study. Their
+      participation will consist of a survey regarding their attitude towards deprescribing.
+
+      During the intervention phase, staff at the nursing homes (nurse, pharmacist, physician) will
+      be asked to distribute educational brochures regarding medications to patients/proxies, as
+      applicable to the medications the patient is taking.
+
+      During the intervention phase, this feature will provide users with individualized and
+      prioritized deprescribing opportunities: a) identifying the medication, b) explaining why
+      that medication is potentially inappropriate and c) providing instructions on how to safely
+      stop/taper the medication. The user will review these opportunities and appropriate candidate
+      medications for deprescribing can then be tapered or stopped directly in the EMR.
+
+      Structured feedback about MedSafer deprescribing opportunities is important and imperative to
+      optimize success and sustainability of any deprescribing intervention. Working with the user,
+      through rapid cycle interventions, the investigators will curate an output that minimizes
+      alert fatigue and is acceptable to stakeholders (caretakers/clinicians). Users of the
+      MedSafer feature will include physicians, pharmacists and nurses, including nurse
+      practitioners, at the 5 OMNI long-term care facilities.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">October 1, 2019</start_date>
+  <completion_date type="Anticipated">July 1, 2021</completion_date>
+  <primary_completion_date type="Anticipated">October 1, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Sequential Assignment</intervention_model>
+    <intervention_model_description>Stepped wedge randomized control trial</intervention_model_description>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>Double (Investigator, Outcomes Assessor)</masking>
+    <masking_description>The investigator will receive anonymous data and when performing the analysis will not know if the participant received the intervention or not. The same is true for the outcome assessor (blinded to study intervention). All patient and time identifiers stripped from the outcome adjudication.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Proportion of patients with one or more PIM (potentially inappropriate medication) reduced or stopped</measure>
+    <time_frame>30-days after the prescriber receives a deprescribing report.</time_frame>
+    <description>Proportion of patients with one or more PIM (potentially inappropriate medication) reduced or stopped 30-days after the treating physician receives a deprescribing report.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sustainability; quality of life; sleep quality; falls; transfer to acute hospital; hip fractures; and delirium</measure>
+    <time_frame>Examined at 30-days following each intervention cycle (3 cycles)</time_frame>
+    <description>Proportion of patients with one or more PIM reduced or stopped following each cycle (sustainability); quality of life; sleep quality; falls; transfer to acute hospital; hip fractures; and delirium</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Cost savings</measure>
+    <time_frame>1 year</time_frame>
+    <description>Cost savings analysis related to cost saved from medications (actual price of the medication as well as dispensing fees) and cost savings from prevention of adverse drug events, balanced with the cost of deployment of MedSafer, including maintaining the program with updates and user support, new data generated from studies and latest recommendations for deprescribing from scientific bodies.</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">300</enrollment>
+  <condition>Polypharmacy</condition>
+  <condition>Deprescribing</condition>
+  <condition>Adverse Drug Event</condition>
+  <arm_group>
+    <arm_group_label>Intervention: MedSafer</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>In the intervention phase, the MedSafer feature will become accessible in MED e-care for the physicians, pharmacists and nurses. This feature will provide health care professionals with individualized and prioritized deprescribing opportunities: a) identifying the medication, b) explaining why that medication is potentially inappropriate and c) providing instructions on how to safely stop/taper the medication. The user will review these opportunities and appropriate candidate medications for deprescribing can then be tapered or stopped directly in the EMR. During the intervention phase, all patients will receive the educational (EMPOWER) brochures as applicable to the medications they are taking (PPI, sedative-hypnotic, antihistamine, antipsychotic, sulfonylurea, NSAID, opioid/narcotic).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control: Baseline (no MedSafer)</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>During the control phase, the MedSafer application programming interface will not be accessible to the caretakers at the aged care facilities (ACF). This serves to obtain baseline deprescribing levels for each ACF.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Electronic decision support for deprescribing (MedSafer tool)</intervention_name>
+    <description>During the intervention phase, MedSafer will provide users with individualized and prioritized deprescribing opportunities: a) identifying the medication, b) explaining why that medication is potentially inappropriate and c) providing instructions on how to safely stop/taper the medication. The user will review these opportunities and appropriate candidate medications for deprescribing can then be tapered or stopped directly in the EMR. Patients or proxy will also receive educational medications brochures (EMPOWER) from the research assistant or staff at the nursing home, as applicable to the medications they are taking (PPI, sedative-hypnotic, antipsychotic, antihistamine, sulfonylurea, NSAID, opioid/narcotic).</description>
+    <arm_group_label>Intervention: MedSafer</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All residents of the participating Ontario long term care facilities (OMNI) who are 65
+             years of age or older and are taking a potentially inappropriate medication (as
+             identified by MedSafer) are eligible for the deprescribing component of this study.
+
+        Exclusion Criteria:
+
+          -  If a patient is unable to complete the survey due to a language barrier or cognitive
+             impairment, the research assistant will seek consent from an appropriate proxy. In the
+             event where both the patient and proxy are unable to complete the survey or there was
+             no proxy identified or proxy could not be reached, the patient will be excluded from
+             the survey component of the study. The health care professionals will still have
+             access to their MedSafer file for the purposes of patient care.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>65 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Emily McDonald, MDCM</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>McGill University Health Centre/Research Institute of the McGill University Health Centre</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Emily McDonald, MDCM</last_name>
+    <email>emily.mcdonald@mcgill.ca</email>
+  </overall_contact>
+  <link>
+    <url>http://www.medsafer.org</url>
+    <description>Study website</description>
+  </link>
+  <link>
+    <url>http://deprescribing.org/resources/deprescribing-information-pamphlets/</url>
+    <description>EMPOWER brochures</description>
+  </link>
+  <link>
+    <url>http://www.choosingwiselycanada.org</url>
+    <description>Choosing Widely Canada</description>
+  </link>
+  <reference>
+    <citation>Tam SHY, Hirsch JD, Watanabe JH. Medication Regimen Complexity in Long-Term Care Facilities and Adverse Drug Events-Related Hospitalizations. Consult Pharm. 2017 May 1;32(5):281-284. doi: 10.4140/TCP.n.2017.281. Review.</citation>
+    <PMID>28483008</PMID>
+  </reference>
+  <reference>
+    <citation>Dwyer LL, Han B, Woodwell DA, Rechtsteiner EA. Polypharmacy in nursing home residents in the United States: results of the 2004 National Nursing Home Survey. Am J Geriatr Pharmacother. 2010 Feb;8(1):63-72. doi: 10.1016/j.amjopharm.2010.01.001.</citation>
+    <PMID>20226393</PMID>
+  </reference>
+  <reference>
+    <citation>Hamilton HJ, Gallagher PF, O'Mahony D. Inappropriate prescribing and adverse drug events in older people. BMC Geriatr. 2009 Jan 28;9:5. doi: 10.1186/1471-2318-9-5.</citation>
+    <PMID>19175914</PMID>
+  </reference>
+  <reference>
+    <citation>By the American Geriatrics Society 2015 Beers Criteria Update Expert Panel. American Geriatrics Society 2015 Updated Beers Criteria for Potentially Inappropriate Medication Use in Older Adults. J Am Geriatr Soc. 2015 Nov;63(11):2227-46. doi: 10.1111/jgs.13702. Epub 2015 Oct 8.</citation>
+    <PMID>26446832</PMID>
+  </reference>
+  <reference>
+    <citation>O'Mahony D, O'Sullivan D, Byrne S, O'Connor MN, Ryan C, Gallagher P. STOPP/START criteria for potentially inappropriate prescribing in older people: version 2. Age Ageing. 2015 Mar;44(2):213-8. doi: 10.1093/ageing/afu145. Epub 2014 Oct 16. Review. Erratum in: Age Ageing. 2018 May 1;47(3):489.</citation>
+    <PMID>25324330</PMID>
+  </reference>
+  <verification_date>September 2019</verification_date>
+  <study_first_submitted>September 10, 2019</study_first_submitted>
+  <study_first_submitted_qc>September 10, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 12, 2019</study_first_posted>
+  <last_update_submitted>September 11, 2019</last_update_submitted>
+  <last_update_submitted_qc>September 11, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 13, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>McGill University Health Centre/Research Institute of the McGill University Health Centre</investigator_affiliation>
+    <investigator_full_name>Emily McDonald</investigator_full_name>
+    <investigator_title>Assistant Professor of Medicine, Director of General Internal Medicine Consult Service (Royal Victoria Hospital)</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Drug-Related Side Effects and Adverse Reactions</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Non-pharma academic researchers may contact the principal investigator by email one year following the primary publication for access to data which will be shared via password-protected excel document.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_time_frame>Made available for 1 year following the publication of the primary manuscript from the trial</ipd_time_frame>
+    <ipd_access_criteria>Contact study primary investigator at emily.mcdonald@mcgill.ca</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

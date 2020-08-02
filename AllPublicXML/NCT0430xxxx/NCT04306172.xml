@@ -1,0 +1,285 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04306172</url>
+  </required_header>
+  <id_info>
+    <org_study_id>LUKS_RRM_2019</org_study_id>
+    <nct_id>NCT04306172</nct_id>
+  </id_info>
+  <brief_title>Validation of EPIC's Readmission Risk Model, the LACE+ Index and SQLape as Predictors of Unplanned Hospital Readmissions</brief_title>
+  <official_title>External Validation of EPIC's Readmission Risk Model, the LACE+ Index and SQLape as Predictors of Unplanned Hospital Readmissions: A Monocentric, Retrospective, Diagnostic Cohort Study in Switzerland</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Luzerner Kantonsspital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Lucerne</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Luzerner Kantonsspital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The primary objective of this study is to externally validate the EPIC's Readmission Risk
+      model and to compare it with the LACE+ index and the SQLape Readmission model.
+
+      As secondary objective, the EPIC's Readmission Risk model will be adjusted based on the
+      validation sample, and finally, it´s performance will be compared with machine learning
+      algorithms.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Introduction: Readmissions after an acute care hospitalization are relatively common, costly
+      to the health care system and are associated with significant burden for patients. As one way
+      to reduce costs and simultaneously improve quality of care, hospital readmissions receive
+      increasing interest from policy makers. It is only relatively recently that strategies were
+      developed with the specific aim of reducing unplanned readmissions by applying prediction
+      models. EPIC's Readmission Risk model, developed in 2015 for the U.S. acute care hospital
+      setting, promises superior calibration and discriminatory abilities. However, its routine
+      application in the Swiss hospital setting requires external validation first. Therefore, the
+      primary objective of this study is to externally validate the EPIC's Readmission Risk model
+      and to compare it with the LACE+ index (Length of stay, Acuity, Comorbidities, Emergency Room
+      visits index) and the SQLape (Striving for Quality Level and analysing of patient
+      expenditures) Readmission model.
+
+      Methods: For this reason, a monocentric, retrospective, diagnostic cohort study will be
+      conducted. The study will include all inpatients, who were hospitalized between the 1st
+      January 2018 and the 31st of January 2019 in the Lucerne Cantonal hospital in Switzerland.
+      Cases will be inpatients that experienced an unplanned (all-cause) readmission within 18 or
+      30 days after the index discharge. The control group will consist of individuals who had no
+      unscheduled readmission.
+
+      For external validation, discrimination of the scores under investigation will be assessed by
+      calculating the area under the receiver operating characteristics curves (AUC). For
+      calibration, the Hosmer-Lemeshow goodness-of-fit test will be graphically illustrated by
+      plotting the predicted outcomes by decile against the observations. Other performance
+      measures to be estimated will include the Brier Score, Net Reclassification Improvement (NRI)
+      and the Net Benefit (NB).
+
+      All patient data will be retrieved from clinical data warehouses.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 10, 2020</start_date>
+  <completion_date type="Anticipated">June 30, 2020</completion_date>
+  <primary_completion_date type="Anticipated">April 30, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Discrimination at 18 days</measure>
+    <time_frame>18 days after index discharge date</time_frame>
+    <description>For discrimination of the scores under investigation, the area under the receiver operating characteristics curves (AUC) will be calculated.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Discrimination at 30 days</measure>
+    <time_frame>30 days after index discharge date</time_frame>
+    <description>For discrimination of the scores under investigation, the area under the receiver operating characteristics curves (AUC) will be calculated.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Calibration at 18 days</measure>
+    <time_frame>18 days after index discharge date</time_frame>
+    <description>For calibration, the Hosmer-Lemeshow goodness-of-fit test will be graphically illustrated by plotting the predicted outcomes by decile against the observations.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Calibration at 30 days</measure>
+    <time_frame>30 days after index discharge date</time_frame>
+    <description>For calibration, the Hosmer-Lemeshow goodness-of-fit test will be graphically illustrated by plotting the predicted outcomes by decile against the observations.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Overall Performance at 18 days</measure>
+    <time_frame>18 days after index discharge date</time_frame>
+    <description>Brier Score (The Brier score is a quadratic scoring rule, where the squared difference between actual binary outcomes Y and predictions p are calculated. The Brier score can range from 0 for a perfect model to 0.25 for a non-informative model with a 50% incidence of the outcome.)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Overall Performance at 30 days</measure>
+    <time_frame>30 days after index discharge date</time_frame>
+    <description>Brier Score (The Brier score is a quadratic scoring rule, where the squared difference between actual binary outcomes Y and predictions p are calculated. The Brier score can range from 0 for a perfect model to 0.25 for a non-informative model with a 50% incidence of the outcome.)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Clinical usefulness (NRI) at 18 days</measure>
+    <time_frame>18 days after index discharge date</time_frame>
+    <description>Net Reclassification Improvement (NRI): In the calculation of the NRI, the improvement in sensitivity and the improvement in specificity are summed. The NRI ranges from 0 for no improvement and 1 for perfect improvement.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Clinical usefulness (NRI) at 30 days</measure>
+    <time_frame>30 days after index discharge date</time_frame>
+    <description>Net Reclassification Improvement (NRI): In the calculation of the NRI, the improvement in sensitivity and the improvement in specificity are summed. The NRI ranges from 0 for no improvement and 1 for perfect improvement.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Clinical usefulness (NB) at 18 days</measure>
+    <time_frame>18 days after index discharge date</time_frame>
+    <description>Net Benefit (NB): NB = (TP - w FP) / N, where TP is the number of true positive decisions, FP the number of false positive decisions, N is the total number of patients and w is a weight equal to the odds of the cut-off (pt/(1-pt), or the ratio of harm to benefit</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Clinical usefulness (NB) at 30 days</measure>
+    <time_frame>30 days after index discharge date</time_frame>
+    <description>Net Benefit (NB): NB = (TP - w FP) / N, where TP is the number of true positive decisions, FP the number of false positive decisions, N is the total number of patients and w is a weight equal to the odds of the cut-off (pt/(1-pt), or the ratio of harm to benefit</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">40000</enrollment>
+  <condition>Hospital Readmission</condition>
+  <arm_group>
+    <arm_group_label>Readmitted inpatients/Cases</arm_group_label>
+    <description>Outcome 1: Patients who were readmitted within 18 days of index hospitalization discharge date to the same hospital, with a diagnosis leading to the same Major Diagnostic Group as the index stay (definition according to Swiss Diagnosis Related Groups system, case merger)
+Outcome 2: Patients with an unplanned readmission within 30 days of index hospitalization discharge date to the same hospital. An unplanned readmission was defined as a readmission through the emergency department.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Non-Readmitted inpatients/Controls</arm_group_label>
+    <description>Outcome 1 &amp; 2: Patients who were not readmitted within 30 days of index hospitalization discharge date.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>An US Readmission Risk Prediction Model</intervention_name>
+    <description>Logistic regression model that predicts the risk of all-cause unplanned readmissions developed by the privately held healthcare software company EPIC.</description>
+    <arm_group_label>Non-Readmitted inpatients/Controls</arm_group_label>
+    <arm_group_label>Readmitted inpatients/Cases</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>LACE+ score</intervention_name>
+    <description>The LACE+ score is a point score that can be used to predict the risk of post-discharge death or urgent readmission. It was developed based on administrative data in Ontario, Canada.</description>
+    <arm_group_label>Non-Readmitted inpatients/Controls</arm_group_label>
+    <arm_group_label>Readmitted inpatients/Cases</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>SQLAPE model</intervention_name>
+    <description>The readmission risk model (Striving for Quality Level and analyzing of patient expenditures), is a computerized validated algorithm and was developed in 2002 to identify potentially avoidable readmissions.</description>
+    <arm_group_label>Non-Readmitted inpatients/Controls</arm_group_label>
+    <arm_group_label>Readmitted inpatients/Cases</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Inpatients from an acute care hospital in Central-Switzerland
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        - All inpatients, aged one year or older (max. 100 years), who were hospitalized either
+        between the 1st of January 2018 and the 31st of December 2018, or between the 23rd of
+        September and the 31st of December 2019 will be included.
+
+        Exclusion criteria:
+
+          -  admission/transfer from another psychiatric, rehabilitative or acute care ward from
+             the same institution,
+
+          -  discharge destination other than the patient's home or
+
+          -  transfer to another acute care hospital, both being considered as treatment
+             continuation;
+
+          -  foreign residence,
+
+          -  deceased before discharge,
+
+          -  discharged on admission day,
+
+          -  refusal of general consent, and
+
+          -  unknown patient residence or discharge destination.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>1 Year</minimum_age>
+    <maximum_age>100 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Aljoscha B. Hwang</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Lucerne (Switzerland)</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Stefan Boes</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Lucerne (Switzerland)</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Aljoscha B. Hwang</last_name>
+    <phone>0041(0)412051111</phone>
+    <email>aljoscha.b.hwang@hotmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Mario Pietrini</last_name>
+    <email>mario.pietrini@luks.ch</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Cantonal Hospital of Lucerne</name>
+      <address>
+        <city>Lucerne</city>
+        <state>Canton Lucerne</state>
+        <zip>6000</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Aljoscha B. Hwang, M.A. (HSG)</last_name>
+      <phone>0041 (0) 41 205 1111</phone>
+      <email>Aljoscha.Hwang@luks.ch</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <reference>
+    <citation>van Walraven C, Wong J, Forster AJ. LACE+ index: extension of a validated index to predict early death or urgent readmission after hospital discharge using administrative data. Open Med. 2012 Jul 19;6(3):e80-90. Print 2012.</citation>
+    <PMID>23696773</PMID>
+  </reference>
+  <reference>
+    <citation>Halfon P, Eggli Y, Prêtre-Rohrbach I, Meylan D, Marazzi A, Burnand B. Validation of the potentially avoidable hospital readmission rate as a routine indicator of the quality of hospital care. Med Care. 2006 Nov;44(11):972-81.</citation>
+    <PMID>17063128</PMID>
+  </reference>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>March 6, 2020</study_first_submitted>
+  <study_first_submitted_qc>March 10, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 12, 2020</study_first_posted>
+  <last_update_submitted>April 7, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 7, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 9, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Luzerner Kantonsspital</investigator_affiliation>
+    <investigator_full_name>Aljoscha Hwang</investigator_full_name>
+    <investigator_title>Research Project Manager &amp; Advanced Analytics Analyst</investigator_title>
+  </responsible_party>
+  <keyword>Prediction model</keyword>
+  <keyword>hospital readmission</keyword>
+  <keyword>external validation</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>February 18, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/72/NCT04306172/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

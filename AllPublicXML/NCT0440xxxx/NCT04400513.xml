@@ -1,0 +1,274 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04400513</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020.3</org_study_id>
+    <nct_id>NCT04400513</nct_id>
+  </id_info>
+  <brief_title>Development of an Algorithm to Differentiate Heart Murmurs Using Electronic Stethoscopes</brief_title>
+  <official_title>Development of an Algorithm to Differentiate Heart Murmurs by Timing, Disease Type, and Severity in Adult Patients Using Electronic Stethoscopes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Eko Devices, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Eko Devices, Inc.</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The Eko CORE and DUO stethoscopes are FDA-approved electronic devices that have the capacity
+      to record heart sounds. The study seeks to expand murmur detection to include VHD
+      classification through the development of novel ML algorithms that are able to distinguish
+      between systolic vs. diastolic vs. continuous murmurs, as well as classify VHD type and
+      severity, using 4-point auscultation with Eko CORE and DUO electronic stethoscopes to record
+      heart sounds.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Valvular heart disease (VHD), a subclass of structural heart disease (SHD), is a major cause
+      of mortality and reduced quality of life for tens of millions of patients worldwide.
+      Detecting VHD early allows the disease to be carefully monitored so that surgery can be
+      considered as soon as the stenosis progresses to severe. Unfortunately, it is difficult for
+      many clinicians to accurately identify VHD in its early stages and assess its severity
+      through physical examination alone. This difficulty stems from both the subtlety of symptoms
+      associated with VHD, and from clinicians' inability to reliably detect the heart murmurs
+      indicative of VHD using a traditional stethoscope, particularly in the noisy and rushed
+      environments characteristic of many healthcare settings.
+
+      AS, mitral regurgitation (MR), and tricuspid regurgitation (TR) all result in reliably
+      reproducible auscultatory findings. Yet despite this, auscultation as a diagnostic procedure
+      is notoriously poor: its accuracy to detect AS, MR, and TR ranges only from 5-40%. In
+      addition, diastolic and continuous murmurs, which are rarer than the systolic murmurs caused
+      by AS, MR and TR, and almost always pathologic, are usually very difficult to detect by
+      frontline clinicians. Diastolic murmurs are typically caused by VHD such as aortic
+      regurgitation (AR), pulmonic regurgitation (PR), mitral stenosis (MS), or tricuspid stenosis
+      (TS), and continuous murmurs are typically caused by non-valvular forms of SHD, such as
+      congenital aortopulmonary window, shunts, and patent ductus arteriosus (PDA). Missing one of
+      these murmurs could lead to significantly delayed diagnosis and care.
+
+      Because of how difficult it is for clinicians to reliably screen for SHD through history
+      taking and physical examination, the diagnosis of SHD relies heavily on echocardiography
+      (echos), which is accepted as the gold standard for diagnosis of SHD severity by the
+      cardiology community. The consequence of this is several-fold. First, many patients receive
+      echos that would not be necessary if better screening and assessment tools existed. Second,
+      echocardiography makes up a disproportionately large segment of healthcare expenditure.
+      Third, patients are burdened with the responsibility of getting repeated echos due to the
+      lack of better screening tools. The emotional, physical, and financial burden that
+      accompanies such excessive testing, especially for patients living in underserved
+      communities, cannot be overstated.
+
+      Overall, there is a growing need for better preliminary screening tools that would identify
+      these conditions, even when asymptomatic, early on and more consistently, to a degree of
+      accuracy comparable to gold standard echocardiography. Such a tool would improve clinicians'
+      confidence in their assessment during physical exams, which would enable them to help their
+      patients make informed care decisions, offer disease-altering therapies, and at the same time
+      reduce the reliance on, and frequency of, unnecessary and expensive auxiliary workups.
+      Lastly, by facilitating early detection of VHD, morbidity and mortality rates would be
+      expected to decrease due to earlier intervention.
+
+      The FDA-approved Eko CORE and Eko DUO electronic stethoscopes offer clinicians a familiar and
+      inexpensive tool that is widely accepted by patients, while at the same time offer sensors
+      and technology that can improve screening and detection of medical conditions such as valve
+      disease, as compared to auscultation with the traditional stethoscope. Both CORE and DUO
+      feature sound amplification during auscultation, which improves the ability for the clinician
+      to detect nuanced changes in heart sounds and patterns. The CORE allows recording of the
+      audio to produce a phonocardiogram (PCG), while the DUO is able to record audio to produce a
+      PCG as well as simultaneous recording of a single-lead electrocardiogram (ECG). Both devices
+      use Bluetooth to wirelessly transmit PCG and ECG data to the Eko mobile application, which
+      allows clinicians to visualize PCG and ECG as they auscultate, as well as to playback heart
+      sound recordings, annotate notes on recorded audio, and save and share recordings. These
+      features uniquely situate Eko electronic stethoscopes to be highly effective as preliminary
+      screening tools in clinical practice.
+
+      Eko Devices has developed and received 510(k) FDA approval for a machine-learning (ML)
+      algorithm that can detect the presence or absence of heart murmur in adult patients with VHD,
+      using either the Eko CORE or DUO electronic stethoscopes to record heart sounds. This
+      algorithm was built using a deep neural network model trained on 5,878 PCG recordings
+      collected on Eko CORE and Eko DUO from over 5,318 unique patients to classify heart sound
+      recordings as containing a heart murmur or containing no audible murmur, and to discriminate
+      good quality heart sound recordings from poor quality heart sound recordings. The trained
+      model has been independently validated in a multi-site clinical study that enrolled 681 VHD
+      patients with matched gold-standard echocardiograms. FDA approval was received in January
+      2020.
+
+      The present study seeks to expand murmur detection to include VHD classification through the
+      development of novel ML algorithms that are able to distinguish between systolic vs.
+      diastolic vs. continuous murmurs, as well as classify VHD type and severity, using 4-point
+      auscultation with Eko CORE and DUO electronic stethoscopes to record heart sounds. These new
+      algorithms will integrate the time-synchronized ECG streams from DUO to improve distinction
+      between S1 and S2 heart sounds and improve performance of identifying systolic vs. diastolic
+      time intervals. When combined with the FDA-approved algorithm for signal quality and murmur
+      detection, these new algorithms will enable clinicians to have a complete VHD decision
+      support system, as based on ACC/AHA Patient Management Guidelines, when using Eko
+      stethoscopes in their clinical practice.20 This will arm clinicians with information to help
+      them detect SHD early, make clinical care decisions with confidence and consistency, and
+      improve overall patient outcomes while decreasing cost and increasing efficiency.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 25, 2020</start_date>
+  <completion_date type="Anticipated">September 2021</completion_date>
+  <primary_completion_date type="Anticipated">September 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Murmur Timing</measure>
+    <time_frame>Within two minutes of device use</time_frame>
+    <description>Develop a model that can classify murmurs based on the timing of the murmur in the cardiac cycle, allowing the algorithm to distinguish between systolic, diastolic, and continuous murmurs using time-synchronized ECG and PCG data.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Systolic Murmur Type Classification</measure>
+    <time_frame>Within two minutes of device use</time_frame>
+    <description>Develop a model that can classify systolic murmurs into disease categories including aortic stenosis (AS), mitral regurgitation (MR), tricuspid regurgitation (TR), other (O), and innocent murmurs (I).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Systolic Murmur Severity Classification</measure>
+    <time_frame>Within two minutes of device use</time_frame>
+    <description>Develop a model that can grade the severity of AS, MR, and TR following the American Society of Echocardiography (ASE) guidelines as mild, moderate, or severe.</description>
+  </secondary_outcome>
+  <number_of_groups>6</number_of_groups>
+  <enrollment type="Anticipated">1145</enrollment>
+  <condition>Murmur, Heart</condition>
+  <condition>Aortic Valve Stenosis</condition>
+  <condition>Tricuspid Regurgitation</condition>
+  <condition>Mitral Regurgitation</condition>
+  <condition>Innocent Murmurs</condition>
+  <condition>Heart Murmurs</condition>
+  <arm_group>
+    <arm_group_label>Aortic Stenosis</arm_group_label>
+    <description>Subjects with echo-confirmed AS graded moderate-to-severe or worse</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Mitral Regurgitation</arm_group_label>
+    <description>Subjects with echo-confirmed MR graded moderate-to-severe or worse</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Tricuspid Regurgitation</arm_group_label>
+    <description>Subjects with echo-confirmed TR graded moderate-to-severe or worse</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Innocent Murmur</arm_group_label>
+    <description>Subjects with echo-confirmed trace/trivial valve disease severity</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Diastolic Murmur</arm_group_label>
+    <description>Subjects with pathology associated with diastolic murmur (e.g. AR, PR, MS, TS)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Continuous Murmur</arm_group_label>
+    <description>Subjects with pathology associated with continuous murmur (e.g. congenital shunts, PDA)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Use of Eko CORE and Eko DUO electronic stethoscopes</intervention_name>
+    <description>Auscultation of heart sounds using electronic stethoscopes</description>
+    <arm_group_label>Aortic Stenosis</arm_group_label>
+    <arm_group_label>Continuous Murmur</arm_group_label>
+    <arm_group_label>Diastolic Murmur</arm_group_label>
+    <arm_group_label>Innocent Murmur</arm_group_label>
+    <arm_group_label>Mitral Regurgitation</arm_group_label>
+    <arm_group_label>Tricuspid Regurgitation</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Potential research subjects will be screened for eligibility from cardiology clinics,
+        echocardiogram clinics, and inpatient areas. Alternatively, potential subjects will be
+        identified in the echocardiography clinic the day of their echocardiogram appointment and
+        approached for participation once eligibility is confirmed.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Adults aged 18 years and older
+
+          2. Patient or patient's legal healthcare proxy consents to participation
+
+          3. Have an audible heart murmur in at least one auscultation position, as heard by a
+             clinician
+
+          4. Undergoing or have undergone a complete (i.e., not limited) echocardiogram
+
+          5. Willing to have heart recordings done with two different electronic stethoscopes
+
+        Exclusion Criteria:
+
+          1. Patient or proxy is unwilling or unable to give written informed consent
+
+          2. Unable to complete a full clinical echocardiogram
+
+          3. No audible heart murmur in at least one auscultation position, as heard by a clinician
+
+          4. Experiencing a known or suspected acute cardiac event
+
+          5. Mechanical ventricular support (such as ECMO, LVAD, RVAD, BiVAD, Impella, intra-aortic
+             balloon pumps, TAH, VentrAssist, DuraHeart, HVAD, EVAHEART LVAS, HeartMate, Jarvik
+             2000)
+
+          6. Unwilling or unable to follow or complete study procedures
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>CoxHealth</name>
+      <address>
+        <city>Springfield</city>
+        <state>Missouri</state>
+        <zip>65807</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Amy Weatherfield</last_name>
+      <phone>417-269-0599</phone>
+      <email>amy.weatherfield@coxhealth.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>May 18, 2020</study_first_submitted>
+  <study_first_submitted_qc>May 21, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 22, 2020</study_first_posted>
+  <last_update_submitted>June 25, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 25, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 29, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>artificial intelligence</keyword>
+  <keyword>machine learning</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Mitral Valve Insufficiency</mesh_term>
+    <mesh_term>Aortic Valve Stenosis</mesh_term>
+    <mesh_term>Tricuspid Valve Insufficiency</mesh_term>
+    <mesh_term>Heart Murmurs</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

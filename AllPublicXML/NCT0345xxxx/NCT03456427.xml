@@ -1,0 +1,737 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03456427</url>
+  </required_header>
+  <id_info>
+    <org_study_id>124.03-2017-GES-0005</org_study_id>
+    <nct_id>NCT03456427</nct_id>
+  </id_info>
+  <brief_title>Patient-Assisted Compression in 3D - Impact on Image Quality and Workflow</brief_title>
+  <acronym>3D PAC</acronym>
+  <official_title>Patient-Assisted Compression in 3D - Impact on Image Quality and Workflow</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>GE Healthcare</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>GE Healthcare</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Patient-assisted compression (PAC) allows the patient to participate in controlling the
+      amount of compression force during mammography and is a personalized approach that has
+      demonstrated successful reduction in discomfort experienced during mammography. General
+      Electric Healthcare's Senographe Pristina, an innovative mammography platform that provides
+      both two-dimensional (2D) and three-dimensional (3D) imaging capabilities, offers both
+      standard and patient-assisted compression modes. This study will evaluate image quality and
+      clinical workflow as it relates to use of PAC with the Senographe Pristina 3D.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The study population will consist of adult asymptomatic women presenting for screening 2D
+      mammography. One breast of each subject will be identified as the &quot;breast of interest,&quot; which
+      will undergo study-specific 3D imaging consisting of two-view (craniocaudal and mediolateral
+      oblique) PA compression and image acquisition, followed by two-view technologist-controlled
+      (TC) compression and image acquisition. The breast of interest will be randomly assigned to
+      either the first breast imaged during the exam or the second breast imaged. TC compression
+      and imaging, and procedures performed on the subject's other breast will be conducted per
+      standard of care.
+
+      Following image acquisition, 3D image quality evaluation will be conducted by Mammography
+      Quality Standards Act-qualified readers. Prior to the reading session, images will be
+      de-identified and the following information will be removed from the DICOM header to blind
+      readers to the compression mode used during acquisition: time stamp, compression force, and
+      breast thickness. The image sets will also be randomized for presentation during the image
+      attribute reviews. Two (2) readers will evaluate each PAC and TC compression image set
+      collected from each subject's breast of interest and assess the acceptability of image
+      attributes, as defined in the Guidance for Industry and FDA Staff - Class II Special Controls
+      Guidance Document: Full-Field Digital Mammography System (2012). A third reader will provide
+      adjudication, if there is disagreement for a given image set's overall clinical image
+      quality.
+
+      Workflow data, including the incidence of technologist intervention during acquisition and
+      need for repeat image acquisition, will also be collected.
+
+      The proportion of PAC image sets that are of equal or higher acceptability than TC image sets
+      will be calculated. A 95% confidence interval will be calculated using asymptotic method with
+      continuity correction. The proportion of image sets indicated for repeated image acquisition
+      when using PA mode or TC mode will be summarized. Other endpoint data will be summarized
+      using descriptive statistics. No statistical hypothesis is being tested in this study.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 4, 2018</start_date>
+  <completion_date type="Actual">January 9, 2018</completion_date>
+  <primary_completion_date type="Actual">January 9, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Device Feasibility</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percentage of Acceptable Overall Image Quality</measure>
+    <time_frame>1 Day</time_frame>
+    <description>The primary objective is to compare the percentage of acceptable overall image quality in unilateral two-view (CC and MLO) breast images acquired using Patient-Assisted Compression and Technologist Compression modes.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of Repeat Image Acquisitions</measure>
+    <time_frame>1 Day</time_frame>
+    <description>To evaluate the need for repeat image acquisition when using Patient-Assisted Compression and Technologist Compression modes.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Acceptable Mammographic Attributes</measure>
+    <time_frame>1 Day</time_frame>
+    <description>To evaluate the percentage of acceptable mammographic attributes for unilateral two-view breast images acquired using Patient-Assisted Compression and Technologist Compression modes.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">36</enrollment>
+  <condition>Breast Cancer</condition>
+  <arm_group>
+    <arm_group_label>All Study Participants</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>All subjects will undergo standard of care imaging on one breast. The other breast will be imaged using Patient-Assisted Compression (PAC), followed by Technologist-controlled (TC) Compression.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Patient-Assisted Compression (PAC)</intervention_name>
+    <description>The technologist will properly position the breast and apply minimum compression. The subject will be instructed to apply compression as the technologist ensures the breast tissue is in appropriate position and tautness. The technologist will then guide the subject to achieve appropriate compression level, sufficient but not excessive, and the image will be acquired. This will be done for both standard views Craniocaudal (CC) &amp; Mediolateral Oblique (MLO).</description>
+    <arm_group_label>All Study Participants</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Technologist-Controlled (TC) Compression</intervention_name>
+    <description>TC compression will be conducted per standard of care practices at the site.</description>
+    <arm_group_label>All Study Participants</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Are women aged 40 years or older;
+
+          2. Are asymptomatic and scheduled for screening mammography;
+
+          3. Have left and right breasts;
+
+          4. Have breast sizes compatible with the dimensions of a 24 x 31 cm image detector,
+             without anatomical cut-off;
+
+          5. Are documented as non-pregnant based on the investigator's medical judgment and in
+             consideration of local clinical practice standards for evidence of non-pregnancy;
+
+          6. Are able and willing to comply with study procedures; and
+
+          7. Are able and willing to provide written informed consent to participate.
+
+        Exclusion Criteria:
+
+          1. Are women aged 40 years or older;
+
+          2. Are asymptomatic and scheduled for screening mammography;
+
+          3. Have left and right breasts;
+
+          4. Have breast sizes compatible with the dimensions of a 24 x 31 cm image detector,
+             without anatomical cut-off;
+
+          5. Are documented as non-pregnant based on the investigator's medical judgment and in
+             consideration of local clinical practice standards for evidence of non-pregnancy;
+
+          6. Are able and willing to comply with study procedures; and
+
+          7. Are able and willing to provide written informed consent to participate.
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Boca Raton Regional Hospital</name>
+      <address>
+        <city>Boca Raton</city>
+        <state>Florida</state>
+        <zip>33486</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2019</verification_date>
+  <study_first_submitted>February 23, 2018</study_first_submitted>
+  <study_first_submitted_qc>February 28, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 7, 2018</study_first_posted>
+  <results_first_submitted>June 4, 2018</results_first_submitted>
+  <results_first_submitted_qc>January 9, 2019</results_first_submitted_qc>
+  <results_first_posted type="Actual">April 5, 2019</results_first_posted>
+  <last_update_submitted>January 9, 2019</last_update_submitted>
+  <last_update_submitted_qc>January 9, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 5, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>November 9, 2017</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/27/NCT03456427/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>All Study Participants</title>
+          <description>All subjects underwent standard of care imaging on one breast. The other breast was imaged using Patient-Assisted Compression (PAC), followed by Technologist-controlled (TC) Compression.
+Patient-Assisted Compression (PAC): The technologist properly positioned the breast and applied minimum compression. The subject was instructed to apply compression as the technologist ensures the breast tissue is in appropriate position and tautness. The technologist will then guide the subject to achieve appropriate compression level, sufficient but not excessive, and the image was acquired. This was done for both standard views CC &amp; MLO.
+Technologist-Controlled (TC) Compression: TC compression was conducted per standard of care practices at the site.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="36"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="33"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="3"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>All Study Participants</title>
+          <description>All subjects will undergo standard of care imaging on one breast. The other breast will be imaged using Patient-Assisted Compression (PAC), followed by Technologist-controlled (TC) Compression.
+Patient-Assisted Compression (PAC): The technologist will properly position the breast and apply minimum compression. The subject will be instructed to apply compression as the technologist ensures the breast tissue is in appropriate position and tautness. The technologist will then guide the subject to achieve appropriate compression level, sufficient but not excessive, and the image will be acquired. This will be done for both standard views CC &amp; MLO.
+Technologist-Controlled (TC) Compression: TC compression will be conducted per standard of care practices at the site.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="33"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="66.45" spread="10.99"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="33"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="29"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Menopausal Status</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Post-Menopausal</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="29"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Perimenopause</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Pre-Menopausal</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Percentage of Acceptable Overall Image Quality</title>
+        <description>The primary objective is to compare the percentage of acceptable overall image quality in unilateral two-view (CC and MLO) breast images acquired using Patient-Assisted Compression and Technologist Compression modes.</description>
+        <time_frame>1 Day</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>All Study Participants: Patient Assisted Compression</title>
+            <description>All subjects will undergo standard of care imaging on one breast. The other breast will be imaged using Patient-Assisted Compression (PAC), followed by Technologist-controlled (TC) Compression.
+Patient-Assisted Compression (PAC): The technologist will properly position the breast and apply minimum compression. The subject will be instructed to apply compression as the technologist ensures the breast tissue is in appropriate position and tautness. The technologist will then guide the subject to achieve appropriate compression level, sufficient but not excessive, and the image will be acquired. This will be done for both standard views CC &amp; MLO.</description>
+          </group>
+          <group group_id="O2">
+            <title>All Study Participants: Technologist Compression</title>
+            <description>All subjects will undergo standard of care imaging on one breast. The other breast will be imaged using Patient-Assisted Compression (PAC), followed by Technologist-controlled (TC) Compression.
+Technologist-Controlled (TC) Compression: TC compression will be conducted per standard of care practices at the site.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Acceptable Overall Image Quality</title>
+          <description>The primary objective is to compare the percentage of acceptable overall image quality in unilateral two-view (CC and MLO) breast images acquired using Patient-Assisted Compression and Technologist Compression modes.</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="33"/>
+                <count group_id="O2" value="33"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Image Quality: Acceptable</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="30"/>
+                    <measurement group_id="O2" value="33"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Image Quality: Unacceptable</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Repeat Image Acquisitions</title>
+        <description>To evaluate the need for repeat image acquisition when using Patient-Assisted Compression and Technologist Compression modes.</description>
+        <time_frame>1 Day</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>All Study Participants: Patient Assisted Compression</title>
+            <description>All subjects will undergo standard of care imaging on one breast. The other breast will be imaged using Patient-Assisted Compression (PAC), followed by Technologist-controlled (TC) Compression.
+Patient-Assisted Compression (PAC): The technologist will properly position the breast and apply minimum compression. The subject will be instructed to apply compression as the technologist ensures the breast tissue is in appropriate position and tautness. The technologist will then guide the subject to achieve appropriate compression level, sufficient but not excessive, and the image will be acquired. This will be done for both standard views CC &amp; MLO.</description>
+          </group>
+          <group group_id="O2">
+            <title>All Study Participants: Technologist Compression</title>
+            <description>All subjects will undergo standard of care imaging on one breast. The other breast will be imaged using Patient-Assisted Compression (PAC), followed by Technologist-controlled (TC) Compression.
+Technologist-Controlled (TC) Compression: TC compression will be conducted per standard of care practices at the site.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Repeat Image Acquisitions</title>
+          <description>To evaluate the need for repeat image acquisition when using Patient-Assisted Compression and Technologist Compression modes.</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="33"/>
+                <count group_id="O2" value="33"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Technologist-Indicated Repeat Acquisitions</title>
+              <category_list>
+                <category>
+                  <title>Repeat Acquisitions Indicated</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Repeat Acquisition not Indicated</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="32"/>
+                    <measurement group_id="O2" value="33"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Reader-Indicated Repeat Acquisitions</title>
+              <category_list>
+                <category>
+                  <title>Repeat Acquisitions Indicated</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3"/>
+                    <measurement group_id="O2" value="3"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Repeat Acquisition not Indicated</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="30"/>
+                    <measurement group_id="O2" value="30"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Percentage of Acceptable Mammographic Attributes</title>
+        <description>To evaluate the percentage of acceptable mammographic attributes for unilateral two-view breast images acquired using Patient-Assisted Compression and Technologist Compression modes.</description>
+        <time_frame>1 Day</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>All Study Participants: Patient Assisted Compression</title>
+            <description>All subjects will undergo standard of care imaging on one breast. The other breast will be imaged using Patient-Assisted Compression (PAC), followed by Technologist-controlled (TC) Compression.
+Patient-Assisted Compression (PAC): The technologist will properly position the breast and apply minimum compression. The subject will be instructed to apply compression as the technologist ensures the breast tissue is in appropriate position and tautness. The technologist will then guide the subject to achieve appropriate compression level, sufficient but not excessive, and the image will be acquired. This will be done for both standard views CC &amp; MLO.</description>
+          </group>
+          <group group_id="O2">
+            <title>All Study Participants: Technologist Compression</title>
+            <description>All subjects will undergo standard of care imaging on one breast. The other breast will be imaged using Patient-Assisted Compression (PAC), followed by Technologist-controlled (TC) Compression.
+Technologist-Controlled (TC) Compression: TC compression will be conducted per standard of care practices at the site.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Acceptable Mammographic Attributes</title>
+          <description>To evaluate the percentage of acceptable mammographic attributes for unilateral two-view breast images acquired using Patient-Assisted Compression and Technologist Compression modes.</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="33"/>
+                <count group_id="O2" value="33"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Breast Positioning</title>
+              <category_list>
+                <category>
+                  <title>Acceptable</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="29"/>
+                    <measurement group_id="O2" value="32"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unacceptable</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4"/>
+                    <measurement group_id="O2" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Exposure and Visualization</title>
+              <category_list>
+                <category>
+                  <title>Acceptable</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="33"/>
+                    <measurement group_id="O2" value="33"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unacceptable</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Breast Compression</title>
+              <category_list>
+                <category>
+                  <title>Acceptable</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="31"/>
+                    <measurement group_id="O2" value="32"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unacceptable</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                    <measurement group_id="O2" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Sharpness due to Motion</title>
+              <category_list>
+                <category>
+                  <title>Acceptable</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="32"/>
+                    <measurement group_id="O2" value="31"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unacceptable</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                    <measurement group_id="O2" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Image Contrast</title>
+              <category_list>
+                <category>
+                  <title>Acceptable</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="33"/>
+                    <measurement group_id="O2" value="33"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unacceptable</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Tissue Visibility at skin line</title>
+              <category_list>
+                <category>
+                  <title>Acceptable</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="31"/>
+                    <measurement group_id="O2" value="32"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unacceptable</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                    <measurement group_id="O2" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Noise</title>
+              <category_list>
+                <category>
+                  <title>Acceptable</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="33"/>
+                    <measurement group_id="O2" value="33"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unacceptable</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Artifacts due to image processing or other factors</title>
+              <category_list>
+                <category>
+                  <title>Acceptable</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="33"/>
+                    <measurement group_id="O2" value="33"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unacceptable</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>1 Day</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>All Study Participants</title>
+          <description>All subjects underwent standard of care imaging on one breast. The other breast was imaged using Patient-Assisted Compression (PAC), followed by Technologist-controlled (TC) Compression.
+Patient-Assisted Compression (PAC): The technologist properly positioned the breast and applied minimum compression. The subject was instructed to apply compression as the technologist ensures the breast tissue is in appropriate position and tautness. The technologist will then guide the subject to achieve appropriate compression level, sufficient but not excessive, and the image was acquired. This was done for both standard views CC &amp; MLO.
+Technologist-Controlled (TC) Compression: TC compression was conducted per standard of care practices at the site.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="36"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="36"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="36"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Beth Heckel</name_or_title>
+      <organization>GE Healthcare</organization>
+      <phone>1-262-312-7269</phone>
+      <email>beth.heckel@med.ge.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

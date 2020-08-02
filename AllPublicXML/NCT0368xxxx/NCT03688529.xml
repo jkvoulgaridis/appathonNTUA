@@ -1,0 +1,184 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03688529</url>
+  </required_header>
+  <id_info>
+    <org_study_id>V107C-209R</org_study_id>
+    <nct_id>NCT03688529</nct_id>
+  </id_info>
+  <brief_title>Analyzing the Noxious Autonomic Response During Shoulder Arthroscope Surgery</brief_title>
+  <official_title>Using Physiological Monitoring Instruments to Measure Autonomic Response From Surgical Steps of Shoulder Arthroscopy Surgery</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Taipei Veterans General Hospital, Taiwan</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Duke University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Taipei Veterans General Hospital, Taiwan</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To record the digital data from monitoring instruments (standard patient monitor) containing
+      cardiovascular system information, and from depth-of-anesthesia monitoring modules
+      (Bispectral index, Entropy module, Surgical Plethysmography Index, Analgesia Nociception
+      Index) containing neurological system information captured in the patient monitor, as well as
+      the physiological data regarding anesthetic dosage, respiratory gas analysis and the standard
+      monitoring requirement of anesthesia. The investigators also record the precise time points
+      of detail surgical steps during the shoulder arthroscopic surgery. Clinical data collected
+      from these monitoring instrument will be used to gain more understanding of the complex
+      interaction between anesthetic effect, surgical procedure, autonomic response and drug
+      modeling. The goal is to obtain the performance of each monitoring index in detail surgical
+      steps.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The dynamic interaction between surgery and anesthesia is closely monitored by the
+      anesthesiologist using various monitoring instruments in the operating room. However, it
+      requires the recording and collecting the data for further analysis to answer the question
+      that what is the exact effects of the surgical procedure to human body. In particular, the
+      measurement performance of transient bradycardia calculated from electrocardiography and the
+      monitoring indices such as Surgical Plethysmography Index, Analgesia Nociception Index should
+      be compared side-by-side using data from the same subject.
+
+      In this prospective observational study, the investigators will enroll 40 patients undergoing
+      elective laparoscopic surgery. Anesthetic management and surgery will be performed as usual
+      clinical practice.
+
+      The investigators will record the digital data exported from monitoring instruments,
+      including cardiovascular system information (electrocardiography, photo-plethysmography ,
+      blood pressure and any additional monitoring items clinically required), neurological system
+      information (Bispectral index, Entropy, Surgical Plethysmography Index ) and the respiratory
+      gas monitoring (gas analyzer, respiratory waveform). All above data are provided by standard
+      patient monitor (CARESCAPE Monitor B850, GE Healthcare). Analgesia Nociception Index are
+      provides by Analgesia Nociception Index monitoring instruments (Mdoloris Medical Systems).
+
+      The detailed surgical steps will be noted with precise time stamps to pinpoint the surgical
+      effects afterwards. Registered events including anesthetic induction, intubation,
+      disinfection, skin incision, dissecting muscle layer, fixing rupture site, suture to close
+      tear site and wound closure. The recording is ended before the end of monitoring in the
+      operating room. All physiological data and demographic data will be stored in digital media
+      after being de-linked from personal identification.
+
+      Data analysis and Statistics will be particularly performed to explore the temporal effect
+      and relationship. Methods including modeling, windowing and non-parametric spectral
+      estimation will be used.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">October 2018</start_date>
+  <completion_date type="Anticipated">January 2019</completion_date>
+  <primary_completion_date type="Anticipated">January 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Correlation of the instantaneous effects and accumulative noxious effects of surgical steps with quantitative transient bradycardia indices: high frequency power, low frequency power, and the low-to-high ratio</measure>
+    <time_frame>For each surgical events (skin incision, dissection... ), time frame will be one minute before the event to one minute afterward</time_frame>
+    <description>Frequency power will be calculated using time-frequency analysis technique. The unit of high frequency power and low frequency power is millisecond square. There is no unit for the ratio. Both absolute change and relative change will be calculated. These indices will be compared with physiological data from patient monitoring instrument also. Range of Spearman correlation is -1 to 1 and Range of prediction probability is 0.5-1.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Pharmacological modeling of epidemiological factors and anesthetic factors to physiological data from patient monitoring instrument</measure>
+    <time_frame>The intra-operative period which mostly lasts less than two hours, the duration of general anesthesia</time_frame>
+    <description>The effects of age, gender, pre-existing diseases, the effect site concentration of anesthetics and the combined effects are taken into consideration in real-life clinical anesthetic management. The collected data will be put altogether for analysis by training and verifying in a pharmacological drug surface modeling or other more advanced modeling tools, which include but not limited to &quot;Concentration-effect curve&quot;, &quot;Reduced Greco model&quot;, &quot;Minto model&quot; and &quot;Hierarchy model&quot;.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">40</enrollment>
+  <condition>Monitoring, Physiologic</condition>
+  <condition>Intraoperative Neurophysiological Monitoring</condition>
+  <condition>Anesthesia and Analgesia</condition>
+  <condition>Arthroscopy</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients agree and plan to undergo elective shoulder arthroscope surgery for rotator cuff
+        tear
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  patients agree and plan to undergo elective shoulder arthroscope surgery for rotator
+             cuff tear
+
+        Exclusion Criteria:
+
+          -  major cardiac problems
+
+          -  uncontrolled hypertension
+
+          -  arrhythmia shown in pre-operative ECG
+
+          -  major neurological disease
+
+          -  vulnerable populations per institutional regulation, including under-age, history of
+             drug abuse, HIV carrier, AIDS, aborigine, prisoner.
+
+        anticipated difficult airways
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Chien-Kun Ting, Dr.</last_name>
+    <role>Study Director</role>
+    <affiliation>Department of Anesthesiology, Taipei Veterans General Hospital, Taiwan</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Shen-Chih Wang</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Department of Anesthesiology, Taipei Veterans General Hospital, Taiwan</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Kuang-Yi Chang, Dr.</last_name>
+    <phone>0938593159</phone>
+    <email>sufentanil@gmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Chien-Kun Ting, Dr.</last_name>
+    <phone>0938593137</phone>
+    <email>ckting@vghtpe.gov.tw</email>
+  </overall_contact_backup>
+  <verification_date>September 2018</verification_date>
+  <study_first_submitted>September 26, 2018</study_first_submitted>
+  <study_first_submitted_qc>September 26, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 28, 2018</study_first_posted>
+  <last_update_submitted>September 26, 2018</last_update_submitted>
+  <last_update_submitted_qc>September 26, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 28, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>De-identified individual participant data for all primary and secondary outcome will be made available at Dataverse. (https://dataverse.harvard.edu/)</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_info_type>Clinical Study Report (CSR)</ipd_info_type>
+    <ipd_info_type>Analytic Code</ipd_info_type>
+    <ipd_time_frame>Data will be available within 6 months of study completion</ipd_time_frame>
+    <ipd_access_criteria>Data access will be under the term of use of Dataverse website.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

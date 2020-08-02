@@ -1,0 +1,324 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03955614</url>
+  </required_header>
+  <id_info>
+    <org_study_id>19SM4984</org_study_id>
+    <nct_id>NCT03955614</nct_id>
+  </id_info>
+  <brief_title>Intelligent Operating Room</brief_title>
+  <acronym>inOr</acronym>
+  <official_title>A Feasibility Study to Evaluate the Use of Digital Technologies and Artificial Intelligence (AI) to Enhance Surgical Team Training and Performance in the Operating Theatre and to Improve Efficiency and Patient Outcomes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Imperial College London</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Imperial College London</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The widely varied practice of surgery, alongside rapidly expanding specialised knowledge and
+      evolving technology as well as the fast turnover of operating theatre staff means they often
+      face unfamiliar operations, techniques and equipment. To the investigator's knowledge, there
+      is no formal induction for the work undertaken specifically within the operating theatre.
+
+      Many studies have shown that standardised practices, formal training and mental rehearsal
+      improve surgical performance.
+
+      In this context, Artificial Intelligence (AI) is expected to have vast applications in
+      surgery, particularly through standardisation, clinical decision and training support as well
+      as patient-centred care optimisation.
+
+      Digital SurgeryTM developed GoSurgeryTM software to consolidate induction processes, support
+      training and achieve standardised surgical practices, ultimately improving surgical
+      performances and patient outcomes.
+
+      GoSurgeryTM allows surgeons to prepare step-by-step standardised workflows of procedures,
+      including equipment, tips and warnings.
+
+      In preparation for surgery, workflows can used by operating team staff as a form of induction
+      and mental rehearsal. During the surgery, using pedal-controlled tablets, relevant
+      information for each step of the procedure is presented. GoSurgeryTM has developed AI
+      computer vision to recognise the steps and automatically present the workflows without
+      user-intervention.
+
+      After the surgery, the AI will allow surgeons to review their performances uploaded onto a
+      personal virtual Hub and compare timing of steps to their previous repository of cases, as
+      well as giving them the ability to share any interesting or difficult cases, supporting
+      learning opportunities and monitoring of progression.
+
+      This feasibility study sets the bases to test the ability of GoSurgeryTM to improve induction
+      processes, team performance, surgical training and patient outcomes.
+
+      The research will compare preparedness and performance of operating staff with/without the
+      use of GoSurgeryTM, through questionnaires, observational team assessments, technical
+      measures and patient outcomes.
+
+      Data will be collected at Imperial College Trust, Chelsea and Westminster Hospital and
+      University College Hospital on patients undergoing general surgery. Anonymised images of
+      keyhole surgery shall be analysed in collaboration with Digital SurgeryTM to develop the AI
+      computer vision software.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Primary emergency and elective general surgery procedures at St Mary's Hospital, Imperial
+      College Healthcare Trust, Chelsea and Westminster University Hospital Trusts and University
+      College London University Hospital, under the care of participating surgical teams shall be
+      considered.
+
+      The study will be set up as a sequential cohort study, comparing the performance of surgical
+      teams, before and after the introduction of GoSurgeryTM software.
+
+      We will include three Bariatric teams from St Mary's, University Hospital and Chelsea and
+      Westminster Hospitals.
+
+      In the three cohorts, videocameras and microphones will be positioned in the operating
+      theatre in order to capture all events and conversations taking place from the beginning to
+      the end of each case.
+
+      As is routine surgical practice, once the patient has been prepared for surgery, the keyhole
+      (laparoscopic) camera will be connected to the laparoscopic stack to be projected onto the
+      operating room screens. Recording will be started at the time of inserting the camera into
+      the patient's abdomen, as is protocol.
+
+      in the intervention phase, GoSurgeryTM workflows will be made available to the intervention
+      group for preparation before the cases and will be displayed within the operating theatre
+      during the operation.
+
+      They will be controlled though pedals that allow to move backwards and forwards through the
+      workflow.
+
+      When using GoSurgeryTM with visual recognition software, the keyhole video footage shall be
+      directly extracted using local transfer over a closed wired network.
+
+      This video shall be fed into the visual recognition software algorithm. The software shall
+      then recognise the specific part of the procedure being performed and display the relevant
+      information on dedicated screens showing different views for different members of the team,
+      eg surgeon view or scrub nurse view. Videos will be used to train the machine learning
+      software to recognise the different steps of different operations so that it may then replace
+      the pedal controls.
+
+      Members of the surgical team shall be asked to complete questionnaires before and/or after
+      the cases.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 4, 2019</start_date>
+  <completion_date type="Anticipated">October 2020</completion_date>
+  <primary_completion_date type="Anticipated">October 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Sequential Assignment</intervention_model>
+    <intervention_model_description>Surgical teams in participating departments will be observed whilst performing 25 cases as per their standard, in order to establish baseline measurements. Subsequently, the Gosurgery software will be introduced and 25 cases utilising the new technology will be assessed.</intervention_model_description>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Does GosurgeryTM affect teamwork?</measure>
+    <time_frame>audio-video recordings of the operation shall be taken lasting the entire duration of the case from when patient enters anaesthetic room to when they exit they operating theatre. they will be scored within 1-3 months.</time_frame>
+    <description>The Observational Teamwork Assessment for Surgery (OTAS) will be measured for each case, this is an assessment instrument which is used to evaluate quality of teamwork in clinical settings.OTAS distinguishes between three phases of surgery: Pre-operative, intra-operative and post-operative; and the three core operating theatre sub-teams: surgical, nursing and anaesthetic.
+OTAS evaluates 5 teamwork behaviours:
+Communication, Coordination, Cooperation /Back up behaviour, Leadership, Team Monitoring/ Situational Awareness.
+In total OTAS generates 45 behavioural evaluations per observed surgical procedure: 5 behaviours x 3 sub-teams x 3 operative phases. These evaluations are expressed on a 0 to 6 anchored scale, with higher scores indicating higher quality teamwork.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Does GoSurgeryTM affect surgical training overtime?</measure>
+    <time_frame>After operative cases as detailed above throughout 2 phases, approximately 4-5 months.</time_frame>
+    <description>Members of the surgical team will be asked to fill out study-specific questionnaires including open questions and Likert-Style questionnaires relating to their perceived learning experience (Strongly Disagree, Tend to Disagree, Neither Agree nor Disagree, Tend to Agree, Strongly Agree).
+The questionnaire will take approximately 5 minutes to complete. Operating theatre staff questionnaires will be handed out in the interventional phases after the first 3 lists and then after the 5th list and the last list.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Does GoSurgeryTM affect delays in the operating theatre?</measure>
+    <time_frame>After the surgery, within 1-24 months.</time_frame>
+    <description>Audio-video recordings of the surgery will be examined to measure timing of each operative step and to identify if any delays were incurred. These delays will be labelled according to causation eg equipment retrieval, equipment failure, lack of staff, lack of bed etc.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Does GoSUrgeryTM affect mental demand overtime when operating?</measure>
+    <time_frame>After operative cases as detailed above throughout 3 phases, approximately 4-6 months.</time_frame>
+    <description>Members of the surgical team will be asked to fill out a validated SURG-TLX questionnaire assessing mental demands.
+The Surgery Task Load Index (SURG-TLX) is a multidimensional rating scale that has six bipolar dimensions: Mental demands, Physical demands, Temporal demands, Task complexity, Situational stress, Distractions. These are weighted from low to high on a numerical scale, with high signifying higher perception and low lower perception, as well as in a pairwise comparisons of applicability.
+The weighted scales are utilised to calculate a total workload score as well as being used individually to score each domain.
+During all 3 phases, we will ask SURG-TLX questionnaire to be completed after first 3 cases of each type of surgery (eg first three sleeve gastrectomies).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Does GoSurgeryTM affect operative timings?</measure>
+    <time_frame>After the surgery, within 1-24 months.</time_frame>
+    <description>Surgical performance will be assessed by measuring operative timings as per the video recordings of the operation.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Does GoSurgeryTM affect patient outcomes (the presence of complications )?</measure>
+    <time_frame>from Day of Surgery to 7 months after surgery.</time_frame>
+    <description>Patient medical records will be reviewed for up to 7 months after the surgery and examined for the presence of any complications as defined by the Clavien-Dindo classification.
+ClavienDindo:
+Grade I Any deviation from the normal postoperative course without the need for pharmacological treatment or surgical, endoscopic and radiological interventions Grade II Requiring pharmacological treatment with drugs other than such allowed for grade I complications. Blood transfusionsand total parenteral nutritionare also included.
+Grade III Requiring surgical, endoscopic or radiological intervention Grade IV Life-threatening complication (including CNS complications)* requiring IC/ICU-management Grade V Death of a patient</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Does GoSurgeryTM affect patient outcomes (duration of hospital stay)?</measure>
+    <time_frame>from Day of Surgery to 7 months after surgery.</time_frame>
+    <description>Patient medical records will be reviewed for up to 7 months after the surgery to determine time spent in hospital as a result of the procedure, including Length of stay (days) postoperatively, re-admissions or re-presentations to A&amp;E .</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>How does GosurgeryTM affect team performance?</measure>
+    <time_frame>After the surgery, within 1-24 months.</time_frame>
+    <description>Identification of other factors associated with the use of the GosurgeryTM but not directly caused or intended, that may contribute to better team work. This will be completed through the assessment of open feedback questions on questionnaires completed by team members after operative cases and review of audio-video recordings.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Evaluation of the Machine Learning algorithm to correctly detect operative steps of the procedures.</measure>
+    <time_frame>After the surgery, within 1-24 months.</time_frame>
+    <description>Manual and Machine learning Time stamps for different steps of different procedures will be compared to determine accuracy. This will be performed on approximately 20-30 videos of the keyhole surgery.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Does GoSurgeryTM influence cost of wasted equipment?</measure>
+    <time_frame>After the surgery, within 1-24 months.</time_frame>
+    <description>Audio-video recordings of the surgery will be examined to identify any financial cost incurred as a result of incorrect equipment being opened due to lack of familiarity with the procedure or the surgeons' preferences.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">150</enrollment>
+  <condition>Surgery</condition>
+  <arm_group>
+    <arm_group_label>St Marys Hospital</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>25 cases will be observed before the intervention and then 25 cases will be observed with the intervention</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>University College Hospital</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>25 cases will be observed before the intervention and then 25 cases will be observed with the intervention</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Chelsea and Westminster Hospital</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>25 cases will be observed before the intervention and then 25 cases will be observed with the intervention</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>pedal-controlled GoSurgeryTM</intervention_name>
+    <description>Members of the surgical team are given operative instruction workflows to use in preparation of a specific operation and to consult during the operation if needed. The workflows are controlled by the surgical staff using pedals.
+The operating theatre environment is recorded to observe how teamwork may be affected by the intervention.</description>
+    <arm_group_label>Chelsea and Westminster Hospital</arm_group_label>
+    <arm_group_label>St Marys Hospital</arm_group_label>
+    <arm_group_label>University College Hospital</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>ML-controlled GoSurgeryTM</intervention_name>
+    <description>Members of the surgical team are given operative instruction workflows to use in preparation of a specific operation and to consult during the operation if needed. The workflows are projected onto screen based on the machine learning algorithm's determination of current operative step.
+The operating theatre environment is recorded to observe how teamwork may be affected by the intervention.</description>
+    <arm_group_label>Chelsea and Westminster Hospital</arm_group_label>
+    <arm_group_label>St Marys Hospital</arm_group_label>
+    <arm_group_label>University College Hospital</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>NoGo</intervention_name>
+    <description>The operating theatre environment is recorded to observe baseline teamwork.</description>
+    <arm_group_label>Chelsea and Westminster Hospital</arm_group_label>
+    <arm_group_label>St Marys Hospital</arm_group_label>
+    <arm_group_label>University College Hospital</arm_group_label>
+    <other_name>baseline observation</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Patient Inclusion Criteria:
+
+          -  patients undergoing any elective general surgery procedures;
+
+          -  patients undergoing emergency general surgery procedures where the urgency of the
+             procedure does not preclude gaining informed consent and setting up the necessary
+             equipment;
+
+          -  all patients must have capacity and be able to give consent either in English or
+             through the use of an interpreter.
+
+        Operating theatre staff inclusion criteria:
+
+        - any staff whom have been allocated to the case
+
+        Patient Exclusion criteria shall include:
+
+          -  patients undergoing immediate or urgent interventions whereby clinical urgency impedes
+             the appropriate consent process to take place or the equipment to be set up;
+
+          -  patients whom do not have capacity;
+
+          -  patients whose level of English is not sufficient to give consent and an interpreter
+             is not available.
+
+        Operating theatre staff exclusion criteria:
+
+        - there are no exclusion criteria for the operating theatre staff.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sanjay Purkayastha, MBBS MD FRCS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Imperial College London</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jasmine Winter Beatty, MBBS MSc</last_name>
+    <phone>020331226666</phone>
+    <phone_ext>21955</phone_ext>
+    <email>jasmine.winterbeatty@nhs.net</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Ruth Nicholson</last_name>
+    <phone>020759 41862</phone>
+    <email>r.nicholson@nhs.net</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Imperial College Hospitals NHS Trust</name>
+      <address>
+        <city>London</city>
+        <zip>W21NY</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jasmine Winter Beatty, MBBS BSc</last_name>
+      <phone>02033126666</phone>
+      <email>jasmine.winterbeatty@nhs.net</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>October 2019</verification_date>
+  <study_first_submitted>March 11, 2019</study_first_submitted>
+  <study_first_submitted_qc>May 16, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 20, 2019</study_first_posted>
+  <last_update_submitted>October 8, 2019</last_update_submitted>
+  <last_update_submitted_qc>October 8, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 10, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Surgery</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

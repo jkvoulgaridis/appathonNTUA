@@ -1,0 +1,254 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04043650</url>
+  </required_header>
+  <id_info>
+    <org_study_id>UP-18-00791</org_study_id>
+    <nct_id>NCT04043650</nct_id>
+  </id_info>
+  <brief_title>Developing Dynamic Theories for Behavior Change</brief_title>
+  <official_title>Operationalizing Behavioral Theory for mHealth: Dynamics, Context, and Personalization</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Southern California</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of California, San Diego</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Arizona State University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Kaiser Permanente</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Northeastern University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Massachusetts, Amherst</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Southern California</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of this research is to evaluate the efficacy of contextually tailored activity
+      suggestions and activity planning for increasing physical activity among sedentary adults.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Unhealthy behaviors contribute to the majority of chronic diseases, which account for 86% of
+      all healthcare spending in the US. Despite a great deal of research, the development of
+      behavior change interventions that are effective, scalable, and sustainable remains
+      challenging. Recent advances in mobile sensing and smartphone-based technologies have led to
+      a novel and promising form of intervention, called a &quot;Just-in-time, adaptive intervention&quot;
+      (JITAI), which has the potential to continuously adapt to changing contexts and personalize
+      to individual needs and opportunities for behavior change. Although interventions have been
+      shown to be more effective when based on sound theory, current behavioral theories lack the
+      temporal granularity and multiscale dynamic structure needed for developing effective JITAIs
+      based on measurements of complex dynamic behaviors and contexts. Simultaneously, there is a
+      lack of modeling frameworks that can express dynamic, temporally multiscale theories and
+      represent dynamic, temporally multiscale data. This project will address the
+      theory-development, measurement, and modeling challenges and opportunities presented by
+      intensively collected longitudinal data, with a focus on physical activity and sedentary
+      behavior, and broad implications for other behaviors.
+
+      For efficiency, the study builds on the NIH-funded year-long micro- randomized trial (MRT) of
+      HeartSteps (n=60), an adaptive mHealth intervention based on Social- Cognitive Theory (SCT)
+      developed to increase walking and decrease sedentary behavior in patients with cardiovascular
+      disease. The aims of this new proposal are: 1) Refine and develop dynamic measures of
+      theoretical constructs that influence the study's target behaviors, 2) Enhance HeartSteps
+      with the measures developed in Aim 1 and collect data from two additional year-long
+      HeartSteps cohorts (sedentary overweight/obese adults (n=60) and type 2 diabetes patients
+      (n=60), total n=180), 3) Develop a modeling framework to operationalize dynamic and
+      contextualized theories of behavior in an intervention setting, and 4) Improve prediction of
+      SCT outcomes using increasingly complex models. The work proposed here will provide new
+      digital, data driven measures of key behavioral theory constructs at the momentary, daily,
+      and weekly time scales, provide new tools tailored for the specification of complex models of
+      behavioral dynamics, as well as new model estimation tools tailored specifically to the
+      complex, longitudinal, multi-time scale behavioral and contextual data that are now
+      accessible using mHealth technologies. Finally, the investigators will leverage the collected
+      data and the proposed modeling tools to develop and test enhanced, dynamic extensions of
+      social cognitive theory operationalized as fully quantified, predictive dynamical models.
+      Collectively, this work will provide the theoretical foundations and tools needed to
+      significantly increase the effectiveness of physical activity-based mobile health
+      interventions over multiple time scales, including their ability to effectively support
+      behavior change over longer time scales.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 10, 2020</start_date>
+  <completion_date type="Anticipated">December 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>At each &quot;decision time&quot;—a time point when an intervention component can be delivered—each day of the study each participant is randomized between intervention or no intervention (delivery of a contextually tailored activity suggestion or no suggestion; morning motivational message or no motivational message)</intervention_model_description>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>30 minute step count</measure>
+    <time_frame>30 minutes</time_frame>
+    <description>step count within the 30-minute window after each available decision point when activity suggestions are randomized. Assessed using the Fitbit Versa Activity tracker.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Daily step count</measure>
+    <time_frame>24 hours</time_frame>
+    <description>Daily step count on the day of treatment. Assessed using the Fitbit Versa activity tracker.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Moderate or Vigorous Physical Activity (MVPA)</measure>
+    <time_frame>24 hours</time_frame>
+    <description>Number of minutes of moderate or vigorous physical activity</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Physical Activity</condition>
+  <arm_group>
+    <arm_group_label>HeartSteps Intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>For activity suggestions, at each available decision time, each participant is randomly assigned to either receive an activity suggestion or not.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>HeartSteps</intervention_name>
+    <description>HeartSteps is a smartphone based mHealth intervention that contains the following intervention components: (1) contextually-tailored suggestions for activity; (2) motivational messages aimed at keeping individuals motivated to be active; (3) planning of the next week's activity; and (4) adaptive weekly activity goals. Activity suggestions provide individuals with suggestions for how they can be active, and are tailored based on time of day, user's location, day of the week (weekend/weekday), and weather. Motivational messages are delivered to individuals via a push notification. Activity planning asks users to create a plan of how they will be active in the coming week. Participants are prompted to plan once a week. Each week, as part of the weekly planning, HeartSteps suggests an activity goal for the coming week based on their activity levels the previous week. Participants can edit the suggested goal, and the system-suggested goals top out at 150 minutes of activity per week.</description>
+    <arm_group_label>HeartSteps Intervention</arm_group_label>
+    <other_name>A just-in-time intervention for increasing physical activity among sedentary adults</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Individuals are able to participate in mild or moderate physical activity
+
+          -  They are competent to give informed consent
+
+          -  Individuals are regular (daily) users of a smartphone (iPhone or Android)
+
+          -  Individuals are willing to participate in the study protocols, including regularly
+             carrying a mobile phone, using the HeartSteps application, answering phone-based
+             questionnaires, and tracking their physical activity using the Fitbit Versa activity
+             tracker
+
+          -  Body Mass Index (BMI, weight in kilograms (kg) divided by height in meters squared)
+             between 25--45
+
+          -  Able to walk one mile without significant discomfort.
+
+        Exclusion Criteria:
+
+          -  Being mentally incapable of giving informed consent
+
+          -  Current enrollment in a formal exercise program
+
+          -  Psychiatric disorder which limits patients' ability to follow the study protocol,
+             including psychosis or dementia
+
+          -  Orthopedic problems that prevent participation in a walking program
+
+          -  Significant peripheral neuropathy
+
+          -  Severe cognitive impairment
+
+          -  Pregnancy
+
+          -  Non-English speaking.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Donna Spruijt-Metz, MFA, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Southern California</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Donna Spruijt, MFA, PhD</last_name>
+    <phone>2138211775</phone>
+    <email>dmetz@usc.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Grace Do, BS</last_name>
+    <phone>2137647958</phone>
+    <email>gdo@usc.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of Southern California</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90032</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Donna Spruijt-Metz, PhD</last_name>
+      <email>dmetz@usc.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Donna Spruijt-Metz, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>July 31, 2019</study_first_submitted>
+  <study_first_submitted_qc>July 31, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 2, 2019</study_first_posted>
+  <last_update_submitted>June 29, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 29, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 1, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Southern California</investigator_affiliation>
+    <investigator_full_name>Donna Spruijt-Metz</investigator_full_name>
+    <investigator_title>Research Professor</investigator_title>
+  </responsible_party>
+  <keyword>Physical Activity</keyword>
+  <keyword>Mobile Health</keyword>
+  <keyword>Self Monitoring</keyword>
+  <keyword>Wearable Sensors</keyword>
+  <keyword>Tailored Health Communication</keyword>
+  <keyword>Implementation Intentions</keyword>
+  <keyword>Mobile Apps</keyword>
+  <keyword>Anti-Sedentary Behavior</keyword>
+  <keyword>Opportunistic Physical Activity</keyword>
+  <keyword>Health Belief Model</keyword>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>A de-identified dataset (i.e., containing no raw location/GPS information) will be generated and made available to the research community. The dataset will be stripped of all codes or any other information that could be linked back to the original data or to an individual participant. Prospective users of this dataset must agree to a confidentiality agreement, meaning that they must get permission from the HeartSteps Primary Investigator to share the data with anyone else. All external requests for data will be directed to Dr. Donna Spruijt-Metz. Prospective investigators will submit a written proposal to the HeartSteps Investigator Team outlining the question they will investigate, the specific variables that they need to answer that question, their analytic plan for answering that question, and documentation of sufficient Institutional Review Board oversight (e.g., approval or exemption). Investigators will also need to sign a confidentiality agreement.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_time_frame>The investigators will make de-identified versions of the data, and meta data describing these data sets, available after the main papers have been written and no later than 1 year after the close of the project. The source code for the HeartSteps system will be made available in a publicly accessible repository on github.com. At the close of the study, the de-identified data, analyzed data, and metadata could be mined by other researchers for understanding human behavior on many levels. Data from all secondary analyses datasets will be de-identified a priori where this is possible, and the de-identified data will be made available via the project website after publication of the main outcomes papers, or at one year after the close of the study, whichever comes first.</ipd_time_frame>
+    <ipd_access_criteria>The model specification files, and documentation for this project will be made available on http://github.com (or similar open-source code-sharing service) under a permissive BSD-style open-source license ( http://www.linfo.org/bsdlicense.html). Similarly, design documents, images and descriptions of new modeling techniques will be made available to the public via the project website under a Creative Commons Attribution license (http://creativecommons.org). These licenses will allow others to re-use, re-distribute, and produce derivatives of the work royalty-free and with minimal conditions. The investigators plan to release documentation along with or shortly after the publication of related research articles.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

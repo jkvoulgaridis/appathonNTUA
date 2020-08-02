@@ -1,0 +1,166 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04183972</url>
+  </required_header>
+  <id_info>
+    <org_study_id>KY2019-502</org_study_id>
+    <nct_id>NCT04183972</nct_id>
+  </id_info>
+  <brief_title>Identification of Interscalene Brachial Plexus on Ultrasonography Using a Deep Neural Network</brief_title>
+  <acronym>IBRUNNET</acronym>
+  <official_title>Identification of Interscalene Brachial Plexus Automatically on Ultrasonography Using a Deep Neural Network</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Huashan Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Huashan Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of the study is to develop and validate an algorithm based on deep neural
+      networks (DNNs) to identify interscalene brachial plexus on ultrasonography automatically.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The investigators plan to develop a deep learning-based network to automatically identify
+      interscalene brachial nerves on ultrasound images. The trained model will be validated on an
+      independent dataset. The performance of the network will also be compared against practicing
+      anesthesiologists.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">December 1, 2019</start_date>
+  <completion_date type="Anticipated">August 31, 2020</completion_date>
+  <primary_completion_date type="Anticipated">July 15, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Patients who have been scheduled to surgery will be recruited for collecting ultrasound images.</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The areas-under-the-curve (AUC) of Receiver-operating characteristic curve （ROC）</measure>
+    <time_frame>through study completion, an average of 6 months</time_frame>
+    <description>ROC will be calculated to evaluate the network's performance</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity and specificity</measure>
+    <time_frame>through study completion, an average of 6 months</time_frame>
+    <description>Sensitivity and specificity of the network</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">1050</enrollment>
+  <condition>Ultrasound Therapy; Complications</condition>
+  <arm_group>
+    <arm_group_label>Image collecting Group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>An computer algorithm will be developed and evaluated by these image data.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>ultrasound examination</intervention_name>
+    <description>the participants will be placed in the supine position, with head turned slightly away from the operating side and arms beside the body. The operator will identify right and left interscalene brachial plexuses by ultrasound equipment (Sonosite EDGE or GE LOGIQ e). Clear images and videos of brachial plexus will be captured and saved.</description>
+    <arm_group_label>Image collecting Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  ASA physical status class I or II
+
+          -  scheduled for elective surgery
+
+        Exclusion Criteria:
+
+          -  skin lesion or infection of neck
+
+          -  any known peripheral neuropathy
+
+          -  brachial nerve plexus injury
+
+          -  previous injury or operation on neck
+
+          -  pregnancy
+
+          -  allergic to ultrasound gel
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Xiaoyu Yang, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Huashan Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Xiaoyu Yang, MD</last_name>
+    <phone>52889999</phone>
+    <phone_ext>7693</phone_ext>
+    <email>yangxiaoyu@huashan.org.cn</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Huashan Hospital</name>
+      <address>
+        <city>Shanghai</city>
+        <state>Shanghai</state>
+        <zip>200040</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>CuiYun Wu</last_name>
+      <phone>52889999</phone>
+      <phone_ext>8047</phone_ext>
+    </contact>
+    <investigator>
+      <last_name>Xiao-Yu Yang, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>November 19, 2019</study_first_submitted>
+  <study_first_submitted_qc>November 29, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 3, 2019</study_first_posted>
+  <last_update_submitted>June 5, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 5, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 9, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Huashan Hospital</investigator_affiliation>
+    <investigator_full_name>Xiao-Yu Yang, MD</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>peripheral nerve block</keyword>
+  <keyword>ultrasound image</keyword>
+  <keyword>deep neural network</keyword>
+  <keyword>brachial plexus</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

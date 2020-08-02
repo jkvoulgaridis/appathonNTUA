@@ -1,0 +1,226 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04321200</url>
+  </required_header>
+  <id_info>
+    <org_study_id>833180</org_study_id>
+    <nct_id>NCT04321200</nct_id>
+  </id_info>
+  <brief_title>PANDA Gym: Automated Assessment of Neurodevelopment in Infants at Risk for Motor Disability</brief_title>
+  <official_title>Automated Assessment of Neurodevelopment in Infants at Risk for Motor Disability</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Pennsylvania</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Children's Hospital of Philadelphia</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Pennsylvania</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Early childhood detection of motor delays or impairments provides the opportunity for early
+      treatment which improves health outcomes. This study will use state of the art sensors
+      combined with machine learning algorithms to develop objective, accurate, easy-to-use tools
+      for the early scoring of deficits and lays the foundation for the early prediction of
+      physical disability.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      For children with neurodevelopmental disabilities, early treatment in the first year of life
+      improves long-term outcomes. However, the investigators are currently held back by
+      inadequacies of available clinical tests to measure and predict impairment. Existing tests
+      are hard to administer, require specialized training, and have limited long-term predictive
+      value. There is a critical need to develop an objective, accurate, easy-to-use tool for the
+      early prediction of long-term physical disability. The field of pediatrics and infant
+      development would greatly benefit from a quantitative score that would correlate with
+      existing clinical measures used today to detect movement impairments in very young infants.
+      To realize a new generation of tests that will be easy to administer, the investigators will
+      obtain large datasets of infants playing in an instrumented gym or simply being recorded
+      while moving in a supine posture. Video and sensor data analyses will convert movement into
+      feature vectors based on our knowledge of the problem domain. Our approach will use machine
+      learning to relate these feature vectors to currently recommended clinical tests or other
+      ground truth information. The power of this design is that algorithms can utilize many
+      aspects of movement to produce the relevant scores.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">August 1, 2020</start_date>
+  <completion_date type="Anticipated">July 1, 2024</completion_date>
+  <primary_completion_date type="Anticipated">August 1, 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Prechtl's General Movements Assessment (GMA)</measure>
+    <time_frame>Every 4 weeks</time_frame>
+    <description>The spontaneous movements of infants aged 1 to 5 months will be classified with the GMA. The GMA is a qualitative observational scale of infant movement. Normal infant movement is described as a writhing movement at earlier ages, characterized by small, circular and elegant movements, and fidgety movements at older ages.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>The Test of Infant Motor Performance (TIMP)</measure>
+    <time_frame>Every 4 weeks (1-4 months)</time_frame>
+    <description>The TIMP, a test of infant movement designed to be used at term age and up to 16 weeks after, will be used to assess infants between 0 and 4 months.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Alberta Infant Motor Scale (AIMS)</measure>
+    <time_frame>Every 4 weeks (3-6 months)</time_frame>
+    <description>The AIMS is a quick motor screen that will be administered with infants 3,6 months of age.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Hammersmith Infant Neurological Examination (HINE)</measure>
+    <time_frame>Every 4 weeks (1-5 months)</time_frame>
+    <description>The HINE, an examination of general infant neurological function and movement, will be administered with infants at all ages.</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">1700</enrollment>
+  <condition>Pediatric ALL</condition>
+  <condition>Infant Development</condition>
+  <condition>Neurodevelopmental Disorders</condition>
+  <arm_group>
+    <arm_group_label>Cross-sectional-150 infants (atypical vs typical)</arm_group_label>
+    <description>Arm (Study)1: To assess the concurrent validity of a multimodal instrumented gym with existing clinical tools. Here, using 150 infants, we will focus on converting data from an instrumented gym into estimates of the standard clinical tests.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Longitudinal cohort - 50 infants (atypical vs typical)</arm_group_label>
+    <description>Arm (Study) 2: To discover the features related to long-term motor development. Here we will convert data collected longitudinally from 50 infants, using both instrumented gym and video recordings, into estimates standard clinical tests change over time and track features over developmental timescales.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cross-sectional-1500 infants (atypical vs typical)</arm_group_label>
+    <description>Arm (Study) 3: To develop a computer vision-based algorithm to quantify infant motor performance from a single-camera video. Here using video data from 1200 infants, plus those gathered from Arm 1 and Arm 2, we will extract pose data from single-camera video recordings and convert these into kinematic features and relevant scores needed to classify infant movement.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>PANDA Gym</intervention_name>
+    <description>Infants will lie supine on a flat surface and will be placed in the PANDA gym where they either move by themselves or will interact with an instrumented toy. We will collect video, mat, and toy data from PANDA gym under two conditions: 1) infants playing supine without a toy and 2) infants reach, grasp and kick of the new PANDA toy. A test session will proceed as follows: The infant will be placed on his or her back at a predetermined position on the gym mat for the 2-minute no toy condition. Next, the toy will be given to the baby and adjusted for the infant to reach or kick. A caregiver will be seated at the head of the baby (out of a baby's sight) to provide comfort if needed. Testing will be done in NICU or at daycare or the rehabilitation robotics lab at University of Pennsylvania.</description>
+    <arm_group_label>Cross-sectional-150 infants (atypical vs typical)</arm_group_label>
+    <arm_group_label>Longitudinal cohort - 50 infants (atypical vs typical)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Mobile App</intervention_name>
+    <description>The parent or legal guardian will be consented first via the virtual rounding mobile app. They will also be asked to fill out general surveys including, a demographic survey, and a case report form, and a user feedback survey that provides relevant information, on both the family's and infant's medical history and experience. (see the flow-chart for the app). Within the caregiver survey, we will request the pediatrician (or primary care physician) name. We believe that with the baby name, caregiver name, zip code, and physician name, we will be able to locate the physician if needed.
+Parents or legal guardians or the research will be asked to collect video via the MOBILE app. They will be instructed to ensure that the infant lies supine in no more than one-layer of tight-fitting clothing (i.e. infant onesie) while calm and awake. In all cases, we will have video recordings of the baby. They will be asked to upload the video to the app.</description>
+    <arm_group_label>Cross-sectional-1500 infants (atypical vs typical)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Study 1: 150 infants (75 with early brain injury, 75 Control). Age 1-6 months. Study 2: 50
+        infants (25 with early brain injury, 25 Control). Age 1 month. Study 3: 1200 infants (400
+        with EBI, 400 preterm without EBI/risk for future disability, 400 controls) from video
+        data. Age 1-6 months.
+
+        Infants without EBI/risk for future disability: Infants without known brain injuries, but
+        with a history of preterm birth less than 32 week gestation, significant medical problems,
+        difficulty eating, or who lack head control at 4 months of age or later will be classified
+        as moderate risk.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Infants, male and female, between 0-6 months (Infants older than 6 months before initial
+        enrollment will be excluded).
+
+          -  Infants with early brain injury (EBI):
+
+               -  Hydrocephalus
+
+               -  Hypoxic-ischemic encephalopathy (HIE)
+
+               -  Periventricular leukomalacia (PVL)
+
+               -  Intraventricular hemorrhage (IVH)
+
+               -  Stroke
+
+          -  Healthy infants (controls):
+
+             o No history of early brain injury (EBI)
+
+          -  Infants without EBI/risk for future disability:
+
+               -  Infants without known brain injuries, but with a history of preterm birth less
+                  than 32-week gestation with significant medical problems, difficulty eating, or
+                  who lack head control at 4 months of age or later will be classified as moderate
+                  risk.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>6 Months</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Michelle J Johnson, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The University of Pennsylvania</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Michelle J Johnson, PhD</last_name>
+    <phone>215-893-2665</phone>
+    <email>johnmic@pennmedicine.upenn.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Laura Prosser, PhD</last_name>
+    <phone>215-590-2495</phone>
+    <email>ProsserL@email.chop.edu</email>
+  </overall_contact_backup>
+  <reference>
+    <citation>Novak I, McIntyre S, Morgan C, Campbell L, Dark L, Morton N, Stumbles E, Wilson SA, Goldsmith S. A systematic review of interventions for children with cerebral palsy: state of the evidence. Dev Med Child Neurol. 2013 Oct;55(10):885-910. doi: 10.1111/dmcn.12246. Epub 2013 Aug 21. Review.</citation>
+    <PMID>23962350</PMID>
+  </reference>
+  <reference>
+    <citation>Noble Y, Boyd R. Neonatal assessments for the preterm infant up to 4 months corrected age: a systematic review. Dev Med Child Neurol. 2012 Feb;54(2):129-39. doi: 10.1111/j.1469-8749.2010.03903.x. Epub 2011 Dec 5. Review.</citation>
+    <PMID>22142216</PMID>
+  </reference>
+  <reference>
+    <citation>Einspieler C, Bos AF, Libertus ME, Marschik PB. The General Movement Assessment Helps Us to Identify Preterm Infants at Risk for Cognitive Dysfunction. Front Psychol. 2016 Mar 22;7:406. doi: 10.3389/fpsyg.2016.00406. eCollection 2016. Review.</citation>
+    <PMID>27047429</PMID>
+  </reference>
+  <reference>
+    <citation>Rydz D, Shevell MI, Majnemer A, Oskoui M. Developmental screening. J Child Neurol. 2005 Jan;20(1):4-21. Review.</citation>
+    <PMID>15791916</PMID>
+  </reference>
+  <verification_date>January 2020</verification_date>
+  <study_first_submitted>December 17, 2019</study_first_submitted>
+  <study_first_submitted_qc>March 23, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 25, 2020</study_first_posted>
+  <last_update_submitted>March 23, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 23, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 25, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Infants</keyword>
+  <keyword>Neurodevelopment</keyword>
+  <keyword>Developmental Delays</keyword>
+  <keyword>Electronics</keyword>
+  <keyword>Early Intervention</keyword>
+  <keyword>Sensory and Motor</keyword>
+  <keyword>NICU</keyword>
+  <keyword>Natural Play</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Neurodevelopmental Disorders</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

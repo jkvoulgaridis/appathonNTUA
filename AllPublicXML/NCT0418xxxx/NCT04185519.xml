@@ -1,0 +1,196 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04185519</url>
+  </required_header>
+  <id_info>
+    <org_study_id>KMUHIRB-F(I)-20190094</org_study_id>
+    <nct_id>NCT04185519</nct_id>
+  </id_info>
+  <brief_title>A Model of Computer-assisted Prescription of Erythropoiesis-stimulating Agents (ESA) in Patients Under Hemodialysis</brief_title>
+  <official_title>A Model of Computer-assisted Prescription of Erythropoiesis-stimulating Agents (ESA) in Patients Under Hemodialysis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Kaohsiung Medical University Chung-Ho Memorial Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Kaohsiung Medical University Chung-Ho Memorial Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a randomized, double-blind controlled trial to compare AI (model) with the physician
+      on prescribing ESA dose to maintain hemoglobin near the therapeutic target, 11g/dl.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      It has been known well for a long time that End stage renal disease (ESRD) patients usually
+      need ESA to maintain their hemoglobin (Hb) to improve both mortality as well as quality of
+      life. Later, several large-scale RCTs showing normalization of Hb in this population
+      increased the risk of thromboembolic event, which leaded current guidelines to recommend the
+      therapeutic goal for anemia in ESRD should be within a range (usually between 10-12 gm/dl)
+      rather than above or below a certain level (or value). In addition to ESA dose, many factors
+      contribute to the severity of anemia in this population, such as iron status, chronic blood
+      loss, adequacy of dialysis, chronic inflammation, renal wasting, et al. To put all these
+      factors together, maintaining the Hb levels within the target level is a challenge to
+      physician. It was reported that only one third of Hb within the target at any given time. Our
+      data showed, for those under maintenance hemodialysis and without any blood transfusion in
+      observation period, near two third of patients' Hb level were within the target range.
+
+      For better anemia management, NKF-K/DOQI developed and published guidelines using protocol or
+      algorithm for EPO prescription.6 Recently, artificial intelligence (AI) has been widely
+      applied to medicine in the field of reducing human error, robotic surgical system and
+      decision- making aid. Since then, there were several studies working on decision making
+      programs to set up model of predicting the ESA dose needed for target Hb level. Artificial
+      neural network (ANN) model is most commonly used for ESA dose-response prediction. However,
+      the effectiveness of these kinds of AI is not confirmed clinically and the result not
+      satisfactory. In other words, it is still inconclusive whether contemporary AI has any role
+      in decision making aid when prescribing ESA dose for dialysis patient, a typical trial and
+      error which AI supposed should be very helpful with.
+
+      Based on the mentioned above, we are going to conduct this clinical try to test the
+      hypothesis that AI is not inferior to physician in prescribing ESA dose for hemodialysis
+      patients to maintain hemoglobin(Hb) level to meet the target
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 24, 2019</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Informed consent must be signed before any procedures related to the study for any participant. The subject who meets the inclusion and exclusion criteria will be enrolled and a total of 126 subjects needed to have the power to test the hypothesis. In addition to the Hb levels and EAS doses, all HD-related bio information data in 12 consecutive months before enrollment will be uploaded into the model for further ESA dose prediction. Before randomization, the study subject will continue to receive the ESA by the prescription from the physician.
+Randomization period All eligible subjects will be randomized 1:1 by their age, gender, and HD vintage into control arm and intervention arm. After randomization, the study subject will enter the study after the nearest Hb measurement coming.</intervention_model_description>
+    <primary_purpose>Other</primary_purpose>
+    <masking>Single (Investigator)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>hemoglobin (Hb) levels</measure>
+    <time_frame>6 monthes</time_frame>
+    <description>Primary analysis will be conducted after database lock and unblinded. For hemoglobin (Hb) levels, the logistic regression model will include treatment (AI vs. conventional), center, and treatment-by-center interaction as factors, and mean change of the hemoglobin (Hb) levels from 11g/dl during the evaluation period as dependent variables, model-based point estimates and 95% confidence interval (CI) for the treatment effects will be calculated to test the primary outcome</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">126</enrollment>
+  <condition>End Stage Renal Disease</condition>
+  <arm_group>
+    <arm_group_label>AI (model)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>This is a randomized, double-blind controlled trial to compare AI (model) with the physician on prescribing ESA dose to maintain hemoglobin near the therapeutic target, 11g/dl. A blind check by another physician for the prescriptions from both physician and AI (model) is arranged for safety purpose.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>DR1</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Another physician will fail the prescription if the prescribed ESA dose, by his/her experience, will lead the participant's hemoglobin outside the range between 9 and 13 g/dl.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>AI (model)</intervention_name>
+    <description>The process of the experiment (brief describe) This is a randomized, double-blind controlled trial to compare AI (model) with the physician on prescribing ESA dose to maintain hemoglobin near the therapeutic target, 11g/dl. A blind check by another physician for the prescriptions from both physician and AI (model) is arranged for safety purpose. Another physician will fail the prescription if the prescribed ESA dose, by his/her experience, will lead the participant's hemoglobin outside the range between 9 and 13 g/dl. Once the failed rate by AI is higher than the physician is 5%, , the study will be terminated. There will be three periods, namely ry 3 months.</description>
+    <arm_group_label>AI (model)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        1. Main inclusion criteria:
+
+          1. signed informed consent
+
+          2. Age older than 20 year old.
+
+          3. End stage renal disease under regular hemodialysis with three times per week and
+             duration of each session at least 4 hours
+
+          4. Having at least consecutive 6 months data of both Hb and biochemical study during
+             dialysis before enrollment and at least one Hb level within the range of 11-12 g/dl
+
+          5. Having at least one prescription of ESA supplement to keep Hb within the range of
+             10-12 g/dl in the past 6 months before the enrollment
+
+          6. Having received ESA of the same brand at least 6 months before the enrollment
+
+        2. Main exclusion criteria:
+
+          1. Ever receiving blood transfusion in the past 12 months
+
+          2. Active bleeding with blood loss more than250cc in 3 months before the enrollment
+
+          3. Active infection or malignancy
+
+          4. Study subject can not follow with the study protocol 3. End of Study
+
+        The eligible subject will not be allowed to continue the study once informed consent is
+        withdrawn or event happening meets the following criteria:
+
+          1. Taking extra ESAs, Androgens and iron-chelating agents
+
+          2. Undergoing surgery with massive haemorrhage, or blood transfusion
+
+          3. Receiving systemic chemotherapy or radiotherapy or immunosuppressive therapies.
+
+          4. The end of study will be 6 months later after the randomization of last study subject
+             or failed prescription rate higher than 5%, which comes earlier.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>CHIU YI-WEN</last_name>
+    <phone>07-3121101</phone>
+    <phone_ext>7351</phone_ext>
+    <email>810069@kmuh.org.tw</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Kaohsiung Medical University Chung-Ho Memorial Hospital (KMUH)</name>
+      <address>
+        <city>Kaohsiung</city>
+        <state>TW</state>
+        <zip>807</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Chen Yi-Pei</last_name>
+      <phone>0970138127</phone>
+      <email>joanna9504@gmail.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <verification_date>September 2019</verification_date>
+  <study_first_submitted>November 17, 2019</study_first_submitted>
+  <study_first_submitted_qc>December 2, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 4, 2019</study_first_posted>
+  <last_update_submitted>December 2, 2019</last_update_submitted>
+  <last_update_submitted_qc>December 2, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 4, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Kidney Failure, Chronic</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

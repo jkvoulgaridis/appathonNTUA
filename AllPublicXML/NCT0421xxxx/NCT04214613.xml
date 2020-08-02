@@ -1,0 +1,254 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04214613</url>
+  </required_header>
+  <id_info>
+    <org_study_id>H19-02698</org_study_id>
+    <nct_id>NCT04214613</nct_id>
+  </id_info>
+  <brief_title>Predictors of Outcome After Perioperative Stroke in the Non-Cardiac Surgery Population</brief_title>
+  <official_title>Predictors of Outcome After Perioperative Stroke in the Non-Cardiac Surgery Population</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of British Columbia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Ottawa</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of British Columbia</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Perioperative stroke is a devastating complication of surgery that is currently poorly
+      characterized with limited clinical tools available to detect and prevent its occurrence. The
+      current literature has identified that patients who experience a stroke after surgery have a
+      higher rate of mortality, length of stay and discharge to a facility, but given the rare
+      nature of this complication relatively little is known about which factors predict these
+      outcomes amongst those who experience a perioperative stroke. The study objectives are to
+      identify predictors of mortality, length of stay and discharge disposition after
+      perioperative stroke in non-cardiac, non-neurological surgery using the
+      prospectively-collected American College of Surgeons National Surgical Quality Improvement
+      Program database between 2004 and 2017.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      BACKGROUND
+
+      Perioperative stroke is a devastating complication of surgery that is currently poorly
+      characterized with limited clinical tools available to detect and prevent its occurrence.
+      Perioperative stroke is a cerebrovascular event that occurs after surgery, and affects
+      between 0.1-1.9% of patients having non-cardiac, non-neurologic surgery. Perioperative stroke
+      is relatively understudied compared to postoperative complications of similar incidence and
+      severity, such as cardiac complications. Over the past few decades, significant efforts have
+      been undertaken to reduce the risk of perioperative myocardial infarction and have led to a
+      decrease in incidence over time due to an advancements in risk stratification and
+      perioperative management. Although the incidence of perioperative stroke is similar or higher
+      than that of perioperative myocardial infarction, the risk of this complication has been
+      increasing over time and perioperative stroke remains relatively neglected. The current
+      literature has identified that patients who experience a stroke after surgery have a higher
+      rate of mortality, length of stay and discharge to a facility, but given the rare nature of
+      this complication relatively little is known about which factors predict these outcomes
+      amongst those who experience a perioperative stroke.
+
+      OBJECTIVES
+
+      The primary study objective is to identify predictors of mortality after perioperative stroke
+      in non-cardiac, non-neurological surgery. The secondary objectives are to 1) create a
+      predictive model for length of stay after perioperative stroke; 2) create a predictive model
+      for discharge to an alternate facility after perioperative stroke; 3) 3) Describe the
+      temporal trend in mortality after perioperative stroke over time (2004 to 2015); and 4)
+      explore mediators of mortality risk after perioperative stroke in non-cardiac,
+      non-neurological surgery.
+
+      METHODS
+
+      This study is a retrospective analysis of the prospectively-collected American College of
+      Surgeons National Surgical Quality Improvement Program database between 2004 and 2017. The
+      primary outcome is mortality. The secondary outcomes are hospital length of stay and
+      discharge to an alternate facility.
+
+      Outcome after perioperative stroke is potentially related to patient, surgical and anesthetic
+      factors, as well as characteristics of the stroke. The candidate predictors variables will
+      include patient characteristics (demographics, BMI, comorbidities including history of
+      stroke), surgical characteristics (specialty, complexity, type, emergency status,
+      transfusion), characteristics of the stroke (timing relative to the operation, unplanned
+      reoperation after stroke, readmission for stroke vs inpatient stroke), and anesthetic
+      technique used. History of TIA or CVA is available only until 2015, therefore our
+      multivariable analysis will exclude years 2016 and 2017 of the dataset given the clinical
+      importance of this variable.
+
+      SAMPLE SIZE ESTIMATION
+
+      The sample size will be determined by the number of perioperative stroke events in NSQIP
+      database. It is estimated that there will be a total number of 6.6 million patients in the
+      NSQIP database between 2004 and 2017, of which 80% will be non-cardiac surgery. Assuming a
+      0.1% overall perioperative stroke risk, we estimate a total of approximately 5000 cases of
+      perioperative stroke will be included in the dataset. As only years 2004 through 2015 will be
+      included in the prediction modeling, it is estimated that approximately (0.8*0.001*4,608,309)
+      3700 cases will be available for this portion of the analysis. The 30-day mortality rate in a
+      prior study using the NSQIP database was estimated to be as high as 25% in patients who
+      experience a stroke,(2) therefore it is anticipated that a sufficient number of outcome
+      events (n=900) to fit and validate a stable multivariable regression model (i.e., we
+      anticipate &gt;10 events per covariate).
+
+      STATISTICAL ANALYSIS
+
+      Data will be described using frequency, mean (standard deviation [SD]) or median
+      (interquartile range [IQR]). For predictive modelling, all continuous variables will be
+      standardized (i.e., centered with mean=0 and SD=1).
+
+      To avoid over-fitting our model, a data reduction strategy will be undertaken and variables
+      with greater than 10% missing data or less than 20 observations will be excluded. Where &gt;1%
+      but &lt;10% data are missing we will consider multiple or mean imputation; variables with &lt;1%
+      missing data will be handled through complete case analysis.
+
+      Pre-specified predictor variables will be used to construct a logistic regression model where
+      coefficients will be shrunken using elastic net penalization.(11) This method for variable
+      selection and penalization was chosen based on our modelling scenario. A large number of
+      potential predictors relative to the number of outcomes may occur. In addition, several
+      important predictors will be collinear. Elastic net regularization can be used to employ a
+      balance between least absolute shrinkage and selector operator (LASSO) penalization and RIDGE
+      regression. RIDGE regression will allow us to keep important collinear predictors, but shrink
+      their coefficients (which could be inflated due to collinearity). LASSO methods will allow
+      the coefficients of some non-contributory predictors to zero, therefore, eliminating them
+      from the model. Included variables will be assessed for interactions and addition terms
+      considered to improve model performance as needed. The a priori interactions to be examined
+      will include the following: age*gender; surgical complexity (WRVU)*age; WRVU*specialty;
+      specialty*anesthetic technique. Model discrimination will be evaluated using the area under
+      the receiver operating characteristic curve (C-statistic). Model calibration will be assessed
+      with a loess-smoothed plot of observed vs predicted risks over the risk spectrum. A similar
+      analysis will be used to create a prediction model for our secondary outcomes, length of stay
+      (which will be a log-transformed linear model) and discharge to an alternate facility
+      (logistic regression).
+
+      Following derivation, 5000 bootstrap samples will be used to perform internal validation and
+      generate an estimated optimism. To assess the impact of year of surgery, a sensitivity
+      analysis of model performance over different time epochs will be performed (ie, 2-3 year
+      epochs, depending on the number of observations available in each year).
+
+      Following derivation of the final model to predict mortality, a simplified predictive index
+      will be derived by converting the regression coefficients to points that reflect their
+      relative weights. The predictive accuracy of the resulting tool will be assessed in a similar
+      fashion to above.
+
+      To address secondary objective 3, the annual mortality rate after perioperative stroke will
+      be described using a scatter plot. We will also create an exploratory univariate ordinary
+      least squares regression model with annual mortality rate as the dependent variable and year
+      as the predictor to estimate the yearly change in mortality rate over time. A further
+      multivariable adjusted linear regression model will be specified adjusting for important
+      predictors.
+
+      To explore possible effect modification of pre-stroke mortality risk by post-stroke events, a
+      series of logistic regression models with death as the dependent variable and the probability
+      of death from our primary model as a linear predictor will be specified. We will then add
+      pre-specified effect modifiers (as above), each as an additional predictor variable, to
+      explore whether the probability of death increases or decreases based on addition of the
+      postulate effect modifying variable.
+
+      A p value &lt;0.05 will be considered significant for all analyses and all data analysis will be
+      performed using STATA 15 (StataCorp, Texas, USA).
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">July 1, 2020</start_date>
+  <completion_date type="Anticipated">December 31, 2020</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of deaths</measure>
+    <time_frame>within 30 days of surgery</time_frame>
+    <description>death</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>length of stay</measure>
+    <time_frame>within 30 days of surgery</time_frame>
+    <description>days spent in hospital</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>disposition</measure>
+    <time_frame>within 30 days of surgery</time_frame>
+    <description>disposition after discharge from hospital</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>temporal trend in mortality</measure>
+    <time_frame>between 2004 to 2015</time_frame>
+    <description>temporal trend in mortality after perioperative stroke</description>
+  </other_outcome>
+  <enrollment type="Anticipated">5000</enrollment>
+  <condition>Perioperative Complication</condition>
+  <condition>Stroke, Acute</condition>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>non-cardiac non-neurologic surgery</intervention_name>
+    <description>non-cardiac non-neurologic surgery</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All patients included in the prospectively-collected American College of Surgeons National
+        Surgical Quality Improvement Program database between 2004 and 2017 who received a
+        diagnosis of perioperative stroke. This is a large multicenter dataset with the most recent
+        year of the dataset available (2017) including data on 1028713 cases from 708 sites.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  all patients who received a diagnosis of stroke in the NSQIP database between 2004 and
+             2017.
+
+        Exclusion Criteria:
+
+          -  all patients who underwent a neurosurgical, cardiac surgery or interventional
+             radiology procedure or patients who underwent a carotid endarterectomy, as these
+             procedures have a unique stroke risk profile.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <verification_date>May 2020</verification_date>
+  <study_first_submitted>December 27, 2019</study_first_submitted>
+  <study_first_submitted_qc>December 27, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 2, 2020</study_first_posted>
+  <last_update_submitted>May 8, 2020</last_update_submitted>
+  <last_update_submitted_qc>May 8, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 12, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of British Columbia</investigator_affiliation>
+    <investigator_full_name>Alana Flexman</investigator_full_name>
+    <investigator_title>Clinical Associate Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stroke</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>The NSQIP data is available upon request to investigators at participating sites. We will not directly share our dataset as per the NSQIP Participant Data Use agreement.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

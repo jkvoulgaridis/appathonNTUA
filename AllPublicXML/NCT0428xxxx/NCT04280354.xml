@@ -1,0 +1,436 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04280354</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020-00297;qu18Egli3</org_study_id>
+    <nct_id>NCT04280354</nct_id>
+  </id_info>
+  <brief_title>Molecular Biomarkers for Sepsis</brief_title>
+  <official_title>Prospective Study to Discover New Biomarkers for Early Detection of Sepsis and Prediction of Sepsis-related Mortality in Patients With Severe Community Acquired Pneumonia (sCAP)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Basel, Switzerland</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Swiss Personalized Health Network (SPHN)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Personalized Health and Related Technologies (PHRT) initiative of ETH Zürich</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital, Basel, Switzerland</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This multi-center observational case-control study in Intensive Care Unit (ICU) patients is
+      to identify novel biomarkers allowing to recognize severe community acquired pneumonia (sCAP)
+      -associated sepsis at an earlier stage and predict sepsis-related mortality. Patients with
+      sCAP (cases) will be profoundly characterized over time regarding the development of sepsis
+      and compared with control patients. The mechanisms and influencing factors on the clinical
+      course will be explored with most modern -omics technologies allowing a detailed
+      characterisation. These data will be analysed using machine learning algorithms and
+      multi-dimensional mathematical models.
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">August 2020</start_date>
+  <completion_date type="Anticipated">March 2021</completion_date>
+  <primary_completion_date type="Anticipated">March 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Detection of sepsis</measure>
+    <time_frame>within 7 days after study inclusion</time_frame>
+    <description>Sepsis detection based on new discovered digital biomarkers will be compared to classical sepsis-3 criteria (with an increase of the sequential organ failure assessment (SOFA) score of 2 or larger score points).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Sepsis related mortality</measure>
+    <time_frame>within 7 days after study inclusion</time_frame>
+    <description>Prediction of sepsis related mortality (with &gt;80% sensitivity and specificity at least 24h prior to event)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Time to sepsis detection (minutes after Intensive Care Unit (ICU) admission)</measure>
+    <time_frame>within 7 days after study inclusion</time_frame>
+    <description>Time to sepsis detection (minutes after ICU admission) based on machine learning</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">400</enrollment>
+  <condition>Sepsis</condition>
+  <condition>Severe Community-acquired Pneumonia (sCAP)</condition>
+  <condition>Infection, Bacterial</condition>
+  <arm_group>
+    <arm_group_label>patients with severe community acquired pneumonia (cases)</arm_group_label>
+    <description>Cases: Patients with severe community acquired pneumonia with required ICU admission.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>patients without pneumonia or sepsis (controls)</arm_group_label>
+    <description>Controls: Clinical phenotype of inflammation not due to suspected sepsis; patients with fever &gt;38°C, C reactive Protein (CRP) &gt;100mg/L, no infection focus expected in ≥ 24h.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>compare data patterns by data-driven algorithms to determine sepsis</intervention_name>
+    <description>compare data patterns by data-driven algorithms including machine learning and multi-dimensional modelling to reliably determine sepsis</description>
+    <arm_group_label>patients with severe community acquired pneumonia (cases)</arm_group_label>
+    <arm_group_label>patients without pneumonia or sepsis (controls)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>compare data patterns by data-driven algorithms to predict sepsis-related mortality</intervention_name>
+    <description>compare data patterns by data-driven algorithms including machine learning and multi-dimensional modelling to to predict sepsis-related mortality</description>
+    <arm_group_label>patients with severe community acquired pneumonia (cases)</arm_group_label>
+    <arm_group_label>patients without pneumonia or sepsis (controls)</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      All samples will be stored in a biobank on sepsis. In particular serum and DNA samples of
+      hosts will be stored for at least 10 years to answer subsequent research questions.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult patients fulfilling the WHO-definition of a severe community acquired pneumonia
+        (sCAP, cases) and patients with an inflammatory phenotype (controls) requiring intensive
+        care medicine.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Admission to the ICU of one of the participating centers.
+
+          -  Cases: severe community acquired pneumonia with requirement for ICU admission.
+
+          -  Controls: Clinical phenotype of inflammation not due to suspected sepsis In addition,
+             control patients will be patients with fever &gt;38°C, CRP &gt;100mg/L, no infection focus
+             expected in ≥ 24h.
+
+          -  All required sample types can most likely be collected within the first 24h visits.
+
+          -  Expected ICU stay of more than 24h.
+
+        Exclusion Criteria:
+
+          -  Admission to the hospital within the prior 14 days.
+
+          -  Patients with psychosis
+
+          -  Evidence of a hospital acquired pneumonia.
+
+          -  One of the following respiratory conditions: Acute exacerbation of chronic obstructive
+             pulmonary disease (COPD) or bronchiectasis, acute severe asthma, aspiration pneumonia,
+             tuberculosis, clinical suspected viral pneumonia without bacterial infection,
+             cardiogenic pulmonary oedema.
+
+          -  Patients with an acute respiratory distress Syndrome (ARDS).
+
+          -  Patient which can be managed as outpatients and do not require an ICU.
+
+          -  Patient where a transmission to another institution is likely within the next 24h.
+
+          -  Documented rejection of the general consent or participation to research in general.
+
+          -  Patients with a palliative situation and a life expectancy due to other diseases (e.g.
+             progressed cancer) less than 28 days.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Adrian Egli, PD Dr.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Clinical Microbiology, University Hospital Basel</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Adrian Egli, PD Dr.</last_name>
+    <phone>+41 61 556 57 49</phone>
+    <email>adrian.egli@usb.ch</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Battegay Manuel, Prof. Dr.</last_name>
+    <phone>+41 61 328 60 72</phone>
+    <email>Manuel.Battegay@usb.ch</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Clinical Bacteriology and Mycology, University Hospital Basel</name>
+      <address>
+        <city>Basel</city>
+        <zip>4031</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Adrian Egli, PD Dr. Dr.</last_name>
+      <phone>+41 61 556 57 49</phone>
+      <email>adrian.egli@usb.ch</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Infectious Diseases and Hospital Epidemiology, University Hospital Basel</name>
+      <address>
+        <city>Basel</city>
+        <zip>4031</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Manuel Battegay, Prof Dr med</last_name>
+      <phone>+41 61 328 60 72</phone>
+      <email>manuel.battegay@usb.ch</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Intensive Care Unit; University Hospital Basel</name>
+      <address>
+        <city>Basel</city>
+        <zip>4031</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Stephan Marsch, Prof. Dr. MD</last_name>
+      <phone>+41 61 328 62 35</phone>
+      <email>stephan.marsch@usb.ch</email>
+    </contact>
+    <contact_backup>
+      <last_name>Martin Siegemund, Prof. Dr. med</last_name>
+      <phone>+41 61 328 61 14</phone>
+      <email>martin.siegemund@usb.ch</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Institute for Infectious Diseases, University of Bern</name>
+      <address>
+        <city>Bern</city>
+        <zip>3001</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Stephen Leib, Prof. Dr. MD</last_name>
+      <phone>+41 31 632 49 49</phone>
+      <email>Stephen.leib@ifik.unibe.ch</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Infectious Diseases and Hospital Epidemiology, University Hospital Bern</name>
+      <address>
+        <city>Bern</city>
+        <zip>3010</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Hansjakob Furrer, Prof.Dr.med</last_name>
+      <phone>+41 31 632 25 25</phone>
+      <email>hansjakob.furrer@insel.ch</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Intensive Care Unit, University Hospital Bern</name>
+      <address>
+        <city>Bern</city>
+        <zip>3010</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Stephan Jakob, Prof. Dr. MD</last_name>
+      <phone>+41 31 632 53 00</phone>
+      <email>Stephan.jakob@insel.ch</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Infectious Diseases and Hospital Epidemiology, University Hospital Geneva</name>
+      <address>
+        <city>Geneva,</city>
+        <zip>1205</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Laurent Kaiser, Prof. Dr. MD</last_name>
+      <phone>+41 22 372 98 00</phone>
+      <email>Laurent.kaiser@huge.ch</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Clinical Bacteriology, University Hospital Geneva</name>
+      <address>
+        <city>Geneva</city>
+        <zip>1205</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Jacques Schrenzel, Prof Dr med</last_name>
+      <phone>+41 22 372 33 11</phone>
+      <email>Jacques.schrenzel@huge.ch</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Intensive Care Unit, University Hospital Geneva</name>
+      <address>
+        <city>Geneva</city>
+        <zip>1205</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Jérôme Pugin, Prof. Dr. MD</last_name>
+      <phone>+41 22 379 71 11</phone>
+      <email>Jerome.pugin@huge.ch</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Clinical Microbiology, University Hospital Lausanne</name>
+      <address>
+        <city>Lausanne</city>
+        <zip>1011</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Gilbert Greub, Prof. Dr. MD</last_name>
+      <phone>+41 21 314 49 79</phone>
+      <email>gilbert.greub@chuv.ch</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Infectious Diseases and Hospital Epidemiology , University Hospital Lausanne</name>
+      <address>
+        <city>Lausanne</city>
+        <zip>1011</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Thierry Calandra, Prof. Dr. MD</last_name>
+      <phone>+41 21 314 10 10</phone>
+      <email>Thierry.calandra@chuv.ch</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Intensive Care Unit, University Hospital Lausanne</name>
+      <address>
+        <city>Lausanne</city>
+        <zip>1011</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Philippe Eckert, Prof. Dr. MD</last_name>
+      <phone>+41 21 314 30 38</phone>
+      <email>philipp.eckert@chuv.ch</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Infectious Diseases and Hospital Epidemiology, University Hospital Zurich</name>
+      <address>
+        <city>Zürich</city>
+        <zip>8091</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Annelies Zinkernagel, Prof. Dr. med</last_name>
+      <phone>+ 41 44 255 12 59</phone>
+      <email>annelies.zinkernagel@uzh.ch</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Institute for Medical Microbiology, University Hospital Zurich</name>
+      <address>
+        <city>Zürich</city>
+        <zip>8091</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Reinhard Zbinden, Prof. Dr. MD</last_name>
+      <phone>+41 44 634 26 08</phone>
+      <email>rzbinden@imm.uzh.ch</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Intensive Care Unit, University Hospital Zurich</name>
+      <address>
+        <city>Zürich</city>
+        <zip>8091</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Reto Schüpbach, Prof. Dr. MD</last_name>
+      <phone>+41 44 255 10 92</phone>
+      <email>reto.schuepbach@uhz.ch</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>February 19, 2020</study_first_submitted>
+  <study_first_submitted_qc>February 19, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 21, 2020</study_first_posted>
+  <last_update_submitted>June 9, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 9, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 11, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Community-acquired Pneumonia</keyword>
+  <keyword>biomarker</keyword>
+  <keyword>clinical data warehouse (CDWH)</keyword>
+  <keyword>machine learning</keyword>
+  <keyword>data-driven algorithms</keyword>
+  <keyword>multi-dimensional modelling</keyword>
+  <keyword>sepsis-related mortality</keyword>
+  <keyword>Streptococcus pneumoniae</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sepsis</mesh_term>
+    <mesh_term>Toxemia</mesh_term>
+    <mesh_term>Bacterial Infections</mesh_term>
+    <mesh_term>Pneumonia</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

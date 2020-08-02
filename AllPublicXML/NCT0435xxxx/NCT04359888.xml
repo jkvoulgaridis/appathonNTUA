@@ -1,0 +1,585 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04359888</url>
+  </required_header>
+  <id_info>
+    <org_study_id>E3096-R</org_study_id>
+    <secondary_id>I01 RX003096</secondary_id>
+    <nct_id>NCT04359888</nct_id>
+  </id_info>
+  <brief_title>A Balanced Reach Training Platform to Address Balance Disorders in Older and Neurologically Disabled Veterans</brief_title>
+  <acronym>BRTP</acronym>
+  <official_title>A Balanced Reach Training Platform to Address Balance Disorders in Older and Neurologically Disabled Veterans</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>VA Office of Research and Development</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>VA Office of Research and Development</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Falls are by far the leading cause of accidental injury and death in older adults. The
+      Veteran population is more severely affected by falls since it is significantly older than
+      the overall population (45% over 65 years of age vs. 13%); and Veterans would benefit
+      substantially more from an accurate diagnosis and treatment of fall propensity. Despite its
+      importance, much is still unknown about the manner in which balance control is compromised by
+      age and disease. Therapeutic interventions for people who are at risk of falling have proven
+      to be of limited utility. Engineering methods are well suited to study and evaluate balance;
+      but have to date been applied to overly simplified scenarios that lack the complexity to
+      probe the musculoskeletal and neurophysiological bases for balance and falls.
+
+      The long term objective of this research, which began with a VA Rehabilitation Research &amp;
+      Development (RR&amp;D) Career Development Award (CDA-2), is to develop improved directives and
+      protocols for the diagnosis and treatment of balance-related posture and movement
+      coordination problems. This proposal significantly advances engineering methods to address
+      existing gaps in the diagnosis and treatment of balance impairments through the development
+      of a Balanced Reach Training Protocol (BRTP). The BRTP continuously challenges subjects to
+      perform reaching tasks at the limits of their balance for an extended period of time, and
+      increases these limits as subjects demonstrate improved performance. The goal of this tool is
+      to quantitatively assess and improve at-risk individuals' ability to maintain balance when
+      disturbed by volitional movements of the body and its parts-an important class of balance
+      disturbances integral to many activities of daily living that can precipitate falls. The BRTP
+      focuses on performance at and just beyond the limits of balance, unlike most such tests and
+      training protocols that do not challenge subjects in this way. The BRTP's most immediate and
+      salient metric is the limiting boundary of standing reach; and we hypothesize that expanding
+      this boundary, as the BRTP is designed to do, will improve balance and make individuals more
+      resistant to falls (in the context of expected balance disturbances).
+
+      Confirmation of this hypothesis could provide a new perspective on existing training
+      protocols' modest success rates, and direction for the design of new protocols with the
+      potential to significantly improve these rates. [Though the BRTP is a training platform, we
+      also believe that the performance metrics and analytical results produced by it can form the
+      basis for new diagnostic measures that more reliably and precisely quantify and explain
+      balance performance problems; and track changes in them over time.] Such diagnostic and
+      treatment protocols would be particularly beneficial to the VA Health Care System, as it
+      would lead to improvements in: patient throughput, quality of care, and treatment costs.
+      Though this proposal targets the aging Veteran population, the BRTP is a general tool that
+      can aid in the diagnosis and treatment of balance disorders arising from conditions other
+      than aging. These include obesity, diabetes (which often leads to lower extremity muscle
+      degeneration and peripheral neuropathy), sarcopenia, vestibular disorders, and neurological
+      disorders such as stroke. Veterans whose balance has been compromised by Traumatic Brain
+      Injury (TBI) (whether combat-related or not) may also benefit from the BRTP.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Overview: This study comprises three Specific Aims (SAs): SA-1) Development of the Balanced
+      Reach Training Protocol (BRTP). SA-2) Assessment of the BRTP's training efficacy. SA-3)
+      Assessment of the BRTP's time course of motor learning.
+
+      Methods Related to Specific Aim 1: Development of the BRTP SA-1.1: Develop of the BRTP's
+      Assessment Module. The investigators will develop a BRTP such that each foot's position and
+      its associated vertical ground reaction force (used to detect stepping), as measured by the
+      investigators' extant measurement systems, are continuously streamed to a Real Time Computing
+      Workstation and read by the experimental control program, enabling it to monitor these
+      quantities on an ongoing basis. The investigators will next incorporate an adaptive staircase
+      algorithm into the real time experimental control program, that will establish target disk
+      position corresponding to the subject's Limit of Balance (LoB), based on stepping. The
+      investigators will establish LoB corresponding to seven target disk motion directions, each
+      corresponding to a particular direction of Center of Mass (CoM) Motion . Target motion will
+      be programmed to move unpredictably within a small circular region with center r and
+      centerline coinciding with one of the specified directional lines. The subject then tracks
+      the target using their dominant hand index finger. The adaptive staircase algorithm
+      in-rementally increases r, causing the target to move away from the subject until the subject
+      (wearing a harness to guard against falling) must step to avoid a loss of balance, at which
+      point r is reduced by some increment and the process is repeated. During this task the
+      subject will be instructed to step rather than curtail their tracking movements when they
+      believe they are at risk of falling. The degree to which r is increased and decreased depends
+      upon the subject's prior stepping responses and is determined by the adaptive staircase
+      algorithm. As this process continues the algorithm develops a maximum likelihood estimate of
+      the value of r that invokes stepping. When this estimate falls within the desired confidence
+      interval (here 95%) the process terminates; and LoB is computed from the associated force
+      plate and body segment position measurements. Disk displacement along the seven directions
+      will be presented to the subject in random order.
+
+      The seven values of r determined by the adaptive staircase algorithm will then be reduced by
+      5% and an ellipse fitted to them. The disk will be programmed to move unpredictably for 90
+      sec according to the same sum-of-sines function used previously, within a band centered on
+      this ellipse; and subjects will track it. This trajectory will keep subjects at or near their
+      LoB (and at the limits of their balance capability) throughout the tracking task.
+      Establishing LoB in this way eliminates the subjectivity inherent in extant clinical measures
+      of LoB, and also accounts for subjects' aforementioned uncertainty in correctly perceiving
+      their State of Balance and Limit of Balance. The investigators believe that this approach
+      also more accurately simulates the real-life conditions under which people fall, and that LoB
+      will be a better measure of individuals' actual balance capabilities. Furthermore, it makes
+      available a number of other psychophysical measures and functions with which to better
+      understand and describe the role the perceptual and sensory processes play in determining
+      out-of-balance conditions.
+
+      The Assessment Module will record the following data to characterize performance in the
+      tracking task
+
+        1. The values of r, , and LoB corresponding to each (Figs. 7A and 1);
+
+        2. The motion (position vs. time) of the target disk;
+
+        3. The motion of each of 15 body segments (Table 1), and the tip of the tracking finger
+           (measured by the investigators' Vicon Motion Capture System);
+
+        4. Ground reaction forces, moments, and CoP for each foot and for both feet combined (dual
+           Bertec force plates); Item 1 is collected during the adaptive staircase procedure. Items
+           2, 3, and 4 are collected during both the adaptive staircase procedure and the
+           subsequent tracking task (as well as the training bouts, see SA-2.1). All data will be
+           saved for offline post-test processing and analyses.
+
+      SA-1.2: Develop the BRTP's Training Module. A single training session begins by administering
+      the Assessment Module to establish the subject's LoB and corresponding overall target
+      excursion amplitude, and computing the unpredictable target disk trajectory based upon it.
+      The Training Module then presents an operator-specified number of training bouts; a single
+      one of which consists of presenting the trajectory for the subject to track for four minutes
+      without stepping, followed by a three minute sitting rest period. Performance data is
+      recorded throughout the tracking period. Training bout and rest period durations can be
+      varied (with the goal that a training session deliver 60 minutes of actual training) to
+      optimize training efficacy and accommodate individual subject needs and capabilities.
+      Subjects will be harnessed while performing the tracking task to guard against falling. As
+      training progresses and the subject's performance improves, the BRTP will present
+      increasingly difficult target trajectories based upon the increased LoBs and corresponding
+      overall target excursion amplitudes as measured by the Assessment Module at the beginning of
+      each training session.
+
+      Methods Related to Specific Aim 2: Assessment of the BRTP's training efficacy SA-2.1: Conduct
+      the BRTP and MCET training protocols. All subject testing is performed in this Specific Aim.
+      The investigators will screen 90 older men and women with high fall risk, enrolling 80 of
+      these, and completing training for 68, assuming an overall 25% attrition rate.
+
+      Subjects will be randomly assigned to either the BRTP or MCET training group. Each group will
+      receive 60 minutes of training three times per week for six weeks. BRTP training is as
+      described previously (see SA-1.2). The VA Maryland team developed an MCET protocol for older
+      individuals with balance and mobility disability. The program is individualized to each
+      participant's capacity based on their balance profile and endurance level. Across the six
+      weeks, training advances from five &quot;fundamental&quot; exercises that are essential for
+      instrumental activities of daily living function to 13 exercises, as participants meet
+      metrics for exercise safety and movement quality. Standardized progressions for each exercise
+      advance according to the level of hand contact support required, dose (duration, sets and
+      repetitions), intensity (movement amplitude and cadence), and multi-segmental motor challenge
+      or complexity. The exercise cadence is adjusted up to provide greater challenge to aerobic
+      fitness and is adjusted down to facilitate greater resistive training benefit (i.e. holding a
+      squat longer) or to accommodate the participant's fatigue level. MCET training will be
+      performed in a group setting.
+
+      All subjects will be assessed with the clinical balance measures (see below) and the BRTP
+      Assessment Module at the same time points before, during, and after training (see SA-2.2).
+
+      Outcome Measures: The following &quot;clinical measures&quot; of balance, reach, and fall risk will be
+      used to asses training effects induced by the BRTP and MCET.
+
+        1. Multi-Directional Reach Test
+
+        2. Falls Efficacy Scale, which assesses FoF
+
+        3. Physiological Profile Assessment (PPA)
+
+        4. Tinetti Balance Test (Balance Section)
+
+        5. Mini Balance Evaluation Systems Test (Mini-BESTest)
+
+        6. DASH (Disabilities of the Arm, Shoulder, and Head) Test
+
+        7. Falls experienced by each subject, as well as the conditions in which they fell, during
+           and throughout the first year following training.
+
+           These measures will be obtained on a separate day from the BRTP Assessment and Training
+           procedures so as not to unduly fatigue the test subjects. The investigators will also
+           employ the following BRTP-based measures of balance and reach.
+
+        8. RMSE
+
+        9. RMSD-Primary Outcome Measure
+
+       10. Average SoB
+
+       11. LoB RMSD will be the investigators' primary outcome measure. SA-2.2: Assess the training
+           efficacy of BRTP training in comparison to MCET. Prior to training subjects will undergo
+           double baseline tests 48 hours apart using the clinical measures and the BRTP-related
+           measures. This assessment will be repeated midway through training (three weeks after
+           training begins), immediately post training, and six-weeks after the last training
+           session (retention). Although the investigators include a number of clinical and
+           BRTP-related performance measures in the assessment of training efficacy, RMSD will be
+           the investigators' primary outcome measure. The primary purpose of this study is to
+           assess the efficacy of the BRTP in improving balance. It is possible that while both the
+           BRTP and MCET improve balance the magnitude of the difference in improvement between
+           groups may be small. As a consequence of the relatively modest number of subjects the
+           investigators will be testing (a result of the demands of the testing and the limited
+           funds available to support the testing) the investigators may show no between-group
+           difference. In order to be able to demonstrate that each intervention is efficacious,
+           the investigators will test subjects twice at baseline and compare the change during
+           this non-intervention period separately to the change engendered by each active
+           intervention. The investigators' balance-related clinical measures have been shown to
+           correlate with fall risk and fear of falling (FoF). Clinically meaningful improvements
+           in the training group's performance based on the clinical measures will indicate that
+           the BRTP improves balance function and reduces fall risk.
+
+      The investigators will also request that subjects report any falls that they experience
+      during the training period, and the conditions under which they fell. Once subjects have
+      completed training the investigators will contact them monthly via e-mail, social media, or
+      using stamped return-address post cards to obtain fall information; and follow by telephone
+      to learn of the conditions under which they fell.
+
+      Statistical Analysis and Expected Results: The investigators will start with Exploratory Data
+      Analysis designed to find extreme values, which will be checked to make sure there are no
+      transcription errors. The investigators will have data at five time points, baseline 1 (B1)
+      baseline 2 (B2), mid-training (MT), post-training (PT), and retention six-weeks after the
+      last training session (R). The investigators will use repeated measures ANOVA (SAS proc
+      mixed) in which the dependent variable will be the within person change from one time period
+      to the next, i.e. B2-B1, MT-B2, PT-MT, R-PT. The model will be adjusted for group (BRTP,
+      MCET); time period (baseline [B1 to B2], early training [B2 to MT], late training [MT-PT],
+      overall training (B2-PT], retention [PT to R]); and a time period x group interaction. If the
+      investigators find a significant period x group effect the investigators will use appropriate
+      post-hoc comparisons to determine the time points that show significant differences. The
+      investigators will use linear contrasts 1) to demonstrate the efficacy of the BRTP and MCET
+      by comparing the mean change across both groups during the baseline to the mean change within
+      each of the two-groups during training; 2) to compare the efficacy of the BRTP to that of the
+      MCET by comparing the within group changes during training; and 3) to compare the ability of
+      the two interventions to engender a long-lasting improvement in balance by comparing the
+      percentage change during retention. The investigators will use AICC, a modification of
+      Akaike's information criteria, to determine the covariance structure [e.g. unstructured,
+      compound symmetry and first order auto-regressive (AR(1)] that best accounts for the serial
+      autocorrelation of repeated observations obtained from the same subject.
+
+      Prior to accepting results from the analyses, the investigators will assure that data conform
+      to the assumptions of the analyses (e.g. normal distribution of residuals), and that no datum
+      has excessive influence or leverage (e.g. Cook's D). The investigators will use multiple
+      imputation to impute follow-up data for subjects missing values. Each primary hypotheses will
+      be tested independently of the others. The investigators will deem a two-tailed test p&lt;0.05
+      as indicating statistical significance. The investigators expect the BRTP to be more
+      effective in improving functional balance than MCET, and that this improvement will last six
+      weeks after training. The investigators further expect the improvement to be clinically
+      significant.
+
+      To compare fall rates between the BRTP and MCET training groups the investigators will use
+      Poisson regression in which the investigators will use the General Estimating Equations of
+      Liang and Zeiger to account for the serial autocorrelation of repeated measures from the same
+      subject.
+
+      Methods Related to Specific Aim 3: Assessment of the BRTP's time course of motor learning.
+
+      SA-3.1: Assess the BRTP's time course of motor learning. In addition to comparing the overall
+      training efficacy and retention of the BRTP and MCET, the analyses of SA-2.2 will also
+      provide a coarse profile of each training regimen's time course of overall motor learning.
+      These analyses will be based on the previously specified clinical measures of balance and the
+      BRTP-based measures, obtained at five time points before, during, and after training. More
+      frequent time points could not be specified because the manual assessments necessary to
+      obtain the clinical measures for this many subjects are too time consuming to permit this.
+
+      Newell, et.al. have noted that for a dynamic system such as the human balance system,
+      training-induced changes in performance over time (i.e., motor learning) are an aggregation
+      of the performance changes of the elements making it up. These elemental changes proceed over
+      shorter periods of time than the measurement intervals specified above. A deeper
+      investigation of performance in the BRTP over a finer time scale would not only provide a
+      more detailed motor learning profile, it would allow us to qualitatively and quantitatively
+      characterize some of the more important elemental performance changes that drive the overall
+      learning profile-particularly those changes associated with the higher level predictive and
+      motor planning processes. The clinical measures are not appropriate for this analysis, even
+      if they could be measured more frequently, because they do not directly measure performance
+      in the BRTP. The BRTP-based measures do, however, and will be recorded with the necessary
+      frequency. Data from which SoB, RMSE, and RMSD are computed will be automatically recorded
+      continuously throughout each training bout.
+
+      This analysis involves the development and interpretation of Input-Output Polynomial models
+      and empirical transfer functions describing tracking and balance performance. The polynomial
+      model that the investigators will employ is an AutoRegressive, Moving Average, eXogenous
+      input (ARMAX) model, which takes the form A(q)y(ti)=B(q)u(ti-nk)+C(q)e(ti)1 For a given
+      system the time series y(ti) is the system's response, recorded at discrete time instants ti;
+      u(ti-nk) is the input to the system; and e represents the residuals unaccounted for by the
+      other terms in the model. A, B, and C are polynomial functions of the time shift operator q;
+      and n is the number of discrete time steps of length k sec, representing the system's
+      response delay. For the tracking system y is tracking error (disk position-finger position)
+      and u is target disk position. For the balance system y is SoB and u is tracking finger
+      position; since SoB is controlled to support the tracking task. The models are constructed by
+      determining the optimal number of terms in each of the A, B, and C polynomial functions
+      (usually 1-4), and the values of these terms' constant coefficients that result in the best
+      fit to the data, in the sense of minimizing the sum of squared deviations. This process will
+      be carried out using MatLab's Systems Identification Toolbox.
+
+      Polynomial models separate a system's underlying response dynamics [given by A(q) y*(ti) =
+      B(q)u(ti-nk)] from the unexplained deviations from this response [C(q)e(ti)], permitting us
+      to more accurately characterize the system's input-output relationship and the nature of the
+      deviations. Response delays are also estimated. The structure of the tracking error model's
+      polynomial functions A(q) and B(q) (number and magnitudes of their constant coefficients)
+      provide both a qualitative and quantitative description of the manner in which the higher
+      level predictive and motor planning processes utilize tracking error and disk motion
+      information to control tracking finger performance and minimize errors. Whereas a single
+      coefficient would imply that the higher level processes employ a low order representation of
+      the error process or disk motion, containing only spatial (position) information; two or more
+      coefficients would imply a richer representation that also incorporates velocity and
+      acceleration information. Greater magnitude coefficients indicate that their respective terms
+      are utilized to a greater degree in performing the control task. For the SoB model,
+      interpretation of A(q) is more challenging because this function also describes the mechanics
+      of body and body segment movement. Interpretation of B(q), however, proceeds similarly to
+      that for tracking error; though here the investigators note that the higher level processes
+      have greater knowledge of the tracking finger's motion than that of the target disk because
+      these processes control the former. This could result in more or greater magnitude B(q)
+      coefficients, as well as reduced response delays relative to the finger tracking model.
+
+      Discrete Fourier Transforms (DFTs) will be computed for disk motion and the resulting
+      responses of the tracking finger and whole body CoM. From these, empirical transfer functions
+      relating the motion of the target to these responses will be computed by dividing the DFT of
+      the response by the DFT of the disk motion, frequency by frequency. Magnitude gains and phase
+      lags obtained from the empirical transfer functions will be used to construct Bode gain and
+      phase plots to assess the frequency response and bandwidth of the tracking and CoM responses.
+      Bode plots provide a measure of how well the system is able to respond its input. Superior
+      performance is indicated by greater bandwidth and gain, and lower phase lags. The use of
+      these methods to analyze balance is described in.
+
+      Polynomial models and transfer functions will be constructed for each subject participating
+      in the BRTP. Because motor learning and resulting changes in performance proceed continuously
+      over the course of each training bout, polynomial models and transfer functions will be
+      computed for a 30 sec window (containing 3,000 data points) that advances across each bout in
+      15 sec intervals. The investigators will also compute RMSE, average SoB, and RMSD for each
+      window. A four minute training bout will thus provide 15 &quot;snapshots&quot; of performance across
+      the bout. Window size and advancement interval will be adjusted if necessary to best capture
+      the profile of performance changes over time. These models, functions, and performance
+      measures will also be constructed for the two baseline assessments and the retention
+      assessment performed using the BRTP Assessment Module (see Specific Aim-1.1 in Methods).
+      These models, functions, and performance measures will provide a detailed portrayal of the
+      manner in which motor learning (changes in performance in the BRTP) evolves over the course
+      of a training bout, a multi-bout training session, the entire multi-session training regimen,
+      and the retention period.
+
+      As training proceeds the investigators expect tracking error (per the polynomial model) and
+      RMSE to decrease, and LoB (measured at the beginning of each training session), SoB (per the
+      polynomial model), average SoB, and RMSD to increase. The investigators further expect the
+      number and magnitude of each polynomial model's A(q) and B(q) coefficients to increase. This
+      indicates that the brain is developing richer and more elaborate mental models with which to
+      control both tracking and balance performance in the balanced reach task. The investigators
+      expect the Bode plots to reveal greater bandwidth and gain, and lower phase lags; indicating
+      that the tracking and balance systems are better able to both process their inputs and
+      respond to them. In particular, the investigators expect improved high frequency performance,
+      which deteriorates with aging. These analyses and assessments will be carried out on a
+      per-subject basis, in order to ensure that inter-subject averaging does not obscure the
+      performance attributes the investigators seek to identify. If the investigators encounter
+      sufficiently similar performance across a group of subjects, however, the investigators will
+      construct group-average models, functions, and performance measures to describe it. A
+      particular goal of these assessments is to determine whether and when subjects &quot;plateau&quot;
+      during the course of the individual training bouts, individual training sessions, or the
+      overall training regimen. This information will be used to determine the optimal durations of
+      each of these training components (training bout duration, number of training bouts per
+      training session, total number of training sessions).
+
+      SA-3.2: Assess correlations between accepted clinical measures of balance and BRTP-based
+      measures. Implementation of the BRTP necessarily involves the use of performance measures
+      specific to the balanced reaching task, in order to tailor it to individual subjects'
+      capabilities (LoB) and measure ensuing performance (LoB, SoB, and RMSD). The goal of this
+      sub-Aim is to assess the degree of correlation between changes in these BRTP-measures and
+      changes in the clinical measures that the investigators are using to assess the BRTP's effect
+      on balance performance.
+
+      Statistical Analysis and Expected Results: The ability to compare performance in the BRTP to
+      that in the clinical measures of balance is limited due to the different scales of
+      measurement on which the data from the BRTP and clinical measures are obtained. BRTP measures
+      (RMSD, average SoB, and LoB,) are obtained on a ratio scale. Some clinical measures are also
+      obtained on a ratio scale, but others are obtained on an ordinal scale. The investigators
+      will use Pearson's to assess correlations between the BRTP measures and those clinical
+      measures obtained on a ratio scale; and Spearman's to assess correlations between the BRTP
+      measures and those clinical measures obtained on an ordinal scale. The investigators expect
+      the BRTP measures to correlate with the clinical measures, but to vary in a &quot;smoother&quot; and
+      more continuous manner, and exhibit greater range and sensitivity. The investigators expect
+      these correlations to be statistically significant, providing evidence that the BRTP-based
+      balance measures have clinical validity. Since the Multifunctional Reach test, Physiological
+      Profile Assessment, Tinetti Balance tests and Falls Efficacy Scale have also been shown to
+      correlate with fall risk, statistically significant correlations of BRTP measures with these
+      will provide evidence that they are indicative of fall risk. Finally, a statistically
+      significant correlation of LoB with the Falls Efficacy Scale will provide evidence that LoB
+      can serve as a quantitative measure of FoF.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">June 30, 2021</start_date>
+  <completion_date type="Anticipated">September 30, 2024</completion_date>
+  <primary_completion_date type="Anticipated">September 30, 2024</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Root Mean Squared Deviation between Center of Mass and Center of Base of Support (RMSD)</measure>
+    <time_frame>Assess change between base line (just prior to training) and within 24 hours of the end of training (1 week)</time_frame>
+    <description>Measure of Balance Capability. Root Mean Squared Deviation (RMSD) records the root mean squared distance between the ground plane projection of whole-body Center of Mass and the center of the Base of Support during performance of the balanced reach task, in centimeters. It ranges from zero to the distance from the center of the Base of Support to the boundary of the Base of Support. Larger deviations indicate better performance than smaller deviations.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Multi-Directional Reach Test</measure>
+    <time_frame>Assess change between base line (just prior to training) and within 24 hours of the end of training (1 week)]</time_frame>
+    <description>Measures ability to lean and reach. Multi-Directional Reach Test records the distance in centimeters that one can reach in the forward, backward, rightward, and leftward directions; by bending at the waist and reaching with arm extended in each associate</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Falls Efficacy Scale</measure>
+    <time_frame>Assess change between base line (just prior to training) and within 24 hours of the end of training (1 week)</time_frame>
+    <description>Assesses fear of falling. The Falls Efficacy Scale is a self-report questionnaire providing information on level of concern about falls for a range of activities of daily living. The questionnaire contains 16 items scored on a four-point scale (1 = not at all concerned to 4 = very concerned). The overall score is the sum of the 16 scores that are provided and ranges from 1to 64. Overall scores between 16-19 indicate low fear of falling; 20-27 indicates moderate fear of falling; and 28-64 indicates high fear of falling. Lower scores are better than higher scores.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">90</enrollment>
+  <condition>Older Men and Women With High Fall Risk</condition>
+  <arm_group>
+    <arm_group_label>MCET Group</arm_group_label>
+    <description>Multi-Component Exercise Training (MCET) Group</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>BRT Group</arm_group_label>
+    <description>Balanced Reach Training Group</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Multi-Component Exercise Training (MCET)</intervention_name>
+    <description>Three one-hour training sessions per week for six weeks in Multi-Component Exercise Training (MCET). (See Study Design)</description>
+    <arm_group_label>MCET Group</arm_group_label>
+    <other_name>MCET</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Balanced Reach Training (BRT)</intervention_name>
+    <description>Three one-hour training sessions per week for six weeks in the Balanced Reach Training Protocol (BRTP) (See Study Design).</description>
+    <arm_group_label>BRT Group</arm_group_label>
+    <other_name>BRT</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Subjects will be recruited from the VA Maryland Health Care System (VAMHCS) Neurology,
+        Rehabilitation, and Primary Care Clinics; the 12 hospital University of Maryland Medical
+        System (UMMS); and the University of Maryland Rehabilitation Institute. Additional subjects
+        will be identified using the research recruitment registries maintained by the Baltimore VA
+        Geriatric Research Education and Clinical Center (GRECC) and UM-NIA Pepper Center.
+        IRB-approved advertisements, mailings, and newsletters will target high fall risk older
+        adults not currently registered for health care services at our medical centers.
+        Participants will be chosen without regard to socioeconomic status and ethnicity.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  High Fall Risk: Fallen twice or more in the past year
+
+          -  Adequate language and neurocognitive function to participate in testing and training
+
+          -  Able to give adequate informed consent
+
+          -  Ability to perform BRTP: Able to perform the balanced reach task without assistive
+             devices
+
+          -  Ability to perform MCET: Able to rise from a chair unaided and walk 10 meters without
+             human assistance
+
+          -  Vision adequate to see a 1 inch diameter black disk against a white background at 3
+             feet
+
+        Exclusion Criteria:
+
+        Clinical history of:
+
+          -  Unstable angina
+
+          -  Recent myocardial infarction (&lt; 3 month) or hemodynamically significant congestive
+             heart failure (NYHA II) or valvular dysfunction
+
+          -  Peripheral arterial occlusive disease with claudication
+
+          -  Hip fractures
+
+               -  other lower extremity large bone fractures occurring within the past year, other
+                  serious musculoskeletal injuries
+
+               -  upper or lower body orthopedic issues
+
+               -  and/or major chronic pain that would prevent the subject from performing the
+                  balanced reach task
+
+          -  Pulmonary failure
+
+          -  Body Mass Index (BMI) &gt;40
+
+          -  Active vertigo
+
+          -  Symptomatic orthostatic hypotension
+
+          -  Poorly controlled hypertension (&gt;190/105) on at least two separate occasions
+
+          -  Poorly controlled type 1 or 2 diabetes (HbA1c &gt;10)
+
+          -  Recent hospitalization for severe disease or surgery (&lt;3 month)
+
+          -  Excessive daily alcohol consumption (&gt;3 oz. liquor; &gt;12 oz. wine; or &gt;36 oz. beer) or
+             illicit drug abuse
+
+          -  Untreated major clinical depression or dementia
+
+          -  Neurological disease such as stroke, TBI, Parkinson's disease, etc.
+
+          -  Vestibular disorders of sufficient severity to prevent the subject from performing the
+             balanced reach task
+
+          -  Any other condition (e.g., extreme frailty) that would preclude safe completion of the
+             BRTP or MCET
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>60 Years</minimum_age>
+    <maximum_age>85 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Joseph E. Barton, MD PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Baltimore VA Medical Center VA Maryland Health Care System, Baltimore, MD</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Joseph E Barton, MD PhD</last_name>
+    <phone>(202) 337-5921</phone>
+    <email>Joseph.Barton@va.gov</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Baltimore VA Medical Center VA Maryland Health Care System, Baltimore, MD</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21201</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Joseph E Barton, MD PhD</last_name>
+      <phone>202-337-5921</phone>
+      <email>Joseph.Barton@va.gov</email>
+    </contact>
+    <investigator>
+      <last_name>Joseph E. Barton, MD PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>April 21, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 21, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 24, 2020</study_first_posted>
+  <last_update_submitted>April 21, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 21, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 24, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Balance</keyword>
+  <keyword>Expected Balance Disturbances</keyword>
+  <keyword>Engineering Methods Related to Balance</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

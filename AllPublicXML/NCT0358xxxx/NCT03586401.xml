@@ -1,0 +1,296 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03586401</url>
+  </required_header>
+  <id_info>
+    <org_study_id>9э/4-17</org_study_id>
+    <nct_id>NCT03586401</nct_id>
+  </id_info>
+  <brief_title>Creating a Decision Support System for the Corporate Management of Physical Therapy</brief_title>
+  <official_title>Creating a Decision Support System for the Corporate Management of Physical Therapy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Federal Research Institute of Pediatric Hematology, Oncology and Immunology</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Federal Research Institute of Pediatric Hematology, Oncology and Immunology</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to create a software product on the basis of the support
+      technologies for making decisions for the collaboration of the different specialists, the
+      family and the patient himself in the process of physical therapy of children treated for
+      cancer. The basic model of the technology is a qualification model of the state of health and
+      physical limitations, based on data from a survey of 1,000 children treated for cancer. The
+      software product is supposed to be created on the basis of the Splunk system, the key link is
+      a personal office with a two-way login system: for specialists and for patients. The patient
+      introduces the results of self-examination, monitoring and additional surveys in real time,
+      specialists - additional recommendations. To assess the effectiveness of the collaboration
+      based on the software product, a long-term follow-up (at least 3 years) is planned for the
+      participants of the study with repeated examinations at the Medical-Rehabilitation Scientific
+      Center &quot;Russe pole&quot; at least twice a year.
+
+      Condition or disease Hemoblastosis Solid brain tumors The condition after hematopoietic stem
+      cell transplantation
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Detailed Description:
+
+      The treatment of the oncological diseases are significantly destroyed the physical health of
+      the patients, negatively affecting the cardiovascular, respiratory and musculoskeletal
+      systems. In the absence of a targeted rehabilitation measures, the toxic effect of the
+      treatment increases with time and leads to the development of disabling diseases. Physical
+      therapy and motor activity are recognized as the most effective for the maximum
+      rehabilitation of people who have been through the oncological disease and the prevention of
+      chronic diseases and repeated tumors. Motor activity should be regular, controlled, adapted
+      to the needs and capabilities of a particular person. The main role in maintaining of the
+      level and quality of motor activity is assigned to the patient and his inner circle.
+      Specialists are assigned the role of consultants and supervisors.
+
+      The methods, means and intensity of the motor loads should be selected on the basis of a
+      detailed analysis of physical health and existing limitations. To do this, it is proposed to
+      create a qualification model of physical health, in which many indicators will be reduced to
+      a limited number of variables: the response of the cardiovascular and respiratory systems to
+      stress, vegetative and neuromuscular physical activity, the state of motor functions and
+      motor skills, the general resistance to physical loads, etc. To create a model, mathematical
+      modeling methods will be applied.
+
+      To create personal program of physical activity, the rules for the selection and adaptation
+      of the methods and means and a database of methods and means that provide a choice
+      considering goals and existing limitations will be developed. The interactive forms for
+      self-analysis and monitoring of the patient's motor activity, available for viewing by
+      specialists will be developed.
+
+      The software product, within which the interaction between patients and specialists will be
+      realized, is supposed to be created in the Splunk system. The system allows to search both
+      the real-time data and the archived data, based on the results of the search Splunk gives you
+      the opportunity to: analyze the results with the visualization tools, generate reports and
+      warnings, create a monitoring and notification systems in real time. These can be expanded -
+      you can create new applications using the specialized development platform that comes with
+      Splunk. The study will be attended by at least 1000 patients and their families who have
+      concluded an agreement with the Medical-Rehabilitation Scientific Center &quot;Russe pole&quot;, and
+      come to the examination at least 2 times a year.
+
+      PRIMARY OBJECTIVES:
+
+        1. To develop a model of a detailed qualification of the health status and physical
+           limitations for children treated for cancer.
+
+        2. To develop the rules for choosing methods and means of physical therapy, dosing sessions
+           for duration and intensity, depending on the qualification of the health status and the
+           identified physical limitations.
+
+        3. To create a bank of methods and means of physical therapy available for use both in a
+           rehabilitation organization and at home.
+
+        4. To develop a software product for Clinical Decision Expert System for corporate
+           management of physical therapy of children treated for cancer and evaluate its
+           effectiveness.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date type="Actual">November 1, 2017</start_date>
+  <completion_date type="Anticipated">May 21, 2020</completion_date>
+  <primary_completion_date type="Anticipated">May 21, 2019</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>2 Years</target_duration>
+  <primary_outcome>
+    <measure>Self-assessment of motor activity</measure>
+    <time_frame>at least 12 studies with an interval of not more than 2 months, a total period of 2 years</time_frame>
+    <description>Based on The International Physical Activity Questionnaire (IPAQ). The patient or his parents fill out a special questionnaire, that contains questions about the motor activity in 4 areas: leisure, activity at home and in the garden, activities related to work and activities related to transport. The main indicator is the the MET (Metabolic Equivalent of Task) per week: MET level x minutes of activity x events per week.
+Three levels (categories) of physical activity are proposed. High - 7 or more days of any combination of walking, moderate-intensity or vigorous intensity activities achieving a minimum of at least 3000 MET-minutes/week Moderate - 5 or more days of any combination of walking, moderate-intensity or vigorous intensity activities achieving a minimum of at least 600 MET-min/week.
+Low - Those individuals who not meet criteria for categories 1 or 2 are considered low/inactive.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Myocardial contractility</measure>
+    <time_frame>at least 4 studies with an interval of not more than 6 months, a total period - 2 years</time_frame>
+    <description>The contractility of the left ventricle of the myocardium is considered a functional indicator of the overall endurance of a person. Diagnosis of myocardial contractility is carried out on the basis of echocardiography, the main indicator is the ejection fraction. Evaluation of myocardial contractility will be conducted in accordance with the Guidelines of the European Society of Cardiology 2016: normal or preserved LVEF ≥50% (HFpEF); moderately reduced LVEF in the range of 40-49% (HFmrEF); reduced LVEF &lt;40% (HFrEF).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The response of the vascular system to submaximal load (6-minute walk test)</measure>
+    <time_frame>at least 4 studies with an interval of not more than 6 months, a total period - 2 years</time_frame>
+    <description>Based on the changes in the parameters of ultrasound of the vessels of skeletal muscles (arms and legs), at rest and after a 6-minute walk test. As the main indicator, the velocity of volumetric blood flow in the examined vessel in ml / min.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The neuromuscular support of physical activity</measure>
+    <time_frame>at least 4 studies with an interval of not more than 6 months, a total period - 2 years</time_frame>
+    <description>Based on electromyography: an evaluation of the activity of the rectus femoris muscle, anterior tibial and gastrocnemius muscles.
+It is estimated as the amplitude with the direct effort in the muscle, and the synkinetic ratio of the amplitudes of the maximum force of the dorsiflexion and plantar extension.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Strength endurance of the main muscle groups</measure>
+    <time_frame>at least 4 studies with an interval of not more than 6 months, a total period - 2 years</time_frame>
+    <description>Based on a series of simply organized movements: holding the raised leg, holding the weighting agent in the withdrawn hand, holding the body in a horizontal position on the back, or on the stomach. The longer the posture is held, the higher the endurance. The force endurance coefficient is calculated by the formula obtained by the authors through a multifactor analysis of the indices in a study involving healthy volunteers.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Energy costs for physical activity</measure>
+    <time_frame>at least 4 studies with an interval of not more than 6 months, a total period - 2 years</time_frame>
+    <description>Based on metabolography at rest and on the background of submaximal load. The basal metabolic rate (count of MET at rest) is calculated and during the 6-minute walk test, an anaerobic threshold is determined.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The development of motor skills</measure>
+    <time_frame>at least 4 studies with an interval of not more than 6 months, a total period - 2 years</time_frame>
+    <description>Bruininks-Oseretsky Test of Motor Proficiency, Second Edition. During the series of tasks the comprehensive measure of gross and fine motor skills are assessed, total 8 scales: 1. Accuracy of fine motor skills (from 0 to 14 points), 2. Integrating fine motor skills (from 0 to 10 points), 3. Sleight of hand (from 0 to 9), 4. Bilateral skills (0 to 7 points), 5 Balance (from 0 to 8 points), 6. Running speed and agility (from 0 to 10 points), 7. Coordination of the upper extremities (from 0 to 12 points), 8. Strength (from 0 to 18 points). The higher the score, the better developed the motor skill. The overall score is defined as the sum of scores on individual scales.
+With the help of special metric tables determine the correspondence of the result to the sex-age norm.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The quality of the postural control</measure>
+    <time_frame>at least 4 studies with an interval of not more than 6 months, a total period - 2 years</time_frame>
+    <description>Based on the stabilometry, conducted in the position with open eyes and closed eyes (Romberg test). The main indicator is the area of the statokinesiogram (in mm).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The motor activity</measure>
+    <time_frame>at least 12 studies with an interval of not more than 2 months, a total period of 2 years</time_frame>
+    <description>The monitoring of a motor activity with the use of personal measuring devices of motor activity of the Omron HJ-152 Pedometer type. Counting the number of aerobic steps per day: continuous walking at a speed of more than 60 steps per minute for 10 minutes or more</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Tolerance for the physical loads</measure>
+    <time_frame>at least 4 studies with an interval of not more than 6 months, a total period - 2 years</time_frame>
+    <description>Based on a 6-minute walk test. The distance covered in 6 minutes is fixed. The greater the distance, the higher the tolerance.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Childhood Acute Lymphoblastic Leukemia in Remission</condition>
+  <condition>Childhood Brain Tumor</condition>
+  <condition>Physical Activity</condition>
+  <condition>Physical Disability</condition>
+  <arm_group>
+    <arm_group_label>Childhood Cancer Survivors</arm_group_label>
+    <description>The study will be attended by 1000 families with children who have completed treatment for cancer at least 6 months before the start of the trial and undergo rehabilitation courses at the Medical and Rehabilitation Research Center &quot;Russkoe pole&quot; at least twice a year.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study will be attended by 1000 families with children who have completed treatment for
+        cancer on at least 6 months before the start of the trial and undergo rehabilitation
+        courses at the Medical-Rehabilitation Research Center &quot;Russkoe pole&quot; at least twice a year.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Signing of the agreement with the Medical-Rehabilitation Scientific Center &quot;Russkoe
+             pole&quot;.
+
+          -  Persistent remission not less than 6 months after.
+
+          -  Age not less than 4 years and not more than 16 years at the time of signing the
+             agreement on participation in the protocol.
+
+          -  Collaboration with the patient's family and the patient.
+
+        Exclusion Criteria:
+
+          -  The occurence of second tumors.
+
+          -  Recurrence of cancer.
+
+          -  Failure to fulfill the obligations under the contract, failure to attend the next
+             survey.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>4 Years</minimum_age>
+    <maximum_age>18 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Vladimir N. Kasatkin, professor</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The National Medical Research Center of Children's Hematology, Oncology and Immunology named after Dmitry Rogachev of the Ministry of Health of the Russian Federation</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Serafima M. Chechelnitskaya, professor</last_name>
+    <phone>+79168128163</phone>
+    <email>dar-2006@bk.ru</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Alexandra V. Baerbakh</last_name>
+    <phone>+79851646997</phone>
+    <email>baer83@mail.ru</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Dmitry Rogachev Federal Research and Clinical Centre of Paediatric Haematology, Oncology and Immunology</name>
+      <address>
+        <city>Moscow</city>
+        <zip>117997</zip>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alexandr Ph Karelin, PhD</last_name>
+      <phone>+7(495)287-6570</phone>
+      <phone_ext>2400</phone_ext>
+      <email>Alexandr.Karelin@fccho-moscow.ru</email>
+    </contact>
+    <investigator>
+      <last_name>Dmitryi V. Skvorcov, priofessor</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Darya V. Zhuk</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Aleksey S. Parshikov</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Vladislav A. Nikylin</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Russian Federation</country>
+  </location_countries>
+  <verification_date>June 2018</verification_date>
+  <study_first_submitted>May 25, 2018</study_first_submitted>
+  <study_first_submitted_qc>July 2, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 13, 2018</study_first_posted>
+  <last_update_submitted>July 2, 2018</last_update_submitted>
+  <last_update_submitted_qc>July 2, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 13, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Federal Research Institute of Pediatric Hematology, Oncology and Immunology</investigator_affiliation>
+    <investigator_full_name>Serafima Chechelnitskaya</investigator_full_name>
+    <investigator_title>Head of Physical Rehabilitation Department</investigator_title>
+  </responsible_party>
+  <keyword>Children who have been treated for cancer</keyword>
+  <keyword>Qualification of health</keyword>
+  <keyword>Physical insolvency</keyword>
+  <keyword>Late toxic effects</keyword>
+  <keyword>Physical therapy</keyword>
+  <keyword>Physical activity</keyword>
+  <keyword>Systems for decision making support</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Precursor Cell Lymphoblastic Leukemia-Lymphoma</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

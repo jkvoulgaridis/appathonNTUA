@@ -1,0 +1,237 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03708978</url>
+  </required_header>
+  <id_info>
+    <org_study_id>BCA-AI</org_study_id>
+    <nct_id>NCT03708978</nct_id>
+  </id_info>
+  <brief_title>Development of Artificial Intelligence System for Detection and Diagnosis of Breast Lesion Using Mammography</brief_title>
+  <official_title>Development of Artificial Intelligence System for Detection and Diagnosis of Breast Lesion Using Mammography</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Beijing Cancer Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Peking University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Beijing Cancer Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This project aims to establish a comprehensive artificial intelligence system for detecting
+      and qualitative diagnosing breast lesions. Mammary images will be used to construct a
+      diagnosis method based on deep learning. The system is proposed to automatically analyze the
+      type of mammary glands, automatically identify and mark all breast lesions on the mammography
+      images, provide the malignancy probability judgment of the lesions, the BI-RADS
+      classification and the clinical suggestion, and also automatically generate the structured
+      diagnosis report.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a multi-center study.The project contains a retrospective part(3000 samples
+      anticipated) and a prospective part(7000 samples anticipated). In the retrospective part,
+      investigators collected subjects with mammary images to design the deep learning method and
+      construct a detective and diagnostic model for breast lesions. In the prospective part,
+      investigators validate the accuracy of the constructed deep learning method, and established
+      artificial intelligence system focusing on mammary diagnosis. Investigators will also explore
+      the application pattern of the artificial intelligence system in clinical practice.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">April 5, 2018</start_date>
+  <completion_date type="Anticipated">November 30, 2020</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>benign-malignant diagnosis accuracy</measure>
+    <time_frame>from the first mammography to pathological result obtained(an average of 3 weeks if mammography BI-RADS 4 or 5 obtained)</time_frame>
+    <description>the accuracy of the AI model, radiogist with AI support, radiologist alone for binary diagnosis of a benign or malignant breast lesion according to pathology. If either one mammography of BI-RADS 4/5 in the first examination or during the two year' follow up examination is obtained,a pathological examination is performed, the lesion is judged benign or malignant according to pathological results.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>benign-malignant diagnosis accuracy</measure>
+    <time_frame>from the first mammography to 2-year-after mammography</time_frame>
+    <description>the accuracy of the AI model, radiogist with AI support, radiologist alone for binary diagnosis of a benign or malignant breast lesion according to follow up. If a 2-year mammography of BI-RADS 1/2/3 is obtained, the lesion is considered benign. If either one mammography of BI-RADS 4/5 during the two year is obtained,a pathological examination is performed to ensure the benign or malignant lesion</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>lesion detection accuracy</measure>
+    <time_frame>from the first mammography to radiologist diagnosis (within 3 days after the mammography taken)</time_frame>
+    <description>the detection rate of the constructed deep learning method for detecting benign or malignant breast lesion according to radiologist's subjective diagnosis or follow up as reference. If a radiologist suggests existence of a lesion at the first mammography or at each follow-up mammography during the 2-year period, it is considered that a lesion exists</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">10000</enrollment>
+  <condition>Women With Breast Cancer</condition>
+  <arm_group>
+    <arm_group_label>mammography group</arm_group_label>
+    <description>women who receives mammography because of suspected breast lesion(s)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>mammography</intervention_name>
+    <description>When a woman comes to the clinic to receive mammography. Then a radiologist will give a BI-RADS classification after reviewing the images. If a BI-RADS 4/5 is obtained, the woman will receive pathological biopsy to ensure there is a benign or malignant lesion. If a BI-RADS 3 is obtained, the woman will be followed up by a half-year interval until two year after the first mammography. At each follow up, she will receive mammography. If a BI-RADS 4/5 is obtained at follow up, she will receive pathological biopsy; if a BI-RADS 1/2/3 is obtained at follow up, she will be followed up by a half-year interval until two year. If a BI-RADS 1/2 is obtained at the first mammography, the woman will receive a second mammography after two year. During the study period, breast examination and results will be recorded for every subject. Radiologists will give the diagnosis with and without AI support.</description>
+    <arm_group_label>mammography group</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      If a subject is diagnosed with BI-RAD4/5, she will receive pathological biopsy. The tissue
+      sample from biopsy will be used to give a definitive malignant or benign diagnosis.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Women with suspected Breast Lesion
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  the X-ray images of the breast were complete
+
+          -  the results of pathological diagnosis or more than 2 years of mammography follow-up
+             were available
+
+          -  subject signs informed consent(this item was only for prospective study cases)
+
+        Exclusion Criteria:
+
+          -  there exists pathological diagnosis of breast lesions when receiving mammography
+
+          -  there lacks pathological diagnosis or 2 years of mammography follow-up
+
+          -  subject withdraws(this item was only for prospective study cases)
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ying-Shi Sun, Professor</last_name>
+    <role>Study Chair</role>
+    <affiliation>Beijing Cancer Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Beijing Cancer Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <zip>100142</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Beijing Chao Yang Women and Children's Health Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Beijing Da Xing People's Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Beijing Hang Tian Centre Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Beijing Nan Jiao Cancer Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Beijing Shi Jing Shan Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Beijing Shun Yi Qu Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Beijing Shun Yi Woman and Children Health Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>November 2019</verification_date>
+  <study_first_submitted>April 17, 2018</study_first_submitted>
+  <study_first_submitted_qc>October 12, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 17, 2018</study_first_posted>
+  <last_update_submitted>November 25, 2019</last_update_submitted>
+  <last_update_submitted_qc>November 25, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 27, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Beijing Cancer Hospital</investigator_affiliation>
+    <investigator_full_name>Sun Ying-Shi</investigator_full_name>
+    <investigator_title>Chairman of Dept.Radiology</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

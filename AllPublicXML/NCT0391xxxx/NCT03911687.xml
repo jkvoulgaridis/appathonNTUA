@@ -1,0 +1,725 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03911687</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AAAR1389</org_study_id>
+    <secondary_id>R01NR016941</secondary_id>
+    <nct_id>NCT03911687</nct_id>
+  </id_info>
+  <brief_title>(CONCERN) Clinical Decision Support (CDS) System</brief_title>
+  <official_title>Communicating Narrative Concerns Entered by RNs (CONCERN) Clinical Decision Support (CDS) System</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Columbia University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Nursing Research (NINR)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Brigham and Women's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Columbia University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      There are patients who die or have a bad outcome in the hospital and this could be prevented.
+      Data in the nurses' notes could be used by computers to tell the rest of the care team that a
+      patient is not doing well and that they should act more quickly. This project will build and
+      evaluate a computer system that makes it easier for the care team to see and understand that
+      data and act quickly to save patients. The aims of this study is to answer the questions,
+      what is the level of provider use of the CONCERN CDS notification system (called CONCERN
+      SMARTapp) and resulting impact on selected patient outcomes? Specifically, the study has 1)
+      validated desired thresholds for the CONCERN CDS system and 2) integrated the CONCERN CDS
+      system for early warning of risky patient states within CDS tools.
+
+      In this portion of the study (aim 3), the investigator will implement and evaluate the
+      CONCERN CDS system on primary outcomes of in-hospital mortality and length of stay and
+      secondary outcomes of cardiac arrest, unanticipated transfers to the intensive care unit, and
+      30-day hospital readmission rates.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Annually, more than 200,000 patients die in U.S. hospitals from cardiac arrest and over
+      130,000 patients inpatients deaths are attributed to sepsis. These deaths are preventable if
+      patients who are at risk are detected earlier. Prior work found that nursing documentation
+      within electronic health records (EHRs) contains information that could contribute to early
+      detection and treatment, but these data are not being analyzed and exposed by EHRs to
+      clinicians to initiate interventions quickly enough to save patients. A new source of
+      predictive data is defined by analyzing the frequency and types of nursing documentation that
+      indicated nurses' increased surveillance and level of concern for a patient. These data
+      documented in the 48 hours preceding a cardiac arrest and hospital mortality were predictive
+      of the event. While clinicians strive to provide the best care, there is a systematic problem
+      within hospital settings of non-optimal communication between nurses and doctors leading to
+      delays in care for patient at risk. Well-designed and tested EHRs are able to trend data and
+      support communication and decision making, but too often fall short of these goals and
+      actually increase clinician cognitive load through fragmented information displays, &quot;note
+      bloat&quot;, and information overload. Substitutable Medical Applications &amp; Reusable Technologies
+      (SMARTapps) using Fast Health Interoperability Resource (FHIR) standard allow for open
+      sharing and use of innovations across EHR systems. The aim of this project is to design and
+      evaluate a SMARTapp on FHIR used across two large academic medical centers that exposes to
+      physicians and nurses our new predictive data source from nursing documentation to increase
+      care team situational awareness of at risk patients to decrease preventable adverse outcomes.
+
+      Communicating Narrative Concerns Entered by RNs (CONCERN) Clinical Decision Support (CDS)
+      system is the application being designed and evaluated. CONCERN Intervention Trial Design
+      will be a multiple time-series intervention. Baseline data will be collected at all study
+      sites. Silent release mode (no SMARTapp notification) will be used in non-equivalent control
+      units and as a post-intervention unit control to evaluate if notifying clinicians can
+      decrease rates of length of stay on non-ICU units and rates of 30-day hospital readmissions.
+      Different versions of the CDS system (SMARTapp) will be incorporated for dynamic, adaptive
+      functionality and determine if the pattern of nursing documentation has changed. A &quot;burn-in&quot;
+      phase is built in to evaluate adoption and adaptation to the algorithm and phases for
+      deployment of the silent release mode within the multiple time-series intervention trial for
+      a total of 18 months of data collection, including pre-intervention data collection and
+      silent release modes.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 21, 2020</start_date>
+  <completion_date type="Anticipated">April 2022</completion_date>
+  <primary_completion_date type="Anticipated">April 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Sequential Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>In-hospital mortality rate</measure>
+    <time_frame>Up to 24 months</time_frame>
+    <description>Deaths occurring in the hospital</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Average length of hospital stay</measure>
+    <time_frame>Up to 24 months</time_frame>
+    <description>The number of days that a patient was in the hospital</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of Cardiac Arrest</measure>
+    <time_frame>Up to 24 months</time_frame>
+    <description>Cardiopulmonary events during hospitalization</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of hospital acquired sepsis</measure>
+    <time_frame>Up to 24 months</time_frame>
+    <description>Sepsis occurring during hospitalization</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of unanticipated transfer to ICU</measure>
+    <time_frame>Up to 24 months</time_frame>
+    <description>Transfer to ICU from acute care study units during hospitalization</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hospital readmission rates</measure>
+    <time_frame>Up to 24 months</time_frame>
+    <description>Readmission to the hospital</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">36000</enrollment>
+  <condition>Hospital Acquired Condition</condition>
+  <arm_group>
+    <arm_group_label>Control Group</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Control data will be collected in the CONCERN CDS system that will be &quot;live&quot; in the EHR, but in silent release mode (e.g., not providing notification to clinicians).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Intervention Group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Experimental data will be collected in the CONCERN CDS system that will be &quot;live&quot; in the EHR in &quot;active&quot; release mode (e.g., providing CONCERN CDS system notification to clinicians).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>CONCERN CDS system notification</intervention_name>
+    <description>The CONCERN CDS will trigger based on analytics of nursing documentation that indicates recognition and concern of patient changes. The CONCERN CDS will alert the care team of the patients &quot;risky state&quot; to increase team-based situational awareness (i.e., shared understanding of the patient situation) of patients predicted to be at risk for patient decompensating in need of rapid intervention to prevent mortality and associated harm.
+Version 1: Burn in phase to evaluate adoption and adaptation to the algorithm being studied. Expected time frame - 3 months
+Version 2: Version 2 refined based on continuous monitoring of data. Expected time frame - 3 months
+Version 3: Version 3 refined based on continuous monitoring of data. Expected time frame - 3 months</description>
+    <arm_group_label>Intervention Group</arm_group_label>
+    <other_name>CONCERN SMARTapp notification</other_name>
+    <other_name>CONCERN Clinical Decision Support (CDS) system notification</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Study inclusion criteria for patients:
+
+          -  Inpatients with a stay of at least 24 hours on one of our study units
+
+        Study exclusion criteria for patients:
+
+          -  Inpatients with less than 24 hours on one of our study units
+
+          -  Patients less than 18 years of age
+
+          -  Hospice patients
+
+          -  Did not have a hospital encounter, patients not on one of our study units.
+
+        Definition of Study Units:
+
+        A clinical unit is considered a CONCERN Study unit if it meets the following criteria:
+
+          -  A general medical or surgical acute care or critical care unit
+
+        The following clinical units are NOT considered CONCERN Study units:
+
+          -  Pediatric or Neonatal units
+
+          -  Hospice units
+
+          -  Emergency Department
+
+          -  Oncology units
+
+          -  Obstetrician (OB)/labor and delivery units
+
+          -  Behavioral/psych units
+
+          -  Observational units
+
+          -  Operating room
+
+          -  Pre-op
+
+          -  Post-op/Post Anesthesia Care Unit (PACU)
+
+          -  Same day surgical units
+
+          -  Plastics units
+
+          -  Virtual departments in EHR database.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Patricia Dykes, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Brigham and Women's Hospital</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Sarah Collins Rossetti, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Columbia University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Kenrick Cato, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Columbia University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Sarah Collins Rossetti, PhD</last_name>
+    <phone>2123056605</phone>
+    <email>sac2125@cumc.columbia.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Kenrick Cato, PhD</last_name>
+    <phone>2123421566</phone>
+    <email>kdc2110@cumc.columbia.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Brigham and Women's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Patricia Dykes, PhD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Patricia Dykes, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Newton-Wellesley Hospital</name>
+      <address>
+        <city>Newton</city>
+        <state>Massachusetts</state>
+        <zip>02462</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Patricia Dykes, PhD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Patricia Dykes, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>New York Presbyterian Columbia University Medical Center</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10032</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Kenrick Cato, PhD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Sarah Collins Rossetti, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kenrick Cato, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>New York Presbyterian Allen Hospital</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10034</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Kenrick Cato, PhD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Sarah Collins Rossetti, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kenrick Cato, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Hripcsak G, Zhou L, Parsons S, Das AK, Johnson SB. Modeling electronic discharge summaries as a simple temporal constraint satisfaction problem. J Am Med Inform Assoc. 2005 Jan-Feb;12(1):55-63. Epub 2004 Oct 18.</citation>
+    <PMID>15492038</PMID>
+  </reference>
+  <reference>
+    <citation>Zhou L, Parsons S, Hripcsak G. The evaluation of a temporal reasoning system in processing clinical discharge summaries. J Am Med Inform Assoc. 2008 Jan-Feb;15(1):99-106. Epub 2007 Oct 18.</citation>
+    <PMID>17947618</PMID>
+  </reference>
+  <reference>
+    <citation>Sittig DF, Wright A, Osheroff JA, Middleton B, Teich JM, Ash JS, Campbell E, Bates DW. Grand challenges in clinical decision support. J Biomed Inform. 2008 Apr;41(2):387-92. Epub 2007 Sep 21. Review.</citation>
+    <PMID>18029232</PMID>
+  </reference>
+  <reference>
+    <citation>Hripcsak G, Elhadad N, Chen YH, Zhou L, Morrison FP. Using empiric semantic correlation to interpret temporal assertions in clinical texts. J Am Med Inform Assoc. 2009 Mar-Apr;16(2):220-7. doi: 10.1197/jamia.M3007. Epub 2008 Dec 11.</citation>
+    <PMID>19074297</PMID>
+  </reference>
+  <reference>
+    <citation>Müller-Engelmann M, Krones T, Keller H, Donner-Banzhoff N. Decision making preferences in the medical encounter--a factorial survey design. BMC Health Serv Res. 2008 Dec 17;8:260. doi: 10.1186/1472-6963-8-260.</citation>
+    <PMID>19091091</PMID>
+  </reference>
+  <reference>
+    <citation>Murphy SN, Weber G, Mendis M, Gainer V, Chueh HC, Churchill S, Kohane I. Serving the enterprise and beyond with informatics for integrating biology and the bedside (i2b2). J Am Med Inform Assoc. 2010 Mar-Apr;17(2):124-30. doi: 10.1136/jamia.2009.000893.</citation>
+    <PMID>20190053</PMID>
+  </reference>
+  <reference>
+    <citation>Albers DJ, Hripcsak G. A statistical dynamics approach to the study of human health data: resolving population scale diurnal variation in laboratory data. Phys Lett A. 2010 Feb 15;374(9):1159-1164.</citation>
+    <PMID>20544004</PMID>
+  </reference>
+  <reference>
+    <citation>Collins SA, Bakken S, Vawdrey DK, Coiera E, Currie L. Model development for EHR interdisciplinary information exchange of ICU common goals. Int J Med Inform. 2011 Aug;80(8):e141-9. doi: 10.1016/j.ijmedinf.2010.09.009. Epub 2010 Oct 25.</citation>
+    <PMID>20974549</PMID>
+  </reference>
+  <reference>
+    <citation>Collins SA, Bakken S, Vawdrey DK, Coiera E, Currie LM. Agreement between common goals discussed and documented in the ICU. J Am Med Inform Assoc. 2011 Jan-Feb;18(1):45-50. doi: 10.1136/jamia.2010.006437. Epub 2010 Nov 27.</citation>
+    <PMID>21113075</PMID>
+  </reference>
+  <reference>
+    <citation>Hripcsak G, Vawdrey DK, Fred MR, Bostwick SB. Use of electronic clinical documentation: time spent and team interactions. J Am Med Inform Assoc. 2011 Mar-Apr;18(2):112-7. doi: 10.1136/jamia.2010.008441. Epub 2011 Feb 2.</citation>
+    <PMID>21292706</PMID>
+  </reference>
+  <reference>
+    <citation>Senathirajah Y, Bakken S. Visual clustering analysis of CIS logs to inform creation of a user-configurable Web CIS interface. Methods Inf Med. 2011;50(4):337-48. doi: 10.3414/ME09-01-0087. Epub 2011 Jun 21.</citation>
+    <PMID>21691676</PMID>
+  </reference>
+  <reference>
+    <citation>Merchant RM, Yang L, Becker LB, Berg RA, Nadkarni V, Nichol G, Carr BG, Mitra N, Bradley SM, Abella BS, Groeneveld PW; American Heart Association Get With The Guidelines-Resuscitation Investigators. Incidence of treated cardiac arrest in hospitalized patients in the United States. Crit Care Med. 2011 Nov;39(11):2401-6. doi: 10.1097/CCM.0b013e3182257459.</citation>
+    <PMID>21705896</PMID>
+  </reference>
+  <reference>
+    <citation>Collins SA, Vawdrey DK. &quot;Reading between the lines&quot; of flow sheet data: nurses' optional documentation associated with cardiac arrest outcomes. Appl Nurs Res. 2012 Nov;25(4):251-7. doi: 10.1016/j.apnr.2011.06.002. Epub 2011 Nov 12.</citation>
+    <PMID>22079746</PMID>
+  </reference>
+  <reference>
+    <citation>Hripcsak G, Albers DJ, Perotte A. Exploiting time in electronic health record correlations. J Am Med Inform Assoc. 2011 Dec;18 Suppl 1:i109-15. doi: 10.1136/amiajnl-2011-000463. Epub 2011 Nov 23.</citation>
+    <PMID>22116643</PMID>
+  </reference>
+  <reference>
+    <citation>Mandl KD, Mandel JC, Murphy SN, Bernstam EV, Ramoni RL, Kreda DA, McCoy JM, Adida B, Kohane IS. The SMART Platform: early experience enabling substitutable applications for electronic health records. J Am Med Inform Assoc. 2012 Jul-Aug;19(4):597-603. doi: 10.1136/amiajnl-2011-000622. Epub 2012 Mar 17.</citation>
+    <PMID>22427539</PMID>
+  </reference>
+  <reference>
+    <citation>Vawdrey DK, Wilcox LG, Collins S, Feiner S, Mamykina O, Stein DM, Bakken S, Fred MR, Stetson PD. Awareness of the Care Team in Electronic Health Records. Appl Clin Inform. 2011;2(4):395-405.</citation>
+    <PMID>22574103</PMID>
+  </reference>
+  <reference>
+    <citation>Rothman MJ, Solinger AB, Rothman SI, Finlay GD. Clinical implications and validity of nursing assessments: a longitudinal measure of patient condition from analysis of the Electronic Medical Record. BMJ Open. 2012 Aug 8;2(4). pii: e000646. doi: 10.1136/bmjopen-2012-000849. Print 2012.</citation>
+    <PMID>22874626</PMID>
+  </reference>
+  <reference>
+    <citation>Zhou L, Karipineni N, Lewis J, Maviglia SM, Fairbanks A, Hongsermeier T, Middleton B, Rocha RA. A study of diverse clinical decision support rule authoring environments and requirements for integration. BMC Med Inform Decis Mak. 2012 Nov 12;12:128. doi: 10.1186/1472-6947-12-128.</citation>
+    <PMID>23145874</PMID>
+  </reference>
+  <reference>
+    <citation>Brady PW, Muething S, Kotagal U, Ashby M, Gallagher R, Hall D, Goodfriend M, White C, Bracke TM, DeCastro V, Geiser M, Simon J, Tucker KM, Olivea J, Conway PH, Wheeler DS. Improving situation awareness to reduce unrecognized clinical deterioration and serious safety events. Pediatrics. 2013 Jan;131(1):e298-308. doi: 10.1542/peds.2012-1364. Epub 2012 Dec 10.</citation>
+    <PMID>23230078</PMID>
+  </reference>
+  <reference>
+    <citation>Albers DJ, Hripcsak G, Schmidt M. Population physiology: leveraging electronic health record data to understand human endocrine dynamics. PLoS One. 2012;7(12):e48058. doi: 10.1371/journal.pone.0048058. Epub 2012 Dec 14.</citation>
+    <PMID>23272040</PMID>
+  </reference>
+  <reference>
+    <citation>Fukui S, Salyers MP, Matthias MS, Collins L, Thompson J, Coffman M, Torrey WC. Predictors of shared decision making and level of agreement between consumers and providers in psychiatric care. Community Ment Health J. 2014 May;50(4):375-82. doi: 10.1007/s10597-012-9584-0. Epub 2013 Jan 9.</citation>
+    <PMID>23299226</PMID>
+  </reference>
+  <reference>
+    <citation>Middleton B, Bloomrosen M, Dente MA, Hashmat B, Koppel R, Overhage JM, Payne TH, Rosenbloom ST, Weaver C, Zhang J; American Medical Informatics Association. Enhancing patient safety and quality of care by improving the usability of electronic health record systems: recommendations from AMIA. J Am Med Inform Assoc. 2013 Jun;20(e1):e2-8. doi: 10.1136/amiajnl-2012-001458. Epub 2013 Jan 25.</citation>
+    <PMID>23355463</PMID>
+  </reference>
+  <reference>
+    <citation>Smith SW, Koppel R. Healthcare information technology's relativity problems: a typology of how patients' physical reality, clinicians' mental models, and healthcare information technology differ. J Am Med Inform Assoc. 2014 Jan-Feb;21(1):117-31. doi: 10.1136/amiajnl-2012-001419. Epub 2013 Jun 25.</citation>
+    <PMID>23800960</PMID>
+  </reference>
+  <reference>
+    <citation>Finlay GD, Rothman MJ, Smith RA. Measuring the modified early warning score and the Rothman index: advantages of utilizing the electronic medical record in an early warning system. J Hosp Med. 2014 Feb;9(2):116-9. doi: 10.1002/jhm.2132. Epub 2013 Dec 19.</citation>
+    <PMID>24357519</PMID>
+  </reference>
+  <reference>
+    <citation>Cato K, Hyun S, Bakken S. Response to a mobile health decision-support system for screening and management of tobacco use. Oncol Nurs Forum. 2014 Mar 1;41(2):145-52. doi: 10.1188/14.ONF.145-152.</citation>
+    <PMID>24578074</PMID>
+  </reference>
+  <reference>
+    <citation>Mandl KD, Kohane IS, McFadden D, Weber GM, Natter M, Mandel J, Schneeweiss S, Weiler S, Klann JG, Bickel J, Adams WG, Ge Y, Zhou X, Perkins J, Marsolo K, Bernstam E, Showalter J, Quarshie A, Ofili E, Hripcsak G, Murphy SN. Scalable Collaborative Infrastructure for a Learning Healthcare System (SCILHS): architecture. J Am Med Inform Assoc. 2014 Jul-Aug;21(4):615-20. doi: 10.1136/amiajnl-2014-002727. Epub 2014 May 12.</citation>
+    <PMID>24821734</PMID>
+  </reference>
+  <reference>
+    <citation>Albers DJ, Elhadad N, Tabak E, Perotte A, Hripcsak G. Dynamical phenotyping: using temporal analysis of clinically collected physiologic data to stratify populations. PLoS One. 2014 Jun 16;9(6):e96443. doi: 10.1371/journal.pone.0096443. eCollection 2014.</citation>
+    <PMID>24933368</PMID>
+  </reference>
+  <reference>
+    <citation>Zhou L, Lu Y, Vitale CJ, Mar PL, Chang F, Dhopeshwarkar N, Rocha RA. Representation of information about family relatives as structured data in electronic health records. Appl Clin Inform. 2014 Apr 9;5(2):349-67. doi: 10.4338/ACI-2013-10-RA-0080. eCollection 2014.</citation>
+    <PMID>25024754</PMID>
+  </reference>
+  <reference>
+    <citation>Hum RS, Cato K, Sheehan B, Patel S, Duchon J, DeLaMora P, Ferng YH, Graham P, Vawdrey DK, Perlman J, Larson E, Saiman L. Developing clinical decision support within a commercial electronic health record system to improve antimicrobial prescribing in the neonatal ICU. Appl Clin Inform. 2014 Apr 9;5(2):368-87. doi: 10.4338/ACI-2013-09-RA-0069. eCollection 2014.</citation>
+    <PMID>25024755</PMID>
+  </reference>
+  <reference>
+    <citation>Senathirajah Y, Bakken S, Kaufman D. The clinician in the Driver's Seat: part 1 - a drag/drop user-composable electronic health record platform. J Biomed Inform. 2014 Dec;52:165-76. doi: 10.1016/j.jbi.2014.09.002. Epub 2014 Sep 18.</citation>
+    <PMID>25240253</PMID>
+  </reference>
+  <reference>
+    <citation>Yakusheva O, Lindrooth R, Weiss M. Nurse value-added and patient outcomes in acute care. Health Serv Res. 2014 Dec;49(6):1767-86. doi: 10.1111/1475-6773.12236. Epub 2014 Sep 25.</citation>
+    <PMID>25256089</PMID>
+  </reference>
+  <reference>
+    <citation>Drew BJ, Harris P, Zègre-Hemsey JK, Mammone T, Schindler D, Salas-Boni R, Bai Y, Tinoco A, Ding Q, Hu X. Insights into the problem of alarm fatigue with physiologic monitor devices: a comprehensive observational study of consecutive intensive care unit patients. PLoS One. 2014 Oct 22;9(10):e110274. doi: 10.1371/journal.pone.0110274. eCollection 2014.</citation>
+    <PMID>25338067</PMID>
+  </reference>
+  <reference>
+    <citation>Klann JG, Mendis M, Phillips LC, Goodson AP, Rocha BH, Goldberg HS, Wattanasin N, Murphy SN. Taking advantage of continuity of care documents to populate a research repository. J Am Med Inform Assoc. 2015 Mar;22(2):370-9. doi: 10.1136/amiajnl-2014-003040. Epub 2014 Oct 28.</citation>
+    <PMID>25352566</PMID>
+  </reference>
+  <reference>
+    <citation>Senathirajah Y, Kaufman D, Bakken S. The clinician in the driver's seat: part 2 - intelligent uses of space in a drag/drop user-composable electronic health record. J Biomed Inform. 2014 Dec;52:177-88. doi: 10.1016/j.jbi.2014.09.008. Epub 2014 Oct 24.</citation>
+    <PMID>25445921</PMID>
+  </reference>
+  <reference>
+    <citation>Hripcsak G, Albers DJ, Perotte A. Parameterizing time in electronic health record studies. J Am Med Inform Assoc. 2015 Jul;22(4):794-804. doi: 10.1093/jamia/ocu051. Epub 2015 Feb 26.</citation>
+    <PMID>25725004</PMID>
+  </reference>
+  <reference>
+    <citation>Adler L, Yi D, Li M, McBroom B, Hauck L, Sammer C, Jones C, Shaw T, Classen D. Impact of Inpatient Harms on Hospital Finances and Patient Clinical Outcomes. J Patient Saf. 2018 Jun;14(2):67-73. doi: 10.1097/PTS.0000000000000171.</citation>
+    <PMID>25803176</PMID>
+  </reference>
+  <reference>
+    <citation>Payne TH, Corley S, Cullen TA, Gandhi TK, Harrington L, Kuperman GJ, Mattison JE, McCallie DP, McDonald CJ, Tang PC, Tierney WM, Weaver C, Weir CR, Zaroukian MH. Report of the AMIA EHR-2020 Task Force on the status and future direction of EHRs. J Am Med Inform Assoc. 2015 Sep;22(5):1102-10. doi: 10.1093/jamia/ocv066. Epub 2015 May 28.</citation>
+    <PMID>26024883</PMID>
+  </reference>
+  <reference>
+    <citation>Cato KD, Cohen B, Larson E. Data elements and validation methods used for electronic surveillance of health care-associated infections: a systematic review. Am J Infect Control. 2015 Jun;43(6):600-5. doi: 10.1016/j.ajic.2015.02.006. Review.</citation>
+    <PMID>26042848</PMID>
+  </reference>
+  <reference>
+    <citation>Schulz CM, Krautheim V, Hackemann A, Kreuzer M, Kochs EF, Wagner KJ. Situation awareness errors in anesthesia and critical care in 200 cases of a critical incident reporting system. BMC Anesthesiol. 2016 Jan 16;16:4. doi: 10.1186/s12871-016-0172-7.</citation>
+    <PMID>26772179</PMID>
+  </reference>
+  <reference>
+    <citation>Liu V, Escobar GJ, Greene JD, Soule J, Whippy A, Angus DC, Iwashyna TJ. Hospital deaths in patients with sepsis from 2 independent cohorts. JAMA. 2014 Jul 2;312(1):90-2.</citation>
+    <PMID>24838355</PMID>
+  </reference>
+  <reference>
+    <citation>Sharek PJ, Parast LM, Leong K, Coombs J, Earnest K, Sullivan J, Frankel LR, Roth SJ. Effect of a rapid response team on hospital-wide mortality and code rates outside the ICU in a Children's Hospital. JAMA. 2007 Nov 21;298(19):2267-74.</citation>
+    <PMID>18029830</PMID>
+  </reference>
+  <reference>
+    <citation>Hiissa M, Pahikkala T, Suominen H, Lehtikunnas T, Back B, Karsten H, Salanterä S, Salakoski T. Towards automated classification of intensive care nursing narratives. Int J Med Inform. 2007 Dec;76 Suppl 3:S362-8. Epub 2007 May 21.</citation>
+    <PMID>17513166</PMID>
+  </reference>
+  <reference>
+    <citation>Goodwin L, VanDyne M, Lin S, Talbert S. Data mining issues and opportunities for building nursing knowledge. J Biomed Inform. 2003 Aug-Oct;36(4-5):379-88. Review.</citation>
+    <PMID>14643734</PMID>
+  </reference>
+  <reference>
+    <citation>Zhou L, Hripcsak G. Temporal reasoning with medical data--a review with emphasis on medical natural language processing. J Biomed Inform. 2007 Apr;40(2):183-202. Epub 2007 Jan 11. Review.</citation>
+    <PMID>17317332</PMID>
+  </reference>
+  <reference>
+    <citation>Hazlehurst B, McMullen CK, Gorman PN. Distributed cognition in the heart room: how situation awareness arises from coordinated communications during cardiac surgery. J Biomed Inform. 2007 Oct;40(5):539-51. Epub 2007 Feb 8.</citation>
+    <PMID>17368112</PMID>
+  </reference>
+  <reference>
+    <citation>Zhou L, Plasek JM, Mahoney LM, Chang FY, DiMaggio D, Rocha RA. Mapping Partners Master Drug Dictionary to RxNorm using an NLP-based approach. J Biomed Inform. 2012 Aug;45(4):626-33. doi: 10.1016/j.jbi.2011.11.006. Epub 2011 Nov 28.</citation>
+    <PMID>22142948</PMID>
+  </reference>
+  <reference>
+    <citation>Lai KH, Topaz M, Goss FR, Zhou L. Automated misspelling detection and correction in clinical free-text records. J Biomed Inform. 2015 Jun;55:188-95. doi: 10.1016/j.jbi.2015.04.008. Epub 2015 Apr 24.</citation>
+    <PMID>25917057</PMID>
+  </reference>
+  <reference>
+    <citation>McNeill G, Bryden D. Do either early warning systems or emergency response teams improve hospital patient survival? A systematic review. Resuscitation. 2013 Dec;84(12):1652-67. doi: 10.1016/j.resuscitation.2013.08.006. Epub 2013 Aug 17. Review.</citation>
+    <PMID>23962485</PMID>
+  </reference>
+  <reference>
+    <citation>Alam N, Hobbelink EL, van Tienhoven AJ, van de Ven PM, Jansma EP, Nanayakkara PW. The impact of the use of the Early Warning Score (EWS) on patient outcomes: a systematic review. Resuscitation. 2014 May;85(5):587-94. doi: 10.1016/j.resuscitation.2014.01.013. Epub 2014 Jan 25. Review.</citation>
+    <PMID>24467882</PMID>
+  </reference>
+  <reference>
+    <citation>Wahl WL, Talsma A, Dawson C, Dickinson S, Pennington K, Wilson D, Arbabi S, Taheri PA. Use of computerized ICU documentation to capture ICU core measures. Surgery. 2006 Oct;140(4):684-9; discussion 690. Epub 2006 Sep 6.</citation>
+    <PMID>17011917</PMID>
+  </reference>
+  <reference>
+    <citation>Rittenhouse DR, Shortell SM, Fisher ES. Primary care and accountable care--two essential elements of delivery-system reform. N Engl J Med. 2009 Dec 10;361(24):2301-3. doi: 10.1056/NEJMp0909327.</citation>
+    <PMID>19864649</PMID>
+  </reference>
+  <reference>
+    <citation>Berwick DM. Launching accountable care organizations--the proposed rule for the Medicare Shared Savings Program. N Engl J Med. 2011 Apr 21;364(16):e32. doi: 10.1056/NEJMp1103602. Epub 2011 Mar 31.</citation>
+    <PMID>21452999</PMID>
+  </reference>
+  <reference>
+    <citation>Cioffi J. Recognition of patients who require emergency assistance: a descriptive study. Heart Lung. 2000 Jul-Aug;29(4):262-8.</citation>
+    <PMID>10900063</PMID>
+  </reference>
+  <reference>
+    <citation>Dellit TH, Owens RC, McGowan JE Jr, Gerding DN, Weinstein RA, Burke JP, Huskins WC, Paterson DL, Fishman NO, Carpenter CF, Brennan PJ, Billeter M, Hooton TM; Infectious Diseases Society of America; Society for Healthcare Epidemiology of America. Infectious Diseases Society of America and the Society for Healthcare Epidemiology of America guidelines for developing an institutional program to enhance antimicrobial stewardship. Clin Infect Dis. 2007 Jan 15;44(2):159-77. Epub 2006 Dec 13.</citation>
+    <PMID>17173212</PMID>
+  </reference>
+  <reference>
+    <citation>Alterovitz G, Warner J, Zhang P, Chen Y, Ullman-Cullere M, Kreda D, Kohane IS. SMART on FHIR Genomics: facilitating standardized clinico-genomic apps. J Am Med Inform Assoc. 2015 Nov;22(6):1173-8. doi: 10.1093/jamia/ocv045. Epub 2015 Jul 21.</citation>
+    <PMID>26198304</PMID>
+  </reference>
+  <reference>
+    <citation>Devita MA, Bellomo R, Hillman K, Kellum J, Rotondi A, Teres D, Auerbach A, Chen WJ, Duncan K, Kenward G, Bell M, Buist M, Chen J, Bion J, Kirby A, Lighthall G, Ovreveit J, Braithwaite RS, Gosbee J, Milbrandt E, Peberdy M, Savitz L, Young L, Harvey M, Galhotra S. Findings of the first consensus conference on medical emergency teams. Crit Care Med. 2006 Sep;34(9):2463-78. Erratum in: Crit Care Med. 2006 Dec;34(12):3070. Harvey, Maurene [added].</citation>
+    <PMID>16878033</PMID>
+  </reference>
+  <reference>
+    <citation>Schulz CM, Endsley MR, Kochs EF, Gelb AW, Wagner KJ. Situation awareness in anesthesia: concept and research. Anesthesiology. 2013 Mar;118(3):729-42. doi: 10.1097/ALN.0b013e318280a40f. Review.</citation>
+    <PMID>23291626</PMID>
+  </reference>
+  <reference>
+    <citation>Matney S, Brewster PJ, Sward KA, Cloyes KG, Staggers N. Philosophical approaches to the nursing informatics data-information-knowledge-wisdom framework. ANS Adv Nurs Sci. 2011 Jan-Mar;34(1):6-18. doi: 10.1097/ANS.0b013e3182071813.</citation>
+    <PMID>21150551</PMID>
+  </reference>
+  <reference>
+    <citation>Hermanides J, Vriesendorp TM, Bosman RJ, Zandstra DF, Hoekstra JB, Devries JH. Glucose variability is associated with intensive care unit mortality. Crit Care Med. 2010 Mar;38(3):838-42. doi: 10.1097/CCM.0b013e3181cc4be9.</citation>
+    <PMID>20035218</PMID>
+  </reference>
+  <reference>
+    <citation>Egi M, Bellomo R, Stachowski E, French CJ, Hart GK, Taori G, Hegarty C, Bailey M. The interaction of chronic and acute glycemia with mortality in critically ill patients with diabetes. Crit Care Med. 2011 Jan;39(1):105-11. doi: 10.1097/CCM.0b013e3181feb5ea.</citation>
+    <PMID>20975552</PMID>
+  </reference>
+  <reference>
+    <citation>Watson A, Skipper C, Steury R, Walsh H, Levin A. Inpatient nursing care and early warning scores: a workflow mismatch. J Nurs Care Qual. 2014 Jul-Sep;29(3):215-22. doi: 10.1097/NCQ.0000000000000058.</citation>
+    <PMID>24569518</PMID>
+  </reference>
+  <reference>
+    <citation>James JT. A new, evidence-based estimate of patient harms associated with hospital care. J Patient Saf. 2013 Sep;9(3):122-8. doi: 10.1097/PTS.0b013e3182948a69. Review.</citation>
+    <PMID>23860193</PMID>
+  </reference>
+  <reference>
+    <citation>Albers DJ, Sprott JC, Crutchfield JP. Persistent chaos in high dimensions. Phys Rev E Stat Nonlin Soft Matter Phys. 2006 Nov;74(5 Pt 2):057201. Epub 2006 Nov 2.</citation>
+    <PMID>17280024</PMID>
+  </reference>
+  <reference>
+    <citation>Nakamura A, Osonoi T, Terauchi Y. Relationship between urinary sodium excretion and pioglitazone-induced edema. J Diabetes Investig. 2010 Oct 19;1(5):208-11. doi: 10.1111/j.2040-1124.2010.00046.x.</citation>
+    <PMID>24843434</PMID>
+  </reference>
+  <reference>
+    <citation>Jones L, King L, Wilson C. A literature review: factors that impact on nurses' effective use of the Medical Emergency Team (MET). J Clin Nurs. 2009 Dec;18(24):3379-90. doi: 10.1111/j.1365-2702.2009.02944.x. Review.</citation>
+    <PMID>20487489</PMID>
+  </reference>
+  <reference>
+    <citation>Bates DW, Saria S, Ohno-Machado L, Shah A, Escobar G. Big data in health care: using analytics to identify and manage high-risk and high-cost patients. Health Aff (Millwood). 2014 Jul;33(7):1123-31. doi: 10.1377/hlthaff.2014.0041.</citation>
+    <PMID>25006137</PMID>
+  </reference>
+  <reference>
+    <citation>Churpek MM, Yuen TC, Park SY, Gibbons R, Edelson DP. Using electronic health record data to develop and validate a prediction model for adverse outcomes in the wards*. Crit Care Med. 2014 Apr;42(4):841-8. doi: 10.1097/CCM.0000000000000038.</citation>
+    <PMID>24247472</PMID>
+  </reference>
+  <reference>
+    <citation>Zhang AL, Chen RX, Kang MF, Fan HL, Wang WL. Study of the regulatory effect of acupuncture on rotation-induced gastric dysrhythmia in rabbits. World J Gastroenterol. 1997 Mar 15;3(1):54-5. doi: 10.3748/wjg.v3.i1.54.</citation>
+    <PMID>27006588</PMID>
+  </reference>
+  <reference>
+    <citation>Collins S, Bakken S, Vawdrey D, Coiera E, Currie LM. Discuss now, document later: CIS/CPOE perceived to be a 'shift behind' in the ICU. Stud Health Technol Inform. 2010;160(Pt 1):178-82.</citation>
+    <PMID>20841673</PMID>
+  </reference>
+  <reference>
+    <citation>Zhou L, Hongsermeier T, Boxwala A, Lewis J, Kawamoto K, Maviglia S, Gentile D, Teich JM, Rocha R, Bell D, Middleton B. Structured representation for core elements of common clinical decision support interventions to facilitate knowledge sharing. Stud Health Technol Inform. 2013;192:195-9.</citation>
+    <PMID>23920543</PMID>
+  </reference>
+  <reference>
+    <citation>Zhou L, Friedman C, Parsons S, Hripcsak G. System architecture for temporal information extraction, representation and reasoning in clinical narrative reports. AMIA Annu Symp Proc. 2005:869-73.</citation>
+    <PMID>16779164</PMID>
+  </reference>
+  <reference>
+    <citation>Collins SA, Cato K, Albers D, Scott K, Stetson PD, Bakken S, Vawdrey DK. Relationship between nursing documentation and patients' mortality. Am J Crit Care. 2013 Jul;22(4):306-13. doi: 10.4037/ajcc2013426.</citation>
+    <PMID>23817819</PMID>
+  </reference>
+  <reference>
+    <citation>Collins SA, Fred M, Wilcox L, Vawdrey DK. Workarounds used by nurses to overcome design constraints of electronic health records. NI 2012 (2012). 2012 Jun 23;2012:93. eCollection 2012.</citation>
+    <PMID>24199061</PMID>
+  </reference>
+  <reference>
+    <citation>Collins SA, Currie LM. Interdisciplinary communication in the ICU. Stud Health Technol Inform. 2009;146:362-6.</citation>
+    <PMID>19592866</PMID>
+  </reference>
+  <reference>
+    <citation>Collins S, Hurley AC, Chang FY, Illa AR, Benoit A, Laperle S, Dykes PC. Content and functional specifications for a standards-based multidisciplinary rounding tool to maintain continuity across acute and critical care. J Am Med Inform Assoc. 2014 May-Jun;21(3):438-47. doi: 10.1136/amiajnl-2013-001949. Epub 2013 Sep 30.</citation>
+    <PMID>24081019</PMID>
+  </reference>
+  <reference>
+    <citation>Collins SA, Gazarian P, Stade D, McNally K, Morrison C, Ohashi K, Lehmann L, Dalal A, Bates DW, Dykes PC. Clinical Workflow Observations to Identify Opportunities for Nurse, Physicians and Patients to Share a Patient-centered Plan of Care. AMIA Annu Symp Proc. 2014 Nov 14;2014:414-23. eCollection 2014.</citation>
+    <PMID>25954345</PMID>
+  </reference>
+  <reference>
+    <citation>Ferguson TB Jr. The Institute of Medicine committee report &quot;best care at lower cost: the path to continuously learning health care&quot;. Circ Cardiovasc Qual Outcomes. 2012 Nov;5(6):e93-4. doi: 10.1161/CIRCOUTCOMES.112.968768.</citation>
+    <PMID>23170008</PMID>
+  </reference>
+  <reference>
+    <citation>Albers DJ, Hripcsak G. Using time-delayed mutual information to discover and interpret temporal correlation structure in complex populations. Chaos. 2012 Mar;22(1):013111. doi: 10.1063/1.3675621.</citation>
+    <PMID>22462987</PMID>
+  </reference>
+  <reference>
+    <citation>Hyun S, Bakken S. Toward the creation of an ontology for nursing document sections: mapping section names to the LOINC semantic model. AMIA Annu Symp Proc. 2006:364-8.</citation>
+    <PMID>17238364</PMID>
+  </reference>
+  <reference>
+    <citation>Aiken LH, Clarke SP, Sloane DM. Hospital staffing, organization, and quality of care: Cross-national findings. Nurs Outlook. 2002 Sep-Oct;50(5):187-94.</citation>
+    <PMID>12386653</PMID>
+  </reference>
+  <reference>
+    <citation>Moss J, Andison M, Sobko H. An analysis of narrative nursing documentation in an otherwise structured intensive care clinical information system. AMIA Annu Symp Proc. 2007 Oct 11:543-7.</citation>
+    <PMID>18693895</PMID>
+  </reference>
+  <reference>
+    <citation>Bequette BW. Algorithms for a closed-loop artificial pancreas: the case for model predictive control. J Diabetes Sci Technol. 2013 Nov 1;7(6):1632-43.</citation>
+    <PMID>24351190</PMID>
+  </reference>
+  <reference>
+    <citation>Zhou L, Plasek JM, Mahoney LM, Karipineni N, Chang F, Yan X, Chang F, Dimaggio D, Goldman DS, Rocha RA. Using Medical Text Extraction, Reasoning and Mapping System (MTERMS) to process medication information in outpatient clinical notes. AMIA Annu Symp Proc. 2011;2011:1639-48. Epub 2011 Oct 22.</citation>
+    <PMID>22195230</PMID>
+  </reference>
+  <reference>
+    <citation>Stein-Parbury J, Liaschenko J. Understanding collaboration between nurses and physicians as knowledge at work. Am J Crit Care. 2007 Sep;16(5):470-7; quiz 478.</citation>
+    <PMID>17724244</PMID>
+  </reference>
+  <reference>
+    <citation>Collins S, Bakken S, Cimino JJ, Currie LM. Identifying logical clinical context clusters in nursing orders for the purpose of information retrieval. AMIA Annu Symp Proc. 2008 Nov 6:131-5.</citation>
+    <PMID>18999260</PMID>
+  </reference>
+  <reference>
+    <citation>Senathirajah Y, Kaufman D, Bakken S. Essential questions: accuracy, errors and user perceptions in a drag/drop user-composable electronic health record. Stud Health Technol Inform. 2013;194:181-7.</citation>
+    <PMID>23941953</PMID>
+  </reference>
+  <reference>
+    <citation>Currie L, Sheehan B, Graham PL 3rd, Stetson P, Cato K, Wilcox A. Sociotechnical analysis of a neonatal ICU. Stud Health Technol Inform. 2009;146:258-62.</citation>
+    <PMID>19592845</PMID>
+  </reference>
+  <reference>
+    <citation>Cato KD, Bakken S. What am I giving tonight? Information needs of nurses related to patient medications administration while using a clinical information system. NI 2012 (2012). 2012 Jun 23;2012:65. eCollection 2012.</citation>
+    <PMID>24199053</PMID>
+  </reference>
+  <reference>
+    <citation>Topaz M, Seger DL, Lai K, Wickner PG, Goss F, Dhopeshwarkar N, Chang F, Bates DW, Zhou L. High Override Rate for Opioid Drug-allergy Interaction Alerts: Current Trends and Recommendations for Future. Stud Health Technol Inform. 2015;216:242-6.</citation>
+    <PMID>26262047</PMID>
+  </reference>
+  <reference>
+    <citation>Klann JG, Phillips LC, Herrick C, Joss MAH, Wagholikar KB, Murphy SN. Web services for data warehouses: OMOP and PCORnet on i2b2. J Am Med Inform Assoc. 2018 Oct 1;25(10):1331-1338. doi: 10.1093/jamia/ocy093.</citation>
+    <PMID>30085008</PMID>
+  </reference>
+  <reference>
+    <citation>Sedigh-Sarvestani M, Albers DJ, Gluckman BJ. Data assimilation of glucose dynamics for use in the intensive care unit. Conf Proc IEEE Eng Med Biol Soc. 2012;2012:5437-40. doi: 10.1109/EMBC.2012.6347224.</citation>
+    <PMID>23367159</PMID>
+  </reference>
+  <reference>
+    <citation>Ludwick R, Zeller RA. The factorial survey: an experimental method to replicate real world problems. Nurs Res. 2001 Mar-Apr;50(2):129-33.</citation>
+    <PMID>11302293</PMID>
+  </reference>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>February 28, 2019</study_first_submitted>
+  <study_first_submitted_qc>April 9, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 11, 2019</study_first_posted>
+  <last_update_submitted>July 27, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 27, 2020</last_update_submitted_qc>
+  <last_update_posted type="Estimate">July 28, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Columbia University</investigator_affiliation>
+    <investigator_full_name>Sarah Collins Rossetti</investigator_full_name>
+    <investigator_title>Assistant Professor of Biomedical Informatics and Nursing</investigator_title>
+  </responsible_party>
+  <keyword>Early warning system</keyword>
+  <keyword>Clinical decision support</keyword>
+  <keyword>Predictive analysis</keyword>
+  <keyword>Failure to rescue</keyword>
+  <keyword>Inter-professional situational awareness</keyword>
+  <keyword>Nursing surveillance</keyword>
+  <keyword>Healthcare process models of clinical concern (HPM-CC)</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Iatrogenic Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>This study will develop an open source SmartApp using interoperability standards. The investigators will make all source code available to any researchers upon request. This approach will ensure open access to all project aims, methods, resources, and deliverables by anyone via a study web-page. To aid in replication this web-page will include methods as well as other project processes such as stakeholder engagement, technical development, governance and lessons learned.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

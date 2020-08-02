@@ -1,0 +1,226 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03797118</url>
+  </required_header>
+  <id_info>
+    <org_study_id>17-51-53160</org_study_id>
+    <nct_id>NCT03797118</nct_id>
+  </id_info>
+  <brief_title>One-Dimensional Mathematical Model-Based Automated Assessment of Fractional Flow Reserve</brief_title>
+  <official_title>The First Experience With Using a One-dimensional Mathematical Model With Fully Automated Algorithm of Extraction of Patient-specific Geometry From CT Images for a Noninvasive Assessment of Fractional Flow Reserve.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>I.M. Sechenov First Moscow State Medical University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>I.M. Sechenov First Moscow State Medical University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study evaluates the diagnostic efficiency of an automated method of noninvasive
+      assessment of the fractional reserve of coronary blood flow.
+
+      Fractional flow reserve is estimated with a one-dimensional mathematical model constructed by
+      means of an automated algorithm. Noninvasive method values are thereafter compared with
+      invasive method values.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Noninvasive assessment of Fractional Flow Reserve is almost never applied in the Russian
+      Federation due to the relative novelty and study insufficiency, lack of the appropriate
+      resource base, specific necessary software and trained qualified personnel.
+
+      In 2015, scientists from the Institute of Numerical Mathematics RAS in collaboration with
+      specialists of the I.M. Sechenov First Moscow State Medical University developed a
+      noninvasive method of fractional flow reserve assessment based on a one-dimensional
+      mathematical model. A model is constructed based on images derived from the coronary computed
+      tomography angiography performed by standard protocol; the method is fully automated.
+
+      The aim of our study is to evaluate the diagnostic efficiency of this technique in clinical
+      practice.
+
+      This is a pilot study; we are planning to enroll 30 patients: 13 of them underwent 64-slice
+      computed tomography and are included retrospectively; 17 will be included prospectively, with
+      a 640-slice CT scan. Specialists from the Laboratory of Mathematical Modeling will process CT
+      images and evaluate noninvasive FFR. Ischemia is confirmed if FFR &lt; 0.80 and disproved if FFR
+      ≥ 0.80. After that, the prospective group of patients will be hospitalized for invasive FFR
+      assessment as a reference standard; if ischemia is proved, patients will undergo stent
+      implantation. In the retrospective group, patients already have invasive FFR values
+      estimated.
+
+      Statistical analysis will be performed using R programming language packages
+      (cran-r.project.com). Continuous variables will be presented as mean values ± standard
+      deviations, order variables will be presented as medians with interquartile ranges in
+      parentheses. We are going to use the D'Agostino-Pearson omnibus test for the assessment of
+      normality of distribution and construct a Q-Q Plot. We will compare these two methods with
+      the Bland-Altman analysis and ROC-analysis and will assess the degree of correlation with the
+      Pearson's chi-squared.
+
+      The study should result in determining the sensitivity, specificity, positive and negative
+      predictive values of the method.
+
+      After the active phase of the research is done, we are planning to proceed observation on the
+      prospective group of patients to verify the endpoints.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">April 5, 2017</start_date>
+  <completion_date type="Actual">July 5, 2019</completion_date>
+  <primary_completion_date type="Actual">June 5, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Diagnostic Accuracy of FFRct</measure>
+    <time_frame>through study completion, an average of 8 months</time_frame>
+    <description>Sensitivity, specificity, positive predictive value (PPV) and negative predictive value (NPV) of FFRct at the vessel level using binary outcomes whith compared to FFR as the reference standard.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">31</enrollment>
+  <condition>Coronary Artery Disease</condition>
+  <arm_group>
+    <arm_group_label>FFRct</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients will receive cCTA, ICA, FFRct, and FFRinv per protocol.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>FFR</intervention_name>
+    <description>Fractional flow reserve measured during cardiac catheterization</description>
+    <arm_group_label>FFRct</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Patients providing written informed consent
+
+          2. Scheduled to undergo clinically-indicated non-emergent invasive coronary angiography
+             (ICA)
+
+          3. Has undergone &gt;640 multidetector CCTA within 60 days prior to ICA
+
+          4. No cardiac interventional therapy between the CCTA and ICA
+
+        Exclusion Criteria:
+
+          1. Prior coronary artery bypass graft (CABG) surgery
+
+          2. Prior percutaneous coronary intervention (PCI) for which suspected coronary artery
+             lesion(s) are within a stented coronary vessel
+
+          3. Contraindication to adenosine, including 2nd or 3rd-degree heart block; sick sinus
+             syndrome; long QT syndrome; severe hypotension, severe asthma, severe COPD or
+             bronchodilator-dependent COPD
+
+          4. Suspicion of acute coronary syndrome (acute myocardial infarction and unstable angina)
+
+          5. Recent prior myocardial infarction within 40 days of ICA
+
+          6. Known complex congenital heart disease
+
+          7. Prior pacemaker or internal defibrillator lead implantation
+
+          8. Prosthetic heart valve
+
+          9. Significant arrhythmia or tachycardia
+
+         10. Impaired chronic renal function (serum creatinine &gt;1.5 mg/dl
+
+         11. Patients with known anaphylactic allergy to iodinated contrast
+
+         12. Pregnancy or unknown pregnancy status
+
+         13. Body mass index &gt;35
+
+         14. Patient requires an emergent procedure
+
+         15. Evidence of ongoing or active clinical instability, including acute chest pain (sudden
+             onset), cardiogenic shock, unstable blood pressure with systolic blood pressure &lt;90
+             mmHg, and severe congestive heart failure (NYHA III or IV) or acute pulmonary edema
+
+         16. Any active, serious, life-threatening disease with a life expectancy of less than 2
+             months
+
+         17. Inability to comply with study procedures
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>85 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Daria Gognieva, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>I.M. Sechenov First Moscow State Medical University (Sechenov University)</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Philipp Kopylov, Professor</last_name>
+    <role>Study Director</role>
+    <affiliation>I.M. Sechenov First Moscow State Medical University (Sechenov University)</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Daria Gognieva</name>
+      <address>
+        <city>Moscow</city>
+        <zip>127540</zip>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Russian Federation</country>
+  </location_countries>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed?term=Am+J+Case+Rep+%5BJour%5D+AND+One-Dimensional+Mathematical+Model-Based+Automated+Assessment+of+Fractional+Flow+Reserve+in+a+Patient+with+Silent+Myocardial+Ischemia&amp;TransSchema=title&amp;cmd=detailssearch</url>
+    <description>Am J Case Rep. 2018 Jun 20;19:724-728. doi: 10.12659/AJCR.908449.</description>
+  </link>
+  <reference>
+    <citation>Gognieva D, Gamilov T, Pryamonosov R, Betelin V, Ternovoy SK, Serova NS, Abugov S, Shchekochikhin D, Mitina Y, El-Manaa H, Kopylov P. One-Dimensional Mathematical Model-Based Automated Assessment of Fractional Flow Reserve in a Patient with Silent Myocardial Ischemia. Am J Case Rep. 2018 Jun 20;19:724-728. doi: 10.12659/AJCR.908449.</citation>
+    <PMID>29921835</PMID>
+  </reference>
+  <verification_date>May 2020</verification_date>
+  <study_first_submitted>December 22, 2018</study_first_submitted>
+  <study_first_submitted_qc>January 6, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 8, 2019</study_first_posted>
+  <last_update_submitted>May 14, 2020</last_update_submitted>
+  <last_update_submitted_qc>May 14, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 18, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>I.M. Sechenov First Moscow State Medical University</investigator_affiliation>
+    <investigator_full_name>Daria Gognieva</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>noninvasive assessment of the fractional flow reserve</keyword>
+  <keyword>coronary computed tomography angiography</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronary Artery Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Data disclosure is not permitted by the local ethics committee. For more information about the study, you need to contact the principal investigator.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

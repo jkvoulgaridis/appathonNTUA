@@ -1,0 +1,196 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03761771</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AI-1</org_study_id>
+    <nct_id>NCT03761771</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence Identifying Polyps in Real-world Colonoscopy</brief_title>
+  <official_title>Validating the Performance of Artificial Intelligence in Identifying Polyps in Real-world Colonoscopy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Zhaoshen Li</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Changhai Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Recently, artificial intelligence (AI) assisted image recognition has made remarkable
+      breakthroughs in various medical fields with the developing of deep learning and conventional
+      neural networks (CNNs). However, all current AI assisted-diagnosis systems (ADSs) were
+      established and validated on endoscopic images or selected videos, while its actual
+      assisted-diagnosis performance in real-world colonoscopy is up to now unknown. Therefore, we
+      validated the performance of an ADS in real-world colonoscopy, which is based on deep
+      learning algorithm and CNNs, trained and tested in multicenter datasets of 20 endoscopy
+      centers.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The ADS were established in changhai digestive endoscopy center to assess its efficacy in
+      clinical practice. The ADS automatically initiated once the ileocecal valve was pictured by
+      the colonoscopist or the colonoscopist recorded any image of colon during the insertion. When
+      colonoscopists withdrew the colonoscopies and inspect the colons, the video streaming of
+      colonoscopies was real-time switched to the ADS, which made it feasible to identify and
+      classify lesions in real time. Colonoscopists were invited to respond if they doubted
+      potential polyps in the screen, and the ADS also made a voice when identifying potential
+      polyps, followed by repeatedly inspecting to confirm the existence of lesions. The voice of
+      ADS could be real-time heard by colonoscopists, while the screen of ADS was placed right
+      behind colonoscopists, where polyps identified by ADS could be seen after the colonoscopists'
+      turning but not simultaneously. The lesion detection by ADS or colonoscopists were determined
+      as follow: A. polyps only identified by ADS, which was considered to be missed by
+      colonoscopists: polyps were reported by the ADS and the colonoscopists did not know the
+      location of polyps without reminder of the ADS until the polyps disappeared from the view; B.
+      polyps first identified by ADS: polyps were first reported by the ADS and the colonoscopists
+      also later knew the location of polyps by themselves; C. polyps simultaneously identified by
+      the ADS and colonoscopists: the time of reporting polyps was closely synchronal (within 1
+      second); D. polyps first reported by colonoscopists: polyps were first reported by the
+      colonoscopists and the ADS also later identified the location of polyps before the
+      colonoscopists unfolded and pictured the polyps; E. polyps only reported by colonoscopists,
+      which was considered to be missed by the ADS: polyps were reported by the colonoscopists and
+      the ADS did not identify the location of polyps until colonoscopists unfolded and pictured
+      the polyps. Besides, the false-positives of real-world ADS were also reported with potential
+      causes analyzed by colonoscopists.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">November 1, 2018</start_date>
+  <completion_date type="Actual">December 10, 2018</completion_date>
+  <primary_completion_date type="Actual">December 10, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>sensitivity of the ADS in identifying polyps</measure>
+    <time_frame>1 hour</time_frame>
+    <description>Polyps that were only reported by colonoscopists were considered to be missed by the ADS (polyps were reported by the colonoscopists and the ADS did not identify the location of polyps until colonoscopists unfolded and pictured the polyps.)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>false positves of the ADS per colonoscopy withdrawal</measure>
+    <time_frame>1 hour</time_frame>
+    <description>when the system identified and confirmed any lesion in the images with no polyps or cancers appearing, the results were judged to be false-positive.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">209</enrollment>
+  <condition>Sensitivity of the ADS in Identifying Polyps in Real-world Colonoscopy</condition>
+  <condition>Mean Number of Polyps Per Colonoscopy for Colonoscopists and Colonoscopists + ADS</condition>
+  <arm_group>
+    <arm_group_label>colonoscopy withdrawal with the ADS monitoring</arm_group_label>
+    <description>The ADS automatically initiated once the ileocecal valve was pictured by the colonoscopist or the colonoscopist recorded any image of colon during the insertion. When colonoscopists withdrew the colonoscopies and inspect the colons, the video streaming of colonoscopies was real-time switched to the ADS, which made it feasible to identify and classify lesions in real time.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>colonoscopy withdrawal with the ADS monitoring</intervention_name>
+    <description>During the testing of trained ADS, when the system doubts colonic lesions from the input data of the test images, a rectangular frame was displayed in the endoscopic image to surround the lesion. If the system confirmed it as the colonic lesions, a sound of reminder will be played and the types of lesions (non-adenomatous polyps, adenomatous polyps and colorectal cancers) will be classified by the system. We adopted several standards to define the identification and classification of colonic lesions: 1) when the system identified and confirmed any lesion in the images of no polyps or cancers, the results were judged to be false-positive. 2) when the system both confirmed and correctly localized the lesions in images (IoU &gt; 0.3), the results were judged to be true-positive. 3) when the system did not confirm or correctly localize the lesions, the results were judged as false-negative. 4) when system confirmed no lesions in the normal images, the results were judged to be true-negative.</description>
+    <arm_group_label>colonoscopy withdrawal with the ADS monitoring</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        consecutive outpatient who recieved colonoscopy
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  patients receiving screening colonoscopy
+
+          -  patients receiving surveillance colonoscopy
+
+          -  patients receiving diagnostic colonoscopy
+
+        Exclusion Criteria:
+
+          -  patients with declined consent
+
+          -  patients with poor bowel preparation
+
+          -  patients with failed cecal intubation
+
+          -  patients with colonic resection
+
+          -  patients with inflammatory bowel diseases
+
+          -  patients with polyposis
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Changhai Hospital, Second Military Medical University</name>
+      <address>
+        <city>Shanghai</city>
+        <zip>200433</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Changhai Hospital</name>
+      <address>
+        <city>Shanghai</city>
+        <zip>200433</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <reference>
+    <citation>Byrne MF, Chapados N, Soudan F, Oertel C, Linares Pérez M, Kelly R, Iqbal N, Chandelier F, Rex DK. Real-time differentiation of adenomatous and hyperplastic diminutive colorectal polyps during analysis of unaltered videos of standard colonoscopy using a deep learning model. Gut. 2019 Jan;68(1):94-100. doi: 10.1136/gutjnl-2017-314547. Epub 2017 Oct 24.</citation>
+    <PMID>29066576</PMID>
+  </reference>
+  <reference>
+    <citation>Wang Z, Meng Q, Wang S, Li Z, Bai Y, Wang D. Deep learning-based endoscopic image recognition for detection of early gastric cancer: a Chinese perspective. Gastrointest Endosc. 2018 Jul;88(1):198-199. doi: 10.1016/j.gie.2018.01.029.</citation>
+    <PMID>29935613</PMID>
+  </reference>
+  <results_reference>
+    <citation>Urban G, Tripathi P, Alkayali T, Mittal M, Jalali F, Karnes W, Baldi P. Deep Learning Localizes and Identifies Polyps in Real Time With 96% Accuracy in Screening Colonoscopy. Gastroenterology. 2018 Oct;155(4):1069-1078.e8. doi: 10.1053/j.gastro.2018.06.037. Epub 2018 Jun 18.</citation>
+    <PMID>29928897</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Wang Z, Zhao S, Bai Y. Artificial Intelligence as a Third Eye in Lesion Detection by Endoscopy. Clin Gastroenterol Hepatol. 2018 Sep;16(9):1537. doi: 10.1016/j.cgh.2018.04.032.</citation>
+    <PMID>30119878</PMID>
+  </results_reference>
+  <verification_date>December 2018</verification_date>
+  <study_first_submitted>November 30, 2018</study_first_submitted>
+  <study_first_submitted_qc>November 30, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 3, 2018</study_first_posted>
+  <last_update_submitted>December 14, 2018</last_update_submitted>
+  <last_update_submitted_qc>December 14, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 17, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Changhai Hospital</investigator_affiliation>
+    <investigator_full_name>Zhaoshen Li</investigator_full_name>
+    <investigator_title>Director of Gastroenterology Dept and Digestive Endoscopy Center</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Polyps</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

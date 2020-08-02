@@ -1,0 +1,341 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03740698</url>
+  </required_header>
+  <id_info>
+    <org_study_id>17HH3730</org_study_id>
+    <nct_id>NCT03740698</nct_id>
+  </id_info>
+  <brief_title>The Bio-Inspired Artificial Pancreas for the Home</brief_title>
+  <acronym>BiAP@home</acronym>
+  <official_title>The Bio-Inspired Artificial Pancreas for the Home</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Imperial College London</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Imperial College London</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of the study is to evaluate the safety and effectiveness of a closed-loop insulin
+      delivery system (also known as an artificial pancreas) which is made up of three components
+      that communicate with each other:
+
+        1. A glucose sensor that measures glucose every 5 minutes
+
+        2. A control algorithm that calculates the required insulin dose
+
+        3. An insulin pump that delivers the insulin calculated
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In addition to assessing the closed-loop insulin delivery system on its own, the study aims
+      to evaluate the system when combined with a personalised bolus calculator that adapts over
+      time. Standard bolus calculators are widely used in type 1 diabetes self-management to
+      calculate insulin boluses at mealtimes and are incorporated in all insulin pumps and in some
+      glucose meters. A standard bolus calculator uses a generic formula taking into account the
+      target glucose level, current glucose level, carbohydrate content of meal (grams), insulin:
+      carbohydrate ratio (the amount of carbohydrate (grams) covered by 1 unit of insulin), insulin
+      sensitivity factor (the reduction in blood glucose by 1 unit of insulin) and insulin-on-board
+      (IOB, the remaining active insulin from the previous bolus). Some bolus calculators
+      additionally consider parameters such as exercise, but all lack the ability to automatically
+      adapt over time to respond to individual needs.
+
+      Finally, the study aims to compare the closed-loop insulin delivery system to standard pump
+      therapy (also known as an open-loop insulin delivery system) in combination with continuous
+      glucose monitoring (referred to as sensor augmented pump).
+
+      The Diabetes Technology group at Imperial College have developed a unique closed-loop insulin
+      delivery system known as the Bio-inspired Artificial Pancreas (BiAP) and a personalised bolus
+      calculator known as the Advanced Bolus Calculator for Diabetes (ABC4D).
+
+      Overview of the complete closed-loop system (artificial pancreas) used in this study is as
+      follows:
+
+        1. A commercially available continuous subcutaneous glucose sensor (Dexcom G5 CGM system).
+
+        2. The BiAP control algorithm implemented in a low-power handheld device (developed at
+           Imperial College)
+
+        3. An insulin infusion pump (Tandem t:slim) for insulin delivery.
+
+           In one part of the study the closed-loop system will be evaluated in combination with:
+
+        4. The ABC4D adaptive bolus calculator implemented in a smartphone (as an app)
+
+      All the components will be tested together as a combined system.
+    </textblock>
+  </detailed_description>
+  <overall_status>Suspended</overall_status>
+  <why_stopped>
+    Technical issues
+  </why_stopped>
+  <start_date type="Anticipated">June 1, 2020</start_date>
+  <completion_date type="Anticipated">December 1, 2020</completion_date>
+  <primary_completion_date type="Anticipated">December 1, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <intervention_model_description>This is a 3-way crossover open-label randomized controlled trial. Description of the three interventions for comparison are as follows:
+Sensor augmented pump (combination of insulin pump and continuous glucose monitoring) (open-loop system)
+Bio-inspired Artificial Pancreas (closed-loop system) with a fixed bolus calculator
+Bio-inspired Artificial Pancreas (closed-loop system) with the Advanced Bolus Calculator for Diabetes (ABC4D)
+The intervention in each arm will be assessed over 6 weeks with a minimum 2-week break in between each intervention. During the break participants will revert back to usual pump therapy.</intervention_model_description>
+    <primary_purpose>Device Feasibility</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>% time in target range defined as 3.9-10mmol/l</measure>
+    <time_frame>6 months</time_frame>
+    <description>Interstitial blood glucose will be measured every 5 minutes via CGM for a period of six months</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>% time spent in euglycaemia (3.9-7.8mmol/l)</measure>
+    <time_frame>6 months</time_frame>
+    <description>Interstitial blood glucose will be measured every 5 minutes via CGM for a period of six months</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>% time spent in hypoglycaemia (&lt;3.9mmol/l)</measure>
+    <time_frame>6 months</time_frame>
+    <description>Interstitial blood glucose will be measured every 5 minutes via CGM for a period of six months</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>% time spent in hypoglycaemia (&lt;2.8mmol/l)</measure>
+    <time_frame>6 months</time_frame>
+    <description>Interstitial blood glucose will be measured every 5 minutes via CGM for a period of six months</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>% time spent in hyperglycaemia (&gt;10mmol/l)</measure>
+    <time_frame>6 months</time_frame>
+    <description>Interstitial blood glucose will be measured every 5 minutes via CGM for a period of six months</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>% time spent in severe hyperglycaemia (&lt;15mmol/l)</measure>
+    <time_frame>6 months</time_frame>
+    <description>Interstitial blood glucose will be measured every 5 minutes via CGM for a period of six months</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean sensor glucose</measure>
+    <time_frame>6 months</time_frame>
+    <description>Interstitial blood glucose will be measured every 5 minutes via CGM for a period of six months</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glycaemic variability</measure>
+    <time_frame>6 months</time_frame>
+    <description>Calculation using CGM data</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glycaemic risk as measured by LBGI and HBG</measure>
+    <time_frame>6 months</time_frame>
+    <description>Calculation using CGM data</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Closed loop error grid analysis</measure>
+    <time_frame>6 months</time_frame>
+    <description>Calculation using CGM data</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glucose area under the curve</measure>
+    <time_frame>6 months</time_frame>
+    <description>Calculation using CGM data</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Insulin requirement in units/kg/hr</measure>
+    <time_frame>6 months</time_frame>
+    <description>Calculation using average insulin delivered per hour and bodyweight</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hypoglycaemia awareness (Gold scores)</measure>
+    <time_frame>6 months</time_frame>
+    <description>Quantitative Gold score questionnaire</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Quality of life Questionnaire</measure>
+    <time_frame>6 months</time_frame>
+    <description>Measured via validated questionnaire</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cost-effectiveness</measure>
+    <time_frame>6 months</time_frame>
+    <description>Cost of equipment when compared with standard of care</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Device usability</measure>
+    <time_frame>6 months</time_frame>
+    <description>Measured via validated questionnaire</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>% time in closed loop control</measure>
+    <time_frame>6 months</time_frame>
+    <description>Calculation using BiAP data</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Severe hypoglycaemia</measure>
+    <time_frame>6 months</time_frame>
+    <description>Calculation using CGM data</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diabetic ketoacidosis</measure>
+    <time_frame>6 months</time_frame>
+    <description>Incidences of DKA</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sensor MAD%</measure>
+    <time_frame>6 months</time_frame>
+    <description>Calculation using CGM data</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Diabetes Mellitus, Type 1</condition>
+  <arm_group>
+    <arm_group_label>SAP, open-loop</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Sensor augmented pump (combination of insulin pump and continuous glucose monitoring) (open-loop system)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>BiAP, fixed bolus calculator</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Bio-inspired Artificial Pancreas (closed-loop system) with a fixed bolus calculator</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>BiAP, ABC4D</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Bio-inspired Artificial Pancreas (closed-loop system) with the Advanced Bolus Calculator for Diabetes (ABC4D)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>BiAP</intervention_name>
+    <description>The bio-inspired artificial pancreas (BiAP) system uses a control algorithm based on a mathematical model of beta-cell behaviour derived from physiological experiments, carried out by other groups, which have demonstrated how the beta cells in the pancreas produce insulin in people without diabetes. Utilising the data from these experiments it has been possible to implement the behaviour of the beta cell in software and we have used a simulator with 200 virtual patients to demonstrate the safety and efficacy of the algorithm. The data from the simulator have previously been published. The BiAP algorithm is implemented on a miniature silicon microchip within a portable handheld device, which interfaces the components of the artificial pancreas.</description>
+    <arm_group_label>BiAP, ABC4D</arm_group_label>
+    <arm_group_label>BiAP, fixed bolus calculator</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>ABC4D</intervention_name>
+    <description>The Advanced Bolus Calculator for Diabetes (ABC4D) is a novel, adaptive decision support algorithm based on case-based reasoning (CBR) providing real-time insulin advice through a smartphone application.</description>
+    <arm_group_label>BiAP, ABC4D</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adults over 18 years of age
+
+          -  Type 1 diabetes confirmed on the basis of clinical features and a random c-peptide
+             &lt;200 pmol/L
+
+          -  Type 1 diabetes for greater than 1 year
+
+          -  Continuous subcutaneous insulin infusion for greater than 6 months
+
+          -  Structured education done (either 1:1 or group education)
+
+          -  HbA1c &lt;10% (86mmol/mol)
+
+          -  A negative pregnancy test in female participants of childbearing age
+
+        Exclusion Criteria:
+
+          -  More than one episode of severe hypoglycaemia (defined as hypoglycaemia requiring 3rd
+             party assistance) in the preceding year
+
+          -  Impaired awareness of hypoglycaemia (Gold score &gt;4)
+
+          -  Pregnant or planning pregnancy
+
+          -  Breastfeeding
+
+          -  Enrolled in other clinical trials
+
+          -  Have active malignancy or under investigation for malignancy
+
+          -  Severe visual impairment
+
+          -  Reduced manual dexterity
+
+          -  Ischaemic heart disease
+
+          -  Anti-anginal medications
+
+          -  Regular use of paracetamol
+
+          -  Unable to participate due to other factors, as assessed by the Chief Investigator
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Nick Oliver</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Imperial College London</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Imperial College Clinical Research Facility</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <reference>
+    <citation>Georgiou P, Toumazou C. A silicon pancreatic Beta cell for diabetes. IEEE Trans Biomed Circuits Syst. 2007 Mar;1(1):39-49. doi: 10.1109/TBCAS.2007.893178.</citation>
+    <PMID>23851519</PMID>
+  </reference>
+  <reference>
+    <citation>Oliver N, Georgiou P, Johnston D, Toumazou C. A benchtop closed-loop system controlled by a bio-inspired silicon implementation of the pancreatic beta cell. J Diabetes Sci Technol. 2009 Nov 1;3(6):1419-24.</citation>
+    <PMID>20144397</PMID>
+  </reference>
+  <reference>
+    <citation>Kovatchev BP, Breton M, Man CD, Cobelli C. In silico preclinical trials: a proof of concept in closed-loop control of type 1 diabetes. J Diabetes Sci Technol. 2009 Jan;3(1):44-55.</citation>
+    <PMID>19444330</PMID>
+  </reference>
+  <reference>
+    <citation>Herrero P, Pesl P, Reddy M, Oliver N, Georgiou P, Toumazou C. Advanced Insulin Bolus Advisor Based on Run-To-Run Control and Case-Based Reasoning. IEEE J Biomed Health Inform. 2015 May;19(3):1087-96.</citation>
+    <PMID>24956470</PMID>
+  </reference>
+  <reference>
+    <citation>Herrero P, Georgiou P, Oliver N, Johnston DG, Toumazou C. A bio-inspired glucose controller based on pancreatic β-cell physiology. J Diabetes Sci Technol. 2012 May 1;6(3):606-16.</citation>
+    <PMID>22768892</PMID>
+  </reference>
+  <verification_date>January 2020</verification_date>
+  <study_first_submitted>November 7, 2018</study_first_submitted>
+  <study_first_submitted_qc>November 13, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 14, 2018</study_first_posted>
+  <last_update_submitted>January 7, 2020</last_update_submitted>
+  <last_update_submitted_qc>January 7, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 10, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

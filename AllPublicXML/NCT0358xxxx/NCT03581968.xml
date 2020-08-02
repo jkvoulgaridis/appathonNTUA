@@ -1,0 +1,248 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03581968</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2018-4269</org_study_id>
+    <nct_id>NCT03581968</nct_id>
+  </id_info>
+  <brief_title>Efficacy of Closed-Loop Strategy With and Without a Learning Component in Children and Adolescents With Type 1 Diabetes at a Diabetes Camp</brief_title>
+  <official_title>An Open-Label, Randomized, Two-Way, Cross-Over Study to Compare the Efficacy of Closed-Loop Strategy With and Without a Learning Component in Children and Adolescents With Type 1 Diabetes at a Diabetes Camp</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>McGill University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>McGill University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Our lab has developed an artificial pancreas system called the McGill Artificial Pancreas
+      (MAP) for automating insulin delivery. Using patient's basal-bolus parameters (basal rates
+      and ICRs), the artificial pancreas involves a control algorithm that modulates insulin
+      infusion based on the sensor readings and meal information. However, because basal-bolus
+      parameters are difficult to optimize, proper glycemic control is not always achieved.
+      Therefore, we have developed a learning algorithm that estimates optimal basal-bolus
+      parameters using data over several days. The algorithm examines daily glucose, insulin, and
+      meal data to make changes in patients' basal rates and ICRs.
+
+      The objective of this project is to test our artificial pancreas system with and without the
+      learning algorithm using a randomized crossover design in between 31 and 67 children and
+      adolescents at camp Carowanis. We hypothesize that adding a learning algorithm to the
+      artificial pancreas will improve the performance of our artificial pancreas system by
+      increasing the time spent in target glucose range (4mmol/L - 10mmol/L) compared with the
+      artificial pancreas system alone.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is an open-label, randomized, two-way, cross-over study to compare the glucose control
+      between closed-loop strategy with and without a learning module. Children and adolescent type
+      1 diabetes patients at Camp Carowanis will be enrolled in the study, where they will undergo
+      two randomly ordered interventions:
+
+        1. Closed-loop therapy: participants will undergo a closed-loop therapy where insulin
+           delivery is determined by the MAP system. The study parameters (basal rates and ICRs)
+           will be determined by the camp's physicians on day 1 of camp. The research staff will
+           update the pump's settings to reflect the physician's recommendations at the beginning
+           of the closed-loop therapy, and each time the physicians update the study parameters.
+           Camp physicians will review participants' sensor and insulin data daily, and if
+           necessary, adjust participant basal rates and ICRs. The research staff members will
+           likewise adjust the pump's basal rates and ICR settings as per physician's
+           recommendations. The closed-loop therapy will last 2 days (48 hours).
+
+        2. Closed-loop therapy with learning module: participants will undergo a closed-loop
+           therapy where insulin delivery is determined by the MAP system. The study parameters
+           (basal rates and ICRs) will be computed by the learning algorithm and updated daily. The
+           learning algorithm runs on a computer of the research staff members and requires patient
+           data to calculate the optimal basal rates and ICR. Each morning, the research staff
+           members will upload patient data onto the computer, run the leaning algorithm, and
+           update the pump parameters to reflect the recommendations computed by the learning
+           algorithm. Camp physicians will be to review the algorithm's recommendations before they
+           are entered into the patient's pump. The closed-loop therapy with the learning module
+           will last 8 days (192 hours).
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 2, 2018</start_date>
+  <completion_date type="Actual">August 10, 2018</completion_date>
+  <primary_completion_date type="Actual">August 10, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <intervention_model_description>This is an open-label, randomized, two-way, cross-over study.</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percentage of time of sensor glucose levels spent in target range</measure>
+    <time_frame>10-24hour periods</time_frame>
+    <description>Target range defined to be between 3.9 mmol/L and 10.0 mmol/L</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of time of sensor glucose levels spent</measure>
+    <time_frame>10-24hour periods</time_frame>
+    <description>between 3.9 and 7.8 mmol/L;
+between 3.9 and 10 mmol/L;
+below 3.9 mmol/L;
+below 3.3 mmol/L;
+below 2.8 mmol/L;
+above 7.8 mmol/L;
+above 10 mmol/L;
+above 13.9 mmol/L;
+above 16.7 mmol/L.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of overnight time (23:00-7:00) of sensor glucose levels</measure>
+    <time_frame>10-24hour periods</time_frame>
+    <description>between 3.9 and 7.8 mmol/L;
+between 3.9 and 10 mmol/L;
+below 3.9 mmol/L;
+below 3.3 mmol/L;
+below 2.8 mmol/L;
+above 7.8 mmol/L;
+above 10 mmol/L;
+above 13.9 mmol/L;
+above 16.7 mmol/L.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of daytime (7:00-23:00) of sensor glucose levels</measure>
+    <time_frame>10-24hour periods</time_frame>
+    <description>Percentage of daytime (7:00-23:00) of sensor glucose levels
+between 3.9 and 7.8 mmol/L;
+between 3.9 and 10 mmol/L;
+below 3.9 mmol/L;
+below 3.3 mmol/L;
+below 2.8 mmol/L;
+above 7.8 mmol/L;
+above 10 mmol/L;
+above 13.9 mmol/L;
+above 16.7 mmol/L.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Standard deviation of glucose levels as a measure of glucose variability.</measure>
+    <time_frame>10-24hour periods</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total insulin delivery.</measure>
+    <time_frame>10-24hour periods</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean sensor glucose level during: a. the overall study period; b. the daytime period; c. overnight period.</measure>
+    <time_frame>10-24hour periods</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of participants experiencing hypoglycemia requiring oral treatment during:</measure>
+    <time_frame>10-24hour periods</time_frame>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">45</enrollment>
+  <condition>Diabetes</condition>
+  <condition>Type 1 Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>Closed-loop therapy</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will undergo a closed-loop therapy where insulin delivery is determined by the MAP system. The study parameters (basal rates and ICRs) will be determined by the camp's physicians. The research staff will update the pump's settings to reflect the physician's recommendations at the beginning of the closed-loop therapy, and each time the physicians update the study parameters. The closed-loop therapy will last 2 days (48 hours).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Closed-loop therapy with learning module</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>participants will undergo a closed-loop therapy where insulin delivery is determined by the MAP system. The study parameters (basal rates and ICRs) will be computed by the learning algorithm and updated daily. The learning algorithm runs on a computer of the research staff members and requires patient data to calculate the optimal basal rates and ICR. Each day, the research staff members will upload patient data onto the computer, run the leaning algorithm, and update the pump parameters to reflect the recommendations computed by the learning algorithm. The closed-loop therapy with the learning module will last 8 days (192 hours).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Artificial Pancreas</intervention_name>
+    <description>The system is composed of 3 main components:
+Insulin infusion pump to infuse insulin. The pump model used in the study is t:slim, Tandem Diabetes Care.
+Continuous glucose monitor (CGM) to continuously measure glucose levels in the interstitial fluid. Glucose levels will be measured by Dexcom G5® CGM.
+MAP application (iMAP) that computes insulin infusion based on the glucose values. The application also alarms the user when glucose sensor values are approaching the hypoglycemic or hyperglycemic range. The iMAP runs on an android smartphone.
+Every 10 minutes, iMAP retrieves the glucose values from the Dexcom G5 CGM via Bluetooth. The application computes an optimal insulin infusion rate based on i) the current glucose reading, ii) the glucose trend (i.e. how quickly the glucose level is rising or falling) and iii) the open-loop basal rates (study parameters). The insulin recommendations are then sent wirelessly via Bluetooth to the insulin pump.</description>
+    <arm_group_label>Closed-loop therapy</arm_group_label>
+    <arm_group_label>Closed-loop therapy with learning module</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Males and females between 8 and 21 years old.
+
+          2. Clinical diagnosis of type 1 diabetes for at least 12 months. The diagnosis of type 1
+             diabetes is based on the investigator's judgment; C peptide level and antibody
+             determinations are not needed.
+
+          3. The participant will have been on insulin pump therapy for at least 3 months.
+
+          4. HbA1c ≤ 11%.
+
+        Exclusion Criteria:
+
+          1. Participants who cannot or are unwilling to use NovoRapid (Aspart) insulin or Humalog
+             (Lispro) insulin for the duration of the study.
+
+          2. Serious medical illness likely to interfere with study participation or with the
+             ability to complete the trial by the judgment of the investigator.
+
+          3. Failure to comply with the study protocol or with team's recommendations (e.g. not
+             willing to use trial pump, etc.).
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>8 Years</minimum_age>
+    <maximum_age>21 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Camp Carowanis</name>
+      <address>
+        <city>Sainte-Agathe-des-Monts</city>
+        <state>Quebec</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>November 2018</verification_date>
+  <study_first_submitted>June 27, 2018</study_first_submitted>
+  <study_first_submitted_qc>June 27, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 10, 2018</study_first_posted>
+  <last_update_submitted>November 27, 2018</last_update_submitted>
+  <last_update_submitted_qc>November 27, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 29, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>diabetes</keyword>
+  <keyword>type 1 diabetes</keyword>
+  <keyword>diabetes mellitus</keyword>
+  <keyword>pediatrics</keyword>
+  <keyword>diabetes camp</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pancrelipase</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

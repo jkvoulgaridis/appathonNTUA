@@ -1,0 +1,167 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04140565</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SHEBA-19-6267-LD-CTIL</org_study_id>
+    <nct_id>NCT04140565</nct_id>
+  </id_info>
+  <brief_title>Positron Emission Tomography (PET) Images Using Deep Neural Networks</brief_title>
+  <official_title>Extraction of Diagnostic Positron Emission Tomography (PET) Images From 10 Seconds Bed-position Acquisition, Using Deep Neural Networks</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sheba Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Computational Imaging Lab , Dr. Arnaldo Mayer</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Sheba Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      PET images are based on detecting two annihilation 511 KeV photons that are produced by
+      positron emitting isotopes. The longer the acquisition time, the more photons are detected
+      and processed, resulting in better image quality. However, long scan times (typically 20-40
+      minutes per scan) are less convenient to patients, and may result in patient motion and
+      misalignment.
+
+      several studies have used machine learning to produce diagnostic images from low quality
+      images.The goal of our study is to produce diagnostic PET images with 10 seconds acquisition
+      time per bed position using DNN algorithms
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Positron emission tomography (PET)/ computerized tomography (CT), with the use of several
+      tracers, among which fluoro deoxyglucose (FDG) is the most prevalent, has become a principal
+      imaging modality in oncology. The PET and CT components reflect metabolic and anatomic
+      information, respectively. PET images are based on detecting two annihilation 511 KeV photons
+      that are produced by positron emitting isotopes. The longer the acquisition time, the more
+      photons are detected and processed, resulting in better image quality. However, long scan
+      times (typically 20-40 minutes per scan) are less convenient to patients, and may result in
+      patient motion and misalignment. Over the years, several methods, such as 3D and time of
+      flight acquisitions, have been developed to compensate for the degradation in image quality
+      as a result of shortening of the scanning time. Recently, several studies have used machine
+      learning to produce diagnostic images from low quality images. Xiang et al compared PET
+      images of the brain that were acquired in 3 minutes (i.e., low-quality PET (LPET)) with
+      standard PET images (i.e., SPET) that were acquired in 12 minutes. They have combined LPET
+      and T1 weighted images using deep neural networks (DNN) to produce diagnostic PET images
+      equivalent to SPET images.
+
+      The goal of our study is to produce diagnostic PET images with 10 seconds acquisition time
+      per bed position using DNN algorithms developed at the CILAB laboratory in the imaging
+      department of Sheba.
+
+      The algorithms were previously successfully validated for the denoising of ultra-low dose
+      chest CT scans, making them suitable for lung cancer screening. The algorithms are based on
+      the locally-consistent non-local means (LC-NLM) algorithm.
+
+      The LC-NLM algorithm uses fast approximate nearest neighbors (ANN) to find the most similar
+      high-SNR patch, in a purposely built database, for each noisy patch in the input image (Green
+      et al.) ] We propose to use the recently introduced non-local neural networks (Wang et al.)
+      in order to stack the LC-NLM into a fully trainable, locally-consistent nonlocal block
+      (LC-NLB). The original non-local networks combines the ideas of the classical non-local means
+      (NLM) algorithm (Buades et al.) into a neural network block, which computes the output at a
+      specific position as a weighted sum of the features at all positions.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">November 1, 2019</start_date>
+  <completion_date type="Anticipated">November 1, 2021</completion_date>
+  <primary_completion_date type="Anticipated">November 1, 2021</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>2 Years</target_duration>
+  <primary_outcome>
+    <measure>Production of diagnostic PET images using deep neural networks algorithms</measure>
+    <time_frame>2 years</time_frame>
+    <description>To produce PET images form very short bed positions equivalent in quality to the standard PET images</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>PET Images and Deep Neural Networks Algorithms</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients who perform FDG PET/CT from vertex to mid thighs.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:Patients who perform FDG PET/CT -
+
+        Exclusion Criteria:1. Under 18 years old. 2. PET/CT performed with a radioisotope other
+        then FDG.
+
+        -
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Liran Domachevsky, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Sheba Medical Center</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Liran Domachevsky, MD</last_name>
+    <phone>972-53-3387635</phone>
+    <email>Liran.Domachevsky@sheba.health.gov.il</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Sheba Medical Center Hospital- Tel Hashomer</name>
+      <address>
+        <city>Ramat Gan</city>
+        <zip>52621</zip>
+        <country>Israel</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Liran Domachevsky, MD</last_name>
+      <phone>052-53-3387635</phone>
+      <email>Liran.Domachevsky@sheba.health.gov.il</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Israel</country>
+  </location_countries>
+  <verification_date>October 2019</verification_date>
+  <study_first_submitted>October 24, 2019</study_first_submitted>
+  <study_first_submitted_qc>October 24, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 28, 2019</study_first_posted>
+  <last_update_submitted>October 28, 2019</last_update_submitted>
+  <last_update_submitted_qc>October 28, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 30, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Sheba Medical Center</investigator_affiliation>
+    <investigator_full_name>Dr. Liran Domachevsky</investigator_full_name>
+    <investigator_title>Chair, Department of Nuclear Medicine Sheba Medical Center</investigator_title>
+  </responsible_party>
+  <keyword>Machine learning, deep neural networks, PET/CT</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>PET image quality of patients scored on a visual basis and with objective parameters.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

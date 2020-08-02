@@ -1,0 +1,170 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04156880</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NTEC-2019-0655</org_study_id>
+    <nct_id>NCT04156880</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence in Mammography-Based Breast Cancer Screening</brief_title>
+  <official_title>Breast Cancer Screening With Mammography: Diagnostic Assessment of an Artificial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Chinese University of Hong Kong</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>IBM China/Hong Kong Limited</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Chinese University of Hong Kong</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Breast cancer (BC) is the most common cancer among women in worldwide and the second leading
+      cause of cancer-related death.
+
+      As the corner stone of BC screening, mammography is recognized as one of useful imaging
+      modalities to reduce BC mortality, by virtue of early detection of BC. However, mammography
+      interpretation is inherently subjective assessment, and prone to overdiagnosis.
+
+      In recent years, artificial intelligence (AI)-Computer Aided Diagnosis (CAD) systems,
+      characterized by embedded deep-learning algorithms, have entered into the field of BC
+      screening as an aid for radiologist, with purpose to optimize conventional CAD system with
+      weakness of hand-crafted features extraction. For now, stand-alone performance of novel
+      AI-CAD tools have demonstrated promising accuracy and efficiency in BC diagnosis, largely
+      attributed to utilization of convolution neural network(CNNs), and some of them have already
+      achieved radiologist-like level. On the other hand, radiologists' performance on BC screening
+      has shown to be enhanced, by leveraging AI-CAD system as decision support tool. As increasing
+      implementation of commercial AI-CAD system, robust evaluation of its usefulness and
+      cost-effectiveness in clinical circumstances should be undertaken in scenarios mimicking real
+      life before broad adoption, like other emerging and promising technologies. This requires to
+      validate AI-CAD systems in BC screening on multiple, diverse and representative datasets and
+      also to estimate the interface between reader and system. This proposed study seeks to
+      investigate the breast cancer diagnostic performance of AI-CAD system used for reading
+      mammograms. In this work, we will employ a commercially available AI-CAD tool based on
+      deep-learning algorithms (IBM Watson Imaging AI Solution) to identify and characterize the
+      suspicious breast lesions on mammograms. The potential cancer lesions can be labeled and
+      their mammographic features and malignancy probability will be automatically reported. After
+      AI post-processing, we shall further carry out statistical analysis to determine the accuracy
+      of AI-CAD system for BC risk prediction.
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">August 2020</start_date>
+  <completion_date type="Anticipated">June 2024</completion_date>
+  <primary_completion_date type="Anticipated">December 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>area under curve (AUC)</measure>
+    <time_frame>3 years</time_frame>
+    <description>area under receiver operating characteristic (ROC) curve in percentage (%)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>accuracy</measure>
+    <time_frame>3 years</time_frame>
+    <description>proportion of true results(both true positives and true negatives) among whole instances</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>sensitivity</measure>
+    <time_frame>3 years</time_frame>
+    <description>true positive rate in percentage(%) derived by ROC analysis</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>specificity</measure>
+    <time_frame>3 years</time_frame>
+    <description>true negative rate in percentage (%) derived by ROC analysis</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Breast Cancer</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>mammography</intervention_name>
+    <description>standard mammography including craniocaudal (CC) and mediolateral oblique (MLO) views</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        This is a single institutional retrospective cohort study of patients with mammographic
+        examinations. All patients' data will be retrieved via the electronic patient database of
+        our institution. Patient demographics, imaging and histological data, disease and treatment
+        history will be recorded, including age at onset, details of chemotherapy, time interval of
+        metastasis from diagnosis, surgery for the primary tumor, the length of survival, clinical
+        outcome and so on.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Women who had undergone standard mammography including craniocaudal (CC) and
+             mediolateral oblique (MLO) views..
+
+          -  Histopathology-proven diagnosis is available for patients with breast malignancy,
+             including invasive breast cancer, carcinoma in situ, and borderline lesion et al.
+
+          -  As reference standard of benign nature, results from pathology or clinical long-term
+             follow-up (&gt;=2 years) examinations are available for cases without breast malignancy.
+
+        Exclusion Criteria:
+
+          -  Patients with concurring lesions on mammograms that may influence subsequent AI
+             post-process.
+
+          -  Patients without available pathologic diagnosis or long-term follow-up (&gt;=2 years)
+             examinations.
+
+          -  Patients who had undergone breast surgical intervention (e.g. lumpectomy and
+             mammoplasty) prior to first mammography.
+
+          -  Patients diagnosed with other kinds of malignancy, concurrent with metastasis or
+             infiltration/invasion to breast.
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Chiu Wing CHU</last_name>
+    <phone>35052299</phone>
+    <email>winniechu@cuhk.edu.hk</email>
+  </overall_contact>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>November 6, 2019</study_first_submitted>
+  <study_first_submitted_qc>November 6, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 8, 2019</study_first_posted>
+  <last_update_submitted>July 14, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 14, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 16, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Chinese University of Hong Kong</investigator_affiliation>
+    <investigator_full_name>Professor Winnie W.C. Chu</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>mammography</keyword>
+  <keyword>artificial intelligence</keyword>
+  <keyword>deep learning</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

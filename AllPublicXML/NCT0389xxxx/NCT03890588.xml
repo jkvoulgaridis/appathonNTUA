@@ -1,0 +1,341 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03890588</url>
+  </required_header>
+  <id_info>
+    <org_study_id>A17-353</org_study_id>
+    <secondary_id>1R18DK118463-01</secondary_id>
+    <nct_id>NCT03890588</nct_id>
+  </id_info>
+  <brief_title>Chronic Kidney Disease Clinical Decision Support</brief_title>
+  <acronym>CKD-CDS</acronym>
+  <official_title>A Technology-Driven Intervention to Improve Identification and Management of Chronic Kidney Disease in Primary Care</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>HealthPartners Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>HealthPartners Institute</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To prevent serious chronic kidney disease (CKD) complications such as end-stage renal disease
+      and cardiovascular events, better strategies are needed to identify, treat, and refer CKD
+      patients seen in primary care clinics. This project expands an existing and successful
+      Web-based clinical decision support (CDS) system to include key elements of CKD care and
+      rigorously assesses the impact of this intervention on quality of CKD care for patients seen
+      in primary care settings, including better recognition of CKD, better management of blood
+      pressure and glucose, and more timely referral to nephrologists when appropriate. This
+      low-cost and highly scalable intervention has high potential to improve CKD care and
+      translate massive public and private sector investments in health informatics into tangible
+      health benefits for large numbers of patients with CKD.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Clinics are randomly allocated 1:1 through a computer-generated program to either control or
+      intervention.
+
+      Control Clinics. All control clinics will continue to use the basic Electronic Medical Record
+      (EMR)-linked CDS for cardiovascular (CV) risk factor management. This CDS includes
+      algorithmically derived identification of high CV risk patients and prioritized treatment
+      suggestions for lipids, Blood Pressure (BP), glycemic control, weight, tobacco, and aspirin
+      use based on distance from goal, current medications, labs, allergies, and safety
+      considerations. The basic CDS does not include information specific to CKD care.
+
+      Intervention Clinics. The CKD-CDS intervention provides updated clinical recommendations at
+      any primary care visit for patients meeting inclusion and exclusion criteria. This presents
+      patients and their primary care providers (PCPs) multiple opportunities to consider an
+      evolving array of timely, evidence-based treatment options to improve CKD care. The CKD-CDS
+      intervention is rooted in a series of antecedent studies that developed more limited but
+      successful forms of CDS. From an operational point of view, implementing CKD-CDS at
+      intervention clinics requires a series of 4 distinct steps that occur at every encounter:
+
+      Step 1: Data exchange and evaluation: The EMR securely exchanges data with the Web Service at
+      every encounter of patients aged 18-75 triggered by BP entry.
+
+      Step 2: Recognition of CKD and presence of care deficits: Patients with stage 3-4 CKD are
+      automatically identified by the Web Service and evaluated using algorithms maintained in the
+      Web service for identification of CKD and for the 5 emphasized care gaps (identification of
+      CKD, BP control, glucose control, Angiotensin converting enzyme inhibitor (ACEI)/Angiotensin
+      receptor blocker (ARB) use if appropriate, and nephrology consultation if appropriate). If
+      the patient has a care gap, the rooming staff receives an immediate best practice advisory
+      (BPA) prompt to print CDS materials for the patient and the provider to review and use for
+      shared decision making. Using a sequence of steps successfully implemented in previous
+      studies, the rooming staff will print the materials and give the lay version to the patient
+      to review while waiting for the provider. A professional version is left on the door for the
+      provider to review before entering the exam room. This approach has been well-liked by our
+      providers to help them be prepared and to engage patients in their care needs before the
+      clinician-patient interaction. PCPs can also optionally view an electronic version of the CDS
+      materials. The CDS can be viewed in real time for any patient by clicking on a button
+      programmed in the EMR encounter display.
+
+      Step 3: Use of CKD-CDS recommendations as shared decision-making tools: The participating
+      providers and all rooming staff in the intervention clinics will be trained in the use of the
+      PCP (professional) and patient (low-literacy) versions of the CKD-CDS. For this study, the
+      CDS tool will be adapted to emphasize CKD and, for each identified deficit in CKD care, the
+      CKD-CDS will display patient-specific recommendations consistent with then-current national
+      CKD clinical guidelines; for example: (a) recognize CKD and ask the PCP to enter a CKD
+      diagnosis on the problem list if indicated, and/or (b) specific considerations for how to
+      modify BP control, glucose control, or ACEI/ARB therapy, and/or (c) refer certain patients to
+      nephrology when referral criteria are met. The PCP assesses patient preference for any of the
+      CKD-related treatment options. If the patient wants to act on 1 or more, the PCP can address
+      it then or schedule a subsequent visit for that purpose. If the patient is not interested in
+      any option, no further action is needed at that day's visit. The decision support provided to
+      the PCP is very specific and, if pharmacotherapy is indicated, decision support specifies
+      either initiation or titration of specific drugs based on the drugs/doses the patient is
+      currently taking, distance from goal, and other clinical considerations outlined above. The
+      patient version of the CKD-CDS uses symbols to provide easy patient recognition of priority
+      clinical areas and then suggests potential treatment options they can discuss with their
+      provider. Presenting key CKD care recommendations when indicated (all of which are evidence
+      based and capable of improving CKD care) allows the patient freedom to select his or her
+      preferred treatment option from among several potentially beneficial treatment options.
+      Because patient readiness to take health-related actions varies across specific actions,
+      offering several options improves the chance that a given patient may be interested in
+      addressing at least 1 of the evidence-based options presented. Moreover, patient readiness to
+      act is a key predictor of subsequent adherence and success of treatment, as we have
+      previously shown in this patient population. It is important to realize that the printed page
+      the patient receives frames the discussion to a set of prioritized evidence-based treatment
+      options with likely benefit to the patient.
+
+      Step 4. Take action based on the decisions made: After discussing with the patient, the
+      provider can then go ahead and order the recommendations suggested by the CDS such as labs,
+      medication, e-consults with nephrology, and referrals to specialists. All actions taken are
+      also based on the provider's clinical judgement.
+    </textblock>
+  </detailed_description>
+  <overall_status>Suspended</overall_status>
+  <why_stopped>
+    Suspend Wednesday 3/25/2020 due to loss of clinic level randomization after HealthPartners
+    restructured their clinics in response to the Covid-19 pandemic.
+  </why_stopped>
+  <start_date type="Actual">April 17, 2019</start_date>
+  <completion_date type="Anticipated">April 16, 2021</completion_date>
+  <primary_completion_date type="Anticipated">April 16, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Clinic level cluster randomized study</intervention_model_description>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Impact of the intervention on rates of provider-diagnosed CKD for patients with antecedent estimated glomerular filtration rate (eGFR) evidence of stage 3-4 CKD</measure>
+    <time_frame>12-month period after an index usual care clinic visit</time_frame>
+    <description>We will assess achievement of higher rates of provider-diagnosed CKD for patients with antecedent eGFR evidence of stage 3-4 CKD</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Impact of the intervention on rates of ACEI/ARB use for patients with antecedent eGFR evidence of stage 3-4 CKD</measure>
+    <time_frame>12-month period after an index usual care clinic visit</time_frame>
+    <description>We will assess achievement of higher rates of ACEI/ARB use for patients with antecedent eGFR evidence of stage 3-4 CKD</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Impact of the intervention on rates of recommended BP control for patients with antecedent eGFR evidence of stage 3-4 CKD</measure>
+    <time_frame>12-month period after an index usual care clinic visit</time_frame>
+    <description>We will assess achievement of higher rates of recommended BP control for patients with antecedent eGFR evidence of stage 3-4 CKD</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Impact of the intervention on rates of recommended blood glucose control for patients with antecedent eGFR evidence of stage 3-4 CKD</measure>
+    <time_frame>12-month period after an index usual care clinic visit</time_frame>
+    <description>We will assess achievement of higher rates of recommended blood glucose control for patients with antecedent eGFR evidence of stage 3-4 CKD</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Impact of the intervention on rates of consultation with nephrology for patients with eGFR laboratory evidence of stage 3b CKD and Albumin Creatine Ratio (ACR) &gt;30 mg/g or patients with stage 4 CKD</measure>
+    <time_frame>12-month period after an index usual care clinic visit</time_frame>
+    <description>We will assess achievement of higher rates of consultation with nephrology for patients with eGFR laboratory evidence of stage 3b CKD and ACR &gt;30 mg/g or patients with stage 4 CKD</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">6100</enrollment>
+  <condition>Chronic Kidney Diseases</condition>
+  <condition>Hypertension</condition>
+  <condition>Diabetes</condition>
+  <arm_group>
+    <arm_group_label>CKD enhanced clinical decision support (CKD-CDS Intervention)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Priority Wizard CDS tool is enhanced to incorporate chronic kidney disease(CKD) management. This presents patients and their primary care providers (PCPs) multiple opportunities to consider an evolving array of timely, evidence-based treatment options to improve CKD care. The CDS also provides CV risk factor management like the basic Priority Wizard present in the usual care arm.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Usual Care</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>A basic Priority Wizard CDS tool for cardiovascular (CV) risk factor management (previously know as the CV Wizard) includes algorithmically derived identification of high CV risk patients and prioritized treatment suggestions for lipids, Blood Pressure (BP), glycemic control, weight, tobacco, and aspirin use based on distance from goal, current medications, labs, allergies, and safety considerations. Has no decision support specific to CKD care.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>CKD enhanced clinical decision support</intervention_name>
+    <description>The CKD-CDS intervention provides clinical recommendations at any primary care visit for patients with a deficit in any of 5 key elements of CKD care.</description>
+    <arm_group_label>CKD enhanced clinical decision support (CKD-CDS Intervention)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Age 18 to 75 years, inclusive. The evidence-based guidelines on which the CDS
+             intervention is based are not applicable outside this age range.
+
+          2. Have confirmed CKD based on 2 or more eGFR values &lt;60 cc/min/1.73m2, including the
+             most recent eGFR value and a previous eGFR at least one week prior
+
+          3. Have a CKD care component suboptimally managed as defined by one or more of the
+             following:
+
+               1. Have two or more BP values from separate encounter dates of &gt;=130/80 including
+                  the most recent BP to the index visit
+
+               2. Have an individualized A1C over goal as determined by CDS algorithm criteria of
+                  most recent glycated hemoglobin (A1C) &gt; 7% OR &gt; 8% if any of the following
+                  conditions are identified: cardiovascular disease (CVD) or calculated 10-yr
+                  atherosclerotic cardiovascular disease (ASCVD) risk &gt;30%, cancer, hypoglycemia,
+                  cognitive impairment, on 2 or more glycemia medications with insulin, or on 3 or
+                  more non-insulin glycemia medications
+
+               3. Have most recent eGFR 30-59 with hypertension identified or ACR &gt; 30 mg/g and not
+                  on an ACEI or ARB
+
+               4. Have non-steroidal anti-inflammatory drug (NSAID) other than aspirin on the
+                  active medication list
+
+               5. Have a eGFR 15-29 or ACR &gt; 300 mg/g without a nephrology visit in the last 12
+                  months
+
+        Exclusion Criteria:
+
+        An individual who meets any of the following criteria will be excluded from receiving the
+
+        CKD-CDS:
+
+          1. Patients enrolled in hospice,
+
+          2. Patients with active cancer or undergoing chemotherapy
+
+          3. Patients with pregnancy in the last year
+
+          4. Patients with end stage renal disease
+
+        Individuals who meet all inclusion and exclusion criteria at an index visit and have at
+        least one post-index visit in the following 12 months will be included in the primary
+        analyses.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>JoAnn M Sperl-Hillen, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Senior Investigator, HealthPartners Institute</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>HealthPartners Care System</name>
+      <address>
+        <city>Bloomington</city>
+        <state>Minnesota</state>
+        <zip>55425</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>National Kidney Foundation. K/DOQI clinical practice guidelines for chronic kidney disease: evaluation, classification, and stratification. Am J Kidney Dis. 2002 Feb;39(2 Suppl 1):S1-266.</citation>
+    <PMID>11904577</PMID>
+  </reference>
+  <reference>
+    <citation>Inker LA, Astor BC, Fox CH, Isakova T, Lash JP, Peralta CA, Kurella Tamura M, Feldman HI. KDOQI US commentary on the 2012 KDIGO clinical practice guideline for the evaluation and management of CKD. Am J Kidney Dis. 2014 May;63(5):713-35. doi: 10.1053/j.ajkd.2014.01.416. Epub 2014 Mar 16. Review.</citation>
+    <PMID>24647050</PMID>
+  </reference>
+  <reference>
+    <citation>Stevens PE, Levin A; Kidney Disease: Improving Global Outcomes Chronic Kidney Disease Guideline Development Work Group Members. Evaluation and management of chronic kidney disease: synopsis of the kidney disease: improving global outcomes 2012 clinical practice guideline. Ann Intern Med. 2013 Jun 4;158(11):825-30. doi: 10.7326/0003-4819-158-11-201306040-00007.</citation>
+    <PMID>23732715</PMID>
+  </reference>
+  <reference>
+    <citation>Whelton PK, Carey RM, Aronow WS, Casey DE Jr, Collins KJ, Dennison Himmelfarb C, DePalma SM, Gidding S, Jamerson KA, Jones DW, MacLaughlin EJ, Muntner P, Ovbiagele B, Smith SC Jr, Spencer CC, Stafford RS, Taler SJ, Thomas RJ, Williams KA Sr, Williamson JD, Wright JT Jr. 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. J Am Coll Cardiol. 2018 May 15;71(19):e127-e248. doi: 10.1016/j.jacc.2017.11.006. Epub 2017 Nov 13. Review. Erratum in: J Am Coll Cardiol. 2018 May 15;71(19):2275-2279.</citation>
+    <PMID>29146535</PMID>
+  </reference>
+  <reference>
+    <citation>Andrade SE, Gurwitz JH, Field TS, Kelleher M, Majumdar SR, Reed G, Black R. Hypertension management: the care gap between clinical guidelines and clinical practice. Am J Manag Care. 2004 Jul;10(7 Pt 2):481-6.</citation>
+    <PMID>15298234</PMID>
+  </reference>
+  <reference>
+    <citation>Grant RW, Cagliero E, Dubey AK, Gildesgame C, Chueh HC, Barry MJ, Singer DE, Nathan DM, Meigs JB. Clinical inertia in the management of Type 2 diabetes metabolic risk factors. Diabet Med. 2004 Feb;21(2):150-5.</citation>
+    <PMID>14984450</PMID>
+  </reference>
+  <reference>
+    <citation>Phillips LS, Ziemer DC, Doyle JP, Barnes CS, Kolm P, Branch WT, Caudle JM, Cook CB, Dunbar VG, El-Kebbi IM, Gallina DL, Hayes RP, Miller CD, Rhee MK, Thompson DM, Watkins C. An endocrinologist-supported intervention aimed at providers improves diabetes management in a primary care site: improving primary care of African Americans with diabetes (IPCAAD) 7. Diabetes Care. 2005 Oct;28(10):2352-60.</citation>
+    <PMID>16186262</PMID>
+  </reference>
+  <reference>
+    <citation>van Dipten C, van Berkel S, van Gelder VA, Wetzels JFM, Akkermans RP, de Grauw WJC, Biermans MCJ, Scherpbier-de Haan ND, Assendelft WJJ. Adherence to chronic kidney disease guidelines in primary care patients is associated with comorbidity. Fam Pract. 2017 Aug 1;34(4):459-466. doi: 10.1093/fampra/cmx002.</citation>
+    <PMID>28207923</PMID>
+  </reference>
+  <reference>
+    <citation>O'Connor PJ, Sperl-Hillen JM, Rush WA, Johnson PE, Amundson GH, Asche SE, Ekstrom HL, Gilmer TP. Impact of electronic health record clinical decision support on diabetes care: a randomized trial. Ann Fam Med. 2011 Jan-Feb;9(1):12-21. doi: 10.1370/afm.1196.</citation>
+    <PMID>21242556</PMID>
+  </reference>
+  <reference>
+    <citation>Sperl-Hillen JM, O'Connor PJ, Averbeck BM, et al. Outpatient EHR-based diabetes clinical decision support that works: lessons learned from implementing Diabetes Wizard. Diabetes Spectrum. 2010;23(3):150-154</citation>
+  </reference>
+  <reference>
+    <citation>Kharbanda EO, Nordin JD, Sinaiko AR, Ekstrom HL, Stultz JM, Sherwood NE, Fontaine PL, Asche SE, Dehmer SP, Amundson JH, Appana DX, Bergdall AR, Hayes MG, O'Connor PJ. TeenBP: Development and Piloting of an EHR-Linked Clinical Decision Support System to Improve Recognition of Hypertension in Adolescents. EGEMS (Wash DC). 2015 Jul 9;3(2):1142. doi: 10.13063/2327-9214.1142. eCollection 2015.</citation>
+    <PMID>26290886</PMID>
+  </reference>
+  <reference>
+    <citation>Gilmer TP, O'Connor PJ, Sperl-Hillen JM, Rush WA, Johnson PE, Amundson GH, Asche SE, Ekstrom HL. Cost-effectiveness of an electronic medical record based clinical decision support system. Health Serv Res. 2012 Dec;47(6):2137-58. doi: 10.1111/j.1475-6773.2012.01427.x. Epub 2012 May 11.</citation>
+    <PMID>22578085</PMID>
+  </reference>
+  <reference>
+    <citation>Hargraves I, LeBlanc A, Shah ND, Montori VM. Shared Decision Making: The Need For Patient-Clinician Conversation, Not Just Information. Health Aff (Millwood). 2016 Apr;35(4):627-9. doi: 10.1377/hlthaff.2015.1354. Review.</citation>
+    <PMID>27044962</PMID>
+  </reference>
+  <reference>
+    <citation>Agoritsas T, Heen AF, Brandt L, Alonso-Coello P, Kristiansen A, Akl EA, Neumann I, Tikkinen KA, Weijden Tv, Elwyn G, Montori VM, Guyatt GH, Vandvik PO. Decision aids that really promote shared decision making: the pace quickens. BMJ. 2015 Feb 10;350:g7624. doi: 10.1136/bmj.g7624.</citation>
+    <PMID>25670178</PMID>
+  </reference>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>March 25, 2019</study_first_submitted>
+  <study_first_submitted_qc>March 25, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 26, 2019</study_first_posted>
+  <last_update_submitted>March 28, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 28, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 31, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Chronic Kidney Disease</keyword>
+  <keyword>CKD</keyword>
+  <keyword>Clinical Decision Support</keyword>
+  <keyword>Diabetes</keyword>
+  <keyword>Hypertension</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Kidney Diseases</mesh_term>
+    <mesh_term>Renal Insufficiency, Chronic</mesh_term>
+    <mesh_term>Hypertension</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

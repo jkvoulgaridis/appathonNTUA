@@ -1,0 +1,230 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03885570</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ThirdXiangyaHCSUJF</org_study_id>
+    <nct_id>NCT03885570</nct_id>
+  </id_info>
+  <brief_title>Blood Transfusion Management in Patients With Mitral Valve Replacement in China</brief_title>
+  <official_title>Establishment of AI Prediction Model of Blood Transfusion Management in Patients With Mitral Valve Replacement</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The Third Xiangya Hospital of Central South University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Second Xiangya Hospital of Central South University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Chinese Academy of Medical Sciences, Fuwai Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The Affiliated Hospital Of Southwest Medical University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Qilu Hospital of Shandong University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Zhejiang Provincial People’s Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Beijing Aerospace General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>The Third Xiangya Hospital of Central South University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The evaluation uses ΔHb as an independent factor combined with artificial intelligence (AI)
+      to predict its impact on the prognosis and blood transfusion of patients undergoing cardiac
+      surgery, thereby guiding perioperative clinical blood use and improving patient prognosis.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      1. Select 8 hospitals to form a multi-center team, and enter the keyword &quot;mitral valve
+           replacement&quot; in the case system of 8 hospitals to collect information on 2000 heart
+           surgery patients.
+
+        2. Mainly collect information on preoperative, intraoperative and postoperative test
+           indexes (blood routine, liver and kidney function, coagulation function, blood gas),
+           cardiac color Doppler, blood transfusion and prognosis of patients undergoing cardiac
+           surgery, using statistical methods for analysis. Identify key observations.
+
+        3. Gradually incorporate and exclude data, and use statistical methods to conduct
+           preliminary analysis on the collected data.
+
+      The AI prediction model was established by machine learning algorithm to predict
+      intraoperative blood transfusion, verify the specificity and sensitivity of the blood
+      transfusion prediction model, and scientifically guide clinical blood use.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Anticipated">September 16, 2019</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 2, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Mortality</measure>
+    <time_frame>through study completion, an average of 2 year</time_frame>
+    <description>The mortality during and after hospitalization</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Intraoperative blood transfusion</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>The amount of intraoperative blood component input</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">2000</enrollment>
+  <condition>Mitral Valve Replacement</condition>
+  <condition>Transfusion Reaction</condition>
+  <condition>Blood Transfusion Complication</condition>
+  <arm_group>
+    <arm_group_label>Groups/Cohorts</arm_group_label>
+    <description>1) Patients undergoing &quot;mitral valve replacement&quot; surgery;2) Age 18-75 years old;3) 48h preoperative biochemical indicators, blood general indicators, coagulation indicators are complete.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Mitral valve replacement</intervention_name>
+    <description>Blood transfusion</description>
+    <arm_group_label>Groups/Cohorts</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with &quot;mitral valve replacement&quot; surgery who meet the standard in China, 18&lt;Age&lt;75.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Patients undergoing &quot;mitral valve replacement&quot; surgery;
+
+          2. Age 18-75 years old;
+
+          3. 48h biochemical indicators before surgery, blood general indicators, coagulation
+             indicators are complete.
+
+        Exclusion Criteria:
+
+          1. Lack of necessary tests and patient test information is not detailed, blood
+             transfusion information is not detailed;
+
+          2. The blood transfusion information is not detailed in the same period as other cardiac
+             operations (such as aortic valve surgery, coronary artery bypass grafting, etc.), but
+             the tricuspid valvuloplasty is not ruled out at the same time;
+
+          3. Heart surgery or emergency surgery again.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Rong Gui</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The Third Xiangya Hospital of Central South University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Rong Gui, Ph.D</last_name>
+    <phone>13975199279</phone>
+    <email>aguirong@163.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Haiye Jiang, M.Med.</last_name>
+    <phone>13974873361</phone>
+    <email>1972692495@qq.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Third Xiangya Hospital</name>
+      <address>
+        <city>Changsha</city>
+        <state>Hunan</state>
+        <zip>410013</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Rong Gui, Ph.D</last_name>
+      <phone>13975199279</phone>
+      <email>aguirong@163.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Haiye Jiang, M.Med.</last_name>
+      <phone>13974873361</phone>
+      <email>1972692495@qq.com</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <reference>
+    <citation>de Schipper LJ, Baharoglu MI, Roos YBWEM, de Beer F. Medical Treatment for Spontaneous Anticoagulation-Related Intracerebral Hemorrhage in the Netherlands. J Stroke Cerebrovasc Dis. 2017 Jul;26(7):1427-1432. doi: 10.1016/j.jstrokecerebrovasdis.2017.03.019. Epub 2017 Apr 12.</citation>
+    <PMID>28412317</PMID>
+  </reference>
+  <reference>
+    <citation>Spolverato G, Bagante F, Weiss M, He J, Wolfgang CL, Johnston F, Makary MA, Yang W, Frank SM, Pawlik TM. Impact of Delta Hemoglobin on Provider Transfusion Practices and Post-operative Morbidity Among Patients Undergoing Liver and Pancreatic Surgery. J Gastrointest Surg. 2016 Dec;20(12):2010-2020. Epub 2016 Sep 30.</citation>
+    <PMID>27696209</PMID>
+  </reference>
+  <reference>
+    <citation>Spolverato G, Kim Y, Ejaz A, Frank SM, Pawlik TM. Effect of Relative Decrease in Blood Hemoglobin Concentrations on Postoperative Morbidity in Patients Who Undergo Major Gastrointestinal Surgery. JAMA Surg. 2015 Oct;150(10):949-56. doi: 10.1001/jamasurg.2015.1704.</citation>
+    <PMID>26222497</PMID>
+  </reference>
+  <reference>
+    <citation>Hogervorst E, Rosseel P, van der Bom J, Bentala M, Brand A, van der Meer N, van de Watering L. Tolerance of intraoperative hemoglobin decrease during cardiac surgery. Transfusion. 2014 Oct;54(10 Pt 2):2696-704. doi: 10.1111/trf.12654. Epub 2014 Apr 14.</citation>
+    <PMID>24724943</PMID>
+  </reference>
+  <reference>
+    <citation>Karkouti K, Wijeysundera DN, Yau TM, McCluskey SA, van Rensburg A, Beattie WS. The influence of baseline hemoglobin concentration on tolerance of anemia in cardiac surgery. Transfusion. 2008 Apr;48(4):666-72. doi: 10.1111/j.1537-2995.2007.01590.x. Epub 2008 Jan 10.</citation>
+    <PMID>18194382</PMID>
+  </reference>
+  <verification_date>March 2019</verification_date>
+  <study_first_submitted>January 30, 2019</study_first_submitted>
+  <study_first_submitted_qc>March 20, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 21, 2019</study_first_posted>
+  <last_update_submitted>September 17, 2019</last_update_submitted>
+  <last_update_submitted_qc>September 17, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 19, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>mitral valve replacement</keyword>
+  <keyword>Predictive Model</keyword>
+  <keyword>Blood Transfusion</keyword>
+  <keyword>Perioperative period</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Transfusion Reaction</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

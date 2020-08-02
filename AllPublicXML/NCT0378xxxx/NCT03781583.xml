@@ -1,0 +1,232 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03781583</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HUM00141598</org_study_id>
+    <nct_id>NCT03781583</nct_id>
+  </id_info>
+  <brief_title>SmartHMD for Improved Mobility</brief_title>
+  <official_title>Smart Head Mounted Display (smartHMD) for Improved Mobility</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>James Weiland</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Michigan</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The National Eye Institute estimated about 3 million people over age 40 in the US had low
+      vision in 2010 and projects an increase to nearly 5 million in 2030 and 9 million in 2050.
+      Current assistive technologies are a patchwork of mostly low-technology aids with limited
+      capabilities that are often difficult to use, and are not widely adopted. This shortfall in
+      capabilities of assistive technology often stems from lack of a user-centered design approach
+      and is a critical barrier to improve the everyday activities of life (EDAL) and the quality
+      of life (QOL) for individuals with low vision.
+
+      An intuitive head mounted display (HMD) system on enhancing orientation and mobility (O&amp;M)
+      and crosswalk navigation, could improve independence, potentially decrease falls, and improve
+      EDAL and QOL. The central hypothesis is that an electronic navigation system incorporating
+      computer vision will enhance O&amp;M for individuals with low vision. The goal is to develop and
+      validate a smartHMD by incorporating advanced computer vision algorithms and flexible user
+      interfaces that can be precisely tailored to an individual's O&amp;M need. This project will
+      address the specific question of mobility while the subject crosses a street at a signaled
+      crosswalk. This is a dangerous and difficult task for visually impaired patients and a
+      significant barrier to independent mobility.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 26, 2019</start_date>
+  <completion_date type="Anticipated">March 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">March 31, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Testing will be done in three conditions: baseline (no HMD), sham (smartHMD worn but not active), and smartHMD (smartHMD worn and active)</intervention_model_description>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Mobility accuracy: Percentage Correct Alignment</measure>
+    <time_frame>2 hours</time_frame>
+    <description>Percentage Trials correctly aligned at the crosswalk (Yes/No Classification). Alignment of feet position relative to lines on sidewalk parallel to street and perpendicular to crosswalk. +/- 10 degrees will be considered correct.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Mobility accuracy: Veering</measure>
+    <time_frame>2 hours</time_frame>
+    <description>The amount of deviation, in degrees, from optimal path (Optimal path for baseline and sham conditions: straight down the middle of pathway; optimal path for smartHMD condition: cued path from smartHMD)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Mobility accuracy: Percentage Cue Usage</measure>
+    <time_frame>2 hours</time_frame>
+    <description>Percentage Times subject needed cues from smartHMD and how well they responded to the cues (smartHMD condition only)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Detection of Signal</measure>
+    <time_frame>2 hours</time_frame>
+    <description>Percentage Trials subject correctly identified the displayed signal on the Pedestrian Signal (Yes/No Classification)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time-to-Complete</measure>
+    <time_frame>2 hours</time_frame>
+    <description>Duration from start of trial to subject locating the pedestrian signal (seconds)</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Low Vision</condition>
+  <condition>Orientation</condition>
+  <condition>Mobility Limitation</condition>
+  <condition>Navigation, Spatial</condition>
+  <condition>Visual Impairment</condition>
+  <arm_group>
+    <arm_group_label>HMD</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>We have several versions (listed below) of a headworn smartHMD. Each can provide verbal and/or tactile feedback to the user. Feedback is controlled by either the experimenter or by computer vision algorithms.
+1. The ODG Smartglasses is commercially available. This system uses computer vision to guide a user to the destination using audio and/ or vibration feedback.
+2) Tactile stimulator array. This device uses an Arduino Micro, HC-05 Bluetooth Module, L293D Motor Driver and coin vibration motors attached to a head-worn headband or glasses frame. The motors can be controlled directly by an experimenter or by computer vision algorithms.
+3) Computer Vision Navigation prototyping system consists of two components: Intel RealSense camera and Alienware M15 laptop.
+All participants will receive the same 3 interventions: no HMD used, HMD worn but not active, and HMD worn and active. Participants may be tested with any or all of the systems described above.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>No HMD used</intervention_name>
+    <description>Participants will use their existing mobility skills and strategies to navigate toward a goal. If the participant cannot perform this task, the participant will not be forced to.</description>
+    <arm_group_label>HMD</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>HMD worn but not active</intervention_name>
+    <description>Participants will wear the HMD, but the HMD will not be active. This will test whether or not the HMD physical components obscure the participants remaining vision and reduce the participants ability to navigate toward a goal.</description>
+    <arm_group_label>HMD</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>HMD worn and active</intervention_name>
+    <description>Participants will wear the HMD and the HMD will be active. This will test the HMD function for navigation toward a goal.</description>
+    <arm_group_label>HMD</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Diagnosed with low vision
+
+          -  Self reported difficulty with mobility and finding doors (either indoors or outdoors)
+             and using signalized crosswalks.
+
+          -  Stratify vision with half best corrected vision better than or equal to 20/100, and
+             other half best corrected vision worse than 20/100
+
+          -  Ability to use smart phone
+
+          -  Ability to cooperate for tests
+
+          -  Able to participate in all visits
+
+        Exclusion Criteria:
+
+          -  Unable to use head mounted display or smart phone technology
+
+          -  Unstable age-related macular degeneration within the past 3 months
+
+          -  Unstable diabetic retinopathy within the past 3 months
+
+          -  Unstable diabetes within the past 3 months
+
+          -  Ocular infection or ocular inflammation in the past 3 months
+
+          -  Ocular trauma within the past 6 months
+
+          -  Intraocular surgery within 6 months
+
+          -  Optical coherence tomography retinal findings of concern to investigator for unstable
+             vision during the study
+
+          -  Women who are pregnant (due to risk of falls and change in gait).
+
+          -  Uncontrolled seizure disorder in the past 6 months
+
+          -  Cerebrovascular accident occurring in the past 6 months
+
+          -  Parkinson disease or neurological condition that limits mobility
+
+          -  Alzheimer disease or other forms of dementia
+
+          -  Conditions of concern to investigator that would confound orientation and mobility,
+             such as severe arthritis, pain that limits ambulatory activities, or orthopedic
+             surgery (e.g., hand, arm, shoulder, knee, or hip surgery within 12 months)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>14 Years</minimum_age>
+    <maximum_age>89 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>James Weiland, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Michigan</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>V Swetha Jeganathan</last_name>
+    <phone>7342392237</phone>
+    <email>jvswetha@med.umich.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>North Campus Research Complex</name>
+      <address>
+        <city>Ann Arbor</city>
+        <state>Michigan</state>
+        <zip>48105</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>V Swetha Jeganathan</last_name>
+      <phone>734-239-2237</phone>
+      <email>jvswetha@med.umich.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2020</verification_date>
+  <study_first_submitted>December 12, 2018</study_first_submitted>
+  <study_first_submitted_qc>December 17, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 20, 2018</study_first_posted>
+  <last_update_submitted>January 22, 2020</last_update_submitted>
+  <last_update_submitted_qc>January 22, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 23, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>University of Michigan</investigator_affiliation>
+    <investigator_full_name>James Weiland</investigator_full_name>
+    <investigator_title>Professor of Biomedical Engineering</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Vision Disorders</mesh_term>
+    <mesh_term>Vision, Low</mesh_term>
+    <mesh_term>Mobility Limitation</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

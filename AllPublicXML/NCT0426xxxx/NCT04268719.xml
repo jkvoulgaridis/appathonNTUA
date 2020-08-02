@@ -1,0 +1,298 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04268719</url>
+  </required_header>
+  <id_info>
+    <org_study_id>227223</org_study_id>
+    <nct_id>NCT04268719</nct_id>
+  </id_info>
+  <brief_title>Near Focus NBI-Driven Artificial Intelligence for the Diagnosis of Gastro-Oesophageal Reflux Disease</brief_title>
+  <official_title>Near Focus NBI-Driven Artificial Intelligence for the Diagnosis of Gastro-Oesophageal Reflux Disease</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>King's College Hospital NHS Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>King's College Hospital NHS Trust</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Gastro-oesophageal reflux disease (GORD) is a chronic condition with symptoms arising
+      secondary to the reflux of stomach contents (Vakil et al., 2006). It is divided into four
+      phenotypes: Erosive Oesophagitis (EO), Non-Erosive Reflux Disease (NERD), Reflux
+      Hypersensitivity (RH), Functional Heartburn (FH) (Nikaki, Woodland and Sifrim, 2016). The
+      definition of these phenotype have evolved with the addition of diagnostic tests and methods
+      of their interpretation, the most recent being the Lyon Consensus Statement (Gyawali et al.,
+      2018). The majority of patients presenting with symptoms suggestive of GORD have no mucosal
+      lesion seen at endoscopy (Nikaki, Woodland and Sifrim, 2016). Studies have shown a relation
+      of increased IPCL numbers with GORD. This study aims to build a fully autmoated AI model
+      using Near-Focus NBI images on patients with symptoms suggestive of GORD phenotyped in
+      accordance with the Lyon Consensus.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Gastro-oesophageal reflux disease (GORD) is a chronic condition with symptoms arising
+      secondary to the reflux of stomach contents (Vakil et al., 2006). It is divided into four
+      phenotypes: Erosive Oesophagitis (EO), Non-Erosive Reflux Disease (NERD), Reflux
+      Hypersensitivity (RH), Functional Heartburn (FH) (Nikaki, Woodland and Sifrim, 2016). The
+      definition of these phenotype have evolved with the addition of diagnostic tests and methods
+      of their interpretation, the most recent being the Lyon Consensus Statement (Gyawali et al.,
+      2018). The majority of patients presenting with symptoms suggestive of GORD have no mucosal
+      lesion seen at endoscopy (Nikaki, Woodland and Sifrim, 2016). Complications of GORD, such as
+      peptic stricture and Barrett's oesophagus, can be readily diagnosed using WLE. The diagnosis
+      of reflux oesophagitis with standard-definition WLE is well described in the Los Angeles (LA)
+      classification (Armstrong et al., 1996) and validated (Lundell et al., 1999) with LA grades C
+      and D confirmatory of GORD (Gyawali et al., 2018). Furthermore, AET is demonstrated to
+      increase with LA classification A to D (Lundell et al., 1999). There is, however, only a
+      modest inter-observer agreement between LA grades (Kappa coefficient 0.4), especially A and
+      B. Furthermore LA grade A oesophagitis is detected in up to 17.0% of asymptomatic patients
+      (Nozu and Komiyama, 2008; Zagari et al., 2008). A diagnosis of GORD and decisions for
+      anti-reflux surgery cannot be made on this basis, mandating pH testing to confirm GORD.
+
+      Narrow Band Imaging
+
+      Imaging of the gastro-oesophageal junction using high definition Olympus H260 scope using the
+      LA classification of GORD with WLE and NBI demonstrated improvement in overall interobserver
+      reproducibility when used in a combination compared with WLE alone; k 0.62 vs 0.45
+      (&lt;0.05)(Lee et al., 2007). Features identified using digital magnification NBI at the
+      squamo-columnar junction in cases of EO (n=41; LA grade A and B), NERD (n=36) and controls
+      (n=32) include micro-erosions (100% EO; 52.8% NERD; 23.3% controls), increased vascularity
+      (95.1% EO; 91.7% NERD; 36.7% controls) and round pit patterns (4.9% EO; 5.6% NERD; 70%
+      controls). Increased vascularity combined with absence of round pit pattern distinguishes
+      NERD from controls with sensitivity and specificity 86.1% and 83.3%. Inter-observer agreement
+      in this single centre study was good for increased vascularity (k=0.95) and micro erosions
+      (k=0.89) but low for pit pattern (k=0.59) (Fock et al., 2009).
+
+      Intra-papillary capillary loops (IPCLs) are mucosal capillaries arising from the submucosal
+      vein to the papilla, usually arranged in a regular 'dot' like fashion approximately
+      100micrometres apart (Inoue, 2001). The visualisation of oesophageal IPCLs with NBI is well
+      documented and form the basis of a NBI classification for squamous neoplasia (Inoue et al.,
+      2015). IPCL morphology changes have been proposed in patients being investigated for NERD, in
+      particular dilatation and elongation of IPCLs in patients with NERD with magnification NBI
+      (Kato et al., 2006).
+
+      NBI with optical magnification for the diagnosis of GORD has been evaluated in 2 studies
+      (Sharma et al., 2007; Lv et al., 2013). Sharma et al performed a feasibility trial with
+      Olympus Q240Z with quadrantic examination of the distal 5cm by WLE then NBI in n=50 GORD (EO
+      n=30; NERD n=20) and controls (n=30). Similar to Fock et al, the presence of microerosions
+      and hypervascularity was significantly higher amongst GORD. IPCL number and morphology of
+      tortuosity, dilatation were seen significantly more in GORD versus control. These findings
+      were consistent in independent comparison of EO and NERD versus controls. ROC analysis
+      thresholds for best sensitivity and specificity (respectively) for NERD were maximum
+      ipcl/field 131 (90%, 70%), min 99 (85%, 70%) and average 117 (90%, 70%) (Sharma et al.,
+      2007).
+
+      Lv et al used the Olympus GIF-H260Z to evaluate NERD (n=40), EO (n=40), Barrett's (n=40) and
+      healthy controls (n=40). IPCL number, morphology (prolonged/dilated/tortuous), microerosions,
+      round pit pattern above or below the SCJ, were recorded as features of reflux. Significant
+      differences were found with increased IPCL number, microerosions, non-round pit patterns
+      below the SCJ in GERD (NERD/EO and BE) patients compared to controls and fewer microerosions
+      in NERD patients compared to RE (Lv et al., 2013).
+
+      The definition of NERD in all studies to date, however, is variable and largely based on
+      symptom evaluation, response to PPI and the absence of mucosal lesions at endoscopic
+      examination without standardisation using pH studies.
+
+      Artificial Intelligence
+
+      To date there is one study evaluating the use of ANNs in predicting GORD based on 45
+      variables including demographics, medical history, health status, symptoms scores. All
+      patients underwent OGD, 24-pH studies performed in those with no mucosal lesion at endoscopy:
+      103 GORD patient (62 with reflux oesophagitis and 41 with AET&gt;5%) and n=56 FH patients GORD.
+      The ANN demonstrated an accuracy of 100% compared to 78% using conventional statistical
+      regression analysis (Pace et al., 2005). While these are optimistic findings, the proportion
+      of training and test data used was not specified and further evaluation with larger datasets
+      is clearly warranted. There are no image-driven AI models for the diagnosis of GORD to date.
+      Machine learning with endoscopic images is a pathway of great interest as described in
+      section 1.7.7, with IPCLs as a potential target, based on previous studies of NBI for the
+      diagnosis of GORD. CNNs involving IPCL detection and morphology have been recently reported
+      in the context of a pilot study for the computer assisted diagnosis of oesophageal early
+      squamous cell cancer using segmentation technology with accuracy matching expert endoscopists
+      (Zhao et al., 2018). The image segmentation technique of Adaptive Local Thresholding has been
+      demonstrated to be useful in vessel detection in retinal photographs making this as
+      attractive technique for IPCLs (Jiang and Mojon, 2003).
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">November 23, 2017</start_date>
+  <completion_date type="Actual">November 30, 2018</completion_date>
+  <primary_completion_date type="Actual">July 26, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>To evaluate Intra-Papillary Capillary Loop (IPCL) changes secondary to oesophageal acid exposure.</measure>
+    <time_frame>6 weeks post completion of wireless capsule pH recording</time_frame>
+    <description>Parameters of IPCLs: IPCLs/region of interest, morphology: IPCL length, density correlated to oesophageal acid exposure</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>To develop an accurate and reliable artificial intelligence model for the diagnosis of Gastro-Oesophageal Reflux Disease (GORD)</measure>
+    <time_frame>3 months after completion of all data collection</time_frame>
+    <description>Patient data split into training/validation and test dataset for computer assisted and deep learning model training and testing</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>To explore factors that may predict response to treatment.</measure>
+    <time_frame>6 weeks to include data of response to antacid treatment</time_frame>
+    <description>Statistical analysis of models for IPCL number/ROI and morphology features against response to an antacid medication challenge.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">76</enrollment>
+  <condition>Gastro Esophageal Reflux</condition>
+  <arm_group>
+    <arm_group_label>Gastro-Esophageal Reflux Disease</arm_group_label>
+    <description>Patients defined as having GERD as per Lyon Consensus</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Non-acid Reflux</arm_group_label>
+    <description>Patient excluded for GERD as per Lyon Consensus</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>wireless pH capsule recording</intervention_name>
+    <description>wireless pH capsule recording for up to 96 hours</description>
+    <arm_group_label>Gastro-Esophageal Reflux Disease</arm_group_label>
+    <arm_group_label>Non-acid Reflux</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Consecutive patients attending the Gastroenterology department for the investigation of
+        symptoms suggestive of Gastro-Oesophageal Reflux Disease (GORD) were approached for
+        recruitment. Patients had to have symptoms including heartburn, regurgitation or
+        chest/epigastric pain for a minimum of 3 months.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Retaining capacity and medically fit for gastroscopy
+
+          -  Requiring gastroscopy by current BSG guidelines for the investigation of acid reflux/
+             dyspepsia
+
+        Exclusion Criteria:
+
+          -  Unable to give informed consent
+
+          -  History of oesophageal or gastric surgery
+
+          -  Allergy to proton-pump inhibitor
+
+          -  Known Barrett's Oesophagus/ oesophageal carcinoma/ oesophageal stricture/ known
+             oesophageal dysmotility
+
+          -  Portal Hypertension
+
+          -  Pacemaker (BRAVO)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Shraddha Gulati</name>
+      <address>
+        <city>London</city>
+        <zip>SE5 9RS</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <reference>
+    <citation>Vakil N, van Zanten SV, Kahrilas P, Dent J, Jones R; Global Consensus Group. The Montreal definition and classification of gastroesophageal reflux disease: a global evidence-based consensus. Am J Gastroenterol. 2006 Aug;101(8):1900-20; quiz 1943.</citation>
+    <PMID>16928254</PMID>
+  </reference>
+  <reference>
+    <citation>Nikaki K, Woodland P, Sifrim D. Adult and paediatric GERD: diagnosis, phenotypes and avoidance of excess treatments. Nat Rev Gastroenterol Hepatol. 2016 Sep;13(9):529-42. doi: 10.1038/nrgastro.2016.109. Epub 2016 Jul 27. Review.</citation>
+    <PMID>27485786</PMID>
+  </reference>
+  <reference>
+    <citation>Gyawali CP, Kahrilas PJ, Savarino E, Zerbib F, Mion F, Smout AJPM, Vaezi M, Sifrim D, Fox MR, Vela MF, Tutuian R, Tack J, Bredenoord AJ, Pandolfino J, Roman S. Modern diagnosis of GERD: the Lyon Consensus. Gut. 2018 Jul;67(7):1351-1362. doi: 10.1136/gutjnl-2017-314722. Epub 2018 Feb 3. Review.</citation>
+    <PMID>29437910</PMID>
+  </reference>
+  <reference>
+    <citation>Lundell LR, Dent J, Bennett JR, Blum AL, Armstrong D, Galmiche JP, Johnson F, Hongo M, Richter JE, Spechler SJ, Tytgat GN, Wallin L. Endoscopic assessment of oesophagitis: clinical and functional correlates and further validation of the Los Angeles classification. Gut. 1999 Aug;45(2):172-80.</citation>
+    <PMID>10403727</PMID>
+  </reference>
+  <reference>
+    <citation>Nozu T, Komiyama H. Clinical characteristics of asymptomatic esophagitis. J Gastroenterol. 2008;43(1):27-31. doi: 10.1007/s00535-007-2120-2. Epub 2008 Feb 24.</citation>
+    <PMID>18297432</PMID>
+  </reference>
+  <reference>
+    <citation>Zagari RM, Fuccio L, Wallander MA, Johansson S, Fiocca R, Casanova S, Farahmand BY, Winchester CC, Roda E, Bazzoli F. Gastro-oesophageal reflux symptoms, oesophagitis and Barrett's oesophagus in the general population: the Loiano-Monghidoro study. Gut. 2008 Oct;57(10):1354-9. doi: 10.1136/gut.2007.145177. Epub 2008 Apr 18.</citation>
+    <PMID>18424568</PMID>
+  </reference>
+  <reference>
+    <citation>Lee YC, Lin JT, Chiu HM, Liao WC, Chen CC, Tu CH, Tai CM, Chiang TH, Chiu YH, Wu MS, Wang HP. Intraobserver and interobserver consistency for grading esophagitis with narrow-band imaging. Gastrointest Endosc. 2007 Aug;66(2):230-6.</citation>
+    <PMID>17643694</PMID>
+  </reference>
+  <reference>
+    <citation>Fock KM, Teo EK, Ang TL, Tan JY, Law NM. The utility of narrow band imaging in improving the endoscopic diagnosis of gastroesophageal reflux disease. Clin Gastroenterol Hepatol. 2009 Jan;7(1):54-9. doi: 10.1016/j.cgh.2008.08.030. Epub 2008 Sep 3.</citation>
+    <PMID>18852068</PMID>
+  </reference>
+  <reference>
+    <citation>Inoue H, Kaga M, Ikeda H, Sato C, Sato H, Minami H, Santi EG, Hayee B, Eleftheriadis N. Magnification endoscopy in esophageal squamous cell carcinoma: a review of the intrapapillary capillary loop classification. Ann Gastroenterol. 2015 Jan-Mar;28(1):41-48. Review.</citation>
+    <PMID>25608626</PMID>
+  </reference>
+  <reference>
+    <citation>Kato M, Kaise M, Yonezawa J, Toyoizumi H, Yoshimura N, Yoshida Y, Kawamura M, Tajiri H. Magnifying endoscopy with narrow-band imaging achieves superior accuracy in the differential diagnosis of superficial gastric lesions identified with white-light endoscopy: a prospective study. Gastrointest Endosc. 2010 Sep;72(3):523-9. doi: 10.1016/j.gie.2010.04.041. Epub 2010 Jul 3.</citation>
+    <PMID>20598685</PMID>
+  </reference>
+  <reference>
+    <citation>Sharma P, Wani S, Bansal A, Hall S, Puli S, Mathur S, Rastogi A. A feasibility trial of narrow band imaging endoscopy in patients with gastroesophageal reflux disease. Gastroenterology. 2007 Aug;133(2):454-64; quiz 674. Epub 2007 Jun 8.</citation>
+    <PMID>17681166</PMID>
+  </reference>
+  <reference>
+    <citation>Lv J, Liu D, Ma SY, Zhang J. Investigation of relationships among gastroesophageal reflux disease subtypes using narrow band imaging magnifying endoscopy. World J Gastroenterol. 2013 Dec 7;19(45):8391-7. doi: 10.3748/wjg.v19.i45.8391.</citation>
+    <PMID>24363532</PMID>
+  </reference>
+  <reference>
+    <citation>Pace F, Buscema M, Dominici P, Intraligi M, Baldi F, Cestari R, Passaretti S, Bianchi Porro G, Grossi E. Artificial neural networks are able to recognize gastro-oesophageal reflux disease patients solely on the basis of clinical data. Eur J Gastroenterol Hepatol. 2005 Jun;17(6):605-10.</citation>
+    <PMID>15879721</PMID>
+  </reference>
+  <reference>
+    <citation>Zhao YY, Xue DX, Wang YL, Zhang R, Sun B, Cai YP, Feng H, Cai Y, Xu JM. Computer-assisted diagnosis of early esophageal squamous cell carcinoma using narrow-band imaging magnifying endoscopy. Endoscopy. 2019 Apr;51(4):333-341. doi: 10.1055/a-0756-8754. Epub 2018 Nov 23.</citation>
+    <PMID>30469155</PMID>
+  </reference>
+  <verification_date>February 2020</verification_date>
+  <study_first_submitted>February 11, 2020</study_first_submitted>
+  <study_first_submitted_qc>February 11, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 13, 2020</study_first_posted>
+  <last_update_submitted>February 11, 2020</last_update_submitted>
+  <last_update_submitted_qc>February 11, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 13, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Gastroesophageal Reflux</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Protocol possible to obtain upon request</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

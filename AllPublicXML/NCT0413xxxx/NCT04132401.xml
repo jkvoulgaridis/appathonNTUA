@@ -1,0 +1,297 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04132401</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P18/109</org_study_id>
+    <nct_id>NCT04132401</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence for the Detection of Diabetic Retinopathy in Primary Care</brief_title>
+  <official_title>Artificial Intelligence for the Detection of Diabetic Retinopathy in Primary Care: A Prospective Study Comparing the Diagnostic Capacity of an AI Algorithm</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Jordi Gol i Gurina Foundation</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>OPTretina</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Institut Català de la Salut</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Department of Health, Generalitat de Catalunya</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Jordi Gol i Gurina Foundation</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Background: Diabetic retinopathy (DR) is one of the most important causes of blindness
+      worldwide, especially in developed countries. In diabetic patients, periodic examination of
+      the back of the eye using a nonmydriatic camera has been widely demonstrated to be an
+      effective system to control and prevent the onset of DR. Convolutional neural networks have
+      been used to detect DR, achieving very high sensitivities and specificities.
+
+      Objective: The objective of this is paper was to develop an artificial intelligence (AI)
+      algorithm for the detection of signs of DR in diabetic patients and to scientifically
+      validate the algorithm to be used as a screening tool in primary care.
+
+      Methods: Under this project, 2 studies will be conducted in a concomitant way: (1)
+      Development of an algorithm with AI to detect signs of DR in patients with diabetes and (2) A
+      prospective study comparing the diagnostic capacity of the AI algorithm with respect to the
+      actual system of family physicians evaluating the images. The standard reference to compare
+      with will be a blinded double reading conducted by retina specialists. For the development of
+      the AI algorithm, different iterations and workouts will be performed on the same set of
+      data. Before starting each new workout, the strategy of dividing the set date into 2 groups
+      will be used randomly. A group with 80% of the images will be used during the training
+      (training dataset), and the remaining 20% images will be used to validate the results
+      (validation dataset) of each cycle (epoch). During the prospective study,
+      true-positive,true-negative, false-positive, and false-negative values will be calculated
+      again. From here, we will obtain the resulting confusion matrix and other indicators to
+      measure the performance of the algorithm.
+
+      Hypothesis: Cession of the images began at the end of 2018. The development of the AI
+      algorithm is calculated to last about 3 to 4 months. Inclusion of patients in the cohort will
+      start in early 2019 and is expected to last 3 to 4 months. Preliminary results are expected
+      to be published by the end of 2019.
+
+      The study will allow the development of an algorithm based on AI that can demonstrate an
+      equal or superior performance, and that constitutes a complement or an alternative, to the
+      current screening of DR in diabetic patients
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Study Design This project will follow a methodology consisting of 2 concomitant studies: In
+      the first study, we will develop an AI algorithm to detect the signs of DR in patients with
+      diabetes.
+
+      The second part of the project will consist of the elaboration of a prospective study that
+      will allow comparing the diagnostic capacity of the algorithm with that of the family
+      medicine physicians and with retina specialists. The reference will be a blinded double
+      reading conducted by the retina specialists (with a blinded third reading in case of
+      disagreement in the previous 2 readings). In this way, the results obtained, both by the AI
+      algorithm and by family medicine specialists, will be compared using the gold standard
+      (accuracy, sensitivity, specificity, area under the curve, etc). The inclusion of nurses who
+      received training in fundus readings will be considered to compare their diagnostic capacity.
+
+      Study Population, Site Participation, and Recruitment Images for the development of the
+      algorithm will be ceded by the CHS and will include images from the whole Catalan population.
+      The prospective study will take place in the primary care centers managed by the Catalan
+      Health Institute in Central Catalonia, which includes the counties of Bages, Osona, Berguedà,
+      and Anoia. The reference population will be the population assigned to these primary care
+      centers. This population included about 512,000 people in 2017, with an estimated prevalence
+      of diabetes of 7.1%.
+
+      The study period will include 2010-2017 for the development of the algorithm with AI. The
+      prospective study will begin once the algorithm is developed and will run until the number of
+      readings needed is obtained (about 3-4 months).
+
+      Conduct of the Study For the development of the AI algorithm, all fundus images labeled as DR
+      of patients from primary care centers in Catalonia between 2010 and 2017 will be included.
+      For the prospective study, all the images of patients who underwent an eye fundus examination
+      will be included from the study start period until the adequate number of patients is
+      reached. A high percentage of fundus images must have sufficient quality; that is, a
+      40-degree vision of the central retina where at least a three-fourth part of the optic nerve,
+      a well-focused macula, and well-defined veins and arteries of the upper and lower arcs can be
+      seen. Eye fundus images that do not have adequate technical quality (dark) or that cannot be
+      evaluated due to the opacity of the media (eg, for cataracts) will be excluded
+
+      Data Collection For the development of the AI algorithm, it is necessary to have the
+      anonymized images with the corresponding label that classifies each image (in one of the
+      classes with which the algorithm is to be trained). The personnel responsible for information
+      technology (IT) of the CHS will evaluate the best strategy for the anonymization and
+      extraction of the images from the computer systems of the CHS, as well as the identification
+      of each image with a unique identifier. On the other hand, a tabulated file type CSV or TXT
+      will be required to relate each image identifier with the corresponding classification. The
+      person responsible for IT of the CHS, together with the technical manager of OPTretina, will
+      agree on the best way to transfer these 2 sources of information, in a secure way, from the
+      CHS servers to the OPTretina servers (SSH File Transfer Protocol, external hard disk)
+      depending on the volume of data to be transferred and the internal policy of the CHS.
+      OPTretina is experienced in developing AI models for automatic fundus image classification
+      and is a Spanish Agency of Medicines and Health Products-certified medical device
+      manufacturer.
+
+      For the prospective study, anonymized weekly fundus data readings collected by family
+      medicine physician readers of fundus images in Central Catalonia will be collected. The
+      images will be transferred to the OPTretina servers to be first analyzed by the diagnostic
+      algorithm and then by the retina specialists who will make the definitive diagnosis. The
+      person responsible for IT of the CHS, together with the technical manager of OPTretina, will
+      agree on the best way to transfer these data in a secure manner.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">January 2, 2020</start_date>
+  <completion_date type="Anticipated">June 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Device Feasibility</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity of the algorithm</measure>
+    <time_frame>1 year</time_frame>
+    <description>True positive rate of the algorithm</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Specificity of the algorithm</measure>
+    <time_frame>1 year</time_frame>
+    <description>True negative rate of the algorithm</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy of the algorithm</measure>
+    <time_frame>1 year</time_frame>
+    <description>Ratio of number of correct predictions to the total number of input samples</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Area under the receiver operating characteristic curve of the algorithm</measure>
+    <time_frame>1 year</time_frame>
+    <description>Diagnostic ability of the algorithm</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">10</enrollment>
+  <condition>Diabetic Retinopathy</condition>
+  <arm_group>
+    <arm_group_label>family medicine physicians</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Retina reading</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>retina specialists</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Retina reading (gold standard)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>algorithm</intervention_name>
+    <description>The diagnostic capacity of the algorithm will be compared with that of the family medicine physicians and with retina specialists. The reference will be a blinded double reading conducted by the retina specialists</description>
+    <arm_group_label>family medicine physicians</arm_group_label>
+    <arm_group_label>retina specialists</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Clinical diagnosis of type I or type II diabetes mellitus
+
+          -  Fundus photograph taken as part of the screening for diabetic retinopathy
+
+        Exclusion Criteria:
+
+          -  patients with glaucoma under treatment
+
+          -  patients with advanced dementia who do not collaborate in taking photographs
+
+          -  patients with significant deafness who cannot follow the instructions for taking
+             photographs
+
+          -  patients with mobility problems (wheelchairs, important kyphosis) or tremor who cannot
+             take photographs
+
+          -  patients with pathologies that interfere with the quality of images such as cataracts,
+             nystagmus, corneal leucoma or corneal transplants.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Josep Vidal-Alaball, MD, PhD, MPH</last_name>
+    <phone>+346930040</phone>
+    <email>jvidal.cc.ics@gencat.cat</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Miguel Angel Zapata, MD, PhD</last_name>
+    <email>mazapata@optretina.com</email>
+  </overall_contact_backup>
+  <results_reference>
+    <citation>Bourne RR, Stevens GA, White RA, Smith JL, Flaxman SR, Price H, Jonas JB, Keeffe J, Leasher J, Naidoo K, Pesudovs K, Resnikoff S, Taylor HR; Vision Loss Expert Group. Causes of vision loss worldwide, 1990-2010: a systematic analysis. Lancet Glob Health. 2013 Dec;1(6):e339-49. doi: 10.1016/S2214-109X(13)70113-X. Epub 2013 Nov 11. Review.</citation>
+    <PMID>25104599</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Sánchez González S, Calvo Lozano J, Sánchez González J, Pedregal González M, Cornejo Castillo M, Molina Fernández E, Barral FJ, Pérez Espinosa JR. [Assessment of the use of retinography as a screening method for the early diagnosis of chronic glaucoma in Primary Care: Validation for screening in populations with open-angle glaucoma risk factors]. Aten Primaria. 2017 Aug - Sep;49(7):399-406. doi: 10.1016/j.aprim.2016.10.008. Epub 2017 Jan 23. Spanish.</citation>
+    <PMID>28126193</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Gómez-Ulla F, Fernandez MI, Gonzalez F, Rey P, Rodriguez M, Rodriguez-Cid MJ, Casanueva FF, Tome MA, Garcia-Tobio J, Gude F. Digital retinal images and teleophthalmology for detecting and grading diabetic retinopathy. Diabetes Care. 2002 Aug;25(8):1384-9.</citation>
+    <PMID>12145239</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Dankwa-Mullan I, Rivo M, Sepulveda M, Park Y, Snowdon J, Rhee K. Transforming Diabetes Care Through Artificial Intelligence: The Future Is Here. Popul Health Manag. 2019 Jun;22(3):229-242. doi: 10.1089/pop.2018.0129. Epub 2018 Oct 2. Review.</citation>
+    <PMID>30256722</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Quellec G, Charrière K, Boudi Y, Cochener B, Lamard M. Deep image mining for diabetic retinopathy screening. Med Image Anal. 2017 Jul;39:178-193. doi: 10.1016/j.media.2017.04.012. Epub 2017 Apr 28.</citation>
+    <PMID>28511066</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Usher D, Dumskyj M, Himaga M, Williamson TH, Nussey S, Boyce J. Automated detection of diabetic retinopathy in digital retinal images: a tool for diabetic retinopathy screening. Diabet Med. 2004 Jan;21(1):84-90.</citation>
+    <PMID>14706060</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Somfai GM, Tátrai E, Laurik L, Varga B, Ölvedy V, Jiang H, Wang J, Smiddy WE, Somogyi A, DeBuc DC. Automated classifiers for early detection and diagnosis of retinopathy in diabetic eyes. BMC Bioinformatics. 2014 Apr 12;15:106. doi: 10.1186/1471-2105-15-106.</citation>
+    <PMID>24725911</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Abràmoff MD, Lou Y, Erginay A, Clarida W, Amelon R, Folk JC, Niemeijer M. Improved Automated Detection of Diabetic Retinopathy on a Publicly Available Dataset Through Integration of Deep Learning. Invest Ophthalmol Vis Sci. 2016 Oct 1;57(13):5200-5206. doi: 10.1167/iovs.16-19964.</citation>
+    <PMID>27701631</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Abràmoff MD, Lavin PT, Birch M, Shah N, Folk JC. Pivotal trial of an autonomous AI-based diagnostic system for detection of diabetic retinopathy in primary care offices. NPJ Digit Med. 2018 Aug 28;1:39. doi: 10.1038/s41746-018-0040-6. eCollection 2018.</citation>
+    <PMID>31304320</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Li Z, Keel S, Liu C, He Y, Meng W, Scheetz J, Lee PY, Shaw J, Ting D, Wong TY, Taylor H, Chang R, He M. An Automated Grading System for Detection of Vision-Threatening Referable Diabetic Retinopathy on the Basis of Color Fundus Photographs. Diabetes Care. 2018 Dec;41(12):2509-2516. doi: 10.2337/dc18-0147. Epub 2018 Oct 1.</citation>
+    <PMID>30275284</PMID>
+  </results_reference>
+  <verification_date>October 2019</verification_date>
+  <study_first_submitted>October 10, 2019</study_first_submitted>
+  <study_first_submitted_qc>October 16, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 18, 2019</study_first_posted>
+  <last_update_submitted>October 16, 2019</last_update_submitted>
+  <last_update_submitted_qc>October 16, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 18, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>fundus oculi</keyword>
+  <keyword>artificial intelligence</keyword>
+  <keyword>computer assisted diagnosis</keyword>
+  <keyword>neural network computer</keyword>
+  <keyword>Diabetic Retinopathy</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Retinal Diseases</mesh_term>
+    <mesh_term>Diabetic Retinopathy</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>The protocol has been published</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Clinical Study Report (CSR)</ipd_info_type>
+    <ipd_time_frame>End of the study</ipd_time_frame>
+    <ipd_access_criteria>Information will be published in international scientific journals</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

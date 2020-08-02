@@ -1,0 +1,408 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03941639</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2019.089</org_study_id>
+    <nct_id>NCT03941639</nct_id>
+  </id_info>
+  <brief_title>Using Imaging Data and Genomic Data to Predict Metastasis of Breast Cancer After Treatment</brief_title>
+  <official_title>Using Imaging Data and Genomic Data to Predict Metastasis of Breast Cancer After Treatment</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Chinese University of Hong Kong</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Department of Electronic and computer engineering, HKUST</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Department of clinical oncology, CUHK</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Department of Anatomical and Cellular Pathology,PWH</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Department of Surgery, North District Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Chinese University of Hong Kong</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Breast cancer is the second leading cause of death for women around the world. Notably, most
+      breast cancer patients die from tumor metastases in the liver, lungs, bones, or brain, not
+      the primary tumor itself. Currently, clinicians are generally successful in treating primary
+      tumors using standard protocols that are based on tumor sub-type and staging, as well as by
+      the presence or absence of prognostic biomarkers. However, it remains difficult to assess in
+      advance the likelihood of metastasis or relapse in any given patient.Physicians can only rely
+      on regular post-treatment screening to monitor any secondary onset. By the time metastasis is
+      detected, the golden window for treatment adjustment has often already passed.
+
+      This project proposes to develop an analytical tool for predicting the likelihood of
+      metastasis in breast cancer patients post-treatment using imaging and genomic data. We will
+      evaluate our prediction model using prospectively-collected patient data. This new prognostic
+      tool will enable physicians to adjust and tailor therapeutic strategies to each patient in a
+      timely manner. Overall, the tool will personalize patient care, and improve their survival
+      chances and quality of life.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background
+
+      Breast cancer is the second leading cause of death in women around the world. According to
+      WHO statistics, 571,000 women passed away in 2015 due to breast cancer alone. In Hong Kong,
+      breast cancer is the most common cancer among women.
+
+      Currently, the standard protocol in breast cancer treatment consists of surgery (mastectomy),
+      chemotherapy, radiotherapy, and possibly hormone therapy or targeted therapy depending on the
+      presence or absence in tumor cells of certain hormone receptors such as estrogen receptors
+      (ER), progesterone receptors (PR), or human epidermal receptor 2 (HER2). The standard
+      protocol aims to remove the tumor and kill any remaining tumor cells. The treatment is
+      usually adjusted based on the patients' tolerance and general health status. The standard
+      protocol has so far been very effective in treating patients with early-stage breast cancers.
+      The 5-year relative survival rate can be higher than 90% if patients are treated early
+      enough. But it is still very challenging to treat patients with middle- or late-stage breast
+      cancers, especially those with metastatic disease. For patients with metastases, the 5-year
+      relative survival rate drops to around 20%. There are two major reasons for this drop.
+
+      While all breast cancers start from the same organ, the evolution of cancer cells shows
+      different patterns in different patients. This is especially true when breast cancers are
+      advanced into the middle or late stages. The standard protocol, however, is based on averaged
+      patient statistics and does not fully account for the uniqueness of individuals. For example,
+      patients with different genomic backgrounds respond differently to the same drug dosage and
+      experience different side effects. Thus, population-based treatment strategies cannot provide
+      effective, optimal treatment for every patient, especially for patients with middle- or
+      late-stage breast cancer.
+
+      The clinical gold standard for cancer diagnosis is multi-modality imaging: mammogram and
+      ultrasound, plus pathology of biopsied tissue. Imaging has been effective in detecting
+      primary breast cancers but it becomes less effective for monitoring patients post-treatment
+      because their primary tumors and affected lymph nodes have been removed. While physicians
+      still rely on image-based screening of organs such as the lungs and liver where metastases
+      have become established to monitor their patients post-treatment, such screening tests are
+      not sensitive enough. Patients with greater risk of metastasis often miss the best window of
+      opportunity for therapy adjustment before the secondary onset. When metastasis is observed in
+      other parts of the body a few years later, often it is already too late for any effective
+      intervention.
+
+      For patients whose breast cancers are at the early stage, the standard protocol is very
+      helpful. But for patients whose breast cancers are already more advanced, the standard
+      protocol and the post-treatment monitoring tools may not be sufficient to effectively control
+      the cancer's further development and to avoid secondary onset or metastasis. If we can
+      accurately predict the occurrence of metastasis after treating the primary cancer, the
+      investigators may be able to adjust the course of intervention during the time window between
+      the primary tumor treatment and the secondary onset. Potentially, the investigators may be
+      able to delay or even avoid metastasis.
+
+      Many studies have shown that genomic alterations are among the most important drivers
+      initiating cancer and controlling its progression, and metastases. To identify such
+      mutations, sequencing projects such as the Cancer Genome Atlas (TCGA) and the International
+      Cancer Genome Consortium (ICGC) have systematically studied the genomes and transcriptomes of
+      thousands of cancers. As a result, many mutations which drive breast cancer have been
+      identified. But the roles of those mutations in breast cancer metastasis are still unclear.
+
+      Clinically, there are some associations between primary tumor treatments and the risk of
+      secondary onset. For example, women who receive radiotherapy after mastectomy are known to
+      have a higher risk of lung cancer. Such associations are weak, however, and have no
+      clinically-actionable implications.
+
+      In this study, our team specializing in surgery, oncology, radiology, pathology, machine
+      learning, medical image analysis, single cell genomics, genomic data analysis and cancer
+      evolution will tackle the challenge of predicting post-treatment metastasis in breast cancer
+      patients. Our team members have established clinical expertise and a strong track record of
+      relevant work in areas including breast cancer treatment and prognosis, multi-modality image
+      analysis for cancer detection and diagnosis, and prediction of glioblastoma relapse by
+      identifying key features of cancer evolution. Based on our extensive experience, the
+      investigators hypothesize that combining multi-modality imaging data and genomic data,
+      collected both at the time of diagnosis and during the post-treatment follow-up period, will
+      provide sufficient information to predict the risk of metastasis despite an incomplete
+      understanding of the underlying biological mechanisms. Machine learning-based methods have
+      already shown great potential in tackling the issue of heterogeneity among cancer patients,
+      making it possible to build a unified tool to predict the risk of post-treatment metastasis.
+
+      Such a prediction model, once developed and validated, will enable physicians to make
+      adjustments in patients' treatment. Before gaining complete insight into the biological
+      mechanism behind metastasis, such a prediction tool would offer an effective way to choose
+      the best treatment for improving each patient's quality of life and extending their life
+      span.
+
+      More importantly, such a prediction technique should potentially be generalizable to other
+      types of cancer. If so, it would have an enormous impact on clinical practice in cancer
+      treatment and post-treatment monitoring.
+
+      Methodology and Collaboration Plan
+
+        1. Study design To maximize the use of existing data, the investigators will carry out a
+           retrospective study mixed with the pilot phase of a prospective study. In the
+           retrospective study the investigators will use publically-available images and genomic
+           data of breast cancer patients before and after treatment to perform image analysis,
+           feature selection, and predictor building. To compensate for the lack of matched image
+           and genomic data in the public database, the investigators will supplement it with new
+           data collected in a pilot prospective study for which the investigators will recruit 400
+           breast cancer patients. All will have undergone surgical treatment plus chemotherapy
+           and/or radiotherapy, and images and genomic data will have been collected at the time of
+           diagnosis. Matched genomic data for those patients will then be collected annually for
+           up to 4 years. Assuming an incidence of metastasis of 15% within 5 years, about 60 of
+           the patients will experience metastasis during the study. The data collected and the
+           clinical outcome metadata will be used to evaluate the predication model's accuracy and
+           in future studies.
+
+        2. Data collection BGI Ltd. is sponsoring this project. As is explained in their supporting
+           letter, BGI will provide imaging data and genomic data from 200 breast cancer patients
+           for us to build the prediction model. That support will provide a solid foundation for
+           obtaining sufficient data.
+
+           Dr. Wing Cheong Chan is a breast surgeon at the North District Hospital (NDH) and is
+           also the surgeon in charge of breast surgery for the Hospital Authority's entire New
+           Territories East Cluster (NTEC). As a Honorary Clinical Assistant Professor in the
+           Department of Surgery at CUHK, Dr. Chan has already been working closely with Prof. Yeo
+           and Dr. Tse on breast cancer diagnosis and treatment for a long time. His division
+           carries out surgeries on about 260 breast cancer patients every year. He will be
+           responsible for recruiting 200 breast cancer patients with ER/PR positive or negative
+           status on a rolling basis, providing fresh tumor tissue and blood samples for genomic
+           data acquisition. Prof. Winnie Yeo is a clinical oncologist at the Prince of Wales
+           Hospital (PWH) of CUHK. She manages on average more than 500 breast cancer patients
+           every year, including those operated on at the NDH. She will be responsible for
+           monitoring the 200 breast cancer patients recruited after their surgeries and other
+           treatment, and will collect blood samples during the follow-up period. She will provide
+           relevant anonymized clinical data for building the prediction tool and will also provide
+           clinical feedback on the predictive features that the HKUST team will extract from the
+           images and genomic data.
+
+           Prof. Winnie Chu, a radiologist, and Dr. Gary Tse, a pathologist, both at PWH, will
+           provide labeled mammograms, ultrasound images and images of biopsied tissue along with
+           biomarker data for the same 200 patients. They will then provide subsequent images and
+           other screening test data at intervals. Some patients will receive MRI scans, which will
+           also be included in the data for image-based prediction. All of the patient data will be
+           anonymized. Dr. Chan and Prof. YEO will provide clinical feedback on predictive
+           features. Please see Appendix 2 for the standard image acquisition protocol.
+
+           Prof. Angela Wu, a genomics and technology development expert in the Division of Life
+           Science and the Dept. of Chemical and Biological Engineering at the HKUST, will work on
+           sample preparation and genome data collection. She will collect the genomic data for the
+           analysis team. Prof. Wu has extensive experience in genomics, and in particular in the
+           area of genomic assay and technology development, as evidenced by her publications. Her
+           team will perform whole-exome sequencing (WES) and bulk RNA sequencing of patients'
+           tumors to allow identification of key mutations in protein coding regions and the
+           relationship between those mutations and gene expression. The WES and RNA-seq pipeline
+           will employ standard DNA and RNA extraction procedures followed by paired-end Illumina
+           sequencing. Cell-free DNA sequencing will also be performed annually for each patient
+           post-surgery to quantify tumor DNA in the patient's blood. The investigators will
+           attempt to correlate the results with morphological changes over time as described by
+           imaging. Cell-free DNA will be extracted using protocols adapted from which have been
+           optimized and validated in Prof. Wu's lab.
+
+        3. Data analysis and predictor building The analysis team consists of four professors in
+           engineering and life sciences. They will analyze the multi-modality imaging data and the
+           genomic data, build a unified predictor, and evaluate its performance.
+
+             1. Image analysis Prof. Tim Cheng is an expert image content analysis using machine
+                learning. His team has recently developed convolutional neural networks for
+                detecting and diagnosing prostate cancer from MRI images. Prof. Albert Chung
+                specializes in medical image analysis with about 20 years of experience. Prof.
+                Weichuan Yu is expert in the analysis of ultrasound images. They will jointly
+                analyze the mammograms, ultrasound images, pathology images, and possibly MRI
+                images aiming to extract metastasis-associated image features which can be used in
+                the predictor. Candidates are 2D wavelet transform coefficients, gray level
+                co-occurrence matrix, and local binary and ternary patterns which have proved
+                useful in detecting abnormalities. Using images which have the ground-truth,
+                representative image features will be extracted to help differentiate normal,
+                benign and malignant tissues. We also will investigate different classifiers such
+                as artificial neural networks, random forest, and support vector machine for their
+                effectiveness in segmenting breast images based on the extracted features. The
+                investigators will use deep convolutional neural networks such as U-net and ResNet
+                to perform the image segmentation. The segmentation results obtained from
+                feature-based methods and from the deep learning-based methods will be fused under
+                a probabilistic framework such as the Markov random field method. That should allow
+                coupling their output in the predictor.
+
+                In short, the investigators will deploy a toolbox containing state-of-the-art
+                medical image analysis methods and combine them. The investigators will discuss the
+                extracted image features with the clinical team for feedback.
+
+             2. Genomic data analysis The genome data will be analyzed by a team consisting of
+                Prof. Jiguang Wang, a computational biologist, and Prof. Weichuan Yu, with
+                expertise in genome-wide association. Profs. Tim Cheng and Albert Chung will also
+                contribute to this part of the study by applying machine learning to the genome
+                data. Prof. Wang has shown that certain brain tumors mutations seen early in the
+                cancer's development can be used to predict treatment outcomes. Those methods will
+                be adapted to the breast cancer data to predict tumor metastasis. In addition, the
+                investigators found in a preliminary study that a copy number change in ERBB2 in
+                breast cancer shows strong association with brain metastasis. This observation will
+                be further validated and justified by follow-up work in this proposed study. After
+                the investigators select the genome features as targets, the investigators will
+                work with the clinical team together to sort out the medical implications.
+
+             3. Building a metastasis predictor The investigators plan to formulate the prediction
+                task as a statistical inference problem with a Bayesian probabilistic framework.
+                All of the measurements and their uncertainty levels can then be consistently
+                modelled and mathematically integrated. For example, all measurements can be
+                represented as observations in a graphical probabilistic model and the predication
+                outcome can be inferred by estimating the maximum a posteriori (MAP) solution. As
+                the investigators will be collecting data annotated by clinicians, the
+                investigators expect that model parameters can be initialized and trained
+                effectively. The investigators will also explore formulating the prediction task as
+                a classification problem and investigate using multiple, jointly co-trained
+                convolutional neural networks, each of which processes only image or genome data,
+                for performing the classification.
+
+        4. Evaluation The area under the receiver operating characteristic (ROC) curve (AUC) will
+           be the main criterion to evaluate the prediction accuracy of our metastasis predication
+           tool. Currently, the best performance of breast cancer metastasis prediction by only
+           using imaging data is reported, the area under the curve (AUC) was about 55% for PAM50
+           gene assay-based risk of relapse and proliferation. Based on our survey, no method has
+           yet been proposed to use genomic data for breast cancer metastasis prediction, although
+           the genomic evolution of breast cancer metastasis and relapse has been actively
+           investigated. The investigators expect that the prediction accuracy should increase by
+           at least 5% to 10% after the investigators combine both imaging data and genomic data.
+
+      Recently, Mobadersany et al. has reported that the survival convolutional neural network
+      (SCNN) can surpass manual histologic-grade baseline model by combining pathology images and
+      genomic biomarkers in predicting the glioma outcome. The authors used the Harrell's c index
+      from the survival analysis perspective to measure the prediction accuracy. The median c index
+      has achieved 0.75 using the SCNN. While breast cancer is very different from glioma and AUC
+      is different from the Harrell's c index, this paper has demonstrated a positive example of
+      combining image data and genomic data in the prediction of cancer outcome.
+
+      Please note that it will take much longer to observe the complete clinical outcomes of the
+      400 patients the investigators plan to recruit in this project. The investigators plan to
+      seek additional funding to continue our study after finishing this project.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">December 17, 2019</start_date>
+  <completion_date type="Anticipated">June 1, 2023</completion_date>
+  <primary_completion_date type="Anticipated">August 31, 2021</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <target_duration>4 Years</target_duration>
+  <primary_outcome>
+    <measure>area under the receiver operating characteristic curve (AUC)</measure>
+    <time_frame>Four years after patient recruitment</time_frame>
+    <description>AUC in percentage (%) in breast cancer metastasis prediction model</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">400</enrollment>
+  <condition>Breast Cancer</condition>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      This proposed project will include one retrospective study and one prospective pilot study.
+
+      In retrospective study, the BGI Ltd, which company is sponsoring this project, will provide
+      imaging data and genomic data from 200 breast cancer patients for us.
+
+      In prospective study, we will recruit 200 breast cancer patients and acquire tumor tissue and
+      blood samples for genomic data acquisition.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        BGI Ltd. will provide imaging data and genomic data from 200 breast cancer patients for us.
+        Dr. Wing Cheong Chan is a breast surgeon at the North District Hospital (NDH) and is also
+        the surgeon in charge of breast surgery for the Hospital Authority's entire New Territories
+        East Cluster (NTEC). He will be responsible for recruiting 200 breast cancer patients.
+        Prof. Winnie Yeo is a clinical oncologist at the Prince of Wales Hospital (PWH) of CUHK.
+        She will be responsible for monitoring the 200 breast cancer patients, and will collect
+        blood samples during the follow-up period.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Clinical diagnosis of breast cancer
+
+          -  With mammogram
+
+          -  With surgical treatment
+
+          -  With chemotherapy, radiotherapy or both
+
+        Exclusion Criteria:
+
+        Clinical diagnosis of other major diseases
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Weichuan Yu, Ph.D</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Department of Electronic and computer engineering, HKUST</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Chiu Wing CHU, MBChB, MD</last_name>
+    <phone>(852)35052299</phone>
+    <email>winniechu@cuhk.edu.hk</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>The Chinese University of Hong Kong, Prince of Wale Hospital</name>
+      <address>
+        <city>Hong Kong</city>
+        <state>Shatin</state>
+        <country>Hong Kong</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Winnie C Chu, MD</last_name>
+      <phone>(852) 3505 2299</phone>
+      <email>winniechu@cuhk.edu.hk</email>
+    </contact>
+    <investigator>
+      <last_name>Winnie C Chu, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Hong Kong</country>
+  </location_countries>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>April 25, 2019</study_first_submitted>
+  <study_first_submitted_qc>May 6, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 8, 2019</study_first_posted>
+  <last_update_submitted>June 10, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 10, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 11, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Chinese University of Hong Kong</investigator_affiliation>
+    <investigator_full_name>Professor Winnie W.C. Chu</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>breast cancer</keyword>
+  <keyword>metastasis</keyword>
+  <keyword>prediction</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Neoplasms</mesh_term>
+    <mesh_term>Neoplasm Metastasis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

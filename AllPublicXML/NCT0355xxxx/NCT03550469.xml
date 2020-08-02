@@ -1,0 +1,343 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03550469</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRB-42274</org_study_id>
+    <nct_id>NCT03550469</nct_id>
+  </id_info>
+  <brief_title>Computer-assisted Oxygen Therapy Weaning in Critically Ill Children</brief_title>
+  <official_title>Weaning Oxygen Therapy With Model-based Adaptive Control</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Stanford University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Stanford University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study is designed to evaluate the feasibility, safety and clinical utility of using an
+      adaptive model to wean oxygen by computer assistance. Investigators hypothesize that weaning
+      oxygen using this model will decrease duration of exposure to hyperoxia, decrease duration of
+      exposure to hypoxia, decrease exposure to increased oxygen requirement, and decrease the
+      number of manual fraction of inspired oxygen (FiO2) adjustments as compared to manual weaning
+      of oxygen therapy.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Investigators will perform a feasibility study followed by a randomized, controlled study on
+      critically ill neonatal and pediatric patients on oxygen therapy.
+
+      Investigators will use a model-based adaptive control architecture to regulate FiO2 settings.
+      A major advantage of using an &quot;adaptive&quot; control system is that the response of the patient
+      to previous FiO2 settings are used to recompute the most appropriate FiO2 setting in fixed
+      time intervals. As a result of this iterative and self-correcting process, the FiO2 value
+      converges to the most appropriate value over a period of time.
+
+      Study Population:
+
+      Children &lt;18 years of age admitted to the pediatric intensive care unit requiring oxygen
+      therapy.
+
+      Study Design:
+
+      Fifteen patients will be recruited for the feasibility study and 50 patients for the efficacy
+      trial. Sample size was calculated to provide 85% power with a type I error rate of 0.05 to
+      detect a 10% decrease in duration of time in hyperoxic state.
+
+      Definitions:
+
+      Hypoxia: oxygen saturation by pulse oximetry (SpO2) &lt;91% &gt;1 min Prolonged hypoxia: hypoxia
+      for &gt;2 min Severe hypoxia: SpO2 &lt;85% Prolonged severe hypoxia: SpO2 &lt;85% for &gt;1 min
+      Hyperoxia: SpO2 &gt;96% on FiO2 &gt;0.21 &gt;1 min Target saturation range: SpO2 91-96% Increased FiO2
+      requirement: FiO2 &gt;0.60
+
+      Patients will be screened daily for eligibility. Informed consent will be obtained from
+      parents of eligible patients. A randomization table created by the statistician will be used
+      to randomized patients in a 1:1 ratio to either the manual or computer-assisted weaning
+      group. The study will be carried out after the patient has been admitted to the unit for
+      greater than 24 hours.Two hours of respiratory stability without the need for a sustained
+      increase in FiO2 or change in ventilator settings will be required prior to initiation of the
+      study. Target SpO2 range will be 91-96% for pediatric intensive care unit patients. If part
+      of their usual care, patients will receive their scheduled respiratory treatments (e.g.
+      suctioning, chest physical therapy) before the study period starts.
+
+      During the 4-hour study period, patients in the manual weaning group will be cared for
+      routinely with FiO2 changes made by the nurse or respiratory therapist according to the order
+      placed by the clinician. A second pulse oximeter will be used for monitoring.
+
+      In the computer-assisted group, a dedicated investigator will be at the bedside during the
+      4-hour study. Oxygen saturation will be monitored using a second pulse oximeter connected to
+      a programmed computer. The computer will provide clinical decision support by making an FiO2
+      weaning recommendation every 5-10 min. If more frequent changes occur in the oxygen
+      saturation above or below the target, the computer will make more frequent recommendations
+      (every 30-60 sec) until the saturation is in target range. The investigator will wean the
+      FiO2 based on the computer recommendation, if the suggested change is determined to be safe.
+      If the recommendation is rejected, the investigator will document the reason. No other
+      changes will be made during this time unless patient is hypoxic or hyperoxic.
+
+      Respiratory support settings (flow, inspiratory pressure, tidal volume, positive end
+      expiratory pressure (PEEP), pressure support) will remain unchanged during the study period,
+      unless escalation of settings is necessary due to changes in clinical status.
+
+      In case of hypoxia or hyperoxia, a manual adjustment in FiO2 may be made and any clinically
+      necessary interventions (e.g. suctioning, nebulized treatments) will be performed if a
+      recommendation is not made by the computer by 1 min. If an intervention other than an
+      increase in FiO2 is necessary, the investigator may suspend further weaning recommendations
+      until the intervention is complete. Data acquisition may be suspended if artifact is
+      detected.
+
+      Criteria for suspension of weaning by computer-assistance:
+
+        -  Acute respiratory deterioration &gt;2 min: oxygen desaturation requiring suctioning or
+           nebulized treatment. During this time, the FiO2 may be adjusted manually.
+
+        -  Acute hemodynamic deterioration &gt;2 min: hypotension, tachycardia or bradycardia (defined
+           by age).
+
+        -  Acute neurologic deterioration &gt; 2 min: agitation that interferes with respiratory
+           support and affects oxygen saturation.
+
+        -  Artifact in oxygen saturation reading.
+
+      Total time study is suspended will be recorded for each patient.
+
+      Criteria for termination of the study for an individual subject:
+
+        -  Respiratory deterioration persists &gt;5 min and higher level of support is necessary.
+
+        -  Hemodynamic deterioration persists &gt;5 min and inotropes or vasopressors are initiated.
+
+        -  Patient develops altered mental status relative to pre-study condition or seizure
+           activity &gt;2 min.
+
+        -  Parental request for withdrawal from the study.
+
+      Data Collection:
+
+      Patients will be assigned a unique subject identification (ID) number. Identifiable data
+      (e.g. medical record number, date of birth) with the corresponding ID will be listed
+      separately from other data and saved on a secure password-protected database (Box.com through
+      Stanford University). During the study data will be collected under the subject ID number
+      (de-identified). All electronic data will be stored in Box and collection sheets will be
+      maintained in a locked locker in the pediatric intensive care unit until information is
+      transferred to electronic form.
+
+      Demographic data: age, gender, race, height, weight, acute diagnosis, chronic diagnoses,
+      baseline oxygen/respiratory support requirement, date of admission, hours on respiratory
+      support, type of respiratory support, blood gas results if obtained, hospital day. Blood will
+      not be collected specifically for this study, but if a blood gas has been obtained on the
+      patient, it will be recorded. Imaging results will be recorded.
+
+      During study period:
+
+      SpO2, respiratory rate, heart rate, blood pressure and temperature every 1 min. Medication
+      administered during and within 1 hour prior to study period. FiO2 changes (computer
+      recommendations and otherwise), respiratory support settings, and acute interventions (e.g.
+      suctioning, breathing treatment, sedation) and reason. Blood gas result if ordered by
+      clinician.
+
+      Statistical Analysis The primary outcome will be duration of exposure to hyperoxia. Secondary
+      outcomes will be incidence and duration of hypoxia, duration of oxygen saturation in target
+      range, incidence and duration of increased oxygen requirement, and number of manual FiO2
+      adjustments. The durations of time will be calculated as a proportion of total time recorded.
+      Oxygen saturation and FiO2 will be averaged for patients in the manual group and compared
+      with that of patients in the computer-assisted group using a two-sample, one-sided t-test
+      with margin to test whether the computer-assisted group performs at least 10% better than the
+      manual group. The average number of manual changes to the FiO2 for patients in the manual
+      group and the average number of manual changes in the computer-assisted group will also be
+      compared using a t-test.
+
+      Based on prior measurements in neonatal patients and after adjusting for potential data
+      dropouts, investigators estimate that a population of 25 patients each for the manual and
+      computer-assisted groups would be sufficient to test the hypothesis. While parametric
+      two-sample, one-sided t-tests were used for this calculation, the results of using
+      non-parametric statistics (based on Wilcoxon rank tests) are not expected to be significantly
+      different. In the investigators' calculations, they used a Type-I error estimate of 0.05
+      (false positive) and a power of 0.85 (Type-II).
+
+      In order to monitor the efficacy of the experiment, investigators will also be evaluating the
+      experiment's performance at the half way stage after examining 25 patients. In addition, the
+      principal investigator will also be closely monitoring the results of each experiment to
+      watch for any significant deviations in performance.
+
+      As this study involves minimal risk, site monitoring or auditing are not part of the plan.
+
+      Data collection and entry into the registry and monitoring will be done by 2 investigators.
+      If data are missing, the patient may be excluded from statistical analysis if missing data is
+      significant enough to lead to false conclusions.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">November 2, 2018</start_date>
+  <completion_date type="Anticipated">May 2020</completion_date>
+  <primary_completion_date type="Anticipated">May 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>The intervention group will have oxygen therapy adjustment by computer-assistance. The control group will have adjustments by staff.</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Duration of hyperoxia</measure>
+    <time_frame>Entire study (anticipated as 2 years).</time_frame>
+    <description>Duration of time patients exposed to hyperoxia</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Hypoxia incidence</measure>
+    <time_frame>Entire study (anticipated as 2 years).</time_frame>
+    <description>Incidence of hypoxia during weaning process</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Duration of hypoxia</measure>
+    <time_frame>Entire study (anticipated as 2 years).</time_frame>
+    <description>Duration of hypoxia during weaning process</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Oxygen saturation in target range</measure>
+    <time_frame>Entire study (anticipated as 2 years).</time_frame>
+    <description>Duration of time oxygen saturation in target range</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Increased oxygen requirement</measure>
+    <time_frame>Entire study (anticipated as 2 years).</time_frame>
+    <description>Incidence high oxygen delivery administration</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Manual adjustments</measure>
+    <time_frame>Entire study (anticipated as 2 years).</time_frame>
+    <description>Number of manual oxygen adjustments</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time of increased oxygen requirement</measure>
+    <time_frame>Entire study (anticipated as 2 years).</time_frame>
+    <description>Duration of time oxygen is delivered at high setting</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">55</enrollment>
+  <condition>Hyperoxia</condition>
+  <condition>Hypoxia</condition>
+  <arm_group>
+    <arm_group_label>Computer-assisted Oxygen Weaning</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>A computer with an adaptive model algorithm will guide oxygen weaning.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Manual Oxygen Weaning</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Oxygen weaning will be done by staff manually.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Computer-assisted Oxygen Weaning</intervention_name>
+    <description>Oxygen therapy weaning will be guided by a model-based computer algorithm. The computer will detect patients' oxygen saturation and made recommendations for oxygen weaning. A clinical at the bedside will make the adjustments in oxygen therapy if appropriate.</description>
+    <arm_group_label>Computer-assisted Oxygen Weaning</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  0 to 2 years of age
+
+          -  Admission to pediatric intensive care unit
+
+          -  Oxygen therapy with FiO2 &gt;0.21 via high flow nasal cannula &gt;4 litres per minute (LPM)
+             oxygen or via mechanical ventilation
+
+        Exclusion Criteria:
+
+          -  No supplemental oxygen requirement or less than 4 LPM oxygen by nasal cannula
+
+          -  Congenital cardiac disease
+
+          -  Pulmonary hypertension
+
+          -  Hemodynamic instability requiring intervention
+
+          -  Respiratory status deemed too tenuous for weaning by attending physician
+
+          -  Ward of the state
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>2 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Azadeh Fayazi, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Azadeh Fayazi, MD</last_name>
+    <phone>614-286-5096</phone>
+    <email>afayazi@stanford.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Vidit Bhargava, MD</last_name>
+    <email>vidit@stanford.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Lucile Packard Childrens Hospital</name>
+      <address>
+        <city>Palo Alto</city>
+        <state>California</state>
+        <zip>94304</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Azadeh Fayazi, MD</last_name>
+      <phone>614-286-5096</phone>
+      <email>afayazi@stanford.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2019</verification_date>
+  <study_first_submitted>April 17, 2018</study_first_submitted>
+  <study_first_submitted_qc>June 6, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 8, 2018</study_first_posted>
+  <last_update_submitted>April 25, 2019</last_update_submitted>
+  <last_update_submitted_qc>April 25, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 29, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Stanford University</investigator_affiliation>
+    <investigator_full_name>Azadeh Fayazi</investigator_full_name>
+    <investigator_title>Clinical Assistant Professor</investigator_title>
+  </responsible_party>
+  <keyword>hyperoxia</keyword>
+  <keyword>hypoxia</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hypoxia</mesh_term>
+    <mesh_term>Hyperoxia</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

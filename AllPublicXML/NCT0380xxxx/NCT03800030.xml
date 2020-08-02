@@ -1,0 +1,1528 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03800030</url>
+  </required_header>
+  <id_info>
+    <org_study_id>18-0003</org_study_id>
+    <secondary_id>R01MH101547</secondary_id>
+    <nct_id>NCT03800030</nct_id>
+  </id_info>
+  <brief_title>Effect of Cross Frequency tACS on Cognitive Control</brief_title>
+  <official_title>A Pilot Study Investigating the Effects of Cross Frequency Transcranial Alternating Current Stimulation on Cortical Oscillations Underlying Cognition</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of North Carolina, Chapel Hill</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Mental Health (NIMH)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of North Carolina, Chapel Hill</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Investigation of frequency specific transcranial alternating current stimulation on cognitive
+      control signals in frontal cortex
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Previous evidence suggests that there are specific frequency bands associated with different
+      aspects of cognitive control. In specific delta (2-4Hz) and beta (15-30Hz) are associated
+      with increased levels of abstraction for learned rules; and theta (5-8Hz) and gamma (30-50Hz)
+      has been associated with increased set-size or number of learned rules. Here we aim to find
+      causal evidence in support of these previous correlational findings by applying
+      cross-frequency transcranial alternating current stimulation (tACS) in the specific frequency
+      bands previously shown to be task-relevant. In a crossover design, we stimulate subjects with
+      either delta-beta or theta-gamma tACS during performance of a hierarchical cognitive control
+      task that manipulates the level of abstraction and set-size of rules that must be learned in
+      order to make the correct button press.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">October 7, 2018</start_date>
+  <completion_date type="Actual">July 25, 2019</completion_date>
+  <primary_completion_date type="Actual">July 25, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <intervention_model_description>Healthy participants will receive three waveforms of transcranial alternating current stimulation (tACS). Delta-beta, Theta-gamma, and Sham.</intervention_model_description>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>Double (Participant, Investigator)</masking>
+    <masking_description>Double-blinded. Neither the investigator nor the participants knows which form of stimulation is received.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Reaction Time for Trials With High Abstraction Relative to Low Abstraction</measure>
+    <time_frame>through study completion, an average of 3 weeks</time_frame>
+    <description>For low abstraction conditions, subjects must memorize a color to button mapping. For high abstraction conditions, subject must make a perceptual judgement on the similarity of two objects based on either texture or shape as cued by a color. The reaction time difference between high and low abstraction conditions was hypothesized to decrease when delta-beta tACS was delivered. As a control for the placebo effect of stimulation, the difference between delta-beta tACS and sham tACS, or placebo, was used for statistical analysis.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Reaction Time for Trials With High Set-size Relative to Low Set-size</measure>
+    <time_frame>through study completion, an average of 3 weeks</time_frame>
+    <description>The reaction time difference between high and low set-size conditions was hypothesized to decrease when theta-gamma tACS is delivered. As a control for the placebo effect of stimulation, the difference between theta-gamma tACS and sham tACS, or placebo, was used for statistical analysis.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Delta Phase to Beta Amplitude Coupling Strength</measure>
+    <time_frame>through study completion, an average of 3 weeks</time_frame>
+    <description>Delta-beta tACS was hypothesized to increase cross frequency coupling strength (higher value) between the targeted frequency bands. Phase amplitude coupling between delta phase and beta amplitude was calculated for the two minute electrical brain recordings after stimulation. A null distribution was calculated by shuffling the beta amplitude time series relative to the delta phase time series and then calculating coupling strength. The outcome measure is the z-transformed value of the genuine phase amplitude coupling relative to the null distribution.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Theta Phase to Gamma Amplitude Coupling Strength</measure>
+    <time_frame>through study completion, an average of 3 weeks</time_frame>
+    <description>Theta-gamma tACS was hypothesized to increase cross frequency coupling strength (higher value) between the targeted frequency bands. Phase amplitude coupling between theta phase and gamma amplitude was calculated for the two minute electrical brain recordings after stimulation. A null distribution was calculated by shuffling the gamma amplitude time series relative to the theta phase time series and then calculating coupling strength. The outcome measure is the z-transformed value of the genuine phase amplitude coupling relative to the null distribution.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percent Correct for Trials With High Abstraction Relative to Low Abstraction</measure>
+    <time_frame>through study completion, an average of 3 weeks</time_frame>
+    <description>For low abstraction conditions, subjects must memorize a color to button mapping. For high abstraction conditions, subject must make a perceptual judgement on the similarity of two objects based on either texture or shape as cued by a color. The accuracy difference between high and low abstraction conditions was hypothesized to decrease when delta-beta tACS was delivered. As a control for the placebo effect of stimulation, the difference between delta-beta tACS and sham tACS, or placebo, was used for statistical analysis.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percent Correct for Trials With High Set-size Relative to Low Set-size</measure>
+    <time_frame>through study completion, an average of 3 weeks</time_frame>
+    <description>The accuracy difference between high and low set-size conditions was hypothesized to decrease when theta-gamma tACS is delivered. As a control for the placebo effect of stimulation, the difference between theta-gamma tACS and sham tACS, or placebo, was used for statistical analysis.</description>
+  </primary_outcome>
+  <number_of_arms>6</number_of_arms>
+  <enrollment type="Actual">26</enrollment>
+  <condition>Cognitive Control</condition>
+  <condition>Executive Function</condition>
+  <arm_group>
+    <arm_group_label>Theta-gamma, Delta-beta, Sham</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Every participant will receive Theta-gamma tACS, Delta-beta tACS, and Sham tACS on separate sessions during performance of a computerized task.
+Sequence: Theta-gamma tACS, then Delta-beta tACS, then Sham tACS</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Theta-gamma, Sham, Delta-beta</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Every participant will receive Theta-gamma tACS, Delta-beta tACS, and Sham tACS on separate sessions during performance of a computerized task.
+Sequence: Theta-gamma tACS, then Sham tACS, then Delta-beta tACS</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Delta-beta, Theta-gamma, Sham tACS</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Every participant will receive Theta-gamma tACS, Delta-beta tACS, and Sham tACS on separate sessions during performance of a computerized task.
+Sequence: Delta-beta tACS, then Theta-gamma tACS, then Sham tACS</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Delta-beta, Sham, Theta-gamma tACS</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Every participant will receive Theta-gamma tACS, Delta-beta tACS, and Sham tACS on separate sessions during performance of a computerized task.
+Sequence: Delta-beta tACS, then Sham tACS, then Theta-gamma tACS</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Sham, Delta-beta, Theta-gamma tACS</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Every participant will receive Theta-gamma tACS, Delta-beta tACS, and Sham tACS on separate sessions during performance of a computerized task.
+Sequence: Sham tACS, then Delta-beta tACS, then Theta-gamma tACS</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Sham, Theta-gamma, Delta-beta tACS</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Every participant will receive Theta-gamma tACS, Delta-beta tACS, and Sham tACS on separate sessions during performance of a computerized task.
+Sequence: Sham tACS, then Theta-gamma tACS, then Delta-beta tACS</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Theta-gamma tACS</intervention_name>
+    <description>NeuroConn technologies, direct current-stimulator plus</description>
+    <arm_group_label>Delta-beta, Sham, Theta-gamma tACS</arm_group_label>
+    <arm_group_label>Delta-beta, Theta-gamma, Sham tACS</arm_group_label>
+    <arm_group_label>Sham, Delta-beta, Theta-gamma tACS</arm_group_label>
+    <arm_group_label>Sham, Theta-gamma, Delta-beta tACS</arm_group_label>
+    <arm_group_label>Theta-gamma, Delta-beta, Sham</arm_group_label>
+    <arm_group_label>Theta-gamma, Sham, Delta-beta</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Delta-beta tACS</intervention_name>
+    <description>NeuroConn technologies, direct current-stimulator plus</description>
+    <arm_group_label>Delta-beta, Sham, Theta-gamma tACS</arm_group_label>
+    <arm_group_label>Delta-beta, Theta-gamma, Sham tACS</arm_group_label>
+    <arm_group_label>Sham, Delta-beta, Theta-gamma tACS</arm_group_label>
+    <arm_group_label>Sham, Theta-gamma, Delta-beta tACS</arm_group_label>
+    <arm_group_label>Theta-gamma, Delta-beta, Sham</arm_group_label>
+    <arm_group_label>Theta-gamma, Sham, Delta-beta</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Sham tACS</intervention_name>
+    <description>NeuroConn technologies, direct current-stimulator plus</description>
+    <arm_group_label>Delta-beta, Sham, Theta-gamma tACS</arm_group_label>
+    <arm_group_label>Delta-beta, Theta-gamma, Sham tACS</arm_group_label>
+    <arm_group_label>Sham, Delta-beta, Theta-gamma tACS</arm_group_label>
+    <arm_group_label>Sham, Theta-gamma, Delta-beta tACS</arm_group_label>
+    <arm_group_label>Theta-gamma, Delta-beta, Sham</arm_group_label>
+    <arm_group_label>Theta-gamma, Sham, Delta-beta</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Between the ages of 18 and 35 years
+
+          -  Able to provide informed consent
+
+          -  Willing to comply with all study procedures and be available for the duration of the
+             study Speak and understand English
+
+        Exclusion Criteria:
+
+          -  Attention Deficit Hyperactivity Disorder (currently under treatment)
+
+          -  Neurological disorders and conditions, including, but not limited to:
+
+          -  History of epilepsy
+
+          -  Seizures (except childhood febrile seizures and electroconvulsive therapy induced
+             seizures) Dementia
+
+          -  History of stroke
+
+          -  Parkinson's disease
+
+          -  Multiple sclerosis
+
+          -  Cerebral aneurysm
+
+          -  Brain tumors
+
+          -  Medical or neurological illness or treatment for a medical disorder that could
+             interfere with study participation (e.g., unstable cardiac disease, malignancy)
+
+          -  Prior brain surgery
+
+          -  Any brain devices/implants, including cochlear implants and aneurysm clips
+
+          -  History or current traumatic brain injury
+
+          -  (For females) Pregnancy or breast feeding
+
+          -  Personal or family history of mental/psychiatric disorder (e.g., anxiety, major
+             depressive disorder, schizophrenia, etc.)
+
+          -  Positive urine test for the following: Marijuana (THC), Cocaine (COC), Phencyclidine
+             (PCP), Amphetamine (AMP), Ecstasy (MDMA), Methamphetamine (Mamp), Opiates (OPI),
+             Oxycodone (OXY), Methadone (MTD), Barbiturates (BAR), Benzodiazepines (BZO),
+             Buprenorphine (BUP), Tricyclic Antidepressants (TCA), Propoxyphene (PPX)
+
+          -  Anything that, in the opinion of the investigator, would place the participant at
+             increased risk or preclude the participant's full compliance with or completion of the
+             study
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>35 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Flavio Frohlich, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of North Carolina, Chapel Hill</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of North Carolina, Chapel Hill</name>
+      <address>
+        <city>Chapel Hill</city>
+        <state>North Carolina</state>
+        <zip>27599</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>September 2019</verification_date>
+  <study_first_submitted>December 18, 2018</study_first_submitted>
+  <study_first_submitted_qc>January 9, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 10, 2019</study_first_posted>
+  <results_first_submitted>May 1, 2020</results_first_submitted>
+  <results_first_submitted_qc>May 1, 2020</results_first_submitted_qc>
+  <results_first_posted type="Actual">May 18, 2020</results_first_posted>
+  <last_update_submitted>May 1, 2020</last_update_submitted>
+  <last_update_submitted_qc>May 1, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 18, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>tACS</keyword>
+  <keyword>Cognitive Control</keyword>
+  <keyword>Executive Function</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>January 9, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/30/NCT03800030/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Theta-gamma, Delta-beta, Sham</title>
+          <description>Every participant will receive Theta-gamma tACS, Delta-beta tACS, and Sham tACS on separate sessions during performance of a computerized task.
+Sequence: Theta-gamma tACS, then Delta-beta tACS, then Sham tACS
+Theta-gamma tACS: NeuroConn technologies, direct current-stimulator plus
+Delta-beta tACS: NeuroConn technologies, direct current-stimulator plus
+Sham tACS: NeuroConn technologies, direct current-stimulator plus</description>
+        </group>
+        <group group_id="P2">
+          <title>Theta-gamma, Sham, Delta-beta</title>
+          <description>Every participant will receive Theta-gamma tACS, Delta-beta tACS, and Sham tACS on separate sessions during performance of a computerized task.
+Sequence: Theta-gamma tACS, then Sham tACS, then Delta-beta tACS
+Theta-gamma tACS: NeuroConn technologies, direct current-stimulator plus
+Delta-beta tACS: NeuroConn technologies, direct current-stimulator plus
+Sham tACS: NeuroConn technologies, direct current-stimulator plus</description>
+        </group>
+        <group group_id="P3">
+          <title>Delta-beta, Theta-gamma, Sham tACS</title>
+          <description>Every participant will receive Theta-gamma tACS, Delta-beta tACS, and Sham tACS on separate sessions during performance of a computerized task.
+Sequence: Delta-beta tACS, then Theta-gamma tACS, then Sham tACS
+Theta-gamma tACS: NeuroConn technologies, direct current-stimulator plus
+Delta-beta tACS: NeuroConn technologies, direct current-stimulator plus
+Sham tACS: NeuroConn technologies, direct current-stimulator plus</description>
+        </group>
+        <group group_id="P4">
+          <title>Delta-beta, Sham, Theta-gamma tACS</title>
+          <description>Every participant will receive Theta-gamma tACS, Delta-beta tACS, and Sham tACS on separate sessions during performance of a computerized task.
+Sequence: Delta-beta tACS, then Sham tACS, then Theta-gamma tACS
+Theta-gamma tACS: NeuroConn technologies, direct current-stimulator plus
+Delta-beta tACS: NeuroConn technologies, direct current-stimulator plus
+Sham tACS: NeuroConn technologies, direct current-stimulator plus</description>
+        </group>
+        <group group_id="P5">
+          <title>Sham, Delta-beta, Theta-gamma tACS</title>
+          <description>Every participant will receive Theta-gamma tACS, Delta-beta tACS, and Sham tACS on separate sessions during performance of a computerized task.
+Sequence: Sham tACS, then Delta-beta tACS, then Theta-gamma tACS
+Theta-gamma tACS: NeuroConn technologies, direct current-stimulator plus
+Delta-beta tACS: NeuroConn technologies, direct current-stimulator plus
+Sham tACS: NeuroConn technologies, direct current-stimulator plus</description>
+        </group>
+        <group group_id="P6">
+          <title>Sham, Theta-gamma, Delta-beta tACS</title>
+          <description>Every participant will receive Theta-gamma tACS, Delta-beta tACS, and Sham tACS on separate sessions during performance of a computerized task.
+Sequence: Sham tACS, then Theta-gamma tACS, then Delta-beta tACS
+Theta-gamma tACS: NeuroConn technologies, direct current-stimulator plus
+Delta-beta tACS: NeuroConn technologies, direct current-stimulator plus
+Sham tACS: NeuroConn technologies, direct current-stimulator plus</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Baseline</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="4"/>
+                <participants group_id="P2" count="4"/>
+                <participants group_id="P3" count="4"/>
+                <participants group_id="P4" count="6"/>
+                <participants group_id="P5" count="4"/>
+                <participants group_id="P6" count="4"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="4"/>
+                <participants group_id="P2" count="4"/>
+                <participants group_id="P3" count="4"/>
+                <participants group_id="P4" count="6"/>
+                <participants group_id="P5" count="4"/>
+                <participants group_id="P6" count="4"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+                <participants group_id="P4" count="0"/>
+                <participants group_id="P5" count="0"/>
+                <participants group_id="P6" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+        <period>
+          <title>Pre-Randomization Period (1 Week)</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="4"/>
+                <participants group_id="P2" count="4"/>
+                <participants group_id="P3" count="4"/>
+                <participants group_id="P4" count="6"/>
+                <participants group_id="P5" count="4"/>
+                <participants group_id="P6" count="4"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="4"/>
+                <participants group_id="P2" count="4"/>
+                <participants group_id="P3" count="4"/>
+                <participants group_id="P4" count="6"/>
+                <participants group_id="P5" count="4"/>
+                <participants group_id="P6" count="4"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+                <participants group_id="P4" count="0"/>
+                <participants group_id="P5" count="0"/>
+                <participants group_id="P6" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+        <period>
+          <title>First Intervention</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="4"/>
+                <participants group_id="P2" count="4"/>
+                <participants group_id="P3" count="4"/>
+                <participants group_id="P4" count="6"/>
+                <participants group_id="P5" count="4"/>
+                <participants group_id="P6" count="4"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="4"/>
+                <participants group_id="P2" count="4"/>
+                <participants group_id="P3" count="4"/>
+                <participants group_id="P4" count="6"/>
+                <participants group_id="P5" count="4"/>
+                <participants group_id="P6" count="4"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+                <participants group_id="P4" count="0"/>
+                <participants group_id="P5" count="0"/>
+                <participants group_id="P6" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+        <period>
+          <title>First Washout (1 Week)</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="4"/>
+                <participants group_id="P2" count="4"/>
+                <participants group_id="P3" count="4"/>
+                <participants group_id="P4" count="6"/>
+                <participants group_id="P5" count="4"/>
+                <participants group_id="P6" count="4"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="4"/>
+                <participants group_id="P2" count="4"/>
+                <participants group_id="P3" count="4"/>
+                <participants group_id="P4" count="6"/>
+                <participants group_id="P5" count="4"/>
+                <participants group_id="P6" count="4"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+                <participants group_id="P4" count="0"/>
+                <participants group_id="P5" count="0"/>
+                <participants group_id="P6" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+        <period>
+          <title>Second Intervention</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="4"/>
+                <participants group_id="P2" count="4"/>
+                <participants group_id="P3" count="4"/>
+                <participants group_id="P4" count="6"/>
+                <participants group_id="P5" count="4"/>
+                <participants group_id="P6" count="4"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="4"/>
+                <participants group_id="P2" count="4"/>
+                <participants group_id="P3" count="4"/>
+                <participants group_id="P4" count="5"/>
+                <participants group_id="P5" count="4"/>
+                <participants group_id="P6" count="4"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+                <participants group_id="P4" count="1"/>
+                <participants group_id="P5" count="0"/>
+                <participants group_id="P6" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+        <period>
+          <title>Second Washout (1 Week)</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="4"/>
+                <participants group_id="P2" count="4"/>
+                <participants group_id="P3" count="4"/>
+                <participants group_id="P4" count="5"/>
+                <participants group_id="P5" count="4"/>
+                <participants group_id="P6" count="4"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="4"/>
+                <participants group_id="P2" count="4"/>
+                <participants group_id="P3" count="4"/>
+                <participants group_id="P4" count="4"/>
+                <participants group_id="P5" count="4"/>
+                <participants group_id="P6" count="4"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+                <participants group_id="P4" count="1"/>
+                <participants group_id="P5" count="0"/>
+                <participants group_id="P6" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+        <period>
+          <title>Third Intervention</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="4"/>
+                <participants group_id="P2" count="4"/>
+                <participants group_id="P3" count="4"/>
+                <participants group_id="P4" count="4"/>
+                <participants group_id="P5" count="4"/>
+                <participants group_id="P6" count="4"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="4"/>
+                <participants group_id="P2" count="4"/>
+                <participants group_id="P3" count="4"/>
+                <participants group_id="P4" count="4"/>
+                <participants group_id="P5" count="4"/>
+                <participants group_id="P6" count="4"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+                <participants group_id="P4" count="0"/>
+                <participants group_id="P5" count="0"/>
+                <participants group_id="P6" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>All Participants</title>
+          <description>Every participant will receive Theta-gamma tACS, Delta-beta tACS, and Sham tACS on separate sessions during performance of a computerized task.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="26"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="26"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="19.654" spread="1.4951"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="26"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="21"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="26"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="17"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="26"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="15"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="26"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="26"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Baseline Reaction Time Difference for Abstraction</title>
+          <description>There are four task conditions in a two-by-two design for high and low set-size and high and low abstraction. The reaction time for both high abstraction conditions are averaged and the average reaction time for both low abstraction conditions is subtracted. Thus, a single reaction metric is derived that is the relative change in reaction time as a function of the abstraction of the task.</description>
+          <population>One participant excluded from behavioral analysis because they did not follow task instructions. Two participants did not complete the full study and thus were excluded from analysis.</population>
+          <units>seconds</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="23"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0.1637" spread="0.1012"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Baseline Reaction Time Difference for Set-Size</title>
+          <description>There are four task conditions in a two-by-two design for high and low set-size and high and low abstraction. The reaction time for both high set-size conditions are averaged and the average reaction time for both low set-size conditions is subtracted. Thus, a single reaction metric is derived that is the relative change in reaction time as a function of the set-size of the task.</description>
+          <population>One participant excluded from behavioral analysis because they did not follow task instructions. Two participants did not complete the full study and thus were excluded from analysis.</population>
+          <units>seconds</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="23"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0.2272" spread="0.0844"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Baseline Percent Correct Difference for Abstraction</title>
+          <description>There are four task conditions in a two-by-two design for high and low set-size and high and low abstraction. The percent correct for both high abstraction conditions are averaged and the average percent correct for both low abstraction conditions is subtracted. Thus, a single metric is derived that is the relative change in percent correct as a function of the abstraction of the task.</description>
+          <population>One participant excluded from behavioral analysis because they did not follow task instructions. Two participants did not complete the full study and thus were excluded from analysis.</population>
+          <units>percent correct</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="23"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0.0679" spread="4.9692"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Baseline Percent Correct Difference for Set-Size</title>
+          <description>There are four task conditions in a two-by-two design for high and low set-size and high and low abstraction. The percent correct for both high st-size conditions are averaged and the average percent correct for both low set-size conditions is subtracted. Thus, a single metric is derived that is the relative change in percent correct as a function of the set-size of the task.</description>
+          <population>One participant excluded from behavioral analysis because they did not follow task instructions. Two participants did not complete the full study and thus were excluded from analysis.</population>
+          <units>percent correct</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="23"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="-1.0190" spread="4.4569"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Baseline Delta Phase to Beta Amplitude Coupling</title>
+          <description>During resting-state EEG, the Hilbert transform is applied at delta (2-3 Hz) and beta (18-22 Hz) frequency band. The phase of delta and the amplitude of beta frequency oscillations are combined into a single hybrid signal. Then, this signal is averaged and the magnitude of the resulting vector is taken as the coupling strength. To account for spurious findings, a null distribution is calculated by randomly shifting the time series of amplitude values. The final coupling measure is z-transformed by subtracting the mean and dividing by the standard deviation of the null distribution.</description>
+          <population>One participant excluded from behavioral analysis because they did not follow task instructions. Two participants did not complete the full study and thus were excluded from analysis.</population>
+          <units>Z-score</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="23"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0.0406" spread="0.3232"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Theta Phase to Gamma Amplitude Coupling Strength</title>
+          <description>During resting-state EEG, the Hilbert transform is applied at theta (4-8 Hz) and gamma (30-50 Hz) frequency band. The phase of theta and the amplitude of gamma frequency oscillations are combined into a single hybrid signal. Then, this signal is averaged and the magnitude of the resulting vector is taken as the coupling strength. To account for spurious findings, a null distribution is calculated by randomly shifting the time series of amplitude values. The final coupling measure is z-transformed by subtracting the mean and dividing by the standard deviation of the null distribution.</description>
+          <population>One participant excluded from behavioral analysis because they did not follow task instructions. Two participants did not complete the full study and thus were excluded from analysis.</population>
+          <units>Z-score</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="23"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0.0739" spread="0.4214"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Reaction Time for Trials With High Abstraction Relative to Low Abstraction</title>
+        <description>For low abstraction conditions, subjects must memorize a color to button mapping. For high abstraction conditions, subject must make a perceptual judgement on the similarity of two objects based on either texture or shape as cued by a color. The reaction time difference between high and low abstraction conditions was hypothesized to decrease when delta-beta tACS was delivered. As a control for the placebo effect of stimulation, the difference between delta-beta tACS and sham tACS, or placebo, was used for statistical analysis.</description>
+        <time_frame>through study completion, an average of 3 weeks</time_frame>
+        <population>One participant excluded from behavioral analysis because they did not follow task instructions.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Theta-gamma tACS</title>
+            <description>Every participant will receive Theta-gamma tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+          </group>
+          <group group_id="O2">
+            <title>Delta-beta tACS</title>
+            <description>Every participant will receive Delta-beta tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+          </group>
+          <group group_id="O3">
+            <title>Sham tACS</title>
+            <description>Every participant will receive Sham tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Reaction Time for Trials With High Abstraction Relative to Low Abstraction</title>
+          <description>For low abstraction conditions, subjects must memorize a color to button mapping. For high abstraction conditions, subject must make a perceptual judgement on the similarity of two objects based on either texture or shape as cued by a color. The reaction time difference between high and low abstraction conditions was hypothesized to decrease when delta-beta tACS was delivered. As a control for the placebo effect of stimulation, the difference between delta-beta tACS and sham tACS, or placebo, was used for statistical analysis.</description>
+          <population>One participant excluded from behavioral analysis because they did not follow task instructions.</population>
+          <units>seconds</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="23"/>
+                <count group_id="O2" value="23"/>
+                <count group_id="O3" value="23"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.1247" spread="0.0800"/>
+                    <measurement group_id="O2" value="0.1444" spread="0.0832"/>
+                    <measurement group_id="O3" value="0.1022" spread="0.0947"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.031</p_value>
+            <method>t-test, 2 sided</method>
+            <method_desc>degrees of freedom = 22 t-statistic = 2.305</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Reaction Time for Trials With High Set-size Relative to Low Set-size</title>
+        <description>The reaction time difference between high and low set-size conditions was hypothesized to decrease when theta-gamma tACS is delivered. As a control for the placebo effect of stimulation, the difference between theta-gamma tACS and sham tACS, or placebo, was used for statistical analysis.</description>
+        <time_frame>through study completion, an average of 3 weeks</time_frame>
+        <population>One participant excluded from behavioral analysis because they did not follow task instructions.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Theta-gamma tACS</title>
+            <description>Every participant will receive Theta-gamma tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+          </group>
+          <group group_id="O2">
+            <title>Delta-beta tACS</title>
+            <description>Every participant will receive Delta-beta tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+          </group>
+          <group group_id="O3">
+            <title>Sham tACS</title>
+            <description>Every participant will receive Sham tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Reaction Time for Trials With High Set-size Relative to Low Set-size</title>
+          <description>The reaction time difference between high and low set-size conditions was hypothesized to decrease when theta-gamma tACS is delivered. As a control for the placebo effect of stimulation, the difference between theta-gamma tACS and sham tACS, or placebo, was used for statistical analysis.</description>
+          <population>One participant excluded from behavioral analysis because they did not follow task instructions.</population>
+          <units>seconds</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="23"/>
+                <count group_id="O2" value="23"/>
+                <count group_id="O3" value="23"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.1905" spread="0.0676"/>
+                    <measurement group_id="O2" value="0.1853" spread="0.1057"/>
+                    <measurement group_id="O3" value="0.1888" spread="0.0760"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.935</p_value>
+            <method>t-test, 2 sided</method>
+            <method_desc>degrees of freedom = 22 t-statistic = 0.083</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Delta Phase to Beta Amplitude Coupling Strength</title>
+        <description>Delta-beta tACS was hypothesized to increase cross frequency coupling strength (higher value) between the targeted frequency bands. Phase amplitude coupling between delta phase and beta amplitude was calculated for the two minute electrical brain recordings after stimulation. A null distribution was calculated by shuffling the beta amplitude time series relative to the delta phase time series and then calculating coupling strength. The outcome measure is the z-transformed value of the genuine phase amplitude coupling relative to the null distribution.</description>
+        <time_frame>through study completion, an average of 3 weeks</time_frame>
+        <population>One participant excluded from coupling analysis because they did not follow task instructions.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Theta-gamma tACS</title>
+            <description>Every participant will receive Theta-gamma tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+          </group>
+          <group group_id="O2">
+            <title>Delta-beta tACS</title>
+            <description>Every participant will receive Delta-beta tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+          </group>
+          <group group_id="O3">
+            <title>Sham tACS</title>
+            <description>Every participant will receive Sham tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Delta Phase to Beta Amplitude Coupling Strength</title>
+          <description>Delta-beta tACS was hypothesized to increase cross frequency coupling strength (higher value) between the targeted frequency bands. Phase amplitude coupling between delta phase and beta amplitude was calculated for the two minute electrical brain recordings after stimulation. A null distribution was calculated by shuffling the beta amplitude time series relative to the delta phase time series and then calculating coupling strength. The outcome measure is the z-transformed value of the genuine phase amplitude coupling relative to the null distribution.</description>
+          <population>One participant excluded from coupling analysis because they did not follow task instructions.</population>
+          <units>Z-score</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="23"/>
+                <count group_id="O2" value="23"/>
+                <count group_id="O3" value="23"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.0873" spread="0.3035"/>
+                    <measurement group_id="O2" value="0.1123" spread="0.2939"/>
+                    <measurement group_id="O3" value="-0.1250" spread="0.2651"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.040</p_value>
+            <method>t-test, 1 sided</method>
+            <method_desc>degrees of freedom = 22 t-statistic = 1.833</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Theta Phase to Gamma Amplitude Coupling Strength</title>
+        <description>Theta-gamma tACS was hypothesized to increase cross frequency coupling strength (higher value) between the targeted frequency bands. Phase amplitude coupling between theta phase and gamma amplitude was calculated for the two minute electrical brain recordings after stimulation. A null distribution was calculated by shuffling the gamma amplitude time series relative to the theta phase time series and then calculating coupling strength. The outcome measure is the z-transformed value of the genuine phase amplitude coupling relative to the null distribution.</description>
+        <time_frame>through study completion, an average of 3 weeks</time_frame>
+        <population>One participant was excluded from coupling analysis because they did not follow task instructions.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Theta-gamma tACS</title>
+            <description>Every participant will receive Theta-gamma tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+          </group>
+          <group group_id="O2">
+            <title>Delta-beta tACS</title>
+            <description>Every participant will receive Delta-beta tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+          </group>
+          <group group_id="O3">
+            <title>Sham tACS</title>
+            <description>Every participant will receive Sham tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Theta Phase to Gamma Amplitude Coupling Strength</title>
+          <description>Theta-gamma tACS was hypothesized to increase cross frequency coupling strength (higher value) between the targeted frequency bands. Phase amplitude coupling between theta phase and gamma amplitude was calculated for the two minute electrical brain recordings after stimulation. A null distribution was calculated by shuffling the gamma amplitude time series relative to the theta phase time series and then calculating coupling strength. The outcome measure is the z-transformed value of the genuine phase amplitude coupling relative to the null distribution.</description>
+          <population>One participant was excluded from coupling analysis because they did not follow task instructions.</population>
+          <units>Z-score</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="23"/>
+                <count group_id="O2" value="23"/>
+                <count group_id="O3" value="23"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.1615" spread="0.3563"/>
+                    <measurement group_id="O2" value="0.0706" spread="0.3496"/>
+                    <measurement group_id="O3" value="0.0577" spread="0.4043"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.020</p_value>
+            <method>t-test, 1 sided</method>
+            <method_desc>degrees of freedom = 22 t-statistic = 2.174</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Percent Correct for Trials With High Abstraction Relative to Low Abstraction</title>
+        <description>For low abstraction conditions, subjects must memorize a color to button mapping. For high abstraction conditions, subject must make a perceptual judgement on the similarity of two objects based on either texture or shape as cued by a color. The accuracy difference between high and low abstraction conditions was hypothesized to decrease when delta-beta tACS was delivered. As a control for the placebo effect of stimulation, the difference between delta-beta tACS and sham tACS, or placebo, was used for statistical analysis.</description>
+        <time_frame>through study completion, an average of 3 weeks</time_frame>
+        <population>One participant excluded from behavioral analysis because they did not follow task instructions.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Theta-gamma tACS</title>
+            <description>Every participant will receive Theta-gamma tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+          </group>
+          <group group_id="O2">
+            <title>Delta-beta tACS</title>
+            <description>Every participant will receive Delta-beta tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+          </group>
+          <group group_id="O3">
+            <title>Sham tACS</title>
+            <description>Every participant will receive Sham tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percent Correct for Trials With High Abstraction Relative to Low Abstraction</title>
+          <description>For low abstraction conditions, subjects must memorize a color to button mapping. For high abstraction conditions, subject must make a perceptual judgement on the similarity of two objects based on either texture or shape as cued by a color. The accuracy difference between high and low abstraction conditions was hypothesized to decrease when delta-beta tACS was delivered. As a control for the placebo effect of stimulation, the difference between delta-beta tACS and sham tACS, or placebo, was used for statistical analysis.</description>
+          <population>One participant excluded from behavioral analysis because they did not follow task instructions.</population>
+          <units>percent correct</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="23"/>
+                <count group_id="O2" value="23"/>
+                <count group_id="O3" value="23"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.5661" spread="3.1678"/>
+                    <measurement group_id="O2" value="-0.2944" spread="7.4718"/>
+                    <measurement group_id="O3" value="0.7246" spread="6.6416"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.540</p_value>
+            <method>t-test, 2 sided</method>
+            <method_desc>degrees of freedom = 22 t-statistic = -0.623</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Percent Correct for Trials With High Set-size Relative to Low Set-size</title>
+        <description>The accuracy difference between high and low set-size conditions was hypothesized to decrease when theta-gamma tACS is delivered. As a control for the placebo effect of stimulation, the difference between theta-gamma tACS and sham tACS, or placebo, was used for statistical analysis.</description>
+        <time_frame>through study completion, an average of 3 weeks</time_frame>
+        <population>One participant excluded from behavioral analysis because they did not follow task instructions.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Theta-gamma tACS</title>
+            <description>Every participant will receive Theta-gamma tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+          </group>
+          <group group_id="O2">
+            <title>Delta-beta tACS</title>
+            <description>Every participant will receive Delta-beta tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+          </group>
+          <group group_id="O3">
+            <title>Sham tACS</title>
+            <description>Every participant will receive Sham tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percent Correct for Trials With High Set-size Relative to Low Set-size</title>
+          <description>The accuracy difference between high and low set-size conditions was hypothesized to decrease when theta-gamma tACS is delivered. As a control for the placebo effect of stimulation, the difference between theta-gamma tACS and sham tACS, or placebo, was used for statistical analysis.</description>
+          <population>One participant excluded from behavioral analysis because they did not follow task instructions.</population>
+          <units>percent correct</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="23"/>
+                <count group_id="O2" value="23"/>
+                <count group_id="O3" value="23"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-2.2871" spread="2.9242"/>
+                    <measurement group_id="O2" value="-4.3252" spread="6.8997"/>
+                    <measurement group_id="O3" value="-4.1667" spread="4.3264"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.007</p_value>
+            <method>t-test, 2 sided</method>
+            <method_desc>degrees of freedom = 22 t-statistic = 2.989</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Adverse events were assessed over an approximate 3-week period using a stimulation side effects questionnaire provided to participants after every presentation of each intervention. Data were not collected beyond the third intervention.</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Theta-gamma tACS</title>
+          <description>Every participant will receive Theta-gamma tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+        </group>
+        <group group_id="E2">
+          <title>Delta-beta tACS</title>
+          <description>Every participant will receive Delta-beta tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+        </group>
+        <group group_id="E3">
+          <title>Sham tACS</title>
+          <description>Every participant will receive Sham tACS during performance of a computerized task using NeuroConn technologies, direct current-stimulator plus</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="24"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="26"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="26"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="24"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="26"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="26"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="11" subjects_at_risk="24"/>
+                <counts group_id="E2" subjects_affected="15" subjects_at_risk="26"/>
+                <counts group_id="E3" subjects_affected="10" subjects_at_risk="26"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Investigations</title>
+            <event_list>
+              <event>
+                <sub_title>Tingling</sub_title>
+                <description>Mild</description>
+                <counts group_id="E1" events="9" subjects_affected="9" subjects_at_risk="24"/>
+                <counts group_id="E2" events="10" subjects_affected="10" subjects_at_risk="26"/>
+                <counts group_id="E3" events="7" subjects_affected="7" subjects_at_risk="26"/>
+              </event>
+              <event>
+                <sub_title>Flickering lights</sub_title>
+                <description>Mild</description>
+                <counts group_id="E1" events="2" subjects_affected="2" subjects_at_risk="24"/>
+                <counts group_id="E2" events="4" subjects_affected="4" subjects_at_risk="26"/>
+                <counts group_id="E3" events="2" subjects_affected="2" subjects_at_risk="26"/>
+              </event>
+              <event>
+                <sub_title>Itching</sub_title>
+                <description>Mild</description>
+                <counts group_id="E1" events="2" subjects_affected="2" subjects_at_risk="24"/>
+                <counts group_id="E2" events="5" subjects_affected="5" subjects_at_risk="26"/>
+                <counts group_id="E3" events="4" subjects_affected="4" subjects_at_risk="26"/>
+              </event>
+              <event>
+                <sub_title>Burning sensation</sub_title>
+                <description>Mild</description>
+                <counts group_id="E1" events="3" subjects_affected="3" subjects_at_risk="24"/>
+                <counts group_id="E2" events="3" subjects_affected="3" subjects_at_risk="26"/>
+                <counts group_id="E3" events="5" subjects_affected="5" subjects_at_risk="26"/>
+              </event>
+              <event>
+                <sub_title>Scalp pain</sub_title>
+                <description>Mild</description>
+                <counts group_id="E1" events="3" subjects_affected="3" subjects_at_risk="24"/>
+                <counts group_id="E2" events="3" subjects_affected="3" subjects_at_risk="26"/>
+                <counts group_id="E3" events="2" subjects_affected="2" subjects_at_risk="26"/>
+              </event>
+              <event>
+                <sub_title>Neck pain</sub_title>
+                <description>Mild</description>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="24"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="26"/>
+                <counts group_id="E3" events="0" subjects_affected="0" subjects_at_risk="26"/>
+              </event>
+              <event>
+                <sub_title>Dizziness</sub_title>
+                <description>Mild</description>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="24"/>
+                <counts group_id="E2" events="3" subjects_affected="3" subjects_at_risk="26"/>
+                <counts group_id="E3" events="0" subjects_affected="0" subjects_at_risk="26"/>
+              </event>
+              <event>
+                <sub_title>Local redness</sub_title>
+                <description>Mild</description>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="24"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="26"/>
+                <counts group_id="E3" events="0" subjects_affected="0" subjects_at_risk="26"/>
+              </event>
+              <event>
+                <sub_title>Sleepiness</sub_title>
+                <description>Mild</description>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="24"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="26"/>
+                <counts group_id="E3" events="0" subjects_affected="0" subjects_at_risk="26"/>
+              </event>
+              <event>
+                <sub_title>Headache</sub_title>
+                <description>Mild</description>
+                <counts group_id="E1" events="3" subjects_affected="3" subjects_at_risk="24"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="26"/>
+                <counts group_id="E3" events="3" subjects_affected="3" subjects_at_risk="26"/>
+              </event>
+              <event>
+                <sub_title>Ringing noise</sub_title>
+                <description>Mild</description>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="24"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="26"/>
+                <counts group_id="E3" events="0" subjects_affected="0" subjects_at_risk="26"/>
+              </event>
+              <event>
+                <sub_title>Blurred vision</sub_title>
+                <description>Mild</description>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="24"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="26"/>
+                <counts group_id="E3" events="1" subjects_affected="1" subjects_at_risk="26"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Justin Riddle, PhD</name_or_title>
+      <organization>University of North Carolina at Chapel Hill</organization>
+      <phone>6617131602</phone>
+      <email>justin_riddle@med.unc.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

@@ -1,0 +1,184 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04296500</url>
+  </required_header>
+  <id_info>
+    <org_study_id>KyungheeU</org_study_id>
+    <nct_id>NCT04296500</nct_id>
+  </id_info>
+  <brief_title>A Development of Inflammatory Bowel Disease Pattern Identification Algorithm Using Case Series Data</brief_title>
+  <official_title>Herbal Medicine for Inflammatory Bowel Diseases: a Development of Pattern Identification Algorithm by Retrospective Analysis of Case Series Data</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hyangsook Lee, KMD, PhD</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Kyunghee University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study aimed to identify inflammatory bowel disease (IBD) patterns based on presenting
+      symptoms and to suggest algorithms for determining pattern and herbal prescriptions for
+      corresponding patterns. The investigators collected symptom data of 67 IBD patients who
+      achieved and maintained clinical remissions after they had taken herbal medicine
+      prescriptions. Prescriptions were categorised into 5 patterns, which were named after main
+      features and symptoms of included patients. Associations between presenting symptoms and
+      patterns were visualised using a term frequency inverse document frequency (TF-IDF) method.
+      Determining IBD patterns from symptoms of patients was analysed and charted by decision tree
+      modeling.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Herbal prescriptions are one of the most sought complementary and alternative medicine
+      treatment strategies for inflammatory bowel disease patients. However, variability in pattern
+      identification of Traditional Chinese Medicine (TCM)/Traditional East Asian Medicine (TEAM)
+      has been criticised. Using data of patients who achieved and maintained clinical remission
+      after TCM/TEAM herbal medicine prescription, the investigators aimed to develop treatment
+      algorithms refined by identified pattern and key symptoms which practitioners can easily
+      discriminate.
+
+      Based on herbal prescriptions which induced clinical remission, IBD patients were divided
+      into 5 patterns, i.e., Large intestine type, Water-dampness type, Respiratory type, Upper
+      gastrointestinal (GI) tract type, and Coldness type. By term frequency-inverse document
+      frequency (TF-IDF) method, the association between 22 symptoms that were described as
+      indications of the herbal medicine prescriptions and 5 patterns were analysed. Decision tree
+      modeling was used for prediction of relevant patterns from symptoms.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">November 1, 2007</start_date>
+  <completion_date type="Actual">October 28, 2015</completion_date>
+  <primary_completion_date type="Actual">February 28, 2015</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy of pattern identification algorithm</measure>
+    <time_frame>Oct 2015</time_frame>
+    <description>Pattern identification algorithm was suggested using a decision tree method. Decision tree method was employed to explore the process of decision making on types of pattern based on clinical features of patients.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">67</enrollment>
+  <condition>Inflammatory Bowel Diseases</condition>
+  <arm_group>
+    <arm_group_label>Decision tree algorithm training/testing</arm_group_label>
+    <description>The investigators divided data of 67 patients into 5 groups to do 5 fold cross validation. Four groups were used to train decision tree algorithm and one group was used to test it.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Decision tree modeling</intervention_name>
+    <description>A decision tree analysis was employed to explore the process of decision-making on types of pattern based on the existence or nonexistence of a symptom. At the end of tree presented is the proportion of patients who are categorised into each pattern.
+In this study, the classification was performed by applying the classification and regression tree (CART) algorithm using Scikit-learn package of Python, which performs a division using the Gini coefficient or the decrement of dispersion. The Gini coefficient is one of the tools for measuring entropy or diversity in each node and it measures the decrement by comparing the information entropy before and after separation. To avoid overfitting, the maximum number of leaf nodes was limited to four and the pruning method which complied with the principle of minimum description length was applied.</description>
+    <arm_group_label>Decision tree algorithm training/testing</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients who had been diagnosed with IBD by gastroenterologist and achieved clinical
+        remission after treatment with herbal medicine prescriptions
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Diagnosis of IBD by gastroenterologist
+
+          -  Patients have achieved and maintained clinical remission of IBD symptoms after they
+             took herbal prescriptions
+
+          -  Patients have provided written informed consent
+
+        Exclusion Criteria:
+
+          -  Details regarding any of 25 symptoms were omitted
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>15 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Hyangsook Lee, Doctor</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Kyunghee University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Acupuncture &amp; Meridian Science Research Centre</name>
+      <address>
+        <city>Seoul</city>
+        <zip>02447</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <reference>
+    <citation>Bernstein CN, Fried M, Krabshuis JH, Cohen H, Eliakim R, Fedail S, Gearry R, Goh KL, Hamid S, Khan AG, LeMair AW, Malfertheiner, Ouyang Q, Rey JF, Sood A, Steinwurz F, Thomsen OO, Thomson A, Watermeyer G. World Gastroenterology Organization Practice Guidelines for the diagnosis and management of IBD in 2010. Inflamm Bowel Dis. 2010 Jan;16(1):112-24. doi: 10.1002/ibd.21048.</citation>
+    <PMID>19653289</PMID>
+  </reference>
+  <reference>
+    <citation>Panaccione R, Rutgeerts P, Sandborn WJ, Feagan B, Schreiber S, Ghosh S. Review article: treatment algorithms to maximize remission and minimize corticosteroid dependence in patients with inflammatory bowel disease. Aliment Pharmacol Ther. 2008 Sep 15;28(6):674-88. doi: 10.1111/j.1365-2036.2008.03753.x. Review.</citation>
+    <PMID>18532990</PMID>
+  </reference>
+  <reference>
+    <citation>Abitbol V, Lahmek P, Buisson A, Olympie A, Poupardin C, Chaussade S, Lesgourgues B, Nahon S. Impact of complementary and alternative medicine on the quality of life in inflammatory bowel disease: results from a French national survey. Eur J Gastroenterol Hepatol. 2014 Mar;26(3):288-94. doi: 10.1097/MEG.0000000000000040.</citation>
+    <PMID>24407360</PMID>
+  </reference>
+  <reference>
+    <citation>Lee MS, Lee JA, Alraek T, Bian ZX, Birch S, Goto H, Jung J, Kao ST, Moon SK, Park B, Park KM, You S, Yun KJ, Zaslawski C. Current research and future directions in pattern identification: Results of an international symposium. Chin J Integr Med. 2016 Dec;22(12):947-955. Epub 2014 Jun 18.</citation>
+    <PMID>24938445</PMID>
+  </reference>
+  <reference>
+    <citation>Yu F, Takahashi T, Moriya J, Kawaura K, Yamakawa J, Kusaka K, Itoh T, Morimoto S, Yamaguchi N, Kanda T. Traditional Chinese medicine and Kampo: a review from the distant past for the future. J Int Med Res. 2006 May-Jun;34(3):231-9. Review.</citation>
+    <PMID>16866016</PMID>
+  </reference>
+  <reference>
+    <citation>Liu B, Zhou X, Wang Y, Hu J, He L, Zhang R, Chen S, Guo Y. Data processing and analysis in real-world traditional Chinese medicine clinical data: challenges and approaches. Stat Med. 2012 Mar 30;31(7):653-60. doi: 10.1002/sim.4417. Epub 2011 Dec 9.</citation>
+    <PMID>22161304</PMID>
+  </reference>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>March 3, 2020</study_first_submitted>
+  <study_first_submitted_qc>March 3, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 5, 2020</study_first_posted>
+  <last_update_submitted>March 4, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 4, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 6, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Kyunghee University</investigator_affiliation>
+    <investigator_full_name>Hyangsook Lee, KMD, PhD</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>Herbal prescription</keyword>
+  <keyword>Herbal medicine</keyword>
+  <keyword>Pattern identification</keyword>
+  <keyword>Algorithm</keyword>
+  <keyword>Decision tree</keyword>
+  <keyword>TF-IDF</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Intestinal Diseases</mesh_term>
+    <mesh_term>Inflammatory Bowel Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

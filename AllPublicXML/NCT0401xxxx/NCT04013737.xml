@@ -1,0 +1,204 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04013737</url>
+  </required_header>
+  <id_info>
+    <org_study_id>16HH3526</org_study_id>
+    <nct_id>NCT04013737</nct_id>
+  </id_info>
+  <brief_title>Enhanced, Personalized and Integrated Care for Infection Management at the Point-Of-Care</brief_title>
+  <acronym>EPICIMPOC</acronym>
+  <official_title>Enhanced, Personalized and Integrated Care for Infection Management at the Point-Of-Care</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Imperial College London</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Imperial College London</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Antimicrobials (drugs that kill or stop the growth of microorganisms including bacteria,
+      thereby treating infections) commonly used to treat patients with infections are becoming
+      less effective over time as bacteria develop resistance to them. Antimicrobial usage itself
+      can lead to development and spread of antimicrobial resistance. Antimicrobial resistance is
+      now a major threat to patient safety. To conserve the effectiveness of antimicrobials the
+      investigator need to develop ways to use them more sensibly healthcare professionals who
+      diagnose and treat infections must be able to access antimicrobial guidelines and test
+      results at the patient bedside. This needs to be provided rapidly and with support to make
+      sure that the decisions on prescribing antimicrobials are the best that can be made.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Prototype software to achieve this has been developed through collaboration between
+      healthcare professionals and biomedical engineers. This prototype software (run on a mobile
+      device) retrieves patient results from various laboratory and clinical databases (securely
+      within the Trust firewall) and displays this to the clinician making the prescribing
+      decision. Furthermore a machine learning algorithm is applied to the data, and similar
+      anonymised historical cases (and the antimicrobials prescribed and the clinical outcomes) are
+      also displayed to the clinician to further inform their decision making. The prototype has
+      been designed for use in intensive care, where the risk of infection is high, but through the
+      research project detailed here, the software will be developed and validated across other
+      areas of hospital patient care. Furthermore there is a key need to engage patients with how
+      decisions are made around antimicrobial prescribing. The investigator propose to adapt the
+      prototype to meet these needs. This system should improve patient safety and help preserve
+      the effectiveness of existing antimicrobials
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">February 28, 2017</start_date>
+  <completion_date type="Actual">August 8, 2019</completion_date>
+  <primary_completion_date type="Actual">August 8, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Appropriateness of antimicrobial prescribing</measure>
+    <time_frame>3 years</time_frame>
+    <description>This will be measured by assessing the appropriateness of prescriptions recommended by the system compared to current clinical practice. Appropriateness is determined by evaluating prescribing against current clinical guidelines or infection expert opinion on best practice and is expressed as a proportion of the total number of antibiotic prescriptions made.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Evaluation of effectiveness assessed by user acceptance of the device</measure>
+    <time_frame>3 years</time_frame>
+    <description>This will be measured by assessing user acceptance of the device using qualitative methodology and face-to-face interviews.</description>
+  </primary_outcome>
+  <other_outcome>
+    <measure>Improved understanding of the decision making processes around antimicrobial prescribing in secondary care patient cohorts.</measure>
+    <time_frame>3 years</time_frame>
+    <description>Qualitative evaluation using face-to-face interviews.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Evaluation of the implementation of the product and the impact on antimicrobial prescribing behaviour.</measure>
+    <time_frame>3 years</time_frame>
+    <description>Qualitative assessment using face-to-face interviews.</description>
+  </other_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">30</enrollment>
+  <condition>Antibiotic Resistant Infection</condition>
+  <condition>Infection</condition>
+  <arm_group>
+    <arm_group_label>Patients and Public</arm_group_label>
+    <description>Exploration of patient and public engagement with antibiotic decision making in secondary care. Qualitative evaluation and co-design of interventions. Prospective evaluation of intervention.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Prescribers</arm_group_label>
+    <description>Quantitative and qualitative evaluation of the impact of using a clinical decision support system to support antibiotic decision making.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>EPIC IMPOC</intervention_name>
+    <description>Clinical Decision Support System for antibiotic prescribing.</description>
+    <arm_group_label>Patients and Public</arm_group_label>
+    <arm_group_label>Prescribers</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients may be asked to participate in the qualitative evaluation of the the patient
+        module.
+
+        For prescriber recruitment to use the application the following methods of identifying
+        participants will be undertaken:
+
+        Phase 1: Participants will be identified based on their roles within the infectious disease
+        team (level and areas of the hospital covered) and will be directly approached by the study
+        PI / clinical infection lead to request their support with this phase of the project.
+
+        Phase 2: Participants (physicians) will be identified based on the wards that they work in.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        (i) healthcare professionals for evaluation phases: Have read the PIL and consent to
+        participate in the study
+
+        (ii) patients for whom the clinician chooses to use the POC DSS as a resource when
+        prescribing antimicrobials: Adult patients &gt; 18 years old Being managed for infection
+        outside of the critical care setting in Imperial College Healthcare NHS Trust Deemed
+        appropriate for management with POC DSS by attending physician Prescribed antimicrobial
+        agents outside of the critical care setting in last 5 days
+
+        (iii) Prescriber / healthcare professional for using POC DSS: Trained Healthcare
+        Professional Working within wards under assessment Deemed suitable for recruitment by
+        senior member of their team
+
+        Exclusion Criteria:
+
+        (i) healthcare professionals: Do not wish to participate in the study Working across wards
+        which is acting as a control ward Deemed no suitable for recruitment by a senior member of
+        their team Non-permanent member of the Trust Information governance training not up-to-date
+
+        (ii) patients recruits Critical care patients Paediatric patients &lt; 18 years old Deemed not
+        suitable for management using POC DSS by attending physician On palliative care, end of
+        life pathway Prisoners / young offenders in custody of HM Prison Service Involved in
+        current research or have recently been involved in any research prior to recruitment (last
+        3 months)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Alison Holmes</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Professor</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Imperial College London</name>
+      <address>
+        <city>London</city>
+        <zip>W12 0NN</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>August 2019</verification_date>
+  <study_first_submitted>January 31, 2019</study_first_submitted>
+  <study_first_submitted_qc>July 8, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 10, 2019</study_first_posted>
+  <last_update_submitted>August 13, 2019</last_update_submitted>
+  <last_update_submitted_qc>August 13, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 14, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Antimicrobial Resistance</keyword>
+  <keyword>Antibiotic prescribing</keyword>
+  <keyword>Clinical Decision Support Systems</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Infection</mesh_term>
+    <mesh_term>Communicable Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Data sharing will be considered on individual request in accordance with local information governance and research ethics approvals.</ipd_description>
+  </patient_data>
+  <pending_results>
+    <submitted>July 24, 2020</submitted>
+  </pending_results>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

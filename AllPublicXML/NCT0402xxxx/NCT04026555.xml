@@ -1,0 +1,261 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04026555</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GCO 19-0729</org_study_id>
+    <nct_id>NCT04026555</nct_id>
+  </id_info>
+  <brief_title>Realtime Streaming Clinical Use Engine for Medical Escalation</brief_title>
+  <acronym>ReSCUE-ME</acronym>
+  <official_title>Realtime Streaming Clinical Use Engine for Medical Escalation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Icahn School of Medicine at Mount Sinai</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Icahn School of Medicine at Mount Sinai</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The escalation of care for patients in a hospitalized setting between nurse practitioner
+      managed services, teaching services, step-down units, and intensive care units is critical
+      for appropriate care for any patient. Often such &quot;triggers&quot; for escalation are initiated
+      based on the nursing evaluation of the patient, followed by physician history and physical
+      exam, then augmented based on laboratory values. These &quot;triggers&quot; can enhance the care of
+      patients without increasing the workload of responder teams. One of the goals in hospital
+      medicine is the earlier identification of patients that require an escalation of care. The
+      study team developed a model through a retrospective analysis of the historical data from the
+      Mount Sinai Data Warehouse (MSDW), which can provide machine learning based triggers for
+      escalation of care (Approved by: IRB-18-00581). This model is called &quot;Medical Early Warning
+      Score ++&quot; (MEWS ++). This IRB seeks to prospectively validate the developed model through a
+      pragmatic clinical trial of using these alerts to trigger an evaluation for appropriateness
+      of escalation of care on two general inpatients wards, one medical and one surgical. These
+      alerts will not change the standard of care. They will simply suggest to the care team that
+      the patient should be further evaluated without specifying a subsequent specific course of
+      action. In other words, these alerts in themselves does not designate any change to the care
+      provider's clinical standard of care. The study team estimates that this study would require
+      the evaluation of ~ 18380 bed movements and approximately 30 months to complete, based on the
+      rate of escalation of care and rate of bed movements in the selected units.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Objectives:
+
+      Mount Sinai Hospital has developed a Rapid Response Team (RRT) system designed to give
+      general floor care providers additional support for patients who may be requiring a higher
+      level of care. This system enables both nurses and physicians to notify the RRT and have a
+      critical care team evaluate the patients. During the period of 03/01/2018 to 09/17/2018,
+      Mount Sinai Hospital floor units on 10W and 10E units made 357 rapid response team (RRT)
+      calls with only 58 leading to an actual increase in the level of care (true positive rate ~
+      16%). Similarly, the Electronic Health Record (EHR) generated 839 sepsis Best Practice Alerts
+      (BPAs) yet only five led to escalations in care (true positive rate ~ 0.5%). The results
+      above would imply that over 168 evaluations need to be made to identify a single case where
+      the patient required an escalation in care. The goal of ReSCUE-ME is to evaluate prospective
+      model performance and identify the best spot which the study team can incorporate MEWS++ into
+      RRT and Primary providers workflow. The primary endpoint is rate of escalation of care on 10W
+      and 10E during the study period.
+
+      Background:
+
+      In a prior study, the group has demonstrated that a machine learning model (MEWS++)
+      significantly outperformed a standard, manually calculated MEWS score on a large
+      retrospective cohort of hospitalized patients. To develop this model, the study team used a
+      data set (Approved by: IRB-18-00581) of 96,645 patients with 157,984 hospital encounters and
+      244,343 bed movements. The study team found that MEWS++ was superior to the standard MEWS
+      model with a sensitivity of 81.6% vs. 44.6%, specificity of 75.5% vs. 64.5%, and area under
+      the receiver operating curve of 0.85 vs. 0.71.
+
+      Encouraged by this prior result, the study team is seeking to evaluate the model in a
+      prospective study.
+
+      A silent pilot of the ReSCUE-ME alerts has been running on 10E and 10W since Feb 2019. The
+      study team has continuously monitoring the alert performance via a real-time web-based
+      dashboard. The results are summarized below:
+
+        -  Median # of alerts to primary team, per floor, per day: 8
+
+        -  Median # of alerts to RRT, per floor, per day: 4
+
+        -  Sensitivity 0.76, Specificity 0.68, AUC 0.77
+
+        -  Accuracy 0.69, Precision 0.3, F1 Score 0.43 This performance compares very favorably to
+           the performance seen in the retrospective historical cohort used to develop the MEWS++
+           model:
+
+        -  Sensitivity 0.82, Specificity 0.76, AUC 0.85
+
+        -  Accuracy 0.76, Precision 0.12, F1 Score 0.19&quot;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">June 18, 2019</start_date>
+  <completion_date type="Actual">March 19, 2020</completion_date>
+  <primary_completion_date type="Actual">March 19, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>For each patient, real-time data from clinical and administrative systems will be used by ReSCUE-ME to produce a MEWS++ score predicting the likelihood that the patient will require escalation of care within the next 6 hours. Upon the patient being admitted to the unit, the patient will be evaluated based on any update in the EMR. If the prediction score exceeds a &quot;high&quot; threshold, the RRT team will be notified directly. If the score is between a &quot;low&quot; threshold and the high threshold , the nursing team will be notified and increased nursing monitoring will be initiated. If the patient has met criteria for increased nursing monitoring, a refractory 8-hour refractory window will be applied during which no nursing alerts will be sent. However if the score exceeds the high threshold, the RRT team will be notified. Throughout the trial, the performance of the alerts will be monitored via web-based dashboards. If the performance is poor, the &quot;high&quot; and &quot;low&quot; thresholds will be adjusted.</intervention_model_description>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+    <masking_description>No masking is completed as the information/waiver of consent sheet for the two arms needed to be individualized.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Overall rate of care escalation</measure>
+    <time_frame>30 month</time_frame>
+    <description>The composite (sum) of the rate of escalation of care (from floor to Stepdown, Telemetry, ICU) and rate of RRT initiated therapy (including but not limited to blood pressure support, respiratory care support, anti-biotic augmentation, invasive monitoring).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of participants requiring blood pressure support</measure>
+    <time_frame>30 month</time_frame>
+    <description>Number of participants requiring blood pressure support agents such as initiation of vasopressor medication or administration of fluid bolus.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of participants requiring respiratory support</measure>
+    <time_frame>30 month</time_frame>
+    <description>Number of participants requiring respiratory support intervention such as initiation of nasal cannula to high flow or frequency of intubation</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of cardiac arrest episode</measure>
+    <time_frame>30 month</time_frame>
+    <description>Frequency of cardiac arrest episode</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mortality Rate</measure>
+    <time_frame>30 month</time_frame>
+    <description>Number of Mortalities</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Notification Frequency</measure>
+    <time_frame>30 month</time_frame>
+    <description>The average notifications per day per patient</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of calls</measure>
+    <time_frame>30 month</time_frame>
+    <description>The average number of calls per patient</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity and Specificity of the RRT alert</measure>
+    <time_frame>30 month</time_frame>
+    <description>The performance of the alert will be evaluated by calculating the sensitivity, specificity, positive predictive value, negative predictive value, precision, recall, and F1-score. This will be done both for the overall escalation rate and if possible for individual escalations (ICU, step-down, telemetry) and death.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">2915</enrollment>
+  <condition>Clinical Deterioration</condition>
+  <condition>Hospital Medicine</condition>
+  <condition>Monitoring, Physiologic</condition>
+  <arm_group>
+    <arm_group_label>MEWS++ Monitoring</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>This consists of all the patients that will be receiving MEWS++ escalation monitoring and provider alerting.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard of Care Monitoring</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Patients in the control arm will have a score calculated but no alert will be sent.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>MEWS++ Monitoring</intervention_name>
+    <description>Patient's electronic medical record data will undergo processing by a machine learning algorithm (MEWS++).</description>
+    <arm_group_label>MEWS++ Monitoring</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Predictor Score</intervention_name>
+    <description>A score predicting the likelihood that the patient will experience a deterioration in their clinical condition within six hours will be generated. If the prediction score exceeds a predetermined threshold, an alert will be sent to the provider. The alerting protocol is tiered, with both a low and high threshold. If the score is above the low threshold, nursing will be notified. If the score is above the high threshold, RRT will be notified.</description>
+    <arm_group_label>MEWS++ Monitoring</arm_group_label>
+    <arm_group_label>Standard of Care Monitoring</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All patients age 18 or greater who were admitted to a general care unit selected for
+             each arm.
+
+        Exclusion Criteria:
+
+          -  Any admitted patient who has a &quot;Do Not Resuscitate (DNR)&quot; and/or a &quot;Do Not Intubate
+             (DNI)&quot; order in the EHR,
+
+          -  any patient made &quot;level of care&quot; by RRT as documented in REDCap.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Matthew A Levin, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Icahn School of Medicine at Mount Sinai</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Mount Sinai Hospital</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10029</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://clinicaldatascience.mountsinai.org/rescue-me/</url>
+    <description>The public website for information regarding the ReSCUE-ME trial.</description>
+  </link>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>July 16, 2019</study_first_submitted>
+  <study_first_submitted_qc>July 18, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 19, 2019</study_first_posted>
+  <last_update_submitted>June 24, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 24, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 25, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Icahn School of Medicine at Mount Sinai</investigator_affiliation>
+    <investigator_full_name>Matthew Levin</investigator_full_name>
+    <investigator_title>Associate Professor, Department of Anesthesiology, Perioperative &amp; Pain Medicine</investigator_title>
+  </responsible_party>
+  <keyword>Medical Early Warning Systems</keyword>
+  <keyword>Patient Monitoring</keyword>
+  <keyword>Electronic Health Record</keyword>
+  <keyword>Big Data</keyword>
+  <keyword>Critical Care</keyword>
+  <keyword>Machine Learning</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Clinical Deterioration</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Individual participant data that underlie the results reported in this article, after deidentification (text, tables, figures, and appendices).</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_info_type>Clinical Study Report (CSR)</ipd_info_type>
+    <ipd_info_type>Analytic Code</ipd_info_type>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

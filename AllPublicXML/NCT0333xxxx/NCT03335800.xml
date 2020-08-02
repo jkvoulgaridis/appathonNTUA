@@ -1,0 +1,838 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03335800</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1.0</org_study_id>
+    <nct_id>NCT03335800</nct_id>
+  </id_info>
+  <brief_title>Apple Heart Study: Assessment of Wristwatch-Based Photoplethysmography to Identify Cardiac Arrhythmias</brief_title>
+  <official_title>Apple Heart Study: Assessment of Wristwatch-Based Photoplethysmography to Identify Cardiac Arrhythmias</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Apple Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Stanford University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Apple Inc.</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+    <is_us_export>Yes</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The Apple Heart Study (AHS) is a research study conducted to evaluate whether the Apple Heart
+      Study App can use data collected on the Apple Watch to identify irregular heart rhythms,
+      including those from potentially serious heart conditions such as atrial fibrillation. Up to
+      500,000 can participate in the study.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">November 29, 2017</start_date>
+  <completion_date type="Actual">February 21, 2019</completion_date>
+  <primary_completion_date type="Actual">February 21, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Screening</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Atrial Fibrillation (AF) of Greater Than 30 Seconds</measure>
+    <time_frame>During ambulatory ECG monitoring (up to 8 days)</time_frame>
+    <description>Proportion of notified participants who received an irregular pulse notification and that had AF detected on the ambulatory ECG.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Confirmed AF With a Detection by a Component of the App</measure>
+    <time_frame>During ambulatory ECG monitoring (up to 8 days)</time_frame>
+    <description>Simultaneous ambulatory ECG monitoring indicating an irregular rhythm consistent with AF during time intervals when an app component (tachogram) is positive for an irregular pulse among those who received an irregular heartbeat notification.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Concordant AF With App Algorithm Notification</measure>
+    <time_frame>During ambulatory ECG monitoring (up to 8 days)</time_frame>
+    <description>Simultaneous ambulatory ECG monitoring indicating an irregular rhythm consistent with AF when the app based algorithm is positive for an irregular pulse among those who received a notification.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Self-reported Contact With a Health Care Provider</measure>
+    <time_frame>90 days to 15 months</time_frame>
+    <description>Percentage of participant who self-reported contact with a health care provider within 90 days following an irregular pulse watch notification. Participants could self-report this health-care provider contact from 90 days following notification until the study survey went offline at end of study.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">419927</enrollment>
+  <condition>Atrial Fibrillation</condition>
+  <condition>Arrhythmias, Cardiac</condition>
+  <condition>Atrial Flutter</condition>
+  <arm_group>
+    <arm_group_label>Apple Heart Study App</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Apple Heart Study App</intervention_name>
+    <description>The Apple Heart Study app is a mobile medical app that analyzes pulse rate data. The app identifies episodes of irregular heart rhythms consistent with atrial fibrillation and other arrhythmias.</description>
+    <arm_group_label>Apple Heart Study App</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Possession of the following at time of eligibility screening, ascertained from automatic
+        hardware/software/device pairing check:
+
+          -  iPhone (5s or later) with iOS version 11.0 or later defined as iPhone model/iOS
+             version used to complete screening eligibility.
+
+          -  Apple Watch (Series 1 or later) with watchOS version 4.0 or later defined as Apple
+             Watch model/watchOS paired with iPhone used to complete screening eligibility.
+
+          -  Current resident of the United States at time of eligibility screening, defined by
+             self-reported state of residence within the 50 states of the United States or District
+             of Columbia.
+
+          -  Proficient in written and spoken English, defined by self-report of comfort reading,
+             writing, and speaking English on iPhone.
+
+          -  Valid phone number associated with iPhone, ascertained from self-report.
+
+          -  Valid email address, ascertained from self-report.
+
+        Exclusion Criteria:
+
+          -  Self-reported diagnosis of Atrial Fibrillation.
+
+          -  Self-reported diagnosis of Atrial Flutter.
+
+          -  Currently on anti-coagulation therapy.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>22 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Minang (Mintu) Turakhia, MD, MAS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Marco V. Perez, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Stanford University</name>
+      <address>
+        <city>Stanford</city>
+        <state>California</state>
+        <zip>94304</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://med.stanford.edu/appleheartstudy.html</url>
+    <description>Website for study information</description>
+  </link>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>November 2, 2017</study_first_submitted>
+  <study_first_submitted_qc>November 6, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 8, 2017</study_first_posted>
+  <results_first_submitted>February 22, 2020</results_first_submitted>
+  <results_first_submitted_qc>February 22, 2020</results_first_submitted_qc>
+  <results_first_posted type="Actual">March 17, 2020</results_first_posted>
+  <last_update_submitted>March 18, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 18, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 30, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Stanford University</investigator_affiliation>
+    <investigator_full_name>Minang (Mintu) Turakhia</investigator_full_name>
+    <investigator_title>Associate Professor of Medicine, Stanford University</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atrial Fibrillation</mesh_term>
+    <mesh_term>Arrhythmias, Cardiac</mesh_term>
+    <mesh_term>Atrial Flutter</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>March 20, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/00/NCT03335800/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>Participants downloaded the app; those with irregular pulse notification had a first teleconference visit with telehealth provider; an ECG patch was shipped to eligible participants to wear for 7 days, then they returned the patch for analysis and had a second teleconference visit to review the findings with the telehealth provider.</recruitment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Apple Heart Study (AHS) App Users</title>
+          <description>Participants used the AHS App to detect episodes of irregular heart rhythms consistent with atrial fibrillation and other arrhythmias.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="419927"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>Received Irregular Pulse Notification</title>
+              <participants_list>
+                <participants group_id="P1" count="2161"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>Attended First Study Visit</title>
+              <participants_list>
+                <participants group_id="P1" count="945"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>ECG Patch Shipped</title>
+              <participants_list>
+                <participants group_id="P1" count="658"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>ECG Patch Returned for Analysis</title>
+              <participants_list>
+                <participants group_id="P1" count="450"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>Attended Second Study Visit</title>
+              <participants_list>
+                <participants group_id="P1" count="396"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="396"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="419531"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Apple Heart Study (AHS) App Users</title>
+          <description>Participants used the AHS App to detect episodes of irregular heart rhythms consistent with atrial fibrillation and other arrhythmias.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="419927"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="41" spread="13"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex/Gender, Customized</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="177087"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="238700"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Other</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="396"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Not Reported</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3114"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race/Ethnicity, Customized</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>White</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="286190"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Hispanic</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="48775"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Black</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="32275"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Asian</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="26156"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>American Indian</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4696"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Pacific Islander</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1493"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Middle Eastern</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3652"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Other or mixed race</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7958"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Not Reported</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8102"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="419927"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Atrial Fibrillation (AF) of Greater Than 30 Seconds</title>
+        <description>Proportion of notified participants who received an irregular pulse notification and that had AF detected on the ambulatory ECG.</description>
+        <time_frame>During ambulatory ECG monitoring (up to 8 days)</time_frame>
+        <population>Participant who returned ECG Patch</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Apple Heart Study (AHS) App Users</title>
+            <description>Participants used the AHS App to detect episodes of irregular heart rhythms consistent with atrial fibrillation and other arrhythmias.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Atrial Fibrillation (AF) of Greater Than 30 Seconds</title>
+          <description>Proportion of notified participants who received an irregular pulse notification and that had AF detected on the ambulatory ECG.</description>
+          <population>Participant who returned ECG Patch</population>
+          <units>Proportion of participants</units>
+          <param>Number</param>
+          <dispersion>97.5% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="450"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.34" lower_limit="0.29" upper_limit="0.39"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Confirmed AF With a Detection by a Component of the App</title>
+        <description>Simultaneous ambulatory ECG monitoring indicating an irregular rhythm consistent with AF during time intervals when an app component (tachogram) is positive for an irregular pulse among those who received an irregular heartbeat notification.</description>
+        <time_frame>During ambulatory ECG monitoring (up to 8 days)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Apple Heart Study (AHS) App Users</title>
+            <description>Participants used the AHS App to detect episodes of irregular heart rhythms consistent with atrial fibrillation and other arrhythmias.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Confirmed AF With a Detection by a Component of the App</title>
+          <description>Simultaneous ambulatory ECG monitoring indicating an irregular rhythm consistent with AF during time intervals when an app component (tachogram) is positive for an irregular pulse among those who received an irregular heartbeat notification.</description>
+          <units>Proportion of Tachograms with AF</units>
+          <param>Number</param>
+          <dispersion>97.5% Confidence Interval</dispersion>
+          <units_analyzed>Tachograms</units_analyzed>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="450"/>
+              </count_list>
+            </analyzed>
+            <analyzed>
+              <units>Tachograms</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="2089"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.71" lower_limit="0.69" upper_limit="0.74"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Concordant AF With App Algorithm Notification</title>
+        <description>Simultaneous ambulatory ECG monitoring indicating an irregular rhythm consistent with AF when the app based algorithm is positive for an irregular pulse among those who received a notification.</description>
+        <time_frame>During ambulatory ECG monitoring (up to 8 days)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Apple Heart Study (AHS) App Users</title>
+            <description>Participants used the AHS App to detect episodes of irregular heart rhythms consistent with atrial fibrillation and other arrhythmias.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Concordant AF With App Algorithm Notification</title>
+          <description>Simultaneous ambulatory ECG monitoring indicating an irregular rhythm consistent with AF when the app based algorithm is positive for an irregular pulse among those who received a notification.</description>
+          <units>Proportion of Participants</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="86"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.84" lower_limit="0.76" upper_limit="0.92"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Self-reported Contact With a Health Care Provider</title>
+        <description>Percentage of participant who self-reported contact with a health care provider within 90 days following an irregular pulse watch notification. Participants could self-report this health-care provider contact from 90 days following notification until the study survey went offline at end of study.</description>
+        <time_frame>90 days to 15 months</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Apple Heart Study (AHS) App Users</title>
+            <description>Participants used the AHS App to detect episodes of irregular heart rhythms consistent with atrial fibrillation and other arrhythmias.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Self-reported Contact With a Health Care Provider</title>
+          <description>Percentage of participant who self-reported contact with a health care provider within 90 days following an irregular pulse watch notification. Participants could self-report this health-care provider contact from 90 days following notification until the study survey went offline at end of study.</description>
+          <units>Percentage of participants</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1376"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="57" lower_limit="54" upper_limit="60"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>1 year, 2 months and 14 days (participants may have reported adverse events at any time from enrollment to close of study)</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Apple Heart Study (AHS) App Users</title>
+          <description>Participants used the AHS App to detect episodes of irregular heart rhythms consistent with atrial fibrillation and other arrhythmias.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <default_assessment>Non-systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="2" subjects_at_risk="419927"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="62" subjects_at_risk="419927"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Cardiac disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Atrial Fibrilation</sub_title>
+                <counts group_id="E1" subjects_affected="40" subjects_at_risk="419927"/>
+              </event>
+              <event>
+                <sub_title>Atrial Flutter</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+              <event>
+                <sub_title>Chest Pain</sub_title>
+                <counts group_id="E1" subjects_affected="3" subjects_at_risk="419927"/>
+              </event>
+              <event>
+                <sub_title>Coronary Artery Disease</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+              <event>
+                <sub_title>Death</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+              <event>
+                <sub_title>Increased frequency of Premature Ventricular Contractions (PVC)</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+              <event>
+                <sub_title>Left bundle branch block</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+              <event>
+                <sub_title>Mitral regurgitation</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+              <event>
+                <sub_title>Mitral Valve Disease</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+              <event>
+                <sub_title>Myocardial Infarction</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+              <event>
+                <sub_title>Palpitations</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+              <event>
+                <sub_title>Shortness of Breath</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+              <event>
+                <sub_title>Syncope</sub_title>
+                <counts group_id="E1" subjects_affected="3" subjects_at_risk="419927"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Congenital, familial and genetic disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Atrial Septal Defect diagnosed</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Gastrointestinal disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Diarrhea</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+              <event>
+                <sub_title>Pancreatitis</sub_title>
+                <counts group_id="E1" subjects_affected="2" subjects_at_risk="419927"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>General disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Chest Pain</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+              <event>
+                <sub_title>Drug Reaction</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+              <event>
+                <sub_title>Fall</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Immune system disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Allergic reaction</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Infections and infestations</title>
+            <event_list>
+              <event>
+                <sub_title>Pneumonia</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+              <event>
+                <sub_title>Shortness of breath</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Injury, poisoning and procedural complications</title>
+            <event_list>
+              <event>
+                <sub_title>Trauma</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Neoplasms benign, malignant and unspecified (incl cysts and polyps)</title>
+            <event_list>
+              <event>
+                <sub_title>Shortness of Breath</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Surgical and medical procedures</title>
+            <event_list>
+              <event>
+                <sub_title>Procedural Complication</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Vascular disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Stroke</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+              <event>
+                <sub_title>Subdural hematoma</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="419927"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>5</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="419927"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Minang (Mintu) Turakhia, Associate Professor of Medicine, Stanford University</name_or_title>
+      <organization>Associate Professor of Medicine, Stanford University</organization>
+      <phone>(650) 493-5000</phone>
+      <email>mintu@stanford.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

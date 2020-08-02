@@ -1,0 +1,1465 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03423641</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RI-RCR-1000</org_study_id>
+    <nct_id>NCT03423641</nct_id>
+  </id_info>
+  <brief_title>An Observational Study of the Safety of Direct-acting Antivirals in Patients With Hepatitis C</brief_title>
+  <official_title>Safety of Direct-Acting Antiviral Medications for Hepatitis C</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Kaiser Permanente</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>OneFlorida Clinical Research Consortium</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Patient-Centered Outcomes Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Kaiser Permanente</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators will assess whether patients with the Hepatitis C virus (HCV) who are
+      prescribed direct-acting antiviral (DAA) medications experience higher rates of adverse
+      events than patients with HCV who are untreated. The investigators hypothesize that patients
+      receiving DAAs do not experience higher rates of adverse events compared to patients who have
+      not received DAAs. The study population is adults between the ages of 18 and 88 with any
+      indication of a diagnosis of HCV. An intervention group (those receiving a DAA) and
+      comparison group (those who are not treated) will be created using medication dispensing
+      data. Eligibility for the study will be determined from January 1, 2011 through December 31,
+      2017. Covariates will be collected from January 1, 2011 through December 31, 2017. Individual
+      study sites may have access to historical data prior to 2011 that can be used as covariates
+      or to identify individuals with HCV. The primary outcomes of interest include acute
+      myocardial infarction, neurological outcomes (e.g. acute stroke, intracranial bleed), acute
+      kidney failure, acute on chronic liver failure, hepatic decompensation, multiple organ
+      dysfunction syndrome, cancer, bradyarrhythmia, and death. The secondary outcomes include
+      decompensated cirrhosis, hospitalization, emergency department visit, and arrhythmia.
+      Outcomes will be assessed from January 1, 2011 through December 31, 2017. The investigators
+      will use two different analytic approaches to answer the question of interest: a Poisson
+      regression model and marginal structural modeling (MSM). The simpler Poisson model is an
+      extension of tabular rate of event analysis. The more complicated MSM model incorporates
+      modeling of the treatment decision to more flexibly control for confounding by indication.
+      For each outcome, the investigators will only record the first date an outcome occurs. Each
+      outcome will be modeled separately.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 1, 2011</start_date>
+  <completion_date type="Actual">December 31, 2017</completion_date>
+  <primary_completion_date type="Actual">December 31, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Incidence of Acute Myocardial Infarction (AMI)</measure>
+    <time_frame>Patient diagnoses collected from encounters will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>Inpatient encounter with an ICD-9 diagnosis code of 410.xx or ICD-10 diagnosis code of I21.xx.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Incidence of Acute on Chronic Liver Failure</measure>
+    <time_frame>Labs and diagnoses collected from clinical encounters will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>An acute change in MELD (model for end stage liver disease) score of 5 or more and the change is deemed to have persisted (defined as meeting one of the following criteria: MELD continues to be elevated 3 months later, liver transplant, death). The minimum value for the MELD is 6.43, but there is no maximum value. Higher scores mean a worse outcome.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Incidence of Acute Kidney Failure (AKF)</measure>
+    <time_frame>Patient diagnoses collected from encounters will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>Encounters with an ICD-9 diagnosis code of 584.xx or ICD-10 diagnosis code of N17.xx.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Incidence of Multiple Organ Dysfunction Syndrome (MODS)</measure>
+    <time_frame>Patient diagnoses collected from encounters will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>Inpatient encounters with ICD-9 diagnosis code of 995.92, 995.94, 785.52 or ICD-10 code of R65.11 or R65.2x.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Death</measure>
+    <time_frame>Death dates will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>Date of death in one or more records. Death data comes from medical records, Social Security, or state databases.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Incidence of Ischemic Stroke</measure>
+    <time_frame>Patient diagnoses collected from encounters will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>Inpatient encounters with ICD-9 diagnosis code of 433.xx, 434.xx or ICD-10 code of I63.xx, I65.xx.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Incidence of Hemorrhagic Stroke</measure>
+    <time_frame>Patient diagnoses collected from encounters will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>Inpatient encounters with ICD-9 diagnosis code of 430.xx-432.xx or ICD-10 code of I60.xx-I62.xx</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Incidence of Decompensated Cirrhosis</measure>
+    <time_frame>Patient diagnoses collected from encounters will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>A patient will be characterized as having decompensated cirrhosis from an encounter indicating jaundice (ICD-9 diagnosis code of 782.4 or ICD-10 code of R17), ascites (ICD-9 diagnosis code of 789.5, 789.51, 789.59 or ICD-10 diagnosis code of R18.0, R18.8, K71.51, K70.11, or K70.31), or varices (ICD-9 diagnosis code of 456.0, 456.20 or ICD-10 diagnosis code of I85.01 or I85.11, or a medication dispense of lactulose or rifaximin along with a diagnosis of cirrhosis.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Rate of Hospitalizations</measure>
+    <time_frame>Hospitalizations will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>An encounter in which the place of service is an inpatient hospitalization.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Rate of Emergency Department Visits</measure>
+    <time_frame>ED visits will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>An encounter in which the place of service is an emergency department or urgent care center.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Incidence of Arrhythmia</measure>
+    <time_frame>Patient diagnoses collected from encounters will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>Inpatient encounters with an ICD-9 diagnosis code of 427.1, 427.42, 427.5, 427.9 or an ICD-10 diagnosis code of I47.2, I49.01, I49.02, I46.9, I49.9.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Incidence of Liver Cancer</measure>
+    <time_frame>Patient diagnoses collected from encounters will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>Encounters with ICD-9 diagnosis code of 155.xx or ICD-10 code of C22.xx.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Incidence of Cancers Other Than Liver Cancer</measure>
+    <time_frame>Patient diagnoses collected from encounters will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>Encounters with ICD-9 codes 140.xx through 208.xx, except 155.xx or ICD-10 coes C00-C97 except C22.xx.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Incidence of HBV Reactivation</measure>
+    <time_frame>Labs will be for up to 180 days following the initiation of a DAA.</time_frame>
+    <description>We identified HBV reactivations in three different ways [Di Bisceglie et al., 2015; Yanny et al., 2018]: (1) patients who had a history of Hepatitis B core antibody (HBcAb) positive and were Hepatitis B surface antigen (HBsAg) negative at the time of initiating DAA therapy who became HBsAg positive within 180 days after receiving a DAA; (2) patients with undetectable levels of HBV DNA at the time of initiating DAA therapy who had a numerical result within 180 days after receiving a DAA; (3) patients with a numerical HBV DNA result at the time of initiating DAA therapy whose viral load increased by a factor of 10 within 180 days after receiving a DAA. For all methods of detecting a reactivation, we required that the reactivations be clinically significant: bilirubin at least 3, aspartate aminotransferase (AST) at least 400, or alanine aminotransferase (ALT) at least 500.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">33808</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>Direct Acting Antivirals</arm_group_label>
+    <description>Patients who receive a direct acting antiviral enter the DAA cohort at the time of initiation of the drug.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Comparison</arm_group_label>
+    <description>The exposure time of patients who have not received a direct acting antiviral (patients can change from the comparison to the DAA group once they receive the medication)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Direct Acting Antivirals</intervention_name>
+    <description>The time period during which a patient is dispensed the medication and for up to 180 days after initiation of the medication.</description>
+    <arm_group_label>Direct Acting Antivirals</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The groups/cohorts will consist of all HCV patients from Kaiser Permanente Southern
+        California region, Kaiser Permanente Northern California region, and the OneFlorida
+        Clinical Research Consortium.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  HCV viral load
+
+          -  HCV genotype
+
+          -  HCV qualitative
+
+          -  HCV antibody
+
+          -  HCV drug
+
+          -  Continuously enrolled 12 months
+
+        Exclusion Criteria:
+
+          -  Each outcome will be analyzed separately as time to first event, thus people who
+             experience an outcome prior to their study start date are ineligible for analyses
+             related to that particular outcome.
+
+        The results will be examined for sensitivity to the following possible exclusion criteria:
+
+          -  Achieved SVR-12 prior to index date
+
+          -  HCV treatment experienced prior to index date
+
+          -  No visit in GI, Infectious Disease, or Liver Transplant / Hepatology
+
+          -  No positive HCV test (genotype, viral load, or qualitative)
+
+          -  No recent positive HCV test (genotype, viral load or qualitative)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>88 Years</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Elizabeth A McGlynn, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Kaiser Permanente</affiliation>
+  </overall_official>
+  <verification_date>August 2019</verification_date>
+  <study_first_submitted>January 31, 2018</study_first_submitted>
+  <study_first_submitted_qc>January 31, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 6, 2018</study_first_posted>
+  <results_first_submitted>December 1, 2018</results_first_submitted>
+  <results_first_submitted_qc>August 5, 2019</results_first_submitted_qc>
+  <results_first_posted type="Actual">August 7, 2019</results_first_posted>
+  <last_update_submitted>August 5, 2019</last_update_submitted>
+  <last_update_submitted_qc>August 5, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 7, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Kaiser Permanente</investigator_affiliation>
+    <investigator_full_name>Elizabeth A. McGlynn</investigator_full_name>
+    <investigator_title>Vice President, Kaiser Permanente Research; Executive Director, Center for Effectiveness and Safety Research</investigator_title>
+  </responsible_party>
+  <keyword>Drug-Related Side Effects and Adverse Reactions</keyword>
+  <keyword>Antiviral Agents / Adverse Effects</keyword>
+  <keyword>Antiviral Agents / Toxicity</keyword>
+  <keyword>Simeprevir</keyword>
+  <keyword>Sofosbuvir</keyword>
+  <keyword>Ledipasvir</keyword>
+  <keyword>Ombitasvir</keyword>
+  <keyword>Paritaprevir</keyword>
+  <keyword>Ritonavir</keyword>
+  <keyword>Dasabuvir</keyword>
+  <keyword>Daclatasvir</keyword>
+  <keyword>Elbasvir</keyword>
+  <keyword>Grazoprevir</keyword>
+  <keyword>Velpatasvir</keyword>
+  <keyword>Ribavirin</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Antiviral Agents</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Current plan is to make a de-identified data set available to investigators under specified conditions.</ipd_description>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Statistical Analysis Plan</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>January 31, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/41/NCT03423641/SAP_000.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Study Protocol</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>June 18, 2019</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/41/NCT03423641/Prot_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <pre_assignment_details>This is a retrospective observational study, thus patients are not assigned and no one is excluded from the study after they become eligible.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Direct Acting Antivirals</title>
+          <description>Patients who receive a direct acting antiviral enter the DAA cohort at the time of initiation of the drug.
+Direct Acting Antivirals: The time period during which a patient is dispensed the medication and for up to 180 days after initiation of the medication.</description>
+        </group>
+        <group group_id="P2">
+          <title>Comparison</title>
+          <description>The exposure time of patients who have not received a direct acting antiviral (patients can change from the comparison to the DAA group once they receive the medication)</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="15524"/>
+                <participants group_id="P2" count="18284"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="15193"/>
+                <participants group_id="P2" count="10210"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="331"/>
+                <participants group_id="P2" count="8074"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>There is no difference between the number of baseline participants and the numbers in participant flow.</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Direct Acting Antivirals</title>
+          <description>Patients who receive a direct acting antiviral enter the DAA cohort at the time of initiation of the drug.
+Direct Acting Antivirals: The time period during which a patient is dispensed the medication and for up to 180 days after initiation of the medication.</description>
+        </group>
+        <group group_id="B2">
+          <title>Comparison</title>
+          <description>The exposure time of patients who have not received a direct acting antiviral (patients can change from the comparison to the DAA group once they receive the medication)</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="15524"/>
+            <count group_id="B2" value="18284"/>
+            <count group_id="B3" value="33808"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <population>There is no difference between the baseline population and the analysis population.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="12349"/>
+                    <measurement group_id="B2" value="14638"/>
+                    <measurement group_id="B3" value="26987"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3175"/>
+                    <measurement group_id="B2" value="3646"/>
+                    <measurement group_id="B3" value="6821"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6092"/>
+                    <measurement group_id="B2" value="6962"/>
+                    <measurement group_id="B3" value="13054"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="9432"/>
+                    <measurement group_id="B2" value="11322"/>
+                    <measurement group_id="B3" value="20754"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="112"/>
+                    <measurement group_id="B2" value="116"/>
+                    <measurement group_id="B3" value="228"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="891"/>
+                    <measurement group_id="B2" value="772"/>
+                    <measurement group_id="B3" value="1663"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="49"/>
+                    <measurement group_id="B2" value="51"/>
+                    <measurement group_id="B3" value="100"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2699"/>
+                    <measurement group_id="B2" value="3838"/>
+                    <measurement group_id="B3" value="6537"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8670"/>
+                    <measurement group_id="B2" value="9892"/>
+                    <measurement group_id="B3" value="18562"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="700"/>
+                    <measurement group_id="B2" value="720"/>
+                    <measurement group_id="B3" value="1420"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2403"/>
+                    <measurement group_id="B2" value="2895"/>
+                    <measurement group_id="B3" value="5298"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="15524"/>
+                    <measurement group_id="B2" value="18284"/>
+                    <measurement group_id="B3" value="33808"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Incidence of Acute Myocardial Infarction (AMI)</title>
+        <description>Inpatient encounter with an ICD-9 diagnosis code of 410.xx or ICD-10 diagnosis code of I21.xx.</description>
+        <time_frame>Patient diagnoses collected from encounters will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+        <population>The analysis population consists of the subset of patients without a prior diagnosis of MI.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Direct Acting Antivirals</title>
+            <description>Patients who receive a direct acting antiviral enter the DAA cohort at the time of initiation of the drug.
+Direct Acting Antivirals: The time period during which a patient is dispensed the medication and for up to 180 days after initiation of the medication.</description>
+          </group>
+          <group group_id="O2">
+            <title>Comparison</title>
+            <description>The exposure time of patients who have not received a direct acting antiviral (patients can change from the comparison to the DAA group once they receive the medication)</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Incidence of Acute Myocardial Infarction (AMI)</title>
+          <description>Inpatient encounter with an ICD-9 diagnosis code of 410.xx or ICD-10 diagnosis code of I21.xx.</description>
+          <population>The analysis population consists of the subset of patients without a prior diagnosis of MI.</population>
+          <units>Events per 1000 person years</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="14959"/>
+                <count group_id="O2" value="17421"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3.3" lower_limit="2.0" upper_limit="4.7"/>
+                    <measurement group_id="O2" value="5.2" lower_limit="4.6" upper_limit="5.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>.68</p_value>
+            <method>Marginal Structural Model</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>.81</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.30</ci_lower_limit>
+            <ci_upper_limit>2.20</ci_upper_limit>
+            <estimate_desc>The numerator represents the DAA group while the denominator represents the comparison group for the odds ratio.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Incidence of Acute on Chronic Liver Failure</title>
+        <description>An acute change in MELD (model for end stage liver disease) score of 5 or more and the change is deemed to have persisted (defined as meeting one of the following criteria: MELD continues to be elevated 3 months later, liver transplant, death). The minimum value for the MELD is 6.43, but there is no maximum value. Higher scores mean a worse outcome.</description>
+        <time_frame>Labs and diagnoses collected from clinical encounters will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+        <population>The analysis population consists of the subset of patients with MELD scores less than 15 at baseline.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Direct Acting Antivirals</title>
+            <description>Patients who receive a direct acting antiviral enter the DAA cohort at the time of initiation of the drug.
+Direct Acting Antivirals: The time period during which a patient is dispensed the medication and for up to 180 days after initiation of the medication.</description>
+          </group>
+          <group group_id="O2">
+            <title>Comparison</title>
+            <description>The exposure time of patients who have not received a direct acting antiviral (patients can change from the comparison to the DAA group once they receive the medication)</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Incidence of Acute on Chronic Liver Failure</title>
+          <description>An acute change in MELD (model for end stage liver disease) score of 5 or more and the change is deemed to have persisted (defined as meeting one of the following criteria: MELD continues to be elevated 3 months later, liver transplant, death). The minimum value for the MELD is 6.43, but there is no maximum value. Higher scores mean a worse outcome.</description>
+          <population>The analysis population consists of the subset of patients with MELD scores less than 15 at baseline.</population>
+          <units>Events per 1000 person years</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="13321"/>
+                <count group_id="O2" value="13716"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="16.5" lower_limit="13.3" upper_limit="19.7"/>
+                    <measurement group_id="O2" value="24.1" lower_limit="22.8" upper_limit="25.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.01</p_value>
+            <method>Marginal Structural Model</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>0.71</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.56</ci_lower_limit>
+            <ci_upper_limit>0.91</ci_upper_limit>
+            <estimate_desc>The numerator represents the DAA group while the denominator represents the comparison group for the odds ratio.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Incidence of Acute Kidney Failure (AKF)</title>
+        <description>Encounters with an ICD-9 diagnosis code of 584.xx or ICD-10 diagnosis code of N17.xx.</description>
+        <time_frame>Patient diagnoses collected from encounters will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+        <population>The analysis population consists of the subset of patients without a prior diagnosis of AKF.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Direct Acting Antivirals</title>
+            <description>Patients who receive a direct acting antiviral enter the DAA cohort at the time of initiation of the drug.
+Direct Acting Antivirals: The time period during which a patient is dispensed the medication and for up to 180 days after initiation of the medication.</description>
+          </group>
+          <group group_id="O2">
+            <title>Comparison</title>
+            <description>The exposure time of patients who have not received a direct acting antiviral (patients can change from the comparison to the DAA group once they receive the medication)</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Incidence of Acute Kidney Failure (AKF)</title>
+          <description>Encounters with an ICD-9 diagnosis code of 584.xx or ICD-10 diagnosis code of N17.xx.</description>
+          <population>The analysis population consists of the subset of patients without a prior diagnosis of AKF.</population>
+          <units>Events per 1000 person years</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="14321"/>
+                <count group_id="O2" value="16926"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="24.2" lower_limit="20.5" upper_limit="28.0"/>
+                    <measurement group_id="O2" value="33.7" lower_limit="32.2" upper_limit="35.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.39</p_value>
+            <method>Marginal Structural Model</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>0.92</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.75</ci_lower_limit>
+            <ci_upper_limit>1.12</ci_upper_limit>
+            <estimate_desc>The numerator represents the DAA group while the denominator represents the comparison group for the odds ratio.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Incidence of Multiple Organ Dysfunction Syndrome (MODS)</title>
+        <description>Inpatient encounters with ICD-9 diagnosis code of 995.92, 995.94, 785.52 or ICD-10 code of R65.11 or R65.2x.</description>
+        <time_frame>Patient diagnoses collected from encounters will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+        <population>The analysis population consists of the subset of patients without a prior diagnosis of MODS.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Direct Acting Antivirals</title>
+            <description>Patients who receive a direct acting antiviral enter the DAA cohort at the time of initiation of the drug.
+Direct Acting Antivirals: The time period during which a patient is dispensed the medication and for up to 180 days after initiation of the medication.</description>
+          </group>
+          <group group_id="O2">
+            <title>Comparison</title>
+            <description>The exposure time of patients who have not received a direct acting antiviral (patients can change from the comparison to the DAA group once they receive the medication)</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Incidence of Multiple Organ Dysfunction Syndrome (MODS)</title>
+          <description>Inpatient encounters with ICD-9 diagnosis code of 995.92, 995.94, 785.52 or ICD-10 code of R65.11 or R65.2x.</description>
+          <population>The analysis population consists of the subset of patients without a prior diagnosis of MODS.</population>
+          <units>Events per 1000 person years</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="15107"/>
+                <count group_id="O2" value="17763"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="9.7" lower_limit="7.4" upper_limit="12.0"/>
+                    <measurement group_id="O2" value="17.2" lower_limit="16.2" upper_limit="18.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.01</p_value>
+            <method>Marginal Structural Model</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>0.67</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.49</ci_lower_limit>
+            <ci_upper_limit>0.90</ci_upper_limit>
+            <estimate_desc>The numerator represents the DAA group while the denominator represents the comparison group for the odds ratio.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Death</title>
+        <description>Date of death in one or more records. Death data comes from medical records, Social Security, or state databases.</description>
+        <time_frame>Death dates will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+        <population>The analysis population is equivalent to the baseline population.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Direct Acting Antivirals</title>
+            <description>Patients who receive a direct acting antiviral enter the DAA cohort at the time of initiation of the drug.
+Direct Acting Antivirals: The time period during which a patient is dispensed the medication and for up to 180 days after initiation of the medication.</description>
+          </group>
+          <group group_id="O2">
+            <title>Comparison</title>
+            <description>The exposure time of patients who have not received a direct acting antiviral (patients can change from the comparison to the DAA group once they receive the medication)</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Death</title>
+          <description>Date of death in one or more records. Death data comes from medical records, Social Security, or state databases.</description>
+          <population>The analysis population is equivalent to the baseline population.</population>
+          <units>Events per 1000 person years</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="15524"/>
+                <count group_id="O2" value="18284"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="10.7" lower_limit="8.3" upper_limit="13.1"/>
+                    <measurement group_id="O2" value="33.7" lower_limit="32.3" upper_limit="35.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>&lt;0.01</p_value>
+            <method>Marginal Structural Model</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>0.42</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.30</ci_lower_limit>
+            <ci_upper_limit>0.59</ci_upper_limit>
+            <estimate_desc>The numerator represents the DAA group while the denominator represents the comparison group for the odds ratio.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Incidence of Ischemic Stroke</title>
+        <description>Inpatient encounters with ICD-9 diagnosis code of 433.xx, 434.xx or ICD-10 code of I63.xx, I65.xx.</description>
+        <time_frame>Patient diagnoses collected from encounters will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+        <population>The analysis population consists of the subset of patients without a prior diagnosis of a stroke.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Direct Acting Antivirals</title>
+            <description>Patients who receive a direct acting antiviral enter the DAA cohort at the time of initiation of the drug.
+Direct Acting Antivirals: The time period during which a patient is dispensed the medication and for up to 180 days after initiation of the medication.</description>
+          </group>
+          <group group_id="O2">
+            <title>Comparison</title>
+            <description>The exposure time of patients who have not received a direct acting antiviral (patients can change from the comparison to the DAA group once they receive the medication)</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Incidence of Ischemic Stroke</title>
+          <description>Inpatient encounters with ICD-9 diagnosis code of 433.xx, 434.xx or ICD-10 code of I63.xx, I65.xx.</description>
+          <population>The analysis population consists of the subset of patients without a prior diagnosis of a stroke.</population>
+          <units>Events per 1000 person years</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="14758"/>
+                <count group_id="O2" value="17142"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3.6" lower_limit="2.2" upper_limit="5.1"/>
+                    <measurement group_id="O2" value="5.8" lower_limit="5.1" upper_limit="6.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.12</p_value>
+            <method>Marginal Structural Model</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>0.68</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.42</ci_lower_limit>
+            <ci_upper_limit>1.10</ci_upper_limit>
+            <estimate_desc>The numerator represents the DAA group while the denominator represents the comparison group for the odds ratio.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Incidence of Hemorrhagic Stroke</title>
+        <description>Inpatient encounters with ICD-9 diagnosis code of 430.xx-432.xx or ICD-10 code of I60.xx-I62.xx</description>
+        <time_frame>Patient diagnoses collected from encounters will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+        <population>The analysis population consists of the subset of patients without a prior diagnosis of a stroke.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Direct Acting Antivirals</title>
+            <description>Patients who receive a direct acting antiviral enter the DAA cohort at the time of initiation of the drug.
+Direct Acting Antivirals: The time period during which a patient is dispensed the medication and for up to 180 days after initiation of the medication.</description>
+          </group>
+          <group group_id="O2">
+            <title>Comparison</title>
+            <description>The exposure time of patients who have not received a direct acting antiviral (patients can change from the comparison to the DAA group once they receive the medication)</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Incidence of Hemorrhagic Stroke</title>
+          <description>Inpatient encounters with ICD-9 diagnosis code of 430.xx-432.xx or ICD-10 code of I60.xx-I62.xx</description>
+          <population>The analysis population consists of the subset of patients without a prior diagnosis of a stroke.</population>
+          <units>Events per 1000 person years</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="14802"/>
+                <count group_id="O2" value="17098"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.5" lower_limit="0.6" upper_limit="2.3"/>
+                    <measurement group_id="O2" value="3.1" lower_limit="2.6" upper_limit="3.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.34</p_value>
+            <method>Marginal Structural Model</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>0.61</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.22</ci_lower_limit>
+            <ci_upper_limit>1.70</ci_upper_limit>
+            <estimate_desc>The numerator represents the DAA group while the denominator represents the comparison group for the odds ratio.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Incidence of Decompensated Cirrhosis</title>
+        <description>A patient will be characterized as having decompensated cirrhosis from an encounter indicating jaundice (ICD-9 diagnosis code of 782.4 or ICD-10 code of R17), ascites (ICD-9 diagnosis code of 789.5, 789.51, 789.59 or ICD-10 diagnosis code of R18.0, R18.8, K71.51, K70.11, or K70.31), or varices (ICD-9 diagnosis code of 456.0, 456.20 or ICD-10 diagnosis code of I85.01 or I85.11, or a medication dispense of lactulose or rifaximin along with a diagnosis of cirrhosis.</description>
+        <time_frame>Patient diagnoses collected from encounters will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+        <population>The analysis population consists of the subset of patients without prior diagnosis of jaundice, ascites, hemorrhagic varices or medication dispense of lactulose or rifaximin.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Direct Acting Antivirals</title>
+            <description>Patients who receive a direct acting antiviral enter the DAA cohort at the time of initiation of the drug.
+Direct Acting Antivirals: The time period during which a patient is dispensed the medication and for up to 180 days after initiation of the medication.</description>
+          </group>
+          <group group_id="O2">
+            <title>Comparison</title>
+            <description>The exposure time of patients who have not received a direct acting antiviral (patients can change from the comparison to the DAA group once they receive the medication)</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Incidence of Decompensated Cirrhosis</title>
+          <description>A patient will be characterized as having decompensated cirrhosis from an encounter indicating jaundice (ICD-9 diagnosis code of 782.4 or ICD-10 code of R17), ascites (ICD-9 diagnosis code of 789.5, 789.51, 789.59 or ICD-10 diagnosis code of R18.0, R18.8, K71.51, K70.11, or K70.31), or varices (ICD-9 diagnosis code of 456.0, 456.20 or ICD-10 diagnosis code of I85.01 or I85.11, or a medication dispense of lactulose or rifaximin along with a diagnosis of cirrhosis.</description>
+          <population>The analysis population consists of the subset of patients without prior diagnosis of jaundice, ascites, hemorrhagic varices or medication dispense of lactulose or rifaximin.</population>
+          <units>Events per 1000 person years</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="13496"/>
+                <count group_id="O2" value="16465"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="23.8" lower_limit="20.0" upper_limit="27.7"/>
+                    <measurement group_id="O2" value="38.6" lower_limit="37.0" upper_limit="40.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>&lt;0.01</p_value>
+            <method>Marginal Structural Model</method>
+            <param_type>Marginal Structural Model</param_type>
+            <param_value>0.61</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.49</ci_lower_limit>
+            <ci_upper_limit>0.76</ci_upper_limit>
+            <estimate_desc>The numerator represents the DAA group while the denominator represents the comparison group for the odds ratio.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Rate of Hospitalizations</title>
+        <description>An encounter in which the place of service is an inpatient hospitalization.</description>
+        <time_frame>Hospitalizations will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+        <population>The analysis population is the same as the baseline population.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Direct Acting Antivirals</title>
+            <description>Patients who receive a direct acting antiviral enter the DAA cohort at the time of initiation of the drug.
+Direct Acting Antivirals: The time period during which a patient is dispensed the medication and for up to 180 days after initiation of the medication.</description>
+          </group>
+          <group group_id="O2">
+            <title>Comparison</title>
+            <description>The exposure time of patients who have not received a direct acting antiviral (patients can change from the comparison to the DAA group once they receive the medication)</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Rate of Hospitalizations</title>
+          <description>An encounter in which the place of service is an inpatient hospitalization.</description>
+          <population>The analysis population is the same as the baseline population.</population>
+          <units>Events per 1000 person years</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="15524"/>
+                <count group_id="O2" value="18284"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="162.8" lower_limit="157.9" upper_limit="167.7"/>
+                    <measurement group_id="O2" value="325.0" lower_limit="320.6" upper_limit="329.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>&lt;0.01</p_value>
+            <method>Poisson Regression</method>
+            <param_type>Rate Ratio</param_type>
+            <param_value>0.71</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.60</ci_lower_limit>
+            <ci_upper_limit>0.84</ci_upper_limit>
+            <estimate_desc>The numerator represents the DAA group while the denominator represents the comparison group for the rate ratio.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Rate of Emergency Department Visits</title>
+        <description>An encounter in which the place of service is an emergency department or urgent care center.</description>
+        <time_frame>ED visits will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+        <population>The analysis population is the same as the baseline population.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Direct Acting Antivirals</title>
+            <description>Patients who receive a direct acting antiviral enter the DAA cohort at the time of initiation of the drug.
+Direct Acting Antivirals: The time period during which a patient is dispensed the medication and for up to 180 days after initiation of the medication.</description>
+          </group>
+          <group group_id="O2">
+            <title>Comparison</title>
+            <description>The exposure time of patients who have not received a direct acting antiviral (patients can change from the comparison to the DAA group once they receive the medication)</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Rate of Emergency Department Visits</title>
+          <description>An encounter in which the place of service is an emergency department or urgent care center.</description>
+          <population>The analysis population is the same as the baseline population.</population>
+          <units>Events per 1000 person years</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="15524"/>
+                <count group_id="O2" value="18284"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="551.2" lower_limit="542.3" upper_limit="560.2"/>
+                    <measurement group_id="O2" value="853.4" lower_limit="846.2" upper_limit="860.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>&lt;0.01</p_value>
+            <method>Poisson Regression</method>
+            <param_type>Rate Ratio</param_type>
+            <param_value>0.82</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.77</ci_lower_limit>
+            <ci_upper_limit>0.87</ci_upper_limit>
+            <estimate_desc>The numerator represents the DAA group while the denominator represents the comparison group for the rate ratio.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Incidence of Arrhythmia</title>
+        <description>Inpatient encounters with an ICD-9 diagnosis code of 427.1, 427.42, 427.5, 427.9 or an ICD-10 diagnosis code of I47.2, I49.01, I49.02, I46.9, I49.9.</description>
+        <time_frame>Patient diagnoses collected from encounters will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+        <population>The analysis population consists of the subset of patients without a past diagnosis of arrhythmia.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Direct Acting Antivirals</title>
+            <description>Patients who receive a direct acting antiviral enter the DAA cohort at the time of initiation of the drug.
+Direct Acting Antivirals: The time period during which a patient is dispensed the medication and for up to 180 days after initiation of the medication.</description>
+          </group>
+          <group group_id="O2">
+            <title>Comparison</title>
+            <description>The exposure time of patients who have not received a direct acting antiviral (patients can change from the comparison to the DAA group once they receive the medication)</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Incidence of Arrhythmia</title>
+          <description>Inpatient encounters with an ICD-9 diagnosis code of 427.1, 427.42, 427.5, 427.9 or an ICD-10 diagnosis code of I47.2, I49.01, I49.02, I46.9, I49.9.</description>
+          <population>The analysis population consists of the subset of patients without a past diagnosis of arrhythmia.</population>
+          <units>Events per 1000 person years</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="13396"/>
+                <count group_id="O2" value="15272"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3.2" lower_limit="1.8" upper_limit="4.5"/>
+                    <measurement group_id="O2" value="4.7" lower_limit="4.1" upper_limit="5.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.02</p_value>
+            <method>Marginal Structural Model</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>0.47</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.25</ci_lower_limit>
+            <ci_upper_limit>0.88</ci_upper_limit>
+            <estimate_desc>The numerator represents the DAA group while the denominator represents the comparison group for the odds ratio.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Incidence of Liver Cancer</title>
+        <description>Encounters with ICD-9 diagnosis code of 155.xx or ICD-10 code of C22.xx.</description>
+        <time_frame>Patient diagnoses collected from encounters will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+        <population>The analysis population consists of the subset of patients without a prior diagnosis of liver cancer.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Direct Acting Antivirals</title>
+            <description>Patients who receive a direct acting antiviral enter the DAA cohort at the time of initiation of the drug.
+Direct Acting Antivirals: The time period during which a patient is dispensed the medication and for up to 180 days after initiation of the medication.</description>
+          </group>
+          <group group_id="O2">
+            <title>Comparison</title>
+            <description>The exposure time of patients who have not received a direct acting antiviral (patients can change from the comparison to the DAA group once they receive the medication)</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Incidence of Liver Cancer</title>
+          <description>Encounters with ICD-9 diagnosis code of 155.xx or ICD-10 code of C22.xx.</description>
+          <population>The analysis population consists of the subset of patients without a prior diagnosis of liver cancer.</population>
+          <units>Events per 1000 person years</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="14905"/>
+                <count group_id="O2" value="17989"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="9.3" lower_limit="7.0" upper_limit="11.5"/>
+                    <measurement group_id="O2" value="14.9" lower_limit="13.9" upper_limit="15.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.07</p_value>
+            <method>Marginal Structural Model</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>0.62</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.37</ci_lower_limit>
+            <ci_upper_limit>1.03</ci_upper_limit>
+            <estimate_desc>The numerator represents the DAA group while the denominator represents the comparison group for the odds ratio.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Incidence of Cancers Other Than Liver Cancer</title>
+        <description>Encounters with ICD-9 codes 140.xx through 208.xx, except 155.xx or ICD-10 coes C00-C97 except C22.xx.</description>
+        <time_frame>Patient diagnoses collected from encounters will be examined through study completion, or up to 180 days from the day the patient initiated a DAA.</time_frame>
+        <population>The analysis population consists of the subset of patients without a prior diagnosis of cancer.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Direct Acting Antivirals</title>
+            <description>Patients who receive a direct acting antiviral enter the DAA cohort at the time of initiation of the drug.
+Direct Acting Antivirals: The time period during which a patient is dispensed the medication and for up to 180 days after initiation of the medication.</description>
+          </group>
+          <group group_id="O2">
+            <title>Comparison</title>
+            <description>The exposure time of patients who have not received a direct acting antiviral (patients can change from the comparison to the DAA group once they receive the medication)</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Incidence of Cancers Other Than Liver Cancer</title>
+          <description>Encounters with ICD-9 codes 140.xx through 208.xx, except 155.xx or ICD-10 coes C00-C97 except C22.xx.</description>
+          <population>The analysis population consists of the subset of patients without a prior diagnosis of cancer.</population>
+          <units>Events per 1000 person years</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="13254"/>
+                <count group_id="O2" value="16689"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="20.7" lower_limit="17.1" upper_limit="24.3"/>
+                    <measurement group_id="O2" value="26.4" lower_limit="25.0" upper_limit="27.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.11</p_value>
+            <method>Marginal Structural Model</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>0.81</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.63</ci_lower_limit>
+            <ci_upper_limit>1.05</ci_upper_limit>
+            <estimate_desc>The numerator represents the DAA group while the denominator represents the comparison group for the odds ratio.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Incidence of HBV Reactivation</title>
+        <description>We identified HBV reactivations in three different ways [Di Bisceglie et al., 2015; Yanny et al., 2018]: (1) patients who had a history of Hepatitis B core antibody (HBcAb) positive and were Hepatitis B surface antigen (HBsAg) negative at the time of initiating DAA therapy who became HBsAg positive within 180 days after receiving a DAA; (2) patients with undetectable levels of HBV DNA at the time of initiating DAA therapy who had a numerical result within 180 days after receiving a DAA; (3) patients with a numerical HBV DNA result at the time of initiating DAA therapy whose viral load increased by a factor of 10 within 180 days after receiving a DAA. For all methods of detecting a reactivation, we required that the reactivations be clinically significant: bilirubin at least 3, aspartate aminotransferase (AST) at least 400, or alanine aminotransferase (ALT) at least 500.</description>
+        <time_frame>Labs will be for up to 180 days following the initiation of a DAA.</time_frame>
+        <population>At the time of initiating DAA therapy, at least one of the following had to be true (1) Hepatitis B core antibody (HBcAb) positive and Hepatitis B surface antigen (HBsAg) negative (2) Hepatitis B core antibody (HBcAb) positive and undetectable levels of HBV DNA; (3) numerical HBV DNA result</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Direct Acting Antivirals</title>
+            <description>Patients who receive a direct acting antiviral enter the DAA cohort at the time of initiation of the drug.
+Direct Acting Antivirals: The time period during which a patient is dispensed the medication and for up to 180 days after initiation of the medication.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Incidence of HBV Reactivation</title>
+          <description>We identified HBV reactivations in three different ways [Di Bisceglie et al., 2015; Yanny et al., 2018]: (1) patients who had a history of Hepatitis B core antibody (HBcAb) positive and were Hepatitis B surface antigen (HBsAg) negative at the time of initiating DAA therapy who became HBsAg positive within 180 days after receiving a DAA; (2) patients with undetectable levels of HBV DNA at the time of initiating DAA therapy who had a numerical result within 180 days after receiving a DAA; (3) patients with a numerical HBV DNA result at the time of initiating DAA therapy whose viral load increased by a factor of 10 within 180 days after receiving a DAA. For all methods of detecting a reactivation, we required that the reactivations be clinically significant: bilirubin at least 3, aspartate aminotransferase (AST) at least 400, or alanine aminotransferase (ALT) at least 500.</description>
+          <population>At the time of initiating DAA therapy, at least one of the following had to be true (1) Hepatitis B core antibody (HBcAb) positive and Hepatitis B surface antigen (HBsAg) negative (2) Hepatitis B core antibody (HBcAb) positive and undetectable levels of HBV DNA; (3) numerical HBV DNA result</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="2308"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>This was a retrospective observational study, so any adverse event data would have been collected during contact with a medical provider.</time_frame>
+      <desc>This was a retrospective observational study. Any adverse event reporting would have been the responsibility of the medical provider. We did not seek out adverse event information above and beyond the outcomes of interest in our study.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Direct Acting Antivirals</title>
+          <description>Patients who receive a direct acting antiviral enter the DAA cohort at the time of initiation of the drug.
+Direct Acting Antivirals: The time period during which a patient is dispensed the medication and for up to 180 days after initiation of the medication.</description>
+        </group>
+        <group group_id="E2">
+          <title>Comparison</title>
+          <description>The exposure time of patients who have not received a direct acting antiviral (patients can change from the comparison to the DAA group once they receive the medication)</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="77" subjects_at_risk="15524"/>
+                <counts group_id="E2" subjects_affected="2186" subjects_at_risk="18284"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="15524"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="18284"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="15524"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="18284"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Elizabeth McGlynn, Ph.D.</name_or_title>
+      <organization>Kaiser Permanente</organization>
+      <phone>6265643807</phone>
+      <email>Elizabeth.A.Mcglynn@kp.org</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

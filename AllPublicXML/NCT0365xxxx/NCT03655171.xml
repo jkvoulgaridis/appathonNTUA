@@ -1,0 +1,220 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03655171</url>
+  </required_header>
+  <id_info>
+    <org_study_id>KY2018-340</org_study_id>
+    <nct_id>NCT03655171</nct_id>
+  </id_info>
+  <brief_title>A Pilot Study to Evaluate the Severity of Motor Dysfunction in Parkinson's Disease Based on AI Video Analysis</brief_title>
+  <official_title>Huashan Hospital Affiliated to Fudan University</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Huashan Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Tencent AI Lab</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Huashan Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is a pilot study, mainly to explore the potential application value of specific
+      pattern movement after video-based quantitative methods in the early recognition and
+      assessment of Parkinson's disease. According to UPDRS III, a series of motion indicators
+      related to the characteristics of the disease were determined and quantitatively analysed.
+      Motor function scores were given by the senior physicians and the AI video analysis team
+      separately to evaluate the accuracy of the scores of AI video analysis compared with that of
+      senior specialists' team of movement disorders.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In this study, participants are asked to perform video-recorded UPDRS-III test, and the
+      unmarked motion feature identification and quantitative analysis based on the video were
+      conducted.
+
+      The investigators have collected standardized motor function videos of patients with
+      Parkinson's disease from outpatient clinics and follow-up since August 2017. Based on the
+      UPDRS III motor function test, the investigators screened five pattern actions that are both
+      disease-characteristic and easy to visualize, including finger tapping, hand movements,
+      pronation-supination movements of hands and gait test. With the assistance of the artificial
+      intelligence team, the characteristic value quantification (frequency, distance, angle, etc.)
+      of the above pattern actions has been initially implemented. Considering that the
+      characteristic values of the pattern action under the identification of video are all
+      continuous variables and cannot be directly compared with the discrete UPDRS rating scale,
+      the investigators initially explored the construction of deep learning algorithm based on
+      UPDRS rating in the previous work to verify the effectiveness of video analysis in motor
+      function evaluation.
+
+      In this study, the investigators plan to include patients with Parkinson's disease with
+      different disease severity and analyse the consistency between UPDRS scores evaluated by
+      specialists of movement disorders and video quantification score. The results of this study
+      will hopefully lay a good foundation for launching a large-scale, multi-centre clinical trial
+      in the future.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">August 20, 2018</start_date>
+  <completion_date type="Actual">November 20, 2018</completion_date>
+  <primary_completion_date type="Actual">October 20, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Video-based motor function evaluation (motor function score)</measure>
+    <time_frame>Through study completion, an average of 2 weeks.</time_frame>
+    <description>The patient will perform the motor test in Unified Parkinson's Disease Rating Scale (UPDRS III) under the guidance of a movement disorder specialist and recorded by a high-speed camera. The subject's motor function score will be automatically generated in the video sample and compared to a doctor-based scoring score.
+According to the different pattern actions, the scale is divided into 11 score subscales, each of which is ranged from 0-4 points according to the degree of involvement of the action execution, higher scores represent a worse motor function. The scores of each subscale are summed with the highest score is 44 points.
+This technology has the potential to be a novel approach to clinical diagnosis and disease assessment. As a pilot study, the sample size is not sufficient to conclude the reliability and effectiveness of the technology. The results of this study will be useful for future sample size estimation of large-scale, multi-centre preclinical trials.</description>
+  </primary_outcome>
+  <number_of_groups>5</number_of_groups>
+  <enrollment type="Actual">30</enrollment>
+  <condition>Parkinson Disease</condition>
+  <arm_group>
+    <arm_group_label>H&amp;Y 0</arm_group_label>
+    <description>Age-matched non-disease population, or prodromal Parkinson's patients with no noticeable motor symptoms.
+This group of patients will perform the video-recorded UPDRS-III test at the time of enrollment and evaluate the motor function using video-based quantitative methods.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>H&amp;Y 1</arm_group_label>
+    <description>Hoehn and Yahr disability stage was 1: Unilateral involvement only usually with minimal or no functional disability.
+This group of patients will perform the video-recorded UPDRS-III test at the time of enrollment and evaluate the motor function using video-based quantitative methods.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>H&amp;Y 2</arm_group_label>
+    <description>Hoehn and Yahr disability stage was 2: Bilateral or midline involvement without impairment of balance.
+This group of patients will perform the video-recorded UPDRS-III test at the time of enrollment and evaluate the motor function using video-based quantitative methods.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>H&amp;Y 3</arm_group_label>
+    <description>Hoehn and Yahr disability stage was 3: Bilateral disease: mild to moderate disability with impaired postural reflexes; physically independent.
+This group of patients will perform the video-recorded UPDRS-III test at the time of enrollment and evaluate the motor function using video-based quantitative methods.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>H&amp;Y 4</arm_group_label>
+    <description>Hoehn and Yahr disability stage was 4: Severely disabling disease; still able to walk or stand unassisted.
+This group of patients will perform the video-recorded UPDRS-III test at the time of enrollment and evaluate the motor function using video-based quantitative methods.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Video-based quantitative methods</intervention_name>
+    <description>The AI video analysis is used to automatically identify motion details and quantify motion features such as amplitude and angular velocity, then an algorithm will be applied to generate the degree of motor dysfunction.</description>
+    <arm_group_label>H&amp;Y 0</arm_group_label>
+    <arm_group_label>H&amp;Y 1</arm_group_label>
+    <arm_group_label>H&amp;Y 2</arm_group_label>
+    <arm_group_label>H&amp;Y 3</arm_group_label>
+    <arm_group_label>H&amp;Y 4</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        outpatients with idiopathic Parkinson's disease
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  The primary criteria for diagnosis are idiopathic Parkinson's disease, defined as
+             bradykinesia with resting tremor or muscular rigidity according to MDS-PD diagnosis
+             criteria (2015). The examination of major symptoms needs to be performed by the
+             methods described in the Unified Parkinson's Disease Rating Scale (UPDRS).
+
+        Exclusion Criteria:
+
+          -  1. Definite cerebellar abnormalities, such as cerebellar gait, limb ataxia, or
+             cerebellar eye movement abnormalities (such as sustained staring induced nystagmus,
+             giant square wave beats, and distant hypertonia).
+
+          -  2. Downward vertical suprachiasmatic gaze palsy, or selective downward vertical
+             scanning is slowing down.
+
+          -  3. Within five years of onset, the disease was diagnosed as a likely frontotemporal
+             dementia or primary progressive aphasia (according to revised diagnostic criteria for
+             frontotemporal dementia published in 2011).
+
+          -  4. With more than three years after the onset of the disease, Parkinson's disease
+             symptoms are still limited to the lower limbs.
+
+          -  5. They have been treated with dopamine receptor blockers or dopamine depletion agents
+             and the dosage and duration of administration are consistent with the diagnosis of
+             drug-induced Parkinson's disease.
+
+          -  6. Although the condition is at least moderately severe, there is no discernible
+             effect on high-dose levodopa therapy.
+
+          -  7. Definite cortical hypoesthesia (such as loss of skin writing and body recognition
+             when the primary sensory function pattern is complete), definite motor aphasia of body
+             concept, or progressive aphasia.
+
+          -  8. Functional neuroimaging study of the presynaptic dopaminergic system shows normal
+             results.
+
+          -  9. There is evidence of Parkinson's disease or other diseases suspected to be related
+             to the patient's symptoms, or professional physicians identify they may be other
+             syndromes rather than Parkinson's disease based on a complete diagnostic assessment.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Huashan Hospital</name>
+      <address>
+        <city>Shanghai</city>
+        <state>Shanghai</state>
+        <zip>200040</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>January 2019</verification_date>
+  <study_first_submitted>August 19, 2018</study_first_submitted>
+  <study_first_submitted_qc>August 30, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 31, 2018</study_first_posted>
+  <last_update_submitted>January 18, 2019</last_update_submitted>
+  <last_update_submitted_qc>January 18, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 22, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Huashan Hospital</investigator_affiliation>
+    <investigator_full_name>Jian Wang</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>Parkinson Disease</keyword>
+  <keyword>Exploratory study</keyword>
+  <keyword>Quantitative method</keyword>
+  <keyword>AI Video analysis</keyword>
+  <keyword>Motor dysfunction</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Parkinson Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

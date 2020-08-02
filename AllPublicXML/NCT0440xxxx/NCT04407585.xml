@@ -1,0 +1,317 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04407585</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Covid-19 Validation Study</org_study_id>
+    <nct_id>NCT04407585</nct_id>
+  </id_info>
+  <brief_title>Testing the Accuracy of a Digital Test to Diagnose Covid-19</brief_title>
+  <official_title>Validation of Machine Learning (ML) Models as Diagnostic Tools to Predict Infection With SARS-CoV-2</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>King's College London</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Zoe Global Limited</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Department of Health, United Kingdom</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>King's College London</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The Covid-19 viral pandemic has caused significant global losses and disruption to all
+      aspects of society. One of the major difficulties in controlling the spread of this
+      coronavirus has been the delayed and mild (or lack of) presentation of symptoms in infected
+      individuals, and the insufficient Covid-19 testing capacity in the UK. This warrants the
+      development of alternative diagnostic tools that reliably assess Covid-19 infection in the
+      early stages of infection, while also being low- cost, low-burden, and easily administered to
+      a wide proportion of the population.
+
+      This study aims to validate machine learning models as a diagnostic tool that predicts
+      infection with SARS-CoV-2 based on app-reported symptoms and phenotypic data, against the
+      'gold-standard' swab PCR-test. This study will take place within the Covid Symptom Study app,
+      the free symptom tracking mobile application launched in March 2020.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The Covid-19 viral pandemic has caused significant global losses and disruption to all
+      aspects of society (including health, education, and business and economic security). One of
+      the major difficulties in controlling the spread of this coronavirus has been the delayed and
+      mild (or lack of) presentation of symptoms in infected individuals. Moreover, there is
+      insufficient Covid-19 testing capacity in the UK, and only moderate accuracy of such tests at
+      confirming coronavirus infection. Together, these obstacles have led to countless unknown
+      coronavirus cases going unobserved and fuelling the viral spread in the population, by
+      compromising the stringency of self- isolation measures undertaken by infected individuals
+      who may have otherwise curbed or prevented their transmission of the virus. The profound and
+      widespread cost of the continuing Covid-19 progression, coinciding with the lack of testing
+      capacity, warrants the development of alternative diagnostic tools that reliably assess
+      Covid-19 infection in the early stages of infection, while also being low- cost, low-burden,
+      and easily administered to a wide proportion of the population.
+
+      The free symptom-monitoring app 'Covid Symptom Study' was launched in mid-March by health
+      technology start-up Zoe Global Ltd, and is currently being used in the UK, US and Sweden,
+      with more than 2.7 million users in the UK alone who use the app to self-report their
+      Covid-19 symptoms. Upon registering to use the app, users are asked to report demographic and
+      phenotypic data such as age, sex, BMI, ethnicity, contact with infected individuals (through
+      a healthcare professional capacity), smoking behaviour, existing health conditions, among
+      other information. From then on, users are asked to report, on a daily basis, their
+      presentation of symptoms attributable to Covid-19 (or lack thereof) through the use of
+      app-administered questionnaires, thus enabling real-time tracking of disease progression
+      across the UK. The app also allows users to report their Covid-19 test results, thus enabling
+      the development of prediction algorithms based solely on self-reported user data to predict
+      the presence of infection in untested users.
+
+      On behalf of Zoe Global Ltd, the UK Department of Health and Social Care with support from
+      the UK's Chief Scientific Advisor has committed to test up to 10,000 app-users per week for
+      infection with SARS-CoV-2 across England and Northern Ireland, for the purpose of rapidly
+      improving the accuracy of symptom-based predictions. Similar testing allowance may follow in
+      Scotland and Wales.
+
+      Symptomatic app-users will be asked to get tested for SARS-CoV-2 infection, using the popular
+      swab and qRT-PCR technique, and asked to report their test results in the app, while
+      continuing to log their symptoms.
+
+      This validation study, conducted at King's College London, aims to validate the sensitivity
+      and specificity of machine learning models as a diagnostic tool that predicts infection with
+      SARS-CoV-2 based on app-reported symptoms and phenotypic data, against the 'gold-standard'
+      swab PCR-test, by utilising the Covid Symptom Study app as a research platform.
+
+      It is hypothesised that by training the symptom-based models using swab test results and
+      through multiple model iterations following continuous data input from reporting and tested
+      app users, predictions of infection will be made with considerable accuracy, thus enabling
+      the Covid Symptom Study app to be used as a diagnostic tool that alleviates the strain of
+      testing capacity in the UK while being easily accessible and posing low user burden.
+
+      Study Design:
+
+      Due to the rapidly developing and uncertain duration and intensity of the Covid-19 pandemic,
+      the present study design is prospective and one that enables regular iteration on prediction
+      models and continuous accumulation of validation data. The study consists of a series of
+      phases, each lasting 14 days. Before the start of each phase (day 0), a set of machine
+      learning models will be frozen and submitted for validation on data collected during this and
+      subsequent phases.
+
+      Machine learning algorithms improve with increasing data. Therefore, validation phases will
+      continue as long as tests are available and app users consent to joining the study. Due to
+      the uncertainty around the progression of UK infection rates, the validation study will be
+      continue whilst it is of value to public health.
+
+      A detailed statistical analysis plan is described in the document attached to this record. A
+      record of all machine learning models used for validation will be regularly updated on GitHub
+      (https://github.com/zoe/covid-validation-study).
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 1, 2020</start_date>
+  <completion_date type="Anticipated">May 10, 2021</completion_date>
+  <primary_completion_date type="Anticipated">May 10, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>SARS-CoV-2 infection</measure>
+    <time_frame>3 days</time_frame>
+    <description>Likelihood of infection with Covid-19, based on app-reported symptoms</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>SARS-CoV-2 infection</measure>
+    <time_frame>1 day</time_frame>
+    <description>Active infection with Covid-19 as assessed by PCR swab test</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">1000000</enrollment>
+  <condition>Covid-19</condition>
+  <arm_group>
+    <arm_group_label>Covid-19 Symptom Study app-user</arm_group_label>
+    <description>UK-based Covid-19 Symptom Study primary app-user completing self-reports in the app</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Covid-19 swab PCR test</intervention_name>
+    <description>Participants satisfying machine learning test criteria will be asked to take a swab test for Covid-19.</description>
+    <arm_group_label>Covid-19 Symptom Study app-user</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study population includes individuals are UK-based primary users of the Covid Symptom
+        Study app, who provide informed consent to participate.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Study Inclusion Criteria - app users will be eligible to join the study if they:
+
+          -  Are based in the UK (are using the UK version of the Covid-19 Symptom Study app, and
+             have listed a UK postcode)
+
+          -  Are the primary app user (are reporting directly for themselves)
+
+          -  Are at least 18 years of age
+
+          -  Have not tested positive for a Covid-19 test before (but may have been tested)
+
+        Study Exclusion Criteria - participants are ineligible for the study if they:
+
+          -  Do not meet inclusion criteria
+
+          -  Do not provide informed consent to participate
+
+        Participants will be subject to further screening to identify them as eligible for swab
+        testing during the course of the study.
+
+        Swab inclusion criteria - participants will be eligible for swab testing if they:
+
+          -  Have reported in the app at least once in the previous 3 days (days -2 to 0), and at
+             least two times in the previous 9 days (days -8 to 0). All reports must be healthy
+             (i.e. not experiencing any symptoms).
+
+          -  On the previous day (day 1), have reported that they are experiencing at least one
+             symptom described in the app. Symptoms in the app are updated when deemed appropriate
+             by study investigators using evidence based reports in the scientific and medical
+             field.
+
+          -  Have answered the phenotype fields required for the prediction model with
+             physiologically plausible values.
+
+        Swab exclusion criteria - participants are ineligible for swab testing if they:
+
+          -  Are asymptomatic
+
+          -  Do not satisfy the inclusion criteria for testing.
+
+        Insufficient testing capacity:
+
+        If insufficient testing capacity is available for the study population as described, then
+        recruitment will be prioritised according to:
+
+          -  Firstly, most recent final healthy report before reporting symptoms
+
+          -  Secondly, highest number of healthy reports during the previous 9 days before
+             reporting symptoms
+
+          -  Thirdly, randomised selection to stratify between participants of equal priority
+             according to the first two rules above.
+
+        Excess testing capacity:
+
+        If excess testing capacity is available beyond the study population as described, then
+        inclusion criteria will be expanded in order to adequately sample across under-represented
+        population groups.
+
+        Specifically, on day 7 of each validation phase, investigators will assess:
+
+          -  What excess testing capacity is available, if any
+
+          -  Which subgroups are under-represented compared to their proportion in the UK
+             population (as best as can be established given that some participants may not have
+             completed some phenotype fields):
+
+             (i) Age decade (ii) Sex (iii) Ethnicity (iv) BMI category
+
+        For underrepresented groups, investigators may additionally recruit participants with only
+        one report during the previous 3 days (days -2 to 0) and no other report during the
+        previous 9 days (days -8 to 0).
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_contact>
+    <last_name>Inbar Linenberg, MSc</last_name>
+    <phone>+447791871699</phone>
+    <email>inbar.linenberg@kcl.ac.uk</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>King's College London</name>
+      <address>
+        <city>London</city>
+        <zip>SE1 9NH</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Inbar Linenberg, MSc</last_name>
+      <phone>+447791871699</phone>
+      <email>inbar.linenberg@kcl.ac.uk</email>
+    </contact>
+    <investigator>
+      <last_name>Tim Spector</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sarah Berry</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Claire Steves</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sebastien Ourselin</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Peter Sasieni</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Andrew Chan</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>May 27, 2020</study_first_submitted>
+  <study_first_submitted_qc>May 27, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 29, 2020</study_first_posted>
+  <last_update_submitted>June 23, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 23, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 24, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Covid-19</keyword>
+  <keyword>Machine learning</keyword>
+  <keyword>Covid-19 diagnostic</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Statistical Analysis Plan</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>May 26, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/85/NCT04407585/SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

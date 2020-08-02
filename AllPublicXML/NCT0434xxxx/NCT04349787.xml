@@ -1,0 +1,242 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04349787</url>
+  </required_header>
+  <id_info>
+    <org_study_id>METC 2019-1231</org_study_id>
+    <nct_id>NCT04349787</nct_id>
+  </id_info>
+  <brief_title>Improving Optical Diagnosis of Colorectal Polyps Using CADx and BASIC.</brief_title>
+  <official_title>Improving Optical Diagnosis of Colorectal Polyps Using Computer-aided Diagnosis (CADx) and the BLI Adenoma Serrated International Classification (BASIC).</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Maastricht University Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Catharina Ziekenhuis Eindhoven</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Eindhoven University of Technology</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Maastricht University Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Primary, this study aims to develop and validate a computer-aided diagnosis (CADx) system for
+      the characterization of colorectal polyps.
+
+      Second, this study evaluates the effect of using a clinical classification model Blue Light
+      Imaging Adenoma Serrated International (BASIC) on the diagnostic accuracy of the optical
+      diagnosis of colorectal polyps compared to intuitive optical diagnosis for both expert
+      endoscopists and novices.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Optical diagnosis of colorectal polyps, the in-vivo characterization of the histology by
+      endoscopists, is of increasing interest for clinical endoscopy practice. Recent studies have
+      shown that thresholds for optical diagnosis are met in highly selected groups of expert
+      endoscopists, but the same is not true in community endoscopy practices. In order to improve
+      optical diagnosis, imaging enhancement techniques and the use of artificial intelligence are
+      proposed.
+
+      This observational study developes a computer-aided diagnosis (CADx) system to differentiate
+      between benign and (pre-)malignant CRPs, using state-of-the-art machine learning methods and
+      deep learning architectures. For the development, HDWL and BLI images are used. The CADx is
+      trained using histology as gold standard. The CADx is externally validated using on a set of
+      60 colorectal polyps. This study will evaluate if the optical diagnosis of colorectal polyps
+      can be improved with the aid of CADx.
+
+      In addition, both expert endoscopists and novices optically diagnose the colorectal polyps.
+      In the first, pre-training phase, endoscopists optically diagnose colorectal polyps based on
+      intuition. Afterwards, in the post-training phase, the same set of colorectal polyps is
+      optically diagnosed based on a clinical classification system; BLI Adenoma Serrated
+      International Classification (BASIC). This study will evaluate if the optical diagnosis of
+      colorectal polyps can be improved with the aid of BASIC in both expert and non-expert hands.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">November 26, 2019</start_date>
+  <completion_date type="Actual">March 8, 2020</completion_date>
+  <primary_completion_date type="Actual">March 8, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Diagnostic accuracy of CADx versus endoscopists</measure>
+    <time_frame>6 months</time_frame>
+    <description>The diagnostic accuracy of characterizing colorectal polyps (into benign versus (pre-)malignant) made by CADx in comparison to the diagnostic accuracy of both expert endoscopists and novices. In which histology is the gold standard.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic accuracy of BASIC versus intuition</measure>
+    <time_frame>6 months</time_frame>
+    <description>The diagnostic accuracy of both expert endoscopists and novices in characterizing colorectal polyps (into hyperplastic polyp, adenoma, sessile serrated adenoma, or adenocarcinoma) based on the clinical classification model BASIC, in comparison to the diagnostic accuracy based on intuition. In which histology is the gold standard.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic metrics of CADx</measure>
+    <time_frame>6 months</time_frame>
+    <description>The sensitivity, specificity, negative and positive predictive value of characterizing colorectal polyps (into benign versus (pre-)malignant) made by CADx.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>AUC of CADx</measure>
+    <time_frame>6 months</time_frame>
+    <description>Area Under ROC Curve (AUC) of CADx for characterizing colorectal polyps (into benign versus (pre-)malignant) made by CADx.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic metrics of endoscopists</measure>
+    <time_frame>6 months</time_frame>
+    <description>The sensitivity, specificity, negative and positive predictive value of characterizing colorectal polyps (into hyperplastic polyp, adenoma, sessile serrated adenoma, or adenocarcinoma) of both expert endoscopists and novices.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic metrics of endoscopists for high confidence diagnosis</measure>
+    <time_frame>6 months</time_frame>
+    <description>The diagnostic accuracy, sensitivity, specificity, negative and positive predictive value of both expert endoscopists and novices for optical diagnosis made with high (&gt;90%) confidence.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Interobserver agreement</measure>
+    <time_frame>6 months</time_frame>
+    <description>The interobserver agreement of experts, novices and CADx for characterizing colorectal polyps.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Computation time of CADx</measure>
+    <time_frame>6 months</time_frame>
+    <description>The computation time per image of CADx for characterizing colorectal polyps.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">60</enrollment>
+  <condition>Colorectal Cancer</condition>
+  <condition>Colorectal Polyp</condition>
+  <arm_group>
+    <arm_group_label>Colorectal polyp patients</arm_group_label>
+    <description>Patients who have a colonoscopy in regular care as part of the Dutch colorectal screening program, in the context of complaints or in the context of the follow-up of previously diagnosed bowel diseases. And who have at least one colorectal polyp found and resected during the examination.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Computer-aided diagnosis (CADx)</intervention_name>
+    <description>Optical diagnosis of colorectal polyps made with computer-aided diagnosis (CADx) using state-of-the-art machine learning methods and deep learning architectures.</description>
+    <arm_group_label>Colorectal polyp patients</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>BLI Adenoma Serrated International Classification (BASIC)</intervention_name>
+    <description>Optical diagnosis of colorectal polyps made with BLI Adenoma Serrated International Classification (BASIC), both by exert endoscopists and novices.</description>
+    <arm_group_label>Colorectal polyp patients</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Colorectal polyps are resected for histological evaluation. This specimen is resected because
+      of regular care, not for study purposes.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients who had a colonoscopy in the Catharina hospital Eindhoven between January 2017 and
+        December 2018 in the context of the regular bowel cancer screening program, in the context
+        of complaints or in the context of the follow-up of previously diagnosed bowel diseases.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients with at least one colorectal polyp found and resected during colonoscopy in
+             regular care;
+
+          -  Availability of at least one high definition white light image and one Blue Light
+             Imaging (BLI) image of the colorectal polyp;
+
+          -  Overall high quality of the colorectal polyp image;
+
+          -  Availability of the histological results of the colorectal polyp;
+
+          -  Minimal age of 18 years old.
+
+        Exclusion Criteria:
+
+          -  Objection to participate in medical scientific research, reported in the medical file;
+
+          -  Endoscopic instruments visible at the colorectal polyp image;
+
+          -  More than one polyp visible at the colorectal polyp image.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ad Masclee, Prof. Dr.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Maastricht Universitair Medisch Centrum</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Maastricht University Medical Center</name>
+      <address>
+        <city>Maastricht</city>
+        <state>Limburg</state>
+        <zip>6202AZ</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Netherlands</country>
+  </location_countries>
+  <reference>
+    <citation>ASGE Technology Committee, Abu Dayyeh BK, Thosani N, Konda V, Wallace MB, Rex DK, Chauhan SS, Hwang JH, Komanduri S, Manfredi M, Maple JT, Murad FM, Siddiqui UD, Banerjee S. ASGE Technology Committee systematic review and meta-analysis assessing the ASGE PIVI thresholds for adopting real-time endoscopic assessment of the histology of diminutive colorectal polyps. Gastrointest Endosc. 2015 Mar;81(3):502.e1-502.e16. doi: 10.1016/j.gie.2014.12.022. Epub 2015 Jan 16. Review.</citation>
+    <PMID>25597420</PMID>
+  </reference>
+  <reference>
+    <citation>Subramaniam S, Hayee B, Aepli P, Schoon E, Stefanovic M, Kandiah K, Thayalasekaran S, Alkandari A, Bassett P, Coron E, Pech O, Hassan C, Neumann H, Bisschops R, Repici A, Bhandari P. Optical diagnosis of colorectal polyps with Blue Light Imaging using a new international classification. United European Gastroenterol J. 2019 Mar;7(2):316-325. doi: 10.1177/2050640618822402. Epub 2019 Jan 6.</citation>
+    <PMID>31080616</PMID>
+  </reference>
+  <reference>
+    <citation>Byrne MF, Chapados N, Soudan F, Oertel C, Linares Pérez M, Kelly R, Iqbal N, Chandelier F, Rex DK. Real-time differentiation of adenomatous and hyperplastic diminutive colorectal polyps during analysis of unaltered videos of standard colonoscopy using a deep learning model. Gut. 2019 Jan;68(1):94-100. doi: 10.1136/gutjnl-2017-314547. Epub 2017 Oct 24.</citation>
+    <PMID>29066576</PMID>
+  </reference>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>April 9, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 14, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 16, 2020</study_first_posted>
+  <last_update_submitted>April 14, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 14, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 16, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Artificial intelligence</keyword>
+  <keyword>Computer-aided diagnosis</keyword>
+  <keyword>Optical diagnosis</keyword>
+  <keyword>Colorectal polyps</keyword>
+  <keyword>Blue light imaging</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Polyps</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>At this moment, there is no plan to share individual participant data.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

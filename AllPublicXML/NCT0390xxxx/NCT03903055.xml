@@ -1,0 +1,195 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03903055</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2018C03G2120113</org_study_id>
+    <nct_id>NCT03903055</nct_id>
+  </id_info>
+  <brief_title>Study on High-risk MDS Patients Based on RNA-seq Technology</brief_title>
+  <acronym>MDS&amp;RNA-seq</acronym>
+  <official_title>Study on Improving Clinical Diagnosis Classification and Prognosis Evaluation Criteria and Precise Early Intervention Treatment of High-risk MDS Patients Based on RNA-seq Technology</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Zhejiang Provincial Hospital of TCM</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Zhejiang Provincial Hospital of TCM</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      MDS is a group of malignant cloned blood diseases that originated from hematopoietic stem
+      cells(HSC) or CD34 + progenitor cells and are still incurable. Its main characteristics are
+      the increase of primitive cells in the bone marrow accompanied by a series or multiple
+      developmental abnormalities(pathological hematopoiesis), the reduction of peripheral blood
+      cells, the high risk of conversion to acute myeloid leukemia(AML), and once converted to
+      leukemia, the treatment prognosis is very poor.The bone marrow cells of MDS patients were
+      deeply sequenced by RNA-Seq method. Through differential gene expression analysis, different
+      genes related to the onset and evolution of MDS were selected and their expression levels
+      were analyzed in different subtype MDS patients. To study its significance in clinical
+      classification, prognosis assessment and early intervention treatment, establish a new
+      standard for clinical classification and prognosis evaluation based on genomic
+      classification, clarify early intervention or precise treatment schemes, and significantly
+      prolong the survival of patients, Improving the quality of life.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      (1) Study population(included in the standard): 120 patients(aged 16 to 80 years) who met the
+      MDS diagnostic criteria in the hematology department and outpatient clinics of the four
+      cooperative hospitals after June 2019. The diagnostic criteria refer to the WHO diagnosis of
+      the 2016 MDS. New classification; The prognosis score was based on the 2012 MDS revised
+      IPSS-R prognostic integral system.In control group, 5 patients with initial acute myeloid
+      leukemia(AML-M2a) and 5 healthy human bone marrow donation volunteers. Understand the purpose
+      of this study and sign an informed consent form.
+
+      2) Clinical information collection: medical history collection of selected patients, Routine
+      clinical tests(including peripheral blood count, serum ferritin, VitB12, folic acid, EPO
+      levels, bone marrow smears and bone marrow biopsies, bone marrow flow cytometry, bone marrow
+      cytogenetics, etc.) and follow-up and efficacy observations, The clinical indicators,
+      efficacy and prognosis of the patient and the possible related genes detected were
+      systematically analyzed.
+
+      (3) Research methods: The bone marrow specimens collected will be extracted according to the
+      RAN-seq operating process, and the total RNA, quality test, and cDNA library of each sample
+      cell will be extracted, 30 Million reads per sample, and Ilumina X10 PE150 will be sequenced,
+      sequencing depth 9G clear Data. After the sequencing data is tested and passed, the original
+      sequencing data is pre-processed: the raw data of the sequencing machine is qualitatively
+      controlled, the sequencing fragments with the sequencing connector are removed, and the
+      low-quality, fuzzy N bases, riboomeRNA are removed. Sequencing fragments with a length of
+      less than 20, etc.; Transcription of sequencing data: genomic alignment of preprocessed reads
+      and post-comparison quality control.
+
+      Gene Expression Level Analysis: Gene Expression Level Quantification, Gene Expression Level
+      Distribution, Biological Duplication Correlation Analysis, Intersample Level Clustering and
+      PCA Analysis.
+
+      Differential Expression Gene Analysis:
+
+      The GO enrichment and signal pathway enrichment of different genes were analyzed, and the
+      genes specifically raised or decreased between normal samples, AML samples, and MDS patient
+      samples(including various MDS subtypes) were compared. Prediction of molecular level events
+      associated with these differential gene changes(signal pathway activation or inhibition), and
+      search for differential genes that can represent disease processes.
+
+      (4) Data management and statistics: All clinical information data are collected and entered
+      into the computer. All data are entered using the database established by the Clinical
+      Evaluation and Analysis Center of the unit. Data processing statisticians finally further
+      fully verify and check the completeness and accuracy of data before data entry. Data entry
+      and management by the person responsible for the establishment of a dedicated database, data
+      entry and management should be entered and proofread by two data managers. After completion,
+      SPSS 19.0 for Windows statistics software package is used for statistical processing.
+
+      After the completion of clinical information data statistics and sequencing analysis results,
+      the computer's &quot;in-depth learning&quot; function was used to complete the establishment of two
+      &quot;standards&quot; and one &quot;scheme&quot; using analysis tools such as rMATS and SURVIV.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Anticipated">May 1, 2019</start_date>
+  <completion_date type="Anticipated">December 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>RNA-seq</measure>
+    <time_frame>2021-2022</time_frame>
+    <description>use questionnaire to research whether the target mutation gene combination analyzed by transcription group was consistent with clinical cell morphological diagnosis and disease progression.</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">120</enrollment>
+  <condition>MDS</condition>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>MDS group</intervention_name>
+    <description>patients diagnosed as MDS with high risk，aged 18-80，men/wemen</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        the population of MDS patients were from the five centers who were visiting the doctor
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Patients who meet MDS diagnostic criteria with high risk of IPSS-R
+
+        Exclusion Criteria:
+
+        with no MDS
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>lin s yun, doctor</last_name>
+    <role>Study Chair</role>
+    <affiliation>zjhtcm</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>LIN s yun, doctor</last_name>
+    <phone>13588887285</phone>
+    <email>lsyww@163.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>shen y ying, master</last_name>
+    <phone>18072946912</phone>
+    <email>413808426@qq.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>ZJHTCM</name>
+      <address>
+        <city>Hangzhou</city>
+        <state>Zhejiang</state>
+        <zip>310006</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>lin s yun, doctor</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>April 2019</verification_date>
+  <study_first_submitted>April 3, 2019</study_first_submitted>
+  <study_first_submitted_qc>April 3, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 4, 2019</study_first_posted>
+  <last_update_submitted>April 18, 2019</last_update_submitted>
+  <last_update_submitted_qc>April 18, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 22, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Zhejiang Provincial Hospital of TCM</investigator_affiliation>
+    <investigator_full_name>Shengyun Lin</investigator_full_name>
+    <investigator_title>Clinical Professor</investigator_title>
+  </responsible_party>
+  <keyword>MDS</keyword>
+  <keyword>RNA-seq</keyword>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

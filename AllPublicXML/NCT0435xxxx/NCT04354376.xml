@@ -1,0 +1,268 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04354376</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DUPLICATE-TRANSCEND</org_study_id>
+    <nct_id>NCT04354376</nct_id>
+  </id_info>
+  <brief_title>Replication of the TRANSCEND Antihypertensive Trial in Healthcare Claims Data</brief_title>
+  <official_title>Replication of the TRANSCEND Antihypertensive Trial in Healthcare Claims Data</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brigham and Women's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Brigham and Women's Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Investigators are building an empirical evidence base for real world data through large-scale
+      replication of randomized controlled trials. The investigators' goal is to understand for
+      what types of clinical questions real world data analyses can be conducted with confidence
+      and how to implement such studies.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a non-randomized, non-interventional study that is part of the RCT DUPLICATE
+      initiative (www.rctduplicate.org) of the Brigham and Women's Hospital, Harvard Medical
+      School. It is intended to replicate, as closely as is possible in healthcare insurance claims
+      data, the trial listed below/above. Although many features of the trial cannot be directly
+      replicated in healthcare claims, key design features, including outcomes, exposures, and
+      inclusion/exclusion criteria, were selected to proxy those features from the trial.
+      Randomization is also not replicable in healthcare claims data but was proxied through a
+      statistical balancing of measured covariates according to standard practice. Investigators
+      assume that the RCT provides the reference standard treatment effect estimate and that
+      failure to replicate RCT findings is indicative of the inadequacy of the healthcare claims
+      data for replication for a range of possible reasons and does not provide information on the
+      validity of the original RCT finding.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">September 22, 2017</start_date>
+  <completion_date type="Anticipated">September 22, 2020</completion_date>
+  <primary_completion_date type="Anticipated">September 22, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Relative hazard of composite outcome of Congestive Heart Failure, Stroke, MI, and Mortality</measure>
+    <time_frame>Through study completion (a median of ***118-123**** days)</time_frame>
+    <description>Relative hazard of composite outcome of Congestive Heart Failure, Stroke, MI, and Mortality - Please refer to uploaded protocol for full definition due to size limitations.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">40048</enrollment>
+  <condition>Hypertension</condition>
+  <arm_group>
+    <arm_group_label>Loop diuretics, thiazides, dihydropyridines</arm_group_label>
+    <description>Reference group</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Telmisartan</arm_group_label>
+    <description>Exposure group</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Loop diuretics, thiazides, dihydropyridines</intervention_name>
+    <description>Loop diuretics, thiazides, or dihydropyridines dispensing claim is used as the reference</description>
+    <arm_group_label>Loop diuretics, thiazides, dihydropyridines</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Telmisartan</intervention_name>
+    <description>Telmisartan dispensing claim is used as the exposure</description>
+    <arm_group_label>Telmisartan</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        This study will involve a new user, parallel group, propensity score-matched, retrospective
+        cohort study design comparing telmisartan to other antihypertensives, including loop
+        diuretics, thiazides, and dihydropyridines. Although the trial compared telmisartan with
+        placebo added to usual care, the investigators selected an active comparator for this study
+        because non-user comparator groups are known to often lead to confounding by indication and
+        biased treatment effect estimates. This group of other antihypertensives were selected as
+        the primary comparator because intolerance to ACEi was a primary inclusion criteria for the
+        trial. Therefore, patients in both arms were on a mix of non-ACEi and non-ARB
+        antihypertensives as background therapy.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Please see: https://drive.google.com/drive/folders/1WD618wrywYjEaXzfLTcuK-VCcnb6b-gV for
+        full code and algorithm definitions.
+
+        The patients will be required to have continuous enrollment during baseline period of 180
+        days before initiation of telmisartan or a comparator drug (cohort entry).
+
+        Eligible cohort entry dates: Market availability of telmistartan in the U.S. started on
+        November 10, 1998, however, the Marketscan and Optum data are available at BWH only from
+        Jan 1, 2003 and Jan 1, 2004, respectively.
+
+        For Marketscan: Jan 1, 2003 -Dec 2017 (end of data availability). For Optum: Jan 1,
+        2004-June 30, 2019 (end of data availability).
+
+        Inclusion Criteria:
+
+          -  Individuals 55 years of age with 1 of the following:
+
+               -  1. Coronary artery disease
+
+                    -  1a. Previous myocardial infraction ( &gt; 2 days post uncomplicated MI)
+
+                    -  1b. Stable angina or unstable angina &gt; 30 days before informed consent and
+                       with documented evidence of multivessel coronary artery disease
+
+                    -  1c. Multi-vessel PTCA &gt;30 days before informed consent
+
+                    -  1d. Multi-vessel CABG surgery &gt; 4 years before informed consent, or with
+                       recurrent angina following surgery
+
+               -  2. Peripheral artery disease
+
+                    -  2a. Previous limb bypass surgery or Previous limb bypass surgery or
+                       angioplasty
+
+                    -  2b. Previous limb or foot amputation
+
+                    -  2c. Intermittent claudication, with ankle:arm BP ratio =&lt; 0.80 on at least 1
+                       side
+
+                    -  2d. Significant peripheral artery stenosis ( &gt; 50%) documented by
+                       angiography or non-invasive testing
+
+               -  3. Cerebrovascular disease
+
+                    -  3a. Previous stroke
+
+                    -  3b. Transient ischemic attacks &gt;7 days and &lt;1 year before informed consent
+
+               -  4. Diabetus mellitus
+
+                    -  4a. Diabetes mellitus High-risk diabetics with evidence of endorgan damage
+
+        Exclusion Criteria:
+
+          -  1. Medication use
+
+               -  1a. Inability to discontinue ACE inhibitors or ARB
+
+               -  1b. Known hypersensitivity or intolerance to ACE inhibitors or ARB (patient
+                  intolerant of ACE inhibitor can be enrolled in TRANSCEND)
+
+          -  2. Cardiovascular disease (HF)
+
+               -  2a. Symptomatic congestive heart failure
+
+               -  2b. Hemodynamically significant primary valvular or outflow tract obstruction
+
+               -  2c. Constrictive pericarditis
+
+               -  2d. Complex congenital heart disease
+
+               -  2e. Syncopal episodes of unknown etiology &lt;3 months before informed consent
+
+               -  2f. Planned cardiac surgery or PTCA &lt;3 months of informed consent
+
+               -  2g. Uncontrolled hypertension on treatment (eg, BP &gt;160/100 mm Hg)
+
+               -  2f. Heart transplant recipient
+
+               -  2g. Stroke due to subarachnoid hemorrhage
+
+          -  3. Other conditions
+
+               -  3a. Significant renal artery disease
+
+               -  3b. Hepatic dysfunction
+
+               -  3c. Uncorrected volume or sodium depletion
+
+               -  3d. Primary hyperaldosteronism
+
+               -  3e. Hereditary fructose intolerance
+
+               -  3f. Other major noncardiac illness expected to reduce life expectancy or
+                  interfere with study participation
+
+               -  3g. Simultaneously taking another experimental drug
+
+               -  3h. Significant disability precluding regular follow-up visits
+
+               -  3I. Unable or unwilling to provide written informed consent
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>55 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Jessica Franklin, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Brigham and Women's Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Brigham And Women's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02120</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2020</verification_date>
+  <study_first_submitted>April 17, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 20, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 21, 2020</study_first_posted>
+  <last_update_submitted>May 13, 2020</last_update_submitted>
+  <last_update_submitted_qc>May 13, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 15, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Brigham and Women's Hospital</investigator_affiliation>
+    <investigator_full_name>Jessica Franklin</investigator_full_name>
+    <investigator_title>Assistant Professor of Medicine</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hypertension</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Telmisartan</mesh_term>
+    <mesh_term>1,4-dihydropyridine</mesh_term>
+    <mesh_term>Diuretics</mesh_term>
+    <mesh_term>Sodium Potassium Chloride Symporter Inhibitors</mesh_term>
+    <mesh_term>Sodium Chloride Symporter Inhibitors</mesh_term>
+  </intervention_browse>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>May 13, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/76/NCT04354376/Prot_SAP_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

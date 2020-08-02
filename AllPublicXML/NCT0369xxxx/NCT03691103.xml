@@ -1,0 +1,211 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03691103</url>
+  </required_header>
+  <id_info>
+    <org_study_id>V107C-209</org_study_id>
+    <nct_id>NCT03691103</nct_id>
+  </id_info>
+  <brief_title>Record and Analyze the Data of Patient Undergoing Anesthesia for Laparoscopic Cholecystectomy From Patient Monitoring Instruments</brief_title>
+  <official_title>To Record and Analyze the Physiological Data From Anesthetic Monitoring Instruments Regarding Cardiovascular, Neurological System, and Surgical Stress for Patients Undergoing Laparoscopic Cholecystectomy in a Stepwise Approach.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Taipei Veterans General Hospital, Taiwan</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Duke University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Taipei Veterans General Hospital, Taiwan</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To record the digital data from monitoring instruments (standard patient monitor) containing
+      cardiovascular system information, and from depth-of-anesthesia monitoring modules
+      (Bispectral index, Entropy module, Surgical Plethysmography Index, Analgesia Nociception
+      Index) containing neurological system information captured in the patient monitor, as well as
+      the physiological data regarding anesthetic dosage, respiratory gas analysis and the standard
+      monitoring requirement of anesthesia. The investigators also record the precise time points
+      of detail surgical steps during the laparoscopic cholecystectomy. Clinical data collected
+      from these monitoring instrument will be used to gain more understanding of the complex
+      interaction between anesthetic effect, surgical procedure, autonomic response and drug
+      modeling. The goal is to obtain the performance of each monitoring index in detail surgical
+      steps.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The dynamic interaction between surgery and anesthesia is closely monitored by the
+      anesthesiologist using various monitoring instruments in the operating room. However, it
+      requires the recording and collecting the data for further analysis to answer the question
+      that what is the exact effects of the surgical procedure to human body. In particular, the
+      measurement performance of transient bradycardia calculated from electrocardiography and the
+      monitoring indices such as Surgical Plethysmography Index, Analgesia Nociception Index should
+      be compared side-by-side using data from the same subject.
+
+      In this prospective observational study, the investigators will enroll 40 patients undergoing
+      elective laparoscopic surgery. Anesthetic management and surgery will be performed as usual
+      clinical practice.
+
+      The investigators will record the digital data exported from monitoring instruments,
+      including cardiovascular system information (electrocardiography, photo-plethysmography ,
+      blood pressure and any additional monitoring items clinically required), neurological system
+      information (Bispectral index, Entropy, Surgical Plethysmography Index ) and the respiratory
+      gas monitoring (gas analyzer, respiratory waveform). All above data are provided by standard
+      patient monitor (CARESCAPE Monitor B850, GE Healthcare). Analgesia Nociception Index are
+      provides by Analgesia Nociception Index monitoring instruments (Mdoloris(TM) Medical
+      Systems).
+
+      The detailed surgical steps will be noted with precise time stamps to pinpoint the surgical
+      effects afterwards. Registered events including anesthetic induction, intubation,
+      disinfection, each skin incision, peritoneum perforation, laparoscopic trocar insertion,
+      dissection, ligation and excision of cystic duct and vessel, electrocauterization, and
+      extraction of specimen. The recording is ended before the end of monitoring in the operating
+      room. All physiological data and demographic data will be stored in digital media after being
+      de-linked from personal identification.
+
+      Data analysis and Statistics will be particularly performed to explore the temporal effect
+      and relationship. Methods including modeling, windowing and non-parametric spectral
+      estimation will be used.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">September 2018</start_date>
+  <completion_date type="Anticipated">November 2018</completion_date>
+  <primary_completion_date type="Anticipated">October 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Correlation of the instantaneous effects and accumulative noxious effects of surgical steps with quantitative transient bradycardia indices: high frequency power, low frequency power, and the low-to-high ratio</measure>
+    <time_frame>For each surgical events (skin incision, dissection... ), time frame will be one minute before the event to one minute afterward</time_frame>
+    <description>Frequency power will be calculated using time-frequency analysis technique. The unit of high frequency power and low frequency power is millisecond square. There is no unit for the ratio. Both absolute change and relative change will be calculated. These indices will be compared with physiological data from patient monitoring instrument also. Range of Spearman correlation is -1 to 1 and Range of prediction probability is 0.5-1.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Pharmacological modeling of epidemiological factors and anesthetic factors to physiological data from patient monitoring instrument</measure>
+    <time_frame>The intra-operative period which mostly lasts less than two hours</time_frame>
+    <description>The effects of age, gender, pre-existing diseases, the effect site concentration of anesthetics and the combined effects are taken into consideration in real-life clinical anesthetic management. The collected data will be put altogether for analysis by training and verifying in a pharmacological drug surface modeling or other more advanced modeling tools, which include but not limited to &quot;Concentration-effect curve&quot;, &quot;Reduced Greco model&quot;, &quot;Minto model&quot; and &quot;Hierarchy model&quot;.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">40</enrollment>
+  <condition>Anesthesia and Analgesia</condition>
+  <condition>Laparoscopic Surgical Procedure</condition>
+  <condition>Monitoring, Physiologic</condition>
+  <condition>Hemodynamic Monitoring</condition>
+  <condition>Intraoperative Neurophysiological Monitoring</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients' surgeons belong to one surgical team to provide consistent laparoscopic
+        cholecystectomy procedures
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  patients agree and plan to undergo elective laparoscopic cholecystectomy surgery for
+             medical issues such as cholecystitis, gall bladder tumor or gall stone.
+
+        Exclusion Criteria:
+
+          -  major cardiac problems
+
+          -  uncontrolled hypertension
+
+          -  arrhythmia shown in pre-operative ECG
+
+          -  major neurological disease
+
+          -  vulnerable populations per institutional regulation, including under-age, history of
+             drug abuse, HIV carrier, AIDS, aborigine, prisoner.
+
+          -  anticipated difficult airways
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Chien-Kun Ting, Dr.</last_name>
+    <role>Study Director</role>
+    <affiliation>Department of Anesthesiology, Taipei Veterans General Hospital, Taiwan</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Kuang-Yi Chang, Dr.</last_name>
+    <phone>+886-938593159</phone>
+    <email>sufentanil@gmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Chien-Kun Ting, Dr.</last_name>
+    <phone>+886-938593137</phone>
+    <email>ckting@vghtpe.gov.tw</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Department of Anesthesiology, Taipei Veterans General Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <zip>112</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <link>
+    <url>http://dataverse.harvard.edu/</url>
+    <description>Data will be uploaded and shared at this website</description>
+  </link>
+  <reference>
+    <citation>Lin YT, Wu HT, Tsao J, Yien HW, Hseu SS. Time-varying spectral analysis revealing differential effects of sevoflurane anaesthesia: non-rhythmic-to-rhythmic ratio. Acta Anaesthesiol Scand. 2014 Feb;58(2):157-67. doi: 10.1111/aas.12251.</citation>
+    <PMID>24410106</PMID>
+  </reference>
+  <reference>
+    <citation>Liou JY, Ting CK, Mandell MS, Chang KY, Teng WN, Huang YY, Tsou MY. Predicting the Best Fit: A Comparison of Response Surface Models for Midazolam and Alfentanil Sedation in Procedures With Varying Stimulation. Anesth Analg. 2016 Aug;123(2):299-308. doi: 10.1213/ANE.0000000000001299.</citation>
+    <PMID>27192475</PMID>
+  </reference>
+  <reference>
+    <citation>Li R, Frasch MG, Wu HT. Efficient Fetal-Maternal ECG Signal Separation from Two Channel Maternal Abdominal ECG via Diffusion-Based Channel Selection. Front Physiol. 2017 May 16;8:277. doi: 10.3389/fphys.2017.00277. eCollection 2017.</citation>
+    <PMID>28559848</PMID>
+  </reference>
+  <verification_date>September 2018</verification_date>
+  <study_first_submitted>August 20, 2018</study_first_submitted>
+  <study_first_submitted_qc>September 27, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 1, 2018</study_first_posted>
+  <last_update_submitted>September 27, 2018</last_update_submitted>
+  <last_update_submitted_qc>September 27, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 1, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>All de-identified IPD that underlie results in a publication for all primary and secondary outcome measures will be shared</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_info_type>Clinical Study Report (CSR)</ipd_info_type>
+    <ipd_info_type>Analytic Code</ipd_info_type>
+    <ipd_time_frame>Data will be available within 6 months of study completion</ipd_time_frame>
+    <ipd_access_criteria>Data access requests will be reviewed by the Institutional Review Board, Taipei Veterans General Hospital, Taiwan. Requestors will be required to sign a Data Access Agreement</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

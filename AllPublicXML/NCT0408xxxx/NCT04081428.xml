@@ -1,0 +1,236 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04081428</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AC18048</org_study_id>
+    <nct_id>NCT04081428</nct_id>
+  </id_info>
+  <brief_title>Using Breath, Cell Free DNA and Image Analysis to PRedIct Normal TissUe and Tumour Response During Prostate Cancer SBRT</brief_title>
+  <acronym>PRINToUT</acronym>
+  <official_title>Using Breath,Cell Free DNA and Image Analysis to PRedIct Normal TissUe and Tumour Response During Prostate Cancer SBRT With RayPilot® Motion Management</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>NHS Lothian</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>NHS Lothian</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Personalisation of radiotherapy dose based on real-time assessments of normal tissue and
+      tumour response would maximise cure and minimise treatment related toxicity. During a 5
+      fraction course of prostate Stereotactic Body Radiotherapy (SBRT) this pilot study will
+      assess whether a number of different biomarker approaches can predict for normal tissue and
+      tumour response. Firstly the investigators will analyse volatile organic compounds released
+      within the breath with each fraction of treatment. Secondly the investigators will analyse
+      cell free normal tissue and tumour DNA released during treatment. Thirdly the investigators
+      will develop imaging processing algorithms to look for imaging biomarkers predicting rectal
+      wall toxicity using pre and post treatment cone beam CT verification images. Each of these
+      approaches will be assessed against prostate specific antigen (PSA), Common Terminology
+      Criteria for Adverse Events (CTCAE v4.0) criteria and Expanded Prostate Cancer Index
+      Composite (EPIC-26) patient reported outcomes with a maximum of 24 months of follow up.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Radiotherapy scheduling and prescription dose does not take into account individual patient
+      heterogeneity in normal tissue response or tumour response. Personalisation of radiotherapy
+      dose based on real-time assessments of normal tissue and tumour response would maximise cure
+      and minimise treatment related toxicity. During a 5 fraction course of prostate Stereotactic
+      Body Radiotherapy (SBRT) this pilot study will assess whether a number of different biomarker
+      approaches can predict for normal tissue and tumour response. Firstly the investigators will
+      analyse volatile organic compounds released within the breath with each fraction of treatment
+      using Gas Chromatography Ion Mobility Spectroscopy (GC-IMS). The investigators have extensive
+      experience in this area within the TOXI-Triage research program (www.toxi-triage.eu/)
+      including deep learning and machine learning techniques to interrogate the metabolomics data
+      generated. Secondly the investigators will analyse cell free normal tissue and tumour DNA
+      released during treatment to assess both tumour and normal tissue response. Radiotherapy
+      releases large amounts in to the blood stream allowing easier quantitative analysis. Thirdly
+      the investigators will look for imaging biomarkers of rectal wall toxicity using imaging
+      analysis algorithms of on-treatment cone beam verification CT images taken before and after
+      each radiotherapy treatment. The RayPilot® system made by Micropos Medical Ltd tracks
+      prostate motion throughout the SBRT delivery to ensure that the treatment dose is delivered
+      with great precision. The potential of each biomarker approach for predicting normal tissue
+      and tumour response will be assessed against PSA and CTCAE v 4.0 toxicity criteria and
+      EPIC-26 patient reported outcome measures after 24 months of patient follow up.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 11, 2018</start_date>
+  <completion_date type="Anticipated">October 11, 2021</completion_date>
+  <primary_completion_date type="Anticipated">October 11, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Measurement of the relative change in Gas Chromatography Ion Mobility Spectra (GC-IMS) of Volatile Organic Compounds (VOC's) from breath samples of men with prostate cancer treated with prostate stereotactic body radiotherapy (SBRT)</measure>
+    <time_frame>pre treatment before each fraction of SBRT day 1 to day 5, then at 1 and 3 hours post treatment day 1 to day 5</time_frame>
+    <description>Measurement of the change in the 3D chromatogram of volatile organic compound GC-IMS Spectra detected from baseline pre-treatment, to completion of SBRT at each time point, for each patient. Each 3D chromatogram GC-IMS printout is generated from the readings of each axis. The y axis is associated with GC separation of VOC's, the x axis measures the movement of the generated ions (IMS drift time) and the z axis ion detector response equating to concentration. These 3 values separate, identify and quantify the VOC compounds detected.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Measurement of the relative change in normal tissue and tumour cell free DNA (cfDNA) released into the blood of men with prostate cancer treated with prostate stereotactic body radiotherapy (SBRT)</measure>
+    <time_frame>pre treatment before each fraction of SBRT day 1 to day 5, then at 1 and 3 hours post treatment day 1 to day 5</time_frame>
+    <description>Change in the density of 90-150 base pair fragment size cfDNA from baseline pre-treatment to completion of SBRT for each time point, for each patient</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Measurement of the true rectal wall delivered radiation dose compared to planned dose during the prostate SBRT for each patient</measure>
+    <time_frame>Immediately pre each fraction of SBRT day 1 to 5 and immediately post each fraction of SBRT day 1 to 5</time_frame>
+    <description>Dose calculation in cGy between expected and observed actual dose to the rectal wall using pre and post each fraction radiotherapy linear accelerator treatment verification cone beam CT scans</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Measurement of SBRT treatment related acute and late normal tissue toxicity</measure>
+    <time_frame>Baseline, completion of SBRT, week 6, then 3 months, 6 months, 12 months, 18 months and 24 months post treatment</time_frame>
+    <description>Common Terminology Criteria for Adverse Events CTCAE v 4.0 scores for urinary and bowel treatment related toxicity. Scale runs form Grade 1 mild requiring no intervention to grade 5 death</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Measurement of SBRT treatment related quality of life</measure>
+    <time_frame>Baseline, completion of SBRT, week 6, then 3 months, 6 months, 12 months, 18 months and 24 months post treatment</time_frame>
+    <description>Expanded Prostate Cancer Index Composite EPIC-26 patient reported outcomes questionnaire. A clinical tool to assess urinary, bowel, sexual and vitality health. The score from each of the 5 domains runs from 0 (none) to 12 (severe) impact on quality of life. Each domain score when added together gives an overall score of zero (unaffected) to 60 (severely affected)</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">12</enrollment>
+  <condition>Prostate Cancer</condition>
+  <condition>Radiotherapy Side Effects</condition>
+  <condition>Volatile Organic Compounds</condition>
+  <condition>DNA Damage</condition>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>Stereotactic Body Radiotherapy</intervention_name>
+    <description>Daily collection of breath and blood before and after each of the 5 radiotherapy treatment sessions. Before and after daily cone beam CT image collection</description>
+    <other_name>Breath Analysis</other_name>
+    <other_name>Cell-free DNA</other_name>
+    <other_name>Imaging biomarkers</other_name>
+    <other_name>Treatment image guidance with the RayPilot®</other_name>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Volatile Organic Compound Breath Analysis, Cell-Free DNA normal tissue and tumour DNA, Cone
+      Beam CT pre and post each fraction of radiotherapy, Genomic saliva analysis.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Men diagnosed with localised prostate cancer within the South East of Scotland cancer
+        network who are suitable for study entry
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Low risk prostate cancer T1-2, PSA&lt;10ng/ml, Gleason score (GS) 3+3=6
+
+          -  Intermediate risk prostate cancer T1-T2, PSA 10-20ng/ml,GS ≤7(3+4=7 only)
+
+          -  World Health Organisation (WHO) performance status 0-2
+
+          -  Prostate volume ≤90cc
+
+          -  International Prostate Symptom Score (IPSS) ≤20
+
+          -  Peak urinary flow rate (Q-max) &gt;10cc/sec
+
+          -  Urinary residual &lt;250mls total
+
+          -  No prior Trans Urethral Resection of the Prostate (TURP)
+
+          -  No previous pelvic radiotherapy
+
+          -  Able to give informed consent
+
+          -  Aged between 18-85 years of age
+
+        Exclusion Criteria:
+
+          -  Inflammatory bowel disease
+
+          -  Previous androgen deprivation therapy
+
+          -  History of urinary retention
+      </textblock>
+    </criteria>
+    <gender>Male</gender>
+    <gender_based>Yes</gender_based>
+    <gender_description>men with prostate cancer</gender_description>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Duncan B McLaren, MBBS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>NHS Lothian</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Susan Forman</last_name>
+    <phone>+44 131 537 1000</phone>
+    <phone_ext>3253</phone_ext>
+    <email>susan.forman@luht.scot.nhs.uk</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Edinburgh Cancer Centre, Western General Hospital</name>
+      <address>
+        <city>Edinburgh</city>
+        <state>Mid Lothian</state>
+        <zip>EH4 2XU</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Susan Forman</last_name>
+      <phone>+44 131 537 1000</phone>
+      <phone_ext>3253</phone_ext>
+      <email>susan.forman@luht.scot.nhs.uk</email>
+    </contact>
+    <investigator>
+      <last_name>Duncan B McLaren, MBBS</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>August 2019</verification_date>
+  <study_first_submitted>August 1, 2019</study_first_submitted>
+  <study_first_submitted_qc>September 4, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 9, 2019</study_first_posted>
+  <last_update_submitted>September 4, 2019</last_update_submitted>
+  <last_update_submitted_qc>September 4, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 9, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Prostate cancer</keyword>
+  <keyword>Cell free DNA</keyword>
+  <keyword>Volatile organic compounds</keyword>
+  <keyword>Stereotactic Body Radiotherapy</keyword>
+  <keyword>Radiotherapy side effects</keyword>
+  <keyword>Imaging biomarkers</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Prostatic Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>The pilot data will be used to inform a larger study cohort and to establish the optimal methodology and time points for sample collection</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

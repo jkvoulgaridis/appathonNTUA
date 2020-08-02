@@ -1,0 +1,217 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04328792</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SHCHE201906</org_study_id>
+    <nct_id>NCT04328792</nct_id>
+  </id_info>
+  <brief_title>Prediction Model of CP-EBUS in the Diagnosis of Lymph Nodes</brief_title>
+  <official_title>Prediction Model Based on Deep Learning of CP-EBUS Multimodal Image in the Diagnosis of Benign and Malignant Lymph Nodes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shanghai Chest Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Shanghai Chest Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Endobronchial ultrasound (EBUS) multimodal image including grey scale, blood flow doppler and
+      elastography, can be used as non-invasive diagnosis and supplement the pathological result,
+      which has important clinical application value. In this study, EBUS multimodal image database
+      of 1000 inthoracic benign and malignant lymph nodes (LNs) will be constructed to train deep
+      learning neural networks, which can automatically select representative images and diagnose
+      LNs. Investigators will establish an artificial intelligence prediction model based on deep
+      learning of intrathoracic LNs, and verify the model in other 300 LNs.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Intrathoracic LNs enlargement has a wide range of diseases, among which intrathoracic LNs
+      metastasis of lung cancer is the most common malignant disease. Benign lesions, including
+      inflammation, tuberculosis and sarcoidosis, also need to be differentiated for targeted
+      treatment.
+
+      EBUS multimodal image including grey scale, blood flow doppler and elastography, can be used
+      as non-invasive diagnosis and supplement the pathological result, which has important
+      clinical application value. This study includes two parts: retrospectively construction of
+      EBUS artificial intelligence prediction model and multi-center prospectively validation of
+      the prediction model. A total of 1300 LNs will be enrolled in the study.
+
+      During the retention of videos, target LNs and peripheral vessels are examined using
+      ultrasound hosts (EU-ME2, Olympus or Hi-vision Avius, Hitachi) equipped with elastography and
+      doppler functions and ultrasound bronchoscopy (BF-UC260FW, Olympus or EB1970UK, Pentax).
+      Multimodal image data of target LNs are collected.
+
+      Investigators will construct artificial intelligence prediction model based on deep learning
+      using images from 1000 LNs firstly, and verify the model in other 300 LNs. This model will be
+      compared with traditional qualitative and quantitative evaluation methods to verify the
+      diagnostic efficacy.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 1, 2018</start_date>
+  <completion_date type="Anticipated">December 31, 2020</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Diagnostic efficacy of EBUS multimodal artificial intelligence prediction model based on videos</measure>
+    <time_frame>6 months post-procedure</time_frame>
+    <description>Diagnostic efficacy includes sensitivity, specificity, positive predictive value, negative predictive value and diagnostic accuracy.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic efficacy of traditional qualitative and quantitative methods</measure>
+    <time_frame>6 months post-procedure</time_frame>
+    <description>Diagnostic efficacy includes sensitivity, specificity, positive predictive value, negative predictive value and diagnostic accuracy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic efficacy of multimodal deep learning model based on images</measure>
+    <time_frame>6 months post-procedure</time_frame>
+    <description>Diagnostic efficacy includes sensitivity, specificity, positive predictive value, negative predictive value and diagnostic accuracy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Comparion of prediction model based on deeping learning with traditional qualitative and quantitative methods</measure>
+    <time_frame>6 months post-procedure</time_frame>
+    <description>Diagnostic efficacy includes sensitivity, specificity, positive predictive value, negative predictive value and diagnostic accuracy.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">1300</enrollment>
+  <condition>Lymph Node Disease</condition>
+  <arm_group>
+    <arm_group_label>Prospectively validation group</arm_group_label>
+    <description>Two diagnosis methods will be used in the prospective validation section, one is traditional qualitative and quantitative method, the other is artificial intelligence prediction model based on videos to compare the diagnostic efficacy.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with enlarged intrathoracic LNs that need to be diagnosed by EBUS-TBNA are
+        enrolled in this study.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Chest CT shows enlarged intrathoracic LNs (short diameter &gt; 1 cm) or PET / CT shows
+             patients with increased FDG uptake (SUV ≧ 2.0) in intrathoracic LNs;
+
+          2. Operating physician considered EBUS-TBNA should be performed on LNs for diagnosis or
+             preoperative staging of lung cancer;
+
+          3. Patients agree to undergo EBUS-TBNA, sign informed consent, and have no
+             contraindications.
+
+        Exclusion Criteria:
+
+        - Patients having other situations that are not suitable for EBUS-TBNA.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Jiayuan Sun, MD, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Shanghai Chest Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jiayuan Sun, MD, PhD</last_name>
+    <phone>86-21-22200000</phone>
+    <phone_ext>1511</phone_ext>
+    <email>jysun1976@163.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Shanghai Chest Hospital</name>
+      <address>
+        <city>Shanghai</city>
+        <state>Shanghai</state>
+        <zip>200030</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jiayuan Sun, PhD</last_name>
+      <phone>86-21-22200000</phone>
+      <phone_ext>1511</phone_ext>
+      <email>jysun1976@163.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <reference>
+    <citation>Steinfort DP, Conron M, Tsui A, Pasricha SR, Renwick WE, Antippa P, Irving LB. Endobronchial ultrasound-guided transbronchial needle aspiration for the evaluation of suspected lymphoma. J Thorac Oncol. 2010 Jun;5(6):804-9.</citation>
+    <PMID>20521347</PMID>
+  </reference>
+  <reference>
+    <citation>Sun J, Teng J, Yang H, Li Z, Zhang J, Zhao H, Garfield DH, Han B. Endobronchial ultrasound-guided transbronchial needle aspiration in diagnosing intrathoracic tuberculosis. Ann Thorac Surg. 2013 Dec;96(6):2021-7. doi: 10.1016/j.athoracsur.2013.07.005. Epub 2013 Sep 12.</citation>
+    <PMID>24035300</PMID>
+  </reference>
+  <reference>
+    <citation>Fujiwara T, Yasufuku K, Nakajima T, Chiyo M, Yoshida S, Suzuki M, Shibuya K, Hiroshima K, Nakatani Y, Yoshino I. The utility of sonographic features during endobronchial ultrasound-guided transbronchial needle aspiration for lymph node staging in patients with lung cancer: a standard endobronchial ultrasound image classification system. Chest. 2010 Sep;138(3):641-7. doi: 10.1378/chest.09-2006. Epub 2010 Apr 9.</citation>
+    <PMID>20382710</PMID>
+  </reference>
+  <reference>
+    <citation>Nakajima T, Anayama T, Shingyoji M, Kimura H, Yoshino I, Yasufuku K. Vascular image patterns of lymph nodes for the prediction of metastatic disease during EBUS-TBNA for mediastinal staging of lung cancer. J Thorac Oncol. 2012 Jun;7(6):1009-14. doi: 10.1097/JTO.0b013e31824cbafa.</citation>
+    <PMID>22525556</PMID>
+  </reference>
+  <reference>
+    <citation>Wang L, Wu W, Hu Y, Teng J, Zhong R, Han B, Sun J. Sonographic Features of Endobronchial Ultrasonography Predict Intrathoracic Lymph Node Metastasis in Lung Cancer Patients. Ann Thorac Surg. 2015 Oct;100(4):1203-9. doi: 10.1016/j.athoracsur.2015.04.143. Epub 2015 Jul 28.</citation>
+    <PMID>26228606</PMID>
+  </reference>
+  <reference>
+    <citation>Izumo T, Sasada S, Chavez C, Matsumoto Y, Tsuchida T. Endobronchial ultrasound elastography in the diagnosis of mediastinal and hilar lymph nodes. Jpn J Clin Oncol. 2014 Oct;44(10):956-62. doi: 10.1093/jjco/hyu105. Epub 2014 Aug 13.</citation>
+    <PMID>25121724</PMID>
+  </reference>
+  <reference>
+    <citation>Săftoiu A, Vilmann P, Gorunescu F, Janssen J, Hocke M, Larsen M, Iglesias-Garcia J, Arcidiacono P, Will U, Giovannini M, Dietrich C, Havre R, Gheorghe C, McKay C, Gheonea DI, Ciurea T; European EUS Elastography Multicentric Study Group. Accuracy of endoscopic ultrasound elastography used for differential diagnosis of focal pancreatic masses: a multicenter study. Endoscopy. 2011 Jul;43(7):596-603. doi: 10.1055/s-0030-1256314. Epub 2011 Mar 24.</citation>
+    <PMID>21437851</PMID>
+  </reference>
+  <reference>
+    <citation>Gulshan V, Peng L, Coram M, Stumpe MC, Wu D, Narayanaswamy A, Venugopalan S, Widner K, Madams T, Cuadros J, Kim R, Raman R, Nelson PC, Mega JL, Webster DR. Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs. JAMA. 2016 Dec 13;316(22):2402-2410. doi: 10.1001/jama.2016.17216.</citation>
+    <PMID>27898976</PMID>
+  </reference>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>December 2, 2019</study_first_submitted>
+  <study_first_submitted_qc>March 29, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 31, 2020</study_first_posted>
+  <last_update_submitted>March 31, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 31, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 2, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Shanghai Chest Hospital</investigator_affiliation>
+    <investigator_full_name>Jiayuan Sun</investigator_full_name>
+    <investigator_title>Director,Department of Respiratory Endoscopy ,Shanghai Chest Hospital</investigator_title>
+  </responsible_party>
+  <keyword>EBUS-TBNA</keyword>
+  <keyword>Intrathoracic lymph node</keyword>
+  <keyword>Multimodal image</keyword>
+  <keyword>Deep learning</keyword>
+  <keyword>Prediction model</keyword>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Investigators may release the database after the study, but no decision has been made yet.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

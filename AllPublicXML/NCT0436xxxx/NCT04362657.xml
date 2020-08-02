@@ -1,0 +1,215 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04362657</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CREC 2019.274.T</org_study_id>
+    <nct_id>NCT04362657</nct_id>
+  </id_info>
+  <brief_title>Computer Aided Diagnosis in Upper GI Endoscopy</brief_title>
+  <acronym>AIOGD</acronym>
+  <official_title>Computer Aided Diagnosis in Upper GI Endoscopy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Chinese University of Hong Kong</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Chinese University of Hong Kong</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study aimed to investigate the clinical application of Artificial Intelligence Software
+      for computer aided diagnosis (CAD), for real-time anatomical coverage, automatic
+      Identification, classification and interpretation of abnormal lesions in upper GI endoscopy,
+      and benchmarking their accuracy compared to endoscopists.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      5.1 Phase One This phase of the study is non-interventional. It involves two sections:
+      training cohort and validation cohort.
+
+      5.1.1 Training Cohort Such artificial intelligence models typically need a lot of data to be
+      fed in, so that it can predict the results with a good accuracy. Since it uses machine
+      learning, the accuracy gets better with each data set that is fed in. For the training
+      cohort, prospective collection of videos on diagnostic OGD would be done. Selected
+      endoscopists would be primed on the examination protocol. Patients would be sedated and given
+      oral N-acetylcysteine 30 mins before the procedure. Investigators will record basic
+      epidemiological, analytical and clinical data from patient records. ICD-10 diagnostic codes
+      or similar diagnostic recording measures and recorded lab data will be used to determine
+      diagnosis. The Procedure will be done using Olympus 290 systems under conscious sedation
+      after informed written consent. The procedure will be recorded and the video file will be
+      saved for future use. Images of suspected lesions and certain anatomic landmarks will also be
+      saved like Esophagus (upper, middle, lower), gastroesophageal junction, fundus, body and
+      antrum of stomach, incisura and pylorus and first and second part of duodenum. These images
+      will also be used in initial training of the CADT. Since all endoscopic procedures in the
+      endoscopy centre of Prince of Wales Hospital have been recorded since December 2018, some OGD
+      that has been performed will be screened for quality and would also be used in this training
+      cohort. 150-200 patient videos would be marked at different anatomical sites by trained
+      endoscopists. These videos would be anonymized. The training cohort would be repeated until
+      the sensitivity and specificity are over 90%.
+
+      5.1.2 Validation Cohort After feeding these images to the software, a validation cohort would
+      be performed. All consecutive patients undergoing diagnostic OGD meeting the inclusion and
+      exclusion criteria in the Prince of Wales Hospital would be included in the study. The
+      endoscopists would be blinded to the presence of the CADT and the standard protocol. The
+      endoscopist would perform a diagnostic OGD as per usual practice. The procedure would be
+      recorded and accessed by the CADT at the same time. The same video would be validated by a
+      specialist endoscopist on the adequacy of the anatomical sites covered and the preparation of
+      the stomach. This would be considered as the gold standard. The specialist endoscopist would
+      be blinded to the result of the CADT. The CADT result would be compared against the
+      specialist endoscopist. Sensitivity and specificity of the CADT results would be generated.
+      If it is lower than 90%, further pictures/ videos have to be fed in for the training cohort.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 20, 2020</start_date>
+  <completion_date type="Anticipated">July 22, 2022</completion_date>
+  <primary_completion_date type="Anticipated">January 22, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Anatomical coverage during OGD by CAD</measure>
+    <time_frame>24 hours</time_frame>
+    <description>Rate of complete examination of the Upper GI tract during OGD guided by CAD</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Procedure time</measure>
+    <time_frame>24 hours</time_frame>
+    <description>Time to complete the OGD</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Endoscopists satisfactory score</measure>
+    <time_frame>24 hours</time_frame>
+    <description>Assessment of satisfaction of endoscopists in application of CAD basing on VAS score 0 to 10</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Upper Gastrointestinal Disorder</condition>
+  <condition>OGD</condition>
+  <arm_group>
+    <arm_group_label>Computer aided diagnosis</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Using CAD to assist in completeness of the examination during OGD</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Computer Aided Diagnosis</intervention_name>
+    <description>Computer Aided diagnosis is an environment-enhancing technology developed to aid humans to improve their accuracy, speed and confidence by providing live feedback during the procedure, on request, or after the procedure has been completed.</description>
+    <arm_group_label>Computer aided diagnosis</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Patients undergoing diagnostic OGD for evaluation of their symptoms
+
+          2. Age &gt;= 18
+
+        Exclusion Criteria:
+
+          1. Patients refusing consent/not willing to participate in the study
+
+          2. Patients where biopsies cannot or have not been taken
+
+          3. Patients with history of gastrectomy
+
+          4. Patient admitted for upper gastrointestinal bleeding
+
+          5. Patient who are not suitable for EGD examination (such as acute peritonitis with
+             suspected perforated bowel)
+
+          6. Pregnant females
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Philip Chiu, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Chinese University of Hong Kong</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Shannon Chan, FRCSEd</last_name>
+    <phone>+85235053952</phone>
+    <email>shannonchan@surgery.cuhk.edu.hk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Man Yee Yung, RN</last_name>
+    <phone>+85235052956</phone>
+    <email>myyung@surgery.cuhk.edu.hk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Combined Endoscopy Center, Prince of Wales Hospital</name>
+      <address>
+        <city>Hong Kong</city>
+        <zip>00000</zip>
+        <country>Hong Kong</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Philip Chiu, MD</last_name>
+      <phone>85226322627</phone>
+      <email>philipchiu@surgery.cuhk.edu.hk</email>
+    </contact>
+    <contact_backup>
+      <last_name>Man Yee Yung</last_name>
+      <phone>+85235052956</phone>
+      <email>myyung@surgery.cuhk.edu.hk</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Philip WY Chiu, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Hong Kong</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>April 22, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 24, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 27, 2020</study_first_posted>
+  <last_update_submitted>April 27, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 27, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 29, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Chinese University of Hong Kong</investigator_affiliation>
+    <investigator_full_name>Philip Wai Yan CHIU</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>Computer aided diagnosis</keyword>
+  <keyword>OGD</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Gastrointestinal Diseases</mesh_term>
+    <mesh_term>Digestive System Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

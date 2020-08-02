@@ -1,0 +1,295 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04461990</url>
+  </required_header>
+  <id_info>
+    <org_study_id>BCIG</org_study_id>
+    <nct_id>NCT04461990</nct_id>
+  </id_info>
+  <brief_title>Clinical Study of Imaging Genomics Based on Machine Learning for BCIG</brief_title>
+  <official_title>Clinical Study of Imaging Genomics Based on Machine Learning for Breast Cancer Molecular Typing and Risk Prediction (BCIG)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Fudan University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>RenJi Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>International Peace Maternity and Child Health Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Fudan University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      1. Identify the imaging features of breast cancer with different molecular types
+
+        2. Reveal the association between hormone receptor positive/HER2 negative breast cancer and
+           imaging histology, Oncotype Dx recurrence score
+
+        3. Combine genomics and imaging to establish a predictive model for the sensitivity of
+           HER2-positive breast cancer targeted therapy
+
+        4. Establish an imaging genomics prediction model for triple-negative breast cancer
+           molecular subtypes, and clarify the imaging genomics characteristics of the therapeutic
+           targets of each subtype
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Research design
+
+        1. Research on the molecular typing of breast cancer based on imaging features
+
+        2. Establish a Luminal breast cancer recurrence risk prediction model
+
+        3. Establish HER2 targeted therapy sensitivity prediction model
+
+        4. Establish TNBC molecular subtype prediction model Research methods Research Object This
+           study used a multi-center study to prospectively enroll breast cancer patients diagnosed
+           with pathology. All enrolled patients had complete clinical data, including demographic
+           characteristics (gender, age, menstrual status and fertility history), and pathological
+           data (histopathological data). Staging, immunohistochemical status and FISH, genetic
+           testing records the recurrence score and genotype), imaging data, complete treatment and
+           follow-up (whether there is local recurrence and metastasis, and the time of diagnosis).
+
+      Magnetic resonance examination In order to maintain the comparability between the images and
+      reduce the systematic errors, each center selects a fixed MR device for scanning. Among them,
+      a. Oncology Hospital chose to scan images with 3.0T (Siemens Skyra) MR equipment. A special
+      breast coil is used to add high-definition diffusion-weighted scanning and multi-b value
+      diffusion-weighted scanning before the dynamic enhancement scan. Dynamically enhanced
+      acquisition in 5 phases with a time resolution of 65s. b. Renji Hospital uses Netherlands
+      Philips Achieva 3.0 T superconductor MR scanner, 4-channel dedicated breast phased array
+      coil. Scanning sequences include T1WI, T2WI, T2WI fat suppression, DWI and DCE-MRI. The
+      contrast agent was Gd-DTPA, with a dose of 0.1 mmol/kg, an injection rate of 2.0 mL/s, and an
+      additional 20 mL of saline was added to the tube after injection. The T1WI scan was performed
+      first, and 5 time phases were continuously scanned after the injection of contrast agent, and
+      each time phase was separated by 61 s, for a total of 6 time phases. c. Chinese women and
+      babies are scanned with 1.5T SIEMENS AERA MR equipment and special breast coils. Scanning
+      sequence includes 5 phases of T1WI, T2WI fat suppression, DWI and dynamic enhancement scan,
+      time resolution 71s.
+
+      Image processing Use software to make semi-automatic and automatic outlines of the tumor
+      interest area, and make the outline of the tumor solid enhancement part, the entire tumor
+      area and the surrounding edema zone in the transverse position. In order to accurately
+      delineate the tumor, compare the T1 and T2 weighted and dynamically enhanced images, two
+      imaging physicians are responsible, one is responsible for delineation and the other is
+      reviewed, and the disputed area is determined after discussion by a third person. Create a
+      dynamic enhanced tumor texture analysis program to automatically extract imaging omics
+      features in the region of interest. Using a labeled data set, a computer-based automatic
+      segmentation algorithm model based on machine learning is constructed to automatically
+      extract regions of interest, and segmentation performance evaluation is performed on manually
+      delineated labels.
+
+      Statistical analysis Perform statistical analysis on the obtained images and clinical data,
+      extract image omics features and use machine learning algorithms to screen important
+      features. Use statistical tools such as SPSS and R language. Paired t test (continuous
+      variable) and chi-square test (discontinuous variable) were used to compare the clinical and
+      imaging characteristics of patients with different prognosis; correlation analysis was used
+      to evaluate the imaging histology characteristics and different pathological tissue grades,
+      Correlation between lymph node metastasis and specific gene expression; use Kaplan-Meier
+      survival curve to analyze the prognostic difference between patients with different imaging
+      omics characteristics, and use log-rank method to test the difference; use cox survival model
+      to compare clinical characteristics and imaging omics The characteristics and prognosis of
+      patients (tumor-free survival, progression-free survival, overall survival) were analyzed by
+      multiple factors. Further, deep learning algorithms can be used to automatically learn
+      imaging omics features that may be related to molecular subtypes and prognosis to build
+      prediction models.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">December 1, 2020</start_date>
+  <completion_date type="Anticipated">December 30, 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 30, 2022</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>5 Years</target_duration>
+  <primary_outcome>
+    <measure>Image prediction model of different molecular typing</measure>
+    <time_frame>30 December，2022----30 December，2023</time_frame>
+    <description>Build a model to predict molecular typing based on image
+Establish a prediction model for predicting the risk of Luminal breast cancer recurrence
+Establish a prediction model for predicting her2 targeted drug resistance
+Establishing a triple-negative molecular model for breast cancer</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">1500</enrollment>
+  <condition>Breast Cancer</condition>
+  <condition>Molecular Typing</condition>
+  <condition>Pathology</condition>
+  <condition>Image, Body</condition>
+  <arm_group>
+    <arm_group_label>Luminal</arm_group_label>
+    <description>Luminal A：ER+ and/or PR+,HER2- Luminal B：ER+ and/or PR+,HER2+
+* ER:estrogen receptor PR:progesterone receptor HER2:human epidermalgrowth factor receptor-2</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>HER2 overexpression</arm_group_label>
+    <description>ER- PR-,HER2+
+* ER:estrogen receptor PR:progesterone receptor HER2:human epidermalgrowth factor receptor-2</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Triple negative</arm_group_label>
+    <description>ER- PR-,HER2-
+* ER:estrogen receptor PR:progesterone receptor HER2:human epidermalgrowth factor receptor-2</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Multidisciplinary cooperative comprehensive treatment</intervention_name>
+    <description>Local surgery, radiation therapy, and systemic therapy such as chemotherapy, endocrine and molecular targeting.</description>
+    <arm_group_label>HER2 overexpression</arm_group_label>
+    <arm_group_label>Luminal</arm_group_label>
+    <arm_group_label>Triple negative</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Prospectively enrolled breast cancer patients diagnosed by pathology, all clinical data of
+        all enrolled patients are complete, including demographic characteristics (gender, age,
+        menstrual status and fertility history), pathological data (staging in histopathology,
+        immunohistochemistry) Status and FISH, genetic testing records the recurrence score and
+        genotype), imaging data, complete treatment and follow-up (whether there is local
+        recurrence and metastasis, and the time of diagnosis)
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Pathological and immunohistochemical diagnosis of breast cancer by biopsy
+
+          2. No MRI contraindications and no biopsy before MRI
+
+          3. Without radiotherapy and chemotherapy before enrollment
+
+        Exclusion Criteria:
+
+          1. Those with previous history of breast cancer surgery, hormone replacement therapy and
+             chest radiotherapy
+
+          2. Patients with severe diseases who cannot cooperate with the examination
+
+          3. People with contraindications to MRI
+
+          4. The researchers believe that other conditions are not suitable for breast MRI
+             examination
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Gu Ya Jia</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Fudan University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Gu Ya Jia</last_name>
+    <phone>86-18017317817</phone>
+    <email>guyajia@126.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Fudan University Shanghai Cancer Center</name>
+      <address>
+        <city>Shanghai</city>
+        <state>Shanghai</state>
+        <zip>200032</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Gu Ya Jia</last_name>
+      <phone>86-18017312040</phone>
+      <email>guyajia@126.com</email>
+    </contact>
+    <investigator>
+      <last_name>Hua jia</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Qian zhaoxia</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Wang he</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>You chao</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Zhuang zhiguo</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jiang ling</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Zheng rencheng</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Xiao qin</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Chen yanqiong</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Hu xiaoxin</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>July 4, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 4, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 8, 2020</study_first_posted>
+  <last_update_submitted>July 4, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 4, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 8, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Fudan University</investigator_affiliation>
+    <investigator_full_name>Guyajia</investigator_full_name>
+    <investigator_title>Director of Radiology</investigator_title>
+  </responsible_party>
+  <keyword>breast cancer</keyword>
+  <keyword>Pathology</keyword>
+  <keyword>Molecular Typing</keyword>
+  <keyword>magnetic resonance</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

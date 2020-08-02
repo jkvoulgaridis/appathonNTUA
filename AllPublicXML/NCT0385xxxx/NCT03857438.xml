@@ -1,0 +1,288 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03857438</url>
+  </required_header>
+  <id_info>
+    <org_study_id>BipolarAI</org_study_id>
+    <nct_id>NCT03857438</nct_id>
+  </id_info>
+  <brief_title>Correlation of Audiovisual Features With Clinical Variables and Neurocognitive Functions in Bipolar Disorder, Mania</brief_title>
+  <official_title>Correlation of Audiovisual Features With Clinical Variables and Neurocognitive Functions in Bipolar Disorder, Mania</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Istanbul Saglik Bilimleri University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Namik Kemal University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Bosphorus University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Istanbul Saglik Bilimleri University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of this study is to show the physiological changes during manic episode in bipolar
+      mania how much they differentiate from remission and healthy control. Relation of
+      audio-visual features as physiological changes and cognitive functions and clinical variables
+      will be searched. The aim is to find biologic markers for predictors of treatment response
+      via machine learning techniques to be able to reduce treatment resistance and give an idea
+      for personalized treatment of bipolar patients.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The objective of this research protocol is to find audio-visual features which differentiates
+      bipolar mani/ remission/ health/ simulation and predicts treatment response earlier and
+      detect neurocognitive changes during mania/ remission and difference from the healthy
+      control. During hospitalization in every follow up day (0th- 3rd- 7th- 14th- 28th day) and
+      after discharge on the 3rd month, presence of depressive and manic features for patients was
+      evaluated using Young Mania Rating Scale(YMRS) and Montgamery- Asberg Depresyon Scale
+      (MADRS). Audiovisual recording is done by a video camera in every follow up day for patients
+      and for healthy controls which includes also depression and mania simulation. Cambridge
+      Neurophysiological Assessment Battery (CANTAB) were administered to both groups( for patients
+      both in the manic phase and in the remission) to assess neurocognitive functions.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">September 30, 2016</start_date>
+  <completion_date type="Actual">July 8, 2017</completion_date>
+  <primary_completion_date type="Actual">February 20, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Treatment response</measure>
+    <time_frame>from baseline until 3rd month</time_frame>
+    <description>The proportion of Young Mania Rating Scale(YMRS) score ( at baseline to 3rd- 7th- 14th- 28th day and 3rd month ( Baseline scale/ Follow-up day scale) YMRS score utilized rating scales to assess manic symptoms ranged between 0-76
+Remission: Yt &lt;= 7
+Hypomania: 7 &lt; Yt &lt; 20
+Mania: Yt &gt;= 20.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Changes in visual features</measure>
+    <time_frame>Baseline and 3rd month</time_frame>
+    <description>Functionals of appearance descriptors extracted from fine-tuned Deep Convolutional Neural Networks (DCNN), geometric features obtained using tracked facial landmarks (Unweighted Average Recall)
+Geometric frame level 23 geometric features and apperance descriptors 4096 dimensional features from the last convolutional layer of the FER fine-tuned CNN which are summarized via mean and range functionals over sub-clips and the decisions are voted at video level, an UAR performance is obtained.
+Feature vectors extracted from video is modelled using Partial Least Squares (PLS) regression and Extreme Learning Machines classifiers
+Unweighted Average Recall (UAR), which is mean of class-wise recall scores, is commonly used as performance measure, instead of accuracy, which can be misleading in the case of class-imbalance</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Changes in audio features</measure>
+    <time_frame>Baseline and 3rd month</time_frame>
+    <description>Functionals of acoustic features extracted via openSMILE tool (Unweighted Average Recall)
+Acoustic low level descriptors including prosody (energy, Fundamental Frequency - F0), voice quality features (jitter and shimmer), Mel Frequency Cepstral Coefficients, which are commonly used in many speech technologies from audio, we use the 76-dimensional standard feature set used in the INTERSPEECH 2010 paralinguistic challenge as baseline.
+The second is our proposed set of 10 functionals, Mean, standard deviation, curvature coefficient , slope and offset , minimum value and its relative position, maximum value and its relative position, and the range
+Feature vectors extracted from audio is modelled using Partial Least Squares (PLS) regression and Extreme Learning Machines classifiers.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>in Stop Signal Test</measure>
+    <time_frame>Baseline and 3rd month</time_frame>
+    <description>(milisecond) SST- Succesful Stop Ratio SST- go- Reaction Time SST- Stop Signal Delay SST- Stop Signal Reaction Time SST- Total Correct</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Changes in Rapid Visual Processing</measure>
+    <time_frame>Baseline and 3rd month</time_frame>
+    <description>RVP A' (A prime) is the signal detection measure of sensitivity to the target, regardless of response tendency (range 0.00 to 1.00; bad to good).
+RVP B'' (B double prime) is the signal detection measure of the strength of trace required to elicit a response (range -1.00 to +1.00)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>in Cambridge Gambling Task</measure>
+    <time_frame>Baseline and 3rd month</time_frame>
+    <description>(milisecond) CGT Quality of decision making CGT Deliberation time CGT Delay aversion CGT Overall proportion bet</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Changes in Emotion Recognition Test</measure>
+    <time_frame>Baseline and 3rd month</time_frame>
+    <description>(rate of emotion prediction) Percent and numbers correct/incorrect prediction</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">89</enrollment>
+  <condition>Bipolar Disorder, Manic</condition>
+  <condition>Artificial Intelligence</condition>
+  <condition>Neurocognition</condition>
+  <condition>Treatment Resistant Disorders</condition>
+  <condition>Affective Computing</condition>
+  <condition>Multi- Modal Analysis</condition>
+  <arm_group>
+    <arm_group_label>Bipolar Mania</arm_group_label>
+    <description>Diagnosis of BD type I, manic episode according to DSM-5 given by the following doctor</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy Control</arm_group_label>
+    <description>showing normal mental capacity during interview, have more than five years of public education, no diagnosis of substance or alcohol abuse in the last three months (except nicotine and caffeine, no presence of family history of mood or psychotic disorder, and no presence of psychiatric disorder during interview or in the past, no presence of severe organic disease.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ongoing treatment for bipolar mania</intervention_name>
+    <description>Prescribed by the following doctor during hospitalization and after discharge</description>
+    <arm_group_label>Bipolar Mania</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Audiovisual recording during guided presentation</intervention_name>
+    <description>Seven tasks such as explaining the reason to come to hospital/participate in the activity, describing happy and sad memories, counting up to thirty, explaining two emotion eliciting pictures</description>
+    <arm_group_label>Bipolar Mania</arm_group_label>
+    <arm_group_label>Healthy Control</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Bipolar mania patients from the inpatient service Healthy controls from the community
+        around hospital
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  diagnosis of BD type I, manic episode according to DSM-5 [10] given by the following
+             doctor,
+
+          -  being informed of the purpose of the study and having given signed consent before
+             enrollment.
+
+        Exclusion Criteria:
+
+          -  being younger than 18 years or older than 60 years,
+
+          -  showing low mental capacity during the interview
+
+          -  expression of hallucinations and disruptive behaviors during the interview,
+
+          -  presence of severe organic disease,
+
+          -  presence of any organic disease that may affect cognition
+
+          -  having less than five years of public education
+
+          -  diagnosis of substance or alcohol abuse in the last three months (except nicotine and
+             caffeine)
+
+          -  presence of cerebrovascular disorder, head trauma with longer duration of loss of
+             consciousness, severe hemorrhage and dementia,
+
+          -  having electroconvulsive therapy in the last one year.
+
+        For the healthy control group, the following additional criteria were considered for
+        exclusion
+
+          -  presence of family history of mood or psychotic disorder,
+
+          -  presence of psychiatric disorder during interview or in the past.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Heysem Kaya, Ass Prof</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Namik Kemal University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Ali A Salah, Ass Prof</last_name>
+    <role>Study Chair</role>
+    <affiliation>Bogazici University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Hüseyin Gülec, Ass Prof</last_name>
+    <role>Study Chair</role>
+    <affiliation>İstanbul Saglık Bilimleri University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Elvan Ciftci, MD PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>İstanbul Saglık Bilimleri University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>SBU Erenkoy Mental State Hospital</name>
+      <address>
+        <city>Istanbul</city>
+        <zip>34736</zip>
+        <country>Turkey</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Turkey</country>
+  </location_countries>
+  <reference>
+    <citation>Ciftci E, Kaya H, Gulec H, Salah AA (2018) The Turkish Audio-Visual Bipolar Disorder Corpus. In: 2018 First Asian Conference on Affective Computing and Intelligent Interaction (ACII Asia), pp 1-6. IEEE. Available at: https://ieeexplore.ieee.org/document/8470362/</citation>
+  </reference>
+  <reference>
+    <citation>Çiftçi E, Kaya H, Güleç H and Salah AA Potential audio treatment predictors for bipolar mania Psychiatry and Clinical Psychopharmacology Supplementary</citation>
+  </reference>
+  <verification_date>February 2019</verification_date>
+  <study_first_submitted>April 15, 2018</study_first_submitted>
+  <study_first_submitted_qc>February 25, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 28, 2019</study_first_posted>
+  <last_update_submitted>February 25, 2019</last_update_submitted>
+  <last_update_submitted_qc>February 25, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 28, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Istanbul Saglik Bilimleri University</investigator_affiliation>
+    <investigator_full_name>Elvan Çiftçi</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Bipolar and Related Disorders</keyword>
+  <keyword>Mood Disorders</keyword>
+  <keyword>Mental Disorders</keyword>
+  <keyword>Behavioral Symptoms</keyword>
+  <keyword>Cognitive functions</keyword>
+  <keyword>Simulation</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Disease</mesh_term>
+    <mesh_term>Bipolar Disorder</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>The database will be introduced in AVEC 2018 competition and shared with participants. After the competition the databese will be shared under the special EULA permission.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_time_frame>5 years</ipd_time_frame>
+    <ipd_access_criteria>EULA permission</ipd_access_criteria>
+    <ipd_url>https://sites.google.com/view/avec2018/home</ipd_url>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>August 1, 2017</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/38/NCT03857438/Prot_000.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Statistical Analysis Plan</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>August 1, 2017</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/38/NCT03857438/SAP_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,276 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03754075</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CMELoR2019</org_study_id>
+    <nct_id>NCT03754075</nct_id>
+  </id_info>
+  <brief_title>Five Year Oncological Outcome After CME for Right-sided Colon Cancer</brief_title>
+  <official_title>Five Year Oncological Outcome After Complete Mesocolic Excision for Right-sided Colon Cancer: a Population-based Cohort Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Nordsjaellands Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Bispebjerg Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Hvidovre University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Herlev Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Zealand University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Nordsjaellands Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Study based on existing databases investigating the causal oncological treatment effects of
+      complete mesocolic excision on UICC stage I-III right-sided colon cancer.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Population-based cohort study, predominantly prospective based, on the same population as the
+      investigator's previously study comparing short-term outcome after CME with conventional
+      colon resections. The COMES database combines the prospectively registered colon cancer
+      database in Hillerød (CME data), and data from the national database of the Danish Colorectal
+      Cancer Group (DCCG) covering patients undergoing conventional resection (non-CME) in the
+      other three centers. The medical records of all the patients in the non-CME group (control
+      group) were reviewed by colorectal surgeons from Hillerød. Data audit for all CME patients
+      was performed by various co-authors employed at the other centers. A similar audit of data
+      for non-CME patients having postoperative complications or recurrence was performed by the
+      co-author representing the department treating the specific patients.
+
+      Statistical analysis plan
+
+      Continuous data are presented as median and interquartile ranges, and categorical data as
+      frequencies and proportions. Kruskal-Wallis test and Fisher's exact test were used as
+      appropriate. Death is a competing risk to recurrence and time-to-event analyses were
+      performed as competing risk analyses obtaining the cumulative incidences for recurrence or
+      death using the &quot;cmprsk&quot; R-package.
+
+      Unbiased estimation of marginal or population-averaged treatment effects in observational and
+      non-randomized studies can be obtained through different propensity score methods. Inverse
+      Probability of Treatment Weighting (IPTW) uses the propensity score to weight each patient's
+      data based on the inverse probability of receiving the treatment actually received. IPTW
+      gives unbiased estimates of average treatment effects in time-to-event analyses if no
+      differences in observed baseline covariates exist between the treatment groups. To account
+      for baseline differences between patients in the two groups, stabilized weights truncated at
+      the 0.99 interval were calculated using the &quot;IPW&quot; R-package. The following baseline
+      covariates will be used: age, sex, ASA score, neoadjuvant chemotherapy, tumor location, tumor
+      morphology, perineural invasion, extramural venous invasion, tumor stage, and serosal
+      invasion. All covariates used and UICC stage, two-way interactions, and squared terms of
+      continuous covariates will be assessed for balance between the CME and the non-CME group
+      after IPTW using the &quot;cobalt&quot; R-package. Absolute mean differences in mean (using
+      standardized mean difference) and proportions (using raw mean difference) below 0.1, variance
+      ratios between 0.5 and 2, and Kolmogorov-Smirnov tests equal or below 0.05 will be accepted.
+      Graphical inspection of the distribution of covariates will be also performed.
+
+      The cause-specific hazards and overall survival will be analyzed using Cox regression. Binary
+      outcomes will be analyzed using logistic regression. Lymph node yield will be analyzed using
+      linear regression after logarithmic transformation. Number of metastatic lymph nodes will be
+      analyzed using negative binominal regression. All analyses of primary and secondary outcomes
+      will be performed after IPTW. The 95% confidence intervals for the estimates from the
+      original Cox regression IPTW analyses will be constructed after 1000 bootstraps with
+      replacement, and a robust sandwich estimator will be used for the logistic regression
+      analyses in order to ensure correct variance estimation.
+
+      All available data will be used. Model assumptions will be checked. A p-value below or equal
+      to 0.05 will be considered significant. All analyses will be performed using R statistical
+      software, version 3.5.1 (R Foundation for Statistical Computing, Vienna, Austria).
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">June 1, 2008</start_date>
+  <completion_date type="Anticipated">March 16, 2019</completion_date>
+  <primary_completion_date type="Actual">January 31, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Risk of recurrence</measure>
+    <time_frame>5.2 years</time_frame>
+    <description>Recurrence diagnosed by CT or positron emission tomography (PET)/CT of thorax and abdomen, chest radiograph and contrast-enhanced ultrasound of the liver, or laparotomy in case of suspicion of recurrence. Histological verification of radiological findings of metastases during follow-up is not needed if the local multidisciplinary team conference deemed the finding as a recurrence. Metachronous colon tumors diagnosed during follow-up are considered as recurrences only if located in the anastomosis and with the same morphology as the primary tumor.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Overall survival</measure>
+    <time_frame>5.2 years</time_frame>
+    <description>Death by any cause</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Short-term mortality</measure>
+    <time_frame>30 and 90 days</time_frame>
+    <description>Death from any cause within 30 and 90 days</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of postoperative complications</measure>
+    <time_frame>60 days</time_frame>
+    <description>Patients having surgical and non-surgical postoperative complications and with complications with Clavien-Dindo score of 3b or more</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of mesocolic lymph nodes</measure>
+    <time_frame>1 day</time_frame>
+    <description>Median number and specimens with 22 or more lymph nodes detected</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">1069</enrollment>
+  <condition>Colonic Neoplasms</condition>
+  <arm_group>
+    <arm_group_label>CME group</arm_group_label>
+    <description>The CME group consisted of patients, who underwent elective CME for right-sided colon adenocarcinoma at Nordsjaellands Hospital Hillerød from 1 June 2008 to 31 December 2013.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Non-CME group</arm_group_label>
+    <description>The non-CME group comprised patients having a elective conventional colon cancer resection for right-sided adenocarcinoma at the other three colorectal centers in the Capital Region of Denmark from 1 June 2008 to 31 December 2013.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Complete mesocolic excision</intervention_name>
+    <description>The resection was based on the principles of CME. The superior mesenteric vein was exposed to perform central vessel ligation and lymph nodes dissection. Extended right hemicolectomies for tumors located from the ascending colon close to the hepatic flexure and distally were performed openly as standard during the study period. These resections included the prepyloric and gastroepiploic lymph nodes dissection.</description>
+    <arm_group_label>CME group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Conventional colon resections</intervention_name>
+    <description>The patients underwent what was considered standard colon cancer resections in Denmark during the study period.</description>
+    <arm_group_label>Non-CME group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Data for all patients undergoing elective surgery for UICC stage I-III colonic
+        adenocarcinoma in the Capital Region of Denmark. The population of this region is
+        approximately 1⋅75 million, more than 30 per cent of the population of Denmark, and it is
+        served by only four public university colorectal cancer centres.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Right-sided colon cancer was defined as primary adenocarcinomas located in the cecum,
+             ascending colon hepatic flexure, right or mid third of the transverse colon.
+
+          -  UICC stage I-III - Gastroepiploic and infrapyloric lymph node metastases are not
+             considered as distant metastases
+
+        Exclusion Criteria:
+
+          -  Synchronous colorectal cancer - even in the right colon
+
+          -  No residual tumor in the specimen after neoadjuvant chemotherapy
+
+          -  Metachronous colorectal cancer
+
+          -  Appendix cancers
+
+          -  Resections in Hillerød not performed according to the principles of CME
+
+          -  Non-macroradical (R2) resections (peroperative assessment)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Claus A Bertelsen, PhD, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Nordsjaellands Hospital</affiliation>
+  </overall_official>
+  <reference>
+    <citation>Rosenberg J, Fischer A, Haglind E; Scandinavian Surgical Outcomes Research Group. Current controversies in colorectal surgery: the way to resolve uncertainty and move forward. Colorectal Dis. 2012 Mar;14(3):266-9. doi: 10.1111/j.1463-1318.2011.02896.x.</citation>
+    <PMID>22122825</PMID>
+  </reference>
+  <reference>
+    <citation>West NP, Sutton KM, Ingeholm P, Hagemann-Madsen RH, Hohenberger W, Quirke P. Improving the quality of colon cancer surgery through a surgical education program. Dis Colon Rectum. 2010 Dec;53(12):1594-603. doi: 10.1007/DCR.0b013e3181f433e3.</citation>
+    <PMID>21178852</PMID>
+  </reference>
+  <reference>
+    <citation>Lee L, Erkan A, Alhassan N, Kelly JJ, Nassif GJ, Albert MR, Rt Monson J. Lower survival after right-sided versus left-sided colon cancers: Is an extended lymphadenectomy the answer? Surg Oncol. 2018 Sep;27(3):449-455. doi: 10.1016/j.suronc.2018.05.031. Epub 2018 May 29.</citation>
+    <PMID>30217301</PMID>
+  </reference>
+  <reference>
+    <citation>Bokey L, Chapuis PH, Chan C, Stewart P, Rickard MJ, Keshava A, Dent OF. Long-term results following an anatomically based surgical technique for resection of colon cancer: a comparison with results from complete mesocolic excision. Colorectal Dis. 2016 Jul;18(7):676-83. doi: 10.1111/codi.13159.</citation>
+    <PMID>26476136</PMID>
+  </reference>
+  <reference>
+    <citation>Hohenberger W, Weber K, Matzel K, Papadopoulos T, Merkel S. Standardized surgery for colonic cancer: complete mesocolic excision and central ligation--technical notes and outcome. Colorectal Dis. 2009 May;11(4):354-64; discussion 364-5. doi: 10.1111/j.1463-1318.2008.01735.x. Epub 2009 Nov 5.</citation>
+    <PMID>19016817</PMID>
+  </reference>
+  <reference>
+    <citation>Bertelsen CA, Neuenschwander AU, Jansen JE, Wilhelmsen M, Kirkegaard-Klitbo A, Tenma JR, Bols B, Ingeholm P, Rasmussen LA, Jepsen LV, Iversen ER, Kristensen B, Gögenur I; Danish Colorectal Cancer Group. Disease-free survival after complete mesocolic excision compared with conventional colon cancer surgery: a retrospective, population-based study. Lancet Oncol. 2015 Feb;16(2):161-8. doi: 10.1016/S1470-2045(14)71168-4. Epub 2014 Dec 31.</citation>
+    <PMID>25555421</PMID>
+  </reference>
+  <reference>
+    <citation>Kotake K, Mizuguchi T, Moritani K, Wada O, Ozawa H, Oki I, Sugihara K. Impact of D3 lymph node dissection on survival for patients with T3 and T4 colon cancer. Int J Colorectal Dis. 2014 Jul;29(7):847-52. doi: 10.1007/s00384-014-1885-z. Epub 2014 May 6.</citation>
+    <PMID>24798631</PMID>
+  </reference>
+  <reference>
+    <citation>Bertelsen CA, Neuenschwander AU, Jansen JE, Kirkegaard-Klitbo A, Tenma JR, Wilhelmsen M, Rasmussen LA, Jepsen LV, Kristensen B, Gögenur I; Copenhagen Complete Mesocolic Excision Study (COMES); Danish Colorectal Cancer Group (DCCG). Short-term outcomes after complete mesocolic excision compared with 'conventional' colonic cancer surgery. Br J Surg. 2016 Apr;103(5):581-9. doi: 10.1002/bjs.10083. Epub 2016 Jan 18.</citation>
+    <PMID>26780563</PMID>
+  </reference>
+  <reference>
+    <citation>Austin PC. An Introduction to Propensity Score Methods for Reducing the Effects of Confounding in Observational Studies. Multivariate Behav Res. 2011 May;46(3):399-424. Epub 2011 Jun 8.</citation>
+    <PMID>21818162</PMID>
+  </reference>
+  <reference>
+    <citation>Austin PC, Stuart EA. Moving towards best practice when using inverse probability of treatment weighting (IPTW) using the propensity score to estimate causal treatment effects in observational studies. Stat Med. 2015 Dec 10;34(28):3661-79. doi: 10.1002/sim.6607. Epub 2015 Aug 3. Review.</citation>
+    <PMID>26238958</PMID>
+  </reference>
+  <reference>
+    <citation>Wal WM van der, Geskus RB. ipw : An R Package for Inverse Probability Weighting. J Stat Softw 43(13):1-23, 2011.</citation>
+  </reference>
+  <reference>
+    <citation>Bernhoff R. Colon cancer aspects on surgical treatment and complete mesocolic excision. PhD thesis. Stockholm 2018. ISBN 978-91-7676-919-5.</citation>
+  </reference>
+  <verification_date>December 2018</verification_date>
+  <study_first_submitted>November 22, 2018</study_first_submitted>
+  <study_first_submitted_qc>November 26, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 27, 2018</study_first_posted>
+  <last_update_submitted>March 11, 2019</last_update_submitted>
+  <last_update_submitted_qc>March 11, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 13, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Nordsjaellands Hospital</investigator_affiliation>
+    <investigator_full_name>Claus Anders Bertelsen, PhD, MD</investigator_full_name>
+    <investigator_title>Consultant Colorectal Surgeon, Head of Research</investigator_title>
+  </responsible_party>
+  <keyword>Colon cancer</keyword>
+  <keyword>Surgery</keyword>
+  <keyword>Oncological outcome</keyword>
+  <keyword>Survival</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Colonic Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,552 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04436796</url>
+  </required_header>
+  <id_info>
+    <org_study_id>G200047</org_study_id>
+    <secondary_id>UC4DK108483</secondary_id>
+    <nct_id>NCT04436796</nct_id>
+  </id_info>
+  <brief_title>The International Diabetes Closed Loop (iDCL) Trial: Protocol 4</brief_title>
+  <acronym>DCLP4</acronym>
+  <official_title>The International Diabetes Closed Loop (iDCL) Trial: A Randomized Crossover Comparison of Adaptive Model Predictive Control (MPC) Artificial Pancreas Versus Sensor Augmented Pump (SAP)/Predictive Low Glucose Suspend (PLGS) in the Outpatient Setting in Type 1 Diabetes (DCLP4)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sansum Diabetes Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Harvard University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Jaeb Center for Health Research</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Sansum Diabetes Research Institute</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators aim to compare the efficacy and safety of an AID system using an adaptive
+      MPC algorithm versus SAP (which may or may not include PLGS; to be referred to as SAP) in
+      people with type 1 diabetes.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      A randomized crossover trial will compare the efficacy and safety of an automated insulin
+      delivery (AID) study system using an adaptive Model Predictive Control (MPC) algorithm versus
+      SAP (which may or may not include PLGS; to be referred to as SAP) therapy in people with type
+      1 diabetes for 13 weeks in each arm of the study. A Pilot Phase using the study system for
+      10-14 days will be conducted prior to the crossover trial.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">July 15, 2020</start_date>
+  <completion_date type="Anticipated">August 1, 2021</completion_date>
+  <primary_completion_date type="Anticipated">April 15, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>CGM Time in Range 70-180 mg/dL</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Superiority for time in range 70-180 mg/dL and non-inferiority for time &lt;54 mg/dL measured with CGM will be considered primary endpoints, analyzed using a hierarchical gatekeeping testing procedure</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Non-inferiority for CGM time &lt;54 mg/dL</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Superiority for time in range 70-180 mg/dL and non-inferiority for time &lt;54 mg/dL measured with CGM will be considered primary endpoints, analyzed using a hierarchical gatekeeping testing procedure</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>CGM Mean Glucose</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>CGM-measured mean glucose (mg/dL)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM Time &gt; 180</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>CGM time &gt; 180 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM Time &gt; 250</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>CGM time &gt; 250 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM Time &lt; 70</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>CGM time &lt; 70 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM Time &lt; 54 (Superiority)</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>CGM time &lt; 54 mg/dL (Superiority)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Coefficient of Variation</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>CGM measured glucose variability measured with the coefficient of variation (CV)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM Time in Range 70-140 mg/dL</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>CGM-measured % in range 70-140 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Standard Deviation</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>CGM measured glucose variability measured with the standard deviation (SD)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM Time &lt; 60</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>CGM time &lt; 60 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>LBGI</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Low blood glucose index by CGM with higher index indicating higher risk of hypoglycemia. Values &lt;1 suggest minimal risk. Index of risk of low blood glucose excursion based on a standard formula for non-linear transformation of the blood glucose scale (Kovatchev BP, Cox DJ, Gonder-Frederick LA, Young-Hyman D, Schlundt D, Clarke WL: Assessment of risk for severe hypoglycemia among adults with IDDM: validation of the low blood glucose index. Diabetes Care 21:1870-1875, 1998)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM Hypoglycemia Events</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>CGM-measured events of at least 15 consecutive minutes &lt;70mg/dL per week</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM Time &gt; 300</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>CGM time &gt; 300 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HBGI</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>High blood glucose index by CGM with higher values indicating higher risk of hyperglycemia. Index of risk of high blood glucose excursion based on a standard formula for non-linear transformation of the blood glucose scale (Kovatchev BP, Cox DJ, Kumar A, Gonder-Frederick L, Clarke WL. Algorithmic evaluation of metabolic control and risk of severe hypoglycemia in type 1 and type 2 diabetes using self-monitoring blood glucose data. Diabetes Technol Ther 2003;5:817-828pmid:14633347)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HbA1c at 13 weeks</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Hemiglobin A1c measured after completing each study arm</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With HbA1c &lt;7.0% at 13 weeks</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Number of participants HbA1c &lt;7.0% after completing each study arm</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With HbA1c &lt;7.5% at 13 weeks</measure>
+    <time_frame>3 months</time_frame>
+    <description>Number of participants HbA1c &lt;7.5% after completing each study arm</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HbA1c improvement from baseline to 13 weeks &gt;0.5%</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>HbA1c improvement from baseline to 13 weeks &gt;0.5% after completing each study arm</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HbA1c improvement from baseline to 13 weeks &gt;1%</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>HbA1c improvement from baseline to 13 weeks &gt;1% after completing each study arm</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HbA1c relative improvement from baseline to 13 weeks &gt;10%</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>HbA1c relative improvement from baseline to 3 months &gt;10% after completion of each study arm</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With HbA1c Improvement From Baseline to 3 months &gt;1.0% or HbA1c &lt;7.0% after 3 months</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>HbA1c improvement from baseline to 13 weeks &gt;1.0% or HbA1c &lt;7.0% after 13 weeks in each arm</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diabetes Distress Scale at 13 weeks - total score and 4 subscales: Emotional burden, Physician-related distress, Regimen-related distress, Interpersonal distress</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Diabetes Distress Scale for adults has 28 items rated on a 6 point Likert scale that ranges from 1 (not a problem) to 6 (a very serious problem). The total score is the mean of the sum of responses and ranges from 1 to 6 where a higher score indicates greater degrees of diabetes distress.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glucose Monitoring Satisfaction Survey</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Satisfaction, burden, and total scores</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hypoglycemia Confidence Scale</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Hypoglycemia Confidence Scale has 20 items which are rated on a 4-point Likert Scale ranging from 1 (not confident at all) to 4 (very confident) with higher scores indicating higher confidence in dealing with hypoglycemia. A single score is computed by calculating the mean of the sum of all items and ranges from 1 to 4.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diabetes Technology Attitudes Survey</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Diabetes Technology Attitudes Survey</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>INSPIRE survey scores - following study system period only</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>The INSPIRE questionnaire assesses user expectations and experiences with Insulin Delivery Systems: Perceptions, Ideas, Reflections, Expectations (INSPIRE). Survey total scores are computed by calculating the mean of the sum of all item ratings then multiplying the mean by 25 to scale the score to a range from 0 to 100. Higher scores indicate a more positive perception of insulin delivery systems. Items are rated on a 5 point Likert scale ranging from 0 (strongly disagree) to 4 (strongly agree). The Adult survey has 22 items, the Teens/Adolescents survey has 17 items and the Parent survey has 21 items.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>SUS survey scores - following study system period</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>System Usability Scores (SUS)-composite score from 0 to 100 with higher scores indicate better perceived usability</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total Daily Insulin</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Total Daily Insulin (units)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Basal: bolus insulin ratio</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Basal: bolus insulin ratio</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Weight</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Weight (kg)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>BMI</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Body Mass Index (BMI) kg/m^2</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>CGM metrics by time of day</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Calculate all CGM metrics listed above (including the primary outcome) for: All 24 hours of the day, Daytime only (06:00AM to 00:00AM), Nighttime only (00:00AM to 06:00AM).</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Number of Participants With Severe Hypoglycemia (Per Protocol)</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Severe hypoglycemia (per protocol)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Number of Participants With Diabetic Ketoacidosis (Per Protocol)</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Diabetic ketoacidosis (per protocol)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Ketone Events Defined as Day With Ketone Level &gt;1.0 mmol/L</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Ketone events defined as day with ketone level &gt;1.0 mmol/L</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>CGM-measured Hypoglycemic Events (&gt;15 Minutes With Glucose Concentration &lt;54 mg/dL)</measure>
+    <time_frame>3 months</time_frame>
+    <description>CGM-measured hypoglycemic events (&gt;15 minutes with glucose concentration &lt;54 mg/dL) in each arm.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>CGM-measured Hyperglycemic Events (&gt;15 Minutes With Glucose Concentration &gt;300 mg/dL)</measure>
+    <time_frame>3 months</time_frame>
+    <description>CGM-measured hyperglycemic events (&gt;15 minutes with glucose concentration &gt;300 mg/dL) in each arm.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>BG-measured Hypoglycemic Events (One BG Record &lt;54 mg/dL</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>BG-measured Hypoglycemic Events (One BG Record &lt;54 mg/dL</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Worsening of HbA1c From Baseline to 26 Weeks by &gt;0.5%</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Worsening of HbA1c from baseline to 26 weeks by &gt;0.5%</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Other Serious Adverse Events (SAE) and Serious Adverse Device Events (SADE)</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Other serious adverse events (SAE) and serious adverse device events (SADE)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Adverse Device Effects (ADE)</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Adverse device effects (ADE)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Unanticipated Adverse Device Effects (UADE)</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>Unanticipated adverse device effects (UADE)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Number of Participants With SH Events</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>For this outcome, mean +/- SD or summary statistics appropriate to the distribution will be tabulated by treatment group</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>SH Event Rate Per 100 Person-years</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>For this outcome, severe hypoglycemia event rate per 100 person-years will be calculated as a rate.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Number of Participants With DKA Events</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>For this outcome, number of participants with diabetic ketoacidosis (DKA) will be tabulated.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>DKA Event Rate Per 100 Person-years</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>For this outcome, the diabetic ketoacidosis event rate per 100 person-years will be calculated as a rate.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Any Adverse Event Rate Per 100 Person-years</measure>
+    <time_frame>13 weeks</time_frame>
+    <description>For this outcome, the adverse event rate per 100 person-years calculated as a rate.</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">35</enrollment>
+  <condition>Type 1 Diabetes</condition>
+  <arm_group>
+    <arm_group_label>Artificial Pancreas</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects will be provided the Interoperable Artificial Pancreas System (iAPS) which includes the iAPS phone platform, a study insulin pump, study continuous glucose monitor (CGM), and a study glucometer. This iAPS is designed to help control blood sugar in people living with type 1 diabetes.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Sensor Augmented Pump/Predictive Low Glucose Suspend</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Subjects will continue use of home insulin pump with a study continuous glucose monitor (CGM) and study glucometer. Subject may use home pump in PLGS mode if this is supported and compatible with the study sensor.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>interoperable Artificial Pancreas System (iAPS)</intervention_name>
+    <description>Use of the iAPS at home for 13 weeks, with weekly adaptation of insulin delivery settings occurring automatically in the iAPS.</description>
+    <arm_group_label>Artificial Pancreas</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Sensor-Augmented Pump (SAP)/Predictive Low Glucose Suspend (PLGS)</intervention_name>
+    <description>Use of personal pump with study CGM &amp; glucometer at home for 13 weeks.</description>
+    <arm_group_label>Sensor Augmented Pump/Predictive Low Glucose Suspend</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Clinical diagnosis, based on investigator assessment, of type 1 diabetes for at least
+             one year and using insulin for at least 1 year
+
+          -  Using an insulin pump for at least 3 months (which may include use of automated
+             features)
+
+          -  Familiarity and use of a carbohydrate ratio for meal boluses
+
+          -  Age ≥18.0 years old
+
+          -  For females, not currently known to be pregnant. If female and sexually active, must
+             agree to use a form of contraception to prevent pregnancy while a participant in the
+             study. A negative serum or urine pregnancy test will be required for all females of
+             child-bearing potential. Participants who become pregnant will be discontinued from
+             the study. Also, participants who during the study develop and express the intention
+             to become pregnant within the timespan of the study will be discontinued.
+
+          -  If using a personal CGM, willingness to use a Dexcom G6 CGM and discontinue personal
+             CGM use during the study
+
+          -  Willing not to begin use of, or not to continue use of if currently using, a personal
+             AID (closed loop control) system during the study; note if the system offers an
+             open-loop mode or can be switched to a PLGS mode that is compatible with the Dexcom
+             G6, the system may be used during the study in these modes only
+
+          -  Willingness to switch to lispro (Humalog) or aspart (Novolog) if not using already,
+             and to use no other insulin besides lispro (Humalog) or aspart (Novolog) during the
+             study
+
+          -  Willingness not to start any new non-insulin glucose-lowering agent during the course
+             of the trial, and not to use Afrezza during the trial
+
+          -  Investigator believes that the participant can successfully and safely operate all
+             study devices and is capable of adhering to the protocol
+
+        Exclusion Criteria:
+
+          -  Use of Afrezza or any non-insulin glucose-lowering agent other than metformin
+             (including GLP-1 agonists, DPP-4 inhibitors, SGLT-2 inhibitors, sulfonylureas) unless
+             participant is willing to discontinue during the trial.
+
+          -  Two or more episodes of DKA requiring an emergency room visit or hospitalization in
+             the past 6 months
+
+          -  Two or more episodes of severe hypoglycemia with seizure or loss of consciousness in
+             the last 6 months
+
+          -  Hemophilia or any other bleeding disorder
+
+          -  A medical or other condition that in the opinion of the investigator could create a
+             safety concern for the participant or put the study at risk. History of frequent
+             severe hypoglycemia or history of frequent severe hyperglycemia and/or ketosis,
+             without emergency room visit or hospitalization, due to poor diabetes self-management
+             may be disqualifying per investigator judgment
+
+          -  Participation in another pharmaceutical or device trial at the time of enrollment or
+             during the study
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Eyal Dassau, PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Harvard University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Jordan Pinsker, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Sansum Diabetes Research Institute</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Francis J Doyle III, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Harvard University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>John Lum</last_name>
+    <phone>(813) 975-8690</phone>
+    <email>jlum@jaeb.org</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Sansum Diabetes Research Institute</name>
+      <address>
+        <city>Santa Barbara</city>
+        <state>California</state>
+        <zip>93105</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Jimena Perez</last_name>
+    </contact>
+    <investigator>
+      <last_name>Jordan E Pinsker, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Stanford University</name>
+      <address>
+        <city>Stanford</city>
+        <state>California</state>
+        <zip>94304</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Liana Hsu</last_name>
+    </contact>
+    <investigator>
+      <last_name>Bruce Buckingham, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Joslin Diabetes Center</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02215</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Emily Freiner</last_name>
+    </contact>
+    <investigator>
+      <last_name>Lori Laffel, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Mayo Clinic</name>
+      <address>
+        <city>Rochester</city>
+        <state>Minnesota</state>
+        <zip>55905</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Shelly McCrady-Spitzer</last_name>
+    </contact>
+    <investigator>
+      <last_name>Yogish Kudva, MBBS</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Icahn School of Medicine at Mount Sinai</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10029</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Selassie Ogyaadu</last_name>
+    </contact>
+    <investigator>
+      <last_name>Carol Levy, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>June 16, 2020</study_first_submitted>
+  <study_first_submitted_qc>June 16, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 18, 2020</study_first_posted>
+  <last_update_submitted>June 17, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 17, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 19, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Artificial Pancreas</keyword>
+  <keyword>Automated Insulin Delivery</keyword>
+  <keyword>Closed Loop Control</keyword>
+  <keyword>Continuous Glucose Monitor (CGM)</keyword>
+  <keyword>interoperable Artificial Pancreas System (iAPS)</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pancrelipase</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>NIH's Data Sharing Policy on sharing research resources for research purposes to the scientific community will be followed. Data will be stored in a Data Archive Database includes CGM-insulin delivery time series &amp; boluses, will be deidentified &amp; retrievable only by subject ID number. Individual patterns of demographic &amp; insulin treatment parameters leave open a remote possibility of deductive disclosure of subjects with unusual characteristics. Thus, data will be made available only under a Data-Sharing Agreement that includes: (1) a commitment to using the data only for research purposes &amp; not to identify participants; (2) a commitment to securing the data using appropriate computer technology; &amp; (3) a commitment to destroying or returning the data after analyses are completed.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_time_frame>The dataset from each iDCL protocol will be made public after publication of all manuscripts written by the study group using the dataset and any regulatory submission/completion of review by the regulatory agency, but no later than 3 years after the completion of the protocol even if additional manuscripts or regulatory submissions are planned.</ipd_time_frame>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

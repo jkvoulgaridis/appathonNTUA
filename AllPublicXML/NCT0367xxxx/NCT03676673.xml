@@ -1,0 +1,210 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03676673</url>
+  </required_header>
+  <id_info>
+    <org_study_id>201801044RINC</org_study_id>
+    <nct_id>NCT03676673</nct_id>
+  </id_info>
+  <brief_title>Deciphering the Autism Spectrum Disorder Beyond Genomics</brief_title>
+  <official_title>Deciphering the Autism Spectrum Disorder Beyond Genomics: AI Learning for Whole Exome Sequencing, Metabolomics and Phenotype</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Taiwan University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>National Taiwan University Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators propose to study the molecular etiology of autism spectrum disorder(ASD)
+      from a genomic, metabolomics and network biology perspective by combining data of gene
+      expression, sequence variations and metabolism conditions of patients with ASD. As the
+      complexity of ASD, the investigators consider both science-based and clinic-based
+      measurements to ensure no missing of any relevant domain of the complex relations. In
+      addition to the collection of biological factors, the investigators will also collect the
+      comprehensive clinical, environmental, neurocognitive, MRI images to integrate the multiple
+      factors into the matrix features. Finally the investigators will apply the machine learning
+      to provide us the aspects of the underline pathway back into the other sample distribution
+      published as the open dataset to verify and adjust the features in order to achieve
+      satisfactory level of the reliability and stability of the algorithms. With Next Generation
+      Sequencing (NGS) technology, the investigators will sequence the whole exome sequencing (WES)
+      (MiSeq System) of approximately 120 ASD probands, 40 unaffecting siblings and 40 healthy
+      controls of Taiwanese Han population to identify ASD-associated transcriptome profiles. The
+      results will be using real-time PCR (qPCR) or conventional Sanger sequencing to verified. The
+      investigators will use both liquid chromatography/time-of-flight mass spectrometry (LC-MS)
+      and gas chromatography/quadrupole mass spectrometry (GC-MS) for a full assessment of a wide
+      range of metabolites with over 820 metabolites. Hence, this 3-year proposal consists two main
+      parts - the ASD transcriptome sequence analysis by NGS technology and the metabolomics study
+      of ASD via LC-MS and GC-MS technology.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Primary Aim: To establish a stable and reliable neurogenesis molecular level pathways and
+      potential pathogenesis mechanisms for ASD by using the machine learning approach of the
+      integrated data of biological variables (NGS data and metabolomics) and the comprehensive
+      clinical, environmental, neurocognitive, and MRI images data.
+
+        1. To investigate the majority of candidate risk factors from the multiple domains
+           collected in this project;
+
+        2. To apply network-based algorithms (including deep learning) to approach the underlining
+           pathogenesis mechanism of ASD;
+
+        3. To further verify the machine learning algorithm based on the data collected in this
+           project through other open access database for stability and reliability of our
+           algorithm.
+
+      Secondary Aims:
+
+      Aim I: To identify the ASD biomarkers and disease mechanism using NGS technology.
+
+        1. To investigate the transcriptome profiles occurring in ASD patients;
+
+        2. To identify ASD-associated exome sequence variations from a network biology perspective;
+
+        3. To identify ASD-associated gene-gene interaction sub-networks; and
+
+        4. To explore how the sequencing outcomes, regulate and interact with brain structure and
+           function even linking to neuropsychological functions and behavioral phenotypes.
+
+      Aim II: To characterize ASD-affected metabolites.
+
+        1. By using LC-MS and GC-MS, we will perform metabolomics analysis, including targeted and
+           untargeted analysis;
+
+        2. To identify the potential metabolomics profiles and pathways related to behavioral
+           phenotypes, neuropsychological functions, neuroanatomy and brain functions in patients
+           with ASD; and
+
+        3. To identify how the metabolites variance distributions are manipulated through the
+           genetic expressions.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">August 1, 2018</start_date>
+  <completion_date type="Anticipated">December 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>ASD-associated transcriptome profiles</measure>
+    <time_frame>Baseline</time_frame>
+    <description>With Next Generation Sequencing (NGS) technology, the investigators will sequence the whole exome sequencing (WES) (MiSeq System) of approximately 120 ASD probands, 40 unaffecting siblings and 40 healthy controls of Taiwanese Han population to identify ASD-associated transcriptome profiles.</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Autism Spectrum Disorder</condition>
+  <arm_group>
+    <arm_group_label>ASD group</arm_group_label>
+    <description>120 patients with clinical diagnosis of ASD according to the DSM-5 diagnostic criteria</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Unaffected siblings of ASD</arm_group_label>
+    <description>40 unaffected siblings of ASD probands</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>TD group</arm_group_label>
+    <description>40 healthy age/gender-matched TD controls according to age and neighborhood distribution of the ASD group after interviewed by the Chinese K-SADS-E-DSM-5</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Psychiatric diagnosis</intervention_name>
+    <description>Kiddie Schedule for Affective Disorders &amp; Schizophrenia (K-SADS) for DSM-5</description>
+    <arm_group_label>ASD group</arm_group_label>
+    <arm_group_label>TD group</arm_group_label>
+    <arm_group_label>Unaffected siblings of ASD</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      20 mL of peripheral blood will be drawn for DNA and cell line preparation.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        This study will recruit (1) 120 patients with clinical diagnosis of ASD according to the
+        DSM-5 diagnostic criteria for the transcriptome NGS and the metabolites profiles from the
+        Children's Mental Health Center at National Taiwan University Hospital (NTUH); (2) 40
+        unaffected siblings (SIB) of ASD probands; and (3) 40 healthy age/gender-matched TD
+        controls according to age and neighborhood distribution of the ASD group after interviewed
+        by the Chinese K-SADS-E-DSM-5.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  (1) a clinical diagnosis of ASD defined by the DSM-5 made by board-certificated child
+             psychiatrists at the first visit and following visits; (2) ages range from 3 to 20;
+             (3) at least one biological parent; (4) parents that are both Taiwanese; and (5)
+             subjects and their biological parents consent to participate in this study for
+             complete phenotype assessments and blood withdraw for this study.
+
+        Exclusion Criteria:
+
+          -  subjects will be excluded from the study if they currently meet criteria or have a
+             history of the following condition as defined by DSM-5: schizophrenia, schizoaffective
+             disorder, and organic psychosis. Probands with fragile X, intellectual disability,
+             epilepsy, ADHD, and autoimmune diseases will be noted.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>3 Years</minimum_age>
+    <maximum_age>20 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>National Taiwan Univeristy Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Susan Shur-Fen Gau, MD, PhD</last_name>
+      <phone>886-2-23123456</phone>
+      <phone_ext>66802</phone_ext>
+      <email>gaushufe@ntu.edu.tw</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <verification_date>September 2018</verification_date>
+  <study_first_submitted>September 17, 2018</study_first_submitted>
+  <study_first_submitted_qc>September 17, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 19, 2018</study_first_posted>
+  <last_update_submitted>September 17, 2018</last_update_submitted>
+  <last_update_submitted_qc>September 17, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 19, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Autistic Disorder</mesh_term>
+    <mesh_term>Autism Spectrum Disorder</mesh_term>
+    <mesh_term>Child Development Disorders, Pervasive</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

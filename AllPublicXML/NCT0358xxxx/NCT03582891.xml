@@ -1,0 +1,391 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03582891</url>
+  </required_header>
+  <id_info>
+    <org_study_id>UCSF Summit RC+S</org_study_id>
+    <nct_id>NCT03582891</nct_id>
+  </id_info>
+  <brief_title>The Motor Network in Parkinson's Disease and Dystonia: Mechanisms of Therapy</brief_title>
+  <official_title>Closed Loop Deep Brain Stimulation in Parkinson's Disease and Dystonia (Activa RC+S)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of California, San Francisco</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of California, San Francisco</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is an exploratory pilot study to identify neural correlates of specific motor signs in
+      Parkinson's disease (PD) and dystonia, using a novel totally implanted neural interface that
+      senses brain activity as well as delivering therapeutic stimulation. Parkinson's disease and
+      isolated dystonia patients will be implanted unilaterally or bilaterally with a totally
+      internalized bidirectional neural interface, Medtronic Summit RC+S.
+
+      This study includes three populations: ten PD patients undergoing deep brain stimulation in
+      the subthalamic nucleus (STN), ten PD patients with a globus pallidus (GPi) target and five
+      dystonia patients. All groups will test a variety of strategies for feedback-controlled deep
+      brain stimulation, and all patients will undergo a blinded, small pilot clinical trial of
+      closed-loop stimulation for thirty days.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In this project investigators will develop adaptive DBS algorithms based on cortical and
+      subcortical signals using the RC+S. This bidirectional neural interface is rechargeable (for
+      up to 9 years of use), and is capable of delivering therapeutic open-loop stimulation or
+      closed-loop stimulation. Its sensing capability includes four simultaneous time series
+      channels at up to 1000 Hz sampling rate. In addition the device can stream time series data,
+      and calculate and stream spectral power within a preset bandwidth. Twenty patients with
+      idiopathic PD and motor fluctuations, or medically intractable tremor, will be implanted with
+      unilateral or bilateral RC+S devices, each connected to a standard quadripolar DBS lead
+      implanted in STN or globus pallidus, and to a 4-contact paddle type electrode placed
+      subdurally over sensorimotor cortex. The basal ganglia lead will be used for both stimulation
+      and LFP recordings, while the cortical lead will be used only for recording ECoG potentials,
+      not for stimulation.
+
+      Patients with motor fluctuations cycle between a hypokinetic state (too little movement) and
+      a hyperkinetic state (excessive movement). During open-loop DBS, brain state continues to
+      fluctuate between these states and stimulation may induce dyskinesia or inadequately relieve
+      akinesia.
+
+      With the goal of maintaining motor function within a normal range away from these two
+      extremes, investigators will develop and test stimulation algorithms that utilize putative
+      markers of both kinetic states. The basic strategy is to automatically adjust stimulation
+      parameters until the physiological signature of abnormal function is minimized. First,
+      investigators will prototype adaptive stimulation paradigms and briefly (2 hours) test them
+      in clinic, using a &quot;distributed&quot; configuration (streaming to a computer). Then, investigators
+      will embed these algorithms in RC+S to test chronic and fully closed-loop DBS in a small
+      double-blinded clinical trial. Investigators will pay careful attention to the possibility of
+      progressive reduction in stimulation currents over the course of the study, which could
+      support the hypothesis that &quot;adaptive stimulation&quot; might make the brain progressively less
+      dependent on the device. In quantifying DBS amplitude and comparing open loop with adaptive
+      stimulation, an important parameter is the total electrical energy delivered (TEED). TEED is
+      calculated by the following equation as suggested by Koss and colleagues (TEED1sec =
+      ((voltage2 x frequency x pulsewidth)/impedance) x 1sec). This can be used as measure of the
+      energy saved when stimulation is delivered in closed-loop mode relative to empiric open-loop
+      stimulation.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 1, 2018</start_date>
+  <completion_date type="Anticipated">March 2028</completion_date>
+  <primary_completion_date type="Anticipated">July 1, 2025</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <intervention_model_description>Investigators will run a pilot clinical trial in which individualized classifier/control strategies for each hemisphere in each subject will be embedded within the RC+S for a total of one month (x4 one week blocks) of feedback-controlled stimulation will be compared with a total of one month of empirically optimized open-loop stimulation, (x4 one week blocks), administered in randomized order with adaptive stimulation. During these 1-month trials, patients and neurologists will be blinded to the state of the stimulator.</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Double (Participant, Outcomes Assessor)</masking>
+    <masking_description>Subjects with Parkinson's disease who are being implanted in the STN will be blinded to the type of stimulation received (open-loop or closed-loop phases) during the chronic adaptive DBS testing phase (period 4) at home. Each of these subjects will have blinded open-loop or closed-loop stimulation for a total of one month.
+The use of objective measures of motor function such as wearable devices, in addition physician administered rating scales, is a strategy to reduce observer bias. For physician administered scales, all exams will be videotaped so that these can be reviewed by a blinded neurologist evaluator.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Duration of 'on' stimulation time without dyskinesia from motor diaries in adaptive compared to standard open loop stimulation. (Parkinson's disease patients)</measure>
+    <time_frame>Comparison will use data from the testing of open and closed-loop stimulation during chronic adaptive DBS testing at home.</time_frame>
+    <description>Duration of 'on' stimulation time without dyskinesia in adaptive compared to standard open loop stimulation determined from the patients' motor diaries. The self-report motor diary is a validated method to capture this information. Every half-hour, patients indicate in this diary which of 4 categories (on, on with troubling dyskinesia, off, or asleep) best reflected their predominant symptoms for the prior 30 minutes. Patients will complete this diary for 3 consecutive days. The total time spent in the 'on' state without troubling dyskinesia will then be summed and averaged over 3 days for all three conditions (baseline, open-loop stimulation and closed-loop stimulation).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>The Burke‐Fahn‐Marsden Dystonia Rating Scale-Movement aDBS testing compared to pre-operative baseline(Dystonia Patients)</measure>
+    <time_frame>Comparison will use data from the testing of open and closed-loop stimulation during chronic adaptive DBS testing at home.</time_frame>
+    <description>This scales evaluates dystonia in nine body areas, including eyes, mouth, speech and swallowing, neck, trunk, and right and left arm and leg. The maximal total score is 120 - a higher score means worsening symptoms. Investigators will compare the dystonia symptoms and functional disability during adaptive stimulation compared to preoperative baseline.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Toronto Western Spasmodic Torticollis Rating Scale during aDBS testing compared to pre-operative baseline (Dystonia Patients)</measure>
+    <time_frame>Comparison will use data from the testing of open and closed-loop stimulation during chronic adaptive DBS testing at home.</time_frame>
+    <description>This is a standardized scale to measure the severity, disability, and pain associated with cervical dystonia. The motor severity subscale consists of 10 items, with variable scaling and weighting. It also includes a disability scale with six items,and a pain scale with three items. The total score is the sum of each of the subscales. A higher score indicates greater disability.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The Unified Parkinsons Disease Rating Scale (UPDRS) III scores off of medication in adaptive compared to standard open-loop stimulation. (Parkinson's disease patients)</measure>
+    <time_frame>Comparison will use data from the testing of open and closed-loop stimulation during chronic adaptive DBS testing at home.</time_frame>
+    <description>The UPDRS III is a motor rating scale. Investigators will compare the severity motor symptoms while the patient is off of Parkinsoniae (UPDRS) III scores off of medication in adaptive compared to standard open-loop stimulation. (Parkinson's disease patients)n medications in conventional (open-loop) versus adaptive (closed-loop) DBS.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Schwab England scale in adaptive compared to standard open loop stimulation. (Parkinson's disease patients)</measure>
+    <time_frame>Comparison will use data from the testing of open and closed-loop stimulation during chronic adaptive DBS testing at home.</time_frame>
+    <description>This scale estimates the abilities of individuals living with Parkinson's Disease relative to a completely independent situation. Investigators will use it to compare the abilities of daily living in subjects during the open-loop and adaptive stimulation trial.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hoehn and Yahr Staging in the medication 'on' state in adaptive compared to standard open loop stimulation. (Parkinson's disease patients)</measure>
+    <time_frame>Comparison will use data from the testing of open and closed-loop stimulation during chronic adaptive DBS testing at home.</time_frame>
+    <description>The Hoehn and Yahr scale are used to describe the progression of Parkinson's disease based upon the level of motor impairment. This scale only includes one score ranging from 1 to 5 where a higher score indicates a higher level of motor impairment. Investigators will compare the level of disease progression between the open-loop and adaptive stimulation conditions.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The patient' quality of life report (PDQ-39) in adaptive compared to standard open loop stimulation. The PDQ39 yields a score between 0 to 100, where a higher score indicates more health problems. (Parkinson's disease patients)</measure>
+    <time_frame>Comparison will use data from the testing of open and closed-loop stimulation during chronic adaptive DBS testing at home.</time_frame>
+    <description>The PDQ 39 questionnaire has 39 questions to assess the patient's life quality including mobility, emotional state, and bodily comfort. Investigators will make a comparison of patients' life quality of life between open-loop and adaptive stimulation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient's Global Impression of Change (PGIC) in adaptive compared to standard open loop stimulation. (Parkinson's disease patients)</measure>
+    <time_frame>Comparison will use data from the testing of open and closed-loop stimulation during chronic adaptive DBS testing at home.</time_frame>
+    <description>Patient Global Impression of Changes measures the self-reported level of overall improvement (motor and non-motor symptoms) in a patient on a 1-7 scale. A one indicates no change and a 7 is the greatest level of improvement.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total Electric Energy Delivered (TEED) by the pulse generator in adaptive compared to standard open loop stimulation. (all patients)</measure>
+    <time_frame>Comparison will use data from the testing of open and closed-loop stimulation during chronic adaptive DBS testing at home.</time_frame>
+    <description>Investigators will compare the total charge delivered by the pulse generator between open-loop and adaptive stimulation to determine if there is a potential energy savings.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Short form 36 Quality of Life measure (Dystonia Patients)</measure>
+    <time_frame>Comparison will use data from the testing of open and closed-loop stimulation during chronic adaptive DBS testing at home.</time_frame>
+    <description>The SF-36 is a measure of self-reported health status which is scored on a 0-100 scale. The lower the score the more disability a patient experiences.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Global Impression of Change (Dystonia Patients)</measure>
+    <time_frame>Comparison will use data from the testing of open and closed-loop stimulation during chronic adaptive DBS testing at home.</time_frame>
+    <description>Patient Global Impression of Changes measures the self-reported level of overall improvement (motor and non-motor symptoms) in a patient on a 1-7 scale. A one indicates no change and a 7 is the greatest level of improvement.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">25</enrollment>
+  <condition>Parkinson Disease</condition>
+  <condition>Dystonia</condition>
+  <arm_group>
+    <arm_group_label>Parkinson's Disease STN Target</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Parkinson's disease patients implanted in STN</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Parkinson's disease patients GP Target</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Parkinson's disease patients implanted in Globus Pallidus</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Dystonia patients</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Isolated dystonia patients</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Summit RC+S</intervention_name>
+    <description>Using the RC+S pulse generator, investigators will measure cortical biomarkers of hyper and hypokinesia in Parkinson's and dystonia patients to develop an adaptive algorithm which adjusts the level of deep brain stimulation needed based upon the patient's physiology.</description>
+    <arm_group_label>Dystonia patients</arm_group_label>
+    <arm_group_label>Parkinson's Disease STN Target</arm_group_label>
+    <arm_group_label>Parkinson's disease patients GP Target</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>8-week pilot trial of Closed-loop vs. Open-loop Stimulation</intervention_name>
+    <description>These patients will participate in an 8 week clinical trial of open loop versus adaptive mode (4 weeks for each mode (interleaved), with the order counterbalanced across subjects ).</description>
+    <arm_group_label>Dystonia patients</arm_group_label>
+    <arm_group_label>Parkinson's Disease STN Target</arm_group_label>
+    <arm_group_label>Parkinson's disease patients GP Target</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria
+
+        Parkinson's Disease:
+
+          1. Ability to give informed consent for the study
+
+          2. Movement disorder symptoms that are sufficiently severe, in spite of best medical
+             therapy, to warrant surgical implantation of deep brain stimulators according to
+             standard clinical criteria
+
+          3. Patient has requested surgical intervention with deep brain stimulation for their
+             disorder
+
+          4. No MR abnormalities that suggest an alternative diagnosis or contraindicate surgery
+
+          5. Absence of significant cognitive impairment (score of 20 or greater on the Montreal
+             Cognitive Assessment (MoCA),
+
+          6. Signed informed consent
+
+          7. Ability to comply with study follow-up visits for brain recording, testing of adaptive
+             stimulation, and clinical assessment.
+
+          8. Age 21-75 (for STN patients, minimum age is 25)
+
+          9. Diagnosis of idiopathic PD with duration of motor symptoms for 4 years or greater
+
+         10. Patient has undergone appropriate therapy with oral medications with inadequate relief
+             as determined by a movement disorders neurologist, and has had stable doses of
+             antiparkinsonian medications for 30 days prior to baseline assessment.
+
+         11. UPDRS-III score off medication between 20 and 80 and an improvement of at least 30% in
+             the baseline UPDRS-III on medication score, compared to the baseline off-medication
+             score, and motor fluctuations with at least 2 hours per day of on time without
+             dyskinesia or with non-bothersome dyskinesia.
+
+        OR Patients with tremor-dominant PD (a tremor score of at least 2 on a UPDRS-III sub-score
+        for tremor), treatment resistant, with significant functional disability despite maximal
+        medical management
+
+        Dystonia:
+
+          1. Ability to give informed consent for the study
+
+          2. Movement disorder symptoms that are sufficiently severe, in spite of best medical
+             therapy, to warrant surgical implantation of deep brain stimulators according to
+             standard clinical criteria
+
+          3. Patient has requested surgical intervention with deep brain stimulation for their
+             disorder
+
+          4. No MR abnormalities that suggest an alternative diagnosis or contraindicate surgery
+
+          5. Absence of significant cognitive impairment (score of 20 or greater on the Montreal
+             Cognitive Assessment (MoCA)
+
+          6. Signed informed consent
+
+          7. Ability to comply with study follow-up visits for brain recording, testing of adaptive
+             stimulation, and clinical assessment.
+
+          8. Age 21-75
+
+          9. Diagnosis of Isolated dystonia, which may be focal cervical, segmental craniocervical,
+             or generalized forms.
+
+         10. Stable doses of anti-dystonia medications (such as trihexyphenydil, Baclofen, or
+             clonazepam) for at least 30 days prior to baseline assessment
+
+         11. For dystonia patients with craniofacial and cervical involvement, prior treatment with
+             botulinum toxin with failure to adequately control dystonia symptoms.
+
+        Exclusion Criteria
+
+        Parkinson's Disease:
+
+          1. Coagulopathy, anticoagulant medications, uncontrolled hypertension, history of
+             seizures, heart disease, or other medical conditions considered to place the patient
+             at elevated risk for surgical complications
+
+          2. Evidence of a psychogenic movement disorder: Motor symptoms that remit with suggestion
+             or &quot;while unobserved&quot;, symptoms that are inconsistent over time or incongruent with
+             clinical condition, plus other manifestation such as &quot;false&quot; signs, multiple
+             somatizations, or obvious psychiatric disturbance.
+
+          3. Pregnancy: all women of child bearing potential will have a negative urine pregnancy
+             test prior to undergoing their surgical procedure.
+
+          4. Significant untreated depression (BDI-II score &gt;20) History of suicidal attempt or
+             active suicidal ideation (Yes to #2-5 on C-SSRS)
+
+          5. Any personality or mood symptoms that study personnel believe will interfere with
+             study requirements.
+
+          6. Subjects who require ECT, rTMS or diathermy
+
+          7. Implanted stimulation systems such as; cochlear implant, pacemaker, defibrillator,
+             neurostimulator or metallic implant
+
+          8. Previous cranial surgery
+
+          9. Drug or alcohol abuse
+
+         10. Meets criteria for Parkinson's disease with mild cognitive impairment (PD-MCI). These
+             criteria are: performance of more than two standard deviations below appropriate
+             norms, for tests from two or more of these five cognitive domains: attention,
+             executive function, language, memory, and visuospatial tests.
+
+        Dystonia:
+
+          1. Coagulopathy, anticoagulant medications, uncontrolled hypertension, history of
+             seizures, heart disease, or other medical conditions considered to place the patient
+             at elevated risk for surgical complications
+
+          2. Evidence of a psychogenic movement disorder: Motor symptoms that remit with suggestion
+             or &quot;while unobserved&quot;, symptoms that are inconsistent over time or incongruent with
+             clinical condition, plus other manifestation such as &quot;false&quot; signs, multiple
+             somatizations, or obvious psychiatric disturbance.
+
+          3. Pregnancy: all women of child bearing potential will have a negative urine pregnancy
+             test prior to undergoing their surgical procedure.
+
+          4. Significant untreated depression (BDI-II score &gt;20) History of suicidal attempt or
+             active suicidal ideation (Yes to #2-5 on C-SSRS)
+
+          5. Any personality or mood symptoms that study personnel believe will interfere with
+             study requirements.
+
+          6. Subjects who require ECT, rTMS or diathermy
+
+          7. Implanted stimulation systems such as; cochlear implant, pacemaker, defibrillator,
+             neurostimulator or metallic implant
+
+          8. Previous cranial surgery
+
+          9. Drug or alcohol abuse
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Philip A Starr, MD/PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of California, San Francisco</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Sarah Wang, PhD</last_name>
+    <phone>415-353-7885</phone>
+    <email>Sarah.Wang@ucsf.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Robert Wilt</last_name>
+    <email>Robert.Wilt@ucsf.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of California at San Francisco</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Sarah S Wang, PhD</last_name>
+      <phone>415-353-7885</phone>
+      <email>Sarah.Wang@ucsf.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Robert Wilt</last_name>
+      <email>Robert.Wilt@ucsf.edu</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>June 14, 2018</study_first_submitted>
+  <study_first_submitted_qc>June 27, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 11, 2018</study_first_posted>
+  <last_update_submitted>June 2, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 2, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 4, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of California, San Francisco</investigator_affiliation>
+    <investigator_full_name>Philip Starr</investigator_full_name>
+    <investigator_title>Endowed Professor of Neurological Surgery</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Parkinson Disease</mesh_term>
+    <mesh_term>Dystonia</mesh_term>
+    <mesh_term>Dystonic Disorders</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

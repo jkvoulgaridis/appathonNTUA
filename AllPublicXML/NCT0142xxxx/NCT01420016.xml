@@ -1,0 +1,898 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01420016</url>
+  </required_header>
+  <id_info>
+    <org_study_id>09-096</org_study_id>
+    <secondary_id>R01HL102144-01</secondary_id>
+    <nct_id>NCT01420016</nct_id>
+  </id_info>
+  <brief_title>Prioritized Clinical Decision Support (CDS) to Reduce Cardiovascular Risk</brief_title>
+  <official_title>Prioritized Clinical Decision Support (CDS) to Reduce Cardiovascular Risk</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>HealthPartners Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Heart, Lung, and Blood Institute (NHLBI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>HealthPartners Institute</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of this project is to develop and implement sophisticated point-of-care
+      Electronic Health Record (EHR)-based clinical decision support that (a) identifies and (b)
+      prioritizes all available evidence-based treatment options to reduce a given patient's
+      cardiovascular risk (CVR). After developing the EHR-based decision support intervention, the
+      investigators will test its impact on CVR, the components of CVR, in a group randomized trial
+      that includes 18 primary care clinics, 60 primary care physicians, and 18,000 adults with
+      moderate or high CVR. This approach, if successful, will (a) improve chronic disease outcomes
+      and reduce CVR for about 35% of the U.S. adult population, (b) maximize the clinical return
+      on the massive investments that are increasingly being made in sophisticated outpatient EHR
+      systems, and (c) provide a model for how to use EHR technology support to deliver
+      &quot;personalized medicine&quot; in primary care settings
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This project developed and implemented a sophisticated point-of-care EHR-based clinical
+      decision support that (a) identified and (b) prioritized all available evidence-based
+      treatment options to reduce a given patient's cardiovascular risk (CVR). The prioritized list
+      of treatment options is provided in different formats to both the primary care physician
+      (PCP) and patient at the time of each office visit made by a patient with moderate to high
+      CVR and sub-optimally controlled and potentially reversible CVR factors. Available
+      evidence-based treatment options are prioritized based on the magnitude of potential CVR
+      reduction of each treatment option. This intervention strategy, referred to as Prioritized
+      Clinical Decision Support (CDS), is specifically designed for widespread use in primary care
+      settings and has the potential to substantially augment current efforts to control CVR in the
+      35% of American adults with 10-year Framingham CVR of 10% or higher.
+
+      To assess the ability of the CDS intervention to reduce CVR in adults, we randomized 18
+      primary care clinics with 60 primary care physicians (PCPs) and approximately 18,000 eligible
+      adults with baseline Framingham 10-year risk of a major CV event (either heart attack or
+      stroke) of 10% or more into one of two experimental conditions: Group 1 includes 9 clinics
+      (with 30 PCPs and 9,000 patients) that received prioritized clinical decision support (CDS)
+      to reduce CVR at the time of each clinical encounter made by an eligible adult. Group 2
+      includes 9 clinics (with 30 PCPs and 9,000 patients) that received no study intervention and
+      constitute a usual care (UC) control group. The study formally tested the hypothesis that
+      after control for baseline CVR, post-intervention 10-year Framingham CVR will be better in
+      Group 1 than Group 2 at 12 months after start of the intervention. In addition, impact of the
+      intervention on specific components of CVR (BP, lipids, glucose, aspirin use, and smoking)
+      was assessed, and the cost-effectiveness of the intervention will be quantified.
+
+      This innovative project builds upon 10 years of prior work by our research team, and extends
+      prior successful EHR clinical decision support interventions by introducing prioritization,
+      by providing decision support to both patients and PCPs at the time of the office visit, and
+      by extending the decision support across the broad and critically important clinical terrain
+      of CVR reduction. The results of this project, whether positive or negative, will extend our
+      understanding of how to maximize the clinical return on massive public and private sector
+      investments now being made in sophisticated outpatient EHR systems. If successful, this
+      decision support tool could be broadly used to both standardize and personalize care
+      delivered by case managers, pharmacists, and other providers in a wide range of care delivery
+      configurations.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">August 20, 2012</start_date>
+  <completion_date type="Actual">August 19, 2014</completion_date>
+  <primary_completion_date type="Actual">August 19, 2014</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Predicted Annual Rate of Change in 10-year Risk of Fatal or Nonfatal Heart Attack or Stroke</measure>
+    <time_frame>Index to 14 months post index</time_frame>
+    <description>Ten year cardiovascular risk was calculated at each post index visit from the most recent clinical and laboratory values in the EMR. The Framingham lipid equation was used when a lipid value was available in the previous 5 years; otherwise the Framingham BMI equation was used. The primary outcome was the annualized rate of change (slope) in 10-year CVR, estimated for each treatment group from the time and time-by-treatment parameters of a mixed regression model which predicted post-index CVR values from time elapsed since index, treatment group and the time by treatment interaction.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">7914</enrollment>
+  <condition>Hypertension</condition>
+  <condition>Hyperlipidemia</condition>
+  <condition>Diabetes</condition>
+  <condition>Smoking</condition>
+  <condition>Cardiovascular Risk Factor</condition>
+  <condition>Cardiovascular Diseases</condition>
+  <arm_group>
+    <arm_group_label>Prioritized Clinical Decision Support</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>The Prioritized Clinical Decision Support (CDS) intervention is a protocol driven CDS system linked within the EMR that identifies patients with high cardiovascular risk and provides tailored, prioritized decision support to the provider and patient at the point of care. The CDS was printed at intervention sites. It i) compiled most recent lab data (A1c, SBP, and LDL), BMI, smoking status, and aspirin use, (ii) calculated a 10-year risk for stroke or heart attack, (iii) prioritized clinical domains based on the absolute risk reduction for each component, (iv) compiled information related to renal and liver function, creatine kinase level, and previous diagnoses (CHF, CVD, DM), and (v) provided recommendations for intensification of therapy for A1c, SBP and/or LDL if not at goal.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Usual Care</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Providers in the usual care arm did not have access to the prioritized clinical decision support tool.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Prioritized Clinical Decision Support</intervention_name>
+    <description>Eighteen primary care clinics were blocked on size and on patient characteristics. Each clinic was randomly assigned to one of 2 study arms. All consenting PCPs were allocated to the study arm that their clinic was assigned to and the estimated 400 eligible adults with 10-year CVR &gt;= 10% under the care of each consenting physician were allocated to the same treatment arm as their PCP.</description>
+    <arm_group_label>Prioritized Clinical Decision Support</arm_group_label>
+    <other_name>Cardiovascular Wizard</other_name>
+    <other_name>CV Wizard</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Practicing general internist or family physician at HealthPartners Medical Group
+             (HPMG)
+
+          -  Provide ongoing care for 200 or more adult patients with 10 year CVR &gt;=10%
+
+        Exclusion Criteria:
+
+          -  PCP not practicing in HPMG clinic
+
+          -  Patient age greater than 80 years
+
+          -  Patient Charlson comorbidity score greater than 3
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Patrick J O'Connor, MD, MPH, MA</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>HealthPartners Institute</affiliation>
+  </overall_official>
+  <removed_countries>
+    <country>United States</country>
+  </removed_countries>
+  <link>
+    <url>https://doi.org/10.2337/diaspect.23.3.150</url>
+    <description>Outpatient EHR-Based Diabetes Clinical Decision Support That Works:Lessons Learned From Implementing Diabetes Wizard</description>
+  </link>
+  <reference>
+    <citation>Wolfson J, Vock DM, Bandyopadhyay S, Kottke T, Vazquez-Benitez G, Johnson P, Adomavicius G, O'Connor PJ. Use and Customization of Risk Scores for Predicting Cardiovascular Events Using Electronic Health Record Data. J Am Heart Assoc. 2017 Apr 24;6(4). pii: e003670. doi: 10.1161/JAHA.116.003670.</citation>
+    <PMID>28438733</PMID>
+  </reference>
+  <reference>
+    <citation>O'Connor PJ, Sperl-Hillen JM, Fazio CJ, Averbeck BM, Rank BH, Margolis KL. Outpatient diabetes clinical decision support: current status and future directions. Diabet Med. 2016 Jun;33(6):734-41. doi: 10.1111/dme.13090. Review.</citation>
+    <PMID>27194173</PMID>
+  </reference>
+  <reference>
+    <citation>O'Connor PJ, Sperl-Hillen JM, Margolis KL, Kottke TE. Strategies to Prioritize Clinical Options in Primary Care. Ann Fam Med. 2017 Jan;15(1):10-13. doi: 10.1370/afm.2027. Epub 2017 Jan 6.</citation>
+    <PMID>28376456</PMID>
+  </reference>
+  <reference>
+    <citation>Vock DM, Wolfson J, Bandyopadhyay S, Adomavicius G, Johnson PE, Vazquez-Benitez G, O'Connor PJ. Adapting machine learning techniques to censored time-to-event health record data: A general-purpose approach using inverse probability of censoring weighting. J Biomed Inform. 2016 Jun;61:119-31. doi: 10.1016/j.jbi.2016.03.009. Epub 2016 Mar 16.</citation>
+    <PMID>26992568</PMID>
+  </reference>
+  <reference>
+    <citation>Wolfson J, Bandyopadhyay S, Elidrisi M, Vazquez-Benitez G, Vock DM, Musgrove D, Adomavicius G, Johnson PE, O'Connor PJ. A Naive Bayes machine learning approach to risk prediction using censored, time-to-event data. Stat Med. 2015 Sep 20;34(21):2941-57. doi: 10.1002/sim.6526. Epub 2015 May 18.</citation>
+    <PMID>25980520</PMID>
+  </reference>
+  <reference>
+    <citation>O'Connor PJ, Desai JR, Butler JC, Kharbanda EO, Sperl-Hillen JM. Current status and future prospects for electronic point-of-care clinical decision support in diabetes care. Curr Diab Rep. 2013 Apr;13(2):172-6. doi: 10.1007/s11892-012-0350-z.</citation>
+    <PMID>23225213</PMID>
+  </reference>
+  <reference>
+    <citation>Gilmer TP, O'Connor PJ, Sperl-Hillen JM, Rush WA, Johnson PE, Amundson GH, Asche SE, Ekstrom HL. Cost-effectiveness of an electronic medical record based clinical decision support system. Health Serv Res. 2012 Dec;47(6):2137-58. doi: 10.1111/j.1475-6773.2012.01427.x. Epub 2012 May 11.</citation>
+    <PMID>22578085</PMID>
+  </reference>
+  <reference>
+    <citation>O'Connor PJ, Sperl-Hillen JM, Rush WA, Johnson PE, Amundson GH, Asche SE, Ekstrom HL, Gilmer TP. Impact of electronic health record clinical decision support on diabetes care: a randomized trial. Ann Fam Med. 2011 Jan-Feb;9(1):12-21. doi: 10.1370/afm.1196.</citation>
+    <PMID>21242556</PMID>
+  </reference>
+  <reference>
+    <citation>O'Connor P. Opportunities to Increase the Effectiveness of EHR-Based Diabetes Clinical Decision Support. Appl Clin Inform. 2011 Aug 31;2(3):350-4. doi: 10.4338/ACI-2011-05-IE-0032. Print 2011.</citation>
+    <PMID>23616881</PMID>
+  </reference>
+  <reference>
+    <citation>Sperl-Hillen J, Margolis K, Crain L. Risk and Benefit Information and Use of Aspirin. JAMA Intern Med. 2017 Feb 1;177(2):291. doi: 10.1001/jamainternmed.2016.7988.</citation>
+    <PMID>28166337</PMID>
+  </reference>
+  <results_reference>
+    <citation>Sperl-Hillen JM, Crain AL, Margolis KL, Ekstrom HL, Appana D, Amundson G, Sharma R, Desai JR, O'Connor PJ. Clinical decision support directed to primary care patients and providers reduces cardiovascular risk: a randomized trial. J Am Med Inform Assoc. 2018 Sep 1;25(9):1137-1146. doi: 10.1093/jamia/ocy085.</citation>
+    <PMID>29982627</PMID>
+  </results_reference>
+  <verification_date>February 2015</verification_date>
+  <study_first_submitted>January 17, 2011</study_first_submitted>
+  <study_first_submitted_qc>August 17, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">August 19, 2011</study_first_posted>
+  <results_first_submitted>August 14, 2017</results_first_submitted>
+  <results_first_submitted_qc>September 17, 2018</results_first_submitted_qc>
+  <results_first_posted type="Actual">September 21, 2018</results_first_posted>
+  <last_update_submitted>September 17, 2018</last_update_submitted>
+  <last_update_submitted_qc>September 17, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 21, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Cardiovascular risk</keyword>
+  <keyword>Clinical Decision Support</keyword>
+  <keyword>Electronic Health Records</keyword>
+  <keyword>Primary Care</keyword>
+  <keyword>Quality of Care</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hyperlipidemias</mesh_term>
+    <mesh_term>Cardiovascular Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>All adult primary care providers (physicians, PAs, NPs) employed full-time as of August 2012 were eligible for the study. Providers received a letter from the study PI inviting them to participate with a link to the consent form. Patient consent was waived by HPI IRB since there was no direct contact between the patient and the study team.</recruitment_details>
+      <pre_assignment_details>13381 subjects were assessed for eligibility for the Primary analysis; a partially overlapping population of 11551 subjects were passively monitored for safety outcomes. Consent was waived for all participants. The total number of participants is unknown; therefore, the enrollment only counts participants who were included in the final analysis.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Prioritized Clinical Decision Support- Primary Analysis</title>
+          <description>After entry of BP data, relevant EHR data were extracted from the EHR, encrypted, and processed through Web-based clinical algorithms that (a) determined if the patient met intervention eligibility criteria, (b) identified evidence-based treatment options for any uncontrolled CVR factors, and (c) prioritized treatment recommendations based on potential CV risk reduction. CV risk factors addressed in these study participants were control of lipids, BP, weight, tobacco, and appropriate aspirin use. Personalized treatment recommendations were printed given to PCP and patient immediately before the visit.</description>
+        </group>
+        <group group_id="P2">
+          <title>Usual Care- Primary Analysis</title>
+          <description>Patients and providers at control clinics did not have access to the prioritized clinical decision support system.</description>
+        </group>
+        <group group_id="P3">
+          <title>Prioritized Clinical Decision Support- Safety Analysis</title>
+          <description>The Prioritized Clinical Decision Support (CV Wizard) intervention is a protocol driven clinical decision support system linked within the EMR that identifies patients with high cardiovascular risk and provides tailored, prioritized decision support to the provider and patient at the point of care. The CV Wizard was printed at intervention sites and i) compiled lab data (most recent A1c, SBP, and LDL levels), BMI, smoking status, and aspirin use, (ii) calculated a 10-year risk for stroke or heart attack using the Framingham Risk Score, (iii) prioritized clinical domains based on the absolute risk reduction for each component, (iv) compiled information related to renal and liver function, creatine kinase level, and previous diagnoses (CHF, CVD, DM), and (v) provided recommendations for intensification of therapy for A1c, SBP and/or LDL if not at goal. Recommendations were based on evidenced-based protocols including JNC-8, ADA, and Institute for Clinical Systems Improvement (ICSI).</description>
+        </group>
+        <group group_id="P4">
+          <title>Usual Care- Safety Analysis</title>
+          <description>Patients and providers at control clinics did not have access to the CV Wizard clinical decision support system.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Primary Analysis</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="6970"/>
+                <participants group_id="P2" count="6411"/>
+                <participants group_id="P3" count="0"/>
+                <participants group_id="P4" count="0"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="4043">Reflects patient participants included in final analysis.</participants>
+                <participants group_id="P2" count="3871">Reflects patient participants included in final analysis.</participants>
+                <participants group_id="P3" count="0"/>
+                <participants group_id="P4" count="0"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="2927"/>
+                <participants group_id="P2" count="2540"/>
+                <participants group_id="P3" count="0"/>
+                <participants group_id="P4" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+        <period>
+          <title>Safety Analysis</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="6392"/>
+                <participants group_id="P4" count="5159"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="6392"/>
+                <participants group_id="P4" count="5159"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+                <participants group_id="P4" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Prioritized Clinical Decision Support</title>
+          <description>The Prioritized Clinical Decision Support (CV Wizard) intervention is a protocol driven clinical decision support system linked within the EMR that identifies patients with high cardiovascular risk and provides tailored, prioritized decision support to the provider and patient at the point of care. The CV Wizard was printed at intervention sites and i) compiled lab data (most recent A1c, SBP, and LDL levels), BMI, smoking status, and aspirin use, (ii) calculated a 10-year risk for stroke or heart attack using the Framingham Risk Score, (iii) prioritized clinical domains based on the absolute risk reduction for each component, (iv) compiled information related to renal and liver function, creatine kinase level, and previous diagnoses (CHF, CVD, DM), and (v) provided recommendations for intensification of therapy for A1c, SBP and/or LDL if not at goal. Recommendations were based on evidenced-based protocols including JNC-8, ADA, and Institute for Clinical Systems Improvement (ICSI).</description>
+        </group>
+        <group group_id="B2">
+          <title>Usual Care</title>
+          <description>Usual care.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="4043"/>
+            <count group_id="B2" value="3871"/>
+            <count group_id="B3" value="7914"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="58.7" spread="8.5"/>
+                    <measurement group_id="B2" value="58.5" spread="8.6"/>
+                    <measurement group_id="B3" value="58.6" spread="8.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1067"/>
+                    <measurement group_id="B2" value="1013"/>
+                    <measurement group_id="B3" value="2080"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2976"/>
+                    <measurement group_id="B2" value="2858"/>
+                    <measurement group_id="B3" value="5834"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="83"/>
+                    <measurement group_id="B2" value="49"/>
+                    <measurement group_id="B3" value="132"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3960"/>
+                    <measurement group_id="B2" value="3822"/>
+                    <measurement group_id="B3" value="7782"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="28"/>
+                    <measurement group_id="B2" value="11"/>
+                    <measurement group_id="B3" value="39"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="87"/>
+                    <measurement group_id="B2" value="145"/>
+                    <measurement group_id="B3" value="232"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="4"/>
+                    <measurement group_id="B3" value="5"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="601"/>
+                    <measurement group_id="B2" value="355"/>
+                    <measurement group_id="B3" value="956"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3061"/>
+                    <measurement group_id="B2" value="3210"/>
+                    <measurement group_id="B3" value="6271"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10"/>
+                    <measurement group_id="B2" value="9"/>
+                    <measurement group_id="B3" value="19"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="255"/>
+                    <measurement group_id="B2" value="137"/>
+                    <measurement group_id="B3" value="392"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Systolic Blood Pressure</title>
+          <units>mmHg</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="144.6" spread="21.1"/>
+                    <measurement group_id="B2" value="145.3" spread="21.7"/>
+                    <measurement group_id="B3" value="144.9" spread="21.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Diastolic Blood Pressure</title>
+          <units>mmHg</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="86.2" spread="12.8"/>
+                    <measurement group_id="B2" value="85.8" spread="13.4"/>
+                    <measurement group_id="B3" value="86.0" spread="13.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Smoking status</title>
+          <description>Current smoker at index visit</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2296"/>
+                    <measurement group_id="B2" value="2061"/>
+                    <measurement group_id="B3" value="4357"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Aspirin use</title>
+          <description>Aspirin use when indicated</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="767"/>
+                    <measurement group_id="B2" value="744"/>
+                    <measurement group_id="B3" value="1511"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>LDL Cholesterol</title>
+          <description>Mean of LDL cholesterol value as of index date.</description>
+          <units>mg/dL</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="125.0" spread="36.7"/>
+                    <measurement group_id="B2" value="127.7" spread="36.9"/>
+                    <measurement group_id="B3" value="126.4" spread="36.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Body Mass Index (BMI)</title>
+          <description>Body Mass Index (BMI) at index visit</description>
+          <units>kg/m2</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="30.1" spread="6.2"/>
+                    <measurement group_id="B2" value="30.4" spread="6.4"/>
+                    <measurement group_id="B3" value="30.3" spread="6.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Predicted Annual Rate of Change in 10-year Risk of Fatal or Nonfatal Heart Attack or Stroke</title>
+        <description>Ten year cardiovascular risk was calculated at each post index visit from the most recent clinical and laboratory values in the EMR. The Framingham lipid equation was used when a lipid value was available in the previous 5 years; otherwise the Framingham BMI equation was used. The primary outcome was the annualized rate of change (slope) in 10-year CVR, estimated for each treatment group from the time and time-by-treatment parameters of a mixed regression model which predicted post-index CVR values from time elapsed since index, treatment group and the time by treatment interaction.</description>
+        <time_frame>Index to 14 months post index</time_frame>
+        <population>The patients whose data were included in the primary outcomes analyses met each of the following eligibility criteria. Each patient had an index visit; their first post-implementation primary care visit in a randomized clinic at which they were eligible for the CV Wizard intervention. Visits were intervention eligible based on the CDS algorithms.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Prioritized Clinical Decision Support</title>
+            <description>The Prioritized Clinical Decision Support (CV Wizard) intervention is a protocol driven clinical decision support system linked within the EMR that identifies patients with high cardiovascular risk and provides tailored, prioritized decision support to the provider and patient at the point of care. The CV Wizard was printed at intervention sites and i) compiled lab data (most recent A1c, SBP, and LDL levels), BMI, smoking status, and aspirin use, (ii) calculated a 10-year risk for stroke or heart attack using the Framingham Risk Score, (iii) prioritized clinical domains based on the absolute risk reduction for each component, (iv) compiled information related to renal and liver function, creatine kinase level, and previous diagnoses (CHF, CVD, DM), and (v) provided recommendations for intensification of therapy for A1c, SBP and/or LDL if not at goal. Recommendations were based on evidenced-based protocols including JNC-8, ADA, and Institute for Clinical Systems Improvement (ICSI).</description>
+          </group>
+          <group group_id="O2">
+            <title>Usual Care</title>
+            <description>Usual care.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Predicted Annual Rate of Change in 10-year Risk of Fatal or Nonfatal Heart Attack or Stroke</title>
+          <description>Ten year cardiovascular risk was calculated at each post index visit from the most recent clinical and laboratory values in the EMR. The Framingham lipid equation was used when a lipid value was available in the previous 5 years; otherwise the Framingham BMI equation was used. The primary outcome was the annualized rate of change (slope) in 10-year CVR, estimated for each treatment group from the time and time-by-treatment parameters of a mixed regression model which predicted post-index CVR values from time elapsed since index, treatment group and the time by treatment interaction.</description>
+          <population>The patients whose data were included in the primary outcomes analyses met each of the following eligibility criteria. Each patient had an index visit; their first post-implementation primary care visit in a randomized clinic at which they were eligible for the CV Wizard intervention. Visits were intervention eligible based on the CDS algorithms.</population>
+          <units>annualized change in 10 year % cv risk</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="4043"/>
+                <count group_id="O2" value="3871"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.59" lower_limit="-1.43" upper_limit="0.26"/>
+                    <measurement group_id="O2" value="1.66" lower_limit="0.81" upper_limit="2.52"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Equivalence</non_inferiority_type>
+            <non_inferiority_desc>The analysis used a time-by-condition mixed model to estimate the annual rate of change in post-index CV risk values by treatment group. The models included fixed effects for study arm (CDS vs. UC), time (years since index), and study-arm-by-time comparing the rate of change in CDS versus UC and a random clinic intercept. The intervention effect was the difference in rate of change in CDS versus UC clinics, with the study-arm-by-time interaction assessing statistical significance (P&lt;0.05).</non_inferiority_desc>
+            <p_value>&lt;0.05</p_value>
+            <p_value_desc>A priori power analysis (power=.80, α2=.05) estimated detectable group difference in CVR at 1 year of ~2-3%, assuming 18 clinics, 1000 patients per clinic (actual 400), 3 CVR per patient (actual 2.3), and ICC=.01-03 (actual .019). p-value calculated.</p_value_desc>
+            <method>Mixed Models Analysis</method>
+            <param_type>Slope Difference (Net)</param_type>
+            <param_value>-2.25</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>-3.45</ci_lower_limit>
+            <ci_upper_limit>-1.04</ci_upper_limit>
+            <estimate_desc>The intervention effect was the difference in annualized rates of change (slope) in CV risk in CDS versus UC clinics, with the study-arm-by-time interaction assessing statistical significance (P&lt;0.05).</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>We monitored rates of occurrence by study arm (blinded by study arm) every 6 months, from 6 months pre, through the end of the 24-month intervention period. Randomization occurred at the clinic level and all providers at the clinics had access to the CDS tool. We monitored all patients receiving care at randomized clinics regardless of their exposure to the intervention.</time_frame>
+      <desc>We conducted passive safety surveillance for all patients in all randomized clinics using routinely collected EMR data to monitor for potential safety events. This means that the safety data population (N=11,551) is a larger population than the analysis population (N=7,914). We identified, a priori, events related to more intensive BP or lipid treatment: hypotensive or hypertensive urgency or emergency, syncope, hyperkalemia, hypokalemia, hyponatremia, myositis, and rhabdomyolysis.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Prioritized Clinical Decision Support</title>
+          <description>The Prioritized Clinical Decision Support (CV Wizard) intervention is a protocol driven clinical decision support system linked within the EMR that identifies patients with high cardiovascular risk and provides tailored, prioritized decision support to the provider and patient at the point of care. The CV Wizard was printed at intervention sites and i) compiled lab data (most recent A1c, SBP, and LDL levels), BMI, smoking status, and aspirin use, (ii) calculated a 10-year risk for stroke or heart attack using the Framingham Risk Score, (iii) prioritized clinical domains based on the absolute risk reduction for each component, (iv) compiled information related to renal and liver function, creatine kinase level, and previous diagnoses (CHF, CVD, DM), and (v) provided recommendations for intensification of therapy for A1c, SBP and/or LDL if not at goal. Recommendations were based on evidenced-based protocols including JNC-8, ADA, and Institute for Clinical Systems Improvement (ICSI).</description>
+        </group>
+        <group group_id="E2">
+          <title>Usual Care</title>
+          <description>Patients and providers at control clinics did not have access to the CV Wizard clinical decision support system.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <default_assessment>Non-systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="253" subjects_at_risk="6392"/>
+                <counts group_id="E2" subjects_affected="151" subjects_at_risk="5159"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Endocrine disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Hypoglycemia</sub_title>
+                <counts group_id="E1" events="23" subjects_affected="23" subjects_at_risk="6392"/>
+                <counts group_id="E2" events="19" subjects_affected="16" subjects_at_risk="5159"/>
+              </event>
+              <event>
+                <sub_title>Hyperglycemia</sub_title>
+                <counts group_id="E1" events="12" subjects_affected="12" subjects_at_risk="6392"/>
+                <counts group_id="E2" events="2" subjects_affected="2" subjects_at_risk="5159"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Gastrointestinal disorders</title>
+            <event_list>
+              <event>
+                <sub_title>GI bleed</sub_title>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="6392"/>
+                <counts group_id="E2" events="2" subjects_affected="2" subjects_at_risk="5159"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>General disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Myositis</sub_title>
+                <counts group_id="E1" events="7" subjects_affected="6" subjects_at_risk="6392"/>
+                <counts group_id="E2" events="3" subjects_affected="2" subjects_at_risk="5159"/>
+              </event>
+              <event>
+                <sub_title>ASA allergy-acute anaphylaxis</sub_title>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="6392"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="5159"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Renal and urinary disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Acute renal failure</sub_title>
+                <counts group_id="E1" events="131" subjects_affected="95" subjects_at_risk="6392"/>
+                <counts group_id="E2" events="65" subjects_affected="49" subjects_at_risk="5159"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Vascular disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Hypotensive emergency, urgency</sub_title>
+                <assessment>Systematic Assessment</assessment>
+                <counts group_id="E1" events="150" subjects_affected="110" subjects_at_risk="6392"/>
+                <counts group_id="E2" events="96" subjects_affected="76" subjects_at_risk="5159"/>
+              </event>
+              <event>
+                <sub_title>Hypertensive emergency, urgency</sub_title>
+                <assessment>Systematic Assessment</assessment>
+                <counts group_id="E1" events="9" subjects_affected="7" subjects_at_risk="6392"/>
+                <counts group_id="E2" events="3" subjects_affected="3" subjects_at_risk="5159"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <default_assessment>Non-systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="601" subjects_at_risk="6392"/>
+                <counts group_id="E2" subjects_affected="403" subjects_at_risk="5159"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Cardiac disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Any lipid related event</sub_title>
+                <counts group_id="E1" events="177" subjects_affected="169" subjects_at_risk="6392"/>
+                <counts group_id="E2" events="105" subjects_affected="103" subjects_at_risk="5159"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Endocrine disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Any glycemic related event</sub_title>
+                <counts group_id="E1" events="110" subjects_affected="104" subjects_at_risk="6392"/>
+                <counts group_id="E2" events="80" subjects_affected="74" subjects_at_risk="5159"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>General disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Any aspirin related event</sub_title>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="6392"/>
+                <counts group_id="E2" events="3" subjects_affected="3" subjects_at_risk="5159"/>
+              </event>
+              <event>
+                <sub_title>BP drug interaction</sub_title>
+                <counts group_id="E1" events="53" subjects_affected="53" subjects_at_risk="6392"/>
+                <counts group_id="E2" events="37" subjects_affected="37" subjects_at_risk="5159"/>
+              </event>
+              <event>
+                <sub_title>Glycemic drug interaction</sub_title>
+                <counts group_id="E1" events="75" subjects_affected="71" subjects_at_risk="6392"/>
+                <counts group_id="E2" events="59" subjects_affected="57" subjects_at_risk="5159"/>
+              </event>
+              <event>
+                <sub_title>Lipid drug interaction</sub_title>
+                <counts group_id="E1" events="170" subjects_affected="163" subjects_at_risk="6392"/>
+                <counts group_id="E2" events="102" subjects_affected="101" subjects_at_risk="5159"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Metabolism and nutrition disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Hyperkalemia</sub_title>
+                <counts group_id="E1" events="71" subjects_affected="52" subjects_at_risk="6392"/>
+                <counts group_id="E2" events="48" subjects_affected="37" subjects_at_risk="5159"/>
+              </event>
+              <event>
+                <sub_title>Hypokalemia</sub_title>
+                <counts group_id="E1" events="167" subjects_affected="110" subjects_at_risk="6392"/>
+                <counts group_id="E2" events="153" subjects_affected="88" subjects_at_risk="5159"/>
+              </event>
+              <event>
+                <sub_title>Hyponatremia</sub_title>
+                <counts group_id="E1" events="75" subjects_affected="57" subjects_at_risk="6392"/>
+                <counts group_id="E2" events="49" subjects_affected="32" subjects_at_risk="5159"/>
+              </event>
+              <event>
+                <sub_title>Metabolic disturbance</sub_title>
+                <counts group_id="E1" events="313" subjects_affected="198" subjects_at_risk="6392"/>
+                <counts group_id="E2" events="250" subjects_affected="144" subjects_at_risk="5159"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Vascular disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Any blood pressure related event</sub_title>
+                <counts group_id="E1" events="656" subjects_affected="385" subjects_at_risk="6392"/>
+                <counts group_id="E2" events="451" subjects_affected="267" subjects_at_risk="5159"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>Because this study was conducted at a single, relatively high-performing medical group, generalizability of results to other care delivery systems or patient populations is uncertain.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Dr. Patrick O'Connor</name_or_title>
+      <organization>HealthPartners Institute</organization>
+      <phone>952-967-5034</phone>
+      <email>patrick.j.oconnor@healthpartners.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

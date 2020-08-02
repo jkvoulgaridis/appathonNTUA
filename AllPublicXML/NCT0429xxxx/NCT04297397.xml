@@ -1,0 +1,218 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04297397</url>
+  </required_header>
+  <id_info>
+    <org_study_id>266780PSTOTICU</org_study_id>
+    <secondary_id>EP/P023444/1</secondary_id>
+    <nct_id>NCT04297397</nct_id>
+  </id_info>
+  <brief_title>Personalised Simulation Technologies for Optimising Treatment in the Intensive Care Unit</brief_title>
+  <acronym>PSTOTICU</acronym>
+  <official_title>Personalised Simulation Technologies for Optimising Treatment in the Intensive Care Unit</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Guy's and St Thomas' NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Nottingham</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Warwick</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Guy's and St Thomas' NHS Foundation Trust</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This project aims to develop software models describing how critically ill patients respond
+      to changes in their treatment whilst admitted to an Intensive Care Unit (ICU). We will use
+      high performance computers to fit software models to the physiological and treatment data of
+      patients receiving mechanical ventilation.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In the United Kingdom, approximately 142,000 people are admitted to ICU each year. A large
+      proportion, 10 - 20%, of these patients have a life-threatening respiratory illness called
+      Acute Respiratory Distress Syndrome (ARDS). These patients need specialist help with their
+      breathing, from a machine called a ventilator. Only seven out of ten patients will survive
+      this illness and even survival may bring ongoing problems, sometimes for a long time after
+      leaving hospital.
+
+      Accurate mathematical and computer models of ARDS, would allow investigation of the illness
+      outside of the ICU and inside the virtual environment of a computer. Different treatments
+      could be simulated on the same 'virtual' patient, or the same treatment on many different
+      patients with varying degrees of illness.
+
+      Development of these software models, requires collection of a library of data describing how
+      patients respond to changes in their treatment. An example would be to describe how a
+      patient's blood pressure responds to a change in the settings of their ventilator. The
+      changes to a patient's ventilation would be made as part of the normal care provided by the
+      doctors and nurses looking after them.
+
+      Mathematical descriptions have been created before, from simpler data sets which were
+      essentially single snapshots of a patient's condition and treatment. The investigators aim to
+      capture sequences of snapshots over several hours, allowing them to build more accurate
+      models.
+
+      Guy's and St Thomas' NHS Foundation Trust (GSTFT) is the clinical partner of the project.
+      Patients would be identified there by clinical researchers, who would then collect the data
+      describing their treatment. This data would be anonymised before adding to the library of
+      data to be shared with academic researchers.
+
+      Academic members of the team at the University of Warwick and the University of Nottingham
+      possess the engineering and mathematical expertise needed to develop the complex software
+      models. They also provide the facility of a high performance computing cluster necessary for
+      the difficult process of fitting models to the data.
+
+      Once the software models have been built and used to examine the how treatment might be
+      improved, the findings would be shared with clinical staff around the world, through the
+      publication of articles in medical journals. It is possible that the insights gained by the
+      modelling process might inform, change and improve how clinical staff use ventilators to
+      support patients with ARDS.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">April 2020</start_date>
+  <completion_date type="Anticipated">May 2022</completion_date>
+  <primary_completion_date type="Anticipated">April 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Development of a simulation platform</measure>
+    <time_frame>2 years</time_frame>
+    <description>Develop predictive physiological models and simulation platform in mechanically ventilated patients with ARDS</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Development of dynamic modelling with integration of real time ICU data streams</measure>
+    <time_frame>2 years</time_frame>
+    <description>To integrate data-streams available in the ICU with our existing physiological modelling algorithms to enable real-time simulation of treatment response.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Exploration of therapeutic intervention design space</measure>
+    <time_frame>2 years</time_frame>
+    <description>To develop mathematical methods to explore the &quot;design space&quot; for a clinical support system.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">5000</enrollment>
+  <condition>Respiratory Distress Syndrome, Adult</condition>
+  <condition>Respiratory Insufficiency</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Subjects will be drawn from the adult critical care population at GSTFT. Subjects of
+        interest are those receiving mechanical ventilation.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  At least 18 years of age
+
+          -  Patients admitted to GSTFT Intensive Care between the dates 01/01/2010 and 31/03/2019
+
+          -  Receiving mechanical ventilation
+
+        Exclusion Criteria:
+
+          -  Pregnancy or lactation
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>100 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Luigi Camporota, MD</last_name>
+    <phone>00442071883046</phone>
+    <email>luigi.camporota@gstt.nhs.uk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Barnaby Sanderson, BSc</last_name>
+    <phone>00442071883046</phone>
+    <email>barnaby.sanderson@gstt.nhs.uk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Guys &amp; St. Thomas' NHS Foundation Trust</name>
+      <address>
+        <city>London</city>
+        <zip>SE1 7EH</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Luigi Camporota, MD</last_name>
+      <email>luigi.camporota@gstt.nhs.uk</email>
+    </contact>
+    <contact_backup>
+      <last_name>Gill Arbane, PhD</last_name>
+      <email>gill.arbane@gstt.nhs.uk</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <reference>
+    <citation>Chikhani M, Das A, Haque M, Wang W, Bates DG, Hardman JG. High PEEP in acute respiratory distress syndrome: quantitative evaluation between improved arterial oxygenation and decreased oxygen delivery. Br J Anaesth. 2016 Nov;117(5):650-658.</citation>
+    <PMID>27799180</PMID>
+  </reference>
+  <reference>
+    <citation>Das A, Cole O, Chikhani M, Wang W, Ali T, Haque M, Bates DG, Hardman JG. Evaluation of lung recruitment maneuvers in acute respiratory distress syndrome using computer simulation. Crit Care. 2015 Jan 12;19:8. doi: 10.1186/s13054-014-0723-6.</citation>
+    <PMID>25578295</PMID>
+  </reference>
+  <reference>
+    <citation>Das A, Haque M, Chikhani M, Cole O, Wang W, Hardman JG, Bates DG. Hemodynamic effects of lung recruitment maneuvers in acute respiratory distress syndrome. BMC Pulm Med. 2017 Feb 8;17(1):34. doi: 10.1186/s12890-017-0369-7.</citation>
+    <PMID>28178996</PMID>
+  </reference>
+  <reference>
+    <citation>Flechelles O, Ho A, Hernert P, Emeriaud G, Zaglam N, Cheriet F, Jouvet PA. Simulations for mechanical ventilation in children: review and future prospects. Crit Care Res Pract. 2013;2013:943281. doi: 10.1155/2013/943281. Epub 2013 Mar 7.</citation>
+    <PMID>23533735</PMID>
+  </reference>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>March 4, 2020</study_first_submitted>
+  <study_first_submitted_qc>March 4, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 5, 2020</study_first_posted>
+  <last_update_submitted>March 5, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 5, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 9, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>ICU</keyword>
+  <keyword>Patient Simulation</keyword>
+  <keyword>Critical Care</keyword>
+  <keyword>ARDS</keyword>
+  <keyword>Mechanical Ventilation</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Respiratory Distress Syndrome, Newborn</mesh_term>
+    <mesh_term>Respiratory Distress Syndrome, Adult</mesh_term>
+    <mesh_term>Respiratory Insufficiency</mesh_term>
+    <mesh_term>Acute Lung Injury</mesh_term>
+    <mesh_term>Pulmonary Valve Insufficiency</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

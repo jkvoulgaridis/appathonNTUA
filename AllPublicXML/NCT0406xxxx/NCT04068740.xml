@@ -1,0 +1,309 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04068740</url>
+  </required_header>
+  <id_info>
+    <org_study_id>EurValve</org_study_id>
+    <nct_id>NCT04068740</nct_id>
+  </id_info>
+  <brief_title>Personalised Decision Support for Heart Valve Disease</brief_title>
+  <official_title>Combining Multiple Complex Modelling Components to Create a Decision Support System for Heart Valve Disease</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>German Heart Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Sheffield</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Ansys SAS</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Catharina Ziekenhuis Eindhoven</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Akademia Górniczo-Hutnicza im. Stanisława Staszica</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University Rennes</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Max-Delbrück-Centrum für Molekulare Medizin</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Philips Electronics Nederland BV</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Philips Healthcare</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Sheffield Teaching Hospitals NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Therenva SAS</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Eindhoven University of Technology</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Bristol</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>German Heart Institute</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Valvular Heart Disease currently affects 2.5% of the population, but is overwhelmingly a
+      disease of the elderly and consequently on the rise. It is dominated by two conditions,
+      Aortic Stenosis and Mitral Regurgitation, both of which are associated with significant
+      morbidity and mortality, yet which pose a truly demanding challenge for treatment
+      optimisation. By combining multiple complex modelling components, a comprehensive,
+      clinically-compliant decision-support system will be developed to meet this challenge, by
+      quantifying individualised disease severity and patient impairment, predicting disease
+      progression, ranking the effectiveness of alternative candidate procedures, and optimising
+      the patient-specific intervention plan.
+
+      In addition the DSS will improve knowledge of disease mechanisms by applying a holistic
+      assessment of cardiovascular function that includes hemodynamic data at all cardiovascular
+      compartments (ventricle, valve, vessels) and multiscale components that couple organ with
+      cell function.
+
+      DSS may have major impact on patients with borderline indications for treatment (valve
+      replacement/repair), complex hemodynamic conditions such as combined aortic-mitral valve
+      disease and valve geometries that are subject to valve repair.
+
+      The target user of this Decision Support System is the healthcare professional, in this case
+      the surgeon or cardiologist, who will make the decision on the nature and timing of the
+      intervention. The major advance of this system over current practice is that it integrates
+      and interprets all heterogeneous data available about the patient, integrates population data
+      where needed, and provides a consistent, repeatable, quantitative and auditable record of the
+      information that contributes to the decision process.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Study design:
+
+      In the study a Decision Support System for aortic and mitral valve replacement/repair will be
+      implemented and tested. Not all of the assessments listed will be performed on every patient,
+      but sufficient to support the analysis processes.
+
+      The patients are enrolled in two subgroups:
+
+        -  Group 1: patients with aortic valve disease
+
+        -  Group 2: patients with mitral valve disease
+
+      The study has the following visits at all clinical centers:
+
+        1. Visit 1: Patients will be investigated before valve intervention by imaging (MRI,
+           Echocardiography, CT), ECG, laboratory tests, anthropometrics (blood pressure, body
+           weight, clinical status). A subset of patients will wear a fitness tracker for at least
+           one day and perform a 6-minute walk test.
+
+        2. Operation (valve replacement/repair): All patients will be treated according to current
+           clinical guidelines.
+
+        3. Virtual treatment: Patients will receive a virtual treatment
+
+        4. Visit 2: After treatment patients will be followed-up undergoing the study protocol
+           again. This allows comparing the modeled (predicted) against measured outcome data.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 20, 2016</start_date>
+  <completion_date type="Actual">January 31, 2019</completion_date>
+  <primary_completion_date type="Actual">January 31, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Virtual treatment outcome: model based insufficiency or gradient across the valve</measure>
+    <time_frame>6-12 months after treatment</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Clinical treatment outcome: Imaging based insufficieny or gradient across the valve</measure>
+    <time_frame>6-12 months after treatment</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Survival</measure>
+    <time_frame>6-12 months after treatment</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Probability (in %) of reaching of a patient-specific 6-minute walk distance</measure>
+    <time_frame>6-12 months after treatment</time_frame>
+    <description>Patient-specific walk test distances are calulated based on known reference standards</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>6-minute walk test distances</measure>
+    <time_frame>6-12 months after treatment</time_frame>
+    <description>distances in meters</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">169</enrollment>
+  <condition>Heart Valve Diseases</condition>
+  <arm_group>
+    <arm_group_label>Mitral valve disease</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Aortic valve disease</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Surgical treatment of valvular heart disease</intervention_name>
+    <description>Valve replacement or repair</description>
+    <arm_group_label>Aortic valve disease</arm_group_label>
+    <arm_group_label>Mitral valve disease</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Virtual treatment</intervention_name>
+    <description>Virtual valve replacement or repair surgery</description>
+    <arm_group_label>Aortic valve disease</arm_group_label>
+    <arm_group_label>Mitral valve disease</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult patients from Berlin, Sheffield and Eindhoven with heart valve disease and a planned
+        intervention.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  The patient must give Informed Consent before being enrolled in the study.
+
+          -  Only elective cases will be eligible for inclusion. For mitral disease, patients were
+             recruited with;
+
+          -  Severe degenerative or functional mitral regurgitation with the need for MVR according
+             to the ESC/EACTS guidelines.
+
+          -  Degenerative mitral regurgitation
+
+          -  symptomatic patients with LVEF &gt;30% and LVESD &lt; 55mm (I B)
+
+          -  asymptomatic patients with LV dysfunction (LVESD ≥45 mm and/or LVEF ≤60% (I C)
+
+          -  asymptomatic patients with LVEF &gt; 50%, new onset of atrial fibrillation or pulmonary
+             hypertension (systolic pulmonary pressure at rest &gt;50 mmHg) (IIa C)
+
+          -  patients with severe LV dysfunction (LVEF &lt; 30% and LVESD &gt; 55 mm) refractory to
+             medical therapy with high likelihood of durable repair and low comorbidity. (IIa C)
+             Functional mitral regurgitation
+
+          -  patients with severe MR (EROA &gt;= 20 mm², Regurgitation volume &gt; 30 ml) undergoing
+             CABG, and LVEF &gt;30% (I C)
+
+          -  patients with moderate MR undergoing CABG (IIa C)
+
+          -  symptomatic patients with severe MR, LVEF &lt; 30 %, option for revascularisation, and
+             evidence of viability (IIa C) For aortic valve disease, patients will be recruited
+             with;
+
+          -  Severe acquired degenerative aortic valve disease with the need for SAVR or TAVI
+             according to the ESC/EACTS guidelines Severe Aortic stenosis
+
+          -  symptomatic patients (I B)
+
+          -  patients undergoing CABG or surgery of ascending aorta or another valve (I C)
+
+          -  asymptomatic patients with abnormal exercise test (I C) / LVEF &lt; 50% (I C) / blood
+             pressure drop on exercise / peak gradient &gt; 5.5 m/sec ( (IIa C)
+
+          -  symptomatic patients with low flow, low gradient (&lt; 40mmHg) and normal LVEF (IIa C)
+
+        Exclusion Criteria:
+
+          -  Inability or unwillingness to give formal consent.
+
+          -  Emergency interventions
+
+          -  Active infective valvular disease or evidence of valvular damage by recent
+             endocarditis
+
+          -  Valvular malfunction directly associated with aortic root disease
+
+          -  Aortic regurgitation as leading aortic valve pathology
+
+          -  Inability or unwillingness to complete follow up
+
+          -  MRI contraindications (Implanted pacemaker, Metallic foreign body, Severe
+             claustrophobia)
+
+          -  CT contraindications (Known iodine or contrast agent allergy, Hyperhidrosis,
+             Pregnancy)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Rod Hose, Prof.</last_name>
+    <role>Study Chair</role>
+    <affiliation>University of Sheffield</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Pim Tonino, Dr.</last_name>
+    <role>Study Chair</role>
+    <affiliation>Stichting Catharina Ziekenhuis</affiliation>
+  </overall_official>
+  <verification_date>August 2019</verification_date>
+  <study_first_submitted>August 15, 2019</study_first_submitted>
+  <study_first_submitted_qc>August 22, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 28, 2019</study_first_posted>
+  <last_update_submitted>August 22, 2019</last_update_submitted>
+  <last_update_submitted_qc>August 22, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 28, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Valve Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>February 28, 2019</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/40/NCT04068740/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

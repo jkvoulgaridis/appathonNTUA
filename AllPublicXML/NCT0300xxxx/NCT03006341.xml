@@ -1,0 +1,1996 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03006341</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1160-0219</org_study_id>
+    <nct_id>NCT03006341</nct_id>
+  </id_info>
+  <brief_title>Validation of Predictors of OAC Initiation Using EMR Data</brief_title>
+  <official_title>Validation of Predictors for Oral Anticoagulant Medication Choice Using EMR Data</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Boehringer Ingelheim</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Boehringer Ingelheim</source>
+  <oversight_info>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objectives of this study are, first, to identify select clinical covariates from
+      electronic medical records (EMR) that might be associated with initiation of oral
+      anticoagulant medications (dabigatran or warfarin) in patients with non-valvular atrial
+      fibrillation (NVAF) at risk for stroke; second, to quantify the association between EMR-based
+      clinical characteristics and patterns of insurance claims; third, to assess the potential for
+      unmeasured confounding in dabigatran vs warfarin comparative effectiveness and safety studies
+      based on administrative claims databases.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">February 28, 2017</start_date>
+  <completion_date type="Actual">May 9, 2017</completion_date>
+  <primary_completion_date type="Actual">May 9, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percentage of Patients With Obesity</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>Percentage of patients with obesity; where obesity is defined as &quot;obese, not-obese based on note of obesity or recorded body mass index (BMI) &gt; 30 in the electronic medical records (EMR)&quot;. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percentage of Patients Smoking</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>Percentage of patients with current/past smoking in the electronic medical records (EMR) are presented. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percentage of Patients With Alcohol Consumption</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>Percentage of patients with alcohol consumption in the electronic medical records (EMR) are presented. The patients with light to moderate, heavy and unknown quantity of alcohol consumption are considered. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percentage of Patients With Abnormal Renal Function</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>Percentage of patients with abnormal renal function; defined as &quot;Any note of: Dialysis, renal transplant Serum Creatinine &gt;1.3 Milligrams per Deciliter (mg/dL) in the electronic medical records (EMR)&quot;. Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percentage of Patients With Bleeding History or Predisposition</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>Percentage of patients with bleeding history or predisposition is presented, defined as any note of major bleeding requiring hospitalization or blood transfusion or causing a decrease in hemoglobin level of &gt; 2 gram per liter (g/L) in the electronic medical records (EMR). Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>EMR Characteristic: Renal Function - Glomerular Filtration Rate (GFR)</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>EMR characteristic: Renal function - Glomerular Filtration Rate (GFR). Estimated GFR closest to index dispensing. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>EMR Characteristic: Serum Creatinine</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>EMR characteristic: Serum Creatinine closest to index dispensing. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percentage of Patients With Abnormal Liver Function</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>Percentage of patients with abnormal liver function; defined as &quot;Any note of: Liver disease, cirrhosis, Active hepatitis C, Active hepatitis B, Active hepatitis A, aspartate transaminase/alanine transaminase (AST/ALT) &gt;3 times upper limit of normal in the electronic medical records (EMR). Absence of any note would be considered as absence of the disease&quot;. Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>EMR Characteristic: Duration of Atrial Fibrillation</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>EMR characteristic: Duration of atrial fibrillation (Years / months prior to initiation of Dabigatran / Warfarin). Duration is defined as number of months prior to index date for the earliest note. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>EMR Characteristic: History of Adherence: Non-adherent/Adherent</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>EMR characteristic: History of adherence: non-adherent/adherent.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>EMR Characteristic: History/Duration of Hypertension</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>EMR characteristic: History/duration of hypertension. Any note of: Hypertension systolic blood pressure (SBP) &gt;120 millimeters of mercury (mmHg) Hypertension drugs. Duration is defined as number of months prior to index date for the earliest note. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Patients With Uncontrolled Hypertension</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>Percentage of patients with uncontrolled hypertension; defined as &quot;SBP &gt;160 mmHg using the most recent information prior to index date in the electronic medical records (EMR)&quot;. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>EMR Characteristic: History/Duration of Congestive Heart Failure (CHF)</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>EMR characteristic: History/duration of Congestive Heart Failure (CHF). Duration is defined as number of months prior to index date for the earliest note. Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Patients With Prior Transient Ischemic Attack</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>Percentage of patients with any note of prior transient ischemic attack in the electronic medical records (EMR). Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Patients With Diabetes</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>Percentage of patients with any note of diabetes type I or II in the electronic medical records (EMR) is presented. Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Patients With Hyperlipidemia</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>Percentage of patients with hyperlipidemia is presented, defined as any note of hyperlipidemia, dyslipidemia or Low Density Lipoprotein (LDL) &gt;130 mg/dl in the electronic medical records (EMR). Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>EMR Characteristic: Hypertension, Abnormal Liver/Renal Function, Stroke, Bleeding History or Predisposition, Labile International Normalized Ratio, Elderly, Drugs/Alcohol Usage (HAS-BLED) Score</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>EMR characteristic: HAS-BLED Score. HAS-BLED score is calculated by adding the specified points for each of the conditions listed below. Hypertension (uncontrolled), Abnormal renal and liver function, Stroke, Bleeding history or predisposition (anemia), Labile International Normalized Ratio (INR), Elderly, Drugs or alcohol (1 point each). Labile INR is defined as as the most recent INR &lt;2 or &gt;3 prior to cohort entry. Conditions are considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Patients With Use of Antiplatelets or Non-steroidal Anti-inflammatory Drugs</measure>
+    <time_frame>Up to 1 month</time_frame>
+    <description>Percentage of patients with use of antiplatelets or non-steroidal anti-inflammatory drugs (NSAIDs). Includes use of aspirin, clopidogrel, prasugrel, ticagrelor or NSAIDs (within 1 month or on the index date) in the electronic medical records (EMR). Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">140187</enrollment>
+  <condition>Atrial Fibrillation</condition>
+  <arm_group>
+    <arm_group_label>Dabigatran etexilate</arm_group_label>
+    <description>NVAF patients initiating dabigatran etexilate</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Warfarin</arm_group_label>
+    <description>NVAF patients initiating warfarin</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Dabigatran etexilate</intervention_name>
+    <description>observed upto 12 months</description>
+    <arm_group_label>Dabigatran etexilate</arm_group_label>
+    <other_name>MICARDIS, PRITOR, TELMISARTAN</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Warfarin</intervention_name>
+    <description>Observed upto 12 months</description>
+    <arm_group_label>Warfarin</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with a recorded diagnosis of atrial fibrillation without evidence of valvular
+        etiology and at risk for stroke
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  First dispensing of warfarin or dabigatran between October 2010 and December 2014
+
+          -  Diagnosis of atrial fibrillation
+
+          -  ≥ 12 months enrolment in the database preceding the date of the first dispensing
+
+          -  Age ≥ 18
+
+          -  Congestive Heart Failure, Hypertension, Age &gt; 75, Diabetes Mellitus, Prior Stroke or
+             Transient Ischemic Attack, Vascular Disease (CHA2DS2-VASc) score ≥ 1
+
+        Exclusion Criteria:
+
+          -  Prior use of oral anticoagulation
+
+          -  Evidence of valvular atrial fibrillation
+
+          -  Missing or ambiguous age or sex information
+
+          -  Patients with a nursing home stay during baseline
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Brigham &amp; Women's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02120</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://trials.boehringer-ingelheim.com</url>
+    <description>Related Info</description>
+  </link>
+  <verification_date>December 2018</verification_date>
+  <study_first_submitted>December 28, 2016</study_first_submitted>
+  <study_first_submitted_qc>December 28, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 30, 2016</study_first_posted>
+  <results_first_submitted>May 4, 2018</results_first_submitted>
+  <results_first_submitted_qc>December 14, 2018</results_first_submitted_qc>
+  <results_first_posted type="Actual">March 22, 2019</results_first_posted>
+  <last_update_submitted>December 14, 2018</last_update_submitted>
+  <last_update_submitted_qc>December 14, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 22, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atrial Fibrillation</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Telmisartan</mesh_term>
+    <mesh_term>Warfarin</mesh_term>
+    <mesh_term>Dabigatran</mesh_term>
+  </intervention_browse>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>November 2, 2016</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/41/NCT03006341/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>A validation study; Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran or warfarin between October 2010 and December 2014.</recruitment_details>
+      <pre_assignment_details>In this non-interventional study based on existing data, no patients were screened.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Dabigatran Etexilate</title>
+          <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+        </group>
+        <group group_id="P2">
+          <title>Warfarin</title>
+          <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+        </group>
+        <group group_id="P3">
+          <title>Rivaroxaban</title>
+          <description>(Post hoc analysis) Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate rivaroxaban between October 2010 and December 2014.</description>
+        </group>
+        <group group_id="P4">
+          <title>Apixaban</title>
+          <description>(Post hoc analysis) Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate apixaban between October 2010 and December 2014.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="26199"/>
+                <participants group_id="P2" count="70071"/>
+                <participants group_id="P3" count="32595"/>
+                <participants group_id="P4" count="11322"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="1130"/>
+                <participants group_id="P2" count="2566"/>
+                <participants group_id="P3" count="1602"/>
+                <participants group_id="P4" count="637"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="25069"/>
+                <participants group_id="P2" count="67505"/>
+                <participants group_id="P3" count="30993"/>
+                <participants group_id="P4" count="10685"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Not linked in the EMR</title>
+              <participants_list>
+                <participants group_id="P1" count="25069"/>
+                <participants group_id="P2" count="67505"/>
+                <participants group_id="P3" count="30993"/>
+                <participants group_id="P4" count="10685"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>Baseline characteristics are based on all patients who successfully linked in the EMR</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Dabigatran Etexilate</title>
+          <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+        </group>
+        <group group_id="B2">
+          <title>Warfarin</title>
+          <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+        </group>
+        <group group_id="B3">
+          <title>Rivaroxaban</title>
+          <description>(Post hoc analysis) Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate rivaroxaban between October 2010 and December 2014.</description>
+        </group>
+        <group group_id="B4">
+          <title>Apixaban</title>
+          <description>(Post hoc analysis) Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate apixaban between October 2010 and December 2014.</description>
+        </group>
+        <group group_id="B5">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="1130"/>
+            <count group_id="B2" value="2566"/>
+            <count group_id="B3" value="1602"/>
+            <count group_id="B4" value="637"/>
+            <count group_id="B5" value="5935"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <description>Age at the time of signing informed consent form is presented.</description>
+          <population>Baseline characteristics are based on all patients who successfully linked in the EMR</population>
+          <units>Years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="1130"/>
+                    <count group_id="B2" value="2566"/>
+                    <count group_id="B3" value="1602"/>
+                    <count group_id="B4" value="637"/>
+                    <count group_id="B5" value="5935"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="65.1" spread="11.4"/>
+                    <measurement group_id="B2" value="69.3" spread="11.3"/>
+                    <measurement group_id="B3" value="66.2" spread="11.1"/>
+                    <measurement group_id="B4" value="67.3" spread="11.4"/>
+                    <measurement group_id="B5" value="67.4" spread="11.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <description>Number of subjects is categorized as Male or Female.</description>
+          <population>Baseline characteristics are based on all patients who successfully linked in the EMR</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="1130"/>
+                    <count group_id="B2" value="2566"/>
+                    <count group_id="B3" value="1602"/>
+                    <count group_id="B4" value="637"/>
+                    <count group_id="B5" value="5935"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="432"/>
+                    <measurement group_id="B2" value="1006"/>
+                    <measurement group_id="B3" value="600"/>
+                    <measurement group_id="B4" value="250"/>
+                    <measurement group_id="B5" value="2288"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="698"/>
+                    <measurement group_id="B2" value="1560"/>
+                    <measurement group_id="B3" value="1002"/>
+                    <measurement group_id="B4" value="387"/>
+                    <measurement group_id="B5" value="3647"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race and Ethnicity Not Collected</title>
+          <population>Race and Ethnicity were not collected from any participant.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="0"/>
+                    <count group_id="B2" value="0"/>
+                    <count group_id="B3" value="0"/>
+                    <count group_id="B4" value="0"/>
+                    <count group_id="B5" value="0"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B5" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Percentage of Patients With Obesity</title>
+        <description>Percentage of patients with obesity; where obesity is defined as &quot;obese, not-obese based on note of obesity or recorded body mass index (BMI) &gt; 30 in the electronic medical records (EMR)&quot;. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+        <time_frame>Up to 12 months</time_frame>
+        <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran Etexilate</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Patients With Obesity</title>
+          <description>Percentage of patients with obesity; where obesity is defined as &quot;obese, not-obese based on note of obesity or recorded body mass index (BMI) &gt; 30 in the electronic medical records (EMR)&quot;. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+          <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+          <units>Percentage of patients</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1130"/>
+                <count group_id="O2" value="2566"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Before PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="857"/>
+                    <count group_id="O2" value="1983"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="58.2"/>
+                    <measurement group_id="O2" value="51.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>After PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="641"/>
+                    <count group_id="O2" value="659"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="57.4"/>
+                    <measurement group_id="O2" value="54.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Percentage of Patients Smoking</title>
+        <description>Percentage of patients with current/past smoking in the electronic medical records (EMR) are presented. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+        <time_frame>Up to 12 months</time_frame>
+        <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran Etexilate</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Patients Smoking</title>
+          <description>Percentage of patients with current/past smoking in the electronic medical records (EMR) are presented. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+          <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+          <units>Percentage of patients</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1130"/>
+                <count group_id="O2" value="2566"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Before PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="112"/>
+                    <count group_id="O2" value="255"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="50.0"/>
+                    <measurement group_id="O2" value="51.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>After PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="88"/>
+                    <count group_id="O2" value="97"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="50.0"/>
+                    <measurement group_id="O2" value="50.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Percentage of Patients With Alcohol Consumption</title>
+        <description>Percentage of patients with alcohol consumption in the electronic medical records (EMR) are presented. The patients with light to moderate, heavy and unknown quantity of alcohol consumption are considered. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+        <time_frame>Up to 12 months</time_frame>
+        <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran Etexilate</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Patients With Alcohol Consumption</title>
+          <description>Percentage of patients with alcohol consumption in the electronic medical records (EMR) are presented. The patients with light to moderate, heavy and unknown quantity of alcohol consumption are considered. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+          <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+          <units>Percentage of patients</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1130"/>
+                <count group_id="O2" value="2566"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Before PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="17"/>
+                    <count group_id="O2" value="51"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="47.1"/>
+                    <measurement group_id="O2" value="50.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>After PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="14"/>
+                    <count group_id="O2" value="18"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="50.0"/>
+                    <measurement group_id="O2" value="38.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Percentage of Patients With Abnormal Renal Function</title>
+        <description>Percentage of patients with abnormal renal function; defined as &quot;Any note of: Dialysis, renal transplant Serum Creatinine &gt;1.3 Milligrams per Deciliter (mg/dL) in the electronic medical records (EMR)&quot;. Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+        <time_frame>Up to 12 months</time_frame>
+        <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran Etexilate</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Patients With Abnormal Renal Function</title>
+          <description>Percentage of patients with abnormal renal function; defined as &quot;Any note of: Dialysis, renal transplant Serum Creatinine &gt;1.3 Milligrams per Deciliter (mg/dL) in the electronic medical records (EMR)&quot;. Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+          <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+          <units>Percentage of patients</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1130"/>
+                <count group_id="O2" value="2566"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Before PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="1130"/>
+                    <count group_id="O2" value="2566"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5.5"/>
+                    <measurement group_id="O2" value="11.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>After PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="846"/>
+                    <count group_id="O2" value="846"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6.5"/>
+                    <measurement group_id="O2" value="8.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Percentage of Patients With Bleeding History or Predisposition</title>
+        <description>Percentage of patients with bleeding history or predisposition is presented, defined as any note of major bleeding requiring hospitalization or blood transfusion or causing a decrease in hemoglobin level of &gt; 2 gram per liter (g/L) in the electronic medical records (EMR). Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+        <time_frame>Up to 12 months</time_frame>
+        <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran Etexilate</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Patients With Bleeding History or Predisposition</title>
+          <description>Percentage of patients with bleeding history or predisposition is presented, defined as any note of major bleeding requiring hospitalization or blood transfusion or causing a decrease in hemoglobin level of &gt; 2 gram per liter (g/L) in the electronic medical records (EMR). Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+          <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+          <units>Percentage of patients</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1130"/>
+                <count group_id="O2" value="2566"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Before PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="1130"/>
+                    <count group_id="O2" value="2566"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3.4"/>
+                    <measurement group_id="O2" value="4.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>After PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="846"/>
+                    <count group_id="O2" value="846"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3.7"/>
+                    <measurement group_id="O2" value="4.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>The concordance statistic is equal to the area under a receiver operating characteristic (ROC) curve. The C-statistic (sometimes called the “concordance” statistic or C-index) is a measure of goodness of fit for binary outcomes in a logistic regression model.</groups_desc>
+            <non_inferiority_type>Other</non_inferiority_type>
+            <param_type>C-Statistic</param_type>
+            <param_value>0.81</param_value>
+            <estimate_desc>The C-statistic can be between 0.5 and 1 and a value of 0.5 indicates that the model is no better than chance at making a prediction and a value of 1.0 indicates that the model perfectly identifies those within a group and those not.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>EMR Characteristic: Renal Function - Glomerular Filtration Rate (GFR)</title>
+        <description>EMR characteristic: Renal function - Glomerular Filtration Rate (GFR). Estimated GFR closest to index dispensing. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+        <time_frame>Up to 12 months</time_frame>
+        <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran Etexilate</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>EMR Characteristic: Renal Function - Glomerular Filtration Rate (GFR)</title>
+          <description>EMR characteristic: Renal function - Glomerular Filtration Rate (GFR). Estimated GFR closest to index dispensing. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+          <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+          <units>Milliliter/minute/1.73 square meter</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1130"/>
+                <count group_id="O2" value="2566"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Before PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="574"/>
+                    <count group_id="O2" value="1344"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="86.5" spread="21.6"/>
+                    <measurement group_id="O2" value="78.3" spread="25.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>After PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="441"/>
+                    <count group_id="O2" value="441"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="85.4" spread="21.9"/>
+                    <measurement group_id="O2" value="83.4" spread="23.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>EMR Characteristic: Serum Creatinine</title>
+        <description>EMR characteristic: Serum Creatinine closest to index dispensing. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+        <time_frame>Up to 12 months</time_frame>
+        <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran Etexilate</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>EMR Characteristic: Serum Creatinine</title>
+          <description>EMR characteristic: Serum Creatinine closest to index dispensing. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+          <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+          <units>Milligrams per deciliter</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1130"/>
+                <count group_id="O2" value="2566"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Before PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="574"/>
+                    <count group_id="O2" value="1343"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.0" spread="0.3"/>
+                    <measurement group_id="O2" value="1.1" spread="0.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>After PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="441"/>
+                    <count group_id="O2" value="441"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.0" spread="0.3"/>
+                    <measurement group_id="O2" value="1.0" spread="0.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>R-squared is a statistical measure of how close the data are to the fitted regression line. 0% indicates that the model explains none of the variability of the response data around its mean. 100% indicates that the model explains all the variability of the response data around its mean.</groups_desc>
+            <non_inferiority_type>Other</non_inferiority_type>
+            <param_type>Adjusted R squared statistic</param_type>
+            <param_value>0.02</param_value>
+            <estimate_desc>The adjusted R² statistic, or coefficient of determination, is the proportion of the variance in the (EMR) outcome that is predictable from the independent (claims) variables, adjusted for the number of predictors in the model.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Percentage of Patients With Abnormal Liver Function</title>
+        <description>Percentage of patients with abnormal liver function; defined as &quot;Any note of: Liver disease, cirrhosis, Active hepatitis C, Active hepatitis B, Active hepatitis A, aspartate transaminase/alanine transaminase (AST/ALT) &gt;3 times upper limit of normal in the electronic medical records (EMR). Absence of any note would be considered as absence of the disease&quot;. Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+        <time_frame>Up to 12 months</time_frame>
+        <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran Etexilate</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Patients With Abnormal Liver Function</title>
+          <description>Percentage of patients with abnormal liver function; defined as &quot;Any note of: Liver disease, cirrhosis, Active hepatitis C, Active hepatitis B, Active hepatitis A, aspartate transaminase/alanine transaminase (AST/ALT) &gt;3 times upper limit of normal in the electronic medical records (EMR). Absence of any note would be considered as absence of the disease&quot;. Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+          <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+          <units>Percentage of patients</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1130"/>
+                <count group_id="O2" value="2566"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Before PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="1130"/>
+                    <count group_id="O2" value="2566"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.5"/>
+                    <measurement group_id="O2" value="0.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>After PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="846"/>
+                    <count group_id="O2" value="846"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.5"/>
+                    <measurement group_id="O2" value="0.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>EMR Characteristic: Duration of Atrial Fibrillation</title>
+        <description>EMR characteristic: Duration of atrial fibrillation (Years / months prior to initiation of Dabigatran / Warfarin). Duration is defined as number of months prior to index date for the earliest note. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+        <time_frame>Up to 12 months</time_frame>
+        <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures. Duration calculated for patients identified as having condition in EMR.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran Etexilate</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>EMR Characteristic: Duration of Atrial Fibrillation</title>
+          <description>EMR characteristic: Duration of atrial fibrillation (Years / months prior to initiation of Dabigatran / Warfarin). Duration is defined as number of months prior to index date for the earliest note. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+          <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures. Duration calculated for patients identified as having condition in EMR.</population>
+          <units>Months</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1130"/>
+                <count group_id="O2" value="2566"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Before PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="519"/>
+                    <count group_id="O2" value="983"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="22.5" spread="33.8"/>
+                    <measurement group_id="O2" value="26.4" spread="32.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>After PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="386"/>
+                    <count group_id="O2" value="350"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="22.7" spread="35.2"/>
+                    <measurement group_id="O2" value="25.4" spread="33.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>R-squared is a statistical measure of how close the data are to the fitted regression line. 0% indicates that the model explains none of the variability of the response data around its mean. 100% indicates that the model explains all the variability of the response data around its mean.</groups_desc>
+            <non_inferiority_type>Other</non_inferiority_type>
+            <param_type>Adjusted R squared statistic</param_type>
+            <param_value>0.04</param_value>
+            <estimate_desc>The adjusted R² statistic, or coefficient of determination, is the proportion of the variance in the (EMR) outcome that is predictable from the independent (claims) variables, adjusted for the number of predictors in the model.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>EMR Characteristic: History of Adherence: Non-adherent/Adherent</title>
+        <description>EMR characteristic: History of adherence: non-adherent/adherent.</description>
+        <time_frame>Up to 12 months</time_frame>
+        <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures. Although the original intent was to document the patient’s history of adherence, no such information was available in the EMR</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran Etexilate</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>EMR Characteristic: History of Adherence: Non-adherent/Adherent</title>
+          <description>EMR characteristic: History of adherence: non-adherent/adherent.</description>
+          <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures. Although the original intent was to document the patient’s history of adherence, no such information was available in the EMR</population>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="0"/>
+                <count group_id="O2" value="0"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>EMR Characteristic: History/Duration of Hypertension</title>
+        <description>EMR characteristic: History/duration of hypertension. Any note of: Hypertension systolic blood pressure (SBP) &gt;120 millimeters of mercury (mmHg) Hypertension drugs. Duration is defined as number of months prior to index date for the earliest note. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+        <time_frame>Up to 12 months</time_frame>
+        <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran Etexilate</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>EMR Characteristic: History/Duration of Hypertension</title>
+          <description>EMR characteristic: History/duration of hypertension. Any note of: Hypertension systolic blood pressure (SBP) &gt;120 millimeters of mercury (mmHg) Hypertension drugs. Duration is defined as number of months prior to index date for the earliest note. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+          <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+          <units>Months</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1130"/>
+                <count group_id="O2" value="2566"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Before PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="938"/>
+                    <count group_id="O2" value="2190"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="42.4" spread="42.8"/>
+                    <measurement group_id="O2" value="43.8" spread="41.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>After PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="708"/>
+                    <count group_id="O2" value="726"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="43.6" spread="43.7"/>
+                    <measurement group_id="O2" value="40.9" spread="40.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Percentage of Patients With Uncontrolled Hypertension</title>
+        <description>Percentage of patients with uncontrolled hypertension; defined as &quot;SBP &gt;160 mmHg using the most recent information prior to index date in the electronic medical records (EMR)&quot;. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+        <time_frame>Up to 12 months</time_frame>
+        <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran Etexilate</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Patients With Uncontrolled Hypertension</title>
+          <description>Percentage of patients with uncontrolled hypertension; defined as &quot;SBP &gt;160 mmHg using the most recent information prior to index date in the electronic medical records (EMR)&quot;. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+          <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+          <units>Percentage of patients</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1130"/>
+                <count group_id="O2" value="2566"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Before PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="27"/>
+                    <count group_id="O2" value="18"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.0"/>
+                    <measurement group_id="O2" value="0.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>After PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="12"/>
+                    <count group_id="O2" value="9"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.0"/>
+                    <measurement group_id="O2" value="0.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>EMR Characteristic: History/Duration of Congestive Heart Failure (CHF)</title>
+        <description>EMR characteristic: History/duration of Congestive Heart Failure (CHF). Duration is defined as number of months prior to index date for the earliest note. Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+        <time_frame>Up to 12 months</time_frame>
+        <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran Etexilate</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>EMR Characteristic: History/Duration of Congestive Heart Failure (CHF)</title>
+          <description>EMR characteristic: History/duration of Congestive Heart Failure (CHF). Duration is defined as number of months prior to index date for the earliest note. Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+          <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+          <units>Months</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1130"/>
+                <count group_id="O2" value="2566"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Before PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="56"/>
+                    <count group_id="O2" value="190"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="28.2" spread="30.8"/>
+                    <measurement group_id="O2" value="38.3" spread="38.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>After PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="44"/>
+                    <count group_id="O2" value="51"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="26.0" spread="30.1"/>
+                    <measurement group_id="O2" value="33.9" spread="38.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Percentage of Patients With Prior Transient Ischemic Attack</title>
+        <description>Percentage of patients with any note of prior transient ischemic attack in the electronic medical records (EMR). Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+        <time_frame>Up to 12 months</time_frame>
+        <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran Etexilate</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Patients With Prior Transient Ischemic Attack</title>
+          <description>Percentage of patients with any note of prior transient ischemic attack in the electronic medical records (EMR). Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+          <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+          <units>Percentage of patients</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1130"/>
+                <count group_id="O2" value="2566"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Before PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="1130"/>
+                    <count group_id="O2" value="2566"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.6"/>
+                    <measurement group_id="O2" value="2.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>After PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="846"/>
+                    <count group_id="O2" value="846"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.4"/>
+                    <measurement group_id="O2" value="2.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Percentage of Patients With Diabetes</title>
+        <description>Percentage of patients with any note of diabetes type I or II in the electronic medical records (EMR) is presented. Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+        <time_frame>Up to 12 months</time_frame>
+        <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran Etexilate</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Patients With Diabetes</title>
+          <description>Percentage of patients with any note of diabetes type I or II in the electronic medical records (EMR) is presented. Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+          <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+          <units>Percentage of patients</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1130"/>
+                <count group_id="O2" value="2566"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Before PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="1130"/>
+                    <count group_id="O2" value="2566"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="13.4"/>
+                    <measurement group_id="O2" value="18.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>After PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="846"/>
+                    <count group_id="O2" value="846"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="14.7"/>
+                    <measurement group_id="O2" value="14.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>The concordance statistic is equal to the area under a ROC curve. The C-statistic (sometimes called the “concordance” statistic or C-index) is a measure of goodness of fit for binary outcomes in a logistic regression model.</groups_desc>
+            <non_inferiority_type>Other</non_inferiority_type>
+            <param_type>C-Statistic</param_type>
+            <param_value>0.88</param_value>
+            <estimate_desc>The C-statistic can be between 0.5 and 1 and a value of 0.5 indicates that the model is no better than chance at making a prediction and a value of 1.0 indicates that the model perfectly identifies those within a group and those not.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Percentage of Patients With Hyperlipidemia</title>
+        <description>Percentage of patients with hyperlipidemia is presented, defined as any note of hyperlipidemia, dyslipidemia or Low Density Lipoprotein (LDL) &gt;130 mg/dl in the electronic medical records (EMR). Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+        <time_frame>Up to 12 months</time_frame>
+        <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran Etexilate</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Patients With Hyperlipidemia</title>
+          <description>Percentage of patients with hyperlipidemia is presented, defined as any note of hyperlipidemia, dyslipidemia or Low Density Lipoprotein (LDL) &gt;130 mg/dl in the electronic medical records (EMR). Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+          <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+          <units>Percentage of patients</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1130"/>
+                <count group_id="O2" value="2566"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Before PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="1130"/>
+                    <count group_id="O2" value="2566"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="34.8"/>
+                    <measurement group_id="O2" value="36.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>After PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="846"/>
+                    <count group_id="O2" value="846"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="35.6"/>
+                    <measurement group_id="O2" value="34.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>The concordance statistic is equal to the area under a ROC curve. The C-statistic (sometimes called the “concordance” statistic or C-index) is a measure of goodness of fit for binary outcomes in a logistic regression model.</groups_desc>
+            <non_inferiority_type>Other</non_inferiority_type>
+            <param_type>C-Statistic</param_type>
+            <param_value>0.69</param_value>
+            <estimate_desc>The C-statistic can be between 0.5 and 1 and a value of 0.5 indicates that the model is no better than chance at making a prediction and a value of 1.0 indicates that the model perfectly identifies those within a group and those not.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>EMR Characteristic: Hypertension, Abnormal Liver/Renal Function, Stroke, Bleeding History or Predisposition, Labile International Normalized Ratio, Elderly, Drugs/Alcohol Usage (HAS-BLED) Score</title>
+        <description>EMR characteristic: HAS-BLED Score. HAS-BLED score is calculated by adding the specified points for each of the conditions listed below. Hypertension (uncontrolled), Abnormal renal and liver function, Stroke, Bleeding history or predisposition (anemia), Labile International Normalized Ratio (INR), Elderly, Drugs or alcohol (1 point each). Labile INR is defined as as the most recent INR &lt;2 or &gt;3 prior to cohort entry. Conditions are considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+        <time_frame>Up to 12 months</time_frame>
+        <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures. Also the patients with data for all HAS-BLED components.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran Etexilate</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>EMR Characteristic: Hypertension, Abnormal Liver/Renal Function, Stroke, Bleeding History or Predisposition, Labile International Normalized Ratio, Elderly, Drugs/Alcohol Usage (HAS-BLED) Score</title>
+          <description>EMR characteristic: HAS-BLED Score. HAS-BLED score is calculated by adding the specified points for each of the conditions listed below. Hypertension (uncontrolled), Abnormal renal and liver function, Stroke, Bleeding history or predisposition (anemia), Labile International Normalized Ratio (INR), Elderly, Drugs or alcohol (1 point each). Labile INR is defined as as the most recent INR &lt;2 or &gt;3 prior to cohort entry. Conditions are considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+          <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures. Also the patients with data for all HAS-BLED components.</population>
+          <units>Unit on Scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1130"/>
+                <count group_id="O2" value="2566"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Before PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="1130"/>
+                    <count group_id="O2" value="2566"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.4" spread="1.0"/>
+                    <measurement group_id="O2" value="1.6" spread="1.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>After PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="846"/>
+                    <count group_id="O2" value="846"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.5" spread="1.0"/>
+                    <measurement group_id="O2" value="1.5" spread="1.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>R-squared is a statistical measure of how close the data are to the fitted regression line. 0% indicates that the model explains none of the variability of the response data around its mean. 100% indicates that the model explains all the variability of the response data around its mean.</groups_desc>
+            <non_inferiority_type>Other</non_inferiority_type>
+            <param_type>Adjusted R squared statistic</param_type>
+            <param_value>0.34</param_value>
+            <estimate_desc>The adjusted R² statistic, or coefficient of determination, is the proportion of the variance in the (EMR) outcome that is predictable from the independent (claims) variables, adjusted for the number of predictors in the model.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Percentage of Patients With Use of Antiplatelets or Non-steroidal Anti-inflammatory Drugs</title>
+        <description>Percentage of patients with use of antiplatelets or non-steroidal anti-inflammatory drugs (NSAIDs). Includes use of aspirin, clopidogrel, prasugrel, ticagrelor or NSAIDs (within 1 month or on the index date) in the electronic medical records (EMR). Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+        <time_frame>Up to 1 month</time_frame>
+        <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran Etexilate</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Patients With Use of Antiplatelets or Non-steroidal Anti-inflammatory Drugs</title>
+          <description>Percentage of patients with use of antiplatelets or non-steroidal anti-inflammatory drugs (NSAIDs). Includes use of aspirin, clopidogrel, prasugrel, ticagrelor or NSAIDs (within 1 month or on the index date) in the electronic medical records (EMR). Response was considered to be truly absent if not recorded in the EMR. The results are provided before and after propensity score (PS) matching. Before PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR whose data were available; After PS matching: all patients meeting inclusion/exclusion criteria successfully linked to EMR, 1:1 propensity score matched, whose data were available.</description>
+          <population>Two sets of results are provided, before and after PS matching. Rivaroxaban and Apixaban correspond to post-hoc analyses not pre-specified in the protocol and hence not included in the outcome measures.</population>
+          <units>Percentage of patients</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1130"/>
+                <count group_id="O2" value="2566"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Before PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="1130"/>
+                    <count group_id="O2" value="2566"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="18.0"/>
+                    <measurement group_id="O2" value="18.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>After PS matching</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="846"/>
+                    <count group_id="O2" value="846"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="17.1"/>
+                    <measurement group_id="O2" value="18.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Safety monitoring and safety reporting on an individual case level is not applicable.</time_frame>
+      <desc>Serious and other (non-serious) adverse events were not of interest in this study and therefore were not collected or assessed as part of the study, in addition individual patient data is not available therefore adverse event data is not presented.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Dabigatran Etexilate</title>
+          <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate dabigatran etexilate between October 2010 and December 2014.</description>
+        </group>
+        <group group_id="E2">
+          <title>Warfarin</title>
+          <description>Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate warfarin between October 2010 and December 2014.</description>
+        </group>
+        <group group_id="E3">
+          <title>Rivaroxaban</title>
+          <description>(Post hoc analysis) Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate rivaroxaban between October 2010 and December 2014.</description>
+        </group>
+        <group group_id="E4">
+          <title>Apixaban</title>
+          <description>(Post hoc analysis) Patients from a United States health insurance database (linked to electronic medical records (EMR) in a subset) with a recorded diagnosis of atrial fibrillation without evidence of valvular aetiology and at risk for stroke who initiate apixaban between October 2010 and December 2014.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>5</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>Boehringer Ingelheim (BI) acknowledges that investigators have the right to publish the study results. Investigators shall provide BI with a copy of any publication or presentation for review prior to any submission. Such review will be done with regard to proprietary information, information related to patentable inventions, medical, scientific, and statistical accuracy within 60 days. BI may request a delay of the publication in order to protect BI’s intellectual property rights.</restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Boehringer Ingelheim, Call Center</name_or_title>
+      <organization>Boehringer Ingelheim</organization>
+      <phone>1-800-243-0127</phone>
+      <email>clintriage.rdg@boehringer-ingelheim.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

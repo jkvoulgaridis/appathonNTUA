@@ -1,0 +1,240 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03680014</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CUSH DHTC 4279</org_study_id>
+    <nct_id>NCT03680014</nct_id>
+  </id_info>
+  <brief_title>Remote Monitoring and Analysis of Gait and Falls Within an Elderly Population</brief_title>
+  <acronym>4279</acronym>
+  <official_title>Remote Monitoring and Analysis of Gait and Falls Within an Elderly Population</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>CUSH Health Ltd.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>CUSH Health Ltd.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators aim to do this initial pilot study as an observational prospective cohort
+      study, evaluating elderly patients who have capacity in National Health Service (NHS)
+      rehabilitation and community hospitals. The patients will each be recorded doing simple
+      activities of daily living in two 2 hour sessions using a discrete wireless device. This will
+      generate anonymous data set that can be used to train and refine our machine learning
+      algorithm.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Phase 1 - Creation The creation of a databank of measurements during stereotypical actions of
+      daily living.
+
+      Population recruited (P1 recruits) Patients to complete a demographic questionnaire based on
+      historical falls risk data.
+
+      Recruited patients allocated to a mobility/independence subgroup based on the information
+      obtained from the demographic questionnaire completed at the time of recruitment.
+
+      Patients may be reclassified to different subgroups to redistribute them according to other
+      factors including frailty, exercise tolerance, balance etc.
+
+      Patients given a structured scripted set of simple activities to carry out (such as walking,
+      sitting and picking something off the floor etc.) to cover as many activities of daily of
+      living as possible.
+
+      Their actions will be monitored with inertia measurement units (IMU) 1-3 per patient (Each
+      will be off the shelf European Conformity (CE) approved products no bigger than a modern
+      smart phone).
+
+      Data is transmitted from the IMUs wirelessly to the investigators' laptop, patients will not
+      be attached or anchored to any secondary devices or cables. The IMUs are attached to the
+      patients with a comfortable lightweight belt design and or non-invasive leg bands.
+
+      These scripted sessions will be repeated 5 to 10 times per subject to create an anonymous
+      databank (D1). This will form a reference range per subgroup of &quot;truth&quot; data for the
+      algorithm to search.
+
+      Patient identifiable data will be limited to the study questionnaires which will be stored
+      securely at the corresponding study site.
+
+      Phase 2 - Validation The validation of the databank while observing previously recorded and
+      not previously recorded subjects in an unscripted session.
+
+      Population patients included All patients from phase 1, new patients recruited (P2 recruits)
+
+      Newly recruited patients (P2) to complete a demographic questionnaire based on historical
+      falls risk data. These patients will not be immediately allocated to a mobility/independence
+      subgroup, but labelled as unknown (x).
+
+      All patients observed individually during daily activities in an unscripted session. Patient
+      to wear single IMU sensor which captures mobility data (D2). The activities the subject
+      undertakes during D2 are manually entered onto timesheet by observer for later cross
+      referencing.
+
+      2.1 Patients (P2) who are previously unrecorded and who are unallocated to a
+      mobility/independence subgroup have their unscripted data (D2) analysed by the motion
+      algorithm which stratifies them to a mobility/independence subgroup based on the likeness of
+      their data to that stored in the databank (D1). They are then allocated to a
+      mobility/independence subgroup based on their questionnaire data and the two outcomes are
+      compared to see if they match or differ.
+
+      - Can algorithm predict &quot;truth&quot;
+
+      2.2 Patients (P1) who have previously been recorded in phase 1 and who are allocated to a
+      mobility/independence subgroup based on their questionnaire data have their unscripted data
+      (D2) from phase 2 analysed by the motion algorithm. This then stratifies them again to a
+      mobility/independence subgroup based on the likeness of their new data (D2) to that stored in
+      the databank (D1). To see if their outcome remains the same or differs.
+
+      - Can algorithm confirm &quot;truth&quot;
+
+      (See Appendix B. for diagrammatically representation of phase 1 and phase 2.) During the
+      unscripted session (D2) any falls or patient reported loss of balance that occurs will be
+      recorded and time stamped by the observer. These data sets will be labelled as &quot;Falls truth&quot;
+      or &quot;Balance truth&quot; data respectively and added to the anonymous databank for cross-reference.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">September 12, 2018</start_date>
+  <completion_date type="Anticipated">September 30, 2019</completion_date>
+  <primary_completion_date type="Anticipated">October 31, 2018</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>2 Days</target_duration>
+  <primary_outcome>
+    <measure>Validation of gait analysis algorithm by use of Inertial Measurement Unit (IMU)</measure>
+    <time_frame>3 months</time_frame>
+    <description>Validation of a motion analysis algorithm to predict falls risk in an elderly population using IMU data captured from accelerometers and gyroscopes within the IMU. The IMU will allow capture of data from wearers gait and movement.</description>
+  </primary_outcome>
+  <number_of_groups>6</number_of_groups>
+  <enrollment type="Anticipated">40</enrollment>
+  <condition>Accidental Fall</condition>
+  <condition>Fall</condition>
+  <condition>Fall Injury</condition>
+  <condition>Hip Fractures</condition>
+  <arm_group>
+    <arm_group_label>1</arm_group_label>
+    <description>Capable of independent of daily activities and able to mobilise unaided. No previous of falls.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>2</arm_group_label>
+    <description>Capable of independent of daily activities and able to mobilise unaided. With a previous of atleast one fall.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>3</arm_group_label>
+    <description>Requires help with most daily activities, mobilises with a single walking stick. No previous falls.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>4</arm_group_label>
+    <description>Requires help with most daily activities, mobilises with a single walking stick. With a previous of atleast one fall.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>5</arm_group_label>
+    <description>Requires help with most daily activities. Mobilise with frame or roller frame. No previous falls.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>6</arm_group_label>
+    <description>Requires help with most daily activities. Mobilise with frame or roller frame. Previous history of at least one fall.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>CUSH</intervention_name>
+    <description>Machine learning assisted remote monitoring/ telehealth platform to predict and prevent falls</description>
+    <arm_group_label>1</arm_group_label>
+    <arm_group_label>2</arm_group_label>
+    <arm_group_label>3</arm_group_label>
+    <arm_group_label>4</arm_group_label>
+    <arm_group_label>5</arm_group_label>
+    <arm_group_label>6</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        At risk individuals who are able to consent to take part in study.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Aged over 65 years of age
+
+          -  Able to give informed consent
+
+          -  Able to mobilise independently or with mobility aid (walking stick, Zimmer frame etc.)
+
+        Exclusion Criteria:
+
+          -  Patients under the age of 65.
+
+          -  Patients who are bedbound or wheelchair bound.
+
+          -  Patients with cognitive impairment and are unable to give informed consent.
+
+          -  Significant medical co-morbidities that make participation in the study unsafe.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>65 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sam Fosker, BMBS</last_name>
+    <role>Study Director</role>
+    <affiliation>CUSH Health</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Kalon Hewage, MBBS BSc</last_name>
+    <role>Study Chair</role>
+    <affiliation>CUSH Health</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Kalon Hewage, MBBS BSc</last_name>
+    <phone>+447776328379</phone>
+    <email>kalon@cushhealth.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Sam Fosker, BMBS</last_name>
+    <phone>+447714091611</phone>
+    <email>Sam@cushhealth.com</email>
+  </overall_contact_backup>
+  <verification_date>September 2018</verification_date>
+  <study_first_submitted>August 31, 2018</study_first_submitted>
+  <study_first_submitted_qc>September 19, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 21, 2018</study_first_posted>
+  <last_update_submitted>September 19, 2018</last_update_submitted>
+  <last_update_submitted_qc>September 19, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 21, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>CUSH Health Ltd.</investigator_affiliation>
+    <investigator_full_name>Kalon Hewage</investigator_full_name>
+    <investigator_title>Co-Founder, Director</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hip Fractures</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

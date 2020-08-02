@@ -1,0 +1,993 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03224130</url>
+  </required_header>
+  <id_info>
+    <org_study_id>H2O Supplement</org_study_id>
+    <nct_id>NCT03224130</nct_id>
+  </id_info>
+  <brief_title>Supplement to Hospital to Home Outcomes</brief_title>
+  <acronym>Supplement</acronym>
+  <official_title>Supplement to Hospital to Home Outcomes (H2O): A Study to Improve the Fluidity of Transitions Between Hospital and Home</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Children's Hospital Medical Center, Cincinnati</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Patient-Centered Outcomes Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Children's Hospital Medical Center, Cincinnati</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Post-discharge nurse phone call
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Previous work has identified barriers to successful transitions that are most meaningful to
+      patients and families. Investigators used these learnings to iteratively adapt an existing
+      nurse home visit program to address these barriers, and have been studying the effectiveness
+      of the redesigned nurse home visit in a randomized control trial (NCT02081846).
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">May 11, 2016</start_date>
+  <completion_date type="Actual">June 30, 2017</completion_date>
+  <primary_completion_date type="Actual">June 30, 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>Single (Investigator)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of Participants With Any Occurrence of Unplanned Re-hospitalization and/or Any Emergency/Urgent Care Visits Within 30 Days of Hospital Discharge</measure>
+    <time_frame>30 days post-discharge</time_frame>
+    <description>The dependent variable will be a dichotomized indicator of any occurrence of unplanned rehospitalization, ED or urgent care visit within 30-days post-discharge (i.e. unplanned reutilization). Differences in this outcome between intervention and control groups will be evaluated using logistic regression with the stratification variables (neighborhood poverty and state)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Post-Discharge Coping Scale</measure>
+    <time_frame>14 days post-discharge</time_frame>
+    <description>Post-Discharge Difficulty Coping Scale (Weiss, et. al): measured at 14 day post-discharge phone call. Post-Discharge Coping Difficulty Scale uses an 11 point scaling format (0-10) with total scores ranging from 0 to 100. Higher scores represent greater coping difficulty. Differences between intervention and control groups on this outcome at 14-day post-discharge are evaluated using a linear regression model with the stratification variables (census tract poverty and state of residence).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Days Until Normalcy</measure>
+    <time_frame>14 days post-discharge</time_frame>
+    <description>Number of days until normalcy: measured at post discharge phone call. Parents asked to recall the number of days it took to &quot;return to a 'normal' routine&quot; including the return to work and school (with option of not yet be back to normal).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Red Flags Remembered</measure>
+    <time_frame>14 days post-discharge</time_frame>
+    <description>This was measured at the 14 day post-discharge phone call survey. Parents were asked to recall &quot;any red flags or warning signs&quot; to indicate the &quot;child's condition was getting worse.&quot; The number of red flags recalled could range from 0-10 depending on the template used. The template was a home visit guideline for nurses to use that was specific to the child's illness. For example, if the child had bronchiolitis the nurse would use the template &quot;bronchiolitis/croup/pneumonia&quot; to guide them through the visit. Higher values (i.e., the greater number of red flags remembered) represent a better outcome.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Occurrence(s) of an Unplanned Readmission Within 30 Days Post-discharge</measure>
+    <time_frame>30 days</time_frame>
+    <description>Occurrence(s) of an unplanned readmission within 30 days post-discharge.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Occurrence(s) of an Emergency Department Visit Within 30 Days Post-discharge</measure>
+    <time_frame>30 days</time_frame>
+    <description>Occurence(s) of an ED visit within 30 days post-discharge</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Occurrence(s) of 14-day Unplanned Healthcare Utilization</measure>
+    <time_frame>14 days post-discharge</time_frame>
+    <description>Occurrence(s) of 14-day unplanned healthcare utilization defined by unplanned re-hospitalization and/or any emergency/urgent care visit within 14 days or parent report of an unplanned visit to one of these places. Parent report is collected at the 14 day follow-up phone call.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">966</enrollment>
+  <condition>Hospitalized Patients</condition>
+  <arm_group>
+    <arm_group_label>Nurse Phone Call</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Families in this arm will receive a phone call within 96 hours of discharge</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard of Care</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>This arm will receive standard of care.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Nurse Phone Call</intervention_name>
+    <description>We will complete a single center, parallel, randomized, standard-of-care-controlled prospective study to determine the efficacy of a one-time nurse phone call, an intervention adapted from those studied in other populations (i.e., adults, high-risk infants), in improving pediatric patient transitions from hospital to home</description>
+    <arm_group_label>Nurse Phone Call</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Standard of Care</intervention_name>
+    <description>Control patients will be randomized to receive standard-of-care at discharge. This care at our institution includes pediatric hospitalist to PCP (primary care physician) verbal and written communication prior to discharge, written documentation for the family regarding prescribed medication regimen, recommended follow-up with outpatient PCP and relevant consultant(s), and delivery of prescribed medications from the hospital pharmacy to the patient's bedside.</description>
+    <arm_group_label>Standard of Care</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patient is under 18 years of age
+
+          -  Patient is admitted to Cincinnati Children's Hospital Medical Center to hospital
+             medicine, ,community pediatrics, or adolescent medicine.
+
+        Exclusion Criteria:
+
+          -  Patient to be discharged someplace other than home (e.g., residential facility,
+             psychiatric facility)
+
+          -  Patient's home residence is outside the home nursing service area
+
+          -  Patient is eligible for &quot;traditional&quot; home nursing services
+
+          -  Caregiver is non-English speaking
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>18 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Samir Shah, MD, MSCE</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Children's Hospital Medical Center, Cincinnati</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Cincinnati Children's Hospital Medical Center</name>
+      <address>
+        <city>Cincinnati</city>
+        <state>Ohio</state>
+        <zip>45229</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Sauers-Ford HS, Simmons JM, Shah SS; H2O Study Team. Strategies to engage stakeholders in research to improve acute care delivery. J Hosp Med. 2016 Feb;11(2):123-5. doi: 10.1002/jhm.2492. Epub 2015 Sep 28.</citation>
+    <PMID>26416164</PMID>
+  </reference>
+  <reference>
+    <citation>Tubbs-Cooley HL, Pickler RH, Simmons JM, Auger KA, Beck AF, Sauers-Ford HS, Sucharew H, Solan LG, White CM, Sherman SN, Statile AM, Shah SS; H2O Study Group. Testing a post-discharge nurse-led transitional home visit in acute care pediatrics: the Hospital-To-Home Outcomes (H2O) study protocol. J Adv Nurs. 2016 Apr;72(4):915-25. doi: 10.1111/jan.12882. Epub 2016 Jan 28.</citation>
+    <PMID>26817441</PMID>
+  </reference>
+  <reference>
+    <citation>Solan LG, Beck AF, Brunswick SA, Sauers HS, Wade-Murphy S, Simmons JM, Shah SS, Sherman SN; H2O Study Group. The Family Perspective on Hospital to Home Transitions: A Qualitative Study. Pediatrics. 2015 Dec;136(6):e1539-49. doi: 10.1542/peds.2015-2098.</citation>
+    <PMID>26620060</PMID>
+  </reference>
+  <reference>
+    <citation>Beck AF, Solan LG, Brunswick SA, Sauers-Ford H, Simmons JM, Shah S, Gold J, Sherman SN; H2O Study Group. Socioeconomic status influences the toll paediatric hospitalisations take on families: a qualitative study. BMJ Qual Saf. 2017 Apr;26(4):304-311. doi: 10.1136/bmjqs-2016-005421. Epub 2016 Jul 28.</citation>
+    <PMID>27471042</PMID>
+  </reference>
+  <reference>
+    <citation>Pickler R, Wade-Murphy S, Gold J, Tubbs-Cooley H, White CM, Statile A, Hoying C, Sauers-Ford H, Shah SS, Simmons J; H2O Study Group. A Nurse Transitional Home Visit Following Pediatric Hospitalizations. J Nurs Adm. 2016 Dec;46(12):642-647.</citation>
+    <PMID>27851705</PMID>
+  </reference>
+  <reference>
+    <citation>Sauers-Ford HS, Tubbs-Cooley H, Statile AM, Pickler RH, White CM, Wade-Murphy S, Gold JM, Shah SS, Simmons JM, Auger KA, Bachus J, Beck AF, Borell ML, Brunswick SA, Chang L, Heilman JA, Jabour JA, Khoury JC, Moore MJ, Sherman SN, Solan LG, Sucharew HJ, Sullivan KP. Optimizing a Nurse-led Transitional Home Visit Program in Preparation for a Randomized Control Trial. Pediatr Qual Saf. 2017 Jan 25;2(1):e012. doi: 10.1097/pq9.0000000000000012. eCollection 2017 Jan-Feb.</citation>
+    <PMID>30229150</PMID>
+  </reference>
+  <reference>
+    <citation>Sauers-Ford HS, Gold JM, Statile AM, Tubbs-Cooley HL, Simmons JM, Shah SS, Bell K, Pfefferman C, Moore MJ, Auger KA; H2O Study Group. Improving Recruitment and Retention Rates in a Randomized Controlled Trial. Pediatrics. 2017 May;139(5). pii: e20162770. doi: 10.1542/peds.2016-2770.</citation>
+    <PMID>28557728</PMID>
+  </reference>
+  <reference>
+    <citation>Solan LG, Beck AF, Shardo SA, Sauers-Ford HS, Simmons JM, Shah SS, Sherman SN; H20 Study Group. Caregiver Perspectives on Communication During Hospitalization at an Academic Pediatric Institution: A Qualitative Study. J Hosp Med. 2018 Jan 18;13(5):304-311. doi: 10.12788/jhm.2919. [Epub ahead of print]</citation>
+    <PMID>29345256</PMID>
+  </reference>
+  <reference>
+    <citation>Shah AN, Beck AF, Sucharew HJ, Litman S, Pfefferman C, Haney J, Shah SS, Simmons JM, Auger KA; H2O Study Group. Parental Adverse Childhood Experiences and Resilience on Coping After Discharge. Pediatrics. 2018 Apr;141(4). pii: e20172127. doi: 10.1542/peds.2017-2127.</citation>
+    <PMID>29563237</PMID>
+  </reference>
+  <reference>
+    <citation>Auger KA, Simmons JM, Tubbs-Cooley HL, Sucharew HJ, Statile AM, Pickler RH, Sauers-Ford HS, Gold JM, Khoury JC, Beck AF, Wade-Murphy S, Kuhnell P, Shah SS; H2O Trial study group. Postdischarge Nurse Home Visits and Reuse: The Hospital to Home Outcomes (H2O) Trial. Pediatrics. 2018 Jul;142(1). pii: e20173919. doi: 10.1542/peds.2017-3919. Erratum in: Pediatrics. 2019 Apr;143(4):.</citation>
+    <PMID>29934295</PMID>
+  </reference>
+  <reference>
+    <citation>Auger KA, Shah SS, Tubbs-Cooley HL, Sucharew HJ, Gold JM, Wade-Murphy S, Statile AM, Bell KD, Khoury JC, Mangeot C, Simmons JM; Hospital-to-Home Outcomes Trial Study Group. Effects of a 1-Time Nurse-Led Telephone Call After Pediatric Discharge: The H2O II Randomized Clinical Trial. JAMA Pediatr. 2018 Sep 1;172(9):e181482. doi: 10.1001/jamapediatrics.2018.1482. Epub 2018 Sep 4.</citation>
+    <PMID>30039161</PMID>
+  </reference>
+  <reference>
+    <citation>Chang LV, Shah AN, Hoefgen ER, Auger KA, Weng H, Simmons JM, Shah SS, Beck AF; H2O Study Group. Lost Earnings and Nonmedical Expenses of Pediatric Hospitalizations. Pediatrics. 2018 Sep;142(3). pii: e20180195. doi: 10.1542/peds.2018-0195. Epub 2018 Aug 13.</citation>
+    <PMID>30104421</PMID>
+  </reference>
+  <verification_date>April 2019</verification_date>
+  <study_first_submitted>May 10, 2016</study_first_submitted>
+  <study_first_submitted_qc>July 18, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 21, 2017</study_first_posted>
+  <results_first_submitted>December 1, 2017</results_first_submitted>
+  <results_first_submitted_qc>December 27, 2018</results_first_submitted_qc>
+  <results_first_posted type="Actual">March 29, 2019</results_first_posted>
+  <last_update_submitted>April 11, 2019</last_update_submitted>
+  <last_update_submitted_qc>April 11, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 16, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>transitions of care</keyword>
+  <keyword>reutilization</keyword>
+  <keyword>nurse phone call</keyword>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>September 20, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/30/NCT03224130/Prot_000.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Statistical Analysis Plan</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>September 20, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/30/NCT03224130/SAP_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Nurse Phone Call</title>
+          <description>Families in this arm will receive a phone call within 96 hours of discharge
+Nurse Phone Call: We will complete a single center, parallel, randomized, standard-of-care-controlled prospective study to determine the efficacy of a one-time nurse phone call, an intervention adapted from those studied in other populations (i.e., adults, high-risk infants), in improving pediatric patient transitions from hospital to home</description>
+        </group>
+        <group group_id="P2">
+          <title>Standard of Care</title>
+          <description>This arm will receive standard of care.
+Standard of Care: Control patients will be randomized to receive standard-of-care at discharge. This care at our institution includes pediatric hospitalist to PCP (primary care physician) verbal and written communication prior to discharge, written documentation for the family regarding prescribed medication regimen, recommended follow-up with outpatient PCP and relevant consultant(s), and delivery of prescribed medications from the hospital pharmacy to the patient’s bedside.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="483"/>
+                <participants group_id="P2" count="483"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="483"/>
+                <participants group_id="P2" count="482"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>consent issue</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Nurse Phone Call</title>
+          <description>Families in this arm will receive a phone call within 96 hours of discharge
+Nurse Phone Call: We will complete a single center, parallel, randomized, standard-of-care-controlled prospective study to determine the efficacy of a one-time nurse phone call, an intervention adapted from those studied in other populations (i.e., adults, high-risk infants), in improving pediatric patient transitions from hospital to home</description>
+        </group>
+        <group group_id="B2">
+          <title>Standard of Care</title>
+          <description>This arm will receive standard of care.
+Standard of Care: Control patients will be randomized to receive standard-of-care at discharge. This care at our institution includes pediatric hospitalist to PCP (primary care physician) verbal and written communication prior to discharge, written documentation for the family regarding prescribed medication regimen, recommended follow-up with outpatient PCP and relevant consultant(s), and delivery of prescribed medications from the hospital pharmacy to the patient’s bedside.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="483"/>
+            <count group_id="B2" value="482"/>
+            <count group_id="B3" value="965"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2.4" lower_limit="0.5" upper_limit="7.8"/>
+                    <measurement group_id="B2" value="2.4" lower_limit="0.5" upper_limit="7.8"/>
+                    <measurement group_id="B3" value="2.4" lower_limit="0.5" upper_limit="7.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="246"/>
+                    <measurement group_id="B2" value="214"/>
+                    <measurement group_id="B3" value="460"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="237"/>
+                    <measurement group_id="B2" value="268"/>
+                    <measurement group_id="B3" value="505"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="13"/>
+                    <measurement group_id="B2" value="20"/>
+                    <measurement group_id="B3" value="33"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="470"/>
+                    <measurement group_id="B2" value="461"/>
+                    <measurement group_id="B3" value="931"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race/Ethnicity, Customized</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>Race</title>
+              <category_list>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="309"/>
+                    <measurement group_id="B2" value="311"/>
+                    <measurement group_id="B3" value="620"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="117"/>
+                    <measurement group_id="B2" value="102"/>
+                    <measurement group_id="B3" value="219"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian/Oriental or Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                    <measurement group_id="B2" value="6"/>
+                    <measurement group_id="B3" value="14"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Other</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="49"/>
+                    <measurement group_id="B2" value="61"/>
+                    <measurement group_id="B3" value="110"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown/missing</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="483"/>
+                    <measurement group_id="B2" value="482"/>
+                    <measurement group_id="B3" value="965"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Length of Stay</title>
+          <description>Length of hospital stay in days.</description>
+          <units>days</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2" lower_limit="1" upper_limit="2"/>
+                    <measurement group_id="B2" value="2" lower_limit="1" upper_limit="2"/>
+                    <measurement group_id="B3" value="2" lower_limit="1" upper_limit="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Participants With Any Occurrence of Unplanned Re-hospitalization and/or Any Emergency/Urgent Care Visits Within 30 Days of Hospital Discharge</title>
+        <description>The dependent variable will be a dichotomized indicator of any occurrence of unplanned rehospitalization, ED or urgent care visit within 30-days post-discharge (i.e. unplanned reutilization). Differences in this outcome between intervention and control groups will be evaluated using logistic regression with the stratification variables (neighborhood poverty and state)</description>
+        <time_frame>30 days post-discharge</time_frame>
+        <population>The analysis population includes the total 966 (483 intervention, 483 control) randomized excluding the one subject withdrawn in the control group after randomization due to invalid consent at 14-day follow-up.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Nurse Phone Call</title>
+            <description>Families in this arm will receive a phone call within 96 hours of discharge
+Nurse Phone Call: We will complete a single center, parallel, randomized, standard-of-care-controlled prospective study to determine the efficacy of a one-time nurse phone call, an intervention adapted from those studied in other populations (i.e., adults, high-risk infants), in improving pediatric patient transitions from hospital to home</description>
+          </group>
+          <group group_id="O2">
+            <title>Standard of Care</title>
+            <description>This arm will receive standard of care.
+Standard of Care: Control patients will be randomized to receive standard-of-care at discharge. This care at our institution includes pediatric hospitalist to PCP (primary care physician) verbal and written communication prior to discharge, written documentation for the family regarding prescribed medication regimen, recommended follow-up with outpatient PCP and relevant consultant(s), and delivery of prescribed medications from the hospital pharmacy to the patient’s bedside.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With Any Occurrence of Unplanned Re-hospitalization and/or Any Emergency/Urgent Care Visits Within 30 Days of Hospital Discharge</title>
+          <description>The dependent variable will be a dichotomized indicator of any occurrence of unplanned rehospitalization, ED or urgent care visit within 30-days post-discharge (i.e. unplanned reutilization). Differences in this outcome between intervention and control groups will be evaluated using logistic regression with the stratification variables (neighborhood poverty and state)</description>
+          <population>The analysis population includes the total 966 (483 intervention, 483 control) randomized excluding the one subject withdrawn in the control group after randomization due to invalid consent at 14-day follow-up.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="483"/>
+                <count group_id="O2" value="482"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="77"/>
+                    <measurement group_id="O2" value="63"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.21</p_value>
+            <method>Regression, Logistic</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Post-Discharge Coping Scale</title>
+        <description>Post-Discharge Difficulty Coping Scale (Weiss, et. al): measured at 14 day post-discharge phone call. Post-Discharge Coping Difficulty Scale uses an 11 point scaling format (0-10) with total scores ranging from 0 to 100. Higher scores represent greater coping difficulty. Differences between intervention and control groups on this outcome at 14-day post-discharge are evaluated using a linear regression model with the stratification variables (census tract poverty and state of residence).</description>
+        <time_frame>14 days post-discharge</time_frame>
+        <population>The analysis population includes the total subjects completing the 14-day phone call survey for this outcome. Of the total randomized (966: 483 intervention, 483 control), 26 were excluded from the intervention group and 23 from the control group.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Nurse Phone Call</title>
+            <description>Families in this arm will receive a phone call within 96 hours of discharge
+Nurse Phone Call: We will complete a single center, parallel, randomized, standard-of-care-controlled prospective study to determine the efficacy of a one-time nurse phone call, an intervention adapted from those studied in other populations (i.e., adults, high-risk infants), in improving pediatric patient transitions from hospital to home</description>
+          </group>
+          <group group_id="O2">
+            <title>Standard of Care</title>
+            <description>This arm will receive standard of care.
+Standard of Care: Control patients will be randomized to receive standard-of-care at discharge. This care at our institution includes pediatric hospitalist to PCP (primary care physician) verbal and written communication prior to discharge, written documentation for the family regarding prescribed medication regimen, recommended follow-up with outpatient PCP and relevant consultant(s), and delivery of prescribed medications from the hospital pharmacy to the patient’s bedside.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Post-Discharge Coping Scale</title>
+          <description>Post-Discharge Difficulty Coping Scale (Weiss, et. al): measured at 14 day post-discharge phone call. Post-Discharge Coping Difficulty Scale uses an 11 point scaling format (0-10) with total scores ranging from 0 to 100. Higher scores represent greater coping difficulty. Differences between intervention and control groups on this outcome at 14-day post-discharge are evaluated using a linear regression model with the stratification variables (census tract poverty and state of residence).</description>
+          <population>The analysis population includes the total subjects completing the 14-day phone call survey for this outcome. Of the total randomized (966: 483 intervention, 483 control), 26 were excluded from the intervention group and 23 from the control group.</population>
+          <units>units on a scale</units>
+          <param>Least Squares Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="457"/>
+                <count group_id="O2" value="460"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="14.3" lower_limit="12.8" upper_limit="15.8"/>
+                    <measurement group_id="O2" value="15.2" lower_limit="13.7" upper_limit="16.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.31</p_value>
+            <method>Regression, Linear</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Days Until Normalcy</title>
+        <description>Number of days until normalcy: measured at post discharge phone call. Parents asked to recall the number of days it took to &quot;return to a 'normal' routine&quot; including the return to work and school (with option of not yet be back to normal).</description>
+        <time_frame>14 days post-discharge</time_frame>
+        <population>The analysis population includes the total subjects completing the 14-day phone call survey for this outcome. Of the total randomized (966: 483 intervention, 483 control), 26 were excluded from the intervention group and 23 from the control group.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Nurse Phone Call</title>
+            <description>Families in this arm will receive a phone call within 96 hours of discharge
+Nurse Phone Call: We will complete a single center, parallel, randomized, standard-of-care-controlled prospective study to determine the efficacy of a one-time nurse phone call, an intervention adapted from those studied in other populations (i.e., adults, high-risk infants), in improving pediatric patient transitions from hospital to home</description>
+          </group>
+          <group group_id="O2">
+            <title>Standard of Care</title>
+            <description>This arm will receive standard of care.
+Standard of Care: Control patients will be randomized to receive standard-of-care at discharge. This care at our institution includes pediatric hospitalist to PCP (primary care physician) verbal and written communication prior to discharge, written documentation for the family regarding prescribed medication regimen, recommended follow-up with outpatient PCP and relevant consultant(s), and delivery of prescribed medications from the hospital pharmacy to the patient’s bedside.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Days Until Normalcy</title>
+          <description>Number of days until normalcy: measured at post discharge phone call. Parents asked to recall the number of days it took to &quot;return to a 'normal' routine&quot; including the return to work and school (with option of not yet be back to normal).</description>
+          <population>The analysis population includes the total subjects completing the 14-day phone call survey for this outcome. Of the total randomized (966: 483 intervention, 483 control), 26 were excluded from the intervention group and 23 from the control group.</population>
+          <units>days</units>
+          <param>Least Squares Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="457"/>
+                <count group_id="O2" value="460"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3.9" lower_limit="3.5" upper_limit="4.2"/>
+                    <measurement group_id="O2" value="4.2" lower_limit="3.8" upper_limit="4.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.24</p_value>
+            <method>censored Poisson model</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Red Flags Remembered</title>
+        <description>This was measured at the 14 day post-discharge phone call survey. Parents were asked to recall &quot;any red flags or warning signs&quot; to indicate the &quot;child's condition was getting worse.&quot; The number of red flags recalled could range from 0-10 depending on the template used. The template was a home visit guideline for nurses to use that was specific to the child's illness. For example, if the child had bronchiolitis the nurse would use the template &quot;bronchiolitis/croup/pneumonia&quot; to guide them through the visit. Higher values (i.e., the greater number of red flags remembered) represent a better outcome.</description>
+        <time_frame>14 days post-discharge</time_frame>
+        <population>The analysis population includes the total subjects completing the 14-day phone call survey for this outcome. Of the total randomized (966: 483 intervention, 483 control), 25 were excluded from the intervention group and 23 from the control group.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Nurse Phone Call</title>
+            <description>Families in this arm will receive a phone call within 96 hours of discharge
+Nurse Phone Call: We will complete a single center, parallel, randomized, standard-of-care-controlled prospective study to determine the efficacy of a one-time nurse phone call, an intervention adapted from those studied in other populations (i.e., adults, high-risk infants), in improving pediatric patient transitions from hospital to home</description>
+          </group>
+          <group group_id="O2">
+            <title>Standard of Care</title>
+            <description>This arm will receive standard of care.
+Standard of Care: Control patients will be randomized to receive standard-of-care at discharge. This care at our institution includes pediatric hospitalist to PCP (primary care physician) verbal and written communication prior to discharge, written documentation for the family regarding prescribed medication regimen, recommended follow-up with outpatient PCP and relevant consultant(s), and delivery of prescribed medications from the hospital pharmacy to the patient’s bedside.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Red Flags Remembered</title>
+          <description>This was measured at the 14 day post-discharge phone call survey. Parents were asked to recall &quot;any red flags or warning signs&quot; to indicate the &quot;child's condition was getting worse.&quot; The number of red flags recalled could range from 0-10 depending on the template used. The template was a home visit guideline for nurses to use that was specific to the child's illness. For example, if the child had bronchiolitis the nurse would use the template &quot;bronchiolitis/croup/pneumonia&quot; to guide them through the visit. Higher values (i.e., the greater number of red flags remembered) represent a better outcome.</description>
+          <population>The analysis population includes the total subjects completing the 14-day phone call survey for this outcome. Of the total randomized (966: 483 intervention, 483 control), 25 were excluded from the intervention group and 23 from the control group.</population>
+          <units>units on a scale</units>
+          <param>Least Squares Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="458"/>
+                <count group_id="O2" value="460"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.8" lower_limit="1.7" upper_limit="2.0"/>
+                    <measurement group_id="O2" value="1.5" lower_limit="1.4" upper_limit="1.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>&lt;0.01</p_value>
+            <method>Poisson model</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Participants With Occurrence(s) of an Unplanned Readmission Within 30 Days Post-discharge</title>
+        <description>Occurrence(s) of an unplanned readmission within 30 days post-discharge.</description>
+        <time_frame>30 days</time_frame>
+        <population>The analysis population includes the total 966 (483 intervention, 483 control) randomized excluding the one subject withdrawn in the control group after randomization due to invalid consent at 14-day follow-up.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Nurse Phone Call</title>
+            <description>Families in this arm will receive a phone call within 96 hours of discharge
+Nurse Phone Call: We will complete a single center, parallel, randomized, standard-of-care-controlled prospective study to determine the efficacy of a one-time nurse phone call, an intervention adapted from those studied in other populations (i.e., adults, high-risk infants), in improving pediatric patient transitions from hospital to home</description>
+          </group>
+          <group group_id="O2">
+            <title>Standard of Care</title>
+            <description>This arm will receive standard of care.
+Standard of Care: Control patients will be randomized to receive standard-of-care at discharge. This care at our institution includes pediatric hospitalist to PCP (primary care physician) verbal and written communication prior to discharge, written documentation for the family regarding prescribed medication regimen, recommended follow-up with outpatient PCP and relevant consultant(s), and delivery of prescribed medications from the hospital pharmacy to the patient’s bedside.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With Occurrence(s) of an Unplanned Readmission Within 30 Days Post-discharge</title>
+          <description>Occurrence(s) of an unplanned readmission within 30 days post-discharge.</description>
+          <population>The analysis population includes the total 966 (483 intervention, 483 control) randomized excluding the one subject withdrawn in the control group after randomization due to invalid consent at 14-day follow-up.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="483"/>
+                <count group_id="O2" value="482"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="32"/>
+                    <measurement group_id="O2" value="27"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.50</p_value>
+            <method>Regression, Logistic</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Participants With Occurrence(s) of an Emergency Department Visit Within 30 Days Post-discharge</title>
+        <description>Occurence(s) of an ED visit within 30 days post-discharge</description>
+        <time_frame>30 days</time_frame>
+        <population>The analysis population includes the total 966 (483 intervention, 483 control) randomized excluding the one subject withdrawn in the control group after randomization due to invalid consent at 14-day follow-up.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Nurse Phone Call</title>
+            <description>Families in this arm will receive a phone call within 96 hours of discharge
+Nurse Phone Call: We will complete a single center, parallel, randomized, standard-of-care-controlled prospective study to determine the efficacy of a one-time nurse phone call, an intervention adapted from those studied in other populations (i.e., adults, high-risk infants), in improving pediatric patient transitions from hospital to home</description>
+          </group>
+          <group group_id="O2">
+            <title>Standard of Care</title>
+            <description>This arm will receive standard of care.
+Standard of Care: Control patients will be randomized to receive standard-of-care at discharge. This care at our institution includes pediatric hospitalist to PCP (primary care physician) verbal and written communication prior to discharge, written documentation for the family regarding prescribed medication regimen, recommended follow-up with outpatient PCP and relevant consultant(s), and delivery of prescribed medications from the hospital pharmacy to the patient’s bedside.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With Occurrence(s) of an Emergency Department Visit Within 30 Days Post-discharge</title>
+          <description>Occurence(s) of an ED visit within 30 days post-discharge</description>
+          <population>The analysis population includes the total 966 (483 intervention, 483 control) randomized excluding the one subject withdrawn in the control group after randomization due to invalid consent at 14-day follow-up.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="483"/>
+                <count group_id="O2" value="482"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="35"/>
+                    <measurement group_id="O2" value="35"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.998</p_value>
+            <method>Regression, Logistic</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Participants With Occurrence(s) of 14-day Unplanned Healthcare Utilization</title>
+        <description>Occurrence(s) of 14-day unplanned healthcare utilization defined by unplanned re-hospitalization and/or any emergency/urgent care visit within 14 days or parent report of an unplanned visit to one of these places. Parent report is collected at the 14 day follow-up phone call.</description>
+        <time_frame>14 days post-discharge</time_frame>
+        <population>The analysis population includes the total 966 (483 intervention, 483 control) randomized excluding the one subject withdrawn in the control group after randomization due to invalid consent at 14-day follow-up.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Nurse Phone Call</title>
+            <description>Families in this arm will receive a phone call within 96 hours of discharge
+Nurse Phone Call: We will complete a single center, parallel, randomized, standard-of-care-controlled prospective study to determine the efficacy of a one-time nurse phone call, an intervention adapted from those studied in other populations (i.e., adults, high-risk infants), in improving pediatric patient transitions from hospital to home</description>
+          </group>
+          <group group_id="O2">
+            <title>Standard of Care</title>
+            <description>This arm will receive standard of care.
+Standard of Care: Control patients will be randomized to receive standard-of-care at discharge. This care at our institution includes pediatric hospitalist to PCP (primary care physician) verbal and written communication prior to discharge, written documentation for the family regarding prescribed medication regimen, recommended follow-up with outpatient PCP and relevant consultant(s), and delivery of prescribed medications from the hospital pharmacy to the patient’s bedside.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With Occurrence(s) of 14-day Unplanned Healthcare Utilization</title>
+          <description>Occurrence(s) of 14-day unplanned healthcare utilization defined by unplanned re-hospitalization and/or any emergency/urgent care visit within 14 days or parent report of an unplanned visit to one of these places. Parent report is collected at the 14 day follow-up phone call.</description>
+          <population>The analysis population includes the total 966 (483 intervention, 483 control) randomized excluding the one subject withdrawn in the control group after randomization due to invalid consent at 14-day follow-up.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="483"/>
+                <count group_id="O2" value="482"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="71"/>
+                    <measurement group_id="O2" value="72"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.92</p_value>
+            <method>Regression, Logistic</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>enrollment to 30 days post discharge</time_frame>
+      <desc>As this study involved minimal risk to the individuals recruited, we relied solely on caregiver report of any adverse event or serious adverse event during the study encounter (enrollment to 30 days post discharge). All-Cause Mortality was not monitored/assessed.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Nurse Phone Call</title>
+          <description>Families in this arm will receive a phone call within 96 hours of discharge
+Nurse Phone Call: We will complete a single center, parallel, randomized, standard-of-care-controlled prospective study to determine the efficacy of a one-time nurse phone call, an intervention adapted from those studied in other populations (i.e., adults, high-risk infants), in improving pediatric patient transitions from hospital to home</description>
+        </group>
+        <group group_id="E2">
+          <title>Standard of Care</title>
+          <description>This arm will receive standard of care.
+Standard of Care: Control patients will be randomized to receive standard-of-care at discharge. This care at our institution includes pediatric hospitalist to PCP (primary care physician) verbal and written communication prior to discharge, written documentation for the family regarding prescribed medication regimen, recommended follow-up with outpatient PCP and relevant consultant(s), and delivery of prescribed medications from the hospital pharmacy to the patient’s bedside.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="483"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="483"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="483"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="483"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Dr. Heidi Sucharew (Biostatistician)</name_or_title>
+      <organization>Cincinnati Children's Hospital Medical Center</organization>
+      <phone>513-803-1920</phone>
+      <email>heidi.sucharew@cchmc.org</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

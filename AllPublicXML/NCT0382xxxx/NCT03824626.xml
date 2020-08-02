@@ -1,0 +1,404 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03824626</url>
+  </required_header>
+  <id_info>
+    <org_study_id>160/int/2017</org_study_id>
+    <nct_id>NCT03824626</nct_id>
+  </id_info>
+  <brief_title>Biomechanical Reappraisal of Planning for Thoracic Endovascular Aortic Repair</brief_title>
+  <acronym>MALAN</acronym>
+  <official_title>Mapping of Aortic Arch Hemodynamics by Biomechanical Analysis and Modeling for Planning Thoracic Endovascular Aortic Repair</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Ospedale San Donato</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Pavia</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Ospedale San Donato</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Thoracic endovascular aortic repair (TEVAR) for disease involving the aortic arch remains
+      complex and challenging due the angulation and tortuosity of the arch and its peculiar
+      biomechanical environment. Currently, TEVAR planning is based on the analysis of anatomical
+      features by means of static imaging protocols. Such an approach, however, disregards the
+      impact of pulsatile forces that are transmitted as migration forces on the terminal fixation
+      sites of the endograft, and may jeopardize the long-term clinical success of the procedure.
+      Hence,the investigators aim to assess the migration forces acting on different proximal
+      landing zones of the aortic arch by computational modeling, and develop in silico
+      patient-specific simulations that can provide a quantitative evaluation of the stent-graft
+      performance. Study's results are expected to provide valuable insights for proper proximal
+      landing zone and stent-graft selection during TEVAR planning, and ultimately improve
+      postoperative outcome.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Hypothesis and Significance: Specific and consistent fluid dynamic patterns and drag forces
+      magnitude and distribution can be identified in the PLZs of the aortic arch providing
+      valuable insights for proper PLZ and stent-graft selection during TEVAR planning.
+
+      Specific Aim: 1) To assess the drag forces acting on different PLZs of the aortic arch by
+      means of Computed Fluid Dynamic (CFD) analysis of preoperative phase contrast-Magnetic
+      Resonance (pc-MRI) and Computed Tomography Angiography (CTA) images. The specific goal is to
+      identify the correlation between different magnitude and direction of migration forces and
+      geometrical patterns of the arch to identify suboptimal landing zones for stent-graft
+      deployment. 2) To develop and perform in-silico simulations of the deployment of different
+      commercially available endografts with patient specific boundary conditions. The exact goal
+      is to assess the impact of the mechanical characteristics of a specific device on the vessel
+      wall by structural finite element analysis (FEA), and on the drag forces in different landing
+      zones by CFD, to identify the more suitable endograft. 3) To assess the drag forces exerted
+      postoperatively on the endograft by means of CFD analysis based on follow-up images (i.e.,
+      pc-MRI and CTA). The specific goal is to evaluate the predictive value of the drag forces
+      measured preoperatively in the PLZs, and validate the results from in-silico simulations.
+
+      Experimental Design Aim 1: Preoperative medical images acquisition: CTA will be performed
+      using a 16-slice unit (150 mAs, 110 kVp; acquisition thickness 5 mm, pitch 1.5;
+      reconstruction thickness 1.2 mm), before and after intravenous administration of 100 mL of
+      iodinated contrast material. MRI will be performed using a 1.5-T unit with 40-mT/m gradient
+      power (Magneton Sonata Maestro Class, Siemens, Erlangen, Germany) and a four-channel
+      cardio-thoracic coil. ECG-triggered, free-breathing through plane, and in-plane pc-MRI
+      sequences will be performed for phase-velocity mapping of aortic and branches flow with the
+      following technical parameters: TR/TE = 4/3.2 ms, thickness 5 mm, velocity encoding from 150
+      to 350 ms, and temporal resolution 41 ms.
+
+      Medical images processing: Ad hoc processing of preoperative CTAs, based on 3D multiplanar
+      reconstruction, will be performed with 3Mensio Vascular software 8.0® (3Mensio Medical
+      Imaging B.V.), which provides specific functions for automatic measurements. Patients will be
+      stratified according to Aortic Arches Classification (AAC). Radius of curvature, PLZs
+      angulation (tangent angle function) and tortuosity (tortuosity angle function) will be
+      calculated. 3D segmentation of CTA, aimed for in-silico simulation purposes, will be
+      performed by the software Mimics v18.0 (Materialise, Belgium). The 3D model of the aortic
+      lumen in stl format will be used to create CFD suitable computational domain, called mesh by
+      vmtk toolkit (www.vmtk.org). In-silico simulations: State-of-the-art CFD simulations for
+      aortic hemodynamics will be performed by the CFD solver developed by the project EmPaTHIC
+      (Emory Pavia Testing Hemodynamics) that updates LifeV Application Blood Flow through the
+      collaboration among Emory University, Atlanta,Georgia,USA (Prof. A. Veneziani) and University
+      of Pavia (UniPV) (Prof. F. Auricchio). The analysis will run on the cluster available at
+      UniPV Nume-Lab. The project foresees to increase the computational power by adding another
+      node to the available UniPV cluster and also the set-up of a server at Policlinico San Donato
+      (PSD) dedicated to data storage and visualization of the results. Computation of drag forces:
+      The post-processing of the simulations will be performed by python-scripts based on
+      Visualization Toolkit (VTK) libraries and ParaView software (Kitware® Inc., France). Such an
+      analysis aims at computing semi-automatically the aortic centerline, splitting the aortic
+      arch in four regions (i.e., landing zones), and calculating the magnitude and direction of
+      the drag forces in each zone, through the whole cardiac cycle. Preliminary analysis will be
+      performed to assess if the systolic peak is the most relevant time instant for our purposes,
+      in order to possibly reduce the post-processing efforts.
+
+      Experimental Design Aim 2: Medical images acquisition: The pre-operative images acquired for
+      Aim 1 will be used. Medical images processing: The 3D models of the aortic lumen derived from
+      the processing performed for Aim 1 will be used. In-silico simulations, Two types of analysis
+      will be performed: 1) Simulation of TEVAR by FEA to predict endograft apposition; 2) CFD
+      analysis to compute post-TEVAR hemodynamics. These simulations will be performed in a serial
+      manner defining a computational framework, which is already developed and tested. FEA of
+      TEVAR: As previously reported by our Group, the geometrical models of the implanted
+      endografts resemble the main features of real endografts samples; mechanical properties are
+      derived from available literature. ABAQUSv16 (Simulia, Dassault Systèmes®, FR) is used as FEA
+      solver. CFD for post- TEVAR hemodynamics: Starting from the configuration of the endograft
+      predicted by the FEA, the computational domain, resembling the aorta with the endovascular
+      implant, is build using image-distance technique. The analysis is then run as described in
+      Aim 1. Computation of drag forces: As described in Aim 1, the developed post-processing tool
+      will be used to compute the magnitude and direction of the drag forces along the arch, and
+      also on the inner surface of the deployed endograft.
+
+      Experimental Design Aim 3: Postoperative medical images acquisition: CTA and MRI studies and
+      ad-hoc analysis of the images will be performed at 6-month follow-up in recruited patients as
+      described in Aim 1. In-silico simulations: CFD analyses will be performed as described in Aim
+      1. Medical images processing: The same approach and the same tools proposed in Aim 1 will be
+      used. Segmentation of post-operative CTA will be performed to reconstruct a 3D model of the
+      aortic lumen and of the struts of the deployed endografts. Computation of drag forces and
+      validation: As in Aim 1, 3D segmentation of post-operative CTA combined with flow data from
+      pc-MRI will be used to run CFD analysis in order to: 1) Assess the predictive value of the
+      drag forces measured preoperatively (Aim 1); 2) Validate the results from in-silico
+      simulations (Aim 2).
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">May 23, 2019</start_date>
+  <completion_date type="Anticipated">February 28, 2022</completion_date>
+  <primary_completion_date type="Anticipated">August 28, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Displacement Force [magnitude (N)]</measure>
+    <time_frame>18 months</time_frame>
+    <description>Comparison among the Type of Arch (TOA); Comparison among pre- and post-Thoracic Endovascular Aortic Repair (TEVAR)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Displacement Force [Vector (-)]</measure>
+    <time_frame>18 months</time_frame>
+    <description>Comparison among the Type of Arch (TOA); Comparison among pre- and post-Thoracic Endovascular Aortic Repair (TEVAR)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Area of proximal landing zones (PLZs) (mm2)</measure>
+    <time_frame>18 months</time_frame>
+    <description>Comparison among the TOA and PLZs; Comparison among pre- and post-TEVAR</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Equivalent Surface Traction (EST) (N/ mm2)</measure>
+    <time_frame>18 months</time_frame>
+    <description>Comparison among the TOA and PLZs; Comparison among pre- and post-TEVAR</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Radius of curvature (1/mm)</measure>
+    <time_frame>18 months</time_frame>
+    <description>Comparison among the TOA and PLZs; Comparison among pre- and post-TEVAR</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Angulation (tangent angle function)</measure>
+    <time_frame>18 months</time_frame>
+    <description>Comparison among the TOA and PLZs; Comparison among pre- and post-TEVAR</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Tortuosity (tortuosity angle function)</measure>
+    <time_frame>18 months</time_frame>
+    <description>Comparison among the TOA and PLZs; Comparison among pre- and post-TEVAR</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean and maximum flow velocity magnitude (cm/sec) in aortic along the cardiac cycle</measure>
+    <time_frame>18 months</time_frame>
+    <description>Comparison among the TOA and PLZs; Comparison among pre- and post-TEVAR</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Systolic wall shear stress (dyn/cm2)</measure>
+    <time_frame>18 months</time_frame>
+    <description>Comparison among the TOA and PLZs</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time-averaged wall shear stress (TAWSS) (dyn/cm2)</measure>
+    <time_frame>18 months</time_frame>
+    <description>Comparison among the TOA and PLZs; Comparison among pre- and post-TEVAR</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Oscillatory index (OSI) (%)</measure>
+    <time_frame>18 months</time_frame>
+    <description>Comparison among the TOA and PLZs; Comparison among pre- and post-TEVAR</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Flow helicity</measure>
+    <time_frame>18 months</time_frame>
+    <description>Comparison among the TOA and PLZs; Comparison among pre- and post-TEVAR</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Aortic inflow (L/min)</measure>
+    <time_frame>18 months</time_frame>
+    <description>Comparison among the TOA; Comparison among pre- and post-TEVAR</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Aortic flow split (%)</measure>
+    <time_frame>18 months</time_frame>
+    <description>Comparison among the TOA; Comparison among pre- and post-TEVAR</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Brachial arterial pressure (mmHg)</measure>
+    <time_frame>18 months</time_frame>
+    <description>Comparison among the TOA; Comparison among pre- and post-TEVAR</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean and maximum arterial pressure (mmHg)</measure>
+    <time_frame>18 months</time_frame>
+    <description>Comparison among the TOA; Comparison among pre- and post-TEVAR</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">45</enrollment>
+  <condition>Thoracic Aortic Aneurysm</condition>
+  <condition>Aortic Dissection</condition>
+  <condition>Aortic Diseases</condition>
+  <arm_group>
+    <arm_group_label>TEVAR patients</arm_group_label>
+    <description>patients scheduled for thoracic endovascular aortic repair</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>TEVAR patients</intervention_name>
+    <description>Computed Tomography Angiography (CTA) will be performed using a 16-slice unit before and after intravenous administration of 100 mL of iodinated contrast material. Phase contrast-Magnetic Resonance (pc-MRI) will be performed using a 1.5-T unit with 40-mT/m gradient power and a four-channel cardio-thoracic coil. ECG-triggered, free-breathing through plane, and in-plane pc-MRI sequences will be performed for phase-velocity mapping of aortic and branches flow. Ad hoc processing of preoperative CTAs, based on 3D multiplanar reconstruction, will be performed with 3Mensio Vascular software 8.0® (3Mensio Medical Imaging B.V.), which provides specific functions for automatic measurements.</description>
+    <arm_group_label>TEVAR patients</arm_group_label>
+    <other_name>CTA and pc-MRI</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with chronic thoracic aortic pathologies, including atherosclerotic and
+        post-dissection aneurysms, and penetrating ulcer/intramural hematoma, scheduled for
+        elective TEVAR with surgical supra-aortic vessel (SAV) debranching. Indication to
+        treatment, endovascular procedure, and follow-up will be established and performed
+        according to Guidelines
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age over 18 years old
+
+          -  Must be able to give Informed Consent
+
+          -  Must to be enrolled at the Surgery Unit of one of the recruitment centres with chronic
+             thoracic aortic pathologies (including atherosclerotic and post-dissection aneurysms,
+             and penetrating ulcer/intramural hematoma)
+
+          -  Must to be scheduled for elective TEVAR with surgical supra-aortic vessel (SAV)
+             debranching (established and performed according to Guidelines)
+
+        Exclusion Criteria:
+
+          -  Patients with previous aortic surgical or endovascular procedures
+
+          -  General contraindications to MRI or CT studies
+
+          -  Suspected or manifested pregnancy
+
+          -  Systemic diseases judged non-compatible with the procedures
+
+          -  Any incapability to give informed consent
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Massimiliano M Marrocco-Trischitta, MD,PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Ospedale San Donato</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Massimiliano M Marrocco-Trischitta, MD,PhD</last_name>
+    <phone>+393332084440</phone>
+    <email>massimiliano.marroccotrischitta@grupposandonato.it</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Irene Baroni, RN,MSc</last_name>
+    <phone>+39025277</phone>
+    <phone_ext>4690</phone_ext>
+    <email>irene.baroni@grupposandonato.it</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>IRCCS Policlinico San Donato</name>
+      <address>
+        <city>San Donato Milanese</city>
+        <state>Milan</state>
+        <zip>20097</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Massimiliano M Marrocco Trischitta, MD</last_name>
+      <phone>(+39) 025277</phone>
+      <phone_ext>4344</phone_ext>
+      <email>Massimiliano.MarroccoTrischitta@grupposandonato.it</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <reference>
+    <citation>Marrocco-Trischitta MM, Melissano G, Kahlberg A, Calori G, Setacci F, Chiesa R. Chronic kidney disease classification stratifies mortality risk after elective stent graft repair of the thoracic aorta. J Vasc Surg. 2009 Feb;49(2):296-301. doi: 10.1016/j.jvs.2008.09.041. Epub 2008 Nov 22.</citation>
+    <PMID>19028056</PMID>
+  </reference>
+  <reference>
+    <citation>Böckler D, Brunkwall J, Taylor PR, Mangialardi N, Hüsing J, Larzon T; CTAG registry investigators. Thoracic Endovascular Aortic Repair of Aortic Arch Pathologies with the Conformable Thoracic Aortic Graft: Early and 2 year Results from a European Multicentre Registry. Eur J Vasc Endovasc Surg. 2016 Jun;51(6):791-800. doi: 10.1016/j.ejvs.2016.02.006. Epub 2016 Apr 20.</citation>
+    <PMID>27107487</PMID>
+  </reference>
+  <reference>
+    <citation>Erbel R, Aboyans V, Boileau C, Bossone E, Bartolomeo RD, Eggebrecht H, Evangelista A, Falk V, Frank H, Gaemperli O, Grabenwöger M, Haverich A, Iung B, Manolis AJ, Meijboom F, Nienaber CA, Roffi M, Rousseau H, Sechtem U, Sirnes PA, Allmen RS, Vrints CJ; ESC Committee for Practice Guidelines. 2014 ESC Guidelines on the diagnosis and treatment of aortic diseases: Document covering acute and chronic aortic diseases of the thoracic and abdominal aorta of the adult. The Task Force for the Diagnosis and Treatment of Aortic Diseases of the European Society of Cardiology (ESC). Eur Heart J. 2014 Nov 1;35(41):2873-926. doi: 10.1093/eurheartj/ehu281. Epub 2014 Aug 29. Erratum in: Eur Heart J. 2015 Nov 1;36(41):2779.</citation>
+    <PMID>25173340</PMID>
+  </reference>
+  <reference>
+    <citation>van Bogerijen GH, Tolenaar JL, Conti M, Auricchio F, Secchi F, Sardanelli F, Moll FL, van Herwaarden JA, Rampoldi V, Trimarchi S. Contemporary Role of Computational Analysis in Endovascular Treatment for Thoracic Aortic Disease. Aorta (Stamford). 2013 Aug 1;1(3):171-81. doi: 10.12945/j.aorta.2013.13-003. eCollection 2013 Aug. Review.</citation>
+    <PMID>26798690</PMID>
+  </reference>
+  <reference>
+    <citation>Ishimaru S. Endografting of the aortic arch. J Endovasc Ther. 2004 Dec;11 Suppl 2:II62-71. Review.</citation>
+    <PMID>15760265</PMID>
+  </reference>
+  <reference>
+    <citation>Marrocco-Trischitta MM, de Beaufort HW, Secchi F, van Bakel TM, Ranucci M, van Herwaarden JA, Moll FL, Trimarchi S. A geometric reappraisal of proximal landing zones for thoracic endovascular aortic repair according to aortic arch types. J Vasc Surg. 2017 Jun;65(6):1584-1590. doi: 10.1016/j.jvs.2016.10.113. Epub 2017 Feb 20.</citation>
+    <PMID>28222992</PMID>
+  </reference>
+  <reference>
+    <citation>Madhwal S, Rajagopal V, Bhatt DL, Bajzer CT, Whitlow P, Kapadia SR. Predictors of difficult carotid stenting as determined by aortic arch angiography. J Invasive Cardiol. 2008 May;20(5):200-4.</citation>
+    <PMID>18460700</PMID>
+  </reference>
+  <reference>
+    <citation>Molony DS, Kavanagh EG, Madhavan P, Walsh MT, McGloughlin TM. A computational study of the magnitude and direction of migration forces in patient-specific abdominal aortic aneurysm stent-grafts. Eur J Vasc Endovasc Surg. 2010 Sep;40(3):332-9. doi: 10.1016/j.ejvs.2010.06.001. Epub 2010 Jun 22.</citation>
+    <PMID>20573524</PMID>
+  </reference>
+  <reference>
+    <citation>Auricchio F, Conti M, Marconi S, Reali A, Tolenaar JL, Trimarchi S. Patient-specific aortic endografting simulation: from diagnosis to prediction. Comput Biol Med. 2013 May;43(4):386-94. doi: 10.1016/j.compbiomed.2013.01.006. Epub 2013 Feb 8.</citation>
+    <PMID>23395199</PMID>
+  </reference>
+  <reference>
+    <citation>Auricchio, F., Conti, M., Lefieux, A. et al. Comput Mech (2014) 54: 943. https://doi.org/10.1007/s00466-014-0976-6</citation>
+  </reference>
+  <reference>
+    <citation>Grabenwöger M, Alfonso F, Bachet J, Bonser R, Czerny M, Eggebrecht H, Evangelista A, Fattori R, Jakob H, Lönn L, Nienaber CA, Rocchi G, Rousseau H, Thompson M, Weigang E, Erbel R. Thoracic Endovascular Aortic Repair (TEVAR) for the treatment of aortic diseases: a position statement from the European Association for Cardio-Thoracic Surgery (EACTS) and the European Society of Cardiology (ESC), in collaboration with the European Association of Percutaneous Cardiovascular Interventions (EAPCI). Eur Heart J. 2012 Jul;33(13):1558-63. doi: 10.1093/eurheartj/ehs074. Epub 2012 May 4.</citation>
+    <PMID>22561257</PMID>
+  </reference>
+  <reference>
+    <citation>Corbett TJ, Callanan A, O'Donnell MR, McGloughlin TM. An improved methodology for investigating the parameters influencing migration resistance of abdominal aortic stent-grafts. J Endovasc Ther. 2010 Feb;17(1):95-107. doi: 10.1583/09-2920.1.</citation>
+    <PMID>20199275</PMID>
+  </reference>
+  <reference>
+    <citation>Elena Faggiano, Tommaso Lorenzi &amp; Alfio Quarteroni (2016) Metal artefact reduction in computed tomography images by a fourth-order total variation flow, Computer Methods in Biomechanics and Biomedical Engineering: Imaging &amp; Visualization, 4:3-4, 202-213, DOI: 10.1080/21681163.2014.940629</citation>
+  </reference>
+  <reference>
+    <citation>Migliavacca F, Balossino R, Pennati G, Dubini G, Hsia TY, de Leval MR, Bove EL. Multiscale modelling in biofluidynamics: application to reconstructive paediatric cardiac surgery. J Biomech. 2006;39(6):1010-20. Epub 2005 Apr 25.</citation>
+    <PMID>16549092</PMID>
+  </reference>
+  <reference>
+    <citation>Gillen JR, Schaheen BW, Yount KW, Cherry KJ, Kern JA, Kron IL, Upchurch GR Jr, Lau CL. Cost analysis of endovascular versus open repair in the treatment of thoracic aortic aneurysms. J Vasc Surg. 2015 Mar;61(3):596-603. doi: 10.1016/j.jvs.2014.09.009. Epub 2014 Oct 27. Review.</citation>
+    <PMID>25449008</PMID>
+  </reference>
+  <verification_date>May 2019</verification_date>
+  <study_first_submitted>January 25, 2019</study_first_submitted>
+  <study_first_submitted_qc>January 30, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 31, 2019</study_first_posted>
+  <last_update_submitted>May 29, 2019</last_update_submitted>
+  <last_update_submitted_qc>May 29, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 30, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Ospedale San Donato</investigator_affiliation>
+    <investigator_full_name>Massimiliano M. Marrocco-Trischitta</investigator_full_name>
+    <investigator_title>Vascular Surgeon, Principal Investigator, Doctor of Medicine and of Philosophy</investigator_title>
+  </responsible_party>
+  <keyword>thoracic endovascular aortic repair</keyword>
+  <keyword>computational fluid dynamics</keyword>
+  <keyword>preoperative planning</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Aneurysm, Dissecting</mesh_term>
+    <mesh_term>Aneurysm</mesh_term>
+    <mesh_term>Aortic Aneurysm</mesh_term>
+    <mesh_term>Aortic Aneurysm, Thoracic</mesh_term>
+    <mesh_term>Aortic Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

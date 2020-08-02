@@ -1,0 +1,170 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03829423</url>
+  </required_header>
+  <id_info>
+    <org_study_id>4901</org_study_id>
+    <nct_id>NCT03829423</nct_id>
+  </id_info>
+  <brief_title>An Enhanced Artificial Intelligence Breast MRI Interpretation System</brief_title>
+  <acronym>IntelliScan</acronym>
+  <official_title>A Comparative Single-centre Study to Evaluate an Enhanced Artificial Intelligence Breast MRI Interpretation System in Women Over 20 With Breast Lesions</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Jamil Kanfoud</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Brunel University London</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>First Option Software Ltd.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Teesside University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Interpretation of breast MR images is a very time-consuming process and places a great burden
+      on breast radiologists. This project aims to develop a technical solution that addresses this
+      healthcare challenge by developing a system that is able to automatically interpret breast MR
+      images in order to aid the radiologist in their diagnosis.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Breast cancer is the most common type of cancer in women worldwide, with nearly 1.7 million
+      new cases diagnosed in 2015. In the UK, one in five cases of breast cancer results in a
+      fatality. The IntelliScan project aims to develop a technological solution that addresses a
+      significant healthcare challenge. IntelliScan will develop a software system that will be
+      able to interpret breast MR images automatically in order to identify potential breast
+      cancers.
+
+      Regular MRI screening of the breast is offered to women from the age of 20, who are at higher
+      risk of developing breast cancer. MR image sequences provide a large amount of information to
+      the radiologist and the interpretation of images is a manual process, which is very time
+      consuming. The high number of women eligible for MRI screening combined with the amount of
+      data provided by MRI scans places a great burden on healthcare systems. Therefore,
+      automatisation of this process would greatly relieve this burden and also has the potential
+      to provide more accurate diagnoses.
+
+      In this first study, the system's user interface as well as the algorithm will be developed
+      using existing MRI scans. Existing MRI scans with known breast anomalies will be used to
+      develop the decision-making basis for the algorithm. The system will then be tested using
+      existing MRI scans without information about possible anomalies and results will be compared
+      to results from the software system currently in use. In addition, the user-friendliness of
+      the system's user interface will also be evaluated.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">April 2019</start_date>
+  <completion_date type="Anticipated">July 2020</completion_date>
+  <primary_completion_date type="Anticipated">January 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>Single (Care Provider)</masking>
+    <masking_description>Retrospective breast MRI datasets with all personal patient information removed</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity/specificity of breast interpretation algorithm</measure>
+    <time_frame>1 year</time_frame>
+    <description>Sensitivity and specificity of the information provided by the breast interpretation algorithm to be above 90% and 70%, respectively</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Time required for diagnosis</measure>
+    <time_frame>1 year</time_frame>
+    <description>The time required to arrive at a diagnosis using IntelliScan should be less than using manual procedures</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>User-friendliness of IntelliScan system</measure>
+    <time_frame>1 year</time_frame>
+    <description>Obviousness score for categorisation of beast lesions (0 [not obvious] to 100 [extremely obvious]); ease-of-use score for IntelliScan system (0 [not easy to use] to 10 [extremely easy to use])</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">1526</enrollment>
+  <condition>Breast Cancer</condition>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Breast MRI interpretation</intervention_name>
+    <description>Analysis and interpretation of breast MRI sequences by a specially developed breast MRI interpretation algorithm</description>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Breast MRI scans
+
+          -  MRI examinations undertaken at partner NHS Trust in the UK
+
+          -  MRI examinations undertaken on the MRI system currently installed at partner NHS Trust
+             site (since 2008)
+
+        Exclusion Criteria:
+
+          -  Incomplete breast MRI datasets
+
+          -  Breast MRI without lesions
+
+          -  Breast lesion on MRI not biopsied
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Steve Dennis, B.Sc.</last_name>
+    <role>Study Director</role>
+    <affiliation>First Option Software</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jamil Kanfoud, M.Eng.</last_name>
+    <phone>+44(0)01223940</phone>
+    <phone_ext>310</phone_ext>
+    <email>jamil.kanfoud@brunel.ac.uk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Susann Wolfram, PhD</last_name>
+    <phone>+44(0)1223940</phone>
+    <phone_ext>341</phone_ext>
+    <email>s.wolfram@tees.ac.uk</email>
+  </overall_contact_backup>
+  <verification_date>February 2019</verification_date>
+  <study_first_submitted>January 30, 2019</study_first_submitted>
+  <study_first_submitted_qc>February 1, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 4, 2019</study_first_posted>
+  <last_update_submitted>February 5, 2019</last_update_submitted>
+  <last_update_submitted_qc>February 5, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 6, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Teesside University</investigator_affiliation>
+    <investigator_full_name>Jamil Kanfoud</investigator_full_name>
+    <investigator_title>Head of Brunel Innovation Centre</investigator_title>
+  </responsible_party>
+  <keyword>artificial intelligence</keyword>
+  <keyword>magnetic resonance imaging</keyword>
+  <keyword>breast cancer</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

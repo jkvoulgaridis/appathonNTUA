@@ -1,0 +1,341 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03606044</url>
+  </required_header>
+  <id_info>
+    <org_study_id>11605</org_study_id>
+    <nct_id>NCT03606044</nct_id>
+  </id_info>
+  <brief_title>3D Virtual Models as an Adjunct to Preoperative Surgical Planning</brief_title>
+  <official_title>Single-site Single-arm Feasibility Study of Patient-specific Interactive 3D Anatomical Models Aimed at Improving Surgery Planning Processes for Complex Renal Cancer Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Dr Eoin R Hyde</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute for Health Research, United Kingdom</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Royal Free Hospital NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Innersight Labs Ltd</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study aims to determine the feasibility of undertaking a future definitive RCT to
+      evaluate the clinical effectiveness of complementing existing medical scans with a
+      patient-specific interactive 3D virtual model of the patient's body to assist the surgeon
+      with planning for the operation in the best way possible. Renal cancer patients receive a
+      tri-phasic CT scan as routine practice, thus if the standard imaging protocols are followed,
+      there should be ample imaging data available for 3D model creation.
+
+      This study is a single-site, single-arm, unblinded, prospective, feasibility study aiming to
+      recruit 24 participants from the Royal Free Hospital that are scheduled for robotic-assisted
+      partial nephrectomy. Consenting participants will be recruited over a 6-month period, and
+      interactive 3D virtual models of their anatomy will be generated. These models will be used
+      to aid surgeon-patient communications and to plan for the operation. This study will
+      determine whether a definitive RCT of virtual 3D models as an adjunct to surgery planning is
+      feasible with respect to: recruitment of local authorities and patients; ensuring staff can
+      be adequately trained to deliver programmes within specified timeframes; and assessment of
+      the measurability of key surgical outcomes.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Surgery is the mainstay treatment for abdominal cancer, resulting in over 50,000 surgeries
+      annually in the UK, with 10% of those being for renal cancer. Preoperative surgery planning
+      decisions are made by radiologists and surgeons upon viewing CT and MRI scans. The challenge
+      is to mentally reconstruct the patient's 3D anatomy from these 2D image slices, including
+      tumour location and its relationship to nearby structures such as critical vessels. This
+      process is time consuming and difficult, often resulting in human error and suboptimal
+      decision-making. It is even more important to have a good surgical plan when the operation is
+      to be performed in a minimally-invasive fashion, as it is more challenging setting to rectify
+      an unplanned complication than during open surgery. Therefore, better surgical planning tools
+      are essential if one is to improve patient outcome and reduce the cost of surgical
+      misadventure.
+
+      To overcome the limitations of current surgery planning in a soft-tissue oncology setting,
+      dedicated software packages and service providers have provided the capability of classifying
+      the scan voxels into their anatomical components in a process known as image segmentation
+      (see Section 6.1 for more information). Once segmented, stereolithography files are generated
+      which can be used to visualise the anatomy and have the components 3D printed. It has
+      previously been shown that such 3D printed models influence surgical decision-making.
+      However, the relevance of a physical model to plan for a minimally invasive surgical approach
+      is debatable, and the financial and administrative costs of obtaining accurate 3D printed
+      models for routine surgery planning has been speculated to be holding back 3D printed models
+      from breaking into regular clinical usage.
+
+      As a necessary precursor to 3D printed models, computational 3D surface-rendered virtual
+      models could be used by the urologist to assist with clinical decision-making. In the
+      literature, such models are referred to by a variety of names such as '3D-rendered images',
+      '3D reconstructions', or 'virtual 3D models'. In this protocol, the investigators will use
+      the latter nomenclature. Virtual 3D models provide many of the advantages of their physical
+      3D printed counterpart without the challenge of the printing process, they can be easily
+      viewed on standard digital devices such as laptops or smartphones and can be simultaneously
+      viewed and interacted with from anywhere in the world, which could help with collaborative
+      surgery planning between centres. Note that this study's use of virtual 3D models is not to
+      be confused with Virtual-Reality visualisation, which is an immersive environment and
+      currently requires specialist equipment. In support of this study, previous pioneering
+      studies have already shown that surgeons benefit from computational 3D models in the theatre.
+      However, in addition to the available 2D medical images (CT, MRI, volume-rendered images), it
+      has not been shown that virtual 3D models, constructed from the same existing medical scan
+      data, would influence the surgical decision-making process or alter surgeon confidence in
+      their decisions. Crucially, it also remains to be shown that such 3D models can be built
+      reliably and at scale to facilitate their widespread adoption.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">May 1, 2019</start_date>
+  <completion_date type="Actual">August 31, 2019</completion_date>
+  <primary_completion_date type="Actual">July 31, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Study participant recruitment rate as assessed by number of participants divided by the total number of invited eligible patients.</measure>
+    <time_frame>6 months</time_frame>
+    <description>Determination of participant recruitment rates of eligible patients to this study.
+Assessment: ratio of consenting patients to eligible patients</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Ratio of study participants willing to be randomized.</measure>
+    <time_frame>6 months</time_frame>
+    <description>Determination of the willingness of eligible patients to be randomised (although this is a single-arm study and no randomisation will occur, this is an important outcome for future study design); Assessment: ratio of consenting patients that are favourable to randomisation to non-favourable</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time spent by surgeons in pre-operative planning.</measure>
+    <time_frame>6 months</time_frame>
+    <description>Determination of the time spent by surgeons in pre-operative planning using the 3D model building software.
+Assessment: Recording of time spent planning</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Practicality of delivering the patient-specific 3D model to the Operating Room.</measure>
+    <time_frame>6 months</time_frame>
+    <description>Determination of the practicality of delivering the patient-specific 3D model to the Operating Room visualisation device.
+Assessment: Recording whether the 3D model was available for surgeon reference throughout the operation</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Surveying patient opinion on the usefulness of 3D models.</measure>
+    <time_frame>6 months</time_frame>
+    <description>Determination of patient opinion on the usefulness of 3D models for improved understanding of the potential risks and benefits involved in their upcoming operation.
+Assessment: The patient will be asked a single qualitative question to assess their opinion on the use of 3D models: &quot;With regards to your understanding of the potential risks and benefits of your upcoming operation, do you feel that the additional use of 3D virtual models - decreased your understanding, made no difference to your understanding, or improved your understanding?&quot;</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Feasibility of measuring of peri-operative operation time.</measure>
+    <time_frame>6 months</time_frame>
+    <description>Measurability of peri-operative operation time from first incision to last suture.
+Assessment: Ability to record the operation time in seconds.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Feasibility of measuring of peri-operative acute haemorrhage events.</measure>
+    <time_frame>6 months</time_frame>
+    <description>Measurability of peri-operative number of acute haemorrhage events.
+Assessment: Ability to record the number of acute haemorrhage events.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Feasibility of measuring of peri-operative blood loss.</measure>
+    <time_frame>6 months</time_frame>
+    <description>Measurability of peri-operative blood loss.
+Assessment: Ability to record the blood loss in millilitres.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Feasibility of measuring of peri-operative number of transfusion events.</measure>
+    <time_frame>6 months</time_frame>
+    <description>Measurability of peri-operative number of transfusion events.
+Assessment: Ability to record the number of transfusion events.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Feasibility of measuring of post-operative number of haemorrhage events.</measure>
+    <time_frame>6 months</time_frame>
+    <description>Measurability of post-operative number of haemorrhage events.
+Assessment: Ability to record the number of post-operative haemorrhage events (up to seven days post-operation).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Feasibility of measuring of post-operative participant length-of-stay in hosital.</measure>
+    <time_frame>6 months</time_frame>
+    <description>Measurability of post-operative participant length-of-stay in hosital.
+Assessment: Ability to record the participant length-of-stay in hosital in days.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Feasibility of measuring of post-operative number of surgical site infection events.</measure>
+    <time_frame>6 months</time_frame>
+    <description>Measurability of post-operative number of surgical site infection events.
+Assessment: Ability to record the number of surgical site infection events (up to seven days post-operation).</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">24</enrollment>
+  <condition>Kidney Neoplasms</condition>
+  <condition>Surgical Oncology</condition>
+  <arm_group>
+    <arm_group_label>MIS-PN</arm_group_label>
+    <description>Participants approved for elective robot-assisted partial nephrectomy with T1a or T1b renal tumours.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>3D-models</intervention_name>
+    <description>The study radiologist will generate a patient-specific virtual 3D model of the participant's body from their pre-operational medical scans (CT, and MRI if available) using regulated commercial medical image analysis software, specifically Osirix MD 9.0 (Pixmeo, Geneva, Switzerland).(Rosset et al. 2004)
+The CRFw checks that the medical scan segmentation is accurate and validates the virtual 3D model.
+The surgeon checks that the medical scan segmentation is accurate and validates the virtual 3D model.
+The surgeon uses all available medical scan data, and the virtual 3D model as an adjunct, to assess the patient anatomy and plan the operation accordingly</description>
+    <arm_group_label>MIS-PN</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        This study concerns patients that have been selected for minimally invasive renal cancer
+        surgery at the Royal Free Hospital.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Aged between 18 - 80 years, inclusive;
+
+          2. Male and female;
+
+          3. Diagnosed with T1a, or T1b renal tumours;
+
+          4. Suitable for elective robot-assisted partial nephrectomy;
+
+          5. Willing and able to provide written informed consent.
+
+        Exclusion Criteria:
+
+          1. aged &lt;18 or &gt;80 years;
+
+          2. have had prior abdominal surgery;
+
+          3. have had pre-operative imaging that is not adherent to the study protocol;
+
+          4. contraindicated for biopsy;
+
+          5. do not consent to have biopsy;
+
+          6. have a body mass index (BMI) ≥35 kg/m^2;
+
+          7. have a bleeding disorder;
+
+          8. have baseline chronic kidney disease (CKD);
+
+          9. not fit or do not consent for surgery;
+
+         10. chose to have treatment outside the Royal Free Hospital;
+
+         11. participation in other clinical studies that would potentially confound this study;
+
+         12. unable to understand English;
+
+         13. unable to provide consent themselves;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Faiz H Mumtaz, MBBS, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Royal Free Hospital NHS Foundation Trust</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Royal Free London NHS Foundation Trust</name>
+      <address>
+        <city>London</city>
+        <zip>NW3 2QG</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <link>
+    <url>https://www.osirix-viewer.com/</url>
+    <description>The world famous medical images viewer</description>
+  </link>
+  <reference>
+    <citation>Byrn JC, Schluender S, Divino CM, Conrad J, Gurland B, Shlasko E, Szold A. Three-dimensional imaging improves surgical performance for both novice and experienced operators using the da Vinci Robot System. Am J Surg. 2007 Apr;193(4):519-22.</citation>
+    <PMID>17368303</PMID>
+  </reference>
+  <reference>
+    <citation>Fan G, Li J, Li M, Ye M, Pei X, Li F, Zhu S, Weiqin H, Zhou X, Xie Y. Three-Dimensional Physical Model-Assisted Planning and Navigation for Laparoscopic Partial Nephrectomy in Patients with Endophytic Renal Tumors. Sci Rep. 2018 Jan 12;8(1):582. doi: 10.1038/s41598-017-19056-5.</citation>
+    <PMID>29330499</PMID>
+  </reference>
+  <reference>
+    <citation>Fotouhi J, Alexander CP, Unberath M, Taylor G, Lee SC, Fuerst B, Johnson A, Osgood G, Taylor RH, Khanuja H, Armand M, Navab N. Plan in 2-D, execute in 3-D: an augmented reality solution for cup placement in total hip arthroplasty. J Med Imaging (Bellingham). 2018 Apr;5(2):021205. doi: 10.1117/1.JMI.5.2.021205. Epub 2018 Jan 4.</citation>
+    <PMID>29322072</PMID>
+  </reference>
+  <reference>
+    <citation>Hughes-Hallett A, Pratt P, Mayer E, Martin S, Darzi A, Vale J. Image guidance for all--TilePro display of 3-dimensionally reconstructed images in robotic partial nephrectomy. Urology. 2014 Jul;84(1):237-42. doi: 10.1016/j.urology.2014.02.051. Epub 2014 May 22.</citation>
+    <PMID>24857271</PMID>
+  </reference>
+  <reference>
+    <citation>Isotani S, Shimoyama H, Yokota I, China T, Hisasue S, Ide H, Muto S, Yamaguchi R, Ukimura O, Horie S. Feasibility and accuracy of computational robot-assisted partial nephrectomy planning by virtual partial nephrectomy analysis. Int J Urol. 2015 May;22(5):439-46. doi: 10.1111/iju.12714. Epub 2015 Mar 17.</citation>
+    <PMID>25783817</PMID>
+  </reference>
+  <reference>
+    <citation>Khor WS, Baker B, Amin K, Chan A, Patel K, Wong J. Augmented and virtual reality in surgery-the digital surgical environment: applications, limitations and legal pitfalls. Ann Transl Med. 2016 Dec;4(23):454. doi: 10.21037/atm.2016.12.23. Review.</citation>
+    <PMID>28090510</PMID>
+  </reference>
+  <reference>
+    <citation>Pulijala Y, Ma M, Pears M, Peebles D, Ayoub A. Effectiveness of Immersive Virtual Reality in Surgical Training-A Randomized Control Trial. J Oral Maxillofac Surg. 2018 May;76(5):1065-1072. doi: 10.1016/j.joms.2017.10.002. Epub 2017 Oct 13.</citation>
+    <PMID>29104028</PMID>
+  </reference>
+  <reference>
+    <citation>Rosset A, Spadola L, Ratib O. OsiriX: an open-source software for navigating in multidimensional DICOM images. J Digit Imaging. 2004 Sep;17(3):205-16. Epub 2004 Jun 29. Review.</citation>
+    <PMID>15534753</PMID>
+  </reference>
+  <reference>
+    <citation>Wake N, Rude T, Kang SK, Stifelman MD, Borin JF, Sodickson DK, Huang WC, Chandarana H. 3D printed renal cancer models derived from MRI data: application in pre-surgical planning. Abdom Radiol (NY). 2017 May;42(5):1501-1509. doi: 10.1007/s00261-016-1022-2.</citation>
+    <PMID>28062895</PMID>
+  </reference>
+  <reference>
+    <citation>Weston MJ. Virtual special issue: renal masses. Clin Radiol. 2017 Oct;72(10):826-827. doi: 10.1016/j.crad.2017.06.011. Epub 2017 Jul 14.</citation>
+    <PMID>28716212</PMID>
+  </reference>
+  <reference>
+    <citation>Zheng YX, Yu DF, Zhao JG, Wu YL, Zheng B. 3D Printout Models vs. 3D-Rendered Images: Which Is Better for Preoperative Planning? J Surg Educ. 2016 May-Jun;73(3):518-23. doi: 10.1016/j.jsurg.2016.01.003. Epub 2016 Feb 6.</citation>
+    <PMID>26861582</PMID>
+  </reference>
+  <verification_date>February 2020</verification_date>
+  <study_first_submitted>July 10, 2018</study_first_submitted>
+  <study_first_submitted_qc>July 27, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 30, 2018</study_first_posted>
+  <last_update_submitted>February 11, 2020</last_update_submitted>
+  <last_update_submitted_qc>February 11, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 12, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Innersight Labs Ltd</investigator_affiliation>
+    <investigator_full_name>Dr Eoin R Hyde</investigator_full_name>
+    <investigator_title>Co-Investigator</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Kidney Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

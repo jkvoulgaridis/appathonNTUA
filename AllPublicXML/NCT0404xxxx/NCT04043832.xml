@@ -1,0 +1,156 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04043832</url>
+  </required_header>
+  <id_info>
+    <org_study_id>M20190702</org_study_id>
+    <nct_id>NCT04043832</nct_id>
+  </id_info>
+  <brief_title>A New Method of Muscle Strength Testing Using a Quantitative Ultrasonic Technique and a Convolutional Neural Network</brief_title>
+  <official_title>A New Method of Muscle Strength Testing Using a Quantitative Ultrasonic Technique and a Convolutional Neural Network</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Peking University Third Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Peking University Third Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In addition to muscle thickness and average echo intensity, this study aimed to use
+      quantitative ultrasonic technology to increase the number of related parameters of power
+      Doppler ultrasonography measured to describe the number, quality, and recruitment level of
+      muscles. In addition, this method was compared with the existing muscle strength testing
+      methods. Image recognition was performed using the traditional multivariate linear regression
+      statistical method and the AI convolutional neural network algorithm to investigate the
+      application of quantitative ultrasonic technology for direct evaluation of muscle strength in
+      clinical practice.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Collection of all quantitative ultrasonic data was performed by one ultrasound physician. The
+      Aixplorer® series color ultrasonic diagnostic instrument of Supersonic Imagine (France) and
+      an L15-4 linear array probe were used. The medial head of the quadriceps muscle was measured.
+      The subjects wore short pants that settled above the knees. Tight pants were avoided to
+      prevent impaired venous return, which can affect the power Doppler ultrasonography result.
+      The subjects did not exercise within half an hour before testing. Two-dimensional images of
+      the subjects' muscles were collected in a quiet resting state and used to measure muscle
+      thickness and the average echo intensity. The power Doppler images were used to measure the
+      level of muscle hyperemia. The measurements were performed in the 0° knee extension position
+      and the most prominent part of the medial head of the quadriceps muscle was measured by the
+      ultrasound physician using visualization. The probe angle was perpendicular to the trajectory
+      of the muscle bundle, and the measurement was performed with the muscle in a relaxed state.
+      After the measurements, the knee was restrained to complete the isokinetic muscle strength
+      test. When testing of the last group was completed, the knee was released immediately. The
+      two-dimensional image and the power Doppler image at the same location were captured and the
+      image acquisition time was no more than 3 s.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">May 1, 2017</start_date>
+  <completion_date type="Actual">June 1, 2019</completion_date>
+  <primary_completion_date type="Actual">May 15, 2019</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>1 Day</target_duration>
+  <primary_outcome>
+    <measure>Multivariate linear regression results</measure>
+    <time_frame>2/6/2019</time_frame>
+    <description>The quantitative ultrasonic technology parameters (muscle thickness, average muscle echo intensity, and corrected power ultrasonic intensity) and muscle strength parameter (knee extension peak torque) were introduced into SPSS 6.0 for data processing via multivariate linear correlation analysis.</description>
+  </primary_outcome>
+  <enrollment type="Actual">80</enrollment>
+  <condition>Muscle Disorder</condition>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>quantitative ultrasonic technique</intervention_name>
+    <description>Collection of all quantitative ultrasonic data was performed by one ultrasound physician</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        This study recruited 80 volunteers including 54 healthy volunteers, 24 unilateral
+        quadriceps atrophy patients and 2 bilateral quadriceps atrophy patients
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  no major complaints of muscle numbness, spasm, or atrophy, muscle-related physical
+             activity impairment or joint swelling and pain
+
+          -  no obvious malformation in the lower limbs
+
+          -  no disease history in the musculoskeletal system, nervous system, and peripheral
+             blood,
+
+          -  no history of severe trauma in the lower limbs
+
+          -  joint mobility and muscle tension met the thresholds of muscle strength assessments
+
+          -  no severe osteoporosis
+
+          -  no acute inflammation or acute bone fracture repair
+
+          -  between 18-55 years of age
+
+        Exclusion Criteria:
+
+        -
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>55 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jingfeng Li, Bachelor</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Peking University Third Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Peking Univercity Third Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <state>No State Or Province</state>
+        <zip>100191</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>July 2019</verification_date>
+  <study_first_submitted>July 11, 2019</study_first_submitted>
+  <study_first_submitted_qc>July 31, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 2, 2019</study_first_posted>
+  <last_update_submitted>July 31, 2019</last_update_submitted>
+  <last_update_submitted_qc>July 31, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 2, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Muscular Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

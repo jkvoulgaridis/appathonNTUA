@@ -1,0 +1,345 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03843736</url>
+  </required_header>
+  <id_info>
+    <org_study_id>JS-1691</org_study_id>
+    <secondary_id>81871141</secondary_id>
+    <nct_id>NCT03843736</nct_id>
+  </id_info>
+  <brief_title>The Role of Dysbiosis of Gut Microbiota in the Pathogenesis of PCOS.</brief_title>
+  <official_title>The Role of Dysbiosis of Gut Microbiota in the Pathogenesis of Polycystic Ovary Syndrome.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Peking Union Medical College Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Peking Union Medical College</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Peking Union Medical College Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Polycystic ovary syndrome (PCOS) has a significant impact on women's health, but its
+      pathogenesis is not yet clear. Dysbiosis of gut microbiota may play a role in the
+      pathological change of PCOS. Most of the current researches are still limited to the use of
+      amplicon sequencing to compare the basic taxonomic differences of gut microbiota between PCOS
+      patients and normal controls. Overall analysis of microbiome species, genes, function,
+      metabolism, and immunity in PCOS is still lacked. In this research, we would perform
+      metagenomic sequencing to find the characteristics of gut microbiota of PCOS and to explore
+      their correlations with metabolic, immune, and clinical symptoms. Finally, different
+      interventions (lifestyle interventions, lifestyle interventions + oral probiotic, lifestyle
+      interventions+ compound oral contraceptives) would be used to explore the change of gut
+      microbiome in PCOS patients. This research will not only help the understanding of the
+      pathophysiology of PCOS, but also provide a reference for the selection of clinical treatment
+      options.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      1. Data quality assurance: ① all inspections and measurements will be performed by either
+           the hospital or the sequencing company personnel according to standard operating
+           procedures (SOPs), except for saliva and stool samples, which will be self-collected by
+           patients. For sample collection, we will provide text descriptions of the SOPs as well
+           as video instruction. Designated staff will be assigned for support and can be contacted
+           if participants have any queries concerning sample collection; ② a case report form
+           (CRF) will be prepared according to the current SOPs, and detailed instructions will be
+           provided to ensure consistency in data collection. At the same time, each CRF will be
+           properly stored at least 5 years for verification and backtracking; ③ all experimental
+           data will be logged into the database to ensure information accuracy based on the
+           existing data; ④ we will keep the contact information of each participant, remind them
+           of precautions during participation, and conduct regular follow-ups.
+
+        2. Sample size determination: The number of participants is based on comparable sample
+           sizes in the literature. In this trial, there will be 50 healthy individuals (control
+           group) and 150 PCOS (polycystic ovary syndrome) patients. The 150 PCOS patients will be
+           randomly assigned to three intervention groups. This sample size accounts for a
+           plausible insufficiency of data caused by patient dropouts and withdrawals before the
+           study is completed. The participation cycle is of approximately four months, followed by
+           a 2-year follow-up.
+
+        3. Metagenomic sequencing technology Metagenomic sequencing is the main technique used in
+           this study. Metagenomics, also known as economics, was first proposed by Handelman and
+           studies the molecular composition of microbial populations, their interactions, and gene
+           functions.
+
+           In medicine, metagenomics compares the structural and functional changes of human
+           microbial communities under normal and disease states. It can analyze the diversity and
+           the functional differences of microbial communities from healthy individuals and from
+           patients with diseases, thus determine how diseases relate to changes in the microbial
+           communities and in their respective metabolic networks. Therefore, metagenomics provides
+           theoretical evidence for disease prevention, detection, and treatment. At present, the
+           internationally renowned Human Microbiome Project (HMP, http://www.hmpdacc.org/) and the
+           Metagenomics of the Human Intestinal Tract (MetaHIT) are typical applications of
+           metagenomics in medicine.
+
+           [Metagenomic species, genes, and functional annotation]
+
+           ① Data quality control: the sequenced raw data will contain a certain amount of
+           low-quality data, so quality control must be performed. Only high-quality data can
+           correctly reflect the actual occurrence of microorganisms in the sample.
+
+           ② Metagenome assembly: based on Clean Data, individual samples will be assembled
+           separately at first, then reads that do not participate in the assembling above will be
+           combined and mixed for assembly. This will increase the sequencing depth of
+           low-abundance species in each sample and provide more sequencing information for each
+           species.
+
+           ③ Gene prediction: MetaGeneMark will be used for gene prediction based on single samples
+           and mixed-assembled scaftigs. The redundancy of all predicted genes will be reduced to
+           obtain a Uniq gene set. Then, the Clean Data of each sample will be compared to the gene
+           set and the abundance of the gene set will be determined for each sample.
+
+           ④ Species annotation: Clean Data will be used for quality control. It will be compared
+           with an annotated according to reference genome databases of bacteria, archaea, viruses,
+           and fungi from NCBI. A species abundance table will be obtained for each sample at
+           different classification levels.
+
+           ⑤ Functional annotation: functional annotation and abundance statistics will be based on
+           the Uniq gene set and the KEGG database.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">February 21, 2019</start_date>
+  <completion_date type="Anticipated">December 31, 2020</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2020</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>This study will collect 50 healthy participants and 150 PCOS participants. At the same time, 150 patients with PCOS will be randomly divided into the lifestyle intervention group, lifestyle interventions + Probiotic Agent group, lifestyle intervention + oral contraceptive group by random number table method.</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Diversity analysis of genes and species</measure>
+    <time_frame>Through study completion, an average of 12 weeks</time_frame>
+    <description>Based on the gene and species composition of each sample, the Chao1 and Shannon indexes, as well as the observed OTUs (operational taxonomic units), will be calculated in order to identify the differences in gene and species diversity for each group.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Analysis of differences in intestinal microbiota between PCOS patients and the control group</measure>
+    <time_frame>Through study completion, an average of 12 weeks</time_frame>
+    <description>The Spearman correlation coefficient between genes will be calculated, and genes with strong correlation will be grouped into one cluster, as a CAG. The abundance of CAGs in each sample will be determined Furthermore, the significantly enriched species in the control and PCOS groups will be enumerated for network display.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Analysis of functional differences in the intestinal microbiota of PCOS patients in comparison to the control group</measure>
+    <time_frame>Through study completion, an average of 12 weeks</time_frame>
+    <description>The LEfSe discriminant analysis will be used to screen for significant differences between groups. The dimensionality reduction will be implemented by LDA, and the impact of function difference will be evaluated to obtain the LDA score and identify significantly different functions between groups.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Correlation analysis between biomarkers and clinical indicators</measure>
+    <time_frame>Through study completion, an average of 12 weeks</time_frame>
+    <description>For the obtained species, genes, or functions with significant difference, the correlation between them and clinical indicators will be calculated, and key biomarkers with significant and strong correlation will be identified.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Insulin resistance</measure>
+    <time_frame>Through study completion, an average of 12 weeks</time_frame>
+    <description>Use glucose tolerance and insulin test (75gOGTT+insulin) to assess whether the patient has insulin resistance, as well as the level of insulin resistance.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Androgen level</measure>
+    <time_frame>Through study completion, an average of 12 weeks</time_frame>
+    <description>Six-sex-hormone tests, one of the clinical examination items, will be performed to measure androgen levels in the subjects.</description>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Polycystic Ovary Syndrome</condition>
+  <arm_group>
+    <arm_group_label>Health control group</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Participants are healthy women and there are no interventions.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Lifestyle interventions group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants are PCOS patients and only will be given lifestyle interventions.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Probiotic Agent group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants are PCOS patients and will be given lifestyle interventions + Probiotic Agent interventions.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Oral contraceptive group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants are PCOS patients and will be given lifestyle intervention + Oral contraceptive interventions.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Lifestyle intervention</intervention_name>
+    <description>Balance the diet;
+Limit high-calorie and high-fat food intake, reduce eating out, and establish regular eating habits;
+Monitor body weight, avoid sedentary, get more sun and regular activities;
+Mental health regulation.</description>
+    <arm_group_label>Oral contraceptive group</arm_group_label>
+    <arm_group_label>Probiotic Agent group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Probiotic Agent</intervention_name>
+    <description>Patients have to take a probiotic powder (product name: Tangwen Tai, lactobacillus plantarum LP45 + Lactobacillus acidophilus La28 + Bifidobacterium lactobacillus BAL531) twice a day for three months.</description>
+    <arm_group_label>Lifestyle interventions group</arm_group_label>
+    <arm_group_label>Oral contraceptive group</arm_group_label>
+    <other_name>Tangwen Tai</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Oral contraceptive</intervention_name>
+    <description>The patient needs to take drospirenone ethinyl estradiol tablets (trade name: Yousi Yue) 1 tablet daily for 3 months.</description>
+    <arm_group_label>Lifestyle interventions group</arm_group_label>
+    <arm_group_label>Probiotic Agent group</arm_group_label>
+    <other_name>Drospirenone and Ethinylestradiol Tablets</other_name>
+    <other_name>Yousi Yue</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Conforms to the 2003 Rotterdam classic PCOS diagnostic criteria.
+
+               1. sparse ovulation or anovulation;
+
+               2. clinical manifestations of high androgen and/or hyperandrogenism;
+
+               3. ovarian polycystic changes: ultrasound suggests one or both sides of the ovary
+                  with a diameter of 2-9 mm follicles ≥ 12, and / or ovarian volume ≥ 10 ml;
+
+                  2 out of 3 items, and exclude other high androgen causes, such as congenital
+                  adrenal hyperplasia, Cushing's syndrome, and androgen-secreting tumors;
+
+          2. Age: 18-45 years old.
+
+        Exclusion Criteria:
+
+          1. pregnancy;
+
+          2. menopause;
+
+          3. adrenal abnormalities;
+
+          4. thyroid dysfunction;
+
+          5. taking antibiotics for the past 3 months;
+
+          6. is taking oral contraceptive treatment;
+
+          7. basic diseases of the gastrointestinal tract (ulcerative colitis, Crohn's disease,
+             inflammatory bowel disease, etc.);
+
+          8. history of smoking;
+
+          9. BMI&lt;18kg/m2.
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <gender_based>Yes</gender_based>
+    <gender_description>Polycystic ovary syndrome (PCOS) is a syndrome of endocrine disorders characterized by sparse ovulation or anovulation, high androgen or insulin resistance, and polycystic ovary. PCOS is a woman-specific disease, so participants must be women.</gender_description>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>45 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Rong Chen, Ph. D.</last_name>
+    <role>Study Director</role>
+    <affiliation>Beijing Union Medical College Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Rong Chen, Ph. D.</last_name>
+    <phone>(86-10)-69155012</phone>
+    <email>chenrongpumch@163.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Xu Zhang, master</last_name>
+    <email>zhangxu_5050@163.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Peking Union Medical College Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Rong Chen, Ph. D</last_name>
+      <phone>(86-10)-69155012</phone>
+      <email>chenrongpumch@163.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Xu Zhang, Master</last_name>
+      <email>zhangxu_5050@163.com</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <reference>
+    <citation>Álvarez-Blasco F, Luque-Ramírez M, Escobar-Morreale HF. Diet composition and physical activity in overweight and obese premenopausal women with or without polycystic ovary syndrome. Gynecol Endocrinol. 2011 Dec;27(12):978-81. doi: 10.3109/09513590.2011.579658. Epub 2011 May 24.</citation>
+    <PMID>21609197</PMID>
+  </reference>
+  <reference>
+    <citation>Tremellen K, Pearce K. Dysbiosis of Gut Microbiota (DOGMA)--a novel theory for the development of Polycystic Ovarian Syndrome. Med Hypotheses. 2012 Jul;79(1):104-12. doi: 10.1016/j.mehy.2012.04.016. Epub 2012 Apr 27.</citation>
+    <PMID>22543078</PMID>
+  </reference>
+  <reference>
+    <citation>Liu R, Zhang C, Shi Y, Zhang F, Li L, Wang X, Ling Y, Fu H, Dong W, Shen J, Reeves A, Greenberg AS, Zhao L, Peng Y, Ding X. Dysbiosis of Gut Microbiota Associated with Clinical Parameters in Polycystic Ovary Syndrome. Front Microbiol. 2017 Feb 28;8:324. doi: 10.3389/fmicb.2017.00324. eCollection 2017.</citation>
+    <PMID>28293234</PMID>
+  </reference>
+  <results_reference>
+    <citation>Guo Y, Qi Y, Yang X, Zhao L, Wen S, Liu Y, Tang L. Association between Polycystic Ovary Syndrome and Gut Microbiota. PLoS One. 2016 Apr 19;11(4):e0153196. doi: 10.1371/journal.pone.0153196. eCollection 2016.</citation>
+    <PMID>27093642</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Torres PJ, Siakowska M, Banaszewska B, Pawelczyk L, Duleba AJ, Kelley ST, Thackray VG. Gut Microbial Diversity in Women With Polycystic Ovary Syndrome Correlates With Hyperandrogenism. J Clin Endocrinol Metab. 2018 Apr 1;103(4):1502-1511. doi: 10.1210/jc.2017-02153.</citation>
+    <PMID>29370410</PMID>
+  </results_reference>
+  <verification_date>October 2019</verification_date>
+  <study_first_submitted>February 11, 2019</study_first_submitted>
+  <study_first_submitted_qc>February 13, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 18, 2019</study_first_posted>
+  <last_update_submitted>October 9, 2019</last_update_submitted>
+  <last_update_submitted_qc>October 9, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 10, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Polycystic Ovary Syndrome</keyword>
+  <keyword>Metagenomics</keyword>
+  <keyword>Metabonomics</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Polycystic Ovary Syndrome</mesh_term>
+    <mesh_term>Syndrome</mesh_term>
+    <mesh_term>Dysbiosis</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Drospirenone</mesh_term>
+    <mesh_term>Contraceptive Agents</mesh_term>
+    <mesh_term>Contraceptives, Oral</mesh_term>
+    <mesh_term>Drospirenone and ethinyl estradiol combination</mesh_term>
+    <mesh_term>Ethinyl Estradiol</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>According to national laws and regulations, human genetic resources may not be provided abroad.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

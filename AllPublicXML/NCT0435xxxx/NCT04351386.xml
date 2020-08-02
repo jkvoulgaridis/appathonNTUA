@@ -1,0 +1,359 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04351386</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2019-A01476-51</org_study_id>
+    <nct_id>NCT04351386</nct_id>
+  </id_info>
+  <brief_title>Validation Study of the Watch HWA09 and Its Softwares ECG-SW1 and PPG-SW1 for the Detection of Atrial Fibrillation</brief_title>
+  <acronym>WEFA</acronym>
+  <official_title>Validation Study of the Watch HWA09 and Its Softwares ECG-SW1 and PPG-SW1 for the Detection of Atrial Fibrillation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Withings</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Withings</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The proposed clinical study aims to validate the diagnostic performance, compared to a
+      reference ECG, of the ECG-SW1 software and the PPG-SW1 software integrated into the HWA09
+      watch developed by Withings for the automatic identification of atrial fibrillation (AF).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      HWA09 is a wrist-worn watch that enables to record a single-lead ECG similar to the standard
+      lead I configuration, and a photoplethysmogram (PPG).
+
+      Primary objective :
+
+      To validate the diagnostic performance of the ECG-SW1 software integrated into the HWA09
+      watch for the automatic identification of atrial fibrillation (AF) compared to a simultaneous
+      12-lead ECG (hereinafter referred to as the &quot;gold standard&quot; or &quot;reference method&quot;).
+
+      The algorithm classifies the watch signals into four categories: normal sinus rhythm (RSN),
+      AF, arrhythmia other than AF, or non-interpretable. The latter category includes signals of
+      insufficient quality to be interpreted with confidence.
+
+      This classification will be compared to the diagnosis made by three independent, blinded
+      cardiologists based on a 12-lead ECG. The final diagnosis retained will be decided by
+      majority with adjudication by a consensus of 3 to 6 cardiologists. The sensitivity and
+      specificity of the device will then be estimated.
+
+      First secondary objectives:
+
+      The first secondary objective is to validate the diagnostic performance, compared to a
+      simultaneous 12-lead ECG, of the PPG-SW1 software integrated in the HWA09 watch for the
+      automatic identification of atrial fibrillation (AF) from the photoplethysmography (PPG)
+      signal.
+
+      Three independent blinded cardiologists will issue a diagnosis based on the ECG recording of
+      the HWA09 watch. The final diagnosis retained will be decided by majority with adjudication
+      by a consensus of 3 to 6 cardiologists. Sensitivity and specificity will be calculated in
+      relation to the reference ECG.
+
+      Second secondary objective:
+
+      To evaluate the quality of the single-channel strips measured with the HWA09 watch, as
+      follows:
+
+        -  Three independent cardiologists, having neither performed the data collection nor read
+           the reference ECG, will independently make a diagnosis based on the HWA09 single-channel
+           strips, blinded to the diagnosis made from the reference ECG. The ECG traces from the
+           watch will be exported in PDF format from the Withings Health Mate application and the
+           final diagnosis will be made by majority with adjudication by a consensus of 3 to 6
+           cardiologists. The final diagnosis will be compared to the diagnosis made by the
+           cardiologists who read the reference ECG. Sensitivity and specificity will then be
+           calculated.
+
+        -  The visibility and polarity of ECG waves (i.e. P waves, QRS complex and T waves) will be
+           determined by cardiologists for the single-channel strips recorded with HWA09 and for
+           the lead I of the reference 12-lead ECG. For each of the waves, the agreement on their
+           visibility and polarity (if visible) between the HWA09 and the reference ECG will be
+           calculated.
+
+        -  The durations of the major intervals of an ECG (i.e., QT interval, QRS complex, and PR
+           interval) will be determined by the cardiologists for the single-channel strips recorded
+           with HWA09 and for the lead I of the reference 12-lead ECG. For each interval (QT, QRS,
+           PR), the difference of duration between the signals from the watch and the reference ECG
+           will be calculated.
+
+        -  The heart rate will first be determined by cardiologists from each signal of lead I
+           (recorded by the HWA09 watch and the reference ECG) that has been diagnosed as NSR. The
+           difference between the heart rate of the watch and the reference will be calculated. In
+           a second step, the heart rate recorded by the HWA09 watch will be calculated by the
+           Withings software. The difference between the heart rate calculated by the Withings
+           software (from the signal of the watch) and the heart rate determined by the
+           cardiologists (from the lead I of the reference ECG) will also be calculated.
+
+      The sponsor will ensure that no cardiologist makes a diagnosis on both a signal from the
+      HWA09 watch and the reference ECG fomr the same patient. The sponsor will centralize
+      diagnostics on the HWA09 and reference ECG signals and perform agreement calculations on the
+      associated pairs.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">December 20, 2019</start_date>
+  <completion_date type="Anticipated">September 2020</completion_date>
+  <primary_completion_date type="Anticipated">September 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity of the automatic classification in AF by ECG-SW1 of HWA09 single-lead ECG against reference 12-lead ECG</measure>
+    <time_frame>1 year</time_frame>
+    <description>sensitivity from the 2x2 confusion matrix AF vs 'non-AF'</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Sensitivity of the automatic classification in NSR by ECG-SW1 of HWA09 single-lead ECG against reference 12-lead ECG</measure>
+    <time_frame>1 year</time_frame>
+    <description>sensitivity from the 2x2 confusion matrix NSR vs 'non-NSR'</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity of the automatic classification in AF by PPG-SW1 of the HWA09 PPG against reference 12-lead ECG</measure>
+    <time_frame>1 year</time_frame>
+    <description>sensitivity from the 2x2 confusion matrix AF vs 'non-AF'</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity of the automatic classification in NSR by PPG-SW1 of the HWA09 PPG against reference 12-lead ECG</measure>
+    <time_frame>1 year</time_frame>
+    <description>sensitivity from the 2x2 confusion matrix NSR vs 'non-NSR'</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity of the cardiologists' classification in AF from the HWA09 ECG</measure>
+    <time_frame>1 year</time_frame>
+    <description>sensitivity from the 2x2 confusion matrix AF vs 'non-AF'</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity of the cardiologists' classification in SR from the HWA09 ECG</measure>
+    <time_frame>1 year</time_frame>
+    <description>sensitivity from the 2x2 confusion matrix NSR vs 'non-NSR'</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of the visibility of P-waves of single-lead ECG from HWA09</measure>
+    <time_frame>1 year</time_frame>
+    <description>(true positives + true negatives)/(sample size) from the 2x2 confusion matrix</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of the positivity of P-waves of single-lead ECG from HWA09</measure>
+    <time_frame>1 year</time_frame>
+    <description>(true positives + true negatives)/(sample size) from the 2x2 confusion matrix</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of the visibility of QRS-complexes of single-lead ECG from HWA09</measure>
+    <time_frame>1 year</time_frame>
+    <description>(true positives + true negatives)/(sample size) from the 2x2 confusion matrix</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of the positivity of QRS-complexes of single-lead ECG from HWA09</measure>
+    <time_frame>1 year</time_frame>
+    <description>(true positives + true negatives)/(sample size) from the 2x2 confusion matrix</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of the visibility of T-waves of single-lead ECG from HWA09</measure>
+    <time_frame>1 year</time_frame>
+    <description>(true positives + true negatives)/(sample size) from the 2x2 confusion matrix</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of the positivity of T-waves of single-lead ECG from HWA09</measure>
+    <time_frame>1 year</time_frame>
+    <description>(true positives + true negatives)/(sample size) from the 2x2 confusion matrix</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>RMSE between cardiologist's estimate of heart rate from the HWA09 single-lead ECG and the lead I reference ECG</measure>
+    <time_frame>1 year</time_frame>
+    <description>Root Mean Squared Error</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>RMSE between cardiologist's estimate of heart rate from the HWA09 single-lead ECG and the heart rate calculated by ECG-SW1</measure>
+    <time_frame>1 year</time_frame>
+    <description>Root Mean Squared Error</description>
+  </secondary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">240</enrollment>
+  <condition>Atrial Fibrillation</condition>
+  <condition>Arrythmia, Cardiac</condition>
+  <arm_group>
+    <arm_group_label>Atrial Fibrillation (AF)</arm_group_label>
+    <description>Patients diagnosed with AF during reference ECG</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Normal Sinus Rhythm (NSR)</arm_group_label>
+    <description>Patients with NSR during reference ECG</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Other Arrythmia</arm_group_label>
+    <description>Patients diagnosed with an arrhythmia other than AF during the reference ECG</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>AF Detection</intervention_name>
+    <description>Recording PPG and single-lead ECG signals with the Withings HWA09 and ECG signal for the reference 12-lead ECG</description>
+    <arm_group_label>Atrial Fibrillation (AF)</arm_group_label>
+    <arm_group_label>Normal Sinus Rhythm (NSR)</arm_group_label>
+    <arm_group_label>Other Arrythmia</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Every eligible patient doing a medical examination at the investigation center will be
+        asked to take part in the study.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Individuals over 18yo
+
+          -  Individuals who expressed their non-opposition to take part in the study
+
+          -  Individuals affiliated to a social security system or eligible
+
+        Exclusion Criteria:
+
+          -  Vulnerable individuals according to the regulation in force :
+
+               -  Pregnant, parturient or breastfeeding women
+
+               -  Individuals deprived of liberty by a court, medical or administrative order
+
+               -  Individuals under 18yo
+
+               -  Individuals legally protected or unable to express their non-opposition to take
+                  part in
+
+               -  Individuals unaffiliated to or not beneficiary of a social security system
+
+               -  Individuals who fit in multiple categories above
+
+          -  Individuals having refused to take part in the study
+
+          -  Individuals linguistically or mentally unable to express their non-opposition
+
+          -  Individuals physically unable to wear a watch
+
+          -  Individuals with an electrical pacing by a pacemaker
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>David CAMPO</last_name>
+    <role>Study Director</role>
+    <affiliation>Withings</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Julien NAHUM</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Centre Cardiologique du Nord</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>David CAMPO</last_name>
+    <phone>+33 1 41 46 04 60</phone>
+    <email>david.campo@withings.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Julien NAHUM</last_name>
+    <phone>+33 1 49 33 48 75</phone>
+    <email>j.nahum@ccn.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Institut Cœur Paris Centre Turin</name>
+      <address>
+        <city>Paris</city>
+        <state>Ile-de-France</state>
+        <zip>75008</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>David FOUASSIER</last_name>
+      <phone>+33 6 08 52 66 67</phone>
+      <email>david.fouassier@aphp.fr</email>
+    </contact>
+    <investigator>
+      <last_name>David FOUASSIER</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hopital Europeen Georges Pompidou</name>
+      <address>
+        <city>Paris</city>
+        <state>Ile-de-France</state>
+        <zip>75015</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Suspended</status>
+  </location>
+  <location>
+    <facility>
+      <name>Centre Cardiologique du Nord</name>
+      <address>
+        <city>Saint-Denis</city>
+        <state>Ile-de-France</state>
+        <zip>93200</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Suspended</status>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>April 8, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 16, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 17, 2020</study_first_posted>
+  <last_update_submitted>July 3, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 3, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 7, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Atrial Fibrillation</keyword>
+  <keyword>Arrythmia, Cardiac</keyword>
+  <keyword>Cardiovascular Disease</keyword>
+  <keyword>Heart Disease</keyword>
+  <keyword>Wearable Electronic Device</keyword>
+  <keyword>Watch</keyword>
+  <keyword>Electrocardiography</keyword>
+  <keyword>ECG</keyword>
+  <keyword>Photoplethysmography</keyword>
+  <keyword>PPG</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atrial Fibrillation</mesh_term>
+    <mesh_term>Arrhythmias, Cardiac</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Individual patient data (IPD) are considered as confidential in this study. After the end the final quality control, the database will be frozen and all the IPD will be archived .</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,168 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03622996</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NRF-2017M3A9E2064735</org_study_id>
+    <nct_id>NCT03622996</nct_id>
+  </id_info>
+  <brief_title>Noncontact Vital Sign Monitoring Using IR-UWB Radar</brief_title>
+  <official_title>Noncontact Vital Sign Monitoring Using Impulse Radio Ultra-wideband (IR-UWB) Radar in Neonates and Children</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hanyang University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hanyang University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Background: Contact sensors can cause injuries and infections in newborn infants with fragile
+      skin. The impulse radio ultra-wideband (IR-UWB) radar is recently demonstrated in adults as a
+      contactless method to measure heart rate. The purpose of this study is to assess heart rate
+      (HR) in neonates using IR-UWB radar and evaluate its accuracy, compared to the
+      electrocardiogram (ECG) in the neonatal intensive care unit (NICU).
+
+      Methods: HR is recorded in newborn infants using both IR-UWB radar 35 cm away from the chest
+      and ECG simultaneously in the NICU. The HR data during sleeping/calm state are automatically
+      collected by a software algorithm. A total values averaged from a 30-second window every 10 s
+      is used for the analysis. Data acquired on the same patient with standard electrocardiogram
+      has been used for comparison.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Vital sign is recorded by the radar and bedside ECG simultaneously in supine position within
+      an open-air crib.
+
+      The three electrodes of the ECG are attached at the standard positions and connected to the
+      BSM-6501K patient monitor (Nihon Kohden, Tokyo, Japan), and vital signs are recorded and
+      extracted.
+
+      The data from the radar is connected to a computer through a USB interface, and signal
+      processing has been automatically performed by a software algorithm described by our previous
+      study. A Fourier transform decomposes a signal with respect to time into a frequency
+      component.
+
+      Vital sign is recorded continuously, and digital outputs are extracted from periods when no
+      large noise or fluctuation occurs in both methods. While vital sign acquisition is
+      significantly interfered with moving extensively, being in nursing care, repetitive
+      myoclonus, hiccupping, flopping, or crying, the IR-UWB radar system stops the measurements
+      and deletes the motion-contaminated observations automatically by itself. To investigate the
+      artifact and interference by body movement during measurement, the level of movement is
+      integrated based on the change of distance of the body from the radar. The radar transmits
+      dozens of these signals (frames) to the computer every second, and the frame would not be
+      changed if there was no movement within the range of the radar. However, if there is any
+      movement, the difference of two frames (previous - current) is calculated.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">November 1, 2018</start_date>
+  <completion_date type="Anticipated">December 2021</completion_date>
+  <primary_completion_date type="Anticipated">March 2019</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>10 Days</target_duration>
+  <primary_outcome>
+    <measure>Detection rate (total time of successful detection/total measurement time) between the IR-UWB radar and conventional monitor for HR and RR measurement</measure>
+    <time_frame>newborns (≥ 37 weeks gestational age) who are admitted in NICU within 28 days of birth (breathing without any respiratory/oxygen support)</time_frame>
+    <description>to assess the potential of IR-UWB radar for monitoring vital signs in neonates, compared to the gold standard monitoring in the NICU</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Correlation by Pearson coefficient between the IR-UWB radar and conventional monitor for HR and RR measurement</measure>
+    <time_frame>newborns (≥ 37 weeks gestational age) who are admitted in NICU within 28 days of birth (breathing without any respiratory/oxygen support)</time_frame>
+    <description>to evaluate accuracy of IR-UWB radar for monitoring vital signs in neonates, compared to the gold standard monitoring in the NICU</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Mean difference by Bland-Altman analysis between the IR-UWB radar and conventional monitor for HR and RR measurement</measure>
+    <time_frame>newborns (≥ 37 weeks gestational age) who are admitted in NICU within 28 days of birth (breathing without any respiratory/oxygen support)</time_frame>
+    <description>to evaluate accuracy of IR-UWB radar for monitoring vital signs in neonates, compared to the gold standard monitoring in the NICU</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Signal matching (%), defined bpm difference ≤ 5, between the IR-UWB radar and conventional monitor for HR measurement</measure>
+    <time_frame>newborns (≥ 37 weeks gestational age) who are admitted in NICU within 28 days of birth (breathing without any respiratory/oxygen support)</time_frame>
+    <description>to evaluate accuracy of IR-UWB radar for monitoring heart rate in neonates, compared to the gold standard monitoring in the NICU</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>NICU</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        We prospectively enrolls clinically stable full-term neonates (&gt; 37 weeks of gestational
+        age) who do not use any respiratory support and have stable vital signs at the NICU
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  full-term neonates (&gt; 37 weeks of gestational age)
+
+        Exclusion Criteria:
+
+          -  patients with congenital anomalies
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>12 Months</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>JH Ahn</last_name>
+    <role>Study Director</role>
+    <affiliation>Hanyang University, Seoul, Korea</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Hyun-Kyung Park, Prof</last_name>
+    <phone>82-2-10-4749-1454</phone>
+    <email>neopark@hanyang.ac.kr</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Hanyang University College of Medicine</name>
+      <address>
+        <city>Seoul</city>
+        <zip>04763</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Hyun-Kyung Park, Prof</last_name>
+      <phone>82-2-01-4749-1454</phone>
+      <email>neopark@hanyang.ac.kr</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <verification_date>February 2019</verification_date>
+  <study_first_submitted>July 14, 2018</study_first_submitted>
+  <study_first_submitted_qc>August 6, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 9, 2018</study_first_posted>
+  <last_update_submitted>February 23, 2019</last_update_submitted>
+  <last_update_submitted_qc>February 23, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 26, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Hanyang University</investigator_affiliation>
+    <investigator_full_name>Hyun-Kyung Park</investigator_full_name>
+    <investigator_title>MD, PhD</investigator_title>
+  </responsible_party>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

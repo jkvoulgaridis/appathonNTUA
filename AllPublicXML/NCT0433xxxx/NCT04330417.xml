@@ -1,0 +1,225 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04330417</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2018/01258</org_study_id>
+    <nct_id>NCT04330417</nct_id>
+  </id_info>
+  <brief_title>Bidirectional Myoelectric (BIMYO) Soft Robotic Glove Technology For Robot-Assisted Hand Therapy in Stroke Patients</brief_title>
+  <official_title>Bidirectional Myoelectric (BIMYO) Soft Robotic Glove Technology For Robot-Assisted Hand Therapy in Stroke Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National University Hospital, Singapore</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National University, Singapore</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>National University Hospital, Singapore</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Stroke patients have limited hand mobility post-stroke, thus inhibiting them from performing
+      daily functional tasks independently, resulting in reduced quality of life. Current hand
+      rehabilitation robotic devices are typically driven by rigid linkages/joints, which subject
+      the fingers into a single plane of motion that is unnatural and uncomfortable. These devices
+      belong to the class of continuous passive motion (CPM) devices that only promote hand
+      range-of-motion, but do not require the patient to play an active role in performing the hand
+      exercises. There is a strong need for a device that can resolve the lack of compliant
+      robot-assisted hand motion and lack of intuitive user control in assistive and rehabilitation
+      processes.
+
+      This proposed research aims to fill the above-mentioned gaps for current hand rehabilitation
+      devices by developing a soft robotic glove that provides compliant assistance to
+      bidirectional hand motion, coupled with intuitive user control.
+
+      In the short term, the robotic glove will likely enhance the patients' hand flexion-extension
+      range of motion and improve the neuro-motor control of the hand.
+
+      In the long term, the robotic glove will act as an adjunct to therapists, thereby raising
+      productivity in the presence of growing manpower constraints and optimizing therapy time for
+      the patients; this can potentially enhance recovery time and quality of life, as a result of
+      improved hand mobility for common daily tasks.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The investigators aim to develop a new bidirectional composite soft actuator that is capable
+      of assisting in both hand flexion and extension. This new class of actuator will comprise of
+      a flexion actuator component with its external bending patterns and dedicated pneumatic
+      channel, and an embedded extension actuator component with its dedicated air-flow inlet. When
+      pressurized air is introduced through the extension inlet, the extension actuator will
+      inflate and stiffen, thereby assisting in hand extension. Moreover, when pressurized air is
+      introduced through the flexion inlet, the flexion actuator will inflate and bend, thereby
+      assisting in hand flexion.
+
+      These bidirectional actuators will be embedded onto each finger segment of a fabric glove,
+      and air inflow into each of the bidirectional actuators can be controlled via a pump-valve
+      control system. The pump-valve control system comprises a microcontroller, onboard power
+      source, transceiver, motor pump, and flexion and extension control valves. Once the
+      microcontroller receives a command signal to adopt a specific hand posture, it will send the
+      postural command to the motor pump and the necessary flexion/extension control valves,
+      thereby actuating the corresponding bidirectional soft actuators to assist the user's hand
+      into the desired hand posture.
+
+      Aims:
+
+      Aim 1: The bidirectional myoelectric soft robotic glove may provide intuitive user-controlled
+      robot-assisted hand grasping postures to the human user for achieving functional tasks. With
+      the help of the glove system, participants may be more capable of achieving active daily
+      living tasks.
+
+      Aim 2: The bidirectional myoelectric soft robotic glove may provide intuitive user-controlled
+      robot-assisted hand grasping postures to the human user for rehabilitation purposes.
+
+      Hypothesis:
+
+      The central hypothesis is that a bidirectional myoelectric soft robotic glove will provide
+      intuitive user-controlled robot-assisted hand grasping postures to the human user for
+      achieving functional tasks more than no robot assistance.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 1, 2020</start_date>
+  <completion_date type="Anticipated">October 31, 2020</completion_date>
+  <primary_completion_date type="Anticipated">October 31, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Supportive Care</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Functional Assessment</measure>
+    <time_frame>Change from Baseline FMA score at 6 weeks.</time_frame>
+    <description>Fugl-Meyer Assessment (FMA) Upper Extremity (UE) Score, A total of 66 scores.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Functional Assessment</measure>
+    <time_frame>Change from Baseline ARAT score at 6 weeks.</time_frame>
+    <description>Action Research Arm Test (ARAT), A total of 57 scores.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Brain Imaging</measure>
+    <time_frame>Change from Baseline Imaging at 6 weeks.</time_frame>
+    <description>Functional Magnetic Resonance Imaging</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Stroke</condition>
+  <arm_group>
+    <arm_group_label>EMG Glove Group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>A total of 12 sessions of robot-assisted hand training for 6 consecutive weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control Group</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>A total of 12 session of standard hand therapy sessions in 6 consecutive weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Robot-Assisted Hand Training</intervention_name>
+    <description>Perform activities of daily living, e.g., write sentences, turn cards, move small and big objects, simulated feeding, stack checkers, pour water, squeeze handles</description>
+    <arm_group_label>EMG Glove Group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Standard Hand Therapy</intervention_name>
+    <description>Stretching, Strengthening, Hand Functional Training</description>
+    <arm_group_label>Control Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Aged 30-90 years regardless of lesion size, race
+
+          2. Stroke type: ischemic or haemorrhagic
+
+          3. Fugl-Meyer Assessment (FMA) of upper extremity impairment of 10-56 out of a maximum
+             score of 66 on the Fugl-Meyer assessment scale
+
+          4. Able to comprehend and follow commands
+
+          5. Unilateral upper limb impairment
+
+        Exclusion Criteria:
+
+          1. Recurrent stroke
+
+          2. Unstable medical conditions or anticipated life expectancy of &lt;1 year
+
+          3. History of severe depression or active psychiatric disorder
+
+          4. Severe spasticity (Modified Ashworth scale &gt;2)
+
+          5. Poor skin condition
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>30 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Jeong Hoon Lim, Dr.</last_name>
+    <phone>(65) 6772 2002</phone>
+    <email>mdcljh@nus.edu.sg</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>National University Hospital</name>
+      <address>
+        <city>Singapore</city>
+        <zip>119074</zip>
+        <country>Singapore</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Singapore</country>
+  </location_countries>
+  <reference>
+    <citation>Yap HK, Lim JH, Nasrallah F, Yeow CH. Design and Preliminary Feasibility Study of a Soft Robotic Glove for Hand Function Assistance in Stroke Survivors. Front Neurosci. 2017 Oct 9;11:547. doi: 10.3389/fnins.2017.00547. eCollection 2017. Erratum in: Front Neurosci. 2018 May 08;12 :323.</citation>
+    <PMID>29062267</PMID>
+  </reference>
+  <reference>
+    <citation>Koh TH, Cheng N, Yap HK, Yeow CH. Design of a Soft Robotic Elbow Sleeve with Passive and Intent-Controlled Actuation. Front Neurosci. 2017 Oct 25;11:597. doi: 10.3389/fnins.2017.00597. eCollection 2017.</citation>
+    <PMID>29118693</PMID>
+  </reference>
+  <verification_date>April 2019</verification_date>
+  <study_first_submitted>April 24, 2019</study_first_submitted>
+  <study_first_submitted_qc>March 30, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 1, 2020</study_first_posted>
+  <last_update_submitted>March 30, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 30, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 1, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Stroke</keyword>
+  <keyword>Soft Robotic Glove</keyword>
+  <keyword>Electromyography</keyword>
+  <keyword>Hand Rehabilitation</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stroke</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,269 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03577483</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CHUBX 2016/21</org_study_id>
+    <nct_id>NCT03577483</nct_id>
+  </id_info>
+  <brief_title>Differential Diagnosis Between Parkinson's Disease and Multiple System Atrophy Using Digital Speech Analysis</brief_title>
+  <acronym>Voice4PD-MSA</acronym>
+  <official_title>Differential Diagnosis Between Parkinson's Disease and Multiple System Atrophy Using Digital Speech Analysis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Bordeaux</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Institut National de Recherche en Informatique et en Automatique</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital, Bordeaux</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Parkinson's disease (PD) is the second most common neurodegenerative disease. Multiple system
+      atrophy (MSA) is a relentlessly progressing rare neurodegenerative disease of unknown
+      etiology. In early stages of the disease, PD and MSA symptoms are very similar, particularly
+      MSA-P where Parkinsonism predominates. The differential diagnosis between MSA-P and PD can be
+      very challenging in early disease stages, while early diagnostic certitude is important for
+      the patient because of the diverging prognosis. Voice disorders are a common early symptom in
+      both diseases and of different origin. The ambition and the originality of this project are
+      to develop a digital voice-based tool for objective discrimination between PD and MSA-P.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Given the clinical similarity between PD and MSA-P in early disease stages and the severity
+      of the prognosis of MSA-P, it would be very useful to have objective tools to assist in the
+      differential diagnosis between both disorders. Since dysarthria is a common early symptom in
+      both diseases and of different origin, the innovative goal of this project is to use
+      dysarthria, through a digital processing of voice recordings of patients, as a vehicle to
+      distinguish between PD and MSA-P in early disease stages.
+
+      The team will build a corpus of voice samples of patients with both diseases and a recent
+      diagnosis (less than 4 years) and controls. This corpus will consist in sustained vowels,
+      utterances of a standard text and spontaneous speech. The recordings will be performed using
+      a high quality digital recorder (H4n) and the DIANA and EVA-2 workstations. DIANA is a
+      state-of-the-art system dedicated to pathological voice recording and analysis.
+
+      An electroglottograph (EGG), a non-invasive device, will be also used in conjunction with the
+      recordings to provide the ground truth of glottal opening and closure instants during
+      utterances. The use of an EGG can be very useful given that OGI and GCI provide valuable
+      information about the voice short-time dynamics.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date type="Actual">June 26, 2018</start_date>
+  <completion_date type="Anticipated">June 1, 2019</completion_date>
+  <primary_completion_date type="Anticipated">June 1, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Exploratory comparative multicentric study.</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Differences between groups in Dysphonia Severity Index (DSI).</measure>
+    <time_frame>Day 1</time_frame>
+    <description>DSI will be calculated with the SESANE software (http://www.sqlab.fr/) and with algorithms developed by GeoStat at Inria.
+Evaluation of the rhythm voice
+Vowels: mean frequency (Hz), variation coefficient (%), jitter factor (%), mean intensity (dB), shimmer factor (%), and noise to harmony ratio (dB).
+Speech prosody: mean frequency (Hz), variation coefficient (%), minimal frequency (Hz), maximal frequency (Hz), dynamic (Hz), mean duration of speech between two pauses (seconds), total amount of syllables (syllables/s), total amount of pure speech (syllables/s), articulation rate (syllables/s), percentage of pauses (%), percentage of pauses within words (%), time between pauses (s), SPIR index of rhythmicity (words/min), fragmentation of vowels (%), voice onset time (s), stop-consonant spirantization (%).
+Aerodynamic voice parameters will be assessed with the DIANA system (http://www.sqlab.fr/) and algorithms specifically developed by GeoStat at Inria.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Differences between groups in Acoustic Voice Quality Index (AVQI)</measure>
+    <time_frame>Day 1</time_frame>
+    <description>AVQI will be calculated with the SESANE software (http://www.sqlab.fr/) and with algorithms developed by GeoStat at Inria.
+Objective measurement of overall voice quality consisted of determining the acoustic parameters for calculating AVQI: smoothed cepstral peak prominence (CPPs) with the computer program &quot;SpeechTool&quot; (James Hillenbrand, Western Michigan University, Kalamazoo, MI, USA) and harmonics-to-noise ratio (HNR), shimmer local, shimmer local dB, general slope of the spectrum (slope) and tilt of the regression line through the spectrum (tilt) with Praat. Te Acoustic Voice Quality Index (AVQI) was calculated according to the regression formula: 2.571 [3.295 − 0.111 (CPPs) − 0.073 (HNR) − 0.213 (shimmer local) + 2.789 (shimmer local dB) − 0.032 (slope) + 0.077 (tilt)].</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Differences between groups in oral airflow (dm3/s).</measure>
+    <time_frame>Day 1</time_frame>
+    <description>This parameter will be evaluated with the EVA2 system (http://www.sqlab.fr/).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Differences between groups in glottal leakage (cc/s/dB)</measure>
+    <time_frame>Day 1</time_frame>
+    <description>This parameter will be evaluated with the EVA2 system (http://www.sqlab.fr/).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Differences between groups in intra-oral pressure (hPa).</measure>
+    <time_frame>Day 1</time_frame>
+    <description>This parameter will be evaluated with the EVA2 system (http://www.sqlab.fr/).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Differences between groups in perceptive analysis of dysphonia based on total GRBAS-I scale scores (range 0-18)</measure>
+    <time_frame>Day 1</time_frame>
+    <description>The GRBAS-I scale evaluates six items, i.e. G (Grade), R (Roughness), B (Breathiness), A (Asthenicity), S (Strained) and I (Instability)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Differences between groups in perceptive analysis of dysarthria based on French Clinical Dysarthria Battery scores</measure>
+    <time_frame>Day 1</time_frame>
+    <description>Sum of all 12 prosody item scores and all 6 phonetic performance item scores; range 0-84.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">90</enrollment>
+  <condition>Parkinson Disease</condition>
+  <condition>MSA - Multiple System Atrophy</condition>
+  <arm_group>
+    <arm_group_label>Parkinson's disease</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Diagnosis of idiopathic Parkinson's disease (PD) according to criteria</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Multiple system atrophy</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Diagnosis of Multiple Atrophy System (MSA) Parkinsonian form possible or probable according to Gilman et coll 's criteria (2008)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy volunteer</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Absence of neurologic and oto-rhino-laryngologic disease</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>voice recordings</intervention_name>
+    <description>A digital processing of voice recordings (from 30 to 45 minutes) will be performed for each participant, using a high quality digital recorder: the DIANA (computerized device of acoustic analysis) and the EVA-2 workstations (assisted Evaluation system Voice).</description>
+    <arm_group_label>Healthy volunteer</arm_group_label>
+    <arm_group_label>Multiple system atrophy</arm_group_label>
+    <arm_group_label>Parkinson's disease</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patient with Parkinson's disease :
+
+               -  Diagnosis of idiopathic Parkinson's disease (PD) according to criteria (Hughes et
+                  coll., 1992)
+
+               -  Patient in early stage of PD : Hoehn&amp;Yahr stage between 1 and 2, and the onset of
+                  symptoms ≤ 4 years
+
+               -  Patient with or without mild to moderate speech troubles: UPDRS III item 18 ≤ 2
+
+          -  Patients with MSA-P (Parkinsonian form) :
+
+               -  Diagnosis of Multiple Atrophy System (MSA) Parkinsonian form possible or probable
+                  according to Gilman et coll 's criteria (2008)
+
+               -  Patient in early stage of MSA-P: score of part IV of the UMSARS (Unified Multiple
+                  System Atrophy Rating Scale) ≤ 3 points and the onset of symptoms ≤ 4 years
+
+               -  Patient with or without mild to moderate speech troubles: UMSARS II item 2 ≤ 2
+
+          -  Controls :
+
+               -  Absence of neurologic and oto-rhino-laryngologic disease
+
+        Exclusion Criteria:
+
+          -  The deaf and/or mutes
+
+          -  Patient with speech troubles which are not related to the MSA or PD
+
+          -  Person under safeguard justice, guardianship
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>30 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Wassilios MEISSNER, MD,PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Hospital, Bordeaux</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Khalid DAOUDI, PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Institut National de Recherche en Informatique et en Automatique</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Wassilios MEISSNER, MD, PhD</last_name>
+    <phone>+335 57 82 12 53</phone>
+    <email>wassilios.meissner@chu-bordeaux.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Sandrine VILLARS</last_name>
+    <phone>+335 57 82 12 53</phone>
+    <email>sandrine.villars@chu-bordeaux.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Centre Hospitalier Universitaire de Bordeaux</name>
+      <address>
+        <city>Bordeaux</city>
+        <zip>33000</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Wassilios MEISSNER, MD, PhD</last_name>
+      <phone>+335 57 82 12 53</phone>
+      <email>wassilios.meissner@chu-bordeaux.fr</email>
+    </contact>
+    <contact_backup>
+      <last_name>Sandrine VILLARS</last_name>
+      <phone>+335 57 82 12 53</phone>
+      <email>sandrine.villars@chu-bordeaux.fr</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Centre Hospitalier Universitaire de Toulouse</name>
+      <address>
+        <city>Toulouse</city>
+        <zip>31000</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Anne PAVY-LE-TRAON, MD,PhD</last_name>
+      <phone>+335 61 77 95 19</phone>
+      <email>pavy-letraon.a@chu-toulouse.fr</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>July 2018</verification_date>
+  <study_first_submitted>October 20, 2017</study_first_submitted>
+  <study_first_submitted_qc>July 2, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 5, 2018</study_first_posted>
+  <last_update_submitted>July 5, 2018</last_update_submitted>
+  <last_update_submitted_qc>July 5, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 9, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Parkinson Disease</mesh_term>
+    <mesh_term>Multiple System Atrophy</mesh_term>
+    <mesh_term>Shy-Drager Syndrome</mesh_term>
+    <mesh_term>Atrophy</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

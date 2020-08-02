@@ -1,0 +1,3500 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02982863</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1160-0279</org_study_id>
+    <nct_id>NCT02982863</nct_id>
+  </id_info>
+  <brief_title>Treatment Pattern of Oral Anticoagulants (OAC) in Japan</brief_title>
+  <official_title>Treatment Patterns of Newly Initiated Oral Anticoagulants on Japanese Non-valvular Atrial Fibrillation Patients Using a Japanese Claims Database</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Boehringer Ingelheim</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Boehringer Ingelheim</source>
+  <brief_summary>
+    <textblock>
+      1. To understand the treatment patterns of OACs and baseline patient characteristics of
+           Japanese Non-Valvular Atrial Fibrillation (NVAF) patients
+
+        2. To determine whether warfarin and dabigatran new user group can be balanced using
+           propensity score matching using pre-specified baseline covariates.
+
+        3. As an exploratory analysis, to assess mean duration of on-therapy follow-up time in
+           database
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">December 1, 2016</start_date>
+  <completion_date type="Actual">December 1, 2016</completion_date>
+  <primary_completion_date type="Actual">December 1, 2016</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of Patients by Each Type of Study-target OAC Drug Prescribed for New Users of Anticoagulants With NVAF</measure>
+    <time_frame>Day 1</time_frame>
+    <description>Number of patients by each type of study-target OAC drug (dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban) prescribed as the first Oral Anticoagulants (OAC) with Non-valvular atrial fibrillation (NVAF)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Patients Prescribed OAC Drug Dabigatran by Dosage</measure>
+    <time_frame>Day 1</time_frame>
+    <description>Number of patients prescribed OAC drug dabigatran at the index date by dosage. If a patient had more than one prescriptions of an OAC at the day, the patient was multiple-counted.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Patients Prescribed OAC Drug Warfarin by Dosage</measure>
+    <time_frame>Day 1</time_frame>
+    <description>Number of patients prescribed OAC drug Warfarin at the index date by dosage. If a patient had more than one prescriptions of an OAC at the day, the patient was multiple-counted.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Patients Prescribed OAC Drug Rivaroxaban by Dosage</measure>
+    <time_frame>Day 1</time_frame>
+    <description>Number of patients prescribed OAC drug rivaroxaban at the index date by dosage. If a patient had more than one prescriptions of an OAC at the day, the patient was multiple-counted.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Patients Prescribed OAC Drug Apixaban by Dosage</measure>
+    <time_frame>Day 1</time_frame>
+    <description>Number of patients prescribed OAC drug Apixaban at the index date by dosage. If a patient had more than one prescriptions of an OAC at the day, the patient was multiple-counted.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Patients Prescribed OAC Drug Edoxaban by Dosage</measure>
+    <time_frame>Day 1</time_frame>
+    <description>Number of patients prescribed OAC drug edoxaban at the index date by dosage. If a patient had more than one prescriptions of an OAC at the day, the patient was multiple-counted.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Baseline Characteristics: Age</measure>
+    <time_frame>1 day</time_frame>
+    <description>Baseline characteristics of patients in each treatment group: age</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Baseline Characteristics: Gender</measure>
+    <time_frame>Day 1</time_frame>
+    <description>Baseline characteristics of patients in each treatment group: gender</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Baseline Characteristics: Year of Initiating Treatment</measure>
+    <time_frame>Day 1</time_frame>
+    <description>Baseline characteristics of patients in each treatment group: year of initiating treatment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Baseline Characteristics: Speciality of Prescribers of OAC</measure>
+    <time_frame>Day 1</time_frame>
+    <description>Baseline characteristics of patients in each treatment group: speciality of prescribers of OAC.
+int.= internal; Med.= Medicine</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Baseline Characteristics: History of Disease</measure>
+    <time_frame>Day 1</time_frame>
+    <description>Baseline characteristics of patients in each treatment group: history of disease and hospitalization.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Baseline Characteristics: History of Hospitalization</measure>
+    <time_frame>Day 1</time_frame>
+    <description>Baseline characteristics: history of hospitalization</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Baseline Characteristics: AF Risk Score</measure>
+    <time_frame>Day 1</time_frame>
+    <description>Baseline characteristics of patients in each treatment group: Atrial Fibrillation (AF) risk score
+CHADS2: Congestive heart failure, Hypertension, Age, Diabetes, Stroke(doubled). CHADS2 score range from 0-6, with higher scores indicating the higher risk
+CHA2DS2VASc: Cardiac failure or dysfunction, Hypertension, Age 75 (doubled), Diabetes, Stroke (doubled) Vascular disease, Age 65-74 and Sex category (female) score. CHA2DS2VASc score range from 1-9, with higher scores indicating the higher risk.
+HAS-BLED: Hypertension, Abnormal renal function, Abnormal hepatic function. HAS-BLED score range from 0-8, with higher scores indicating the higher risk.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Baseline Characteristics: Concomitant Medication</measure>
+    <time_frame>Day 1</time_frame>
+    <description>Baseline characteristics of patients in each treatment group:
+concomitant medication</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">48696</enrollment>
+  <condition>Atrial Fibrillation</condition>
+  <arm_group>
+    <arm_group_label>All Patients</arm_group_label>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Medical Data Vision (MDV) clinical database
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion criteria:
+
+          -  Patients aged &gt;18 year-old with confirmed diagnosis of NVAF (ICD 10 code I48), being
+             new starters of either dabigatran, warfarin, apixaban or edoxaban, having no
+             prescription of other OACs for12 months prior to the index date (defined as the first
+             prescription of OACs (the period is defined as baseline period)), and having an index
+             date between 14 Mar 2011 to 30 June 2016
+
+        Exclusion criteria:
+
+          -  Patients having less than 12 months of enrolment prior to the index date , being
+             dialysis or kidney transplant recipients in baseline period, having either atrial
+             flutter, valvular AF, mechanical valve placement, rheumatic AF, and/or mitral valve
+             prolapse/regurge/stenosis in baseline period, and having record of deep vein
+             thrombosis or pulmonary embolism &lt; 6 months before Atrial Fibrillation (AF) diagnosis
+             in baseline period
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Boehringer Ingelheim</last_name>
+    <role>Study Chair</role>
+    <affiliation>Boehringer Ingelheim</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>NISED Center</name>
+      <address>
+        <city>Tokyo, Shinagawa</city>
+        <zip>1416017</zip>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Japan</country>
+  </location_countries>
+  <link>
+    <url>http://trials.boehringer-ingelheim.com</url>
+    <description>Related Info</description>
+  </link>
+  <verification_date>September 2018</verification_date>
+  <study_first_submitted>November 29, 2016</study_first_submitted>
+  <study_first_submitted_qc>December 1, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 6, 2016</study_first_posted>
+  <results_first_submitted>November 22, 2017</results_first_submitted>
+  <results_first_submitted_qc>September 7, 2018</results_first_submitted_qc>
+  <results_first_posted type="Actual">September 14, 2018</results_first_posted>
+  <last_update_submitted>September 7, 2018</last_update_submitted>
+  <last_update_submitted_qc>September 7, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 14, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atrial Fibrillation</mesh_term>
+  </condition_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>A retrospective, observational study using health insurance claims data.48696 patients were prescribed dabigatran, warfarin, apixaban, edoxaban, or rivaroxaban as the first OACs but 50 patients were removed as they took more than one these drugs. Thus only 48646 patients were prescribed the drugs of interest.</recruitment_details>
+      <pre_assignment_details>The Japanese patients diagnosed as Non-Valvular Atrial Fibrillation (NVAF) between April 2010 and June 2016, were prescribed dabigatran, warfarin, apixaban, edoxaban, or rivaroxaban as the first OACs.
+DPC; Diagnosis Procedure Combination (DPC)</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Dabigatran</title>
+          <description>Patients prescribed dabigatran as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+        </group>
+        <group group_id="P2">
+          <title>Warfarin</title>
+          <description>Patients prescribed warfarin as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+        </group>
+        <group group_id="P3">
+          <title>Apixaban</title>
+          <description>Patients prescribed Apixaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+        </group>
+        <group group_id="P4">
+          <title>Rivaroxaban</title>
+          <description>Patients prescribed Rivaroxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+        </group>
+        <group group_id="P5">
+          <title>Edoxaban</title>
+          <description>Patients prescribed Edoxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="5745"/>
+                <participants group_id="P2" count="16745"/>
+                <participants group_id="P3" count="13238"/>
+                <participants group_id="P4" count="10158"/>
+                <participants group_id="P5" count="2760"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="4936"/>
+                <participants group_id="P2" count="12484"/>
+                <participants group_id="P3" count="11386"/>
+                <participants group_id="P4" count="8758"/>
+                <participants group_id="P5" count="2268"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="809"/>
+                <participants group_id="P2" count="4261"/>
+                <participants group_id="P3" count="1852"/>
+                <participants group_id="P4" count="1400"/>
+                <participants group_id="P5" count="492"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Not eligible patients</title>
+              <participants_list>
+                <participants group_id="P1" count="809"/>
+                <participants group_id="P2" count="4261"/>
+                <participants group_id="P3" count="1852"/>
+                <participants group_id="P4" count="1400"/>
+                <participants group_id="P5" count="492"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>Eligible patient who were prescribed dabigatran, warfarin, apixaban, or edoxaban as the first OACs</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Dabigatran</title>
+          <description>Patients prescribed dabigatran as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+        </group>
+        <group group_id="B2">
+          <title>Warfarin</title>
+          <description>Patients prescribed warfarin as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+        </group>
+        <group group_id="B3">
+          <title>Apixaban</title>
+          <description>Patients prescribed Apixaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+        </group>
+        <group group_id="B4">
+          <title>Rivaroxaban</title>
+          <description>Patients prescribed Rivaroxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+        </group>
+        <group group_id="B5">
+          <title>Edoxaban</title>
+          <description>Patients prescribed Edoxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+        </group>
+        <group group_id="B6">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="4936"/>
+            <count group_id="B2" value="12484"/>
+            <count group_id="B3" value="11386"/>
+            <count group_id="B4" value="8758"/>
+            <count group_id="B5" value="2268"/>
+            <count group_id="B6" value="39832"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="72" spread="10"/>
+                    <measurement group_id="B2" value="78" spread="10"/>
+                    <measurement group_id="B3" value="77" spread="10"/>
+                    <measurement group_id="B4" value="74" spread="11"/>
+                    <measurement group_id="B5" value="77" spread="10"/>
+                    <measurement group_id="B6" value="76" spread="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1625"/>
+                    <measurement group_id="B2" value="5068"/>
+                    <measurement group_id="B3" value="4737"/>
+                    <measurement group_id="B4" value="3183"/>
+                    <measurement group_id="B5" value="1130"/>
+                    <measurement group_id="B6" value="15743"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3311"/>
+                    <measurement group_id="B2" value="7416"/>
+                    <measurement group_id="B3" value="6649"/>
+                    <measurement group_id="B4" value="5575"/>
+                    <measurement group_id="B5" value="1138"/>
+                    <measurement group_id="B6" value="24089"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Patients by Each Type of Study-target OAC Drug Prescribed for New Users of Anticoagulants With NVAF</title>
+        <description>Number of patients by each type of study-target OAC drug (dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban) prescribed as the first Oral Anticoagulants (OAC) with Non-valvular atrial fibrillation (NVAF)</description>
+        <time_frame>Day 1</time_frame>
+        <population>Patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran</title>
+            <description>Patients prescribed dabigatran as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients prescribed warfarin as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O3">
+            <title>Apixaban</title>
+            <description>Patients prescribed Apixaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O4">
+            <title>Rivaroxaban</title>
+            <description>Patients prescribed Rivaroxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O5">
+            <title>Edoxaban</title>
+            <description>Patients prescribed Edoxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Patients by Each Type of Study-target OAC Drug Prescribed for New Users of Anticoagulants With NVAF</title>
+          <description>Number of patients by each type of study-target OAC drug (dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban) prescribed as the first Oral Anticoagulants (OAC) with Non-valvular atrial fibrillation (NVAF)</description>
+          <population>Patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="5745"/>
+                <count group_id="O2" value="16745"/>
+                <count group_id="O3" value="13238"/>
+                <count group_id="O4" value="10158"/>
+                <count group_id="O5" value="2760"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4936"/>
+                    <measurement group_id="O2" value="12484"/>
+                    <measurement group_id="O3" value="11386"/>
+                    <measurement group_id="O4" value="8758"/>
+                    <measurement group_id="O5" value="2268"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Patients Prescribed OAC Drug Dabigatran by Dosage</title>
+        <description>Number of patients prescribed OAC drug dabigatran at the index date by dosage. If a patient had more than one prescriptions of an OAC at the day, the patient was multiple-counted.</description>
+        <time_frame>Day 1</time_frame>
+        <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran</title>
+            <description>Patients prescribed dabigatran as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Patients Prescribed OAC Drug Dabigatran by Dosage</title>
+          <description>Number of patients prescribed OAC drug dabigatran at the index date by dosage. If a patient had more than one prescriptions of an OAC at the day, the patient was multiple-counted.</description>
+          <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="4936"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>75 milligram (mg)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="58"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>110 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="164"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>150 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="354"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>220 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3343"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>225 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>300 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1072"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>440 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Patients Prescribed OAC Drug Warfarin by Dosage</title>
+        <description>Number of patients prescribed OAC drug Warfarin at the index date by dosage. If a patient had more than one prescriptions of an OAC at the day, the patient was multiple-counted.</description>
+        <time_frame>Day 1</time_frame>
+        <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Warfarin</title>
+            <description>Patients prescribed warfarin as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Patients Prescribed OAC Drug Warfarin by Dosage</title>
+          <description>Number of patients prescribed OAC drug Warfarin at the index date by dosage. If a patient had more than one prescriptions of an OAC at the day, the patient was multiple-counted.</description>
+          <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="12484"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>0.002 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>0.006 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>0.125 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>0.2 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>0.25 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="338"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>0.3 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>0.374 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>0.5 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1726"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>0.6 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>0.625 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>0.65 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>0.7 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>0.75 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="256"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>0.8 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>0.875 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>0.9 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>1 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3125"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>1.2 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>1.25 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="62"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>1.3 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>1.5 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="630"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>1.55 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>1.7 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>1.75 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="66"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>1.8 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>1.9 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>2 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4711"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>2.2 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>2.25 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="54"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>2.3 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>2.4 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>2.5 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="462"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>2.7 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>2.75 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="24"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>3 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1913"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>3.2 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>3.25 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="17"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>3.3 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>3.5 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="128"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>3.7 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>3.75 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>4 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="421"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>4.25 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>4.5 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="41"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>4.6 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>4.75 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>5 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="468"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>5.5 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>6 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="25"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>6.5 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>7 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>7.75 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>8 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>9 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>10 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="16"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>17.5 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>20 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>30 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="12"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>40 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>50 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Patients Prescribed OAC Drug Rivaroxaban by Dosage</title>
+        <description>Number of patients prescribed OAC drug rivaroxaban at the index date by dosage. If a patient had more than one prescriptions of an OAC at the day, the patient was multiple-counted.</description>
+        <time_frame>Day 1</time_frame>
+        <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Rivaroxaban</title>
+            <description>Patients prescribed Rivaroxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Patients Prescribed OAC Drug Rivaroxaban by Dosage</title>
+          <description>Number of patients prescribed OAC drug rivaroxaban at the index date by dosage. If a patient had more than one prescriptions of an OAC at the day, the patient was multiple-counted.</description>
+          <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="8758"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>5 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="14"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>7.5 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>9.9 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>9.99 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>10 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4372"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>10.005 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>10.05 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>10.5 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>15 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4340"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>20 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>22.5 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>30 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="72"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Patients Prescribed OAC Drug Apixaban by Dosage</title>
+        <description>Number of patients prescribed OAC drug Apixaban at the index date by dosage. If a patient had more than one prescriptions of an OAC at the day, the patient was multiple-counted.</description>
+        <time_frame>Day 1</time_frame>
+        <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Apixaban</title>
+            <description>Patients prescribed Apixaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Patients Prescribed OAC Drug Apixaban by Dosage</title>
+          <description>Number of patients prescribed OAC drug Apixaban at the index date by dosage. If a patient had more than one prescriptions of an OAC at the day, the patient was multiple-counted.</description>
+          <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="11386"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>1.25 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>2.5 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="428"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>3.75 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>5 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6300"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>7.5 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>10 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4789"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>15 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>20 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="27"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>25 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>35 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Patients Prescribed OAC Drug Edoxaban by Dosage</title>
+        <description>Number of patients prescribed OAC drug edoxaban at the index date by dosage. If a patient had more than one prescriptions of an OAC at the day, the patient was multiple-counted.</description>
+        <time_frame>Day 1</time_frame>
+        <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Edoxaban</title>
+            <description>Patients prescribed Edoxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Patients Prescribed OAC Drug Edoxaban by Dosage</title>
+          <description>Number of patients prescribed OAC drug edoxaban at the index date by dosage. If a patient had more than one prescriptions of an OAC at the day, the patient was multiple-counted.</description>
+          <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="2268"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>15 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="279"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>30 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1594"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>60 mg</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="412"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Baseline Characteristics: Age</title>
+        <description>Baseline characteristics of patients in each treatment group: age</description>
+        <time_frame>1 day</time_frame>
+        <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran</title>
+            <description>Patients prescribed dabigatran as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients prescribed warfarin as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O3">
+            <title>Apixaban</title>
+            <description>Patients prescribed Apixaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O4">
+            <title>Rivaroxaban</title>
+            <description>Patients prescribed Rivaroxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O5">
+            <title>Edoxaban</title>
+            <description>Patients prescribed Edoxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Baseline Characteristics: Age</title>
+          <description>Baseline characteristics of patients in each treatment group: age</description>
+          <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+          <units>Years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="4936"/>
+                <count group_id="O2" value="12484"/>
+                <count group_id="O3" value="11386"/>
+                <count group_id="O4" value="8758"/>
+                <count group_id="O5" value="2268"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="72" spread="10"/>
+                    <measurement group_id="O2" value="78" spread="10"/>
+                    <measurement group_id="O3" value="77" spread="10"/>
+                    <measurement group_id="O4" value="74" spread="11"/>
+                    <measurement group_id="O5" value="77" spread="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Baseline Characteristics: Gender</title>
+        <description>Baseline characteristics of patients in each treatment group: gender</description>
+        <time_frame>Day 1</time_frame>
+        <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran</title>
+            <description>Patients prescribed dabigatran as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients prescribed warfarin as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O3">
+            <title>Apixaban</title>
+            <description>Patients prescribed Apixaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O4">
+            <title>Rivaroxaban</title>
+            <description>Patients prescribed Rivaroxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O5">
+            <title>Edoxaban</title>
+            <description>Patients prescribed Edoxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Baseline Characteristics: Gender</title>
+          <description>Baseline characteristics of patients in each treatment group: gender</description>
+          <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="4936"/>
+                <count group_id="O2" value="12484"/>
+                <count group_id="O3" value="11386"/>
+                <count group_id="O4" value="8758"/>
+                <count group_id="O5" value="2268"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1625"/>
+                    <measurement group_id="O2" value="5068"/>
+                    <measurement group_id="O3" value="4737"/>
+                    <measurement group_id="O4" value="3183"/>
+                    <measurement group_id="O5" value="1130"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3311"/>
+                    <measurement group_id="O2" value="7416"/>
+                    <measurement group_id="O3" value="6649"/>
+                    <measurement group_id="O4" value="5575"/>
+                    <measurement group_id="O5" value="1138"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Baseline Characteristics: Year of Initiating Treatment</title>
+        <description>Baseline characteristics of patients in each treatment group: year of initiating treatment</description>
+        <time_frame>Day 1</time_frame>
+        <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran</title>
+            <description>Patients prescribed dabigatran as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients prescribed warfarin as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O3">
+            <title>Apixaban</title>
+            <description>Patients prescribed Apixaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O4">
+            <title>Rivaroxaban</title>
+            <description>Patients prescribed Rivaroxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O5">
+            <title>Edoxaban</title>
+            <description>Patients prescribed Edoxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Baseline Characteristics: Year of Initiating Treatment</title>
+          <description>Baseline characteristics of patients in each treatment group: year of initiating treatment</description>
+          <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="4936"/>
+                <count group_id="O2" value="12484"/>
+                <count group_id="O3" value="11386"/>
+                <count group_id="O4" value="8758"/>
+                <count group_id="O5" value="2268"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>2011/3/14-2012/2/29</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="404"/>
+                    <measurement group_id="O2" value="1138"/>
+                    <measurement group_id="O3" value="0"/>
+                    <measurement group_id="O4" value="0"/>
+                    <measurement group_id="O5" value="8"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>2012/3/1-2013/2/28</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1259"/>
+                    <measurement group_id="O2" value="2002"/>
+                    <measurement group_id="O3" value="0"/>
+                    <measurement group_id="O4" value="175"/>
+                    <measurement group_id="O5" value="32"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>2013/3/1-2014/2/28</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1081"/>
+                    <measurement group_id="O2" value="2292"/>
+                    <measurement group_id="O3" value="188"/>
+                    <measurement group_id="O4" value="1868"/>
+                    <measurement group_id="O5" value="29"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>2014/3/1-2015/2/28</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1019"/>
+                    <measurement group_id="O2" value="2808"/>
+                    <measurement group_id="O3" value="3455"/>
+                    <measurement group_id="O4" value="2182"/>
+                    <measurement group_id="O5" value="158"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>2015/3/1-2016/2/29</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="919"/>
+                    <measurement group_id="O2" value="3217"/>
+                    <measurement group_id="O3" value="5634"/>
+                    <measurement group_id="O4" value="3302"/>
+                    <measurement group_id="O5" value="1289"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>2016/3/1-2016/6/30</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="254"/>
+                    <measurement group_id="O2" value="1027"/>
+                    <measurement group_id="O3" value="2109"/>
+                    <measurement group_id="O4" value="1231"/>
+                    <measurement group_id="O5" value="752"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Baseline Characteristics: Speciality of Prescribers of OAC</title>
+        <description>Baseline characteristics of patients in each treatment group: speciality of prescribers of OAC.
+int.= internal; Med.= Medicine</description>
+        <time_frame>Day 1</time_frame>
+        <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran</title>
+            <description>Patients prescribed dabigatran as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients prescribed warfarin as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O3">
+            <title>Apixaban</title>
+            <description>Patients prescribed Apixaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O4">
+            <title>Rivaroxaban</title>
+            <description>Patients prescribed Rivaroxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O5">
+            <title>Edoxaban</title>
+            <description>Patients prescribed Edoxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Baseline Characteristics: Speciality of Prescribers of OAC</title>
+          <description>Baseline characteristics of patients in each treatment group: speciality of prescribers of OAC.
+int.= internal; Med.= Medicine</description>
+          <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="4936"/>
+                <count group_id="O2" value="12484"/>
+                <count group_id="O3" value="11386"/>
+                <count group_id="O4" value="8758"/>
+                <count group_id="O5" value="2268"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Internal medicine</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1689"/>
+                    <measurement group_id="O2" value="4316"/>
+                    <measurement group_id="O3" value="3943"/>
+                    <measurement group_id="O4" value="2816"/>
+                    <measurement group_id="O5" value="654"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Psychodiagnosis medical</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                    <measurement group_id="O2" value="3"/>
+                    <measurement group_id="O3" value="2"/>
+                    <measurement group_id="O4" value="1"/>
+                    <measurement group_id="O5" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Psychiatry</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="9"/>
+                    <measurement group_id="O2" value="38"/>
+                    <measurement group_id="O3" value="30"/>
+                    <measurement group_id="O4" value="20"/>
+                    <measurement group_id="O5" value="7"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Neurology</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="1"/>
+                    <measurement group_id="O3" value="7"/>
+                    <measurement group_id="O4" value="3"/>
+                    <measurement group_id="O5" value="2"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Respiratory</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="66"/>
+                    <measurement group_id="O2" value="180"/>
+                    <measurement group_id="O3" value="95"/>
+                    <measurement group_id="O4" value="72"/>
+                    <measurement group_id="O5" value="17"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Gastroenterology</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="106"/>
+                    <measurement group_id="O2" value="283"/>
+                    <measurement group_id="O3" value="100"/>
+                    <measurement group_id="O4" value="125"/>
+                    <measurement group_id="O5" value="26"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Cardiology</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1457"/>
+                    <measurement group_id="O2" value="2447"/>
+                    <measurement group_id="O3" value="2610"/>
+                    <measurement group_id="O4" value="2268"/>
+                    <measurement group_id="O5" value="465"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Allergy</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                    <measurement group_id="O2" value="9"/>
+                    <measurement group_id="O3" value="1"/>
+                    <measurement group_id="O4" value="0"/>
+                    <measurement group_id="O5" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Rheumatology</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="7"/>
+                    <measurement group_id="O2" value="11"/>
+                    <measurement group_id="O3" value="6"/>
+                    <measurement group_id="O4" value="3"/>
+                    <measurement group_id="O5" value="2"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Pediatrics</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="5"/>
+                    <measurement group_id="O3" value="4"/>
+                    <measurement group_id="O4" value="4"/>
+                    <measurement group_id="O5" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Surgery</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="109"/>
+                    <measurement group_id="O2" value="514"/>
+                    <measurement group_id="O3" value="202"/>
+                    <measurement group_id="O4" value="175"/>
+                    <measurement group_id="O5" value="52"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Orthopedics</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="113"/>
+                    <measurement group_id="O2" value="550"/>
+                    <measurement group_id="O3" value="212"/>
+                    <measurement group_id="O4" value="178"/>
+                    <measurement group_id="O5" value="317"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Plastic surgery</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5"/>
+                    <measurement group_id="O2" value="21"/>
+                    <measurement group_id="O3" value="10"/>
+                    <measurement group_id="O4" value="5"/>
+                    <measurement group_id="O5" value="2"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Cranial nerve surgery</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="319"/>
+                    <measurement group_id="O2" value="668"/>
+                    <measurement group_id="O3" value="932"/>
+                    <measurement group_id="O4" value="654"/>
+                    <measurement group_id="O5" value="164"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Thoracic surgery</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="10"/>
+                    <measurement group_id="O2" value="58"/>
+                    <measurement group_id="O3" value="27"/>
+                    <measurement group_id="O4" value="25"/>
+                    <measurement group_id="O5" value="3"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Cardiovascular surgery</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="87"/>
+                    <measurement group_id="O2" value="405"/>
+                    <measurement group_id="O3" value="115"/>
+                    <measurement group_id="O4" value="147"/>
+                    <measurement group_id="O5" value="54"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Pediatric surgery</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="0"/>
+                    <measurement group_id="O3" value="1"/>
+                    <measurement group_id="O4" value="0"/>
+                    <measurement group_id="O5" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Obstetrics and gynecology</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4"/>
+                    <measurement group_id="O2" value="11"/>
+                    <measurement group_id="O3" value="9"/>
+                    <measurement group_id="O4" value="5"/>
+                    <measurement group_id="O5" value="6"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Ophthalmology</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="19"/>
+                    <measurement group_id="O2" value="38"/>
+                    <measurement group_id="O3" value="26"/>
+                    <measurement group_id="O4" value="36"/>
+                    <measurement group_id="O5" value="5"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Otorhinolaryngology</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="8"/>
+                    <measurement group_id="O2" value="47"/>
+                    <measurement group_id="O3" value="25"/>
+                    <measurement group_id="O4" value="19"/>
+                    <measurement group_id="O5" value="5"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Rehabilitation</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="30"/>
+                    <measurement group_id="O2" value="127"/>
+                    <measurement group_id="O3" value="86"/>
+                    <measurement group_id="O4" value="86"/>
+                    <measurement group_id="O5" value="12"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Radiology</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4"/>
+                    <measurement group_id="O2" value="12"/>
+                    <measurement group_id="O3" value="8"/>
+                    <measurement group_id="O4" value="5"/>
+                    <measurement group_id="O5" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Neuropathic internal medicine</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="210"/>
+                    <measurement group_id="O2" value="410"/>
+                    <measurement group_id="O3" value="518"/>
+                    <measurement group_id="O4" value="415"/>
+                    <measurement group_id="O5" value="74"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Gastrointestinal</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="17"/>
+                    <measurement group_id="O3" value="5"/>
+                    <measurement group_id="O4" value="3"/>
+                    <measurement group_id="O5" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Dermatology</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="9"/>
+                    <measurement group_id="O2" value="41"/>
+                    <measurement group_id="O3" value="23"/>
+                    <measurement group_id="O4" value="23"/>
+                    <measurement group_id="O5" value="3"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Urology</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="31"/>
+                    <measurement group_id="O2" value="161"/>
+                    <measurement group_id="O3" value="76"/>
+                    <measurement group_id="O4" value="55"/>
+                    <measurement group_id="O5" value="15"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Gynecology</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                    <measurement group_id="O2" value="2"/>
+                    <measurement group_id="O3" value="1"/>
+                    <measurement group_id="O4" value="2"/>
+                    <measurement group_id="O5" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Respiratory medicine</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="36"/>
+                    <measurement group_id="O2" value="161"/>
+                    <measurement group_id="O3" value="112"/>
+                    <measurement group_id="O4" value="75"/>
+                    <measurement group_id="O5" value="18"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Cardiovascular internal medicine</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="444"/>
+                    <measurement group_id="O2" value="1258"/>
+                    <measurement group_id="O3" value="1930"/>
+                    <measurement group_id="O4" value="1218"/>
+                    <measurement group_id="O5" value="301"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Diabetes</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3"/>
+                    <measurement group_id="O2" value="14"/>
+                    <measurement group_id="O3" value="8"/>
+                    <measurement group_id="O4" value="10"/>
+                    <measurement group_id="O5" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Nephrology</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="13"/>
+                    <measurement group_id="O2" value="85"/>
+                    <measurement group_id="O3" value="27"/>
+                    <measurement group_id="O4" value="15"/>
+                    <measurement group_id="O5" value="7"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Hemodialysis</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                    <measurement group_id="O2" value="8"/>
+                    <measurement group_id="O3" value="0"/>
+                    <measurement group_id="O4" value="0"/>
+                    <measurement group_id="O5" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Metabolism internal medicine</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="3"/>
+                    <measurement group_id="O3" value="4"/>
+                    <measurement group_id="O4" value="7"/>
+                    <measurement group_id="O5" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Endocrinology</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="8"/>
+                    <measurement group_id="O2" value="24"/>
+                    <measurement group_id="O3" value="16"/>
+                    <measurement group_id="O4" value="15"/>
+                    <measurement group_id="O5" value="2"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Emergency medicine</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="18"/>
+                    <measurement group_id="O2" value="59"/>
+                    <measurement group_id="O3" value="54"/>
+                    <measurement group_id="O4" value="46"/>
+                    <measurement group_id="O5" value="11"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Gastroenterological medicine</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="53"/>
+                    <measurement group_id="O2" value="270"/>
+                    <measurement group_id="O3" value="61"/>
+                    <measurement group_id="O4" value="85"/>
+                    <measurement group_id="O5" value="20"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Digestive surgery</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6"/>
+                    <measurement group_id="O2" value="25"/>
+                    <measurement group_id="O3" value="7"/>
+                    <measurement group_id="O4" value="10"/>
+                    <measurement group_id="O5" value="4"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Hepato-biliarypancreatic surgery</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="4"/>
+                    <measurement group_id="O3" value="4"/>
+                    <measurement group_id="O4" value="1"/>
+                    <measurement group_id="O5" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Diabetes medicine</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4"/>
+                    <measurement group_id="O2" value="19"/>
+                    <measurement group_id="O3" value="12"/>
+                    <measurement group_id="O4" value="9"/>
+                    <measurement group_id="O5" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Large intestine and proctology</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="1"/>
+                    <measurement group_id="O3" value="0"/>
+                    <measurement group_id="O4" value="0"/>
+                    <measurement group_id="O5" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Connective tissue disease &amp; iheumatic int. med.</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                    <measurement group_id="O2" value="8"/>
+                    <measurement group_id="O3" value="1"/>
+                    <measurement group_id="O4" value="1"/>
+                    <measurement group_id="O5" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Stroke</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                    <measurement group_id="O2" value="6"/>
+                    <measurement group_id="O3" value="5"/>
+                    <measurement group_id="O4" value="0"/>
+                    <measurement group_id="O5" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Oncotherapy</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                    <measurement group_id="O2" value="6"/>
+                    <measurement group_id="O3" value="0"/>
+                    <measurement group_id="O4" value="1"/>
+                    <measurement group_id="O5" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Comprehensive medical care</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="13"/>
+                    <measurement group_id="O2" value="56"/>
+                    <measurement group_id="O3" value="12"/>
+                    <measurement group_id="O4" value="9"/>
+                    <measurement group_id="O5" value="3"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Breast and thyroid surgery</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="3"/>
+                    <measurement group_id="O3" value="0"/>
+                    <measurement group_id="O4" value="2"/>
+                    <measurement group_id="O5" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Pediatric cardiology</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="3"/>
+                    <measurement group_id="O3" value="0"/>
+                    <measurement group_id="O4" value="0"/>
+                    <measurement group_id="O5" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Palliative care</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="1"/>
+                    <measurement group_id="O3" value="0"/>
+                    <measurement group_id="O4" value="0"/>
+                    <measurement group_id="O5" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Hematology &amp; medical Oncology</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="1"/>
+                    <measurement group_id="O3" value="1"/>
+                    <measurement group_id="O4" value="1"/>
+                    <measurement group_id="O5" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Psychiatry &amp; neurology</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="0"/>
+                    <measurement group_id="O3" value="1"/>
+                    <measurement group_id="O4" value="0"/>
+                    <measurement group_id="O5" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Endocrinology &amp; metabolism</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                    <measurement group_id="O2" value="1"/>
+                    <measurement group_id="O3" value="2"/>
+                    <measurement group_id="O4" value="1"/>
+                    <measurement group_id="O5" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="27"/>
+                    <measurement group_id="O2" value="59"/>
+                    <measurement group_id="O3" value="38"/>
+                    <measurement group_id="O4" value="83"/>
+                    <measurement group_id="O5" value="8"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Hematology</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6"/>
+                    <measurement group_id="O2" value="27"/>
+                    <measurement group_id="O3" value="11"/>
+                    <measurement group_id="O4" value="20"/>
+                    <measurement group_id="O5" value="2"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Anesthesiology</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="7"/>
+                    <measurement group_id="O3" value="6"/>
+                    <measurement group_id="O4" value="4"/>
+                    <measurement group_id="O5" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Baseline Characteristics: History of Disease</title>
+        <description>Baseline characteristics of patients in each treatment group: history of disease and hospitalization.</description>
+        <time_frame>Day 1</time_frame>
+        <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran</title>
+            <description>Patients prescribed dabigatran as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients prescribed warfarin as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O3">
+            <title>Apixaban</title>
+            <description>Patients prescribed Apixaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O4">
+            <title>Rivaroxaban</title>
+            <description>Patients prescribed Rivaroxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O5">
+            <title>Edoxaban</title>
+            <description>Patients prescribed Edoxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Baseline Characteristics: History of Disease</title>
+          <description>Baseline characteristics of patients in each treatment group: history of disease and hospitalization.</description>
+          <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="4936"/>
+                <count group_id="O2" value="12484"/>
+                <count group_id="O3" value="11386"/>
+                <count group_id="O4" value="8758"/>
+                <count group_id="O5" value="2268"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Stroke or transient ischemic attack</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="63"/>
+                    <measurement group_id="O2" value="145"/>
+                    <measurement group_id="O3" value="128"/>
+                    <measurement group_id="O4" value="85"/>
+                    <measurement group_id="O5" value="21"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Myocardial infarction</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="317"/>
+                    <measurement group_id="O2" value="903"/>
+                    <measurement group_id="O3" value="890"/>
+                    <measurement group_id="O4" value="629"/>
+                    <measurement group_id="O5" value="178"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Coronary artery disease</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="39"/>
+                    <measurement group_id="O2" value="87"/>
+                    <measurement group_id="O3" value="79"/>
+                    <measurement group_id="O4" value="53"/>
+                    <measurement group_id="O5" value="25"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Heart failure</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1899"/>
+                    <measurement group_id="O2" value="6750"/>
+                    <measurement group_id="O3" value="5099"/>
+                    <measurement group_id="O4" value="3580"/>
+                    <measurement group_id="O5" value="977"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Diabetes mellitus</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1979"/>
+                    <measurement group_id="O2" value="4804"/>
+                    <measurement group_id="O3" value="4255"/>
+                    <measurement group_id="O4" value="3324"/>
+                    <measurement group_id="O5" value="841"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Dyslipidemia</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1366"/>
+                    <measurement group_id="O2" value="2888"/>
+                    <measurement group_id="O3" value="3109"/>
+                    <measurement group_id="O4" value="2402"/>
+                    <measurement group_id="O5" value="597"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Arterial hypertension</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2938"/>
+                    <measurement group_id="O2" value="8501"/>
+                    <measurement group_id="O3" value="6990"/>
+                    <measurement group_id="O4" value="5357"/>
+                    <measurement group_id="O5" value="1344"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Peripheral artery disease</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="580"/>
+                    <measurement group_id="O2" value="1538"/>
+                    <measurement group_id="O3" value="1290"/>
+                    <measurement group_id="O4" value="933"/>
+                    <measurement group_id="O5" value="252"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Peptic ulcer disease</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="958"/>
+                    <measurement group_id="O2" value="2301"/>
+                    <measurement group_id="O3" value="2148"/>
+                    <measurement group_id="O4" value="1558"/>
+                    <measurement group_id="O5" value="452"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Dementia</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="107"/>
+                    <measurement group_id="O2" value="447"/>
+                    <measurement group_id="O3" value="348"/>
+                    <measurement group_id="O4" value="268"/>
+                    <measurement group_id="O5" value="90"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Malignant lymphoma</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="62"/>
+                    <measurement group_id="O2" value="171"/>
+                    <measurement group_id="O3" value="159"/>
+                    <measurement group_id="O4" value="109"/>
+                    <measurement group_id="O5" value="41"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Leukemia</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="34"/>
+                    <measurement group_id="O2" value="161"/>
+                    <measurement group_id="O3" value="107"/>
+                    <measurement group_id="O4" value="82"/>
+                    <measurement group_id="O5" value="27"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Solid tumor cancer</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1501"/>
+                    <measurement group_id="O2" value="3830"/>
+                    <measurement group_id="O3" value="3413"/>
+                    <measurement group_id="O4" value="2524"/>
+                    <measurement group_id="O5" value="678"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Kidney impairment</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="199"/>
+                    <measurement group_id="O2" value="697"/>
+                    <measurement group_id="O3" value="527"/>
+                    <measurement group_id="O4" value="360"/>
+                    <measurement group_id="O5" value="118"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Liver disease</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="784"/>
+                    <measurement group_id="O2" value="1777"/>
+                    <measurement group_id="O3" value="1576"/>
+                    <measurement group_id="O4" value="1257"/>
+                    <measurement group_id="O5" value="339"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Valvular disease</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1659"/>
+                    <measurement group_id="O2" value="4294"/>
+                    <measurement group_id="O3" value="2961"/>
+                    <measurement group_id="O4" value="2561"/>
+                    <measurement group_id="O5" value="615"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Bleeding (gastrointestinal, etc.)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1619"/>
+                    <measurement group_id="O2" value="3867"/>
+                    <measurement group_id="O3" value="3567"/>
+                    <measurement group_id="O4" value="2677"/>
+                    <measurement group_id="O5" value="782"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Baseline Characteristics: History of Hospitalization</title>
+        <description>Baseline characteristics: history of hospitalization</description>
+        <time_frame>Day 1</time_frame>
+        <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran</title>
+            <description>Patients prescribed dabigatran as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients prescribed warfarin as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O3">
+            <title>Apixaban</title>
+            <description>Patients prescribed Apixaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O4">
+            <title>Rivaroxaban</title>
+            <description>Patients prescribed Rivaroxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O5">
+            <title>Edoxaban</title>
+            <description>Patients prescribed Edoxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Baseline Characteristics: History of Hospitalization</title>
+          <description>Baseline characteristics: history of hospitalization</description>
+          <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="4936"/>
+                <count group_id="O2" value="12484"/>
+                <count group_id="O3" value="11386"/>
+                <count group_id="O4" value="8758"/>
+                <count group_id="O5" value="2268"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2384"/>
+                    <measurement group_id="O2" value="9494"/>
+                    <measurement group_id="O3" value="6517"/>
+                    <measurement group_id="O4" value="4589"/>
+                    <measurement group_id="O5" value="1412"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Baseline Characteristics: AF Risk Score</title>
+        <description>Baseline characteristics of patients in each treatment group: Atrial Fibrillation (AF) risk score
+CHADS2: Congestive heart failure, Hypertension, Age, Diabetes, Stroke(doubled). CHADS2 score range from 0-6, with higher scores indicating the higher risk
+CHA2DS2VASc: Cardiac failure or dysfunction, Hypertension, Age 75 (doubled), Diabetes, Stroke (doubled) Vascular disease, Age 65-74 and Sex category (female) score. CHA2DS2VASc score range from 1-9, with higher scores indicating the higher risk.
+HAS-BLED: Hypertension, Abnormal renal function, Abnormal hepatic function. HAS-BLED score range from 0-8, with higher scores indicating the higher risk.</description>
+        <time_frame>Day 1</time_frame>
+        <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran</title>
+            <description>Patients prescribed dabigatran as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients prescribed warfarin as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O3">
+            <title>Apixaban</title>
+            <description>Patients prescribed Apixaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O4">
+            <title>Rivaroxaban</title>
+            <description>Patients prescribed Rivaroxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O5">
+            <title>Edoxaban</title>
+            <description>Patients prescribed Edoxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Baseline Characteristics: AF Risk Score</title>
+          <description>Baseline characteristics of patients in each treatment group: Atrial Fibrillation (AF) risk score
+CHADS2: Congestive heart failure, Hypertension, Age, Diabetes, Stroke(doubled). CHADS2 score range from 0-6, with higher scores indicating the higher risk
+CHA2DS2VASc: Cardiac failure or dysfunction, Hypertension, Age 75 (doubled), Diabetes, Stroke (doubled) Vascular disease, Age 65-74 and Sex category (female) score. CHA2DS2VASc score range from 1-9, with higher scores indicating the higher risk.
+HAS-BLED: Hypertension, Abnormal renal function, Abnormal hepatic function. HAS-BLED score range from 0-8, with higher scores indicating the higher risk.</description>
+          <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="4936"/>
+                <count group_id="O2" value="12484"/>
+                <count group_id="O3" value="11386"/>
+                <count group_id="O4" value="8758"/>
+                <count group_id="O5" value="2268"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>0 (CHADS2)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="707"/>
+                    <measurement group_id="O2" value="750"/>
+                    <measurement group_id="O3" value="1150"/>
+                    <measurement group_id="O4" value="1072"/>
+                    <measurement group_id="O5" value="238"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>1 (CHADS2)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1103"/>
+                    <measurement group_id="O2" value="2239"/>
+                    <measurement group_id="O3" value="2504"/>
+                    <measurement group_id="O4" value="1928"/>
+                    <measurement group_id="O5" value="513"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>2 (CHADS2)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1131"/>
+                    <measurement group_id="O2" value="2816"/>
+                    <measurement group_id="O3" value="2330"/>
+                    <measurement group_id="O4" value="2022"/>
+                    <measurement group_id="O5" value="517"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>3 (CHADS2)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1053"/>
+                    <measurement group_id="O2" value="3458"/>
+                    <measurement group_id="O3" value="2787"/>
+                    <measurement group_id="O4" value="2005"/>
+                    <measurement group_id="O5" value="523"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>4 (CHADS2)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="582"/>
+                    <measurement group_id="O2" value="1897"/>
+                    <measurement group_id="O3" value="1611"/>
+                    <measurement group_id="O4" value="1014"/>
+                    <measurement group_id="O5" value="267"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>5 (CHADS2)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="243"/>
+                    <measurement group_id="O2" value="816"/>
+                    <measurement group_id="O3" value="626"/>
+                    <measurement group_id="O4" value="459"/>
+                    <measurement group_id="O5" value="125"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>6 (CHADS2)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="117"/>
+                    <measurement group_id="O2" value="508"/>
+                    <measurement group_id="O3" value="378"/>
+                    <measurement group_id="O4" value="258"/>
+                    <measurement group_id="O5" value="85"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>0 (CHA2DS2VASc)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="198"/>
+                    <measurement group_id="O2" value="182"/>
+                    <measurement group_id="O3" value="280"/>
+                    <measurement group_id="O4" value="295"/>
+                    <measurement group_id="O5" value="66"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>1 (CHA2DS2VASc)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="547"/>
+                    <measurement group_id="O2" value="585"/>
+                    <measurement group_id="O3" value="773"/>
+                    <measurement group_id="O4" value="783"/>
+                    <measurement group_id="O5" value="140"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>2 (CHA2DS2VASc)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="878"/>
+                    <measurement group_id="O2" value="1500"/>
+                    <measurement group_id="O3" value="1692"/>
+                    <measurement group_id="O4" value="1481"/>
+                    <measurement group_id="O5" value="305"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>3 (CHA2DS2VASc)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="968"/>
+                    <measurement group_id="O2" value="2380"/>
+                    <measurement group_id="O3" value="2213"/>
+                    <measurement group_id="O4" value="1735"/>
+                    <measurement group_id="O5" value="497"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>4 (CHA2DS2VASc)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="916"/>
+                    <measurement group_id="O2" value="2685"/>
+                    <measurement group_id="O3" value="2216"/>
+                    <measurement group_id="O4" value="1718"/>
+                    <measurement group_id="O5" value="432"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>5 (CHA2DS2VASc)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="690"/>
+                    <measurement group_id="O2" value="2496"/>
+                    <measurement group_id="O3" value="2070"/>
+                    <measurement group_id="O4" value="1348"/>
+                    <measurement group_id="O5" value="380"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>6 (CHA2DS2VASc)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="441"/>
+                    <measurement group_id="O2" value="1482"/>
+                    <measurement group_id="O3" value="1165"/>
+                    <measurement group_id="O4" value="769"/>
+                    <measurement group_id="O5" value="241"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>7 (CHA2DS2VASc)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="188"/>
+                    <measurement group_id="O2" value="738"/>
+                    <measurement group_id="O3" value="644"/>
+                    <measurement group_id="O4" value="402"/>
+                    <measurement group_id="O5" value="129"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>8 (CHA2DS2VASc)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="96"/>
+                    <measurement group_id="O2" value="369"/>
+                    <measurement group_id="O3" value="257"/>
+                    <measurement group_id="O4" value="188"/>
+                    <measurement group_id="O5" value="61"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>9 (CHA2DS2VASc)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="14"/>
+                    <measurement group_id="O2" value="67"/>
+                    <measurement group_id="O3" value="76"/>
+                    <measurement group_id="O4" value="39"/>
+                    <measurement group_id="O5" value="17"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>0 (HAS-BLED)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="297"/>
+                    <measurement group_id="O2" value="245"/>
+                    <measurement group_id="O3" value="422"/>
+                    <measurement group_id="O4" value="432"/>
+                    <measurement group_id="O5" value="68"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>1 (HAS-BLED)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1276"/>
+                    <measurement group_id="O2" value="2303"/>
+                    <measurement group_id="O3" value="2848"/>
+                    <measurement group_id="O4" value="2228"/>
+                    <measurement group_id="O5" value="545"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>2 (HAS-BLED)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1616"/>
+                    <measurement group_id="O2" value="4180"/>
+                    <measurement group_id="O3" value="3725"/>
+                    <measurement group_id="O4" value="2884"/>
+                    <measurement group_id="O5" value="746"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>3 (HAS-BLED)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1192"/>
+                    <measurement group_id="O2" value="3738"/>
+                    <measurement group_id="O3" value="2837"/>
+                    <measurement group_id="O4" value="2159"/>
+                    <measurement group_id="O5" value="590"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>4 (HAS-BLED)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="458"/>
+                    <measurement group_id="O2" value="1562"/>
+                    <measurement group_id="O3" value="1258"/>
+                    <measurement group_id="O4" value="872"/>
+                    <measurement group_id="O5" value="270"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>5 (HAS-BLED)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="89"/>
+                    <measurement group_id="O2" value="403"/>
+                    <measurement group_id="O3" value="266"/>
+                    <measurement group_id="O4" value="162"/>
+                    <measurement group_id="O5" value="46"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>6 (HAS-BLED)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="7"/>
+                    <measurement group_id="O2" value="53"/>
+                    <measurement group_id="O3" value="30"/>
+                    <measurement group_id="O4" value="20"/>
+                    <measurement group_id="O5" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>7 (HAS-BLED)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                    <measurement group_id="O2" value="0"/>
+                    <measurement group_id="O3" value="0"/>
+                    <measurement group_id="O4" value="1"/>
+                    <measurement group_id="O5" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>8 (HAS-BLED)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="0"/>
+                    <measurement group_id="O3" value="0"/>
+                    <measurement group_id="O4" value="0"/>
+                    <measurement group_id="O5" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Baseline Characteristics: Concomitant Medication</title>
+        <description>Baseline characteristics of patients in each treatment group:
+concomitant medication</description>
+        <time_frame>Day 1</time_frame>
+        <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Dabigatran</title>
+            <description>Patients prescribed dabigatran as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O2">
+            <title>Warfarin</title>
+            <description>Patients prescribed warfarin as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O3">
+            <title>Apixaban</title>
+            <description>Patients prescribed Apixaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O4">
+            <title>Rivaroxaban</title>
+            <description>Patients prescribed Rivaroxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+          <group group_id="O5">
+            <title>Edoxaban</title>
+            <description>Patients prescribed Edoxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Baseline Characteristics: Concomitant Medication</title>
+          <description>Baseline characteristics of patients in each treatment group:
+concomitant medication</description>
+          <population>eligible patients prescribed dabigatran, warfarin, apixaban, rivaroxaban, or edoxaban as the first OAC</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="4936"/>
+                <count group_id="O2" value="12484"/>
+                <count group_id="O3" value="11386"/>
+                <count group_id="O4" value="8758"/>
+                <count group_id="O5" value="2268"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Aspirin</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="989"/>
+                    <measurement group_id="O2" value="2848"/>
+                    <measurement group_id="O3" value="2027"/>
+                    <measurement group_id="O4" value="1621"/>
+                    <measurement group_id="O5" value="377"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Ticlodipine</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="69"/>
+                    <measurement group_id="O2" value="179"/>
+                    <measurement group_id="O3" value="115"/>
+                    <measurement group_id="O4" value="95"/>
+                    <measurement group_id="O5" value="12"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Cilostazole</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="199"/>
+                    <measurement group_id="O2" value="522"/>
+                    <measurement group_id="O3" value="466"/>
+                    <measurement group_id="O4" value="306"/>
+                    <measurement group_id="O5" value="66"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Clopidogrel</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="346"/>
+                    <measurement group_id="O2" value="1049"/>
+                    <measurement group_id="O3" value="1031"/>
+                    <measurement group_id="O4" value="767"/>
+                    <measurement group_id="O5" value="153"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>ARB or ACE</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1649"/>
+                    <measurement group_id="O2" value="4773"/>
+                    <measurement group_id="O3" value="3650"/>
+                    <measurement group_id="O4" value="2954"/>
+                    <measurement group_id="O5" value="661"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Beta blocker</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1779"/>
+                    <measurement group_id="O2" value="4376"/>
+                    <measurement group_id="O3" value="4272"/>
+                    <measurement group_id="O4" value="3137"/>
+                    <measurement group_id="O5" value="768"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Amiodarone</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="62"/>
+                    <measurement group_id="O2" value="388"/>
+                    <measurement group_id="O3" value="301"/>
+                    <measurement group_id="O4" value="138"/>
+                    <measurement group_id="O5" value="31"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Procainamide</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="14"/>
+                    <measurement group_id="O2" value="40"/>
+                    <measurement group_id="O3" value="43"/>
+                    <measurement group_id="O4" value="17"/>
+                    <measurement group_id="O5" value="8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Disopyramide</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="102"/>
+                    <measurement group_id="O2" value="230"/>
+                    <measurement group_id="O3" value="180"/>
+                    <measurement group_id="O4" value="150"/>
+                    <measurement group_id="O5" value="34"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Flecainide</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="130"/>
+                    <measurement group_id="O2" value="105"/>
+                    <measurement group_id="O3" value="237"/>
+                    <measurement group_id="O4" value="150"/>
+                    <measurement group_id="O5" value="33"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Pilsicainide</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="582"/>
+                    <measurement group_id="O2" value="726"/>
+                    <measurement group_id="O3" value="970"/>
+                    <measurement group_id="O4" value="885"/>
+                    <measurement group_id="O5" value="145"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Calcium channel blockers (CCB)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2176"/>
+                    <measurement group_id="O2" value="5755"/>
+                    <measurement group_id="O3" value="5148"/>
+                    <measurement group_id="O4" value="3955"/>
+                    <measurement group_id="O5" value="955"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Digoxin</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="506"/>
+                    <measurement group_id="O2" value="1959"/>
+                    <measurement group_id="O3" value="944"/>
+                    <measurement group_id="O4" value="896"/>
+                    <measurement group_id="O5" value="134"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Diuretics</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1277"/>
+                    <measurement group_id="O2" value="5901"/>
+                    <measurement group_id="O3" value="3698"/>
+                    <measurement group_id="O4" value="2480"/>
+                    <measurement group_id="O5" value="681"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Statins</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1029"/>
+                    <measurement group_id="O2" value="2736"/>
+                    <measurement group_id="O3" value="2364"/>
+                    <measurement group_id="O4" value="1876"/>
+                    <measurement group_id="O5" value="407"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Proton pump inhibitor</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1869"/>
+                    <measurement group_id="O2" value="5512"/>
+                    <measurement group_id="O3" value="4583"/>
+                    <measurement group_id="O4" value="3506"/>
+                    <measurement group_id="O5" value="970"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>H2 receptor antagonist</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="761"/>
+                    <measurement group_id="O2" value="2559"/>
+                    <measurement group_id="O3" value="1673"/>
+                    <measurement group_id="O4" value="1365"/>
+                    <measurement group_id="O5" value="367"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <desc>The outcomes of the study were the baseline characteristics (pre-treatment) and medication prescriptions. The study was not desinged to assess adverse event; therefore safety reporting was not applicable for this study.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Dabigatran</title>
+          <description>Patients prescribed dabigatran as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+        </group>
+        <group group_id="E2">
+          <title>Warfarin</title>
+          <description>Patients prescribed warfarin as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+        </group>
+        <group group_id="E3">
+          <title>Apixaban</title>
+          <description>Patients prescribed Apixaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+        </group>
+        <group group_id="E4">
+          <title>Rivaroxaban</title>
+          <description>Patients prescribed Rivaroxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+        </group>
+        <group group_id="E5">
+          <title>Edoxaban</title>
+          <description>Patients prescribed Edoxaban as the first Oral Anticoagulants (OACs) with nonvalvular atrial fibrillation.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E5" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>5</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E5" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>Generalizability of findings may be limited outside of population. The data in Medical Data Vision Co., Ltd. (MDV) database is collected from DPC hospitals that may contain out-patient data with greater disease severity.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Boehringer Ingelheim, Call Center</name_or_title>
+      <organization>Boehringer Ingelheim</organization>
+      <phone>1-800-243-0127</phone>
+      <email>clintriage.rdg@boehringer-ingelheim.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

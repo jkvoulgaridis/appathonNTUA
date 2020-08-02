@@ -1,0 +1,166 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04200950</url>
+  </required_header>
+  <id_info>
+    <org_study_id>07012020</org_study_id>
+    <nct_id>NCT04200950</nct_id>
+  </id_info>
+  <brief_title>Trial for the Early Identification of Acute Kidney Injury</brief_title>
+  <official_title>Randomized Controlled Trial for the Early Identification of Acute Kidney Injury Using Deep Recurrent Neural Nets</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Dascena</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Dascena</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Previse is a novel, software-based clinical decision support (CDS) system that predicts acute
+      kidney injury (AKI). Previse uses machine learning methods and information drawn from the
+      electronic health record (EHR) to identify the early signs of acute kidney injury; by doing
+      so before the clinical syndrome of AKI is fully developed, Previse can give clinicians the
+      time to intervene with the goals of preventing further kidney damage, and decreasing the
+      sequelae of AKI. It has been demonstrated in retrospective work that Previse can predict AKI
+      with high accuracy at long prediction horizons, but the tool has yet to be validated in
+      prospective settings; therefore, in this project, the clinical utility of Previse will be
+      assessed through an individually randomized controlled multicenter trial.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The trial is designed as an individually randomized, controlled, and non-blinded multicenter
+      prevention trial with a baseline period and a primary endpoint of proportion of patients
+      meeting one or more criteria for the Major Adverse Kidney Events within 30 days (MAKE30)
+      composite of death, new renal replacement therapy, or persistent creatinine elevation ≥ 200%
+      of baseline, all censored at the first of hospital discharge or 30 days. The trial will
+      evaluate the efficacy of a machine learning algorithm for AKI prediction, in approximately
+      8,574 patients aged ≥ 18 years admitted to one of three participating study hospitals.
+      Individual patient randomization will be performed at the time of the alert with a 1:1
+      allocation ratio. Patients will be evaluated for inclusion in the trial upon admission, and
+      will be automatically enrolled upon meeting inclusion criteria. Because data collection will
+      be conducted through noninvasive procedures that are routinely employed in clinical practice,
+      it will require a waiver of informed consent. Trial efficacy will be assessed at regularly
+      scheduled study visits, and safety will be monitored on an ongoing basis for all patients.
+      Safety will be assessed through the collection of adverse events, laboratory tests, vital
+      signs, and physical examinations throughout the study. An independent Data Monitoring
+      Committee (DMC) will be formed to assist in the periodic monitoring of safety, data quality,
+      and integrity of study conduct. In addition, the DMC will review the interim efficacy
+      analysis performed to determine whether the primary endpoint has been met. Total trial
+      duration is expected to be approximately 12 months.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">July 2020</start_date>
+  <completion_date type="Anticipated">June 2021</completion_date>
+  <primary_completion_date type="Anticipated">June 2021</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Incidence of adverse kidney events as assessed by Major Adverse Kidney Event within 30 days (MAKE30) criteria</measure>
+    <time_frame>Through study completion, an average of twelve months</time_frame>
+    <description>The proportion of patients meeting one or more criteria for the Major Adverse Kidney Events within 30 days (MAKE30) composite of death, new renal replacement therapy, or persistent creatinine elevation ≥ 200% of baseline, all censored at the first of hospital discharge or 30 days</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">8574</enrollment>
+  <condition>Acute Kidney Injury</condition>
+  <arm_group>
+    <arm_group_label>Intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Previse alert arm</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>No alert</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Previse</intervention_name>
+    <description>Machine learning algorithm for early acute kidney injury (AKI) prediction.</description>
+    <arm_group_label>Intervention</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult ≥ 18 years admitted to a participating study hospital
+
+        Exclusion Criteria:
+
+          -  ﹤18 years of age
+
+          -  ESRD diagnosis code
+
+          -  Stage 4 or Stage 5 CKD diagnosis code
+
+          -  Initial creatinine ≥4.0mg/dl
+
+          -  Nephrectomy during admission
+
+          -  Admission to hospice service
+
+          -  Admission to observation status
+
+          -  Any organ transplant (including kidney transplant) within 6 months
+
+          -  Dialysis order prior to AKI onset
+
+          -  Dialysis order within 24 hours of admission
+
+          -  Prior admission in which patient was randomized
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Ritankar Das, MSc</last_name>
+    <phone>8722285332</phone>
+    <email>ritankar@dascena.com</email>
+  </overall_contact>
+  <reference>
+    <citation>Mohamadlou H, Lynn-Palevsky A, Barton C, Chettipally U, Shieh L, Calvert J, Saber NR, Das R. Prediction of Acute Kidney Injury With a Machine Learning Algorithm Using Electronic Health Record Data. Can J Kidney Health Dis. 2018 Jun 8;5:2054358118776326. doi: 10.1177/2054358118776326. eCollection 2018.</citation>
+    <PMID>30094049</PMID>
+  </reference>
+  <verification_date>December 2019</verification_date>
+  <study_first_submitted>December 11, 2019</study_first_submitted>
+  <study_first_submitted_qc>December 13, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 16, 2019</study_first_posted>
+  <last_update_submitted>December 13, 2019</last_update_submitted>
+  <last_update_submitted_qc>December 13, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 16, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Acute Kidney Injury</mesh_term>
+    <mesh_term>Wounds and Injuries</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,427 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03909269</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GLYCOHEMO</org_study_id>
+    <nct_id>NCT03909269</nct_id>
+  </id_info>
+  <brief_title>Glycaemic Markers in Persons With Type 2 Diabetes on Haemodialysis</brief_title>
+  <acronym>GLYCOHEMO</acronym>
+  <official_title>Markers for Glycaemic Control and Continuous Glucose Monitoring in Persons With Type 2 Diabetes on Chronic Haemodialysis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Rigshospitalet, Denmark</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Steno Diabetes Center Copenhagen</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Rigshospitalet, Denmark</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To investigate the correlation between the mean glucose concentration measured by continuous
+      glucose monitoring (CGM) and the estimated mean blood glucose from glycated haemoglobin A1c
+      (HbA1c) in persons with type 2 diabetes and on chronic haemodialysis. Furthermore, the aim is
+      to compare CGM and HbA1c with glycated albumin and fructosamine.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background:
+
+      In persons with diabetes, glycated haemoglobin A1c (HbA1c) is used as a retrospective
+      measurement of the patient's estimated mean blood glucose over the past 3 months. HbA1c forms
+      in a non-enzymatic pathway when haemoglobin is exposed to blood glucose. The normal range of
+      HbA1c and the correlation to the estimated mean blood glucose is determined from studies in
+      persons with normal erythrocyte turnover of approximately 120 days and without severe chronic
+      kidney disease (CKD). Several smaller studies have shown that HbA1c in persons with type 2
+      diabetes and CKD, especially on chronic haemodialysis, is an uncertain marker of the mean
+      blood glucose. Generally, studies show that HbA1c underestimate the actual mean blood
+      glucose. The reason for a false low HbA1c in persons with type 2 diabetes and with CKD has
+      yet to be established. However, it is known that erythropoietin treatment and iron infusion
+      increases the erythropoiesis, which results in new non-glycated erythrocytes, and this is
+      likely to lower HbA1c. The erythrocyte life span is found to be reduced in persons on
+      dialysis, which in combination with blood loss from the dialysis also contributes to a
+      reduction in HbA1c. The shorter erythrocyte life span is thought to be due to the toxic
+      uraemic environment as well as mechanical damage caused by haemodialysis.
+
+      Objective:
+
+      To investigate the correlation between the mean glucose concentration measured by CGM and the
+      estimated mean blood glucose from HbA1c in persons with type 2 diabetes and on chronic
+      haemodialysis compared to a control groups of persons with type 2 diabetes and normal renal
+      function.
+
+      Method:
+
+      Prospective case-control study over 17 weeks with 40 persons in each group. The case group
+      consist of 40 persons with type 2 diabetes and on chronic haemodialysis. The control group
+      consists of persons with type 2 diabetes and normal renal function (defined as and estimated
+      glomerular filtration rate (eGFR) above 60 ml/min). CGM is performed for a maximum of seven
+      days on week 0, 4, 8, 12 and 16 of the study period with simultaneous analysis of glycaemic
+      markers (HbA1c, glycated albumine and fructosamine). Each of the first five visit was
+      conducted with 3 to 5 weeks interval and the final visit not more than two weeks after the
+      final visit. The erythrocyte life span will be measured with an isotope (Crom-51) method in
+      both the dialysis group and the control group, to establish if diminished erythrocyte life
+      span and falsely low HbA1c is correlated.
+
+      Statistical methods:
+
+      The null hypothesis is that there is no difference between the ratio of total mean glucose
+      from CGM and estimated mean blood glucose from HbA1c at week 17 when measured in type 2
+      diabetic persons on chronic haemodialysis compared to type 2 diabetic persons with normal
+      renal function.
+
+      The alternative hypothesis is that there is a difference in the ratio between the groups
+      which in a pilot study of persons with diabetes on chronic haemodialysis was found to be 0.16
+      (mean glucose from CGM/mean blood glucose from HbA1c) when compared to persons with diabetes
+      with out nephropathy.
+
+      From one of the pilot arms ώ = 0.148 and σ = 0.128 were extracted. The following scenarios
+      were considered; β(0) = 0 and β (1) = 0, 0.01, ..., 0.2 and n = 40. For each scenario, 5000
+      data sets were simulated in accordance with the above specifications. Each data set was
+      analyzed by a mixed linear model with treatment arm as fixed effect and person as random
+      effect. The hypothesis β(0) = β(1) was tested at a significance of 5%. The simulated effect
+      in each scenario was calculated as the fraction of rejections in the 5000 tests. Datasets
+      were simulated in the statistical programming language R (www.r-project.org). The smallest
+      difference in the ratio of mean glucose from CGM and mean blood glucose from HbA1c that could
+      be detected with a power of 80% based on the likelihood ratio test described above and using
+      a 5% significance level was 0.1 for n=40 per arm.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">April 1, 2018</start_date>
+  <completion_date type="Actual">April 1, 2020</completion_date>
+  <primary_completion_date type="Actual">April 1, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>HbA1c evaluated by the total mean glucose from continuous glucose monitoring</measure>
+    <time_frame>17 weeks</time_frame>
+    <description>Difference between groups in the ratio of total mean glucose measured by continuous glucose monitoring over the estimated mean blood glucose from HbA1c measured at week 17. For each CGM measurement at least 48 hours must be completed and three out of five periods with CGM. In total a least 14 days must be completed.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Erythrocyte life span</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Erythrocytes are labelled with Cr-51 and reinjected 3 hours after incubation. Blood samples for counts per minute will be taken twice a week the following four weeks which makes it possible to extrapolate the curve of the erythrocyte life span for each patient.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glycated albumin</measure>
+    <time_frame>17 weeks</time_frame>
+    <description>Plots illustrating the correlation between mean glucose from continuous glucose monitoring and glycated albumin (%) for each week</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Fructosamine</measure>
+    <time_frame>17 weeks</time_frame>
+    <description>Plots illustrating the correlation between mean glucose from continuous glucose monitoring and fructosamine (μmol/l) for each week</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HbA1c evaluated by the mean glucose from continuous glucose monitoring for each week</measure>
+    <time_frame>17 weeks</time_frame>
+    <description>Plots illustrating the correlation between mean glucose from continuous glucose monitoring and HbA1c for each week</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Blood volume</measure>
+    <time_frame>4 hours</time_frame>
+    <description>Carbon monoxide rebreathing method for measurements of total blood volume (liter), plasma volume (liter) and erythrocyte volume (liter)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Standard deviation</measure>
+    <time_frame>17 weeks</time_frame>
+    <description>Standard deviation for glycaemic variability measured by continuous glucose monitoring in both Groups. For the group on haemodialysis the days of haemodialysis and the days without haemodialysis will also be evaluated separately</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Coefficient variation</measure>
+    <time_frame>17 weeks</time_frame>
+    <description>Coefficient variation for glycaemic variability measured by continuous glucose monitoring in both groups. For the group on haemodialysis the days of haemodialysis and the days without haemodialysis will also be evaluated separately. A coefficient variation below 36% is considered stable and above is considered unstable.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Low Blood Glucose Index</measure>
+    <time_frame>17 weeks</time_frame>
+    <description>Low Blood Glucose Index for glycaemic variability measured by continuous glucose monitoring in both Groups. Is a risk index for predicting hypoglycaemia. For the group on haemodialysis the days of haemodialysis and days without haemodialysis will also be evaluated separately.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>High Blood Glucose Index</measure>
+    <time_frame>17 weeks</time_frame>
+    <description>High Blood Glucose Index for glycaemic variability measured by continuous glucose monitoring in both groups. Is a risk index for predicting hyperglycaemia. For the group on haemodialysis the days of haemodialysis and the days without haemodialysis will also be evaluated separately</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time in hypoglycaemic range below 3.0 mmol/l</measure>
+    <time_frame>17 weeks</time_frame>
+    <description>Time in hypoglycaemic range(%) below 3.0 mmol/l evaluated by continuous glucose monitoring . For the group on haemodialysis the days of haemodialysis and the days without haemodialysis will also be evaluated separately</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time in hypoglycaemic range below 3.9 mmol/l to 3.0 mmol/l</measure>
+    <time_frame>17 weeks</time_frame>
+    <description>Time in hypoglycaemic range(%) below 3.9 mmol/l to 3.0 mmol/l evaluated by continuous glucose monitoring . For the group on haemodialysis the days of haemodialysis and the days without haemodialysis will also be evaluated separately</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time in target range from 3.9 mmol/l to 10.0 mmol/l</measure>
+    <time_frame>17 weeks</time_frame>
+    <description>Time in target range(%) from 3.9 mmol/l to 10.0 mmol/l evaluated by continuous glucose monitoring . For the group on haemodialysis the days of haemodialysis and the days without haemodialysis will also be evaluated separately</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time in hyperglycaemic range above 10.0 mmol/l</measure>
+    <time_frame>17 weeks</time_frame>
+    <description>Time in hyperglycaemic range(%) above 10.0 mmol/l evaluated by continuous glucose monitoring . For the group on haemodialysis the days of haemodialysis and the days without haemodialysis will also be evaluated separately</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time in hyperglycaemic range above 13.9 mmol/l</measure>
+    <time_frame>17 weeks</time_frame>
+    <description>Time in hyperglycaemic range(%) above 13.9 mmol/l evaluated by continuous glucose monitoring . For the group on haemodialysis the days of haemodialysis and the days without haemodialysis will also be evaluated separately</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hypoglycaemic events</measure>
+    <time_frame>17 weeks</time_frame>
+    <description>Beginning of a CGM event is defined as a reading below the threshold for at least 15 min for either a value below 3.0 mmol/l or between 3.9 mmol/l to 3.0 mmol/l. The end of a CGM event is defined as a reading for 15 min above 3.9 mmol/l.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">88</enrollment>
+  <condition>Diabetic Nephropathy Type 2</condition>
+  <condition>Type2 Diabetes</condition>
+  <arm_group>
+    <arm_group_label>Haemodialysis and type 2 diabetes</arm_group_label>
+    <description>On chronic haemodialysis and type 2 diabetes</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control group</arm_group_label>
+    <description>Type 2 diabetes and with eGFR above 60ml/min</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Continuous glucose monitoring</intervention_name>
+    <description>Continuous glucose monitoring five times over 17 weeks</description>
+    <arm_group_label>Control group</arm_group_label>
+    <arm_group_label>Haemodialysis and type 2 diabetes</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Glycaemic markers</intervention_name>
+    <description>Measurement of HbA1c by immunoassay (Roche) and chromatography (TOSOH), including glycated albumin and fructosamine.</description>
+    <arm_group_label>Control group</arm_group_label>
+    <arm_group_label>Haemodialysis and type 2 diabetes</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>Erythrocyte life span</intervention_name>
+    <description>Erythrocyte life span measured by Crom-51 labelling over 4 weeks</description>
+    <arm_group_label>Control group</arm_group_label>
+    <arm_group_label>Haemodialysis and type 2 diabetes</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Carbon monoxide (CO)-rebreathing method</intervention_name>
+    <description>Measurement of total blood volume, plasma volume and erythrocyte volume</description>
+    <arm_group_label>Haemodialysis and type 2 diabetes</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Blood samples will be collected for both immediately analyses (basic lab data) and later
+      analyses (glycated albumin, fructosamine, HbA1c for immunoassay) and stored for 10 years
+      whereafter they will be destroyed.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Total of 80 participants with 40 patients in each group.
+
+        Case group: 40 patients on chronic haemodialysis with type 2 diabetes.
+
+        Control group: 40 patients with type 2 diabetes and normal renal function (defined as eGFR
+        &gt;60 ml/min and with urinary protein excretion below 0.3g/day (24 hour urine collection) or
+        300mg/g (Urinary Albumin-to-Creatinine Ratio).
+
+        The patients are recruited from the department of Endocrinology or Nephrology at
+        Rigshospitalet, from Herlev Hospital department of Nephrology, Gentofte Hospital and Steno
+        Diabetes Center Copenhagen, Hillerød Hospital department of Endocrinology or Nephrology and
+        Roskilde Hospital department of Nephrology.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion criteria for case group (on chronic haemodialysis with type 2 diabetes):
+
+          -  Type 2 diabetes*
+
+          -  BMI 17.5-50 kg/m2
+
+          -  Receiving antidiabetic treatment
+
+          -  Chronic haemodialysis treatment for a minimum of 3 months
+
+          -  24 hour urinary protein excretion of less than 10.0 g/day at screening or within the
+             last 6 months
+
+        Exclusion criteria for case group (on chronic haemodialysis with type 2 diabetes):
+
+          -  Type 1 diabetes
+
+          -  Acute or chronic pancreatitis
+
+          -  Intermittent treatment with steroid during study period (defined as more than two
+             days)
+
+          -  Haemoglobin &lt; 6.0 mmol / l (day of screening)
+
+          -  Hypertriglyceridemia (≥ 10mmol / L)
+
+          -  Hyperbilirubinemia (≥ 35 μmol / L)
+
+          -  Pregnant or breast-feeding
+
+          -  Blood transfusion within the last 3 months
+
+          -  Blood transfusion during the investigation period
+
+          -  Splenectomy
+
+          -  High alcohol consumption (defined as more than 21 units per week)
+
+          -  Vitamin E supplement
+
+          -  Ribavirin treatment
+
+          -  Interferon Alpha treatment
+
+          -  Positive for haemoglobinopathy (examined for haemoglobinopathy if patients come from
+             Africa, Mediterranean, Middle East, Iran, Iraq, India, Pakistan or Southeast Asia)
+
+          -  Severe infections
+
+        Inclusion criteria for control group (type 2 diabetes and normal renal function):
+
+          -  Type 2 diabetes*
+
+          -  BMI 17.5-50 kg / m2
+
+          -  Receiving antidiabetic treatment
+
+          -  Plasma creatinine in the normal range (men: 60-105 μmol/l, women: 45-90 μmol/l)
+
+          -  eGFR &gt; 60 ml/min/1.73m2
+
+          -  Urinary Albumin-to-Creatinine Ratio &lt; 300mg/g or 24h urinary protein excretion &lt;0.3g
+             at screening or within the last 6 months
+
+        Exclusion criteria for control group (type 2 diabetes and normal renal function):
+
+          -  Type 1 diabetes
+
+          -  Acute or chronic pancreatitis
+
+          -  Intermittent treatment with steroid during study period (defined as more than two
+             days)
+
+          -  Haemoglobin &lt;7.3 mmol / l for women
+
+          -  Haemoglobin &lt;8.3 mmol / l for men
+
+          -  Hypertriglyceridemia (≥ 10mmol / L)
+
+          -  Hyperbilirubinemia (≥ 35 μmol / L)
+
+          -  Pregnant or breast-feeding
+
+          -  Blood transfusion within the last 3 months
+
+          -  Blood transfusion during the investigation period
+
+          -  Splenectomy
+
+          -  Intermittent treatment with steroid during study period (defined as more than two
+             days)
+
+          -  High alcohol consumption (defined as more than 21 units per week)
+
+          -  Vitamin E supplement
+
+          -  Ribavirin
+
+          -  Interferon Alpha treatment
+
+          -  Positive for haemoglobinopathy (examined for haemoglobinopathy if patients come from
+             Africa, Mediterranean, Middle East, Iran, Iraq, India, Pakistan or Southeast Asia)
+
+          -  Severe infections
+
+             *Inclusion with diagnosis of type 2 diabetes was defined as ongoing antidiabetic
+             treatment and previously diagnosed with type 2 diabetes according to the following
+             criteria:
+
+          -  A random venous plasma glucose concentration ≥ 11.1 mmol/l or
+
+          -  A fasting plasma glucose concentration ≥ 7.0 mmol/l (whole blood ≥ 6.1 mmol/l) or
+
+          -  Two hour plasma glucose concentration ≥ 11.1 mmol/l two hours after 75g anhydrous
+             glucose in an oral glucose tolerance test or
+
+          -  HbA1c above 48 mmol/mol
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Rigshospitalet</name>
+      <address>
+        <city>København Ø</city>
+        <zip>2100</zip>
+        <country>Denmark</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Denmark</country>
+  </location_countries>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>March 29, 2019</study_first_submitted>
+  <study_first_submitted_qc>April 8, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 9, 2019</study_first_posted>
+  <last_update_submitted>June 29, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 29, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 30, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Rigshospitalet, Denmark</investigator_affiliation>
+    <investigator_full_name>Bo Feldt-Rasmussen</investigator_full_name>
+    <investigator_title>Professor, DMSc, Head of Nephrology</investigator_title>
+  </responsible_party>
+  <keyword>HbA1c</keyword>
+  <keyword>Glycated albumin</keyword>
+  <keyword>Fructosamine</keyword>
+  <keyword>Continuous glucose monitoring</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetic Nephropathies</mesh_term>
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 2</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carbon Monoxide</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

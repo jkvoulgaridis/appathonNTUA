@@ -1,0 +1,192 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04270799</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CCR5215</org_study_id>
+    <nct_id>NCT04270799</nct_id>
+  </id_info>
+  <brief_title>Lung Nodule Imaging Biobank for Radiomics and AI Research</brief_title>
+  <acronym>LIBRA</acronym>
+  <official_title>Lung Nodule Imaging Biobank for Radiomics and AI Research</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Royal Marsden NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Royal Marsden Partners</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The Royal Brompton and Harefield NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University College London Hospitals</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Guys and St Thomas' NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Imperial College NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Lewisham and Greenwich NHS Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>King's College Hospital NHS Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Epsom and St Helier University Hospitals NHS Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The Institute of Cancer Research, London</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Biomedical Research Centre, London</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Royal Marsden NHS Foundation Trust</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will collect retrospective CT scan images and clinical data from patients with
+      incidental lung nodules seen in hospitals across London. We will research whether we can use
+      machine learning to predict which patients will develop lung cancer, to improve early
+      diagnosis.
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">April 2020</start_date>
+  <completion_date type="Anticipated">August 2021</completion_date>
+  <primary_completion_date type="Anticipated">August 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Development of an imaging biobank</measure>
+    <time_frame>1 year</time_frame>
+    <description>The primary endpoint will be met if we are able to store baseline CT scans and the minimum clinical data set for 1000 patients.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Discovery of a CT-thorax based radiomics profile to predict cancer risk.</measure>
+    <time_frame>1 year</time_frame>
+    <description>We aim to identify distinct clusters of radiomics variables to generate a radiomics predictive vector (RPV), which can be used to stratify patients according to malignancy risk. This vector will be used in multivariate analysis and compared to existing risk models.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Lung Cancer</condition>
+  <condition>Pulmonary Nodule, Multiple</condition>
+  <condition>Pulmonary Nodule, Solitary</condition>
+  <condition>Lung Neoplasms</condition>
+  <arm_group>
+    <arm_group_label>Lung Nodules</arm_group_label>
+    <description>A cohort of 1000 patients with incidental lung nodules will be identified using clinical records at participating NHS sites.
+Link-anonymised CT scan images and data will be stored using a central database for radiomics and artificial intelligence research, to predict the risk of malignancy.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Machine Learning Classification</intervention_name>
+    <description>Patient's scans will be used as input into in-house software to extract multiple radiomics features. These features will be used to develop a risk-signature which can predict malignancy risk. Patient scans will also be used as input into deep learning/convolutional neural network models to perform automated imaging classification.</description>
+    <arm_group_label>Lung Nodules</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      CT scan images.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with previously identified lung nodules.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age &gt; 18
+
+          -  Baseline CT thorax imaging reported as having pulmonary nodule(s) between 5 and 30mm
+             in the last 10 years.
+
+          -  Ground truth known (either scan data showing stability for 2 years (based on diameter)
+             or one year (based on volumetry), complete resolution, or biopsy-proven malignancy.
+
+          -  Slice thickness &lt; 2.5mm.
+
+        Exclusion Criteria:
+
+          -  • Absence of at least one technically adequate CT thorax imaging series (defined by
+             visual inspection of presence of imaging data of the thorax in the DICOM record).
+
+               -  Slice thickness &gt; 2.5mm.
+
+               -  Imaging &gt; 10 years old.
+
+               -  Ground truth unknown.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Richard Lee, MBBS PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>The Royal Marsden Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Richard Lee, MBBS PhD</last_name>
+    <phone>020 7352 8171</phone>
+    <email>richard.lee@rmh.nhs.uk</email>
+  </overall_contact>
+  <verification_date>February 2020</verification_date>
+  <study_first_submitted>February 12, 2020</study_first_submitted>
+  <study_first_submitted_qc>February 12, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 17, 2020</study_first_posted>
+  <last_update_submitted>February 12, 2020</last_update_submitted>
+  <last_update_submitted_qc>February 12, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 17, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Incidental lung nodules</keyword>
+  <keyword>Radiomics</keyword>
+  <keyword>Artificial Intelligence</keyword>
+  <keyword>Machine Learning</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lung Neoplasms</mesh_term>
+    <mesh_term>Multiple Pulmonary Nodules</mesh_term>
+    <mesh_term>Solitary Pulmonary Nodule</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

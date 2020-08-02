@@ -1,0 +1,196 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03992521</url>
+  </required_header>
+  <id_info>
+    <org_study_id>BreastctDNA01</org_study_id>
+    <nct_id>NCT03992521</nct_id>
+  </id_info>
+  <brief_title>Breast Cancer Liquid Biopsy Stratification</brief_title>
+  <acronym>BALIBISTRA</acronym>
+  <official_title>Breast Cancer Liquid Biopsy Stratification</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Medical University of Graz</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Medical University of Graz</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Breast cancer is the most common cancer in Austrian women. Estimation of prognosis and
+      treatment strategies is increasingly being dependent on stratification of tumors into
+      different entities or classes. Currently, clinical routine stratification of tumors is mostly
+      based on hormone receptor, HER2 status, and estimation of proliferation. However, a more
+      robust and objective classification of tumors can be achieved by elucidation of further
+      biological properties, which is also of increasing significance, as novel anticancer
+      therapies are based on biological mechanisms. Consequently, available information from
+      molecular analyses is increasingly being implemented in routine diagnostic assays with the
+      aim to improve stratification for optimal treatment selection. To date the most extensive
+      molecular-based taxonomy of breast cancer has been achieved by a classification based on
+      combining gene expression and somatic copy number alterations (SCNAs), referred to as
+      integrative clusters. Tissue biopsies are the current gold standard to attain such a
+      classification. However, they can often be difficult to obtain in the metastatic setting and
+      are subject to sampling bias due to intratumor heterogeneity. &quot;Liquid biopsies&quot; are, among
+      other analytes, based on the analysis of cell-free DNA (cfDNA) which contains circulating
+      tumor DNA (ctDNA), i.e. DNA fragments shed from normal and tumor cells into the blood, in
+      patients with cancer. cfDNA can be obtained minimally invasive with a blood draw, allows for
+      the &quot;real time&quot; analysis of tumor DNA from the circulation, and blood samples can be repeated
+      at any time point, which is especially important for monitoring response to therapy. The
+      investigator's group has extensive expertise in the analysis of cfDNA and has developed a
+      plethora of approaches for ctDNA analysis. Recently, the investigators have developed a new
+      approach, which relates to nucleosome positions and gene expression. cfDNA fragments have
+      been associated with the release of DNA from apoptotic cells after enzymatic processing and
+      hence consist mainly of mono-nucleosomal DNA. By performing whole-genome sequencing of cfDNA
+      the investigators could demonstrate that at transcriptional start sites, the nucleosome
+      occupancy results in different read-depth coverage patterns in expressed and silent genes. By
+      employing machine learning for gene classification, the investigators were able to classify
+      genes in cells releasing their DNA into the circulation as expressed. The main hypothesis of
+      the project is that integrative breast cancer clusters can be established from directly blood
+      without the need for an invasive tissue biopsy. Hence, the study aims include refining
+      stratification of patients for an improved selection of treatment strategies. Furthermore,
+      the investigators will obtain novel insights into the biology of metastatic breast cancer, so
+      that this project will have important implications for patients, clinical oncologists,
+      pathologists, pharmacologists, and all basic researchers interested in cancer.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The investigators collected 340 plasma samples from 144 clinically annotated patients with
+      detailed clinical data. All plasma samples were already analyzed by plasma-Seq, an approach,
+      which measures copy number from sequence read depth, for a first evaluation of somatic copy
+      number alterations (SCNAs). As this project represents a feasibility study, the investigators
+      want to evaluate to what extend cis-acting alterations can be determined, i.e. establish the
+      corresponding gene expression changes via nucleosome position mapping as previously published
+      by our group. The results will be corroborated by analyses of the corresponding primary tumor
+      by SCNA-seq and RNA-seq.
+
+      From the 340 plasma samples the investigators selected 59 as representative for being either
+      luminal (i.e. those with amplifications at 17q23, 11q13/q14, 8p12, 8q, and gains of 16p and
+      1q; n=25), basal (i.e. gains of 8q, 10p, 12p and various amplifications occurring due to the
+      high-genomic instability; n=25), and ERBB2/HER2 (i.e. high-level amplification on 17q,
+      centered and including the HER2 gene; n=9). These samples will be sequenced with high
+      coverage (70x) so that both mutations and nucleosome positions can be extracted from the
+      obtained sequences.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">October 1, 2018</start_date>
+  <completion_date type="Anticipated">October 2022</completion_date>
+  <primary_completion_date type="Anticipated">October 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Evaluating as proof-of-concept the ability to stratify patients solely based on a detailed plasma DNA analysis</measure>
+    <time_frame>Three years</time_frame>
+    <description>Clinico-pathological characteristics including prior and subsequent therapies were recorded for each patient. For each patient a standard classification into luminal, basal, ERBB2/HER2 was conducted and is available.</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">59</enrollment>
+  <condition>Breast Cancer</condition>
+  <intervention>
+    <intervention_type>Genetic</intervention_type>
+    <intervention_name>Nucleosome positioning</intervention_name>
+    <description>Stratification of patients based on nucleosome positioning from plasma DNA.</description>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Plasma DNA and DNA from primary tumors
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study includes women with proven histological diagnosis of breast cancer and
+        appropriate clinical data.
+
+        Participants were recruited at the Medical University Hospital of Graz.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Histological diagnosis of breast cancer, availability of primary tumor tissue and plasma
+        DNA with a high ctDNA content.
+
+        Exclusion Criteria:
+
+        Patient rejects the participation.
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <gender_based>Yes</gender_based>
+    <gender_description>Females with breast cancer</gender_description>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>99 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Michael R Speicher, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Medical University of Graz</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Medical University of Graz</name>
+      <address>
+        <city>Graz</city>
+        <zip>8010</zip>
+        <country>Austria</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Austria</country>
+  </location_countries>
+  <reference>
+    <citation>Ulz P, Thallinger GG, Auer M, Graf R, Kashofer K, Jahn SW, Abete L, Pristauz G, Petru E, Geigl JB, Heitzer E, Speicher MR. Inferring expressed genes by whole-genome sequencing of plasma DNA. Nat Genet. 2016 Oct;48(10):1273-8. doi: 10.1038/ng.3648. Epub 2016 Aug 29.</citation>
+    <PMID>27571261</PMID>
+  </reference>
+  <reference>
+    <citation>Heitzer E, Haque IS, Roberts CES, Speicher MR. Current and future perspectives of liquid biopsies in genomics-driven oncology. Nat Rev Genet. 2019 Feb;20(2):71-88. doi: 10.1038/s41576-018-0071-5. Review.</citation>
+    <PMID>30410101</PMID>
+  </reference>
+  <reference>
+    <citation>Ulz P, Belic J, Graf R, Auer M, Lafer I, Fischereder K, Webersinke G, Pummer K, Augustin H, Pichler M, Hoefler G, Bauernhofer T, Geigl JB, Heitzer E, Speicher MR. Whole-genome plasma sequencing reveals focal amplifications as a driving force in metastatic prostate cancer. Nat Commun. 2016 Jun 22;7:12008. doi: 10.1038/ncomms12008.</citation>
+    <PMID>27328849</PMID>
+  </reference>
+  <reference>
+    <citation>Ulz P, Heitzer E, Speicher MR. Co-occurrence of MYC amplification and TP53 mutations in human cancer. Nat Genet. 2016 Feb;48(2):104-6. doi: 10.1038/ng.3468.</citation>
+    <PMID>26813759</PMID>
+  </reference>
+  <verification_date>June 2019</verification_date>
+  <study_first_submitted>June 18, 2019</study_first_submitted>
+  <study_first_submitted_qc>June 18, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 20, 2019</study_first_posted>
+  <last_update_submitted>June 18, 2019</last_update_submitted>
+  <last_update_submitted_qc>June 18, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 20, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

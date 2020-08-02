@@ -1,0 +1,252 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04176926</url>
+  </required_header>
+  <id_info>
+    <org_study_id>129-0360-01</org_study_id>
+    <nct_id>NCT04176926</nct_id>
+  </id_info>
+  <brief_title>Validation of Software for Assessment of Atrial Fibrillation From Data Acquired by a Wearable Smartwatch</brief_title>
+  <official_title>Validation of Software for Assessment of Atrial Fibrillation From Data Acquired by a Wearable Smartwatch</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Fitbit Inc</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Fitbit Inc</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The goal of this study is to validate the Fitbit ECG software algorithm's ability to detect
+      atrial fibrillation using data derived from a Fitbit wrist-worn consumer device that features
+      a single lead ECG. The performance of the software application will be measured against
+      centralized Core Lab physician-adjudicated 12-lead ECG tracings from FDA cleared ECG monitors
+      as reference standards. The Fitbit software is intended as a pre-screening technology. It
+      should identify candidates who may benefit from further evaluation. The software is not
+      intended to be a diagnostic system.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">October 29, 2019</start_date>
+  <completion_date type="Actual">March 2, 2020</completion_date>
+  <primary_completion_date type="Actual">December 20, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Evaluate the software algorithm's ability to classify a heart rhythm as sinus rhythm or atrial fibrillation from a waveform equivalent to a Lead I ECG.</measure>
+    <time_frame>Through study completion, an average of 4 months</time_frame>
+    <description>Sensitivity and specificity of the software algorithm in classifying sinus rhythm and atrial fibrillation from the equivalent of a Lead I ECG waveform, compared with physician's interpretation of a standard 12-lead ECG. Performance goals are 90% (sensitivity) and 92% (specificity)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Confirm the software's ability to produce a waveform clinically equivalent to a Lead I ECG from a clinical reference device (12-lead ECG).</measure>
+    <time_frame>Through study completion, an average of 4 months</time_frame>
+    <description>Qualitative assessment of the software produced waveform to reference Lead I from 12-lead ECG. Goal is &gt;0.80 of strips appear to overlay to the unaided eye.
+Comparison of R-wave amplitudes between the Fitbit waveform and the clinical reference. Goal is &gt;0.80 of R-wave amplitudes to be within 2mm.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">472</enrollment>
+  <condition>Atrial Fibrillation</condition>
+  <arm_group>
+    <arm_group_label>Group 1: SR</arm_group_label>
+    <description>Group 1: Subjects in the sinus rhythm (SR) cohort should not have any history of atrial fibrillation and should not be in atrial fibrillation or other atrial arrhythmia at the time of enrollment based on the screening ECG.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 2: AF</arm_group_label>
+    <description>Group 2: Subjects in the atrial fibrillation (AF) cohort must have a known history of AF and must be in AF at the time of enrollment based on the screening ECG.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Electrocardiogram</intervention_name>
+    <description>Diagnostic Test: Simultaneous assessment of heart rhythm by 12-lead ECG and wearable device characterization of heart rhythm.</description>
+    <arm_group_label>Group 1: SR</arm_group_label>
+    <arm_group_label>Group 2: AF</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Subjects will be recruited at the individual clinical sites. Subjects may be recruited
+        during routine clinic visits or may be asked to come in specifically for this study.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Women and men 22 years of age or older
+
+          -  Capable of giving informed consent
+
+          -  Sufficient manual dexterity to capture an ECG from the Fitbit wrist-worn device.
+
+          -  Subjects in the atrial fibrillation (AF) cohort must have a known history of AF and
+             must be in -AF at the time of enrollment based on the screening ECG
+
+        Exclusion Criteria:
+
+          -  Anti-arrhythmic (rhythm control) medication use (such as amiodarone or flecainide)
+
+          -  Cardiac pacemaker or implantable cardioverter-defibrillator
+
+          -  History of a life-threatening rhythm such as ventricular tachycardia or ventricular
+             fibrillation
+
+          -  Subjects in the sinus rhythm (SR) cohort should not have any history of atrial
+             fibrillation and should not be in atrial fibrillation or other atrial arrhythmia at
+             the time of enrollment based on the screening ECG
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>22 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Venkatesh Raman, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Medstar Health Research Institute</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>MedStar Washington Hospital Center</name>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <zip>20010</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Bioclinica Research Orlando</name>
+      <address>
+        <city>Orlando</city>
+        <state>Florida</state>
+        <zip>32806</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Bioclinica Research The Villages</name>
+      <address>
+        <city>The Villages</city>
+        <state>Florida</state>
+        <zip>32162</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>PMG Research of Dupage</name>
+      <address>
+        <city>Winfield</city>
+        <state>Illinois</state>
+        <zip>60190</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>PMG Research of McFarland</name>
+      <address>
+        <city>Ames</city>
+        <state>Iowa</state>
+        <zip>50010</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>PMG Research of Rocky Mount</name>
+      <address>
+        <city>Rocky Mount</city>
+        <state>North Carolina</state>
+        <zip>27804</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>PMG Research of Piedmont Healthcare</name>
+      <address>
+        <city>Statesville</city>
+        <state>North Carolina</state>
+        <zip>28625</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>PMG Research of Wilmington</name>
+      <address>
+        <city>Wilmington</city>
+        <state>North Carolina</state>
+        <zip>28401</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>PMG Research of Charleston</name>
+      <address>
+        <city>Mount Pleasant</city>
+        <state>South Carolina</state>
+        <zip>29407</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Onassis Cardiac Surgery Center</name>
+      <address>
+        <city>Kallithea</city>
+        <country>Greece</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Greece</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>November 21, 2019</study_first_submitted>
+  <study_first_submitted_qc>November 22, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 25, 2019</study_first_posted>
+  <last_update_submitted>April 7, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 7, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 9, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atrial Fibrillation</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

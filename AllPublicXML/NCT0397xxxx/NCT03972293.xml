@@ -1,0 +1,207 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03972293</url>
+  </required_header>
+  <id_info>
+    <org_study_id>0003302</org_study_id>
+    <nct_id>NCT03972293</nct_id>
+  </id_info>
+  <brief_title>2018 Intern Health Study Micro-randomized Trial</brief_title>
+  <acronym>IHS</acronym>
+  <official_title>2018 Intern Health Study Micro-randomized Trial: Developing a Mobile Health App to Improve Mental Health and Maintain Healthy Behaviors During the Internship Year</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Michigan</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Michigan</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of this trial is to evaluate the efficacy of an intervention (delivered through a
+      smartphone) for improving the mood, physical activity, and sleep of medical interns.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Due to their high stress workloads, medical interns suffer from depression at higher rates
+      than the general population. Interns also tend to have lower sleep and decreased physical
+      activity. The goal of this trial is to evaluate the efficacy of a mobile health intervention
+      intending to help improve the mental health of medical interns. The intervention sends mobile
+      phone notifications which aim to help interns improve their mood, maintain physical activity,
+      and obtain adequate sleep during their internship year.
+
+      The primary aim of the study is to evaluate how notifications affect participants' weekly
+      mood, as measured through a daily one question mood survey. The second primary aim of the
+      study is to evaluate how notifications affect participants' long-term mental health, as
+      measured by the Patient Health Questionnaire. The first secondary aim is to evaluate how mood
+      notifications affect participants' weekly mood. The second secondary aim is to evaluate how
+      activity notifications affect participants' weekly step count. The third secondary aim is to
+      evaluate how sleep notifications affect participants' weekly sleep duration. In order to
+      better optimize notification delivery, the final aim (exploratory) is to understand
+      moderators of these effects. Moderators of interest are previous week's mood, previous week's
+      step count, previous week's sleep duration, study week, sex, previous history of depression,
+      and baseline neuroticism.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">April 1, 2018</start_date>
+  <completion_date type="Actual">July 1, 2019</completion_date>
+  <primary_completion_date type="Actual">July 1, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Participants are randomized to two arms: 'receive notifications' or 'do not receive notifications'. The 'do not receive notifications' group will not receive any notifications for the entire study. The 'receive notifications' group will receive notifications according to a micro-randomized trial design.
+For the 'receive notifications' group, each participant-week is randomized between 4 different interventions (mood notifications, activity notifications, sleep notifications or no notifications). If the participant-week is randomized to a mood notification, activity notification, or sleep notification week, the participant will receive notifications of that category during that week.
+For mood notification, activity notification, and sleep notification weeks, each participant-day is also randomized between: send notification that day or do not send notification that day.</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Average daily mood</measure>
+    <time_frame>7 days</time_frame>
+    <description>Through the mobile app, participants enter a mood score (scale 1-10) every day of the study. 1 corresponds to lowest mood and 10 corresponds to highest mood
+For interns randomized to arm 1, average daily moods scores on weeks when a specific category of notification is sent are compared to mood scores on weeks when no notifications are sent.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patient Health Questionnaire-9 (PHQ-9)</measure>
+    <time_frame>4 months</time_frame>
+    <description>Four months into the study, all participants complete the Patient Health Questionnaire 9. High scores on the PHQ-9 correspond to a larger number of depressive symptoms.
+PHQ-9 scores are compared between the two arms: receive notifications vs do not receive notifications.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Average daily step count</measure>
+    <time_frame>7 days</time_frame>
+    <description>Participant's daily step counts are recorded through a Fitbit. High step counts are considered a positive outcome as it indicates more physical activity.
+For interns randomized to arm 1, average daily step counts on weeks when activity notifications are sent are compared to step counts on weeks when no notifications are sent.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Average nightly sleep duration</measure>
+    <time_frame>7 days</time_frame>
+    <description>Participant's nightly sleep duration (in minutes) is recorded through a Fitbit. High sleep duration is considered a positive outcome.
+For interns randomized to arm 1, nightly sleep duration on weeks when sleep notifications are sent are compared to sleep duration on weeks when no notifications are sent.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">2134</enrollment>
+  <condition>Depression</condition>
+  <condition>Mood</condition>
+  <condition>Sleep</condition>
+  <condition>Physical Activity</condition>
+  <arm_group>
+    <arm_group_label>Within-participant Micro-randomization</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Each week in the study, with probability .25 for each, a participant is randomized to receive either a week of mood notifications, activity notifications, sleep notifications, or no notifications.
+If the participant is assigned to receive mood, activity, or sleep notifications on a given week, then, for every day of that week the participant is randomized to: send notification on that day (with probability .5), or to not send a notification on that day (with probability .5).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants in this arm will not receive any notifications for the entire duration of the trial. Primary and secondary outcomes will still be collected on participants in arm 2 through the study app and Fitbit.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Intern Health Study behavioral change mobile notification</intervention_name>
+    <description>The study's mobile app will be used to deliver intervention notifications. The intervention notifications appear on the participant's phone lock screen. The notifications have 3 categories: mood notifications, activity notifications, sleep notifications. Mood notifications aim to increase the participant's mood. Activity notifications aim to increase the participant's physical activity. Sleep notifications aim to increase the participant's sleep duration. To increase the category of interest, the notifications use two types of messages: life insights and tips. Life insights provide participants information on their historical data (for a given category) in order to help them self-monitor. Tips are non-data based notifications which provide general advice for improving the category of interest.</description>
+    <arm_group_label>Within-participant Micro-randomization</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Intern Health Study mobile app</intervention_name>
+    <description>The Intern Health Study mobile app is able to conduct a daily mood survey. It also aggregates and visualizes historical data on intern mood, activity, and sleep.</description>
+    <arm_group_label>No intervention</arm_group_label>
+    <arm_group_label>Within-participant Micro-randomization</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Medical intern during the 2018-2019 internship year
+
+          -  iPhone user
+
+          -  Affiliated with one of 47 recruitment institutions
+
+          -  Downloaded app, completed consent, and filled out baseline survey prior to June 25th
+             2018
+
+        Exclusion Criteria:
+
+        -None
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Srijan Sen, M.D., Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Michigan</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Michigan</name>
+      <address>
+        <city>Ann Arbor</city>
+        <state>Michigan</state>
+        <zip>48109</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://www.srijan-sen-lab.com/intern-health-study</url>
+    <description>Intern Health Study Website</description>
+  </link>
+  <reference>
+    <citation>Klasnja P, Hekler EB, Shiffman S, Boruvka A, Almirall D, Tewari A, Murphy SA. Microrandomized trials: An experimental design for developing just-in-time adaptive interventions. Health Psychol. 2015 Dec;34S:1220-8. doi: 10.1037/hea0000305.</citation>
+    <PMID>26651463</PMID>
+  </reference>
+  <reference>
+    <citation>Kroenke K, Spitzer RL, Williams JB. The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med. 2001 Sep;16(9):606-13.</citation>
+    <PMID>11556941</PMID>
+  </reference>
+  <verification_date>August 2019</verification_date>
+  <study_first_submitted>May 30, 2019</study_first_submitted>
+  <study_first_submitted_qc>May 30, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 3, 2019</study_first_posted>
+  <last_update_submitted>August 10, 2019</last_update_submitted>
+  <last_update_submitted_qc>August 10, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 13, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Michigan</investigator_affiliation>
+    <investigator_full_name>Srijan Sen</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Depression</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>De-identified genomic and survey information (baseline survey, plus quarterly survey which contains the PHQ-9) will be shared with the National Institute for Mental Health (NIMH).</ipd_description>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_time_frame>Data will be made available 12 months after the end of the trial. It will be made available indefinitely after that date.</ipd_time_frame>
+    <ipd_access_criteria>The data will be shared directly with the NIMH. NIMH will apply their criteria for qualified researchers and analyses.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,275 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03679247</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2018P000692</org_study_id>
+    <nct_id>NCT03679247</nct_id>
+  </id_info>
+  <brief_title>Electronic Tools to Increase Recognition and Improve Primary Care Management for Hypertension in Chronic Kidney Disease</brief_title>
+  <official_title>Electronic Tools to Increase Recognition and Improve Primary Care Management for Hypertension in Chronic Kidney Disease</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brigham and Women's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Brigham and Women's Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators now know that treating chronic kidney disease in its early stages can
+      prevent dialysis and reduce heart problems that go along with kidney disease. Computerized
+      tools may help primary care doctors to diagnose the disease earlier and computer reminders
+      may help doctors to prescribe the best treatments for hypertension (HTN) which will prevent
+      dialysis and heart problems. In this project the investigators will create computer reminders
+      and the investigators will test them in clinics to see if they improve treatment of high
+      blood pressure in early chronic kidney disease.
+
+      Hypothesis: The mean systolic blood pressure of the chronic kidney disease (CKD) population
+      can be decreased by an intervention with three innovative features: 1) methods to synthesize
+      electronic health record (EHR) data in order to identify under-diagnosed chronic conditions,
+      2) iterative improvement in clinical decision support (CDS) content through human factors
+      methods to maximize the &quot;informativeness&quot; of the CDS, and 3) the use of behavioral economic
+      principles to create behavioral &quot;nudges&quot; internal and external to the CDS.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Specific Aim 1: To develop and validate the intervention. Specific Aim 1a: To develop and
+      validate the CDS that will: 1) synthesize existing laboratory tests, medication orders, and
+      vital sign data; 2) increase recognition of CKD, 3) increase recognition of uncontrolled HTN
+      in CKD patients; and 4) deliver evidence-based CKD and HTN management recommendations. The
+      validation will consist of an 8-week silent run-in period and chart review.
+
+      Specific Aim 1b: To improve the &quot;informativeness&quot; of the content of the CDS using human
+      factors methods, specifically by conducting a &quot;think-aloud&quot; study.
+
+      Specific Aim 1c: To develop a &quot;wrap-around&quot; intervention including three behavioral &quot;nudges&quot;:
+      1) pre-checked default orders, 2) an in-person conference with PCPs to obtain their
+      commitment to follow the CDS recommendations, and 3) a required &quot;accountable justification&quot;
+      if the PCP does not follow the CDS recommendations.
+
+      Aim 1a Study Procedures:
+
+      The investigators will modify the CDS rules for diagnosing CKD from the &quot;Maintaining Accurate
+      Problem Lists in the EHR&quot; study. Then, they will create rules for automated diagnosis of
+      uncontrolled hypertension (HTN). They will implement the CDS in &quot;silent mode&quot; for the control
+      arm. This means that the investigators will identify control patients in real time according
+      to the same inclusion criteria as intervention patients.
+
+      Develop Rules for Evidence-based Recommendations for HTN in CKD: The investigators will
+      leverage past work that they have done in a study that delivered recommendations based on
+      national guidelines. An example of one of the rules is to determine whether anti-hypertensive
+      agents have been prescribed but are not at highest potency. If so, the CDS will deliver a
+      recommendation to increase the dosage. The investigators will also include one-click access
+      to documentation and orders relevant for CKD. For example, a message that gives a specific
+      diagnosis, &quot;This patient has stage 3b CKD with unknown level of albuminuria&quot;), as well as an
+      actionable order, &quot;Click here to order a urine microalbumin to creatinine ratio test.&quot; The
+      CDS will include a blood pressure (BP) entry field in which a primary care physician (PCP)
+      can record a repeat BP reading. If the PCP enters a BP reading, it will automatically be
+      recorded in the vital signs flowsheet and vice versa.
+
+      Implementation: The CDS will be moved to the Production environment in &quot;silent mode&quot; eight
+      weeks before the scheduled start date of the trial, where it will record when it would fire,
+      but it will not be displayed to the user. This step will allow us to validate that the rules
+      are accurately identifying patients and producing the correct recommendations through a chart
+      review. The investigators will review 10 charts of patients with CKD and uncontrolled HTN per
+      clinic for a total of 150 charts. The CDS will be activated in the Production environment on
+      the start date of the clinical trial in Aim 2.
+
+      Aim 1b Study Procedures:
+
+      Task Scenario Development, Pilot Test and Usability Test Procedure: Usability testing
+      clinical scenarios will be developed by two subject matter experts. Tasks will include adding
+      CKD to the problem list, placing lab and/or medication orders, and printing patient education
+      handouts. The usability test will be piloted with a PCP and the investigators will ask for
+      feedback on the usability test procedure, as well as content and wording of test scenarios.
+
+      The goal of Aim 1b is to iteratively improve other important aspects of the CDS that
+      contribute to the overall informativeness of the CDS. The investigators will conduct
+      usability tests with ten PCPs. After each test, the research team and Epic build specialist
+      will make iterative changes to the content of the CDS and layout of information.
+
+      Qualitative analysis: Qualitative methods will be employed to analyze the data. The
+      transcripts will be organized by task and participant and then quotes will be identified that
+      illustrate a user expectation, frustration, or misinterpretation of content or functionality.
+
+      Aim 1c Study Procedures:
+
+        1. Pre-checked, no-action default: The first nudge will be part of the CDS. The
+           investigators will display the CDS with certain options pre-selected. They plan to
+           include addition of the CKD diagnosis to the problem list and addition of a patient
+           education handout to the after-visit summary.
+
+        2. In-person meeting to obtain commitment from PCPs to follow the CDS recommendations: As a
+           starting point, the investigators need to ensure that PCPs are aware of the clinical
+           practice guidelines. The PI will visit each clinic and invite the intervention arm PCPs
+           to a lunchtime session where she will present an overview of the guidelines and will ask
+           each PCP to sign a short statement committing to change their CKD management in
+           accordance with the CDS recommendations.
+
+        3. Accountable Justification: The CDS will include an accountable justification prompt. If
+           the PCP deselects the default options and/or does not interact with the CDS, the
+           accountable justification prompt will appear. If the PCP enters a repeat BP measurement
+           or prints a patient handout, these actions will silence the alert.
+
+      Implementation guide: After the investigators conduct the qualitative study in Aim 1b and the
+      in-person meetings, they will develop an implementation guide. They will include the
+      implementation guide as an appendix to a manuscript describing the intervention and clinical
+      trial protocol.
+
+      Specific Aim 2: To test the effectiveness of the intervention. Specific Aim 2a: To evaluate
+      whether the intervention developed in Aim 1 significantly decreases mean systolic blood
+      pressure in a population of CKD patients with blood pressure &gt; 140/90, N=2,350 (N derived
+      from EHR data about primary care patients at 15 clinics). They will evaluate the
+      effectiveness of the intervention in a pragmatic, cluster-randomized controlled trial,
+      randomized at the level of the physician (180 PCPs). Secondary outcomes will include
+      hypertension-specific process measures, such as treatment intensification.
+
+      Specific Aim 2b: To evaluate whether the intervention improves process measures for quality
+      of CKD care including: documented CKD diagnosis, annual serum creatinine test, and annual
+      urine albumin test.
+
+      Specific Aim 2c: To perform a cross-over study in order to evaluate the effect of the
+      intervention on PCP behavior and PCPs' intention to change behavior.
+
+      Specific Aim 2 Study Procedures Please see below for detailed description of the clinical
+      trial.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">August 1, 2020</start_date>
+  <completion_date type="Anticipated">September 1, 2024</completion_date>
+  <primary_completion_date type="Anticipated">September 1, 2024</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>PCPs will be stratified based on two factors (size of CKD panel and mean SBP). Within these strata, PCPs will be randomized to intervention and control arms in a 1:1 ratio. At study start, each CKD patient seen by a participating PCP will be assigned to the same arm as their PCP. The intervention will be in place for 12 months and data collection will continue for an additional 12 months. In the second phase of the study, we have embedded a one-way (unidirectional) cross-over design (i.e., the PCPs cross over in one direction only, from control to intervention). The second phase of the study will allow us to detect secular trends and contamination, which will serve as preliminary data for future trials.</intervention_model_description>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Systolic Blood Pressure (SBP)</measure>
+    <time_frame>12 months</time_frame>
+    <description>Final systolic blood pressure within 12 months after enrollment</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Difference in SBP over 12 month period (difference-in-differences)</measure>
+    <time_frame>12 months</time_frame>
+    <description>Final SBP within 12 months after enrollment minus baseline SBP to account for any baseline SBP differences</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Controlled blood pressure rate</measure>
+    <time_frame>12 months</time_frame>
+    <description>Proportion of patients in each arm with BP &lt;140/90 mmHg 12 months after enrollment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Systolic Blood Pressure (secondary)</measure>
+    <time_frame>48 months</time_frame>
+    <description>Intent to intervene analysis with imputation of missing BP measurements</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Physician Use of Clinical Decision Support</measure>
+    <time_frame>48 months</time_frame>
+    <description>Interaction with the clinical decision support (CDS), signing of orders, or accountable justification documentation within the CDS.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">180</enrollment>
+  <condition>Chronic Kidney Diseases</condition>
+  <condition>Hypertension</condition>
+  <arm_group>
+    <arm_group_label>Intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Intervention arm will receive guidance within electronic health record from clinical decision support system for the first phase of the study, after which they will continue providing usual care.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The control arm will continue to provide usual care until the second phase of the study when they will begin to receive intervention.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Intervention Phase One</intervention_name>
+    <description>The intervention will be a clinical decision support (CDS) system that contains three main features: 1) methods to synthesize electronic health record (EHR) data in order to identify under-diagnosed chronic conditions (synthesize existing medical data to increase recognition of CKD and uncontrolled HTN in CKD patients and deliver management recommendations based on this evidence), 2) iterative improvement to maximize &quot;informativeness&quot; of the CDS, and 3) the use of three behavioral &quot;nudges&quot; (pre-checked default orders, in-person conference with study team to obtain commitment to following the CDS recommendations and requiring an &quot;accountable justification&quot; if the PCP does not follow the recommendations). This intervention will be administered during the first phase of the study.</description>
+    <arm_group_label>Intervention</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Intervention Phase Two</intervention_name>
+    <description>The intervention will be a clinical decision support (CDS) system that contains three main features: 1) methods to synthesize electronic health record (EHR) data in order to identify under-diagnosed chronic conditions (synthesize existing medical data to increase recognition of CKD and uncontrolled HTN in CKD patients and deliver management recommendations based on this evidence), 2) iterative improvement to maximize &quot;informativeness&quot; of the CDS, and 3) the use of three behavioral &quot;nudges&quot; (pre-checked default orders, in-person conference with study team to obtain commitment to following the CDS recommendations and requiring an &quot;accountable justification&quot; if the PCP does not follow the recommendations). This intervention will be administered during the second phase of the study.</description>
+    <arm_group_label>Control</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        All PCPs will be eligible for the intervention. PCPs who have patients meeting inclusion
+        criteria below will be enrolled.
+
+        Inclusion Criteria:
+
+          -  18 years or older
+
+          -  Has visit with PCP at one of the intervention practices during the 12 months before
+             the study period
+
+          -  Chronic Kidney Disease, defined as two prior estimated glomerular filtration rate
+             (eGFR) 16-59 mL/min/1.73m2 separated by 90 days (as calculated by CKD-EPI) or two
+             prior urine albumin to creatinine ratio (UACR) &gt;30 mg/g.
+
+        Exclusion Criteria:
+
+          -  None
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Lipika Samal, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Brigham and Women's Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Lipika Samal, MD</last_name>
+    <phone>617-732-7812</phone>
+    <email>LSAMAL@BWH.HARVARD.EDU</email>
+  </overall_contact>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>September 11, 2018</study_first_submitted>
+  <study_first_submitted_qc>September 18, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 20, 2018</study_first_posted>
+  <last_update_submitted>July 7, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 7, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 8, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Brigham and Women's Hospital</investigator_affiliation>
+    <investigator_full_name>Lipika Samal</investigator_full_name>
+    <investigator_title>Director of Brigham and Women's Primary Care Practice-based Research Network</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Kidney Diseases</mesh_term>
+    <mesh_term>Renal Insufficiency, Chronic</mesh_term>
+    <mesh_term>Hypertension</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

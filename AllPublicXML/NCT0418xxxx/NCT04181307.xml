@@ -1,0 +1,165 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04181307</url>
+  </required_header>
+  <id_info>
+    <org_study_id>19-01464</org_study_id>
+    <nct_id>NCT04181307</nct_id>
+  </id_info>
+  <brief_title>A Randomized Trial of a BE-EHR Module to Guide the Care of Older Adults With Diabetes</brief_title>
+  <official_title>A Randomized Trial of a BE-EHR Module to Guide the Care of Older Adults With Diabetes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>NYU Langone Health</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>NYU Langone Health</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This RCT will test a new electronic health record module to improve guideline-compliant care
+      of older adults with diabetes. The module incorporates effective behavioral economics (BE)
+      principles to improve the degree to which care of older adults is compliant with Choosing
+      Wisely (CW) guidelines; this generally involves less aggressive targets for HbA1c, and
+      reductions of medications other than metformin. The implementation of the module is triggered
+      by patient scheduling and medication prescribing in EPIC. The BE principles include
+      suggesting alternatives to medications, requiring justification, setting of appropriate
+      default order sets, and incorporation of anchoring and checklists to guide behavior.
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">January 2020</start_date>
+  <completion_date type="Anticipated">December 2022</completion_date>
+  <primary_completion_date type="Anticipated">July 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Changes in Choosing Wisely compliance status</measure>
+    <time_frame>throughout the study, at the end of the 18 months study</time_frame>
+    <description>In order to evaluate Choosing Wisely compliance status, the BE-EHR algorithm will capture information on demographics, diagnoses in the patient's problem list, prescription history, and relevant lab results (i.e. allergies and blood glucose (HbA1c)) The study team members will not collect this information directly; data will be collected in NYULH's EHR system, EPIC, and an EPIC Reporting analyst will extract the relevant parameters from the EHR into a report. The study team members only receive the ultimate determination from the algorithm that the patient is either CW-compliant or CW-noncompliant.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Changes in Tailored Advisory module</measure>
+    <time_frame>throughout the study, at the end of the 18 months study</time_frame>
+    <description>The Tailored Advisory nudge activates in Epic for any patient who is not CW compliant. For each patient seen, clinicians can respond by clicking the &quot;Agree with recommendation. Action taken&quot; button, or by selecting the &quot;Clinically inappropriate. Please explain&quot; option, with space for free text comments. A response is not required.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Changes in Refill Protocol module</measure>
+    <time_frame>throughout the study, at the end of the 18 months study</time_frame>
+    <description>The Refill Protocol nudge activates in Epic any time a medication refill for either Metformin or a non-Metformin diabetes medication is generated for a patient over 75</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Changes in Preference List module</measure>
+    <time_frame>throughout the study, at the end of the 18 months study</time_frame>
+    <description>The Preference List nudge is a system level nudge at the pilot sites. Metformin is listed at the top of the page as the choice for &quot;First-line Type 2 Diabetes,&quot; without restricting orders for non-Metformin medications</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Changes in Lab Result module</measure>
+    <time_frame>throughout the study, at the end of the 18 months study</time_frame>
+    <description>The Lab Result nudge activates in Epic whenever there is a new A1c lab result for a non-CW compliant patient; the alert remains active in Epic for seven days following the result.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Changes in Peer Comparison module</measure>
+    <time_frame>throughout the study, at the end of the 18 months study</time_frame>
+    <description>The Peer Comparison nudge is sent via a secured Microsoft Outlook account once per month. The subject line of the email is &quot;Message from the desk of Dr. [Insert Practice Director Name]&quot; and the email content includes three graphics: a CW compliance rate for the individual provider, a CW compliance rate for the clinician's practice site, and a CW compliance rate across all NYU Langone practices. Depending on whether the clinician's CW compliance rate was above or below the rate of their respective practice, the provider receives either a &quot;negative&quot; or &quot;positive&quot; version of the email</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Changes in Campaign module</measure>
+    <time_frame>throughout the study, at the end of the 18 months study</time_frame>
+    <description>The campaign toolkit for dissemination includes three gameshow-themed animations (Price is Right, Jeopardy, and Who Wants to Be a Millionaire), as well as a flashcard deck that quizzes physicians on CW best practices. The Price is Right campaign includes three unique variations and the Jeopardy campaign includes four unique variations.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">5000</enrollment>
+  <condition>Diabetes</condition>
+  <arm_group>
+    <arm_group_label>standard EPIC instantiation</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>As per standard procedure at NewYorkUniversity Langone Health</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>standard EPIC instantiation plus the BE-EHR module.</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The BE-EHR module includes six components: 1) a tailored advisory for patients over 75 with diabetes, 2) medication refill protocol with information on Choosing Wisely guidelines, 3) pre-population of the medication preference list with metformin, 4) lab result protocol with information on Choosing Wisely guidelines, 5) peer comparisons regarding performance meeting guidelines, and 6) media campaign with information about Choosing Wisely guidelines. The set of nudges is referred to collectively as the BE-EHR module.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>BE-EHR module</intervention_name>
+    <description>The BE-EHR module includes six components: 1) a tailored advisory for patients over 75 with diabetes, 2) medication refill protocol with information on Choosing Wisely guidelines, 3) pre-population of the medication preference list with metformin, 4) lab result protocol with information on Choosing Wisely guidelines, 5) peer comparisons regarding performance meeting guidelines, and 6) media campaign with information about Choosing Wisely guidelines. The set of nudges is referred to collectively as the BE-EHR module.</description>
+    <arm_group_label>standard EPIC instantiation plus the BE-EHR module.</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patient at NYULH primary care or endocrinology practice
+
+          -  Practices that have patients aged 75 or older
+
+          -  Practices that have a diagnosis of diabetes in the EHR chart
+
+        Exclusion Criteria:
+
+        • Under age 75
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>75 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Andrea Troxel, ScD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>NYU Langone</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Andrea Troxel, ScD</last_name>
+    <phone>646-501-3654</phone>
+    <email>Andrea.troxel@nyulangone.org</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Farrah Duplessis</last_name>
+    <email>Farrah.duplessis@nyulangone.org</email>
+  </overall_contact_backup>
+  <verification_date>November 2019</verification_date>
+  <study_first_submitted>November 26, 2019</study_first_submitted>
+  <study_first_submitted_qc>November 26, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 29, 2019</study_first_posted>
+  <last_update_submitted>November 26, 2019</last_update_submitted>
+  <last_update_submitted_qc>November 26, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 29, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Individual participant data that underlie the results reported in this article, after deidentification (text, tables, figures, and appendices).</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_time_frame>Beginning 9 months and ending 36 months following article publication or as required by a condition of awards and agreements supporting the research.</ipd_time_frame>
+    <ipd_access_criteria>The investigator who proposed to use the data. Upon reasonable request. Requests should be directed to andrea.troxel@nyulangone.org. To gain access, data requestors will need to sign a data access agreement.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,1293 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04352556</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HM-COVID19-Italy</org_study_id>
+    <nct_id>NCT04352556</nct_id>
+  </id_info>
+  <brief_title>COVID19-hematological Malignancies: the Italian Hematology Alliance</brief_title>
+  <official_title>SARS-CoV-2 Infection in Patients With Hematological Malignancies: the Italian Hematology Alliance</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Ospedale di Circolo - Fondazione Macchi</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Ospedale di Circolo - Fondazione Macchi</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a retrospective/prospective, cohort, non-interventional observational study. This
+      means that all patients with documented COVID and HM diagnosed between February 2020 and
+      study initiation will compose the retrospective part, while those diagnosed after study
+      approval will enter prospective part.
+
+      The total duration of the study will be 12 months.
+
+      The study population will must be older than 18 years of age with HM and SARS-CoV-2
+      infection. All patients with documented SARS-CoV-2 infection (COVID) and history or active
+      hematological malignancies, who refer to any Hematological Unit will be included.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a retrospective/prospective, cohort, non-interventional observational study. An
+      informed consensus for the participation is available. In this section we provide
+      informations on sample size and statistical analysis.
+
+      In Italy, the projected estimate of complete HM prevalence at Jan 1, 2020 has been
+      established as 48,254 cases for Hodgkin lymphoma, 110.715 cases for non Hodgkin Lymphomas,
+      67,301 for leukemias, and 25,066 for multiple myeloma (Guzzinati et al, BMC Cancer 2018). The
+      Italian Dipartimento della Protezione Civile website reported (March 23, 2020) that 63,927
+      cases are currently infected with SARS-CoV-2. No formal sample size calculation was made for
+      this project but, on the basis of data available to date, considering the prevalence of
+      hematological patients in Italy (0.4%) and assuming that these patients have the same risk of
+      contracting COVID-19 as the general population, we supposed to enroll at least 250 patients
+      (at March 24, 2020).
+
+      Statistical analyses All data collected will be summarized using appropriate descriptive
+      statistics: absolute and relative frequencies for discrete variables; mean, standard
+      deviation, median and interquartile range for continuous ones. To identify factors
+      significantly associated with composite endpoint, log-binomial regression will be used for
+      modelling risk ratio together with 95% confidence interval estimated.
+
+      The least absolute shrinkage and selection operator (LASSO) method will be applied for
+      selecting the factors able to independently predict primary end-point. LASSO selects
+      variables correlates to the measured outcome by shrinking coefficients weights, down to zero
+      for the ones not correlated to outcome. In addition, machine learning techniques will be used
+      for validating results from LASSO. A weight will be assigned to each coefficient of the
+      selected predictors and weights will be summed to produce a total aggregate score. Predictive
+      performance will be assessed through discrimination and calibration. Discrimination indicates
+      how well the model can distinguish individuals with the outcome from those without the
+      outcome. Two, the net reclassification improvement (NRI) will be calculated for assessing the
+      'net' number of individuals correctly reclassified using &quot;the new model&quot; over a comparator
+      index [i.e., CCI (Charlson Comorbidity Score) or MCS (Multisource Comorbidity Score), or
+      HM-disease specific]. Calibration ascertains the concordance between the model's predictions
+      and observed outcomes, which we evaluated using a calibration plot. Cartographic and
+      geostatistical methods will be used to exploring the spatial patterns of disease. An
+      Exploratory Spatial Data Analysis (ESDA) and the Kriging method will be also applied to
+      describe and model spatial (geographical) pattern.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 7, 2020</start_date>
+  <completion_date type="Anticipated">April 30, 2021</completion_date>
+  <primary_completion_date type="Anticipated">April 30, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>To evaluate mortality.</measure>
+    <time_frame>At 2 months from study initiation</time_frame>
+    <description>The percentage of HM patients with COVID-19 who died.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>To evaluate potential predictive biochemical parameters of mortality.</measure>
+    <time_frame>At 2 months from study initiation</time_frame>
+    <description>We will assess the correlation between some biochemical parameters at diagnosis of COVID (i.e. hemoglobin, platelets, lymphocytes, clotting tests, CRP), each on the basis of its specific unit of measure, and mortality.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>To evaluate potential predictive HM-related parameters of mortality.</measure>
+    <time_frame>At 2 months from study initiation</time_frame>
+    <description>We will assess the correlation between HM-related parameters at diagnosis of COVID [i.e. disease type (leukemia, lymphomas, myeloma), disease status (remission / stable / progression), therapy status (on / off therapy)] and mortality.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>To evaluate COVID severity as predictive parameter of mortality.</measure>
+    <time_frame>At 2 months from study initiation</time_frame>
+    <description>We will assess the correlation between COVID severity [mild (non-pneumonia and mild pneumonia), severe (dyspnea, respiratory frequency ≥ 30/min, SpO2 ≤ 93%, PaO2/FiO2 &lt; 300 and/or lung infiltrates &gt; 50%) and critical (respiratory failure, septic shock, and/or multiple organ disfunction or failure)] and mortality</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Epidemiology of patients with HM infected by SARS-CoV-2with any spectrum of illness severity</measure>
+    <time_frame>At 6 months from study initiation</time_frame>
+    <description>Description of the different types of hematological malignancies (WHO criteria) in patients with SARS-CoV-2 infection. All aggregated data will be stratified on the basis of COVID severity: mild (non-pneumonia and mild pneumonia), severe (dyspnea, respiratory frequency ≥ 30/min, SpO2 ≤ 93%, PaO2/FiO2 &lt; 300 and/or lung infiltrates &gt; 50%) and critical disease (respiratory failure, septic shock, and/or multiple organ disfunction or failure)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Definition of complete clinical picture of COVID-19 in HM</measure>
+    <time_frame>At 2 months from study initiation</time_frame>
+    <description>Characterization of clinical and biochemical profile of patients with SARS-CoV-2 positivity.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Evolution of HM</measure>
+    <time_frame>At 2 months from study initiation</time_frame>
+    <description>Assessment of HM status post SARS-CoV-2 infection stratified as no implication, loss of response, progression of the hematological disease.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>To evaluate admission to ICU requiring mechanical ventilation or death per characteristics</measure>
+    <time_frame>At 2 months from study initiation</time_frame>
+    <description>Percentage of HM patients being admitted to ICU requiring mechanical ventilation, or death stratified per disease type, status, per off-therapy/on-therapy, per type of therapy (chemo, immunotherapy, cell therapy, stem cell transplant).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Viral dynamics in infected HM patients</measure>
+    <time_frame>At 12 months from study initiation</time_frame>
+  </secondary_outcome>
+  <enrollment type="Anticipated">250</enrollment>
+  <condition>SARS-CoV-2 Infection</condition>
+  <condition>Hematological Malignancies</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study population will must be older than 18 years of age with Hematological
+        malignancies and SARS-CoV-2 infection.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age equal to or greater than 18 years of age.
+
+          -  History of hematological malignancies (acute leukemias, myelodysplastic syndromes,
+             myeloproliferative neoplasms, lymphomas, myeloma).
+
+          -  Active hematological malignancies (acute leukemias, myelodysplastic syndromes,
+             myeloproliferative neoplasms, lymphomas, myeloma) at any stage/status.
+
+          -  SARS-CoV-2 positive test (nasopharyngeal, BAL, fecal), documented by Real-Time Reverse
+             Transcriptase (RT)-PCR Diagnostic Panels.
+
+        Exclusion Criteria:
+
+          -  Hematological diseases, other than hematological malignancies.
+
+          -  SARS-CoV-2 negative test.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Francesco Passamonti, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Ospedale di Circolo e Fondazione Macchi, ASST Sette Laghi, Varese, Italy</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Francesco Passamonti, MD</last_name>
+    <phone>+39-0332-393648</phone>
+    <email>francesco.passamonti@asst-settelaghi.it</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Marco Salvini, MD</last_name>
+    <email>marcosalvini83@gmail.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>SC Ematologia Ospedale SS Antonio e Biagio e Cesare Arrigo</name>
+      <address>
+        <city>Alessandria</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Marco Ladetto, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia, Ospedali Riuniti</name>
+      <address>
+        <city>Ancona</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Attilio Olivieri, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia e Terapia Cellulare, Ospedale Mazzoni</name>
+      <address>
+        <city>Ascoli Piceno</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Piero Galieni, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>SC Oncologia Medica, CRO</name>
+      <address>
+        <city>Aviano</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Michele Spina, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>SC Ematologia, Policlinico Bari</name>
+      <address>
+        <city>Bari</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Pellegrino Musto, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia, I.R.C.C.S Istituto Tumori Giovanni Paolo II</name>
+      <address>
+        <city>Bari</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Attilio Guarini, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>SSD Ematologia, Ospedale degli Infermi</name>
+      <address>
+        <city>Biella</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Anna Conconi, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia, Azienda Ospedaliero-Universitaria Policlinico S.Orsola-Malpighi,</name>
+      <address>
+        <city>Bologna</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Michele Cavo, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Ematologia e Centro Trapianto Midollo Osseo, Ospedale di Bolzano</name>
+      <address>
+        <city>Bolzano</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Atto Billio, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Ematologia e CTMO, ASST Spedali Civili</name>
+      <address>
+        <city>Brescia</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Domenico Russo, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Ematologia e CTMO, ASST Spedali Civili</name>
+      <address>
+        <city>Brescia</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Chiara Cattaneo, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Onco-Ematologia ASST Valle Olona</name>
+      <address>
+        <city>Busto Arsizio</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Fabrizio Ciambelli, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>SC Ematologia e CTMO AZIENDA OSPEDALIERA &quot;G. BROTZU&quot; - OSPEDALE ONCOLOGICO BUSINCO</name>
+      <address>
+        <city>Cagliari</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Giorgio La Nasa, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia, AOU Policlinico Vittorio Emanuele</name>
+      <address>
+        <city>Catania</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Francesco Di Raimondo, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Ematologia, Ospedale Valduce</name>
+      <address>
+        <city>Como</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Mauro Turrini, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia, Azienda Ospedaliera di Cosenza</name>
+      <address>
+        <city>Cosenza</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Massimo Gentile, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Ematologia e CTMO, ASST Cremona</name>
+      <address>
+        <city>Cremona</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alfredo Molteni, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>SC Ematologia Ospedale S. Croce</name>
+      <address>
+        <city>Cuneo</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Massimo Massaia, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC, Ematologia Azienda Ospedaliero Universitaria Arcispedale S. Anna</name>
+      <address>
+        <city>Ferrara</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Antonio Cuneo, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>S.O.D. Ematologia, Azienda Ospedaliero Universitaria Careggi</name>
+      <address>
+        <city>Firenze</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alberto Bosi, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia, Policlinico Ospedali Riuniti</name>
+      <address>
+        <city>Foggia</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Celestino Ferrandina, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>IRST-IRCC di Meldola</name>
+      <address>
+        <city>Forlì</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Giovanni Martinelli, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Ematologia, Ospedale Policlinico S.Martino IRCCS</name>
+      <address>
+        <city>Genova</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Roberto Lemoli, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Ematologia, Ospedale Policlinico San Martino</name>
+      <address>
+        <city>Genova</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Emanuele Angelucci, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC di Ematologia e Trapianto di Cellule Staminali, P.O. Vito Fazzi</name>
+      <address>
+        <city>Lecce</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Nicola Di Renzo, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC di Ematologia, Ospedale di Legnano</name>
+      <address>
+        <city>Legnano</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alessandro Corso, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Dipartimento di Ematologia, USL 6</name>
+      <address>
+        <city>Livorno</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Annarosa Cuccaro, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Oncologia ASST Lodi</name>
+      <address>
+        <city>Lodi</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alessandro Inzoli, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia Azienda Ospedaliera Universitaria &quot;G.Martino&quot;</name>
+      <address>
+        <city>Messina</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Caterina Musolino, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Ematologia, Ospedale dell'Angelo di Mestre</name>
+      <address>
+        <city>Mestre</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Renato Bassan, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Ematologia, IEO</name>
+      <address>
+        <city>Milano</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Corrado Tarella, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>SC Ematologia, Istituto Nazionale dei Tumori</name>
+      <address>
+        <city>Milano</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Paolo Corradini, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>SC Ematologia, Ospedale Niguarda</name>
+      <address>
+        <city>Milano</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Roberto Cairoli, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Ematologia, IRCCS Ospedale San Raffaele</name>
+      <address>
+        <city>Milano</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Fabio Ciceri, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Servizio di Ematologia e Medicina Trasfusionale, Ospedale Luigi Sacco</name>
+      <address>
+        <city>Milano</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Augusto Federici, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia, Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico</name>
+      <address>
+        <city>Milano</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Nicola Fracchiolla, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Ematologia Policlinico di Modena</name>
+      <address>
+        <city>Modena</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Mario Luppi, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia, Ospedale S. Gerardo</name>
+      <address>
+        <city>Monza</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Carlo Gambacorti Passerini, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>SC Ematologia Istituto Nazionale Tumori - IRCCS &quot;Fondazione G. Pascale&quot;,</name>
+      <address>
+        <city>Napoli</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Antonio Pinto, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia e Trapianti di Midollo, AOU Federico II</name>
+      <address>
+        <city>Napoli</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Fabrizio Pane, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia, Ospedale Antonio Cardarelli</name>
+      <address>
+        <city>Napoli</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Felicetto Ferrara, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia, Azienda Ospedaliero-Universitaria Maggiore della Carità</name>
+      <address>
+        <city>Novara</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Gianluca Gaidano, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Ospedale san Luigi Gonzaga</name>
+      <address>
+        <city>Orbassano</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Daniela Cilloni, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Ematologia Azienda Ospedaliera di Padova</name>
+      <address>
+        <city>Padova</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Giampietro Semenzato, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Ematologia, Policlinico Paolo Giaccone</name>
+      <address>
+        <city>Palermo</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Sergio Siragusa, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia e CTMO, Azienda Ospedaliero-Universitaria di Parma</name>
+      <address>
+        <city>Parma</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Nicola Giuliani, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>SC Ematologia, Fondazione IRCCS Policlinico San Matteo</name>
+      <address>
+        <city>Pavia</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Luca Arcaini, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>SC Ematologia e Trapianto di Midollo Osseo, Azienda Ospedaliera di Perugia</name>
+      <address>
+        <city>Perugia</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Brunangelo Falini, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Ematologia e CTMO, Azienda Ospedaliera Ospedali Riuniti</name>
+      <address>
+        <city>Pesaro</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Giuseppe Visani, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC di Ematologia, Ospedale Civile Spirito Santo</name>
+      <address>
+        <city>Pescara</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Antonio Spadano, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Ematologia e CTMO, Presidio Ospedaliero di Piacenza</name>
+      <address>
+        <city>Piacenza</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Daniele Vallisa, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Ematologia, AOU Pisana- Santa Chiara</name>
+      <address>
+        <city>Pisa</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Sara Galimberti, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Ematologia dell'Ospedale Santa Maria delle Croci</name>
+      <address>
+        <city>Ravenna</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Francesco Lanza, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia, Grande Ospedale Metropolitano Bianchi-Melacrino-Morelli</name>
+      <address>
+        <city>Reggio Calabria</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Bruno Martino, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>SC Ematologia, Arcispedale Santa Maria Nuova</name>
+      <address>
+        <city>Reggio Emilia</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Francesco Merli, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Ematologia, Ospedale Infermi</name>
+      <address>
+        <city>Rimini</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Patrizia Tosi, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>AOU Azienda Ospedaliera Universitaria Sant'Andrea</name>
+      <address>
+        <city>Roma</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Agostino Tafuri, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>IFO - Ematologia e Trapianto Cellule -Istituto Nazionale del Cancro di Regina Elena</name>
+      <address>
+        <city>Roma</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Francesco Marchesi, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>SC Ematologia, Fondazione Policlinico Universitario Agostino Gemelli IRCCS</name>
+      <address>
+        <city>Roma</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Livio Pagano, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Ematologia e Trapianti di Cellule Staminali, A.O. S. Camillo-Forlanini</name>
+      <address>
+        <city>Roma</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Luigi Rigacci, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Ematologia, Policlinico Tor Vergata</name>
+      <address>
+        <city>Roma</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Adriano Venditti, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia e trapianto di cellule staminali, Policlinico Universitario Campus Bio-Medico</name>
+      <address>
+        <city>Roma</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Giuseppe Avvisati, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia Policlinico Umberto I</name>
+      <address>
+        <city>Roma</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Maurizio Martelli, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia, Fondazione Policlinico Universitario Agostino Gemelli IRCCS</name>
+      <address>
+        <city>Roma</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Valerio De Stefano, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia- Azienda Ospedaliera San Giovanni Addolorata</name>
+      <address>
+        <city>Roma</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Laura Cudillo, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Ematologia, Istituto Clinico Humanitas</name>
+      <address>
+        <city>Rozzano</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Matteo Della Porta, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia e centro trapianti cellule staminali emopoietiche, AOU San Giovanni Di Dio e Ruggi D'aragona</name>
+      <address>
+        <city>Salerno</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Carmine Selleri, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Ematologia ASL Imperiese</name>
+      <address>
+        <city>Sanremo</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Tullio Calzamiglia, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Medicina Interna ed Ematologia, Asl 1</name>
+      <address>
+        <city>Savona</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Marina Cavaliere, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia, Policlinico Santa Maria alle Scotte</name>
+      <address>
+        <city>Siena</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Monica Bocchia, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia e Trapianto Midollo Osseo, Ospedale S. G. Moscati</name>
+      <address>
+        <city>Taranto</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Patrizio Mazza, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>SCDU Ematologia e terapie cellulari, Ospedale Mauriziano Umberto I</name>
+      <address>
+        <city>Torino</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Carmen Fava, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Ematologia, Ospedale Universitario Molinette San Giovanni Battista</name>
+      <address>
+        <city>Torino</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Benedetto Bruno, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Ematologia, Ospedale Universitario Molinette San Giovanni Battista</name>
+      <address>
+        <city>Torino</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alessandro Busca, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UO Ematologia, Ospedale Civili Ca' Foncello</name>
+      <address>
+        <city>Treviso</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Filippo Gherlinzoni, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>SC Ematologia, Azienda sanitaria universitaria Giuliano Isontina</name>
+      <address>
+        <city>Trieste</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Francesco Zaja, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Clinica Ematologia, Azienda Ospedaliera-Universitaria Santa Maria della Misericordia</name>
+      <address>
+        <city>Udine</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Renato Fanin, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia, ASST Sette Laghi, Osp. Di Circolo e Fondazione Macchi</name>
+      <address>
+        <city>Varese</city>
+        <zip>21100</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Francesco Passamonti, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia, Azienda Ospedaliera Integrata di Verona</name>
+      <address>
+        <city>Verona</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Mauro Krampera, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia, Azienda Ospedaliera Integrata di Verona</name>
+      <address>
+        <city>Verona</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Carlo Visco, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UOC Ematologia, Ospedale San Bortolo</name>
+      <address>
+        <city>Vicenza</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Marco Ruggeri, MD</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <reference>
+    <citation>Guan WJ, Ni ZY, Hu Y, Liang WH, Ou CQ, He JX, Liu L, Shan H, Lei CL, Hui DSC, Du B, Li LJ, Zeng G, Yuen KY, Chen RC, Tang CL, Wang T, Chen PY, Xiang J, Li SY, Wang JL, Liang ZJ, Peng YX, Wei L, Liu Y, Hu YH, Peng P, Wang JM, Liu JY, Chen Z, Li G, Zheng ZJ, Qiu SQ, Luo J, Ye CJ, Zhu SY, Zhong NS; China Medical Treatment Expert Group for Covid-19. Clinical Characteristics of Coronavirus Disease 2019 in China. N Engl J Med. 2020 Apr 30;382(18):1708-1720. doi: 10.1056/NEJMoa2002032. Epub 2020 Feb 28.</citation>
+    <PMID>32109013</PMID>
+  </reference>
+  <reference>
+    <citation>Lu R, Zhao X, Li J, Niu P, Yang B, Wu H, Wang W, Song H, Huang B, Zhu N, Bi Y, Ma X, Zhan F, Wang L, Hu T, Zhou H, Hu Z, Zhou W, Zhao L, Chen J, Meng Y, Wang J, Lin Y, Yuan J, Xie Z, Ma J, Liu WJ, Wang D, Xu W, Holmes EC, Gao GF, Wu G, Chen W, Shi W, Tan W. Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet. 2020 Feb 22;395(10224):565-574. doi: 10.1016/S0140-6736(20)30251-8. Epub 2020 Jan 30.</citation>
+    <PMID>32007145</PMID>
+  </reference>
+  <reference>
+    <citation>Xia Y, Jin R, Zhao J, Li W, Shen H. Risk of COVID-19 for patients with cancer. Lancet Oncol. 2020 Apr;21(4):e180. doi: 10.1016/S1470-2045(20)30150-9. Epub 2020 Mar 3.</citation>
+    <PMID>32142622</PMID>
+  </reference>
+  <reference>
+    <citation>Wang H, Zhang L. Risk of COVID-19 for patients with cancer. Lancet Oncol. 2020 Apr;21(4):e181. doi: 10.1016/S1470-2045(20)30149-2. Epub 2020 Mar 3.</citation>
+    <PMID>32142621</PMID>
+  </reference>
+  <reference>
+    <citation>Corrao G, Rea F, Di Martino M, De Palma R, Scondotto S, Fusco D, Lallo A, Belotti LMB, Ferrante M, Pollina Addario S, Merlino L, Mancia G, Carle F. Developing and validating a novel multisource comorbidity score from administrative data: a large population-based cohort study from Italy. BMJ Open. 2017 Dec 26;7(12):e019503. doi: 10.1136/bmjopen-2017-019503.</citation>
+    <PMID>29282274</PMID>
+  </reference>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>April 9, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 16, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 20, 2020</study_first_posted>
+  <last_update_submitted>April 30, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 30, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 4, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Ospedale di Circolo - Fondazione Macchi</investigator_affiliation>
+    <investigator_full_name>Francesco Passamonti</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Hematological Malignancies</keyword>
+  <keyword>Covid-19</keyword>
+  <keyword>SARS-CoV-2</keyword>
+  <keyword>Italian Hematology Alliance</keyword>
+  <keyword>Leukemia</keyword>
+  <keyword>Lymphoma</keyword>
+  <keyword>Multiple Myeloma</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Infection</mesh_term>
+    <mesh_term>Hematologic Neoplasms</mesh_term>
+    <mesh_term>Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

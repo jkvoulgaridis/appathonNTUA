@@ -1,0 +1,307 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04441775</url>
+  </required_header>
+  <id_info>
+    <org_study_id>D20003</org_study_id>
+    <secondary_id>75N91019C00054-0-9999-1</secondary_id>
+    <nct_id>NCT04441775</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence for Prostate Cancer Treatment Planning</brief_title>
+  <official_title>Protocol for the Development of a Machine Learning Model for Prostate Cancer Treatment Planning</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Dartmouth-Hitchcock Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Oregon Health and Science University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Massachusetts, Worcester</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Nicolalde R&amp;D, LLC</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Cancer Institute (NCI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>NRG Oncology</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Dartmouth-Hitchcock Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This project's goal is to develop and test an application that uses Artificial Intelligence
+      (AI) to improve consistency and quality of Radiation Treatment (RT) plans for prostate
+      cancer. By understanding expert planner preferences in structure contouring and treatment
+      planning, and combining this framework with planning data and outcomes amassed in NRG
+      clinical trials, AI models may be trained to produce contours and treatment plans that are
+      indistinguishable or even potentially deemed superior to those produced by individual
+      experts.
+
+      At the conclusion of this contract, the awardees will provide a software product which, when
+      given the input of a description of desired anatomical target volumes and target doses along
+      with a patient's CT scans, will generate target volumes and radiation treatment plans based
+      upon a &quot;gold standard&quot; amalgamated from the input of multiple experts, thereby achieving
+      desired doses to target volumes while meeting or exceeding the dose-volume constraints
+      imposed by adjacent normal tissues.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      PHASE 1
+
+        1. Develop a process and tools (DAST) to capture the rationale, criteria, and logical basis
+           behind the treatment planning process using well understood Human Factors knowledge
+           gathering methodologies and Machine Learning tools.
+
+        2. Build the AI technology to learn the process and apply it to generating treatment plans.
+           Images and expert-drawn volumes from Radiation Therapy Oncology Group (RTOG) 0938 will
+           be used for initial training of the AI system. These data are not Dartmouth-Hitchcock
+           Medical Center (DHMC) patients, but rather were consented and acquired through RTOG
+           0938. These data are housed at NRG/RTOG headquarters in Philadelphia. NRG already has an
+           established, IRB-approved protocol for exploring AI systems for the 0938 data set. A
+           minimum of 30 cases will be used for this initial training work for the AI system to
+           &quot;learn&quot; volume segmentation of important structures and targets. Additional patients
+           from the available 200+ patients on 0938 may be added for additional AI learning of
+           volume segmentation as initial software programming is implemented.
+
+        3. Determine the optimal number of historic treatment plans to train the AI technology and
+           test it. 45 cases will be provided by NRG from NRG/RTOG studies 0415, 0126, and 0521
+           (totaling 135 cases), respectively representing favorable-, intermediate-, and high-risk
+           prostate cancer treatments. These scans and expert-defined volumes are part of NRG
+           datasets housed in Philadelphia. All these patients already signed study-specific
+           consents which included permissions to allow personally specific clinical information to
+           be used for other cancer-related studies. IRB review of the use of these data for this
+           specific study is anticipated to be achieved through NRG mechanisms in the context of
+           these prior consents, to assure that the use of these data for this specific AI study is
+           appropriate and approved. Provision is anticipated of a total of 30 additional patient
+           cases as &quot;gold standards,&quot; 10 each from DHMC, University of Massachusetts (UMass), and
+           Oregon Health Sciences University (OHSU), respectively, all initially planned and
+           treated within the 2015-2018 time frame. The first 5 from each institution will be
+           favorable-risk patients, and the next 5 from each institution will be high-risk patients
+           (thereby achieving a wide range of treatment approaches, with more to be added
+           subsequently). As part of this effort, each individual institution will contact its own
+           specific patients (5 favorable-risk, 5 high-risk) to obtain study-specific consent for
+           the use of their data for this protocol. Once anonymized, these scans and plans will be
+           shared across all three institutions. For each of these patients, the other two
+           (&quot;non-host&quot;) institutions will create their own volumes and plans. Using a modified
+           Delphi approach, the three teams will then meet to generate an agreed-upon &quot;composite&quot;
+           plan for each patient. Thus, in total there will be four treatment plans for each of
+           these 30 patients, yielding 120 total plans that will serve as the &quot;gold standard&quot; for
+           this AI project, and will be inputted for testing/validation to the AI system.
+
+           PHASE 2
+
+        4. Expand the database to include intermediate-risk patients, 5 respectively from each
+           institution, following the above procedures, to yield an additional 60 plans to serve as
+           additional inputs for the AI system.
+
+        5. Validate and test the AI technology by inputting patient images and target delineations
+           from historic case data and assessing whether the AI technology-generated plans are
+           &quot;consistent&quot; with the final plans that were created by expert clinicians.
+
+        6. Test the technology with new patient case data and validate the plan with a team of
+           expert clinicians. This will involve &quot;modified Turing tests,&quot; as developed in NRG-RTOG
+           studies exploring AI applications.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">June 22, 2020</start_date>
+  <completion_date type="Anticipated">June 2023</completion_date>
+  <primary_completion_date type="Anticipated">June 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change (trend) in AI System performance over time</measure>
+    <time_frame>Baseline measure (Phase 1): June 2021. Repeat assessments every 6 months (Phase 2): June 2021 - June 2023.</time_frame>
+    <description>Validate the AI technology by inputting images and targets from historic case data and then assessing whether the AI-generated plans are comparable or even improved when measured against plans created by expert clinicians for the same patient data. To accomplish this, methodology will employ &quot;modified Turing tests,&quot; as previously developed in NRG-RTOG studies exploring AI applications in other venues, whereby blinded experts evaluate alternative plans, score them on a variety of criteria, and more generally assess whether these were generated via machine learning or via human intelligence.
+These quantified comparisons will be performed several times. The first will be at the end of Phase I (spring of 2021). Phase II will introduce further data and plans. Repeat comparisons of AI- versus human-performance will be performed every six months during Phase II. Final comparisons and overall trend analysis will be reported at conclusion of Phase II in 2023.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">195</enrollment>
+  <condition>Prostate Cancer</condition>
+  <condition>Artificial Intelligence</condition>
+  <condition>Radiotherapy</condition>
+  <arm_group>
+    <arm_group_label>All patients for enrollment and analysis</arm_group_label>
+    <description>Patients previously treated with RT for prostate cancer who are now being enrolled into this study for data analysis and incorporation into Artificial Intelligence (AI) models</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>AI-assisted RT modelling</intervention_name>
+    <description>Artificial Intelligence assisted Radiation Treatment</description>
+    <arm_group_label>All patients for enrollment and analysis</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Male patients diagnosed with prostate xancer who have received RT and now have elected to
+        provide data for the development of AI-models.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Favorable-risk inclusion criteria (as per RTOG 0415)
+
+               1. Histologically confirmed prostate adenocarcinoma
+
+               2. Gleason Score &lt;= 3+4 = 7 ( with less than 50% of all cores positive, and no more
+                  than one core with Gleason 3+4=7)
+
+               3. Clinical stage T1-T2b
+
+               4. Prostate Specific Antigen (PSA) &lt;10 ng/ml within 180 days prior to treatment
+                  planning. PSA may not have been acquired within 30 days of stopping finasteride,
+                  or within 90 days of stopping dutasteride
+
+               5. RT treatment initiated between 1/1/15 and 12/31/16
+
+               6. Prostate MRI used as part of RT treatment planning
+
+               7. No previous hormonal therapy, such as LHRH agonists, estrogens, anti-androgens,
+                  or surgical castration
+
+               8. No previous use of finasteride within 30 days prior to planning
+
+               9. No previous use of dutasteride within 90 days prior to planning
+
+          -  High-risk inclusion criteria (as per RTOG 0521)
+
+               1. Histologically confirmed prostate adenocarcinoma
+
+               2. PSA &lt; 150
+
+               3. One of the following combinations:
+
+                    1. Gleason 7 or 8 and PSA &gt;= 20
+
+                    2. Gleason 8 and clinical T-stage &gt; T2a
+
+                    3. Gleason 9 or 10
+
+               4. Negative bone scan within 180 days of planning
+
+               5. XRT treatment initiated between 1/1/15 and 12/31/16
+
+               6. Prostate MRI used as part of RT treatment planning
+
+               7. No previous hormonal therapy, such as LHRH agonists, estrogens, anti-androgens,
+                  or surgical castration, prior to prostate cancer diagnosis
+
+          -  Intermediate-risk inclusion criteria
+
+               1. Histologically confirmed prostate adenocarcinoma
+
+               2. PSA &lt; 20
+
+               3. Gleason 7 or 8
+
+               4. Not meeting criteria for favorable- or high-risk disease, as per above
+
+               5. XRT treatment initiated between 1/1/15 and 12/31/16
+
+               6. Prostate MRI used as part of RT treatment planning
+
+               7. No previous hormonal therapy, such as LHRH agonists, estrogens, anti-androgens,
+                  or surgical castration, prior to prostate cancer diagnosis
+
+        Exclusion Criteria:
+
+          1. Prior or concurrent invasive malignancy (except non-melanomatous skin cancer) or
+             lymphomatous/hematogenous malignancy unless continually disease free for a minimum of
+             5 years
+
+          2. Evidence of distant metastases
+
+          3. Regional lymph node involvement
+
+          4. Previous radical prostate surgery or cryosurgery
+
+          5. Previous pelvic irradiation or prostate brachytherapy
+
+          6. Previous or concurrent cytotoxic chemotherapy for prostate cancer
+
+          7. Severe, active comorbidity, defined as follows:
+
+               1. Unstable angina, congestive heart failure, and/or transmural myocardial
+                  infarction requiring hospitalization within the last 6 months
+
+               2. Acute bacterial or fungal infection requiring intravenous antibiotics
+
+               3. Hepatic insufficiency resulting in clinical jaundice or coagulopathy
+
+               4. Acquired immune deficiency syndrome based upon current CDC-defined criteria
+
+          8. Zubrod performance status 2 or worse
+
+          9. Previous use of finasteride within 60 days of planning
+
+         10. Previous use of dutasteride within 180 days of planning
+      </textblock>
+    </criteria>
+    <gender>Male</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Alan C. Hartford, MD PhD FACR</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Dartmouth-Hitchcock Medical Center</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Alan C. Hartford, MD PhD FACR</last_name>
+    <phone>(603) 650-6600</phone>
+    <email>Alan.C.Hartford@hitchcock.org</email>
+  </overall_contact>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>June 6, 2020</study_first_submitted>
+  <study_first_submitted_qc>June 19, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 22, 2020</study_first_posted>
+  <last_update_submitted>June 19, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 19, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 22, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Dartmouth-Hitchcock Medical Center</investigator_affiliation>
+    <investigator_full_name>Alan Hartford</investigator_full_name>
+    <investigator_title>Associate Professor of Medicine (Radiation Oncology)</investigator_title>
+  </responsible_party>
+  <keyword>Prostate Cancer</keyword>
+  <keyword>Artificial Intelligence</keyword>
+  <keyword>Radiation Therapy</keyword>
+  <keyword>Radiation Planning</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Prostatic Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>There are no plans to share individual participant data at this time.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

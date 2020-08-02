@@ -1,0 +1,252 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04313946</url>
+  </required_header>
+  <id_info>
+    <org_study_id>0110</org_study_id>
+    <nct_id>NCT04313946</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence Algorithms for Discriminating Between COVID-19 and Influenza Pneumonitis Using Chest X-Rays</brief_title>
+  <acronym>AI-COVID-Xr</acronym>
+  <official_title>The Benefits of Artificial Intelligence Algorithms (CNNs) for Discriminating Between COVID-19 and Influenza Pneumonitis in an Emergency Department Using Chest X-Ray Examinations</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Professor Adrian Covic</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Falcon Trading Iasi</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Romanian Academy of Medical Sciences</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Grigore T. Popa University of Medicine and Pharmacy</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This project aims to use artificial intelligence (image discrimination) algorithms,
+      specifically convolutional neural networks (CNNs) for scanning chest radiographs in the
+      emergency department (triage) in patients with suspected respiratory symptoms (fever, cough,
+      myalgia) of coronavirus infection COVID 19. The objective is to create and validate a
+      software solution that discriminates on the basis of the chest x-ray between Covid-19
+      pneumonitis and influenza
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This project aims to use artificial intelligence (image discrimination) algorithms;
+
+        -  specifically convolutional neural networks (CNNs) for scanning chest radiographs in the
+           emergency department (triage) in patients with suspected respiratory symptoms (fever,
+           cough, myalgia) of coronavirus infection COVID 19;
+
+        -  the objective is to create and validate a software solution that discriminates on the
+           basis of the chest x-ray between Covid-19 pneumonitis and influenza;
+
+        -  this software will be trained by introducing X-Rays from patients with/without COVID-19
+           pneumonitis and/or flu pneumonitis;
+
+        -  the same AI algorithm will run on future X-Ray scans for predicting possible COVID-19
+           pneumonitis
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 18, 2020</start_date>
+  <completion_date type="Anticipated">August 18, 2020</completion_date>
+  <primary_completion_date type="Anticipated">August 16, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Ecologic or Community</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>COVID-19 positive X-Rays</measure>
+    <time_frame>6 months</time_frame>
+    <description>Number of participants with pneumonitis on Chest X-Ray and COVID 19 positive</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>COVID-19 negative X-Rays</measure>
+    <time_frame>6 months</time_frame>
+    <description>Number of participants with pneumonitis on Chest X-Ray and COVID 19 negative</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>COVID-19</condition>
+  <condition>Pneumonia, Viral</condition>
+  <condition>Influenza With Pneumonia</condition>
+  <condition>Flu Symptom</condition>
+  <condition>Flu Like Illness</condition>
+  <condition>Pneumonia, Interstitial</condition>
+  <condition>Pneumonia, Ventilator-Associated</condition>
+  <condition>Pneumonia Atypical</condition>
+  <arm_group>
+    <arm_group_label>Symptomatic Patients</arm_group_label>
+    <description>Our goal is to identify an artificial intelligence algorithm that can be run on lung radiographs in patients with influenza / respiratory viral symptoms who come to the emergency department / triage. This algorithm aims to identify the radiographs of patients with COVID-19 and those with influenza pneumonitis, with accuracy verified by COVID-19 tests.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Scanning Chest X-rays and performing AI algorithms on images</intervention_name>
+    <description>Chest X-Rays; AI CNNs; Results</description>
+    <arm_group_label>Symptomatic Patients</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All patients with influenza symptoms that arrive at emergency department with cough, fever,
+        myalgia - which are suspected of COVID-19 infection
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  flu-like symptoms: myalgia, cough, fever, sputum
+
+          -  Chest X-Rays
+
+          -  COVID-19 biological tests
+
+        Exclusion Criteria:
+
+          -  patient refusal
+
+          -  uncertain radiographs
+
+          -  uncertain tests results
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Alexandru Burlacu, Lecturer</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Medicine and Pharmacy Gr T Popa - Iasi</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Radu Dabija, Lecturer</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Medicine and Pharmacy Gr T Popa - Iasi</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Alexandru Burlacu, MD, PhD</last_name>
+    <phone>0040744488580</phone>
+    <email>alexandru.burlacu@umfiasi.ro</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>U.O. Multidisciplinare di Patologia Mammaria e Ricerca Traslazionale; Dipartimento Universitario Clinico di Scienze Mediche, Chirurgiche e della Salute Università degli Studi di Trieste</name>
+      <address>
+        <city>Cremona</city>
+        <zip>26100</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Daniele Generali, MD, PhD</last_name>
+      <phone>+390372408042</phone>
+      <email>dgenerali@units.it</email>
+    </contact>
+    <investigator>
+      <last_name>Daniele Generali, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>University of Medicine and Pharmacy Gr T Popa</name>
+      <address>
+        <city>Iaşi</city>
+        <zip>700503</zip>
+        <country>Romania</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alexandru Burlacu, MD, PhD</last_name>
+      <phone>0040744488580</phone>
+      <email>alexandru.burlacu@umfiasi.ro</email>
+    </contact>
+    <investigator>
+      <last_name>Alexandru Burlacu, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Department of Cardiology at Chelsea and Westminster NHS hospital</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Emmanuel Ako, MD, PhD</last_name>
+      <phone>+447932970131</phone>
+      <email>e.ako@ucl.ac.uk</email>
+    </contact>
+    <investigator>
+      <last_name>Emmanuel Ako, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+    <country>Romania</country>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>March 17, 2020</study_first_submitted>
+  <study_first_submitted_qc>March 17, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 18, 2020</study_first_posted>
+  <last_update_submitted>April 23, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 23, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 27, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Grigore T. Popa University of Medicine and Pharmacy</investigator_affiliation>
+    <investigator_full_name>Professor Adrian Covic</investigator_full_name>
+    <investigator_title>Clinical Professor</investigator_title>
+  </responsible_party>
+  <keyword>Artificial Intelligence</keyword>
+  <keyword>CNNs</keyword>
+  <keyword>COVID-19</keyword>
+  <keyword>chest X-Ray</keyword>
+  <keyword>Emergency Department</keyword>
+  <keyword>Triage</keyword>
+  <keyword>Flu</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pneumonia, Ventilator-Associated</mesh_term>
+    <mesh_term>Influenza, Human</mesh_term>
+    <mesh_term>Pneumonia, Viral</mesh_term>
+    <mesh_term>Pneumonia</mesh_term>
+    <mesh_term>Lung Diseases, Interstitial</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Yes, we would be happy to share the algorithm code and the results with any scientist interested (without any financial interests)</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_info_type>Analytic Code</ipd_info_type>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

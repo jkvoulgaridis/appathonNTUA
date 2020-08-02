@@ -1,0 +1,323 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04215536</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DUPLICATE-EMPAREG</org_study_id>
+    <nct_id>NCT04215536</nct_id>
+  </id_info>
+  <brief_title>Replication of the EMPAREG Diabetes Trial in Healthcare Claims</brief_title>
+  <official_title>Replication of the EMPA-REG OUTCOME Diabetes Trial in Healthcare Claims</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brigham and Women's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Brigham and Women's Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Investigators are building an empirical evidence base for real world data through large-scale
+      replication of randomized controlled trials. The investigators' goal is to understand for
+      what types of clinical questions real world data analyses can be conducted with confidence
+      and how to implement such studies.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a non-randomized, non-interventional study that is part of the RCT DUPLICATE
+      initiative (www.rctduplicate.org) of the Brigham and Women's Hospital, Harvard Medical
+      School. It is intended to replicate, as closely as is possible in healthcare insurance claims
+      data, the trial listed below/above. Although many features of the trial cannot be directly
+      replicated in healthcare claims, key design features, including outcomes, exposures, and
+      inclusion/exclusion criteria, were selected to proxy those features from the trial.
+      Randomization is also not replicable in healthcare claims data but was proxied through a
+      statistical balancing of measured covariates according to standard practice. Investigators
+      assume that the RCT provides the reference standard treatment effect estimate and that
+      failure to replicate RCT findings is indicative of the inadequacy of the healthcare claims
+      data for replication for a range of possible reasons and does not provide information on the
+      validity of the original RCT finding.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">July 8, 2019</start_date>
+  <completion_date type="Anticipated">September 22, 2020</completion_date>
+  <primary_completion_date type="Anticipated">September 22, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Relative hazard of composite outcome of Stroke, MI, and Mortality</measure>
+    <time_frame>Through study completion (a median of 120-140 days)</time_frame>
+    <description>Relative hazard of composite outcome of MI, stroke, and mortality - Please refer to uploaded protocol for full definition due to size limitations.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">103752</enrollment>
+  <condition>Diabetes</condition>
+  <arm_group>
+    <arm_group_label>DPP4i</arm_group_label>
+    <description>Reference group</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Empagliflozin</arm_group_label>
+    <description>Exposure group</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Empagliflozin</intervention_name>
+    <description>Empagliflozin dispensing claim is exposure</description>
+    <arm_group_label>Empagliflozin</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>DPP-4 inhibitor</intervention_name>
+    <description>DPP4 inhibitor dispensing claim is reference</description>
+    <arm_group_label>DPP4i</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        This study will involve a new user, parallel group, cohort study design comparing
+        empagliflozin to the DPP-4 inhibitor (DPP4i) antidiabetic class. DPP4is serve as a proxy
+        for placebo, since this class of antidiabetic drugs is not known to have an impact on the
+        outcome of interest. The comparison against DPP4 inhibitors is the primary comparison. The
+        patients will be required to have continuous enrollment during the baseline period of 180
+        days before initiation of empagliflozin or a comparator drug (cohort entry date). Follow-up
+        for the outcome (3P-MACE), begins the day after drug initiation. As in the trial, patients
+        are allowed to take other antidiabetic medications during the study.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Please see: https://drive.google.com/drive/folders/1WD618wrywYjEaXzfLTcuK-VCcnb6b-gV for
+        full code and algorithm definitions.
+
+        Eligible cohort entry dates:
+
+        Market availability of empagliflozin in the U.S. started on August 1, 2014.
+
+          -  For Marketscan and Medicare: Aug 1, 2014-Dec 31, 2017 (end of data availability).
+
+          -  For Optum: Aug 1, 2014-Mar 31, 2019 (end of data availability).
+
+        Inclusion Criteria:
+
+        All of the following criteria needed to be met:
+
+          -  Subjects with T2DM on a diet and exercise regimen who are drug-naïve (no anti-diabetes
+             therapy for ≥12 weeks prior to randomization) or treated with any anti-diabetes
+             therapy (except pioglitazone in Japan)
+
+               -  Drug-naive patients were required to have HbA1c ≥7.0% (≥53 mmol/mol) and ≤9.0%
+                  (≤75 mmol/mol) at screening
+
+               -  Pre-treated patients were required to have HbA1c ≥7.0% (≥53 mmol/mol) and ≤10.0
+                  (≤86 mmol/mol) at screening
+
+                    -  Background anti-diabetes therapy had to be unchanged for ≥12 weeks prior to
+                       randomization
+
+                    -  If background anti-diabetes therapy included insulin, insulin dose had to be
+                       unchanged by &gt;10% from the dose at randomization in the previous 12 weeks
+
+          -  Age ≥18 years (≥20 years in Japan and ≤65 years in India)
+
+          -  Body mass index ≤45 kg/m2 at screening
+
+          -  High risk of a cardiovascular event defined as ≥1 of the following:
+
+               -  Confirmed history of myocardial infarction (&gt;2 months prior to informed consent)
+
+               -  Evidence of multivessel coronary artery disease (CAD), in ≥2 major coronary
+                  arteries or in the left main coronary artery, irrespective of revascularization
+                  status, i.e. one of the following:
+
+                    -  Presence of a significant stenosis (imaging evidence of ≥50% narrowing of
+                       the luminal diameter measured during a coronary angiography or a
+                       multi-sliced computed tomography [CT] angiography)
+
+                    -  Revascularization (percutaneous transluminal coronary angioplasty [PTCA]
+                       with or without stent, or coronary artery bypass grafting [CAGB]) ≥2 months
+                       prior to consent
+
+                    -  Combination of revascularization in one major coronary artery ≥2 months
+                       prior to consent (PCTA with or without stent, or CABG), and the presence of
+                       significant stenosis in another major coronary artery (imaging evidence of
+                       ≥50% narrowing of the luminal diameter measured during a coronary
+                       angiography or a multi-sliced CT angiography)
+
+               -  Evidence of a single vessel CAD with the presence of significant stenosis i.e.
+                  imaging evidence of ≥50% narrowing of the luminal diameter of one major coronary
+                  artery in patients not subsequently successfully revascularized (measured during
+                  a coronary angiography or a multi-sliced CT angiography) and one or both of the
+                  following:
+
+                  -- A positive non-invasive stress test, confirmed by one of the following:
+
+                    -  Positive exercise tolerance test in subjects without a complete left bundle
+                       branch block, Wolff-Parkinson-White syndrome, or paced ventricular rhythm
+
+                    -  Positive stress echocardiography showing regional systolic wall motion
+                       abnormalities
+
+                    -  Positive scintigraphic test showing stress-induced ischemia, i.e.
+                       development of transient perfusion defects during myocardial perfusion
+                       imaging
+
+               -  Patient discharged from hospital with a documented diagnosis of unstable angina
+                  within 12 months of consent
+
+               -  Last episode of unstable angina &gt;2 months prior informed consent with confirmed
+                  evidence of single- or multi-vessel CAD as defined above
+
+               -  History of ischemic or haemorrhagic stroke (&gt;2 months prior to informed consent)
+
+               -  Presence of peripheral artery disease (symptomatic or asymptomatic ) documented
+                  by one of the following:
+
+                    -  Previous limb angioplasty, stenting, or bypass surgery
+
+                    -  Previous limb or foot amputation due to circulatory insufficiency; or
+                       angiographic evidence of significant (&gt;50%) peripheral artery stenosis in at
+                       least one limb
+
+                    -  Evidence from a non-invasive measurement of significant (&gt;50% or as reported
+                       as hemodynamically significant) peripheral artery stenosis in at least one
+                       limb
+
+                    -  Ankle brachial index of &lt;0.9 in at least one limb
+
+               -  Signed and dated written informed consent prior to screening in accordance with
+                  Good Clinical Practice and local legislation
+
+        Exclusion Criteria:
+
+          -  Uncontrolled hyperglycemia with glucose &gt;240 mg/dL (&gt;13.3 mmol/L) after an overnight
+             fast during placebo run-in and confirmed by a second measurement (not on the same day)
+
+          -  Indication of liver disease, defined by serum levels of alanine amininotransferase,
+             aspartate aminotransferase, or alkaline phosphatase above 3 x upper limit of normal
+             (ULN) during screening or run-in phase
+
+          -  Planned cardiac surgery or angioplasty within 3 months
+
+          -  Estimated glomerular filtration rate &lt;30 ml/min/1.73m2 (according to the Modification
+             of Diet in Renal Disease equation) at screening or during run-in phase
+
+          -  Bariatric surgery within the past two years and other gastrointestinal surgeries that
+             induce chronic malabsorption
+
+          -  Blood dyscrasias or any disorders causing hemolysis or unstable red blood cells e.g.
+             malaria, babesiosis, hemolytic anemia)
+
+          -  Medical history of cancer (except for basal cell carcinoma) and/or treatment for
+             cancer within the last 5 years
+
+          -  Contraindications to background therapy according to the local label
+
+          -  Treatment with anti-obesity drugs 3 months prior to informed consent or any other
+             treatment at time of screening leading to unstable body weight (e.g. surgery,
+             aggressive diet regimen, etc.)
+
+          -  Treatment with systemic steroids at time of informed consent or change in dosage of
+             thyroid hormones within 6 weeks prior to informed consent
+
+          -  Any uncontrolled endocrine disorder except T2DM
+
+          -  Pre-menopausal women (last menstruation ≤1 year prior to informed consent) who were
+             nursing, pregnant, or of child-bearing potential and were not practicing an acceptable
+             method of birth control, or did not plan to continue using this method throughout the
+             study, or did not agree to submit to periodic pregnancy testing during the trial
+
+             - Acceptable methods of birth control include tubal ligation, transdermal patch,
+             intrauterine devices/systems, oral, implantable or injectable contraceptives, sexual
+             abstinence, double barrier method, vasectomy of partner
+
+          -  Alcohol or drug abuse within 3 months of informed consent that would interfere with
+             trial participation or any ongoing condition leading to decreased compliance with
+             study procedures or study drug intake
+
+          -  Intake of an investigational drug in another trial within 30 days prior to intake of
+             study medication in this trial or participating in another trial involving an
+             investigational drug and/or follow-up
+
+          -  Any clinical condition that would jeopardize patient safety while participating in
+             this clinical trial (in Canada, this included current genito-urinal infection or
+             genito-urinal infection within 2 weeks prior to informed consent)
+
+          -  Acute coronary syndrome, stroke, or transient ischemic attack within 2 months prior to
+             informed consent
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jessica Franklin, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Brigham and Womens</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Brigham &amp; Women's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02120</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>December 2019</verification_date>
+  <study_first_submitted>December 30, 2019</study_first_submitted>
+  <study_first_submitted_qc>December 30, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 2, 2020</study_first_posted>
+  <last_update_submitted>December 30, 2019</last_update_submitted>
+  <last_update_submitted_qc>December 30, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 2, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Brigham and Women's Hospital</investigator_affiliation>
+    <investigator_full_name>Jessica Franklin</investigator_full_name>
+    <investigator_title>Assistant Professor and Biostatician</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Empagliflozin</mesh_term>
+    <mesh_term>Dipeptidyl-Peptidase IV Inhibitors</mesh_term>
+  </intervention_browse>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>December 27, 2019</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/36/NCT04215536/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

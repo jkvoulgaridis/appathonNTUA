@@ -1,0 +1,962 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01958437</url>
+  </required_header>
+  <id_info>
+    <org_study_id>C1381-P</org_study_id>
+    <nct_id>NCT01958437</nct_id>
+  </id_info>
+  <brief_title>Enhancing Spatial Navigation Using Non-Invasive Brain Stimulation</brief_title>
+  <official_title>Enhancing Spatial Navigation Using Non-Invasive Brain Stimulation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>VA Office of Research and Development</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>VA Office of Research and Development</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Remembering how to travel from one location to another is critical in everyday life, yet this
+      vital ability declines with normal aging and can be further affected by conditions that
+      disproportionately affect the elderly, such as vision loss or progressive dementia. Human and
+      animal research has shown that two distinct memory systems interact during navigation. The
+      first, referred to as allocentric navigation, is very flexible and uses spatial knowledge of
+      key features or landmarks to develop and use a mental map of the environment. This approach
+      involves brain regions that are critical for new learning and memory but that decline with
+      age. The second, referred to as egocentric navigation, is inflexible and relies on &quot;habit&quot;
+      memories that link specific features with specific directions. This approach relies on brain
+      regions that are critical for &quot;automatic&quot; responses and that are relatively unaffected by
+      age.
+
+      The main problem is that allocentric navigation declines with age and is accompanied
+      increased dependence on egocentric navigation. This change increases the risk of becoming
+      disoriented or &quot;lost&quot; when traveling in unfamiliar areas or even when traveling new routes in
+      familiar areas. Therefore, the main goal of this project is to examine whether non-invasive
+      brain stimulation, specifically transcranial direct current stimulation, can improve
+      allocentric navigation in healthy older adults and patients with mild cognitive impairment.
+
+      Participants will complete two functional magnetic resonance imaging sessions while learning
+      new environments. Before one of these sessions, participants will receive active brain
+      stimulation over the parietal cortex. Before the other session, participants will receive
+      sham brain stimulation over the parietal cortex. The effects of this stimulation will be
+      evaluated using both an allocentric and an egocentric memory test. Physiologic effects will
+      be evaluated using both task-based and resting-state MRI.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">October 1, 2013</start_date>
+  <completion_date type="Actual">March 24, 2017</completion_date>
+  <primary_completion_date type="Actual">March 23, 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <intervention_model_description>Transcranial Direct Current Stimulation</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Double (Participant, Investigator)</masking>
+    <masking_description>Double blinded</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy in Centimeters From Target Location for Allocentric</measure>
+    <time_frame>Outcome assessed after each of 2 sessions (estimated within 1 week of each other)</time_frame>
+    <description>1 active tDCS; 1 sham tDCS for each measure. Participants touched a screen (using a ELO 19&quot; touchscreen monitor) to document the location of the landmark. The distance between the actual vs. selected location served as the dependent measure.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Hippocampal BOLD Signal During Task-based fMRI</measure>
+    <time_frame>change between active and sham tDCS sessions (&lt;1month)</time_frame>
+    <description>BOLD signal change comparing active to sham tDCS during Allocentric navigation (i.e., active HD-tDCS &gt; sham HD-tDCS). Activation maps thresholded at p&lt;.01 with minimum cluster size of 5 voxels.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Dorsal Attention Network Connectivity During Resting-state fMRI</measure>
+    <time_frame>change between active and sham tDCS sessions (&lt;1month)</time_frame>
+    <description>Change in resting state functional connectivity strength between active and sham tDCS sessions. Strength is measured by Pearson r correlations between nodes, which are z-transformed, and summated.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Egocentric</measure>
+    <time_frame>Outcome assessed after each of the 2 sessions</time_frame>
+    <description>Number of turns correctly recalled for each egocentric environment</description>
+  </primary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Actual">44</enrollment>
+  <condition>Mild Cognitive Impairment</condition>
+  <condition>Alzheimer's Disease</condition>
+  <arm_group>
+    <arm_group_label>Cognitively intact older adults - ACTIVE tDCS</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Group receives active brain stimulation</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>MCI ACTIVE tDCS</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Group receives active brain stimulation</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cognitively intact older adults - SHAM tDCS</arm_group_label>
+    <arm_group_type>Sham Comparator</arm_group_type>
+    <description>Group receives sham brain stimulation</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>MCI SHAM tDCS</arm_group_label>
+    <arm_group_type>Sham Comparator</arm_group_type>
+    <description>Group receives sham brain stimulation</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Transcranial direct current stimulation (tDCS)</intervention_name>
+    <description>Active and/or sham; All participants receive both stimulation condition. Groups will be counterbalanced (half receiving active tDCS in the first session and sham in the second session; the other half receiving the opposite).</description>
+    <arm_group_label>Cognitively intact older adults - ACTIVE tDCS</arm_group_label>
+    <arm_group_label>Cognitively intact older adults - SHAM tDCS</arm_group_label>
+    <arm_group_label>MCI ACTIVE tDCS</arm_group_label>
+    <arm_group_label>MCI SHAM tDCS</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        General inclusion criteria (all participants):
+
+          -  All medications stable for approximately 1-2 months;
+
+          -  No history of severe mental illness;
+
+          -  No current untreated alcohol or substance abuse/dependence;
+
+          -  English as native and preferred language;
+
+          -  MRI-compatible if taking part in fMRI studies
+
+          -  Able to give informed consent.
+
+        MCI Inclusion Criteria:
+
+          -  Diagnosis of amnestic MCI based on criteria set forth by Petersen (2004).
+             Additionally, other potential causes of cognitive deficit ruled out by the referring
+             physician;
+
+        Healthy older adults
+
+          -  intact cognitive functioning as measured by neuropsychological testing
+
+        Exclusion Criteria:
+
+          -  History of neurological disease or injury
+
+          -  History of severe mental illness
+
+          -  Current untreated alcohol or substance abuse
+
+          -  Other conditions may exclude; please discuss with contact
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>50 Years</minimum_age>
+    <maximum_age>88 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Benjamin M Hampstead, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>VA Ann Arbor Healthcare System, Ann Arbor, MI</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Atlanta VA Medical and Rehab Center, Decatur, GA</name>
+      <address>
+        <city>Decatur</city>
+        <state>Georgia</state>
+        <zip>30033</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>VA Ann Arbor Healthcare System, Ann Arbor, MI</name>
+      <address>
+        <city>Ann Arbor</city>
+        <state>Michigan</state>
+        <zip>48105</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <results_reference>
+    <citation>England HB, Fyock C, Meredith Gillis M, Hampstead BM. Transcranial direct current stimulation modulates spatial memory in cognitively intact adults. Behav Brain Res. 2015 Apr 15;283:191-5. doi: 10.1016/j.bbr.2015.01.044. Epub 2015 Jan 31.</citation>
+    <PMID>25647757</PMID>
+  </results_reference>
+  <verification_date>August 2018</verification_date>
+  <study_first_submitted>September 23, 2013</study_first_submitted>
+  <study_first_submitted_qc>October 4, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 9, 2013</study_first_posted>
+  <results_first_submitted>April 16, 2018</results_first_submitted>
+  <results_first_submitted_qc>August 28, 2018</results_first_submitted_qc>
+  <results_first_posted type="Actual">August 31, 2018</results_first_posted>
+  <last_update_submitted>August 28, 2018</last_update_submitted>
+  <last_update_submitted_qc>August 28, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 31, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Aging</keyword>
+  <keyword>Alzheimer's Disease/Dementia</keyword>
+  <keyword>Cognitive Disorders</keyword>
+  <keyword>Imaging</keyword>
+  <keyword>Magnetic Resonance Imaging (MRI)</keyword>
+  <keyword>Neurology</keyword>
+  <keyword>Physical Medicine &amp; Rehabilitation</keyword>
+  <keyword>transcranial direct current stimulation</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Alzheimer Disease</mesh_term>
+    <mesh_term>Cognitive Dysfunction</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>March 20, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/37/NCT01958437/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Cognitively Intact -Active Then Sham tDCS</title>
+          <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+        </group>
+        <group group_id="P2">
+          <title>Cognitively Intact - Sham Then Active</title>
+          <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+        </group>
+        <group group_id="P3">
+          <title>MCI - Active Then Sham</title>
+          <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+        </group>
+        <group group_id="P4">
+          <title>MCI - Sham Then Active</title>
+          <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="11"/>
+                <participants group_id="P2" count="11"/>
+                <participants group_id="P3" count="11"/>
+                <participants group_id="P4" count="11"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="11"/>
+                <participants group_id="P2" count="11"/>
+                <participants group_id="P3" count="10"/>
+                <participants group_id="P4" count="10"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="1"/>
+                <participants group_id="P4" count="1"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Incidental MRI findings</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="1"/>
+                <participants group_id="P4" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Cognitively Intact Older Adults</title>
+          <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+        </group>
+        <group group_id="B2">
+          <title>Patients With Mild Cognitive Impairment</title>
+          <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="22"/>
+            <count group_id="B2" value="20"/>
+            <count group_id="B3" value="42"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="72.15" spread="7.14"/>
+                    <measurement group_id="B2" value="69.5" spread="6.55"/>
+                    <measurement group_id="B3" value="70.8" spread="6.89"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="12"/>
+                    <measurement group_id="B2" value="7"/>
+                    <measurement group_id="B3" value="19"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10"/>
+                    <measurement group_id="B2" value="13"/>
+                    <measurement group_id="B3" value="23"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="3"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="20"/>
+                    <measurement group_id="B2" value="19"/>
+                    <measurement group_id="B3" value="39"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="22"/>
+                    <measurement group_id="B2" value="20"/>
+                    <measurement group_id="B3" value="42"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Accuracy in Centimeters From Target Location for Allocentric</title>
+        <description>1 active tDCS; 1 sham tDCS for each measure. Participants touched a screen (using a ELO 19&quot; touchscreen monitor) to document the location of the landmark. The distance between the actual vs. selected location served as the dependent measure.</description>
+        <time_frame>Outcome assessed after each of 2 sessions (estimated within 1 week of each other)</time_frame>
+        <population>Computer errors caused missing data for a subset (n=4) of participants; those data have simply been omitted from analyses below.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Cognitively Intact ACTIVE tDCS</title>
+            <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+          </group>
+          <group group_id="O2">
+            <title>MCI ACTIVE tDCS</title>
+            <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+          </group>
+          <group group_id="O3">
+            <title>Cognitively Intact SHAM tDCS</title>
+            <description>all participants received sham in a randomized order</description>
+          </group>
+          <group group_id="O4">
+            <title>MCI SHAM tDCS</title>
+            <description>all participants received sham in a randomized order</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Accuracy in Centimeters From Target Location for Allocentric</title>
+          <description>1 active tDCS; 1 sham tDCS for each measure. Participants touched a screen (using a ELO 19&quot; touchscreen monitor) to document the location of the landmark. The distance between the actual vs. selected location served as the dependent measure.</description>
+          <population>Computer errors caused missing data for a subset (n=4) of participants; those data have simply been omitted from analyses below.</population>
+          <units>Centimeters (cm)</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="22"/>
+                <count group_id="O2" value="20"/>
+                <count group_id="O3" value="22"/>
+                <count group_id="O4" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="13.24" spread="3.96"/>
+                    <measurement group_id="O2" value="15.38" spread="2.13"/>
+                    <measurement group_id="O3" value="14.22" spread="2.78"/>
+                    <measurement group_id="O4" value="15.03" spread="1.77"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>RM ANCOVA (covarying order) for cognitively intact groups</groups_desc>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>.048</p_value>
+            <method>ANCOVA</method>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <groups_desc>RM ANCOVA (covarying order) for MCI group</groups_desc>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>.063</p_value>
+            <method>ANCOVA</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Hippocampal BOLD Signal During Task-based fMRI</title>
+        <description>BOLD signal change comparing active to sham tDCS during Allocentric navigation (i.e., active HD-tDCS &gt; sham HD-tDCS). Activation maps thresholded at p&lt;.01 with minimum cluster size of 5 voxels.</description>
+        <time_frame>change between active and sham tDCS sessions (&lt;1month)</time_frame>
+        <population>Participants from each group were excluded due to movement artifact that invalidated fMRI data.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>MCI ACTIVE tDCS</title>
+            <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+          </group>
+          <group group_id="O2">
+            <title>MCI Sham HD-tDCS</title>
+            <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+          </group>
+          <group group_id="O3">
+            <title>Cognitively Intact ACTIVE HD-tDCS</title>
+            <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+          </group>
+          <group group_id="O4">
+            <title>Cognitively Intact Sham HD-tDCS</title>
+            <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Hippocampal BOLD Signal During Task-based fMRI</title>
+          <description>BOLD signal change comparing active to sham tDCS during Allocentric navigation (i.e., active HD-tDCS &gt; sham HD-tDCS). Activation maps thresholded at p&lt;.01 with minimum cluster size of 5 voxels.</description>
+          <population>Participants from each group were excluded due to movement artifact that invalidated fMRI data.</population>
+          <units>Percent signal change</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="19"/>
+                <count group_id="O2" value="19"/>
+                <count group_id="O3" value="19"/>
+                <count group_id="O4" value="19"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value=".089" spread=".12"/>
+                    <measurement group_id="O2" value=".037" spread=".123"/>
+                    <measurement group_id="O3" value=".143" spread=".134"/>
+                    <measurement group_id="O4" value=".107" spread=".117"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Change between active and sham tDCS sessions for allocentric blocks</groups_desc>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>.27</p_value>
+            <method>ANCOVA</method>
+            <method_desc>Main effect of stimulation covarying session order</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>&lt;.001</p_value>
+            <method>ANCOVA</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Dorsal Attention Network Connectivity During Resting-state fMRI</title>
+        <description>Change in resting state functional connectivity strength between active and sham tDCS sessions. Strength is measured by Pearson r correlations between nodes, which are z-transformed, and summated.</description>
+        <time_frame>change between active and sham tDCS sessions (&lt;1month)</time_frame>
+        <population>Participants from each group were excluded due to movement artifact that invalidated fMRI data.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Cognitively Intact ACTIVE tDCS</title>
+            <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+          </group>
+          <group group_id="O2">
+            <title>MCI ACTIVE HD-tDCS</title>
+            <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+          </group>
+          <group group_id="O3">
+            <title>Cognitively Intact SHAM HD-tDCS</title>
+            <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+          </group>
+          <group group_id="O4">
+            <title>MCI SHAM HD-tDCS</title>
+            <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Dorsal Attention Network Connectivity During Resting-state fMRI</title>
+          <description>Change in resting state functional connectivity strength between active and sham tDCS sessions. Strength is measured by Pearson r correlations between nodes, which are z-transformed, and summated.</description>
+          <population>Participants from each group were excluded due to movement artifact that invalidated fMRI data.</population>
+          <units>arbitrary units</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+                <count group_id="O2" value="18"/>
+                <count group_id="O3" value="20"/>
+                <count group_id="O4" value="18"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="29.41" spread="7.09"/>
+                    <measurement group_id="O2" value="30.93" spread="11.97"/>
+                    <measurement group_id="O3" value="30.39" spread="8.2"/>
+                    <measurement group_id="O4" value="31.47" spread="9.89"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>&lt;.001</p_value>
+            <method>ANCOVA</method>
+            <method_desc>Main effect of session using repeated measures ANCOVA covarying stimulation order</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>.046</p_value>
+            <method>ANCOVA</method>
+            <method_desc>Main effect of session using repeated measures ANCOVA covarying stimulation order</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Egocentric</title>
+        <description>Number of turns correctly recalled for each egocentric environment</description>
+        <time_frame>Outcome assessed after each of the 2 sessions</time_frame>
+        <population>Participants from each group were excluded due to movement artifact that invalidated fMRI data.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Cognitively Intact ACTIVE tDCS</title>
+            <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+          </group>
+          <group group_id="O2">
+            <title>MCI ACTIVE tDCS</title>
+            <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+          </group>
+          <group group_id="O3">
+            <title>Cognitively Intact SHAM tDCS</title>
+            <description>all participants received sham in a randomized order</description>
+          </group>
+          <group group_id="O4">
+            <title>MCI SHAM tDCS</title>
+            <description>all participants received sham in a randomized order</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Egocentric</title>
+          <description>Number of turns correctly recalled for each egocentric environment</description>
+          <population>Participants from each group were excluded due to movement artifact that invalidated fMRI data.</population>
+          <units>Correct turns</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="22"/>
+                <count group_id="O2" value="20"/>
+                <count group_id="O3" value="22"/>
+                <count group_id="O4" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="9.05" spread="3.53"/>
+                    <measurement group_id="O2" value="8.21" spread="3.08"/>
+                    <measurement group_id="O3" value="9.85" spread="3.6"/>
+                    <measurement group_id="O4" value="7.47" spread="2.53"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Repeated Measures ANCOVA (covarying stimulation order)</groups_desc>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>.497</p_value>
+            <method>ANCOVA</method>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>.599</p_value>
+            <method>ANCOVA</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>duration of each participant's study related activities (~2 weeks), with monitoring ending following the second tDCS session</time_frame>
+      <desc>All participants completed a standardized side effect questionnaire after every tDCS session.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Cognitively Intact Active</title>
+          <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+        </group>
+        <group group_id="E2">
+          <title>Cognitively Intact Sham</title>
+          <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+        </group>
+        <group group_id="E3">
+          <title>MCI Active</title>
+          <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+        </group>
+        <group group_id="E4">
+          <title>MCI Sham</title>
+          <description>All participants received active and sham transcranial direct current stimulation (tDCS). Participants were randomized to order (i.e., half received active tDCS in the first session and sham in the second session; the other half received the opposite).</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="22"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="22"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="20"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="22"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="22"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="20"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="13" subjects_at_risk="21"/>
+                <counts group_id="E2" subjects_affected="17" subjects_at_risk="22"/>
+                <counts group_id="E3" subjects_affected="15" subjects_at_risk="20"/>
+                <counts group_id="E4" subjects_affected="12" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Skin and subcutaneous tissue disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Side effect questionnaire</sub_title>
+                <description>Headache</description>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="21"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="22"/>
+                <counts group_id="E3" events="0" subjects_affected="0" subjects_at_risk="20"/>
+                <counts group_id="E4" events="1" subjects_affected="1" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Side effect questionnaire</sub_title>
+                <description>Neck pain</description>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="21"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="22"/>
+                <counts group_id="E3" events="0" subjects_affected="0" subjects_at_risk="20"/>
+                <counts group_id="E4" events="0" subjects_affected="0" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Side effect questionnaire</sub_title>
+                <description>Scalp pain</description>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="21"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="22"/>
+                <counts group_id="E3" events="2" subjects_affected="2" subjects_at_risk="20"/>
+                <counts group_id="E4" events="5" subjects_affected="5" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Side effect questionnaire</sub_title>
+                <description>Tingling</description>
+                <counts group_id="E1" events="13" subjects_affected="13" subjects_at_risk="21"/>
+                <counts group_id="E2" events="17" subjects_affected="17" subjects_at_risk="22"/>
+                <counts group_id="E3" events="8" subjects_affected="8" subjects_at_risk="20"/>
+                <counts group_id="E4" events="9" subjects_affected="9" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Side effect questionnaire</sub_title>
+                <description>Itching</description>
+                <counts group_id="E1" events="6" subjects_affected="6" subjects_at_risk="21"/>
+                <counts group_id="E2" events="8" subjects_affected="8" subjects_at_risk="22"/>
+                <counts group_id="E3" events="7" subjects_affected="7" subjects_at_risk="20"/>
+                <counts group_id="E4" events="8" subjects_affected="8" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Side effect questionnaire</sub_title>
+                <description>Burning</description>
+                <counts group_id="E1" events="11" subjects_affected="11" subjects_at_risk="21"/>
+                <counts group_id="E2" events="9" subjects_affected="9" subjects_at_risk="22"/>
+                <counts group_id="E3" events="15" subjects_affected="15" subjects_at_risk="20"/>
+                <counts group_id="E4" events="12" subjects_affected="12" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Side effect questionnaire</sub_title>
+                <description>Skin redness</description>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="21"/>
+                <counts group_id="E2" events="2" subjects_affected="2" subjects_at_risk="22"/>
+                <counts group_id="E3" events="0" subjects_affected="0" subjects_at_risk="20"/>
+                <counts group_id="E4" events="0" subjects_affected="0" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Side effect questionnaire</sub_title>
+                <description>Sleepiness</description>
+                <counts group_id="E1" events="2" subjects_affected="2" subjects_at_risk="21"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="22"/>
+                <counts group_id="E3" events="3" subjects_affected="3" subjects_at_risk="20"/>
+                <counts group_id="E4" events="1" subjects_affected="1" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Side effect questionnaire</sub_title>
+                <description>Concentration changes</description>
+                <counts group_id="E1" events="3" subjects_affected="3" subjects_at_risk="21"/>
+                <counts group_id="E2" events="3" subjects_affected="3" subjects_at_risk="22"/>
+                <counts group_id="E3" events="1" subjects_affected="1" subjects_at_risk="20"/>
+                <counts group_id="E4" events="1" subjects_affected="1" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Side effect questionnaire</sub_title>
+                <description>mood changes</description>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="21"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="22"/>
+                <counts group_id="E3" events="1" subjects_affected="1" subjects_at_risk="20"/>
+                <counts group_id="E4" events="0" subjects_affected="0" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Dr. Benjamin Hampstead</name_or_title>
+      <organization>VA Ann Arbor Healthcare System; University of Michigan</organization>
+      <phone>7347639259</phone>
+      <email>bhampste@med.umich.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

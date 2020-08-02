@@ -1,0 +1,210 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03967756</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AI-2</org_study_id>
+    <nct_id>NCT03967756</nct_id>
+  </id_info>
+  <brief_title>Impact of Automatic Polyp Detection System on Adenoma Detection Rate</brief_title>
+  <official_title>Impact of Automatic Polyp Detection System on Adenoma Detection Rate-a Multicenter,Prospective, Randomized Controlled Trial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Changhai Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>The First Affiliated Hospital of Dalian Medical University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Wenzhou Central Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Wuhan Union Hospital, China</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Changhai Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In recent years, with the continuous development of artificial intelligence, automatic polyp
+      detection systems have shown its potential in increasing the colorectal lesions. Yet, whether
+      this system can increase polyp and adenoma detection rates in the real clinical setting is
+      still need to be proved. The primary objective of this study is to examine whether a
+      combination of colonoscopy and a deep learning-based automatic polyp detection system is a
+      feasible way to increase adenoma detection rate compared to standard colonoscopy.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 1, 2019</start_date>
+  <completion_date type="Anticipated">October 1, 2020</completion_date>
+  <primary_completion_date type="Anticipated">July 20, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>adenoma detection rate(ADR)</measure>
+    <time_frame>30 minutes</time_frame>
+    <description>the number of patients with at least one adenoma divided by the total number of patients.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>polyp detection rate(PDR)</measure>
+    <time_frame>30 minutes</time_frame>
+    <description>the number of patients with at least one polyp divided by the total number of patients.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>adenoma per colonoscopy</measure>
+    <time_frame>30 minutes</time_frame>
+    <description>the number of adenomas detected during colonoscopy withdraw divided by the number of colonoscopies.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>polyp per colonoscopy</measure>
+    <time_frame>30 minutes</time_frame>
+    <description>the number of polyps detected during colonoscopy withdraw divided by the number of colonoscopies.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">1118</enrollment>
+  <condition>Colonic Polyps</condition>
+  <condition>Colorectal Adenomas</condition>
+  <arm_group>
+    <arm_group_label>AI-assisted withdrawal group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>A deep learning-based automatic polyp detection system was used to assist the endoscopist.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Routine withdrawal group</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Routine withdrawal without any assist.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Automatic polyp detection system</intervention_name>
+    <description>When colonoscopists withdraw the colonoscopies and inspect the colons, the video streaming of colonoscopies was real-time switched to the automatic polyp detection system, which made it feasible to detect lesions in real time. When any potential polyp is detected by the system， there will be a tracing box on an adjacent monitor to locate the lesion with a simultaneous sound alarm.</description>
+    <arm_group_label>AI-assisted withdrawal group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients aged between 40-85 years old who have indications for screening, surveillance
+             and diagnostic.
+
+          -  Patients who have signed inform consent form.
+
+        Exclusion Criteria:
+
+          -  Patients who have undergone colonic resection
+
+          -  Patients with intracranial and/or central nervous system disease, including cerebral
+             infarction and cerebral hemorrhage.
+
+          -  Patients with severe chronic cardiopulmonary and renal disease.
+
+          -  Patients who are unwilling or unable to consent.
+
+          -  Patients who are not suitable for colonoscopy
+
+          -  Patients who received urgent or therapeutic colonoscopy
+
+          -  Patients with pregnancy, inflammatory bowel disease, polyposis of colon, colorectal
+             cancer, or intestinal obstruction
+
+          -  Patients who are taking aspirin, clopidogrel or other anticoagulants
+
+          -  Patients with withdrawal time &lt; 6 min
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>85 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Zhaoshen Li, M.D</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Changhai Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Zhaoshen Li, M.D</last_name>
+    <phone>86-21-31161365</phone>
+    <email>li.zhaoshen@hotmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Yu Bai, M.D</last_name>
+    <phone>86-21-31161335</phone>
+    <email>baiyu1998@hotmail.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Changhai Hospital, Second Military Medical University</name>
+      <address>
+        <city>Shanghai</city>
+        <zip>200433</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>zhaoshen Li, MD</last_name>
+      <phone>86-21-81873241</phone>
+      <email>zhaoshenlismmu@gmail.com</email>
+    </contact>
+    <investigator>
+      <last_name>Zhaoshen Li, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <reference>
+    <citation>Urban G, Tripathi P, Alkayali T, Mittal M, Jalali F, Karnes W, Baldi P. Deep Learning Localizes and Identifies Polyps in Real Time With 96% Accuracy in Screening Colonoscopy. Gastroenterology. 2018 Oct;155(4):1069-1078.e8. doi: 10.1053/j.gastro.2018.06.037. Epub 2018 Jun 18.</citation>
+    <PMID>29928897</PMID>
+  </reference>
+  <reference>
+    <citation>Ahmad OF, Soares AS, Mazomenos E, Brandao P, Vega R, Seward E, Stoyanov D, Chand M, Lovat LB. Artificial intelligence and computer-aided diagnosis in colonoscopy: current evidence and future directions. Lancet Gastroenterol Hepatol. 2019 Jan;4(1):71-80. doi: 10.1016/S2468-1253(18)30282-6. Epub 2018 Dec 6. Review.</citation>
+    <PMID>30527583</PMID>
+  </reference>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>May 28, 2019</study_first_submitted>
+  <study_first_submitted_qc>May 28, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 30, 2019</study_first_posted>
+  <last_update_submitted>March 4, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 4, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 5, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Changhai Hospital</investigator_affiliation>
+    <investigator_full_name>Zhaoshen Li</investigator_full_name>
+    <investigator_title>Director of Gastroenterology Dept</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Adenoma</mesh_term>
+    <mesh_term>Polyps</mesh_term>
+    <mesh_term>Colonic Polyps</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

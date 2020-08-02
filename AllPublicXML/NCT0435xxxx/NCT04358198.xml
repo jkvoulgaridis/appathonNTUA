@@ -1,0 +1,121 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04358198</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RP018</org_study_id>
+    <nct_id>NCT04358198</nct_id>
+  </id_info>
+  <brief_title>AI in GIM Diagnosis</brief_title>
+  <official_title>Usefulness of Artificial Intelligence (AI) for Gastric Intestinal Metaplasia Diagnosis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>King Chulalongkorn Memorial Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>King Chulalongkorn Memorial Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will use artificial intelligence (AI) for diagnosing gastric intestinal
+      metaplasia.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The patients with previously diagnose gastric intestinal metaplasia (GIM) and have the
+      surveillance gastroscopy will be enrolled. The routine surveillance program will be performed
+      additional to taking photo at both GIM and normal mucosa at least 5 pictures in each. Biopsy
+      will be done to confirm the diagnosis of GIM and normal mucosa. All pictures will be inserted
+      to AI algorithm based on the convolutional neural network (CNN). Then, the AI program will be
+      validated in daily endoscopy compared with pathology. Accuracy, sensitivity and specificity
+      can be calculated by 2x2 table.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 1, 2020</start_date>
+  <completion_date type="Anticipated">April 30, 2021</completion_date>
+  <primary_completion_date type="Anticipated">November 30, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>The surveillance EGD in patients with GIM will be done as scheduled and then pictures at GIM lesions and normal mucosa was done and sending to AI for learning. Then AI will be used for diagnosing GIM by using pathology as a gold standard</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy of AI for GIM diagnosis</measure>
+    <time_frame>1 year</time_frame>
+    <description>Accuracy, sensitivity, specificity can be calculated by 2x2 table (pathology is a gold standard)</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">120</enrollment>
+  <condition>GIM Diagnosis</condition>
+  <condition>Artificial Intellegence</condition>
+  <arm_group>
+    <arm_group_label>GIM patient</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The patients with GIM will be assessed at both GIM and normal mucosa during endoscopy.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Artificial intelligence</intervention_name>
+    <description>The AI algorithm based on the convolutional neural network (CNN) will be used for analysis the pictures of gastric intestinal metaplasia and normal mucosa. Then AI will be used as a diagnostic tool for GIM during routine endoscopy by using pathology as a gold standard.</description>
+    <arm_group_label>GIM patient</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  More than 18 years of age
+
+          -  Able to sign a consent form
+
+        Exclusion Criteria:
+
+          -  History of gastric surgery
+
+          -  Coagulopathy
+
+          -  Pregnancy/Breast feeding
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Rapat Pittayanon, MD</last_name>
+    <phone>66804224999</phone>
+    <email>rapat125@gmail.com</email>
+  </overall_contact>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>April 12, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 21, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 24, 2020</study_first_posted>
+  <last_update_submitted>April 21, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 21, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 24, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>King Chulalongkorn Memorial Hospital</investigator_affiliation>
+    <investigator_full_name>Rapat Pittayanon</investigator_full_name>
+    <investigator_title>Principle investigator</investigator_title>
+  </responsible_party>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

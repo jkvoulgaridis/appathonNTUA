@@ -1,0 +1,273 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04253496</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PRTK16149</org_study_id>
+    <secondary_id>2014-002597-37</secondary_id>
+    <nct_id>NCT04253496</nct_id>
+  </id_info>
+  <brief_title>Mathematic Modeling at Micro and Macroscopic Level of Primary Central Nervous System Lymphomas (PCNSL)</brief_title>
+  <acronym>LOC-MODEL</acronym>
+  <official_title>Mathematic Modeling at Micro and Macroscopic Level of Primary Central Nervous System Lymphomas (PCNSL)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Assistance Publique - Hôpitaux de Paris</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Assistance Publique - Hôpitaux de Paris</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      We plan to analyze 100 PCNSL homogenously treated with high-dose methotrexate based
+      chemotherapy using NGS of PCNSL samples. We will perform DNA-seq and RNA-seq from tumor
+      samples. This data will be combined with their magnetic resonance imaging (MRI) at different
+      time points: at diagnosis, at the end of the treatment and at disease progression. Among the
+      100 PCNSL that will be included, 70 will be from a retrospective (training set) from patients
+      included in the French National PCNSL dataset (LOC cohort) and 30 PCNSL from a prospective
+      cohort from patients included in a phase III clinical trial (BLOCAGE, PHRC 2014). On the one
+      hand, we will perform a radiomics analysis (quantitative imaging) using 3D tumor and edema
+      segmentation. This analysis will help us to elucidate the potential correlation of MRI
+      phenotypes and genotype (using high-throughput data). In addition, we will use the radiomics
+      data combined with in vitro and in vivo data (using a mouse model of PCNSL) as well as
+      immunohistochemistry data to obtain a multidimensional mathematical modeling of PCNSL
+      clinical evolution that will allow us to better predict the clinical course of this rare
+      subtype of brain tumor.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Primary central nervous system lymphomas (PCNSL) are extra-nodal, malignant non-Hodgkin
+      lymphomas of diffuse large B-cell type confined to the CNS or eyes without evidence of
+      systemic spread. PCNSL account for up to 1% of all lymphomas and 3% of primary brain tumors.
+      Despite recent progress in PCNSL treatment, remissions are short lasting and the outcome
+      remains poor with a minority of long-term survivors (20%). Moreover, treatments expose
+      patients to a high risk of neurotoxicity. Even though PCNSL has been extensively studied, the
+      pathogenic mechanisms underlying its remarkable tropism and its peculiar clinical behaviour
+      are not well elucidated. Since 2010, the French National Institute of Cancer (INCa) has
+      supported the creation of medical networks dedicated to rare cancers, including PCNSL (LOC
+      network). LOC has developed a national clinical database of newly diagnosed PCNSL with a
+      virtual tumor database to perform translational studies. Furthermore, LOC has launched
+      several prospective trials including a phase III clinical trial (BLOCAGE - PHRC 2014) with an
+      expected sample size of 300 patients to perform ancillary analysis. Modeling malignant
+      extracerebral/systemic non-Hodgkin lymphoma therapy and outcome has been previously
+      performed, however due to its peculiar anatomical and immunoprivileged microenvironment, and
+      its specific therapeutic management, specific modeling of PCNSL is required. Interestingly,
+      in glioblastoma, another primary brain tumor, a model prediction of expected tumor burden
+      provided a personalized assessment of a therapy's effectiveness. Therefore, a comprehensive
+      mechanistic view of mathematical modeling of PCNSL growth and treatment response could be
+      used to better stratify PCNSL evolution and to predict the best treatment options. From a
+      radiological point of view, PCNSL often display a characteristic presentation with
+      periventricular contrast enhancing lesions. This is due to its hypercellularity, high
+      nuclear/cytoplasmic ratio, disruption of the blood-brain barrier, and its predilection for
+      the periventricular and superficial regions often in contact with ventricular or meningeal
+      surface. Interestingly, some small studies suggest that the integration of radiological and
+      high-throughput data would help to stratify the prognosis of PCNSL. In addition, MRI assesses
+      therapeutic response but this evaluation lacks of sensitivity to detect non-enhancing
+      lesions. Radiomics is a promising new paradigm for extending clinical imaging into the era of
+      molecular and genomic imaging. Interesting results using MRI and molecular phenotypes have
+      been obtained in different cancers and very recently in glioblastomas4. However, there is
+      only some evidence suggesting that molecular phenotype of PCNSL could be related to some
+      particular imaging morphophenotypes. Interestingly, our team has recently identified a
+      potential molecular-radiological association between the presence of TERT promoter mutations
+      and the localization of PCNSL within corpus callosum. Furthermore, using MRI data
+      (macroscopic data) will be also used to explore predictors of MRI patterns in a multivariate
+      framework, we will develop a linear modeling approach that measures the association of MRI
+      patterns with a number of potential predictors, including expression levels on a gene-by-gene
+      basis, driver mutations and clinical variables. Somatically acquired mutation and cytogenetic
+      lesion will be encoded as being present/absent. We choose a linear model due to its
+      interpretability and established statistical methods, enabling us to test which MRI
+      morphological pattern are associated with deregulated transcripts in the presence of specific
+      alterations after correcting for other confounding factors and other clinical variables and
+      coexisting driver mutations. The total variance in the MRI data will be studied and dissected
+      using data from selected driver genes, cytogenetic lesion and the most relevant principal
+      components of MRI data will be analyzed in a Least Absolute Shrinkage and Selection Operator
+      (LASSO) penalized model. The optimal model maximizes the explained variance R2.
+
+      We will evaluate prognosis accuracy of survival models using Harrel's C statistic, as
+      implemented in Hmisc R package. This statistic measures the fraction of pairs of patients
+      with concordant risk predictions, and outcome similarly to the area under the receiver
+      operating characteristic curve. To reduce the bias of estimated risk, we will use a fivefold
+      cross-validating scheme. In addition, we will also analyze survival impact of this
+      multidimensional data using random forest as an alternative approach for predicting outcome
+      and measuring variable importance. These are implemented in the randomForesetSRC R package.
+      the preliminary results obtained on a sub sample of patient showed that the 100 patient
+      cohort will be sufficient to build and assess the predictive values of the models we will
+      study. Tools to integrate multiple sources data set described above for a small subset will
+      be scaled up using all the variables available from the complete dataset: non negative matrix
+      co-factorization and regularized generalized canonical correlation analysis.
+
+      Patient prognosis may tightly correlate with a characteristic morphological tumor phenotype
+      on the histological level and with tumor shape, which itself may correlate with the gene
+      expression pattern. For this reason, macro-level growth simulations with the above
+      statistical model will be complemented by simulations with mechanistic models at the
+      histological level, and at whole tumor level. The histological-level model will be calibrated
+      with experiments using diffuse large B cell lymphoma (DLBCL) cell lines co-cultured with
+      other microenvironment cells like glial cells, and with murine experiments. This model shall
+      shed light on the mechanisms at cell level capable of explaining the observed cell
+      proliferation and multicellular arrangement pattern.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">February 15, 2020</start_date>
+  <completion_date type="Anticipated">September 15, 2023</completion_date>
+  <primary_completion_date type="Anticipated">February 15, 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Overall survival and progression-free survival modeling using MRI and NGS data in PCNSL patients.</measure>
+    <time_frame>3 years</time_frame>
+    <description>PCNSL characterization through the integration of radiomics, gene expression and genotyping features.
+Mathematic modeling of morphological phenotypes and of prognosis and chemo-sensitivity or chemo-resistance of PCNSL using MRI and NGS data.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>PCNSL progression modeling.</measure>
+    <time_frame>3 years</time_frame>
+    <description>Analysis chemo-resistance pathways and development of new therapeutic targets in PCNSL using integrative data: mouse model of PNCSL, in vitro data and radiomics analysis.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Primary Central Nervous System Lymphoma (PCNSL)</condition>
+  <arm_group>
+    <arm_group_label>Prospective</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Retrospective</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Tumor samples and MRI</intervention_name>
+    <description>We will use DNA and RNA tumor samples. We will not use germline or blood DNA. These data will be combined with their magnetic resonance imaging (MRI) at different times: at diagnosis, at the end of treatment and at the progression of the disease.</description>
+    <arm_group_label>Prospective</arm_group_label>
+    <arm_group_label>Retrospective</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Tumor DNA and RNA
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        PCNSL at diagnosis, before chemotherapy with available fresh-frozen tissue, MRI and
+        clinical follow-up
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion criteria At registration
+
+          -  Newly diagnosed primary cerebral lymphoma
+
+          -  Age ≥60 years
+
+          -  Pathology proven diagnosis or positive cytology of the CSF or vitreous
+
+          -  Karnofsky Performance Status ≥40
+
+          -  No evidence of systemic NHL (body CT scan, bone marrow biopsy)
+
+          -  Adequate haematological, renal and hepatic function
+
+          -  Calculated creatinine clearance &gt; 40 ml/min
+
+        At randomization
+
+          -  Complete response on MRI after induction chemotherapy according to the IPCG criteria
+             (Abrey et al, 2005)
+
+          -  Karnofsky Performance Status ≥40
+
+          -  Adequate haematological, renal and hepatic function
+
+        Exclusion criteria
+
+          -  Positive HIV serology
+
+          -  Preexisting immunodeficiency (organ transplant recipient)
+
+          -  Prior treatment for PCNSL
+
+          -  Isolated primary intra-ocular lymphoma
+
+          -  Low grade lymphoma
+
+          -  Any other active primary malignancy
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>60 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Khê HOANG-XUAN, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Groupe Hospitalier La Pitié Salpêtrière - AP-HP</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Khê HOANG-XUAN, MD, PhD</last_name>
+    <phone>01.42.16.03.81</phone>
+    <email>khe.hoang-xuan@aphp.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Agusti ALENTORN, MD, PhD</last_name>
+    <email>agusti.alentorn@aphp.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Groupe Hospitalier La Pitié Salpêtrière</name>
+      <address>
+        <city>Paris</city>
+        <zip>75013</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Khê HOANG-XUAN, MD, PhD</last_name>
+      <phone>01.42.16.03.81</phone>
+      <email>khe.hoang-xuan@aphp.fr</email>
+    </contact>
+    <contact_backup>
+      <last_name>Agusti ALENTORN, MD, PhD</last_name>
+      <email>agusti.alentorn@aphp.fr</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>January 2020</verification_date>
+  <study_first_submitted>January 31, 2020</study_first_submitted>
+  <study_first_submitted_qc>January 31, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 5, 2020</study_first_posted>
+  <last_update_submitted>January 31, 2020</last_update_submitted>
+  <last_update_submitted_qc>January 31, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 5, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>PCNSL</keyword>
+  <keyword>Mathematical modeling</keyword>
+  <keyword>Next-generation sequencing</keyword>
+  <keyword>Radiomics</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lymphoma</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

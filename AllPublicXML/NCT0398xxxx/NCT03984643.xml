@@ -1,0 +1,198 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03984643</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CSENG-2018-27182</org_study_id>
+    <nct_id>NCT03984643</nct_id>
+  </id_info>
+  <brief_title>Algorithms for Programming DBS Systems for ET</brief_title>
+  <official_title>Algorithms for Programming DBS Systems for ET</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Minnesota</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Minnesota</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Deep brain stimulation (DBS) targeting the Vim thalamus (ventralis intermedius nucleus) is an
+      FDA-approved neuromodulation therapy for treating postural and action tremor in individuals
+      with essential tremor (ET). The success of this treatment, however, is highly dependent on
+      the ability of clinicians to identify therapeutic stimulation settings through a laborious
+      programming process. There is a strong and growing clinical need for new approaches to
+      provide clinicians with more efficient guidance on how to titrate stimulation settings. This
+      study will leverage subject-specific computational models that can predict neural activation
+      of axonal pathways adjacent to the active electrode(s) and implicated in the therapeutic
+      mechanisms of Vim-DBS to in turn guide clinicians with which stimulation settings are likely
+      to be the most therapeutic on tremor.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Primary Endpoint/Event/Outcome:
+
+      Endpoint: Identify the neural pathways within the brain that are involved in the reduction of
+      action and postural tremor using directional DBS leads and advanced computational
+      optimization algorithms.
+
+      Event: Using anatomical segmentation of high-field 7-Tesla MRI and diffusion tensor imaging
+      from 25 human ET subjects, the investigators will build prospective subject-specific,
+      multi-compartment neuron models of the afferent and efferent projections from and to the
+      sensorimotor thalamus. Using these models, the investigators will then apply a semi-automated
+      algorithm that can efficiently identify stimulation settings that most selectively target one
+      pathway over other adjacent pathways. Note that these stimulation settings will not exceed
+      the FDA-approved safety limits that are already programmed into the implanted pulse
+      generator. The optimization algorithm defined stimulation settings will then be tested in
+      human ET subjects to compare the therapeutic efficacy and efficiency of DBS targeting the:
+      interposed-receiving area of motor thalamus, dentate-receiving area of motor. Rendering of a
+      4-channel DBS lead implant in the VIM nucleus (ventralis intermedius nucleus) of thalamus for
+      treating Essential Tremor.
+
+      thalamus, pre-lemniscal radiations (raprl) with medial and lateral divisions, and zona
+      incerta, all of which have been implicated in the therapeutic mechanisms of DBS. This
+      clinical evaluation will occur during routine clinical follow-up sessions in which the
+      Essential Tremor Rating Assessment Scale (TETRAS) will serve as the primary form of
+      qualification scoring of each setting tested.
+
+      Outcome: The investigators hypothesize that targeting the interposed-receiving region of
+      motor thalamus and in particular the ascending cerebello-thalamic fibers to this region will
+      result in the strongest and most energy-efficient suppression of action and postural tremor.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 1, 2019</start_date>
+  <completion_date type="Anticipated">December 31, 2025</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2024</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Therapeutic Windows</measure>
+    <time_frame>24-months</time_frame>
+    <description>Quantify how therapeutic windows (i.e. stimulus amplitude threshold difference between postural and action tremor abolishment and side effect emergence) change over time with human Vim-DBS therapy. During routine clinical evaluation sessions, monopolar stimulation will be applied through each electrode to generate therapeutic window maps and quantify the degree to which stimulus amplitude thresholds for action and postural tremor abolishment and for generating side effects of stimulation (e.g. transient paresthesias) change.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Objective Measures of Tremor</measure>
+    <time_frame>24-months</time_frame>
+    <description>Quantify tasks contained in the Essential Tremor Rating Assessment Scale (TETRAS) scoring system. Inertial measurement units (IMUs) will be attached to the limbs and head of the subject to measure tremor while the subject performs tasks associated with the TETRAS scoring scale. The Archimedes spiral task contained in the TETRAS will be quantified by using a digitizing tablet.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Quality of Life Questionnaire: QUEST</measure>
+    <time_frame>24-months</time_frame>
+    <description>The Quality of life in Essential Tremor Questionnaire (QUEST) questionnaire consists of 30 items that are rated from 0 (never) to 4 (always), corresponding to the frequency with which tremor is perceived to impact function or to be associated with various feelings and attitudes. The 30 items contribute to five sub scales:
+Physical/ADL, Psychosocial, Communication, Hobbies/Leisure, and Work/Finances. Each sub scale score is expressed as a percentage of the total score possible, with a higher score indicating greater dissatisfaction with that domain. Total score is computed by calculating the mean of the five sub scale scores. Higher score indicates greater disability.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Quality of Life Questionnaire: TETRAS</measure>
+    <time_frame>24-months</time_frame>
+    <description>The Essential Tremor Rating Assessment Scale (TETRAS) quantifies the impact of essential tremor (ET) on activities of daily living (ADL) and a performance battery. The ADL section consists of 12 items rating the impact of ET on daily activity, each rated 0 (normal) to 4 (severe), with a maximum subscale score of 48. The performance section has 9 items rating action tremor in different areas of the body from 0 (normal) to 4 (severe), with a maximum subscale score of 64. Total score is an unweighted sum of the two subscale scores. Greater total score indicates worse functioning due to ET.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">25</enrollment>
+  <condition>Essential Tremor</condition>
+  <arm_group>
+    <arm_group_label>Deep Brain Stimulation</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects in this study will have been implanted with a DBS lead in the VIM as part of their routine clinical care and have an existing set of brain MRI's.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Vim-Deep Brain Stimulation</intervention_name>
+    <description>This study consists of testing additional model-derived DBS settings during initial and regular follow-up clinical visits every 6 months for up to 2 years in which individuals with DBS implants are re-evaluated by a clinician to make sure that the stimulation settings employed during the previous clinical visit remain therapeutic. It is important to note that this study is post-surgical and all procedures (i.e. stimulation settings that will be tested in the clinic) are within the FDA-approved range of stimulation settings available on the implanted pulse generator.</description>
+    <arm_group_label>Deep Brain Stimulation</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  diagnosis of ET
+
+          -  medication-refractory tremor
+
+          -  VIM-DBS implant (unilateral or bilateral)
+
+          -  7T MRI pre-operative scan under Dr. Harel's IRB (institutional review board) protocol
+             (#1210M22183)
+
+          -  Post-operative CT scan
+
+        Exclusion Criteria:
+
+          -  history of musculoskeletal disorders that affect movement of the limbs
+
+          -  other significant neurological disorder
+
+          -  prior history of stereotactic neurosurgery (other than VIM-DBS surgery)
+
+          -  pregnancy
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Matthew Johnson, PhD</last_name>
+    <phone>6126266492</phone>
+    <email>john5101@umn.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>University of Minnesota</name>
+      <address>
+        <city>Minneapolis</city>
+        <state>Minnesota</state>
+        <zip>55455</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Matthew Johnson, PhD</last_name>
+      <phone>612-626-6492</phone>
+      <email>john5101@umn.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>June 10, 2019</study_first_submitted>
+  <study_first_submitted_qc>June 10, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 13, 2019</study_first_posted>
+  <last_update_submitted>July 16, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 16, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 20, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Essential Tremor</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

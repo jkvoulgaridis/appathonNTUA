@@ -1,0 +1,491 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04308928</url>
+  </required_header>
+  <id_info>
+    <org_study_id>UStellenboschTBM</org_study_id>
+    <nct_id>NCT04308928</nct_id>
+  </id_info>
+  <brief_title>Evaluation of New Biomarker-based Approaches for Improving the Diagnosis of Childhood Tuberculous Meningitis</brief_title>
+  <acronym>TBMBIOMARKER</acronym>
+  <official_title>Evaluation of New Biomarker-based Approaches for Improving the Diagnosis of Childhood Tuberculous Meningitis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Stellenbosch</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Stellenbosch</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The rapid diagnosis of tuberculosis (TB) in children remains a serious challenge owing to
+      limitations in the existing diagnostic tests. TB meningitis (TBM), an extrapulmonary form of
+      TB, is the most severe manifestation of paediatric TB. TBM results in high morbidity and
+      mortality in children, despite the availability of chemotherapy, mainly due to diagnostic
+      delay. Most tests required for proper TBM diagnosis including analysis of cerebrospinal fluid
+      (CSF) and brain imaging are not available in resource-limited settings e.g., in most of
+      Africa including South Africa. New tests for TBM are urgently needed. The main goal of this
+      proposal is to develop a point-of-care (POC) diagnostic test for TBM, based on CSF and
+      bloodbiomarkers.
+
+      Aim 1: Evaluate the diagnostic potentials of 51 host inflammatory biomarkers that the
+      investigators recently identified in CSF and blood samples from children with suspected
+      meningitis in a repository of 100 stored CSF and serum samples using a multiplex platform.
+      After statistical analysis including multi-marker modelling by linear discriminant analysis,
+      random forest, and other modelling techniques, the investigators will select the best
+      combination of up to four biomarkers for incorporation into the prototype diagnostic test
+      (Aim 2).
+
+      Aim 2: Incorporate the best performing CSF and serum biomarkers into a novel, patented
+      biosensor-based POC diagnostic test. The investigators will develop a multi-biomarker
+      prototype test for detecting up to 4 biomarkers in serum or CSF.
+
+      Aim 3: Evaluate the newly developed POC test on 300 children prospectively. This will be done
+      at the Tygerberg Academic Hospital. The diagnostic yield of the POC test will be compared to
+      the routine diagnostic tests.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      IMPORTANCE AND RELEVANCE TO EDCTP2 Despite considerable ongoing efforts in the development of
+      tools to combat tuberculosis (TB), the disease was responsible for approximately 1.6 million
+      deaths, with 10 million people developing the disease worldwide in 2017 (1). An estimated one
+      million children became ill with TB in 2017 (1, 2). Eight countries in Africa or Asia
+      including South Africa, Nigeria, India, China, Indonesia, Philippines, Pakistan and
+      Bangladesh accounted for two-thirds of the world's total burden of TB (1). The TB incidence
+      in South Africa rose from 301 new cases/100,000 in 1990 to 948/100,000 in 2007 (3). The TB
+      burden is worsened by the HIV pandemic, which is rampant in South Africa and other African
+      countries. Tuberculous meningitis (TBM) is the most severe form of TB, occurs mostly during
+      early childhood and has high morbidity and mortality, due to the delayed diagnosis and
+      initiation of appropriate therapy (4). TBM is the most common type of bacterial meningitis in
+      the Western Cape Province of South Africa (5).
+
+      New TBM diagnostic tests are needed. Despite ongoing research, early and cost-effective
+      diagnostic tools for TBM are lacking (6). The detection of Mycobacterium tuberculosis (Mtb)
+      in cerebrospinal fluid (CSF) is the gold standard for diagnosing TBM. Unfortunately the
+      sensitivity of both smear microscopy and culture for TBM is low (7, 8). Depending on the
+      reference standard employed, the sensitivity of the GeneXpert test (Cepheid Inc, USA) for TBM
+      is approximately 50-60%, and improved to 72% when centrifuged CSF was used in one study (9).
+      In a more recently published study conducted on HIV positive adults, however, the GeneXpert
+      performed with a sensitivity of 43% or 45%, compared to 43% or 45% for culture and 70% or 95%
+      for the GeneXpert Ultra, depending on which of the two reference standards were used (10).
+      Despite the relatively high roll-out of the GeneXpert test across South Africa, the test is
+      currently mostly offered at centralised laboratories. The availability of the test in other
+      African countries is limited. The diagnosis of TB relies on the poorly sensitive symptom
+      screening and smear microscopy, especially at rural health centres. Mtb culture facilities
+      are often only available at referral level laboratories and results might take up to 42 days.
+      The need for multiple health care visits leads to loss of follow-up and delayed diagnosis,
+      fuelling the spread of TB and advanced lung damage. In the case of TBM in particular, proper
+      diagnosis is only made upon admission in a tertiary level referral center. In routine
+      clinical practice, diagnosis is mostly based on a combination of clinical findings, multiple
+      laboratory tests on the CSF, imaging findings and the exclusion of common differential
+      diagnoses (11). Most of these techniques are unavailable in many high-burden, but
+      resource-constrained settings in most of sub-Saharan Africa. Children seen at primary and
+      secondary healthcare facilities often have multiple missed opportunities, up to six visits,
+      before eventual diagnosis of TBM is made in a relatively well-resourced setting in South
+      Africa (12). Findings from the CSF can be highly variable (13). Recently, international
+      experts have proposed new uniform case definitions that should be employed in future research
+      (14, 15) to replace the many different definitions in the literature (7, 8, 13, 16, 17). New
+      tests are therefore urgently needed for the diagnosis of TBM.
+
+      Point-of-care (POC) or bedside diagnostic tools are needed in Sub-Saharan Africa. Any new
+      tests for TBM must be rapid, easy to perform at the POC or bedside, and suitable for use in
+      resource-poor settings in African countries. Such tests should, therefore, preferably not use
+      laboratory instruments that require specialists to operate. They should use portable battery-
+      or solar-operated hand-held devices, suitable for use by nurses and community health workers
+      (18). Diagnostics based on the human immune response may provide important additions, which
+      are easily converted to POC or bedside diagnostic tools.
+
+      Host CSF protein signatures as diagnostic candidates for TBM. The investigators investigated
+      the potential of host markers detected in CSF samples from children suspected of having TBM
+      as diagnostic candidates for TBM (19). The investigators evaluated the levels of the host
+      biomarkers present in a standard BioPlex 27plex multiplex cytokine kit (Bio Rad Laboratories)
+      and other protein biomarkers in CSF and serum samples. An unsupervised hierarchical
+      clustering and principal component analysis, using the Glucore Omics explorer, revealed
+      significant clustering of patients with TBM by the biomarkers detected in the CSF.
+
+      A 3-marker host protein biosignature comprising vascular endothelial growth factor (VEGF),
+      interleukin (IL)-13 and the antibacterial peptide cathelicidin, LL-37, showed potential as a
+      diagnostic biosignature for TBM (international patent application: PCT/IB2015/052751) (19),
+      diagnosing TBM with an area under the receiver operator characteristics curve (AUC) of 0.91,
+      with sensitivity of 52%, but with good specificity of 95%. Since the publication of this
+      biosignature, the investigators have evaluated the diagnostic potential of &gt;70 host
+      biomarkers in serum and plasma samples from adults suspected of having active pulmonary TB in
+      5 different African countries (South Africa, Namibia, Malawi, Uganda and Ethiopia) in an
+      EDCTP-funded trial (AE-TBC). The investigators identified, patented (PCT/IB2015/051435 and
+      PCT/IB2017/052142), and published 6- and 7-marker protein biosignatures with strong
+      diagnostic potential for TB (20, 21).
+
+      In a more recent study (South African Provisional Patent application; Manyelo et al 2019, in
+      press), the investigators hypothesized that at least some of the host biomarkers comprising
+      our adult protein biosignatures may be useful for TBM diagnostics. Funded by the South
+      African Technology Innovation Agency (PI: Chegou), the investigators prospectively enrolled a
+      new cohort of children suspected of having TBM at the Tygerberg Academic Hospital, Western
+      Cape, and determined the concentrations of 66 host biomarkers, in CSF samples from these
+      children. The investigators also included the 3 biomarkers that comprised our previous CSF
+      biosignature for TBM (VEGF, IL-13 and cathelicidin LL-37) (19) for validation purposes in
+      this new study; a total of 69 host protein biomarkers.
+
+      With the exception of VEGF (AUC of 0.81), the accuracy of the individual markers in the
+      previous 3-marker signature was poor (AUCs of 0.58 and 0.55, respectively, for IL-13 and
+      LL-37) but when used in combination the discrimination between TBM and no-TBM by the 3-marker
+      model was confirmed [AUC of 0.67 (95% CI: 0.52-0.83); sensitivity of 75% and specificity of
+      65%]. Forty-seven of the additional markers showed significant differences between the TBM
+      and no TBM groups (Mann Whitney U test), with 28 showing strong diagnostic potential, even as
+      individual markers (AUC ≥ 0.80). These markers include interferon (IFN)-γ, CCL18(MIP-4),
+      CXCL9, CCL1, CCL5(RANTES), IL-6, tumour necrosis factor (TNF)-α, myeloperoxidase (MPO),
+      matrix metalloproteinase 9 (MMP), MMP-8, complement C2 (CC2), IL-10, total plasminogen
+      activator inhibitor 1 (PAI-1), CXCL8, IL-1β, alpha-2-antitrypsin(A1AT), CXCL10, granulocyte
+      colony stimulating factor (G-CSF), CC4, CC4b, granulocyte-macrophage colony stimulating
+      factor (GM-CSF), platelet-derived growth factor (PDGF)-AB/BB, apolipoprotein A1 (apoA1),
+      mannose-binding lectin (MBL), ferritin, CC5a, serum amyloid P (SAP), and CC5.
+
+      Combinations of these biomarkers were investigated and using Linear Discriminant Analysis
+      (LDA) models. A 4-marker CSF biosignature comprising soluble intracellular adhesion molecule
+      (sICAM)-1, MPO, CXCL8 and IFN-γ diagnosed TBM with an AUC of 0.97 (95% CI: 0.92-1.00), with a
+      sensitivity of 87% (20/23) and specificity of 95.8% (23/24). After leave-one-out cross
+      validation, there was no change in the sensitivity and specificity of the 4-marker
+      biosignature. Further optimization of the 4-marker biosignature by the selection of better
+      cut-off values resulted in a sensitivity and specificity of 96% and 96%, respectively.
+
+      As VEGF performed well in single-marker analyses (19), the investigators evaluated the
+      potential accuracy of other biosignatures that included VEGF. A 3-marker model comprising
+      VEGF, IFN-γ and MPO discriminated with high accuracy between the children with and without
+      TBM. In leave-one-out cross validation and optimizations of best cut-off values, the
+      sensitivity and specificity of the 3-marker VEGF-based signature were 92% and 100%,
+      respectively.
+
+      Serum host protein signatures as diagnostic candidates for TBM. All 69 host markers
+      investigated in CSF samples were also investigated on serum samples using the Luminex
+      multiplex platform. The median serum levels of 17 analytes [sVCAM1, CCL2, IL-4, TNF-α, CCL4,
+      adipsin, SAP, CC5, CFH, G-CSF, IL-10, Apo-CIII, IL-17A, PAI-1(total), PDGF AB/BB, MBL and
+      NCAM1] were significantly different (p&lt;0.05; Mann Whitney U test) between children with and
+      without TBM. When the diagnostic potential of individual serum biomarkers was assessed by ROC
+      curve analysis, 13 of the markers had promising AUC ≥ 0.70. LDA demonstrated that optimal
+      diagnosis of TBM was achieved using 3 markers. The most accurate 3-marker serum biosignature
+      for the diagnosis of TBM [adipsin (complement factor D), Ab42 and IL-10] diagnosed TBM with
+      an AUC of 0.84 (95% CI: 0.73-0.96), a sensitivity of 82.6% (19/23) and specificity of 75%
+      (18/24). In leave-one-out cross validation, the sensitivity remained 82.6% (19/23) with the
+      specificity decreasing to 70.3% (17/24). Further optimisation of the biosignature by
+      selection of better cut-off values resulted in an improved sensitivity and specificity of 83%
+      and 83%, respectively.
+
+      Biosensor-based diagnostic platform. The best performing CSF and serum biomarkers for TBM
+      will be incorporated into a novel POC diagnostic platform to be developed at the Engineering
+      Faculty, SU. The investigators have developed a prototype piezoelectric sensor using ZnO
+      nanowires, as well as a resistive sensing element based on an electrospun nanofiber mesh
+      (22). The device successfully detected E. coli (23). The investigators have also used this
+      technique to detect small quantities of the protein LC3, a biomarker for autophagy activity
+      and as part of a recent masters project, the platform was capable of detecting IFN-γ, a key
+      TB biomarker in fg/ml ranges, thus demonstrating its potential high sensitivity.
+
+      We will use a similar approach to develop a multi-biomarker based prototype test that is
+      capable of detecting up to 4 biomarkers in serum or CSF, and prospectively evaluate the test
+      on 300 newly recruited children with suspected TBM (Aim 3).
+
+      OVERALL OBJECTIVE The main objective is to validate previously identified host serum and CSF
+      biomarkers and to develop a biosensor-based POC test for the diagnosis of TBM, based on these
+      biomarkers.
+
+      The investigators propose to identify a panel of correlated biomarkers that showed potential
+      in previous studies. This will be done to identify biomarkers which can be substituted with
+      each other as the transition from a laboratory-based technological platform such as Luminex
+      to a POC test using a biosensor-based technology is likely to be faced by the loss of some of
+      the markers due to technical reasons or due to unavailability of some of the markers due to
+      antibody ownership or cost issues. Highly correlated markers can then substitute such
+      markers. The investigators will test which set of biomarkers works best in the POC diagnostic
+      test platform. Finally, the investigators will evaluate the prototype test prospectively in a
+      new cohort of 300 study participants with suspected TBM as described below.
+
+      The prototype test will be based on the best biosignature of CSF or serum biomarkers,
+      depending on which performs best. However, developing the test based on serum biomarkers may
+      be advantageous as CSF samples are difficult to collect. Furthermore, a test based on serum
+      biomarkers may be easily converted to a fingerprick based test, which will be much easier to
+      implement in resource-constrained settings. The investigators are currently evaluating a
+      fingerprick screening test for adult TB based on host biomarkers discovered and validated in
+      serum samples as part of an EDCTP2-funded consortium (www.screen-tb.eu).
+
+      References
+
+        1. World Health Organisation. Global tuberculosis report 2018.
+
+        2. World Health Organisation. Tuberculosis Fact Sheet. 2018.
+
+        3. World Health Organisation. Global Tuberculosis Control; Epidemiology, Strategy and
+           Financing. World Health Organisation Report 2009.
+
+        4. Schoeman J, Wait J, Burger M, van Zyl F, Fertig G, van Rensburg AJ, et al. Long-term
+           follow up of childhood tuberculous meningitis. Developmental medicine and child
+           neurology. 2002;44(8):522-6. https://doi.org/10.1111/j.1469-8749.2002.tb00323.x
+
+        5. Donald PR, Cotton MF, Hendricks MK, Schaaf HS, de Villiers JN, Willemse TE. Pediatric
+           meningitis in the Western Cape Province of South Africa. Journal of tropical pediatrics.
+           1996;42(5):256-61. doi: 10.1093/tropej/42.5.256.
+
+        6. Thwaites GE, van Toorn R, Schoeman J. Tuberculous meningitis: more questions, still too
+           few answers. The Lancet Neurology. 2013;12(10):999-1010. doi:
+           10.1016/S1474-4422(13)70168-6
+
+        7. Hosoglu S, Geyik MF, Balik I, Aygen B, Erol S, Aygencel TG, et al. Predictors of outcome
+           in patients with tuberculous meningitis. The international journal of tuberculosis and
+           lung disease : the official journal of the International Union against Tuberculosis and
+           Lung Disease. 2002;6(1):64-70. PMID: 11931403
+
+        8. van Well GT, Paes BF, Terwee CB, Springer P, Roord JJ, Donald PR, et al. Twenty years of
+           pediatric tuberculous meningitis: a retrospective cohort study in the western cape of
+           South Africa. Pediatrics. 2009;123(1):e1-8. doi: 10.1542/peds.2008-1353
+
+        9. Bahr NC, Marais S, Caws M, van Crevel R, Wilkinson RJ, Tyagi JS, et al. GeneXpert
+           MTB/Rif to Diagnose Tuberculous Meningitis: Perhaps the First Test but not the Last.
+           Clinical infectious diseases : an official publication of the Infectious Diseases
+           Society of America. 2016;62(9):1133-5. doi: 10.1093/cid/ciw083
+
+       10. Bahr NC, Nuwagira E, Evans EE, Cresswell FV, Bystrom PV, Byamukama A, et al. Diagnostic
+           accuracy of Xpert MTB/RIF Ultra for tuberculous meningitis in HIV-infected adults: a
+           prospective cohort study. The Lancet Infectious diseases. 2018;18(1):68-75. doi:
+           10.1016/S1473-3099(17)30474-7.
+
+       11. Marais SW, Wilkinson R J. The diagnosis and medical management of tuberculous meningitis
+           in adults. South African Medical Journal. 2014;104(12). DOI:10.7196/SAMJ.9060
+
+       12. Solomons R, Grantham M, Marais BJ, van Toorn R. IMCI indicators of childhood TBM at
+           primary health care level in the Western Cape Province of South Africa. The
+           international journal of tuberculosis and lung disease : the official journal of the
+           International Union against Tuberculosis and Lung Disease. 2016;20(10):1309-13. DOI:
+           10.5588/ijtld.16.0062
+
+       13. Bhigjee AI, Padayachee R, Paruk H, Hallwirth-Pillay KD, Marais S, Connoly C. Diagnosis
+           of tuberculous meningitis: clinical and laboratory parameters. International journal of
+           infectious diseases : IJID : official publication of the International Society for
+           Infectious Diseases. 2007;11(4):348-54. DOI: 10.1016/j.ijid.2006.07.007
+
+       14. Marais S, Thwaites G, Schoeman JF, Torok ME, Misra UK, Prasad K, et al. Tuberculous
+           meningitis: a uniform case definition for use in clinical research. The Lancet
+           Infectious diseases. 2010;10(11):803-12. doi: 10.1016/S1473-3099(10)70138-9
+
+       15. Goenka A, Jeena PM, Mlisana K, Solomon T, Spicer K, Stephenson R, et al. Rapid Accurate
+           Identification of Tuberculous Meningitis Among South African Children Using a Novel
+           Clinical Decision Tool. The Pediatric infectious disease journal. 2018;37(3):229-34.
+           DOI: 10.1097/INF.0000000000001726
+
+       16. Andronikou S, Wilmshurst J, Hatherill M, VanToorn R. Distribution of brain infarction in
+           children with tuberculous meningitis and correlation with outcome score at 6 months.
+           Pediatric radiology. 2006;36(12):1289-94. DOI: 10.1007/s00247-006-0319-7
+
+       17. Saitoh A, Pong A, Waecker NJ, Jr., Leake JA, Nespeca MP, Bradley JS. Prediction of
+           neurologic sequelae in childhood tuberculous meningitis: a review of 20 cases and
+           proposal of a novel scoring system. The Pediatric infectious disease journal.
+           2005;24(3):207-12. DOI: 10.1097/01.inf.0000154321.61866.2d
+
+       18. World Health Organisation. Meeting Report: High-priority target product profiles for new
+           tuberculosis diagnostics: report of a consensus meeting. Geneva: World Health
+           Organisation; 2014 28-29 April 2014.
+
+       19. Visser DH, Solomons RS, Ronacher K, van Well GT, Heymans MW, Walzl G, et al. Host immune
+           response to tuberculous meningitis. Clinical infectious diseases : an official
+           publication of the Infectious Diseases Society of America. 2015;60(2):177-87. doi:
+           10.1093/cid/ciu781
+
+       20. Chegou NN, Sutherland JS, Malherbe S, Crampin AC, Corstjens PL, Geluk A, et al.
+           Diagnostic performance of a seven-marker serum protein biosignature for the diagnosis of
+           active TB disease in African primary healthcare clinic attendees with signs and symptoms
+           suggestive of TB. Thorax. 2016. Thorax. 2016;71(9):785-94. doi:
+           10.1136/thoraxjnl-2015-207999
+
+       21. Jacobs R, Malherbe S, Loxton AG, Stanley K, van der Spuy G, Walzl G, et al.
+           Identification of novel host biomarkers in plasma as candidates for the immunodiagnosis
+           of tuberculosis disease and monitoring of tuberculosis treatment response. Oncotarget.
+           2016;7(36):57581-92. doi: 10.18632/oncotarget.11420
+
+       22. Neveling DP, van den Heever TS, Perold WJ, Dicks LMT. A nanoforce ZnO nanowire-array
+           biosensor for the detection andquantification of immunoglobulins. Sensors and Actuators
+           B. 2014;203:102-10. https://doi.org/10.1016/j.snb.2014.06.076
+
+       23. Maas MB, Maybery GHC, Perold WJ, Neveling DP, Dicks LMT. Borosilicate Glass Fiber-Optic
+           Biosensor for the Detection of Escherichia coli. Current microbiology. 2018;75(2):150-5.
+           doi: 10.1007/s00284-017-1359-y.
+
+       24. Corstjens PL, Tjon Kon Fat EM, de Dood CJ, van der Ploeg-van Schip JJ, Franken KL,
+           Chegou NN, et al. Multi-center evaluation of a user-friendly lateral flow assay to
+           determine IP-10 and CCL4 levels in blood of TB and non-TB cases in Africa. Clinical
+           biochemistry. 2016;49(1-2):22-31. doi: 10.1016/j.clinbiochem.2015.08.013
+
+       25. Sutherland JS, Mendy J, Gindeh A, Walzl G, Togun T, Owolabi O, et al. Use of lateral
+           flow assays to determine IP-10 and CCL4 levels in pleural effusions and whole blood for
+           TB diagnosis. Tuberculosis (Edinburgh, Scotland). 2016;96:31-6. doi:
+           10.1016/j.tube.2015.10.011.
+
+       26. Marais BJ, Heemskerk AD, Marais SS, van Crevel R, Rohlwink U, Caws M, et al.
+           Standardized Methods for Enhanced Quality and Comparability of Tuberculous Meningitis
+           Studies. Clinical infectious diseases : an official publication of the Infectious
+           Diseases Society of America. 2017;64(4):501-9. doi: 10.1093/cid/ciw757.
+
+       27. Kashyap RS, Dobos KM, Belisle JT, Purohit HJ, Chandak NH, Taori GM, et al. Demonstration
+           of components of antigen 85 complex in cerebrospinal fluid of tuberculous meningitis
+           patients. Clinical and diagnostic laboratory immunology. 2005;12(6):752-8. DOI:
+           10.1128/CDLI.12.6.752-758.2005
+
+       28. du Preez K, Seddon JA, Schaaf HS, Hesseling AC, Starke JR, Osman M, et al. Global
+           shortages of BCG vaccine and tuberculous meningitis in children. The Lancet Global
+           health. 2019;7(1):e28-e9. DOI:10.1016/S2214-109X(18)30474-1
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">April 1, 2020</start_date>
+  <completion_date type="Anticipated">October 31, 2024</completion_date>
+  <primary_completion_date type="Anticipated">July 30, 2024</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Identify CSF or blood-based biosignatures for the diagnosis of TBM in children</measure>
+    <time_frame>2019-2021</time_frame>
+    <description>We have identified a total of 51 inflammatory biomarkers in CSF and/or serum samples in children with suspected TBM. 47 of these host markers (including 10 of the 14 that showed potential in serum either as individual markers or as part of 3-marker signatures) were detected in CSF samples, with only four of these proteins (CCL2, IL-4, adipsin and Ab42) showing potential only in serum samples. Using a repository of 100 CSF and serum samples, currently available in our biobank, from children with suspected TBM, n=50 with TBM, we will look for correlated markers that can be substituted to identify the best performing biomarker set for the POC device (Aim 2).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Develop a prototype POC diagnostic test platform based on the biosignatures.</measure>
+    <time_frame>2020-2022</time_frame>
+    <description>The validated, best performing CSF and serum biomarkers (sub aims 1a and b) will be incorporated into our POC diagnostic platform, at the Engineering Faculty, SU. The first prototype of the biosensor-based assay was shown to quantify antibodies in bodily fluids in the range of 50 ng/ml - 1 µg/ml (22). We will develop a multibiomarker prototype test for 4 biomarkers in CSF or serum. The prototype multi-biomarker test will undergo prospective evaluation in the field (Aim 3), in years 4 and 5. Assay development will be led by Distinguished Professor Willem Perold, a co-investigator on the project, who will be the lead supervisor of one MSc.Engineering student, with Dr. Chegou as co-supervisor.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Evaluate the newly developed test in a new patient cohort.</measure>
+    <time_frame>2023-2024</time_frame>
+    <description>We will evaluate the newly developed test prospectively in a new cohort of children with suspected TBM.
+Clinical study design Recruitment of study participants will follow a longitudinal cohort design. Children suspected of having meningitis will be recruited and assessed for TBM at Tygerberg Academic Hospital, a tertiary level referral hospital and a teaching hospital for SU. It is the second-largest hospital in South Africa. These children will later be classified as having &quot;definite&quot;, &quot;probable&quot;, &quot;possible&quot; and &quot;no TBM&quot; based on international, standardized criteria (26).</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">400</enrollment>
+  <condition>Tuberculous Meningitis</condition>
+  <arm_group>
+    <arm_group_label>Children with suspected meningitis</arm_group_label>
+    <description>Patients must have a clinical diagnosis of meningitis including one or more of the following symptoms: headache, irritability, vomiting, fever and neck stiffness (Table 1). The diagnosis of probable or possible TBM is based on 1) clinical findings 2) CSF results 3) neuroimaging findings 4) evidence for TB outside the central nervous system and 5) additional laboratory criteria. A scoring system then determines whether a patient falls in the probable or possible TBM category. Points are allocated for a positive finding in each of the categories, with a maximum score for each category. A total score of at least 10 is compatible with probable TBM, while a total score of at least 6 equates with a possible TBM diagnosis.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Children with definite tuberculous meningitis</arm_group_label>
+    <description>Definite TBM requires demonstration of acid- fast bacilli in the CSF, Mycobacterium tuberculosis culture from CSF, a positive nucleic acid amplification test (PCR) of CSF or histopathological evidence of Mycobacterium tuberculosis from a central nervous system site.</description>
+  </arm_group>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Cerebrospinal fluid, serum, urine
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study will be conducted at Tygerberg Children's Hospital, Parow Valley, Cape Town. The
+        hospital is the tertiary academic hospital of the Faculty of Medicine and Health Sciences,
+        University of Stellenbosch. Children with tuberculous meningitis are referred from primary
+        care day hospitals, district and secondary level hospitals from our drainage area. Children
+        with suspected TBM are referred to our institution to establish the diagnosis of TBM and to
+        treat the complications associated with advanced disease (stage 2 and 3 TBM, e.g.
+        hydrocephalus). Research samples collected for the purposes of the current study shall be
+        processed at the Stellenbosch University Immunology Research Group (SUN-IRG) laboratory,
+        Department of Biomedical Sciences, Faculty of Medicine and Health Sciences.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Children between the ages of 3 months and 13 years with suspected meningitis, and who
+             require CSF examination for routine diagnostic purposes at Tygerberg Children's
+             Hospital.
+
+          -  Written informed consent will be obtained from parents for inclusion of children 3
+             months to 7 years old in the study.
+
+          -  If possible, assent will be obtained in those children older than 7 years who have a
+             normal level of consciousness, i.e. a Glasgow Coma Score (GCS) of 15/15.
+
+        Exclusion Criteria:
+
+          -  Children 13 years and older will be excluded from the study.
+
+          -  Failure to obtain written consent will also exclude children from the study.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>3 Months</minimum_age>
+    <maximum_age>13 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Novel Chegou, Prof</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Stellenbosch</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Novel Chegou, Prof</last_name>
+    <phone>+27219389786</phone>
+    <email>novel@sun.ac.za</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Vinzeigh Leukes, Hons</last_name>
+    <phone>+27219389791</phone>
+    <email>vnleukes@sun.ac.za</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Stellenbosch University Immunology Research Group</name>
+      <address>
+        <city>Cape Town</city>
+        <state>Western Cape</state>
+        <zip>7505</zip>
+        <country>South Africa</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Novel Chegou, Prof</last_name>
+      <phone>+27219389786</phone>
+      <email>novel@sun.ac.za</email>
+    </contact>
+    <contact_backup>
+      <last_name>Vinzeigh Leukes, Hons</last_name>
+      <phone>+27219389791</phone>
+      <email>vnleukes@sun.ac.za</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>South Africa</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>March 11, 2020</study_first_submitted>
+  <study_first_submitted_qc>March 11, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 16, 2020</study_first_posted>
+  <last_update_submitted>April 3, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 3, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 7, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Stellenbosch</investigator_affiliation>
+    <investigator_full_name>Vinzeigh Leukes</investigator_full_name>
+    <investigator_title>Clinical Project Coordinator</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Meningococcal Infections</mesh_term>
+    <mesh_term>Tuberculosis</mesh_term>
+    <mesh_term>Tuberculosis, Meningeal</mesh_term>
+    <mesh_term>Meningitis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Participant information will be secured using unique participant ID's (PIDs). Participants are minors, and thus published data will use de-identified participant results.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

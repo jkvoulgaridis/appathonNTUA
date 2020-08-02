@@ -1,0 +1,571 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04189029</url>
+  </required_header>
+  <id_info>
+    <org_study_id>APHP190558</org_study_id>
+    <secondary_id>2019-A01795-52</secondary_id>
+    <nct_id>NCT04189029</nct_id>
+  </id_info>
+  <brief_title>PACIFIC-PRESERVED : PhenomApping, ClassIFication, and Innovation for Cardiac Dysfunction - HF With PRESERVED LVEF Study</brief_title>
+  <official_title>Redefining the Phenotypic Spectrum of Heart Failure With Preserved Ejection Fraction (HFpEF) by Deep Phenotyping and Machine Learning Methods: The PACIFIC-PRESERVED Study (PhenomApping, ClassIFication, and Innovation for Cardiac Dysfunction - HF With PRESERVED LVEF Study)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Assistance Publique - Hôpitaux de Paris</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>BPIfrance</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Sanofi</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Institut de Recherches Internationales Servier</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Institut National de la Santé Et de la Recherche Médicale, France</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>BioSerenity</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Casis</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Firalis SA</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Fealinx</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Centre National de la Recherche Scientifique, France</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>ESPCI Paris</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Paris 5 - Rene Descartes</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Sorbonne University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Assistance Publique - Hôpitaux de Paris</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a prospective multicenter study to decipher phenotypic variability within patients
+      with heart failure and preserved left ventricular ejection fraction (HFpEF). From a registry
+      of heart failure patients (2500 anticipated) hospitalized in the participating centers in the
+      last 3 years, 300 HFpEF patients, 100 patients with heart failure and reduced ejection
+      fraction (HFrEF) and 100 matched subjects without heart failure will be enrolled for an
+      extensive phenotyping with physical evaluation, biomarkers and omics, cardiac and vascular
+      imaging and telemonitoring of cardiovascular parameters. Cluster analysis with machine
+      learning methods will be performed to define phenogroups unique to the HFpEF patient
+      population.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Heart failure with preserved ejection fraction (HFpEF) is a complex and prevalent syndrome
+      with currently no efficient therapy. This syndrome is likely explained by different
+      pathophysiological inputs leading to common symptoms of heart failure. These
+      pathophysiological abnormalities can primarily involve the heart but also other organs with
+      secondary impact on the myocardium. There is however no clear understanding and diagnostic
+      algorithms of the different HFpEF subpopulations. Novel mathematical methods (such as machine
+      learning) can help identifying clusters within an heterogeneous population such as HFpEF
+      patients.
+
+      A registry (2500 anticipated) will be constituted with patients hospitalized for congestive
+      heart failure in the participating centers during the last 3 years. From this registry, 500
+      patients will be invited to visit in the hospital for 8-10 hours for physical examination,
+      ECG, performance-based tests, blood draw, cMRI, echocardiography (rest and low-level
+      exercise), Ultrafast echo (for non-invasive measurement of myocardial stiffness), low
+      radiation cardiac CT (for calcium scoring), non-invasive measurement of arterial stiffness.
+      They will be asked to fill out questionnaires about dyspnea, depression and about general
+      health and quality of life. They will then be equipped with a smart connected garment (with
+      cardiovascular &amp; hemodynamic sensors), a connected weight balance and a blood pressure
+      monitoring device for telemonitoring collection of cardiovascular hemodynamic parameters in
+      real-life conditions (for 14 days).
+
+      Patients included in the registry will be followed-up for 3 years using medico-administrative
+      databases and vital status, cardiovascular and heart failure outcomes will be collected.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">December 9, 2019</start_date>
+  <completion_date type="Anticipated">June 2024</completion_date>
+  <primary_completion_date type="Anticipated">December 2021</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>3 Years</target_duration>
+  <primary_outcome>
+    <measure>Machine learning algorithm to identify distinct phenotypic subgroups among HFpEF patients</measure>
+    <time_frame>14 days</time_frame>
+    <description>Machine learning-based cluster analysis using extensive phenotyping data from HFpEF, HFrEF and subjects without apparent HF</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Prognosis</measure>
+    <time_frame>3 years</time_frame>
+    <description>Identify phenotypic subgroup(s) with higher risk of cardiovascular and HF outcomes</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Myocardial stiffness</measure>
+    <time_frame>3 years</time_frame>
+    <description>Assess the diagnostic and prognostic value of myocardial stiffness measured with ultrafast cardiac echography</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sarcopenia and muscular capacity</measure>
+    <time_frame>3 years</time_frame>
+    <description>Prevalence and importance of muscle loss, weakness measured with hand grip strength test (Kg) and with the short physical performance battery (SPPB, combining the results of gait speed, chair stand and balance tests) in HFpEF patients</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Exercise tolerance</measure>
+    <time_frame>3 years</time_frame>
+    <description>Measure exercise tolerance with 6-minute walk test</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cardiac fibrosis</measure>
+    <time_frame>3 years</time_frame>
+    <description>Prevalence, diagnostic and prognostic importance of cardiac fibrosis (as estimated by cMRI and specific biological markers) in HFpEF patients</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Arterial Stiffness</measure>
+    <time_frame>3 years</time_frame>
+    <description>Assess the diagnostic and prognostic value of arterial stiffness measured by pulse wave velocity</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Right heart and pulmonary circulation</measure>
+    <time_frame>3 years</time_frame>
+    <description>Assess the diagnostic and prognostic value of novel markers to quantify right heart function and pulmonary circulation measured with cMRI</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Ventricular-arterial coupling</measure>
+    <time_frame>3 years</time_frame>
+    <description>Machine learning-based analysis on 4D MRI recordings to estimate ventricular-arterial coupling</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Omics signature</measure>
+    <time_frame>3 years</time_frame>
+    <description>Apply multi-omics techniques (including measurements of miRNA, lNcRNA, inflammation markers, and DNA methylation level) to define specific biological signatures to HF and HFpEF patients</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Quality of life evaluation</measure>
+    <time_frame>3 years</time_frame>
+    <description>General and HF QOL questionnaires: Kansas city cardiomyopathy questionnaire - the sum of responses from all 12 items, Range for subscale is 0-100 and the range for the summary score is 0-100 with lower scores indicating more significant disease impact; Global quality of life score with SF36 (Short form 36 health survey): The norm data is 0-100, the health related quality of life is increased as the scores are increased.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Telemonitoring of weight</measure>
+    <time_frame>3 years</time_frame>
+    <description>Remote measurement of body weight</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Telemonitoring of cardiac rythm</measure>
+    <time_frame>3 years</time_frame>
+    <description>Remote measurement of cardiac arrhythmias</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Telemonitoring of ECG</measure>
+    <time_frame>3 years</time_frame>
+    <description>Remote measurement of heart rate variability</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Telemonitoring of physical activity</measure>
+    <time_frame>3 years</time_frame>
+    <description>Remote measurement of physical activity with an actimeter</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Telemonitoring of blood pressure</measure>
+    <time_frame>3 years</time_frame>
+    <description>Remote measurements of blood pressure in mmHg</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Telemonitoring of pulmonary function</measure>
+    <time_frame>3 years</time_frame>
+    <description>Remote measurement of respiratory rate</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Telemonitoring of oxygen saturation</measure>
+    <time_frame>3 years</time_frame>
+    <description>Remote measurement of oxygen saturation (%)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Telemonitoring of pulmonary congestion</measure>
+    <time_frame>3 years</time_frame>
+    <description>Remote evaluation of pulmonary congestion with measurement of thoracic impedance</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Digitalized ECG</measure>
+    <time_frame>3 years</time_frame>
+    <description>Develop novel machine learning based markers of HF, of HFpEF and HFrEF</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cardiac echography</measure>
+    <time_frame>3 years</time_frame>
+    <description>Rest and low-effort evaluation of cardiac parameters</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cardiac calcium scoring</measure>
+    <time_frame>3 years</time_frame>
+    <description>Evaluation of calcium scoring among participants</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cardiac MRI</measure>
+    <time_frame>3 years</time_frame>
+    <description>Novel biomarkers of cardiac fibrosis, extra-cellular volume, matrix remodeling</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Left atria</measure>
+    <time_frame>3 years</time_frame>
+    <description>Evaluation of LA remodeling (volumes) and function (strain)</description>
+  </secondary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">2620</enrollment>
+  <condition>Heart Failure</condition>
+  <condition>Heart Failure With Preserved Ejection Fraction</condition>
+  <arm_group>
+    <arm_group_label>HFpEF patients</arm_group_label>
+    <description>Heart failure patients (NYHA II-IV) with left ventricular ejection fraction ≥ 50%, 1000 patients anticipated among which 300 with extensive phenotyping</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>HFrEF patients</arm_group_label>
+    <description>Heart failure patients (NYHA II-IV) with left ventricular ejection fraction ≤ 40%, 1000 patients anticipated among which 100 with extensive phenotyping (age- and gender-matched on participating HFpEF patients)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Subjects apparently without heart failure</arm_group_label>
+    <description>Subjects without history or signs of heart failure, 100 subjects anticipated with extensive phenotyping (age- and gender-matched on participating HFpEF patients)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Extensive phenotyping</intervention_name>
+    <description>Prospective assessment of physical evaluation, biomarkers and omics, cardiac and vascular imaging and telemonitoring of cardiovascular parameters for 14 days.</description>
+    <arm_group_label>HFpEF patients</arm_group_label>
+    <arm_group_label>HFrEF patients</arm_group_label>
+    <arm_group_label>Subjects apparently without heart failure</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Plasma, Serum, PaxGene RNA, PBMC
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with different forms of heart failure (ie with preserved left ventricular ejection
+        fraction vs. reduced left ventricular ejection fraction) and subjects apparently without
+        heart failure
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        All subjects
+
+          -  Affiliation to a social security scheme, universal medical coverage (CMU) or any
+             equivalent scheme
+
+          -  Physical state compatible with the carrying out of the investigations according to the
+             judgment of the investigator
+
+        For HFpEF patients:
+
+          -  Hospitalization in one of the partner hospitals in the last 30 months
+
+          -  With a diagnosis of symptomatic congestive heart failure (NYHA II to IV)
+
+          -  With a plasma concentration of BNP ≥ 100 μg / ml or NT-proBNP ≥ 300 μg / ml or having
+             had an administration of a dose of intravenous diuretics during hospitalization for
+             congestive heart failure
+
+          -  Left ventricular ejection fraction ≥ 50%
+
+          -  Hospital discharge for at least 3 months
+
+        For HFrEF patients:
+
+          -  Hospitalization in one of the partner hospitals in the last 30 months
+
+          -  With a diagnosis of symptomatic congestive heart failure (NYHA II to IV)
+
+          -  Plasma concentration of BNP ≥ 100 μg / ml or NT-proBNP ≥ 300 μg / ml or administered a
+             dose of intravenous diuretics during hospitalization for congestive heart failure
+
+          -  Hospital discharge for at least 3 months
+
+          -  Left ventricular ejection fraction ≤ 40%
+
+          -  Matched age and sex to HFpEF patients (for participants to extensive phenotyping)
+
+        For subjects apparently without heart failure :
+
+          -  Subject without a notable medical history or medical history
+
+          -  Normotensive or who may have an essential hypertension of grade 1 (≤159 / 99 mmHg),
+             treated or not
+
+          -  Can present a dyslipidemia, treated by hygieno-dietetic measures alone
+
+          -  Sinus heart rate
+
+          -  Estimated glomerular filtration rate ≥ 60 ml / min (CKD epi)
+
+          -  Matched age and sex to HFpEF patients (for participants to extensive phenotyping)
+
+        Exclusion Criteria:
+
+        All subjects
+
+          -  Pregnancy or breastfeeding
+
+          -  Participation in another interventional study
+
+          -  Person placed under the safeguard of justice
+
+          -  Subject that can not understand the procedures related to the protocol
+
+          -  Severe obesity (BMI &gt; 40 Kg / m2)
+
+          -  Patient who has already had a severe allergy to gadolinium MRI contrast agents
+
+          -  MRI usual contraindications: Pace-maker, defibrillator, metallic objects
+
+        For both HFpEF and HFrEF patients:
+
+          -  History of right ventricular infarction
+
+          -  History of cardiac transplantation or circulatory assistance
+
+          -  Major surgery scheduled for less than 6 months, coronary revascularization of less
+             than 3 months
+
+          -  Pacemaker or any implanted device (or foreign body) not compatible with MRI
+
+          -  Presence of very severe co-morbidity: end-stage renal failure (GFR &lt;15ml / min),
+             severe chronic obstructive pulmonary disease (COPD), severe valve disease (including
+             severe aortic stenosis),
+
+          -  Hypertrophic cardiomyopathy of known genetic cause
+
+          -  Known amyloidosis with apparent extracardiac manifestations
+
+          -  Other antecedent of known congenital heart disease type, Post-embolic chronic
+             pulmonary heart, Restrictive Cardiopathy, Diagnosed Fabry Disease
+
+        For HFpEF patients:
+
+        - History of systolic dysfunction with proven LVEF reduction (≤ 40%)
+
+        For subjects apparently without heart failure :
+
+          -  Medication use other than pure systemic or local estrogen / progestin and progestin
+             contraceptives and paracetamol
+
+          -  Acute pathology within 8 days prior to inclusion
+
+          -  Cardiac or vascular organic impairment or apparent chronic diseases
+
+          -  Chronic treatment outside a treatment for high blood pressure
+
+          -  Having already had ≥3 MRI with injection of gadolinium contrast agents
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jean-Sébastien HULOT, MD PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>AP - HP, Hôpital Européen Georges-Pompidou, Paris, France</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jean-Sébastien HULOT, MD PhD</last_name>
+    <phone>0033156092017</phone>
+    <email>jean-sebastien.hulot@aphp.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Liliane BERKANI, MSc</last_name>
+    <phone>0033156093762</phone>
+    <email>liliane.berkani@aphp.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>AP - HP, Hôpital Européen Georges-Pompidou</name>
+      <address>
+        <city>Paris</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jean-Sébastien HULOT, MD PhD</last_name>
+      <phone>0033156092017</phone>
+      <email>jean-sebastien.hulot@aphp.fr</email>
+    </contact>
+    <investigator>
+      <last_name>Jean-Sébastien HULOT, MD PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <reference>
+    <citation>Ambrosy AP, Fonarow GC, Butler J, Chioncel O, Greene SJ, Vaduganathan M, Nodari S, Lam CSP, Sato N, Shah AN, Gheorghiade M. The global health and economic burden of hospitalizations for heart failure: lessons learned from hospitalized heart failure registries. J Am Coll Cardiol. 2014 Apr 1;63(12):1123-1133. doi: 10.1016/j.jacc.2013.11.053. Epub 2014 Feb 5.</citation>
+    <PMID>24491689</PMID>
+  </reference>
+  <reference>
+    <citation>De Peretti, et al. Prévalence et statut fonctionnel des cardiopathies ischémiques et de l'insuffisance cardiaque dans la population adulte en France : apports des enquêtes déclaratives &quot; Handicap-Santé &quot; BEH 2014; (9-10):172-81</citation>
+  </reference>
+  <reference>
+    <citation>Galinier M, et al. Parcours de Soins. Dossier insuffisance cardiaque, encore trop d'hospitalisations pourtant évitables. État des lieux en France en 2013. Le Concours Médical 2013; 135(6):443-7</citation>
+  </reference>
+  <reference>
+    <citation>Lindenfeld J, Albert NM, Boehmer JP et coll. HFSA 2010 Comprehensive Heart Failure Practice Guideline. J Card Fail 2010 ; 16 (6): e1-e194. - Arnold JM, Liu P, Demers C et coll. Canadian Cardiovascular Society consensus conference recommendations on heart failure 2006: diagnosis and management. Can J Cardiol 2006 ; 22 (1) : 23-45</citation>
+  </reference>
+  <reference>
+    <citation>Blanc - SVSE 1 - Physiologie, physiopathologie, santé publique (Blanc SVSE 1) 2013</citation>
+  </reference>
+  <reference>
+    <citation>Vasan RS, Levy D. The role of hypertension in the pathogenesis of heart failure. A clinical mechanistic overview. Arch Intern Med. 1996 Sep 9;156(16):1789-96. Review.</citation>
+    <PMID>8790072</PMID>
+  </reference>
+  <reference>
+    <citation>Fonarow GC, Stough WG, Abraham WT, Albert NM, Gheorghiade M, Greenberg BH, O'Connor CM, Sun JL, Yancy CW, Young JB; OPTIMIZE-HF Investigators and Hospitals. Characteristics, treatments, and outcomes of patients with preserved systolic function hospitalized for heart failure: a report from the OPTIMIZE-HF Registry. J Am Coll Cardiol. 2007 Aug 21;50(8):768-77. Epub 2007 Aug 6.</citation>
+    <PMID>17707182</PMID>
+  </reference>
+  <reference>
+    <citation>CDC statistics 2016; AHA Heart disease and stoke statistics 2017; European CVD statistics 2017 ; Dunlay S et al 2017 Nat Rev Cardiol</citation>
+  </reference>
+  <reference>
+    <citation>Ponikowski P, Voors AA, Anker SD, Bueno H, Cleland JG, Coats AJ, Falk V, González-Juanatey JR, Harjola VP, Jankowska EA, Jessup M, Linde C, Nihoyannopoulos P, Parissis JT, Pieske B, Riley JP, Rosano GM, Ruilope LM, Ruschitzka F, Rutten FH, van der Meer P; Authors/Task Force Members; Document Reviewers. 2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure: The Task Force for the diagnosis and treatment of acute and chronic heart failure of the European Society of Cardiology (ESC). Developed with the special contribution of the Heart Failure Association (HFA) of the ESC. Eur J Heart Fail. 2016 Aug;18(8):891-975. doi: 10.1002/ejhf.592. Epub 2016 May 20.</citation>
+    <PMID>27207191</PMID>
+  </reference>
+  <reference>
+    <citation>Zile MR, Gottdiener JS, Hetzel SJ, McMurray JJ, Komajda M, McKelvie R, Baicu CF, Massie BM, Carson PE; I-PRESERVE Investigators. Prevalence and significance of alterations in cardiac structure and function in patients with heart failure and a preserved ejection fraction. Circulation. 2011 Dec 6;124(23):2491-501. doi: 10.1161/CIRCULATIONAHA.110.011031. Epub 2011 Nov 7.</citation>
+    <PMID>22064591</PMID>
+  </reference>
+  <reference>
+    <citation>Katz DH, Beussink L, Sauer AJ, Freed BH, Burke MA, Shah SJ. Prevalence, clinical characteristics, and outcomes associated with eccentric versus concentric left ventricular hypertrophy in heart failure with preserved ejection fraction. Am J Cardiol. 2013 Oct 15;112(8):1158-64. doi: 10.1016/j.amjcard.2013.05.061. Epub 2013 Jun 28.</citation>
+    <PMID>23810323</PMID>
+  </reference>
+  <reference>
+    <citation>Lam CS, Roger VL, Rodeheffer RJ, Bursi F, Borlaug BA, Ommen SR, Kass DA, Redfield MM. Cardiac structure and ventricular-vascular function in persons with heart failure and preserved ejection fraction from Olmsted County, Minnesota. Circulation. 2007 Apr 17;115(15):1982-90. Epub 2007 Apr 2. Erratum in: Circulation. 2007 May 22;115(20):e535.</citation>
+    <PMID>17404159</PMID>
+  </reference>
+  <reference>
+    <citation>Persson H, Lonn E, Edner M, Baruch L, Lang CC, Morton JJ, Ostergren J, McKelvie RS; Investigators of the CHARM Echocardiographic Substudy-CHARMES. Diastolic dysfunction in heart failure with preserved systolic function: need for objective evidence:results from the CHARM Echocardiographic Substudy-CHARMES. J Am Coll Cardiol. 2007 Feb 13;49(6):687-94. Epub 2007 Jan 26.</citation>
+    <PMID>17291934</PMID>
+  </reference>
+  <reference>
+    <citation>Shah AM, Claggett B, Kitzman D, Biering-Sørensen T, Jensen JS, Cheng S, Matsushita K, Konety S, Folsom AR, Mosley TH, Wright JD, Heiss G, Solomon SD. Contemporary Assessment of Left Ventricular Diastolic Function in Older Adults: The Atherosclerosis Risk in Communities Study. Circulation. 2017 Jan 31;135(5):426-439. doi: 10.1161/CIRCULATIONAHA.116.024825. Epub 2016 Dec 7.</citation>
+    <PMID>27927714</PMID>
+  </reference>
+  <reference>
+    <citation>Borbély A, van der Velden J, Papp Z, Bronzwaer JG, Edes I, Stienen GJ, Paulus WJ. Cardiomyocyte stiffness in diastolic heart failure. Circulation. 2005 Feb 15;111(6):774-81. Epub 2005 Feb 7.</citation>
+    <PMID>15699264</PMID>
+  </reference>
+  <reference>
+    <citation>van Heerebeek L, Borbély A, Niessen HW, Bronzwaer JG, van der Velden J, Stienen GJ, Linke WA, Laarman GJ, Paulus WJ. Myocardial structure and function differ in systolic and diastolic heart failure. Circulation. 2006 Apr 25;113(16):1966-73. Epub 2006 Apr 17.</citation>
+    <PMID>16618817</PMID>
+  </reference>
+  <reference>
+    <citation>Zile MR, Baicu CF, Ikonomidis JS, Stroud RE, Nietert PJ, Bradshaw AD, Slater R, Palmer BM, Van Buren P, Meyer M, Redfield MM, Bull DA, Granzier HL, LeWinter MM. Myocardial stiffness in patients with heart failure and a preserved ejection fraction: contributions of collagen and titin. Circulation. 2015 Apr 7;131(14):1247-59. doi: 10.1161/CIRCULATIONAHA.114.013215. Epub 2015 Jan 30.</citation>
+    <PMID>25637629</PMID>
+  </reference>
+  <reference>
+    <citation>Adeniran I, MacIver DH, Hancox JC, Zhang H. Abnormal calcium homeostasis in heart failure with preserved ejection fraction is related to both reduced contractile function and incomplete relaxation: an electromechanically detailed biophysical modeling study. Front Physiol. 2015 Mar 20;6:78. doi: 10.3389/fphys.2015.00078. eCollection 2015.</citation>
+    <PMID>25852567</PMID>
+  </reference>
+  <reference>
+    <citation>van Heerebeek L, Hamdani N, Falcão-Pires I, Leite-Moreira AF, Begieneman MP, Bronzwaer JG, van der Velden J, Stienen GJ, Laarman GJ, Somsen A, Verheugt FW, Niessen HW, Paulus WJ. Low myocardial protein kinase G activity in heart failure with preserved ejection fraction. Circulation. 2012 Aug 14;126(7):830-9. doi: 10.1161/CIRCULATIONAHA.111.076075. Epub 2012 Jul 17.</citation>
+    <PMID>22806632</PMID>
+  </reference>
+  <reference>
+    <citation>Rommel KP, von Roeder M, Latuscynski K, Oberueck C, Blazek S, Fengler K, Besler C, Sandri M, Lücke C, Gutberlet M, Linke A, Schuler G, Lurz P. Extracellular Volume Fraction for Characterization of Patients With Heart Failure and Preserved Ejection Fraction. J Am Coll Cardiol. 2016 Apr 19;67(15):1815-1825. doi: 10.1016/j.jacc.2016.02.018.</citation>
+    <PMID>27081022</PMID>
+  </reference>
+  <reference>
+    <citation>Mohammed SF, Hussain S, Mirzoyev SA, Edwards WD, Maleszewski JJ, Redfield MM. Coronary microvascular rarefaction and myocardial fibrosis in heart failure with preserved ejection fraction. Circulation. 2015 Feb 10;131(6):550-9. doi: 10.1161/CIRCULATIONAHA.114.009625. Epub 2014 Dec 31.</citation>
+    <PMID>25552356</PMID>
+  </reference>
+  <reference>
+    <citation>Kjekshus J, Apetrei E, Barrios V, et al. Rosuvastatin in older patients with systolic heart failure. N Engl J Med 2007;357:2248-61. / Weber T, Auer J, O'Rourke MF, et al. Prolonged mechanical systole and increased arterial wave reflections in diastolic dysfunction. Heart 2006;92:1616-22 / Desai AS, Mitchell GF, Fang JC, et al. Central aortic stiffness is increased in patients with heart failure and preserved ejection fraction. J Card Fail 2009;15:658-64.</citation>
+  </reference>
+  <reference>
+    <citation>Lam CS, Roger VL, Rodeheffer RJ, Borlaug BA, Enders FT, Redfield MM. Pulmonary hypertension in heart failure with preserved ejection fraction: a community-based study. J Am Coll Cardiol. 2009 Mar 31;53(13):1119-26. doi: 10.1016/j.jacc.2008.11.051.</citation>
+    <PMID>19324256</PMID>
+  </reference>
+  <reference>
+    <citation>Kenchaiah S, Evans JC, Levy D, et al. Obesity and the risk of heart failure. N Engl J Med 2002; 347:305-13 / Ebong IA, Goff DC Jr., Rodriguez CJ, et al. The relationship between measures of obesity and incident heart failure: the multi-ethnic study of atherosclerosis. Obesity (Silver Spring) 2013;21: 1915-22 / Sundström J, Bruze G, Ottosson J, et al. Weight loss and heart failure: a nationwide study of gastric bypass surgery versus intensive lifestyle treatment. Circulation 2017;135:1577-85.</citation>
+  </reference>
+  <reference>
+    <citation>Lainscak M, Anker SD. Heart failure, chronic obstructive pulmonary disease, and asthma: numbers, facts, and challenges. ESC Heart Fail. 2015 Sep;2(3):103-107. Epub 2015 Jul 31.</citation>
+    <PMID>27708851</PMID>
+  </reference>
+  <reference>
+    <citation>Ather S, Chan W, Bozkurt B, Aguilar D, Ramasubbu K, Zachariah AA, Wehrens XH, Deswal A. Impact of noncardiac comorbidities on morbidity and mortality in a predominantly male population with heart failure and preserved versus reduced ejection fraction. J Am Coll Cardiol. 2012 Mar 13;59(11):998-1005. doi: 10.1016/j.jacc.2011.11.040.</citation>
+    <PMID>22402071</PMID>
+  </reference>
+  <reference>
+    <citation>Shah SJ, Katz DH, Selvaraj S, Burke MA, Yancy CW, Gheorghiade M, Bonow RO, Huang CC, Deo RC. Phenomapping for novel classification of heart failure with preserved ejection fraction. Circulation. 2015 Jan 20;131(3):269-79. doi: 10.1161/CIRCULATIONAHA.114.010637. Epub 2014 Nov 14.</citation>
+    <PMID>25398313</PMID>
+  </reference>
+  <reference>
+    <citation>Villemain O, Correia M, Mousseaux E, Baranger J, Zarka S, Podetti I, Soulat G, Damy T, Hagège A, Tanter M, Pernot M, Messas E. Myocardial Stiffness Evaluation Using Noninvasive Shear Wave Imaging in Healthy and Hypertrophic Cardiomyopathic Adults. JACC Cardiovasc Imaging. 2019 Jul;12(7 Pt 1):1135-1145. doi: 10.1016/j.jcmg.2018.02.002. Epub 2018 Mar 14.</citation>
+    <PMID>29550319</PMID>
+  </reference>
+  <verification_date>January 2020</verification_date>
+  <study_first_submitted>November 28, 2019</study_first_submitted>
+  <study_first_submitted_qc>December 4, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 6, 2019</study_first_posted>
+  <last_update_submitted>January 17, 2020</last_update_submitted>
+  <last_update_submitted_qc>January 17, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 21, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Failure</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Individual participant data used for publication could be shared through scientific collaboration with the sponsor or any collaborations implied.The sharing will respect the unital consortium agreement.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_time_frame>Will become available from the time when summary data are published</ipd_time_frame>
+    <ipd_access_criteria>Sharing access criteria will be discussed between the sponsor and collaborate</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

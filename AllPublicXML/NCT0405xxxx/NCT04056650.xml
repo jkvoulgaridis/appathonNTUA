@@ -1,0 +1,258 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04056650</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GCO 18-0756</org_study_id>
+    <nct_id>NCT04056650</nct_id>
+  </id_info>
+  <brief_title>Assessing the Effectiveness of an N-of-1 Platform Using Study of Cognitive Enhancers</brief_title>
+  <official_title>Data Driven Health Decisions in the Wild: A Platform for Actionable N-of-1 Studies</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Icahn School of Medicine at Mount Sinai</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Icahn School of Medicine at Mount Sinai</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The growing consumer-grade molecular and digital wellness market is generating unprecedented
+      volumes of information to support decision-making around individual health. Current trends
+      suggest the demand for personalized health information, tools, and services will continue to
+      rise in the next decade. What is missing is a reliable, individualized way to turn this data
+      into action. Dialogue around consumer health often ignores the disconnect between
+      measurements and goals. For example, monitoring one's weight is not the same as losing
+      weight, and counting steps is not the same as lowering blood pressure. If individuals are to
+      benefit from data, they must be able to relate changes in their personal data to targeted
+      changes in actions and outcomes. There is a great need and opportunity to adapt the tools and
+      capabilities of modern computer science, statistics, and clinical trial design to the needs
+      of individual patients and consumers. The team at the Institute for Next Generation
+      Healthcare (INGH) has created a smartphone-based app (&quot;N1 app&quot;) and study platform that
+      together allow individuals to design, implement, and analyze methodologically sound,
+      statistically robust studies of their personal health data. The focus of the platform will be
+      the creation of single-participant randomized crossover studies, known as n-of-1 trials. The
+      platform employs informatics-based intelligence that automates study design and analysis
+      while simultaneously maintaining high standards of statistical rigor and reproducibility.
+
+      These novel methods and tools are designed to empower individuals to make rational,
+      data-driven choices about their own health, maximizing the benefit all will receive from new
+      and existing sources of personal health data.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The growing burden of chronic disease in the U.S. and the economics of accountable care are
+      driving a shift toward proactive approaches to disease prevention and health maintenance. At
+      the same time, precision medicine studies continue to reveal substantial heterogeneity in the
+      manifestations of even the most common chronic diseases. The bulk of morbidity and mortality
+      in the U.S. arises from conditions with a significant lifestyle component (e.g. type II
+      diabetes), and responsibility for monitoring and maintaining health largely falls on
+      individuals.
+
+      Recent advances in molecular biology, sensors, and digital health technology underlie rapidly
+      growing market availability of products and devices for measuring and monitoring individual
+      health. A vast array of wearable devices, smart home monitors, and health tracking apps
+      provide an unprecedented view of individuals &quot;in the wild&quot; and provide customers with health
+      information once accessible only to researchers. The growing digital health market is
+      generating unprecedented volumes of information to support decision making around individual
+      health, and current trends suggest the demand for personalized health information, tools, and
+      services will continue to grow in the next decade.
+
+      What is missing from this technological and scientific growth is a reliable, individualized
+      way to translate data into action. If society wants to prevent diabetes, heart disease, and
+      other chronic illnesses that kill millions of Americans each year, individuals must be
+      empowered to address precursor conditions like obesity, hypertension, and depression.
+      Dialogue around consumer health often fails to address the profound disconnect between
+      measurements and outcomes/goals; e.g. monitoring one's weight is not the same as losing
+      weight, and counting steps is not the same as lowering blood pressure. Data are only useful
+      if they can help individuals identify interventions that work for them. The combination of
+      diet, exercise, drugs/supplements, activities, and lifestyle changes that targets an
+      individual's particular set of health problems is unique to him or her, and it is dependent
+      on a complex web of factors including genetics, environment, and personal lifestyle. If
+      individuals are to benefit from data, they must be able to relate changes in their personal
+      data to targeted adjustments in actions and outcomes. This effectively necessitates
+      conducting a robust trial at the level of the individual to determine the most promising
+      recipe of personal lifestyle adjustments to effect change.
+
+      To address these challenges, the researchers have developed a unified statistical framework
+      for producing consistent, interpretable study results from diverse n-of-1 study designs. The
+      analysis framework is the backbone of the initial software platform, which includes modules
+      for study design, e-consent, data ingestion, data analysis, and visualization of results.
+
+      To test this platform, the researchers plan to deploy a prototype study that allows
+      individuals to test the cognitive effects of two commonly consumed substances: caffeine and
+      caffeine in combination with a safe, prevalent compound, L-theanine. Each enrolled individual
+      will participate in his/her own n-of-1 trial. After a baseline period where neither treatment
+      is taken, participants will alternate between the two treatments (&quot;caffeine alone&quot; and
+      &quot;caffeine + L-theanine&quot;) according to a predefined schedule. Participants will complete a
+      daily cognitive assessment composed of 3 validated cognitive tests administered via the N1
+      app. The platform will analyze the cognitive assessment data and determine whether there is a
+      statistically meaningful treatment effect for either treatment compared to baseline for any
+      of the 3 cognitive tests for each individual that completes the study.
+
+      It is important to state explicitly that the research objectives for this protocol are not
+      related to the efficacy of L-theanine and caffeine. This specific study is designed to allow
+      the researchers to efficiently recruit and enroll subjects so that the underlying statistical
+      methods and software platform for executing n-of-1 trials may be evaluated.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 18, 2019</start_date>
+  <completion_date type="Anticipated">September 2, 2020</completion_date>
+  <primary_completion_date type="Anticipated">September 2, 2020</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Device Feasibility</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percent of individuals who reach study completion</measure>
+    <time_frame>Up to 27 days</time_frame>
+    <description>Percent of individuals that complete their n-of-1 trial after study initiation</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percent of completed n-of-1 trials that yield statistically meaningful results.</measure>
+    <time_frame>Up to 27 days</time_frame>
+    <description>Percent of individual n-of-1 studies that yield statistically conclusive results, for the comparisons (a) caffeine vs. baseline, (b) L-theanine + caffeine vs. baseline.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Study adherence.</measure>
+    <time_frame>Up to 27 days</time_frame>
+    <description>Percent of total actions required for the study (e.g. taking assigned treatments and completing daily cognitive assessment) completed by individual and in aggregate.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">640</enrollment>
+  <condition>Cognitive Performance</condition>
+  <arm_group>
+    <arm_group_label>Single caffeinated beverage/supplement</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Combination caffeine and L-theanine</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>L-theanine</intervention_name>
+    <description>up to 250 mg</description>
+    <arm_group_label>Combination caffeine and L-theanine</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Dietary Supplement</intervention_type>
+    <intervention_name>Caffeine supplement</intervention_name>
+    <description>50-400mg</description>
+    <arm_group_label>Combination caffeine and L-theanine</arm_group_label>
+    <arm_group_label>Single caffeinated beverage/supplement</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>N1 app</intervention_name>
+    <description>N1 App on mobile device</description>
+    <arm_group_label>Combination caffeine and L-theanine</arm_group_label>
+    <arm_group_label>Single caffeinated beverage/supplement</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  US resident
+
+          -  18 years old or over
+
+          -  Has an iPhone
+
+          -  Regular caffeine drinker
+
+        Exclusion Criteria:
+
+          -  Pregnant/breastfeeding
+
+          -  Any contraindication/health issue in which risk is added by consumption of caffeine
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jason Bobe</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Icahn School of Medicine at Mount Sinai</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jason Bobe, MPH</last_name>
+    <phone>212.731.7039</phone>
+    <email>jason.bobe@mssm.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Icahn School of Medicine at Mount Sinai</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10029</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://www.n1app.org</url>
+    <description>Related Info</description>
+  </link>
+  <link>
+    <url>https://www.n1app.org/cognitivestudy</url>
+    <description>Brain Boost Study</description>
+  </link>
+  <link>
+    <url>https://apps.apple.com/us/app/apple-store/id1308612958</url>
+    <description>N1 app: wellness by experiment</description>
+  </link>
+  <verification_date>February 2020</verification_date>
+  <study_first_submitted>August 9, 2019</study_first_submitted>
+  <study_first_submitted_qc>August 13, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 14, 2019</study_first_posted>
+  <last_update_submitted>February 20, 2020</last_update_submitted>
+  <last_update_submitted_qc>February 20, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 21, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Icahn School of Medicine at Mount Sinai</investigator_affiliation>
+    <investigator_full_name>Jason Bobe</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <keyword>N-of-1</keyword>
+  <keyword>Caffeine</keyword>
+  <keyword>L-theanine</keyword>
+  <keyword>Nootropic</keyword>
+  <keyword>Cognition</keyword>
+  <keyword>Individualized</keyword>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Caffeine</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

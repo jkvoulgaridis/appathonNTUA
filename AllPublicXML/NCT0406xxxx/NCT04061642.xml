@@ -1,0 +1,222 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04061642</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IUSMD-19-08</org_study_id>
+    <nct_id>NCT04061642</nct_id>
+  </id_info>
+  <brief_title>A Feasibility Study of an AI-Powered Clinical Decision Aid for Personalized Depression Treatment Selection</brief_title>
+  <official_title>A Feasibility Study of a Hybrid-Classic/Deep-Learning Enabled Clinical Decision Aid for Personalized and Individualized Pharmacological Depression Treatment Selection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Aifred Health Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Aifred Health Inc.</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The Clinical Decision Aid (CDA) is a predictive model that takes as input individual patient
+      characteristics, called 'features', which are inputted by the physician or by patient
+      self-report, and outputs a list of possible treatments, with each treatment associated with a
+      predicted efficacy (likelihood to achieve response and likelihood to achieve remission, each
+      expressed as a percentage). The treatments, which may include any approved treatment for
+      depression, will be presented to the physician who will then make a treatment choice.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Hypothesis 1. There will not be a significant difference in measured non-initial intake
+      appointment lengths between the baseline period and the appointment length measured at two
+      and four months after introduction of the study software and CDA.
+
+      Hypothesis 2. Physicians will not subjectively report that using the CDA and study software
+      increased the length of their appointments.
+
+      Hypothesis 3. At least 66% of patients and 66% of physicians will rate the trustworthiness of
+      the CDA as a 4 or 5 on a 5 point Likert scale (with higher ratings indicating greater trust).
+
+      Hypothesis 4. At least 66% of patients and 66% of physicians will rate the overall usability
+      of the CDA as a 4 or 5 on a 5 point Likert scale (with higher ratings indicating greater
+      usability).
+
+      Hypothesis 5. At least 70% of physicians and 65% of patients will still be using the
+      application regularly by the end of the study. For physicians, regularly will be defined as
+      the application being used in every study-related visit. For patients regularly will be
+      defined as completing at least one PHQ-9 and GAD-7 questionnaire on the application per week.
+
+      Exploratory hypothesis: Based on our machine learning results to date, we expect between
+      40-50% of patients starting a new treatment for depression and whose treatment follows the
+      highest probability treatment output by the CDA to remit within 14 weeks. This is
+      exploratory, and the study is not necessarily powered to demonstrate this.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">December 16, 2019</start_date>
+  <completion_date type="Anticipated">December 31, 2020</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Device Feasibility</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Subjective length of outpatient visits</measure>
+    <time_frame>Through study completion, 6 months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Objective length of outpatient visits</measure>
+    <time_frame>Through study completion, 6 months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Physician retention rates</measure>
+    <time_frame>Through study completion, 6 months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patient retention rates</measure>
+    <time_frame>Through study completion, 6 months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patient self-rated experience using the study software</measure>
+    <time_frame>Through study completion, 6 months</time_frame>
+    <description>We will be using our Clinical Decision Aid Feasibility Questionnaire (Version 1), a descriptive questionnaire with 5-point Likert scales (with higher values representing better outcomes) and narrative questions about experience using the tool.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">10</enrollment>
+  <condition>Depression</condition>
+  <arm_group>
+    <arm_group_label>Clinical Decision Aid</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Clinical Decision Aid</intervention_name>
+    <description>The Clinical Decision Aid is a predictive model that takes as input individual patient characteristics, called 'features', which are inputted by the physician or by patient self-report, and outputs a list of all possible treatments, with each treatment associated with a predicted efficacy (likelihood to achieve response and likelihood to achieve remission, each expressed as a percentage). The treatments, which may include any approved treatment for depression, will be ordered by efficacy and presented to the physician. Lifestyle interventions, such as exercise or mindfulness, which have an evidence base, but do not require formal regulatory approval, will also be outputted. The system will additionally produce a side effect profile for each pharmacological treatment recommended, including known side effects, modified by a prediction about which side effects may be more likely for a given individual based on their individual characteristics.</description>
+    <arm_group_label>Clinical Decision Aid</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All patients of the physicians in the study are diagnosed with major depressive
+             disorder by a physician using DSM-V criteria.
+
+          -  All participants must be able to provide informed consent.
+
+          -  Contraception will be used as per established clinical guidelines and usual clinical
+             practice for medications known to cause birth defects. The medications prescribed and
+             the use of and type of contraception will be determined by the physicians in the study
+             in consultation with their patients as would usually occur in clinical practice.
+
+        Exclusion Criteria:
+
+          -  Bipolar disorder type 1 or 2, as the data we have used to train the model does not
+             allow for generalization to bipolar disorder (either pre-existing or as diagnosed
+             according to DSM-5 criteria).
+
+          -  Inability or unwillingness of individual to give informed consent.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Douglas Mental Health University Institute</name>
+      <address>
+        <city>Verdun</city>
+        <state>Quebec</state>
+        <zip>H4H 1R3</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>David Benrimoh, MD, CM, MSc</last_name>
+      <phone>514-463-7813</phone>
+      <email>david.benrimoh@mail.mcgill.ca</email>
+    </contact>
+    <investigator>
+      <last_name>Howard Margolese, MD, CM, MSc</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>David Benrimoh, MD, CM, MSc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Myriam Tanguay-Sela, BA&amp;Sc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Colleen Rollins, BSc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sonia Israel, BSc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kelly Perlman, BSc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Robert Fratila, BSc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Caitrin Armstrong, MSc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Joseph Mehltretter, BSc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Liliana Gomez Cardona, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>August 5, 2019</study_first_submitted>
+  <study_first_submitted_qc>August 19, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 20, 2019</study_first_posted>
+  <last_update_submitted>July 22, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 22, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 23, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Artificial intelligence</keyword>
+  <keyword>Deep learning</keyword>
+  <keyword>Clinical decision aid</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Depression</mesh_term>
+    <mesh_term>Depressive Disorder</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

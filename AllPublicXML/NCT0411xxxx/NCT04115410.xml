@@ -1,0 +1,246 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04115410</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SKKU-2019-PD1ICI</org_study_id>
+    <nct_id>NCT04115410</nct_id>
+  </id_info>
+  <brief_title>PD-1 Immune Checkpoint Inhibitors and Immune-Related Adverse Events: a Cohort Study</brief_title>
+  <official_title>PD-1 Immune Checkpoint Inhibitors and Immune-Related Adverse Events: a Cohort Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sungkyunkwan University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Ministry of Food and Drug Safety, Korea</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Sungkyunkwan University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>Yes</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of our study is to assess the risk of immune-related adverse events associated
+      with PD-1 inhibitors use compared to standard chemotherapy use in patients with non small
+      cell lung cancer, using nationwide healthcare database.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This observational, retrospective cohort study will evaluate the risk of immune-related
+      adverse events associated with PD-1 inhibitors use compared to standard chemotherapy use in
+      patients with non small cell lung cancer, using nationwide healthcare database. PD-1
+      inhibitors will be defined as nivolumab, pembrolizumab, and atezolizumab. Standard
+      chemotherapy will be defined as cytotoxic chemotherapy or tyrosine kinase inhibitors
+      (epidermal growth cell receptor (EGFR) and anaplastic lymphoma kinase (ALK) inhibitors). The
+      investigators will assess exposure on the cohort entry using the intention-to-treat approach
+      with the 6-month exposure risk window from the first PD-1 inhibitor prescription to avoid
+      bias from informative censoring. Immune-related adverse events will be defined by using
+      pre-specified algorithms using diagnosis and corticosteroid prescription records (high dose
+      of oral corticosteroids, defined as ≥ 30 mg/day, or systemic corticosteroid injection) to
+      reduce outcome misclassification. The investigators will use a multivariable Cox proportional
+      hazard model to estimate hazard ratio (HR) and 95% confidence intervals (CI). The model will
+      be adjusted for pre-existing autoimmunity, history of lung cancer surgery, radiation therapy,
+      tyrosine kinase inhibitor use, and previous systemic corticosteroid use. All analyses will be
+      undertaken using SAS 9.4 (SAS Institute Inc., Cary, NC, USA).
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">July 1, 2020</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">September 23, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Hazard ratio for immune-related adverse events</measure>
+    <time_frame>August 2017 to December 2018</time_frame>
+    <description>The ratio of hazard rates of immune-related adverse events in PD-1 inhibitor users vs. standard chemotherapy users</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Hazard ratio for eleven subdivided groups of immune-related adverse events by organ class</measure>
+    <time_frame>August 2017 to December 2018</time_frame>
+    <description>The ratio of hazard rates of eleven subdivided organ-specific immune-related adverse events (pulmonary, endocrine, cardiovascular, gastrointestinal, hepatic, muscluoskeletal, neurological, ocular, renal, skin, and hematologic) in PD-1 inhibitor users vs. standard chemotherapy users</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">4724</enrollment>
+  <condition>Carcinoma, Non-Small-Cell Lung</condition>
+  <condition>Immune-Related Adverse Events</condition>
+  <arm_group>
+    <arm_group_label>PD-1 inhibitor</arm_group_label>
+    <description>Patients over 18 years of age with a diagnosis of non-small cell lung cancer and being received PD-1 inhibitors as a second line treatment from cytotoxic chemotherapy or as a third line for those received tyrosine kinase inhibitors as a first line, from August 2017 (the first month PD-1 inhibitors were reimbursed in South Korea) to September 2018.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Chemotherapy Drugs, Cancer</arm_group_label>
+    <description>Patients over 18 years of age with a diagnosis of non-small cell lung cancer and being received cytotoxic chemotherapy or tyrosine kinase inhibitors (epidermal growth cell receptor (EGFR) and anaplastic lymphoma kinase (ALK) inhibitors) from August 2017 to September 2018. Each patient switching to PD-1 inhibitor will be matched to three reference standard chemotherapy users.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>PD-1 inhibitor</intervention_name>
+    <description>PD-1 inhibitors are a group of checkpoint inhibitors being developed for the treatment of cancer. PD-1 and PD-L1 are both proteins present on the surface of cells. Immune checkpoint inhibitors such as these are emerging as a front-line treatment for several types of cancer. The investigators will include nivolumab, pembrolizumab, and atezolizumab as PD-1 inhibitors as these drugs are reimbursed by health authority of South Korea.</description>
+    <arm_group_label>PD-1 inhibitor</arm_group_label>
+    <other_name>OPDIVO</other_name>
+    <other_name>KEYTRUDA</other_name>
+    <other_name>TECENTRIQ</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Chemotherapy Drugs, Cancer</intervention_name>
+    <description>Chemotherapy is a type of pharmacotherapy for cancer, that uses one or more anti-cancer drugs as part of a standardized chemotherapy regimen. The investigators will include cytotoxic chemotherapy and tyrosine kinase inhibitors (epidermal growth cell receptor (EGFR) and anaplastic lymphoma kinase (ALK) inhibitors).</description>
+    <arm_group_label>Chemotherapy Drugs, Cancer</arm_group_label>
+    <other_name>Carboplatin</other_name>
+    <other_name>Cisplatin</other_name>
+    <other_name>Vinorelbine</other_name>
+    <other_name>Gemcitabine</other_name>
+    <other_name>Pemetrexed</other_name>
+    <other_name>Docetaxel</other_name>
+    <other_name>Vinblastine</other_name>
+    <other_name>Mitomycin C</other_name>
+    <other_name>Gefitinib</other_name>
+    <other_name>Erlotinib</other_name>
+    <other_name>Afatinib</other_name>
+    <other_name>Crizotinib</other_name>
+    <other_name>Ceritinib</other_name>
+    <other_name>Alectinib</other_name>
+    <other_name>Osimertinib</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study population will be formed by identifying all patients newly treated with standard
+        chemotherapy who subsequently switched to PD-1 inhibitors, from 21 August 2017 to 31
+        September 2018, with follow-up until 31 December 2018. Patients who remained on standard
+        chemotherapy treatment will be selected as comparators.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Individuals who were diagnosed with lung cancer (ICD-10: C33-C34) between 2017 and
+             2018.
+
+        Exclusion Criteria:
+
+          -  Individuals less than 18 years of age
+
+          -  Individuals received any systemic anticancer therapies in 2007
+
+          -  Having no records of prescription of PD-1 inhibitors or standard chemotherapy at least
+             once between 2017 and 2018
+
+          -  Individuals received treatments indicated for small cell lung cancer (etoposide,
+             ifosfamide, irinotecan, belotecan, and topotecan) on or before the first date of
+             standard chemotherapy to restrict study subjects to patients with non small cell lung
+             cancer only.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ju-Young Shin, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Sungkyunkwan University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Yeon-Hee Baek</last_name>
+    <phone>+82-31-299-4377</phone>
+    <email>waterlily9@skku.edu</email>
+  </overall_contact>
+  <reference>
+    <citation>Borghaei H, Paz-Ares L, Horn L, Spigel DR, Steins M, Ready NE, Chow LQ, Vokes EE, Felip E, Holgado E, Barlesi F, Kohlhäufl M, Arrieta O, Burgio MA, Fayette J, Lena H, Poddubskaya E, Gerber DE, Gettinger SN, Rudin CM, Rizvi N, Crinò L, Blumenschein GR Jr, Antonia SJ, Dorange C, Harbison CT, Graf Finckenstein F, Brahmer JR. Nivolumab versus Docetaxel in Advanced Nonsquamous Non-Small-Cell Lung Cancer. N Engl J Med. 2015 Oct 22;373(17):1627-39. doi: 10.1056/NEJMoa1507643. Epub 2015 Sep 27.</citation>
+    <PMID>26412456</PMID>
+  </reference>
+  <reference>
+    <citation>Brahmer J, Reckamp KL, Baas P, Crinò L, Eberhardt WE, Poddubskaya E, Antonia S, Pluzanski A, Vokes EE, Holgado E, Waterhouse D, Ready N, Gainor J, Arén Frontera O, Havel L, Steins M, Garassino MC, Aerts JG, Domine M, Paz-Ares L, Reck M, Baudelet C, Harbison CT, Lestini B, Spigel DR. Nivolumab versus Docetaxel in Advanced Squamous-Cell Non-Small-Cell Lung Cancer. N Engl J Med. 2015 Jul 9;373(2):123-35. doi: 10.1056/NEJMoa1504627. Epub 2015 May 31.</citation>
+    <PMID>26028407</PMID>
+  </reference>
+  <reference>
+    <citation>Reck M, Rodríguez-Abreu D, Robinson AG, Hui R, Csőszi T, Fülöp A, Gottfried M, Peled N, Tafreshi A, Cuffe S, O'Brien M, Rao S, Hotta K, Leiby MA, Lubiniecki GM, Shentu Y, Rangwala R, Brahmer JR; KEYNOTE-024 Investigators. Pembrolizumab versus Chemotherapy for PD-L1-Positive Non-Small-Cell Lung Cancer. N Engl J Med. 2016 Nov 10;375(19):1823-1833. Epub 2016 Oct 8.</citation>
+    <PMID>27718847</PMID>
+  </reference>
+  <reference>
+    <citation>Postow MA, Sidlow R, Hellmann MD. Immune-Related Adverse Events Associated with Immune Checkpoint Blockade. N Engl J Med. 2018 Jan 11;378(2):158-168. doi: 10.1056/NEJMra1703481. Review.</citation>
+    <PMID>29320654</PMID>
+  </reference>
+  <reference>
+    <citation>Baxi S, Yang A, Gennarelli RL, Khan N, Wang Z, Boyce L, Korenstein D. Immune-related adverse events for anti-PD-1 and anti-PD-L1 drugs: systematic review and meta-analysis. BMJ. 2018 Mar 14;360:k793. doi: 10.1136/bmj.k793. Review.</citation>
+    <PMID>29540345</PMID>
+  </reference>
+  <reference>
+    <citation>Johnson DB, Sullivan RJ, Menzies AM. Immune checkpoint inhibitors in challenging populations. Cancer. 2017 Jun 1;123(11):1904-1911. doi: 10.1002/cncr.30642. Epub 2017 Feb 27. Review.</citation>
+    <PMID>28241095</PMID>
+  </reference>
+  <reference>
+    <citation>Kobayashi K, Nakachi I, Naoki K, Satomi R, Nakamura M, Inoue T, Tateno H, Sakamaki F, Sayama K, Terashima T, Koh H, Abe T, Nishino M, Arai D, Yasuda H, Kawada I, Soejima K, Betsuyaku T; Keio Lung Oncology Group (KLOG). Real-world Efficacy and Safety of Nivolumab for Advanced Non-Small-cell Lung Cancer: A Retrospective Multicenter Analysis. Clin Lung Cancer. 2018 May;19(3):e349-e358. doi: 10.1016/j.cllc.2018.01.001. Epub 2018 Jan 5.</citation>
+    <PMID>29398578</PMID>
+  </reference>
+  <reference>
+    <citation>Naidoo J, Wang X, Woo KM, Iyriboz T, Halpenny D, Cunningham J, Chaft JE, Segal NH, Callahan MK, Lesokhin AM, Rosenberg J, Voss MH, Rudin CM, Rizvi H, Hou X, Rodriguez K, Albano M, Gordon RA, Leduc C, Rekhtman N, Harris B, Menzies AM, Guminski AD, Carlino MS, Kong BY, Wolchok JD, Postow MA, Long GV, Hellmann MD. Pneumonitis in Patients Treated With Anti-Programmed Death-1/Programmed Death Ligand 1 Therapy. J Clin Oncol. 2017 Mar;35(7):709-717. doi: 10.1200/JCO.2016.68.2005. Epub 2016 Sep 30. Erratum in: J Clin Oncol. 2017 Aug 1;35(22):2590.</citation>
+    <PMID>27646942</PMID>
+  </reference>
+  <reference>
+    <citation>Remon J, Mezquita L, Corral J, Vilariño N, Reguart N. Immune-related adverse events with immune checkpoint inhibitors in thoracic malignancies: focusing on non-small cell lung cancer patients. J Thorac Dis. 2018 May;10(Suppl 13):S1516-S1533. doi: 10.21037/jtd.2017.12.52. Review.</citation>
+    <PMID>29951303</PMID>
+  </reference>
+  <verification_date>May 2020</verification_date>
+  <study_first_submitted>October 2, 2019</study_first_submitted>
+  <study_first_submitted_qc>October 2, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 4, 2019</study_first_posted>
+  <last_update_submitted>May 27, 2020</last_update_submitted>
+  <last_update_submitted_qc>May 27, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 28, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Sungkyunkwan University</investigator_affiliation>
+    <investigator_full_name>Ju-Young Shin</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <keyword>PD-1 inhibitor</keyword>
+  <keyword>Nivolumab</keyword>
+  <keyword>Pembrolizumab</keyword>
+  <keyword>Atezolizumab</keyword>
+  <keyword>Immune-Related Adverse Events</keyword>
+  <keyword>Carcinoma, Non-Small-Cell Lung</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma, Non-Small-Cell Lung</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Gemcitabine</mesh_term>
+    <mesh_term>Cisplatin</mesh_term>
+    <mesh_term>Carboplatin</mesh_term>
+    <mesh_term>Docetaxel</mesh_term>
+    <mesh_term>Pemetrexed</mesh_term>
+    <mesh_term>Vinorelbine</mesh_term>
+    <mesh_term>Gefitinib</mesh_term>
+    <mesh_term>Mitomycins</mesh_term>
+    <mesh_term>Mitomycin</mesh_term>
+    <mesh_term>Vinblastine</mesh_term>
+    <mesh_term>Afatinib</mesh_term>
+    <mesh_term>Crizotinib</mesh_term>
+    <mesh_term>Osimertinib</mesh_term>
+    <mesh_term>Ceritinib</mesh_term>
+    <mesh_term>Antineoplastic Agents</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

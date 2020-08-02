@@ -1,0 +1,180 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03605810</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20325</org_study_id>
+    <nct_id>NCT03605810</nct_id>
+  </id_info>
+  <brief_title>Study to Develop a Tool to Estimate the Kidney Function in Databases Without Laboratory Data</brief_title>
+  <official_title>An Estimated Glomerular Filtration Rate (eGFR) Level Prediction</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Bayer</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Bayer</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Scientific analyses are frequently performed on e.g. health insurance databases to study the
+      usage and effectiveness of drugs in real life.
+
+      Kidney function is known to have an influence on a patients disease development and/or drug
+      levels in blood.
+
+      However, often direct measures for kidney function are not available in databases.
+
+      This study plans to develop tools to classify the renal function of patients, which helps
+      scientists to identify patient cohorts (groups of patients sharing same characteristics) for
+      scientific analyses.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Renal impairment is a common comorbidity in patients with diverse main underlying diseases
+      and a pathology accompanying increasing age. Renal function might be an important modifier of
+      treatment effects.
+
+      Population-based administrative claims databases are increasingly used in large-scale
+      comparative outcomes studies of drug treatments. However, claims databases often lack
+      information on laboratory tests results limiting their usefulness in Real-World Evidence(RWE)
+      research of patients with renal impairment.
+
+      There is a need to develop methods for identification of patients with renal dysfunction from
+      healthcare administrative claims-based proxies.
+
+      The main objective of this study is the development of algorithms/models to predict eGFR
+      values and/or classes for patients at certain time point based on entries in claims database
+      (demographic characteristics, clinical diagnoses, procedures and drug treatments) for a
+      general population and a variety of use-cases (atrial fibrillation, coronary artery disease,
+      type 2 diabetes mellitus patients sub-populations). To achieve this, modern data-driven
+      machine learning techniques will be applied to discover relationships between renal status,
+      measured by eGFR, and longitudinal patient-level data.
+
+      Evaluation of models' performance (out of sample validation, benchmark test, performance
+      differences between eGFR value prediction algorithms and classification models tailored for
+      the pre-defined eGFR classes) will be done as well.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 15, 2018</start_date>
+  <completion_date type="Actual">December 31, 2018</completion_date>
+  <primary_completion_date type="Actual">December 31, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Performance of classification to predict eGFR</measure>
+    <time_frame>From eGRF values starting and lasting 180d + 370d</time_frame>
+    <description>For numeric models cross-validated performance is measured as correlation via r*2.
+Class based performances are measured as cross-validated sensitivities given pre-defined false discovery rates with following definition for positives and negatives:
+Observed eGFR class X:
+positive: eGFR measured at begin of time frame is in class X
+negative: eGFR measured at begin of time frame is not in class X
+Class predicted by model:
+positive: eGFR predicted is class X
+negative: eGFR predicted is not class X</description>
+  </primary_outcome>
+  <number_of_groups>4</number_of_groups>
+  <enrollment type="Actual">5132200</enrollment>
+  <condition>Renal Function</condition>
+  <arm_group>
+    <arm_group_label>eGFR-population</arm_group_label>
+    <description>To be included in the eGFR-population, patients have to have at least one recorded eGFR value in the OPTUM CDM database between January 1, 2007 and December 31, 2016, be adults (&gt;18 years of age at the time of eGFR test) and have at least 370/180 days (180 days serves as sensitivity analysis) of continuous enrollment in medical and pharmacy insurance plans since eGFR test date.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Atrial fibrillation (AF) sub-population</arm_group_label>
+    <description>To be included in the AF sub-population patients need to satisfy the inclusion criteria for the eGFR-population; have two inpatient or outpatient diagnoses for AF or atrial flutter on two different days within the study period irrespective of time points when eGFR is measured.
+Patients with at least one inpatient or outpatient diagnosis or procedure code for mitral stenosis and prosthetic valves within the study period will be excluded.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Coronary artery disease (CAD) sub-population</arm_group_label>
+    <description>To be included in the CAD sub-population patients need to satisfy the inclusion criteria for the eGFR-population; have at least one inpatient CAD diagnosis within the study period irrespective of time points when eGFR is measured.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Type 2 diabetes mellitus (T2DM) sub-population</arm_group_label>
+    <description>To be included in the T2DM sub-population patients need to satisfy the inclusion criteria for the eGFR-population; have at least two inpatient or outpatient diagnosis of T2DM on two different days within the study period irrespective of time points when eGFR is measured.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>No Intervention</intervention_name>
+    <description>This study is the development of algorithms/models to predict eGFR values and/or classes for patients at certain time point based on entries in claims database (demographic characteristics, clinical diagnoses, procedures and drug treatments) for a general population and a variety of use-cases (AF, CAD, T2DM patients sub-populations).</description>
+    <arm_group_label>Atrial fibrillation (AF) sub-population</arm_group_label>
+    <arm_group_label>Coronary artery disease (CAD) sub-population</arm_group_label>
+    <arm_group_label>Type 2 diabetes mellitus (T2DM) sub-population</arm_group_label>
+    <arm_group_label>eGFR-population</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult patients with at least one recorded eGFR value in the OPTUM CDM database between
+        January 1, 2007 and December 31, 2016 will be included in the use-case 1 &quot;eGFR population&quot;.
+        Further cases refer to the sub-populations of the eGFR-population, namely
+
+          -  Atrial fibrillation (AF) sub-population;
+
+          -  Coronary artery disease (CAD) sub-population;
+
+          -  Type 2 diabetes mellitus (T2DM) sub-population.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        To be included in the eGFR-population, patients have to have at least one recorded eGFR
+        value in the OPTUM CDM database between January 1, 2007 and December 31, 2016, be adults
+        (&gt;18 years of age at the time of eGFR test) and have at least 370/180 days (180 days serves
+        as sensitivity analysis) of continuous enrollment in medical and pharmacy insurance plans
+        since eGFR test date.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>US OPTUM CDM database</name>
+      <address>
+        <city>Whippany</city>
+        <state>New Jersey</state>
+        <zip>07981</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://clinicaltrials.bayer.com/</url>
+    <description>Click here to find results for studies related to Bayer products.</description>
+  </link>
+  <verification_date>December 2019</verification_date>
+  <study_first_submitted>July 23, 2018</study_first_submitted>
+  <study_first_submitted_qc>July 23, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 30, 2018</study_first_posted>
+  <last_update_submitted>December 6, 2019</last_update_submitted>
+  <last_update_submitted_qc>December 6, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 10, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Renal function, eGRF, Atrial fibrillation, Coronary artery disease, Type 2 diabetes mellitus, Machine learning, Prognostic modeling</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

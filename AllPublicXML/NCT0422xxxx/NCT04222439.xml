@@ -1,0 +1,169 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04222439</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2019-SDU-QILU-G710</org_study_id>
+    <nct_id>NCT04222439</nct_id>
+  </id_info>
+  <brief_title>Deep Learning Algorithm for the Diagnosis of Gastrointestinal Diseases</brief_title>
+  <official_title>Development and Validation of a Deep Learning Algorithm for the Diagnosis of Gastrointestinal Diseases</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shandong University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Shandong University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to develop and validate a deep learning algorithm for the
+      diagnosis of gastrointestinal diseases. Then, evaluate the accuracy this new artificial
+      intelligence(AI) assisted recognition system in clinic practice.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Recently, deep learning algorithm based on central neural networks (CNN) has shown multiple
+      potential in computer-aided detection and computer-aided diagnose of gastrointestinal
+      lesions. However, there is still a blank in recognition of all gastrointestinal diseases.
+      This study aim to develop and validate a deep learning algorithm for the diagnosis of
+      gastrointestinal diseases. Then, evaluate the accuracy this new artificial intelligence(AI)
+      assisted recognition system in clinic practice.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 1, 2020</start_date>
+  <completion_date type="Anticipated">February 2020</completion_date>
+  <primary_completion_date type="Anticipated">February 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The diagnostic accuracy of gastrointestinal diseases with deep learning algorithm.</measure>
+    <time_frame>1 month</time_frame>
+    <description>The diagnostic accuracy of gastrointestinal diseases with deep learning algorithm.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The diagnostic sensitivity of gastrointestinal diseases with deep learning algorithm.</measure>
+    <time_frame>1 month</time_frame>
+    <description>The diagnostic sensitivity of gastrointestinal diseases with deep learning algorithm.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The diagnostic specificity of gastrointestinal diseases with deep learning algorithm.</measure>
+    <time_frame>1 month</time_frame>
+    <description>The diagnostic specificity of gastrointestinal diseases with deep learning algorithm.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The diagnostic positive predictive value of gastrointestinal diseases with deep learning algorithm.</measure>
+    <time_frame>1 month</time_frame>
+    <description>The diagnostic specificity of gastrointestinal diseases with deep learning algorithm.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The diagnostic negative predictive value of gastrointestinal diseases with deep learning algorithm.</measure>
+    <time_frame>1month</time_frame>
+    <description>The diagnostic specificity of gastrointestinal diseases with deep learning algorithm.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">100000</enrollment>
+  <condition>Gastrointestinal Disease</condition>
+  <arm_group>
+    <arm_group_label>AI monitoring gastrointestinal endoscopy</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>After receiving standard preparation regimen, patients go through colonoscopy or gastroscopy under the AI monitoring device. The whole procedure is monitored by AI associated recognition system. Gastrointestinal diseases will be detect and diagnosis in which the AI device will automatically captured relevant images and report the site of each segment on the screen. Histology analysis is set as a golden standard. Then all the AI captured images will be reviewed by human group, which consists of three to five experienced endoscopic physicians.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>AI for the Diagnosis of Gastrointestinal Diseases</intervention_name>
+    <description>After receiving standard preparation regimen, patients go through colonoscopy or gastroscopy under the AI monitoring device. The whole procedure is monitored by AI associated recognition system. Gastrointestinal diseases will be detect and diagnosis in which the AI device will automatically captured relevant images and report the site of each segment on the screen. Histology analysis is set as a golden standard. Then all the AI captured images will be reviewed by human group, which consists of three to five experienced endoscopic physicians.</description>
+    <arm_group_label>AI monitoring gastrointestinal endoscopy</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Participants, aged 18 years or older, who had not had a previous endoscopy were
+             retrieved from all participating hospitals.
+
+        Exclusion Criteria:
+
+        -
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Xiuli Zuo, MD,PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Qilu Hospital of Shandong University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Xiuli Zuo, MD,PhD</last_name>
+    <phone>15588818685</phone>
+    <email>zuoxiuli@sdu.edu.cn</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Qilu Hospital, Shandong University</name>
+      <address>
+        <city>Jinan</city>
+        <state>Shandong</state>
+        <zip>250012</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Xiuli Zuo, PhD</last_name>
+      <phone>15588818685</phone>
+      <phone_ext>053188369277</phone_ext>
+      <email>zuoxiuli@sdu.edu.cn</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>February 2020</verification_date>
+  <study_first_submitted>January 7, 2020</study_first_submitted>
+  <study_first_submitted_qc>January 7, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 10, 2020</study_first_posted>
+  <last_update_submitted>February 14, 2020</last_update_submitted>
+  <last_update_submitted_qc>February 14, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 18, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Shandong University</investigator_affiliation>
+    <investigator_full_name>Xiuli Zuo</investigator_full_name>
+    <investigator_title>director of Qilu Hospital gastroenterology department</investigator_title>
+  </responsible_party>
+  <keyword>Deep Learning</keyword>
+  <keyword>Central Neural Networks</keyword>
+  <keyword>Endoscopy</keyword>
+  <keyword>Gastrointestinal Disease</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Gastrointestinal Diseases</mesh_term>
+    <mesh_term>Digestive System Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

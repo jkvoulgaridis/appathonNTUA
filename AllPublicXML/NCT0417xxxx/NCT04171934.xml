@@ -1,0 +1,203 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04171934</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CS001</org_study_id>
+    <nct_id>NCT04171934</nct_id>
+  </id_info>
+  <brief_title>Clinical Validation of a Video-based Epilepsy Examination Service</brief_title>
+  <acronym>Nelli</acronym>
+  <official_title>Clinical Validation of a Video-based Epilepsy Examination Service</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Tampere University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Danish Epilepsy Center, Filadelfia</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Aarhus University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Helsinki University Central Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Neuro Event Labs Oy</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Tampere University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The main purpose of this study is to validate the ability of the Nelli system (video-based
+      epilepsy examination system) to detect epileptic motor seizure behaviors in patients at rest.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Proper seizure documentation is an important tool to evaluate treatment outcomes and risks
+      associated with epileptic seizures. Apart from a costly in-hospital video
+      electro-encephalogram (VEEG) monitoring, most patients with epilepsy log and track their
+      seizures with the help of the seizure diaries only. However, the reliability of the diaries
+      is heavily dependent on an accurate recognition and recording of the seizures. There is an
+      obvious need for a more objective and reliable seizure detection method. The investigators
+      propose a low-cost video-based examination system, designed to detect motor seizure behaviors
+      in patients at rest.
+
+      The main aim of this study is to clinically validate the ability of the Nelli system
+      (video-based epilepsy examination system) to detect epileptic motor seizure behaviors in
+      patients at rest, using simultaneous VEEG as the ground truth with the reference to all motor
+      seizures and individual motor seizure types.
+
+      Study design established as follows:
+
+        1. Study population is represented by 20-30 epilepsy patients with motor seizures
+           undergoing a standard VEEG examination for clinical evaluation of epilepsy.
+
+        2. Co-registration of standard VEEG with the Nelli video- and audio-based system is
+           performed, duration of the registration is 1-4 days.
+
+        3. The inclusion criteria for seizures:
+
+             1. Epileptic motor seizures appearing from rest while patients are in supine position
+                in their monitoring bed.
+
+             2. The seizures are determined to be epileptic based on electroclinical
+                characteristics by the responsible neurophysiologist / epileptologist.
+
+             3. The seizures can be classified into motor seizure types (both focal and
+                generalized) using the 2017 International League Against Epilepsy (ILAE) seizure
+                classification.
+
+        4. The registrations are analyzed by the Nelli system blinded to any clinical information.
+           Nelli system consists of two evaluation components:
+
+             1. Algorithmic component (pre-trained machine learning model based on video and audio
+                signals)
+
+             2. Supervisory component (performed by experienced VEEG technicians)
+
+        5. Reports containing the seizure type classification (time-stamped) are provided by the
+           VEEG laboratory, the performance of the Nelli system is assessed using these reports as
+           the ground truth.
+
+           a. Specificity and sensitivity of the Nelli system are evaluated with reference to both
+           all motor seizures and individual motor seizure types.
+
+        6. The secondary outcome measures are established as follows:
+
+             1. To assess the latency from the onset of the seizure detection by the Nelli system
+                in comparison to VEEG registration.
+
+             2. To determine an inter-rater agreement for the supervisory component of the Nelli
+                system.
+
+             3. To investigate the performance of the algorithmic component of the Nelli system
+                alone.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">June 17, 2019</start_date>
+  <completion_date type="Anticipated">January 31, 2020</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2019</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>1 Week</target_duration>
+  <primary_outcome>
+    <measure>FDR (per hour) and TPR</measure>
+    <time_frame>Examination period specific to the patient (1-4 days)</time_frame>
+    <description>False detection rate (FDR/hour) as well as true positive rate (TPR) of the Nelli service is to be evaluated. Here FDR stands for detections which do not intersect with the ground truth events, and true positive events match ground truth with the Nelli detections.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Latency (seconds)</measure>
+    <time_frame>Examination period specific to the patient (1-4 days)</time_frame>
+    <description>Latency from the seizure onset (according to the ground truth) and the seizure detection by the Nelli system.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Inter-rater agreement (Cohen's kappa coefficient)</measure>
+    <time_frame>Examination period specific to the patient (1-4 days)</time_frame>
+    <description>Inter-rater agreement for the supervisory component of the Nelli system</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Performance of the algorithmic component</measure>
+    <time_frame>Examination period specific to the patient (1-4 days)</time_frame>
+    <description>Performance of the algorithmic component evaluated using the ROC (receiver operating characteristic) curve at different operating points (thresholds).</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Epilepsy; Seizure</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        20-30 epilepsy patients undergoing a standard VEEG examination for clinical evaluation in
+        either one of the following medical facilities: Danish Epilepsy Center (Filadelfia), Aarhus
+        University Hospital, Helsinki University Hospital.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Patients with epilepsy undergoing a standard VEEG examination for clinical evaluation
+        consenting to participate in the present study
+
+        Exclusion Criteria:
+
+        Patients not consenting to participate in the study
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Danish Epilepsy Center, Filadelfia</name>
+      <address>
+        <city>Dianalund</city>
+        <country>Denmark</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Denmark</country>
+  </location_countries>
+  <verification_date>November 2019</verification_date>
+  <study_first_submitted>November 12, 2019</study_first_submitted>
+  <study_first_submitted_qc>November 18, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 21, 2019</study_first_posted>
+  <last_update_submitted>November 18, 2019</last_update_submitted>
+  <last_update_submitted_qc>November 18, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 21, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Tampere University</investigator_affiliation>
+    <investigator_full_name>Jukka Peltola</investigator_full_name>
+    <investigator_title>Professor, Department of Neurology</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Epilepsy</mesh_term>
+    <mesh_term>Seizures</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,259 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04355507</url>
+  </required_header>
+  <id_info>
+    <org_study_id>APHP200434</org_study_id>
+    <nct_id>NCT04355507</nct_id>
+  </id_info>
+  <brief_title>Computed Tomography for COVID-19 Diagnosis</brief_title>
+  <acronym>STOIC</acronym>
+  <official_title>Computed Tomography for Coronavirus Disease 19 Diagnosis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Assistance Publique - Hôpitaux de Paris</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Institut National de la Santé Et de la Recherche Médicale, France</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>GE Healthcare</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Orange healthcare</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>TheraPanacea</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Assistance Publique - Hôpitaux de Paris</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to build a large dataset of Computed Tomography (CT) images for
+      identification of accurate CT criteria and development of deep learning-based solutions for
+      diagnosis, quantification and prognostic estimation.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The outbreak of the novel coronavirus SARS‐CoV‐2, initially epicentred in China and
+      responsible for COVID-19 pneumonia has now spread to France, with 7730 confirmed cases and
+      175 deaths as on March 17th. Diagnosis relies on the identification of viral RNA by
+      reverse-transcription polymerase chain reaction (RT-PCR), but its positivity can be delayed.
+      A series based on 1014 chinese patients reported higher sensitivity for CT, with a mean
+      interval time between the initial negative to positive RT-PCR results of 5.1 ± 1.5 days
+      (PMID: 32101510). Moreover, obtaining RT-PCR results requires several hours, which is
+      problematic for patients triage.
+
+      Chest CT can allow early depiction of COVID-19, especially when performed more than 3 days
+      after symptoms onset. It is important to distinguish between COVID-19 and bacterial causes of
+      pulmonary infection, which requires expertise in thoracic imaging. Thus, it is important to
+      identify reliable CT diagnostic criteria based on visual assessment, and also develop
+      deep-learning based solutions for early positive diagnosis which could be used by less
+      experienced readers, in a context of large epidemic.
+
+      Several risk factors for poor outcome are already identified, such as older age,
+      comorbidities, or an elevated d-dimer level at presentation (PMID: 32171076). Extensive CT
+      abnormalities are linked to poor outcome, but some patients secondarily worsen despite non
+      extensive abnormalities at first assessment, highlighting the need for worsening prediction
+      based on initial imaging findings. Lastly, there is currently no drug with a proven efficacy
+      for patients with acute respiratory distress syndrome, who for management relies on
+      mechanical ventilation and supportive care. Some hypothesized that Remdesivir, an antiviral
+      therapy could be effective (PMID: 32147516), with ongoing randomized trials conducted in
+      China and the US. Automated tools allowing quantifying the disease extent on CT would be
+      desirable in order to evaluate the efficacy of new treatments.
+
+      Building a large dataset of CT images is needed for identification of accurate CT criteria
+      and development of deep learning-based solutions for diagnosis, quantification and prognostic
+      estimation.
+
+      The aim of this project is three fold: (i) create a multi-centric open database repository on
+      CT scans relative to COVID-19, (ii) create a multi-expert annotation protocol with different
+      level of annotations depicting the severity of the disease, (iii) allow the development of
+      non-proprietary computer aided solutions (academia &amp; industry) for automatic quantification
+      of the diseases and prognosis through the use of the latest advances in the field of
+      artificial intelligence.
+
+      For patients, the validation of reliable diagnostic criteria will allow early detection of
+      the disease, and better distinction with other potential cause of acute respiratory symptoms,
+      requiring a specific treatment, such as bacterial bronchopneumonia. It will contribute to a
+      standardization of care as well as an equal access to diagnosis and treatment for the
+      ensemble of the population.
+
+      Public health benefit will be an access to CT diagnosis of COVID-19 independently from the
+      availability of local expertise in thoracic imaging. The possibility to anticipate the need
+      for ventilation, based on the developed CT severity scores, will also positively impact the
+      management of patients in particular in the context of a massive flow of patients as expected
+      at the epidemic peak. This project will allow evaluating the proportion of patients likely to
+      present respiratory sequelae, based on the severity and extent of lung abnormalities at the
+      acute phase of the disease.
+
+      The availability of automated quantification tools will help evaluating treatment efficacy if
+      new therapeutic approaches are developed.
+
+      Lastly, the developed tools for early diagnosis, evaluation of severity and prediction of
+      outcomes could prove useful if other viral pandemic occurs in the future. Indeed SARS-Cov2
+      outbreak has been preceded by SARS and MERS outbreaks due to other coronavirus.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">April 2020</start_date>
+  <completion_date type="Anticipated">July 2020</completion_date>
+  <primary_completion_date type="Anticipated">May 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Predictive values of CT criteria</measure>
+    <time_frame>1 month</time_frame>
+    <description>Sensibility specificity positive and negative predictive values of CT criteria with RT-PCR results as standard of reference.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of CT composite severity score</measure>
+    <time_frame>1 month</time_frame>
+    <description>Accuracy (ROC curve analysis) of CT visual composite score to predict ventilation requirement and 1-month mortality</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of deep-learning based score</measure>
+    <time_frame>1 month</time_frame>
+    <description>Accuracy (ROC curve analysis) of deep-learning based score to predict ventilation requirement and 1-month mortality</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Predictive values of deep-learning based diagnostic algorithms</measure>
+    <time_frame>1 month</time_frame>
+    <description>Sensibility specificity Positive and Negative predictive values of deep-learning based diagnostic algorithms</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Dice similarity coefficient between manual and automated segmentation of lung disease abnormalities</measure>
+    <time_frame>1 month</time_frame>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">10000</enrollment>
+  <condition>COVID-19</condition>
+  <arm_group>
+    <arm_group_label>Patients with suspicions of COVID-19 pneumonia</arm_group_label>
+    <description>Patients with suspicions of COVID-19 pneumonia</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Chest computed tomography (CT)</intervention_name>
+    <description>Chest computed tomography (CT) examination</description>
+    <arm_group_label>Patients with suspicions of COVID-19 pneumonia</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Reverse-transcription polymerase chain reaction (RT-PCR)</intervention_name>
+    <description>Identification of viral RNA by reverse-transcription polymerase chain reaction</description>
+    <arm_group_label>Patients with suspicions of COVID-19 pneumonia</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with suspicions of COVID-19 pneumonia
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age&gt;18 years
+
+          -  CT examination performed for suspicion or follow-up of COVID-19
+
+          -  Non opposition for use of data
+
+        Exclusion Criteria:
+
+          -  Unavailability of RT-PCR results for SARS-Cov-2
+
+          -  Failure of CT image anonymized export
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Marie-Pierre REVEL, MD,PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Assistance Publique - Hôpitaux de Paris</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Marie-Pierre REVEL, MD, PhD</last_name>
+    <phone>+33 1 42 34 79 10</phone>
+    <email>marie-pierre.revel@aphp.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Adèle BELLINO</last_name>
+    <phone>+33 1 58 41 11 95</phone>
+    <email>adele.bellino@aphp.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Cochin Hospital</name>
+      <address>
+        <city>Paris</city>
+        <zip>75014</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Marie-Pierre REVEL, MD,PhD</last_name>
+      <phone>+33 1 42 34 79 10</phone>
+      <email>marie.pierre@aphp.fr</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <reference>
+    <citation>Ai T, Yang Z, Hou H, Zhan C, Chen C, Lv W, Tao Q, Sun Z, Xia L. Correlation of Chest CT and RT-PCR Testing in Coronavirus Disease 2019 (COVID-19) in China: A Report of 1014 Cases. Radiology. 2020 Feb 26:200642. doi: 10.1148/radiol.2020200642. [Epub ahead of print]</citation>
+    <PMID>32101510</PMID>
+  </reference>
+  <reference>
+    <citation>Zhou F, Yu T, Du R, Fan G, Liu Y, Liu Z, Xiang J, Wang Y, Song B, Gu X, Guan L, Wei Y, Li H, Wu X, Xu J, Tu S, Zhang Y, Chen H, Cao B. Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study. Lancet. 2020 Mar 28;395(10229):1054-1062. doi: 10.1016/S0140-6736(20)30566-3. Epub 2020 Mar 11. Erratum in: Lancet. 2020 Mar 28;395(10229):1038. Lancet. 2020 Mar 28;395(10229):1038.</citation>
+    <PMID>32171076</PMID>
+  </reference>
+  <reference>
+    <citation>Ko WC, Rolain JM, Lee NY, Chen PL, Huang CT, Lee PI, Hsueh PR. Arguments in favour of remdesivir for treating SARS-CoV-2 infections. Int J Antimicrob Agents. 2020 Apr;55(4):105933. doi: 10.1016/j.ijantimicag.2020.105933. Epub 2020 Mar 6.</citation>
+    <PMID>32147516</PMID>
+  </reference>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>April 17, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 17, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 21, 2020</study_first_posted>
+  <last_update_submitted>April 21, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 21, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 22, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Computed Tomography (CT)</keyword>
+  <keyword>COVID-19</keyword>
+  <keyword>Artificial intelligence</keyword>
+  <keyword>Deep Learning</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

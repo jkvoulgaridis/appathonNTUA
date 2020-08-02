@@ -1,0 +1,175 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03908645</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2019SDU-QILU-G001</org_study_id>
+    <nct_id>NCT03908645</nct_id>
+  </id_info>
+  <brief_title>Development and Validation of a Deep Learning Algorithm for Bowel Preparation Quality Scoring</brief_title>
+  <official_title>Development and Validation of a Deep Learning Algorithm for Bowel Preparation Quality Scoring</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shandong University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Shandong University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to develop and validate the performance of an artificial
+      intelligence(AI) assisted Boston Bowel preparation Scoring(BBPS) system for evaluation of
+      bowel cleanness, then testify whether this new scoring system can help physicians to improve
+      the quality control parameters of colonoscopy in clinic practice.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Colonoscopy is recommended as a routine examination for colorectal cancer screening. Adequate
+      bowel preparation is indispensable to ensure a clear vision of colonic mucosa，complete
+      inspection of all colon segments, and furthermore improves the detection rates of small
+      adenomas. Thus, the adequacy of bowel preparation should be accurately evaluated and
+      documented. However, the accuracy of current bowel preparation quality scales greatly relies
+      on intra-observer and inter-observer consistency for lack of objective measurements.
+      Recently, deep learning based on central neural networks (CNN) has shown multiple potential
+      in computer-aided detection and computer-aided diagnose of gastrointestinal lesions. While,
+      no studies have been conducted to evaluate the performance of deep learning algorithm in
+      bowel preparation quality scoring. This study aims to train an algorithm to assess bowel
+      preparation quality using the BBPS, and testify whether the engagement of AI can improve the
+      quality control parameters of colonoscopy.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">December 15, 2018</start_date>
+  <completion_date type="Anticipated">April 15, 2020</completion_date>
+  <primary_completion_date type="Anticipated">December 15, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The rate of patients achieving adequate bowel preparation in each group.</measure>
+    <time_frame>6 months</time_frame>
+    <description>Bowel preparation quality was measured by BBPS. After fully washing or suctioning of colonic contents, three segments including right colon (containing cecum and ascending colon), transvers colon (containing hepatic and splenic flexures) and left colon (containing descending and sigmoid colon) were individually scored from 0 to 3. Point 0 refers to unprepared colon segment with obscured solid stool making mucosa cannot be seen; Point 1 refers to part of mucosa can be seen, but some areas are covered by staining, residual stool, and/or opaque liquid; Point 2 refers to entire mucosa is well-seen; Point 3 refers to clean colon segment without staining, fecal materials or liquids. A sub-score of each colon segment was used, ranging from minimum 0 to maximum 3. The highest score means the excellent bowel preparation. Adequate bowel preparation was defined as a total BBPS≥6 and sub-BBPS≥2 per segment.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Adenoma Detection Rate</measure>
+    <time_frame>6 months</time_frame>
+    <description>The proportion of patients from whom at least one adenoma can be detected.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Polyp Detection Rate</measure>
+    <time_frame>6 months</time_frame>
+    <description>The proportion of patients from whom at least one polyp can be detected.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Bowel Preparation</condition>
+  <arm_group>
+    <arm_group_label>Artificial Intelligence assisted Scoring Group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients in this group go through colonoscopy under the AI monitoring device.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Conventional Human Scoring Group</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Patients in this group go through conventional colonoscopy without AI monitoring device.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Artificial intelligence assisted bowel preparation quality scoring system</intervention_name>
+    <description>After receiving standard bowel preparation regimen, patients go through colonoscopy under the AI monitoring device. During the withdrawal process, bowel preparation quality is monitored by AI-associated scoring system. Whenever a sub-score below 2 points is detected, endoscopist will be alarmed up to three times to wash and suck the colonic contents. Videos will be recorded and re-evaluated by experts to determine the final BBPS score. The withdrawal time is targeted at least 6min in accordance with colonoscopy quality practice. All detected polyps will be removed and obtained for histological assessment, with the possible exception of diminutive(less than 5mm) rectal polyps.</description>
+    <arm_group_label>Artificial Intelligence assisted Scoring Group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Conventional human scoring</intervention_name>
+    <description>After receiving standard bowel preparation regimen, patients go through conventional colonoscopy without the AI monitoring device. During the withdrawal process, after washing and sucking the colonic contents according to endoscopist's personal experience, bowel preparation quality is evaluated by human. Videos will be recorded and re-evaluated by experts to determine the final BBPS score. The withdrawal time is targeted at least 6min in accordance with colonoscopy quality practice. All detected polyps will be removed and obtained for histological assessment, with the possible exception of diminutive(less than 5mm) rectal polyps.</description>
+    <arm_group_label>Conventional Human Scoring Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        • Patients aged 18-70 years undergoing afternoon colonoscopy
+
+        Exclusion Criteria:
+
+          -  Known or suspected bowel obstruction, stricture or perforation
+
+          -  Compromised swallowing reflex or mental status
+
+          -  Severe chronic renal failure(creatinine clearance &lt; 30 ml/min)
+
+          -  Severe congestive heart failure (New York Heart Association class III or IV)
+
+          -  Uncontrolled hypertension (systolic blood pressure &gt; 170 mm Hg, diastolic blood
+             pressure &gt; 100 mm Hg)
+
+          -  Dehydration
+
+          -  Disturbance of electrolytes
+
+          -  Pregnancy or lactation
+
+          -  Hemodynamically unstable
+
+          -  Unable to give informed consent
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Xiuli Zuo, MD,PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Qilu Hospital of Shandong University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Qilu hosipital</name>
+      <address>
+        <city>Jinan</city>
+        <state>Shandong</state>
+        <zip>257000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>April 2019</verification_date>
+  <study_first_submitted>April 8, 2019</study_first_submitted>
+  <study_first_submitted_qc>April 8, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 9, 2019</study_first_posted>
+  <last_update_submitted>April 8, 2019</last_update_submitted>
+  <last_update_submitted_qc>April 8, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 9, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Shandong University</investigator_affiliation>
+    <investigator_full_name>Xiuli Zuo</investigator_full_name>
+    <investigator_title>director of Qilu Hospital gastroenterology department</investigator_title>
+  </responsible_party>
+  <keyword>Bowel Preparation, Deep Learning, Central Neural Networks</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

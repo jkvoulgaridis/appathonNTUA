@@ -1,0 +1,215 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04040374</url>
+  </required_header>
+  <id_info>
+    <org_study_id>11931-(1)</org_study_id>
+    <nct_id>NCT04040374</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence Versus Expert Endoscopists for Diagnosis of Gastric Cancer</brief_title>
+  <official_title>A Single-center, Retrospective, Open Label, Randomized Controlled Trial of Artificial Intelligence Versus Expert Endoscopists for Diagnosis of Gastric Cancer in Patients Who Underwent Upper Gastrointestinal Endoscopy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Tokyo University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Tokyo University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Title: A single-center, retrospective randomized controlled trial of artificial intelligence
+      (AI) versus expert endoscopists for diagnosis of gastric cancer in patients who underwent
+      upper gastrointestinal endoscopy.
+
+      Précis: this single-center, retrospective randomized controlled trial will include 500
+      outpatients who underwent upper gastrointestinal endoscopy for gastric cancer screening and
+      will compare the diagnostic detection rate for gastric cancer of AI and expert endoscopists.
+
+      Objectives Primary Objective: to evaluate the diagnostic detection rate for gastric cancer of
+      AI and expert endoscopists.
+
+      Secondary Objectives: to determine whether AI is not inferior to expert endoscopists in terms
+      of the number of images analyzed for diagnosis of gastric cancer and intersection over union
+      (IOU), and the detection rate of diagnosis of early and advanced gastric cancer.
+
+      Endpoints Primary Endpoint: diagnosis of gastric cancer. Secondary Endpoints: image based
+      diagnosis of gastric cancer and IOU. Population: in total, 500 males and females aged ≥ 20
+      years who underwent upper gastrointestinal endoscopy for screening of gastric cancer at a
+      single hospital in Japan.
+
+      Describe the Intervention: AI-based diagnosis of gastric cancer based on upper
+      gastrointestinal endoscopy images.
+
+      Study Duration: 3 months.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Prior to Study: Total 500: Screen potential subjects by inclusion and exclusion criteria;
+      obtain endoscopy images.
+
+      Randomization was performed.
+
+      Intervention: AI diagnosis was performed for 250 patients using upper gastrointestinal
+      endoscopy images, and Expert endoscopists diagnosis was performed for 250 patients by same
+      methods.
+
+      Primary analysis: Perform primary analysis of primary and secondary endpoints for 250
+      patients in each group
+
+      Cross over diagnosis between AI and expert endoscopists was performed.
+
+      Perform secondary analysis of agreement of gastric cancer diagnosis per images and IOU
+      between AI and expert endoscopists for 500 patients.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 1, 2019</start_date>
+  <completion_date type="Actual">November 16, 2019</completion_date>
+  <primary_completion_date type="Actual">October 1, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Per patient diagnosis of gastric cancer</measure>
+    <time_frame>Up to 6 weeks from study start</time_frame>
+    <description>Number of Participants</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of images analyzed for diagnosis of gastric cancer</measure>
+    <time_frame>Up to 6 weeks from study start</time_frame>
+    <description>Number of upper gastrointestinal endoscopy images</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intersection over union (IOU) of gastric lesions</measure>
+    <time_frame>Up to 6 weeks from study start</time_frame>
+    <description>A value between 0 and 1</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diagnosis of advanced gastric cancer</measure>
+    <time_frame>Up to 6 weeks from study start</time_frame>
+    <description>Number of Participants diagnosed with advanced gastric cancer</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diagnosis of early gastric cancer</measure>
+    <time_frame>Up to 6 weeks from study start</time_frame>
+    <description>Number of Participants diagnosed with early gastric cancer</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Agreement on image and IOU based diagnosis of gastric cancer between AI and expert endoscopists</measure>
+    <time_frame>Up to 12 weeks from study start</time_frame>
+    <description>Number of images and IOU value (between 0 and 1)</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">500</enrollment>
+  <condition>Gastric Cancer</condition>
+  <arm_group>
+    <arm_group_label>AI-based diagnosis</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>• AI-based diagnosis will be performed based on analysis of endoscopic images (Olympus Optical, Tokyo, Japan). The investigators will use the Single Shot MultiBox Detector (SSD), a deep neural network architecture (https://arxiv.org/abs/1512.02325), and an optimal diagnostic cutoff from a prior report2. The AI system reviewed endoscopy images and reported those in which gastric cancer was detected, together with the coordinates (X, Y) of the lesions.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Expert endoscopist diagnosis</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>The expert endoscopists are two physicians with experience of more than 20,000 endoscopies. The expert endoscopists will review the endoscopy images of each patient for 5 min. They will then report endoscopy images in which gastric cancer was detected and manually annotate the lesions in those images.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>AI-based diagnosis</intervention_name>
+    <description>AI-based diagnosis will be performed based on analysis of endoscopic images (Olympus Optical, Tokyo, Japan). The investigators will use the Single Shot MultiBox Detector (SSD), a deep neural network architecture (https://arxiv.org/abs/1512.02325), and an optimal diagnostic cutoff from a prior report2. The AI system reviewed endoscopy images and reported those in which gastric cancer was detected, together with the coordinates (X, Y) of the lesions.</description>
+    <arm_group_label>AI-based diagnosis</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>The expert endoscopists-based diagnosis</intervention_name>
+    <description>The expert endoscopists are two physicians with experience of more than 20,000 endoscopies. The expert endoscopists will review the endoscopy images of each patient for 5 min. They will then report endoscopy images in which gastric cancer was detected and manually annotate the lesions in those images.</description>
+    <arm_group_label>Expert endoscopist diagnosis</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Males or females aged ≥ 20 years who underwent upper gastrointestinal endoscopy at
+             Tokyo University Hospital during 2018.
+
+          2. Informed optout consent, obtained from each patient before completion of the study.
+
+        Exclusion Criteria:
+
+          1. Patients who underwent gastrectomy.
+
+          2. Patients who underwent transnasal upper gastrointestinal endoscopy.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ryota Niikura, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Tokyo University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Department of Gastroenterology, Graduate School of Medicine, The University of Tokyo</name>
+      <address>
+        <city>Tokyo</city>
+        <zip>1138655</zip>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Japan</country>
+  </location_countries>
+  <reference>
+    <citation>Cancer Genome Atlas Research Network. Comprehensive molecular characterization of gastric adenocarcinoma. Nature. 2014 Sep 11;513(7517):202-9. doi: 10.1038/nature13480. Epub 2014 Jul 23.</citation>
+    <PMID>25079317</PMID>
+  </reference>
+  <reference>
+    <citation>Hirasawa T, Aoyama K, Tanimoto T, Ishihara S, Shichijo S, Ozawa T, Ohnishi T, Fujishiro M, Matsuo K, Fujisaki J, Tada T. Application of artificial intelligence using a convolutional neural network for detecting gastric cancer in endoscopic images. Gastric Cancer. 2018 Jul;21(4):653-660. doi: 10.1007/s10120-018-0793-2. Epub 2018 Jan 15.</citation>
+    <PMID>29335825</PMID>
+  </reference>
+  <verification_date>November 2019</verification_date>
+  <study_first_submitted>July 19, 2019</study_first_submitted>
+  <study_first_submitted_qc>July 29, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 31, 2019</study_first_posted>
+  <last_update_submitted>November 19, 2019</last_update_submitted>
+  <last_update_submitted_qc>November 19, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 20, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Tokyo University</investigator_affiliation>
+    <investigator_full_name>Ryota Niikura</investigator_full_name>
+    <investigator_title>Research Associate</investigator_title>
+  </responsible_party>
+  <keyword>artificial intelligence</keyword>
+  <keyword>gastric cancer</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stomach Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

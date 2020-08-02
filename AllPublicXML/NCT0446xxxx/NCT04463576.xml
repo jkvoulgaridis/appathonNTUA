@@ -1,0 +1,220 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04463576</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CHUBX 2019/62</org_study_id>
+    <nct_id>NCT04463576</nct_id>
+  </id_info>
+  <brief_title>Drug Interactions in Hospital Information System. The PRoSIT System..</brief_title>
+  <acronym>PROSIT</acronym>
+  <official_title>Development, Validation and Impact of an Automatic Identification of Co-Prescription at Risk of Interactions in the Hospital Information System. The PRoSIT System.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Bordeaux</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Synapse bv</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital, Bordeaux</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The French Public Health strategy 2018-2022 aims to reduce inappropriate prescriptions, as
+      potentially dangerous for individuals and collectively. The reduction of co-prescriptions at
+      Risk of Drug Interactions (RoDI) could decrease the prevalence of iatrogenic diseases, and
+      increase the persistence of treatments with a growing efficacy of treatments, in particular
+      in elderly populations. A recent study conducted by our team showed that, in out-patient
+      setting, 2.7% of co-prescriptions contains medications at RoDI of high degree of severity
+      (object of a contra-indication or non-recommended). Up today, there is no French experience
+      concerning the identification of RoDI among the prescriptions performed at the end of a
+      hospitalisation. In France, the recent development of hospital data warehouses is a huge
+      opportunity to develop a system that can identify efficiently co-prescriptions at RoDI and
+      provide feedback directly to prescribers in order to reduce their frequency in hospital
+      context. The primary objective of this study is to evaluate the capacity of a system, called
+      PRoSIT system, to automatically identify the RoDI of high level of severity at hospital
+      discharge.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a national multicentre study structured in three phases.
+
+        -  Phase 1. Development of the PRoSIT tool and interface. The PRoSIT tool will identify all
+           the drugs listed in the hospital discharge prescriptions and will automatically search
+           for IMPs, through the thesaurus of interaction of the French Agency of Drug Safety. The
+           PRoSIT interface will allow navigation from aggregated information to source documents.
+           This module will include a never event alert system, will be updated daily, and will be
+           available on demand for the prescribers and referent pharmacists.
+
+        -  Phase 2. Evaluation of the PRoSIT system performance. This phase will validate the
+           ability of the PRoSIT tool to identify severe IMPs among the drugs listed in the
+           hospital discharge prescriptions. The performance of the PRoSIT system will be evaluated
+           in comparison to a gold standard based of experts opinion of a representative sample of
+           hospital discharge prescriptions in patients aged 65 years or over, hospitalized or seen
+           in consultations in the centres of cardiology, internal medicine or neurology of three
+           University Hospitals (Bordeaux, Rennes and HEGP).
+
+        -  Phase 3. Impact of PRoSIT on the care organization. Once validated, the PRoSIT tool will
+           be used and evaluated at Bordeaux University Hospital. Its use will be accompanied by a
+           presentation to users (clinicians and hospital pharmacists) as well as though regular
+           feedbacks. A qualitative analysis will allow evaluation of the appropriation of the
+           PRoSIT system and its impact on the organization of care. Semi-structured interviews
+           with practitioners and pharmacists, and a series of observations of the PRoSIT feedback
+           will be conducted, in order to measure the collective dimension of the observed changes
+           in practices.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">September 2020</start_date>
+  <completion_date type="Anticipated">September 2023</completion_date>
+  <primary_completion_date type="Anticipated">September 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity of automatic identification of co-prescription at Risk of Drug Interactions (RoDI)</measure>
+    <time_frame>36 months after inclusion</time_frame>
+    <description>Thanks to PRoSIT tool and interface development. The PRoSIT tool will identify all the drugs listed in the hospital discharge prescriptions and will automatically search for IMPs, through the thesaurus of interaction of the French Agency of Drug Safety.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">5769</enrollment>
+  <condition>Drug Interaction</condition>
+  <arm_group>
+    <arm_group_label>Experimental</arm_group_label>
+    <description>A total of 5 676 hospital discharge prescriptions, defined as the list of medications prescribed at discharge from hospital or after a hospital visit, whether new or renewed, will be selected.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Discharge Prescription</intervention_name>
+    <description>All hospital discharge prescriptions for patients aged 65 or over hospitalized or seen in consultation in the cardiology, internal medicine and neurology divisions of the Bordeaux and Rennes University Hospital and Georges Pompidou European Hospital will be recorded between June 1, 2018 and June 1, 2019.</description>
+    <arm_group_label>Experimental</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients aged 65 years or older AND in the cardiology, internal medicine and neurology
+        departments of University Hospital of Bordeaux, University Hospital of Rennes, and Georges
+        Pompidou European Hospital recorded between June 1, 2018 and June 1, 2019.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  A total of 5 676 hospital discharge prescriptions, defined as the list of medications
+             prescribed at discharge from hospital or after a hospital visit, whether new or
+             renewed, will be selected if they concern: patients aged 65 years or older AND in the
+             cardiology, internal medicine and neurology departments of University Hospital of
+             Bordeaux, University Hospital of Rennes, and Georges Pompidou European Hospital
+             recorded between June 1, 2018 and June 1, 2019.
+
+          -  For the evaluation of the determinants of acceptability and effectiveness of the
+             intervention: a group of 18 hospital practitioners and three hospital pharmacists from
+             the concerned departments of Bordeaux University Hospital will be included.
+
+          -  For phase 3, all hospital discharge prescriptions for patients aged 65 or over
+             hospitalized or seen in consultation in the cardiology, internal medicine and
+             neurology divisions only of the Bordeaux University Hospital will be used to analyse
+             the impact of the feedback.
+
+        Exclusion Criteria:
+
+        • Hospital discharge prescriptions not corresponding to inclusion criteria.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Francesco SALVO, Dr</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Hospital, Bordeaux</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Florence FRANCIS, Dr</last_name>
+    <role>Study Chair</role>
+    <affiliation>USMR</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Francesco SALVO, Dr</last_name>
+    <phone>5 57 57 15 60</phone>
+    <phone_ext>+33</phone_ext>
+    <email>francesco.salvo@u-bordeaux.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Louis LETINIER, Dr</last_name>
+    <phone>5 57 57 15 60</phone>
+    <phone_ext>+33</phone_ext>
+    <email>louis.letinier@chu-bordeaux.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Hôpital Européen George Pompidou</name>
+      <address>
+        <city>Paris</city>
+        <zip>75015</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Anita BURGUN, Pr</last_name>
+      <phone>1 44 27 63 93</phone>
+      <phone_ext>+33</phone_ext>
+      <email>anita.burgun@aphp.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>CHU de Rennes</name>
+      <address>
+        <city>Rennes</city>
+        <zip>35033</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Marc CUGGIA, Pr</last_name>
+      <phone>2 99 28 25 55</phone>
+      <phone_ext>+33</phone_ext>
+      <email>marc.cuggia@univ-rennes1.fr</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>July 3, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 3, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 9, 2020</study_first_posted>
+  <last_update_submitted>July 3, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 3, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 9, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>drug-drug interactions</keyword>
+  <keyword>hospital data warehouse</keyword>
+  <keyword>pharmaco-informatics</keyword>
+  <keyword>feedbacks</keyword>
+  <keyword>language processing</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

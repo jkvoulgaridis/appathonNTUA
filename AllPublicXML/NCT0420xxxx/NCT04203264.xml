@@ -1,0 +1,213 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04203264</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20190411A</org_study_id>
+    <nct_id>NCT04203264</nct_id>
+  </id_info>
+  <brief_title>Real-Time Identification System of Magnetically Controlled Capsule Endoscopy Using Artificial Intelligence</brief_title>
+  <official_title>Real-Time Identification of Gastric Lesions and Anatomical Landmarks During Magnetically Controlled Capsule Endoscopy Using Artificial Intelligence</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Changhai Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Changhai Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of this study is to evaluate the performance of real-time auxiliary system based on
+      artificial intelligence algorithm in lesion detection and quality control in magnetically
+      controlled capsule endoscopy.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Magnetically controlled capsule endoscopy (MCE) has been used in clinical practice for
+      gastric examination, with high sensitivity and specificity of 90.4% and 94.7%, respectively.
+
+      Therefore, a real-time auxiliary system based on convolutional neural network deep learning
+      framework was developed to assist clinicians to improve the quality in MCE examinations.
+
+      Patients referred for magnetically controlled capsule endoscopy (MCE) in the participating
+      center were prospectively enrolled. After passage through the esophagus, physician will
+      finish the gastric examination under magnetic steering with the real-time auxiliary system.
+      Professional operators guarantee the integrity of the examination and the diagnostic results
+      of professional endoscopist was used as the gold standard. The system diagnosis results was
+      recorded at the same time. The sensitivity, delay time, specificity of lesions and anatomical
+      landmarks will be analyzed.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Anticipated">December 16, 2019</start_date>
+  <completion_date type="Anticipated">January 1, 2020</completion_date>
+  <primary_completion_date type="Anticipated">January 1, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity</measure>
+    <time_frame>up to 2 weeks</time_frame>
+    <description>The sensitivity of lesions detected by system</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Delay time</measure>
+    <time_frame>up to 2 weeks</time_frame>
+    <description>Average preprocessing and displaying times before and after the execution of system</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Specificity</measure>
+    <time_frame>up to 2 weeks</time_frame>
+    <description>The specificity of detected by system</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of anatomic landmarks identification</measure>
+    <time_frame>up to 2 weeks</time_frame>
+    <description>Accuracy of anatomic landmarks ( cardia, fundus, body, lesser curvature, greater curvature, angle, antrum and pylorus) identified by real-time identification system</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Completeness of real-time observation with assistance</measure>
+    <time_frame>up to 2 weeks</time_frame>
+    <description>Whether the clinician observed all anatomic landmarks of stomach (cardia, fundus, body, angulus, antrum and pylorus).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of heat map</measure>
+    <time_frame>up to 2 weeks</time_frame>
+    <description>The rate of the highlighted area indicated in the lesion</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Lesion detection yield</measure>
+    <time_frame>up to 2 weeks</time_frame>
+    <description>The ratio of lesions detected by system to all lesions</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Capsule Endoscopy</condition>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Real-time artificial intelligence identification system</intervention_name>
+    <description>The patients swallowed the MCE with a small amount of water in the left lateral decubitus position. Once the capsule reached the stomach after investigating the esophagus, it was lifted away from the posterior wall, rotated and advanced to the fundus and cardiac regions, and then to the gastric body, angulus, antrum and pylorus. The magnetic steering time for passing through the pylorus was not allowed more than 15 min. The real-time auxiliary system implemented real-time processing for the output image of MCE system. Professional operators guarantee the integrity of the examination and the diagnostic results of professional endoscopist was used as the gold standard. The system diagnosis results was recorded at the same time. The sensitivity, delay time, specificity of lesions and anatomical landmarks will be analyzed.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Outpatients undergoing magnetically controlled capsule endoscopy examination
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  With or without gastrointestinal complaints
+
+          -  Scheduled to undergo a capsule endoscopy for both stomach and small bowel
+
+          -  Signed the informed consents before joining this study
+
+        Exclusion Criteria:
+
+          -  Dysphagia or symptoms of gastric outlet obstruction, suspected or known intestinal
+             stenosis, overt gastrointestinal bleeding, history of upper gastrointestinal surgery
+             or abdominal surgery altering gastrointestinal anatomy
+
+          -  Refused abdominal surgery to take out the capsule in case of capsule retention
+
+          -  Implanted pacemaker, except the pacemaker is compatible with MRI
+
+          -  Other implanted electromedical devices or magnetic metal foreign bodies
+
+          -  Pregnancy or suspected pregnancy
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Zhuan Liao</last_name>
+    <role>Study Chair</role>
+    <affiliation>Changhai Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Zhuan Liao</last_name>
+    <phone>008621-31161004</phone>
+    <email>liaozhuan@smmu.edu.cn</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Changhai Hospital</name>
+      <address>
+        <city>Shanghai</city>
+        <zip>200433</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Zhuan Liao</last_name>
+      <phone>008621-31161004</phone>
+      <email>liaozhuan@smmu.edu.cn</email>
+    </contact>
+    <investigator>
+      <last_name>Ji Xia</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jun Pan</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <reference>
+    <citation>Liao Z, Duan XD, Xin L, Bo LM, Wang XH, Xiao GH, Hu LH, Zhuang SL, Li ZS. Feasibility and safety of magnetic-controlled capsule endoscopy system in examination of human stomach: a pilot study in healthy volunteers. J Interv Gastroenterol. 2012 Oct-Dec;2(4):155-160. doi: 10.4161/jig.23751. Epub 2012 Oct 1.</citation>
+    <PMID>23687601</PMID>
+  </reference>
+  <reference>
+    <citation>Liao Z, Hou X, Lin-Hu EQ, Sheng JQ, Ge ZZ, Jiang B, Hou XH, Liu JY, Li Z, Huang QY, Zhao XJ, Li N, Gao YJ, Zhang Y, Zhou JQ, Wang XY, Liu J, Xie XP, Yang CM, Liu HL, Sun XT, Zou WB, Li ZS. Accuracy of Magnetically Controlled Capsule Endoscopy, Compared With Conventional Gastroscopy, in Detection of Gastric Diseases. Clin Gastroenterol Hepatol. 2016 Sep;14(9):1266-1273.e1. doi: 10.1016/j.cgh.2016.05.013. Epub 2016 May 20.</citation>
+    <PMID>27211503</PMID>
+  </reference>
+  <reference>
+    <citation>Wu L, Zhang J, Zhou W, An P, Shen L, Liu J, Jiang X, Huang X, Mu G, Wan X, Lv X, Gao J, Cui N, Hu S, Chen Y, Hu X, Li J, Chen D, Gong D, He X, Ding Q, Zhu X, Li S, Wei X, Li X, Wang X, Zhou J, Zhang M, Yu HG. Randomised controlled trial of WISENSE, a real-time quality improving system for monitoring blind spots during esophagogastroduodenoscopy. Gut. 2019 Dec;68(12):2161-2169. doi: 10.1136/gutjnl-2018-317366. Epub 2019 Mar 11.</citation>
+    <PMID>30858305</PMID>
+  </reference>
+  <reference>
+    <citation>Ding Z, Shi H, Zhang H, Meng L, Fan M, Han C, Zhang K, Ming F, Xie X, Liu H, Liu J, Lin R, Hou X. Gastroenterologist-Level Identification of Small-Bowel Diseases and Normal Variants by Capsule Endoscopy Using a Deep-Learning Model. Gastroenterology. 2019 Oct;157(4):1044-1054.e5. doi: 10.1053/j.gastro.2019.06.025. Epub 2019 Jun 25.</citation>
+    <PMID>31251929</PMID>
+  </reference>
+  <verification_date>December 2019</verification_date>
+  <study_first_submitted>December 16, 2019</study_first_submitted>
+  <study_first_submitted_qc>December 16, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 18, 2019</study_first_posted>
+  <last_update_submitted>December 16, 2019</last_update_submitted>
+  <last_update_submitted_qc>December 16, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 18, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Changhai Hospital</investigator_affiliation>
+    <investigator_full_name>Zhuan Liao</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>artificial intelligence</keyword>
+  <keyword>magnetically controlled capsule endoscopy</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

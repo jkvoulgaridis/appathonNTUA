@@ -1,0 +1,407 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04035993</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HEADWIND</org_study_id>
+    <nct_id>NCT04035993</nct_id>
+  </id_info>
+  <brief_title>The HEADWIND-Study</brief_title>
+  <acronym>HEADWIND</acronym>
+  <official_title>The HEADWIND Study: Non-randomised, Controlled, Interventional Single-centre Study for the Design and Evaluation of an in Vehicle Hypoglycaemia Warning System in Diabetes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital Inselspital, Berne</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Zurich</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of St.Gallen</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital Inselspital, Berne</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To analyse driving behavior of individuals with type 1 diabetes in eu- and progressive
+      hypoglycaemia using a validated research driving simulator. Based on the driving variables
+      provided by the simulator the investigators aim at establishing algorithms capable of
+      discriminating eu- and hypoglycemic driving patterns using machine learning neural networks
+      (deep machine learning classifiers).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Hypoglycaemia is among the most relevant acute complications of diabetes mellitus. During
+      hypoglycaemia physical, psychomotor, executive and cognitive function significantly
+      deteriorate. These are important prerequisites for safe driving. Accordingly, hypoglycaemia
+      has consistently been shown to be associated with an increased risk of driving accidents and
+      is, therefore, regarded as one of the relevant factors in traffic safety. Despite important
+      developments in the field of diabetes technology, the problem of hypoglycaemia during driving
+      persists. Automotive technology is highly dynamic, and fully autonomous driving might, in the
+      end, resolve the issue of hypoglycemia-induced accidents. However, autonomous driving (level
+      4 or 5) is likely to be broadly available only to a substantially later time point than
+      previously thought due to increasing concerns of safety associated with this technology.
+      Therefore, solutions bridging the upcoming period by more rapidly and directly addressing the
+      problem of hypoglycemia-associated traffic incidents are urgently needed.
+
+      On the supposition that driving behaviour differs significantly between euglycaemic state and
+      hypoglycaemic state, the investigators assume that different driving patterns in hypoglycemia
+      compared to euglycemia can be used to generate hypoglycemia detection models using machine
+      learning neural networks (deep machine learning classifiers).
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 7, 2019</start_date>
+  <completion_date type="Anticipated">July 31, 2020</completion_date>
+  <primary_completion_date type="Anticipated">July 31, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy of the HEADWIND-model: Diagnostic accuracy of the hypoglycaemia warning system (HEADWIND) to detect hypoglycaemia (blood glucose &lt; 3.9 mmol/l) quantified as the area under the receiver operator characteristics curve (AUC ROC &gt; 0.85).</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Accuracy of the HEADWIND-model will be assessed using driving data recorded in progressive hypoglycemia and driving data will be analysed using applied machine learning technology for hypoglycemia detection.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change of time driving over midline</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Change of time over midline during driving in hypoglycemia will be compared to euglycemia</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of swerving</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Change of swerving during driving in hypoglycemia will be compared to euglycemia</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of spinning</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Change of spinning during driving in hypoglycemia will be compared to euglycemia</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Defining the glycemic level when driving performance is decreased</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Based on significantly altered driving parameters in serious hypoglycemia (&lt; 3.0 mmol/L) compared to euglycemia (5.5mmol/L) plasma-glucose level (mmol/L) when driving performance begins to be impaired will be assessed</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Driving performance before and after hypoglycemia</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Based on significantly altered driving parameters in serious hypoglycemia (&lt; 3.0 mmol/L) driving performance before and after hypoglycemia will be assessed</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of heart-rate</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Change of heart-rate during driving in hypoglycemia will be compared to euglycemia</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of heart-rate variability</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Change of heart-rate variability during driving in hypoglycemia will be compared to euglycemia.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of electrodermal activity (EDA)</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Change of EDA during driving in hypoglycemia will be compared to euglycemia.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of skin temperature</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Change of skin temperature during driving in hypoglycemia will be compared to euglycemia.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM accuracy during hypoglycaemic state</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Accuracy (MARD) of CGM Sensor (dexcom G6) in euglycemia (3.9 - 7 mmol/L), hypoglycemia (3.0 - 3.9mmol/L) and severe hypoglycemia (&lt; 3.0 mmol/L) will be assessed based on plasma glucose measurements.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM time-delay during hypoglycaemic state</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Time-delay (minutes) of CGM Sensor (dexcom G6) during progressive hypoglycemia will be assessed compared to plasma glucose.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of glucagon</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Change of glucagon before driving, during driving in euglycemia (5.5mmol/L), in hypoglycemia (&lt; 3.9mmol/L), serious hypoglycemia (&lt; 3mmol/L) and after hypoglycemia will be assessed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of growth hormone (GH)</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Change of GH before driving, during driving in euglycemia (5.5mmol/L), in hypoglycemia (&lt; 3.9mmol/L), serious hypoglycemia (&lt; 3mmol/L) and after hypoglycemia will be assessed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of catecholamines</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Change of catecholamines before driving, during driving in euglycemia (5.5mmol/L), in hypoglycemia (&lt; 3.9mmol/L), serious hypoglycemia (&lt; 3mmol/L) and after hypoglycemia will be assessed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of cortisol</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Change of cortisol before driving, during driving in euglycemia (5.5mmol/L), in hypoglycemia (&lt; 3.9mmol/L), serious hypoglycemia (&lt; 3mmol/L) and after hypoglycemia will be assessed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glycemic level at time point of hypoglycemia detection by the HEADWIND-model</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Blood glucose at time point of hypoglycemia detection by the HEADWIND-model will be determined.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Comparison CGM and HEADWIND-model regarding time-point of hypoglycemia detection</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Time point of hypoglycemia detection by CGM will be compared to time point of hypoglycemia detection by the HEADWIND-model.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Comparison CGM and HEADWIND-model regarding glycemia</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Blood glucose at time point of hypoglycemia detection by the HEADWIND- model compared to glucose value of CGM at same time point will be assessed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy-comparison of HEADWIND-model and HEADWINDplus-model</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Diagnostic accuracy of the hypoglycaemia warning system (HEADWIND) to detect hypoglycaemia (blood glucose &lt; 3.9 mmol/l) quantified as the area under the receiver operator characteristics curve (AUC ROC) using only driving parameters (HEADWIND-model) will be compared to the HEADWIND-model with additional integration of CGM and physiological parameters (heart-rate, heart-rate variability, electrodermal activity (EDA), skin temperature and facial expression) (HEADWINDplus-model)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Self-estimation of glucose and hypoglycemia</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Correlation between self-estimated glucose values and measured blood glucose will be assessed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Self-estimation of driving performance</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Correlation between self-estimated driving performance and measured driving performance based on significantly altered driving parameters in serious hypoglycemia (&lt; 3.0 mmol/L) compared to euglycemia (5.5mmol/L). Self-estimated driving performance will be assessed on a absolute 7-point scale from 0-6 (a lower value means a better outcome).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time point of need-to-treat</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Time point of self-perceived need-to-treat (hypoglycemia) compared to time point of hypoglycemia detection by the HEADWIND-model and CGM.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Self-perception of hypoglycemia symptoms compared to baseline hypoglycemia awareness</measure>
+    <time_frame>240 minutes</time_frame>
+    <description>Correlation and comparison of perceived hypoglycemia symptoms on a scale from 0-6 (0 = no symptoms, 6 = extreme symptoms) to baseline hypoglycemia awareness score. Baseline hypoglycemia awareness will be assessed using a validated questionnaire (Clarke-Score) with a score over 3 points indicating decreased hypoglycemia awareness.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of Adverse Events (AEs)</measure>
+    <time_frame>5 weeks</time_frame>
+    <description>Adverse Events will be recorded at each study visit.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of Serious Adverse Events (SAEs)</measure>
+    <time_frame>5 weeks</time_frame>
+    <description>Serious Adverse Events will be recorded at each study visit.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Perceived ease of use of the early hypoglycaemia warning system (EWS)</measure>
+    <time_frame>Throughout the study, expected to be up to 12 months</time_frame>
+    <description>Perceived ease of use of the EWS will be assessed via questionnaire based self-reports (questionnaire for user interaction satisfaction) measured on the 9-point Likert scale from strongly disagree to strongly agree with a scale range from 0 to 9 and with higher values representing a better outcome. The total score will be averaged.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Perceived usefulness of the EWS</measure>
+    <time_frame>Throughout the study, expected to be up to 12 months</time_frame>
+    <description>Perceived usefulness of the EWS will be assessed via questionnaire based self-reports (questionnaire for user interaction satisfaction) measured on the 9-point Likert scale from strongly disagree to strongly agree with a scale range from 0 to 9 and with higher values representing a better outcome. The total score will be averaged.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Perceived enjoyment during EWS usage</measure>
+    <time_frame>Throughout the study, expected to be up to 12 months</time_frame>
+    <description>Perceived enjoyment during EWS usage will be assessed via questionnaire based self-reports (questionnaire for user interaction satisfaction) measured on the 9-point Likert scale from strongly disagree to strongly agree with a scale range from 0 to 9 and with higher values representing a better outcome. The total score will be averaged.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intention to adopt the EWS</measure>
+    <time_frame>Throughout the study, expected to be up to 12 months</time_frame>
+    <description>Intention to adopt the EWS will be assessed via questionnaire based self-reports (questionnaire for user interaction satisfaction) measured on the 9-point Likert scale from strongly disagree to strongly agree with a scale range from 0 to 9 and with higher values representing a better outcome. The total score will be averaged.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intention to continuously use the EWS</measure>
+    <time_frame>Throughout the study, expected to be up to 12 months</time_frame>
+    <description>Intention to continuously use the EWS will be assessed via questionnaire based self-reports (questionnaire for user interaction satisfaction) measured on the 9-point Likert scale from strongly disagree to strongly agree with a scale range from 0 to 9 and with higher values representing a better outcome. The total score will be averaged.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Reception of recommendations of the EWS</measure>
+    <time_frame>Throughout the study, expected to be up to 12 months</time_frame>
+    <description>Reception of recommendations of the EWS will be assessed via questionnaire based self-reports (questionnaire for user interaction satisfaction) measured on the 9-point Likert scale from strongly disagree to strongly agree with a scale range from 0 to 9 and with higher values representing a better outcome. The total score will be averaged.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Processing of recommendations of the EWS</measure>
+    <time_frame>Throughout the study, expected to be up to 12 months</time_frame>
+    <description>Processing of recommendations of the EWS will be assessed via questionnaire based self-reports (questionnaire for user interaction satisfaction) measured on the 9-point Likert scale from strongly disagree to strongly agree with a scale range from 0 to 9 and with higher values representing a better outcome. The total score will be averaged.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Perceived understandability of the recommendations of the EWS</measure>
+    <time_frame>Throughout the study, expected to be up to 12 months</time_frame>
+    <description>Perceived understandability of the EWS will be assessed via questionnaire based self-reports (questionnaire for user interaction satisfaction) measured on the 9-point Likert scale from strongly disagree to strongly agree with a scale range from 0 to 9 and with higher values representing a better outcome. The total score will be averaged.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Perceived familiarity of the recommendations of the EWS</measure>
+    <time_frame>Throughout the study, expected to be up to 12 months</time_frame>
+    <description>Perceived familiarity of the recommendations of the EWS will be assessed via questionnaire based self-reports (questionnaire for user interaction satisfaction) measured on the 9-point Likert scale from strongly disagree to strongly agree with a scale range from 0 to 9 and with higher values representing a better outcome. The total score will be averaged.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cognitive and emotional trust in the recommendations of the EWS</measure>
+    <time_frame>Throughout the study, expected to be up to 12 months</time_frame>
+    <description>Cognitive and emotional trust in the recommendations of the EWS will be assessed via questionnaire based self-reports (questionnaire for user interaction satisfaction) measured on the 9-point Likert scale from strongly disagree to strongly agree with a scale range from 0 to 9 and with higher values representing a better outcome. The total score will be averaged.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">25</enrollment>
+  <condition>Diabetes</condition>
+  <condition>Diabetes Mellitus, Type 1</condition>
+  <arm_group>
+    <arm_group_label>Intervention group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Controlled hypoglycaemic state while driving with a driving simulator</intervention_name>
+    <description>Patients will arrive in the morning after an overnight fast. During the controlled hypoglycaemic state, participants will drive on a designated circuit using a driving simulator. Initially, euglycaemic state (5.0-8.0 mmol/L) will be kept stable and then blood glucose will be declined progressively targeting at a level between 2.0-2.5mmol/L by administering an insulin bolus. Glucose will be kept stable at the hypoglycaemic level for 30 minutes. Thereafter, it will be raised again and kept stable for another 30 minutes at an euglycaemic level between 5.0-8.0mmol/L. During the procedure, we will analyse counterregulatory hormones. Heart rate, skin conductance, CGM values, eye movement and facial expression, will be recorded by a smart-watch, a CGM device, an eye-tracker and an onboard camera, respectively.
+Participants will be blinded to the glucose values during the procedure. They will have to rate their symptoms and their performance on a 0-6 scale every 15 minutes.</description>
+    <arm_group_label>Intervention group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Informed Consent as documented by signature (Appendix Informed Consent Form)
+
+          -  DM1 as defined by WHO for at least 1 year or is confirmed C-peptide negative
+             (&lt;100pmol/l with concomitant blood glucose &gt;4 mmol/l)
+
+          -  Subjects aged between 21-50 years
+
+          -  HbA1c ≤ 8.5 % based on analysis from central laboratory
+
+          -  Functional insulin treatment with insulin pump therapy (CSII) or basis-bolus insulin
+             for at least 3 months with good knowledge of insulin self-management
+
+          -  Only for the main-study: Passed driver's examination at least 3 years before study
+             inclusion. Possession of a valid Swiss driver's license. Active driving in the last 6
+             months before the study.
+
+        Exclusion Criteria:
+
+          -  Contraindications to the drug used to induce hypoglycaemia (insulin aspart), known
+             hypersensitivity or allergy to the adhesive patch used to attach the glucose sensor
+
+          -  Women who are pregnant or breastfeeding
+
+          -  Intention to become pregnant during the study
+
+          -  Lack of safe contraception, defined as: Female participants of childbearing potential,
+             not using and not willing to continue using a medically reliable method of
+             contraception for the entire study duration, such as oral, injectable, or implantable
+             contraceptives, or intrauterine contraceptive devices, or who are not using any other
+             method considered sufficiently reliable by the investigator in individual cases.
+
+          -  Other clinically significant concomitant disease states as judged by the investigator
+             (e.g., renal failure, hepatic dysfunction, cardiovascular disease, etc.)
+
+          -  Known or suspected non-compliance, drug or alcohol abuse
+
+          -  Inability to follow the procedures of the study, e.g. due to language problems,
+             psychological disorders, dementia, etc. of the participant
+
+          -  Participation in another study with an investigational drug within the 30 days
+             preceding and during the present study
+
+          -  Previous enrolment into the current study
+
+          -  Enrolment of the investigator, his/her family members, employees and other dependent
+             persons
+
+          -  Total daily insulin dose &gt;2 IU/kg/day.
+
+          -  Specific concomitant therapy washout requirements prior to and/or during study
+             participation
+
+          -  Physical or psychological disease is likely to interfere with the normal conduct of
+             the study and interpretation of the study results as judged by the investigator
+             (especially coronary heart disease or epilepsy).
+
+          -  Current treatment with drugs known to interfere with metabolism (e.g. systemic
+             corticosteroids, statins etc.) or driving performance (e.g. opioids, benzodiazepines)
+
+          -  Only for the main-study: Patients not capable of driving with the driving simulator or
+             patients experiencing motion sickness during the simulator test driving session (at
+             visit 2).
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>50 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Christoph Stettler, Prof. MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Inselspital, Bern University Hospital, University of Bern</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Vera Lehmann</last_name>
+    <phone>+41 (0)31 632 40 70</phone>
+    <email>vera.lehmann@insel.ch</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Thomas Zueger, MD</last_name>
+    <phone>+41 (0)31 632 40 70</phone>
+    <email>thomas.zueger@insel.ch</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University Department of Endocirnology, Diabetology, Clinical Nutrition and Metabolism</name>
+      <address>
+        <city>Bern</city>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Christoph Stettler, Prof.</last_name>
+      <phone>+41316324070</phone>
+      <email>christoph.stettler@insel.ch</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <verification_date>November 2019</verification_date>
+  <study_first_submitted>June 5, 2019</study_first_submitted>
+  <study_first_submitted_qc>July 24, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 29, 2019</study_first_posted>
+  <last_update_submitted>November 26, 2019</last_update_submitted>
+  <last_update_submitted_qc>November 26, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 2, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Automotive Technology</keyword>
+  <keyword>Hypoglycemia</keyword>
+  <keyword>Hypoglycaemia</keyword>
+  <keyword>Driving</keyword>
+  <keyword>Driving simulator</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Hypoglycemia</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hypoglycemic Agents</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

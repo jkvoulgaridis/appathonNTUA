@@ -1,0 +1,303 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04237922</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DUPLICATE-TRITON-TIMI</org_study_id>
+    <nct_id>NCT04237922</nct_id>
+  </id_info>
+  <brief_title>Replication of the TRITON-TIMI Antiplatelet Trial in Healthcare Claims Data</brief_title>
+  <official_title>Replication of the TRITON-TIMI Antiplatelet Trial in Healthcare Claims Data</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brigham and Women's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Brigham and Women's Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Investigators are building an empirical evidence base for real world data through large-scale
+      replication of randomized controlled trials. The investigators' goal is to understand for
+      what types of clinical questions real world data analyses can be conducted with confidence
+      and how to implement such studies.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a non-randomized, non-interventional study that is part of the RCT DUPLICATE
+      initiative (www.rctduplicate.org) of the Brigham and Women's Hospital, Harvard Medical
+      School. It is intended to replicate, as closely as is possible in healthcare insurance claims
+      data, the trial listed below/above. Although many features of the trial cannot be directly
+      replicated in healthcare claims, key design features, including outcomes, exposures, and
+      inclusion/exclusion criteria, were selected to proxy those features from the trial.
+      Randomization is also not replicable in healthcare claims data but was proxied through a
+      statistical balancing of measured covariates according to standard practice. Investigators
+      assume that the RCT provides the reference standard treatment effect estimate and that
+      failure to replicate RCT findings is indicative of the inadequacy of the healthcare claims
+      data for replication for a range of possible reasons and does not provide information on the
+      validity of the original RCT finding.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">September 22, 2019</start_date>
+  <completion_date type="Anticipated">September 22, 2020</completion_date>
+  <primary_completion_date type="Anticipated">September 22, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Relative hazard of 3-P MACE (composite outcome of Stroke, MI, and Mortality)</measure>
+    <time_frame>Through study completion (a median of 276-312 days)</time_frame>
+    <description>Relative hazard of 3-point major adverse cardiovascular events (MACE), i.e., non-fatal myocardial infarction, non-fatal stroke, or all-cause/CV mortality- Please refer to uploaded protocol for full definition due to size limitations.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Relative hazard of Hospital admission for MI</measure>
+    <time_frame>Through study completion (a median of 276-312 days)</time_frame>
+    <description>Relative hazard of Hospital admission for MI - Please refer to uploaded protocol for full definition due to size limitations.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Relative hazard of Hospital admission for stroke</measure>
+    <time_frame>Through study completion (a median of 276-312 days)</time_frame>
+    <description>Relative hazard of Hospital admission for stroke - Please refer to uploaded protocol for full definition due to size limitations.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Relative hazard of All-cause mortality/CV mortality</measure>
+    <time_frame>Through study completion (a median of 276-312 days)</time_frame>
+    <description>Relative hazard of All-cause mortality/CV mortality- Please refer to uploaded protocol for full definition due to size limitations.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Relative hazard of Major bleeding (Control outcome)</measure>
+    <time_frame>Through study completion (a median of 276-312 days)</time_frame>
+    <description>Relative hazard of Major bleeding (Control outcome) - Please refer to uploaded protocol for full definition due to size limitations.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Relative hazard of Pneumonia (Control outcome)</measure>
+    <time_frame>Through study completion (a median of 276-312 days)</time_frame>
+    <description>Relative hazard of Pneumonia (Control outcome) - Please refer to uploaded protocol for full definition due to size limitations.</description>
+  </other_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">43864</enrollment>
+  <condition>Antiplatelet</condition>
+  <arm_group>
+    <arm_group_label>Clopidogrel 75 mg</arm_group_label>
+    <description>Reference group</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Prasugrel 10 mg</arm_group_label>
+    <description>Exposure group</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Prasugrel 10mg</intervention_name>
+    <description>Prasugrel 10mg dispensing claim is used as the exposure group</description>
+    <arm_group_label>Prasugrel 10 mg</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Clopidogrel 75mg</intervention_name>
+    <description>Clopidogrel 75 mg dispensing claim is used as the reference group</description>
+    <arm_group_label>Clopidogrel 75 mg</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        This study will involve a new user, parallel group, cohort study design comparing prasugrel
+        90mg to clopidogrel 75mg. The patients will be required to have continuous enrollment
+        during the baseline period of 180 days before initiation of prasugrel 90mg or a comparator
+        drug (cohort entry date). Follow-up for the outcome (3P-MACE), begins the day after drug
+        initiation.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Please see: https://drive.google.com/drive/folders/1WD618wrywYjEaXzfLTcuK-VCcnb6b-gV for
+        full code and algorithm definitions.
+
+        Market availability of prasugrel in the U.S. started on 2009-07-10.
+
+          -  For Marketscan: 2009-07-10 to 2017-12-31 (end of data availability).
+
+          -  For Optum: 2009-07-10 to 2019-03-31 (end of data availability).
+
+        Inclusion Criteria:
+
+          -  1. Acute coronary syndrome based on the disease diagnostic criteria with planned PCI
+             (ACS definition; one of the following):
+
+               -  1a. Moderate to high risk Unstable angina: A history of chest discomfort or
+                  ischemic symptoms of 10 min or longer at rest, 72 h or less before randomization,
+                  with persistent or transient ST-segment deviation 1 mm or higher in one or more
+                  electrocardiogram (ECG) leads without elevation of creatine kinase-MB (CK-MB) or
+                  troponin T or I but with a TIMI risk score 321 or greater
+
+               -  1b. II. Moderate to high-risk NSTEMI. A history of chest discomfort or ischemic
+                  symptoms of 10 min or longer at rest, 72 h or less before randomization with no
+                  evidence of persistent ST-segment elevation. Subjects must also have CK-MB or
+                  troponin T or I greater than the upper limit of normal (ULN) and a TIMI risk
+                  score 3 or greater. If CK-MB or troponin is not available, total CK 2 times or
+                  greater ULN is acceptable
+
+               -  1c. III. STEMI. A history of chest discomfort or ischemic symptoms of greater
+                  than 20 minutes duration at rest, within 14 days or less randomization with one
+                  of the following ECG features:
+
+                    1. ST-segment elevation 1 mm or higher in 2 or more contiguous ECG leads
+
+                    2. New or presumably new left bundle branch block
+
+                    3. ST-segment depression 1 mm or greater in 2 anterior precordial leads (V1
+                       through V4) with clinical history and evidence suggestive of true posterior
+                       infarction&quot;
+
+          -  2. Legal age (and &gt;18 y) and competent mental condition to provide written informed
+             consent
+
+          -  3. For women of childbearing potential only, test negative for pregnancy between ACS
+             presentation and enrollment (based on a urine or serum pregnancy test) and agree to
+             use a reliable method of birth control during the study
+
+        Exclusion Criteria:
+
+          -  Cardiovascular exclusion criteria
+
+               -  1. Cardiogenic shock at the time of randomization
+
+               -  2. Refractory ventricular arrhythmias
+
+               -  3. New York Heart Association class IV congestive heart failure
+
+          -  Bleeding risk exclusion criteria
+
+               -  4. Fibrin-specific fibrinolytic therapy less than 24 h before randomization
+
+               -  5. Non-fibrin-specific fibrinolytic therapy less than 48 h before randomization
+
+               -  6. Active internal bleeding or history of bleeding diathesis
+
+               -  7. Clinical findings, in the judgment of the investigator, associated with an
+                  increased risk of bleeding
+
+               -  8. Any of the following:
+
+                    1. History of hemorrhagic stroke
+
+                    2. Intracranial neoplasm, arteriovenous malformation, or aneurysm
+
+                    3. Ischemic stroke within 3 months prior to screening
+
+               -  9. International normalized ratio known to be greater than 1.5 at the time of
+                  screening
+
+               -  10. Platelet count of less than 100000/mm3 at the time of screening
+
+               -  11. Anemia (hemoglobin b10 g/dL) at the time of screening
+
+          -  Prior/concomitant therapy exclusion criteria
+
+               -  12. One or more doses of a thienopyridine 5 d or less before PCI
+
+               -  13. Oral anticoagulation or other antiplatelet therapy that cannot be safely
+                  discontinued for the duration of the study
+
+               -  14. Daily treatment with nonsteroidal antiinflammatory drugs (NSAIDs) or
+                  cyclooxygenase-2 inhibitors (COX-2 inhibitors)
+
+          -  General exclusion criteria
+
+               -  15. Investigative site personnel directly affiliated with the study or immediate
+                  family
+
+               -  16. Employed by Eli Lilly and Company; Ube Industries Limited, Daiichi Sankyo
+                  Co.; The TIMI Study Group; Quintiles
+
+               -  17. Treatment within the last 30 d with an investigational drug or are presently
+                  enrolled in another drug or device study
+
+               -  18. Previously completed or withdrawn from this study or any other study
+                  investigating prasugrel
+
+               -  19. Women who are known to be pregnant, have given birth within the past 90 d, or
+                  are breast-feeding
+
+               -  20. Concomitant medical illness that in the opinion of the investigator is
+                  associated with reduced survival
+
+               -  21. Known severe hepatic dysfunction
+
+               -  22. Any condition associated with poor treatment compliance including alcoholism,
+                  mental illness, or drug dependence
+
+               -  23. Intolerance of or allergy to aspirin, tilopidine, or clopidogrel
+
+               -  24. May be unable to cooperate with protocol requirements and follow-up
+                  procedures
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jessica Franklin, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Brigham and Women's Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Brigham And Women's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02120</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2020</verification_date>
+  <study_first_submitted>January 17, 2020</study_first_submitted>
+  <study_first_submitted_qc>January 17, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 23, 2020</study_first_posted>
+  <last_update_submitted>January 17, 2020</last_update_submitted>
+  <last_update_submitted_qc>January 17, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 23, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Brigham and Women's Hospital</investigator_affiliation>
+    <investigator_full_name>Jessica Franklin</investigator_full_name>
+    <investigator_title>Assistant Porofessor of Medicine</investigator_title>
+  </responsible_party>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Clopidogrel</mesh_term>
+    <mesh_term>Prasugrel Hydrochloride</mesh_term>
+  </intervention_browse>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>January 13, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/22/NCT04237922/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

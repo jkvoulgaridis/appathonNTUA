@@ -1,0 +1,349 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03655626</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Pro00093721</org_study_id>
+    <nct_id>NCT03655626</nct_id>
+  </id_info>
+  <brief_title>Implementation and Evaluations of Sepsis Watch</brief_title>
+  <official_title>Implementation and Evaluations of Previously Developed Novel Early Warning System to Detect and Treat Sepsis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Duke University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Data &amp; Society Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Duke Clinical Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Duke University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to study the implementation and impact of an early warning
+      system to detect and treat sepsis in the emergency room. We are observing the implementation
+      of a Sepsis Machine Learning Model on all Adult patients. All data (observations field notes,
+      interview recording &amp; transcripts, and survey responses) will be stored on HIPAA-compliant
+      Duke servers behind the Duke firewall, and requiring password-protected user authentication
+      to access. The risk to patients is minimal. The two risks to interviewed clinical staff we
+      have identified involve loss of work time and anonymity.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Sepsis represents a significant burden to the healthcare system. National predictions
+      estimate 751,000 cases of severe sepsis per annum which will increase at a rate of 1.5%.
+      Sepsis accounts for &gt;$23 billion in aggregate hospital costs across all payers and represents
+      nearly 4% of all hospital stays. Six percent of all deaths in the US can be attributed to
+      sepsis. Protocol driven care bundles improve clinical outcomes but require early and accurate
+      detection of sepsis. Unfortunately, identifying sepsis early remains elusive even for
+      experienced clinicians leading to diagnostic uncertainty.
+
+      To improve diagnostic consensus, a task force in 2016 agreed upon a new sepsis definition.
+      The task force also included a new risk stratification tool to improve early identification,
+      the quick Sepsis-related Organ Failure Assessment (qSOFA) model, which was more accurate than
+      the older Systemic Inflammatory Response Syndrome (SIRS) in predicting adverse clinical
+      outcomes. However, due to the reliance of end organ dysfunction, the new definition has been
+      criticized for its detection of sepsis late in the clinical course. Clinical decision support
+      tools based on predictive analytics can provide actionable information and improve diagnostic
+      accuracy particularly in sepsis.
+
+      Several early warning tools have been described in the published literature based upon
+      predictive analytics and large datasets. One example is the National Early Warning Score
+      (NEWS), which was developed to discriminate patients at risk of cardiac arrest, unplanned
+      intensive care admission, or death. Scores such as NEWS are typically broad in scope and not
+      designed to specifically target sepsis. They are also conceptually simple, as they use only a
+      small number of variables and compare them to normal ranges to generate a composite score. In
+      assigning independent scores to each variable and using only the most recent value, they both
+      ignore complex relationships between the variables and their evolution in time.
+
+      In previous work, our group developed a framework to model multivariate time series using
+      multitask Gaussian processes, accounting for the high uncertainty, frequent missing values,
+      and irregular sampling rates typically associated with real clinical data can be read in our
+      prior work. Our machine learning approach is superior to other sepsis detection models that
+      use traditional analytics and machine learning techniques. A custom web application, Sepsis
+      Watch, presents the risk score along with relevant patient information and prompts the user
+      to further evaluate the patient and begin treatment, if appropriate. The Sepsis Watch system
+      is now being implemented by clinical operations at Duke University Hospital.
+
+      Our study employs a sequential roll-out study design in the Emergency Department at Duke
+      University Hospital. Our study will involve pods A, B, C, and the Resuscitation Bay. The
+      operational project is not being implemented on the psychiatry wing, fast track, triage or
+      any inpatient encounters. The operational project and thus our study period is based upon a
+      two-phase roll out:
+
+        -  1st phase: The predictive model notifies the rapid response team through a dashboard.
+           Nurse notifies team of the risk for sepsis and provides treatment recommendation to
+           primary team and primary team will place orders. Rapid response team nurse documents
+           assessment and actions taken in electronic health record.
+
+        -  2nd phase: Improvement and optimization of the workflow integrated in phase 1. One
+           workflow improvement includes the development of an ordering protocol and process
+           whereby the rapid response team can place orders for patients who are deemed appropriate
+           for sepsis treatment. A second workflow improvement includes the development of a
+           clinician feedback and auditing report that would be sent to front-line staff with
+           sepsis bundle compliance performance measures.
+
+      In addition to observing patient outcome measures, we propose an additional mixed-methods
+      study component to obtain richer information about the effects of the early warning system on
+      clinicians' situational awareness, decision-making, and workflow. This part of our research
+      will involve (1) gathering data from clinicians through a series of semi-structured
+      interviews, surveys, and observations (2) analysis of this data and identification of
+      relevant patterns and insights. Relevant clinicians include include rapid response team
+      nurses, emergency department (ED) nurses, and ED physicians. These interviews will be
+      conducted in three rounds over the implementation period: before the 1st arm, after the 1st
+      arm, and after the 2nd arm. Electronic surveys will be administered at the end of the 1st arm
+      and the 2nd arm to clinicians. The observations will take place during the 1st and 2nd arms.
+
+      The goal of the interviews, surveys, and observations will be to (1) evaluate the effect of
+      the early warning system on the clinicians' situational awareness and decision-making, (2)
+      understand how the early warning system fits into clinician workflow, and, (3) identify
+      opportunities to improve the implementation of the early warning system for future scale-up.
+
+      We will be structuring interviews according to the situational awareness model which
+      differentiates between 3 levels of situational awareness: 1) perception of relevant
+      information, 2) comprehension of that information, and 3) anticipation of future events based
+      on that information. Through the interviews, observations, and surveys, we also hope to learn
+      more about clinicians' perceptions of and interactions with the early warning system, and its
+      change on the existing Emergency Department workflow for sepsis diagnosis and management.
+      Data analysis will be conducted with the help of trained qualitative researchers from Data &amp;
+      Society, a research institute in New York City that is focused on the social and cultural
+      issues arising from data-centric technological development.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">November 5, 2018</start_date>
+  <completion_date type="Actual">July 5, 2019</completion_date>
+  <primary_completion_date type="Actual">July 5, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Rate of Centers for Medicare and Medicaid Services (CMS) bundle completion for patients with sepsis</measure>
+    <time_frame>Within 96 hours of emergency department arrival</time_frame>
+    <description>Proportion of patients with sepsis that complete Center for Medicare and Medicaid Services treatment bundle</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Mean time from ED arrival to sepsis for patients with sepsis</measure>
+    <time_frame>Within 96 hours of emergency department arrival</time_frame>
+    <description>Mean time from to ED arrival to sepsis</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Average number of patients who develop sepsis per day and month</measure>
+    <time_frame>Within 96 hours of emergency department arrival</time_frame>
+    <description>Number of patients daily who meet sepsis phenotype</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Average number of patients who develop sepsis and are not treated per day and month</measure>
+    <time_frame>Within 96 hours of emergency department arrival</time_frame>
+    <description>Number of patients daily who meet sepsis phenotype who are not treated for sepsis</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean ED length of stay for patients with sepsis</measure>
+    <time_frame>Within 96 hours of emergency department arrival</time_frame>
+    <description>Emergency department length of stay for patients with sepsis</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean Hospital length of stay for patients with sepsis</measure>
+    <time_frame>Within 30 days of emergency department arrival</time_frame>
+    <description>Hospital length of stay for patients with sepsis</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean Inpatient mortality for patients with sepsis</measure>
+    <time_frame>Within 30 days of emergency department arrival</time_frame>
+    <description>Inpatient mortality for patients with sepsis</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean ICU requirement rate for patients with sepsis</measure>
+    <time_frame>Within 30 days of emergency department arrival</time_frame>
+    <description>Intensive care unit requirement rate for patients with sepsis</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean time from sepsis onset to blood culture</measure>
+    <time_frame>Within 96 hours of emergency department arrival</time_frame>
+    <description>Time of sepsis to blood culture order and collection for patients with sepsis</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean time from sepsis onset to antibiotics</measure>
+    <time_frame>Within 96 hours of emergency department arrival</time_frame>
+    <description>Time of sepsis to antibiotic order and administration for patients with sepsis</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean time from sepsis onset to IV fluids</measure>
+    <time_frame>Within 96 hours of emergency department arrival</time_frame>
+    <description>Time of sepsis to IV fluids order and administration for patients with sepsis</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean time from sepsis onset to lactate</measure>
+    <time_frame>Within 96 hours of emergency department arrival</time_frame>
+    <description>Time of sepsis to lactate collection for patients with sepsis</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean time from sepsis onset to CMS bundle completion</measure>
+    <time_frame>Within 96 hours of emergency department arrival</time_frame>
+    <description>Time of sepsis to CMS bundle completion for patients with sepsis</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of lactate complete for patients with sepsis</measure>
+    <time_frame>Within 96 hours of emergency department arrival</time_frame>
+    <description>Proportion of lactate drawn within 3 hours and potentially re-drawn within 6 hours of sepsis for patients with sepsis</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of sepsis diagnosis codes across Duke University Hospital patients per month</measure>
+    <time_frame>Within 30 days of emergency department arrival</time_frame>
+    <description>Number of billing diagnosis codes for sepsis</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Number of antibiotic orders in Duke University Hospital emergency department per month</measure>
+    <time_frame>Within 96 hours of emergency department arrival</time_frame>
+    <description>Number of antibiotic orders in Duke University Hospital emergency department per month</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Number of antibiotic days in Duke University Hospital emergency department per month</measure>
+    <time_frame>Within 96 hours of emergency department arrival</time_frame>
+    <description>Number of antibiotic days</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Number of blood culture orders in Duke University Hospital emergency department per month</measure>
+    <time_frame>Within 96 hours of emergency department arrival</time_frame>
+    <description>Total blood culture orders</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Number of lactate orders in Duke University Hospital emergency department per month</measure>
+    <time_frame>Within 96 hours of emergency department arrival</time_frame>
+    <description>Total lactate orders</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Number of IV fluid orders in Duke University Hospital emergency department per month</measure>
+    <time_frame>Within 96 hours of emergency department arrival</time_frame>
+    <description>Total IV fluid orders</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Number of vasopressor orders in Duke University Hospital emergency department per month</measure>
+    <time_frame>Within 96 hours of emergency department arrival</time_frame>
+    <description>Total vasopressor orders</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Number of vasopressor days in Duke University Hospital emergency department per month</measure>
+    <time_frame>Within 96 hours of emergency department arrival</time_frame>
+    <description>Number of vasopressor days</description>
+  </other_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">32003</enrollment>
+  <condition>Sepsis</condition>
+  <condition>Severe Sepsis</condition>
+  <condition>Septic Shock</condition>
+  <arm_group>
+    <arm_group_label>Sepsis Watch on Duke University Hospital ED Adults</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients older than 18 years old at time of presentation to Duke University Hospital emergency department.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Sepsis Watch</intervention_name>
+    <description>The operational intervention comprises of a sepsis machine learning model, custom dashboard to present risk scores, and a rapid response team to monitor patients at-risk of sepsis and deliver sepsis treatment. Sepsis Watch was developed under operational management. The rapid response team will utilize information presented on the dashboard and follow a protocol that will enable them to support the primary teams of hospitalized patients.</description>
+    <arm_group_label>Sepsis Watch on Duke University Hospital ED Adults</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Arrival to Duke University Hospital emergency department pods A, B, and C, or
+             resuscitation bay
+
+        Exclusion Criteria:
+
+          -  Under 18 years old at time of emergency department arrival
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Cara O'Brien, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Duke University Health System</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Mark Sendak, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Duke Institute for Health Innovation</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Duke University Hospital</name>
+      <address>
+        <city>Durham</city>
+        <state>North Carolina</state>
+        <zip>27710</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://arxiv.org/abs/1706.04152</url>
+    <description>Learning to Detect Sepsis with a Multitask Gaussian Process Recurrent Neural Network Classifier</description>
+  </link>
+  <link>
+    <url>https://arxiv.org/abs/1708.05894</url>
+    <description>An Improved Multi-Output Gaussian Process Recurrent Neural Network with Real-Time Validation for Early Sepsis Detection</description>
+  </link>
+  <link>
+    <url>https://www.shmabstracts.com/abstract/deeply-personalized-medicine-bringing-deep-learning-to-sepsis-care/</url>
+    <description>Society of Hospital Medicine Abstract</description>
+  </link>
+  <link>
+    <url>https://www.atsjournals.org/doi/abs/10.1164/ajrccm-conference.2018.197.1_MeetingAbstracts.A3299</url>
+    <description>American Thoracic Society Abstract</description>
+  </link>
+  <verification_date>July 2019</verification_date>
+  <study_first_submitted>August 30, 2018</study_first_submitted>
+  <study_first_submitted_qc>August 30, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 31, 2018</study_first_posted>
+  <last_update_submitted>July 31, 2019</last_update_submitted>
+  <last_update_submitted_qc>July 31, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 1, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Machine Learning</keyword>
+  <keyword>Sepsis</keyword>
+  <keyword>Implementation Science</keyword>
+  <keyword>Health Information Technology</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sepsis</mesh_term>
+    <mesh_term>Toxemia</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

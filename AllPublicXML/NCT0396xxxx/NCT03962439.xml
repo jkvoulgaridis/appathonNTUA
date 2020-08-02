@@ -1,0 +1,399 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03962439</url>
+  </required_header>
+  <id_info>
+    <org_study_id>STU 072018-048</org_study_id>
+    <secondary_id>1R56AG058253-01</secondary_id>
+    <nct_id>NCT03962439</nct_id>
+  </id_info>
+  <brief_title>Impact of Challenging Engagement on Cognition in Older Adults</brief_title>
+  <acronym>engAGE</acronym>
+  <official_title>Impact of Challenging Engagement on Cognition in Older Adults: A Clinical Trial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The University of Texas at Dallas</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Texas Southwestern Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Southern Methodist University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Institute on Aging (NIA)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>The University of Texas at Dallas</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study will enroll 90 participants in the &quot;Impact of Challenging Engagement&quot; study and
+      assign them to one of three groups: high-demand photography, moderate-demand photography, and
+      active placebo. These initial groups will allow us to collect data and address the
+      feasibility of converting the project into a full trial. Participants will participate in one
+      of three different engagement conditions for 15 hours per week, based on successful results
+      from the initial Active Interventions for the Aging Mind (AIM) study - approved by University
+      of Texas Southwestern (UTSW) Institutional Review Board (IRB) #072010-144. In the Impact of
+      Challenging Engagement study, the lab will expand on the results of the AIM study to
+      determine if high-demand activities result in any observable brain changes when compared to
+      moderate demand or placebo activities. Behavioral and neural measures of cognitive change
+      will be assessed, providing considerable insight into mechanisms of change. Participants will
+      be characterized thoroughly in terms of behavioral tests of cognitive function, and a subset
+      of subjects who meet neuroimaging criteria will undergo a functional magnetic resonance
+      imaging (fMRI) procedure.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      All older adults experience some degree of cognitive compromise as they age and approximately
+      32 percent of adults aged 85 and older suffer from Alzheimer's disease (AD). The Alzheimer's
+      Association estimates that delaying the onset of AD symptoms by only five years would reduce
+      the rate of incidence by 50 percent! The present clinical trial builds on a wealth of
+      observational work and more recent experimental research conducted in the PI's lab, which
+      suggests that an important element of maintaining cognitive vitality for life is sustained
+      engagement in mentally-challenging activities. In a U.S. sample of cognitively normal adults,
+      we recently demonstrated that older adults who were randomly assigned to learn digital
+      photography, quilting, or both, in fast-paced, demanding classes for 15 hours per week for
+      three months, showed enhanced episodic memory function—both at the end of the engagement
+      period and, importantly, one year later (Park et al., 2014). The observed memory improvements
+      were in comparison to two active control conditions that were low in new learning: a social
+      engagement group that had fun but did not engage in active learning, and a placebo condition
+      where participants worked on low-effort cognitive tasks that relied on use of previous
+      knowledge. We also found similar facilitation effects when older adults were trained to use
+      many different applications on an iPad. The lab most recently reported that older
+      participants who participated in high-effort engagement conditions showed an increase in
+      neural efficiency, exhibiting a change in neural activity from a pre-intervention pattern
+      characteristic of older adults to a post-intervention pattern typical of young adults. Based
+      on these findings, which included relatively small numbers of subjects, we will conduct a
+      larger clinical trial to determine whether mentally challenging activities facilitate memory
+      in cognitively normal adults via changes of neural structure and function. We propose to
+      conduct a clinical trial study that will (a) evaluate the efficacy of different types of
+      engagement in improving cognitive function in older adults, (b) examine the likelihood that
+      mental effort invested is the underlying mechanism accounting for engagement effects, (c)
+      show whether engaging in high-demand activities results in reliable brain changes. We expect
+      to demonstrate that when older adults engage for a sustained period of time in high-effort
+      tasks (learning photography), both their memory and the modulation capacity of their brain
+      will increase.
+
+      Randomization Procedure and Statistical Analyses:
+
+      Potential participants will complete an initial eligibility form. We will contact those who
+      are deemed eligible, and we will follow up with a TICS cognitive phone interview screening
+      and provide the link to an on-line demographic enrollment questionnaire.
+
+      We will invite subjects who pass these screens to attend an informational session. At these
+      sessions, project RAs will consent potential participants and have them complete the MRI
+      screening form. We will schedule consenting participants for cognitive testing and MRI scans
+      (if applicable).
+
+      During the 3-week period set aside for cognitive and MRI testing, we will assign subjects
+      among the three treatment arms using a centrally created randomization scheme. Because
+      baseline data for all potential participants will be available at the time of randomization,
+      we will use the rerandomization method of Morgan and Rubin (2012 Annals of Statistics
+      40:1263), which can achieve improved covariate balance in this setting. We will generate a
+      series of randomizations and evaluate them for balance on age, education, and sex,
+      designating balance in terms of the MANOVA F statistic comparing the distributions of the
+      covariates across the treatment groups. Once we identify a randomization that meets this
+      criterion, we will apply it to the eligible participants.
+
+      Preliminary Analyses. In initial analyses, we will summarize categorical variables by
+      proportions and continuous variables by means and quantiles. We will graph continuous
+      variables and assess them for skewness, transforming if necessary (for example by logs or
+      square roots) to render them more nearly normally distributed. We will explore relationships
+      among variables by examining scatter plots and correlation matrices. We will conduct all
+      analyses in R (version 3.3.2 or later) or SAS (version 9.4 or later).
+
+      Analysis of Primary Outcome Variables. The primary cognitive outcome endpoint will be a
+      composite, scalar episodic memory score. This measure will exhibit substantial
+      between-subject variability, in that subjects who give high scores at baseline are likely to
+      give high scores at follow-up as well. To account for this, in primary analyses we will
+      adjust for baseline levels by analysis of covariance — i.e., including baseline values
+      together with treatment arm in a regression model for the post-treatment outcome.
+      Alternatively (and equivalently), we can analyze the outcome variable in a mixed model,
+      evaluating a treatment effect by estimating a time-by-treatment interaction, including
+      pre-treatment (baseline) and end-of-treatment (14-week) outcome. As a secondary analysis to
+      further elucidate the magnitude and timing of treatment effects, we will seek to create
+      parsimonious models of this outcome as a function of time, treatment arm, stratification
+      factors (age, sex, education) and potentially other factors measured at baseline.
+
+      The primary brain outcome will be a vector measure of fMRI activation in the four brain
+      regions of interest: mid-cingulate, precuneus, intraparietal suclus, and inferior temporal
+      gyrus. This measure is also likely to exhibit substantial between-subject variability. We
+      will again analyze the outcome variable in a mixed model, evaluating the treatment effect by
+      estimating a time-by-treatment interaction, and conduct a secondary analysis where we model
+      activation in the four regions as functions of time, treatment arm, stratification factors
+      (age, sex, education) and potentially other factors measured at baseline.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Anticipated">June 1, 2019</start_date>
+  <completion_date type="Anticipated">February 2020</completion_date>
+  <primary_completion_date type="Anticipated">February 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Mean Change in Episodic Memory Function</measure>
+    <time_frame>Baseline and 16 weeks</time_frame>
+    <description>Cognitive function will be measured using an episodic memory composite score. This score is composed of three tasks that measure episodic memory: National Institutes of Health (NIH) Picture Sequence Memory Test, Woodcock-Johnson Memory for names, and Rey Auditory Verbal Learning Test. See secondary outcomes 11-13 for more information on each measure.
+A normalized distribution of the dependent variables from these measures will be created by applying a rank-ordered Blom transformation to pretest and posttest scores. The transformed scores will then be averaged to create the episodic memory composite score. Cronbach's alpha will be calculated to test the internal reliability of the episodic memory construct. These measurements will be taken at baseline, and then following the intervention.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Mean Change in Neural Modulation Capacity - Primary Brain Outcome Measure</measure>
+    <time_frame>Baseline and 16 weeks</time_frame>
+    <description>Brain activity drawn from four brain regions associated with effortful processing and memory-cingulate, precuneus, intraparietal sulcus, and inferior temporal gyrus-will be measured using fMRI. The primary fMRI task involves making living/nonliving judgments to presented words. Participants view a series of 128 nouns for 2500 ms each and judge whether each noun refers to a living or non-living item with a button press (yes or no). Half the words are living and half non-living. Moreover, half of the items within each category are easy to classify (e.g., LION or RADIO) or hard to classify (e.g., VIRUS or ZOMBIE), based on the categorical ambiguity of the item. This task measures modulation capacity between ambiguous and non-ambiguous words, where high modulation reflects greater neural efficiency and low modulation reflects poorer neural efficiency. These measurements will be taken at baseline, and then following the intervention (16 weeks later).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Speed of Processing</measure>
+    <time_frame>Baseline and 16 weeks</time_frame>
+    <description>Speed of processing is a construct that measures how rapidly individuals can process information. In the digit comparison task, participants have 45s to decide whether two strings of numbers, either 3, 6, or 9 digits in length, are the same or different. The dependent variable (DV) is the number of items compared correctly summed across sections. In the WAIS Digit Symbol Task, participants are shown nine geometric symbols that are each assigned to a digit from 1 to 9. They are then presented with randomized digits and asked to draw the corresponding symbol below each digit as quickly as possible for 90s. The DV is the number of items matched correctly in 90s. The NIH Toolbox Pattern Comparison task asks participants to discern whether two side-by-side pictures are the same or not. The DV is the number of items correct in a 90s period. For each task, a higher DV value indicates higher speed of processing.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Working Memory</measure>
+    <time_frame>Baseline and 16 weeks</time_frame>
+    <description>Working memory measures the ability of individuals to simultaneously manipulate and store information. The NIH Toolbox List Sorting Task requires immediate recall and sequencing of different visually and orally presented stimuli. Pictures of different foods and animals are displayed with accompanying audio recording and written text (e.g., &quot;elephant&quot;), and the participant is asked to say the items back in size order from smallest to largest, first within a single dimension (either animals or foods, called 1-List) and then on 2 dimensions (foods, then animals, called 2-List). The score is equal to the number of items recalled and sequenced correctly, and more items indicate higher working memory capacity. In the Letter-Number Sequencing task, participants listen to an increasingly longer series of numbers and letters (e.g., 1-J-A-6) and are asked to rearrange the information and repeat the numbers first in ascending order and then the letters in alphabetical order (e.g., 1-6-A-J). More</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Reasoning</measure>
+    <time_frame>Baseline and 16 weeks</time_frame>
+    <description>Reasoning involves an individual's ability to recognize novel patterns and to effectively use these patterns to solve similar problems. In the Raven's Progressive Matrices task, participants are presented with visual patterns that have one piece missing and must determine which pattern out of 6 or 8 options is required to complete that visual pattern. Problems are divided into four sets of six items arranged by increasing difficulty. Participants are given 15 min to complete 24 problems, and the outcome is the number of items answered correctly in those 15 min. The ETS Letter Sets task involves presenting participants with 5 sets of letters, each set made up of 4 letters and being asked to determine which set of letters does not follow the same rule as the other 4 sets of letters. Participants have 14 min to complete 30 problems, and the outcome is number of items correct minus .25*(number of items incorrect). For both tasks, higher outcome values indicate higher reasoning ability.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Crystallized Intelligence</measure>
+    <time_frame>Baseline and 16 weeks</time_frame>
+    <description>Crystallized intelligence provides estimation about the participant's world or vocabulary-based knowledge. In the ETS Advanced Vocabulary task, participants compare a target word with 5 other words and select the 1 word that means the same or most nearly the same as the target word. Participants are given 8 min to answer 36 problems, and the outcome is the number of items correct minus .25 * (number of items incorrect). The Shipley Vocabulary task requires participants to compare a target word with 4 other words and select the 1 that means the same or most nearly the same as the target word. This task is untimed, and the outcome is the number of correct answers. The National Adult Reading Test (NART) comprises 50 written words which all have irregular spellings (e.g. &quot;aisle&quot;), so as to test the participant's vocabulary rather than pronunciation ability. The outcome is the number of correct answers. For each task, a higher outcome value indicates higher crystallized intelligence.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Large-scale Brain Measures</measure>
+    <time_frame>Baseline and 16 weeks</time_frame>
+    <description>We will use the procedures that members of our group previously described in Chan et al., 2014 to get a single measure of resting-state system segregation (both at baseline and following the intervention). This measure is calculated as the difference between the mean magnitudes of between-system correlations from the within-system correlations as a proportion of mean within-system correlation. Values greater than 0 reflect relatively lower between-system correlations in relation to within-system correlations (i.e., stronger segregation of systems), and values less than 0 reflect higher between-system correlations relative to within-system correlations (i.e., diminished segregation of systems).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Radial Diffusivity</measure>
+    <time_frame>Baseline and 16 weeks</time_frame>
+    <description>Radial diffusivity measures axonal/myelin damage by assessing water diffusion perpendicular to white matter fibres. Increased diffusivity (as measured in eigenvalues) indicate greater demyelination and therefore lower neural integrity.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Axial Diffusivity</measure>
+    <time_frame>Baseline and 16 weeks</time_frame>
+    <description>Axial diffusivity measures water diffusion that is parallel to white matter fibres. In contrast to radial diffusivity, a decrease in the axial diffusivity metric (in eigenvalues) is indicative of axonal damage.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Fractional Anisotropy</measure>
+    <time_frame>Baseline and 16 weeks</time_frame>
+    <description>Fractional anisotropy ranges from 0 to 1, and describes the degree of anisotropy (the property of substances to exhibit variations in physical properties along different axes) of a diffusion process. A value of 0 means that diffusion is isotropic, i.e. it is unrestricted (or equally restricted) in all directions. A value of 1 means that diffusion occurs only along one axis and is fully restricted along all other directions. This measure reflects fibre density, axonal diameter, and myelination in white matter.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>NIH Picture Sequence Memory Test</measure>
+    <time_frame>Baseline and 16 weeks</time_frame>
+    <description>This measure involves showing pictured objects and activities that are thematically related to participants. The pictures are then minimized and moved to boundary of the screen throughout the trial in their fixed spatial order until all of the pictures in the sequence have been displayed. The pictures are then removed from their boundary locations and placed in a random assortment in the center of the screen. Participants are asked to move the pictures back into the sequence demonstrated as accurately as possible. The scores for this task consist of the number of adjacent pairs of pictures remembered correctly over 3 learning trials, with higher scores indicating better performance. These variables factor into the episodic memory composite score.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Woodcock-Johnson Memory for Names</measure>
+    <time_frame>Baseline and 16 weeks</time_frame>
+    <description>Participants are shown illustrations of space creatures while being told names for each creature. They are asked to recall the names of the space creatures by pointing to their corresponding illustration. Starting with 1 space creature, each trial adds 1 space creature to the list until the participant reaches a total of 12 learned creatures. This task is scored as a sum of the correct responses, with higher scores indicating better performance, and is a variable in the episodic memory composite score.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rey Auditory Verbal Learning Test (RAVLT)</measure>
+    <time_frame>Baseline and 16 weeks</time_frame>
+    <description>The RAVLT a test of verbal learning and declarative memory. During the test, 15 nouns that are read aloud for 5 consecutive trials. Each trial is followed by a free recall test (participant is asked to recall the words that were just read to them). The sum of correctly recalled words across 5 trials is called the total raw score. On completion of Trial 5, an interference list of 15 words (List B) is presented, followed by a free recall test of that list. After a 20-min delay, the examinee is again required to recall the words from list A - this is called the delay raw score. The raw scores on both the total recall and the delay trials (number of words correct across trials 1-5) are converted to standardized T-scores (Mean=50; SD=10; range 20-100) based on participant age and gender. The scores are presented as T-scores, with higher scores indicative of better performance, and are incorporated into the episodic memory composite score.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">90</enrollment>
+  <condition>Cognitive Change</condition>
+  <arm_group>
+    <arm_group_label>High-Demand Photography</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>A structured, high-demand photography course targeting 210 hours of engagement over 16 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Moderate-Demand Photography</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>A structured, moderate-demand photography course targeting 210 hours of engagement over 16 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>At-Home Engagement Group</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Participation, alone at home, in tasks that are relatively low in intellectual engagement.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>High-Demand Photography</intervention_name>
+    <description>The high-demand photography group will receive 2.5 hours of instruction, twice a week, in a structured high-demand digital photography course plus 10 hours per week working on a special project at the research site without any formal instruction.</description>
+    <arm_group_label>High-Demand Photography</arm_group_label>
+    <other_name>Productive Engagement Group (High)</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Moderate-Demand Photography</intervention_name>
+    <description>The moderate-demand photography group will receive 2.5 hours of instruction, twice a week, in a structured moderate-demand digital photography course plus 10 hours per week working on a special project at the research site without any formal instruction.</description>
+    <arm_group_label>Moderate-Demand Photography</arm_group_label>
+    <other_name>Productive Engagement Group (Moderate)</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>At-Home Engagement</intervention_name>
+    <description>The placebo control group will engage, alone at home, in tasks that are relatively low in intellectual engagement such as listening to music and radio or completing work-books that rely primarily on activation of knowledge.</description>
+    <arm_group_label>At-Home Engagement Group</arm_group_label>
+    <other_name>Placebo Control</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Participants must be adults at least 60 years old.
+
+          -  At least 35 percent of participants will be men, and at least 15 percent will be
+             minorities.
+
+          -  10th grade education or higher is required
+
+          -  Fluent in English
+
+          -  Alzheimer's Disease Assessment Scale-Cognitive (ADAS-COG) score of zero (a perfect
+             score).
+
+          -  A score of 18 or higher on the Barthel Index of Daily Functioning.
+
+          -  Right-handed for magnetic resonance imaging (MRI) scanning.
+
+        Exclusion Criteria:
+
+          -  Telephone Interview for Cognitive Status (TICS) lower than 25
+
+          -  Montreal Cognitive Assessment (MOCA) score lower than 26
+
+          -  Depression based on Center for Epidemiologic Studies Depression Scale (CESD) screening
+             (a score of 27 or greater)
+
+          -  Major psychiatric or neurological disorder
+
+          -  Chemotherapy presently or in past year
+
+          -  Coronary bypass presently or in past year
+
+          -  History of major substance abuse
+
+          -  History of central nervous system disease or brain injury
+
+          -  Corrected vision poorer than 20/40 on Snellen Eye Chart after correction
+
+          -  Recreational drug use in past six months
+
+          -  Conditions which would contra-indicate MRI: Prior surgeries and/or implant of
+             pacemakers, pacemaker wires, artificial heart valve, brain aneurysm surgery, middle
+             ear implant, non-removable hearing aid or jewelry, braces or extensive dental work,
+             cataract surgery or lens implant, implanted mechanical or electrical device,
+             artificial limb or joint; foreign metallic objects in the body such as bullets,
+             ball-bullets or ball bearings (BB's), shrapnel, or metalwork fragments; pregnancy,
+             vertigo, claustrophobia, left handedness, Body Mass Index (BMI) greater than 35,
+             uncontrollable shaking, or inability to lie still for one hour.
+
+          -  More than minimal experience with photography during the last 12 years
+
+          -  Work at a structured job/volunteer more than 10 hours per week
+
+          -  Computer experience that involves more than internet surfing and email
+
+          -  Use of electronic devices to shop, pay bills, bank, and perform other higher-order
+             functions
+
+          -  Extensive experience with digital photography or post processing photo programs
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>60 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Denise Park, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Texas at Dallas</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Avanti Dey, PhD</last_name>
+    <phone>972-883-3734</phone>
+    <email>axd170006@utdallas.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Hector Gonzalez, BS</last_name>
+    <phone>972-883-3733</phone>
+    <email>andyg@utdallas.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>The engAGE Center: A Community Based Engagement Environment</name>
+      <address>
+        <city>Irving</city>
+        <state>Texas</state>
+        <zip>75039</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Hector Gonzalez</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Weintraub S, Dikmen SS, Heaton RK, Tulsky DS, Zelazo PD, Bauer PJ, Carlozzi NE, Slotkin J, Blitz D, Wallner-Allen K, Fox NA, Beaumont JL, Mungas D, Nowinski CJ, Richler J, Deocampo JA, Anderson JE, Manly JJ, Borosh B, Havlik R, Conway K, Edwards E, Freund L, King JW, Moy C, Witt E, Gershon RC. Cognition assessment using the NIH Toolbox. Neurology. 2013 Mar 12;80(11 Suppl 3):S54-64. doi: 10.1212/WNL.0b013e3182872ded.</citation>
+    <PMID>23479546</PMID>
+  </reference>
+  <reference>
+    <citation>Chan MY, Haber S, Drew LM, Park DC. Training Older Adults to Use Tablet Computers: Does It Enhance Cognitive Function? Gerontologist. 2016 Jun;56(3):475-84. doi: 10.1093/geront/gnu057. Epub 2014 Jun 13.</citation>
+    <PMID>24928557</PMID>
+  </reference>
+  <reference>
+    <citation>Park DC, Lodi-Smith J, Drew L, Haber S, Hebrank A, Bischof GN, Aamodt W. The impact of sustained engagement on cognitive function in older adults: the Synapse Project. Psychol Sci. 2014 Jan;25(1):103-12. doi: 10.1177/0956797613499592. Epub 2013 Nov 8.</citation>
+    <PMID>24214244</PMID>
+  </reference>
+  <reference>
+    <citation>Chan MY, Park DC, Savalia NK, Petersen SE, Wig GS. Decreased segregation of brain systems across the healthy adult lifespan. Proc Natl Acad Sci U S A. 2014 Nov 18;111(46):E4997-5006. doi: 10.1073/pnas.1415122111. Epub 2014 Nov 3.</citation>
+    <PMID>25368199</PMID>
+  </reference>
+  <verification_date>May 2019</verification_date>
+  <study_first_submitted>May 22, 2019</study_first_submitted>
+  <study_first_submitted_qc>May 22, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 24, 2019</study_first_posted>
+  <last_update_submitted>May 22, 2019</last_update_submitted>
+  <last_update_submitted_qc>May 22, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 24, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Aging</keyword>
+  <keyword>Cognition</keyword>
+  <keyword>Alzheimer's Disease</keyword>
+  <keyword>Memory</keyword>
+  <keyword>Engagement</keyword>
+  <keyword>Digital Photography</keyword>
+  <keyword>Older Adults</keyword>
+  <keyword>Neural Function</keyword>
+  <keyword>Neuroimaging</keyword>
+  <keyword>Active Learning</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

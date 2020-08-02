@@ -1,0 +1,204 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03613337</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PCI71</org_study_id>
+    <nct_id>NCT03613337</nct_id>
+  </id_info>
+  <brief_title>Effect of Smoking Status and Genetic Risk Factors on Restenosis and Efficacy of Clopidogrel After de Novo Percutaneous Coronary Intervention</brief_title>
+  <official_title>Effect of Smoking Status and Genetic Risk Factors on Restenosis and Efficacy of Clopidogrel After de Novo Percutaneous Coronary Intervention</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Cui Yimin</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Peking University First Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Restenosis occurs for many different reasons. Over the years, many predictive clinical,
+      biological, genetic, epigenetic, lesion-related, and procedural risk factors for restenosis
+      have been identified.
+
+      Smoking is one of most important factors, however the results were contradictory. And the
+      genetic factors of restenosis have been studied mostly in European populations. Based on
+      literature review, study of candidate genes for restenosis in Chinese population was
+      insufficient.
+
+      With due attention to this matter mentioned above, the investigators aim to preliminary
+      explore genetic variation and smoking effect on clinical restenosis in patients diagnosed
+      with after percutaneous coronary intervention in the Chinese population, with correlation
+      analysis of factors and gene-set analysis of biological pathways related to restenosis and
+      platelet approach were widely used in this study.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The design of the study was retrospective study using secondary data from medical records of
+      coronary heart disease patients who taking antiplatelet drugs and had genetic test at Peking
+      University First Hospital. These patients were enrolled in a previous study, which was
+      approved by the ethics committee of Peking University First Hospital (NO. 2013 [634]). The
+      study investigated the association between genetic polymorphism and clopidogrel
+      pharmacodynamics and drug adverse effect, and enrolled total 168 patients.
+
+      The primary endpoints clinical restenosis, defined as unplaned revascularization including
+      arget vessel revascularization (TVR) or target lesion revascularization (TLR) , either by
+      repeated percutaneous coronary intervention (PCI) or coronary artery bypass graft (CABG). The
+      platelet function was assessed using VerifyNow® P2Y12 (VN-P2Y12) assay (Accumetrics, San
+      Diego, California, USA).
+
+      To analysis the association of SNP with unplaned revascularization and PRU, the investigators
+      investigated pathways related to known platelet reaction (platelet production, platelet
+      apoptosis, platelet activity, antiplatelet, platelet resistance, platelet adhesion, and etc.)
+      and restenosis-related processes (inflammation, vascular function, proliferation and
+      transcription) from the KEGG, BioCarta and Gene Cards .
+
+      The genetic statistical analyses were performed using the set-based test of PLINK v1.07
+      adjusted by smoking statues. During the set-based test of PLINK the joint effect of all
+      genetic variation, fulfilling the test constraints, within the set of genes of pathway of
+      interest is evaluated. First a single SNP analysis of all SNPs within the pathway set was
+      performed, SNPs with the lowest p-value in the single SNP analysis were selected. This
+      analysis was repeated 10,000 times in simulated datasets, subsequently, a mean SNP statistic
+      was calculated from the single SNP statistics of a maximum amount of independent SNP with a
+      p-value &lt;0.01 SNPs are considered independent when the LD expressed in R2 is lower than 0.5.
+      Analysis of gene mutation distribution conforms to the genetic equilibrium law of
+      Hardy-Weinberg by chi-square test, P &lt;0.05 is considered possible deviations of population
+      distribution. The investigators use the result of 30 month as a replication, SNPs both
+      significant in 18 month and 30 month were reported in the study.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">May 1, 2018</start_date>
+  <completion_date type="Anticipated">August 31, 2020</completion_date>
+  <primary_completion_date type="Anticipated">July 31, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>clinical restenosis</measure>
+    <time_frame>follow up time from 1 to 5 years</time_frame>
+    <description>Clinical restenosis, defined as unplaned revascularization including arget vessel revascularization (TVR) or target lesion revascularization (TLR) , either by repeated percutaneous coronary intervention (PCI) or coronary artery bypass graft (CABG). The investigators will record the incidence of clinical restenosis events above through the medical record system, and compared the incidence through different smoking status.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Platelet reaction</measure>
+    <time_frame>Platelet function was detected after the clopidogrel efficiency reached homeostasis (clopidogrel 75mg daily for more than 7 days, or 300mg loading dose and 75mg daily for 5 days, or 600mg loading dose with 75mg for 3 days, and within 1 year after PCI</time_frame>
+    <description>Platelet reaction (VerifyNow method) was detected after the clopidogrel efficiency reached homeostasis(clopidogrel 75mg daily for more than 7 days, or 300mg loading dose and 75mg daily for 5 days, or 600mg loading dose with 75mg for 3 days) , and the values will be compared by different smoking status.</description>
+  </secondary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">120</enrollment>
+  <condition>Smoking Status</condition>
+  <condition>Genetic Risk Factors</condition>
+  <condition>Restenosis</condition>
+  <condition>Clopidogrel</condition>
+  <condition>Coronary Heart Disease</condition>
+  <condition>Percutaneous Coronary Intervention</condition>
+  <arm_group>
+    <arm_group_label>current smokers</arm_group_label>
+    <description>Current smokers are those who continued smoking cigarettes more than 1 cigarette pre month after first percutaneous coronary intervention (PCI) .</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>nonsmokers</arm_group_label>
+    <description>Nonsmokers are those who never smoked in their lifetime.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>former smokers</arm_group_label>
+    <description>Former smokers are those who had quit smoking after percutaneous coronary intervention (PCI) , and smoked less than 1 cigarette pre month after first percutaneous coronary intervention (PCI)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>clinical restenosis</intervention_name>
+    <description>The primary endpoints is clinical restenosis, the investigators will compared the incidence of clinical restenosis by different smoking status.</description>
+    <arm_group_label>current smokers</arm_group_label>
+    <arm_group_label>former smokers</arm_group_label>
+    <arm_group_label>nonsmokers</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The design of the study was retrospective study using secondary data from medical records
+        of coronary heart disease patients who taking antiplatelet drugs and had genetic test at
+        Peking University First Hospital.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Post percutaneous coronary intervention (PCI) patients;
+
+          2. Patients received Dual antiplatelet therapy consisted of 100mg of aspirin daily and 75
+             mg of clopidogrel for at least 1 year after de novo percutaneous coronary intervention
+             (PCI) ; If the end point occurred within 1 years, patients should use dual
+             antiplatelet therapy during the period from the first to second percutaneous coronary
+             intervention (PCI) .
+
+        Exclusion Criteria:
+
+          1. Patients with cancer, viral hepatitis and other related diseases;
+
+          2. The clinical data are incomplete.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Qian Xaing, Ph.D</last_name>
+    <phone>+86 010 66110802</phone>
+    <email>xiangqz@126.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Peking University First Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <zip>100034</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Qian Xiang, PhD</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>July 11, 2018</study_first_submitted>
+  <study_first_submitted_qc>July 28, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 3, 2018</study_first_posted>
+  <last_update_submitted>March 1, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 1, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 3, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Peking University First Hospital</investigator_affiliation>
+    <investigator_full_name>Cui Yimin</investigator_full_name>
+    <investigator_title>Director of pharmacy，M.D &amp; Ph.D</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Diseases</mesh_term>
+    <mesh_term>Coronary Disease</mesh_term>
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Myocardial Ischemia</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

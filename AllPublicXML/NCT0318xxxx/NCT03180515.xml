@@ -1,0 +1,1316 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03180515</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1R21NS096398</org_study_id>
+    <nct_id>NCT03180515</nct_id>
+  </id_info>
+  <brief_title>Neural and Kinematic Features of Freezing of Gait for Adaptive Neurostimulation</brief_title>
+  <official_title>Neural and Kinematic Features of Freezing of Gait for Adaptive Neurostimulation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Stanford University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Stanford University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Continuous deep brain stimulation (cDBS) is an established therapy for the major motor signs
+      in Parkinson's disease, however some patients find that it does not adequately treat their
+      freezing of gait (FOG). Currently, cDBS is limited to &quot;open-loop&quot; stimulation,without
+      real-time adjustment to the patient's state of activity, fluctuations and types of motor
+      symptoms, medication dosages, or neural markers of the disease. The purpose of this study is
+      to determine if an adaptive DBS system,responding to patient specific, clinically relevant
+      neural or kinematic feedback related to FOG, is more effective than continuous DBS on the
+      motor Unified Parkinson's Disease Rating Scale (UPDRS III) and gait measures of PD.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">May 15, 2017</start_date>
+  <completion_date type="Actual">October 31, 2018</completion_date>
+  <primary_completion_date type="Actual">October 31, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Incidence of Treatment-Emergent Adverse Events [Safety and Tolerability] Related to aDBS</measure>
+    <time_frame>30 min - 2 hours</time_frame>
+    <description>Safety, tolerability and feasibility of aDBS</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Aim 1: Alpha Power</measure>
+    <time_frame>30 minutes</time_frame>
+    <description>Subthalamic nucleus (STN) local field potentials (LFP) recordings demonstrate oscillatory neuronal activity in both the alpha (8-12 Hz) and beta (13-30 Hz) bands in the resting state in PD. Spectrograms were generated using a short-time Fourier transform, with a 1 second Hanning window and a 0.5 second overlap, creating a frequency resolution of 1 Hz. Power spectral densities were calculated using the Welch method with the same window and overlap parameters. Power was summed in the beta and alpha bands. This power can be representative of the magnitude of oscillatory activity in this frequency band occurring in this brain region.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Aim 1: Beta Power</measure>
+    <time_frame>30 minutes</time_frame>
+    <description>Subthalamic nucleus (STN) local field potentials (LFP) recordings demonstrate oscillatory neuronal activity in both the alpha (8-12 Hz) and beta (13-30 Hz) bands in the resting state in PD. Spectrograms were generated using a short-time Fourier transform, with a 1 second Hanning window and a 0.5 second overlap, creating a frequency resolution of 1 Hz. Power spectral densities were calculated using the Welch method with the same window and overlap parameters. Power was summed in the beta and alpha bands. This power can be representative of the magnitude of oscillatory activity in this frequency band occurring in this brain region.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Aim 1: Alpha Sample Entropy</measure>
+    <time_frame>30 minutes</time_frame>
+    <description>The predictability of the local field potentials (band-pass filtered between 8-12 Hz for alpha) was analyzed using Sample Entropy (SampEn), a nonlinear measure suitable for physiological time series. SampEn may be a more consistent measure and more suitable to shorter time series data than approximate entropy, partially due to the elimination of counting self matches. SampEn is calculated as the negative logarithm of the estimated conditional probability that if consecutive subseries of length m are similar according to some preset tolerance r, the consecutive subseries of length m+1 will be similar too. Here the length of the vector pairs, m, denotes the embedding dimension.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Aim 1: Beta Sample Entropy</measure>
+    <time_frame>30 minutes</time_frame>
+    <description>The predictability of the local field potentials (band-pass filtered between 15-30 Hz for beta) was analyzed using Sample Entropy (SampEn), a nonlinear measure suitable for physiological time series. SampEn may be a more consistent measure and more suitable to shorter time series data than approximate entropy, partially due to the elimination of counting self matches. SampEn is calculated as the negative logarithm of the estimated conditional probability that if consecutive subseries of length m are similar according to some preset tolerance r, the consecutive subseries of length m+1 will be similar too. Here the length of the vector pairs, m, denotes the embedding dimension.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Aim 2: Asymmetry</measure>
+    <time_frame>30 minutes</time_frame>
+    <description>Asymmetry during both forward walking and stepping in place was calculated using periods of walking or stepping when the subject was not freezing. According to previous studies, asymmetry is defined as: 100*(absolute value of the natural log of the shorter average swing time over the longer average swing time) or mathematically: 100*| ln (SSWT/LSWT) |
+where SSWT = shorter mean swing time LSWT = longer mean swing time</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Aim 2: Arrhythmicity</measure>
+    <time_frame>30 minutes</time_frame>
+    <description>Arrhythmicity during both forward walking and stepping in place was calculated using periods of walking or stepping when the subject was not freezing. According to previous studies, arrhythmicity is defined as the mean stride time coefficient of variation of both legs, and a greater stride time CV implies less rhythmic gait or stepping. Higher arrhythmicity corresponds to more arrhythmic, or more impaired, gait.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Aim 2: Stride Time</measure>
+    <time_frame>30 minutes</time_frame>
+    <description>Kinematic Features associated with Freezing of Gait</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Aim 2: Percent Time Freezing</measure>
+    <time_frame>30 minutes</time_frame>
+    <description>Freezing of gait episodes during stepping in place were identified using a validated computerized algorithm, and during forward walking by a blinded rater. The percent time freezing was calculated by dividing the time spent freezing by the total time to complete the task then multiplying by 100 to get a percent. If no freezing was observed, then the percent time freezing reported was 0.0%.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent Time Freezing</measure>
+    <time_frame>30 minutes</time_frame>
+    <description>Freezing of gait episodes during stepping in place were identified using a validated computerized algorithm. The percent time freezing was calculated by dividing the time spent freezing by the total time to complete the task then multiplying by 100 to get a percent. If no freezing was observed, then the percent time freezing reported was 0.0%. The percent time spent freezing was compared while the participant was doing the stepping in place task on continuous deep brain stimulation (cDBS) and while the participant was doing the stepping in place task on adaptive deep brain stimulation (aDBS).</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">12</enrollment>
+  <condition>Parkinson Disease</condition>
+  <arm_group>
+    <arm_group_label>Activa PC+S Neurostimulator</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>All patients will complete motor testing on both continuous DBS and adaptive DBS during a study visit. The UPDRS rater and the patient will be blind to which type of stimulation they are on.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Activa PC+S Neurostimulator</intervention_name>
+    <description>Activa PC+S Neurostimulator is approved for both aDBS and cDBS paradigms.</description>
+    <arm_group_label>Activa PC+S Neurostimulator</arm_group_label>
+    <other_name>adaptive deep brain stimulation (aDBS)</other_name>
+    <other_name>continuous deep brain stimulation (cDBS)</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. A diagnosis of idiopathic Parkinson's disease, with bilateral symptoms at Hoehn and
+             Yahr Stage greater than or equal to II.
+
+          2. Documented improvement in motor signs on versus off dopaminergic medication, with a
+             change in the Unified Parkinson's Disease Rating Scale motor (UPDRS III) score of &gt;=
+             30% off to on medication.
+
+          3. The presence of complications of medication such as wearing off signs,fluctuating
+             responses and/or dyskinesias, and/or medication refractory tremor,and/or impairment in
+             the quality of life on or off medication due to these factors.
+
+          4. Subjects should be on stable doses of medications, which should remain unchanged until
+             the DBS system is activated. After the DBS system is optimized(during which time the
+             overall medication dose may be reduced to avoid discomfort and complications such as
+             dyskinesias) the medication dose should remain unchanged, if possible, for the
+             duration of the study.
+
+          5. Treatment with carbidopa/levodopa, and with a dopamine agonist at the maximal
+             tolerated doses as determined by a movement disorders neurologist.
+
+          6. Ability and willingness to return for study visits, at the initial programming and
+             after three, six and twelve months of DBS.
+
+          7. Age &gt; 18
+
+          8. Has a history of and/or displays freezing of gait
+
+        Exclusion Criteria:
+
+          1. Subjects with significant cognitive impairment and/or dementia as determined bya
+             standardized neuropsychological battery.
+
+          2. Subjects with clinically active depression, defined according to the Diagnostic and
+             Statistical manual of Mental Disorders, Fourth Edition (DSM-IV) criteria and as scored
+             on a validated depression assessment scale.
+
+          3. Subjects with very advanced Parkinson's disease, Hoehn and Yahr stage 5 on medication
+             (non-ambulatory).
+
+          4. Age &gt; 80.
+
+          5. Subjects with an implanted electronic device such as a neurostimulator, cardiac
+             pacemaker/defibrillator or medication pump.
+
+          6. Subjects, who are pregnant, are capable of becoming pregnant, or who are breast
+             feeding.
+
+          7. Patients with cortical atrophy out of proportion to age or focal brain lesions that
+             could indicate a non-idiopathic movement disorder as determined by MRI
+
+          8. Subjects having a major comorbidity increasing the risk of surgery (prior
+             stroke,severe hypertension, severe diabetes, or need for chronic anti-coagulation
+             other than aspirin).
+
+          9. Subjects having any prior intracranial surgery.
+
+         10. Subjects with a history of seizures.
+
+         11. Subjects, who are immunocompromised.
+
+         12. Subjects with an active infection.
+
+         13. Subjects, who require diathermy, electroconvulsive therapy (ECT), or transcranial
+             magnetic stimulation (TMS) to treat a chronic condition.
+
+         14. Subjects, who have an inability to comply with study follow-up visits or study
+             protocol.
+
+         15. Subjects, who are unable to understand or sign the informed consent.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Helen Bronte-Stewart, MS, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Stanford Movement Disorders</name>
+      <address>
+        <city>Palo Alto</city>
+        <state>California</state>
+        <zip>94304</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>November 2019</verification_date>
+  <study_first_submitted>June 6, 2017</study_first_submitted>
+  <study_first_submitted_qc>June 6, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 8, 2017</study_first_posted>
+  <results_first_submitted>September 5, 2019</results_first_submitted>
+  <results_first_submitted_qc>October 15, 2019</results_first_submitted_qc>
+  <results_first_posted type="Actual">November 4, 2019</results_first_posted>
+  <last_update_submitted>November 5, 2019</last_update_submitted>
+  <last_update_submitted_qc>November 5, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 21, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Stanford University</investigator_affiliation>
+    <investigator_full_name>Helen M. Bronte-Stewart</investigator_full_name>
+    <investigator_title>John E. Cahill Family Profressor, Professor of Neurology and, by courtesy, Neurosurgery at the Stanford University Medical Center</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Parkinson Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Statistical Analysis Plan</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>September 4, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/15/NCT03180515/SAP_000.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Study Protocol</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>November 20, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/15/NCT03180515/Prot_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Activa PC+S Neurostimulator</title>
+          <description>For Aim 1, all participants participated in the same &quot;state&quot; - off dopaminergic medication and off deep brain stimulation (DBS), so that we could characterize the two groups (freezers and non-freezers, respectively people who experience freezing of gait and those who do not) at baseline.
+For Aim 2, all participants underwent randomized presentations of OFF, 60 Hz DBS and 140 Hz DBS while completing several walking tasks. (So all participants had walking trials off stimulatoin, all had walking trials at 60 Hz DBS, all had walking trials at 140 Hz DBS).
+For Aim 3, due to technological limitations and resources, only one subject completed the stepping in place task while on continuous DBS (cDBS), and completed the stepping in place task again while on adaptive DBS (aDBS).
+For Aim 3, Aim 1 Arms: Freezers vs. non-freezers Aim 2 Arms: OFF vs. 60 Hz DBS vs. 140 Hz DBS Aim 3 Arms: OFF vs. cDBS vs. aDBS</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Aim 1</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="12"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="12"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+        <period>
+          <title>Aim 2</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="12"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="12"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+        <period>
+          <title>Aim 3</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Activa PC+S Neurostimulator</title>
+          <description>All patients</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="12"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="62.27" spread="7.07"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="11"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="11"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Unified Parkinson's Disease Rating Scale III Score (OFF)</title>
+          <description>The Unified Parkinson's Disease Rating Scale or UPDRS Part III is the motor examination of the standard clinical rating scale used to gauge the course of Parkinson’s disease in patients. Total score is reported as the sum of the subscores, and higher values indicate greater disease severity. The range for the total score of the UPDRS III Motor Examination is between 0-108.</description>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="34.8" spread="14.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Incidence of Treatment-Emergent Adverse Events [Safety and Tolerability] Related to aDBS</title>
+        <description>Safety, tolerability and feasibility of aDBS</description>
+        <time_frame>30 min - 2 hours</time_frame>
+        <population>Due to limitations in technology and resources we were only able to test a single participant during the stepping in place task while on continuous DBS and while on adaptive DBS.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>(OFF) Activa PC+S Neurostimulator</title>
+            <description>OFF stimulation</description>
+          </group>
+          <group group_id="O2">
+            <title>(cDBS) Activa PC+S Neurostimulator</title>
+            <description>Continuous or open-loop DBS</description>
+          </group>
+          <group group_id="O3">
+            <title>(aDBS) Activa PC+S Neurostimulator</title>
+            <description>Adaptive DBS</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Incidence of Treatment-Emergent Adverse Events [Safety and Tolerability] Related to aDBS</title>
+          <description>Safety, tolerability and feasibility of aDBS</description>
+          <population>Due to limitations in technology and resources we were only able to test a single participant during the stepping in place task while on continuous DBS and while on adaptive DBS.</population>
+          <units>Number of Treatment Emergent AEs</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1"/>
+                <count group_id="O2" value="1"/>
+                <count group_id="O3" value="1"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="0"/>
+                    <measurement group_id="O3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Aim 1: Alpha Power</title>
+        <description>Subthalamic nucleus (STN) local field potentials (LFP) recordings demonstrate oscillatory neuronal activity in both the alpha (8-12 Hz) and beta (13-30 Hz) bands in the resting state in PD. Spectrograms were generated using a short-time Fourier transform, with a 1 second Hanning window and a 0.5 second overlap, creating a frequency resolution of 1 Hz. Power spectral densities were calculated using the Welch method with the same window and overlap parameters. Power was summed in the beta and alpha bands. This power can be representative of the magnitude of oscillatory activity in this frequency band occurring in this brain region.</description>
+        <time_frame>30 minutes</time_frame>
+        <population>Subjects were classified as a Freezer or Non-Freezer by the clinical history of a subject’s symptoms and/or if the subject displayed freezing behavior pre-operatively or during the tasks.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Freezers</title>
+            <description>PD subjects with Freezing of Gait</description>
+          </group>
+          <group group_id="O2">
+            <title>Non-Freezers</title>
+            <description>PD subjects without Freezing of Gait</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Aim 1: Alpha Power</title>
+          <description>Subthalamic nucleus (STN) local field potentials (LFP) recordings demonstrate oscillatory neuronal activity in both the alpha (8-12 Hz) and beta (13-30 Hz) bands in the resting state in PD. Spectrograms were generated using a short-time Fourier transform, with a 1 second Hanning window and a 0.5 second overlap, creating a frequency resolution of 1 Hz. Power spectral densities were calculated using the Welch method with the same window and overlap parameters. Power was summed in the beta and alpha bands. This power can be representative of the magnitude of oscillatory activity in this frequency band occurring in this brain region.</description>
+          <population>Subjects were classified as a Freezer or Non-Freezer by the clinical history of a subject’s symptoms and/or if the subject displayed freezing behavior pre-operatively or during the tasks.</population>
+          <units>arbitrary units (power)</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="8"/>
+                <count group_id="O2" value="4"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Stepping in Place Task</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.845" spread="0.543"/>
+                    <measurement group_id="O2" value="1.051" spread="0.511"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Forward Walking</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.710" spread="1.280"/>
+                    <measurement group_id="O2" value="2.753" spread="3.261"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Turning and Barrier Course</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.393" spread="0.901"/>
+                    <measurement group_id="O2" value="1.890" spread="1.351"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Aim 1: Beta Power</title>
+        <description>Subthalamic nucleus (STN) local field potentials (LFP) recordings demonstrate oscillatory neuronal activity in both the alpha (8-12 Hz) and beta (13-30 Hz) bands in the resting state in PD. Spectrograms were generated using a short-time Fourier transform, with a 1 second Hanning window and a 0.5 second overlap, creating a frequency resolution of 1 Hz. Power spectral densities were calculated using the Welch method with the same window and overlap parameters. Power was summed in the beta and alpha bands. This power can be representative of the magnitude of oscillatory activity in this frequency band occurring in this brain region.</description>
+        <time_frame>30 minutes</time_frame>
+        <population>Subjects were classified as a Freezer or Non-Freezer by the clinical history of a subject’s symptoms and/or if the subject displayed freezing behavior pre-operatively or during the tasks.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Freezers</title>
+            <description>PD subjects with Freezing of Gait</description>
+          </group>
+          <group group_id="O2">
+            <title>Non-Freezers</title>
+            <description>PD subjects without Freezing of Gait</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Aim 1: Beta Power</title>
+          <description>Subthalamic nucleus (STN) local field potentials (LFP) recordings demonstrate oscillatory neuronal activity in both the alpha (8-12 Hz) and beta (13-30 Hz) bands in the resting state in PD. Spectrograms were generated using a short-time Fourier transform, with a 1 second Hanning window and a 0.5 second overlap, creating a frequency resolution of 1 Hz. Power spectral densities were calculated using the Welch method with the same window and overlap parameters. Power was summed in the beta and alpha bands. This power can be representative of the magnitude of oscillatory activity in this frequency band occurring in this brain region.</description>
+          <population>Subjects were classified as a Freezer or Non-Freezer by the clinical history of a subject’s symptoms and/or if the subject displayed freezing behavior pre-operatively or during the tasks.</population>
+          <units>arbitrary units (power)</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="8"/>
+                <count group_id="O2" value="4"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Stepping in Place Task</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4.085" spread="2.077"/>
+                    <measurement group_id="O2" value="11.258" spread="8.493"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Forward Walking</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="9.143" spread="6.835"/>
+                    <measurement group_id="O2" value="8.400" spread="5.529"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Turning and Barrier Course</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="7.321" spread="4.429"/>
+                    <measurement group_id="O2" value="6.993" spread="0.207"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Aim 1: Alpha Sample Entropy</title>
+        <description>The predictability of the local field potentials (band-pass filtered between 8-12 Hz for alpha) was analyzed using Sample Entropy (SampEn), a nonlinear measure suitable for physiological time series. SampEn may be a more consistent measure and more suitable to shorter time series data than approximate entropy, partially due to the elimination of counting self matches. SampEn is calculated as the negative logarithm of the estimated conditional probability that if consecutive subseries of length m are similar according to some preset tolerance r, the consecutive subseries of length m+1 will be similar too. Here the length of the vector pairs, m, denotes the embedding dimension.</description>
+        <time_frame>30 minutes</time_frame>
+        <population>Subjects were classified as a Freezer or Non-Freezer by the clinical history of a subject’s symptoms and/or if the subject displayed freezing behavior pre-operatively or during the tasks.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Freezers</title>
+            <description>PD subjects with Freezing of Gait</description>
+          </group>
+          <group group_id="O2">
+            <title>Non-Freezers</title>
+            <description>PD subjects without Freezing of Gait</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Aim 1: Alpha Sample Entropy</title>
+          <description>The predictability of the local field potentials (band-pass filtered between 8-12 Hz for alpha) was analyzed using Sample Entropy (SampEn), a nonlinear measure suitable for physiological time series. SampEn may be a more consistent measure and more suitable to shorter time series data than approximate entropy, partially due to the elimination of counting self matches. SampEn is calculated as the negative logarithm of the estimated conditional probability that if consecutive subseries of length m are similar according to some preset tolerance r, the consecutive subseries of length m+1 will be similar too. Here the length of the vector pairs, m, denotes the embedding dimension.</description>
+          <population>Subjects were classified as a Freezer or Non-Freezer by the clinical history of a subject’s symptoms and/or if the subject displayed freezing behavior pre-operatively or during the tasks.</population>
+          <units>arbitrary units</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="8"/>
+                <count group_id="O2" value="4"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Stepping in Place Task</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.251" spread="0.002"/>
+                    <measurement group_id="O2" value="0.253" spread="0.004"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Forward Walking</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.248" spread="0.007"/>
+                    <measurement group_id="O2" value="0.247" spread="0.007"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Turning and Barrier Course</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.253" spread="0.003"/>
+                    <measurement group_id="O2" value="0.250" spread="0.004"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Aim 1: Beta Sample Entropy</title>
+        <description>The predictability of the local field potentials (band-pass filtered between 15-30 Hz for beta) was analyzed using Sample Entropy (SampEn), a nonlinear measure suitable for physiological time series. SampEn may be a more consistent measure and more suitable to shorter time series data than approximate entropy, partially due to the elimination of counting self matches. SampEn is calculated as the negative logarithm of the estimated conditional probability that if consecutive subseries of length m are similar according to some preset tolerance r, the consecutive subseries of length m+1 will be similar too. Here the length of the vector pairs, m, denotes the embedding dimension.</description>
+        <time_frame>30 minutes</time_frame>
+        <population>Subjects were classified as a Freezer or Non-Freezer by the clinical history of a subject’s symptoms and/or if the subject displayed freezing behavior pre-operatively or during the tasks.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Freezers</title>
+            <description>PD subjects with Freezing of Gait</description>
+          </group>
+          <group group_id="O2">
+            <title>Non-Freezers</title>
+            <description>PD subjects without Freezing of Gait</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Aim 1: Beta Sample Entropy</title>
+          <description>The predictability of the local field potentials (band-pass filtered between 15-30 Hz for beta) was analyzed using Sample Entropy (SampEn), a nonlinear measure suitable for physiological time series. SampEn may be a more consistent measure and more suitable to shorter time series data than approximate entropy, partially due to the elimination of counting self matches. SampEn is calculated as the negative logarithm of the estimated conditional probability that if consecutive subseries of length m are similar according to some preset tolerance r, the consecutive subseries of length m+1 will be similar too. Here the length of the vector pairs, m, denotes the embedding dimension.</description>
+          <population>Subjects were classified as a Freezer or Non-Freezer by the clinical history of a subject’s symptoms and/or if the subject displayed freezing behavior pre-operatively or during the tasks.</population>
+          <units>arbitrary units</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="8"/>
+                <count group_id="O2" value="4"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Stepping in Place Task</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.407" spread="0.031"/>
+                    <measurement group_id="O2" value="0.337" spread="0.062"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Forward Walking</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.380" spread="0.050"/>
+                    <measurement group_id="O2" value="0.376" spread="0.053"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Turning and Barrier Course</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.377" spread="0.050"/>
+                    <measurement group_id="O2" value="0.376" spread="0.052"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Aim 2: Asymmetry</title>
+        <description>Asymmetry during both forward walking and stepping in place was calculated using periods of walking or stepping when the subject was not freezing. According to previous studies, asymmetry is defined as: 100*(absolute value of the natural log of the shorter average swing time over the longer average swing time) or mathematically: 100*| ln (SSWT/LSWT) |
+where SSWT = shorter mean swing time LSWT = longer mean swing time</description>
+        <time_frame>30 minutes</time_frame>
+        <population>12 participants total: the 8 freezers are the same participants across stimulation conditions; the 4 non-freezers are the same participants across stimulation conditions. Subjects were classified Freezer/Non-Freezer by the clinical history of a subject’s symptoms and/or if the subject displayed freezing behavior pre-operatively or during the tasks.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Freezers (OFF Stim)</title>
+            <description>PD subjects with Freezing of Gait OFF Stimulation</description>
+          </group>
+          <group group_id="O2">
+            <title>Freezers (60 Hz Stim)</title>
+            <description>PD subjects with Freezing of Gait on 60 Hz Stimulation</description>
+          </group>
+          <group group_id="O3">
+            <title>Freezers (140 Hz Stim)</title>
+            <description>PD subjects with Freezing of Gait on 140 Hz Stimulation</description>
+          </group>
+          <group group_id="O4">
+            <title>Non-Freezers (OFF Stim)</title>
+            <description>PD subjects without Freezing of Gait OFF Stimulation</description>
+          </group>
+          <group group_id="O5">
+            <title>Non-Freezers (60 Hz Stim)</title>
+            <description>PD subjects without Freezing of Gait on 60 Hz Stimulation</description>
+          </group>
+          <group group_id="O6">
+            <title>Non-Freezers (140 Hz Stim)</title>
+            <description>PD subjects without Freezing of Gait on 140 Hz Stimulation</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Aim 2: Asymmetry</title>
+          <description>Asymmetry during both forward walking and stepping in place was calculated using periods of walking or stepping when the subject was not freezing. According to previous studies, asymmetry is defined as: 100*(absolute value of the natural log of the shorter average swing time over the longer average swing time) or mathematically: 100*| ln (SSWT/LSWT) |
+where SSWT = shorter mean swing time LSWT = longer mean swing time</description>
+          <population>12 participants total: the 8 freezers are the same participants across stimulation conditions; the 4 non-freezers are the same participants across stimulation conditions. Subjects were classified Freezer/Non-Freezer by the clinical history of a subject’s symptoms and/or if the subject displayed freezing behavior pre-operatively or during the tasks.</population>
+          <units>asymmetry (%)</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="8"/>
+                <count group_id="O2" value="8"/>
+                <count group_id="O3" value="8"/>
+                <count group_id="O4" value="4"/>
+                <count group_id="O5" value="4"/>
+                <count group_id="O6" value="4"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Stepping in Place Task</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="26.74" spread="23.44"/>
+                    <measurement group_id="O2" value="27.1" spread="21.42"/>
+                    <measurement group_id="O3" value="15.99" spread="12.12"/>
+                    <measurement group_id="O4" value="9.54" spread="6.87"/>
+                    <measurement group_id="O5" value="7.86" spread="7.10"/>
+                    <measurement group_id="O6" value="7.25" spread="9.03"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Forward Walking</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6.11" spread="4.11"/>
+                    <measurement group_id="O2" value="5.01" spread="2.97"/>
+                    <measurement group_id="O3" value="4.52" spread="3.39"/>
+                    <measurement group_id="O4" value="3.32" spread="1.88"/>
+                    <measurement group_id="O5" value="2.41" spread="2.50"/>
+                    <measurement group_id="O6" value="4.50" spread="2.23"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Aim 2: Arrhythmicity</title>
+        <description>Arrhythmicity during both forward walking and stepping in place was calculated using periods of walking or stepping when the subject was not freezing. According to previous studies, arrhythmicity is defined as the mean stride time coefficient of variation of both legs, and a greater stride time CV implies less rhythmic gait or stepping. Higher arrhythmicity corresponds to more arrhythmic, or more impaired, gait.</description>
+        <time_frame>30 minutes</time_frame>
+        <population>12 participants total: the 8 freezers are the same participants across stimulation conditions; the 4 non-freezers are the same participants across stimulation conditions.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Freezers (OFF Stim)</title>
+            <description>PD subjects with Freezing of Gait OFF Stimulation</description>
+          </group>
+          <group group_id="O2">
+            <title>Freezers (60 Hz Stim)</title>
+            <description>PD subjects with Freezing of Gait on 60 Hz Stimulation</description>
+          </group>
+          <group group_id="O3">
+            <title>Freezers (140 Hz Stim)</title>
+            <description>PD subjects with Freezing of Gait on 140 Hz Stimulation</description>
+          </group>
+          <group group_id="O4">
+            <title>Non-Freezers (OFF Stim)</title>
+            <description>PD subjects without Freezing of Gait OFF Stimulation</description>
+          </group>
+          <group group_id="O5">
+            <title>Non-Freezers (60 Hz Stim)</title>
+            <description>PD subjects without Freezing of Gait on 60 Hz Stimulation</description>
+          </group>
+          <group group_id="O6">
+            <title>Non-Freezers (140 Hz Stim)</title>
+            <description>PD subjects without Freezing of Gait on 140 Hz Stimulation</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Aim 2: Arrhythmicity</title>
+          <description>Arrhythmicity during both forward walking and stepping in place was calculated using periods of walking or stepping when the subject was not freezing. According to previous studies, arrhythmicity is defined as the mean stride time coefficient of variation of both legs, and a greater stride time CV implies less rhythmic gait or stepping. Higher arrhythmicity corresponds to more arrhythmic, or more impaired, gait.</description>
+          <population>12 participants total: the 8 freezers are the same participants across stimulation conditions; the 4 non-freezers are the same participants across stimulation conditions.</population>
+          <units>arrythmicity (CV%)</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="8"/>
+                <count group_id="O2" value="8"/>
+                <count group_id="O3" value="8"/>
+                <count group_id="O4" value="4"/>
+                <count group_id="O5" value="4"/>
+                <count group_id="O6" value="4"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Stepping in Place Task</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="54.04" spread="50.46"/>
+                    <measurement group_id="O2" value="27.49" spread="33.23"/>
+                    <measurement group_id="O3" value="29.34" spread="56.18"/>
+                    <measurement group_id="O4" value="4.01" spread="0.81"/>
+                    <measurement group_id="O5" value="4.10" spread="1.40"/>
+                    <measurement group_id="O6" value="4.00" spread="0.73"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Forward Walking</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6.76" spread="3.29"/>
+                    <measurement group_id="O2" value="5.18" spread="2.25"/>
+                    <measurement group_id="O3" value="6.41" spread="2.68"/>
+                    <measurement group_id="O4" value="5.98" spread="4.37"/>
+                    <measurement group_id="O5" value="4.96" spread="1.35"/>
+                    <measurement group_id="O6" value="4.94" spread="1.38"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Aim 2: Stride Time</title>
+        <description>Kinematic Features associated with Freezing of Gait</description>
+        <time_frame>30 minutes</time_frame>
+        <population>12 participants total: the 8 freezers are the same participants across stimulation conditions; the 4 non-freezers are the same participants across stimulation conditions.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Freezers (OFF Stim)</title>
+            <description>PD subjects with Freezing of Gait OFF Stimulation</description>
+          </group>
+          <group group_id="O2">
+            <title>Freezers (60 Hz Stim)</title>
+            <description>PD subjects with Freezing of Gait on 60 Hz Stimulation</description>
+          </group>
+          <group group_id="O3">
+            <title>Freezers (140 Hz Stim)</title>
+            <description>PD subjects with Freezing of Gait on 140 Hz Stimulation</description>
+          </group>
+          <group group_id="O4">
+            <title>Non-Freezers (OFF Stim)</title>
+            <description>PD subjects without Freezing of Gait OFF Stimulation</description>
+          </group>
+          <group group_id="O5">
+            <title>Non-Freezers (60 Hz Stim)</title>
+            <description>PD subjects without Freezing of Gait on 60 Hz Stimulation</description>
+          </group>
+          <group group_id="O6">
+            <title>Non-Freezers (140 Hz Stim)</title>
+            <description>PD subjects without Freezing of Gait on 140 Hz Stimulation</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Aim 2: Stride Time</title>
+          <description>Kinematic Features associated with Freezing of Gait</description>
+          <population>12 participants total: the 8 freezers are the same participants across stimulation conditions; the 4 non-freezers are the same participants across stimulation conditions.</population>
+          <units>seconds</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="8"/>
+                <count group_id="O2" value="8"/>
+                <count group_id="O3" value="8"/>
+                <count group_id="O4" value="4"/>
+                <count group_id="O5" value="4"/>
+                <count group_id="O6" value="4"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Stepping in Place Task</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.71" spread="0.68"/>
+                    <measurement group_id="O2" value="1.44" spread="0.53"/>
+                    <measurement group_id="O3" value="1.21" spread="0.44"/>
+                    <measurement group_id="O4" value="1.07" spread="0.15"/>
+                    <measurement group_id="O5" value="1.05" spread="0.14"/>
+                    <measurement group_id="O6" value="1.06" spread="0.17"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Forward Walking</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.14" spread="0.19"/>
+                    <measurement group_id="O2" value="1.11" spread="0.15"/>
+                    <measurement group_id="O3" value="1.10" spread="0.14"/>
+                    <measurement group_id="O4" value="1.16" spread="0.06"/>
+                    <measurement group_id="O5" value="1.15" spread="0.07"/>
+                    <measurement group_id="O6" value="1.18" spread="0.10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Aim 2: Percent Time Freezing</title>
+        <description>Freezing of gait episodes during stepping in place were identified using a validated computerized algorithm, and during forward walking by a blinded rater. The percent time freezing was calculated by dividing the time spent freezing by the total time to complete the task then multiplying by 100 to get a percent. If no freezing was observed, then the percent time freezing reported was 0.0%.</description>
+        <time_frame>30 minutes</time_frame>
+        <population>12 participants total: the 8 freezers are the same participants across stimulation conditions; the 4 non-freezers are the same participants across stimulation conditions.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Freezers (OFF Stim)</title>
+            <description>PD subjects with Freezing of Gait OFF Stimulation</description>
+          </group>
+          <group group_id="O2">
+            <title>Freezers (60 Hz Stim)</title>
+            <description>PD subjects with Freezing of Gait on 60 Hz Stimulation</description>
+          </group>
+          <group group_id="O3">
+            <title>Freezers (140 Hz Stim)</title>
+            <description>PD subjects with Freezing of Gait on 140 Hz Stimulation</description>
+          </group>
+          <group group_id="O4">
+            <title>Non-Freezers (OFF Stim)</title>
+            <description>PD subjects without Freezing of Gait OFF Stimulation</description>
+          </group>
+          <group group_id="O5">
+            <title>Non-Freezers (60 Hz Stim)</title>
+            <description>PD subjects without Freezing of Gait on 60 Hz Stimulation</description>
+          </group>
+          <group group_id="O6">
+            <title>Non-Freezers (140 Hz Stim)</title>
+            <description>PD subjects without Freezing of Gait on 140 Hz Stimulation</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Aim 2: Percent Time Freezing</title>
+          <description>Freezing of gait episodes during stepping in place were identified using a validated computerized algorithm, and during forward walking by a blinded rater. The percent time freezing was calculated by dividing the time spent freezing by the total time to complete the task then multiplying by 100 to get a percent. If no freezing was observed, then the percent time freezing reported was 0.0%.</description>
+          <population>12 participants total: the 8 freezers are the same participants across stimulation conditions; the 4 non-freezers are the same participants across stimulation conditions.</population>
+          <units>% time freezing</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="8"/>
+                <count group_id="O2" value="8"/>
+                <count group_id="O3" value="8"/>
+                <count group_id="O4" value="4"/>
+                <count group_id="O5" value="4"/>
+                <count group_id="O6" value="4"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Stepping in Place Task</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="29.37" spread="38.27"/>
+                    <measurement group_id="O2" value="11.01" spread="29.57"/>
+                    <measurement group_id="O3" value="18.13" spread="34.58"/>
+                    <measurement group_id="O4" value="0.0" spread="0.0"/>
+                    <measurement group_id="O5" value="0.0" spread="0.0"/>
+                    <measurement group_id="O6" value="0.0" spread="0.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Forward Walking</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.17" spread="0.48"/>
+                    <measurement group_id="O2" value="0.0" spread="0.0"/>
+                    <measurement group_id="O3" value="0.0" spread="0.0"/>
+                    <measurement group_id="O4" value="0.0" spread="0.0"/>
+                    <measurement group_id="O5" value="0.0" spread="0.0"/>
+                    <measurement group_id="O6" value="0.0" spread="0.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Percent Time Freezing</title>
+        <description>Freezing of gait episodes during stepping in place were identified using a validated computerized algorithm. The percent time freezing was calculated by dividing the time spent freezing by the total time to complete the task then multiplying by 100 to get a percent. If no freezing was observed, then the percent time freezing reported was 0.0%. The percent time spent freezing was compared while the participant was doing the stepping in place task on continuous deep brain stimulation (cDBS) and while the participant was doing the stepping in place task on adaptive deep brain stimulation (aDBS).</description>
+        <time_frame>30 minutes</time_frame>
+        <population>Due to limitations in technology and resources we were only able to test a single participant during the stepping in place task while on continuous DBS and while on adaptive DBS.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>(OFF) Activa PC+S Neurostimulator</title>
+            <description>OFF stimulation</description>
+          </group>
+          <group group_id="O2">
+            <title>(cDBS) Activa PC+S Neurostimulator</title>
+            <description>Continuous or open-loop DBS</description>
+          </group>
+          <group group_id="O3">
+            <title>(aDBS) Activa PC+S Neurostimulator</title>
+            <description>Adaptive DBS</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percent Time Freezing</title>
+          <description>Freezing of gait episodes during stepping in place were identified using a validated computerized algorithm. The percent time freezing was calculated by dividing the time spent freezing by the total time to complete the task then multiplying by 100 to get a percent. If no freezing was observed, then the percent time freezing reported was 0.0%. The percent time spent freezing was compared while the participant was doing the stepping in place task on continuous deep brain stimulation (cDBS) and while the participant was doing the stepping in place task on adaptive deep brain stimulation (aDBS).</description>
+          <population>Due to limitations in technology and resources we were only able to test a single participant during the stepping in place task while on continuous DBS and while on adaptive DBS.</population>
+          <units>% time freezing</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1"/>
+                <count group_id="O2" value="1"/>
+                <count group_id="O3" value="1"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="44" spread="0"/>
+                    <measurement group_id="O2" value="2" spread="0"/>
+                    <measurement group_id="O3" value="0" spread="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>2 days - throughout the entirety of the research visit</time_frame>
+      <desc>No AE's reported. We used an adverse events questionnaire to assess whether patients felt any of the following: pins and needles, tightness in arm or face, light headedness, nausea, speech problems, confusion/cognitive changes, unwanted mood changes, balance problems, other symtpoms/notes.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Activa PC+S Neurostimulator Aim 1</title>
+          <description>Aim 1 Arms: Freezers vs. non-freezers All participants participated in Aim 1</description>
+        </group>
+        <group group_id="E2">
+          <title>Activa PC +S Neurostimulator Aim 2</title>
+          <description>Aim 2 Arms: OFF vs. 60 Hz DBS vs. 140 Hz DBS
+All participants participated in Aim 2.
+Within participant, adverse effects were assessed between OFF DBS, 60 Hz DBS and 140 Hz DBS.</description>
+        </group>
+        <group group_id="E3">
+          <title>Activa PC +S Neurostimulator Aim 3</title>
+          <description>Aim 3 Arms: OFF vs. cDBS vs. aDBS
+Due to limitations in technology and resources, only one participant participated in Aim 3.
+Within participant, adverse effects were assessed between OFF DBS, cDBS, and aDBS.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="12"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="12"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="1"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="12"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="12"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="1"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="12"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="12"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="1"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Bronte-Stewart Lab</name_or_title>
+      <organization>Stanford School of Medicine</organization>
+      <phone>6507236709</phone>
+      <email>hbsmovlab@gmail.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

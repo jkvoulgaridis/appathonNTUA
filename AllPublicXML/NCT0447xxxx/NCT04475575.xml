@@ -1,0 +1,168 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04475575</url>
+  </required_header>
+  <id_info>
+    <org_study_id>eNoseCOVIDantibodies</org_study_id>
+    <nct_id>NCT04475575</nct_id>
+  </id_info>
+  <brief_title>Can the Electronic Nose Smell COVID-19 Antibodies?</brief_title>
+  <official_title>Can the Electronic Nose Smell COVID-19 Antibodies? A Proof-of-principle Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Maastricht University Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Maastricht University Medical Center</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Corona Virus Disease (COVID-19), spread worldwide and has become an emergency of major
+      international concern. In March 2020, the WHO declared the COVID-19 outbreak a global
+      pandemic. Accurate and fast diagnosis is crucial in managing the pandemic. Current diagnostic
+      approaches raise several difficulties: they are time-consuming, expensive, invasive, and most
+      important lacking high sensitivity. The gold standard diagnostic test for COVID-19, reverse
+      transcription polymerase chain reaction (RT-PCR), is highly dependent on adequate deep
+      sampling of the swab in the naso- and oropharynx. A new diagnostic test that can correctly
+      and rapidly identify infected patients and asymptomatic carriers is urgently required to
+      prevent further virus transmission and thus reduce mortality rates.
+
+      Aim: This proof-of-principle study aims to investigate if an electronic nose (Aeonose) can
+      distinguish individuals with antibodies from individuals without antibodies against COVID-19
+      based on analysis of volatile organic compounds (VOCs).
+
+      Methods: between April and July 2020, persons undergoing RT-PCR and a serology test for
+      COVID-19 were recruited at Maastricht UMC+ for breath analysis. All participants had to
+      breathe through the Aeonose for five consecutive minutes. The VOC pattern in their exhaled
+      breath was then linked to the matching RT-PCR and serological test results.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">April 6, 2020</start_date>
+  <completion_date type="Actual">July 1, 2020</completion_date>
+  <primary_completion_date type="Actual">June 30, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>COVID-19 antibodies vs COVID-19 negative</measure>
+    <time_frame>3 months</time_frame>
+    <description>Ability of the electronic nose (Aeonose) to distinguish individuals with antibodies from individuals without antibodies against COVID-19 based on analysis of volatile organic compounds (VOCs).</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">222</enrollment>
+  <condition>SARS-CoV Infection</condition>
+  <condition>Covid19</condition>
+  <arm_group>
+    <arm_group_label>COVID-19 suspected</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Participants where included if an oropharyngeal and nasopharyngeal swab was collected for RT-PCR and serology testing had been performed, or if participants have had a confirmed COVID-19 diagnosis in the previous days or weeks with an indication for re-testing via PCR and serology testing at the moment of inclusion</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Aeonose</intervention_name>
+    <description>All participants breathed through the Aeonose for five minutes. This device contains metal-oxide sensors that change in conductivity upon reaction with VOCs in exhaled breath. These conductivity changes are input data for machine-learning and used for pattern recognition. A nose clip was placed on the nose of each participant to avoid entry of non-filtered air in the device. Before measuring, the Aeonose was flushed with room air, guided through a carbon filter as well. During each measurement, a video was displayed to distract the participant and to reduce the chance of hyperventilation. Failed breath tests were excluded from analysis; the reason for failure was documented. Four similar Aeonose devices were used for breath analysis. A full-measurement procedure required sixteen minutes.</description>
+    <arm_group_label>COVID-19 suspected</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Participants of whom an oropharyngeal and nasopharyngeal swab was collected for RT-PCR
+             and on whom serology testing for the detection of antibodies was performed.
+
+        Exclusion Criteria:
+
+          -  Participants who where experiencing dyspnea or needed supplemental oxygen.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Maastricht University Medical Center</name>
+      <address>
+        <city>Maastricht</city>
+        <zip>6229 HX</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Netherlands</country>
+  </location_countries>
+  <reference>
+    <citation>Wu Z, McGoogan JM. Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China: Summary of a Report of 72 314 Cases From the Chinese Center for Disease Control and Prevention. JAMA. 2020 Feb 24. doi: 10.1001/jama.2020.2648. [Epub ahead of print]</citation>
+    <PMID>32091533</PMID>
+  </reference>
+  <reference>
+    <citation>de Lacy Costello B, Amann A, Al-Kateb H, Flynn C, Filipiak W, Khalid T, Osborne D, Ratcliffe NM. A review of the volatiles from the healthy human body. J Breath Res. 2014 Mar;8(1):014001. doi: 10.1088/1752-7155/8/1/014001. Epub 2014 Jan 13. Review.</citation>
+    <PMID>24421258</PMID>
+  </reference>
+  <reference>
+    <citation>Xiang F, Wang X, He X, Peng Z, Yang B, Zhang J, Zhou Q, Ye H, Ma Y, Li H, Wei X, Cai P, Ma WL. Antibody Detection and Dynamic Characteristics in Patients with COVID-19. Clin Infect Dis. 2020 Apr 19. pii: ciaa461. doi: 10.1093/cid/ciaa461. [Epub ahead of print]</citation>
+    <PMID>32306047</PMID>
+  </reference>
+  <reference>
+    <citation>Schuermans VNE, Li Z, Jongen ACHM, Wu Z, Shi J, Ji J, Bouvy ND. Pilot Study: Detection of Gastric Cancer From Exhaled Air Analyzed With an Electronic Nose in Chinese Patients. Surg Innov. 2018 Oct;25(5):429-434. doi: 10.1177/1553350618781267. Epub 2018 Jun 18.</citation>
+    <PMID>29909757</PMID>
+  </reference>
+  <reference>
+    <citation>Bikov A, Lázár Z, Horvath I. Established methodological issues in electronic nose research: how far are we from using these instruments in clinical settings of breath analysis? J Breath Res. 2015 Jun 9;9(3):034001. doi: 10.1088/1752-7155/9/3/034001. Review.</citation>
+    <PMID>26056127</PMID>
+  </reference>
+  <reference>
+    <citation>Bijland LR, Bomers MK, Smulders YM. Smelling the diagnosis: a review on the use of scent in diagnosing disease. Neth J Med. 2013 Jul-Aug;71(6):300-7. Review.</citation>
+    <PMID>23956311</PMID>
+  </reference>
+  <reference>
+    <citation>van Geffen WH, Bruins M, Kerstjens HA. Diagnosing viral and bacterial respiratory infections in acute COPD exacerbations by an electronic nose: a pilot study. J Breath Res. 2016 Jun 16;10(3):036001. doi: 10.1088/1752-7155/10/3/036001.</citation>
+    <PMID>27310311</PMID>
+  </reference>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>July 15, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 16, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 17, 2020</study_first_posted>
+  <last_update_submitted>July 16, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 16, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 17, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Maastricht University Medical Center</investigator_affiliation>
+    <investigator_full_name>Nicole Bouvy</investigator_full_name>
+    <investigator_title>Prof. Dr. Nicole D. Bouvy</investigator_title>
+  </responsible_party>
+  <keyword>Electronic nose</keyword>
+  <keyword>Volatile organic compounds</keyword>
+  <keyword>Diagnosis</keyword>
+  <keyword>Serology</keyword>
+  <keyword>Antibodies</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronavirus Infections</mesh_term>
+    <mesh_term>Severe Acute Respiratory Syndrome</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

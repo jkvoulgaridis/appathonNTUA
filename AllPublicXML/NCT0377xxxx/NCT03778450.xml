@@ -1,0 +1,258 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03778450</url>
+  </required_header>
+  <id_info>
+    <org_study_id>VF_1014_1040_Study Protocol</org_study_id>
+    <nct_id>NCT03778450</nct_id>
+  </id_info>
+  <brief_title>Long-term Opioid Therapy, Misuse and Mortality in Patients With Chronic Non-cancer Pain in Germany</brief_title>
+  <official_title>Long-term Opioid Therapy, Misuse and Mortality in Patients With Chronic Non-cancer Pain in Germany</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>LinkCare GmbH</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Grünenthal GmbH</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Klinikum Saarbrücken</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Ruhr University of Bochum</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Technische Universität München</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>LinkCare GmbH</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Among patients receiving opioids for noncancer pain, recent research in North America showed
+      a strong association between doses and opioid-related mortality, especially at dosages
+      exceeding thresholds recommended in recent guidelines. However, the focus on over-dosage may
+      underestimate overall opioid-related mortality and data on death associated with opioid use
+      in a population-based cohort of chronic noncancer pain patients in Europe is scarce.
+      Especially comparative studies studying the safety of long-term opioid therapy in a
+      real-world setting relative to non-opioid medication for chronic noncancer pain are needed in
+      a European context.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a cross-sectional observational cohort study between 2012 and 2017 of patients with
+      chronic noncancer pain. The primary objective is to investigate the association between
+      mortality among patients with chronic noncancer pain with long-term opioid-therapy compared
+      to non-opioid pain medication. The data will be retrieved from an anonymized German health
+      claims database including 4,00,000 persons insured by 69 German statutory health insurances.
+      The data set includes 5.0% of the population covered by statutory health insurances from
+      January 1, 2012, to December 31, 2017. Only anonymized and aggregated data (no directly or
+      indirectly identifying data) will be extracted.
+
+      Patients with headache, diseases of the musculoskeletal system and connective tissue,
+      migraine, trigeminal neuralgia, atypical facial pain, persistent somatoform pain disorder,
+      polyneuropathies, or diabetes mellitus with neurological complications in at least 3 quarters
+      between 01.01.2012 and their first pain medication claim are analyzed. Patients will be
+      stratified in an opioid and a non-opioid group and will be compared with a propensity score
+      matching approach.
+
+      Patients' follow-up period include 5 years after start treatment and chronic pain diagnosis
+      between 01.01.2013 and 31.12.2017. Each patient will be censored at death (death date),
+      switching of study group, 12 months without treatment or followed-up 5 years until last known
+      record for the, whichever happens first. The main analyses will be analyzed with a
+      multivariate Cox proportional hazards regression.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">December 5, 2018</start_date>
+  <completion_date type="Actual">August 31, 2019</completion_date>
+  <primary_completion_date type="Actual">August 31, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Mortality</measure>
+    <time_frame>2013 - 2017</time_frame>
+    <description>Primary endpoint is death by any course in the study follow-up. Death will be assessed during the follow-up period by number of patients who deceased during follow-up period (2013 - 2017) via the date of death in German claims data base.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Hospitalization due to any course</measure>
+    <time_frame>2013 - 2017</time_frame>
+    <description>Hospitalization will be assessed via the number of hospitalisations (calculated by counting the number of discharge dates (KH_Fall. Entlassungsdatum) in the year of interest, hospitalization rate. The rate of hospitalization will be estimated as the number of patients with at least one hospitalization during the follow-up period divided by person-time of follow-up, censoring at time of death, last known record for the patient in the database, or 31st December 2017 (end of latest data cut), whichever is earlier.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of ICU-stays</measure>
+    <time_frame>2013 - 2017</time_frame>
+    <description>Intensive care unit (ICU-stay) stay is defined as patient's stay based on specialty of departement in hospital (KH_OPS.Fachabteilung = 3600).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hospitalization with to misuse or addiction</measure>
+    <time_frame>2013 - 2017</time_frame>
+    <description>The hospitalization with misuse or addiction will be analysed, if principal (main) diagnosis at discharge date between January 1st 2013 and December 31st 2017 contains at least one ICD-10 diagnosis of misuse/addiction: F10* or F11* or F13* or F19* or T40*</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of coding of procedures in hospitals</measure>
+    <time_frame>2013 - 2017</time_frame>
+    <description>Coding of procedures in hospitals that indicate number of patients that were hospitalized with severe diseases such as cardiovascular diseases will be assessed via OPS-Codes provided in the protocol</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of patients with a ca misuse or addiction diagnosis in the outpatient sector</measure>
+    <time_frame>2013 - 2017</time_frame>
+    <description>The number of patients with a least one coding of ICD 10 codes of a misuse or addiction diagnosis in the outpatient sector will be assessed via number of codings of misuse/addiction (ICD Codes = F10* or F11* or F13* or F19* or T40*) in outpatient sector by general practitioner or a specialist (e.g. psychiatrist), as ensured diagnosis (Diagnosesicherheit='G').</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of sick leave days</measure>
+    <time_frame>2013 - 2017</time_frame>
+    <description>Sick leave will be assessed as an absolute number number of days being off work of patients in 2013-2017 .</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of hospital deaths</measure>
+    <time_frame>2013 - 2017</time_frame>
+    <description>Hospital deaths will be assessed via reason of discharge = death (Entlassgrund = Tod)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of main- and secondary discharge diagnoses</measure>
+    <time_frame>2013 - 2017</time_frame>
+    <description>Main- and secondary discharge diagnoses from hospital deaths will be assessed as the TOP 20 diagnoses of patients who deceased during a hospital stay</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">3232</enrollment>
+  <condition>Pain</condition>
+  <arm_group>
+    <arm_group_label>Analgesics, Opioid</arm_group_label>
+    <description>Patients are only included if they have been diagnosed in at least three quarters in the study period with one of the following diagnoses: R51, R52*, M00*-M99*, G43*-G44*, G50.0 or G50.1, F45.4*, G62*, or E10.4*-E14.4 plus G63.3. At least one diagnoses must be between 1 January 2012 and index treatment and main and secondary hospital diagnoses (i.e. Haupt- und Nebendiagnosen) will be used to include the patients.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Non-Opioid Analgesic</arm_group_label>
+    <description>Patients are only included if they have been diagnosed in at least three quarters in 2012 with one of the following diagnoses: R51, R52*, M00*-M99*, G43*-G44*, G50.0 or G50.1, F45.4*, G62*, or E10.4*-E14.4 plus G63.3.At least one diagnoses must be between 1 January 2012 and index treatment and main and secondary hospital diagnoses (i.e. Haupt- und Nebendiagnosen) will be used to include the patients.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Analgesics, Opioid</intervention_name>
+    <description>Patients are included in the long-term opioid group if they started an opioid-therapy between 2013 and 2017 and received consecutive prescriptions for opioid medications over a minimum of 3 quarters, over a 60-month period between January 1, 2013, and December 31, 2017. The treatment will be assessed using the ATC codes of opioid
+treatment N02AA01, N02AA05, N02AB03, N02AE01, N02AX02, N02AX01, N02AX06) reported in reimbursed medicines to patients.</description>
+    <arm_group_label>Analgesics, Opioid</arm_group_label>
+    <other_name>Opioid Group</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Non-Opioid Analgesic</intervention_name>
+    <description>Patients with non-opioid pain medication are included, if they received a medication therapy with anticonvulsants (gabapentin, pregabalin, carbamazepine), antidepressants or non-opioid analgesics (NSAIDs, Metamizole) over a minimum of 3 quarters, over a 60-month period between January 1, 2013, and December 31, 2017. The non-opioid treatment will be assessed using the ATC codes (N03AX12, N03AX16, N03AF01) of treatment reported in reimbursed medicines to patients.</description>
+    <arm_group_label>Non-Opioid Analgesic</arm_group_label>
+    <other_name>Non-Opioid Group</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The database contains data on around 4 million insured people from 69 German statutory
+        health insurances (SHI). German SHI system comprises of approximately 120 independent
+        health insurance companies. Funds paid by these SHI to any provider of health care (e.g.
+        hospitals, physicians, pharmacies, psychotherapists and physiotherapists) represent almost
+        the complete picture of the total health care costs of individual patients. All health
+        insurance data can be linked to patients' demographics including age and gender. T
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        - Patients are only included if they have been diagnosed in at least three quarters in the
+        study period with one of the following diagnoses: R51, R52*, M00*-M99*, G43*-G44*, G50.0 or
+        G50.1, F45.4*, G62*, or E10.4*-E14.4 plus G63.3. At least one diagnoses must be between 1
+        January 2012 and index treatment and main and secondary hospital diagnoses (i.e. Haupt- und
+        Nebendiagnosen) will be used to include the patients.
+
+        Exclusion Criteria:
+
+          -  Patients with present opioid and non-opioid pain medication prescriptions in 2012 are
+             excluded from analysis (therapy-naïve patients only).
+
+          -  Cancer patients will be excluded if the cancer diagnosis is accompanied by at least
+             one of the following treatments in the same quarter: radiation therapy or chemotherapy
+             all defined by the OPS codes in. Diagnoses will be assessed via ICD-10 diagnoses
+             during the inclusion period from 1 January 2012 until index treatment and main and
+             secondary hospital diagnoses (i.e. Haupt- und Nebendiagnosen) will be taken into
+             account.
+
+          -  Palliative care, coded by ICD-10 code Z51.5 or OPS code 8-982*, 8-98e*, 8-98h* before
+             index date is excluded
+
+          -  Opioid substitution treatment with ICD-10 code Z51.83 in the study period is excluded.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Tino Schubert</last_name>
+    <role>Study Director</role>
+    <affiliation>LinkCare GmbH</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>LinkCare GmbH</name>
+      <address>
+        <city>Stuttgart</city>
+        <zip>70469</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+  </location_countries>
+  <verification_date>September 2019</verification_date>
+  <study_first_submitted>December 7, 2018</study_first_submitted>
+  <study_first_submitted_qc>December 14, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 19, 2018</study_first_posted>
+  <last_update_submitted>September 2, 2019</last_update_submitted>
+  <last_update_submitted_qc>September 2, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 4, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>LinkCare GmbH</investigator_affiliation>
+    <investigator_full_name>Tino Schubert</investigator_full_name>
+    <investigator_title>Managing Partner</investigator_title>
+  </responsible_party>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Analgesics, Opioid</mesh_term>
+    <mesh_term>Analgesics, Non-Narcotic</mesh_term>
+    <mesh_term>Analgesics</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>November 28, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/50/NCT03778450/Prot_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

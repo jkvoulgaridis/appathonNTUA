@@ -1,0 +1,174 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03804840</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AIS</org_study_id>
+    <nct_id>NCT03804840</nct_id>
+  </id_info>
+  <brief_title>Developing a Mobile Method to Measure THC-induced Impairment</brief_title>
+  <acronym>AIS</acronym>
+  <official_title>A Mobile Prototype for a Field Sobriety Test for Cannabis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Chicago</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Chicago</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Marijuana use, for both recreational and therapeutic purposes, is becoming increasingly
+      common as states remove restrictions on use. The increased use raises new concern about the
+      safety of this drug, including its ability to impair basic cognitive and psychomotor tasks,
+      and whether the users are aware of their impairment. We propose to design a simple
+      performance test that users can use in the field, using a cell phone, to assess their level
+      of impairment relative to their own drug-free state. In this preliminary study, we will
+      compare participants' simple task performance after a known dose of
+      delta-9-tetrahydrocannabinol (THC), or placebo, administered under double-blind conditions.
+      In our app the participants will be asked to gauge their own perceived level of impairment
+      (as determined by self-ratings and judgments of impairment) as well as their actual
+      impairment (as gauged by the app), providing important feedback and training about their
+      ability to detect impairment.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">March 1, 2017</start_date>
+  <completion_date type="Actual">December 1, 2018</completion_date>
+  <primary_completion_date type="Actual">December 1, 2018</primary_completion_date>
+  <phase>Early Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>Quadruple (Participant, Care Provider, Investigator, Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Simple Reaction Time</measure>
+    <time_frame>Assessed two hour post intervention at peak effects</time_frame>
+    <description>In this reaction time task, the user is asked to shake the device in response to a visual clue on the device's screen. The user makes three attempts, in which he or she must shake or move the device with an acceleration that is greater than the value of the thresholdAcceleration property within the given time. The task finishes when the user successfully completes the attempts as instructed in the task. Data collected by this task is in the form of ORKReactionTimeResult objects. Each of these objects contain a timestamp representing the delivery of the stimulus and an ORKFileResult object that references the motion data collected during an attempt.</description>
+  </primary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">48</enrollment>
+  <condition>Measuring THC-induced Cognitive Impairment Using a Mobile Application</condition>
+  <arm_group>
+    <arm_group_label>Placebo</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>7.5 mg THC</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>15 mg THC</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Dronabinol</intervention_name>
+    <description>THC (Marinol® [dronabinol]; Solvay Pharmaceuticals) will be orally administered in doses of 7.5 mg and 15 mg, in opaque capsules with dextrose filler. Placebo capsules contain only dextrose. These doses of THC are known to produce performance impairments as well as subjective intoxication (Broyd et al, 2016; Hartman and Huestis, 2013).</description>
+    <arm_group_label>15 mg THC</arm_group_label>
+    <arm_group_label>7.5 mg THC</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Placebo</intervention_name>
+    <description>Placebo</description>
+    <arm_group_label>Placebo</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. 18-35 years old, males and females (N=44; 36 completers; 18 men, 18 women)
+
+          2. BMI 19-26
+
+          3. High school education, fluent in English
+
+          4. Experienced non-daily marijuana users
+
+             Exclusion Criteria:
+
+          5. Current drug/alcohol abuse or dependence
+
+          6. Past year drug/alcohol dependence
+
+          7. Diagnosis with drug treatment for psychosis/bipolar/schizophrenia
+
+          8. Past year major depression
+
+          9. Panic/anxiety attacks in past 2 months
+
+         10. PTSD
+
+         11. ADHD
+
+         12. Cardiovascular illness, high blood pressure, abnormal EKG
+
+         13. Current medications
+
+         14. Pregnant or planning to become pregnant
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>35 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Elisa Pabon</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Chicago</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Chicago</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60615</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2019</verification_date>
+  <study_first_submitted>January 11, 2019</study_first_submitted>
+  <study_first_submitted_qc>January 14, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 15, 2019</study_first_posted>
+  <last_update_submitted>January 14, 2019</last_update_submitted>
+  <last_update_submitted_qc>January 14, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 15, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cognitive Dysfunction</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Dronabinol</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

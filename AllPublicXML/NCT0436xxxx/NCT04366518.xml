@@ -1,0 +1,255 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04366518</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2000024774</org_study_id>
+    <secondary_id>R21MH122940</secondary_id>
+    <nct_id>NCT04366518</nct_id>
+  </id_info>
+  <brief_title>Toward a Computationally-Informed, Personalized Treatment for Hallucinations</brief_title>
+  <official_title>Toward a Computationally-Informed, Personalized Treatment for Hallucinations</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Yale University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Yale University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>Yes</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Auditory hallucinations are among the most distressing aspects of psychotic illness, and
+      between 10 and 30% of people with hallucinations do not respond to antipsychotic medications.
+      The authors have used computational modeling of behavior to link brain activity to
+      development of auditory hallucinations in the hope of guiding new treatment development. The
+      proposed studies take the first step toward individualized treatment approaches to
+      hallucinations by attempting causal, pharmacological manipulation of relevant model
+      parameters underlying these phenomena.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Auditory verbal hallucinations (AVH) are present throughout the course of psychotic illness
+      and are among its most distressing symptoms. The presence of hallucinations alone increases
+      risk of suicide in patients with psychosis. While antipsychotic medications often succeed in
+      ameliorating auditory hallucinations, 10-30% of those with hallucinations exhibit little to
+      no response to these treatments. Understanding how the processes underlying auditory
+      perception might go awry to produce auditory hallucinations is a critical next step in the
+      development of new treatments that are more soundly based upon systems neuroscience and brain
+      pathophysiology.
+
+      Perceptual systems do not rely entirely upon information coming from sensory organs like the
+      retina and the cochlea. Rather, they blend this input with perceptual beliefs about the
+      sensory environment in order to produce an internal model of that environment. The authors
+      and others have proposed that hallucinations may be seen as an over-weighting of these
+      perceptual beliefs when combined with sensory evidence during perceptual inference. In this
+      work, the authors take advantage of a long history of sensory conditioning research to elicit
+      hallucinatory experiences via traditional learning mechanisms: subjects are exposed to
+      repeated pairings of visual and auditory stimuli and subsequently perceive the presence of
+      the auditory stimulus when only the visual is present. The authors applied this Conditioned
+      Hallucinations paradigm to four groups of subjects who varied orthogonally in having or not
+      having hallucinations and psychosis. The authors found that conditioned hallucinations
+      readily occur in all subjects but with markedly increased frequency in those who hallucinate
+      compared to those who do not. The authors then employed a computational approach that
+      formally models perception as a combination of prior knowledge and sensory input: the
+      Hierarchical Gaussian Filter (HGF). Results indicate that the weight prior knowledge exerts
+      during perception is significantly higher in those with hallucinations, and is related to
+      prior-related functional activity specific brain regions like the anterior insula. This
+      'prior weighting' alteration may represent a novel, personalized, and
+      computationally-informed target for the treatment of hallucinations.
+
+      Mathematically, prior weighting is the ratio of the precision of prior knowledge to the
+      precision of incoming sensory evidence exhibited by an individual during perception.
+      Therefore, it may be normalized by either decreasing the precision of prior knowledge or
+      increasing the precision of incoming sensory evidence. The precision of sensory evidence
+      appears to depend critically upon cholinergic signaling: acetylcholine increases auditory
+      discrimination abilities and biases perceptual inference toward sensory data. Antagonism at
+      central cholinergic receptors decreases sensory sensitivity and decreases reliance on
+      incoming sensory evidence during perceptual inference. Consistent with this, scopolamine, a
+      safe and reversible antagonist at the M1 cholinergic receptor used routinely for its
+      anti-emetic effects, can both cause spontaneous hallucinations and enhance conditioned
+      hallucinations. By contrast, increased cholinergic signaling ameliorates psychotic symptoms
+      in schizophrenia and Alzheimer's Disease. Physostigmine, a reversible, centrally-acting
+      cholinesterase inhibitor, has been used study the cholinergic system and has been found to
+      ameliorate hallucinations in some patients with schizophrenia.
+
+      The authors plan to characterize the effects of cholinergic agents on the perceptual,
+      computational, physiological, and clinical signatures of hallucinations in healthy
+      participants and individuals with psychosis via the following aims:
+
+      Aim 1: Characterize the effects of cholinergic antagonism on the behavioral, computational,
+      and neural signatures of conditioned hallucinations in healthy subjects. Hypotheses: 1)
+      Non-hallucinating healthy subjects will show increases in prior weighting and conditioned
+      hallucinations with scopolamine vs. saline. 2) Scopolamine-related changes in prior weighting
+      will be accompanied by increased prior-related activity in anterior insula on functional MRI
+      (fMRI).
+
+      Aim 2: Determine the effect of cholinergic potentiation on the behavioral, computational, and
+      neural signatures of conditioned hallucinations in subjects with psychosis and
+      hallucinations. Hypotheses: 1) Subjects with hallucinations and high prior weighting will
+      show decreases in prior weighting and conditioned hallucinations with physostigmine vs.
+      saline. 2) Physostigmine-related changes in prior weighting will be accompanied by lower
+      prior-related functional activity in anterior insula. 3) Subjects with hallucinations and
+      lower prior weighting will show none of these physostigmine-related changes.
+
+      In proposing these aims, the authors apply a formalized, theoretical understanding of
+      perceptual processing to probe the interplay between perceptual, computational,
+      circuit-level, and neurotransmitter-level dysfunction seen in hallucinations. This approach
+      also has the potential for an immediate clinical impact: it is the first attempt to leverage
+      the powerful tools of computational psychiatry to identify distinct patient subgroups likely
+      to respond to emerging cholinergically-mediated treatments for hallucinations.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">April 15, 2021</start_date>
+  <completion_date type="Anticipated">March 2022</completion_date>
+  <primary_completion_date type="Anticipated">March 2022</primary_completion_date>
+  <phase>Early Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <intervention_model_description>Physostigmine IV vs Placebo</intervention_model_description>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of conditioned hallucinations exhibited during saline vs placebo administration</measure>
+    <time_frame>During fMRI scans / task completion which will take approximately 90 minutes</time_frame>
+    <description>Participants will perform the Conditioned Hallucinations task while in the scanner; the authors hypothesize that number of conditioned hallucinations exhibited during the task will be higher under placebo than physostigmine, but only in those who have high prior weighting on baseline assessment.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Prior-Weighting Parameter of the Hierarchical Gaussian Filter</measure>
+    <time_frame>During fMRI scans / task completion which will take approximately 90 minutes</time_frame>
+    <description>Behavioral responses will be used to fit a parameter of the Hierarchical Gaussian Filter model corresponding to the ratio of precision of priors to precision of incoming sensory evidence.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Functional correlation with model belief trajectories</measure>
+    <time_frame>During fMRI scans / task completion which will take approximately 90 minutes</time_frame>
+    <description>Behavioral responses will be used to fit belief trajectories across the course of the experiment, and whole-brain analyses will measure correlation of brain activity with these computed trajectories.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">35</enrollment>
+  <condition>Hallucinations, Auditory</condition>
+  <condition>Psychosis</condition>
+  <arm_group>
+    <arm_group_label>Physostigmine vs Saline</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Scopolamine vs. saline</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Physostigmine Salicylate</intervention_name>
+    <description>Consistent with safety and efficacy demonstrated in prior studies, the authors propose to dose physostigmine IV at a rate of 1.5mg/hr during the two-hour treatment period, verified by blood levels. This dose is less than that typically used for treatment, and glycopyrrolate, a cholinergic antagonist that does not cross the blood-brain barrier, will be administered prior to physostigmine to block peripheral side-effects.</description>
+    <arm_group_label>Physostigmine vs Saline</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Scopolamine</intervention_name>
+    <description>The authors have chosen to use scopolamine to determine the effects of cholinergic antagonism, as treatment with scopolamine demonstrates a dose-related increase in propensity toward conditioned hallucinations and in doses much higher than those proposed here, can cause spontaneous hallucinations. At the proposed dose, scopolamine has an excellent safety profile and has been used routinely for nearly 20 years for treatment of nausea due to surgery or motion sickness in adults and children. Scopolamine is available in the US only as a 1mg / 72 hours transdermal patch, and peak plasma levels are reached within 24 hours. This standard doseage level is very well tolerated in the general population.</description>
+    <arm_group_label>Scopolamine vs. saline</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age 18-65
+
+          -  English speaking
+
+          -  Right handedness
+
+          -  Diagnosed with schizophrenia schizoaffective, schizophreniform, schizotypal, or brief
+             psychotic disorder
+
+          -  History of auditory verbal hallucinations occurring at least weekly
+
+        Exclusion Criteria:
+
+          -  Current substance dependence or active use as determined by drug test.
+
+          -  Any neurological, medical or developmental problem that is known to impair cognition
+             significantly
+
+          -  Contraindications for MR scanning including metallic implants of any kind, pacemakers
+             and history of accidents with metal, claustrophobia
+
+          -  History of seizures
+
+          -  History of violence
+
+          -  History of suicide
+
+          -  Pregnancy (determined by urine pregnancy test)
+
+          -  Concurrent participation in any other intervention study
+
+          -  History of urinary retention
+
+          -  History of delirium
+
+          -  Current use of any cholinergic or anticholinergic medication
+
+          -  History of asthma, diabetes, and cardiovascular disease
+
+          -  Evidence of cardiovascular disease on EKG
+
+          -  Individuals who have been on dopamine-2 antagonists for less than 6 months (to limit
+             risk of EPS)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Albert Powers, MD, PhD</last_name>
+    <phone>203-974-7329</phone>
+    <email>albert.powers@yale.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Brittany Quagan</last_name>
+    <email>brittany.quagan@yale.edu</email>
+  </overall_contact_backup>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>March 24, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 24, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 29, 2020</study_first_posted>
+  <last_update_submitted>June 29, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 29, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 30, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hallucinations</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Salicylates</mesh_term>
+    <mesh_term>Scopolamine</mesh_term>
+    <mesh_term>Butylscopolammonium Bromide</mesh_term>
+    <mesh_term>Physostigmine</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

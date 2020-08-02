@@ -1,0 +1,292 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04023136</url>
+  </required_header>
+  <id_info>
+    <org_study_id>APHP 190200</org_study_id>
+    <nct_id>NCT04023136</nct_id>
+  </id_info>
+  <brief_title>Liver Resection Modeling</brief_title>
+  <acronym>LRM</acronym>
+  <official_title>Haemodynamic Modeling of Intrahepatic Blood Flow and Interaction With the Systemic Circulation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Assistance Publique - Hôpitaux de Paris</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Institut National de Recherche en Informatique et en Automatique</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Assistance Publique - Hôpitaux de Paris</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Despite the medical and surgical progress of the last two decades, the selection of
+      candidates for liver surgery remains based on old principles and insufficiently sensitive to
+      fine-tune the gesture to patient-specific characteristics and make almost zero risks of
+      postoperative liver failure (PLF) and death. It is therefore necessary to develop new tools
+      that will make possible to predict the evolution of the postoperative portocaval gradient
+      (difference of pressure between portal vein and vena cava), a well-known major risk factor
+      for PLF. Hemodynamic modeling of the human liver during surgery will represent the purpose of
+      this work in order to help the clinicians in their patient's selection and anticipation of
+      postoperative risk.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Introduction:
+
+      Surgical management of liver cancers is increasingly complex, with often extensive and
+      iterative resections on pathological liver. This attitude is made possible by good selection
+      and perioperative management of patients, as well as the regenerative capacity of the liver.
+      However, even if extensive resections are routinely performed, the limit remains the risk of
+      postoperative liver failure (PLF), especially in patients with chronic liver disease. Despite
+      many known risk factors, some of which being preventable, PLF and / or postoperative
+      decompensation (ascites) remain common complications (incidence &gt; 5%) and PLF is one of the
+      leading causes of postoperative death.
+
+      The difficulty lies in the choice of a treatment adapted to the oncological needs, with the
+      balance between what is technically feasible and what will be functionally and metabolically
+      tolerated. This balance is based on a surgical evaluation, based on objective factors (liver
+      volumetry and biological tests for example) and on the surgeon's experience. This estimate is
+      imperfect, the proof being the mortality at 3 months after hepatectomy which remains high, 5
+      to 7%. Moreover, the current criteria lead to an often-inappropriate selection. It therefore
+      remains very difficult for a given patient (particularly cirrhotic) to accurately predict the
+      risk of postoperative decompensation and some patients may sometimes be undertreated for fear
+      of decompensation. In these patients, it is therefore a loss of chance.
+
+      It would be obviously possible to further improve these results and numerical tools must find
+      their place in the medico-surgical algorithm. The investigators think that hemodynamic
+      simulation could be used as a decision-making tool.
+
+      After hepatectomy, the post-resection portocaval gradient is one of the most relevant
+      reflections for understanding the hemodynamic conditions of a liver and the risk of PLF but
+      it is only available intraoperatively, after completion of the surgical procedure, and is
+      therefore not used as a tool for selecting candidates for surgery. Moreover, for a given
+      patient, it is not currently possible to anticipate the variation of portocaval gradient and
+      therefore the risk of occurrence of PLF.
+
+      The hypothesis based on experimental results in animals, consists in proposing a model of
+      intrahepatic and systemic hemodynamics pre / postoperative scale 0D, that is to say in the
+      form of simplified electrical circuit. The investigators can thus predict the evolution of
+      the portocaval gradient in order to better select patients who are candidates for liver
+      resection.
+
+      Description of Acts and Proceedings Added by Research To perform 0D modeling on human data to
+      predict evolution of post-resection hepatic/systemic flows and pressures.
+
+        -  Intraoperative flow measurement: installation of a certified CE marked (93/42EEC) and
+           certified ISO9001 / EN46001 sensor around the portal vein and / or the hepatic artery
+           during the procedure in order to estimate blood flow. Acquisition time: 5 min / patient
+           / measurement (1 pre-resection measurement, 1 post-resection measurement). No injection
+           or vascular puncture will be necessary for this acquisition. The risk of trauma is
+           almost zero (no reported cases). The probe will be sterilized between two patients.
+
+        -  MRI flow: addition of a specific acquisition sequence performed during a &quot;standard&quot; MRI
+           indicated in the preoperative assessment. No intravascular injection required, no
+           irradiation (magnetic field only). Acquisition time: about 5 minutes. MRI performed in
+           routine (unless contraindicated) to all patients operated for a hepatectomy for positive
+           assessment (tumor characterization) and tumor extension.
+
+      Potential Benefits There is no individual benefit because no clinical decision will be made
+      during this study on the findings of the specific examinations carried out. In addition, 0D
+      simulations will be performed after surgery, retrospectively.
+
+      On the other hand, there is a collective benefit expected from a positive study because the
+      surgeons will then have additional tools to develop their decisional algorithm and adapt
+      their technical gesture. Benefits = avoid cases of PLF, limit the risk of postoperative
+      death.
+
+      The foreseeable risks for patients are considered minimal because:
+
+        -  Flow measurement is a routine procedure for some teams, with no reported risk since a
+           simple probe / vessel contact is required. No vascular puncture or possible trauma.
+           Constraint: additional anesthesia duration = 5 min / measurement
+
+        -  The flow MRI has no specific risk since it is simply an &quot;extra&quot; acquisition sequence,
+           performed following the other sequences, without injection of contrast medium.
+           Constraint = MRI duration extended by approximately 5 minutes.
+
+        -  The extension of the anesthesia, due to the measurement of the flow measurement, is
+           considered as risk-free by our team of anesthesiologists because it is about surgical
+           operations lasting usually&gt; 6 hours, with a cardio-vascular monitoring and systematic
+           neurological. No specific anesthetic drugs will be administered in addition to the usual
+           operative / anesthetic practice.
+
+      Experimental plan Prognostic and prospective research (prediction of the occurrence of a
+      potentially lethal risk for the patient).
+
+      This study will be non-comparative and uncontrolled because at the actual stage of
+      development, The investigators only want to apply and transpose to the human digital tools of
+      decision support (pilot study).
+
+      Description of the statistical methods planned.
+
+      Calculation of the number of subjects needed:
+
+      This study is comparable to a phase II study. In order to evaluate the predictive reliability
+      of the portocaval gradient, it is necessary to proceed according to a Simon mini max design
+      in two stages. The feasibility hypotheses are p0 = 70%, p1 = 90%, risk α = 5%, power = 90%.
+      In the first stage, 18 patients will be included and analyzed. If the reliability (portocaval
+      gradient predicted with a margin of error +/- 4 mmHg) is not objectified in at least 13
+      patients, the recruitment will be stopped and The investigators will rework the algorithm in
+      depth, for example by modifying the input data (= clinical-biological parameters introduced
+      in the model). The investigators will test the new version of the model on the same 18 first
+      patients until validation in at least 13 patients.
+
+      If ≥13 patients have a reliable prediction, then 14 additional patients will be recruited.
+      The total number will be 32 patients. To be considered potentially interesting, at least 26
+      patients will have to have a reliable prediction at +/- 4 mmHg &quot;.
+
+      All statistical analyzes will be performed with STATA version 15.1 software (StataCorp LLC,
+      TX, USA). A statistical analysis plan will be drafted and finalized before closure of the
+      study that is to say the freezing of the base. The Statistical Analysis Plan will provide all
+      detailed analyzes of the primary and secondary endpoints.
+
+      All statistical tests will be bilateral with a risk of the first species at 5%.
+
+      Raw analysis:
+
+      The raw analysis will be intent-to-treat analysis including recruited patients.
+
+      Methods planned for the analysis:
+
+      Main analysis:
+
+      Analysis of the primary endpoint will be made by intent to treat. The reliability analysis
+      will be performed by a Chi 2 or Fisher exact test if the number is less than 5. No adjustment
+      will be made.
+
+      Secondary analysis:
+
+      Secondary analyses will be performed in the intent-to-treat population. The binary criteria
+      will be analyzed by a Chi 2 or Fisher exact test if the number is less than 5, the
+      quantitative criteria by a paired t test.
+
+      Methods of analysis of missing data:
+
+      No analysis is planned for missing data Quantitative data will be expressed on average (+/-
+      SD). A Mann-Whitney test will be used for continuous data and a Chi-2 (or Fisher if
+      applicable) test for categorical data.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">July 15, 2019</start_date>
+  <completion_date type="Anticipated">May 15, 2020</completion_date>
+  <primary_completion_date type="Anticipated">May 15, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Estimation of the intraoperative portocaval post-hepatectomy gradient This pressure differential is performed before the parietal closure, after resection. We consider that the simulation is accurate if the difference with the measurement is ≤ 4 mmHg.</measure>
+    <time_frame>prtocaval gradient (difference between portal pressure and caval pressure assessend during surgery.</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Prediction of changes in cardiac output, hepatic artery and portal vein after hepatectomy.</measure>
+    <time_frame>Measures perormed during surgery</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Prediction of changes in hepatic artery flow</measure>
+    <time_frame>Measures perormed during surgery</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Prediction of changes in portal vein flow</measure>
+    <time_frame>Measures perormed during surgery</time_frame>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">55</enrollment>
+  <condition>Benign Liver Tumor</condition>
+  <condition>Malignant Tumor Liver</condition>
+  <condition>Cirrhosis</condition>
+  <arm_group>
+    <arm_group_label>only one arm (resected patients)</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>liver resection group</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>partial hepatectomy by laparotomy on healthy or pathologic parenchyma.</intervention_name>
+    <description>Preoperative flow and MRI + intraoperative measures of flow and pressures</description>
+    <arm_group_label>only one arm (resected patients)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adults ≥18 years old informed and consenting.
+
+          -  Partial hepatectomy by laparotomy (open approach).
+
+          -  Access to intraoperative measurements of vascular pressures and flow rates.
+
+          -  Major patients (age≥18 years)
+
+          -  Hepatic pathology requiring minor or major hepatectomy by laparotomy
+
+          -  Affiliation to a social security scheme
+
+          -  Written consent to participate in this research
+
+        Exclusion Criteria:
+
+          -  Pregnant or breastfeeding women,
+
+          -  Patient under guardianship or curatorship
+
+          -  Refusal to participate in the study
+
+          -  Contraindication to performing MRI.
+
+          -  Patient already included in an interventional study
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Golse Nicolas, M.D</last_name>
+    <phone>06 71 28 24 03</phone>
+    <email>nicolasgolse@me.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Vibert Eric, M.D</last_name>
+    <phone>06 60 64 96 97</phone>
+    <email>eric.vebert.pbr@gmail.com</email>
+  </overall_contact_backup>
+  <verification_date>June 2019</verification_date>
+  <study_first_submitted>July 1, 2019</study_first_submitted>
+  <study_first_submitted_qc>July 15, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 17, 2019</study_first_posted>
+  <last_update_submitted>July 15, 2019</last_update_submitted>
+  <last_update_submitted_qc>July 15, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 17, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Liver Neoplasms</mesh_term>
+    <mesh_term>Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

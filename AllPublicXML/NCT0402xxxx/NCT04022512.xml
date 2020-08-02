@@ -1,0 +1,198 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04022512</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NTEC-2019-0445</org_study_id>
+    <nct_id>NCT04022512</nct_id>
+  </id_info>
+  <brief_title>Accuracy of Deep-learning Algorithm for Detection and Risk Stratification of Lung Nodules</brief_title>
+  <official_title>Feasibility Study: Accuracy and Sensitivity of Deep-learning Artificial Intelligence (AI) Algorithm for Detection and Risk Stratification of Lung Nodules in Osteogenic Sarcoma Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Chinese University of Hong Kong</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>IBM China/Hong Kong Limited</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Chinese University of Hong Kong</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Osteosarcoma is regarded as most common malignant bone tumor in children and adolescents.
+      Approximately 15% to 20% of patients with osteosarcoma present with detectable metastatic
+      disease, and the majority of whom (85%) have pulmonary lesions as the sole site of
+      metastasis. Previous studies have shown that the overall survival rate among patients with
+      localized osteosarcoma without metastatic disease is approximately 60% to 70% whereas
+      survival rate reduces to 10% to 30% in patients with metastatic disease. Though lately,
+      neoadjuvant and adjuvant chemotherapeutic regimens can decline the mortality rate, 30% to 50%
+      of patients still die of pulmonary metastases. Number, distribution and timing of lung
+      metastases are of prognostic value for survival and hence computed tomography (CT) thorax
+      imaging still plays a vital role in disease surveillance. In the last decade, the technology
+      of multidetector CT scanner has enhanced the detection of numerous smaller lung lesions,
+      which on one hand can increase the diagnostic sensitivity for lung metastasis, however, the
+      specificity may be reduced. In recent years, deep-learning artificial intelligence (AI)
+      algorithm in a wide variety of imaging examinations is a hot topic. Currently, an increasing
+      number of Computer-Aided Diagnosis (CAD) systems based on deep learning technologies aiming
+      for faster screening and correct interpretation of pulmonary nodules have been rapidly
+      developed and introduced into the market. So far, the researches concentrating on the
+      improving the accuracy of benign/malignant nodule classification have made substantial
+      progress, inspired by tremendous advancement of deep learning techniques. Consequently, the
+      majority of the existing CAD systems can perform pulmonary nodule classification with
+      accuracy of 90% above. In clinical practice, not only the malignancy determination for
+      pulmonary nodule, but also the distinction between primary carcinoma and intrapulmonary
+      metastasis is crucial for patient management. However, most existing classification of
+      pulmonary nodule applied in CAD system remains to be binary pattern (benign Vs malignant), in
+      the lack of more thorough nodule classification characterized with splitting of primary and
+      metastatic nodule. To the best of our knowledge, only a few studies have focuses on the
+      performance of deep learning-based CAD system for identifying metastatic pulmonary nodule
+      till now. In this proposed study, the investigators sought to determine the accuracy and
+      sensitivity of one computer-aided system based on deep-learning artificial intelligence
+      algorithm for detection and risk stratification of lung nodules in osteogenic sarcoma
+      patients.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">November 6, 2019</start_date>
+  <completion_date type="Anticipated">January 2023</completion_date>
+  <primary_completion_date type="Anticipated">August 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>accuracy</measure>
+    <time_frame>3 years</time_frame>
+    <description>proportion of true results(both true positives and true negatives) among whole instances</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>sensitivity</measure>
+    <time_frame>3 years</time_frame>
+    <description>true positive rate in percentage(%) derived by ROC analysis</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>specificity</measure>
+    <time_frame>3 years</time_frame>
+    <description>true negative rate in percentage (%) derived by ROC analysis</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>area under curve (AUC)</measure>
+    <time_frame>3 years</time_frame>
+    <description>area under ROC curve in percentage (%)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>average number of false positives per scan (FPs/scan)</measure>
+    <time_frame>3 years</time_frame>
+    <description>FPs/scan in number (N) based on free-response receiver operating characteristic (FROC) analysis</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>competition performance metric (CPM)</measure>
+    <time_frame>3 years</time_frame>
+    <description>Competitive performance metric (CPM) is a criterion used for CAD system evaluation. Based on FROC paradigm, CPM score is computed as an average sensitivity at seven predefined average false positive rates. CPM score ranges from 0 to 1, with higher CPM score indicating better CAD performance.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">120</enrollment>
+  <condition>Osteogenic Sarcoma</condition>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>computed tomography</intervention_name>
+    <description>thoracic CT examinations for pre-treatment staging and/or subsequent post-treatment follow-up.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        This is a single institutional retrospective cohort study of patients diagnosed with
+        osteogenic sarcoma between the year 2000 and 2018. All patients' data will be retrieved via
+        the electronic patient database of our institution. Patient demographics, imaging and
+        histological data, disease and treatment history will be recorded, including age at onset,
+        details of chemotherapy, time interval of pulmonary metastasis from diagnosis, surgery for
+        the primary bony tumor, subsequent pulmonary metastatectomy if performed, the length of
+        survival, clinical outcome and so on.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients with histologically confirmed osteogenic sarcoma
+
+          -  With an age younger than 18 years old.
+
+          -  Patients who underwent thin-section thoracic CT examinations for pre-treatment staging
+             and/or subsequent post-treatment follow-up.
+
+          -  With suspicious lung nodules detected on thoracic CT images.
+
+        Exclusion Criteria:
+
+          -  Patients with concurring lesions that may influence analysis of lung nodules.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>18 Years</maximum_age>
+  </eligibility>
+  <location>
+    <facility>
+      <name>The Chinese University of Hong Kong, Prince of Wale Hospital</name>
+      <address>
+        <city>Hong Kong</city>
+        <state>Shatin</state>
+        <country>Hong Kong</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Winnie C Chu, MD</last_name>
+      <phone>(852) 3505 2299</phone>
+      <email>winniechu@cuhk.edu.hk</email>
+    </contact>
+    <investigator>
+      <last_name>Winnie C Chu, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Hong Kong</country>
+  </location_countries>
+  <verification_date>July 2019</verification_date>
+  <study_first_submitted>July 15, 2019</study_first_submitted>
+  <study_first_submitted_qc>July 15, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 17, 2019</study_first_posted>
+  <last_update_submitted>November 5, 2019</last_update_submitted>
+  <last_update_submitted_qc>November 5, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 7, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Chinese University of Hong Kong</investigator_affiliation>
+    <investigator_full_name>Professor Winnie W.C. Chu</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>Lung nodules</keyword>
+  <keyword>Deep learning</keyword>
+  <keyword>Artificial intelligence</keyword>
+  <keyword>Computer-aided diagnosis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sarcoma</mesh_term>
+    <mesh_term>Osteosarcoma</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

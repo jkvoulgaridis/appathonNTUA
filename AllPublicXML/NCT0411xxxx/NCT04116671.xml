@@ -1,0 +1,479 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04116671</url>
+  </required_header>
+  <id_info>
+    <org_study_id>A3056-R</org_study_id>
+    <nct_id>NCT04116671</nct_id>
+  </id_info>
+  <brief_title>Stimulation Combined With Powered Motorized Orthoses for Walking After Stroke</brief_title>
+  <official_title>Stimulation Combined With Externally Powered Motorized Orthoses for Stroke</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>VA Office of Research and Development</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>VA Office of Research and Development</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Objective: The goal of this study is to implement and test a neuro-mechanical gait assist
+      (NMGA) device to correct walking characterized by muscle weakness, incoordination or
+      excessive tone in Veterans with hemiparesis after stroke that adversely affects their ability
+      to walk, exercise, perform activities of daily living, and participate fully in personal,
+      professional and social roles.
+
+      Research Plan: A prototype NMGA device will be used to develop a finite state controller
+      (FSC) to coordinate each user's volitional effort with surface muscle stimulation and
+      motorized knee assistance as needed. Brace mounted sensors will be used to develop a gait
+      event detector (GED) which will serve the FSC to advance through the phases of gait or stair
+      climbing. In addition, a rule-base intent detection algorithm will be developed using brace
+      mounted sensors and user interface input to select among various functions including walking,
+      stairs climbing, sit-to-stand and stand-to-sit maneuvers. The FSC controller tuning and
+      intent algorithm development and evaluation will be on pilot subjects with difficulty walking
+      after stroke. Outcome measures during development will provide specifications for a new
+      prototype NMGA design which will be evaluated on pilot subjects to test the hypothesis that
+      the NMGA improves walking speed, distance and energy consumption of walking. These baseline
+      data and device will be used to design a follow-up clinical trial to measure orthotic impact
+      of NMGA on mobility in activities of daily living at home and community.
+
+      Methodology: After meeting inclusion criteria, pilot subjects will undergo baseline gait
+      evaluation with EMG activities of knee flexors and extensors, ankle plantar and dorsiflexors
+      and isokinetic knee strength and passive resistance. They will be fitted with a NMGA
+      combining a knee-ankle-foot-orthosis with a motorized knee joint and surface neuromuscular
+      stimulation of plantar- and dorsi- flexors, vasti and rectus femoris. Brace mounted sensor
+      data will be used for gait event detector (GED) algorithm development and evaluation. The GED
+      will serve the FSC to proceed through phases of gait based on supervisory rule-based user
+      intent recognition algorithm detected by brace mounted sensors and user input interface. The
+      FSC will coordinate feed-forward control of tuned stimulation patterns and closed-loop
+      controlled knee power assist as needed to control foot clearance during swing and stability
+      of the knee during stance. Based on data attained during controller development and
+      evaluation, a new prototype NMGA will be design, constructed and evaluated on pilot subjects
+      to test the hypothesis that a NMGA device improves safety and stability, increases walking
+      speed and distance and minimizes user effort.
+
+      Clinical Significance: The anticipated outcome is improved gait stability with improved swing
+      knee flexion, thus, increasing the safety and preventing injurious falls of ambulatory
+      individuals with hemiplegia due to stroke found in large and ever-increasing numbers in the
+      aging Veteran population. Correcting gait should lead to improved quality of life and
+      participation.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study includes controller development and feasibility testing for a hybrid neuromuscular
+      gait assist (NMGA) system to enhance walking after stroke. The study consists of baseline
+      testing, fitting the device on participants, tuning assistance parameters to enhance walking,
+      collecting movement data with and without the device, modifying controller designs to
+      optimize walking, sit-to-stand transitions, and stair climbing, gait training, and evaluating
+      movement capability with and without device assistance. Heart rate and blood pressure will be
+      monitored during each session.
+
+      Device Description The NMGA is comprised of a motorized knee brace and surface electrical
+      stimulation applied to muscles acting across the hip, knee, and ankle. The device is worn on
+      the impaired side of the body with an orthotic interface attaching it to the leg. The goal of
+      combining the powered knee with stimulation is to improve leg movement and coordination for
+      safer walking at reduced user effort. The powered exoskeletal knee ensures adequate toe
+      clearance during the swing phase of gait by generating knee flexion and then prevents knee
+      buckling during the stance phase of gait by maintaining extension for support. Surface muscle
+      stimulation assists with user volitional effort. Stimulation applied to ankle dorsiflexors
+      assists with toe clearance during swing while quadriceps stimulation assists with stance.
+      Gastrocnemius and rectus femoris stimulation assist with push-off and swing to improve
+      walking speed.
+
+      This study focuses on developing and testing control methods that integrate assistance of
+      stimulation and the powered knee with volitional activity in a manner that maximizes the
+      user's own muscle contribution. Orthosis mounted sensors measure motion, joint angles,
+      interaction forces and foot-floor contact to determine the current phase of gait and
+      assistance required. A Gait Event Detector (GED) determines the phase of gait and appropriate
+      control state based on sensor data and then a Finite State Controller (FSC) optimizes
+      stimulation and motor assistance in coordination with volitional effort. The controller
+      design incorporates feedforward control of stimulation with stimulation triggered by
+      detection of different gait events. Feedback control is applied for motor assistance only as
+      needed. This study will evaluate different algorithms to detect different phases of gait.
+      Controller refinement is an iterative process of testing different algorithms, adjusting
+      detection parameters, and adjusting assistance parameters.
+
+      In addition to detecting phases of gait during walking, this study will also develop
+      algorithms to detect user intent for mobility task transitions. Beyond overground walking,
+      mobility includes transitions between sitting and standing as well as stair climbing.
+      Depending on command signal robustness, these transitions could be achieved through separate
+      inputs (e.g. a smart phone app or orthosis mounted buttons) to inform the device when to
+      change task states or may be detectable based on the user's motions. As part of this study
+      the investigators will test different approaches to determine the safest effective option and
+      user preferences.
+
+      The following describes the participation involved in this development process.
+
+      Screening After signing the informed consent form the subject will undergo screening to
+      determine if an individual is eligible to participate in the study based on the
+      inclusion/exclusion criteria. During screening the investigators will also collect
+      information about stroke demographics (e.g. date of stroke, type of stroke, lesion location,
+      side of impairment), medications, and leg and foot size to ensure the investigators have
+      appropriately sized orthotic components during subsequent sessions.
+
+      Baseline testing After meeting all inclusion/exclusion criteria and agreeing to participate,
+      initial testing will determine participants' impairment level and walking ability prior to
+      controller development and training with the device. Walking tests will be completed in the
+      laboratory, hospital hallways, and the environment surrounding the hospital. Outcomes will
+      measure impairment in the legs, walking ability, and participants perceptions of the device
+      and the effect on walking.
+
+      NMGA Fitting and Tuning The study team will work with the participant to fit the device and
+      determine appropriate stimulation patterns to assist walking. Fitting includes choosing
+      orthotic components that fit well on the wearer's leg and allow comfortable walking.
+      Stimulation patterns will be generated for each individual. Electrodes will target movement
+      at the hip, knee, and ankle on the affected side. During stimulation tuning the investigators
+      will adjust surface stimulation electrode locations as well as stimulus timing and intensity
+      during the gait cycle. Orthotic fitting and stimulation pattern creation are expected to take
+      about two sessions. Assessments may be repeated with surface stimulation assistance.
+
+      Controller Development During several sessions, the participant will complete mobility tasks
+      (i.e. walking, stair climbing, and sit-to-stand transitions) while walking with the NMGA and
+      recording data to characterize walking (Quantitative Motion Analysis data and orthosis
+      mounted sensor data). These data will be used to create and optimize the controller to
+      estimate phases of gaits (e.g. initial contact, pre-swing, mid-swing) based on exoskeleton
+      mounted sensors to coordinate NMGA assistance with walking ability. Participants will
+      complete tasks while different algorithms control transitions between tasks (e.g. walking to
+      stair climbing) and assistance during task completion. Controller parameters will be adjusted
+      during this process to optimize assistance and determine which task transitions the sensors
+      successfully detect and which transitions should be controlled by a separate user input.
+      Contact guard assistance will be provided to prevent falls during controller development.
+      During this process participants will be interviewed in an open discussion format to get
+      feedback about aspects of the device that could be improved. Up to 16 sessions will be used
+      for controller development.
+
+      Gait Training After determining a control algorithm, there will be six sessions of training
+      to use the device for walking, stair climbing, and sit-to-stand transitions as appropriate.
+      Gait training will be conducted by the study physical therapist in the gait laboratory,
+      hospital hallways, and surrounding outdoor spaces. The physical therapist will provide
+      standby assistance, monitor subjects' vital signs, record their progress and solicit feedback
+      on the use of the NMGA. Training will focus on increasing walking speed while maintaining
+      safety, specifically toe clearance in swing, stability in stance, and situational awareness
+      to the surrounding environment. Participants will provide feedback about when during the
+      process they feel comfortable donning, doffing, and using the device without study staff
+      assistance. The study physical therapist will also provide input about when participants are
+      capable of using the system independently.
+
+      Post-Training Assessment Following training with the NMGA, the previously described
+      assessments (see Baseline Testing) will be repeated both with and without the device to test
+      the hypothesis that walking with the NMGA compared to without enhances walking speed,
+      endurance, metabolic consumption, and gait symmetry. In addition to the tests at baseline,
+      participants will complete the Quebec User Evaluation of Satisfaction with Assistive
+      Technology (QUEST), a survey to assess user satisfaction with a device. Additionally, each
+      participant will fill out a worksheet prioritizing different design requirements (e.g. size,
+      weight, ease of use). Up to six sessions will be used for final testing.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 1, 2020</start_date>
+  <completion_date type="Anticipated">February 29, 2024</completion_date>
+  <primary_completion_date type="Anticipated">February 29, 2024</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Participants are contributing to the development of a hybrid device combining surface muscle stimulation and a powered knee orthosis to assist walking after stroke. There is a single group of individuals participating in controller development and then pilot testing of the device to determine both the effect of training with the device and the impact of the device on walking ability.</intervention_model_description>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Controller accuracy</measure>
+    <time_frame>up to one year</time_frame>
+    <description>The accuracy of the controller (True/False positives and negatives) in detecting gait events and gait transitions.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>10m walk test</measure>
+    <time_frame>At baseline</time_frame>
+    <description>The time required to walk 10m is measured to calculate walking speed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Quantitative motion analysis - kinematics</measure>
+    <time_frame>At baseline</time_frame>
+    <description>Participants complete mobility tasks in the laboratory (walking, stair ascent and descent, and sit-to-stand transitions). Body-worn and floor mounted sensors measure kinematics (i.e. motion).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>6 minute timed walk</measure>
+    <time_frame>At baseline</time_frame>
+    <description>The distance measured in 6 minutes of walking is measured.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Oxygen consumption</measure>
+    <time_frame>At baseline</time_frame>
+    <description>Participants wear a face mask that measures oxygen consumption while they walk to determine the metabolic load of walking.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Timed up and go test</measure>
+    <time_frame>At baseline</time_frame>
+    <description>This test of agility measures the time required to stand, walk a set distance, turn around, walk back, and sit down again.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Manual Muscle Test</measure>
+    <time_frame>At baseline</time_frame>
+    <description>This test measures volitional strength at each joint (e.g. knee extension). A score is given based on the amount of movement at a joint and the resistance that can be applied. Scores for each movement range from 0 to 5. 0 is no muscle activation and 5 is normal strength.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Modified Ashworth scale</measure>
+    <time_frame>At baseline</time_frame>
+    <description>This test measures spasticity. The joint is passively moved through its range of motion to determine muscle tightness in response to stretch. Scores range from 0 to 5. 0 is no increase in muscle tone while 5 indicates the joint is rigid.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Fugl-Meyer Motor Assessment</measure>
+    <time_frame>At baseline</time_frame>
+    <description>This test measures coordination in combination with strength and spasticity. Individuals complete a series of movement and are scored based on their ability to complete each task. Scores range from 0 to 34. 0 indicates the worst possible movement and 34 indicates normal movement.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Instrumented impairment measures - joint stiffness</measure>
+    <time_frame>At baseline</time_frame>
+    <description>These tests will be completed on a Biodex system. Participants will be seated with their leg attached to a force measurement device. The individual will remain relaxed while the device moves the joint through its range of motion.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Instrumented impairment measures - strength</measure>
+    <time_frame>At baseline</time_frame>
+    <description>These tests will be completed on a Biodex system. Participants will be seated with their leg attached to a force measurement device. The individual will push with their leg to generate movement through a range of motion at different speeds (isokinetic test).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Quantitative motion analysis - kinetics</measure>
+    <time_frame>At baseline</time_frame>
+    <description>Participants complete mobility tasks in the laboratory (walking, stair ascent and descent, and sit-to-stand transitions). Body-worn and floor mounted sensors measure kinetics (i.e. joint torques).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Quantitative motion analysis - electromyograms</measure>
+    <time_frame>At baseline</time_frame>
+    <description>Participants complete mobility tasks in the laboratory (walking, stair ascent and descent, and sit-to-stand transitions). Body-worn sensors measure electromyograms (i.e. muscle activity).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>10m walk test</measure>
+    <time_frame>up to one year after baseline</time_frame>
+    <description>The time required to walk 10m is measured to calculate walking speed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>6 minute timed walk</measure>
+    <time_frame>up to one year after baseline</time_frame>
+    <description>The distance measured in 6 minutes of walking is measured.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Timed up and go test</measure>
+    <time_frame>up to one year after baseline</time_frame>
+    <description>This test of agility measures the time required to stand, walk a set distance, turn around, walk back, and sit down again.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Quantitative motion analysis - kinematics</measure>
+    <time_frame>up to one year after baseline</time_frame>
+    <description>Participants complete mobility tasks in the laboratory (walking, stair ascent and descent, and sit-to-stand transitions). Body-worn and floor mounted sensors measure kinematics (i.e. motion).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Oxygen consumption</measure>
+    <time_frame>up to one year after baseline</time_frame>
+    <description>Participants wear a face mask that measures oxygen consumption while they walk to determine the metabolic load of walking.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Manual Muscle Test</measure>
+    <time_frame>up to one year after baseline</time_frame>
+    <description>This test measures volitional strength at each joint (e.g. knee extension). A score is given based on the amount of movement at a joint and the resistance that can be applied. Scores for each movement range from 0 to 5. 0 is no muscle activation and 5 is normal strength.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Modified Ashworth scale</measure>
+    <time_frame>up to one year after baseline</time_frame>
+    <description>This test measures spasticity. The joint is passively moved through its range of motion to determine muscle tightness in response to stretch. Scores range from 0 to 5. 0 is no increase in muscle tone while 5 indicates the joint is rigid.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Fugl-Meyer Motor Assessment</measure>
+    <time_frame>up to one year after baseline</time_frame>
+    <description>This test measures coordination in combination with strength and spasticity. Individuals complete a series of movement and are scored based on their ability to complete each task. Scores range from 0 to 34. 0 indicates the worst possible movement and 34 indicates normal movement.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Instrumented impairment measures - joint stiffness</measure>
+    <time_frame>up to one year after baseline</time_frame>
+    <description>These tests will be completed on a Biodex system. Participants will be seated with their leg attached to a force measurement device. The individual will remain relaxed while the device moves the joint through its range of motion.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Instrumented impairment measures - strength</measure>
+    <time_frame>up to one year after baseline</time_frame>
+    <description>These tests will be completed on a Biodex system. Participants will be seated with their leg attached to a force measurement device. The individual will push with their leg to generate movement through a range of motion at different speeds (isokinetic test).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Quantitative motion analysis - kinetics</measure>
+    <time_frame>up to one year after baseline</time_frame>
+    <description>Participants complete mobility tasks in the laboratory (walking, stair ascent and descent, and sit-to-stand transitions). Body-worn and floor mounted sensors measure kinetics (i.e. joint torques).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Quantitative motion analysis - electromyograms</measure>
+    <time_frame>up to one year after baseline</time_frame>
+    <description>Participants complete mobility tasks in the laboratory (walking, stair ascent and descent, and sit-to-stand transitions). Body-worn sensors measure electromyograms (i.e. muscle activity).</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">10</enrollment>
+  <condition>Stroke</condition>
+  <condition>Hemiparesis</condition>
+  <arm_group>
+    <arm_group_label>Neuromechanical Gait Assist</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>All participants will participate in developing controllers to coordinate device assistance with walking ability. Walking will be compared before gait training and after gait training. Walking will be evaluated both with and without device assistance.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Neuromechanical Gait Assist</intervention_name>
+    <description>A hybrid powered knee orthosis combined with surface muscle stimulation to assist walking.</description>
+    <arm_group_label>Neuromechanical Gait Assist</arm_group_label>
+    <other_name>NMGA</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  More than 6 months post stroke.
+
+          -  Stiff-legged gait defined as a gait pattern manifesting as &quot;dragging&quot; or &quot;catching&quot; of
+             the affected toes during swing phase of gait or use of compensatory strategies such as
+             circumducting the affected limb, vaulting with the unaffected limb or hiking the
+             affected hip.
+
+          -  Sufficient endurance and motor ability to ambulate at least 10ft continuously with
+             standby assist.
+
+          -  Weakness at the hip, knee and ankle.
+
+          -  Poor lower extremity coordination due to weakness or tone.
+
+          -  Hip extension range to neutral.
+
+          -  Hip flexion range greater or equal to 90 degrees.
+
+          -  Passive range of ankle dorsiflexion to neutral with knee extended.
+
+          -  Sufficient upper extremity function to use a cane.
+
+        Exclusion Criteria:
+
+          -  Severe knee extensor tone requiring &gt;25Nm of torque to flex the knee.
+
+          -  Ankle contractures of more than 0 degrees of plantar flexion and hip contractures of
+             greater than 0 degrees of hip flexion.
+
+          -  Inability to grasp with both hands.
+
+          -  History of potentially fatal cardiac arrhythmias such as ventricular tachycardia,
+             supra-ventricular tachycardia, and rapid ventricular response atrial fibrillation with
+             hemodynamic instability.
+
+          -  Presence of a demand pacemaker.
+
+          -  Parkinson's Disease.
+
+          -  Edema of the affected limb.
+
+          -  Active pressure ulcers or wounds in lower extremities.
+
+          -  Sepsis or active infection.
+
+          -  Severe osteoporosis.
+
+          -  Uncontrolled seizures.
+
+          -  Presence of substance abuse.
+
+          -  Severely impaired cognition and communication.
+
+          -  Uncompensated hemineglect.
+
+          -  Pregnancy.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ronald Triolo, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Louis Stokes VA Medical Center, Cleveland, OH</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Lisa M Lombardo, MPT</last_name>
+    <phone>(216) 791-3800</phone>
+    <phone_ext>4909</phone_ext>
+    <email>Lisa.Lombardo2@va.gov</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Nathaniel S Makowski, PhD</last_name>
+    <phone>(216) 791-3800</phone>
+    <phone_ext>63135</phone_ext>
+    <email>nathaniel.makowski@va.gov</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Louis Stokes VA Medical Center, Cleveland, OH</name>
+      <address>
+        <city>Cleveland</city>
+        <state>Ohio</state>
+        <zip>44106</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Lisa M Lombardo, MPT</last_name>
+      <phone>216-791-3800</phone>
+      <phone_ext>4909</phone_ext>
+      <email>Lisa.Lombardo2@va.gov</email>
+    </contact>
+    <contact_backup>
+      <last_name>Nathaniel S Makowski, PhD</last_name>
+      <phone>(216) 791-3800</phone>
+      <phone_ext>63135</phone_ext>
+      <email>nathaniel.makowski@va.gov</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Ronald Triolo, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Rudolf Kobetic, MS</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>October 2, 2019</study_first_submitted>
+  <study_first_submitted_qc>October 3, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 4, 2019</study_first_posted>
+  <last_update_submitted>April 3, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 3, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 7, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>neuromuscular electrical stimulation</keyword>
+  <keyword>stroke</keyword>
+  <keyword>hemiparesis</keyword>
+  <keyword>walking</keyword>
+  <keyword>powered orthosis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stroke</mesh_term>
+    <mesh_term>Paresis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>De-identified data will be provided upon written request or as part of a journal publication. No personal identifiers or participant codes will be shared.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

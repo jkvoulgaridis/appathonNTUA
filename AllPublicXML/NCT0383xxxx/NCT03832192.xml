@@ -1,0 +1,213 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03832192</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1R44NR017842-02</org_study_id>
+    <nct_id>NCT03832192</nct_id>
+  </id_info>
+  <brief_title>Care.Coach Avatars for Improvement of Outcomes in Hospitalized Elders, Including Mitigation of Falls and Delirium: a Multi-Site Clinical Study</brief_title>
+  <acronym>AvatarHELP</acronym>
+  <official_title>Care.Coach Avatars for Improvement of Outcomes in Hospitalized Elders, Including Mitigation of Falls and Delirium, Through Psychosocial Support and Protocol-Driven Interventions Based on the Hospital Elder Life Program: a Multi-Site Clinical Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Victor Wang</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Nursing Research (NINR)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Pace University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>care.coach corporation</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Through NINR project 1R44NR017842-01 which preceded the present study, the investigators
+      enhanced the care.coach avatar platform to incorporate a robust suite of evidence-based
+      protocols based on the Hospital Elder Life Program (HELP), and to leverage an integration
+      with hospital-based electronic medical record (EMR) systems. In the present study, the
+      investigators seek to validate the efficacy of the new avatar platform, as measured by
+      reduction in falls, delirium, and patient sitter utilization. Also, the investigators seek to
+      gather patient and outcomes data at a scale sufficient to begin developing machine learning
+      algorithms for intelligent, automatic assignment of protocols to maximize patient engagement
+      and clinical efficacy, and for intelligent, automatic screening of delirium to assist care
+      teams in positive identification of delirium. Therefore, the present study comprises a
+      two-year randomized between-groups comparison across multiple hospitals to compare outcomes
+      with the new generation of care.coach avatars as the intervention versus usual care only as
+      the control. Each study group will be geographically distributed across participating
+      research sites: initially MediSys Health Network's Jamaica Hospital Medical Center in New
+      York, with additional hospitals to join the study over the course of two years.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 8, 2019</start_date>
+  <completion_date type="Anticipated">January 7, 2021</completion_date>
+  <primary_completion_date type="Anticipated">January 7, 2021</primary_completion_date>
+  <phase>Phase 2/Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Incident Delirium</measure>
+    <time_frame>Through study completion, an average of 4 days</time_frame>
+    <description>For each patient without prevalent delirium (each patient who screens negative per the Confusion Assessment Method [CAM] upon study enrollment, which is assumed to be within 24 hours of admission to the hospital unit), Incident Delirium is indicated by any positive CAM screen during the patient's study enrollment period, with CAM screens being performed at least daily (the final CAM screen is assumed to be within 24 hours of discharge from the hospital unit). Incident Delirium is thus a binary variable (true/false) for each patient, and the rate of Incident Delirium will be compared across study groups, with a lower rate being desirable.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Falls</measure>
+    <time_frame>Through study completion, an average of 4 days</time_frame>
+    <description>For each patient, the number of falls that the patient had on each day will be recorded (with and without injury). Falls rate will then be calculated as the number of falls per 1,000 patient-days, to be statistically compared across study groups, with a lower rate being desirable.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Delirium Resolution</measure>
+    <time_frame>Through study completion, an average of 4 days</time_frame>
+    <description>For each patient with prevalent delirium (each patient who screens positive per the Confusion Assessment Method [CAM] upon study enrollment, which is assumed to be within 24 hours of admission to the hospital unit), delirium will be considered resolved if the patient's final CAM screen (which is assumed to be within 24 hours prior to discharge from the hospital unit) indicates no delirium. Delirium Resolution is thus a binary variable (true/false) for each patient, and the rate of successful Delirium Resolution will be compared across study groups, with a higher rate being desirable.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in Delirium Severity</measure>
+    <time_frame>Through study completion, an average of 4 days</time_frame>
+    <description>For each patient with prevalent delirium (each patient who screens positive per the Confusion Assessment Method [CAM] upon study enrollment, which is assumed to be within 24 hours of admission to the hospital unit), the Memorial Delirium Assessment Scale (MDAS) is used to measure delirium severity (0-30, with higher scores indicating more severe delirium) upon study enrollment. For each patient with prevalent delirium and who still screens positive for delirium upon study dis-enrollment (which is assumed to be within 24 hours prior to discharge from the hospital unit), the MDAS is repeated during the study dis-enrollment process. Change in Delirium Severity is the difference from the enrollment MDAS score to the dis-enrollment MDAS score. Change in Delirium Severity will be compared across study groups, with a larger negative change being desirable.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Sitter Utilization</measure>
+    <time_frame>Through study completion, an average of 4 days</time_frame>
+    <description>For each patient that did not have a patient sitter upon study enrollment, Patient Sitter Utilization is a binary variable (true/false) that indicates whether a patient sitter or &quot;1-to-1&quot; staff member was assigned to the patient during the patient's study enrollment period. Rate of Patient Sitter Utilization will be compared across study groups, with a lower rate being desirable.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in Cognitive Function</measure>
+    <time_frame>Through study completion, an average of 4 days</time_frame>
+    <description>For each patient, the Short Portable Mental Status Questionnaire (SPMSQ) is administered to measure cognitive function (0-10 errors, more errors indicating greater cognitive impairment) upon enrollment and upon dis-enrollment from the study. Change in Cognitive Function is the difference from the enrollment SPMSQ score to the dis-enrollment SPMSQ score. Change in Cognitive Function will be compared across study groups, with a larger positive change being desirable.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Falls with Injury</measure>
+    <time_frame>Through study completion, an average of 4 days</time_frame>
+    <description>For each patient, the number of falls with injury that the patient had on each day will be recorded. Fall injury rate will then be calculated as the number of falls with injury per 1,000 patient-days, to be statistically compared across study groups, with a lower rate being desirable.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Unit Fall Rate</measure>
+    <time_frame>Quarterly (3 calendar months), for 2 years</time_frame>
+    <description>Unit Fall Rate is measured by falls per 1000 patient-days as reported for each hospital unit. Unlike other patient-level outcome measures that benefit from the randomization of patients to control vs. intervention groups, for practical reasons associated with the availability of falls information, fall rate will be measured at the hospital unit level, based on quality improvement data reported by each hospital unit on a quarterly basis. Each hospital unit will be designated at the start of each full calendar quarter to either not enroll any patients into the study, or to actively enroll patients per randomization protocol, for the duration of the calendar quarter. Therefore, the effect of actively enrolling patients into the study will be compared across units that are actively vs. not actively enrolling patients during the same calendar quarters, as well as across active vs. not active calendar quarters on the same unit, with lower fall rates being desirable.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Unit Fall Injury Rate</measure>
+    <time_frame>Quarterly (3 calendar months), for 2 years</time_frame>
+    <description>Fall Injury Rate is measured by falls with injury per 1000 patient-days as reported for each hospital unit. Fall injury rate will be measured at the hospital unit level, based on quality improvement data reported by each hospital unit on a quarterly basis. Each hospital unit will be designated at the start of each full calendar quarter to either not enroll any patients into the study, or to actively enroll patients per randomization protocol, for the duration of the calendar quarter. Therefore, the effect of actively enrolling patients into the study will be compared across units that are actively vs. not actively enrolling patients during the same calendar quarters, as well as across active vs. not active calendar quarters on the same unit, with lower fall injury rates being desirable.</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">2400</enrollment>
+  <condition>Delirium</condition>
+  <condition>Fall Injury</condition>
+  <arm_group>
+    <arm_group_label>care.coach Avatar</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>care.coach Avatar (HELP-Protocolized)</intervention_name>
+    <description>care.coach human-in-the-loop avatar system with software-directed protocols based on the Hospital Elder Life Program (HELP).</description>
+    <arm_group_label>care.coach Avatar</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  fall/delirium risk (may be based purely on age at the election of each site, e.g. 65+)
+
+        Exclusion Criteria:
+
+          -  aggression or combativeness with intent to harm self or others
+
+          -  severe hearing impairment and simultaneous severe vision impairment, despite assistive
+             devices
+
+          -  no comprehension of either Spanish or English
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Victor Wang, MS</last_name>
+    <phone>14158666964</phone>
+    <email>victor@care.coach</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Jamaica Hospital Medical Center</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>11418</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Sharon Wexler, PhD</last_name>
+      <phone>212-618-6015</phone>
+      <email>swexler@pace.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://care.coach</url>
+    <description>care.coach human-in-the-loop avatars for psychosocial support, health coaching, and care coordination</description>
+  </link>
+  <verification_date>November 2019</verification_date>
+  <study_first_submitted>January 29, 2019</study_first_submitted>
+  <study_first_submitted_qc>February 4, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 6, 2019</study_first_posted>
+  <last_update_submitted>November 21, 2019</last_update_submitted>
+  <last_update_submitted_qc>November 21, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 25, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>care.coach corporation</investigator_affiliation>
+    <investigator_full_name>Victor Wang</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>patient satisfaction</keyword>
+  <keyword>HCAHPS</keyword>
+  <keyword>loneliness</keyword>
+  <keyword>delirium</keyword>
+  <keyword>falls</keyword>
+  <keyword>HELP</keyword>
+  <keyword>hospitals</keyword>
+  <keyword>geriatrics</keyword>
+  <keyword>elder care</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Delirium</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,248 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03936023</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DUPLICATE-SAVOR-TIMI</org_study_id>
+    <nct_id>NCT03936023</nct_id>
+  </id_info>
+  <brief_title>Replication of the SAVOR-TIMI Diabetes Trial in Healthcare Claims</brief_title>
+  <official_title>Replication of the SAVOR-TIMI Diabetes Trial in Healthcare Claims</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brigham and Women's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Brigham and Women's Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Investigators are building an empirical evidence base for real world data through large-scale
+      replication of randomized controlled trials. The investigators' goal is to understand for
+      what types of clinical questions real world data analyses can be conducted with confidence
+      and how to implement such studies.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a non-randomized, non-interventional study that is part of the RCT DUPLICATE
+      initiative (www.rctduplicate.org) of the Brigham and Women's Hospital, Harvard Medical
+      School. It is intended to replicate, as closely as is possible in healthcare insurance claims
+      data, the trial listed below/above. Although many features of the trial cannot be directly
+      replicated in healthcare claims, key design features, including outcomes, exposures, and
+      inclusion/exclusion criteria, were selected to proxy those features from the trial.
+      Randomization is also not replicable in healthcare claims data but was proxied through a
+      statistical balancing of measured covariates according to standard practice. Investigators
+      assume that the RCT provides the reference standard treatment effect estimate and that
+      failure to replicate RCT findings is indicative of the inadequacy of the healthcare claims
+      data for replication for a range of possible reasons and does not provide information on the
+      validity of the original RCT finding.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">September 22, 2017</start_date>
+  <completion_date type="Anticipated">September 22, 2020</completion_date>
+  <primary_completion_date type="Anticipated">September 22, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Relative hazard of composite outcome of Stroke, MI, and Mortality</measure>
+    <time_frame>Through study completion (a median of 134-151 days)</time_frame>
+    <description>Relative hazard of composite outcome of MI, stroke, and mortality - Please refer to uploaded protocol for full definition due to size limitations.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">182126</enrollment>
+  <condition>Diabetes</condition>
+  <arm_group>
+    <arm_group_label>2nd Generation SUs</arm_group_label>
+    <description>Reference Group</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Saxagliptin</arm_group_label>
+    <description>Exposure Group</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Saxagliptin</intervention_name>
+    <description>Saxagliptin dispensing claim is the exposure</description>
+    <arm_group_label>Saxagliptin</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sulfonylurea</intervention_name>
+    <description>2nd generation sulfonylurea dispensing claim is used as the reference</description>
+    <arm_group_label>2nd Generation SUs</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        This study will involve a new user, parallel group, cohort study design comparing
+        saxagliptin to the 2nd generation sulfonylurea (SU) antidiabetic class as a proxy for
+        placebo. SUs are not known to have an impact on the outcome of interest. In addition, SUs
+        were the most frequent background treatment in SAVOR-TIMI53 (after metformin), and DPP4i
+        and SUs are preferentially prescribed to similarly older patients in real world (Patorno et
+        al., 2019). The patients will be required to have continuous enrollment during the baseline
+        period of 180 days before initiation of saxagliptin or a comparator drug (cohort entry
+        date). Follow-up for the outcome (3P-MACE), begins the day after drug initiation. As in the
+        trial, patients are allowed to take other antidiabetic medications during the study.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Please see: https://drive.google.com/drive/folders/1WD618wrywYjEaXzfLTcuK-VCcnb6b-gV for
+        full code and algorithm definitions.
+
+        Eligible cohort entry dates:
+
+        Market availability of saxagliptin in the U.S. started on July 31, 2009 For Marketscan and
+        Medicare: July 31, 2009-Dec 31, 2016 (end of data availability).
+
+        For Optum: July 31, 2009-Sep 30, 2017 (end of data availability).
+
+        Inclusion Criteria:
+
+          -  Diagnosed with T2DM based on the current American Diabetes Association guidelines Age
+             ≥40 years Glycated hemoglobin level of ≥6.5% (based on the last measured and
+             documented laboratory measurement in the previous 6 months)
+
+        High risk for a CV event defined as having either established CV disease and/or multiple
+        risk factors:
+
+          -  History of established cardiovascular disease
+
+               -  Ischemic heart disease, and/or
+
+               -  Peripheral vascular disease (eg, intermittent claudication), and/or
+
+               -  Ischemic stroke
+
+          -  Multiple risk factors for vascular disease - At least 55 years of age (men) or 60
+             years of age (women), AND at least one of the following additional risk factors
+
+               -  Dyslipidemia (based on the last measured and documented laboratory measurement in
+                  the previous 6 months and defined as at least 1 of the following):
+
+                    -  High level of low-density lipoprotein cholesterol (LDL-C), defined as N130
+                       mg/dL (N 3.36 mmol/L) regardless of lipid-lowering therapy
+
+                    -  Low level of high-density lipoprotein cholesterol (HDL-C), defined as b40
+                       mg/dL (b1.04 mmol/L) for men or b50 mg/dL (b1.30 mmol/L) for women
+
+               -  Hypertension, as confirmed at the enrolment visit
+
+                    -  BP N140/N90 mm Hg, or
+
+                    -  BP N130/N80 mm Hg on BP-lowering agent
+
+               -  Currently smoking, as confirmed at the enrolment visit Women of childbearing
+                  potential must take precautions to avoid pregnancy throughout the study and for 4
+                  weeks after intake of the last dose. Men participating in the study should also
+                  take precautions not to father a childwhile participating in the study and for 4
+                  weeks after intake of the last dose.
+
+        Provision of informed consent before any study specific procedures
+
+        Exclusion Criteria:
+
+        Current or previous (within 6 months) treatment with an incretin-based therapy such as
+        DPP-4 inhibitors and/or GLP-1 mimetics Acute vascular (cardiac or stroke) event &lt;2 months
+        before randomization Initiation of chronic dialysis and/or renal transplant and/or a serum
+        creatinine &gt;6.0 mg/dL Pregnant or breastfeeding History of human immunodeficiency virus
+        Patients being treated for severe autoimmune diseases such as lupus Any patient currently
+        receiving long-term (&gt;30 consecutive days) treatment with an oral steroid Patients with
+
+          -  Body mass index &gt;50 kg/m2
+
+          -  Last measured HbA1c ≥12%
+
+          -  Sustained BP &gt;180/100 mm Hg
+
+          -  LDL-C &gt;250 mg/dL (&gt;6.48 mmol/L) (based on the last measured and documented laboratory
+             measurement in the previous 6 months) regardless of lipid-lowering therapy
+
+          -  Triglycerides &gt;1,000 mg/dL (N11.3 mmol/L) (based on the last measured and documented
+             laboratory measurement in the previous 6months)
+
+          -  HDL-C b25 mg/dL (&lt;0.64 mmol/L) (based on the last measured and documented laboratory
+             measurement in the previous 6 months)
+
+          -  Known liver function tests &gt;3 times upper limit of normal (ULN) (based on the last
+             measured and documented laboratory measurement in the previous 6 months) Involvement
+             in the planning and/or conduct of the study (applies to both AstraZeneca and Bristol--
+             Myers Squibb or representative staff and/or staff at the study site) Previous
+             randomization in the present study Participation in another clinical study with an
+             investigational product and/or intervention within 30 days before visit 1 Individuals
+             at risk for poor protocol or medication compliance
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jessica Franklin, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Brigham and Womens</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Brigham &amp; Women's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02120</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>December 2019</verification_date>
+  <study_first_submitted>April 29, 2019</study_first_submitted>
+  <study_first_submitted_qc>April 30, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 3, 2019</study_first_posted>
+  <last_update_submitted>December 30, 2019</last_update_submitted>
+  <last_update_submitted_qc>December 30, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 2, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Brigham and Women's Hospital</investigator_affiliation>
+    <investigator_full_name>Jessica Franklin</investigator_full_name>
+    <investigator_title>Assistant Professor of Medicine</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Saxagliptin</mesh_term>
+  </intervention_browse>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>December 27, 2019</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/23/NCT03936023/Prot_SAP_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

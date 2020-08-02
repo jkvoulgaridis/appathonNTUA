@@ -1,0 +1,290 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03760406</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CHUBX 2018/32</org_study_id>
+    <nct_id>NCT03760406</nct_id>
+  </id_info>
+  <brief_title>Optimization of VIM Targeting in Essential Tremor Surgery</brief_title>
+  <acronym>Opti-VIM</acronym>
+  <official_title>Optimization of VIM Targeting in Essential Tremor Surgery</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Bordeaux</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University Hospital, Bordeaux</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Deep brain stimulation (DBS) for essential tremor is based on the intermedius ventralis
+      nucleus of the thalamus (VIM) stimulation. This structure is however very difficult to
+      target, as it remains invisible on imaging. The current procedure based on awake surgery with
+      clinical and electrophysiological testings has several limitations that lead us to develop a
+      probabilistic model to locate precisely the target. This study aims to show that asleep DBS
+      surgery based on this new targeting method leads to at least the same clinical results than
+      the classical procedure.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The intermedius ventralis nucleus of the thalamus (VIM), which represents the target for deep
+      brain stimulation (DBS) in essential tremor, still remains invisible on 1,5 tesla MRI (the
+      only magnetic field available for stereotactic surgery). The target coordinates currently
+      used are based on stereotactic atlases or mean coordinates from retrospective series. They
+      are so imprecise that intra-operative clinical testing and micro-electrode recordings are
+      mandatory to locate the exact position of the VIM. This procedure is long lasting, requires
+      that the patient is awake, and increases the risk of intracerebral haemorrhage and nosocomial
+      infections. Furthermore, some patients are not improved despite a DBS lead implanted in the
+      electrophysiologically and clinically defined target. To overcome these limitations,
+      investigators developed a probabilistic model based on data extracted from imaging of
+      patients with particularly good outcomes after DBS surgery. This machine-learning model
+      allows calculating to coordinates of the VIM according to the position of radio-anatomical
+      landmarks with a mean precision of 1,65mm.
+
+      The aim of this study is to validate this new targeting method on a prospective cohort of
+      patients. DBS surgery will be performed under general anaesthesia, without intra-operative
+      clinical and electrophysiological testing, with a surgical robot and under CT-scan guidance
+      (O-Arm ©).
+
+      Neurostimulation device programming will be performed as usual. Patients' tremor and quality
+      of life will be evaluated pre and post-operatively at 3 months, according to the
+      Fahn-Tolosa-Marin (FTM) scale and with an accelerometry recording (for tremor) and with the
+      mPDQ-39 scale for quality of life. Surgical complications and side effects related to
+      neurostimulation will be gathered all along the follow-up.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 18, 2018</start_date>
+  <completion_date type="Anticipated">March 2021</completion_date>
+  <primary_completion_date type="Anticipated">March 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change of Fahn-Tolosa-Marin (FTM) scale score</measure>
+    <time_frame>Before and 3 month after DBS surgery</time_frame>
+    <description>Scale global range : min=0 / max=160 Higher values represent worse tremor</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Accelerometry recordings : spectral analysis</measure>
+    <time_frame>Before and 3 month after DBS surgery</time_frame>
+    <description>Accelerometry recordings at the pre-inclusion visit and at 3 months after surgery in ON and OFF-stimulation conditions with spectral analysis.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accelerometry recordings : calculation of the total accelerometry power</measure>
+    <time_frame>Before and 3 month after DBS surgery</time_frame>
+    <description>Accelerometry recordings at the pre-inclusion visit and at 3 months after surgery in ON and OFF-stimulation conditions with calculation of the total accelerometry power.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Surgical complications</measure>
+    <time_frame>Up to 3 month after DBS surgery</time_frame>
+    <description>Onset of infection, hematoma or seizure</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Device complications and dysfunction</measure>
+    <time_frame>Up to 3 month after DBS surgery</time_frame>
+    <description>rupture or displacement of electrode, pain at the stimulation box implantation site or along the subcutaneous cable if they require further intervention, infection.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Neurostimulation-related side effects</measure>
+    <time_frame>Up to 3 month after DBS surgery</time_frame>
+    <description>Onset of dysarthria and ataxia assessed by the items 1 to 4 of the Scale for Assessment and Rating of Ataxia (SARA), ataxia assessed by a posturometry analysis, paresthesia, muscular contractions</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Quality of life: change of modified Parkinson's Disease Questionnaire-39 (mPDQ-39) scale score</measure>
+    <time_frame>Before and 3 month after DBS surgery</time_frame>
+    <description>Adaptation of Parkinson's Disease Questionnaire-39 to essential tremor Scale global range : min=0 / max=156 Higher values represent worse Quality of life</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Coordinates of active contacts</measure>
+    <time_frame>3 month after DBS surgery</time_frame>
+    <description>Coordinates of active contacts (i.e; the contact with the best effect on tremor without side effects) These coordinates (x, y, z) are obtained by merging the images of the 3-month postoperative scanner with the images of the preoperative MRI.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">22</enrollment>
+  <condition>Essential Tremor</condition>
+  <arm_group>
+    <arm_group_label>Severe essential tremor treated by DBS</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Opti-VIM targeting in DBS surgery</intervention_name>
+    <description>DBS surgery will be performed under general anaesthesia, without intra-operative clinical and electrophysiological testing, with a surgical robot and under CT-scan guidance (O-Arm ©). The VIM coordinates will be calculated with the probabilistic model that have been developed.</description>
+    <arm_group_label>Severe essential tremor treated by DBS</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Severe essential tremor despite the optimal medical management
+
+          -  Age between 18 and 75 years
+
+          -  Normal MRI scan
+
+          -  Mattis Dementia Rating Scale (MDRS) score ≥ 130
+
+          -  Affiliation to the social security
+
+          -  Signed informed consent
+
+        Exclusion Criteria:
+
+          -  Depression (Beck Depression Inventory scale &gt; 20)
+
+          -  Contra-indication to surgery or general anesthesia
+
+          -  Cerebral atrophy on MRI scan
+
+          -  Pregnant or breastfeeding women
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Antoine BENARD, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>USMR CHU de Bordeaux</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Julien ENGELHARDT, MD</last_name>
+    <phone>05 56 79 55 77</phone>
+    <phone_ext>+33</phone_ext>
+    <email>julien.engelhardt@chu-bordeaux.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Olivier BRANCHARD</last_name>
+    <phone>05 57 82 06 97</phone>
+    <phone_ext>+33</phone_ext>
+    <email>olivier.branchard@chu-bordeaux.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>CHU de Bordeaux</name>
+      <address>
+        <city>Bordeaux</city>
+        <zip>33076</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Julien ENGELHARDT, MD</last_name>
+      <phone>05 56 79 55 77</phone>
+      <phone_ext>+33</phone_ext>
+      <email>julien.engelhardt@chu-bordeaux.fr</email>
+    </contact>
+    <contact_backup>
+      <last_name>Olivier BRANCHARD</last_name>
+      <phone>05 57 82 06 97</phone>
+      <phone_ext>+33</phone_ext>
+      <email>olivier.branchard@chu-bordeaux.fr</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Julien ENGELHARDT, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Emmanuel CUNY, MD-PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Pierre BURBAUD, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Dominique GUEHL, MD-PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Nathalie PERRIERE, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hospices Civils de Lyon</name>
+      <address>
+        <city>Bron</city>
+        <zip>69500</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Patrick MERTENS, MD-PhD</last_name>
+      <email>patrick.mertens@chu-lyon.fr</email>
+    </contact>
+    <investigator>
+      <last_name>Patrick MERTENS, MD-PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Gustavo POLO, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Emile SIMON, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Stéphane THOBOIS, MD-PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Teodor DANAILA, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Chloé LAURENCIN, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>March 2019</verification_date>
+  <study_first_submitted>November 26, 2018</study_first_submitted>
+  <study_first_submitted_qc>November 29, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 30, 2018</study_first_posted>
+  <last_update_submitted>March 26, 2019</last_update_submitted>
+  <last_update_submitted_qc>March 26, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 28, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Essential Tremor</keyword>
+  <keyword>Deep brain stimulation</keyword>
+  <keyword>Ventro-intermediate nucleus of the thalamus</keyword>
+  <keyword>Targeting</keyword>
+  <keyword>Asleep surgery</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Tremor</mesh_term>
+    <mesh_term>Essential Tremor</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

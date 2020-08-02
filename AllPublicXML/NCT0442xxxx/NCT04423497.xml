@@ -1,0 +1,172 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04423497</url>
+  </required_header>
+  <id_info>
+    <org_study_id>60116787-020/5431</org_study_id>
+    <nct_id>NCT04423497</nct_id>
+  </id_info>
+  <brief_title>ESTIMATION OF BALANCE STATUS IN HEMIPARETICS</brief_title>
+  <official_title>ESTIMATION OF BALANCE STATUS IN PATIENTS WITH HEMIPARESIS: AN ARTIFICIAL NEURAL NETWORK IMPLEMENTATION</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Pamukkale University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Pamukkale University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Although Balance Evaluation Systems Test(BESTest) is an important balance assessment tool to
+      differentiate balance deficits, it is time consuming and tiring for hemiparetic patients.
+      Using artificial neural networks(ANNs) to estimate balance status can be a practical and
+      useful tool for clinicians. The aim of this study was to compare manual BESTest results and
+      ANNs predictive results and to determine the highest contributions of BESTest sections by
+      using ANNs predictive results of BESTest sections. 66 hemiparetic individuals were included
+      in the study. Balance status was evaluated using the BESTest. 70%(n=46), of the dataset was
+      used for learning, 15%(n=10) for evaluation, and 15%(n=10) for testing purposes in order to
+      model ANNs. Multiple linear regression model(MLR) was used to compare with ANNs.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The demographics and clinical information of the participants' were recorded. Clinical
+      information consists of some basic medical data for the patients. Hodkinson Mental Test was
+      used to assess the cognitive status of the participants if they met inclusion criteria.
+      Balance Evaluation Systems Test was used to assess balance status of the participants.
+
+      Feed-forward back-propagation ANNs was used in this study by employing Levenberg-Marquardt
+      training algorithm. Tangent hyperbolic transfer functions were used in the hidden layer.
+      Matlab (Version R2017b, Mathworks Inc, USA) was used in ANNs modeling. 70% (n=46), 15% (n=10)
+      and 15% (n=10) of the data obtained from the participants were used for training, validation
+      and test in the study, respectively. Multiple linear regression (MLR) models also were used
+      to compare with ANNs.
+
+      Firstly, the ANNs were modeled for the first aim of the study. We used the data of the five
+      traditional balance tests in the BESTest that did not use the real values (the timing or
+      distance), but just the classified values (0-3 points in the BESTest) to train ANNs. Five
+      balance tests were functional reach test (cm), one leg standing test for right and left side
+      (sec), 6-metre timed walk test (sec) and timed up and go test (sec). Then, we compare the
+      manual total BESTest scores with the predicted scores by the ANNs.
+
+      Secondly, we removed 6 sections of the BESTest one by one and modeled with the remaining 5
+      sections of the test to estimate the total BESTest score. After this modeling, we removed
+      each item one by one in the first section and estimated the first section total score. We
+      repeated the process for all the sections of the BESTest.
+
+      Statistical Analysis
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 31, 2016</start_date>
+  <completion_date type="Actual">May 31, 2018</completion_date>
+  <primary_completion_date type="Actual">May 31, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Balance Evaluation Systems Test (BESTest)</measure>
+    <time_frame>two years</time_frame>
+    <description>Biomechanical constraints, stability limits/verticality, anticipatory postural adjustments, postural responses, sensory orientation and stability in gait</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Artificial Neural Networks Modeling</measure>
+    <time_frame>two years</time_frame>
+    <description>comparing the manual total BESTest scores with the predicted scores by the ANNs</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Artificial Neural Networks Modeling</measure>
+    <time_frame>two years</time_frame>
+    <description>determining the highest contributions of BESTest subsets in order to find ANNs predictive results of BESTest subsets.</description>
+  </primary_outcome>
+  <enrollment type="Actual">66</enrollment>
+  <condition>Hemiparesis</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Balance Evaluation Systems Test</intervention_name>
+    <description>Balance Evaluation Systems Test application</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Sixty-six volunteers with hemiparesis (23 females, 43 males) participated in the study. The
+        participants informed of the right to withdraw his or her consent at any time. Prior to
+        giving signed consent, all informed thereof.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Being aged between 35-65 years,
+
+          -  Able to walk independently or with a walking aid,
+
+          -  Able to stand at least 1 minute independently,
+
+          -  Having single hemiparesis,
+
+          -  Getting at least 8 points from Hodkinson Mental Test.
+
+        Exclusion Criteria:
+
+          -  Having comorbidities affecting their balance,
+
+          -  Having communication problems.
+
+          -  Patients who cannot comprehend the directions given to them were excluded from the
+             study.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>35 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Güzin Kara, PhD, PT</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Pamukkale University</affiliation>
+  </overall_official>
+  <reference>
+    <citation>Kaczmarczyk K, Wit A, Krawczyk M, Zaborski J, Gajewski J. Associations between gait patterns, brain lesion factors and functional recovery in stroke patients. Gait Posture. 2012 Feb;35(2):214-7. doi: 10.1016/j.gaitpost.2011.09.009. Epub 2011 Sep 19.</citation>
+    <PMID>21937234</PMID>
+  </reference>
+  <reference>
+    <citation>Demir U, Kocaoğlu S, Akdoğan E. Human impedance parameter estimation using artificial neural network for modelling physiotherapist motion. Biocybernetics and Biomedical Engineering. 2016; 36(2): 318-326</citation>
+  </reference>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>June 2, 2020</study_first_submitted>
+  <study_first_submitted_qc>June 5, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 9, 2020</study_first_posted>
+  <last_update_submitted>June 5, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 5, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 9, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Pamukkale University</investigator_affiliation>
+    <investigator_full_name>Güzin Kara</investigator_full_name>
+    <investigator_title>Physiotherapist, Doctor of Philosophy</investigator_title>
+  </responsible_party>
+  <keyword>Hemiparesis; Balance; Artificial Neural Networks.</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Paresis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

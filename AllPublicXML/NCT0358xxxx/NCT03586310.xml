@@ -1,0 +1,163 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03586310</url>
+  </required_header>
+  <id_info>
+    <org_study_id>EarEEGSleep2018</org_study_id>
+    <nct_id>NCT03586310</nct_id>
+  </id_info>
+  <brief_title>Evaluation of the Ear-EEG System for Sleep Monitoring in Healthy Subjects</brief_title>
+  <official_title>Evaluation of the Ear-EEG System for Sleep Monitoring in Healthy Subjects</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Aarhus</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Uneeg medical</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Aarhus</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Subjects sleep multiple nights in their own home, wearing actigraph, PSG (PolySomnoGraphy)
+      and ear-EEG sensors. The object of the study is to determine the applicability of ear-EEG for
+      sleep monitoring.
+    </textblock>
+  </brief_summary>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">March 23, 2018</start_date>
+  <completion_date type="Anticipated">December 31, 2020</completion_date>
+  <primary_completion_date type="Anticipated">May 31, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Device Feasibility</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Cohens kappa</measure>
+    <time_frame>At study completion (average of 6 months)</time_frame>
+    <description>The test outcome is a set of matched polysomnography and ear-EEG sleep measurements. From this will be generated an algorithm for automatic sleep scoring based on ear-EEG (using leave-one-subject-out cross validation). The primary outcome measure of the test is the correlation between the automatically generated hypnograms and those generated manually from the scalp recordings.
+The accuracy is quantified using Cohen's kappa, which is a number between -1 and 1. An average (across all recordings) above 0.4 would be a success for the test.
+As the training of the sleep scoring algorithm requires large amounts of data, it is necessary to use a large number of subjects (20) to estimate the viability of automatic sleep scoring from ear-EEG recordings. This also means that kappa values are calculated for all recordings at once when the measurements are done.
+This method for creating sleep scoring algorithms and quantifying their success is in line with standard procedure in this field.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Sleep Monitoring</condition>
+  <arm_group>
+    <arm_group_label>4 nights with PSG</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>For all subjects: 4 nights with polysomnography and ear-EEG</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>12 nights with ear-EEG</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>For a subset of the subjects in arm the '4 nights with PSG', a second phase follows in which each subject sleeps 12 nights with only ear-EEG.
+If a night's recording is unsuccessful, for whatever reason, up to 6 additional nights may be attempted.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>ear-EEG</intervention_name>
+    <description>soft silicone electrode array placed in each ear (outer ear-canal and concha), connected to a battery powered EEG amplifier.</description>
+    <arm_group_label>12 nights with ear-EEG</arm_group_label>
+    <arm_group_label>4 nights with PSG</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Informed consent obtained and letter of authority signed before any study related
+        activities
+
+        Age 18-50 years
+
+        -
+
+        Exclusion Criteria:
+
+          1. BMI (body mass index) &gt; 30
+
+          2. Previous stroke or cerebral haemorrhage and any other structural cerebral disease
+
+          3. Known or suspected abuse of alcohol or any other neuro-active substance
+
+          4. Use of hearing aid or cochlear implants
+
+          5. Allergic contact dermatitis caused by metals or generally prone to skin irritation
+
+          6. Narrow or malformed ear canals
+
+          7. Obstructive sleep apnea
+
+          8. History of sleep disorders or neurological diseases
+
+          9. Chronic pain
+
+         10. People judged incapable, by the investigator, of understanding the participant
+             instruction or who are not capable of carrying through the investigation.
+
+         11. Use of medication known to influence the user's sleep (antidepressants, sedatives,
+             antipsychotic-, and pain relieving medication)
+
+         12. Teeth grinding (bruxism)
+
+         13. Pregnancy
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>50 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Preben Kidmose, Professor</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Aarhus</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Aarhus University</name>
+      <address>
+        <city>Aarhus</city>
+        <zip>8000</zip>
+        <country>Denmark</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Denmark</country>
+  </location_countries>
+  <verification_date>May 2019</verification_date>
+  <study_first_submitted>March 16, 2018</study_first_submitted>
+  <study_first_submitted_qc>July 12, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 13, 2018</study_first_posted>
+  <last_update_submitted>March 24, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 24, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 25, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>After publication of results, anonymized recordings will be made available to the scientific community.</ipd_description>
+    <ipd_time_frame>We anticipate that data will be made available at some point in 2019.</ipd_time_frame>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

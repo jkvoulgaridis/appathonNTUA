@@ -1,0 +1,302 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04182945</url>
+  </required_header>
+  <id_info>
+    <org_study_id>6059_Fever_Study_1</org_study_id>
+    <nct_id>NCT04182945</nct_id>
+  </id_info>
+  <brief_title>Fever Algorithm Development of a Non-invasive Wearable Core Body Temperature Sensor System in Intensive Care Unit Patients</brief_title>
+  <official_title>Fever Algorithm Development of a Non-invasive Wearable Core Body Temperature Sensor System in Intensive Care Unit Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>greenTEG AG</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Zurich</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>greenTEG AG</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Background and Rationale:
+
+      The gold standard to assess fever, is to conduct invasive intravascular, esophageal or
+      bladder thermistor core body temperature (CBT) measurements. Since these methods are time
+      consuming for the medical staff and more importantly displeasing to the patients, alternative
+      CBT/fever assessments is needed. greenTEG is developing a CBT algorithm that will be able to
+      reliably calculate CBT continuously form skin temperature (ST) and the corresponding heat
+      flux (HF). This can be achieved from subjects developing fever in intensive care unit, since
+      the prevalence of fever is high and optimally assessed.
+
+      Objective(s):
+
+      The aim of this study is to develop and validation of an algorithm that allows the detection
+      of fever in patients through a non-invasive wearable prototype sensor, which calculates CBT
+      from ST, HF and heart rate (HR) data streams, allowing a more effective patient management
+
+      Endpoint(s):
+
+      ST, HF, HR and CBT data are collected for at least 24hrs until 3 day, depending on the ICU
+      length of stay of the patient. ST, HF, HR and CBT values from different measurement positions
+      (subclavicular, lateral ribcage, upper arm and wrist) of the non-invasive wearable research
+      prototypes will be compared with each other and compared to clinical invasive method
+      particularly CBT measured by blood temperature from a pulmonary catheter if present or
+      vesical temperature
+
+      Study Design:
+
+      Interventional-Single Group Assignment, monocentric, open label.
+
+      Statistical Considerations:
+
+      The measure of quality will be the mean absolute difference (MAD) between the CBT prediction
+      and the reference signal where the mean is taken over the whole measurement of a single
+      candidate. An aggregate performance measure over a group of candidates is defined by
+      averaging the MAD values of each candidate in the group. When a group of candidates for
+      algorithm validation is defined, the total improvement will be defined by comparing aggregate
+      performances of old and new algorithm for the validation group. Balancing the probability of
+      occurrence of the factors in the population and the overall size of the study, a final size
+      of 50 candidates is reasonable.
+
+      Inclusion- / Exclusion Criteria:
+
+      Inclusion criteria:
+
+        -  Age ≥18 years old.
+
+        -  Patients which are treated at the cardiosurgical and vascular intensive care unit of the
+           University Hospital Zurich.
+
+        -  Expected length of stay in the intensive care unit at least 24 hours
+
+        -  Clinical standard monitoring including an invasive CBT measurement (e.g. blood
+           temperature from a pulmonary catheter if present or from a vesical catheter routinely
+           placed)
+
+        -  Informed consent signed by the patient
+
+      Exclusion criteria:
+
+        -  Acute medical contraindications against the measurement of the non-invasive wearable
+           device (e.g. skin diseases) and band-aid allergies.
+
+        -  Implanted pacemakers or other implanted life sustaining devices
+
+        -  Comatose state of the patient
+
+        -  Pregnant Women
+
+      Number of Participants with Rationale:
+
+      Number of participants in the study :50 candidates. The study will be divided in two parts.
+      In the first part data are collected from 38 patients. In the second part, data form 12
+      patients will be collected. The reason for the first part is to collect data in order to
+      develop the algorithm. The reason to collect additional data from 12 candidates in the second
+      part is to validate and adjust the algorithm that is develop in the first part of the study.
+
+      Study Intervention:
+
+      50% of the research prototypes (4 pieces) will be mounted to the patient on left side of the
+      body (sub clavicula, lateral ribcage, upper arm and wrist), after being admitted to the ICU
+      and having signed the informed consent. As soon as a patient gets fever, the other 50% of the
+      research prototypes (4 pieces) will be applied on the right side of the body (sub clavicula,
+      lateral ribcage, upper arm and wrist).
+
+      Control Intervention:
+
+      Not applicable
+
+      Study procedures:
+
+      Patients will be recruited and screened 1-3 days before the measurements starts. 50% of the
+      research prototypes (4 pieces) will be applied to the patient on the left side of the body
+      (sub clavicula, lateral ribcage, upper arm and wrist), after being admitted to the ICU and
+      having signed the informed consent. After the development of the fever, the other 50% of the
+      research prototypes (4 pieces) will be applied on the right side of the body (sub clavicula,
+      lateral ribcage, upper arm and wrist). At the end of intervention all prototypes will be
+      removed from the patient. A greenTEG employee will collect all the prototypes.
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">December 1, 2019</start_date>
+  <completion_date type="Anticipated">July 1, 2020</completion_date>
+  <primary_completion_date type="Anticipated">July 1, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Continuous and non-invasive skin temperature and heat flux</measure>
+    <time_frame>Participants will be monitored continuously and unobtrusively with the research prototypes over a 1-3 day time period, depending on the stationary stay in the ICU of the hospital.</time_frame>
+    <description>Skin temperature and heat flux data collected continuously and non-invasively using research prototypes at different measurement positions (subclavicular, lateral ribcage, upper arm and wrist).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Continuous and invasive core body temperature</measure>
+    <time_frame>Data used will be limited to the time frame, where non-invasive CBT methods are applied (research prototype). This will be 1-3 days, depending on the stationary stay of the patient.</time_frame>
+    <description>Core body temperature data will be collected using the clinical standard method, which will be used to monitor patients on the ICU (pulmonary catheter or vesicular temperature).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Heart rate</measure>
+    <time_frame>Data used will be limited to the time frame, where non-invasive CBT methods are applied (research prototype). This will be 1-3 days, depending on the stationary stay of the patient.</time_frame>
+    <description>Heart rate [beats per minute] will be collected using the clinical standard method (ECG and pulse oximetry) used to monitor intensive care unit patients, which will be applied anyway (clinical standard procedure).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Administration and dose of medication</measure>
+    <time_frame>Data used will be limited to the time frame, where non-invasive CBT methods are applied (research prototype). This will be 1-3 days, depending on the stationary stay of the patient.</time_frame>
+    <description>Administration and dose of medications will be tracked: norepinephrine, epinephrine, adrenaline, vasopressin, Levosimendan, Milrinone, analgesic and antipyretic drugs such as paracetamol.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Blood pressure</measure>
+    <time_frame>Data used will be limited to the time frame, where non-invasive methods are applied (research prototype). This will be 1-3 days, depending on the stationary stay of the patient.</time_frame>
+    <description>Blood pressure [mmHg] will be collected using the clinical standard method (Intra-arterial measurements or clinical non-invasive BP monitor) used to monitor intensive care unit patients, which will be applied anyway (clinical standard procedure).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ECG</measure>
+    <time_frame>Data used will be limited to the time frame, where non-invasive CBT methods are applied (research prototype). This will be 1-3 days, depending on the stationary stay of the patient.</time_frame>
+    <description>ECG (graphic record of the voltage versus time) will be collected using the clinical standard method, which will be applied anyway (clinical standard procedure)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Blood oxygen saturation</measure>
+    <time_frame>Data used will be limited to the time frame, where non-invasive CBT methods are applied (research prototype). This will be 1-3 days, depending on the stationary stay of the patient.</time_frame>
+    <description>Mixed venous oxygen saturation (SvO2) and peripheral capillary oxygen saturation (SpO2) will be collected using the clinical standard method (pulmonary artery catheter for SvO2 and pulse oximetry for SpO2) used to monitor intensive care unit patients, which will be applied anyway (clinical standard procedure).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Blood lactate concentration</measure>
+    <time_frame>Data used will be limited to the time frame, where non-invasive CBT methods are applied (research prototype). This will be 1-3 days, depending on the stationary stay of the patient.</time_frame>
+    <description>Blood lactate concentration will be collected using the clinical standard method used to monitor intensive care unit patients, which will be applied anyway (clinical standard procedure).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cardiac Index</measure>
+    <time_frame>Data used will be limited to the time frame, where non-invasive CBT methods are applied (research prototype). This will be 1-3 days, depending on the stationary stay of the patient.</time_frame>
+    <description>Cardiac Index (L/min/m2) will be collected using the clinical standard method (Intra-arterial measurements) used to monitor intensive care unit patients, which will be applied anyway (clinical standard procedure).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Fluid balance</measure>
+    <time_frame>Will be avaluated every 24 hours for every day, where non-invasive CBT methods are applied (research prototype). 1-3 days depending on the stationary stay of the patient.</time_frame>
+    <description>Fluid balance will be collected using the clinical standard method used to monitor intensive care unit patients, which will be applied anyway (clinical standard procedure).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Central venous pressure</measure>
+    <time_frame>Data used will be limited to the time frame, where non-invasive CBT methods are applied (research prototype). This will be 1-3 days, depending on the stationary stay of the patient.</time_frame>
+    <description>Central venous pressure [mmHg] will be collected using the clinical standard method (central venous catheter) used to monitor intensive care unit patients, which will be applied anyway (clinical standard procedure).</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Fever</condition>
+  <arm_group>
+    <arm_group_label>Unobtrusive data collection</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Unobtrusive data collection using noninvasive sensor systems.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Data collection for algorithm development</intervention_name>
+    <description>50% of the research prototypes (4 pieces) will be mounted to the patient on left side of the body (sub clavicula, lateral ribcage, upper arm and wrist), after being admitted to the ICU and having signed the informed consent. As soon as a patient gets fever, the other 50% of the research prototypes (4 pieces) will be applied on the right side of the body (sub clavicula, lateral ribcage, upper arm and wrist). Data will be collected unobtrusively (no diagnosis will be made) and used for fever detection algorithm development.</description>
+    <arm_group_label>Unobtrusive data collection</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age ≥18 years old.
+
+          -  Patients which are treated at the cardiosurgical and vascular intensive care unit of
+             the University Hospital Zurich.
+
+          -  Expected length of stay in the intensive care unit at least 24 hours
+
+          -  Clinical standard monitoring including an invasive CBT measurement (e.g. blood
+             temperature from a pulmonary catheter if present or from a vesical catheter routinely
+             placed)
+
+          -  Informed consent signed by the patient
+
+        Exclusion Criteria:
+
+          -  Acute medical contraindications against the measurement of the non-invasive wearable
+             device (e.g. skin diseases) and band-aid allergies.
+
+          -  Implanted pacemakers or other implanted life sustaining devices
+
+          -  Comatose state of the patient
+
+          -  Pregnant Women
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Dominique Bettex, Prof. Dr.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Zurich</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Ruben Oliveras</last_name>
+    <phone>+41 44 515 09 28</phone>
+    <email>ruben.oliveras@greenteg.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Lukas Durrer, Dr.</last_name>
+    <phone>+41 44 515 09 18</phone>
+    <email>lukas.durrer@greenteg.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University Hospital Zurich</name>
+      <address>
+        <city>Zürich</city>
+        <zip>8091</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Dominique Bettex, Prof. Dr.</last_name>
+      <phone>+41 44 255 11 11</phone>
+      <email>dominique.bettex@usz.ch</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <verification_date>November 2019</verification_date>
+  <study_first_submitted>November 21, 2019</study_first_submitted>
+  <study_first_submitted_qc>November 27, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 2, 2019</study_first_posted>
+  <last_update_submitted>November 27, 2019</last_update_submitted>
+  <last_update_submitted_qc>November 27, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 2, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Fever</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>The results of this study will be published in a suited journal. Publication strategy is still in discussion.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,280 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04304677</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Algorithm20200211</org_study_id>
+    <nct_id>NCT04304677</nct_id>
+  </id_info>
+  <brief_title>Automated Algorithm Detecting Physiologic Major Stenosis and Its Relationship With Post-PCI Clinical Outcomes</brief_title>
+  <acronym>Algorithm-PCI</acronym>
+  <official_title>Development of Automated Algorithm Detecting Physiologic Major Stenosis and Its Relationship With Post-PCI Clinical Outcomes (Algorithm-PCI)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Samsung Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Inje University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Keimyung University Dongsan Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Ulsan University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Sejong General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Seoul National University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Samsung Medical Center</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The presence of myocardial ischemia is the most important prognostic indicator in patients
+      with coronary artery disease. Therefore, the purpose of percutaneous coronary intervention
+      (PCI) is to relieve myocardial ischemia caused by the target stenosis. Fractional flow
+      reserve (FFR) is an invasive physiologic index used to define functionally significant
+      coronary stenosis, and its prognostic implications are supported by numerous studies.
+      Contrary to the clear cutoff value and the benefit of FFR in pre-PCI evaluation, there have
+      been various results regarding optimal cut-off values for post-PCI FFR. Nevertheless, the
+      positive association between post-PCI FFR and the risk of future events has been reproduced
+      by several studies.
+
+      PCI with stent implantation is basically a local treatment and post-PCI FFR reflects both
+      residual stenosis in the stented segment and remaining disease beyond the stented segment in
+      the target vessel(s).
+
+      Therefore, post-PCI FFR alone cannot fully discriminate the degree of contribution of each
+      component. The relative increase of FFR with PCI is determined by the interaction of baseline
+      severity of a target lesion, baseline disease burden of a target vessel, adequacy of PCI and
+      residual disease burden in a target vessel.
+
+      However, the most important problem in stratifying patients with better expected post-PCI
+      physiologic results and following clinical outcome would be that there has been no clear
+      method to identify these patients in pre-PCI phase.
+
+      In this regard, we hypothesized that the amount of FFR step-up in pre-PCI pullback recording
+      would determine the physiologic nature of target stenosis. For example, stenosis with
+      sufficient step-up of FFR would deserve local treatment with PCI and these lesions would
+      result in higher percent FFR increase, post-PCI FFR, and better clinical outcome than those
+      without sufficient amount of FFR step-up.
+
+      For this, we sought to develop automated algorithm to define physiologic major stenosis
+      versus minor stenosis using pre-PCI pullback recording.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The current study cohort consisted with 3 cohort. In order to derive and validate the optimal
+      cut-off values of FFR step-up amount for physiologic major vs minor stenosis and for
+      physiologic minor stenosis vs. signal noise, the below 3 cohorts will be used.
+
+        1. Derivation cohort of defining the optimal cut off value of FFR step-up amount for
+           physiologic major vs minor stenosis and for physiologic minor stenosis vs. signal noise.
+
+           The cohort of no coronary atherosclerosis confirmed by both angiography and
+           intravascular ultrasound will be derived from patients with heart transplantation
+           (NCT02798731).
+
+           The cohort of significant focal or diffuse obstructive coronary artery disease with
+           functional significance defined by FFR&lt;=0.80 will be derived from post-PCI registry of
+           Samsung Medical Center.
+
+        2. Internal validation cohort will be post-PCI registry of Samsung Medical Center which
+           enrolled 236 patients who underwent both pre- and post-PCI physiologic assessment after
+           angiographically successful PCI using 2nd generation drug-eluting stent. Among this
+           cohort, 234 patients with available pre-PCI pullback recording will be analyzed.
+
+        3. External validation cohort will be COE-PERSPECTIVE registry (NCT01873560) which enrolled
+           patients who underwent PCI for lesions with FFR&lt;=0.80 and underwent post-PCI physiologic
+           assessment.
+
+      Among the 835 patients, 252 patients with available pre-PCI pullback recording will be
+      analyzed.
+
+      For the association between physiologic major, minor, or mixed stenosis classified using the
+      optimal cut-off values of FFR step-up amount for physiologic major vs minor stenosis and for
+      physiologic minor stenosis vs. signal noise, the patient level pooled data of both Samsung
+      Medical Center registry and COE-PERSPECTIVE registry will be used.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 22, 2016</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2020</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>2 Years</target_duration>
+  <primary_outcome>
+    <measure>Percent FFR increase after PCI</measure>
+    <time_frame>Immediate post-PCI</time_frame>
+    <description>([Post-PCI FFR - Pre-PCI FFR]/Pre-PCI FFR * 100)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Post-PCI FFR</measure>
+    <time_frame>Immediate post-PCI</time_frame>
+    <description>FFR value measured after angiographically successful PCI</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Target Vessel Failure</measure>
+    <time_frame>2 years after index procedure</time_frame>
+    <description>a composite of cardiac death, clinically-driven target vessel-related myocardial infarction, and clinically-driven target vessel revascularization. The target vessel will be defined as the treated vessel with 2nd generation DES which was assessed by post stent fractional flow reserve.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">486</enrollment>
+  <condition>Ischemic Heart Disease</condition>
+  <arm_group>
+    <arm_group_label>Pre PCI state</arm_group_label>
+    <description>The current study will analyze the pre-PCI pullback recording and amount of FFR step-up. The association of the amount of FFR step-up with post-PCI percent FFR increase, post-PCI FFR, and clinical outcome at 2 years will be analyzed</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Percutaneous coronary intervention</intervention_name>
+    <description>Pre-PCI FFR pullback recording was done with conventional system
+Automated algorithm to calculate delta FFR per unit time was developed
+PCI was performed using 2nd generation DES</description>
+    <arm_group_label>Pre PCI state</arm_group_label>
+    <other_name>Fractional flow reserve</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients who diagnosed obstructive coronary artery disease and evaluated by pre-PCI FFR
+        measurement and pullback recording, then treated by DES with invasive physiologic
+        evaluation at the index procedure.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  any patient meets eligible criteria who underwent PCI with DES followed by invasive
+             physiologic assessment at the index procedure
+
+          -  any patient who underwent PCI for lesions with pre-PCI FFR&lt;=0.80
+
+          -  available pre-PCI FFR pullback recording
+
+          -  available both post-PCI FFR measurement
+
+        Exclusion Criteria:
+
+          -  unavailable pre-PCI FFR pullback recording
+
+          -  unavailable post-PCI FFR measurement
+
+          -  culprit vessel of acute coronary syndrome
+
+          -  failed achieving TIMI 3 flow at the end of PCI
+
+          -  left ventricular ejection fraction &lt;30%
+
+          -  graft vessel
+
+          -  collateral feeder
+
+          -  in-stent restenosis
+
+          -  primary myocardial or valvular heart disease
+
+          -  in patient whose life expectancy less than 2 years
+
+          -  visible thrombus of target vessel segment
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>85 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Samsung Medical Center</name>
+      <address>
+        <city>Seoul</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Joo Myung Lee, MD, MPH, PhD</last_name>
+      <phone>82-2-3410-3897</phone>
+      <email>drone80@hanmail.net</email>
+    </contact>
+    <contact_backup>
+      <last_name>Seung Hun Lee, MD, PhD</last_name>
+      <phone>82-2-3410-2575</phone>
+      <email>lsh8602@naver.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Joo Myung Lee, MD, MPH, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Seung Hun Lee, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ki Hong Choi, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Doosup Shin, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>March 9, 2020</study_first_submitted>
+  <study_first_submitted_qc>March 9, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 11, 2020</study_first_posted>
+  <last_update_submitted>March 9, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 9, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 11, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Samsung Medical Center</investigator_affiliation>
+    <investigator_full_name>Joo Myung Lee</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <keyword>fractional flow reserve</keyword>
+  <keyword>delta FFR per unit time</keyword>
+  <keyword>percutaneous coronary intervention</keyword>
+  <keyword>prognosis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Diseases</mesh_term>
+    <mesh_term>Myocardial Ischemia</mesh_term>
+    <mesh_term>Coronary Artery Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>De-identified patient data will be shared upon reasonable request after discussion in executive committee and developer of algorithm.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

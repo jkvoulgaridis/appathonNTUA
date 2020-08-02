@@ -1,0 +1,418 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04482452</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020-00074</org_study_id>
+    <nct_id>NCT04482452</nct_id>
+  </id_info>
+  <brief_title>Percentage Visualized Mucosa as a Marker for the Quality of Colonoscopy</brief_title>
+  <official_title>Percentage Visualized Mucosa as a Marker for the Quality of Colonoscopy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital Inselspital, Berne</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University Hospital Inselspital, Berne</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Primary hypothesis: The percentage of mucosa visualized during the withdrawal of a
+      colonoscopy with reference to the position in the colon by means of the scope-guide is an
+      appropriate parameter for assessment of the quality of colonoscopy and correlates with the
+      probability of the detection of adenomas.
+
+      Secondary hypothesis:
+
+      The investigators hypothesize that the percentage of visualized mucosa differs according
+      patient specific parameters (e.g. gender, age, BMI, bowel preparation), procedure specific
+      parameters (e.g. patient position, device, buscopan, fentanyl, withdrawal time) and
+      investigator specific parameters (professional experience as resident and consultant).
+
+      Study Procedure/Evaluation:
+
+      The endoscopic images and scope guide from colonoscopy of 500 patients will be filmed. The
+      investigators will correlate the detection of at least one adenoma in the cohort of included
+      patients with the percentage of visualized mucosa during the withdrawal of a colonoscopy.
+      Additional endpoints concerning the quality of the colonoscopy will be assessed as well.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      PROJECT OBJECTIVES AND DESIGN 1.1 Hypothesis Primary hypothesis: The percentage of mucosa
+      visualized during the withdrawal of a colonoscopy with reference to the position in the colon
+      by means of the scope-guide is an appropriate parameter for assessment of the quality of
+      colonoscopy and correlates with the probability of the detection of adenomas.
+
+      Secondary hypothesis:
+
+      The investigators hypothesize that the percentage of visualized mucosa differs according
+      patient specific parameters (e.g. gender, age, BMI, bowel preparation), procedure specific
+      parameters (e.g. patient position, device, buscopan, fentanyl, withdrawal time) and
+      investigator specific parameters (professional experience as resident and consultant).
+
+      STUDY DESIGN AND PROCEDURES 2.1 Study Design: The investigators will perform a
+      non-interventional, single center exploratory study. Only total colonoscopies will be
+      included. All of the examinations will be performed by board-certified specialists or fellows
+      in training, supervised by the former. The investigators will enroll only participants who
+      will have an explicit indication, in other words who will get a colonoscopy anyway.
+      Therefore, colonoscopies will be conducted for a wide variety of indications including, but
+      not limited, to CRC screening, CRC/ adenoma surveillance, abdominal symptoms such as pain,
+      irregular defecation (diarrhea or constipation), gastrointestinal occult or overt bleeding,
+      family history of polyps or CRC, prior colonic resection, hereditary polyposis syndromes and
+      inflammatory bowel diseases (IBD). Since the study does not pose any additional risk to the
+      participants (the only thing which changes for the patient is that the endoscopic images from
+      colonoscopy and scope guide will be filmed), the enrollment can be done during consultation
+      hour, at the ward or shortly before a colonoscopy.
+
+      2.2 Recruitment, screening and informed consent procedure: Patients will be recruited by the
+      project team in the Department of Visceral Surgery and Medicine at the Inselspital. The
+      patient will be provided with information regarding the study. If the patient shows interest,
+      the investigator will explain the study protocol, answer questions and check inclusion and
+      exclusion criteria. For this study, no compensatory fee will be paid.
+
+      2.3 Study procedures: If the patient agrees to participate in the study and has signed the
+      informed consent the colonoscopy will be performed in the usual setting and using general
+      safety measures. The endoscopist will start filming all the phases of the colonoscopy and the
+      position of the scope-guide simultaneously. Both films will be uploaded to the local server
+      and then cut and analyzed with the help of iMovie. The only study procedure specific for the
+      study is the filming and no other study specific measures will be taken.
+
+      Basic parameters of patient history and colonoscopy procedure will be recorded (compare CRF).
+      As always, any findings of the colonoscopy will be reported to the participant/ patient after
+      the procedure.
+
+      2.4 Withdrawal and discontinuation: If an individual withdraws informed consent after the
+      colonoscopy or during the analysis of the data, he/she will be withdrawn from the project.
+      All videos will be anonymized. In case of withdrawal, patient data and videos will not be
+      considered for study purposes and will be deleted completely.
+
+      STATISTICS AND METHODOLOGY 3.1 Evaluation of Videos: All videos will be anonymized. Then the
+      percentage of visible mucosa and lumen during withdrawal will be determined in each video.
+      The scope-guide will allow to correlate the images with the position of the colonoscope
+      within the colon. The investigators will record the amount of time spend in colon segments
+      such as the cecum, ascending colon, right flexure, right transverse colon, left transverse
+      colon, left flexure, descending colon, sigma and rectum. For each of these segments, the
+      investigators will record the amount of time with good mucosa visibility and poor mucosa
+      visibility.
+
+      In addition to manual analysis, computer-aided analysis and artificial intelligence methods
+      will be developed to assist the evaluation of the videos. The development of computer-aided
+      methods consists of two phases. In the first phase, frames in the video will be extracted as
+      individual images. Experienced physicians will be assigned to annotate the images. The
+      position of the scope-guide will be extracted for the annotation. Then a classifier based on
+      deep neural network will be trained on these annotated images. The percentage of visible
+      mucosa and lumen during withdrawal will be determined in each video based on the
+      classification results of each individual frame. The classification according to the
+      scope-guide will allow to correlate the images with the position of the colonoscope within
+      the colon. The amount of time spending in colon segments such as the cecum, ascending colon,
+      right flexure, right transverse colon, left transverse colon, left flexure, descending colon,
+      sigma and rectum will be determined based on deep learning prediction results. Each frame
+      will be classified to good mucosa visibility and poor mucosa visibility and the amount of
+      time with good mucosa visibility and poor mucosa visibility of each of the segments will be
+      determined accordingly. In the second phase, videos will be analysed directly with deep
+      learning methods and the consistency between the frames will be explored during the analysis
+      to improve the accuracy.
+
+      The investigators will also analyse advancements of the endoscope from the anus to the cecum.
+      To this end, the time until each of the segments is reached will be recorded as well as all
+      loops which have formed within the colon.
+
+      3.2 Statistical analysis plan 3.2.1. Statistical evaluation of the primary endpoint For
+      evaluation of the primary endpoint (adenoma detection rate as a function of mucosa
+      visibility) the investigators will rank all investigations regarding mucosa visibility and
+      will divide the study population in 50% individuals with the best mucosa visibility and
+      compare this number to the 50% of individuals with the worst mucosa visibility. They will
+      compare the fraction of individuals with at least 1 detected adenoma to individuals without a
+      detected adenoma (Fisher exact test). They will subsequently use multivariate logistic
+      regression to correct for confounders (age, gender, family history of CRC, personal history
+      of adenomas, advanced adenomas, carcinomas, BMI and bowel preparation).
+
+      3.2.2. Power analysis Our study is exploratory and no proper power analysis is possible. To
+      provide an estimation the investigators assume that the effect of poor vs. good mucosa
+      visibility will be as good as the effect of one of a number of technical devices recently
+      tested in clinical studies to improve adenoma detection during colonoscopy. Such new
+      technical devices (NTDs) include mucosa caps attached to the tips of the endoscope which
+      flatten and stretch the mucosa or lenses to improve the field and angle of view. In a recent
+      meta-analysis, NTDs increased the odds of adenoma detection by 35% (odds ratio 1.35) 25. In a
+      screening colonoscopy, an adenoma detection rate of at least 20% would be expected 26 (i.e.
+      50 individuals with at least one adenoma among 250 individuals). In individuals with optimal
+      mucosa visibility, this number would be 35% higher (i.e. 68 in 250 individuals). According to
+      the power analysis using G* Power 3.1 27, 419 individuals would be needed to detect such a
+      difference (i.e. 20% vs. 27% adenoma detection) with a power of 80% at an alpha level of 5%.
+      The Investigators are aiming to include 500 individuals to account for an estimated 15% of
+      investigations which could not be evaluated due to incomplete examinations or technical
+      problems.
+
+      3.2.3 Statistical analysis of the secondary endpoints For the secondary outcomes, observed
+      effects and interactions will be statistically substantiated by parametric and non-parametric
+      tests and/ or multivariate analyses considering confounders as appropriate. A p-value &lt;0.05
+      will be considered significant.
+
+      3.3 Handling of missing data: The nature of this exploratory study allows for some tolerance
+      regarding missing data. Patients with incomplete or missing data/videos due to technical
+      problems will be excluded from the study.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 8, 2020</start_date>
+  <completion_date type="Anticipated">May 19, 2022</completion_date>
+  <primary_completion_date type="Anticipated">May 19, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Correlation of detection of at least one adenoma with the percentage of visualized mucosa</measure>
+    <time_frame>During the procedure</time_frame>
+    <description>The investigators will correlate the detection of at least one adenoma in the cohort of included patients with the percentage of visualized mucosa during the withdrawal of a colonoscopy. In the Analysis of the investigators, the ADR will be corrected for confounders (age, gender, family history of CRC, personal history of adenomas, advanced adenomas, carcinomas, BMI and bowel preparation).
+Mucosa visualization will be defined as the average of the visualized mucosa over all segments of the colon.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Correlation of the percentage of visualized mucosa (see above) with the number of polyps, number of adenomas, number of advanced adenomas</measure>
+    <time_frame>During the procedure</time_frame>
+    <description>Correlation of the percentage of visualized mucosa (see above) with the number of polyps, number of adenomas, number of advanced adenomas</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>In which segment of the colon is the visualization worst</measure>
+    <time_frame>During the procedure</time_frame>
+    <description>In which segment of the colon is the visualization worst</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Which factors influence the visualization of the colon mucosa</measure>
+    <time_frame>During the procedure</time_frame>
+    <description>Which factors influence the visualization of the colon mucosa (bowel preparation, withdrawal time, device (colonoscope) selection, water vs. air immersion technique, buscopan, fentanyl, change of position of patient (supine position, lateral position) etc.)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of visualized mucosa during training of a gastroenterology resident (learning curve)</measure>
+    <time_frame>During the procedure</time_frame>
+    <description>Change of visualized mucosa during training of a gastroenterology resident</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Differences in percentage visualized mucosa between individual board-certified gastroenterologists according to years of professional experience and numbers of previous endoscopies</measure>
+    <time_frame>During the procedure</time_frame>
+    <description>Differences in percentage visualized mucosa between individual board-certified gastroenterologists according to years of professional experience and numbers of previous endoscopies</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Differences in percentage of visualized mucosa in men vs. women</measure>
+    <time_frame>During the procedure</time_frame>
+    <description>Differences in percentage of visualized mucosa in men vs. women</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Speed of advancing the endoscope during the first phase of colonoscopy under the conditions mentioned above (bowel preparation, sedation parameters, position, gender, level of professional experience).</measure>
+    <time_frame>During the procedure</time_frame>
+    <description>Speed of advancing the endoscope during the first phase of colonoscopy</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Loops in the colon (alpha-loop, reverse alpha-loop, N-loop) during advancing the endoscope and the influence of the parameters described under outcome 8)</measure>
+    <time_frame>During the procedure</time_frame>
+    <description>Loops in the colon (alpha-loop, reverse alpha-loop, N-loop) during advancing the endoscope and the influence of the parameters described under outcome 8)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>9) The above mentioned primary and secondary end-points will also be assessed using automated image analysis algorithms and artificial intelligence</measure>
+    <time_frame>During the procedure</time_frame>
+    <description>9) The above mentioned primary and secondary end-points will also be assessed using automated image analysis algorithms and artificial intelligence</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Colonoscopy</condition>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Colonoscopy</intervention_name>
+    <description>Diagnostic colonoscopy will be performed</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Individuals undergoing colonoscopy at Dept. of Visceral Surgery and Medicine, Inselspital
+        Bern
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Signed informed consent.
+
+          -  Ability to understand and follow study procedures and understand informed consent.
+
+          -  Complete colonoscopy.
+
+          -  Age at least 18 years.
+
+        Exclusion Criteria:
+
+        - Participation in another clinical study interfering with study procedures.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Benjamin Misselwitz, Prof.</last_name>
+    <role>Study Director</role>
+    <affiliation>University Hospital Inselspital, Berne</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Benjamin Misselwitz, Prof.</last_name>
+    <phone>+41 31 632 5719</phone>
+    <email>benjamin.misselwitz@insel.ch</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Thrasyvoulos Gkrezios, MD</last_name>
+    <phone>+41 31 632 5940</phone>
+    <email>thrasyvoulos.gkrezios@insel.ch</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Inselspital</name>
+      <address>
+        <city>Bern</city>
+        <zip>3010</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Benjamin Misselwitz, Prof.</last_name>
+      <phone>+41316325719</phone>
+      <email>benjamin.misselwitz@insel.ch</email>
+    </contact>
+    <contact_backup>
+      <last_name>Thrasyvoulos Gkrezios, MD</last_name>
+      <phone>+41316325940</phone>
+      <email>thrasyvoulos.gkrezios@insel.ch</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <link>
+    <url>http://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitszustand/krankheiten/krebs/spezifische.html</url>
+    <description>(Swiss) Federal Statistical Office. Cancers in Switzerland.</description>
+  </link>
+  <reference>
+    <citation>Siegel RL, Miller KD, Jemal A. Cancer statistics, 2019. CA Cancer J Clin. 2019 Jan;69(1):7-34. doi: 10.3322/caac.21551. Epub 2019 Jan 8.</citation>
+    <PMID>30620402</PMID>
+  </reference>
+  <reference>
+    <citation>Schoen RE, Pinsky PF, Weissfeld JL, Yokochi LA, Church T, Laiyemo AO, Bresalier R, Andriole GL, Buys SS, Crawford ED, Fouad MN, Isaacs C, Johnson CC, Reding DJ, O'Brien B, Carrick DM, Wright P, Riley TL, Purdue MP, Izmirlian G, Kramer BS, Miller AB, Gohagan JK, Prorok PC, Berg CD; PLCO Project Team. Colorectal-cancer incidence and mortality with screening flexible sigmoidoscopy. N Engl J Med. 2012 Jun 21;366(25):2345-57. doi: 10.1056/NEJMoa1114635. Epub 2012 May 21.</citation>
+    <PMID>22612596</PMID>
+  </reference>
+  <reference>
+    <citation>Holme Ø, Løberg M, Kalager M, Bretthauer M, Hernán MA, Aas E, Eide TJ, Skovlund E, Schneede J, Tveit KM, Hoff G. Effect of flexible sigmoidoscopy screening on colorectal cancer incidence and mortality: a randomized clinical trial. JAMA. 2014 Aug 13;312(6):606-15. doi: 10.1001/jama.2014.8266. Erratum in: JAMA. 2014 Sep 3;312(9):964.</citation>
+    <PMID>25117129</PMID>
+  </reference>
+  <reference>
+    <citation>Peery AF, Dellon ES, Lund J, Crockett SD, McGowan CE, Bulsiewicz WJ, Gangarosa LM, Thiny MT, Stizenberg K, Morgan DR, Ringel Y, Kim HP, DiBonaventura MD, Carroll CF, Allen JK, Cook SF, Sandler RS, Kappelman MD, Shaheen NJ. Burden of gastrointestinal disease in the United States: 2012 update. Gastroenterology. 2012 Nov;143(5):1179-1187.e3. doi: 10.1053/j.gastro.2012.08.002. Epub 2012 Aug 8.</citation>
+    <PMID>22885331</PMID>
+  </reference>
+  <reference>
+    <citation>Sonnenberg A, Amorosi SL, Lacey MJ, Lieberman DA. Patterns of endoscopy in the United States: analysis of data from the Centers for Medicare and Medicaid Services and the National Endoscopic Database. Gastrointest Endosc. 2008 Mar;67(3):489-96. doi: 10.1016/j.gie.2007.08.041. Epub 2008 Jan 7.</citation>
+    <PMID>18179793</PMID>
+  </reference>
+  <reference>
+    <citation>Rex DK, Bond JH, Winawer S, Levin TR, Burt RW, Johnson DA, Kirk LM, Litlin S, Lieberman DA, Waye JD, Church J, Marshall JB, Riddell RH; U.S. Multi-Society Task Force on Colorectal Cancer. Quality in the technical performance of colonoscopy and the continuous quality improvement process for colonoscopy: recommendations of the U.S. Multi-Society Task Force on Colorectal Cancer. Am J Gastroenterol. 2002 Jun;97(6):1296-308.</citation>
+    <PMID>12094842</PMID>
+  </reference>
+  <reference>
+    <citation>Rees CJ, Thomas Gibson S, Rutter MD, Baragwanath P, Pullan R, Feeney M, Haslam N; British Society of Gastroenterology, the Joint Advisory Group on GI Endoscopy, the Association of Coloproctology of Great Britain and Ireland. UK key performance indicators and quality assurance standards for colonoscopy. Gut. 2016 Dec;65(12):1923-1929. doi: 10.1136/gutjnl-2016-312044. Epub 2016 Aug 16.</citation>
+    <PMID>27531829</PMID>
+  </reference>
+  <reference>
+    <citation>Rex DK, Schoenfeld PS, Cohen J, Pike IM, Adler DG, Fennerty MB, Lieb JG 2nd, Park WG, Rizk MK, Sawhney MS, Shaheen NJ, Wani S, Weinberg DS. Quality indicators for colonoscopy. Am J Gastroenterol. 2015 Jan;110(1):72-90. doi: 10.1038/ajg.2014.385. Epub 2014 Dec 2.</citation>
+    <PMID>25448873</PMID>
+  </reference>
+  <reference>
+    <citation>Lieberman D, Ladabaum U, Cruz-Correa M, Ginsburg C, Inadomi JM, Kim LS, Giardiello FM, Wender RC. Screening for Colorectal Cancer and Evolving Issues for Physicians and Patients: A Review. JAMA. 2016 Nov 22;316(20):2135-2145. doi: 10.1001/jama.2016.17418. Review.</citation>
+    <PMID>27893135</PMID>
+  </reference>
+  <reference>
+    <citation>Sulz MC, Kröger A, Prakash M, Manser CN, Heinrich H, Misselwitz B. Meta-Analysis of the Effect of Bowel Preparation on Adenoma Detection: Early Adenomas Affected Stronger than Advanced Adenomas. PLoS One. 2016 Jun 3;11(6):e0154149. doi: 10.1371/journal.pone.0154149. eCollection 2016.</citation>
+    <PMID>27257916</PMID>
+  </reference>
+  <reference>
+    <citation>Lebwohl B, Kastrinos F, Glick M, Rosenbaum AJ, Wang T, Neugut AI. The impact of suboptimal bowel preparation on adenoma miss rates and the factors associated with early repeat colonoscopy. Gastrointest Endosc. 2011 Jun;73(6):1207-14. doi: 10.1016/j.gie.2011.01.051. Epub 2011 Apr 8.</citation>
+    <PMID>21481857</PMID>
+  </reference>
+  <reference>
+    <citation>Calderwood AH, Schroy PC 3rd, Lieberman DA, Logan JR, Zurfluh M, Jacobson BC. Boston Bowel Preparation Scale scores provide a standardized definition of adequate for describing bowel cleanliness. Gastrointest Endosc. 2014 Aug;80(2):269-76. doi: 10.1016/j.gie.2014.01.031. Epub 2014 Mar 12.</citation>
+    <PMID>24629422</PMID>
+  </reference>
+  <reference>
+    <citation>Kluge MA, Williams JL, Wu CK, Jacobson BC, Schroy PC 3rd, Lieberman DA, Calderwood AH. Inadequate Boston Bowel Preparation Scale scores predict the risk of missed neoplasia on the next colonoscopy. Gastrointest Endosc. 2018 Mar;87(3):744-751. doi: 10.1016/j.gie.2017.06.012. Epub 2017 Jun 23.</citation>
+    <PMID>28648575</PMID>
+  </reference>
+  <reference>
+    <citation>Sawhney MS, Cury MS, Neeman N, Ngo LH, Lewis JM, Chuttani R, Pleskow DK, Aronson MD. Effect of institution-wide policy of colonoscopy withdrawal time &gt; or = 7 minutes on polyp detection. Gastroenterology. 2008 Dec;135(6):1892-8. doi: 10.1053/j.gastro.2008.08.024. Epub 2008 Aug 27.</citation>
+    <PMID>18835390</PMID>
+  </reference>
+  <reference>
+    <citation>Kaminski MF, Thomas-Gibson S, Bugajski M, Bretthauer M, Rees CJ, Dekker E, Hoff G, Jover R, Suchanek S, Ferlitsch M, Anderson J, Roesch T, Hultcranz R, Racz I, Kuipers EJ, Garborg K, East JE, Rupinski M, Seip B, Bennett C, Senore C, Minozzi S, Bisschops R, Domagk D, Valori R, Spada C, Hassan C, Dinis-Ribeiro M, Rutter MD. Performance measures for lower gastrointestinal endoscopy: a European Society of Gastrointestinal Endoscopy (ESGE) quality improvement initiative. United European Gastroenterol J. 2017 Apr;5(3):309-334. doi: 10.1177/2050640617700014. Epub 2017 Mar 16. Review.</citation>
+    <PMID>28507745</PMID>
+  </reference>
+  <reference>
+    <citation>Szura M, Bucki K, Matyja A, Kulig J. Evaluation of magnetic scope navigation in screening endoscopic examination of colorectal cancer. Surg Endosc. 2012 Mar;26(3):632-8. doi: 10.1007/s00464-011-1930-8. Epub 2011 Sep 30.</citation>
+    <PMID>21959687</PMID>
+  </reference>
+  <reference>
+    <citation>Corley DA, Levin TR, Doubeni CA. Adenoma detection rate and risk of colorectal cancer and death. N Engl J Med. 2014 Jun 26;370(26):2541. doi: 10.1056/NEJMc1405329.</citation>
+    <PMID>24963577</PMID>
+  </reference>
+  <reference>
+    <citation>Rex DK, Petrini JL, Baron TH, Chak A, Cohen J, Deal SE, Hoffman B, Jacobson BC, Mergener K, Petersen BT, Safdi MA, Faigel DO, Pike IM; ASGE/ACG Taskforce on Quality in Endoscopy. Quality indicators for colonoscopy. Am J Gastroenterol. 2006 Apr;101(4):873-85.</citation>
+    <PMID>16635231</PMID>
+  </reference>
+  <reference>
+    <citation>Kaminski MF, Regula J, Kraszewska E, Polkowski M, Wojciechowska U, Didkowska J, Zwierko M, Rupinski M, Nowacki MP, Butruk E. Quality indicators for colonoscopy and the risk of interval cancer. N Engl J Med. 2010 May 13;362(19):1795-803. doi: 10.1056/NEJMoa0907667.</citation>
+    <PMID>20463339</PMID>
+  </reference>
+  <reference>
+    <citation>van Rijn JC, Reitsma JB, Stoker J, Bossuyt PM, van Deventer SJ, Dekker E. Polyp miss rate determined by tandem colonoscopy: a systematic review. Am J Gastroenterol. 2006 Feb;101(2):343-50. Review.</citation>
+    <PMID>16454841</PMID>
+  </reference>
+  <reference>
+    <citation>Bressler B, Paszat LF, Chen Z, Rothwell DM, Vinden C, Rabeneck L. Rates of new or missed colorectal cancers after colonoscopy and their risk factors: a population-based analysis. Gastroenterology. 2007 Jan;132(1):96-102.</citation>
+    <PMID>17241863</PMID>
+  </reference>
+  <reference>
+    <citation>Iwatate M, Kitagawa T, Katayama Y, Tokutomi N, Ban S, Hattori S, Hasuike N, Sano W, Sano Y, Tamano M. Post-colonoscopy colorectal cancer rate in the era of high-definition colonoscopy. World J Gastroenterol. 2017 Nov 14;23(42):7609-7617. doi: 10.3748/wjg.v23.i42.7609.</citation>
+    <PMID>29204060</PMID>
+  </reference>
+  <reference>
+    <citation>Castaneda D, Popov VB, Verheyen E, Wander P, Gross SA. New technologies improve adenoma detection rate, adenoma miss rate, and polyp detection rate: a systematic review and meta-analysis. Gastrointest Endosc. 2018 Aug;88(2):209-222.e11. doi: 10.1016/j.gie.2018.03.022. Epub 2018 Apr 1. Review.</citation>
+    <PMID>29614263</PMID>
+  </reference>
+  <reference>
+    <citation>Faul F, Erdfelder E, Lang AG, Buchner A. G*Power 3: a flexible statistical power analysis program for the social, behavioral, and biomedical sciences. Behav Res Methods. 2007 May;39(2):175-91.</citation>
+    <PMID>17695343</PMID>
+  </reference>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>July 7, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 17, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 22, 2020</study_first_posted>
+  <last_update_submitted>July 17, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 17, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 22, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

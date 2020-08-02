@@ -1,0 +1,548 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02185521</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2917-05-12-433</org_study_id>
+    <nct_id>NCT02185521</nct_id>
+  </id_info>
+  <brief_title>Hemodynamic Instability Index: The Impact to Care With a New Predictive Indicator</brief_title>
+  <acronym>HII</acronym>
+  <official_title>Hemodynamic Instability Rules Based Advisor: The Impact to Care With a New Predictive Indicator (HIRBA 2.0)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Philips Healthcare</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Philips Electronics Nederland B.V. acting through Philips CTO organization</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Philips Healthcare</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Philips has developed a new algorithm, called Hemodynamic Instability Rules Based Advisor
+      (HIRBA 2.0) system, for the prediction of hemodynamic instability in critically ill patients,
+      who were not previously known to be at risk. This algorithm provides with the numerical index
+      - Hemodynamic Instability Index (HII) and its trend which are calculated from existing real
+      time data derived from patient's current hospital stay such as heart rate and blood pressure,
+      labs, and Admission - Discharge- Transfer (ADT) data to help healthcare providers obtain
+      information about patient's status and make clinical decisions.
+
+      The aim of the study is to determine if the patient clinical information, displayed in the
+      form of HII, can prompt possible patient hemodynamic status change and trigger earlier
+      clinical care team response. We hypothesize that this real-time information on hemodynamic
+      instability and earlier clinical decision making will lead to reduced length of stay (LOS)
+      and ICU mortality relative to standard care practice. Study will also identify if the use of
+      the Philips new algorithm called Hemodynamic Instability Rules Based Advisor (HIRBA 2.0) can
+      improve outcomes for patients admitted to the intensive care units (ICUs).
+
+      During this study, upon patient admission to the ICU clinical data collection will begin.
+      Data that will be pulled during the study includes: vital signs, medications, reason for
+      admission to the ICU, treatments that patient may receive.
+
+      Research subjects will not be asked to do anything as far as specific activities expected to
+      be accomplished during study participation. Subjects will be involved in the study only
+      during their stay in ICU. HII information will be visible to clinicians, taking care of this
+      patient only during his/ her stay in the study unit.
+
+      Study team will collect patient information and have the ability to view the HII for
+      subjects.
+
+      Once patient leaves the ICU the study team will collect information on the remainder of
+      patient's hospital course including date of hospital discharge. All collected data will be
+      then fully de-identified and released to Philips for analysis.
+    </textblock>
+  </brief_summary>
+  <overall_status>Terminated</overall_status>
+  <why_stopped>
+    Initial main phase completed but recruitment rate was too slow to continue.
+  </why_stopped>
+  <start_date type="Actual">March 1, 2016</start_date>
+  <completion_date type="Actual">November 18, 2016</completion_date>
+  <primary_completion_date type="Actual">November 18, 2016</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Intensive Care Unit (ICU) Length of Stay</measure>
+    <time_frame>From time of the study subject admission to the unit until the day of discharge of that same study subject from the unit, assessed up to 12 months.</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Intensive Care Unit (ICU) Mortality</measure>
+    <time_frame>From date of randomization of the study subject until the date of ICU discharge, an average of 6.7 days..</time_frame>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">127</enrollment>
+  <condition>Shock</condition>
+  <condition>Hemodynamic Instability</condition>
+  <arm_group>
+    <arm_group_label>visible HII - patient assessment</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Clinical team from study unit will observe the Hemodynamic Instability Index created by the HIRBA 2.0 system for individual subjects randomized into HII group arm.
+If the HII value will cross the threshold, indicative of hemodynamic deterioration, subject from the study arm will receive intervention: clinical assessment.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>patient assessment</intervention_name>
+    <description>Patient clinician status assessment based on Hemodynamic Instability Indicator (HII) trend. The HII indicator combines existing data such as physiologic parameters (Heart Rate, HR; Blood Pressure, BP), laboratory measurements (Albumin; Hematocrit, HCT; Bicarbonate; White Blood Cell, WBC; Blood Urea Nitrogen, BUN), and ADT information (age). HII will be displayed on charting workstation (Workstation on Wheels, WOW). Nurse's role will be to observe the value of HII while accessing WOW desktop (during regular charting), interpret HII value, and share this information to the physician when indicative of potential patient hemodynamic instability to trigger patient clinical status assessment. This intervention is associated with Experimental Study Arm: visible HII.</description>
+    <arm_group_label>visible HII - patient assessment</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All patients admitted to the study unit will be invited to participate in the study.
+
+          -  Study subject has to stay in study unit for at least 12 hours.
+
+        Exclusion Criteria:
+
+          -  Patients who were discharged from study unit earlier then 12 hours after admission.
+
+          -  Patients who are or become dependent on extracorporeal membrane oxygenation (ECMO)
+             support.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Grant V Bochicchio, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Mitchell M Levy, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Alpert Medical School of Brown University, Rhode Island Hospital, Providence RI</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Washington University in St. Louis School of Medicine, Department of Surgery, Section of Acute and Critical Care Surgery</name>
+      <address>
+        <city>Saint Louis</city>
+        <state>Missouri</state>
+        <zip>63110-1093</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Alpert Medical School of Brown University, Rhode Island Hospital, Medical Intensive Care Unit</name>
+      <address>
+        <city>Providence</city>
+        <state>Rhode Island</state>
+        <zip>02903</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2019</verification_date>
+  <study_first_submitted>June 24, 2014</study_first_submitted>
+  <study_first_submitted_qc>July 3, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 9, 2014</study_first_posted>
+  <results_first_submitted>January 29, 2019</results_first_submitted>
+  <results_first_submitted_qc>January 29, 2019</results_first_submitted_qc>
+  <results_first_posted type="Actual">May 7, 2019</results_first_posted>
+  <last_update_submitted>May 30, 2019</last_update_submitted>
+  <last_update_submitted_qc>May 30, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 11, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hemodynamics</keyword>
+  <keyword>Medical Informatics</keyword>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>All patients admitted to the surgical, trauma and burn ICU were evaluated for inclusion/exclusion criteria. Those who met eligibility were approached for informed consent. Legally Authorized Representatives (LAR's) were approached for patients who were too injured or ill to participate in the informed consent process.</recruitment_details>
+      <pre_assignment_details>If a Legally Authorized Representative (LAR) consented on behalf of the participant and later the participant had the capacity to self-consent and decided not to participate in the study, the participant was dropped from the study.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Visible HII - Patient Assessment</title>
+          <description>Clinical team from study unit will observe the Hemodynamic Instability Index created by the HIRBA 2.0 system.
+If the HII value will cross the threshold, indicative of hemodynamic deterioration, subject from the study arm will receive intervention: clinical assessment.
+Patient assessment: Patient clinician status assessment based on HII trend. The HII indicator combines existing data such as physiologic parameters (HR, BP), laboratory measurements (Albumin, HCT, Bicarbonate, WBC, BUN), and ADT information (age). HII will be displayed on charting workstation (WOW). Nurse's role will be to observe the value of HII while accessing WOW desktop (during regular charting), interpret HII value, and share this information to the physician when indicative of potential patient hemodynamic instability to trigger patient clinical status assessment. This intervention is associated with Experimental Study Arm: visible HII.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="127"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="125"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="2"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Withdrawal by Subject</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Protocol Violation</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Visible HII - Patient Assessment</title>
+          <description>Clinical team from study unit will observe the Hemodynamic Instability Index created by the HIRBA 2.0 system.
+If the HII value will cross the threshold, indicative of hemodynamic deterioration, subject from the study arm will receive intervention: clinical assessment.
+Patient assessment: Patient clinician status assessment based on HII trend. The HII indicator combines existing data such as physiologic parameters (HR, BP), laboratory measurements (Albumin, HCT, Bicarbonate, WBC, BUN), and ADT information (age). HII will be displayed on charting workstation (WOW). Nurse's role will be to observe the value of HII while accessing WOW desktop (during regular charting), interpret HII value, and share this information to the physician when indicative of potential patient hemodynamic instability to trigger patient clinical status assessment. This intervention is associated with Experimental Study Arm: visible HII.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="125"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Years</units>
+          <param>Mean</param>
+          <dispersion>Full Range</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="56" lower_limit="18" upper_limit="91"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="45"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="80"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Treatment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Intraveneous (IV) med (inotropes/pressors)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="57"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Intraveneous (IV) med weak</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="16"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Fluid resuscitation</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="97"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Packed Red Blood Cells (PRBC)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="69"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Any hemodynamic intervention</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="83"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>No hemodynamic interventions</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="16"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Surgical Type</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Elective</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="9"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Urgent/Emergent</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="81"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>N/A</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="34"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Monitoring - Arterial line</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="92"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Intensive Care Unit (ICU) Length of Stay</title>
+        <time_frame>From time of the study subject admission to the unit until the day of discharge of that same study subject from the unit, assessed up to 12 months.</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Visible HII - Patient Assessment</title>
+            <description>Clinical team from study unit will observe the Hemodynamic Instability Index created by the HIRBA 2.0 system for individual subjects randomized into HII group arm.
+If the HII value will cross the threshold, indicative of hemodynamic deterioration, subject from the study arm will receive intervention: clinical assessment.
+patient assessment: Patient clinician status assessment based on HII trend. The HII indicator combines existing data such as physiologic parameters (HR, BP), laboratory measurements (Albumin, HCT, Bicarbonate, WBC, BUN), and ADT information (age). HII will be displayed on charting workstation (WOW). Nurse's role will be to observe the value of HII while accessing WOW desktop (during regular charting), interpret HII value, and share this information to the physician when indicative of potential patient hemodynamic instability to trigger patient clinical status assessment. This intervention is associated with Experimental Study Arm: visible HII.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Intensive Care Unit (ICU) Length of Stay</title>
+          <units>days</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="125"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6.68" spread="9.57"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Intensive Care Unit (ICU) Mortality</title>
+        <time_frame>From date of randomization of the study subject until the date of ICU discharge, an average of 6.7 days..</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Visible HII - Patient Assessment</title>
+            <description>Clinical team from study unit will observe the Hemodynamic Instability Index created by the HIRBA 2.0 system.
+If the HII value will cross the threshold, indicative of hemodynamic deterioration, subject from the study arm will receive intervention: clinical assessment.
+Patient assessment: Patient clinician status assessment based on HII trend. The HII indicator combines existing data such as physiologic parameters (HR, BP), laboratory measurements (Albumin, HCT, Bicarbonate, WBC, BUN), and ADT information (age). HII will be displayed on charting workstation (WOW). Nurse's role will be to observe the value of HII while accessing WOW desktop (during regular charting), interpret HII value, and share this information to the physician when indicative of potential patient hemodynamic instability to trigger patient clinical status assessment. This intervention is associated with Experimental Study Arm: visible HII.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Intensive Care Unit (ICU) Mortality</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="125"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="12"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>9 months</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Visible HII - Patient Assessment</title>
+          <description>Clinical team from study unit will observe the Hemodynamic Instability Index created by the HIRBA 2.0 system.
+If the HII value will cross the threshold, indicative of hemodynamic deterioration, subject from the study arm will receive intervention: clinical assessment.
+Patient assessment: Patient clinician status assessment based on HII trend. The HII indicator combines existing data such as physiologic parameters (HR, BP), laboratory measurements (Albumin, HCT, Bicarbonate, WBC, BUN), and ADT information (age). HII will be displayed on charting workstation (WOW). Nurse's role will be to observe the value of HII while accessing WOW desktop (during regular charting), interpret HII value, and share this information to the physician when indicative of potential patient hemodynamic instability to trigger patient clinical status assessment. This intervention is associated with Experimental Study Arm: visible HII.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="12" subjects_at_risk="127"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="127"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="127"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>Slow recruitment led to early termination of the study; generalizability to other ICU settings; lack of further analyses due to small sample size and data collected (timing of intervention, morbidity, cost reduction).</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Dr. Szymon Bieganski</name_or_title>
+      <organization>Philips Healthcare</organization>
+      <phone>978-284-3271</phone>
+      <email>szymon.bieganski@philips.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

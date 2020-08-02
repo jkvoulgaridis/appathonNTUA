@@ -1,0 +1,181 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03974828</url>
+  </required_header>
+  <id_info>
+    <org_study_id>201905127</org_study_id>
+    <nct_id>NCT03974828</nct_id>
+  </id_info>
+  <brief_title>Telemedicine Notifications With Machine Learning for Postoperative Care</brief_title>
+  <acronym>ODIN-Report</acronym>
+  <official_title>Telemedicine Notifications With Machine Learning for Postoperative Care</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Washington University School of Medicine</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Washington University School of Medicine</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>Yes</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The ODIN-Report study will be a randomized controlled trial of the effect of providing
+      machine learning risk forecasts to providers caring for patients immediately after surgery on
+      serious complications. The complications studied will be ICU admission or death on wards,
+      acute kidney injury, and hospital length of stay.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This will be a single center, randomized, controlled, pragmatic clinical trial. The
+      investigators will screen surgical patients enrolled in TECTONICS (NCT03923699) and
+      randomized to intraoperative contact. Near the end of the operation, the investigators will
+      calculate the same machine learning risk forecasts of major complications as TECTONICS, and
+      enroll patients if all of the following are true: (1) No ICU admission is intended (2) ML
+      mortality risk forecast is in top 15% of historical PACU patients.
+
+      Patients will be randomized 1:1:1 to no contact, brief contact, and full contact. The
+      postoperative provider (PACU physician, anesthesiologist, ward clinician) will be notified
+      before arrival of the risk forecast in the contact groups, and in the full contact group an
+      additional set of explanatory ML outputs will be provided. The intention-to-treat principle
+      will be followed for all analyses.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">September 1, 2020</start_date>
+  <completion_date type="Anticipated">January 1, 2024</completion_date>
+  <primary_completion_date type="Anticipated">January 1, 2024</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>1:1:1 randomization between standard of care (no contact), postoperative contact (brief), postoperative contact (long).</intervention_model_description>
+    <primary_purpose>Other</primary_purpose>
+    <masking>Double (Participant, Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Unplanned ICU admission</measure>
+    <time_frame>7 days post-op</time_frame>
+    <description>Admission to a &quot;critical care&quot; bed regardless of rationale or duration at any point in the follow up time frame. Patients who expire without transfer to ICU will be marked as positive.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Acute Kidney Injury</measure>
+    <time_frame>7 days post-op</time_frame>
+    <description>Postoperative laboratory values and urine output will be used to calculate Kidney Disease Improving Global Outcomes grades of acute kidney injury. Where unavailable, baseline Glomerular filtration rate will be assumed to be age, sex, and body size normal.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hospital length of stay</measure>
+    <time_frame>30 days post-op</time_frame>
+    <description>The duration in days between end of anesthesia care and discharge from the performing hospital.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">3375</enrollment>
+  <condition>Surgery--Complications</condition>
+  <condition>Perioperative/Postoperative Complications</condition>
+  <condition>Acute Kidney Injury</condition>
+  <condition>Hospital Mortality</condition>
+  <arm_group>
+    <arm_group_label>Non-Contact</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Participants in the non-contact group will be monitored by anesthesia control tower clinicians who will utilize AlertWatch and integrating machine-learning forecasting algorithms for adverse outcomes predictions, but who will not contact the postoperative provider unless it is clinically necessary for patient safety purposes.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Brief contact</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>PACU and ward providers caring for participants in the brief contact group will be notified by Anesthesia Control Tower clinicians before arrival if the patient's forecast for mortality is in the top 15% of historical PACU patients. The notification will contain a brief summary of the patient's forecast risk of major adverse events.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Full contact</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>PACU and ward providers caring for participants in the full contact group will be notified by Anesthesia Control Tower clinicians before arrival if the patient's forecast for mortality is in the top 15% of historical PACU patients. The notification will contain a report card of the patient's forecast risk of major adverse events, explanatory machine-learning outputs, most influential pre- and intraoperative data, and predicted treatments.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Anesthesia Control Tower Notification</intervention_name>
+    <description>Real-time data will be monitored through the AlertWatch system as well as the electronic health record. Risk forecasts of adverse events (30 day mortality, acute kidney injury, postoperative delirium, respiratory failure), PACU length of stay, and hospital length of stay will be generated by a machine learning algorithm. Additional outputs identifying the most important predictors and their effects will be combined with risk forecasts to form a report card.</description>
+    <arm_group_label>Brief contact</arm_group_label>
+    <arm_group_label>Full contact</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Enrolled in TECTONICS Study (ID 201903026, NCT03923699), in OR randomized to contact
+
+          -  workweek hours
+
+          -  preoperative assessment completed
+
+          -  estimated risk of mortality in top 15% of historical PACU patients
+
+        Exclusion Criteria:
+
+          -  Not enrolled in TECTONICS Study
+
+          -  Operating room randomized to non-contact in TECTONICS
+
+          -  Planned ICU admission
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Christopher R King, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Sherry McKinnon, BS</last_name>
+    <phone>314-221-7764</phone>
+    <email>smckinnon@wustl.edu</email>
+  </overall_contact>
+  <verification_date>May 2020</verification_date>
+  <study_first_submitted>June 2, 2019</study_first_submitted>
+  <study_first_submitted_qc>June 4, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 5, 2019</study_first_posted>
+  <last_update_submitted>May 5, 2020</last_update_submitted>
+  <last_update_submitted_qc>May 5, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 7, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Washington University School of Medicine</investigator_affiliation>
+    <investigator_full_name>Christopher King</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Telemedicine</keyword>
+  <keyword>Anesthesia Control Tower</keyword>
+  <keyword>Machine Learning</keyword>
+  <keyword>Forecasting Algorithms</keyword>
+  <keyword>Randomized Controlled Trial</keyword>
+  <keyword>PACU</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Acute Kidney Injury</mesh_term>
+    <mesh_term>Postoperative Complications</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Anesthetics</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Data are a subset of TECTONICS and will be have the same sharing plan / restrictions.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

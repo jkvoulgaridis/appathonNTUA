@@ -1,0 +1,304 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04466059</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MLL_001</org_study_id>
+    <nct_id>NCT04466059</nct_id>
+  </id_info>
+  <brief_title>Better Leukemia Diagnostics Through AI (BELUGA)</brief_title>
+  <acronym>BELUGA</acronym>
+  <official_title>A Case-Control Study To Determine The Suitability Of Artificial Intelligence For Leukemia Diagnostics</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Munich Leukemia Laboratory</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Munich Leukemia Laboratory</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To the best of our knowledge, BELUGA will be the first prospective trial investigating the
+      usefulness of deep learning-based hematologic diagnostic algorithms. Taking advantage of an
+      unprecedented collection of diagnostic samples consisting of flow cytometry datapoints and
+      digitalized blood-smears, categorization of yet undiagnosed patient samples will
+      prospectively be compared to current state-of-the-art diagnosis at the Munich Leukemia
+      Laboratory (hereafter MLL). In total, a collection of 25,000 digitalized blood smears and
+      25,000 flow cytometry datapoints will be prospectively used to train an AI-based deep
+      neuronal network for correct categorization. Subsequently, the superiority will be challenged
+      for the primary endpoints: sensitivity and specificity of diagnosis, most probable diagnosis,
+      and time to diagnose. The secondary endpoints will compare the consequences regarding further
+      diagnostic work-up and, thus, clinical decision making between routine diagnosis and AI
+      guided diagnostics. BELUGA will set the stage for the introduction of AI-based hematologic
+      diagnostics in a real-world setting.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In numerous recent studies, deep neuronal networks (DNN) have been leveraged to examine the
+      usefulness of artificial intelligence (AI)-based DNN for diagnostic purposes. In essence,
+      they have successfully proved to recapitulate state-of-the-art diagnoses currently performed
+      by humans.
+
+      Specifically, the use of artificial intelligence for pattern recognition showed that DNN
+      could categorize complex and composite data points, chiefly images, with high fidelity to a
+      specific pathogenic condition or disease. The majority of these studies are primarily based
+      on extensive training sample collections that were categorized a priori. Subsequently, this
+      &quot;training&quot; provided the necessary input to classify newly delivered specimens into the
+      correct subgroups, frequently even outperforming independent human investigators. So far,
+      these studies have thus provided the rationale for the use of DNN in real-world diagnostics.
+      However, the prerequisite for using DNN in a real-world setting, where specimen sampling and
+      analysis would need to outperform human diagnosis prospectively, would be a blinded and
+      prospective trial. Currently, there is a lack of prospective data, therefore still
+      challenging the notion that DNN can outperform state-of-the-art human-based diagnostic
+      algorithms. Here we want to investigate the validity and usefulness of AI-based diagnostic
+      capabilities prospectively in a real-world setting.
+
+      Hematologic diagnostics heavily rely on multiple methodically distinct approaches, of which
+      phenotyping aberrant blood or bone marrow cells from affected patients represents a
+      cornerstone for all subsequent methods, such as chromosomal or molecular genetic analyses. At
+      the MLL, five different diagnostic pillars are required to provide diagnostic evidence for a
+      specific malignant blood disorder faithfully: cytomorphology and immunophenotyping first,
+      guiding more specific methods such as cytogenetics, FISH, and a diversity of molecular
+      genetic assays.
+
+      +++ Objectives +++
+
+      Phenotyping of blood cells is primarily based on two distinct challenges; (1) the
+      morphological appearance and abundance of specific cell types and (2) the presence of
+      particular lineage markers detected by flow cytometry. These two methods are critical for
+      each subsequent decision-making process and, thus ultimately, the final diagnosis.
+      Simultaneously, these two methods are ideally suited for automated analysis by DNN due to
+      their inherent image-based nature. This has been recently illustrated by a publication by
+      Marr and colleagues (Matek et al., 2019; https://doi.org/10.1038/s42256-019-0101-9)
+
+      In BELUGA, we want to investigate whether the automated analysis of blood (from peripheral
+      blood and bone marrow aspirates) smears and flow-cytometry-based analyses can provide a
+      benefit for diagnostic quality and, ultimately, patient care. Moreover, BELUGA will provide
+      evidence for the cooperative nature of image-based diagnostic tools for other pillars of
+      hematologic diagnostic decision making such as genetic and molecular genetic
+      characterization.
+
+      BELUGA, therefore, consists of three parts (A-C) (See Figure in the attached File). In A, we
+      want to train a DNN with an unprecedented collection of blood smears and flow-cytometry-based
+      data points collected during the course of 15 years. These samples consist of all
+      hematological malignancies currently identified and recognized by the current WHO
+      classification for hematologic malignancies. Due to the varying incidences of these entities,
+      the total number of training items varies from 1,000 to 20,000 for 15 years. However, we deem
+      this discrepancy a benefit to this trial's overall aims, because this diverse spectrum will
+      inform us on the number of training items needed for outperforming the state-of-the-art
+      diagnostics in cytomorphology or flow cytometry.
+
+      In part B, we will compare the overall performance of our trained DNN prospectively to new
+      yet undiagnosed samples arriving at our laboratory (see the main section for details). The
+      superiority of DNN based categorization will be challenged based on the pre-defined outcome
+      parameters accuracy with respect to state-of-the-art diagnostics, mismatch-rate, and time
+      needed to provide a diagnostic probability.
+
+      Lastly, in C, we will investigate the effects on faster and more accurate diagnostic power by
+      leveraging our trained DNN to aid downstream diagnostic methodologies such as chromosomal
+      analysis or panel sequencing of patient samples.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">August 1, 2020</start_date>
+  <completion_date type="Anticipated">July 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">July 31, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity and Specificity of AI Guided diagnostics in Hematology</measure>
+    <time_frame>08-01-2020 until 07-31-2021</time_frame>
+    <description>As a primary endpoint, we will examine the ability of DNN to classify disorders according to (after initial assessment disease/healthy) to the gold-standard diagnosis. The gold-standard diagnosis is defined as an integrated diagnosis, including cytomorphology, flow cytometry, cytogenetics, FISH, and molecular genetics. DNN will independently provide a bi-directional (probabilistic) diagnosis, with the most probable diagnosis. The primary analysis will include a direct comparison between the human cytomorphological examination and the pattern recognition software.
+Secondly, this result will be provided to downstream diagnostic departments to assess phenotypic diagnosis's usefulness for genetic characterization. We hypothesize that the turn-around time will be significantly enhanced, further providing quality at sooner timepoint.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>comparison of clinical consequences</measure>
+    <time_frame>08-01-2020 until 07-31-2021</time_frame>
+    <description>We will compare the clinical recommendation obtained after routine gold-standard diagnostics and after AI-guided categorization of all samples enrolled in this study</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>predictive diagnostic value</measure>
+    <time_frame>08-01-2020 until 07-31-2021</time_frame>
+    <description>We will assess the predictive value of unsupervised categorization and diagnosis in comparison to gold-standard routine testing.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>turn-around-time</measure>
+    <time_frame>08-01-2020 until 07-31-2021</time_frame>
+    <description>We will measure the turn-around-time of gold-standard diagnostics in comparison to AI-guided diagnosis.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>enumerate entity-specific benchmarks (e.g., blast count in leukemia) count)</measure>
+    <time_frame>08-01-2020 until 07-31-2021</time_frame>
+    <description>We will assess secondary disease specific values determined by AI/DNN based unsupervised diagnosis versus routine testing.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">25000</enrollment>
+  <condition>Hematologic Malignancy</condition>
+  <condition>Leukemia</condition>
+  <condition>Minimal Residual Disease</condition>
+  <condition>Lymphoma</condition>
+  <condition>Blood Cancer</condition>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Automated AI-Guided Diagnosis of Hematological Malignancies</intervention_name>
+    <description>In BELUGA, we want to investigate whether the automated analysis of blood (from peripheral blood and bone marrow aspirates) smears and flow-cytometry-based analyses can provide a benefit for diagnostic quality and, ultimately, patient care.</description>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      All samples used consist of bone marrow aspirates or peripheral blood sent to our diagnostic
+      laboratory for routine hematological testing.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The training cohort of BELUGA consists of 50,000 annotated samples for which
+        cytomorphological smears (25,000 samples) and immunophenotyping (25,000 samples) data
+        points have been collected. This cohort serves as a foundation for the DNN to perform
+        training. Our test cohort will consist of all samples for which cytomorphology and
+        immunophenotyping will be performed for one year.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients having been diagnosed with a suspected hematological disorder
+
+          -  The suspected diagnoses constitute a primary diagnosis
+
+          -  Only samples of patients min.18 years of age will be used
+
+          -  Samples must suffice quality attributes which are denoted in &quot;Exclusion Criteria&quot;
+
+        Exclusion Criteria:
+
+          -  The sample is not fit for state-of-the-art diagnosis or fails initial quality control.
+             For quality insurance, we will exclude samples in heparin- instead of EDTA. Samples
+             with damage due to atmospheric reasons (freeze-thaw damage or elevated temperature)
+             will be excluded.
+
+          -  Samples with too scarce material jeopardizing routine gold-standard diagnosis will be
+             excluded.
+
+          -  Bone marrow aspirates without sufficient material to assess malignant or healthy
+             hematopoiesis.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Wolfgang Kern, Prof. Dr.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>MLL Munich Leukemia Laboratory</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Adam Wahida, MD</last_name>
+    <phone>+49 (0)89 99017 338</phone>
+    <email>adam.wahida@mll.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Torsten Haferlach, Prof. Dr.Dr.</last_name>
+    <phone>+49 (0)89 99017 100</phone>
+    <email>torsten.haferlach@mll.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>MLL Munich Leukemia Laboratory</name>
+      <address>
+        <city>Munich</city>
+        <state>Bavaria</state>
+        <zip>81377</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Adam Wahida, MD</last_name>
+      <email>adam.wahida@mll.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Torsten Haferlach, Prof.Dr.Dr.</last_name>
+      <email>torsten.haferlach@mll.com</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+  </location_countries>
+  <link>
+    <url>https://doi.org/10.1038/s42256-019-0101-9</url>
+    <description>Related Info</description>
+  </link>
+  <link>
+    <url>https://publications.iarc.fr/Book-And-Report-Series/Who-Classification-Of-Tumours/WHO-Classification-Of-Tumours-Of-Haematopoietic-And-Lymphoid-Tissues-2017</url>
+    <description>WHO Classification of hematological malignancies according to Swerdlow et al.</description>
+  </link>
+  <link>
+    <url>https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9785/97853C/Automated-morphological-analysis-of-bone-marrow-cells-in-microscopic-images/10.1117/12.2216037.short</url>
+    <description>Related Info</description>
+  </link>
+  <link>
+    <url>https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9414/94143I/Automated-classification-of-bone-marrow-cells-in-microscopic-images-for/10.1117/12.2081946.short?webSyncID=9a28531a-b0d3-a6b0-3c97-c009b6bcd746&amp;sessionGUID=b80d8e8a-beea-ed6a-e05c-117aac5a9199</url>
+    <description>Related Info</description>
+  </link>
+  <results_reference>
+    <citation>Zhao M, Mallesh N, Höllein A, Schabath R, Haferlach C, Haferlach T, Elsner F, Lüling H, Krawitz P, Kern W. Hematologist-Level Classification of Mature B-Cell Neoplasm Using Deep Learning on Multiparameter Flow Cytometry Data. Cytometry A. 2020 Jun 9. doi: 10.1002/cyto.a.24159. [Epub ahead of print]</citation>
+    <PMID>32519455</PMID>
+  </results_reference>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>July 6, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 9, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 10, 2020</study_first_posted>
+  <last_update_submitted>July 13, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 13, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 15, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Munich Leukemia Laboratory</investigator_affiliation>
+    <investigator_full_name>Torsten Haferlach</investigator_full_name>
+    <investigator_title>Prof. Dr. Dr.</investigator_title>
+  </responsible_party>
+  <keyword>hematology</keyword>
+  <keyword>laboratory medicine</keyword>
+  <keyword>AI-based diagnostics</keyword>
+  <keyword>artificial intelligence</keyword>
+  <keyword>deep neuronal networks</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Leukemia</mesh_term>
+    <mesh_term>Hematologic Neoplasms</mesh_term>
+    <mesh_term>Neoplasm, Residual</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>July 9, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/59/NCT04466059/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

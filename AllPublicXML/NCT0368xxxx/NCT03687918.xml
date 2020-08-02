@@ -1,0 +1,250 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03687918</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DIJON-CAD</org_study_id>
+    <nct_id>NCT03687918</nct_id>
+  </id_info>
+  <brief_title>External Validation of Prostate MRI QCAD/Lyon</brief_title>
+  <acronym>DIJON-CAD</acronym>
+  <official_title>External Validation of a Quantitative Computer Aided Diagnostic (QCAD) System for Prostate mpMRI</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hospices Civils de Lyon</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hospices Civils de Lyon</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Multiparametric magnetic resonance imaging (mpMRI) of the prostate combines T2-weighted
+      imaging, diffusion-weighted imaging and dynamic contrast-enhanced imaging. Correlation with
+      radical prostatectomy specimens has demonstrated that mpMRI has excellent sensitivity in
+      detecting prostate cancers (PCa) with a Gleason score ≥7 and cancers with a Gleason 6 and a
+      volume ≥0.5 cc. Nevertheless, its specificity is poor and there is large overlapping between
+      the appearances of benign and malignant prostate lesions. As a result, the use of a 5-point
+      subjective score has been widely encouraged to describe the level of suspicion of prostate
+      lesions. This so-called 'Likert score' is a highly significant predictor of the malignant
+      nature of prostate focal lesions. However, because there are no descriptions of specific
+      criteria to be used in the scoring process, the Likert score relies heavily on the reader's
+      experience.
+
+      In an attempt to standardize mpMRI interpretation, the European Society of Urogenital
+      Radiology and the American College of Radiology recently endorsed the so-called Prostate
+      Imaging-Reporting and Data System (PIRADS) score. The second version of this scoring system
+      (PI-RADS v2 score) gave good results in characterizing prostate focal lesions. However,
+      Inter-reader agreement remains moderate at best, even after training, and there is still a
+      high-rate of false positives. These results have led some authors to suggest that there might
+      be structural limits to the ability of any score based on MR imaging to allow detection of
+      prostate cancer with high specificity.
+
+      Using quantitative magnetic resonance (MR) image features to characterize prostate lesions
+      seen on mpMRI could improve interpretation standardization, and recently, several
+      computer-aided diagnosis (CAD) systems combining various image features have shown promising
+      results in characterizing prostate tissues. However, most CAD systems have been trained and
+      evaluated on images from the same MR scanner. Unfortunately, quantification in MR imaging is
+      limited by substantial inter-manufacturer variability in the calculation of quantitative
+      image parameters. The quantitative thresholds defined for one manufacturer may therefore not
+      be valid for another manufacturer. Of the many reported CAD systems, only few have shown
+      robust results at cross-validation in datasets from different manufacturers.
+
+      We developed in Lyon a mpMRI CAD system for discriminating Gleason ≥7 cancers in the
+      peripheral zone (PZ). That CAD system was trained using mpMRI from patients treated by
+      radical prostatectomy. It combines the 10th percentile of the apparent diffusion coefficient
+      (ADC_10th) and the time to the peak of enhancement (TTP) at dynamic contrast-enhanced (DCE)
+      imaging. It provided good results when cross-validated in two datasets from two different
+      manufacturers (General Electric and Philips). We then tested the CAD on a cohort of 130
+      patients who underwent mpMRI (General Electric or Philips MR unit) before prostate biopsy.
+      Each MR lesion targeted at biopsy had prospectively received a Likert score of likelihood of
+      malignancy at the time of the biopsy. Retrospective analysis of these MR lesions with the CAD
+      showed that the stand-alone CAD outperformed the Likert score in predicting the presence of
+      Gleason ≥7 cancer at biopsy (Area under the receiver operating characteristic curve (AUC):
+      0.94 (95% confidence interval (95CI): 0.90-0.98 versus 0.81 (95CI: 0.75-0.88), p&lt;0.0002)).
+      These good results encourage us to perform an external validation of the CAD testing its
+      performance on mpMRI from another manufacturer (Siemens) and another institution.
+
+      The principal objective of the DIJON-CAD study is to evaluate the performances of the QCAD
+      developed in Lyon (QCAD/Lyon) in a cohort of consecutive patients treated by prostatectomy
+      and who underwent preoperative mpMRI on a Siemens 3 Tesla MR imager at the Dijon University
+      Hospital center or at the Dijon Cancer Center (both institutions share the same MR unit).
+      This study is the first step of the external validation of the QCAD/Lyon system. It is only
+      aimed at verifying that the diagnostic performance of the system is not very poor on external
+      mpMRI (which is a substantial risk). If the results are good, a proper multicentric
+      prospective validation study will be planned.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 1, 2018</start_date>
+  <completion_date type="Anticipated">October 1, 2018</completion_date>
+  <primary_completion_date type="Anticipated">September 30, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Area under the receiver operating characteristic curve for detection of Gleason ≥7 cancers (with 95% confidence interval)</measure>
+    <time_frame>4 months</time_frame>
+    <description>Each delineated lesion is characterized by its nature (&quot;benign&quot; or &quot;malignant&quot;) and, if malignant, by its Gleason score. For each lesion, the QCAD/Lyon score will be computed, and the AUC calculated.</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">80</enrollment>
+  <condition>Prostate Cancer</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Assessment of the performances of QCAD/Lyon in characterizing Gleason ≥7 cancers among contoured lesions</intervention_name>
+    <description>Principal Objective:
+To assess the performances of QCAD/Lyon (AUC and its 95% confidence interval) in characterizing Gleason ≥7 cancers among the lesions delineated on mpMRI from the Dijon University Hospital.
+Secondary Objectives:
+To compare the diagnostic performance (AUC) of QCAD/Lyon and of the Likert score
+To compare the diagnostic performance (AUC) of QCAD/Lyon and of the PIRADS v2 score
+To define the best combination of quantitative parameters in the Dijon cohort (if different from that defined in Lyon)</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients treated by prostatectomy in the department of Urology of the Dijon University
+        Hospital (Pr Luc Cormier)
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  male over 18 year-old
+
+          -  treated by prostatectomy for prostate cancer
+
+          -  who undergone a preoperative mpMRI at 3 Tesla at the Dijon University Hospital or at
+             the Dijon Cancer center
+
+          -  non opposition of the patient
+
+        Exclusion Criteria:
+
+        - Patients who received prior treatment for prostate cancer (hormonotherapy, external beam
+        radiation therapy, brachytherapy)
+      </textblock>
+    </criteria>
+    <gender>Male</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Olivier ROUVIERE, Pr</last_name>
+    <phone>04 72 11 04 00</phone>
+    <phone_ext>+33</phone_ext>
+    <email>GHC.ARC-IMAGERIE@chu-lyon.fr</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Department of pathology, CHU de Dijon</name>
+      <address>
+        <city>Dijon</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Department of radiology and nuclear medicine, Centre anti-cancéreux Georges-François Leclerc, Dijon</name>
+      <address>
+        <city>Dijon</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Department of radiology, CHU de Dijon</name>
+      <address>
+        <city>Dijon</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Department of urology, CHU de Dijon</name>
+      <address>
+        <city>Dijon</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Department of biostatistics, Université Joseph Fourrier</name>
+      <address>
+        <city>Grenoble</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Department of vascular and urinary imaging, hôpital Edouard Herriot, Hospices Civils de Lyon</name>
+      <address>
+        <city>Lyon</city>
+        <zip>69003</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Olivier ROUVIERE, Pr</last_name>
+      <phone>04 72 11 04 00</phone>
+      <phone_ext>+33</phone_ext>
+      <email>GHC.ARC-IMAGERIE@chu-lyon.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>LabTau, INSERM unit 1032, Lyon</name>
+      <address>
+        <city>Lyon</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>September 2018</verification_date>
+  <study_first_submitted>September 26, 2018</study_first_submitted>
+  <study_first_submitted_qc>September 26, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 27, 2018</study_first_posted>
+  <last_update_submitted>September 26, 2018</last_update_submitted>
+  <last_update_submitted_qc>September 26, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 27, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Prostatic Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

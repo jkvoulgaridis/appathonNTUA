@@ -1,0 +1,212 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04371679</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Covid-HO</org_study_id>
+    <nct_id>NCT04371679</nct_id>
+  </id_info>
+  <brief_title>Changes in Cardiac and Pulmonary Hemodynamics as Predictor of Outcome in Hospitalized COVID-19 Patients</brief_title>
+  <acronym>COVID-HO</acronym>
+  <official_title>Changes in Cardiac and Pulmonary Hemodynamics as Predictor of Outcome in Hospitalized COVID-19 Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hasselt University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hasselt University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The primary objective of the study is to evaluate cardiac and pulmonary hemodynamic changes
+      over time as predictor of disease progression and outcome in COVID-19 patients admitted to
+      ICU.
+
+      The primary endpoint is the occurrence of a major event predefined as either: death
+      (all-cause mortality) or discharge from ICU (limit of 4 months).
+
+      This is a uni-center prospective observational cohort study with an inclusion period of 2
+      months. The end of the study is foreseen in 6 months.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background COVID-19 can lead to a bilateral pneumonia overwhelming the lungs causing dyspnea
+      and respiratory distress. Up to 20% of the infected population is hospitalized and 5% is
+      submitted to the intensive care unit (ICU). Up to 31% of patients in ICU develop sepsis and
+      61% develop ARDS with a deadly outcome at ICU of 38%. While sepsis typically causes diffuse
+      vasodilation, the pulmonary vasculature resistance in ARDS is high. Although heart failure is
+      per definition not the cause of ARDS, the resulting elevated pressures in the pulmonary
+      circulation affect right and left heart function. Early detection in alterations of cardiac
+      and pulmonary hemodynamics might prompt to actions to prevent ARDS.
+
+      Primary objective To evaluate cardiac and pulmonary hemodynamic changes over time as
+      predictor of disease progression and outcome in COVID-19 patients admitted to ICU.
+
+      Secondary objective
+
+        -  Analysis of prognostic factors based on the data at initial presentation
+
+        -  Performing a trajectory analysis of the time course during ICU stay to determine what
+           leads to optimal outcome - gain insight in the pathophysiology of the cardio-pulmonary
+           evolution of COVID-19 pts
+
+        -  Feasibility study for the creation of an individualized expected data-trajectory for new
+           cases and continuously updating its visualization in relation to the expected trajectory
+           related to an improved outcome
+
+        -  Evaluate how Machine Learning, based on manifold learning for quantifying information
+           similarity and its temporal evolution, is able to predict outcome using rich data in a
+           limited number of patients Primary Endpoint
+
+      Occurrence of a major event predefined as either:
+
+        -  Death (all-cause mortality)
+
+        -  Discharge from ICU (limit of 4 months) Secondary Endpoint
+
+        -  Decrease of left ventricular (LV) function defined by LV global longitudinal strain
+           (GLS) &gt; 5% (absolute value) and LV S' as compared to the initial evaluation
+
+        -  Evolution of LV diastolic function related to prognosis - Doppler Data and ML
+           interpretation
+
+        -  Decrease of right ventricular (RV) function by RV GLS &gt; 5% (absolute values) or decrease
+           of RV S' to an absolute value &lt;9.5 cm/s
+
+        -  Dynamic RV response to PEEP maneuver to differentiate intrinsic RV dysfunction from
+           excessive PEEP.
+
+        -  Changes in pulmonary arterial compliance from RVOT-VTI and PASP Methods Uni-center
+           cohort study (Prospective Observational) Duration of the study Duration of the inclusion
+           period: 2 months Duration of participation for each patient: average 4 weeks until death
+           or discharge from ICU Duration of data processing and reports: 4 months Total duration
+           of the study: 6 months
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 1, 2020</start_date>
+  <completion_date type="Anticipated">December 1, 2020</completion_date>
+  <primary_completion_date type="Anticipated">October 1, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Death (all-cause mortality) or discharge from ICU (limit of 4 months)</measure>
+    <time_frame>4 months</time_frame>
+    <description>Covid-19 pneumonia that requires ICU admission can go either way.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">40</enrollment>
+  <condition>Covid-19</condition>
+  <arm_group>
+    <arm_group_label>Endotracheal intubation and ventilation</arm_group_label>
+    <description>Patients admitted at ICU that are intubated and ventilated</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Non-Invasive Ventilation</arm_group_label>
+    <description>Patients admitted at ICU who are non-invasively ventilated</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>No interventions planned</intervention_name>
+    <description>No interventions planned. Observational.</description>
+    <arm_group_label>Endotracheal intubation and ventilation</arm_group_label>
+    <arm_group_label>Non-Invasive Ventilation</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All consecutive COVID-19 positive patients that are admitted to the ICU
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patient admitted to ICU that is COVID-19 positive based on rt-PCR
+
+          -  Ventilated or not ventilated
+
+          -  No restrictions on age
+
+          -  No restrictions on comorbidities or a diversity of underlying pathology (malignancies,
+             COPD, …)
+
+        Exclusion Criteria:
+
+          -  Patients that are not COVID-19 tested (rt-PCR) or where the diagnosis is pending.
+
+          -  Patients that refuse their participation in the study.
+
+          -  Patients under legal protection, or deprived of their liberty.
+
+          -  Patients that are so critically ill that a minimum of 1 follow-up is very unlikely to
+             be realised
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Lieven Herbots, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Hartcentrum Hasselt</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Lieven Herbots, MD, PhD</last_name>
+    <phone>+3211309579</phone>
+    <email>Lieven.Herbots@jessazh.be</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Jessa Hospital</name>
+      <address>
+        <city>Hasselt</city>
+        <zip>3500</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Lieven Herbots</last_name>
+      <email>Lieven.Herbots@jessazh.be</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>April 30, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 30, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 1, 2020</study_first_posted>
+  <last_update_submitted>April 30, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 30, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 1, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Hasselt University</investigator_affiliation>
+    <investigator_full_name>prof. dr. Paul Dendale</investigator_full_name>
+    <investigator_title>Head of Cardiology</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

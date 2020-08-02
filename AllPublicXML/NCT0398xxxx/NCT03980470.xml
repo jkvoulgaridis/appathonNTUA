@@ -1,0 +1,206 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03980470</url>
+  </required_header>
+  <id_info>
+    <org_study_id>USZ-2019-00533</org_study_id>
+    <nct_id>NCT03980470</nct_id>
+  </id_info>
+  <brief_title>Deep-Learning Image Reconstruction in CCTA</brief_title>
+  <official_title>Usefulness of Deep-Learning Image Reconstruction for Cardiac Computed Tomography Angiography - a Prospective, Non-randomized Observational Trial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Zurich</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Zurich</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>Yes</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Cardiac CT allows the assessment of the heart and of the coronary arteries by use of ionising
+      radiation. Although radiation exposure was significantly reduced in recent years, further
+      decrease in radiation exposure is limited by increased image noise and deterioration in image
+      quality. Recent evidence suggests that further technological refinements with artificial
+      intelligence allows improved post-processing of images with reduction of image noise.
+
+      The present study aims at assessing the potential of a deep-learning image reconstruction
+      algorithm in a clinical setting. Specifically, after a standard clinical scan, patients are
+      scanned with lower radiation exposure and reconstructed with the DLIR algorithm. This
+      interventional scan is then compared to the standard clinical scan.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">May 3, 2019</start_date>
+  <completion_date type="Anticipated">September 30, 2019</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Subjective image quality as measured by Likert scale from 1 to 5, change from experimental interventional to the control intervention</measure>
+    <time_frame>Day 1</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Signal intensity as average hounsfield units within a region of interest in the aortic root, change from experimental interventional to the control intervention</measure>
+    <time_frame>Day 1</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Image noise as standard deviation of hounsfield units within a region of interest in the aortic root, change from experimental interventional to the control intervention</measure>
+    <time_frame>Day 1</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Signal-to-noise ratio and contrast-to-noise ratio, change from experimental interventional to the control intervention</measure>
+    <time_frame>Day 1</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Comparison of dose-length products and radiation exposure in mSv</measure>
+    <time_frame>Day 1</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Subjective analysis of plaque composition (calcified plaque, non-calcified plaque, mixed plaque) and lesion severity (below 50%, 50-70%, over 70%)</measure>
+    <time_frame>Day 1</time_frame>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Coronary Artery Disease</condition>
+  <arm_group>
+    <arm_group_label>Low-dose</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The experimental intervention is an additional CT scan with a lower dose (about 20 to 50% decrease) and a similar contrast agent administration that is reconstructed with a deep-learning image reconstruction immediately after the clinical CT scan. The additional time required is about 5 minutes.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Normal-dose</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>The control intervention consists of the routinely performed cardiac CT datasets reconstructed with a standard iterative reconstruction algorithm (ASIR-V). Median radiation dose is about 0.5 mSv, range between about 0.2 and 1.2 mSv; median contrast agent administration about 45 mL, range between 35 and 55 mL.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>TrueFidelity</intervention_name>
+    <description>TrueFidelity (Deep Learning Image Reconstruction, DLIR) software by GE Healthcare.
+The medical device in question is a novel reconstruction algorithm for raw CT data which is based on artificial intelligence approaches, namely deep-learning iterative reconstruction (DLIR). This DLIR algorithm will be installed on the console of the CT Revolution scanning device, which is in routine clinical use for cardiac CT scans at the Department of Nuclear Medicine at the University Hospital Zurich. Purpose of this installation is the assessment of the performance of the DLIR algorithm during a limited time span of six weeks.
+The algorithm will be CE-marked at the time of installation and use (statement by GE Healthcare provided separately). Its intended use is the reconstruction of CT datasets.
+Of note, the novel DLIR algorithm will not substitute any clinical routine procedures currently in use. That is, diagnosis will still be made using the standard reconstruction algorithms.</description>
+    <arm_group_label>Low-dose</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients referred for cardiac CT angiography
+
+          -  Age ≥ 18 years
+
+          -  Written informed consent
+
+        Exclusion Criteria:
+
+          -  Pregnancy or breast-feeding
+
+          -  Enrollment of the investigator, his/her family members, employees and other dependent
+             persons
+
+          -  Renal insufficiency (GFR below 35 mL/min/1.73 m²)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ronny R Buechel, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Director of Cardiac Imaging</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Valerie Treyer, PhD</last_name>
+    <phone>00412551111</phone>
+    <email>valerie.treyer@usz.ch</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>University Hospital</name>
+      <address>
+        <city>Zurich</city>
+        <zip>8091</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Valerie Treyer, PhD</last_name>
+      <email>valerie.treyer@usz.ch</email>
+    </contact>
+    <contact_backup>
+      <last_name>Ronny R Buechel, MD</last_name>
+      <phone>+41 44 255 10 59</phone>
+      <email>ronny.buechel@usz.ch</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Ronny R Buechel, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <results_reference>
+    <citation>Benz DC, Gräni C, Hirt Moch B, Mikulicic F, Vontobel J, Fuchs TA, Stehli J, Clerc OF, Possner M, Pazhenkottil AP, Gaemperli O, Buechel RR, Kaufmann PA. Minimized Radiation and Contrast Agent Exposure for Coronary Computed Tomography Angiography: First Clinical Experience on a Latest Generation 256-slice Scanner. Acad Radiol. 2016 Aug;23(8):1008-14. doi: 10.1016/j.acra.2016.03.015. Epub 2016 May 9.</citation>
+    <PMID>27174030</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Benz DC, Fuchs TA, Gräni C, Studer Bruengger AA, Clerc OF, Mikulicic F, Messerli M, Stehli J, Possner M, Pazhenkottil AP, Gaemperli O, Kaufmann PA, Buechel RR. Head-to-head comparison of adaptive statistical and model-based iterative reconstruction algorithms for submillisievert coronary CT angiography. Eur Heart J Cardiovasc Imaging. 2018 Feb 1;19(2):193-198. doi: 10.1093/ehjci/jex008.</citation>
+    <PMID>28200212</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Sahiner B, Pezeshk A, Hadjiiski LM, Wang X, Drukker K, Cha KH, Summers RM, Giger ML. Deep learning in medical imaging and radiation therapy. Med Phys. 2019 Jan;46(1):e1-e36. doi: 10.1002/mp.13264. Epub 2018 Nov 20. Review.</citation>
+    <PMID>30367497</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Toprak O. Conflicting and new risk factors for contrast induced nephropathy. J Urol. 2007 Dec;178(6):2277-83. Epub 2007 Oct 22. Review.</citation>
+    <PMID>17936812</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Benz DC, Gräni C, Hirt Moch B, Mikulicic F, Vontobel J, Fuchs TA, Stehli J, Clerc OF, Possner M, Pazhenkottil AP, Gaemperli O, Buechel RR, Kaufmann PA. A low-dose and an ultra-low-dose contrast agent protocol for coronary CT angiography in a clinical setting: quantitative and qualitative comparison to a standard dose protocol. Br J Radiol. 2017 Jun;90(1074):20160933. doi: 10.1259/bjr.20160933. Epub 2017 May 25.</citation>
+    <PMID>28406318</PMID>
+  </results_reference>
+  <verification_date>June 2019</verification_date>
+  <study_first_submitted>May 24, 2019</study_first_submitted>
+  <study_first_submitted_qc>June 6, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 10, 2019</study_first_posted>
+  <last_update_submitted>June 6, 2019</last_update_submitted>
+  <last_update_submitted_qc>June 6, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 10, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Zurich</investigator_affiliation>
+    <investigator_full_name>Ronny Buechel</investigator_full_name>
+    <investigator_title>PD Dr. med. Ronny R. Buechel</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronary Artery Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

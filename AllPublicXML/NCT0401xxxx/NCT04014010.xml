@@ -1,0 +1,314 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04014010</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1024251</org_study_id>
+    <nct_id>NCT04014010</nct_id>
+  </id_info>
+  <brief_title>Machine Learning Modeling of Intraoperative Hemodynamic Predictors of Postoperative Outcomes</brief_title>
+  <official_title>Machine Learning Modeling of Intraoperative Hemodynamic Predictors of 30-day Mortality and Major In-hospital Morbidity After Noncardiac Surgery: a Retrospective Population Cohort Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Janny Xue Chen Ke</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Dalhousie University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Harvard University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Toronto</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Ottawa</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Nova Scotia Health Authority</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      With population aging and limited resources, strategies to improve outcomes after surgery are
+      ever more important. There is a limited understanding of what ranges of hemodynamic variables
+      under anesthesia are associated with better outcomes. This retrospective cohort study will
+      analyze how hemodynamic variables during surgeries predict mortality, morbidity, Intensive
+      Care Unit admission, length of hospital stay, and hospital readmission. The use of machine
+      learning in a large, broad surgery population dataset could detect new relationships and
+      strategies that may inform current practice, and generate ideas for future research.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Lay Summary
+
+      Introduction: The World Health Organization estimates that 270-360 million operations are
+      performed every year worldwide. Death and complications after surgery are a big challenge. In
+      Canada, out of every 1000 major surgeries, 16 patients die in hospital after surgery. In the
+      United States, for every 1000 operations, 67 patients unexpectedly need life support in the
+      Intensive Care Unit. With population aging and limited resources, strategies to improve
+      health after surgery are ever more important.
+
+      Vital signs, such as blood pressure and heart rate, show how the body is doing. Vital signs
+      change during surgery because of patient, surgical, and anesthetic factors. Anesthesiologists
+      can change vital signs with medications. However, medical professionals are only starting to
+      understand which, and what ranges of, vital signs under anesthesia are associated with better
+      health. Machine learning is a tool that can provide new ways to understand data. With better
+      understanding, medical professionals can work to improve outcomes after surgery.
+
+      Objective: This study will analyze vital signs during surgeries for their links to death,
+      complications (heart, lung, kidney, brain, infection), Intensive Care Unit admission, length
+      of hospital stay, and hospital readmission. This study will determine which, and what levels
+      of, vital signs may be harmful. The investigators predict that blood pressure, heart rate,
+      oxygen level, carbon dioxide level, and the need for medications to change blood pressure
+      will interact to be associated with death after surgery.
+
+      Methods: After obtaining Research Ethics Board approval, the investigators will analyze data
+      from all patients who are at least 45 years old and had an operation (with the exception of
+      heart surgery) with an overnight stay at the Queen Elizabeth II health centre (Halifax,
+      Canada) from January 1, 2013 to December 1, 2017. There are approximately eligible 35,000
+      patients. The investigators will use machine learning to model the data and test how well our
+      model explains outcomes after surgery.
+
+      Significance: The use of machine learning in a large, broad surgery population dataset could
+      detect new relationships and strategies that may inform current practice, and generate ideas
+      for future research. A better understanding of the impact of vital signs during surgeries may
+      unveil methods to improve outcomes and resource allocation after surgery. The results may
+      suggest ways to identify high-risk patients who should be monitored more closely after
+      surgery. If the model performs well, it may motivate other researchers to use machine
+      learning in health data research.
+
+      Please see full protocol for details.
+
+      May 2020 update (prior to dataset aggregation and analysis)
+
+        1. Added secondary outcome (days alive and out of hospital at 30 days postoperatively)
+
+        2. Improved hemodynamic variable artifact processing algorithm
+
+        3. Added sub-study: machine learning for invasive blood pressure artifact removal algorithm
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 1, 2013</start_date>
+  <completion_date type="Actual">December 31, 2017</completion_date>
+  <primary_completion_date type="Actual">December 31, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Mortality</measure>
+    <time_frame>30 days after date of surgery</time_frame>
+    <description>All-cause postoperative mortality (yes/no)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>In-hospital Morbidity: Any</measure>
+    <time_frame>30 days after date of surgery</time_frame>
+    <description>Any complications in terms of cardiac, respiratory, renal, cerebrovascular, delirium, or septic shock (yes/no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>In-hospital Morbidity: Cardiac</measure>
+    <time_frame>30 days after date of surgery</time_frame>
+    <description>Composite of acute myocardial infarction, cardiac arrest, ventricular tachycardia, congestive heart failure, pulmonary edema, complete heart block, shock excluding septic shock (yes/no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>In-hospital Morbidity: Respiratory</measure>
+    <time_frame>30 days after date of surgery</time_frame>
+    <description>Composite of pneumonia, pulmonary embolism, acute respiratory failure, respiratory arrest, Mechanical Ventilation &gt;= 96 hours (yes/no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>In-hospital Morbidity: Acute Kidney Injury</measure>
+    <time_frame>30 days after date of surgery</time_frame>
+    <description>Acute Kidney Injury (yes/no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>In-hospital Morbidity: Cerebrovascular</measure>
+    <time_frame>30 days after date of surgery</time_frame>
+    <description>Composite of strokes and transient ischemic attacks (yes/no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>In-hospital Morbidity: Delirium</measure>
+    <time_frame>30 days after date of surgery</time_frame>
+    <description>Delirium (yes/no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>In-hospital Morbidity: Septic Shock</measure>
+    <time_frame>30 days after date of surgery</time_frame>
+    <description>Septic Shock (yes/no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Postoperative ICU admission</measure>
+    <time_frame>30 days after date of surgery</time_frame>
+    <description>ICU admission (yes/no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Prolonged Postoperative Length of Stay (LOS)</measure>
+    <time_frame>30 days after date of surgery</time_frame>
+    <description>Greater than vs. less than or equal to Canadian Institute of Health Information Expected Length of Stay (ELOS) as assigned by the Case Mix Grouping</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hospital readmission</measure>
+    <time_frame>30 days after date of surgery</time_frame>
+    <description>Hospital readmission (yes/no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intraoperative mortality</measure>
+    <time_frame>30 days after date of surgery</time_frame>
+    <description>Intraoperative mortality (yes/no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Days alive and out of hospital at 30 days postoperatively</measure>
+    <time_frame>30 days after date of surgery</time_frame>
+    <description>Number of days</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">35000</enrollment>
+  <condition>Perioperative/Postoperative Complications</condition>
+  <condition>Morbidity, Multiple</condition>
+  <condition>Surgery</condition>
+  <condition>Anesthesia</condition>
+  <condition>Death</condition>
+  <arm_group>
+    <arm_group_label>Cohort</arm_group_label>
+    <description>Patients ages ≥ 45 receiving their index (i.e. first) non-cardiac surgery with an overnight stay at the Nova Scotia Health Authority Queen Elizabeth II (QEII) hospitals (Victoria General and Halifax Infirmary) Halifax, Canada, from January 1, 2013 to December 1, 2017 will be included. Patients under going cardiac surgery or deceased organ donation will be excluded. Patients without an electronic anesthetic record during surgery will also be excluded. Preliminary analysis of the intraoperative database estimates approximately 35,000 patients in this cohort.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Blood pressure</intervention_name>
+    <description>Systolic Blood Pressure (SBP)
+Maximum change from preoperative SBP, in a) absolute change (mmHg), and b) relative change (%)(emergency and elective cases analyzed separately)
+Cumulative duration (minutes) &gt;=20% below preoperative SBP
+Longest single episode (minutes) below a) 80, b) 90, and c)100 mmHg
+Cumulative duration (minutes) below a) 80, b) 90, and c)100 mmHg
+Mean Arterial Pressure (MAP)
+Maximum change from preoperative MAP, in a) absolute change (mmHg), and b) relative change (%) (emergency and elective cases analyzed separately)
+Cumulative duration (minutes) &gt;=20% below preoperative MAP
+Longest single episode (minutes) below a) 60, b) 65, c) 70, and d) 80mmHg
+Cumulative duration (minutes) below a) 60, b) 65, c) 70, and d) 80mmHg</description>
+    <arm_group_label>Cohort</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Heart rate</intervention_name>
+    <description>Maximum change (beats per minute, BPM) from preoperative heart rate (positive and negative)
+Relative change (%) from preoperative heart rate (positive and negative)
+Maximum pulse variation (maximum heart rate minus minimum heart rate)
+Longest single episode (minutes) a) below 60, and b) above 100BPM
+Cumulative duration (minutes) a) below 60, and b) above 100BPM</description>
+    <arm_group_label>Cohort</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Use of hemodynamic medications (i.e. special medications for blood pressure)</intervention_name>
+    <description>Vasopressor/inotrope use (yes vs. no): phenylephrine, norepinephrine, epinephrine, vasopressin, dobutamine, or milrinone
+Infusion of any vasopressor/inotropes above (yes vs. no) (identified by unit of weight over time)
+Phenylephrine/ephedrine bolus (yes vs. no) (identified by unit of weight only)
+Vasodilator use (yes vs. no): labetalol, esmolol, nitroglycerin, nitroprusside
+Infusion of any vasodilator above (yes vs. no) (identified by unit of weight over time)</description>
+    <arm_group_label>Cohort</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Oxygen saturation by pulse oximetry (SpO2)</intervention_name>
+    <description>Longest single episode (minutes) below a) 88, and b) 90%
+Cumulative duration (minutes) below a) 88, and b) 90%</description>
+    <arm_group_label>Cohort</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>End-tidal Carbon dioxide (EtCO2)</intervention_name>
+    <description>Longest single episode (minutes) a) below 30, and b) above 45mmHg
+Cumulative duration (minutes) a) below 30, and b) above 45mmHg</description>
+    <arm_group_label>Cohort</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        For data analysis in summer 2019, we have access to mortality data up to December 31, 2017.
+        We chose December 1, 2017, as the last surgery date to be included, to allow for a complete
+        data set 30 days after surgery. January 1, 2013 was chosen to obtain a study period of 5
+        years.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All patients ages ≥ 45 receiving their index (i.e. first) non-cardiac surgery with an
+             overnight stay at the Nova Scotia Health Authority Queen Elizabeth II (QEII) hospitals
+             (Victoria General and Halifax Infirmary) Halifax, Canada, from January 1, 2013 to
+             December 1, 2017.
+
+          -  For patients who had multiple surgeries, only the first non-cardiac surgery with an
+             overnight stay at QEII will be included to avoid confounding from previous surgical
+             admissions (i.e. one surgical admission per patient).
+
+        Exclusion Criteria:
+
+          -  No intraoperative anesthetic records
+
+          -  Cardiac surgery patients
+
+          -  Deceased organ donation
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>45 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>July 7, 2019</study_first_submitted>
+  <study_first_submitted_qc>July 7, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 10, 2019</study_first_posted>
+  <last_update_submitted>June 27, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 27, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 30, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Nova Scotia Health Authority</investigator_affiliation>
+    <investigator_full_name>Janny Xue Chen Ke</investigator_full_name>
+    <investigator_title>Anesthesiology Resident</investigator_title>
+  </responsible_party>
+  <keyword>Perioperative</keyword>
+  <keyword>Anesthesia</keyword>
+  <keyword>Hemodynamics</keyword>
+  <keyword>Machine Learning</keyword>
+  <keyword>Non-cardiac Surgery</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Postoperative Complications</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>May 23, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/10/NCT04014010/Prot_SAP_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

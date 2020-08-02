@@ -1,0 +1,198 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04422548</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AI-CLN Study_Protocol</org_study_id>
+    <nct_id>NCT04422548</nct_id>
+  </id_info>
+  <brief_title>Does AI-assisted Colonoscopy Improve Adenoma Detection in Screening Colonoscopy?</brief_title>
+  <official_title>Does AI-assisted Colonoscopy Improve Adenoma Detection in Screening Colonoscopy? A Multi-center Randomized Controlled</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Chinese University of Hong Kong</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Chinese University of Hong Kong</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To date, there is a lack of large-scale randomized controlled study using AI assistance in
+      the detection of polyps/adenoma in a screening population. The correlation of fecal occult
+      blood test (FIT or FOBT) and the advantage of AI-assisted colonoscopy has not been
+      investigated. There is also a lack of information of the benefit of AI-assisted colonoscopy
+      in experienced colonoscopist versus trainee/resident.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      There are several studies showing that AI-assisted colonoscopy can help in identifying and
+      characterizing polyps found on colonoscopy.
+
+        -  Byrne et al demonstrated that their AI model for real-time assessment of endoscopic
+           video images of colorectal polyp can differentiate between hyperplastic diminutive
+           polyps vs adenomatous polyps with sensitivity of 98% and specificity of 83% (Byrne et
+           al. GUT 2019)
+
+        -  Urban et al designed and trained deep CNNs to detect polyps in archived video with a ROC
+           curve of 0.991 and accuracy of 96.4%. The total number of polyps identified is
+           significantly higher but mainly in the small (1-3mm and 4-6mm polyps) (Urban et al.
+           Gastroenterol 2018)
+
+        -  Wang et al conducted an open, non-blinded trial consecutive patients (n=1058)
+           prospectively randomized to undergo diagnostic colonoscopy with or without AI
+           assistance. They found that AI system increased ADR from 20.3% to 29.1% and the mean
+           number of adenomas per patients from 0.31 to 0.53. This was due to a higher number of
+           diminutive polyps found while there was no statistic difference in larger adenoma. (Wang
+           et al. GUT 2019). In this study, they excluded patients with IBD, CRC and colorectal
+           surgery. The patients presented with symptoms to hospital for investigation.
+
+      To date, there is a lack of large-scale randomized controlled study using AI assistance in
+      the detection of polyps/adenoma in a screening population. The correlation of fecal occult
+      blood test (FIT or FOBT) and the advantage of AI-assisted colonoscopy has not been
+      investigated. There is also a lack of information of the benefit of AI-assisted colonoscopy
+      in experienced colonoscopist versus trainee/resident.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">November 28, 2019</start_date>
+  <completion_date type="Anticipated">November 27, 2020</completion_date>
+  <primary_completion_date type="Anticipated">November 27, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Per-patient ADR in each group</measure>
+    <time_frame>12 months</time_frame>
+    <description>For the AI-Assisted group, it is defined as the number of patients with at least 1 adenoma identified in the colon divided by the total number of patients in the AI-Assisted group.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Per-patient ADR in each group</measure>
+    <time_frame>12 months</time_frame>
+    <description>For the Standard group, it is defined as the number of patients with at least 1 adenoma identified in the colon divided by the total number of patients in the Standard group.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">2994</enrollment>
+  <condition>Screening Colonoscopy</condition>
+  <arm_group>
+    <arm_group_label>AI-assisted Group</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>AI-assisted Colonoscopy</intervention_name>
+    <description>This is a multi-center prospective randomized controlled study comparing real-time AI-assisted colonoscopy versus standard colonoscopy in a real-life setting.</description>
+    <arm_group_label>AI-assisted Group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Standard Colonoscopy</intervention_name>
+    <description>Standard Colonoscopy</description>
+    <arm_group_label>Standard</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria
+
+          -  Patients receiving colonoscopy screening
+
+          -  Patients aged 45-75 years
+
+          -  Both patients who have or have not done a FIT test and both FIT +ve and FIT -ve
+             subjects
+
+        Exclusion Criteria
+
+          -  Patients who have symptom(s) suggestive of colorectal diseases
+
+          -  Patients who have a history of inflammatory bowel disease, colorectal cancer or
+             polyposis syndrome (anaemia, bloody stool, tenesmus and obstructive symptoms)
+
+          -  Patients who had colonoscopy or other investigation of colon and rectum in the past 10
+             years
+
+          -  Patients who had surgery for colorectal diseases
+
+          -  Patients who cannot tolerate bowel preparation or have suboptimal bowel preparations
+             (Boston Bowel Preparation Scale)
+
+          -  Cannot reach caecum
+
+          -  Patients who are incompetent in giving informed consent
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>45 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Andrew Ming Yeung HO</last_name>
+    <phone>26371398</phone>
+    <email>andrewho@cuhk.edu.hk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Thomas Yuen Tung LAM</last_name>
+    <phone>26370355</phone>
+    <email>thomaslam@cuhk.edu.hk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Prince of Wales Hospital</name>
+      <address>
+        <city>Hong Kong</city>
+        <country>Hong Kong</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ming Yeung HO</last_name>
+      <phone>26371398</phone>
+      <email>andrewho@cuhk.edu.hk</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Hong Kong</country>
+  </location_countries>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>June 5, 2020</study_first_submitted>
+  <study_first_submitted_qc>June 8, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 9, 2020</study_first_posted>
+  <last_update_submitted>July 14, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 14, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 16, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Chinese University of Hong Kong</investigator_affiliation>
+    <investigator_full_name>Joseph JY SUNG</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Adenoma</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,267 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03590899</url>
+  </required_header>
+  <id_info>
+    <org_study_id>VESDEN-OCTA-1253</org_study_id>
+    <nct_id>NCT03590899</nct_id>
+  </id_info>
+  <brief_title>Semi-manual Vessel Density Analysis on Optical Coherence Tomography Angiography Images of Healthy Adults</brief_title>
+  <official_title>Semi-manual Vessel Density Analysis on Optical Coherence Tomography Angiography Images of Healthy Adults</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Semmelweis University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Semmelweis University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Purpose of the study is to examine the vessel density of healthy adults' optical coherence
+      tomography angiography images with two semi-manual methods and an automated quantification
+      program.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Optical coherence tomography angiography (OCTA) is a software upgrade on conventional
+      spectral-domain or swept-source optical coherence tomography devices that enables
+      non-invasive, dye-free, three dimensional analysis of the retinal vessels.
+
+      Vessel density is a very important parameter almost in all retinal disorders. In the recent
+      past, automated quantification software was built into some OCTA devices which can
+      automatically calculate the retinal vessel density as well.
+
+      In this study two semi-manual techniques are used in order to analyze the vessel density of
+      healthy subjects' OCTA images. Vessel density is also measured with a new automated
+      quantification program, and results of the three methods are compared.
+
+      OCT machines are approved in the EU and the US and are not experimental devices.
+
+      The device used in this study is the commercially available Zeiss Cirrus HD OCT Angioplex
+      5000 that operates with spectral-domain technology.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">February 1, 2017</start_date>
+  <completion_date type="Anticipated">March 2020</completion_date>
+  <primary_completion_date type="Anticipated">March 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Vessel density (VD) measured by Mexican Hat filtering technique</measure>
+    <time_frame>Through study completion, 1 year</time_frame>
+    <description>Following standard OCTA imaging with Zeiss Cirrus Angioplex, images are transferred to ImageJ and proportion of the vessels and the total image area (white pixels2/total number of pixels2) is calculated using Mexican Hat filtering technique.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Skeleton density (SD) measured by Mexican Hat filtering technique</measure>
+    <time_frame>Through study completion, 1 year</time_frame>
+    <description>Following standard OCTA imaging with Zeiss Cirrus Angioplex, images are transferred to ImageJ and length of blood vessels (white skeletonized pixels/total number of pixels2) is calculated using Mexican Hat filtering technique.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Vessel diameter index (VDI) measured by Mexican Hat filtering technique</measure>
+    <time_frame>Through study completion, 1 year</time_frame>
+    <description>Represents the average vessel caliber (two dimensional white pixels in the binarized image/one dimensional white pixels in the skeletonized image or VD/SD) using Mexican Hat filtering technique.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Vessel density (VD) measured by Shanbag tresholding technique</measure>
+    <time_frame>Through study completion, 1 year</time_frame>
+    <description>Following standard OCTA imaging with Zeiss Cirrus Angioplex, images are transferred to ImageJ and proportion of the vessels and the total image area (white pixels2/total number of pixels2) is calculated using Shanbag tresholding technique.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Skeleton density (SD) measured by Shanbag tresholding technique</measure>
+    <time_frame>Through study completion, 1 year</time_frame>
+    <description>Following standard OCTA imaging with Zeiss Cirrus Angioplex, images are transferred to ImageJ and length of blood vessels (white skeletonized pixels/total number of pixels2) is calculated using Shanbag tresholding technique.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Vessel diameter index (VDI) measured by Shanbag tresholding technique</measure>
+    <time_frame>Through study completion, 1 year</time_frame>
+    <description>Represents the average vessel caliber (two dimensional white pixels in the binarized image/one dimensional white pixels in the skeletonized image or VD/SD) using Shanbag tresholding technique.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Vessel density (VD) measured by Angioplex Metrix</measure>
+    <time_frame>Through study completion, 1 year</time_frame>
+    <description>Following standard OCTA imaging with Zeiss Cirrus Angioplex measurement is done by built-in non-disclosed VD algorithm owned by Zeiss.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Skeleton density (SD) measured by Angioplex Metrix</measure>
+    <time_frame>Through study completion, 1 year</time_frame>
+    <description>Following standard OCTA imaging with Zeiss Cirrus Angioplex measurement done by built-in non-disclosed SD algorithm owned by Zeiss.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Comparison of results obtained by the three quantification techniques</measure>
+    <time_frame>Through study completion, 1 year</time_frame>
+    <description>Comparison of VD and SD (see above) obtained by Mexican Hat filtering technique, Shanbag tresholding technique and built-in Zeiss proprietary algorithm.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">39</enrollment>
+  <condition>Healthy</condition>
+  <arm_group>
+    <arm_group_label>Healthy patients</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Optical coherence tomography angiography (Zeiss Cirrus HD OCT 5000 AngioPlex)</intervention_name>
+    <description>Non-invasive, non-contact optical coherence tomography angiography scans of the retina are done per built-in device protocol using the Zeiss Cirrus HD OCT 5000 AngioPlex machine.</description>
+    <arm_group_label>Healthy patients</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        White Caucasian
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  healthy patients without eye disease
+
+        Exclusion Criteria:
+
+          -  incapacity
+
+          -  any history or clinical evidence of retinal disease or glaucoma
+
+          -  previous ocular surgery or laser photocoagulation
+
+          -  optical media opacities that would disturb imaging
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>99 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Miklós Schneider, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Semmelweis University, Department of Ophthalmology</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Semmelweis University, Department of Ophthalmology</name>
+      <address>
+        <city>Budapest</city>
+        <zip>1085</zip>
+        <country>Hungary</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Hungary</country>
+  </location_countries>
+  <reference>
+    <citation>Spaide RF, Klancnik JM Jr, Cooney MJ. Retinal vascular layers imaged by fluorescein angiography and optical coherence tomography angiography. JAMA Ophthalmol. 2015 Jan;133(1):45-50. doi: 10.1001/jamaophthalmol.2014.3616.</citation>
+    <PMID>25317632</PMID>
+  </reference>
+  <reference>
+    <citation>Kashani AH, Chen CL, Gahm JK, Zheng F, Richter GM, Rosenfeld PJ, Shi Y, Wang RK. Optical coherence tomography angiography: A comprehensive review of current methods and clinical applications. Prog Retin Eye Res. 2017 Sep;60:66-100. doi: 10.1016/j.preteyeres.2017.07.002. Epub 2017 Jul 29. Review.</citation>
+    <PMID>28760677</PMID>
+  </reference>
+  <reference>
+    <citation>Coscas F, Sellam A, Glacet-Bernard A, Jung C, Goudot M, Miere A, Souied EH. Normative Data for Vascular Density in Superficial and Deep Capillary Plexuses of Healthy Adults Assessed by Optical Coherence Tomography Angiography. Invest Ophthalmol Vis Sci. 2016 Jul 1;57(9):OCT211-23. doi: 10.1167/iovs.15-18793.</citation>
+    <PMID>27409475</PMID>
+  </reference>
+  <reference>
+    <citation>Corvi F, Pellegrini M, Erba S, Cozzi M, Staurenghi G, Giani A. Reproducibility of Vessel Density, Fractal Dimension, and Foveal Avascular Zone Using 7 Different Optical Coherence Tomography Angiography Devices. Am J Ophthalmol. 2018 Feb;186:25-31. doi: 10.1016/j.ajo.2017.11.011. Epub 2017 Nov 21.</citation>
+    <PMID>29169882</PMID>
+  </reference>
+  <reference>
+    <citation>Matsunaga D, Yi J, Puliafito CA, Kashani AH. OCT angiography in healthy human subjects. Ophthalmic Surg Lasers Imaging Retina. 2014 Nov-Dec;45(6):510-5. doi: 10.3928/23258160-20141118-04.</citation>
+    <PMID>25423629</PMID>
+  </reference>
+  <reference>
+    <citation>Tan PE, Balaratnasingam C, Xu J, Mammo Z, Han SX, Mackenzie P, Kirker AW, Albiani D, Merkur AB, Sarunic MV, Yu DY. Quantitative Comparison of Retinal Capillary Images Derived By Speckle Variance Optical Coherence Tomography With Histology. Invest Ophthalmol Vis Sci. 2015 Jun;56(6):3989-96. doi: 10.1167/iovs.14-15879.</citation>
+    <PMID>26098464</PMID>
+  </reference>
+  <reference>
+    <citation>Lupidi M, Coscas F, Cagini C, Fiore T, Spaccini E, Fruttini D, Coscas G. Automated Quantitative Analysis of Retinal Microvasculature in Normal Eyes on Optical Coherence Tomography Angiography. Am J Ophthalmol. 2016 Sep;169:9-23. doi: 10.1016/j.ajo.2016.06.008. Epub 2016 Jun 11.</citation>
+    <PMID>27296485</PMID>
+  </reference>
+  <reference>
+    <citation>Weinhaus RS, Burke JM, Delori FC, Snodderly DM. Comparison of fluorescein angiography with microvascular anatomy of macaque retinas. Exp Eye Res. 1995 Jul;61(1):1-16.</citation>
+    <PMID>7556462</PMID>
+  </reference>
+  <reference>
+    <citation>Mendis KR, Balaratnasingam C, Yu P, Barry CJ, McAllister IL, Cringle SJ, Yu DY. Correlation of histologic and clinical images to determine the diagnostic value of fluorescein angiography for studying retinal capillary detail. Invest Ophthalmol Vis Sci. 2010 Nov;51(11):5864-9. doi: 10.1167/iovs.10-5333. Epub 2010 May 26.</citation>
+    <PMID>20505200</PMID>
+  </reference>
+  <reference>
+    <citation>Agrawal R, Xin W, Keane PA, Chhablani J, Agarwal A. Optical coherence tomography angiography: a non-invasive tool to image end-arterial system. Expert Rev Med Devices. 2016 Jun;13(6):519-21. doi: 10.1080/17434440.2016.1186540. Epub 2016 May 25.</citation>
+    <PMID>27176114</PMID>
+  </reference>
+  <reference>
+    <citation>Munk MR, Giannakaki-Zimmermann H, Berger L, Huf W, Ebneter A, Wolf S, Zinkernagel MS. OCT-angiography: A qualitative and quantitative comparison of 4 OCT-A devices. PLoS One. 2017 May 10;12(5):e0177059. doi: 10.1371/journal.pone.0177059. eCollection 2017.</citation>
+    <PMID>28489918</PMID>
+  </reference>
+  <reference>
+    <citation>Zudaire E, Gambardella L, Kurcz C, Vermeren S. A computational tool for quantitative analysis of vascular networks. PLoS One. 2011;6(11):e27385. doi: 10.1371/journal.pone.0027385. Epub 2011 Nov 16.</citation>
+    <PMID>22110636</PMID>
+  </reference>
+  <reference>
+    <citation>Reif R, Qin J, An L, Zhi Z, Dziennis S, Wang R. Quantifying optical microangiography images obtained from a spectral domain optical coherence tomography system. Int J Biomed Imaging. 2012;2012:509783. doi: 10.1155/2012/509783. Epub 2012 Jun 26.</citation>
+    <PMID>22792084</PMID>
+  </reference>
+  <reference>
+    <citation>De Vitis LA, Benatti L, Tomasso L, Baldin G, Carnevali A, Querques L, Querques G, Bandello F. Comparison of the Performance of Two Different Spectral-Domain Optical Coherence Tomography Angiography Devices in Clinical Practice. Ophthalmic Res. 2016;56(3):155-62. doi: 10.1159/000447094. Epub 2016 Jul 12.</citation>
+    <PMID>27399271</PMID>
+  </reference>
+  <reference>
+    <citation>Shin JW, Sung KR, Lee JY, Kwon J, Seong M. Optical coherence tomography angiography vessel density mapping at various retinal layers in healthy and normal tension glaucoma eyes. Graefes Arch Clin Exp Ophthalmol. 2017 Jun;255(6):1193-1202. doi: 10.1007/s00417-017-3671-4. Epub 2017 Apr 20.</citation>
+    <PMID>28429123</PMID>
+  </reference>
+  <reference>
+    <citation>Choi J, Kwon J, Shin JW, Lee J, Lee S, Kook MS. Quantitative optical coherence tomography angiography of macular vascular structure and foveal avascular zone in glaucoma. PLoS One. 2017 Sep 21;12(9):e0184948. doi: 10.1371/journal.pone.0184948. eCollection 2017.</citation>
+    <PMID>28934255</PMID>
+  </reference>
+  <reference>
+    <citation>Gadde SG, Anegondi N, Bhanushali D, Chidambara L, Yadav NK, Khurana A, Sinha Roy A. Quantification of Vessel Density in Retinal Optical Coherence Tomography Angiography Images Using Local Fractal Dimension. Invest Ophthalmol Vis Sci. 2016 Jan 1;57(1):246-52. doi: 10.1167/iovs.15-18287.</citation>
+    <PMID>26803800</PMID>
+  </reference>
+  <reference>
+    <citation>Al-Sheikh M, Ghasemi Falavarjani K, Akil H, Sadda SR. Impact of image quality on OCT angiography based quantitative measurements. Int J Retina Vitreous. 2017 May 15;3:13. doi: 10.1186/s40942-017-0068-9. eCollection 2017.</citation>
+    <PMID>28515959</PMID>
+  </reference>
+  <reference>
+    <citation>Schneider CA, Rasband WS, Eliceiri KW. NIH Image to ImageJ: 25 years of image analysis. Nat Methods. 2012 Jul;9(7):671-5.</citation>
+    <PMID>22930834</PMID>
+  </reference>
+  <reference>
+    <citation>Kim AY, Chu Z, Shahidzadeh A, Wang RK, Puliafito CA, Kashani AH. Quantifying Microvascular Density and Morphology in Diabetic Retinopathy Using Spectral-Domain Optical Coherence Tomography Angiography. Invest Ophthalmol Vis Sci. 2016 Jul 1;57(9):OCT362-70. doi: 10.1167/iovs.15-18904.</citation>
+    <PMID>27409494</PMID>
+  </reference>
+  <verification_date>September 2019</verification_date>
+  <study_first_submitted>June 13, 2018</study_first_submitted>
+  <study_first_submitted_qc>July 17, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 18, 2018</study_first_posted>
+  <last_update_submitted>September 22, 2019</last_update_submitted>
+  <last_update_submitted_qc>September 22, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 24, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Semmelweis University</investigator_affiliation>
+    <investigator_full_name>Miklos Schneider MD, PhD</investigator_full_name>
+    <investigator_title>Principal Investigator, Assistant Professor of Ophthalmology, Head of General Outpatient Unit</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

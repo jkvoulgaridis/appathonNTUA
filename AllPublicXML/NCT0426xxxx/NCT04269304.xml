@@ -1,0 +1,463 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04269304</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRAS - 256931</org_study_id>
+    <secondary_id>47270</secondary_id>
+    <secondary_id>210572/Z/18/Z</secondary_id>
+    <nct_id>NCT04269304</nct_id>
+  </id_info>
+  <brief_title>Deciphering AMD by Deep Phenotyping and Machine Learning- Prospective Study - PINNACLE</brief_title>
+  <acronym>PINNACLE</acronym>
+  <official_title>Deciphering AMD by Deep Phenotyping and Machine Learning- Prospective Study - PINNACLE</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Southampton</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University College, London</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Imperial College London</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Basel</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Medical University of Vienna</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Michigan</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Southampton</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      We will conduct a prospective non-interventional study including 400 early AMD patients (=600
+      untreated early AMD eyes, including both unilateral (AREDS IV) and bilateral (≥AREDS II))
+      over 3 years to specifically investigate the morphological sequence of events preceding the
+      conversion towards late AMD. All patients will be followed by OCT imaging every 4 months to
+      detect the earliest focal sites of disease progression. As soon as focal areas of change are
+      observed by the VRC, a targeted follow-up schedule will be triggered to investigate the
+      events at that area of change in a targeted manner.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      We will recruit patients with 1) intermediate AMD in one eye and advanced AMD in the
+      non-study eye or 2) patients with bilateral intermediate AMD (where both eyes will be
+      included). As some participants are symptomless at the stage of intermediate AMD, we will
+      recruit from hospital databases including imaging databases and ophthalmology and optometry
+      practices and engagement with Patient Societies e.g. the Macular Society and patient public
+      involvement meetings.
+
+      There will be four clinical sites performing detailed assessments on 50 patients each and, to
+      increase sample size, an additional eight referral sites in the UK who will each enrol and
+      follow 25 study patients by SD-OCT every 4 months. The acquired images from these referral
+      sites will be sent to the Vienna Reading Centre for morphological identification of focal
+      events. If a focal event is detected, participants will then be referred for a detailed,
+      targeted assessment at either the University of Southampton or Moorfields Eye Hospital as
+      detailed below.
+
+      After consent, patients will undergo visual function tests (ETDRS visual acuity,
+      microperimetry) and multimodal imaging including fundus photographs, OCT scans, OCT
+      angiography, autofluorescence and adaptive optics imaging. The visual function tests will be
+      repeated annually and the multimodal imaging will be done at 4 monthly intervals for 3 years.
+      Blood will be taken at the first visit for DNA analysis.
+
+      200 patients (main cohort) will undergo dense retinal phenotyping at 10 visits. Medical and
+      smoking history, genotype and body mass index will also be included in the analysis as has
+      been done previously. As well as structural tests, functional tests will be performed at
+      baseline and end of the study using both microperimetry (a type of visual field test to
+      create a &quot;retinal sensitivity map&quot; of the quantity of light perceived in specific parts of
+      the retina) to identify focal changes and low luminance visual acuity to assess global
+      changes. To increase sample size but make the study feasible an additional 200 patients at UK
+      referral sites will undergo 4 monthly OCT and be referred to Southampton / Moorfields for
+      dense phenotyping only if a focal event is detected by OCT.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 28, 2019</start_date>
+  <completion_date type="Anticipated">December 2024</completion_date>
+  <primary_completion_date type="Anticipated">December 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity / specificity of OCT and autofluorescence parameters.</measure>
+    <time_frame>3 years</time_frame>
+    <description>Identified by machine learning (ML) at predicting disease progression defined as focal conversion towards advanced AMD e.g. change in drusen volume, development of new geographic atrophy / choroidal neovascularisation.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity / specificity of novel imaging characteristics</measure>
+    <time_frame>3 years</time_frame>
+    <description>For example, AO-OCT, OCT-A, at predicting disease progression; ROC curves; time from development of imaging change to development of these end-points; structure-function correlation; structure-genotype correlation; predictive risk models.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">400</enrollment>
+  <condition>Age-related Macular Degeneration</condition>
+  <arm_group>
+    <arm_group_label>Observational</arm_group_label>
+    <description>Intermediate Age-Related Macular Degeneration Patients</description>
+  </arm_group>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      DNA for genotype analysis.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with 1) intermediate AMD in one eye and advanced AMD in the non-study eye or 2)
+        patients with bilateral intermediate AMD (where both eyes will be included).
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Subjects ≥ 55 years with either intermediate AMD (as defined by Ferris et al PMID:
+             23332590) in both eyes, i.e. large drusen &gt; 125 um and/or any definite hyper- or
+             hypopigmentary abnormalities associated with medium or large drusen; or intermediate
+             AMD as defined above in one eye (study eye) and advanced AMD (geographic atrophy or
+             choroidal neovascularization secondary to AMD) in the other eye.
+
+          -  Subjects should have media clarity and pupillary dilation for adequate imaging and
+             functional tests.
+
+        Exclusion Criteria:
+
+          -  Co-existent ocular disease, which might affect visual function or retinal morphology
+
+          -  Established glaucoma in either study eye or fellow eye with evidence of visual field
+             loss or retinal nerve fibre loss (ocular hypertension is not an exclusion criterion
+             unless associated with visual field loss or retinal nerve fibre loss in either eye).
+
+          -  Cataract sufficient to affect retinal imaging
+
+          -  Myopia &gt; minus 6 diopters or a history of myopia &gt; minus 6 diopters if patient has had
+             cataract / refractive surgery.
+
+          -  Major ocular surgery 3 months prior or anticipated within the next 6 months following
+             enrolment.
+
+          -  Taking drugs known to cause retinal toxicity such as hydroxychloroquine or tamoxifen
+
+          -  OCT evidence of geographic atrophy (or complete RPE and outer retinal atrophy (cRORA).
+             This is (1) a region of hypertransmission of at least 250 mm in diameter, (2) a zone
+             of attenuation or disruption of the RPE of at least 250 mm in diameter, (3) evidence
+             of overlying photoreceptor degeneration, and (4) absence of scrolled RPE or other
+             signs of an RPE tear.
+
+          -  OCT evidence of choroidal neovascularization e.g sub-retinal scar tissue, sub-retinal
+             fluid or intra-retinal fluid associated with a pigment epithelial detachment
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>55 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Andrew J Lotery, Prof</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Southampton</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Andrew J Lotery, Prof</last_name>
+    <phone>023 8120 5049</phone>
+    <phone_ext>5049</phone_ext>
+    <email>A.J.Lotery@soton.ac.uk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>PINNACLE email address Sutton/Wilson, BSc</last_name>
+    <phone>023 8120 5240</phone>
+    <phone_ext>5240</phone_ext>
+    <email>pinnacle@soton.ac.uk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Medical University of Vienna</name>
+      <address>
+        <city>Vienna</city>
+        <zip>1090</zip>
+        <country>Austria</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Sophie Riedl</last_name>
+      <phone>+43 (0)1 40400 79240</phone>
+      <email>sophie.riedl@meduniwien.ac.at</email>
+    </contact>
+    <investigator>
+      <last_name>Ursula Schmidt-Erfurth, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>University Hospital Basel</name>
+      <address>
+        <city>Basel</city>
+        <zip>4031</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ghislaine L Traber, MD</last_name>
+      <phone>+41 (0) 61 265 78 88</phone>
+      <email>ghislaine.traber@usb.ch</email>
+    </contact>
+    <contact_backup>
+      <last_name>Daniela Hauenstein</last_name>
+      <phone>+41 61 265 87 18</phone>
+      <email>Daniela.Hauenstein@usb.ch</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Hendrik Scholl, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>The Princess Alexandra Hospital Nhs Foundation Trust</name>
+      <address>
+        <city>Harlow</city>
+        <state>Essex</state>
+        <zip>CM20 1QX</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Naima Barbar</last_name>
+      <email>n.babar@nhs.net</email>
+    </contact>
+    <investigator>
+      <last_name>Priya Prakash, FRCOphth</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Portsmouth Hospitals Nhs Trust</name>
+      <address>
+        <city>Portsmouth</city>
+        <state>Hampshire</state>
+        <zip>PO6 3LY</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Ian Gedge</last_name>
+      <email>Ian.Gedge@porthosp.nhs.uk</email>
+    </contact>
+    <investigator>
+      <last_name>Adam Booth, FRCOphth</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>University Hospital Southampton</name>
+      <address>
+        <city>Southampton</city>
+        <state>Hampshire</state>
+        <zip>SO16 6YD</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Catrin Watkins, Ms</last_name>
+      <phone>023 8120 4606</phone>
+      <phone_ext>4606</phone_ext>
+      <email>Catrin.Watkins@uhs.nhs.uk</email>
+    </contact>
+    <contact_backup>
+      <last_name>Magdalena Ansari, Ms</last_name>
+      <phone>023 8120 4606</phone>
+      <phone_ext>4606</phone_ext>
+      <email>Magdalena.Ansari@uhs.nhs.uk</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Andrew J Lotery, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Frimley Health Nhs Foundation Trust</name>
+      <address>
+        <city>Frimley</city>
+        <state>Surrey</state>
+        <zip>GU16 7UJ</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Clare Denford</last_name>
+      <phone>01276 522522</phone>
+      <phone_ext>2522</phone_ext>
+      <email>clare.denford@nhs.net</email>
+    </contact>
+    <investigator>
+      <last_name>Geeta Menon, FRCOphth</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Salisbury Nhs Foundation Trust</name>
+      <address>
+        <city>Salisbury</city>
+        <state>Wiltshire</state>
+        <zip>SP2 8BJ</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Louise Bell</last_name>
+      <phone>01722 425026</phone>
+      <phone_ext>2026</phone_ext>
+      <email>lbell1@nhs.net</email>
+    </contact>
+    <investigator>
+      <last_name>Rashi Arora, FRCOphth</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>University Hospitals Bristol Nhs Foundation Trust</name>
+      <address>
+        <city>Bristol</city>
+        <zip>BS1 3NU</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Eleanor Hiscott</last_name>
+      <email>Eleanor.Hiscott@UHBristol.nhs.uk</email>
+    </contact>
+    <investigator>
+      <last_name>Clare Bailey, FRCOphth</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Moorfields Eye Hospital</name>
+      <address>
+        <city>London</city>
+        <zip>EC1V 2PD</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ayse Barnes, Ms</last_name>
+      <phone>0207 566 2109</phone>
+      <email>ayse.barnes1@nhs.net</email>
+    </contact>
+    <investigator>
+      <last_name>Sobha Sivaprasad, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Royal Free London Nhs Foundation Trust</name>
+      <address>
+        <city>London</city>
+        <zip>NW3 2QG</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Anne-Marie Preston</last_name>
+      <phone>07867 780838</phone>
+      <email>anne-marie.preston@nhs.net</email>
+    </contact>
+    <investigator>
+      <last_name>Martin Harris, FRCOphth</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Guy'S and St Thomas' Nhs Ft</name>
+      <address>
+        <city>London</city>
+        <zip>SE1 9RT</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Christina Armoogum</last_name>
+      <phone>020 7188 7188</phone>
+      <phone_ext>51199</phone_ext>
+      <email>Christina.Armoogum@gstt.nhs.uk</email>
+    </contact>
+    <investigator>
+      <last_name>Samantha Mann, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Austria</country>
+    <country>Switzerland</country>
+    <country>United Kingdom</country>
+  </location_countries>
+  <link>
+    <url>https://www.uhs.nhs.uk/ClinicalResearchinSouthampton/Public-and-patients/Opt-out-of-research.aspx</url>
+    <description>Research opt out process for PINNACLE</description>
+  </link>
+  <verification_date>February 2020</verification_date>
+  <study_first_submitted>February 11, 2020</study_first_submitted>
+  <study_first_submitted_qc>February 11, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 13, 2020</study_first_posted>
+  <last_update_submitted>February 11, 2020</last_update_submitted>
+  <last_update_submitted_qc>February 11, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 13, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Macular Degeneration</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Information can be made available on application to the Trial Management Group.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

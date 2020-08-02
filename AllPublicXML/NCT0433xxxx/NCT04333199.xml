@@ -1,0 +1,211 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04333199</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020-0316</org_study_id>
+    <nct_id>NCT04333199</nct_id>
+  </id_info>
+  <brief_title>Timely Nudge About Lab Results to Increase myGeisinger Uptake</brief_title>
+  <official_title>Nudging myGeisinger Enrollment Using Timely Email Messaging Reminding Patients of Lab Results Available</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Geisinger Clinic</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Geisinger Clinic</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of the current study is to test whether sending email communications in a timely
+      manner - when patients have laboratory results available to view on the myGeisinger patient
+      portal - increases enrollment in the portal.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Online patient portals are convenient tools that improve patient access to healthcare
+      services while often reducing burden to both patients and providers. However, many patients
+      have not enrolled in such portals, including Geisinger's patient portal, known as
+      myGeisinger.
+
+      The purpose of the current study is to test whether sending myGeisinger enrollment
+      information in a timely manner - when the benefits of enrolling are most readily available -
+      increases enrollment. Specifically, messages will be timely in terms of lab test results
+      having just been made available online, with the added benefit that patients can view their
+      results prior to receiving them via mail. Unenrolled patients who recently had a laboratory
+      procedure ordered and whose results are now ready for sharing will be informed via email that
+      their lab results are available. At the same time, these patients will be reminded that these
+      results can be viewed online through myGeisinger.
+
+      The primary outcome measure of interest, myGeisinger enrollment rates, will be compared
+      between the emailed population and a control group that similarly has lab results available
+      but will not be contacted. In addition, two different versions of the email communication
+      will be tested. One will highlight that the patient will have to go through a sign-up process
+      before viewing test results (in the service of transparency). The other will provide a
+      presumed direct link to view those results, via a button that potentially serves as a
+      pre-commitment step to undergo the registration process (&quot;foot in the door&quot; effect).
+      Secondary analyses will assess differences in enrollment rates as well as unsubscribe rates
+      between the email versions. Exploratory analyses will further examine differences in the
+      rates at which patients opened and clicked on enrollment links within the two emails.
+      Statistical analyses will employ generalized linear models with a binary distribution and
+      log-link function.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">May 18, 2020</start_date>
+  <completion_date type="Actual">July 1, 2020</completion_date>
+  <primary_completion_date type="Actual">June 8, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Enrollment - timely email (combined email arms) vs. no intervention</measure>
+    <time_frame>1 week post-intervention</time_frame>
+    <description>Patient enrolled in myGeisinger (yes / no)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Enrollment - email including a &quot;get started&quot; button vs. a &quot;view results&quot; button</measure>
+    <time_frame>1 week post-intervention</time_frame>
+    <description>Patient enrolled in myGeisinger (yes / no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Email opened - email including a &quot;get started&quot; button vs. a &quot;view results&quot; button</measure>
+    <time_frame>1 week post-intervention</time_frame>
+    <description>Email was opened (yes / no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Link clicked - email including a &quot;get started&quot; button vs. a &quot;view results&quot; button</measure>
+    <time_frame>1 week post-intervention</time_frame>
+    <description>Link / button to start the enrollment process was clicked (yes / no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Unsubscribed - email including a &quot;get started&quot; button vs. a &quot;view results&quot; button</measure>
+    <time_frame>1 week post-intervention</time_frame>
+    <description>Patient unsubscribed from these email communications (yes / no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Enrollment - timely email (combined email arms) vs. no intervention</measure>
+    <time_frame>1 month post-intervention</time_frame>
+    <description>Patient enrolled in myGeisinger (yes / no)</description>
+  </secondary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Actual">4616</enrollment>
+  <condition>Telehealth</condition>
+  <condition>Health Behavior</condition>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <description>Patients do not receive an email</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Timely nudge - view results</arm_group_label>
+    <description>Patients are emailed about myGeisinger when they have a lab result ready to view. The email includes a &quot;View My Lab Results&quot; button, which encourages them to click as a pre-commitment step that then brings them to the myGeisinger sign-up page.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Timely nudge - get started</arm_group_label>
+    <description>Patients are emailed about myGeisinger when they have a lab result ready to view. The email includes a &quot;Get Started With myGeisinger&quot; button that is transparent about the next step in the process, before the patient can view test results.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Timely</intervention_name>
+    <description>Email</description>
+    <arm_group_label>Timely nudge - get started</arm_group_label>
+    <arm_group_label>Timely nudge - view results</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Transparency</intervention_name>
+    <description>Email</description>
+    <arm_group_label>Timely nudge - get started</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Foot-in-the-door</intervention_name>
+    <description>Email</description>
+    <arm_group_label>Timely nudge - view results</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The population consists of Geisinger patients who are not enrolled in myGeisinger, for whom
+        a lab was ordered within 30 days prior to email date, and whose lab test result was
+        released to myGeisinger the day before the email date.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Geisinger patient for whom a lab was ordered within 30 days prior to email date
+
+          -  Patient's lab test result released day before email date
+
+        Exclusion Criteria:
+
+          -  Patient already enrolled in myGeisinger
+
+          -  Patient has already declined myGeisinger
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Amir Goren, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Geisinger Clinic</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Geisinger</name>
+      <address>
+        <city>Danville</city>
+        <state>Pennsylvania</state>
+        <zip>17822</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>April 1, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 1, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 3, 2020</study_first_posted>
+  <last_update_submitted>July 17, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 17, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 21, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Geisinger Clinic</investigator_affiliation>
+    <investigator_full_name>Amir Goren</investigator_full_name>
+    <investigator_title>Program Director, Behavioral Insights Team</investigator_title>
+  </responsible_party>
+  <keyword>Behavioral Economics</keyword>
+  <keyword>Patient Portal</keyword>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Data with no personally identifiable information will be made available to other researchers on the Open Science Framework for transparency. This will include the essential data and code needed to replicate the analysis that yielded reported findings.</ipd_description>
+    <ipd_info_type>Analytic Code</ipd_info_type>
+    <ipd_time_frame>The data will become available after publication of study results in a scientific journal and will be available as long as the Open Science Framework hosts the data.</ipd_time_frame>
+    <ipd_access_criteria>The data on the Open Science Framework will be open to anyone requesting that information.</ipd_access_criteria>
+    <ipd_url>http://osf.io</ipd_url>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

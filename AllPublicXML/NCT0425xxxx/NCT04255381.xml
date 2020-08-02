@@ -1,0 +1,248 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04255381</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1609018413</org_study_id>
+    <nct_id>NCT04255381</nct_id>
+  </id_info>
+  <brief_title>Yale-Harvard Hotel-based Closed-Loop Studies in Children (HY-GRAID)</brief_title>
+  <acronym>HY-GRAID</acronym>
+  <official_title>Yale-Harvard Hotel-based Closed-Loop Studies in Children (HY-GRAID)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Yale University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Harvard University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Yale University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of this clinical study is to determine the feasibility, safety, and preliminary
+      effectiveness of the Zone-Model Predictive Control Artificial Pancreas (ZMPC_AP) system in
+      pediatric subjects with type 1 diabetes in an ambulatory semi-supervised environment over a
+      short duration of 3 days and 2 nights, or up to 60 hours.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The artificial pancreas platform employed under study is centered about the following four
+      key innovations: 1) A zone model predictive control strategy that is at the same time very
+      safe with respect to hypoglycemia, and can simultaneously and independently be tuned with
+      respect to its response to hyperglycemia; 2) Zone control with diurnal blood-glucose target
+      zones; 3) Models of insulin-glucose physiology and insulin on board; 4) A system for alarming
+      and notification of impending hypoglycemia and technical malfunctions: the Health Monitoring
+      System. These features have been evaluated in several clinical trials in adults with
+      unannounced meals and exercise.
+
+      The proposed study will evaluate enhancements to our previous system tailored for the special
+      needs of pediatric subjects: 1) A control strategy with responses to hyperglycemia and
+      hypoglycemia spanning wide ranges, as is typical with children; 2) The use of time-dependent
+      zones specific for pediatric subjects; 3) The development of models for young children,
+      capturing the greater physiologic variability, and ensuring cautious insulin delivery; 4)
+      remote alarming and notification systems that are useful to parents.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">October 1, 2018</start_date>
+  <completion_date type="Anticipated">December 31, 2020</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>SIngle arm cohort study</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Hypoglycemia Safety (blood glucose readings &lt; 50 mg/dL)</measure>
+    <time_frame>60 hours</time_frame>
+    <description>no more than one confirmed BG &lt; 50 mg/dL</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Hyperglycemia Safety (blood glucose readings &gt; 300 or 400 mg/dL)</measure>
+    <time_frame>60 hours</time_frame>
+    <description>no more than two confirmed BG ≥ 300 mg/dL longer than 2 hours, and no BG ≥ 400 mg/dL, unless determined to be from an infusion site failure</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Blood Ketone safety (blood ketone levels &gt; 1.0 mmol/l or &gt; 3.0 mmol/l)</measure>
+    <time_frame>60 hours</time_frame>
+    <description>no blood ketone level &gt; 1.0 mmol/l for longer than 2 hours, and no blood ketone level &gt;3.0 mmol/L, unless determined to be from an infusion site failure</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Adverse event safety (seizure, loss of consciousness, diabetic ketoacidosis)</measure>
+    <time_frame>60 hours</time_frame>
+    <description>no significant adverse events, such as severe hypoglycemia (seizure, loss of consciousness), or diabetic ketoacidosis (venous pH &lt;7.3 or bicarbonate &lt; 15 mEq/l</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Mean meter and sensor glucose levels (mg/dL)</measure>
+    <time_frame>60 hours</time_frame>
+    <description>Mean meter and sensor glucose levels (mg/dL)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent Sensor Glucose Time in range (70-180 mg/dL)</measure>
+    <time_frame>60 hours</time_frame>
+    <description>Percentage of time, over the whole evaluation period, during which the glucose level, as determined by the continuous glucose sensor, is between 70-180 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent Sensor Glucose Time below range (&lt;70 mg/dL)</measure>
+    <time_frame>60 hours</time_frame>
+    <description>Percentage of time, over the whole evaluation period, during which the glucose level, as determined by the continuous glucose sensor, is below 70 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent Sensor Glucose Time above range (&gt;180 mg/dL)</measure>
+    <time_frame>60 hours</time_frame>
+    <description>Percentage of time, over the whole evaluation period, during which the glucose level, as determined by the continuous glucose sensor, is greater than 180 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent Sensor Glucose Time in hypoglycemia (&lt;60 mg/dL)</measure>
+    <time_frame>60 hours</time_frame>
+    <description>Percentage of time, over the whole evaluation period, during which the glucose level, as determined by the continuous glucose sensor, is below 60 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent Sensor Glucose Time in hyperglycemia (&gt;250 mg/dL)</measure>
+    <time_frame>60 hours</time_frame>
+    <description>Percentage of time, over the whole evaluation period, during which the glucose level, as determined by the continuous glucose sensor, is greater than 250 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent Time AP system active</measure>
+    <time_frame>60 hours</time_frame>
+    <description>Percentage of time, over the whole evaluation period, during which the sensor and pump are determined to be wirelessly connected and communicating with each other, based on duration of alert and error messages indicated by the system</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">20</enrollment>
+  <condition>Type1 Diabetes</condition>
+  <arm_group>
+    <arm_group_label>Zone-Model Predictive Control Artificial Pancreas (ZMPC_AP)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Use Zone-Model Predictive Control Artificial Pancreas (ZMPC_AP) system</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Zone-Model Predictive Control Artificial Pancreas (ZMPC_AP)</intervention_name>
+    <description>Zone-Model Predictive Control Artificial Pancreas (ZMPC_AP)</description>
+    <arm_group_label>Zone-Model Predictive Control Artificial Pancreas (ZMPC_AP)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Age 2- &lt;18 years; for first cohort(s), subjects will be 12-17 years; additional age
+             brackets will be 8-11 years and then &lt;8 years
+
+          2. Type 1 diabetes for ≥ 1 year duration - the diagnosis of type 1 diabetes will be based
+             on the history of ketosis/ketoacidosis at diagnosis or laboratory evidence of
+             islet-cell auto-immunity
+
+          3. A1c level ≤ 10.0%
+
+          4. Use of insulin pump and carbohydrate counting for ≥ 3 months
+
+          5. Average total daily insulin dose of at least 10 units/day
+
+          6. Current or past use of Continuous Glucose Monitoring (CGM) is desirable but NOT
+             required
+
+          7. Normal renal function as measured within 6 months of enrollment
+
+          8. Normal thyroid function within 6 months of enrollment, or if previously diagnosed with
+             hypothyroidism, documented within 3 months of enrollment
+
+          9. Parent/guardian agrees to stay at hotel with subject for duration of hotel phase and
+             has cell phone that can send/receive text messages
+
+         10. Subject and participating parent/guardian speak and comprehend English
+
+        Exclusion Criteria:
+
+          1. Episode of diabetic ketoacidosis (DKA) within 6 months of enrollment
+
+          2. Episode of severe hypoglycemia (seizure, loss of consciousness) within 6 months of
+             enrollment
+
+          3. Use of medications (other than insulin) known to affect BG levels within 4 weeks of
+             enrollment - examples include systemic glucocorticoids, metformin, pramlintide,
+             liraglutide)
+
+          4. Current use of other medications, that in opinion of investigator, would interfere
+             with safety or effectiveness of the study including acetaminophen
+
+          5. Medical disorder, that in opinion of investigator, would be contraindication for
+             inclusion; hypothyroidism and celiac disease are NOT exclusion if under good control
+
+          6. Female subjects of childbearing potential unwilling to have pregnancy testing
+
+          7. Female subject currently pregnant or lactating
+
+          8. History of alcohol or drug abuse, documented eating disorder, or inpatient psychiatric
+             treatment within 6 months of enrollment
+
+          9. Subject is currently participating in another research study involving an
+             investigational drug or device
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>2 Years</minimum_age>
+    <maximum_age>18 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Yale University</name>
+      <address>
+        <city>New Haven</city>
+        <state>Connecticut</state>
+        <zip>06511</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>January 29, 2020</study_first_submitted>
+  <study_first_submitted_qc>February 3, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 5, 2020</study_first_posted>
+  <last_update_submitted>April 13, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 13, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 15, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>type 1 diabetes</keyword>
+  <keyword>artificial pancreas</keyword>
+  <keyword>closed-loop</keyword>
+  <keyword>automated insulin delivery</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pancrelipase</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,281 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03706664</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRAS No:238924</org_study_id>
+    <nct_id>NCT03706664</nct_id>
+  </id_info>
+  <brief_title>Small Bowel Deep Learning Algorithm Project</brief_title>
+  <official_title>Pilot Study to Develop a Deep Learning Algorithm for Identification &amp; Scoring of Terminal Ileal Crohn's Disease in Magnetic Resonance Enterography Images.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>London North West Healthcare NHS Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Imperial College London</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>London North West Healthcare NHS Trust</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Crohn's disease affects 200,000 people in the UK (~1 in 500), most are young (diagnosed &lt; 35
+      years) with costs of direct medical care exceeding £500 million.
+
+      Crohn's disease is caused by an auto-immune response and affects any part of the digestive
+      tract, most commonly the last segment of the small bowel (the terminal ileum).
+
+      Magnetic resonance imaging (MRI) plays a role in 3 areas: Crohn's disease diagnosis ,
+      monitoring treatment response &amp; assessing development of complications.
+
+      To evaluate the small bowel using MRI, Radiologists visually examine the scan slice-by-slice.
+      The interpretation is time consuming and error-prone because of disease presentation
+      variability and differentiation of diseased segments from collapsed segments.
+
+      Deep learning for image analysis is based on a computer algorithm &quot;learning&quot; from human
+      (Radiologist) generated training data.
+
+      This method has been successfully applied to medical imaging, for example computer detection
+      of lung cancer on chest X-rays.
+
+      This pilot study investigates if a deep learning algorithm can identify and score segments of
+      inflamed terminal ileum affected by Crohn's disease.
+
+      To our knowledge this is the first project attempting to develop such an algorithm.The study
+      will retrospectively review MR images obtained as part of standard care from patients being
+      investigated for, Crohn's or being followed up with Crohn's disease. 226 patients' images
+      will be used for the study.
+
+      On fully anonymised images two Radiologists working at Northwick Park Hospital will score and
+      outline normal and abnormal loops of terminal ileum. Imperial College computer science
+      department will then develop a deep learning algorithm from imaging features of normal and
+      abnormal loops.
+
+      The study end-point is algorithm performance vs. images labelled by Radiologists.
+
+      The eventual aim is to develop an algorithm that assists Radiologists in the accurate
+      diagnosis and follow-up of patients with Crohn's disease.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Introduction.
+
+      The principal aim of the study is evaluating the accuracy of deep learning algorithm in
+      differentiating between normal and abnormal terminal ileum against experienced Radiologists
+      on MR Enterography images.
+
+      The study builds on existing research, which has shown statistical methods can identify sites
+      of small bowel Crohn's disease. However the process was time consuming &gt;1hr and not fully
+      automatic. Our project investigates if cutting edge &quot;deep learning&quot; algorithm (based on
+      neural networks) coupled with increased computing power can provide accurate and timely
+      information.
+
+      The project has been designed jointly by Specialist Radiologists in Gastrointestinal imaging
+      (who are aware of the challenges in imaging Crohn's disease accurately) and Imperial College
+      Computer Science Department (who are experienced in developing neural networks for medical
+      imaging). Input and review from London North-West Research and Development department is also
+      acknowledged.
+
+      Study design.
+
+      Retrospective design &amp; Recruitment.
+
+      The study will retrospectively identify eligible patients and use a consecutive case sampling
+      technique, (all eligible images will be included working backwards from most recent).
+
+      This retrospective approach compromises between generalisability of findings being reduced
+      vs. the study being carried out relatively quickly and at low cost (study has no grant
+      funding).
+
+      The investigators are confident of the generalisability of the results as a recruitment
+      target of 113 normal cases and 113 cases with terminal ileal disease should cover the
+      spectrum of normal and abnormal appearances (previous studies have used &lt;50 image sets).
+
+      Cases with normal terminal ileum on MRI are included as an approach to algorithm development
+      involves comparison of imaging features of normal and abnormal terminal ileum on MRI studies.
+
+      Non-experimental approach.
+
+      The method uses MRI scans undertaken as part of standard clinical care. No additional imaging
+      is undertaken for this study. The study results will not change the current treatment/s
+      eligible patients are taking..
+
+      Consent &amp; confidentiality.
+
+      As the images used for algorithm development are fully anonymized so explicit consent will
+      not be obtained. This follows guidance from the General Medical Council Guidelines in 2011
+      and The Royal College of Radiologists(UK) in 2017 which state anonymized recordings can be
+      shared for use in research without consent.
+
+      MRI images used for this study were acquired as part of routine standard clinical care, and
+      would routinely be viewed by the Radiologists taking part in this study as part of their
+      normal working practice.
+
+      As soon as suitable patient is identified the patient's images will be copied in a fully
+      anonymized form with no direct or indirect identifiers. A robust anonymization function is
+      included in the Radiology image viewing program. Study subject Identifiers will be randomly
+      allocated preventing pseudo-anonymization if scans from the same patient at different time
+      points are included.
+
+      No sensitive/patient identifiable data will be transferred for algorithm development during
+      the study. The algorithm development is based on matching MRI pixel intensities to disease
+      scores/ annotations across multiple scans. Anonymization does not affect the pixels within
+      the image. Only aggregate data will be presented in publications- i.e. single case examples
+      will not be published.
+
+      Conflict of interest. The researchers on this study declare no conflict of interest.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">March 1, 2019</start_date>
+  <completion_date type="Anticipated">January 2021</completion_date>
+  <primary_completion_date type="Anticipated">November 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Radiologists will label 226 MR Enterography images as normal or abnormal. The labelled images will be randomised between training and validation sets.
+The training dataset will be used to develop machine learning algorithm to localise the terminal ileum &amp; classify the terminal ileum as normal or abnormal.
+The validation dataset will test the accuracy of the algorithm against the Radiologists labels.</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+    <masking_description>Neither the Radiologists nor the Computer scientists/outcomes assessors will be masked to the image labels or if a given MR Enterography has been used in the training or validation dataset.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Machine learning algorithm's ability to accurately localize the terminal ileum.</measure>
+    <time_frame>24 months</time_frame>
+    <description>Study will compare manually segmented regions of interest by Radiologists with predictions by machine learning localisation algorithm.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Data processing time until a diagnosis reported by algorithm.</measure>
+    <time_frame>24 months</time_frame>
+    <description>Study will assess time taken for algorithm to give a diagnostic outcome. (Previous studies have shown this time can be variable).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Machine learning algorithm's ability to accurately distinguish abnormal and normal terminal ileum.</measure>
+    <time_frame>24 months</time_frame>
+    <description>Agreement between Radiologists and predictions by machine learning classification algorithm will be analysed.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">226</enrollment>
+  <condition>Crohn Disease</condition>
+  <arm_group>
+    <arm_group_label>Training of machine learning algorithm</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>113 MR Enterography images labelled by Radiologists will be used to develop a machine learning algorithm to (1) localise the terminal ileum, (2) classify the terminal ileum as normal or abnormal.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Testing of machine learning algorithm</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>113 MR Enterography images labelled by Radiologists will be used to test the accuracy of the machine learning algorithm to (1) localise the terminal ileum, (2) classify the terminal ileum as normal or abnormal compared to Radiologists opinion.
+Cross Validation analysis will be used for data analysis.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Machine learning algorithm</intervention_name>
+    <description>Study will develop and test a machine learning algorithm using MR Enterography images labelled by Radiologists.</description>
+    <arm_group_label>Testing of machine learning algorithm</arm_group_label>
+    <arm_group_label>Training of machine learning algorithm</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria for all cases:
+
+          -  Patient's age &gt;16 years of age, (this age cut off has been used in the recent METRIC
+             trial investigating imaging in Crohn's disease)
+
+          -  MRI sequences obtained include axial T2 weighted images; coronal T2 weighted images
+             and axial post contrast MRI images.
+
+        Inclusion criteria for normal MR Enterography cases:
+
+        • Normal MR Enterography studies reviewed in consensus by two Radiologists (UP &amp; PL).
+        Normal is defined as no sites of small or large bowel Crohn's disease.
+
+        Inclusion criteria for terminal ileal Crohn's cases:
+
+          -  MR Enterography studies reviewed in consensus by two Radiologists shows terminal ileal
+             Crohn's disease. Patients with more than one segment of small bowel Crohn's disease
+             including terminal ileum are eligible. Patients with terminal ileal Crohn's disease
+             continuous with large bowel are eligible.
+
+          -  Diagnosis of Crohn's disease of terminal ileum based on endoscopic, histological and
+             radiological findings. (This criteria has been used in the recent METRIC trial
+             investigating imaging in Crohn's disease).
+
+        Exclusion Criteria for all cases:
+
+          -  Poor quality MRI images as judged by consensus Radiologist opinion.
+
+          -  No more than 3 MRI scans will come from the same patient.
+
+        Exclusion criteria for terminal ileal Crohn's cases:
+
+          -  MR Enterography shows any bowel abnormality not due to Crohn's.
+
+          -  Patient has undergone previous small or large bowel resection (this will distort
+             anatomy and is beyond the scope of the present project). Patients' with other previous
+             surgeries are eligible.
+
+          -  Patients with large bowel Crohn's disease not continuous with the terminal ileum.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>16 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Uday Patel, FRCR MBBS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>London NorthWest Healthcare NHS Trust</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>St Mark's Hospital</name>
+      <address>
+        <city>London</city>
+        <state>Harrow</state>
+        <zip>HA13UJ</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>February 2020</verification_date>
+  <study_first_submitted>October 11, 2018</study_first_submitted>
+  <study_first_submitted_qc>October 11, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 16, 2018</study_first_posted>
+  <last_update_submitted>February 26, 2020</last_update_submitted>
+  <last_update_submitted_qc>February 26, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 27, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Crohn Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

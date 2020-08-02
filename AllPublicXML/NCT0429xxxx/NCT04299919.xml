@@ -1,0 +1,384 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04299919</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PJ-KS-KY-2019-167</org_study_id>
+    <nct_id>NCT04299919</nct_id>
+  </id_info>
+  <brief_title>The AI Prognostic Assessment and Pathological Basis Research of Early HCC After Minimally Invasive Treatment</brief_title>
+  <official_title>The Artificial Intelligent Prognostic Assessment and Pathological Basis Research of Early Primary Hepatocellular Carcinoma After Minimally Invasive Treatment Based on Multimodal MRI and Clinical Big Data</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The First Affiliated Hospital of Dalian Medical University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>The First Affiliated Hospital of Dalian Medical University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study evaluates artificial intelligence method based on multimodal magnetic resonance
+      imaging (MRI) images and clinical data in preoperative prediction of prognosis in early
+      hepatocellular carcinoma (HCC) patients treated with minimally invasive treatment. The
+      correlation between prognosis-related MRI features and pathological features was studied
+      through artificial intelligence method, so as to provide the interpretability of image
+      features for predicting the prognosis of HCC patients treated with minimally invasive
+      treatment.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The prognosis prediction of early stage hepatocellular carcinoma (HCC) after minimally
+      invasive treatment involves clinical decision of treatment and follow-up. Magnetic resonance
+      imaging (MRI) has become the main approach for monitoring and following up of HCC, however
+      it's difficult to predict HCC prognosis before surgery. We found the following limitations
+      among previous researches: multimodal MRI using different sequences shows uncertain
+      boundaries of HCC, which makes precise segmentation more difficult, and also leads to an
+      additional workload for extracting high throughput radiomics features, which are limited in
+      quantity and repeatability. Regarding to prognosis aspect, the MRI images, clinical data, and
+      follow up information have not been fully exploited yet. In addition, the prognosis result
+      obtained by radiomics workflow is difficult to be explained and applied to clinical
+      application. Therefore, we conduct a study to solve the problems mentioned above: (1) To
+      explore an effective deep learning neural network method and a pre-training model for
+      improving tumor segmentation accuracy. (2) To establish a method for extracting
+      high-throughput multi-dimensional and multimodal MRI radiomics features related to HCC
+      prognosis. (3) To explore a correlation between &quot;multimodal MRI based pathological features
+      of early stage HCC&quot; and the results of &quot;multimodal MRI based prognosis depth network of early
+      stage HCC after minimally invasive treatment&quot;. Based on above approaches, we aim to establish
+      &quot;multimodal MRI based prognosis model of early stage HCC after minimally invasive treatment&quot;
+      in different clinical application scenarios guiding to clinical decision-making. Moreover, we
+      also aim to explore the correlation between MRI radiomics features and pathology, which
+      provides theoretical foundations for the MRI radiomics based pathological researches.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">April 1, 2007</start_date>
+  <completion_date type="Anticipated">June 30, 2024</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Three-month recurrence</measure>
+    <time_frame>Three months</time_frame>
+    <description>All HCC patients have been regularly monitored for recurrence via contrast CT or MRI for at least three months.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Six-month recurrence</measure>
+    <time_frame>Six months</time_frame>
+    <description>All HCC patients have been regularly monitored for recurrence via contrast CT or MRI for at least six months.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>One-year recurrence</measure>
+    <time_frame>One year</time_frame>
+    <description>All HCC patients have been regularly monitored for recurrence via contrast CT or MRI for at least one year.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Two-year recurrence</measure>
+    <time_frame>Two years</time_frame>
+    <description>All HCC patients have been regularly monitored for recurrence via contrast CT or MRI for at least two years.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Three-year recurrence</measure>
+    <time_frame>Three years</time_frame>
+    <description>All HCC patients have been regularly monitored for recurrence via contrast CT or MRI for at least three years.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Progression-free survival</measure>
+    <time_frame>Three months, six months, one year, two years, and three years.</time_frame>
+    <description>The time between the tumor progression and initial treatment was recorded.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">1200</enrollment>
+  <condition>Hepatocellular Carcinoma</condition>
+  <arm_group>
+    <arm_group_label>Recurrence</arm_group_label>
+    <description>All hepatocellular carcinoma (HCC) patients have been regularly monitored for recurrence via contrast CT or contrast-enhanced MRI after minimally invasive treatment or hepatectomy. The recurrence status included new intrahepatic lesions and/or extrahepatic metastasis.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Non-recurrence</arm_group_label>
+    <description>All hepatocellular carcinoma (HCC) patients have been regularly monitored for recurrence via contrast CT or contrast-enhanced MRI after minimally invasive treatment or hepatectomy. The recurrence status included new intrahepatic lesions and/or extrahepatic metastasis.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Minimally invasive treatment</intervention_name>
+    <description>All hepatocellular carcinoma (HCC) patients received minimally invasive treatment, including transcatheter arterial chemoembolization (TACE), radiofrequency ablation (RFA) or combined.</description>
+    <arm_group_label>Non-recurrence</arm_group_label>
+    <arm_group_label>Recurrence</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Hepatectomy</intervention_name>
+    <description>All hepatocellular carcinoma (HCC) patients received hepatectomy.</description>
+    <arm_group_label>Non-recurrence</arm_group_label>
+    <arm_group_label>Recurrence</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Samples retained, with no potential for DNA extraction from any retained samples (e.g., fixed
+      tissue, plasma)
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients underwent MRI examination of the abdomen in our hospital.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Hepatocellular carcinoma patients received minimally invasive treatment (transcatheter
+             arterial chemoembolization, radiofrequency ablation, or combined) or hepatectomy;
+
+          -  Patients received MRI examination within 1 month before treatment;
+
+          -  Complete post-treatment prognosis information.
+
+        Exclusion Criteria:
+
+          -  local or systemic treatment before MR examination;
+
+          -  Incomplete clinical and pathological data;
+
+          -  Heavy image artifacts.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ying Zhao, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>The First Affiliated Hospital of Dalian Medical University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>The First Affiliated Hospital of Dalian Medical University</name>
+      <address>
+        <city>Dalian</city>
+        <state>Liaoning</state>
+        <zip>116000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/12356160</url>
+    <description>Transcatheter arterial chemoembolization.</description>
+  </link>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/29151695</url>
+    <description>Efficacy of postoperative in hepatocellular carcinoma patients with microvascular invasion.</description>
+  </link>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/26063407</url>
+    <description>Transcatheter arterial chemoembolization.</description>
+  </link>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/25465804</url>
+    <description>The prognostic values.</description>
+  </link>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/29314222</url>
+    <description>Portal hypertension.</description>
+  </link>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/29059036</url>
+    <description>Deep Learning.</description>
+  </link>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/28994665</url>
+    <description>The segmentation of the portal vein.</description>
+  </link>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/31675174</url>
+    <description>MRI-Based Radiomics.</description>
+  </link>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/30213434</url>
+    <description>A radiomics study.</description>
+  </link>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/30406313</url>
+    <description>Predicting the grade of hepatocellular carcinoma.</description>
+  </link>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/28705145</url>
+    <description>Texture-based classification of different single liver lesion.</description>
+  </link>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/30240304</url>
+    <description>Comparison of Models Using Radiomics.</description>
+  </link>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/28180924</url>
+    <description>CT-based radiomics signature.</description>
+  </link>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/16679273</url>
+    <description>Diagnosis of hepatic tumors with texture analysis.</description>
+  </link>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/27113641</url>
+    <description>The predicting microvascular invasion and outcome in hepatocellular carcinoma.</description>
+  </link>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/29922932</url>
+    <description>The best independent predictor of prognosis in hepatocellular carcinoma.</description>
+  </link>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/28099329</url>
+    <description>Evaluation of the efficacy of hepatocellular carcinoma.</description>
+  </link>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/29384909</url>
+    <description>The therapeutic effect of transarterial chemoembolization for hepatocellular carcinoma.</description>
+  </link>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/28256449</url>
+    <description>The survival prognosis in patients with hepatocellular carcinoma treated by conventional TACE.</description>
+  </link>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/28779950</url>
+    <description>Transcatheter arterial chemoembolisation.</description>
+  </link>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/29218611</url>
+    <description>Portal hypertension is associated with poor outcome of transarterial chemoembolization in patients with hepatocellular carcinoma.</description>
+  </link>
+  <reference>
+    <citation>Bloomston M, Binitie O, Fraiji E, Murr M, Zervos E, Goldin S, Kudryk B, Zwiebel B, Black T, Fargher S, Rosemurgy AS. Transcatheter arterial chemoembolization with or without radiofrequency ablation in the management of patients with advanced hepatic malignancy. Am Surg. 2002 Sep;68(9):827-31.</citation>
+    <PMID>12356160</PMID>
+  </reference>
+  <reference>
+    <citation>Ye JZ, Chen JZ, Li ZH, Bai T, Chen J, Zhu SL, Li LQ, Wu FX. Efficacy of postoperative adjuvant transcatheter arterial chemoembolization in hepatocellular carcinoma patients with microvascular invasion. World J Gastroenterol. 2017 Nov 7;23(41):7415-7424. doi: 10.3748/wjg.v23.i41.7415.</citation>
+    <PMID>29151695</PMID>
+  </reference>
+  <reference>
+    <citation>Li S, Zhang L, Huang ZM, Wu PH. Transcatheter arterial chemoembolization combined with CT-guided percutaneous thermal ablation versus hepatectomy in the treatment of hepatocellular carcinoma. Chin J Cancer. 2015 Jun 10;34(6):254-63. doi: 10.1186/s40880-015-0023-9.</citation>
+    <PMID>26063407</PMID>
+  </reference>
+  <reference>
+    <citation>Pang Q, Zhang JY, Xu XS, Song SD, Chen W, Zhou YY, Miao RC, Qu K, Liu SS, Dong YF, Liu C. The prognostic values of 12 cirrhosis-relative noninvasive models in patients with hepatocellular carcinoma. Scand J Clin Lab Invest. 2015 Jan;75(1):73-84. doi: 10.3109/00365513.2014.981759. Epub 2014 Dec 3.</citation>
+    <PMID>25465804</PMID>
+  </reference>
+  <reference>
+    <citation>Kim NH, Lee T, Cho YK, Kim BI, Kim HJ. Impact of clinically evident portal hypertension on clinical outcome of patients with hepatocellular carcinoma treated by transarterial chemoembolization. J Gastroenterol Hepatol. 2018 Jul;33(7):1397-1406. doi: 10.1111/jgh.14083. Epub 2018 Mar 12.</citation>
+    <PMID>29314222</PMID>
+  </reference>
+  <reference>
+    <citation>Yasaka K, Akai H, Abe O, Kiryu S. Deep Learning with Convolutional Neural Network for Differentiation of Liver Masses at Dynamic Contrast-enhanced CT: A Preliminary Study. Radiology. 2018 Mar;286(3):887-896. doi: 10.1148/radiol.2017170706. Epub 2017 Oct 23.</citation>
+    <PMID>29059036</PMID>
+  </reference>
+  <reference>
+    <citation>Ibragimov B, Toesca D, Chang D, Koong A, Xing L. Combining deep learning with anatomical analysis for segmentation of the portal vein for liver SBRT planning. Phys Med Biol. 2017 Nov 10;62(23):8943-8958. doi: 10.1088/1361-6560/aa9262.</citation>
+    <PMID>28994665</PMID>
+  </reference>
+  <reference>
+    <citation>Song W, Yu X, Guo D, Liu H, Tang Z, Liu X, Zhou J, Zhang H, Liu Y, Liu X. MRI-Based Radiomics: Associations With the Recurrence-Free Survival of Patients With Hepatocellular Carcinoma Treated With Conventional Transcatheter Arterial Chemoembolization. J Magn Reson Imaging. 2019 Nov 1. doi: 10.1002/jmri.26977. [Epub ahead of print]</citation>
+    <PMID>31675174</PMID>
+  </reference>
+  <reference>
+    <citation>Hui TCH, Chuah TK, Low HM, Tan CH. Predicting early recurrence of hepatocellular carcinoma with texture analysis of preoperative MRI: a radiomics study. Clin Radiol. 2018 Dec;73(12):1056.e11-1056.e16. doi: 10.1016/j.crad.2018.07.109. Epub 2018 Sep 10.</citation>
+    <PMID>30213434</PMID>
+  </reference>
+  <reference>
+    <citation>Wu M, Tan H, Gao F, Hai J, Ning P, Chen J, Zhu S, Wang M, Dou S, Shi D. Predicting the grade of hepatocellular carcinoma based on non-contrast-enhanced MRI radiomics signature. Eur Radiol. 2019 Jun;29(6):2802-2811. doi: 10.1007/s00330-018-5787-2. Epub 2018 Nov 7.</citation>
+    <PMID>30406313</PMID>
+  </reference>
+  <reference>
+    <citation>Li Z, Mao Y, Huang W, Li H, Zhu J, Li W, Li B. Texture-based classification of different single liver lesion based on SPAIR T2W MRI images. BMC Med Imaging. 2017 Jul 13;17(1):42. doi: 10.1186/s12880-017-0212-x.</citation>
+    <PMID>28705145</PMID>
+  </reference>
+  <reference>
+    <citation>Kim J, Choi SJ, Lee SH, Lee HY, Park H. Predicting Survival Using Pretreatment CT for Patients With Hepatocellular Carcinoma Treated With Transarterial Chemoembolization: Comparison of Models Using Radiomics. AJR Am J Roentgenol. 2018 Nov;211(5):1026-1034. doi: 10.2214/AJR.18.19507. Epub 2018 Sep 21.</citation>
+    <PMID>30240304</PMID>
+  </reference>
+  <reference>
+    <citation>Zhou Y, He L, Huang Y, Chen S, Wu P, Ye W, Liu Z, Liang C. CT-based radiomics signature: a potential biomarker for preoperative prediction of early recurrence in hepatocellular carcinoma. Abdom Radiol (NY). 2017 Jun;42(6):1695-1704. doi: 10.1007/s00261-017-1072-0.</citation>
+    <PMID>28180924</PMID>
+  </reference>
+  <reference>
+    <citation>Huang YL, Chen JH, Shen WC. Diagnosis of hepatic tumors with texture analysis in nonenhanced computed tomography images. Acad Radiol. 2006 Jun;13(6):713-20.</citation>
+    <PMID>16679273</PMID>
+  </reference>
+  <reference>
+    <citation>Tang H, Bai HX, Su C, Lee AM, Yang L. The effect of cirrhosis on radiogenomic biomarker's ability to predict microvascular invasion and outcome in hepatocellular carcinoma. Hepatology. 2016 Aug;64(2):691-2. doi: 10.1002/hep.28620. Epub 2016 May 31.</citation>
+    <PMID>27113641</PMID>
+  </reference>
+  <reference>
+    <citation>Wu LF, Rao SX, Xu PJ, Yang L, Chen CZ, Liu H, Huang JF, Fu CX, Halim A, Zeng MS. Pre-TACE kurtosis of ADC(total) derived from histogram analysis for diffusion-weighted imaging is the best independent predictor of prognosis in hepatocellular carcinoma. Eur Radiol. 2019 Jan;29(1):213-223. doi: 10.1007/s00330-018-5482-3. Epub 2018 Jun 19.</citation>
+    <PMID>29922932</PMID>
+  </reference>
+  <reference>
+    <citation>Shao GL, Zheng JP, Guo LW, Chen YT, Zeng H, Yao Z. Evaluation of efficacy of transcatheter arterial chemoembolization combined with computed tomography-guided radiofrequency ablation for hepatocellular carcinoma using magnetic resonance diffusion weighted imaging and computed tomography perfusion imaging: A prospective study. Medicine (Baltimore). 2017 Jan;96(3):e5518. doi: 10.1097/MD.0000000000005518.</citation>
+    <PMID>28099329</PMID>
+  </reference>
+  <reference>
+    <citation>Wang J, Shen JL. Spectral CT in evaluating the therapeutic effect of transarterial chemoembolization for hepatocellular carcinoma: A retrospective study. Medicine (Baltimore). 2017 Dec;96(52):e9236. doi: 10.1097/MD.0000000000009236.</citation>
+    <PMID>29384909</PMID>
+  </reference>
+  <reference>
+    <citation>Hasdemir DB, Dávila LA, Schweitzer N, Meyer BC, Koch A, Vogel A, Wacker F, Rodt T. Evaluation of CT vascularization patterns for survival prognosis in patients with hepatocellular carcinoma treated by conventional TACE. Diagn Interv Radiol. 2017 May-Jun;23(3):217-222. doi: 10.5152/dir.2016.16006.</citation>
+    <PMID>28256449</PMID>
+  </reference>
+  <reference>
+    <citation>Lam A, Fernando D, Sirlin CC, Nayyar M, Goodwin SC, Imagawa DK, Lall C. Value of the portal venous phase in evaluation of treated hepatocellular carcinoma following transcatheter arterial chemoembolisation. Clin Radiol. 2017 Nov;72(11):994.e9-994.e16. doi: 10.1016/j.crad.2017.07.003. Epub 2017 Aug 2.</citation>
+    <PMID>28779950</PMID>
+  </reference>
+  <reference>
+    <citation>Choi JW, Chung JW, Lee DH, Kim HC, Hur S, Lee M, Jae HJ. Portal hypertension is associated with poor outcome of transarterial chemoembolization in patients with hepatocellular carcinoma. Eur Radiol. 2018 May;28(5):2184-2193. doi: 10.1007/s00330-017-5145-9. Epub 2017 Dec 7.</citation>
+    <PMID>29218611</PMID>
+  </reference>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>March 5, 2020</study_first_submitted>
+  <study_first_submitted_qc>March 5, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 9, 2020</study_first_posted>
+  <last_update_submitted>March 5, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 5, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 9, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Precision medicine information processing</keyword>
+  <keyword>Lesion recognition</keyword>
+  <keyword>Feature extraction</keyword>
+  <keyword>Deep learning</keyword>
+  <keyword>Diagnosis model</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma</mesh_term>
+    <mesh_term>Carcinoma, Hepatocellular</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Partial de-identified individual participant data for primary and secondary outcome measures will be made available.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_time_frame>Data will be available within 6 months of study completion.</ipd_time_frame>
+    <ipd_access_criteria>Data access requests will be reviewed by an external independent review panel. Requestors will be required to sign a data access agreement.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

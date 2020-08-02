@@ -1,0 +1,287 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04139538</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1288/2019</org_study_id>
+    <nct_id>NCT04139538</nct_id>
+  </id_info>
+  <brief_title>Microbiome and Immunogenity of Saliva During Orthodontic Therapy</brief_title>
+  <official_title>Changes of Oral Microbiome and Immunogenity of Saliva During Orthodontic Therapy With Aligners and Multibracket Therapy - a Pilot Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Medical University of Vienna</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Medical University of Vienna</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      There are two essential ways of treatment in the field of orthodontics. The fixed appliance
+      treatment with self-ligating or conventional brackets and treatment with aligners. Fixed
+      orthodontic treatment has been the optional therapy for decades. Due to an increasing demand
+      of patients for a more aesthetic treatment, the number of aligner treatments multiplied over
+      the last years. Within the last years, a crucial role of oral microbiome in the maintenance
+      of oral health was largely appreciated. However, to date there is no data on the effect of
+      different orthodontic treatments on the oral microbiome. The aim of the research project is
+      the prospective comparison of the oral microbiome in saliva of adult patients treated with
+      Invisalign® aligners or metal brackets. We plan to include a sample of twenty healthy
+      individuals. Half of the participants will receive aligner treatment with Invisalign® and
+      half metal brackets. Saliva will be collected before, 3 and 6 months after the beginning of
+      the orthodontic therapy via a stimulated a saliva collection. The 16S rDNA genes will be
+      amplified and sequenced with Illumina MiSeq® System. Probing depth, bleeding on probing and
+      Plaque Index will be evaluated over time and correlated with changes of the oral microbiome.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Adult patients (18 years and older) from the Clinical Division of Orthodontics at the
+      University Clinic of Dentistry Vienna will be invited to participate in this pilot
+      microbiologic study according to defined inclusion/exclusion criteria after giving their
+      consent. This study is a pilot project and therefore no sample size calculation will be made.
+      Twenty patients will be treated with Invisalign® aligners and twenty patients will receive
+      multibracket therapy. A previous microbiological study showed that lingual orthodontic
+      therapy has a short-term effect on oral microflora. Another microbial study on colonization
+      on dental implants also reported bacterial shift upon implant therapy.
+
+      All patients will get instructions in oral hygiene on the day when clinical records are
+      gathered. On the day when the treatment plan will be presented to the patient, the Plaque
+      Index will be evaluated by a trained orthodontist. For the start of the treatment a Plaque
+      Index of &lt; 20% is required. On the day before the orthodontic treatment is started, T0 sample
+      collection will be conducted and periodontal indices will be assessed. A clinical examination
+      including periodontal probing depth, bleeding on probing, and Plaque Index (PI) will be
+      performed before (T0), after 3 months (T1) and after 6 months of the beginning of either
+      aligner or bracket therapy. Microbiological sampling will be performed by stimulated saliva
+      collection according to our protocol. Saliva samples will be divided in aliquots in stored in
+      cryo-tubes at -80°C. Molecular detection of microorganisms by sequencing of 16S rDNA genes,
+      sequencing analysis and taxonomic assignment will be performed at the Department of
+      Laboratory Medicine at the Medical University of Vienna.
+
+      By sequencing of 16s rDNA genes with sequencing analysis and taxonomic assignment of bacteria
+      in saliva we expect to reveal possible shifts in microbial phyla/genera between various time
+      points. Metagenomic studies are commonly performed by analysing the prokaryotic 16S ribosomal
+      RNA gene (16S rRNA), which is approximately 1,500 base pairs long and contains nine variable
+      regions interspersed between conserved regions. Variable regions of 16S rRNA are frequently
+      used in phylogenetic classifications such as genus or species in diverse microbial
+      populations.
+
+      DNA Extraction:
+
+      Due to better quantitative and qualitative results in comparison to commercial DNA extraction
+      kits, DNA will be isolated with a modified CTAB SDS chloroform-based method. Mechanical
+      analysis will be carried out using 1mm silica spheres under addition of proteinase K (Qiagen,
+      Venlo, Netherlands) as well as the detergents SDS (sodium dodecyl sulfate) and CTAB
+      (cetyltrimethylammonium bromide). After extraction, the DNA quantity will be determined with
+      Qubit® 2.0 via the dsDNA HS kit (Life Technologies, Carlsbad, California) and NanoDrop 2000c
+      spectrophotometer (Thermo Scientific, Waltham, Massachusetts). Additionally, the absorption
+      ratios A260/280 and A260/230 will be used to estimate the purity of the DNA.
+
+      Metagenome Analysis:
+
+      The overall composition of the bacterial organisms in the samples will be evaluated by
+      analysing microbiome. Therefore, we will use high throughput sequencing with the MiSeq®
+      platform (Illumina, San Diego, California). We will analyse the variable V3 and V4 regions of
+      the 16S rRNA gene. For the phylogenetic classification, the bacterial 16S rRNA will be
+      amplified using primers 27F (5'-CCT ACG GGN GGC WGC AG-3') and 1391R
+      (5'-GACTACHVGGGTATCTAATCC-3').
+
+      Bioinformatic analysis:
+
+      The quality of the Next Generation Sequencing run will be assessed using the software FASTQC
+      0.11.4. The removal of low-quality bases will be carried out with the Trimmomatic-0.35
+      software . For sequence analysis and clustering similar sequences into clusters (OTUs) the
+      UPARSE pipeline will be utilized. For comparison and statistical analysis of the microbiome
+      data we will use RStudio (Team 2016) as platform with R as language (R Development Core Team
+      2010) and different R-packages.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">November 1, 2019</start_date>
+  <completion_date type="Anticipated">October 1, 2021</completion_date>
+  <primary_completion_date type="Anticipated">April 1, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>Single (Investigator)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>changes of oral microbiome</measure>
+    <time_frame>up to 6 months</time_frame>
+    <description>bacteria of the oral microbiome including cariogenic bacteria via dna sequencing</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>changes of periodontal parameters</measure>
+    <time_frame>up to 6 months</time_frame>
+    <description>plaque index</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>changes of periodontal parameters</measure>
+    <time_frame>up to 6 months</time_frame>
+    <description>probing depth</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>changes of periodontal parameters</measure>
+    <time_frame>up to 6 months</time_frame>
+    <description>bleeding on probing</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>immunogenity of saliva on oral cells in vitro</measure>
+    <time_frame>up to 2 weeks</time_frame>
+    <description>changes in viability</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>immunogenity of saliva on oral cells in vitro</measure>
+    <time_frame>up to 2 weeks</time_frame>
+    <description>gene expression changes via PCR</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">40</enrollment>
+  <condition>Orthodontic Appliances, Removable</condition>
+  <condition>Orthodontic Appliances, Fixed</condition>
+  <condition>Oral Microbiome</condition>
+  <condition>Cell Culture</condition>
+  <condition>Periodontal Index</condition>
+  <arm_group>
+    <arm_group_label>Invisalign treatment</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Aligner patients will be treated with Invisalign® aligners to correct malocclusion</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>selfligating bracket treatment</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Multibracket patients will be treated with self ligating orthodontic brackets</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>orthodontic treatment</intervention_name>
+    <description>Malocclusion will be treated with orthodontic appliances (fixed or removable)</description>
+    <arm_group_label>Invisalign treatment</arm_group_label>
+    <arm_group_label>selfligating bracket treatment</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Class I skeletal relationship
+
+          -  Normo-divergent Frankfort Mandibular-Plane Angle
+
+          -  Minimal mandibular crowding in range from 1 to 3 according to Little's Index (Little
+             1975)
+
+        Exclusion Criteria:
+
+          -  Smoking habit
+
+          -  Presence of extensive dental restorations in proximity to the gingival margin
+
+          -  Presence of fixed bridges/crowns or partial dentures
+
+          -  Previous periodontal nonsurgical treatment (such as full mouth disinfection,
+             quadrant-by-quadrant therapy, full mouth debridement) within the past year
+
+          -  Medications such as antibiotics, steroids, or nonsteroidal anti‑inflammatory drugs
+             within the past 6 months.
+
+          -  Plaque Index &gt; 20% before start of treatment Diabetes Pregnancy
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Michael Nemec, MD,DMD</last_name>
+    <phone>+43 1 40070</phone>
+    <phone_ext>4386</phone_ext>
+    <email>michael.nemec@meduniwien.ac.at</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Maria Strobl</last_name>
+    <phone>+43 1 40070</phone>
+    <phone_ext>4301</phone_ext>
+    <email>maria.strobl@meduniwien.ac.at</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Medical University of Vienna</name>
+      <address>
+        <city>Vienna</city>
+        <zip>1090</zip>
+        <country>Austria</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Michael Nemec, DMD, MD</last_name>
+      <phone>+43 1 40070</phone>
+      <phone_ext>4386</phone_ext>
+      <email>michael.nemec@meduniwien.ac.at</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Austria</country>
+  </location_countries>
+  <reference>
+    <citation>Klindworth A, Pruesse E, Schweer T, Peplies J, Quast C, Horn M, Glöckner FO. Evaluation of general 16S ribosomal RNA gene PCR primers for classical and next-generation sequencing-based diversity studies. Nucleic Acids Res. 2013 Jan 7;41(1):e1. doi: 10.1093/nar/gks808. Epub 2012 Aug 28.</citation>
+    <PMID>22933715</PMID>
+  </reference>
+  <reference>
+    <citation>Edgar RC. UPARSE: highly accurate OTU sequences from microbial amplicon reads. Nat Methods. 2013 Oct;10(10):996-8. doi: 10.1038/nmeth.2604. Epub 2013 Aug 18.</citation>
+    <PMID>23955772</PMID>
+  </reference>
+  <reference>
+    <citation>Levrini L, Mangano A, Montanari P, Margherini S, Caprioglio A, Abbate GM. Periodontal health status in patients treated with the Invisalign(®) system and fixed orthodontic appliances: A 3 months clinical and microbiological evaluation. Eur J Dent. 2015 Jul-Sep;9(3):404-410. doi: 10.4103/1305-7456.163218.</citation>
+    <PMID>26430371</PMID>
+  </reference>
+  <reference>
+    <citation>Demling A, Demling C, Schwestka-Polly R, Stiesch M, Heuer W. Short-term influence of lingual orthodontic therapy on microbial parameters and periodontal status. A preliminary study. Angle Orthod. 2010 May;80(3):480-4. doi: 10.2319/061109-330.1.</citation>
+    <PMID>20050740</PMID>
+  </reference>
+  <reference>
+    <citation>de Freitas AR, Silva TSO, Ribeiro RF, de Albuquerque Junior RF, Pedrazzi V, do Nascimento C. Oral bacterial colonization on dental implants restored with titanium or zirconia abutments: 6-month follow-up. Clin Oral Investig. 2018 Jul;22(6):2335-2343. doi: 10.1007/s00784-018-2334-0. Epub 2018 Jan 18.</citation>
+    <PMID>29349504</PMID>
+  </reference>
+  <reference>
+    <citation>Haririan H, Andrukhov O, Bertl K, Lettner S, Kierstein S, Moritz A, Rausch-Fan X. Microbial analysis of subgingival plaque samples compared to that of whole saliva in patients with periodontitis. J Periodontol. 2014 Jun;85(6):819-28. doi: 10.1902/jop.2013.130306. Epub 2013 Oct 21.</citation>
+    <PMID>24144271</PMID>
+  </reference>
+  <reference>
+    <citation>Ren Y, Vissink A. Cytokines in crevicular fluid and orthodontic tooth movement. Eur J Oral Sci. 2008 Apr;116(2):89-97. doi: 10.1111/j.1600-0722.2007.00511.x. Review.</citation>
+    <PMID>18353001</PMID>
+  </reference>
+  <verification_date>February 2020</verification_date>
+  <study_first_submitted>September 22, 2019</study_first_submitted>
+  <study_first_submitted_qc>October 23, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 25, 2019</study_first_posted>
+  <last_update_submitted>February 19, 2020</last_update_submitted>
+  <last_update_submitted_qc>February 19, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 20, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Medical University of Vienna</investigator_affiliation>
+    <investigator_full_name>Michael Nemec</investigator_full_name>
+    <investigator_title>Staff member, dentist</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

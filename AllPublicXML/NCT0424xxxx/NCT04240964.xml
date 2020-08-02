@@ -1,0 +1,243 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04240964</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NFEC-2017-013</org_study_id>
+    <nct_id>NCT04240964</nct_id>
+  </id_info>
+  <brief_title>Studying on the Difference Between Two Kinds of Osteomyelitis</brief_title>
+  <official_title>Studying on the Difference Between Foot Osteomyelitis Patients With or Without Diabetes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Nanfang Hospital of Southern Medical University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Nanfang Hospital of Southern Medical University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To explore the microbial differences of diabetic foot osteomyelitis and osteomyelitis without
+      diabetes.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Diabetic foot osteomyelitis (Dd group) subjects (sample size ≥ 10 cases) and foot
+      osteomyelitis without diabetes (ND group) subjects (sample size ≥ 10 cases) were collected in
+      accordance with the inclusion criteria. Surgeons collected intra-operative bone specimens
+      from all 28 patients who required surgical intervention (debridement or amputation) for
+      management of their osteomyelitis[10]. Avoided soft tissue or sinus tract cultures, because
+      they were not sufficiently accurate in predicting bone pathogens[11]. Following surgical
+      debridement of infected or necrotic tissue, cleansed by sterile saline solution, deep bone
+      specimens were harvested using sterile instruments. We routinely obtained adequate bone
+      specimens and divided them into three parts. One for routine microbiology culture and
+      antibiotic sensitivity testing, one for the histopathology, and the other one for DNA
+      sequencing analysis. This process to obtain bone specimens could reduce chances of
+      contamination by wound tissue colonizing bacteria.
+
+      16S rRNA high-throughput sequencing Two specimens were sent to the laboratory for
+      conventional culturing and histopathological tests. The bone specimen left were placed in
+      sterile pipes without any transport medium and stored at 4℃ for 24 hours and then frozen at
+      -80C until DNA extraction. Genomic DNA was extracted using DNA extraction kit
+      (YiRui,ShenZhen,China) according to the manufacturer's instructions. Extracted DNA was
+      quantitative and quality control by agarose gel electrophoresis(JS-power 300, PeiQin,
+      ShangHai, China). Then we amplified the V3-V4 variable region of the 16S rRNA gene for
+      sequencing using a forward and a reverse fusion primer-（341F：5'-CCTAYGGGRBGCASCAG-3' and
+      806R：5'-GGACTACNNGGGTATCTAAT-3）(ABI GeneAmp 9700 PCR Instrument). PCR products were amplified
+      by removing short sequences, singleton sequences and noisy reads. The PCR reaction was
+      performed in a total volume of 60 μl, containing 6 μl of 10× Ex Tap PCR buffer, 6 μl of dNTP
+      mixture, 0.6μl of bovine serum albumin (BSA), 0.3 μl Ex Tag, 1μl DNA, 1.2μl forward and
+      reverse primers, and 43.7 μlH 2O. The PCR amplification was conducted under following
+      conditions: initial denaturing was conducted at 94°Cfor5min, which was followed by 27 cycles
+      at94°Cfor30s, 55°Cfor30s, and72°C for 45s. A final extension was performed at 72°C for 10min
+      from 28 samples (including DFO and SFO patients) were sequenced over two separate runs on
+      Illumina Miseq. To get high-quality clean reads, raw reads were filtered according to the
+      following rules: (1) remove reads containing morethan10% ofunknown nucleotides and(2)
+      removereads containing less than 80% of bases with quality (Q-value)&gt;20. The filtered reads
+      were then assembled into tags according to overlap between paired-end reads with more than
+      10bp overlap, and less than 2% mismatch. The software Mothur (v.1.34.0) was used to remove
+      the redundant tags to get unique tags. The obtained unique tags were then used to calculate
+      the abundance.Then we clustered sequences into operational taxonomic units (OTUs) using the
+      Greengene. Taxonomy was assigned to OTUs using the BLASTto the Greengene database at 97%
+      similarity to identify microorganisms at the genera level (species level where possible). A
+      phylogenetic tree was built from aligned representative OTU sequences using figtree.The total
+      species diversity in a landscape was determined by two different parameters, the mean species
+      diversity in sites or habitats at a more local scale (alpha diversity) and the
+      differentiation among those habitats (beta diversity). Alpha diversity included both
+      community diversity and richness: community richness was represented by the ACE estimator or
+      the Chao1 estimator. Beta diversity was the calculation of differences(distance) between
+      microbiome community structure and membership based on the evolution of species. This kind of
+      distance was calculated using Weighted Unifrac and can be performanced by Principal
+      Co-ordinates Analysis diagram.
+
+      Metagenomes Analysis A metagenome DNA libraries from specimens were constructed using TruSeq
+      Nano DNA kit (FC-121-4002) according to the manufacturer's instructions, with slight
+      modifications. In brief, the length conformed DNA(350 bp) was obtained by sonication. DNA
+      fragments were end-repaired and the appropriate library size was selected, then the samples
+      were A-tailed and ligated to adapters. The NovaSeq 6000 sequencing systems（Illumina）were used
+      for sequencing and library validation Raw Data obtained by sequencing have a certain
+      proportion of low-quality dataaccording to the following rules: (1) remove reads containing
+      morethan10% ofunknown nucleotides and(2) removereads containing less than 80% of bases with
+      quality (Q-value)&gt;20 . Megahit was used to splice the sequences（clean data） after quality
+      control, and contigs were obtained.Contigs were filtered below 1000bp. The vector and host
+      sequences were filtered by BLASTN, with an E-value cutoff of 1e-5. The remaining reads were
+      mapped to the human genome by SOAP alignment, and the matching reads were removed as being
+      contaminants from the host genome.The taxonomic classifications were performed on assembled
+      contigs and singletons using BLAST against the NCBI database. And the best BLAST hit was used
+      to refer the taxonomic rank of each sequence. All the analyses have been performed in R and p
+      values were corrected for multiple testing with the false discovery rate method.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 1, 2017</start_date>
+  <completion_date type="Actual">December 1, 2018</completion_date>
+  <primary_completion_date type="Actual">December 1, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Composition and Diversity of DFO with 16S rRNA Gene Data</measure>
+    <time_frame>2017-2018</time_frame>
+    <description>Subjects who met the inclusion criteria for diabetic foot osteomyelitis (DFO) (sample size ≥ 10) and osteomyelitis without NDFO (sample size ≥ 10) were collected for debridement and amputation for 16s rDNA high-throughput sequencing. Compare microbe composition and diversity between the two groups.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Composition of the DFO Metagenome</measure>
+    <time_frame>2018-2019</time_frame>
+    <description>Subjects who met the inclusion criteria for diabetic foot osteomyelitis (DFO) (sample size ≥ 10) and osteomyelitis without NDFO (sample size ≥ 10) were collected for debridement and amputation for Metagenomic Analysis. Compare microbe composition and diversity between the two groups.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">28</enrollment>
+  <condition>Diabetic Foot Osteomyelitis</condition>
+  <condition>Diabetic Foot Infection</condition>
+  <condition>Microbiome</condition>
+  <arm_group>
+    <arm_group_label>Dd group</arm_group_label>
+    <description>Patients with diabetic foot osteomyelitis</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>ND group</arm_group_label>
+    <description>Foot osteomyelitis without diabetes</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        patients with osteomyelitis
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. age≥18 years old.
+
+          2. diagnosed as foot osteomyelitis, and wounds were located below the knee joint.
+
+          3. nfected bone exposure or positive probe-to-bone test.
+
+          4. The patients were good physical condition.
+
+          5. Patients were able to tolerate debridement or operation treatment.
+
+          6. patients and their families agreed to participate in the study.
+
+        Exclusion Criteria:
+
+          1. Serious skin diseases around the wound surface;
+
+          2. tumors affecting the wound of osteomyelitis;
+
+          3. long-term use of immunosuppressive therapy before admission;
+
+          4. patients that do not cooperate.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>ying cao, doctor</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Nanfang Hospital of Southern Medical University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Department of Endocrinology and Metabolism, NanFang Hospital, Southern Medical University</name>
+      <address>
+        <city>Guangzhou</city>
+        <state>Guangdong</state>
+        <zip>510515</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <reference>
+    <citation>Lavery LA, Peters EJ, Armstrong DG, Wendel CS, Murdoch DP, Lipsky BA. Risk factors for developing osteomyelitis in patients with diabetic foot wounds. Diabetes Res Clin Pract. 2009 Mar;83(3):347-52. doi: 10.1016/j.diabres.2008.11.030. Epub 2008 Dec 30.</citation>
+    <PMID>19117631</PMID>
+  </reference>
+  <reference>
+    <citation>Berendt AR, Peters EJ, Bakker K, Embil JM, Eneroth M, Hinchliffe RJ, Jeffcoate WJ, Lipsky BA, Senneville E, Teh J, Valk GD. Diabetic foot osteomyelitis: a progress report on diagnosis and a systematic review of treatment. Diabetes Metab Res Rev. 2008 May-Jun;24 Suppl 1:S145-61. doi: 10.1002/dmrr.836. Review.</citation>
+    <PMID>18442163</PMID>
+  </reference>
+  <reference>
+    <citation>Valabhji J, Oliver N, Samarasinghe D, Mali T, Gibbs RG, Gedroyc WM. Conservative management of diabetic forefoot ulceration complicated by underlying osteomyelitis: the benefits of magnetic resonance imaging. Diabet Med. 2009 Nov;26(11):1127-34. doi: 10.1111/j.1464-5491.2009.02828.x.</citation>
+    <PMID>19929991</PMID>
+  </reference>
+  <reference>
+    <citation>Huang Y, Cao Y, Zou M, Luo X, Jiang Y, Xue Y, Gao F. A Comparison of Tissue versus Swab Culturing of Infected Diabetic Foot Wounds. Int J Endocrinol. 2016;2016:8198714. doi: 10.1155/2016/8198714. Epub 2016 Mar 30.</citation>
+    <PMID>27123004</PMID>
+  </reference>
+  <reference>
+    <citation>Goda A, Maruyama F, Michi Y, Nakagawa I, Harada K. Analysis of the factors affecting the formation of the microbiome associated with chronic osteomyelitis of the jaw. Clin Microbiol Infect. 2014 May;20(5):O309-17. doi: 10.1111/1469-0691.12400. Epub 2013 Nov 11.</citation>
+    <PMID>24112138</PMID>
+  </reference>
+  <reference>
+    <citation>Redel H, Gao Z, Li H, Alekseyenko AV, Zhou Y, Perez-Perez GI, Weinstock G, Sodergren E, Blaser MJ. Quantitation and composition of cutaneous microbiota in diabetic and nondiabetic men. J Infect Dis. 2013 Apr;207(7):1105-14. doi: 10.1093/infdis/jit005. Epub 2013 Jan 8.</citation>
+    <PMID>23300163</PMID>
+  </reference>
+  <verification_date>January 2020</verification_date>
+  <study_first_submitted>October 28, 2019</study_first_submitted>
+  <study_first_submitted_qc>January 21, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 27, 2020</study_first_posted>
+  <last_update_submitted>January 21, 2020</last_update_submitted>
+  <last_update_submitted_qc>January 21, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 27, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Nanfang Hospital of Southern Medical University</investigator_affiliation>
+    <investigator_full_name>Ying Cao</investigator_full_name>
+    <investigator_title>associate professor</investigator_title>
+  </responsible_party>
+  <keyword>Diabetic Foot Osteomyelitis</keyword>
+  <keyword>16S rRNA</keyword>
+  <keyword>Metagenomes</keyword>
+  <keyword>Microbiome</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Osteomyelitis</mesh_term>
+    <mesh_term>Diabetic Foot</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

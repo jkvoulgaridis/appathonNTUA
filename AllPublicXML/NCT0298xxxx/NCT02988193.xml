@@ -1,0 +1,584 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02988193</url>
+  </required_header>
+  <id_info>
+    <org_study_id>15-16045</org_study_id>
+    <nct_id>NCT02988193</nct_id>
+  </id_info>
+  <brief_title>Piloting Healthcare Coordination in Hypertension</brief_title>
+  <acronym>PRECISION</acronym>
+  <official_title>Piloting Healthcare Coordination in Hypertension</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Optima Integrated Health</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of California, San Francisco</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Optima Integrated Health</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The PRECISION study investigates the possibility of integrating a clinical decision support
+      analytic intelligence into the clinical care flow at University of California San Francisco
+      Medical Center (UCSF MC). optima-for-blood pressure [optima4BP], our innovation, transforms
+      the episodic and reactive nature of uncontrolled HTN pharmacological treatment management
+      into a process that is continuous, proactive, and personalized.
+
+      In addition, the clinical adoption of this &quot;technology of the future&quot; will be investigated to
+      establish its feasibility in being embedded into the clinical care flow.
+
+      Today's hypertension (HTN) management paradigm often fails to align current patient health
+      status with the most effective medication treatment. Without surveillance and rapid-cycles
+      analysis of current patient health status and treatment efficacy, HTN management remains a
+      struggle. optima4BP addresses pharmacological intervention management by identifying the need
+      for a drug treatment change and recommending the most appropriate drug optimization.
+
+      The PRECISION study represent a pilot trial intended to address 2 critical design components
+      of optima4BP:
+
+        1. Can optima4BP interoperate with multiple IT platforms to collect and distribute data?
+
+        2. What is the treating physician confidence in using optima4BP?
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Goal: Conduct a prospective randomized pilot clinical trial embedded within the care delivery
+      system at UCSF Medical Center (UCSF). It is intended to evaluate the efficacy of optima4BP in
+      improving care coordination for patients with uncontrolled hypertension (HTN). Although
+      optima4BP has been evaluated during patient-physician office visits, it has not been
+      evaluated for its efficacy to support treatment changes remotely, over time. PRECISION
+      investigates this aspect and its impact on stakeholders (physicians and patients). The
+      outcomes will set the stage for a scaled-up study of 300 patients at UCSF.
+
+      Study Design: The patients will be randomized to 2 arms (a) optima4BP surveillance and
+      treatment recommendation support (O4BP); (b) usual care (UC) - usual care seen appropriate by
+      the treating physician). NOTE: The original design prior to study initiation considered a 3
+      arms randomization which would also include: enhanced care (EC) representing a &quot;step up&quot; from
+      UC by providing the physician with raw remotely collected BP values sent on a monthly cycle.
+      However, this arm was abandoned at enrollment because patients in the UC arm were proactively
+      reaching out to their physicians with remotely collected BP values from the Qardio® device
+      therefore rendering the initially projected Extended Care arm unuseful.
+
+      Every 30 days, the collection of patient information will be followed by an arm-specific
+      action. For identified patients in need of a medication change, O4BP physicians will receive
+      a treatment change recommendation for review. UC physicians will not receive any information.
+      All patients will undergo at least 2 in-office visits, a baseline visit and an exit visit.
+      All patients will be asked to provide every 30 days the following information: (a) adherence
+      to current HTN treatment; and (b) experienced side-effects and severity. The communication
+      will be performed via e-mail between Health-e-Heart (HeH) automated system
+      (https://www.health-eheartstudy.org/) and the patient. HeH will automatically obtain BP
+      values from the remote monitors provided to each patient.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">December 2015</start_date>
+  <completion_date type="Actual">February 28, 2017</completion_date>
+  <primary_completion_date type="Actual">January 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>The medication treatment intervention between arms differs in that the optima4BP arm uses an analytic intelligence algorithm to optimize drug treatment.</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Clinical Adoption of a Decision Support Artificial Intelligence</measure>
+    <time_frame>6 months</time_frame>
+    <description>Total number of participants that undergone a treatment change.
+This measure allows to evaluate the adoption of the optima4BP treatment recommendation based on the total number of patients that benefited from a treatment recommendation that was implemented by the treating physician.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">28</enrollment>
+  <condition>Hypertension</condition>
+  <arm_group>
+    <arm_group_label>optima4BP Medication Management</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>optima4BP will provide a monthly medication optimization to the treating physician for review and subsequent implementation. The Treatment Recommendation will consist of:
+curated blood pressure (BP) and heart rate (HR) values reported by the patient through the use of home monitoring BP arm cuff;
+medication treatment recommendation;
+active link to access additional treatment analysis tools.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Usual Care Medication Management</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Usual care management will follow medication treatment management according to the physician preference. The treating physician will not be provided with a medication optimization recommendation, nor with monthly curated BP and HR values.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>optima4BP Medication Management</intervention_name>
+    <description>A clinical reasoning expert system is used to determine the need for a medication treatment optimization. If a treatment optimization is needed, the expert system generates a recommendation that is sent to the treating physician.</description>
+    <arm_group_label>optima4BP Medication Management</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  UCSF General Medicine patient
+
+          -  2 or more values on consecutive office visits within 12 months: systolic blood
+             pressure (SBP) &gt; 140 mmHg or diastolic blood pressure (DBP) &gt; 90
+
+          -  Therapy with at least 2 anti-hypertensive pharmacological classes at the time of the
+             last office visit
+
+        Exclusion Criteria:
+
+          -  Does not own a smartphone
+
+          -  Does not speak or read English
+
+          -  Planning to leave UCSF in the next year
+
+          -  Has a treating physician who refuses to enroll patients
+
+          -  Treating physician states that:
+
+        Patient cannot manage Qardio® arm blood pressure (BP) device (due to cognitive,
+        psychological, physical or other problems), or Patient is already at goal, or Should not
+        participate in the study for any other reason
+
+          -  Non-compliance with medical follow-up (frequent &quot;no shows&quot;)
+
+          -  Planned coronary revascularization in the next 6 months
+
+          -  Myocardial infarction, stroke, coronary revascularization, cardiac or aortic surgery
+             in the last 3 months
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Gabriela Voskerician, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Optima Integrated Health</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Liviu Klein, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of California, San Francisco</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of California San Francisco</name>
+      <address>
+        <city>San Carlos</city>
+        <state>California</state>
+        <zip>94158</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>March 2019</verification_date>
+  <study_first_submitted>December 2, 2016</study_first_submitted>
+  <study_first_submitted_qc>December 6, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 9, 2016</study_first_posted>
+  <results_first_submitted>April 3, 2018</results_first_submitted>
+  <results_first_submitted_qc>September 16, 2019</results_first_submitted_qc>
+  <results_first_posted type="Actual">September 18, 2019</results_first_posted>
+  <last_update_submitted>September 16, 2019</last_update_submitted>
+  <last_update_submitted_qc>September 16, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 18, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>clinical reasoning artificial intelligence</keyword>
+  <keyword>poorly controlled hypertension</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hypertension</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>optima4BP Medication Optimization</title>
+          <description>optima4BP will provide a monthly medication optimization to the treating physician for review and subsequent implementation. The Treatment Recommendation will consist of:
+curated blood pressure (BP) and heart rate (HR) values reported by the patient through the use of home monitoring BP arm cuff;
+medication treatment recommendation;
+active link to access additional analysis tools.
+optima4BP medication optimization: A clinical reasoning expert system is used to determine the need for a medication treatment optimization. If a treatment optimization is needed, the expert system generates a recommendation that is sent to the treating physician.</description>
+        </group>
+        <group group_id="P2">
+          <title>Usual Care Management</title>
+          <description>Usual care management will follow medication treatment management according to the physician preference. The treating physician will not be provided with a medication optimization recommendation, nor with monthly curated BP and HR values.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="12"/>
+                <participants group_id="P2" count="16"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="12"/>
+                <participants group_id="P2" count="16"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>optima4BP Medication Management</title>
+          <description>optima4BP will provide a monthly medication optimization to the treating physician for review and subsequent implementation. The Treatment Recommendation will consist of:
+curated blood pressure (BP) and heart rate (HR) values reported by the patient through the use of home monitoring BP arm cuff;
+medication treatment recommendation;
+active link to access additional analysis tools.
+optima4BP Medication Management: A clinical reasoning expert system is used to determine the need for a medication treatment optimization. If a treatment optimization is needed, the expert system generates a recommendation that is sent to the treating physician.</description>
+        </group>
+        <group group_id="B2">
+          <title>Usual Care Medication Management</title>
+          <description>Usual Care Medication Management will follow medication treatment management according to the physician preference. The treating physician will not be provided with a medication optimization recommendation, nor with monthly curated BP and HR values.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="12"/>
+            <count group_id="B2" value="16"/>
+            <count group_id="B3" value="28"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="12"/>
+                    <measurement group_id="B2" value="16"/>
+                    <measurement group_id="B3" value="28"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="71" spread="3"/>
+                    <measurement group_id="B2" value="69" spread="5"/>
+                    <measurement group_id="B3" value="70" spread="1.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7"/>
+                    <measurement group_id="B2" value="6"/>
+                    <measurement group_id="B3" value="13"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                    <measurement group_id="B2" value="10"/>
+                    <measurement group_id="B3" value="15"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                    <measurement group_id="B2" value="4"/>
+                    <measurement group_id="B3" value="6"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10"/>
+                    <measurement group_id="B2" value="12"/>
+                    <measurement group_id="B3" value="22"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="12"/>
+                    <measurement group_id="B2" value="16"/>
+                    <measurement group_id="B3" value="28"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Clinical Adoption of a Decision Support Artificial Intelligence</title>
+        <description>Total number of participants that undergone a treatment change.
+This measure allows to evaluate the adoption of the optima4BP treatment recommendation based on the total number of patients that benefited from a treatment recommendation that was implemented by the treating physician.</description>
+        <time_frame>6 months</time_frame>
+        <population>Clinical adoption based on physician acceptance of the treatment recommendation</population>
+        <group_list>
+          <group group_id="O1">
+            <title>optima4BP Treatment Management</title>
+            <description>optima4BP will provide a monthly medication optimization to the treating physician for review and subsequent implementation. The Treatment Recommendation will consist of:
+curated blood pressure (BP) and heart rate (HR) values reported by the patient through the use of home monitoring BP arm cuff;
+medication treatment recommendation;
+active link to access additional analysis tools.
+optima4BP medication optimization: A clinical reasoning expert system is used to determine the need for a medication treatment optimization. If a treatment optimization is needed, the expert system generates a recommendation that is sent to the treating physician.</description>
+          </group>
+          <group group_id="O2">
+            <title>Usual Care Treatment Management</title>
+            <description>Usual care management will follow medication treatment management according to the physician preference. The treating physician will not be provided with a medication optimization recommendation, nor with monthly curated BP and HR values.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Clinical Adoption of a Decision Support Artificial Intelligence</title>
+          <description>Total number of participants that undergone a treatment change.
+This measure allows to evaluate the adoption of the optima4BP treatment recommendation based on the total number of patients that benefited from a treatment recommendation that was implemented by the treating physician.</description>
+          <population>Clinical adoption based on physician acceptance of the treatment recommendation</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="12"/>
+                <count group_id="O2" value="16"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="10"/>
+                    <measurement group_id="O2" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Adverse events were collected during the entire course of the 6 months study.</time_frame>
+      <desc>The definition of adverse event does not differ from clinicaltrials.gov Definition.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>optima4BP Treatment Management</title>
+          <description>optima4BP will provide a monthly medication optimization to the treating physician for review and subsequent implementation. The Treatment Recommendation will consist of:
+curated blood pressure (BP) and heart rate (HR) values reported by the patient through the use of home monitoring BP arm cuff;
+medication treatment recommendation;
+active link to access additional analysis tools.
+optima4BP medication optimization: A clinical reasoning expert system is used to determine the need for a medication treatment optimization. If a treatment optimization is needed, the expert system generates a recommendation that is sent to the treating physician.</description>
+        </group>
+        <group group_id="E2">
+          <title>Usual Care Treatment Management</title>
+          <description>Usual care management will follow medication treatment management according to the physician preference. The treating physician will not be provided with a medication optimization recommendation, nor with monthly curated BP and HR values.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="12"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="16"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="12"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="16"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="12"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="16"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Gabriela Voskerician</name_or_title>
+      <organization>Optima Integrated Health</organization>
+      <phone>6502233588</phone>
+      <email>gxv4@case.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

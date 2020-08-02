@@ -1,0 +1,719 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04003610</url>
+  </required_header>
+  <id_info>
+    <org_study_id>INCB 54828-205</org_study_id>
+    <nct_id>NCT04003610</nct_id>
+  </id_info>
+  <brief_title>Pemigatinib + Pembrolizumab vs Pemigatinib Alone vs Standard of Care for Urothelial Carcinoma (FIGHT-205)</brief_title>
+  <official_title>A Phase 2, Open-Label, Randomized, Multicenter Study to Evaluate the Efficacy and Safety of Pemigatinib Plus Pembrolizumab Versus Pemigatinib Alone Versus Standard of Care as First-Line Treatment for Metastatic or Unresectable Urothelial Carcinoma in Cisplatin-Ineligible Participants Whose Tumors Express FGFR3 Mutation or Rearrangement (FIGHT-205)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Incyte Corporation</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Incyte Corporation</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to evaluate the safety and efficacy of pemigatinib plus
+      pembrolizumab or pemigatinib alone versus the standard of care for participants with
+      metastatic or unresectable urothelial carcinoma who are not eligible to receive cisplatin,
+      are harboring FGFR3 mutation or rearrangement, and who have not received prior treatment.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">November 12, 2019</start_date>
+  <completion_date type="Anticipated">June 30, 2024</completion_date>
+  <primary_completion_date type="Anticipated">November 30, 2022</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Progression-free survival (PFS)</measure>
+    <time_frame>Up to approximately 18 months</time_frame>
+    <description>Defined as the time from randomization date until the date of disease progression (per Response Evaluation Criteria in Solid Tumors version 1.1 [RECIST v1.1]) or death due to any cause, whichever occurs first.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Overall survival (OS)</measure>
+    <time_frame>Up to approximately 18 months</time_frame>
+    <description>Defined the time from the date of randomization until death due to any cause.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Objective response rate (ORR)</measure>
+    <time_frame>Up to approximately 18 months</time_frame>
+    <description>Defined as the proportion of participants with best overall response of complete response (CR) or partial response (PR) per RECIST v1.1.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Duration of response (DOR)</measure>
+    <time_frame>Up to approximately 18 months</time_frame>
+    <description>Defined as the time from the date of the first assessment of CR or PR until the date of the first disease progression (per RECIST v1.1) or death, whichever occurs first.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of treatment-emergent adverse events</measure>
+    <time_frame>Up to approximately 18 months</time_frame>
+    <description>Defined as adverse events reported for the first time or worsening of a pre-existing event after first dose of study treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>EORTC QLQ-C30 score</measure>
+    <time_frame>Starting at Cycle 4, every 9 weeks for 1 year then every 12 weeks thereafter, up to approximately 18 months</time_frame>
+    <description>European Organization for the Research and Treatment of Cancer Core Quality of Life Questionnaire.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change from baseline in EORTC QLQ C30 score</measure>
+    <time_frame>From Baseline to starting at Cycle 4, every 9 weeks for 1 year then every 12 weeks thereafter, up to approximately 18 months.</time_frame>
+    <description>European Organization for the Research and Treatment of Cancer Core Quality of Life Questionnaire.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>EQ-5D-5L score</measure>
+    <time_frame>Starting at Cycle 4, every 9 weeks for 1 year then every 12 weeks thereafter, up to approximately 18 months.</time_frame>
+    <description>5-level version of the EuroQol-5D instrument.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change from baseline in EQ-5D-5L score</measure>
+    <time_frame>From Baseline to starting at Cycle 4, every 9 weeks for 1 year then every 12 weeks thereafter, up to approximately 18 months.</time_frame>
+    <description>5-level version of the EuroQol-5D instrument.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">372</enrollment>
+  <condition>Metastatic Urothelial Carcinoma</condition>
+  <condition>Unresectable Urothelial Carcinoma</condition>
+  <arm_group>
+    <arm_group_label>Pemigatinib + Pembrolizumab</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Combination of pemigatinib plus pembrolizumab.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Pemigatinib</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Pemigatinib alone.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard of Care</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Chemotherapy or pembrolizumab.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Pemigatinib</intervention_name>
+    <description>Pemigatinib at the protocol-specified dose administered orally.</description>
+    <arm_group_label>Pemigatinib</arm_group_label>
+    <arm_group_label>Pemigatinib + Pembrolizumab</arm_group_label>
+    <other_name>INCB054828</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Pembrolizumab</intervention_name>
+    <description>Pembrolizumab at the protocol-specified dose administered intravenously.</description>
+    <arm_group_label>Pemigatinib + Pembrolizumab</arm_group_label>
+    <arm_group_label>Standard of Care</arm_group_label>
+    <other_name>Keytruda®</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Gemcitabine</intervention_name>
+    <description>Gemcitabine at the protocol-specified dose administered intravenously with carboplatin.</description>
+    <arm_group_label>Standard of Care</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Carboplatin</intervention_name>
+    <description>Carboplatin at the protocol-specified dose administered intravenously with gemcitabine.</description>
+    <arm_group_label>Standard of Care</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Histologically documented metastatic or unresectable urothelial carcinoma. Both
+             transitional cell and mixed transitional cell histologies are allowed, provided
+             urothelial component is ≥ 50%.
+
+          -  At least 1 measurable target lesion per RECIST v1.1.
+
+          -  Must be ineligible to receive cisplatin. Patients ineligible for any platinum-based
+             chemotherapy are allowed.
+
+          -  Known FGFR3 mutation or rearrangement confirmed by the central laboratory prior to
+             randomization.
+
+          -  Central laboratory test result of PD-L1 status is mandatory at screening.
+
+          -  Have received no prior systemic chemotherapy for metastatic or unresectable urothelial
+             carcinoma (except adjuvant platinum-based chemotherapy following radical cystectomy,
+             with recurrence &gt; 12 months from completion of therapy, or neo-adjuvant platinum-based
+             chemotherapy, with recurrence &gt; 12 months since completion of therapy).
+
+          -  Eastern Cooperative Oncology Group (ECOG) performance status 0 to 2.
+
+          -  Willingness to avoid pregnancy or fathering children.
+
+        Exclusion Criteria:
+
+          -  Prior receipt of a selective FGFR inhibitor for any indication or reason.
+
+          -  Prior receipt of an anti-PD-1, anti-PD-L1, or anti-PD-L2 agent, or with an agent
+             directed to another co-inhibitory T-cell receptor.
+
+          -  Receipt of anticancer medications or investigational drugs for unresectable and/or
+             metastatic disease.
+
+          -  Concurrent anticancer therapy, except for treatment allowed per protocol.
+
+          -  Has disease that is suitable for local therapy administered with curative intent.
+
+          -  Has tumor with any neuroendocrine or small cell component.
+
+          -  Current evidence of clinically significant corneal or retinal disorder as confirmed by
+             ophthalmologic examination.
+
+          -  Has received prior radiotherapy to a metastatic site without the use of chemotherapy
+             radiosensitization within 3 weeks of the first dose of study treatment, with the
+             exception of palliative radiotherapy to bone lesions, which is allowed if completed 2
+             weeks before the start of study treatment.
+
+          -  Has central nervous system metastases, unless the participant has completed local
+             therapy (eg, whole brain radiation therapy, surgery, radiosurgery) and has
+             discontinued use of corticosteroids for this indication for at least 4 weeks before
+             starting treatment in this study.
+
+          -  Known additional malignancy that is progressing or required active treatment within
+             the past 3 years
+
+          -  Laboratory values outside the protocol-defined range at screening.
+
+          -  Clinically significant or uncontrolled cardiac disease.
+
+          -  History of autoimmune disease that has required systemic treatment in past 2 years.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Luis Feliz Vinas, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Incyte Corporation</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Incyte Corporation Call Center (US)</last_name>
+    <phone>1.855.463.3463</phone>
+    <email>medinfo@incyte.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Incyte Corporation Call Center (ex-US)</last_name>
+    <phone>+800 00027423</phone>
+    <email>globalmedinfo@incyte.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Christiana Care Helen F. Graham Cancer Center</name>
+      <address>
+        <city>Newark</city>
+        <state>Delaware</state>
+        <zip>19713</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Cotton-O'Neil Clinical Research Center, Hematology &amp; Oncology</name>
+      <address>
+        <city>Marietta</city>
+        <state>Georgia</state>
+        <zip>30067</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Southern Illinois University School of Medicine</name>
+      <address>
+        <city>Springfield</city>
+        <state>Illinois</state>
+        <zip>62702</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Summit Medical Group</name>
+      <address>
+        <city>Florham Park</city>
+        <state>New Jersey</state>
+        <zip>07932</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Study Coordinator</last_name>
+      <phone>973-436-1755</phone>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Oregon Health Science University</name>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <zip>97239</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Charleston Hematology Oncology Associates</name>
+      <address>
+        <city>Charleston</city>
+        <state>South Carolina</state>
+        <zip>29414</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Vanderbilt-Ingram Cancer Center</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <zip>37232</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>The Center For Cancer And Blood Disorders</name>
+      <address>
+        <city>Fort Worth</city>
+        <state>Texas</state>
+        <zip>76104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>ONC Consultants Pharmacy 2</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Grand Hopital de Charleroi</name>
+      <address>
+        <city>Charleroi</city>
+        <zip>6000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Universitaire Ziekenhuis Leuven - Gasthuisberg</name>
+      <address>
+        <city>Leuven</city>
+        <zip>3000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Helsinki University Meilahti Tower Hospital</name>
+      <address>
+        <city>Helsinki</city>
+        <zip>00029</zip>
+        <country>Finland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Fonk Onkologian Klinikka</name>
+      <address>
+        <city>Tampere</city>
+        <zip>33520</zip>
+        <country>Finland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Turku University Hospital, Sct Unit</name>
+      <address>
+        <city>Turku</city>
+        <zip>20521</zip>
+        <country>Finland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Groupe Hospitalier Pellegrin Tripode</name>
+      <address>
+        <city>Bordeaux</city>
+        <zip>33075</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Chu Nimes</name>
+      <address>
+        <city>Nimes</city>
+        <zip>30029</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Centre Hospitalier Universitaire de Poitiers</name>
+      <address>
+        <city>Poitiers</city>
+        <zip>86021</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Istituto Scientifico Romagnolo Per Lo Studio E La Cura Dei Tumori</name>
+      <address>
+        <city>Meldola</city>
+        <zip>47014</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Istituto Nazionale Tumori Fondazione Irccs G. Pascale</name>
+      <address>
+        <city>Napoli</city>
+        <zip>80131</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Università Campus Bio-Medico Di Roma</name>
+      <address>
+        <city>Roma</city>
+        <zip>00128</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Irrcs Instituto Clinico</name>
+      <address>
+        <city>Rozzano</city>
+        <zip>20089</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Tohoku University Hospital</name>
+      <address>
+        <city>Sendai-shi</city>
+        <state>Miyagi-Ken</state>
+        <zip>980-8574</zip>
+        <country>Japan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Chiba University Hospital</name>
+      <address>
+        <city>Chiba</city>
+        <zip>260-8677</zip>
+        <country>Japan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Chiba Cancer Center</name>
+      <address>
+        <city>Chiba</city>
+        <zip>260-8717</zip>
+        <country>Japan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Saitama Medical University Internation Medical Center</name>
+      <address>
+        <city>Hidaka-Shi</city>
+        <zip>350-1298</zip>
+        <country>Japan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>St. Marianna University School of Medicine Hospital</name>
+      <address>
+        <city>Kawasaki-shi</city>
+        <zip>216-8511</zip>
+        <country>Japan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Kagawa University Hospital</name>
+      <address>
+        <city>Kita-gun</city>
+        <zip>761-0793</zip>
+        <country>Japan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Nho Shikoku Cancer Center</name>
+      <address>
+        <city>Matsuyama</city>
+        <zip>791-0280</zip>
+        <country>Japan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Toranomon Hospital</name>
+      <address>
+        <city>Minato-ku</city>
+        <zip>105-8470</zip>
+        <country>Japan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Osaka International Cancer Institute</name>
+      <address>
+        <city>Osaka-Shi</city>
+        <zip>541-8567</zip>
+        <country>Japan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Keio University Hospital</name>
+      <address>
+        <city>Shinjuku-ku</city>
+        <zip>160-8582</zip>
+        <country>Japan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>National Cancer Center Hospital</name>
+      <address>
+        <city>Tokyo</city>
+        <zip>104-0045</zip>
+        <country>Japan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Clinic I Provincial</name>
+      <address>
+        <city>Barcelona</city>
+        <zip>08036</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Ico Girona</name>
+      <address>
+        <city>Girona</city>
+        <zip>17007</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Clinico San Carlos</name>
+      <address>
+        <city>Madrid</city>
+        <zip>28040</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario 12 de Octubre</name>
+      <address>
+        <city>Madrid</city>
+        <zip>28041</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario de La Paz</name>
+      <address>
+        <city>Madrid</city>
+        <zip>28046</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Puerta de Hierro</name>
+      <address>
+        <city>Majadahonda</city>
+        <zip>28222</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Virgen Del Rocio</name>
+      <address>
+        <city>Sevilla</city>
+        <zip>41013</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+    <country>Finland</country>
+    <country>France</country>
+    <country>Italy</country>
+    <country>Japan</country>
+    <country>Spain</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>June 28, 2019</study_first_submitted>
+  <study_first_submitted_qc>June 28, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 1, 2019</study_first_posted>
+  <last_update_submitted>June 24, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 24, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 25, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Urothelial carcinoma</keyword>
+  <keyword>fibroblast growth factor receptor (FGFR) inhibitor</keyword>
+  <keyword>FGFR3 mutation</keyword>
+  <keyword>FGFR3 rearrangement</keyword>
+  <keyword>metastatic</keyword>
+  <keyword>unresectable</keyword>
+  <keyword>cisplatin-ineligible</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma</mesh_term>
+    <mesh_term>Carcinoma, Transitional Cell</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Gemcitabine</mesh_term>
+    <mesh_term>Carboplatin</mesh_term>
+    <mesh_term>Pembrolizumab</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Incyte shares data with qualified external researchers after a research proposal is submitted. These requests are reviewed and approved by a review panel on the basis of scientific merit. All data provided is anonymized to respect the privacy of patients who have participated in the trial in line with applicable laws and regulations.
+The trial data availability is according to the criteria and process described on https://www.incyte.com/our-company/compliance-and-transparency</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_time_frame>Data will be shared after the primary publication or 2 years after the study has ended for market authorized products and indications.</ipd_time_frame>
+    <ipd_access_criteria>Data from eligible studies will be shared with qualified researchers according to the criteria and process described in the Data Sharing section of the www.incyteclinicaltrials.com website. For approved requests, the researchers will be granted access to anonymized data under the terms of a data sharing agreement.</ipd_access_criteria>
+    <ipd_url>https://www.incyte.com/our-company/compliance-and-transparency</ipd_url>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

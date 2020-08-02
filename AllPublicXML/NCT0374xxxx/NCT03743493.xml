@@ -1,0 +1,770 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03743493</url>
+  </required_header>
+  <id_info>
+    <org_study_id>OpioidRCR</org_study_id>
+    <nct_id>NCT03743493</nct_id>
+  </id_info>
+  <brief_title>PCORnet Opioid Surveillance Study</brief_title>
+  <official_title>PCORnet Opioid Surveillance Demonstration Project</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Louisiana Public Health Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Patient-Centered Outcomes Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Patient-Centered Clinical Research Network</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Research Action for Health Network (REACHnet)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Patient-Centered SCAlable National Network for Effectiveness Research (pSCANNER)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>ADVANCE Clinical Data Research Network</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>New York City Clinical Data Research Network</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>PaTH: Towards a Learning Health System Clinical Data Research Network</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Centers for Disease Control and Prevention</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Harvard Pilgrim Health Care</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Louisiana Public Health Institute</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The overarching objective of this project is to demonstrate and assess the feasibility of
+      using the Patient Centered Outcomes Research Network (PCORnet) Common Data Model for opioid
+      surveillance to complement existing and support future initiatives. This project will
+      characterize risk factors, processes, and outcomes related to opioid use, misuse, and abuse.
+      It will quantify the utility of data stored in the PCORnet Common Data Model format stewarded
+      by healthcare organizations participating in PCORnet.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a two phase retrospective study. The goal of Phase I is to assess the utility of
+      PCORnet Common Data Mode (CDM) data to study risk factors, processes, and outcomes related to
+      opioid use, misuse, and abuse. Based on the results of the Phase I feasibility examination,
+      Phase II will be conducted and will analyze the relationships between patient- and
+      provider-level risk factors and policies, and opioid-related outcomes over time and within
+      geographic regions.
+
+      The study will leverage the existing data PCORnet data infrastructure and resources to
+      achieve its objectives and answer its research questions. Standardized analysis programs will
+      be distributed to participating sites within the PCORnet Distributed Research Network. Sites
+      will return aggregate, descriptive counts and summary statistics from regression analyses.
+      When data are unavailable or analysis is determined infeasible, results will be reported as
+      such.
+
+      The Aims of Phase I are:
+
+        1. Generate counts and proportion of patients with exposure (or potential exposure) to
+           opioids though prescription or dispensing records within a health system.
+
+           a. Compare results to CDC.
+
+        2. Characterize data elements in PCORnet data and assess suitability for opioid
+           surveillance.
+
+             1. Identify the relevant data elements
+
+             2. Examine data completeness and validity
+
+             3. Identify data limitations and gaps that limit surveillance
+
+      The Aims of Phase II are:
+
+        1. Examine whether and to what extent patient-level risk factors, provider processes, and
+           policies are associated with declines in outcomes of interest.
+
+        2. Examine whether and to what extent prescribing guidelines, related policies, processes,
+           and/or care procedures are associated opioid-related outcomes.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">July 1, 2018</start_date>
+  <completion_date type="Anticipated">April 15, 2019</completion_date>
+  <primary_completion_date type="Anticipated">April 15, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Opioid exposure (prescribing/dispensing) counts by Guideline A group</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts used to derive rates</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Opioid exposure (prescribing/dispensing) counts by Guideline B group</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts used to derive rates</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Opioid exposure (prescribing/dispensing) counts by Prevalance group</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts used to derive rates</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Opioid exposure (prescribing/dispensing) counts stratified by demographic characteristics</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Age group, sex, race and ethnicity; Counts used to derive rates</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Most common diagnoses among cohort groups stratified by demographic characteristics and geography</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Frequencies of most common 1000 diagnosis codes stratified by age group, sex, race, ethnicity, and facility 3-digit zip code</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Most common procedures among cohort groups stratified by demographic characteristics and geography</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Frequencies of most common 1000 procedure codes stratified by age group, sex, race, ethnicity, and facility 3-digit zip code</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Occurrence of mental health diagnoses among cohort groups stratified by demographic characteristics and geography</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Frequencies of mental health diagnosis codes stratified by age group, sex, race, ethnicity, and facility 3-digit zip code</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Occurrence of opioid overdose diagnoses among cohort groups stratified by demographic characteristics and geography</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Frequencies of opioid overdose stratified by age group, sex, race, ethnicity, and facility 3-digit zip code</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Occurrence of substance use disorder diagnoses among cohort groups stratified by demographic characteristics and geography</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Frequencies of substance use disorder diagnoses stratified by age group, sex, race, ethnicity, and facility 3-digit zip code</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Opioid exposure (prescribing/dispensing) counts by cohort groups and provider</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Stratified by age group, sex, race, ethnicity, and facility 3-digit zip code</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Most common diagnoses in patients with opioid-inclusive substance use disorder diagnoses</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Frequencies of most common 1000 diagnosis codes overall and stratified by age group, sex, race, ethnicity, and facility 3-digit zip code</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Most common procedures among patients with opioid-inclusive substance use disorder diagnoses</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Frequencies of most common 1000 procedure codes overall and stratified by age group, sex, race, ethnicity, and facility 3-digit zip code</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Occurrence of mental health diagnoses among patients with opioid-inclusive substance use disorder diagnoses</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Frequencies of mental health diagnosis codes overall and stratified by age group, sex, race, ethnicity, and facility 3-digit zip code</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Occurrence of urine drug screening in patients with opioid exposure (prescribing/dispensing)</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Frequencies of urine drug screening procedures or lab codes overall and stratified by age group, sex, race, ethnicity, and facility 3-digit zip code</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Frequency of HIV diagnoses in patients with opioid use disorder diagnosis</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts overall and stratified by age group, sex, race, ethnicity, and facility 3-digit zip code</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Frequency of Hepatitis B diagnoses in patients with opioid use disorder diagnosis</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts overall and stratified by age group, sex, race, ethnicity, and facility 3-digit zip code</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Frequency of Hepatitis C diagnoses in patients with opioid use disorder diagnosis</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts overall and stratified by age group, sex, race, ethnicity, and facility 3-digit zip code</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Frequency of opioid and benzodiazepine co-prescribing/dispensing</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts overall and stratified by age group, sex, race, ethnicity, and facility 3-digit zip code</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Frequency of Naloxone administration during an emergency department encounter among patients with an opioid overdose diagnosis</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts overall and stratified by age group, sex, race, ethnicity, and facility 3-digit zip code</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Frequency of Naloxone exposure (prescribing/dispensing) among patients with opioid exposure (prescribing/dispensing) by encounter setting</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts overall and stratified by age group, sex, race, ethnicity, and facility 3-digit zip code</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Frequency of Naloxone exposure (prescribing/dispensing) among patients with opioid-inclusive substance use disorder diagnosis by encounter setting</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts overall and stratified by age group, sex, race, ethnicity, and facility 3-digit zip code</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Frequency of buprenorphine exposure (prescribing/dispensing) among patients with opioid-inclusive substance use disorder diagnosis by encounter setting</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts overall and stratified by age group, sex, race, ethnicity, and facility 3-digit zip code</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Frequency of naltrexone exposure (prescribing/dispensing) among patients with opioid-inclusive substance use disorder diagnosis by encounter setting</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts overall and stratified by age group, sex, race, ethnicity, and facility 3-digit zip code</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Frequency of methadone exposure (prescribing/dispensing) among patients with opioid-inclusive substance use disorder diagnosis by encounter setting</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts overall and stratified by age group, sex, race, ethnicity, and facility 3-digit zip code</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Adjusted risk of overdose in patients with opioid exposure (prescribing/dispensing)</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Patient level regression controlling for year, age, sex, race, ethnicity</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Adjusted risk of overdose in patients with opioid-inclusive substance use disorder diagnosis</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Patient level regression controlling for year, age, sex, race, ethnicity</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Predictors of opioid exposure (prescribing/dispending) and rate of neonatal abstinence syndrome for women of child-bearing age</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Regression controlling for year, age, race, ethnicity at patient and 3-digit zip code level</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Predictors of opioid-inclusive substance abuse disorder diagnosis and rate of neonatal abstinence syndrome for women of child-bearing age</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Regression controlling for year, age, race, ethnicity at patient and 3-digit zip code level</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Adjusted risk of emergency department and inpatient utilization in patients with opioid exposure (prescribing/dispensing)</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Regression controlling for year, age, race, ethnicity at patient and 3-digit zip code level</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Adjusted risk of emergency department and inpatient utilization in patients with opioid-inclusive substance abuse disorder diagnosis</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Regression controlling for year, age, race, ethnicity at patient and 3-digit zip code level</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Adjusted risk of emergency department and inpatient utilization in patients with opioid overdose diagnosis</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Regression controlling for year, age, race, ethnicity at patient and 3-digit zip code level</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of opiate prescribing data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Count of patient encounters with opiate prescription record</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of opiate dispensing data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Count of patient encounters with opiate dispensing record</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of provider data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Count of providers from patient encounter records</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of prescribing provider data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Count of providers from patient opiate prescribing records</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of admitting source data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Count of patient encounters by admitting source type (frequencies)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of discharge disposition data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Count of patient encounters by discharge disposition type (frequencies)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of discharge status data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Count of patient encounters by discharge status (frequencies)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of facility data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Count of patient encounters by facility location/type (frequencies)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of urine drug screen data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts of patients with a urine drug screen lab result record</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of urine drug screen results data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts of patients with a urine drug screen lab by result (frequencies)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of prescription type data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts of patient opiate prescriptions by RxNorm Term Types (frequencies)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of prescription dose data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts of patient opiate prescriptions by dose ordered unit of measure (frequencies)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Distribution of prescription dose data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Distribution of patient opiate prescriptions by dose ordered</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of prescription dose frequency data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts of patient opiate prescriptions by dose frequency (frequencies)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of prescription supply data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Distribution of number of days supply of patient opiate prescriptions</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of prescription quantity data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Distribution of prescription quantity for patient opiate prescriptions</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of prescription refill data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Distribution of prescription refill numbers for patient opiate prescriptions</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of procedure data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts of patient procedures by coding type (frequencies)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of vitals data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts of patient encounters with vitals records</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of smoking/tobacco data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Counts of patient vital records by smoking/tobacco type (frequencies)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of language data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Percent completeness of patients with language preference in record</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of primary payer data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Percent completeness of patients with primary payer data in record</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of secondary payer data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Percent completeness of patients with secondary payer data in record</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of height data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Percent completeness of patients with height data in record</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of weight data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Percent completeness of patients with weight data in record</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of diastolic blood pressure data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Percent completeness of patients with diastolic data in record</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of systolic blood pressure data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Percent completeness of patients with systolic data in record</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of dispensed days supply data for Guideline B patients</measure>
+    <time_frame>1/1/2010-12/31/2017</time_frame>
+    <description>Percent completeness of patients with days supply in the dispensing record</description>
+  </secondary_outcome>
+  <number_of_groups>6</number_of_groups>
+  <enrollment type="Anticipated">22375112</enrollment>
+  <condition>Opioid Use</condition>
+  <condition>Opioid Abuse</condition>
+  <arm_group>
+    <arm_group_label>Prevalence numerator</arm_group_label>
+    <description>An opioid prescribed or dispensed in the query period (1/1/2010-12/31/2017)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Prevalence denominator</arm_group_label>
+    <description>Any diagnosis on record in the query period (1/1/2010-12/31/2017)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Guideline A numerator</arm_group_label>
+    <description>An opioid prescribed or dispensed in the query period (1/1/2010-12/31/2017) AND NO cancer diagnosis in the year prior to the index event</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Guideline A denominator</arm_group_label>
+    <description>Any diagnosis on record in the query period (1/1/2010-12/31/2017) AND NO cancer diagnosis in the year prior to the index event</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Guideline B numerator</arm_group_label>
+    <description>An opioid prescribed or dispensed in the query period (1/1/2010-12/31/2017) AND NO inpatient cancer diagnosis OR cancer procedure in the year prior to the index event</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Guideline B denominator</arm_group_label>
+    <description>Any diagnosis on record in the query period (1/1/2010-12/31/2017) AND NO in-patient cancer diagnosis OR cancer procedure in the year prior to the index event</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with electronic health record data from participating clinical data research
+        networks (CDRN) of PCORnet.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        • Patients with an opioid exposure (prescription or dispense) or diagnosis from an
+        encounter on record between 1/1/10-12/31/17.
+
+        Exclusion Criteria:
+
+        • Patients without an opioid exposure (prescription or dispense) or diagnosis from an
+        encounter on record between 1/1/10-12/31/17.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Kristin A Lyman, JD, MHA</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Louisiana Public Health Institute</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Daniella Meeker, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Southern California</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Jason Doctor, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Southern California</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of California - Irvine</name>
+      <address>
+        <city>Irvine</city>
+        <state>California</state>
+        <zip>92697</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of California - San Diego</name>
+      <address>
+        <city>La Jolla</city>
+        <state>California</state>
+        <zip>92093</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Southern California</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90033</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Cedars-Sinai Medical Center</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90048</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of California - Los Angeles</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90095</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Patient-Centered SCAlable National Network for Effectiveness Research</name>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <zip>92093</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of California - San Francisco</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94143</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>San Mateo Medical Center</name>
+      <address>
+        <city>San Mateo</city>
+        <state>California</state>
+        <zip>94403</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Health Choice Network</name>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <zip>33172</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Research Action for Heath Network</name>
+      <address>
+        <city>New Orleans</city>
+        <state>Louisiana</state>
+        <zip>70112</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University Medical Center</name>
+      <address>
+        <city>New Orleans</city>
+        <state>Louisiana</state>
+        <zip>70112</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Johns Hopkins University</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21202</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Fenway Health</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>New York City Clinical Data Research Network</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10065</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Weill Cornell Medicine</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10065</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>ADVANCE Clinical Data Research Network</name>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <zip>97201</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>OCHIN, Inc</name>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <zip>97201</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Penn State College of Medicine</name>
+      <address>
+        <city>Hershey</city>
+        <state>Pennsylvania</state>
+        <zip>17033</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Temple University</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19140</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Pittsburgh Medical Center</name>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <zip>15213</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>PaTH: Towards a Learning Health System Clinical Data Research Network</name>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <zip>15260</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Veteran's Affairs Health System</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <zip>37212</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Baylor Scott &amp; White Health</name>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <zip>75246</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Utah</name>
+      <address>
+        <city>Salt Lake City</city>
+        <state>Utah</state>
+        <zip>84112</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>March 2019</verification_date>
+  <study_first_submitted>October 26, 2018</study_first_submitted>
+  <study_first_submitted_qc>November 14, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 16, 2018</study_first_posted>
+  <last_update_submitted>March 27, 2019</last_update_submitted>
+  <last_update_submitted_qc>March 27, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 29, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Opioid-Related Disorders</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

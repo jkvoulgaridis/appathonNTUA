@@ -1,0 +1,394 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04130789</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2018-01088; qu18Egli2</org_study_id>
+    <nct_id>NCT04130789</nct_id>
+  </id_info>
+  <brief_title>Personalized Swiss Sepsis Study</brief_title>
+  <acronym>PSSS_digital</acronym>
+  <official_title>Personalized Swiss Sepsis Study: With Machine Learning and Computational Modelling Towards Personalized Sepsis Management - Discovery of Digital Biomarkers</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Basel, Switzerland</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Swiss Personalized Health Network (SPHN)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Personalized Health and Related Technologies (PHRT) initiative of ETH Zürich</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital, Basel, Switzerland</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This multi-center study is to focus on patients with sepsis in Intensive Care Units (ICUs) in
+      order to better understand the complex host-pathogen interaction and clinical heterogeneity
+      associated with sepsis. Understanding this heterogeneity may allow the development of novel
+      diagnostic approaches. Data from patients will be analyzed using state-of-the art analytical
+      algorithms for biomarker discovery including machine learning and multidimensional
+      mathematical modelling to explore the large datasets generated. In order to discover digital
+      biomarkers for the study endpoints a case-control study design will be used to compare data
+      patterns from patients with sepsis (cases) and those without sepsis (controls).
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">November 15, 2019</start_date>
+  <completion_date type="Anticipated">June 2023</completion_date>
+  <primary_completion_date type="Anticipated">June 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>sepsis-related mortality (sensitivity)</measure>
+    <time_frame>time- series data collected from hospital entry until maximum 12 months after hospital exit (no exact time point specified)</time_frame>
+    <description>Algorithm to predict sepsis-related mortality (sensitivity)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>sepsis-related mortality (specificity)</measure>
+    <time_frame>time- series data collected from hospital entry until maximum 12 months after hospital exit (no exact time point specified)</time_frame>
+    <description>Algorithm to predict sepsis-related mortality (specificity)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Determination of sepsis</measure>
+    <time_frame>time- series data collected from hospital entry until hospital exit; an average of 1 month (no exact time point specified)</time_frame>
+    <description>Algorithm to determine sepsis at an early stage (at least 12 hours before classical definitions)</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">17500</enrollment>
+  <condition>Sepsis</condition>
+  <arm_group>
+    <arm_group_label>patients with sepsis (cases)</arm_group_label>
+    <description>patients who developed or were admitted with sepsis to the ICU (cases)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>patients without sepsis (controls)</arm_group_label>
+    <description>patients who did not develop sepsis (controls).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>compare data patterns by data-driven algorithms to determine sepsis</intervention_name>
+    <description>compare data patterns by data-driven algorithms including machine learning and multi-dimensional modelling to reliably determine sepsis</description>
+    <arm_group_label>patients with sepsis (cases)</arm_group_label>
+    <arm_group_label>patients without sepsis (controls)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>compare data patterns by data-driven algorithms to predict sepsis-related mortality</intervention_name>
+    <description>compare data patterns by data-driven algorithms including machine learning and multi-dimensional modelling to to predict sepsis-related mortality</description>
+    <arm_group_label>patients with sepsis (cases)</arm_group_label>
+    <arm_group_label>patients without sepsis (controls)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        ICU patients on a Swiss University Hospital ICU from 01.08.2019
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients admitted to an ICU on a Swiss University Hospital.
+
+          -  Patients expected to stay at least 24h on the ICU
+
+        Inclusion Criteria (cases)
+
+          -  Present at admission to ICU or subsequent development of sepsis 3.0 criteria
+
+        Inclusion Criteria (controls)
+
+          -  Patients not fulfilling sepsis definition during the ICU stay
+
+        Exclusion Criteria:
+
+          -  Decline of general consent or any other negative statement against using data for
+             research.
+
+          -  Patients with a clear elective stay on the ICUs.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Adrian Egli, PD Dr.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Clinical Microbiology, University Hospital Basel</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Adrian Egli, PD Dr.</last_name>
+    <phone>+41 61 556 5749</phone>
+    <email>adrian.egli@usb.ch</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Clinical Microbiology, University Hospital Basel</name>
+      <address>
+        <city>Basel</city>
+        <zip>4031</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Adrian Egli, PD Dr. med</last_name>
+      <phone>+41 61 556 5749</phone>
+      <email>adrian.egli@usb.ch</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Infectious Diseases and Hospital Epidemiology, University Hospital Basel</name>
+      <address>
+        <city>Basel</city>
+        <zip>4031</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Manuel Battegay, Prof Dr med</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Medical Intensive Care Unit; University Hospital Basel</name>
+      <address>
+        <city>Basel</city>
+        <zip>4031</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Stephan Marsch, Prof. Dr. MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Surgical Intensive Care Unit, University Hospital Basel</name>
+      <address>
+        <city>Basel</city>
+        <zip>4031</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Martin Siegemund, Prof. Dr. MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Institute for Infectious Diseases, University of Bern</name>
+      <address>
+        <city>Bern</city>
+        <zip>3001</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Stephen Leib, Prof. Dr. MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Division Infectious Diseases, University Hospital Bern</name>
+      <address>
+        <city>Bern</city>
+        <zip>3010</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Hansjakob Furrer, Prof.Dr.med</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Intensive Care Medicine, University Hospital Bern</name>
+      <address>
+        <city>Bern</city>
+        <zip>3010</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Stephan Jakob, Prof. Dr. MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Division Bacteriology Laboratory, University Hospital Geneva</name>
+      <address>
+        <city>Geneva</city>
+        <zip>1205</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jacques Schrenzel, Prof Dr med</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Division Infectious Diseases, University Hospital Geneva</name>
+      <address>
+        <city>Geneva</city>
+        <zip>1205</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Laurent Kaiser, Prof. Dr. MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Intensive Care Medicine, University Hospital Geneva</name>
+      <address>
+        <city>Geneva</city>
+        <zip>1205</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jérôme Pugin, Prof. Dr. MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Division Intensive Care Medicine, University Hospital Lausanne</name>
+      <address>
+        <city>Lausanne</city>
+        <zip>1011</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Philippe Eckert, Prof. Dr. MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Institute of Microbiology, University Hospital Lausanne</name>
+      <address>
+        <city>Lausanne</city>
+        <zip>1011</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Gilbert Greub, Prof. Dr. MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Service Infectious Diseases, University Hospital Lausanne</name>
+      <address>
+        <city>Lausanne</city>
+        <zip>1011</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Thierry Calandra, Prof. Dr. MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Institute for Medical Microbiology, University Hospital Zurich</name>
+      <address>
+        <city>Zürich</city>
+        <zip>8006</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Reinhard Zbinden, Prof. Dr. MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Division Infectious Diseases, University Hospital Zurich</name>
+      <address>
+        <city>Zürich</city>
+        <zip>8091</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Annelies Zinkernagel, Prof. Dr. MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Institute for Intensive Medicine, University Hospital Zurich</name>
+      <address>
+        <city>Zürich</city>
+        <zip>8091</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Reto Schüpbach, Prof. Dr. MD</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>October 15, 2019</study_first_submitted>
+  <study_first_submitted_qc>October 16, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 17, 2019</study_first_posted>
+  <last_update_submitted>July 7, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 7, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 8, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>clinical data warehouse (CDWH)</keyword>
+  <keyword>machine learning</keyword>
+  <keyword>data-driven algorithms</keyword>
+  <keyword>multi-dimensional modelling</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sepsis</mesh_term>
+    <mesh_term>Toxemia</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

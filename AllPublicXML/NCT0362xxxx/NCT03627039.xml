@@ -1,0 +1,223 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03627039</url>
+  </required_header>
+  <id_info>
+    <org_study_id>123</org_study_id>
+    <nct_id>NCT03627039</nct_id>
+  </id_info>
+  <brief_title>Metformin And Cardiovascular Effectiveness vs SGLT2 (MACES)</brief_title>
+  <official_title>Metformin And Cardiovascular Effectiveness vs SGLT2 (MACES)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brigham and Women's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Brigham and Women's Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of this study was to compare the effectiveness of sodium glucose co-transporter
+      2 (SGLT2) inhibitors relative to metformin for reducing subsequent cardiovascular events in
+      patients with type 2 diabetes mellitus.
+
+      The investigators will conduct a population-based, new-user, longitudinal-cohort study using
+      a nationwide US commercial insurance claims database. The investigators will compare adults
+      with diabetes mellitus type 2 over the age of 18 who were newly prescribed an SGLT2 inhibitor
+      or metformin between March 29, 2013 (date of US approval of first SGLT2) and January 1st,
+      2017 (most recent available data). Patients with diabetes mellitus type 2 will be identified
+      using the International Classification of Diseases, Ninth Revision (ICD-9) and ICD-10 codes.
+      Cohort entry date will be the date of the first prescription for an SGLT2 or metformin. New
+      users of SGLT2 or metformin will be defined as those without a prior prescription for either
+      class of medications, or any other medication for diabetes, in the preceding 180 days.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Baseline Covariates: All covariates will be assessed prior to cohort entry. Covariates will
+      reflect diagnoses and procedures recorded during health encounters, including chronic medical
+      conditions (e.g., hypertension, coronary artery disease), diabetes severity (e.g., hemoglobin
+      A1C, end-organ damage), overall healthcare utilization (e.g., recent hospitalization,
+      emergency department visit), prescriber characteristics (e.g., endocrinologist, general
+      practitioner), and medications (e.g., anti-hypertensives, diuretics).
+
+      Statistical analysis Propensity score matching will be used to adjust for confounding. The
+      probability of initiating an SGLT2-inhibitor will be calculated through a multivariable
+      logistic regression model containing all of the baseline covariates. Using this propensity
+      score, patients prescribed an SGLT2 were matched 1:1 with patients prescribed metformin using
+      a caliper of up to 0.1 on the probability scale. Covariate balance between the matched
+      cohorts was assessed using standardized differences. Since laboratory data were not available
+      for all patients, these were not included in the propensity score estimation.
+
+      After propensity score matching, proportional hazards models will be used to estimate the
+      incidence rate, hazard ratios and 95% confidence intervals for the primary outcome without
+      further adjustments. Schoenfeld residuals will be plotted to assess the proportional hazards
+      assumption. Predefined sensitivity and subgroup analyses included an intention to treat
+      analysis where the censoring criteria of drug discontinuation, switching or augmentation are
+      removed. The investigators will also assess the primary risk in a cohort restricted to
+      patients with a past-history of cardiovascular disease if our sample size allows it. To test
+      the specificity of our findings, the investigators will also conduct a tracer analysis using
+      cellulitis as an outcome, since cellulitis is not associated with SGLT2s or metformin.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">September 1, 2018</start_date>
+  <completion_date type="Anticipated">August 1, 2020</completion_date>
+  <primary_completion_date type="Anticipated">August 1, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Cardiovascular composite (stroke, myocardial infarction, heart failure)</measure>
+    <time_frame>Follow-up will begin one day after cohort entry and continue until medication discontinuation, study outcome, or no further data. Most patients will have 200 days of follow up</time_frame>
+    <description>The outcome will be identified using ICD9 and ICD10 codes and reported as rates of acute myocardial infarction, heart failure, stroke (they will only be analyzed individually if there are sufficient number of one of the events defined as &gt; 30 events)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Harms: Hypoglycemia</measure>
+    <time_frame>Follow-up will begin one day after cohort entry and continue until medication discontinuation, study outcome, or no further data. Most patients will have 200 days of follow up</time_frame>
+    <description>Hypoglycemia: identified using ICD9 and ICD10 codes and reported as rates</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Harms: diabetic ketoacidosis</measure>
+    <time_frame>Follow-up will begin one day after cohort entry and continue until medication discontinuation, study outcome, or no further data. Most patients will have 200 days of follow up</time_frame>
+    <description>Diabetic ketoacidosis: identified using ICD9 and ICD10 codes and reported as rates</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Harms: lactic acidosis</measure>
+    <time_frame>Follow-up will begin one day after cohort entry and continue until medication discontinuation, study outcome, or no further data. Most patients will have 200 days of follow up</time_frame>
+    <description>Lactic acidosis: identified using ICD9 and ICD10 codes and reported as rates</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Harms: Acute kidney injury</measure>
+    <time_frame>Follow-up will begin one day after cohort entry and continue until medication discontinuation, study outcome, or no further data. Most patients will have 200 days of follow up</time_frame>
+    <description>Acute kidney injury: identified using ICD9 and ICD10 codes and reported as rates</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Harms: Genital infection</measure>
+    <time_frame>Follow-up will begin one day after cohort entry and continue until medication discontinuation, study outcome, or no further data. Most patients will have 200 days of follow up</time_frame>
+    <description>Genital infection: identified using ICD9 and ICD10 codes and reported as rates</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Costs</measure>
+    <time_frame>Follow-up will begin one day after cohort entry and cost analysis will end 1 year thereafter</time_frame>
+    <description>Costs of metformin compared to SGLT2. Estimates for costs associated with the individual outcomes.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Tracer outcomes</measure>
+    <time_frame>Follow-up will begin one day after cohort entry and continue until medication discontinuation, study outcome, or no further data. Most patients will have 200 days of follow up</time_frame>
+    <description>The outcome will be identified using ICD9 and ICD10 codes and reported as rates (1) Cellulitis</description>
+  </other_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">20000</enrollment>
+  <condition>Diabetes Mellitus, Type 2</condition>
+  <arm_group>
+    <arm_group_label>Truven</arm_group_label>
+    <description>NOTE: In the case there are not enough patients/events data will be included from other databases (e.g., Optum, Medicare)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>SGLT2</intervention_name>
+    <description>All SGLT2 medications approved prior to 2017 will be included (Canagliflozin, empagliflozin, dapagliflozin (all doses, all of the medications are oral)</description>
+    <arm_group_label>Truven</arm_group_label>
+    <other_name>Canagliflozin, empagliflozin, dapagliflozin (all doses, all of the medications are oral)</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Metformin</intervention_name>
+    <description>Metformin is the main comparator of interest. In a secondary analysis GLP1 will be the comparator</description>
+    <arm_group_label>Truven</arm_group_label>
+    <other_name>All doses will be included. Metformin is an oral medication.</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        We will conduct a population-based, new-user, longitudinal-cohort study using the
+        nationwide US commercial insurance claims database. This database provides patient
+        demographics and longitudinal, individual-level data on healthcare utilization, inpatient
+        and outpatient diagnoses, diagnostic tests, clinical procedures, outpatient laboratory
+        results, and pharmacy dispensing of drugs.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        INCLUSION:
+
+        - all patients newly prescribed an SGLT2 or metformin between March 29, 2013 to January
+        1st, 2017 with at least 6 months of continuous enrollment (1 year in a sensitivity
+        analysis)
+
+        EXCLUSION:
+
+          -  age &lt; 18 years
+
+          -  previous use of any diabetes medication
+
+          -  lack of a diagnosis of type 2 diabetes mellitus
+
+          -  history of malignant neoplasm
+
+          -  dialysis
+
+          -  type 1 diabetes
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Division of Pharmacoepidemiology and Pharmacoeconomics</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02130</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>August 2019</verification_date>
+  <study_first_submitted>July 30, 2018</study_first_submitted>
+  <study_first_submitted_qc>August 8, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 13, 2018</study_first_posted>
+  <last_update_submitted>August 10, 2019</last_update_submitted>
+  <last_update_submitted_qc>August 10, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 13, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Brigham and Women's Hospital</investigator_affiliation>
+    <investigator_full_name>Michael Fralick</investigator_full_name>
+    <investigator_title>Principal investigator</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus, Type 2</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Metformin</mesh_term>
+    <mesh_term>2-(3-(4-ethoxybenzyl)-4-chlorophenyl)-6-hydroxymethyltetrahydro-2H-pyran-3,4,5-triol</mesh_term>
+    <mesh_term>Empagliflozin</mesh_term>
+    <mesh_term>Canagliflozin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

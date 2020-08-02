@@ -1,0 +1,687 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03697785</url>
+  </required_header>
+  <id_info>
+    <org_study_id>REC Reference: 18/LO/0282</org_study_id>
+    <secondary_id>239144</secondary_id>
+    <nct_id>NCT03697785</nct_id>
+  </id_info>
+  <brief_title>Weaning Algorithm for Mechanical VEntilation</brief_title>
+  <acronym>WAVE</acronym>
+  <official_title>Weaning Algorithm for Mechanical VEntilation (WAVE Study): A Randomised Control Trial Comparing an Open-loop Decision Support System Versus Routine Care for Weaning From Mechanical Ventilation in the Cardiothoracic Intensive Care Unit</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Royal Brompton &amp; Harefield NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Mermaid Care A/S</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Aalborg University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Imperial College London</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Royal Brompton &amp; Harefield NHS Foundation Trust</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To compare the duration of mechanical ventilation and the weaning period between two groups
+      of patients managed with either Standard Care or with mechanical ventilation adjusted
+      according to the Beacon Caresystem, in patients receiving mechanical ventilation for more
+      than 24 hours
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Patients admitted to the intensive care unit typically receive invasive mechanical
+      ventilatory support when they are critically ill. Whilst mechanical ventilation is a
+      life-saving intervention, it can also lead to deleterious consequences and cause lung damage
+      (known as ventilator-associated lung injury) if not implemented carefully. Hence, reducing
+      the duration of mechanical ventilation should reduce complications such as
+      ventilator-associated lung injury, ventilator-acquired pneumonia, respiratory and skeletal
+      muscle wasting, and patient discomfort, leading to decreasing mortality and economic costs
+      etc. Importantly, prolonged weaning perpetuates these complications which further increase
+      the duration of mechanical ventilation thereby creating a viscous cycle leading to greater
+      morbidity and mortality.
+
+      The availability and education of intensive care unit (ICU) staff are important
+      considerations in minimizing the duration of mechanical ventilation through weaning
+      protocols. It is common practice that the attending physician decides upon patient's therapy
+      and ventilatory management according to recommendations. This usually occurs as part of
+      medical rounds. In addition, nurses often manage the weaning of patients from mechanical
+      ventilation either by following attending physicians' instructions or local guidelines
+      protocols. Such protocol-directed, nurse-driven weaning has been shown to reduce the duration
+      of mechanical ventilation. However, it has been shown that the quantity and quality of
+      nursing are important factors if duration is to be reduced.
+
+      Several decision support systems have been developed to help select optimal mechanical
+      ventilator strategies. Those finding their way into routine clinical practice have typically
+      been based on clinical guidelines or rules rather than detailed physiological description of
+      the individual patient. A recent Cochrane review of weaning trials with these systems
+      concluded that use of these systems may reduce duration of weaning, but pointed out that many
+      of these trials are based on patients that are 'simple to wean'. Such patients are usually
+      less complex, without lung pathology, and ventilated for less than 48 hours. However, there
+      is a need to develop and validate protocolised systems that utilize a more detailed
+      physiological description of individual patients to aid in the management of complex patients
+      ventilated for longer durations.
+
+      The Beacon Caresystem is a model-based decision support system using mathematical models
+      tuned to the individual patient's physiology to advise on appropriate ventilator settings.
+      Personalised approaches using individual patient description may be particularly advantageous
+      in complex patients, including those who are difficult to mechanically ventilate and wean;
+      precisely those where previous systems have not been sufficiently evaluated. The Beacon
+      Caresystem is a commercial version of the system previously known as INVENT, which has been
+      retrospectively evaluated in post-operative cardiac patients and patients with severe lung
+      disease, and prospectively evaluated in advising on the correct level of inspiratory oxygen.
+      Furthermore, studies are near completion showing that the system provides safe and
+      appropriate advice on inspired oxygen, respiratory frequency, tidal volume, pressure
+      support/control and positive end expiratory pressure (PEEP) in a wide variety of patients
+      ranging from patients with severe respiratory failure to patients close to extubation
+      (unpublished data). However, previous and ongoing studies with the Beacon Caresystem have
+      focused on safety and efficacy of advice under limited time periods, and have not focused on
+      weaning from mechanical ventilation.
+
+      The core of the Beacon Caresystem is a set of physiological models including pulmonary gas
+      exchange, acid-base chemistry, lung mechanics, and respiratory drive. The Beacon Caresystem
+      tunes these models to the individual patient such that they describe accurately current
+      measurements. Once tuned, the models are used by the system to simulate the effects of
+      changing ventilator settings. The results of these simulations are then used to calculate the
+      clinical benefit of changing ventilator settings by balancing the competing goals of
+      mechanical ventilation. For example, an increased inspiratory volume will reduce an acidosis
+      of the blood while detrimentally increasing lung pressure. Appropriate ventilator settings
+      therefore imply a balance between the preferred value of pH weighted against the preferred
+      value of lung pressure. A number of these balances exist, and the system weighs these,
+      calculating a total score for the patient for any possible ventilation strategy. The system
+      then calculates advice as to changes in ventilator settings so to as improve this score. The
+      Beacon Caresystem functions as an &quot;open loop&quot; system. This means that the advice provided by
+      the system is presented to the clinician. The ventilator settings are then changed by the
+      clinician, and the patient's physiological response to these changes is automatically used by
+      the system to re-tune the models and repeat the process of generating new advice.
+
+      In calculating appropriate advice, selecting the correct level of positive end expiratory
+      pressure (PEEP) is particularly challenging. The nature of the challenge is however, very
+      different depending upon the presence or type of lung abnormality, and the function of the
+      heart. Patients with severe lung abnormalities such as acute respiratory distress syndrome
+      (ARDS), which often result in small, stiff lungs, are often in control ventilation mode with
+      little or no spontaneous breathing. For these patients, PEEP is often increased to try to
+      recruit units of the lung which are collapsed. This can be difficult, as increasing PEEP may
+      result in elevated lung pressure and hence an increased the risk of lung injury, incomplete
+      expiration and air trapping, and haemodynamic compromise, especially in those with heart
+      failure.
+
+      Patients in support ventilation modes have some degree of spontaneous breathing, and the
+      correct selection of PEEP therefore includes different criteria. It is important that these
+      patients be weaned as quickly as possible, and PEEP is reduced as part of that process. If
+      the setting of PEEP is too low, there is a risk of increased resistance to airflow with added
+      respiratory work and consequent risk of respiratory muscle fatigue. If the patient has
+      intrinsic PEEP due to dynamic hyperinflation, reducing PEEP below the level of intrinsic PEEP
+      would also cause increased inspiratory threshold load on the respiratory muscles, and
+      potential muscle fatigue. If PEEP is too high the respiratory muscle fibres may be shortened
+      reducing their pressure generating capacity and endurance thus increasing the risk of
+      respiratory muscle fatigue. Changing pressure support may help to work against an additional
+      workload, as in cases of increased resistance or autoPEEP, whilst correct PEEP may counter
+      the additional load.
+
+      The above factors are taken into account by the physiological models of the Beacon
+      Caresystem, and patient specific advice is also provided on PEEP. In addition to providing
+      advice on changing individual ventilator settings, the system also advises on when
+      measurement of arterial blood gas is necessary, when it is important to change ventilator
+      mode, and when a spontaneous breathing test is passed, and as such extubation should be
+      considered.
+
+      However, previous and ongoing studies with the Beacon Caresystem have focused on safety and
+      efficacy of advice under limited time periods, and have not focused on weaning from
+      mechanical ventilation. A current study is underway in a French hospital (Clinical Trials
+      number: NCT02842944), and at a UK hospital (IRAS 226610), to assess the benefit of the Beacon
+      Caresystem in general medical intensive care patients. However, as mechanical ventilation
+      therapy can vary with different patient populations it is important that investigation of the
+      effects of use of the Beacon system be studied in numerous different clinical situations. In
+      contrast to other studies, this study will investigate the effects of the Beacon Caresystem
+      in ICU patients with primary cardio-thoracic disease, with these patients representing a
+      substantial sub group of all ICU patients worldwide.
+
+      The purpose of this study is to compare mechanical ventilation following advice from the
+      Beacon Caresystem to that of routine care in cardio-thoracic ICU patients from the start of
+      requiring invasive mechanical ventilation until ICU discharge or death. The Beacon Caresystem
+      will be compared to routine care to investigate whether use of the system results in similar
+      care or reduced time for weaning from mechanical ventilation.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">September 24, 2018</start_date>
+  <completion_date type="Anticipated">October 1, 2021</completion_date>
+  <primary_completion_date type="Anticipated">October 1, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Supportive Care</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Duration of mechanical ventilation</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as the time from the start of mechanical ventilation, defined as either the time of intubation in the ICU (or the time of admission to the ICU following previous intubation for surgery) and until successful extubation, with successful extubation defined as ≥48 hours of unassisted spontaneous breathing after extubation.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Duration of mechanical ventilation following randomisation</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as the time from randomisation and until successful extubation, with successful extubation defined as ≥48 hours of unassisted spontaneous breathing after extubation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time from control mode to support mode</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as the time following randomisation, from initiation of control modes of ventilation and until initiation of support modes of ventilation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time from support mode to successful extubation</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as the time following randomisation, from initiation of support modes of ventilation and until successful extubation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of changes in ventilator settings per day</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as the daily registered number of changes to ventilator settings from patient randomization until successful extubation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to first spontaneous breathing test (SBT)</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as the time from randomization to the first performed SBT.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to first successful SBT</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as the time from randomization to the first successful SBT.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to first extubation</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as the time from randomization to the first extubation attempt.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>% of time in control mode ventilation</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as the time from randomization spent in controlled modes of mechanical ventilation in percent of duration of mechanical ventilation</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>% of time in support mode ventilation</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as the time from randomisation which is spent in support modes of mechanical ventilation in percent of duration of mechanical ventilation</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to first period trachemask</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as the time of randomisation to the point of trachemask initiation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Use of neuromuscular blockading agents</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as the cumulative use of neuromuscular blockading agents from randomization until successful extubation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Use of sedatives</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as the cumulative use of sedative drugs from randomization until successful extubation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of intubation free days</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as the number of days without intubation from randomization until successful extubation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of reintubations</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as the number of reintubations following extubation from randomization until successful extubation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of tracheostomies</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as the number of patients having tracheostomy performed from randomization until successful extubation or protocol end.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of patients on prolonged mechanical ventilation</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as the number of patients on mechanical ventilation ongoing for more than 21 days after initial intubation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number and types of adverse events related to mechanical ventilation</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as the incidence of adverse events directly related to mechanical ventilation</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Frequency of accepting Beacon care system advice</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Number of times and the reasons the advice from the Beacon system is overridden and not accepted by a treating clinician.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ICU mortality</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>defined as the mortality from randomization and until death or ICU discharge.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hospital mortality</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>defined as the mortality from randomization and until death or hospital discharge.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Length of ICU stay</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>defined as the duration of ICU admission from randomization to ICU discharge</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Length of hospital stay</measure>
+    <time_frame>Until the date of discharge from hospital, up to 12 months.</time_frame>
+    <description>defined as the duration of hospital admission from randomization to hospital discharge</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to first mobilization</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as the time from randomisation until first mobilization, e.g. sitting on the edge of the bed, standing up and marching on the spot</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to independent mobilization</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as the time from randomisation until regaining independency, e.g. able to drink/eat or comb hair.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Daily patient physiological blood gas status</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>Defined as daily PaO2/FiO2 from randomization until successful extubation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Changes in Oxygenation Index</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>defined as daily averages of oxygenation index (Oxygen Index (OI) = (FiO2 x Mean Alveaolr Pressure x 100) / PaO2</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Changes in anatomical dead space volume</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>defined as daily changes in dead space volume as continuously measured by the Beacon system.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Changes in pulmonary shunt fraction</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>defined as daily changes in pulmonary shunt fraction as continuously measured by the Beacon system.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Changes in end-tidal end-tidal CO2 fraction (FE'CO2)</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>defined as daily changes in end-tidal CO2 fraction as continuously measured by the Beacon system.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Changes in pulmonary mechanics</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>defined as daily changes in respiratory system compliance as continuously measured by the Beacon system.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Changes in metabolism</measure>
+    <time_frame>Until the date of discharge from ICU, up to 12 months.</time_frame>
+    <description>defined as daily changes in resting energy expenditure as continuously measured by the Beacon system.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ICU/hospital lung imaging in relation to prolonged ventilation</measure>
+    <time_frame>Until the date of discharge from hospital, up to 12 months.</time_frame>
+    <description>e.g. chest CT injury indices.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Timed-up-and-go at day 10 (or first mobilisation) and ICU/Hospital Discharge</measure>
+    <time_frame>Until the date of discharge from hospital, up to 12 months.</time_frame>
+    <description>Timed-up-and-go at day 10 (or first mobilisation) and ICU/Hospital Discharge</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sit to stand at day 10 (or first mobilisation) and ICU/Hospital Discharge</measure>
+    <time_frame>Until the date of discharge from hospital, up to 12 months.</time_frame>
+    <description>Sit to stand at day 10 (or first mobilisation) and ICU/Hospital Discharge</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Chelsea Critical Care Physiotherapy Assessment score (CPAx) trajectory</measure>
+    <time_frame>Until the date of discharge from hospital, up to 12 months.</time_frame>
+    <description>Chelsea Critical Care Physiotherapy Assessment score (CPAx) trajectory (performed every 72 hours)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Barthel index at hospital discharge</measure>
+    <time_frame>Until the date of discharge from hospital, up to 12 months.</time_frame>
+    <description>Barthel index at hospital discharge</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>6-minute walk test at hospital discharge</measure>
+    <time_frame>Until the date of discharge from hospital, up to 12 months.</time_frame>
+    <description>6-minute walk test at hospital discharge</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>3-month +/- 6-month +/- 1-year ICU follow-up lung imaging and function in relation to prolonged ventilation</measure>
+    <time_frame>Until the date of discharge from hospital, up to 24 months.</time_frame>
+    <description>ICU follow-up lung imaging and function in relation to prolonged ventilation (as per current clinical protocol i.e. if clinically indicated, which may include pulmonary function tests, CT imaging).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sf-36 Health Related Quality of life (patient and carers)</measure>
+    <time_frame>Until one year after hospital discharge, up to 24 months.</time_frame>
+    <description>-Sf-36 Health Related Quality of life (patient and carers)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>EQ-5D-5L</measure>
+    <time_frame>Until one year after hospital discharge, up to 24 months.</time_frame>
+    <description>EQ-5D-5L</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>St George's Respiratory Questionnaire</measure>
+    <time_frame>Until one year after hospital discharge, up to 24 months.</time_frame>
+    <description>St George's Respiratory Questionnaire</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>mini Mental State examination</measure>
+    <time_frame>Until one year after hospital discharge, up to 24 months.</time_frame>
+    <description>mini Mental State examination</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>PTSS-14</measure>
+    <time_frame>Until one year after hospital discharge, up to 24 months.</time_frame>
+    <description>PTSS-14</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hospital Anxiety and Depression Scale (HADS)</measure>
+    <time_frame>Until one year after hospital discharge, up to 24 months.</time_frame>
+    <description>Hospital Anxiety and Depression Scale (HADS)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Return to work rates e.g. W&amp;SAS (patient and carers)</measure>
+    <time_frame>Until one year after hospital discharge, up to 24 months.</time_frame>
+    <description>Return to work rates e.g. W&amp;SAS (patient and carers)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Primary and Secondary care utilisation</measure>
+    <time_frame>Until one year after hospital discharge, up to 36 months.</time_frame>
+    <description>Primary and Secondary care utilisation</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>6-minute walk test</measure>
+    <time_frame>Until one year after hospital discharge, up to 24 months.</time_frame>
+    <description>6-minute walk test</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">286</enrollment>
+  <condition>Respiration, Artificial</condition>
+  <condition>Critical Care</condition>
+  <condition>Respiratory Insufficiency</condition>
+  <condition>Intensive Care (ICU) Myopathy</condition>
+  <condition>Mechanical Ventilation Complication</condition>
+  <arm_group>
+    <arm_group_label>Beacon Caresystem with weaning advice</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Beacon care system set up to give weaning advice and options to accept or reject advice.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Beacon Caresystem for monitoring only</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Beacon care system attached but only for data collection purposes. No advice will be given.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Beacon Care System</intervention_name>
+    <description>Beacon has been developed by Mermaid Care in Denmark. BEACON is a critical care ventilation assist system (http://beaconcaresystem.com/beacon-5/), which potentially enables better ventilation strategies and a more efficient patient care workflow. As an add-on to standard ventilation systems it provides ventilation recommendations 24/7 based on non-stop, personalised monitoring/diagnostics of patients. Based on unique mathematical algorithms and physiological models, it recommends changes in ventilation settings, supporting the critical decision-making processes.</description>
+    <arm_group_label>Beacon Caresystem for monitoring only</arm_group_label>
+    <arm_group_label>Beacon Caresystem with weaning advice</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion criteria:
+
+          -  Patient remains on mechanical ventilation at 24 hours following intubation.
+
+          -  Age &gt; 18 years
+
+          -  Patient consent or, in the case that the patient is unable, advice from the next of
+             kin or treating physician following understanding and acceptance of oral and written
+             information describing the study.
+
+        Exclusion criteria:
+
+          -  The absence of an arterial catheter for blood sampling at study start.
+
+          -  Mechanical ventilation initiated for more than 48 hours.
+
+          -  Medical history of home mechanical ventilation which may lead to prolonged stay in the
+             ICU, including long term oxygen therapy and non-invasive ventilation not associated
+             with sleep apnoea.
+
+          -  Patients mechanically ventilated in a ventilator mode, and by a ventilator not
+             supported by the Beacon Caresystem on screening.
+
+          -  Respiratory failure likely requiring extracorporeal support.
+
+          -  Severe cardiogenic shock likely requiring extracorporeal support.
+
+          -  Severe isolated right heart failure.
+
+          -  Head trauma or other conditions where intra-cranial pressure may be elevated and tight
+             regulation of arterial CO2 level is paramount.
+
+          -  Primary (non-overdose related) neurological patients (Glasgow coma score &lt;10,
+             neurologic damage with limited prognosis, stroke hemiplegia).
+
+          -  End stage liver disease.
+
+          -  Repeated ICU admission within same hospital admission and/or likely to have prolonged
+             ICU stay with mechanical ventilation (&gt;21 days)
+
+          -  Pregnancy.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Brijesh Patel, MBBS PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Royal Brompton &amp; Harefield NHS Foundation Trust</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Brijesh V Patel, MBBS MRCP FRCA FFICM PhD</last_name>
+    <phone>+44 (0)20 7352 8121</phone>
+    <email>brijesh.patel@imperial.ac.uk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Cliff Morgan, MBBS FRCA</last_name>
+    <phone>+44 (0)20 7352 8121</phone>
+    <email>c.morgan@rbht.nhs.uk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Royal Brompton Hospital</name>
+      <address>
+        <city>London</city>
+        <zip>SW3 6NP</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Brijesh V Patel, FRCA PhD</last_name>
+      <phone>+44 (0)20 7352 8121</phone>
+      <email>b.patel4@rbht.nhs.uk</email>
+    </contact>
+    <investigator>
+      <last_name>Cliff Morgan, MBBS FRCA</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Harefield Hospital</name>
+      <address>
+        <city>Uxbridge</city>
+        <zip>UB9 6JH</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Brijesh Patel</last_name>
+    </contact>
+    <investigator>
+      <last_name>Alex Rosenberg</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <reference>
+    <citation>Acute Respiratory Distress Syndrome Network, Brower RG, Matthay MA, Morris A, Schoenfeld D, Thompson BT, Wheeler A. Ventilation with lower tidal volumes as compared with traditional tidal volumes for acute lung injury and the acute respiratory distress syndrome. N Engl J Med. 2000 May 4;342(18):1301-8.</citation>
+    <PMID>10793162</PMID>
+  </reference>
+  <reference>
+    <citation>Bellani G, Laffey JG, Pham T, Fan E, Brochard L, Esteban A, Gattinoni L, van Haren F, Larsson A, McAuley DF, Ranieri M, Rubenfeld G, Thompson BT, Wrigge H, Slutsky AS, Pesenti A; LUNG SAFE Investigators; ESICM Trials Group. Epidemiology, Patterns of Care, and Mortality for Patients With Acute Respiratory Distress Syndrome in Intensive Care Units in 50 Countries. JAMA. 2016 Feb 23;315(8):788-800. doi: 10.1001/jama.2016.0291. Erratum in: JAMA. 2016 Jul 19;316(3):350. JAMA. 2016 Jul 19;316(3):350.</citation>
+    <PMID>26903337</PMID>
+  </reference>
+  <reference>
+    <citation>Blackwood B, Alderdice F, Burns K, Cardwell C, Lavery G, O'Halloran P. Use of weaning protocols for reducing duration of mechanical ventilation in critically ill adult patients: Cochrane systematic review and meta-analysis. BMJ. 2011 Jan 13;342:c7237. doi: 10.1136/bmj.c7237.</citation>
+    <PMID>21233157</PMID>
+  </reference>
+  <reference>
+    <citation>Danckers M, Grosu H, Jean R, Cruz RB, Fidellaga A, Han Q, Awerbuch E, Jadhav N, Rose K, Khouli H. Nurse-driven, protocol-directed weaning from mechanical ventilation improves clinical outcomes and is well accepted by intensive care unit physicians. J Crit Care. 2013 Aug;28(4):433-41. doi: 10.1016/j.jcrc.2012.10.012. Epub 2012 Dec 21.</citation>
+    <PMID>23265291</PMID>
+  </reference>
+  <reference>
+    <citation>Thorens JB, Kaelin RM, Jolliet P, Chevrolet JC. Influence of the quality of nursing on the duration of weaning from mechanical ventilation in patients with chronic obstructive pulmonary disease. Crit Care Med. 1995 Nov;23(11):1807-15.</citation>
+    <PMID>7587255</PMID>
+  </reference>
+  <reference>
+    <citation>Lellouche F, Mancebo J, Jolliet P, Roeseler J, Schortgen F, Dojat M, Cabello B, Bouadma L, Rodriguez P, Maggiore S, Reynaert M, Mersmann S, Brochard L. A multicenter randomized trial of computer-driven protocolized weaning from mechanical ventilation. Am J Respir Crit Care Med. 2006 Oct 15;174(8):894-900. Epub 2006 Jul 13.</citation>
+    <PMID>16840741</PMID>
+  </reference>
+  <reference>
+    <citation>Sulemanji D, Marchese A, Garbarini P, Wysocki M, Kacmarek RM. Adaptive support ventilation: an appropriate mechanical ventilation strategy for acute respiratory distress syndrome? Anesthesiology. 2009 Oct;111(4):863-70. doi: 10.1097/ALN.0b013e3181b55f8f.</citation>
+    <PMID>19741490</PMID>
+  </reference>
+  <reference>
+    <citation>Rose L, Schultz MJ, Cardwell CR, Jouvet P, McAuley DF, Blackwood B. Automated versus non-automated weaning for reducing the duration of mechanical ventilation for critically ill adults and children: a cochrane systematic review and meta-analysis. Crit Care. 2015 Feb 24;19:48. doi: 10.1186/s13054-015-0755-6. Review.</citation>
+    <PMID>25887887</PMID>
+  </reference>
+  <reference>
+    <citation>Rees SE, Allerød C, Murley D, Zhao Y, Smith BW, Kjaergaard S, Thorgaard P, Andreassen S. Using physiological models and decision theory for selecting appropriate ventilator settings. J Clin Monit Comput. 2006 Dec;20(6):421-9. Epub 2006 Sep 15.</citation>
+    <PMID>16977430</PMID>
+  </reference>
+  <reference>
+    <citation>Rees SE, Karbing DS. Determining the appropriate model complexity for patient-specific advice on mechanical ventilation. Biomed Tech (Berl). 2017 Apr 1;62(2):183-198. doi: 10.1515/bmt-2016-0061.</citation>
+    <PMID>27930361</PMID>
+  </reference>
+  <reference>
+    <citation>Allerød C, Rees SE, Rasmussen BS, Karbing DS, Kjaergaard S, Thorgaard P, Andreassen S. A decision support system for suggesting ventilator settings: retrospective evaluation in cardiac surgery patients ventilated in the ICU. Comput Methods Programs Biomed. 2008 Nov;92(2):205-12. doi: 10.1016/j.cmpb.2008.07.001.</citation>
+    <PMID>18715670</PMID>
+  </reference>
+  <reference>
+    <citation>Karbing DS, Allerød C, Thomsen LP, Espersen K, Thorgaard P, Andreassen S, Kjærgaard S, Rees SE. Retrospective evaluation of a decision support system for controlled mechanical ventilation. Med Biol Eng Comput. 2012 Jan;50(1):43-51. doi: 10.1007/s11517-011-0843-y. Epub 2011 Nov 22.</citation>
+    <PMID>22105216</PMID>
+  </reference>
+  <reference>
+    <citation>Karbing DS, Allerød C, Thorgaard P, Carius AM, Frilev L, Andreassen S, Kjaergaard S, Rees SE. Prospective evaluation of a decision support system for setting inspired oxygen in intensive care patients. J Crit Care. 2010 Sep;25(3):367-74. doi: 10.1016/j.jcrc.2009.12.013. Epub 2010 Feb 10.</citation>
+    <PMID>20149586</PMID>
+  </reference>
+  <reference>
+    <citation>Powers SK, Wiggs MP, Sollanek KJ, Smuder AJ. Ventilator-induced diaphragm dysfunction: cause and effect. Am J Physiol Regul Integr Comp Physiol. 2013 Sep;305(5):R464-77. doi: 10.1152/ajpregu.00231.2013. Epub 2013 Jul 10. Review.</citation>
+    <PMID>23842681</PMID>
+  </reference>
+  <reference>
+    <citation>MacIntyre NR, Cheng KC, McConnell R. Applied PEEP during pressure support reduces the inspiratory threshold load of intrinsic PEEP. Chest. 1997 Jan;111(1):188-93.</citation>
+    <PMID>8996015</PMID>
+  </reference>
+  <reference>
+    <citation>Smith TC, Marini JJ. Impact of PEEP on lung mechanics and work of breathing in severe airflow obstruction. J Appl Physiol (1985). 1988 Oct;65(4):1488-99.</citation>
+    <PMID>3053583</PMID>
+  </reference>
+  <reference>
+    <citation>Mador MJ. Respiratory muscle fatigue and breathing pattern. Chest. 1991 Nov;100(5):1430-5. Review.</citation>
+    <PMID>1935305</PMID>
+  </reference>
+  <reference>
+    <citation>Puthucheary ZA, Rawal J, McPhail M, Connolly B, Ratnayake G, Chan P, Hopkinson NS, Phadke R, Dew T, Sidhu PS, Velloso C, Seymour J, Agley CC, Selby A, Limb M, Edwards LM, Smith K, Rowlerson A, Rennie MJ, Moxham J, Harridge SD, Hart N, Montgomery HE. Acute skeletal muscle wasting in critical illness. JAMA. 2013 Oct 16;310(15):1591-600. Erratum in: JAMA. 2014 Feb 12;311(6):625. Padhke, Rahul [corrected to Phadke, Rahul].</citation>
+    <PMID>24108501</PMID>
+  </reference>
+  <reference>
+    <citation>Puthucheary ZA, McNelly AS, Rawal J, Connolly B, Sidhu PS, Rowlerson A, Moxham J, Harridge SD, Hart N, Montgomery HE. Rectus Femoris Cross-Sectional Area and Muscle Layer Thickness: Comparative Markers of Muscle Wasting and Weakness. Am J Respir Crit Care Med. 2017 Jan 1;195(1):136-138. doi: 10.1164/rccm.201604-0875LE.</citation>
+    <PMID>28035857</PMID>
+  </reference>
+  <reference>
+    <citation>Denehy L, de Morton NA, Skinner EH, Edbrooke L, Haines K, Warrillow S, Berney S. A physical function test for use in the intensive care unit: validity, responsiveness, and predictive utility of the physical function ICU test (scored). Phys Ther. 2013 Dec;93(12):1636-45. doi: 10.2522/ptj.20120310. Epub 2013 Jul 25.</citation>
+    <PMID>23886842</PMID>
+  </reference>
+  <reference>
+    <citation>Herridge MS, Tansey CM, Matté A, Tomlinson G, Diaz-Granados N, Cooper A, Guest CB, Mazer CD, Mehta S, Stewart TE, Kudlow P, Cook D, Slutsky AS, Cheung AM; Canadian Critical Care Trials Group. Functional disability 5 years after acute respiratory distress syndrome. N Engl J Med. 2011 Apr 7;364(14):1293-304. doi: 10.1056/NEJMoa1011802.</citation>
+    <PMID>21470008</PMID>
+  </reference>
+  <reference>
+    <citation>Craig TR, Duffy MJ, Shyamsundar M, McDowell C, O'Kane CM, Elborn JS, McAuley DF. A randomized clinical trial of hydroxymethylglutaryl- coenzyme a reductase inhibition for acute lung injury (The HARP Study). Am J Respir Crit Care Med. 2011 Mar 1;183(5):620-6. doi: 10.1164/rccm.201003-0423OC. Epub 2010 Sep 24. Erratum in: Am J Respir Crit Care Med. 2014 Nov 15;190(10):1199-200.</citation>
+    <PMID>20870757</PMID>
+  </reference>
+  <reference>
+    <citation>Ranieri VM, Suter PM, Tortorella C, De Tullio R, Dayer JM, Brienza A, Bruno F, Slutsky AS. Effect of mechanical ventilation on inflammatory mediators in patients with acute respiratory distress syndrome: a randomized controlled trial. JAMA. 1999 Jul 7;282(1):54-61.</citation>
+    <PMID>10404912</PMID>
+  </reference>
+  <reference>
+    <citation>Bein T, Weber-Carstens S, Goldmann A, Müller T, Staudinger T, Brederlau J, Muellenbach R, Dembinski R, Graf BM, Wewalka M, Philipp A, Wernecke KD, Lubnow M, Slutsky AS. Lower tidal volume strategy (≈3 ml/kg) combined with extracorporeal CO2 removal versus 'conventional' protective ventilation (6 ml/kg) in severe ARDS: the prospective randomized Xtravent-study. Intensive Care Med. 2013 May;39(5):847-56. doi: 10.1007/s00134-012-2787-6. Epub 2013 Jan 10.</citation>
+    <PMID>23306584</PMID>
+  </reference>
+  <reference>
+    <citation>Haslam PL, Baughman RP. Report of ERS Task Force: guidelines for measurement of acellular components and standardization of BAL. Eur Respir J. 1999 Aug;14(2):245-8.</citation>
+    <PMID>10515395</PMID>
+  </reference>
+  <reference>
+    <citation>McAuley DF, Laffey JG, O'Kane CM, Cross M, Perkins GD, Murphy L, McNally C, Crealey G, Stevenson M; HARP-2 investigators; Irish Critical Care Trials Group. Hydroxymethylglutaryl-CoA reductase inhibition with simvastatin in acute lung injury to reduce pulmonary dysfunction (HARP-2) trial: study protocol for a randomized controlled trial. Trials. 2012 Sep 17;13:170. doi: 10.1186/1745-6215-13-170.</citation>
+    <PMID>22985805</PMID>
+  </reference>
+  <reference>
+    <citation>Corner EJ, Soni N, Handy JM, Brett SJ. Construct validity of the Chelsea critical care physical assessment tool: an observational study of recovery from critical illness. Crit Care. 2014 Mar 27;18(2):R55. doi: 10.1186/cc13801.</citation>
+    <PMID>24669784</PMID>
+  </reference>
+  <reference>
+    <citation>Parry SM, Denehy L, Beach LJ, Berney S, Williamson HC, Granger CL. Functional outcomes in ICU – what should we be using? – an observational study. Crit Care. 2015 Mar 29;19:127. doi: 10.1186/s13054-015-0829-5.</citation>
+    <PMID>25888469</PMID>
+  </reference>
+  <verification_date>October 2018</verification_date>
+  <study_first_submitted>October 2, 2018</study_first_submitted>
+  <study_first_submitted_qc>October 4, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 5, 2018</study_first_posted>
+  <last_update_submitted>October 4, 2018</last_update_submitted>
+  <last_update_submitted_qc>October 4, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 5, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>weaning</keyword>
+  <keyword>cardiothoracic</keyword>
+  <keyword>mechanical ventilation</keyword>
+  <keyword>intensive care</keyword>
+  <keyword>critical care</keyword>
+  <keyword>beacon caresystem</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Respiratory Insufficiency</mesh_term>
+    <mesh_term>Pulmonary Valve Insufficiency</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

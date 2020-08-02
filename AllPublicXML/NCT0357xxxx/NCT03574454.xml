@@ -1,0 +1,392 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03574454</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CCR 4820</org_study_id>
+    <secondary_id>233501</secondary_id>
+    <secondary_id>16/68/34</secondary_id>
+    <nct_id>NCT03574454</nct_id>
+  </id_info>
+  <brief_title>Machine Learning in Myeloma Response</brief_title>
+  <acronym>MALIMAR</acronym>
+  <official_title>Development of a Machine Learning Support for Reading Whole Body Diffusion Weighted Magnetic Resonance Imaging (WB-DW-MRI) in Myeloma for the Detection and Quantification of the Extent of Disease Before and After Treatment</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Royal Marsden NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Institute of Cancer Research, United Kingdom</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Imperial College London</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Royal Marsden NHS Foundation Trust</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Diffusion-weighted Whole Body Magnetic Resonance Imaging (WB-MRI) is a new technique that
+      builds on existing Magnetic Resonance Imaging (MRI) technology. It uses the movement of water
+      molecules in human tissue to define with great accuracy cancerous cells from normal cells.
+      Using this technique the investigators can much more accurately define the spread and rate of
+      cancer growth. This information is vital in the selection of patients' treatment pathways.
+      WB-MRI images are obtained for the entire body in a single scan. Unlike other imaging
+      techniques such as computed Tomography (CT) or Positron Emission Tomography (PET) PET/CT
+      there is no radiation exposure.
+
+      Despite the considerable advantages that this new technique brings, including &quot;at a glance&quot;
+      assessment of the extent of disease status, WB-MRI requires a significant increase in the
+      time required to interpret one scan. This is because one whole body scan typically comprises
+      several thousand images. Machine learning (ML) is a computer technique in which computers can
+      be 'trained' to rapidly pin-point sites of disease and thus aid the radiologist's expert
+      interpretation. If, as the investigators believe, this technique will help the radiologist to
+      interpret scans of patients with myeloma more accurately and quickly, it could be more widely
+      adopted by the NHS and benefit patient care.
+
+      The investigators will conduct a three-phase research plan in which ML software will be
+      developed and tested with the aim of achieving more rapid and accurate interpretation of
+      WB-MRI scans in myeloma patients.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Rationale:
+
+      Diffusion-weighted whole body magnetic resonance imaging (WB-MRI) is a technique that depicts
+      myeloma deposits in the bone marrow. WB-MRI covers the entire body during the course of a
+      single scan and can be used to detect sites of disease without using ionising radiation.
+      Although WB-MRI allows for &quot;at a glance&quot; assessment of disease burden, it requires
+      significant expertise to accurately identify and quantify active myeloma. The technique is
+      time-consuming to report due to the great number of images. A further challenge is
+      recognising whether a patient has residual disease after treatment. Machine learning (ML) is
+      a computer technique that can be trained to automatically detect disease sites in order to
+      support the radiologist's interpretation. The investigators believe this technique will help
+      the radiologist to interpret the scan more accurately and quickly.
+
+      Machine learning algorithms have been successfully developed to recognise some other cancer
+      types. The investigators believe that it may be successful in patients with myeloma, in whom
+      The National Institute for Health and Care Excellence (NICE) recommend whole body MRI. This
+      could allow the technique to be more widely used in the National Health Service (NHS). In the
+      MALIMAR study the investigators will develop and test ML methods that have the potential to
+      increase accuracy and reduce reading time of WB-MRI scans in myeloma patients. The
+      investigators propose to develop ML tools to detect and quantify active disease before and
+      after treatment based on WB-MRI.
+
+      Research will be carried out at the Royal Marsden Hospital (RMH) NHS Foundation Trust,
+      Institute of Cancer Research (ICR) London and Imperial College London. The investigators will
+      use Whole Body MRI (WB-MRI) scans that have already been acquired in myeloma patients. They
+      will also include 50 new scans obtained at RMH from healthy volunteer scans which will be
+      used to 'teach' the computer to distinguish between healthy and diseased tissues.
+
+      Research Design:
+
+      The research will be divided into three parts:
+
+        1. Development of the Machine Learning (ML) tool to detect active myeloma
+
+        2. Measurement of the ability of the ML tool to improve the radiologists' interpretation of
+           WB-MRI scans using a set of scans from patients with active and inactive myeloma and new
+           scans obtained from healthy volunteers
+
+        3. Development of the ML tool to quantify disease burden and changes between pre- and
+           post-treatment WB-MRI scans in order to identify response to treatment
+
+      The main outcome measure for this study will be the improvement in the detection of active
+      disease and disease burden and the reduction in radiology reading time. The investigators
+      will assess the reduction in reading time in both experienced specialist and non-specialist
+      radiologists.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 4, 2018</start_date>
+  <completion_date type="Anticipated">August 2021</completion_date>
+  <primary_completion_date type="Anticipated">May 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Cross-sectional diagnostic test accuracy design: development of a machine-based algorithm to augment expert classification of disease status and response to treatment in myeloma patients using retrospective interpretation of WB-MRI scans and disease-free (healthy volunteers) for comparison purposes.</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+    <masking_description>The assessors interpretation of disease status using WB-MRI scans will be fully blinded to the reference standard (i.e. the Expert Panel's interpretation of the same scan).</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity of Machine Learning Algorithm to detect Myeloma</measure>
+    <time_frame>20 months</time_frame>
+    <description>Sensitivity for the detection of active myeloma on WB-MRI with and without ML support versus the reference standard</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Level of Agreement in Assessment of Disease Burden</measure>
+    <time_frame>5 months</time_frame>
+    <description>Agreement between readers and reference standard in scoring overall disease burden with and without ML intervention</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Level of Agreement to Classify Disease Spread</measure>
+    <time_frame>20 months</time_frame>
+    <description>Agreement of machine learning algorithm with reference standard to classify disease spread assessed as percentage accuracy</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Quantification of Improvements to Correctly Identify Disease by Site and Reading Time</measure>
+    <time_frame>20 months</time_frame>
+    <description>Per site sensitivity to diagnose active disease</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Difference in Reading Time with and without Machine Learning</measure>
+    <time_frame>20 months</time_frame>
+    <description>Difference in reading time assessed in minutes</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Specificity for Identification of Active Disease with and without Machine Learning</measure>
+    <time_frame>20 months</time_frame>
+    <description>Per site specificity to diagnose active disease</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity to detect Active Disease in non-Experienced Readers with and without Machine Learning</measure>
+    <time_frame>20 months</time_frame>
+    <description>Per site sensitivity to diagnose active disease</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Agreement in Categorisation of Active Disease</measure>
+    <time_frame>20 months</time_frame>
+    <description>Percentage agreement</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Difference in Reading Time for scoring Disease Burden with and without Machine Learning</measure>
+    <time_frame>5 months</time_frame>
+    <description>Difference in reading time assessed in minutes</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Agreement in Categorisation of Disease Responders and non-Responders with Reference Standard</measure>
+    <time_frame>5 months</time_frame>
+    <description>Percentage Agreement</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Agreement in Categorisation of Disease Responders and non-Responders in non-Experienced Readers</measure>
+    <time_frame>5 months</time_frame>
+    <description>Percentage Agreement</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Agreement in Assessment of Disease Burden in non-Experienced Readers</measure>
+    <time_frame>5 months</time_frame>
+    <description>Percentage Agreement</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Difference in Costs of Radiology Reading Time with and without Machine Learning</measure>
+    <time_frame>20 months</time_frame>
+    <description>Selected denominations</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Predicting Segmentation Performance of the Machine Learning Algorithm</measure>
+    <time_frame>20 months</time_frame>
+    <description>Percentage Agreement</description>
+  </other_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Myeloma</condition>
+  <arm_group>
+    <arm_group_label>Phase 1 - Mixed Scan Data Training Set</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Machine learning (ML): A mixed data set of 200 WB-MRI scans comprising scans obtained from 40 healthy volunteers (scanned for the purposes of the study), 40 previously acquired inactive myeloma WB-MRI scans and 120 previously acquired active myeloma WB-MRI scans, in which machine learning and convolutional neural networks will be trained to recognise healthy marrow, treated inactive previous myeloma and active myeloma. An algorithm will be developed for testing in phase 2.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Phase 2 - Mixed Scan Data Validation Set</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Machine Learning (ML): A mixed data set of 353 WB-MRI scans as that comprising 50 healthy volunteers (scanned for the purposes of the study), and previously acquired scans from 303 myeloma patients, 100 of whom have inactive disease and 203 of whom have active myeloma. The scans will be read by radiologists in random order either with or without the support of for the detection of active myeloma. The diagnostic performance of the radiology reads with or without the machine learning support will be measured against an expert panel reference standard.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Phase 3 - Disease Burden Paired Data Set</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Machine Learning (ML): Approximately 200 paired WB-MRI scans from 100 patients (scanned at baseline with active disease and then post treatment) will be used to develop a machine learning tool to quantify the burden of disease. The machine learning algorithm will then be tested on a further additional set of 60 patients who previously had two WB-MRI scans comprising paired baseline (with active disease) and post treatment scans. The agreement of radiology readers to evaluate the burden of disease will be measured against the reference standard (expert panel) with and without machine learning support.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Machine Learning (ML)</intervention_name>
+    <description>Application of ML support algorithm to accelerate and enhance human interpretation of WB-MRI scans in patients with myeloma</description>
+    <arm_group_label>Phase 1 - Mixed Scan Data Training Set</arm_group_label>
+    <arm_group_label>Phase 2 - Mixed Scan Data Validation Set</arm_group_label>
+    <arm_group_label>Phase 3 - Disease Burden Paired Data Set</arm_group_label>
+    <other_name>Algorithm</other_name>
+    <other_name>Software</other_name>
+    <other_name>Decision support tool</other_name>
+    <other_name>Convolutional neural network</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria (healthy volunteers):
+
+          -  Able to provide written informed consent
+
+          -  No contra-indication to MRI
+
+          -  40 years or above in age (age matched as far as possible to WB-MRI scan set)
+
+          -  No known significant illness
+
+          -  No known metallic implant
+
+        Exclusion Criteria:
+
+          -  Not able to provide written informed consent
+
+          -  A contra-indication to MRI
+
+          -  &lt;40 years or above in age (age matched as far as possible to WB-MRI scan set)
+
+          -  A known significant illness
+
+          -  A known metallic implant
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>100 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Andrea G Rockall, FRCR</last_name>
+    <role>Study Director</role>
+    <affiliation>The Royal Marsden NHS Foundation Trust and Imperial College London</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Christina Messiou, MD, FRCR</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The Royal Marsden NHS Foundation Trust and Institute of Cancer Research</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Linda J Wedlake, PhD</last_name>
+    <phone>+44 208 915 6767</phone>
+    <phone_ext>6767</phone_ext>
+    <email>linda.wedlake@rmh.nhs.uk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Jeane Guevara, BSc</last_name>
+    <phone>+ 44 208 915 6666</phone>
+    <phone_ext>6666</phone_ext>
+    <email>jeane.guevara@rmh.nhs.uk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Department of Radiology, The Royal Marsden NHS Foundation Trust</name>
+      <address>
+        <city>Sutton</city>
+        <state>Surrey</state>
+        <zip>SM2 5PT</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Christina Messiou, PhD</last_name>
+      <phone>02086426011</phone>
+      <email>Christina.Messiou@rmh.nhs.uk</email>
+    </contact>
+    <investigator>
+      <last_name>Dow-Mu Koh, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Karen Thomas, BSc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Institute of Cancer Research, London</name>
+      <address>
+        <city>London</city>
+        <zip>SW3 6JB</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Martin Leach, PhD</last_name>
+      <email>Martin.Leach@icr.ac.uk</email>
+    </contact>
+    <contact_backup>
+      <last_name>Melisa Porter</last_name>
+      <phone>0208 661 3701</phone>
+      <email>melisa.porter@icr.ac.uk</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Martin Kaiser, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Simon Doran, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Imperial College, London</name>
+      <address>
+        <city>London</city>
+        <zip>W12 0NN</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Daniel Ruekert, PhD</last_name>
+      <email>d.rueckert@imperial.ac.uk</email>
+    </contact>
+    <contact_backup>
+      <last_name>Ben Glocker, PhD</last_name>
+      <email>b.glocker@imperial.ac.uk</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Eric Aboagye, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Tara Barwick, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>July 2018</verification_date>
+  <study_first_submitted>May 1, 2018</study_first_submitted>
+  <study_first_submitted_qc>June 28, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 2, 2018</study_first_posted>
+  <last_update_submitted>July 16, 2018</last_update_submitted>
+  <last_update_submitted_qc>July 16, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 17, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Whole Body Diffusion Weighted</keyword>
+  <keyword>Magnetic Resonance Imaging</keyword>
+  <keyword>Machine Learning</keyword>
+  <keyword>Reading Time</keyword>
+  <keyword>Convolutional Neural Network</keyword>
+  <keyword>Algorithm</keyword>
+  <keyword>Diagnostic performance</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Multiple Myeloma</mesh_term>
+    <mesh_term>Neoplasms, Plasma Cell</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

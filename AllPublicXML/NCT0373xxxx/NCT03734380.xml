@@ -1,0 +1,268 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03734380</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HSEARS20181031005</org_study_id>
+    <nct_id>NCT03734380</nct_id>
+  </id_info>
+  <brief_title>Lower Knee Joint Loading by Real-time Biofeedback Stair Walking Rehabilitation for Patients With MCKOA</brief_title>
+  <official_title>Lower Knee Joint Loading by Real-time Biofeedback Stair Walking Rehabilitation for Patients With Medial Compartment Knee Osteoarthritis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The Hong Kong Polytechnic University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>City University of Hong Kong</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Chinese University of Hong Kong</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Bern University of Applied Sciences</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>The Hong Kong Polytechnic University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will establish a machine-learning algorithm to predict KAM using IMU sensors
+      during stair ascent and descent; and then conduct a three-arm randomized controlled trial to
+      compare the biomechanical and clinical difference between patients receiving a course of
+      conventional laboratory-based stair retraining, sensor-based stair retraining, and walking
+      exercise control (i.e., walking exercise without gait retraining). The investigators
+      hypothesise that the wearable IMUs will accurately predict KAM during stair negotiation using
+      machine-learning algorithm, with at least 80% measurement agreement with conventional
+      calculation of KAM. The investigators also hypothesise that patients randomized to the
+      laboratory-based and sensor-based stair retraining conditions would evidence similar (i.e.,
+      weak and non-significant differences) reduction in KAM (primary outcome) and an improvement
+      of symptoms (secondary outcomes), but that these subjects would evidence larger reductions in
+      KAM than subjects assigned to the walking exercise control condition.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Conventionally, gait retraining is necessarily implemented in a laboratory environment
+      because evaluation of biomechanical markers, such as KAM, requires sophisticated motion
+      capturing system and force plates. With advancement of wearable sensor technology, it is
+      possible to measure gait biomechanics and provide real time biofeedback for gait retraining
+      using inertial measurement unit (IMU), which is a lightweight and portable wireless device.
+      In an ongoing government funded project, the investigators have developed IMU embedded
+      footwear that measures KAM during level ground walking. The investigators have compared Least
+      Absolute Shrinkage and Selection Operator (LASSO) regression and Random Forest in the
+      prediction of KAM from IMU recordings. The investigators found that Random Forest could
+      provide much higher KAM prediction accuracy than LASSO regression. The agreement between
+      conventional laboratory-based and sensor-based measurement of KAM was approximately 90%.
+      Based on investigators' previous research work, it is meaningful to extend the newly
+      developed technology for KAM measurement during stair ascent and descent without the use of
+      laboratory equipment. With the wearable sensors connected to the smartphones, gait retraining
+      outside laboratory environment will become feasible but the effects of gait retraining using
+      wearable sensors have not been directly verified.
+
+      Given these considerations, this project has two primary aims. The investigators will: (1)
+      first establish a machine-learning algorithm to predict KAM using IMU sensors during stair
+      ascent and descent; and then (2) conduct a three-arm randomized controlled trial to compare
+      the biomechanical and clinical difference between patients receiving a course of conventional
+      laboratory-based stair retraining, sensor-based stair retraining, and walking exercise
+      control (i.e., walking exercise without gait retraining).
+
+      Primary hypothesis
+
+      Hypothesis 1: The wearable IMUs will accurately predict KAM during stair negotiation using
+      machine-learning algorithm, with at least 80% measurement agreement with conventional
+      calculation of KAM.
+
+      Hypothesis 2: Patients randomized to the laboratory-based and sensor-based stair retraining
+      conditions would evidence similar (i.e., weak and non-significant differences) reduction in
+      KAM (primary outcome) and an improvement of symptoms (secondary outcomes), but that these
+      subjects would evidence larger reductions in KAM than subjects assigned to the walking
+      exercise control condition.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">January 1, 2021</start_date>
+  <completion_date type="Anticipated">December 30, 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 30, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in knee adduction moment (KAM)</measure>
+    <time_frame>baseline and 7 weeks</time_frame>
+    <description>The surrogate marker of the medial compartment knee joint loading (i.e. KAM) will be measured by a 10-camera motion capture system (Vicon, Oxford Metrics Group, Oxford, UK) at 100 Hz and an instrumented staircase equipped with two force plates (Bertec, Columbus, OH, USA) at 1000Hz during stair ascent and descent at baseline assessment and after 6-week stair retraining.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in Chinese Knee Injury and Osteoarthritis Outcome Score (KOOS)</measure>
+    <time_frame>baseline and 7 weeks</time_frame>
+    <description>The Chinese Knee Injury and Osteoarthritis Outcome Score (KOOS) will be used to assess knee pain, symptoms and physical function of the patients before and after stair retraining. This instrument contains 42 items addressing pain, symptoms, activities of daily living, sports and recreational function, and knee-related quality of life. The total score and sub-score for each domain (pain, symptoms, activities of daily living, sports/ recreational function, and knee-related quality of life) will be normalized from 0 to 100, with 100 indicating the worst possible state, 0 indicating no pain or loss of function.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Chnage in validated visual analogue scale (VAS)</measure>
+    <time_frame>basleline, 1 week, 2 weeks, 3 weeks, 4 weeks, 5 weeks, 6 weeks and 7 weeks</time_frame>
+    <description>The validated visual analogue scale (VAS) of 100 mm will be used to assess overall knee pain level after each stair negotiation session, with 0 mm at the left-most end of the 100 mm scale indicating&quot;No pain at all&quot; and 100 mm at the right-most end indicating&quot;Worst imaginable pain&quot;.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">57</enrollment>
+  <condition>Knee Osteoarthritis</condition>
+  <arm_group>
+    <arm_group_label>Laboratory-based gait retraining (LGR)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects will attend 6 weekly sessions of stair ascent and descent exercise over six consecutive weeks. In each session, they walk at a self-selected speed on the instrumented staircase. The training time will be progressively increased from 15 to 30 minutes over the six sessions. The auditory feedback will be gradually removed in the last three sessions.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Sensor-based gait retraining (SGR)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects will receive training similar to LGR, except the KAM measurement is based solely on inputs from IMUs embedded in the shoes. The training schedule, duration, and intensity will be identical to those of the LGR group.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Walking exercise control (Ctrl)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects will attend 6 weekly sessions of stair ascent and descent exercise over six consecutive weeks. In each session, they will walk on the same instrumented staircase at a self-selected pace without any guidance on gait modification. The training period and training time per session will be identical to the other two groups.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Laboratory-based gait retraining (LGR)</intervention_name>
+    <description>Subjects in the LGR group will be encouraged to modify the gait pattern (e.g. adjusting foot progression angle, performing medial knee thrust, and/or lateral trunk lean) to lower their KAM to 80% of respective average baseline KAM obtained during normal unmodified gait. Real-time auditory feedback will be delivered using stereo speakers from both sides of the staircase. A middle C (261.6 Hz) tone and a high-pitched C (4186.0 Hz) of equal intensity will be generated at a footfall below and above the targeted 80% value, respectively. They will be advised to maintain their new gait pattern during their daily living after training.</description>
+    <arm_group_label>Laboratory-based gait retraining (LGR)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Sensor-based gait retraining (SGR)</intervention_name>
+    <description>Subjects in the SGR group will receive training similar to LGR, except the KAM measurement is based solely on inputs from IMUs embedded in the shoes. In addition, the auditory feedback will be delivered through a pair of earphones connected to a smartphone, which has been pre-installed with an app for KAM measurement. They will be advised to maintain their new gait pattern during their daily living after training.</description>
+    <arm_group_label>Sensor-based gait retraining (SGR)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Walking exercise control (Ctrl)</intervention_name>
+    <description>Subjects in the Ctrl group will walk on the same instrumented staircase at a self-selected pace without any guidance on gait modification. The training period and training time per session will be identical to the other two groups. They will not be given any instructions for out-of-lab activities.</description>
+    <arm_group_label>Walking exercise control (Ctrl)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. 45-80 years of age;
+
+          2. patients with early medial compartment knee OA (Kellgren &amp; Lawrence grade = 1 or 2);
+
+          3. self-reported knee pain at least once per week for the proceeding eight weeks;
+
+          4. patients should be able to walk unaided for at least 60 minutes.
+
+        Exclusion Criteria:
+
+          1. have a body mass index &gt;35;
+
+          2. have a known learning disability;
+
+          3. use a shoe insert or knee brace;
+
+          4. have received corticosteroid injection within the previous eight weeks;
+
+          5. have absolute contraindications for vigorous physical activities according to the
+             American College of Sports Medicine;
+
+          6. in order to avoid floor effect of training, all subjects will undergo an initial
+             screening and only those with KAM greater than 0.3 Nm/kg during level ground walking
+             will be invited into the retraining study.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>45 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Roy TH CHEUNG, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The Hong Kong Polytechnic University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Roy TH CHEUNG, PhD</last_name>
+    <phone>2766 6739</phone>
+    <email>Roy.Cheung@polyu.edu.hk</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>The Hong Kong Polytechnic University</name>
+      <address>
+        <city>Hong Kong</city>
+        <country>China</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Roy TH CHEUNG, PhD</last_name>
+      <email>Roy.Cheung@polyu.edu.hk</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <reference>
+    <citation>Cheung RTH, Ho KKW, Au IPH, An WW, Zhang JHW, Chan ZYS, Deluzio K, Rainbow MJ. Immediate and short-term effects of gait retraining on the knee joint moments and symptoms in patients with early tibiofemoral joint osteoarthritis: a randomized controlled trial. Osteoarthritis Cartilage. 2018 Nov;26(11):1479-1486. doi: 10.1016/j.joca.2018.07.011. Epub 2018 Aug 3.</citation>
+    <PMID>30081075</PMID>
+  </reference>
+  <reference>
+    <citation>Cheung RT, Ngai SP, Ho KK. Chinese adaptation and validation of the Knee Injury and Osteoarthritis Outcome Score (KOOS) in patients with knee osteoarthritis. Rheumatol Int. 2016 Oct;36(10):1449-54. doi: 10.1007/s00296-016-3539-7. Epub 2016 Jul 23.</citation>
+    <PMID>27449346</PMID>
+  </reference>
+  <reference>
+    <citation>Fong ICD, Li WSC, Tai WKJ, Tsang TWR, Zhang JH, Chen TLW, Baur H, Eichelberger P, Cheung RTH. Effect of foot progression angle adjustment on the knee adduction moment and knee joint contact force in runners with and without knee osteoarthritis. Gait Posture. 2018 Mar;61:34-39. doi: 10.1016/j.gaitpost.2017.12.029. Epub 2017 Dec 30.</citation>
+    <PMID>29304509</PMID>
+  </reference>
+  <reference>
+    <citation>Wei M, Chow TWS, Chan RHM. Heterogeneous feature subset selection using mutual information-based feature transformation. Neurocomputing. 2015;168:706-718. doi:10.1016/j.neucom.2015.05.053.</citation>
+  </reference>
+  <reference>
+    <citation>Yuqi Li, Jelfs B, Chan RHM. Entropy of surface EMG reflects object weight in grasp-and-lift task. Conf Proc IEEE Eng Med Biol Soc. 2017 Jul;2017:2530-2533. doi: 10.1109/EMBC.2017.8037372.</citation>
+    <PMID>29060414</PMID>
+  </reference>
+  <reference>
+    <citation>Zhang JH, Chan ZYS, Au IPH, An WW, Cheung RTH. Can the Newly Learnt Gait Pattern after Running Retraining be Translated to Untrained Conditions?: 1547 Board #8 May 31 1. Med Sci Sports Exerc. 2018;50:373. doi:10.1249/01.mss.0000536311.33285.d2.</citation>
+  </reference>
+  <verification_date>February 2020</verification_date>
+  <study_first_submitted>November 6, 2018</study_first_submitted>
+  <study_first_submitted_qc>November 6, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 8, 2018</study_first_posted>
+  <last_update_submitted>February 10, 2020</last_update_submitted>
+  <last_update_submitted_qc>February 10, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 11, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>The Hong Kong Polytechnic University</investigator_affiliation>
+    <investigator_full_name>Dr Roy Tsz-hei CHEUNG</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <keyword>Gait retraining</keyword>
+  <keyword>Knee adduction moment</keyword>
+  <keyword>Wearable technology</keyword>
+  <keyword>Knee osteoarthritis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Osteoarthritis</mesh_term>
+    <mesh_term>Osteoarthritis, Knee</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

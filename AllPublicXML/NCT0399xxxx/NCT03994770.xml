@@ -1,0 +1,267 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03994770</url>
+  </required_header>
+  <id_info>
+    <org_study_id>A3020-P</org_study_id>
+    <secondary_id>I21RX003020</secondary_id>
+    <nct_id>NCT03994770</nct_id>
+  </id_info>
+  <brief_title>An Engineering-Based Balance Assessment and Training Platform</brief_title>
+  <acronym>BATP</acronym>
+  <official_title>An Engineering-Based Balance Assessment and Training Platform</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>VA Office of Research and Development</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>VA Office of Research and Development</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a proposal to develop a Balanced Reach Training Protocol (BRTP) to evaluate and train
+      dynamic standing balance. The BRTP is based upon the Balanced Reach Test (BRT) that the
+      investigators previously developed and validated. In the BRT subjects stand and point to a
+      target disk moving unpredictably across a large projection screen in front of them without
+      stepping. Body movements undertaken to track the disk are integral to many daily activities
+      and represent an important class of &quot;expected&quot; balance disturbances that can precipitate
+      falls. The BRTP employs engineering and psychophysical methods, and exploits advances in real
+      time computing in a novel and innovative way to more effectively evaluate and train balance
+      function. The BRTP presents a challenging reaching/tracking task that subjects perform at
+      their limit of balance. The BRTP is an objective, quantitative test that can evaluate balance
+      function without floor or ceiling effects, and train balance across the spectrum of aging,
+      disease, and injury.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study comprises two Specific Aims: SA-1) Development of a Balance Assessment and
+      Training Platform (BATP) based upon the existing BRT; and SA-2) Evaluation of the BATP
+      Assessment Module's test-retest reliability and the Training Module's motor learning effect.
+
+      Methods related to Specific Aim 1 SA-1.1: Develop a BATP based on the BRT that incorporates
+      real-time computing and an Adaptive Staircase Algorithm to establish subjects' Limit of
+      Balance. Modify the BRT's experimental control algorithm and hardware setup such that data
+      from our extant measurement systems are continuously streamed to a Real Time Computing
+      Workstation and read by the experimental control algorithm, enabling it to monitor foot
+      movement and compute key performance measures on an ongoing basis. These measures will
+      include Root Mean Square tracking Error (RMSE) and Root Mean Squared Deviation (RMSD) between
+      the ground plane projection of Center of Mass (CoM) and the center of the Base of Support
+      (BoS). Incorporate an Adaptive Staircase Algorithm into the real time experimental control
+      algorithm to establish the target positions corresponding to Limit of Balance, based on foot
+      movement (i.e., stepping).
+
+      SA-1.2: Replace the projection screen with Virtual Reality eyewear. The experimental control
+      algorithm will be further modified to display a virtual sphere in the virtual reality
+      eyewear. The virtual reality eyewear will provide a direct view of the actual physical
+      environment but also show the sphere following the trajectory specified by the Adaptive
+      Staircase Algorithm, or the assessment or training modules. When the subject's tracking
+      fingertip contacts the center of the target sphere it will provide visual feedback by
+      changing color.
+
+      SA-1.3: Develop the BATP's Assessment and Training modules. The Assessment Module consists of
+      measuring the subject's Limit of Balance, computing the manifold bounding target motion, and
+      the target's motion within the manifold; as just described. The harnessed subject then tracks
+      the disk for 90 sec. After a 2 1/2 minute rest the process is repeated a second time.
+      Tracking and resting durations can be varied to optimize measurement quality and accommodate
+      individual subject needs and capabilities.
+
+      The Training Module operates in a loop that presents an operator-specified number of training
+      bouts. One training bout consists of measuring Limit of Balance, computing the manifold and
+      target motion, presenting the tracking target for five minutes, and pausing for a 2 1/2
+      minute rest period before signaling the operator to begin the next bout. Tracking and resting
+      durations can be varied to optimize training efficacy and accommodate individual subject
+      needs and capabilities. For this proposal a training session will consist of five bouts and
+      last approximately 60 minutes. As in the Assessment Module, subjects will be harnessed while
+      performing the tracking task to guard against falling.
+
+      The Assessment and Training modules both collect the same data (All data will be saved for
+      offline, post-test analyses: a) The values of r and corresponding to each Limit of Balance,
+      and Limit of Balance; b) The motion (position vs. time) of the target sphere; c) The motion
+      of each of 13 body segments, as well as the tip of the tracking finger [these data will be
+      used to compute tracking error (RMSE), balance stability (RMSD), and to inform the Adaptive
+      Staircase Algorithm when stepping occurs]; d) Ground reaction forces and moments for each
+      foot.
+
+      Methods related to Specific Aim 2 SA-2.1: Evaluate the Assessment Module's test-retest
+      reliability and compare subject performance in it to that in established clinical measures of
+      balance, reach, and Fear of Falling. Twenty stroke (STR) adults will undergo two tests with
+      the Assessment Module 48 hours apart. Clinical measures will be administered before each
+      test. Test-retest reliability will be evaluated
+
+      SA-2.2: Evaluate the Training Module's motor learning effect of three one-hour training
+      sessions over one week. Ten subjects randomly selected from those that participated in SA-2.1
+      will undergo three one-hour training sessions for one week. The SA-2.1 test-retest data will
+      also serve here as double baseline data to establish before-training balance performance.
+      Subjects will be evaluated using the clinical measures at the beginning and immediately after
+      training. Motor learning will be assessed using data from the baseline assessments, the
+      clinical measures, and from the Training Module taken from the last 90 sec of the last
+      training bout of each training session.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">July 1, 2020</start_date>
+  <completion_date type="Anticipated">June 30, 2021</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Once the BATP is developed 20 stroke subjects will be recruited and the BATP's Assessment Module will be administered in order to verify its operation. After this is complete 10 stroke subjects will be randomly selected from this group and will undergo three one-hour training sessions over the course of one week to assess the operation of the BATP's Training Module.</intervention_model_description>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Root Mean Squared Deviation between Center of Mass and Center of Base of Support (RMSD)</measure>
+    <time_frame>Assess change between base line (just prior to training) and last 90 seconds of last training session at end of 1 week</time_frame>
+    <description>Measure of Balance Capability. Root Mean Squared Deviation (RMSD) records the root mean squared distance between the ground plane projection of whole-body Center of Mass and the center of the Base of Support during performance of the balanced reach task, in centimeters. It ranges from zero to the distance from the center of the Base of Support to the boundary of the Base of Support. Larger deviations indicate better performance than smaller deviations.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Multi-Directional Reach Test</measure>
+    <time_frame>Assess change between base line (just prior to training) and within 24 hours of the end of training (1 week)</time_frame>
+    <description>Measures ability to lean and reach. Multi-Directional Reach Test records the distance in centimeters that one can reach in the forward, backward, rightward, and leftward directions; by bending at the waist and reaching with arm extended in each associated direction. Larger distances indicate better performance than smaller distances.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Falls Efficacy Scale</measure>
+    <time_frame>Assess change between base line (just prior to training) and within 24 hours of the end of training (1 week)</time_frame>
+    <description>Assesses fear of falling. The Falls Efficacy Scale is a self-report questionnaire providing information on level of concern about falls for a range of activities of daily living. The questionnaire contains 16 items scored on a four-point scale (1 = not at all concerned to 4 = very concerned). The overall score is the sum of the 16 scores that are provided and ranges from 1to 64. Overall scores between 16-19 indicate low fear of falling; 20-27 indicates moderate fear of falling; and 28-64 indicates high fear of falling. Lower scores are better than higher scores.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Balance Deficits</condition>
+  <condition>Stroke</condition>
+  <arm_group>
+    <arm_group_label>STR</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Older people who have suffered a stroke</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Balanced Reach Assessment and Training Protocol</intervention_name>
+    <description>Three one-hour training sessions for one week in the Balanced Reach Training Protocol</description>
+    <arm_group_label>STR</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Ischemic stroke with residual hemiparetic gait
+
+          -  Adequate language and neurocognitive function to participate in testing and training
+
+          -  Able to give adequate informed consent
+
+          -  Completion of all regular physical therapy
+
+          -  Capable of performing the BATP Assessment and Training tasks without assistive devices
+             or handholds
+
+          -  Able to tolerate the use of AVR eyewear for ~10 minutes
+
+        Exclusion Criteria:
+
+        Clinical history of:
+
+          -  unstable angina
+
+          -  recent myocardial infarction (&lt; 3 month) or hemodynamically significant congestive
+             heart failure (NYHA II) or valvular dysfunction
+
+          -  peripheral arterial occlusive disease with claudication
+
+          -  major orthopedic, chronic pain, or conditions restricting exercise
+
+          -  pulmonary or renal failure
+
+          -  Body Mass Index (BMI) &gt;40
+
+          -  active vertigo
+
+          -  symptomatic orthostatic hypotension
+
+          -  poorly controlled hypertension (&gt;190/105) on at least two separate occasions
+
+          -  poorly controlled type 1 or 2 diabetes (HbA1c &gt;10)
+
+          -  recent hospitalization for severe disease or surgery (&lt;3 month)
+
+          -  excessive daily alcohol consumption (&gt;3 oz. liquor; &gt;12 oz. wine; or &gt;36 oz. beer) or
+             illicit drug abuse
+
+          -  untreated major clinical depression or dementia
+
+          -  major neurological disease other than stroke, such as Parkinson's disease, multiple
+             sclerosis, etc.
+
+          -  any condition (e.g., extreme obesity or frailty) that would preclude safe completion
+             of the BATP
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>65 Years</minimum_age>
+    <maximum_age>86 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Joseph E. Barton, MD PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Baltimore VA Medical Center VA Maryland Health Care System, Baltimore, MD</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Joseph E Barton, MD PhD</last_name>
+    <phone>(202) 337-5921</phone>
+    <email>Joseph.Barton@va.gov</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Baltimore VA Medical Center VA Maryland Health Care System, Baltimore, MD</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21201</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Joseph E Barton, MD PhD</last_name>
+      <phone>202-337-5921</phone>
+      <email>Joseph.Barton@va.gov</email>
+    </contact>
+    <investigator>
+      <last_name>Joseph E. Barton, MD PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>June 14, 2019</study_first_submitted>
+  <study_first_submitted_qc>June 20, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 21, 2019</study_first_posted>
+  <last_update_submitted>April 21, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 21, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 22, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Balance</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

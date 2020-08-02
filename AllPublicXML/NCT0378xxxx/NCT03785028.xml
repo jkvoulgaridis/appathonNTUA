@@ -1,0 +1,203 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03785028</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2015-0282</org_study_id>
+    <nct_id>NCT03785028</nct_id>
+  </id_info>
+  <brief_title>Analysis of Electrocorticographic Signals</brief_title>
+  <official_title>Analysis of Electrocorticographic Signals</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Wisconsin, Madison</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Wisconsin, Madison</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objectives of this research are to understand how the brain can keep information in mind
+      (&quot;working memory&quot;), and use this information to guide behavior. The two experiments that fall
+      under this study will collect brain signals from epilepsy patients who are having surgery as
+      part of their treatment. More specifically, these signals will be studied from the time while
+      the patient is performing two cognitive tasks.The endpoints are publication of the results
+      from each of the proposed experiments in peer-reviewed journals.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      There are 2 separate experiments proposed, both of which use repeated-measures designs.
+
+      1: Electrocorticography (ECoG) study of visual working memory. Each trial from the behavioral
+      task will start by presenting subjects with two visual images, one each from two of these
+      three categories: faces, words, and outdoor scenes. They will then be cued as to which one
+      they'll be tested on with a recognition probe, and after the first probe the cuing-probing
+      process is repeated. Patients selected for this study will have depth electrodes implanted in
+      the left medial temporal lobe and/or grids covering left occipital, temporal, and/or parietal
+      cortex, and suitability of a patient's data for the final dataset will require that a minimum
+      of one stimulus category can be decoded from them. (The precise minimum number of trials
+      required cannot be calculated a priori, because this requires knowing the signal-to-noise
+      ratio in a dataset, a property that is highly variable in electrocorticography data.)
+
+      2. Electrocorticography of spatial selective attention. Each trial from the behavioral task
+      will start by presenting subjects with a white &quot;+&quot; on a screen, with each arm pointing to a
+      potential target location. During each 92-trial block of trials, only two 180-degree opposing
+      locations will ever be cued, with one arm of the &quot;+&quot; turning yellow and the opposing one
+      turning blue, to indicate with 75% validity the location at which an oriented Gabor patch
+      will appear (5 degrees from fixation; cue color mapping counterbalanced), requiring a speeded
+      &quot;R/L&quot; tilt judgment. Orthogonal to cue-color configuration, half of the trials in each block
+      will begin with presentation of an &quot;x&quot; that will rotate by 45 degrees with an unpredictable
+      lag (.5 sec +/- .3). On these trials, the cue-to-target interval (i.e., from rotation to &quot;+&quot;
+      to color-cue onset) will be 750 msec. On trials that begin with the onset of a &quot;+&quot;,
+      cue-to-target interval will vary unpredictably between 650, 750, and 850 msec. Decomposition
+      of alpha-band oscillations (brain waves cycling at roughly 10 times per second) into
+      components associated with each location will be derived by filtering the whole-scalp signal
+      with weights from the inverted encoding model trained to encode the four critical locations.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 19, 2019</start_date>
+  <completion_date type="Anticipated">December 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 2023</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>basic science</intervention_model_description>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Experiment 1.b. Prioritization cue-related changes in the neural representation of stimuli</measure>
+    <time_frame>Twenty minutes</time_frame>
+    <description>This experiment will use a machine learning analysis -- multivariate pattern classification -- to &quot;decode&quot; the brain signals measured by the electrocorticography electrodes. That is, the analysis will determine if the face/word/scene that is being remembered is being represented by these particular brain signals). The primary outcome will be to assess what happens to the neural representation of, say, a face, when the patient is probed that the other stimulus presented on that trial will be tested first. In this situation, the memory for the face becomes deprioritized, and the primary outcome measure is whether, and if so how, the neural representation changes: does it get weaker? does it disappear altogether? or does it change into a different kind of neural representation?</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Experiment 1.b. Prioritization cue-related changes in phase-amplitude coupling</measure>
+    <time_frame>Twenty minutes</time_frame>
+    <description>Phase-amplitude coupling refers to the synchrony between low frequency oscillations and bursts of high-frequency signal, which is interpreted as a proxy for neuronal firing. The primary outcome measure is whether the level of phase-amplitude coupling associated with a stimulus will change (increase, decrease, change to different frequencies) after that stimulus is prioritized or deprioritized by the cue.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Experiment 3.b. Covert spatial attention-related changes in phase-amplitude coupling</measure>
+    <time_frame>Twenty minutes</time_frame>
+    <description>Phase-amplitude coupling refers to the synchrony between low frequency oscillations and bursts of high-frequency signal, which is interpreted as a proxy for neuronal firing. The primary outcome measure is whether the level of phase-amplitude coupling in tissue representing a region of space that is irrelevant for an entire block of trials will change in a manner that mirrors the dynamic changes expected for each trial's uncued location, or whether it will be insensitive to shifts of attention that are, by definition, never relevant for that tissue over the course of that block of trials.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Epilepsy</condition>
+  <arm_group>
+    <arm_group_label>Experimental Arm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Only arm of this basic science study, participants will undergo working memory and attention tasks</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>working memory and attention</intervention_name>
+    <description>working memory and attention tasks</description>
+    <arm_group_label>Experimental Arm</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Participants with implanted electrode arrays who are willing to participate and able
+             to cooperate and follow research instructions will be recruited.
+
+          -  Must be able to read
+
+          -  Must be able to name objects
+
+          -  Must be able to articulate thoughts with spoken language
+
+        Exclusion Criteria:
+
+          -  post-operative pain requiring narcotics
+
+          -  repeated seizures clouding consciousness
+
+          -  IQ of 85 and below
+
+          -  post-operative subdural bleeding
+
+          -  cerebral pathology affecting the cortical regions from which recordings are made
+
+          -  women who are pregnant, or who think they may be pregnant
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Bradley R Postle, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Wisconsin, Madison</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jacqueline Fulvio, PhD</last_name>
+    <phone>6082658961</phone>
+    <email>Jacqueline.Fulvio@wisc.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Bradley R Postle, PhD</last_name>
+    <phone>16083450980</phone>
+    <email>postle@wisc.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of Wisconsin</name>
+      <address>
+        <city>Madison</city>
+        <state>Wisconsin</state>
+        <zip>53705</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jacqueline Fulvio</last_name>
+      <phone>608-265-8961</phone>
+      <email>Jacqueline.Fulvio@wisc.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Bradley R Postle, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>December 14, 2018</study_first_submitted>
+  <study_first_submitted_qc>December 21, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 24, 2018</study_first_posted>
+  <last_update_submitted>July 23, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 23, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 27, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Epilepsy</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

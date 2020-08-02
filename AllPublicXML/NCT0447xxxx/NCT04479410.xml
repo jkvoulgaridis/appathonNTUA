@@ -1,0 +1,199 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04479410</url>
+  </required_header>
+  <id_info>
+    <org_study_id>BIOING_01</org_study_id>
+    <nct_id>NCT04479410</nct_id>
+  </id_info>
+  <brief_title>Efficient Automated Localization of ECoG Electrodes in CT Images Via Shape Analysis</brief_title>
+  <acronym>LOC-ECOG</acronym>
+  <official_title>Efficient Automated Localization of ECoG Electrodes in CT Images Via Shape Analysis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Neuromed IRCCS</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Federico II University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Neuromed IRCCS</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      People with drug epilepsy (PwE) refractory to anti-seizure medications may be evaluated for
+      surgery. In several cases non invasive presurgical work-up is not sufficient for localization
+      of the Epileptogenic Zone and its correct delineation requires intracranial investigations by
+      means of intraparenchymal or subdural electrodes.The methodological approach with subdural
+      electrodes allows to obtain electrocorticography (ECoG) covering large cortical regions and
+      to map eloquent areas.
+
+      To delineate the seizure onset zone it is mandatory to precisely localize the electrode
+      position on the cortical surface. Electrodes are usually recognized by processing patients'
+      computed tomography (CT) images using simple image processing (e.g. thresholding) that
+      isolates metal objects. However, also wires, stitches, clips and other metal objects are
+      actually recognized and need to be removed by manual intervention. A new automated method,
+      based on shape analysis, will be retrospectively tested in a group of subjects with
+      refractory focal epilepsy previously investigated with subdural electrodes for diagnostic
+      purposes to provide advanced ECoG subdural electrodes recognition. A total of 24 CT scans
+      with a large number (&gt; 1700) of round platinum electrodes arrays will be recruited for
+      testing.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      For people with epilepsy (PwE) refractory to anti-seizure medication sometimes the
+      non-invasive presurgical evaluation using ElectroEncephaloGram (EEG) recorded directly from
+      the scalp is not sufficient to delineate the epileptogenic zone and to identificate the
+      eloquent cortex. In these cases, an invasive approach using intracranial
+      electroencephalography (iEEG) is needed Subdural electrodes are used frequently in the
+      presurgical evaluation of patients who are candidates for epilepsy surgery. Electrodes placed
+      directly on the surface of the cortex provide a signal with a much higher resolution than
+      that provided from scalp electrodes, and have a much clear view of small loci of activity
+      which is difficult to see on the scalp.
+
+      Subdural electrodes allow not only the localization of abnormal epileptic tissue but also the
+      localization of adjacent normal functions. Therefore, the precise anatomical localization of
+      the electrodes on the patient's brain plays a key role in the definition of the epileptogenic
+      zone or in the mapping of eloquent cortex.
+
+      From a clinical point of view, the accurate localization of the anatomical boundaries of the
+      epileptogenic zone allows to exclude eloquent areas, avoid deficits to patient and minimize
+      brain volume resection.
+
+      The localization of these electrodes is generally obtained by matching the locations of the
+      electrodes with the brain anatomy of the patient. Commonly, a pre-implant magnetic resonance
+      image (MRI) is co-registered to a post-implant computed tomography scan (CT) because MRI
+      offers higher brain tissue contrast, while CT supports electrodes localization , even if CT
+      images are affected by metal artifacts.
+
+      Various dedicated software tools that support pre-surgical evaluation are currently available
+      as Matlab-based packages or open source softwares, also with graphical user interfaces. They
+      mainly provide MRI-CT co-registration and offer only basic features for recognition of ECoG
+      electrodes from CT scans. Most dedicated softwares segment the electrodes via simple image
+      thresholding and allow manual interaction to correct the data. Manual methods are very time
+      consuming,user-dependent and prone to inaccuracy. On the other hand, the mere CT image
+      thresholding method is not able to recognize all the electrodes and to completely exclude
+      other metallic objects, such as wires, tooth filings, intracranial clips, splinters,
+      stitches, hearing aids or intracranial stents. Hence, manual intervention is often required
+      to adjust the data. For example, the ALICE tool considers the volume of segmented clusters to
+      identify the electrodes, but turned out to be unable to exclude other objects with comparable
+      volumes (e.g. wire clusters).
+
+      The aim of this project is to develop a novel, robust, automated method to recognize ECoG
+      electrodes in CT volumes. It consists of metal artifacts removal from CT volumes,
+      identification of groups/arrays of metal objects within the skull and shape analysis of
+      detected objects to achieve ECoG electrodes localization.The proposed approach could be
+      easily integrated in existing tools.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">August 1, 2020</start_date>
+  <completion_date type="Anticipated">September 30, 2020</completion_date>
+  <primary_completion_date type="Anticipated">August 31, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Classification accuracy of a Linear Discriminant Analysis classifier in detecting electrodes</measure>
+    <time_frame>September 2020</time_frame>
+    <description>A distinct database will be created for each patient, with rows corresponding to potential electrode objects within the CT volume, and composed by a collection of the extracted geometrical features and the assigned class. Two classes will be considered: &quot;electrode&quot; and &quot;non-electrode&quot;. The &quot;electrode&quot; class is assigned to the actual electrodes, while the non-electrode class is assigned to all the other detected metal objects.
+A Linear Discriminant Analysis (LDA) algorithm will be used for model training and data classification. Classification performances will be assessed by applying a 10-fold cross validation on each of the 24 patients' databases. In 10-fold cross-validation, the dataset will be randomly divided into 10 subsets of equal size, and then each subset will be tested using the classifier trained on the remaining nine subsets. Then, the obtained 10 classification accuracies will be averaged to provide an overall classification accuracy.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">24</enrollment>
+  <condition>Electrodes Recognition Ability</condition>
+  <arm_group>
+    <arm_group_label>Drug resistant epilepsy patients</arm_group_label>
+    <description>Patients with drug resistant epilepsy underwent epilepsy surgery</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        24 people with epilepsy (PwE) refractory to anti seizure medications (ASM) who underwent
+        epilepsy surgery at IRCCS Neuromed.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients implanted with subdural ECoG electrodes underwent epilepsy surgery
+
+          -  Availability of a post-operative CT scan with acceptable image quality
+
+        Exclusion Criteria:
+
+        - Patients having CT scans with low image quality
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_contact>
+    <last_name>Luigi Pavone, PhD</last_name>
+    <phone>+39 3292139948</phone>
+    <email>bioingegneria@neuromed.it</email>
+  </overall_contact>
+  <results_reference>
+    <citation>Taimouri V, Akhondi-Asl A, Tomas-Fernandez X, Peters JM, Prabhu SP, Poduri A, Takeoka M, Loddenkemper T, Bergin AM, Harini C, Madsen JR, Warfield SK. Electrode localization for planning surgical resection of the epileptogenic zone in pediatric epilepsy. Int J Comput Assist Radiol Surg. 2014 Jan;9(1):91-105. doi: 10.1007/s11548-013-0915-6. Epub 2013 Jun 23.</citation>
+    <PMID>23793723</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Brunner P, Ritaccio AL, Lynch TM, Emrich JF, Wilson JA, Williams JC, Aarnoutse EJ, Ramsey NF, Leuthardt EC, Bischof H, Schalk G. A practical procedure for real-time functional mapping of eloquent cortex using electrocorticographic signals in humans. Epilepsy Behav. 2009 Jul;15(3):278-86. doi: 10.1016/j.yebeh.2009.04.001. Epub 2009 Jun 17.</citation>
+    <PMID>19366638</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Arnulfo G, Narizzano M, Cardinale F, Fato MM, Palva JM. Automatic segmentation of deep intracerebral electrodes in computed tomography scans. BMC Bioinformatics. 2015 Mar 25;16:99. doi: 10.1186/s12859-015-0511-6.</citation>
+    <PMID>25887573</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Dykstra AR, Chan AM, Quinn BT, Zepeda R, Keller CJ, Cormier J, Madsen JR, Eskandar EN, Cash SS. Individualized localization and cortical surface-based registration of intracranial electrodes. Neuroimage. 2012 Feb 15;59(4):3563-70. doi: 10.1016/j.neuroimage.2011.11.046. Epub 2011 Nov 28.</citation>
+    <PMID>22155045</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Hermes D, Miller KJ, Noordmans HJ, Vansteensel MJ, Ramsey NF. Automated electrocorticographic electrode localization on individually rendered brain surfaces. J Neurosci Methods. 2010 Jan 15;185(2):293-8. doi: 10.1016/j.jneumeth.2009.10.005. Epub 2009 Oct 27.</citation>
+    <PMID>19836416</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Lachaux JP, Rudrauf D, Kahane P. Intracranial EEG and human brain mapping. J Physiol Paris. 2003 Jul-Nov;97(4-6):613-28. Review.</citation>
+    <PMID>15242670</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Branco MP, Gaglianese A, Glen DR, Hermes D, Saad ZS, Petridou N, Ramsey NF. ALICE: A tool for automatic localization of intra-cranial electrodes for clinical and high-density grids. J Neurosci Methods. 2018 May 1;301:43-51. doi: 10.1016/j.jneumeth.2017.10.022. Epub 2017 Nov 1.</citation>
+    <PMID>29100838</PMID>
+  </results_reference>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>July 15, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 20, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 21, 2020</study_first_posted>
+  <last_update_submitted>July 20, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 20, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 21, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Neuromed IRCCS</investigator_affiliation>
+    <investigator_full_name>Luigi Pavone</investigator_full_name>
+    <investigator_title>Principal investigator</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

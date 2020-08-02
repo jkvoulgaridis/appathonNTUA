@@ -1,0 +1,190 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04360902</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RRI-19-003</org_study_id>
+    <nct_id>NCT04360902</nct_id>
+  </id_info>
+  <brief_title>Assessment of an Anemia Model Predictive Controller for Anemia Management in Hemodialysis Patients</brief_title>
+  <official_title>Assessment of an Anemia Model Predictive Controller for Anemia Management in Hemodialysis Patients: A Pilot Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Renal Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Renal Research Institute</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this randomized, controlled pilot study is to evaluate the performance of this
+      novel Anemia Controller (vis-à-vis standard of care) for anemia management in hemodialysis
+      patients. Since the Anemia Controller is designed to bring patients to a pre-defined Hgb
+      target level and keep them there, the target population for this study are patients whose Hgb
+      levels are currently not well-controlled (rather than patients who are already relatively
+      stable within the Hgb target range under a standard anemia management algorithm).
+      Specifically, therefore, the target population for this clinical study are chronic
+      hemodialysis patients who are exhibiting Hgb cycling.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 8, 2020</start_date>
+  <completion_date type="Anticipated">December 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Supportive Care</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percentage of time spent within a Hgb target range</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>The primary objective of the study is to compare the percentage of time patients will spend within the Hgb target range of 10-11 g/dL when treated with the Anemia Model Predictive Controller (intervention group) vs. when treated with the Standard of Care Algorithm (control group)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>ESA accumulated dose (mcg/Kg)</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Compare ESA accumulated dose (mcg/Kg) between the intervention and control groups (crude as well as adjusted for attained Hgb levels)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Statistical measures of Hgb variability</measure>
+    <time_frame>26 weeks</time_frame>
+    <description>Compare the intervention group to the control group with respect to statistical measures of Hgb variability, including gradual fluctuations in pre-dialysis Hgb levels (g/dL) with a cyclic pattern (a cycle duration from 6 to 21 weeks, and an amplitude of at least 1.5 g/dL.)</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>End Stage Renal Disease</condition>
+  <condition>Renal Anemia</condition>
+  <condition>Chronic Kidney Diseases</condition>
+  <arm_group>
+    <arm_group_label>Standard of Care Group</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Subjects in the standard of care group will continue to receive anemia management in the same way they normally do as part of their routine dialysis care. For the purposes of this study, this means the use of the clinic's established Mircera® anemia management algorithm. Participation in this study will not affect the anemia management of subjects in the control group.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Intervention Group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>For subjects randomized into the intervention group, our erythropoiesis model will be used to identify each subject's individual values for several physiological determinants of erythropoiesis based on his/her sex, body height and history of body weights, Hgb concentrations and Mircera® administrations over the preceding 150 to 180 days.
+For subjects in the intervention group, their current method of anemia management will be discontinued. From this point on, Mircera® dose recommendations will be generated by the Anemia Controller software based on our erythropoiesis model and each subject for the duration of their 26-week participation in this study. The Anemia Controller computes the Mircera® doses required to attain the target Hgb level of 10.5 g/dL. Controller-generated Mircera® recommendations will be communicated to the respective clinics' anemia managers on a standardized report.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Anemia Controller</intervention_name>
+    <description>Model Predictive Controller software (called &quot;Anemia Controller&quot;) that utilizes our physiology-based erythropoiesis model to provide ESA dosing recommendations in order to guide a patient's Hgb level towards a predefined target value.</description>
+    <arm_group_label>Intervention Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age ≥18 years
+
+          -  Ability to give written informed consent to the study
+
+          -  End-stage renal disease treated with thrice-weekly hemodialysis for at least 180 days
+             preceding enrollment
+
+          -  Receiving intradialytic Crit-Line® monitoring, with available Crit-Line® data going
+             back at least 180 days from the date of enrollment
+
+          -  Laboratory Hgb data going back at least 180 days from the date of enrollment
+
+          -  On average, Hgb values available from at least 2 treatments per week (from either
+             source, Crit-Line® or laboratory) during the past 180 days preceding enrollment
+
+          -  Renal anemia treated with intravenous Mircera®, with at least 2 Mircera® dose
+             administrations during the 150 days preceding enrollment
+
+          -  On an active Mircera® anemia management algorithm order during the 180 days preceding
+             enrollment
+
+          -  Exclusively on Mircera® (no other ESAs) during the 180 days preceding enrollment
+
+          -  Pattern of Hgb cycling as defined above during the 180 days preceding enrollment
+
+        Exclusion Criteria:
+
+          -  Having received the maximum Mircera® dose (225 µg every other week) consistently
+             throughout the 90 days preceding enrollment
+
+          -  Hospitalization for more than 10 days during the 30 days preceding enrollment
+
+          -  Severe iron deficiency (TSAT &lt;20%, ferritin &lt;100 ng/mL) in the most recent routine
+             blood work prior to enrollment
+
+          -  Any known cause of ESA resistance other than iron deficiency and inflammatory states
+             (e.g. hematologic malignancies, hypersplenism, antibody mediated pure red cell
+             aplasia)
+
+          -  Simultaneous participation in another clinical study that may impact anemia management
+             or the outcomes of this trial
+
+          -  Inability to communicate in English or Spanish
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Manager, RRI Program</last_name>
+    <phone>212-331-1700</phone>
+    <email>sherline.pereira@rriny.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>RRI</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10065</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Manager, Renal Research Programs</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>December 19, 2019</study_first_submitted>
+  <study_first_submitted_qc>April 23, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 24, 2020</study_first_posted>
+  <last_update_submitted>April 23, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 23, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 24, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Kidney Diseases</mesh_term>
+    <mesh_term>Renal Insufficiency, Chronic</mesh_term>
+    <mesh_term>Kidney Failure, Chronic</mesh_term>
+    <mesh_term>Anemia</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

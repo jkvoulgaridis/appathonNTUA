@@ -1,0 +1,298 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04473105</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20GA039</org_study_id>
+    <nct_id>NCT04473105</nct_id>
+  </id_info>
+  <brief_title>Optimising Resource Allocation Via Prediction of Outcomes for Covid-19</brief_title>
+  <official_title>Optimising Resource Allocation Via Prediction of Outcomes for Suspected and Proven Covid-19</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Nottingham University Hospitals NHS Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>East Midlands Academic Health Sciences Network</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Nottingham University Hospitals NHS Trust</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators plan to use all of the information available within their local NHS
+      hospitals Trust to work out what happens to people admitted with both suspected and proven
+      Covid-19 infections. The investigators will use all of the information that they can to
+      provide the most evidence possible to use in their investigation as this will make the
+      results more accurate. This will include information on existing health conditions (e.g. by
+      looking at previous discharge letters, GP summaries), clinical observations recorded in the
+      hospital (e.g. temperature, blood pressure, pulse, oxygen levels) and laboratory measures
+      (e.g. blood markers of infection). The investigators experienced team will then analyse all
+      of this together with information about whether the person has Covid-19 to help work out what
+      any new patients' risk will be. To do this the investigators need to use individual patients'
+      information, however once removed from the hospital records system it will not be
+      identifiable and will be held securely within the hospital at all times. As a result of this
+      work the investigators plan to be able to do two things:
+
+        1. When a patient is admitted to hospital with possible or confirmed Covid-19 the
+           investigators will be able to make a highly accurate prediction of what is likely to
+           happen to them (e.g. being admitted to high dependency or intensive care, dying or
+           surviving to discharge) which will help health care professional make decisions about
+           their care.
+
+        2. By knowing what is likely to happen to a patient the investigators are able to make
+           informed decisions about how to distribute healthcare resources e.g. which areas are
+           likely to need more ventilators (machines to help with breathing), need for intensive
+           care beds, discharge planning.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background.
+
+      Relatively simple clinical risk scores based upon easily available clinical information can
+      greatly aid in the triaging of patients to early discharge or more rapid and intensive
+      intervention. One example of this is in upper gastrointestinal bleeding where several such
+      scores (https://www.mdcalc.com/glasgow-blatchford-bleeding-score-gbs4 5;
+      https://www.mdcalc.com/rockall-score-upper-gi-bleeding-complete6) have permitted safe early
+      discharge thereby relieving pressure on hospitals. The investigators believe that similar
+      results might potentially be achievable from data routinely collected in our trust on
+      patients with proven or suspected Covid-19.
+
+      Objectives
+
+      The investigators aim to answer the following questions
+
+        1. What pattern of clinical history and symptoms, observations, blood and other
+           investigative markers best predicts that a patient suspected of Covid-19 or proven to
+           have it will progress to requiring ventilation?
+
+        2. What pattern of clinical history and symptoms, observations, blood and other
+           investigative markers best predicts that a patient suspected of Covid-19 or proven to
+           have it will die during their illness?
+
+        3. What pattern of clinical history and symptoms, observations, blood and other
+           investigative markers best predicts that a patient suspected of Covid-19 or proven to
+           have it will make a full recovery without requiring supplemental oxygen?
+
+      Methods
+
+      The investigators propose to two main approaches to the first two of the aims above.
+
+      A standard approach assessing baseline characteristics to predict poor outcome, similar to
+      other ongoing studies like ISARIC and PRIEST, but benefitting from an unbiased sample of
+      patients as no additional samples or data are to be collected and so the investigators
+      believe that it will be ethically acceptable subject to due attention to confidentiality to
+      analyse all patients presenting and not only those willing and able to consent.
+
+      A multi-level modelling approach that uses the rich repeated daily laboratory and clinical
+      measurements to predict the daily risk of a subsequent deterioration.
+
+      This second approach complements other ongoing studies like ISARIC and PRIEST, as it can only
+      feasibly be delivered within a single institution like NUH as it requires detailed
+      longitudinal linked electronic health data. Furthermore, it is an efficient, low cost study
+      design that does not require manual data collection.
+
+      The investigators will utilize the data held in the electronic systems of Nottingham
+      University Hospitals (NUH) NHS Trust, to identify all patients either suspected of having
+      Covid-19 infection or in whom the diagnosis is eventually confirmed. This will be performed
+      from the start of the pandemic retrospectively and then in a rolling program prospectively to
+      maximise available data.
+
+      For these patients the investigators will gather all relevant data on diagnoses
+      (comorbidities), daily clinical observations and daily laboratory parameters both at
+      presentation and on a rolling basis going forward from that until the point of death or
+      discharge. These data will include repeated measures of, temperature, pulse, blood oxygen
+      saturation, inspired oxygen concentration, respiratory rate, C reactive protein, and white
+      cell count among others.
+
+      Data will be analysed, and outcomes modelled within the Nottingham University Hospitals Trust
+      network to ensure that confidentiality is maintained.
+
+      Analysis
+
+      Characteristics of patients who go on to intubation The investigators will assess the
+      association of any baseline parameters and demographics of patients who require ventilation
+      compared to those who do not by cross tabulating baseline parameters with ventilation, and
+      calculating adjusted associations using a logistic regression model. The investigators will
+      also examine daily risk of intubation using a random effects model with the repeated daily
+      measurements. In order to examine the potential for an easily calculable clinical risk score,
+      logistic models will be prepared, but retaining continuous variables as continuous (to
+      maximise the retention of useful predictive data) and reducing them to categorical data (for
+      ease of clinical calculation). The investigators will select predictors for the model using
+      backward elimination with the Akaike information criterion and alpha = 0.05. For candidate
+      models the investigators will calculate the C-index and receiver operating curves and assess
+      calibration using the Hosmer-Lemeshow test. Bootstrapping and cross validation will be used
+      to avoid overfitting and assess model performance.
+
+      Time trends analysis to identify markers leading to intubation The investigators will examine
+      the data for trends over time in repeated measurements where available and describe these
+      using appropriate summary statistics. If there are enough repeated measurements, then each
+      covariate will be assessed with a JoinPoint analysis to assess if there is an obvious
+      inflexion in time to indicate a change in the clinical picture which marks a decline towards
+      ventilation. This process will feed into the rational choice of categories for categorical
+      representation of the data.
+
+      Predictors at intubation suggesting death The investigators will assess the association of
+      any parameters and demographics of ventilated patients who die compared to those who do not
+      by cross tabulating parameters at point of ventilation with death, and calculating adjusted
+      associations using a logistic regression model. The investigators will also examine daily
+      risk of death using a random effects model with the repeated daily measurements. In order to
+      examine the potential for an easily calculable clinical risk score, logistic models will be
+      prepared, but retaining continuous variables as continuous (to maximise the retention of
+      useful predictive data) and reducing them to categorical data (for ease of clinical
+      calculation). The investigators will select predictors for the model using backward
+      elimination with the Akaike information criterion and alpha = 0.05. For candidate models the
+      investigators will calculate the c index and receiver operating curves and assess calibration
+      using the Hosmer-Lemeshow test. Bootstrapping and cross validation will be used to avoid
+      overfitting and assess model performance.
+
+      Time trends analysis to identify markers leading to death We will examine the data for trends
+      over time in repeated measurements where available and describe these using appropriate
+      summary statistics. If there are enough repeated measurements, then each covariate will be
+      assessed with a JoinPoint analysis to assess if there is an obvious inflexion in time to
+      indicate a change in the clinical picture which marks a decline towards death Baseline
+      characteristics of patients discharged without supplemental oxygen We will assess the
+      association of any baseline parameters and demographics of patients who are discharged
+      without supplemental oxygen compared to those who are not by cross tabulating baseline
+      parameters with ventilation, and calculating adjusted associations using a logistic
+      regression model. In order to examine the potential for an easily calculable clinical risk
+      score, logistic models will be prepared, but retaining continuous variables as continuous (to
+      maximise the retention of useful predictive data) and reducing them to categorical data (for
+      ease of clinical calculation). The investigators will select predictors for the model using
+      backward elimination with the Akaike information criterion and alpha = 0.05. For candidate
+      models the investigators will calculate the c index and receiver operating curves and assess
+      calibration using the Hosmer-Lemeshow test. Each of these steps will be repeated in 10
+      randomly selected 20% subsamples of the dataset.
+
+      Stratified supplemental analyses To identify different patient groups at risk of poor
+      outcomes, interactions with each risk model will be assessed to identify if stratification is
+      needed by age bands, sex, prior co-morbidities and baseline factors such as lymphopaenia, CRP
+      etc.
+
+      All analyses will be repeated for groups of PCR proven Covid-19 patients and those only
+      suspected.
+
+      For the analysis of discharge without supplemental oxygen the investigators will examine the
+      risk of readmission for those so discharged and repeat the analysis only for those not
+      subsequently readmitted.
+
+      Eligibility Criteria
+
+      Inclusion criteria • All patients admitted to Nottingham University Hospitals Trust either
+      suspected of having Covid-19 infection or in whom the diagnosis is eventually confirmed and
+      who are over the age of 18 years
+
+      Exclusion criteria
+
+      • Aged under 18.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">May 1, 2020</start_date>
+  <completion_date type="Anticipated">July 31, 2020</completion_date>
+  <primary_completion_date type="Anticipated">July 31, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Ventilation</measure>
+    <time_frame>During admission up to 3 months</time_frame>
+    <description>The need to ventilate the patient</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Death</measure>
+    <time_frame>During admission or within 30 days</time_frame>
+    <description>Death of the patient</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>COVID19</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All patients meeting above criteria during the study period and prior to it for whom follow
+        up to 30 days can be completed during the period (i.e. admissions until 30 days prior to
+        study closes)
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        • All patients admitted to Nottingham University Hospitals Trust either suspected of having
+        Covid-19 infection or in whom the diagnosis is eventually confirmed and who are over the
+        age of 18 years
+
+        Exclusion Criteria:
+
+        • Aged under 18.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Timothy R Card, FRCP, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Nottingham</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Timothy R Card, FRCP, PhD</last_name>
+    <phone>0115 8231346</phone>
+    <email>tim.card@nottingham.ac.uk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Colin Crooks, MRCP, PhD</last_name>
+    <phone>0115 823 1058</phone>
+    <email>colin.crooks@nottingham.ac.uk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Nottingham University Hospitals NHS Trust</name>
+      <address>
+        <city>Nottingham</city>
+        <zip>NG7 2UH</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>May 2020</verification_date>
+  <study_first_submitted>May 20, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 15, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 16, 2020</study_first_posted>
+  <last_update_submitted>July 15, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 15, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 16, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>prognostic score</keyword>
+  <keyword>ventilation</keyword>
+  <keyword>mortality</keyword>
+  <keyword>early discharge</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

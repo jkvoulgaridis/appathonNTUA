@@ -1,0 +1,170 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04342234</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020-00388; ch19Mueller2</org_study_id>
+    <nct_id>NCT04342234</nct_id>
+  </id_info>
+  <brief_title>Neural Network to Calculate Morphology of the Cleft Palate to Reduce Cleft Lip and Palate Treatment Burden.</brief_title>
+  <official_title>Neural Network to Calculate Morphology of the Cleft Palate to Reduce Cleft Lip and Palate Treatment Burden.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Basel, Switzerland</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Botnar Research Centre for Child Health (BRCCH)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>sciCORE Basel</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Department of Computer Science, Computer Graphics Laboratory, ETH Zurich</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital, Basel, Switzerland</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is to develop a neural network to compute palatal three dimensional (3D) geometry
+      by using routinely taken intraoral/palatal photographs and palatal casts of infants with
+      cleft lip and palate deformity for reducing cleft lip and palate treatment burden. Data of
+      palatal casts and palatal images of cleft patients routinely treated at the University
+      Hospital Basel will be analyzed.The collection of large data helps in developing a neural
+      network that will allow the computation of the 3D geometry from single photographs.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 5, 2020</start_date>
+  <completion_date type="Anticipated">December 2025</completion_date>
+  <primary_completion_date type="Anticipated">December 2025</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>3D palatal geometry</measure>
+    <time_frame>at baseline</time_frame>
+    <description>palatal cleft photographs (input) and corresponding 3D palatal geometry (output) create this 3D palatal geometry for development of image based, non-invasive palatal shape reconstruction</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">450</enrollment>
+  <condition>Cleft Palate</condition>
+  <condition>Orofacial Cleft</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>data collection of palatal casts and palatal images of cleft patients routinely treated at the institution</intervention_name>
+    <description>data collection of palatal casts and palatal images of cleft patients, using routinely taken intraoral/palatal photographs and palatal casts of infants with cleft lip and palate deformity</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with cleft lip and palate malformation with available routinely performed plaster
+        cast model from palatal impressions and corresponding images of the cleft palate treated in
+        the past as well as future patients treated at University hospital Basel (USB) for the last
+        50 years will be included (1970 till 2025). Models are taken routinely in newborns and for
+        follow-up (age 1-20 years) according to WHO Guidelines
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients with cleft lip and palate malformation with available routinely performed
+             plaster cast model from palatal impressions and corresponding images of the cleft
+             palate (1970 till 2025)
+
+        Exclusion Criteria:
+
+          -  Existence of a documented rejection
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Andreas Müller, PD Dr. med. Dr. med. dent. Dr.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Mund-, Kiefer- und Gesichtschirurgie, Universitätsspital Basel</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Benito Benitez, Dr. med. Dr. med. dent.</last_name>
+    <phone>+41 61 556 52 85</phone>
+    <email>benito.benitez@usb.ch</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Andreas Müller, PD Dr. med. Dr. med. dent. Dr.</last_name>
+    <phone>+41 061 328 60 95</phone>
+    <email>andreas.mueller@usb.ch</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Mund-, Kiefer- und Gesichtschirurgie, Universitätsspital Basel</name>
+      <address>
+        <city>Basel</city>
+        <zip>4031</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Benito Benitez, Dr. med. Dr. med. dent.</last_name>
+      <phone>+41 61 556 52 85</phone>
+      <email>benito.benitez@usb.ch</email>
+    </contact>
+    <contact_backup>
+      <last_name>Andreas Müller, PD Dr. med. Dr. med. dent.</last_name>
+      <phone>+41 061 328 60 95</phone>
+      <email>andreas.mueller@usb.ch</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Martin Erismann</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Prasad Nalabothu, Dr.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>April 8, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 8, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 10, 2020</study_first_posted>
+  <last_update_submitted>April 14, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 14, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 15, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Cleft Lip</keyword>
+  <keyword>Neural Network</keyword>
+  <keyword>palatal plate therapy</keyword>
+  <keyword>palatal 3D geometry</keyword>
+  <keyword>palatal shape reconstruction</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cleft Palate</mesh_term>
+    <mesh_term>Cleft Lip</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

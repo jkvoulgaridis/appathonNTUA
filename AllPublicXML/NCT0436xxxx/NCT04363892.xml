@@ -1,0 +1,253 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04363892</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RadOnc</org_study_id>
+    <nct_id>NCT04363892</nct_id>
+  </id_info>
+  <brief_title>Combined Optical and Infrared Imaging for Early Prediction of Erythema During Breast and Chestwall Radiotherapy</brief_title>
+  <official_title>A Prospective Cohort Clinical Trial to Assess the Skin Imaging Spectral and Morphological Changes During Breast Adjuvant Radiotherapy as an Early Predictor of Acute Skin Toxicities</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Nova Scotia Health Authority</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Nova Scotia Health Authority</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of this study is to develop a computer model, based on photographs and heat images of
+      patients' skin, to provide early prediction of painful reddening of the skin during
+      radiotherapy treatment.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      There is currently no reliable tool to quantify and detect erythema of the skin during
+      radiotherapy. This side-effect may lead to painful moist desquamation, and eventually
+      permanent delayed side effects like telangiectasia. If such a tool would be available,
+      several interventions could be staged, including (1) the use of steroid cream], (2) the
+      re-simulation and/or re-planning of patients to decrease the skin dose by spreading out the
+      entrance of the beams, (3) adjusting or eliminating the use of bolus on the skin surface
+      (which boosts superficial dose) or (4) the use of other treatment techniques including prone
+      technique.
+
+      Given that the dose delivered is not a reliable metric to predict for erythema in a given
+      patient, a new method for monitoring, staging and ultimately predicting skin response is
+      needed. By analyzing images of the skin using both visible and infrared spectral regions, and
+      by carefully converting the information in the images to quantitative metrics, it may be
+      possible to characterize the stage of a patient's response to radiation, and to understand
+      which patients may go on to experience chronic pain, severe burns or other more serious side
+      effects while it is still early enough to intervene.
+
+      The proposed research is to develop a software model that will take as input patient skin
+      image data and the patient known clinical outcomes and algorithmically generalize a model to
+      predict a biological response of skin to ionizing radiation for any future patient, after a
+      few initial images.
+
+      In the first stage of this study, the data will be aggregated to devise the dose response
+      curve. In later phases, the model will be refined and used for predictive purposes, i.e.,
+      once a new patient has begun radiotherapy sessions, their initial response will be
+      quantified, and fed into the model to predict the skin response endpoint after the course of
+      radiation therapy ends. As mentioned, this information could be used to adapt the radiation
+      course and optimize the therapy for the individual, potentially preventing morbidity from
+      overdose, or risk of recurrence from under dose.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">July 2020</start_date>
+  <completion_date type="Anticipated">December 2022</completion_date>
+  <primary_completion_date type="Anticipated">July 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Establish the correlation between optical and IR skin imaging and skin toxicity</measure>
+    <time_frame>Week one of radiation treatment</time_frame>
+    <description>Acute skin side effects assessed using the National Cancer Institute of Canada Common Terminology Criteria for Adverse Events, version 4.03. Scale ranges from 1 to 5. Correlation will be performed relative to optical image colour, texture, and temperature reflected by IR imaging.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Establish the correlation between optical and IR skin imaging and skin toxicity</measure>
+    <time_frame>Week two of radiation treatment</time_frame>
+    <description>Acute skin side effects assessed using the National Cancer Institute of Canada Common Terminology Criteria for Adverse Events, version 4.03. Scale ranges from 1 to 5. Correlation will be performed relative to optical image colour, texture, and temperature reflected by IR imaging.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Establish the correlation between optical and IR skin imaging and skin toxicity</measure>
+    <time_frame>Week three of radiation treatment</time_frame>
+    <description>Acute skin side effects assessed using the National Cancer Institute of Canada Common Terminology Criteria for Adverse Events, version 4.03. Scale ranges from 1 to 5. Correlation will be performed relative to optical image colour, texture, and temperature reflected by IR imaging.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Establish the correlation between optical and IR skin imaging and skin toxicity</measure>
+    <time_frame>Week four of radiation treatment</time_frame>
+    <description>Acute skin side effects assessed using the National Cancer Institute of Canada Common Terminology Criteria for Adverse Events, version 4.03. Scale ranges from 1 to 5. Correlation will be performed relative to optical image colour, texture, and temperature reflected by IR imaging.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Establish the correlation between optical and IR skin imaging and skin toxicity</measure>
+    <time_frame>Week five of radiation treatment</time_frame>
+    <description>Acute skin side effects assessed using the National Cancer Institute of Canada Common Terminology Criteria for Adverse Events, version 4.03. Scale ranges from 1 to 5. Correlation will be performed relative to optical image colour, texture, and temperature reflected by IR imaging.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Establish the correlation between optical and IR skin imaging and skin itchiness and pain.</measure>
+    <time_frame>Week one of radiation treatment</time_frame>
+    <description>Weekly quantitative visual analog scale (VAS) measures of itchiness and/or pain Scale ranges from 0 (no itchiness or pain) to 10 (extreme itchiness or pain). Correlation will be performed relative to optical image colour, texture, and temperature reflected by IR imaging.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Establish the correlation between optical and IR skin imaging and skin itchiness and pain.</measure>
+    <time_frame>Week two of radiation treatment</time_frame>
+    <description>Weekly quantitative visual analog scale (VAS) measures of itchiness and/or pain Scale ranges from 0 (no itchiness or pain) to 10 (extreme itchiness or pain). Correlation will be performed relative to optical image colour, texture, and temperature reflected by IR imaging.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Establish the correlation between optical and IR skin imaging and skin itchiness and pain.</measure>
+    <time_frame>Week three of radiation treatment</time_frame>
+    <description>Weekly quantitative visual analog scale (VAS) measures of itchiness and/or pain Scale ranges from 0 (no itchiness or pain) to 10 (extreme itchiness or pain). Correlation will be performed relative to optical image colour, texture, and temperature reflected by IR imaging.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Establish the correlation between optical and IR skin imaging and skin itchiness and pain.</measure>
+    <time_frame>Week four of radiation treatment</time_frame>
+    <description>Weekly quantitative visual analog scale (VAS) measures of itchiness and/or pain Scale ranges from 0 (no itchiness or pain) to 10 (extreme itchiness or pain). Correlation will be performed relative to optical image colour, texture, and temperature reflected by IR imaging.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Establish the correlation between optical and IR skin imaging and skin itchiness and pain.</measure>
+    <time_frame>Week five of radiation treatment</time_frame>
+    <description>Weekly quantitative visual analog scale (VAS) measures of itchiness and/or pain Scale ranges from 0 (no itchiness or pain) to 10 (extreme itchiness or pain). Correlation will be performed relative to optical image colour, texture, and temperature reflected by IR imaging.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Establish the correlation between optical and IR skin and Quality Of Life (QOL).</measure>
+    <time_frame>Week one of radiation treatment.</time_frame>
+    <description>The European Organization for Research in Treatment of Cancer (EORTC) Quality of Life Questionnaire (QLQ)-C30 and -BR23 will be used (30 questions, scale of 1 to 4). Correlation will be performed relative to optical image colour, texture, and temperature reflected by IR imaging.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Establish the correlation between optical and IR skin and Quality Of Life (QOL).</measure>
+    <time_frame>Week five of radiation treatment.</time_frame>
+    <description>The European Organization for Research in Treatment of Cancer (EORTC) Quality of Life Questionnaire (QLQ)-C30 and -BR23 will be used (30 questions, scale of 1 to 4). Correlation will be performed relative to optical image colour, texture, and temperature reflected by IR imaging.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Establish the correlation between optical and IR skin and Quality Of Life (QOL).</measure>
+    <time_frame>Week six, follow-up after treatment.</time_frame>
+    <description>The European Organization for Research in Treatment of Cancer (EORTC) Quality of Life Questionnaire (QLQ)-C30 and -BR23 will be used (30 questions, scale of 1 to 4). Correlation will be performed relative to optical image colour, texture, and temperature reflected by IR imaging.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Establish the correlation between optical and IR skin and Quality Of Life (QOL).</measure>
+    <time_frame>Week seven, follow-up after treatment.</time_frame>
+    <description>The European Organization for Research in Treatment of Cancer (EORTC) Quality of Life Questionnaire (QLQ)-C30 and -BR23 will be used (30 questions, scale of 1 to 4). Correlation will be performed relative to optical image colour, texture, and temperature reflected by IR imaging.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Establish the correlation between optical and IR skin and Quality Of Life (QOL).</measure>
+    <time_frame>Week eight, follow-up after treatment.</time_frame>
+    <description>The European Organization for Research in Treatment of Cancer (EORTC) Quality of Life Questionnaire (QLQ)-C30 and -BR23 will be used (30 questions, scale of 1 to 4). Correlation will be performed relative to optical image colour, texture, and temperature reflected by IR imaging.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">150</enrollment>
+  <condition>Breast Cancer</condition>
+  <arm_group>
+    <arm_group_label>Receiving optical and infrared imaging</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>This is the only arm of the study. All patients will have optical and infrared images acquired of skin on the treated and contralateral sides.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Optical and infrared imaging</intervention_name>
+    <description>Acquiring images (photographs) of the skin</description>
+    <arm_group_label>Receiving optical and infrared imaging</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        - All female patients referred for adjuvant radiotherapy following breast conserving
+        surgery/mastectomy.
+
+        Exclusion Criteria:
+
+          -  Patients with known skin issues (e.g. dermatomyositis, rosacea)
+
+          -  Patients with excessive risk of skin recurrence, including T4d
+
+          -  Patients with locally advanced breast cancer.
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <gender_based>Yes</gender_based>
+    <gender_description>Study relates to female breast cancer</gender_description>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Jean-Philippe Pignol, MD, PhD</last_name>
+    <phone>902471</phone>
+    <email>Jean-Philippe.Pignol@nshealth.ca</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>James L Robar, PhD</last_name>
+    <phone>9024736017</phone>
+    <email>james.robar@nshealth.ca</email>
+  </overall_contact_backup>
+  <reference>
+    <citation>Archambeau JO, Pezner R, Wasserman T. Pathophysiology of irradiated skin and breast. Int J Radiat Oncol Biol Phys. 1995 Mar 30;31(5):1171-85. Review.</citation>
+    <PMID>7713781</PMID>
+  </reference>
+  <reference>
+    <citation>Bentzen SM, Overgaard M. Relationship between early and late normal-tissue injury after postmastectomy radiotherapy. Radiother Oncol. 1991 Mar;20(3):159-65.</citation>
+    <PMID>1852907</PMID>
+  </reference>
+  <reference>
+    <citation>Pignol JP, Vu TT, Mitera G, Bosnic S, Verkooijen HM, Truong P. Prospective evaluation of severe skin toxicity and pain during postmastectomy radiation therapy. Int J Radiat Oncol Biol Phys. 2015 Jan 1;91(1):157-64. doi: 10.1016/j.ijrobp.2014.09.022. Erratum in: Int J Radiat Oncol Biol Phys. 2015 Jul 1;92(3):702.</citation>
+    <PMID>25835623</PMID>
+  </reference>
+  <reference>
+    <citation>Pignol JP, Olivotto I, Rakovitch E, Gardner S, Sixel K, Beckham W, Vu TT, Truong P, Ackerman I, Paszat L. A multicenter randomized trial of breast intensity-modulated radiation therapy to reduce acute radiation dermatitis. J Clin Oncol. 2008 May 1;26(13):2085-92. doi: 10.1200/JCO.2007.15.2488. Epub 2008 Feb 19.</citation>
+    <PMID>18285602</PMID>
+  </reference>
+  <reference>
+    <citation>Pignol JP, Truong P, Rakovitch E, Sattler MG, Whelan TJ, Olivotto IA. Ten years results of the Canadian breast intensity modulated radiation therapy (IMRT) randomized controlled trial. Radiother Oncol. 2016 Dec;121(3):414-419. doi: 10.1016/j.radonc.2016.08.021. Epub 2016 Sep 13.</citation>
+    <PMID>27637858</PMID>
+  </reference>
+  <reference>
+    <citation>Ishiyama H, Niino K, Hosoya T, Hayakawa K. Results of a questionnaire survey for symptom of late complications caused by radiotherapy in breast conserving therapy. Breast Cancer. 2006;13(2):197-201.</citation>
+    <PMID>16755117</PMID>
+  </reference>
+  <reference>
+    <citation>Fisher B, Anderson S, Bryant J, Margolese RG, Deutsch M, Fisher ER, Jeong JH, Wolmark N. Twenty-year follow-up of a randomized trial comparing total mastectomy, lumpectomy, and lumpectomy plus irradiation for the treatment of invasive breast cancer. N Engl J Med. 2002 Oct 17;347(16):1233-41.</citation>
+    <PMID>12393820</PMID>
+  </reference>
+  <reference>
+    <citation>Formenti SC, Gidea-Addeo D, Goldberg JD, Roses DF, Guth A, Rosenstein BS, DeWyngaert KJ. Phase I-II trial of prone accelerated intensity modulated radiation therapy to the breast to optimally spare normal tissue. J Clin Oncol. 2007 Jun 1;25(16):2236-42. Epub 2007 Apr 30.</citation>
+    <PMID>17470849</PMID>
+  </reference>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>April 6, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 24, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 27, 2020</study_first_posted>
+  <last_update_submitted>April 24, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 24, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 27, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Nova Scotia Health Authority</investigator_affiliation>
+    <investigator_full_name>Jean Philippe Pignol</investigator_full_name>
+    <investigator_title>Department Head/Chief - Radiation Oncology, NSHA</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

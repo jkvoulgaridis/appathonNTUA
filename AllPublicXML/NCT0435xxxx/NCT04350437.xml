@@ -1,0 +1,261 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04350437</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IOL-ID</org_study_id>
+    <nct_id>NCT04350437</nct_id>
+  </id_info>
+  <brief_title>Induction Of Labor: Predictors of Outcomes</brief_title>
+  <acronym>IOL-ID</acronym>
+  <official_title>Outcomes of Induction of Labor: a Prospective Multi-center Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Assiut University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Aswan University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Middle East OBGYN graduate education Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Assiut University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Induction of labor is a widely used intervention in OBGYN practice. Doctors still use the old
+      Bishop score in patients' follow up. It remains difficult to anticipate the outcomes and the
+      possibility of adverse effects during this process. In this large prospective multicentric
+      interventional study, we aim to develop a more precise and sensitive score based on machine
+      learning tools programmed on python 3.8
+
+      This new tool will account for many variables in patient demography(age, race, weight ... etc
+      ) and medical history (previous OBGYN surgery, comorbidities .... etc). These variables not
+      usually found in the classic bishop score. We predict that our analysis will aid doctors in
+      making better decisions and efficiently predict the outcomes, need for switching to operative
+      delivery and possible complications.
+
+      Machine learning and digital calculation of hazards will allow more precise assessment and
+      more efficient management during IOL as it considers variables not included in clinical
+      scores.
+
+      this study aims to provide modern and efficient assessment parameters to guide clinical
+      decision making during the IOL process and help doctors predict its outcomes based on subtle
+      factors not usually considered.
+
+      This will minimize the complications and allow more evidence-based practice.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      the objective is to create a database registry documenting the induction of labor (IOL)
+      process and apply machine learning tools to create a more precise assessment score for
+      doctors as a contemporary follow-up method.
+
+      we will collect data from at least 12 centers worldwide describing the course, outcomes,
+      maternal or fetal complications, and any related data. The data will be collected after
+      ethical approval and from consenting patients in a prospective manner. during the period from
+      July 1st, 2020 to June 30th, 2021 (anticipated dates).
+
+      each center will be responsible for quality assessment, data collection, and ensuring the
+      data is accurate, complete, and representative.
+
+      Data collection includes baseline pelvic examination (cervical position, consistency,
+      dilation, effacement, fetal position, and bishop score), method of induction and their time
+      of administration in relation to index time (start of IOL), findings and time of serial
+      pelvic examinations, fetal heart tone, and maternal vital signs. The entry of data from
+      serial examinations will continue during active labor and fetal and maternal outcomes will be
+      reported. If the diagnosis of failed IOL is made and obstetric team decides delivery by
+      Cesarean section, criteria of diagnosis/indication of Cesarean delivery will be reported.
+      Length of active labor and the second stage will be documented, and maternal/perinatal
+      complications will be reported. the collectors must ensure patient confidentiality and
+      safety.
+
+      Inclusion criteria:-
+
+        -  Pregnant women admitted for IOL, aged between 18 to 40 years
+
+        -  Term or late preterm pregnancy (gestational age at 34 weeks or beyond)
+
+        -  A reassuring fetal heart tracing prior to IOL
+
+      Exclusion criteria:-
+
+        -  Fetal growth restriction with abnormal Doppler indices
+
+        -  Intrauterine fetal death
+
+        -  Suspected intra-amniotic infection prior to IOL
+
+        -  Fetal major congenital anomalies
+
+        -  Patients who decline IOL in prior or during IOL without medical indication
+
+      statistical analysis :- Data will be described using (mean, median, standard deviation,
+      range) in the final sample. Machine learning method is superior to traditional statistical
+      methods as it provides robust and automatic estimation of complex relationships between
+      different variables and clinical outcomes. Data will be utilized as xi and yi where xi
+      presents input (features) and yi presents dependent variables (outcomes). Functional
+      regression is based on support vector machine by regressing the outcomes yi on inputs xi.
+      Model Validation will be performed via bootstrap estimation to evaluate the predictive
+      ability of the functional regression models. Data will be split to training data
+      (approximately 63% of the data) to create prediction model where bootstrapping will be
+      applied, and testing data where prediction model will be validated. Machine learning models
+      will be created using python 3.8.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">July 1, 2020</start_date>
+  <completion_date type="Anticipated">July 30, 2021</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Detailed data from patients undergoing induction of labor. Analysis of the data will predict the outcomes in regards to possible complications.</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Cesarean section rate</measure>
+    <time_frame>Within 24 hours from start of induction of labor</time_frame>
+    <description>Incidence and indication of Cesarean section following induction of labor</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Suspected intraamniotic infection</measure>
+    <time_frame>From start of induction of labor to 24 hours after delivery</time_frame>
+    <description>Maternal pyrexia &gt; 39 or &gt; 38 on 2 occasions</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Postpartum hemorrhage</measure>
+    <time_frame>From start of induction of labor to 24 hours after delivery</time_frame>
+    <description>Blood loss &gt; 1000 ml after delivery</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Low neonatal APGAR Score</measure>
+    <time_frame>5 minutes after delivery</time_frame>
+    <description>APGAR score &lt; 7 at 5 minutes postpartum</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Admission to neonatal intensive care unit</measure>
+    <time_frame>Within 1 hour of delivery</time_frame>
+    <description>Admission of the newborn to intensive care unit and its indication</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">3000</enrollment>
+  <condition>Induction of Labor Affected Fetus / Newborn</condition>
+  <arm_group>
+    <arm_group_label>induction of labor monitoring</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>meticulous data collection from patients and plotting that data in a machine learning model</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>induction of labor</intervention_name>
+    <description>Giving drugs to facilitate uterine contractions and fasten the process of delivery</description>
+    <arm_group_label>induction of labor monitoring</arm_group_label>
+    <other_name>non operative vaginal delivery</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Pregnant women admitted for IOL, aged between 18 to 40 years
+
+          -  Term or late preterm pregnancy (gestational age at 34 weeks or beyond)
+
+          -  Reassuring fetal heart tracing prior to IOL
+
+        Exclusion Criteria:
+
+          -  Fetal growth restriction with abnormal Doppler indices
+
+          -  Intrauterine fetal death
+
+          -  Suspected intra-amniotic infection prior to IOL
+
+          -  Fetal major congenital anomalies
+
+          -  Patients who decline IOL in priori or during IOL without medical indication
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <gender_based>Yes</gender_based>
+    <gender_description>only pregnant women ( 36 weeks to 39 weeks of gestation)</gender_description>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>40 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sherif Shazly, M.S</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Assiut University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Sherif A shazly, M.S</last_name>
+    <phone>+15075131392</phone>
+    <email>sherif.shazly.mogge@gmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>islam A Ahmed, M.B.B.Ch</last_name>
+    <phone>01062207716</phone>
+    <phone_ext>yes</phone_ext>
+    <email>islam.ali.mogge@gmail.com</email>
+  </overall_contact_backup>
+  <link>
+    <url>https://www.mogge-obgyn.com/</url>
+    <description>official website for the NGO foundation that the principle investigator created and sponsor the research</description>
+  </link>
+  <results_reference>
+    <citation>Martin JA, Hamilton BE, Ventura SJ, Osterman MJ, Mathews TJ. Births: final data for 2011. Natl Vital Stat Rep. 2013 Jun 28;62(1):1-69, 72.</citation>
+    <PMID>24974591</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Grobman WA, Bailit J, Lai Y, Reddy UM, Wapner RJ, Varner MW, Thorp JM Jr, Leveno KJ, Caritis SN, Prasad M, Tita ATN, Saade G, Sorokin Y, Rouse DJ, Blackwell SC, Tolosa JE; Eunice Kennedy Shriver National Institute of Child Health and Human Development Maternal-Fetal Medicine Units Network. Defining failed induction of labor. Am J Obstet Gynecol. 2018 Jan;218(1):122.e1-122.e8. doi: 10.1016/j.ajog.2017.11.556. Epub 2017 Nov 11.</citation>
+    <PMID>29138035</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Teixeira C, Lunet N, Rodrigues T, Barros H. The Bishop Score as a determinant of labour induction success: a systematic review and meta-analysis. Arch Gynecol Obstet. 2012 Sep;286(3):739-53. doi: 10.1007/s00404-012-2341-3. Epub 2012 May 1. Review.</citation>
+    <PMID>22546948</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Khandelwal R, Patel P, Pitre D, Sheth T, Maitra N. Comparison of Cervical Length Measured by Transvaginal Ultrasonography and Bishop Score in Predicting Response to Labor Induction. J Obstet Gynaecol India. 2018 Feb;68(1):51-57. doi: 10.1007/s13224-017-1027-y. Epub 2017 Jun 23.</citation>
+    <PMID>29391676</PMID>
+  </results_reference>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>April 11, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 14, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 17, 2020</study_first_posted>
+  <last_update_submitted>April 14, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 14, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 17, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Assiut University</investigator_affiliation>
+    <investigator_full_name>Sherif Abdelkarim Mohammed Shazly</investigator_full_name>
+    <investigator_title>Assistant lecturer -Assiut University Hospitals - Women Health Hospital</investigator_title>
+  </responsible_party>
+  <keyword>labor induction</keyword>
+  <keyword>assessment score</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

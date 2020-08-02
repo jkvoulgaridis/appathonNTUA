@@ -1,0 +1,179 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04121988</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AsanMCHSKim_04</org_study_id>
+    <nct_id>NCT04121988</nct_id>
+  </id_info>
+  <brief_title>Diagnostic Yield of Deep Learning Based Denoising MRI in Cushing's Disease</brief_title>
+  <official_title>Prospective Observational Study of Diagnostic Yield in Cushing's Disease Using Deep Learning Based Denoising MRI</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Asan Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Asan Medical Center</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Negative MRI findings may occur in up to 40% of cases of ACTH producing microadenomas. The
+      aim of the study is to evaluate if detection of ACTH producing microadenomas can be increased
+      using deep learning based denoising MRI.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Detecting ACTH producing microadenoma in MRI is important in establishing the diagnosis of
+      Cushing disease and may enable patients to avoid additional diagnostic tests such as inferior
+      petrosal sinus sampling. However, detecting ACTH producing microadenoma in MRI remains as a
+      diagnostic challenge due its small size with its median diameter of 5-mm. Many attempts have
+      been made in order to improve the sensitivity of detecting ACTH producing microadenoma. It is
+      generally accepted as standard clinical practice to perform dynamic contrast enhanced T1
+      weighted image to delineate delayed enhancing microadenonoma in comparison to the background
+      enhancement of the normal gland. Despite these attempts, negative MRI findings may occur in
+      up to 40% of cases of ACTH producing microadenomas and there is a need to improve its
+      detection rate. Theoretically, performing thin slice thickness scans should help detecting
+      the lesion but this is unavoidably accompanied with increased level of noise. Deep learning
+      based denoising algorithm can be applied to reduce the noise level and potentially increase
+      the detection rate of ACTH producing microadenomas. The aim of the study is to evaluate if
+      detection of ACTH producing microadenomas can be increased using deep learning based
+      denoising MRI.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 10, 2020</start_date>
+  <completion_date type="Anticipated">February 2021</completion_date>
+  <primary_completion_date type="Anticipated">February 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Detection rate of ACTH producing microadenoma</measure>
+    <time_frame>2 months</time_frame>
+    <description>Proportion of positive MRI with visible microadenoma as percentage (%)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of patients undergoing additional diagnostic tests</measure>
+    <time_frame>6 months</time_frame>
+    <description>Proportion of patients undergoing additional diagnostic tests as percentage (%)</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">64</enrollment>
+  <condition>Pituitary ACTH Secreting Adenoma</condition>
+  <arm_group>
+    <arm_group_label>Denoising MRI group</arm_group_label>
+    <description>Patients suspected of Cushing disease undergoing deep learning based denoising MRI</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>MRI</intervention_name>
+    <description>1 mm slice thickness with deep learning based reconstruction algorithm applied to the following sequences:
+Coronal T2 weighted imaging
+Dynamic contrast enhanced T1 weighted imaging
+Coronal contrast enhanced T1 weighted imaging</description>
+    <arm_group_label>Denoising MRI group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients of tertiary hospital center
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients suspected of Cushing disease undergoing MRI
+
+          -  Signed informed consent
+
+        Exclusion Criteria:
+
+          -  Patients who have any type of bioimplant activated by mechanical, electronic, or
+             magnetic means (e.g., cochlear implants, pacemakers, neurostimulators, biostimulates,
+             electronic infusion pumps, etc), because such devices may be displaced or malfunction
+
+          -  Patients who are pregnant or breast feeding; urine pregnancy test will be performed on
+             women of child bearing potential
+
+          -  Poor MRI image quality due to artifacts
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Ho Sung Kim, MD PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Asan Medical Center</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Ho Sung Kim, MD PhD</last_name>
+    <phone>+82 2 3010 5682</phone>
+    <email>radhskim@gmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Minjae Kim, MD</last_name>
+    <phone>+82 2 3010 0187</phone>
+    <email>manzae.kim@gmail.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Asan Medical Center</name>
+      <address>
+        <city>Seoul</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <reference>
+    <citation>Grober Y, Grober H, Wintermark M, Jane JA, Oldfield EH. Comparison of MRI techniques for detecting microadenomas in Cushing's disease. J Neurosurg. 2018 Apr;128(4):1051-1057. doi: 10.3171/2017.3.JNS163122. Epub 2017 Apr 28.</citation>
+    <PMID>28452619</PMID>
+  </reference>
+  <reference>
+    <citation>Law M, Wang R, Liu CJ, Shiroishi MS, Carmichael JD, Mack WJ, Weiss M, Wang DJJ, Toga AW, Zada G. Value of pituitary gland MRI at 7 T in Cushing's disease and relationship to inferior petrosal sinus sampling: case report. J Neurosurg. 2018 Mar 1:1-5. doi: 10.3171/2017.9.JNS171969. [Epub ahead of print]</citation>
+    <PMID>29570013</PMID>
+  </reference>
+  <verification_date>January 2020</verification_date>
+  <study_first_submitted>October 8, 2019</study_first_submitted>
+  <study_first_submitted_qc>October 8, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 10, 2019</study_first_posted>
+  <last_update_submitted>January 13, 2020</last_update_submitted>
+  <last_update_submitted_qc>January 13, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 18, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Asan Medical Center</investigator_affiliation>
+    <investigator_full_name>Ho Sung Kim</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Adenoma</mesh_term>
+    <mesh_term>ACTH-Secreting Pituitary Adenoma</mesh_term>
+    <mesh_term>Pituitary ACTH Hypersecretion</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

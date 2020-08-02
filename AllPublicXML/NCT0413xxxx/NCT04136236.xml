@@ -1,0 +1,153 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04136236</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2019SDU-QILU-66</org_study_id>
+    <nct_id>NCT04136236</nct_id>
+  </id_info>
+  <brief_title>Automatic Diagnosis of Early Esophageal Squamous Neoplasia Using pCLE With AI</brief_title>
+  <official_title>Automatic Diagnosis of Early Esophageal Squamous Neoplasia Using Probe-based Confocal Laser Endomicroscopy With Artificial Intelligence</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shandong University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Shandong University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Detection and differentiation of esophageal squamous neoplasia (ESN) are of value in
+      improving patient outcomes. Probe-based confocal laser endomicroscopy (pCLE) can diagnose ESN
+      accurately.However this requires much experience, which limits the application of pCLE. The
+      investigators designed a computer-aided diagnosis program using deep neural network to make
+      diagnosis automatically in pCLE examination and contrast its performance with endoscopists.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">August 1, 2019</start_date>
+  <completion_date type="Anticipated">December 1, 2019</completion_date>
+  <primary_completion_date type="Anticipated">December 1, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The diagnosis efficiency of Artificial Intelligence</measure>
+    <time_frame>3 month</time_frame>
+    <description>The primary outcome is to test the diagnostic accuracy, sensitivity, specificity, PPV, NPV of the Artificial Intelligence for diagnosing esophageal mucosal disease on real-time pCLE examination.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Contrast the diagnosis efficiency of Artificial Intelligence with endoscopists</measure>
+    <time_frame>1 month</time_frame>
+    <description>The secondary outcome is to compare the diagnosis efficiency (including diagnostic accuracy, sensitivity, specificity, PPV, NPV for diagnosing esophageal mucosal disease on real-time pCLE examination) between Artificial Intelligence and endoscopists.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Esophageal Neoplasms</condition>
+  <condition>Artificial Intelligence</condition>
+  <condition>Confocal Laser Endomicroscopy</condition>
+  <arm_group>
+    <arm_group_label>esophageal mucosal lesions observed by pCLE</arm_group_label>
+    <description>pCLE is used to distinguish the suspected lesions detected by white light endoscopy.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>The diagnosis of Artificial Intelligence and endoscopist</intervention_name>
+    <description>When suspected esophageal mucosal lesion is observed using pCLE, endoscopist and AI will make a diagnosis independently. In addition, the endoscopist can not see the diagnosis of AI.</description>
+    <arm_group_label>esophageal mucosal lesions observed by pCLE</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      When suspected lesion is found using white light endoscopy , endoscopist will observe this
+      lesion using pCLE and then take biopsy for histology examination.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Consecutive patients who receive the upper gastrointestinal tract pCLE examination and
+        screened that fulfill the eligibility criteria at Qilu Hospital, Shandong University will
+        be enrolled into the study
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  aged between 18 and 80; agree to give written informed consent； suspected esophageal
+             mucosal lesion was found by white light endoscopy.
+
+        Exclusion Criteria:
+
+          -  Patients under conditions unsuitable for performing CLE including coagulopathy ,
+             impaired renal or hepatic function, pregnancy or breastfeeding, and known allergy to
+             fluorescein sodium; Inability to provide informed consent
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Yanqing Li</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Qilu Hospital, Shandong University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Yanqing Li</last_name>
+    <phone>053182169385</phone>
+    <email>liyanqing@sdu.edu.cn</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Qilu Hospital, Shandong University</name>
+      <address>
+        <city>Jinan</city>
+        <state>Shandong</state>
+        <zip>250001</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Yanqing Li, PhD,MD</last_name>
+      <phone>053182169385</phone>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>October 2019</verification_date>
+  <study_first_submitted>October 20, 2019</study_first_submitted>
+  <study_first_submitted_qc>October 20, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 23, 2019</study_first_posted>
+  <last_update_submitted>October 20, 2019</last_update_submitted>
+  <last_update_submitted_qc>October 20, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 23, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Shandong University</investigator_affiliation>
+    <investigator_full_name>Yanqing Li</investigator_full_name>
+    <investigator_title>Vice president of QiLu Hospital</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Esophageal Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

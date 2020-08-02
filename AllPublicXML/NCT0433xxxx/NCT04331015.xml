@@ -1,0 +1,191 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04331015</url>
+  </required_header>
+  <id_info>
+    <org_study_id>JessaH-5-ORL</org_study_id>
+    <nct_id>NCT04331015</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence in Diagnosis of DFNA9</brief_title>
+  <acronym>DFNA9</acronym>
+  <official_title>Positive Predictive Value of Machine Learning Tools (Audiogene v4.0) for Diagnosing DFNA9 in a Large Series of p.Pro51Ser Variant Carriers in COCH.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Jessa Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Jessa Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To study the positive predictive value of Audiogene v.4.0 open source online machine learning
+      tool in accurately predicting DFNA9 (DeaFNess autosomal dominant ninth) as top 3 gene loci in
+      a large series of genetically confirmed c.151C&gt;T,p.Pro51Ser (p.P51S) variant carriers in COCH
+      (coagulation factor C Homology).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      DFNA9 is an autosomal dominant hereditary adult-onset and progressive sensorineural hearing
+      loss which is associated wit vestibular deterioration.
+
+      Today, artificial intelligence plays an increasing role in diagnosis of Mendelian hearing
+      losses and in fitting of cochlear implants. An application of this kind is the open source
+      program, Audiogene v4.0, which was elaborated by the Center for Bioinformatics and
+      Computational Biology, University of Iowa City, Iowa, USA. The shape of the audiogram
+      (audioprofile) is easily recognizable in many autosomal dominantly inherited hearing losses.
+      Machine learning based software tools, such as Audiogene v4.0, which was originally developed
+      for prioritizing loci for the Sanger sequencing, could help the clinicians in early diagnosis
+      of DFNA9. This tool only need subjects' age and hearing thresholds (decibel hearing loss (dB
+      HL)) at frequency range of 0.125 - 8 kHz (kiloHerz), left, right or binaural average in order
+      to predict top 3 gene loci according to the data entered in the program.
+
+      Goal: to use auditory data of a large series of genetically confirmed p.P51S variant carriers
+      causing DFNA9, which were previously collected for the genotype-phenotype correlation study
+      which terminated recently.
+
+      All individual left and right sided hearing thresholds (ranging from 0.125 to 8kHz, with the
+      exception of 1.5 kHz) as well as binaural averaged thresholds were run through Audiogene
+      v4.0.
+
+      Descriptive statistics were assessed and statistical analysis was carried out to check for
+      possible differences between age or hearing thresholds between the carrier group with
+      accurate prediction against the carrier group with inaccurate prediction.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">February 1, 2020</start_date>
+  <completion_date type="Actual">March 28, 2020</completion_date>
+  <primary_completion_date type="Actual">March 28, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>hearing threshold</measure>
+    <time_frame>1 hour</time_frame>
+    <description>audiometry (pure tone) decibel hearing level (dB HL) left, right ear , binaural average</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>age</measure>
+    <time_frame>1 hour</time_frame>
+    <description>years, age at time of audiometry</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>prediction gene locus</measure>
+    <time_frame>1 hour</time_frame>
+    <description>top 3 gene loci as predicted by Audiogene v4.0 machine learning tool</description>
+  </primary_outcome>
+  <enrollment type="Actual">111</enrollment>
+  <condition>DFNA9</condition>
+  <condition>Sensorineural Hearing Loss</condition>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Pure tone audiometry</intervention_name>
+    <description>pure tone audiometry</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        A large cohort of 111 genetically confirmed p.P51S variant carriers, of whom audiometric
+        data was collected from
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  at least 18 years
+
+          -  genetically confirmed c.151 C&gt;T, p.Pro51Ser variant carrier in COCH gene
+
+          -  not contra-indication for audiometric testing
+
+        Exclusion Criteria:
+
+          -  &lt;18 years
+
+          -  no carrier status for c.151C&gt;T, p.Pro51Ser
+
+          -  no auditory data available
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Vincent Van Rompaey, MD,PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>University Hospital, Antwerp</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Jessa Hospital</name>
+      <address>
+        <city>Hasselt</city>
+        <state>Limburg</state>
+        <zip>3500</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Antwerp</name>
+      <address>
+        <city>Antwerpen</city>
+        <zip>2650</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+  </location_countries>
+  <link>
+    <url>http://audiogene.eng.uiowa.edu/</url>
+    <description>audiogene v4.0</description>
+  </link>
+  <results_reference>
+    <citation>Taylor KR, Deluca AP, Shearer AE, Hildebrand MS, Black-Ziegelbein EA, Anand VN, Sloan CM, Eppsteiner RW, Scheetz TE, Huygen PL, Smith RJ, Braun TA, Casavant TL. AudioGene: predicting hearing loss genotypes from phenotypes to guide genetic screening. Hum Mutat. 2013 Apr;34(4):539-45. doi: 10.1002/humu.22268. Epub 2013 Feb 19.</citation>
+    <PMID>23280582</PMID>
+  </results_reference>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>March 31, 2020</study_first_submitted>
+  <study_first_submitted_qc>March 31, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 2, 2020</study_first_posted>
+  <last_update_submitted>April 2, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 2, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 3, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>COCH</keyword>
+  <keyword>DFNA9</keyword>
+  <keyword>sensorineural hearing loss</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hearing Loss</mesh_term>
+    <mesh_term>Deafness</mesh_term>
+    <mesh_term>Hearing Loss, Sensorineural</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

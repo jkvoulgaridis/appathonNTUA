@@ -1,0 +1,325 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03859401</url>
+  </required_header>
+  <id_info>
+    <org_study_id>180039</org_study_id>
+    <nct_id>NCT03859401</nct_id>
+  </id_info>
+  <brief_title>Exercise-Induced Hypoglycemia Prevention in Adults With Type 1 Diabetes Using an Artificial Pancreas</brief_title>
+  <official_title>Hypoglycemia Prevention During and After Moderate Exercise in Adults With Type 1 Diabetes Using an Artificial Pancreas With Exercise Behavior Recognition</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Marc Breton</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Virginia</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a randomized crossover trial with 1:1 randomization to the admission sequence of
+      using the Control AP system (rMPC - Naïve Model Predictive Control) vs. Experimental AP
+      system (EnMPC - Ensemble Model Predictive Control) over approximately 4 months. Eligible
+      participants will proceed to the Data Collection Phase for approximately 28 days, during
+      which they will participate in regimented exercise activities. If the participant collected
+      adequate data during the Data Collection Phase, they will be randomized and undergo the study
+      admissions in the assigned sequence. Each admission is approximately 36 hours in length and
+      will consist of one afternoon of exercise and one without.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Exercise remains a challenge to AP systems; more specifically, by the time exercise is
+      detected it is often too late to avoid hypoglycemia without the ingestion of rapid
+      carbohydrates or the use of rescue injections, such as glucagon. To this avail, the
+      investigators propose to add a novel Model Predictive Control module to the proven USS
+      system. This module is designed to compute insulin doses every 5 minutes that are designed to
+      &quot;optimally&quot; maintain glycaemia around a target of 120mg/dL. The optimality is defined
+      mathematically as minimizing deviations from basal rate injections and the distance between
+      current and future (up to 2h) glycaemia from a physiologically feasible trajectory back down
+      (or up) to a pre-specified target. Furthermore, the novel control system, labelled Multi
+      Stage MPC or Ensemble MPC, accounts for a preset number of exercise scenarios during the
+      prediction horizon, these scenarios being derived from the user historical record; this setup
+      allows the control system to anticipate expected exercise bouts up to 2h in advance while
+      maintaining the condition for optimal glycemic control.
+
+      By adding such module to a well validated system, the investigators expect an improvement in
+      protection against hypoglycemia during and immediately after physical activity without
+      increase in hyperglycemia. To demonstrate the feasibility of this approach, the novel
+      anticipatory system will be compared to a naïve AP system during highly supervised hotel
+      admissions with afternoon exercise. Participants will be asked to exercise regularly in the
+      late afternoon during a month of data collection to generate the patterns to be anticipated.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">April 12, 2019</start_date>
+  <completion_date type="Actual">January 13, 2020</completion_date>
+  <primary_completion_date type="Actual">January 13, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of hypoglycemic occurrences in relation to exercise activity</measure>
+    <time_frame>2 Hours</time_frame>
+    <description>Number of hypoglycemic occurrences immediately before, during, and immediately after exercise (~5-7pm) as defined by more than one consecutive CGM values below 70 mg/dL or hypoglycemic treatment per glycemic guidelines.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percent CGM below 50 mg/dL</measure>
+    <time_frame>36 Hours</time_frame>
+    <description>Percent CGM below 50 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent CGM below 54 mg/dL</measure>
+    <time_frame>36 Hours</time_frame>
+    <description>Percent CGM below 54 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent CGM below 60 mg/dL</measure>
+    <time_frame>36 Hours</time_frame>
+    <description>Percent CGM below 60 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent CGM below 70 mg/dL</measure>
+    <time_frame>36 Hours</time_frame>
+    <description>Percent CGM below 70 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent CGM between 70 and 180 mg/dL</measure>
+    <time_frame>36 Hours</time_frame>
+    <description>Percent CGM between 70 and 180 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent CGM above 180 mg/dL</measure>
+    <time_frame>36 Hours</time_frame>
+    <description>Percent CGM above 180 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent CGM above 250 mg/dL</measure>
+    <time_frame>36 Hours</time_frame>
+    <description>Percent CGM above 250 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent CGM above 300 mg/dL</measure>
+    <time_frame>36 Hours</time_frame>
+    <description>Percent CGM above 300 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Average CGM</measure>
+    <time_frame>36 Hours</time_frame>
+    <description>Average CGM</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM Coefficient of Variation</measure>
+    <time_frame>36 Hours</time_frame>
+    <description>Coefficient of Variation of the CGM Values</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM-based Low Blood Glucose Index</measure>
+    <time_frame>36 Hours</time_frame>
+    <description>CGM-based Low Blood Glucose Index</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM-based High Blood Glucose Index</measure>
+    <time_frame>36 Hours</time_frame>
+    <description>CGM-based High Blood Glucose Index</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Total Amount of Insulin Used</measure>
+    <time_frame>36 Hours</time_frame>
+    <description>Total Amount of Insulin Used</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Number of Hypoglycemic Episodes</measure>
+    <time_frame>36 Hours</time_frame>
+    <description>Number of Hypoglycemic Episodes as defined by contiguous CGM below 70 mg/dL</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Number of Rescue Carbohydrates Administrations</measure>
+    <time_frame>36 Hours</time_frame>
+    <description>Number of Rescue Carbohydrates Administrations</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Total Amount of Rescue Carbohydrates</measure>
+    <time_frame>36 Hours</time_frame>
+    <description>Total Amount of Rescue Carbohydrates</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">18</enrollment>
+  <condition>Type 1 Diabetes Mellitus</condition>
+  <condition>Hypoglycemia</condition>
+  <arm_group>
+    <arm_group_label>Control - Experimental Admissions</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects will be randomized following the Data Collection Phase in a 1:1 ratio. Subjects in the Control-Experimental Arm will undergo the Control Admission first, utilizing an artificial pancreas (AP) controller that does not anticipate exercise (rMPC - naïve model predictive control), followed by the Experimental Admission, which will utilize an AP controller that has the ability to anticipate exercise (EnMPC - ensemble model predictive control). During the 36-hour admissions, subjects will begin using the study AP system (control or experimental) on Day 1 around midday with a scheduled exercise activity in the evening. Day 2 will consist of minimal activity and subjects will be discharged in the evening on Day 2.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Experimental - Control Admissions</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects will be randomized following the Data Collection Phase in a 1:1 ratio. Subjects in the Experimental-Control Arm will undergo the Experimental Admission first, utilizing an artificial pancreas (AP) controller that has the ability to anticipate exercise (EnMPC), followed by the Control Admission, which will utilize an AP controller that does not have the ability to anticipate exercise (rMPC). During the 36-hour admissions, subjects will begin using the study AP system (control or experimental) on Day 1 around midday with a scheduled exercise activity in the evening. Day 2 will consist of minimal activity and subjects will be discharged in the evening on Day 2.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>EnMPC (Ensemble Model Predictive Control) AP Controller</intervention_name>
+    <description>This AP controller has the ability to anticipate exercise activity by use of trends seen during the Data Collection Period.</description>
+    <arm_group_label>Control - Experimental Admissions</arm_group_label>
+    <arm_group_label>Experimental - Control Admissions</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>rMPC (Naïve Model Predictive Control) AP Controller</intervention_name>
+    <description>This AP controller does not have the ability to anticipate exercise activity.</description>
+    <arm_group_label>Control - Experimental Admissions</arm_group_label>
+    <arm_group_label>Experimental - Control Admissions</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age ≥18 and ≤65 years
+
+          -  Clinical diagnosis of Type 1 Diabetes for at least one year
+
+          -  Currently using an insulin pump for at least 6 months
+
+          -  Uses insulin parameters such as carbohydrate ratio and correction factors consistently
+             on their insulin pump in order to dose insulin for meals or corrections
+
+          -  Access to internet and willingness to upload data during the study
+
+          -  Willingness to be physically active for at least 30 minutes per day at least 4 times
+             per week
+
+          -  Willingness to perform the required exercise regimen during Data Collection Period
+
+          -  Willingness to not perform regular exercise outside of the study-regimented exercise
+             window
+
+          -  For females, not currently pregnant or breastfeeding. If a female is of child-bearing
+             potential and sexually active, she must agree to use a form of contraception to
+             prevent pregnancy while participating in the study.
+
+          -  An understanding and willingness to follow the protocol and sign informed consent.
+
+        Exclusion Criteria:
+
+          -  History of diabetic ketoacidosis (DKA) in the 12 months prior to enrollment.
+
+          -  Severe hypoglycemia resulting in seizure or loss of consciousness in the 12 months
+             prior to enrollment.
+
+          -  Pregnancy or intent to become pregnant during the trial.
+
+          -  Currently being treated for a seizure disorder
+
+          -  Coronary artery disease or heart failure, unless written clearance is received from a
+             cardiologist or primary care provider and documentation of a negative stress test
+             within the year
+
+          -  History of cardiac arrhythmia (except for benign premature atrial contractions and
+             benign premature ventricular contractions which are permitted)
+
+          -  Clinically significant electrocardiogram (ECG) at time of Screening, as interpreted by
+             the study medical physician.
+
+          -  Use of non-insulin glucose-lowering agent (including GLP-1 agonists, pramlintide,
+             DPP-4 inhibitors, SGLT-2 inhibitors, biguanides, sulfonylureas and naturaceuticals)
+             with the exception of participants who have been on a stable dose of Metformin for at
+             least 3 months.
+
+          -  A known medical condition that in the judgment of the investigator might interfere
+             with the completion of the protocol such as the following examples:
+
+          -  Inpatient psychiatric treatment in the past 6 months
+
+          -  Presence of a known adrenal disorder
+
+          -  Abnormal liver function test results (Transaminase &gt;2 times the upper limit of
+             normal); testing required for subjects taking medications known to affect liver
+             function or with diseases known to affect liver function
+
+          -  Uncontrolled thyroid disease
+
+          -  Use of an automated insulin delivery mechanism that is not FDA approved during the
+             data collection phase
+
+          -  Use of an automated insulin delivery mechanism that is not downloadable by the subject
+             or study team
+
+          -  Inability to be physically active for at least 30 minutes per day for at least 4 times
+             per week
+
+          -  Current enrollment in another clinical trial, unless approved by the investigators of
+             both studies or if clinical trial is a non-interventional registry trial.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Marc Breton, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Virginia</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Virginia</name>
+      <address>
+        <city>Charlottesville</city>
+        <state>Virginia</state>
+        <zip>22908</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2020</verification_date>
+  <study_first_submitted>February 27, 2019</study_first_submitted>
+  <study_first_submitted_qc>February 27, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 1, 2019</study_first_posted>
+  <last_update_submitted>January 15, 2020</last_update_submitted>
+  <last_update_submitted_qc>January 15, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 18, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>University of Virginia</investigator_affiliation>
+    <investigator_full_name>Marc Breton</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <keyword>Artificial Pancreas</keyword>
+  <keyword>Continuous Glucose Monitor</keyword>
+  <keyword>Exercise</keyword>
+  <keyword>Exercise-Induced Hypoglycemia</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+    <mesh_term>Hypoglycemia</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>There are no current plans to share IPD for this study at this time.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

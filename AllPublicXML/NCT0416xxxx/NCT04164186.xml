@@ -1,0 +1,200 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04164186</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ALSP</org_study_id>
+    <nct_id>NCT04164186</nct_id>
+  </id_info>
+  <brief_title>Fully Automated Pipeline for the Detection and Segmentation of Non-Small Cell Lung Cancer (NSCLC) on CT Images</brief_title>
+  <official_title>Fully Automated Pipeline for the Detection and Segmentation of Non-Small Cell Lung Cancer (NSCLC) on CT Images: Quantitative and Qualitative Evaluation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Maastricht University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Hospital Center Universitaire De Liege, Liege, Belgium.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University Hospital RWTH Aachen University, Aachen, Germany.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Affiliated Zhongshan Hospital of Dalian University, 6 Jiefang street, Dalian 116001, China</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of California San Francisco, San Francisco, California, CA.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Maastricht University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Accurate segmentation of lung tumor is essential for treatment planning, as well as for
+      monitoring response to therapy. It is well-known that segmentation of the lung tumour by
+      different radiologists gives different results (inter-observer variance). Moreover, if the
+      same radiologist is asked to repeat the segmentation after several weeks, these two
+      segmentations are not identical (intra-observer variance). In this study we aim to develop an
+      automated pipeline that can produce swift, accurate and reproducible lung tumor
+      segmentations.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In this study, we aim to develop and test an automated deep learning detection and
+      segmentation software for non-small cell lung cancer (NSCLC) that can automatically detect
+      and segment tumors on CT scans and thus reduce the human variation. We will assess the level
+      of agreement between a group of radiologists, performing manual versus semi-automatic tumour
+      segmentation. To do so, we will provide radiologists with two sets of CT scans. The first set
+      will be segmented manually; the second one will be segmented using the automated software
+      program.
+
+      Subsequently, we will use the inter- and intra-observer variance from the clinical study in a
+      simulation or modeling study. We also compare the time needed and the consistency in
+      segmentations by the software to medical doctors performance.
+
+      Reliability and Agreement study:
+
+      Primary tumours of 25 lung cancer patients will be delineated by 6 segmentation experts.
+
+        1. Assess agreement between automatic segmentation and radiologists' segmentation The
+           primary tumours of 25 patients will be manually segmented by the radiologists and
+           automatically by the the tool. The time needed to perform this task and the
+           reproducibility of the segmentation will be recorded. The degree of overlap between the
+           ROs and the automatic contour will be assessed pairwise using the Dice coefficient.
+
+        2. Delination of tumours by the experts, assisted by the software tool For another 25
+           patients, the experts will be provided with an automatic delineation, performed by the
+           tool. They have the possibility to adjust and validate it. The time needed will be
+           recorded. The difference between the mean overlap fraction in the first situation
+           (manual delineation of experts) and the second situation (delineation of experts+
+           software tool) will be assessed, using a multi-observer Dice coefficient.
+
+        3. Assessment of intra-observer variance The experts will repeat the segmentation of the
+           lung tumours after 2 weeks. They will repeat the manual segmentation (n=25) and the
+           semi-automatic segmentation (n=25). This will make it possible to assess the
+           intra-observer variance in both situations.
+
+        4. Qualitative assessment of the experts' preferences using an in-house developed
+           visualization toolbox.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">March 10, 2019</start_date>
+  <completion_date type="Anticipated">October 31, 2020</completion_date>
+  <primary_completion_date type="Actual">November 7, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Detection of NSCLC on CT scans</measure>
+    <time_frame>November, 2019</time_frame>
+    <description>Automatic detection of NSCLC tumors</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Segmentation of NSCLC scans</measure>
+    <time_frame>November, 2019</time_frame>
+    <description>Automatic segmentation of NSCLC tumors</description>
+  </primary_outcome>
+  <enrollment type="Actual">1043</enrollment>
+  <condition>Detection</condition>
+  <condition>Segmentation</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Automatic detection and segmentation of NSCLC tumors</intervention_name>
+    <description>an automated deep learning detection and segmentation software for non-small cell lung cancer (NSCLC) that can automatically detect and segment tumors on CT scans and thus reduce the human variation.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        CT scans of 1043 patients diagnosed with NSCLC at one of the 8 centers (Netherlands, USA,
+        China, Belgium) were collected retrospectively. All patients had a biopsy to confirm the
+        diagnosis
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Availability of CT scans
+
+          -  Availability of definite diagnosis
+
+        Exclusion Criteria:
+
+          -  Lack of segmentations
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Maastricht University</name>
+      <address>
+        <city>Maastricht</city>
+        <state>Limburg</state>
+        <zip>6229ER</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Netherlands</country>
+  </location_countries>
+  <verification_date>November 2019</verification_date>
+  <study_first_submitted>November 12, 2019</study_first_submitted>
+  <study_first_submitted_qc>November 12, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 15, 2019</study_first_posted>
+  <last_update_submitted>April 3, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 3, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 6, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma, Non-Small-Cell Lung</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Currently, there is no plan to make it public</ipd_description>
+  </patient_data>
+  <study_docs>
+    <study_doc>
+      <doc_id>NSCLC Radiomics Interobserver</doc_id>
+      <doc_type>Individual Participant Data Set</doc_type>
+      <doc_url>https://wiki.cancerimagingarchive.net/display/Public/NSCLC-Radiomics-Interobserver1</doc_url>
+    </study_doc>
+    <study_doc>
+      <doc_id>NSCLC Radiomics</doc_id>
+      <doc_type>Individual Participant Data Set</doc_type>
+      <doc_url>https://wiki.cancerimagingarchive.net/display/Public/NSCLC-Radiomics</doc_url>
+    </study_doc>
+    <study_doc>
+      <doc_id>NSCLC Radiogenomics</doc_id>
+      <doc_type>Individual Participant Data Set</doc_type>
+      <doc_url>https://wiki.cancerimagingarchive.net/display/Public/NSCLC+Radiogenomics</doc_url>
+    </study_doc>
+  </study_docs>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

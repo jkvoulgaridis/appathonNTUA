@@ -1,0 +1,397 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03773939</url>
+  </required_header>
+  <id_info>
+    <org_study_id>201800246 - 2</org_study_id>
+    <nct_id>NCT03773939</nct_id>
+  </id_info>
+  <brief_title>Risk Prediction of Venous Thromboembolism in Critically Ill</brief_title>
+  <official_title>Venous Thromboembolism Risk in Critically Ill Patients: Development and Validation of a Risk Prediction Model</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Medical Center Groningen</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University Medical Center Groningen</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Introduction: Venous thromboembolism (VTE), including both deep vein thrombosis and pulmonary
+      embolism, is a frequent cause of morbidity and mortality. The population of critically ill
+      patients is a heterogeneous group of patients with an overall high average risk of developing
+      VTE. No prognostic model has been developed for estimation of this risk specifically in
+      critically ill patients. The aim is to construct and validate a risk assessment model for
+      predicting the risk of in-hospital VTE in critically ill patients.
+
+      Methods: In the first phase of the study we will create a prognostic model based on a
+      derivation cohort of critically ill patients who were acutely admitted to the intensive care
+      unit. A point-based clinical prediction model will be created using backward stepwise
+      regression analysis from a selection of predefined candidate predictors. Model performance,
+      discrimination and calibration will be evaluated, and the model will be internally validated
+      by bootstrapping. In the second phase of the study, external validation will be performed in
+      an independent cohort, and additionally model performance will be compared with performance
+      of existing VTE risk prediction models derived from, and applied to, general medical
+      patients.
+
+      Dissemination: This protocol will be published online. The results will be reported according
+      to the Transparent Reporting of multivariate prediction models for Individual Prognosis Or
+      Diagnosis (TRIPOD) statement, and submitted to a peer-reviewed journal for publication.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      OVERALL STUDY OBJECTIVES
+
+        1. To develop and internally validate a risk assessment model for predicting the risk of
+           in-hospital VTE in critically ill patients (phase 1)
+
+        2. To externally validate this new model (phase 2)
+
+        3. To compare the performance of this model to other VTE prediction models originally
+           developed in the general medical patient population (phase 2)
+
+      PHASE 1: DERIVATION AND INTERNAL VALIDATION
+
+      The development and validation of a risk assessment model includes three consecutive phases
+      of derivation, external validation and impact analysis.
+
+      In this first phase (i.e., the derivation and internal validation phase) the investigators
+      will construct a multivariable prediction model for estimating VTE risk, and convert this
+      model into a risk assessment score. The intention is to construct a simple score which can be
+      used at the bedside. Subsequently, the score will be internally validated. The investigators
+      will report their findings according to the Transparent reporting of a multivariable
+      prediction model for individual prognosis or diagnosis (TRIPOD) statement.
+
+      Study design:
+
+      Prospective cohort study based on the 'Simple Intensive Care Studies' (SICS) registry. Data
+      collection and analysis of this registry is prospective. The majority of variables used for
+      the current study are collected prospectively; some variables will be added retrospectively
+      (described in more detail below). This protocol has been finalized before the data collection
+      was completed. All analyses will be conducted according to, and after publishing of, this
+      protocol.
+
+      Study setting:
+
+      Department of critical care of the University Medical Centre Groningen.
+
+      Study participants:
+
+      All acutely admitted critically ill patients who fulfill the eligibility/inclusion criteria
+      for the SICS registry will be included provided no exclusion criteria exist. Please refer to
+      the 'Eligibility' section below for detailed information.
+
+      Outcomes:
+
+      Please refer to the 'Outcome measures' section below for detailed information.
+
+      Candidate predictors:
+
+      Candidate predictors have been selected based on the following criteria:
+
+        1. established or suggested association with VTE (based on literature)
+
+        2. or incorporation in another VTE risk assessment model;
+
+        3. and readily available and easy to obtain in daily clinical practice.
+
+      The investigators will explore the following candidate predictors: active cancer, acute
+      infection, acute renal failure, cardiovascular failure, central venous access, elderly age,
+      estrogen therapy, sex, major surgery, mechanical ventilation, multiple trauma, obesity,
+      previous VTE, reduced mobility, respiratory failure, stroke, thrombophilic disorder, and
+      vasopressor use. A complete list of all candidate predictors including their definitions and
+      units of measurement, is displayed in table 2*.
+
+      Two variables will be evaluated for their prognostic ability, but will not be included in the
+      final model. The first variable is cardiovascular failure, defined as low cardiac output
+      measured by transthoracic echocardiography (Table 2*), which is likely to be associated with
+      risk of VTE, but may not be available in all hospitals within 24 hours. The investigators
+      will assess its predictive abilities in a sensitivity analysis since critical care
+      ultrasonography is increasingly used in critical care and likely to be available in all
+      patients in the near future. The second variable is immobilization: in practice, all acutely
+      admitted critically ill patients are immobilized and so this variable will not contribute any
+      information to the model.
+
+      Data collection methods:
+
+      The SICS registry consists of two cohorts: SICS-I and SICS-II. All data are prospectively
+      collected within SICS-II but some have not been registered within SICS-I, including
+      antiplatelet and anticoagulant medication, VTE outcome data, active cancer, estrogen use,
+      major surgery, multiple trauma, previous VTE, and thrombophilic disorder. These variables
+      will be retrospectively registered for the patients included in the SICS-I cohort (Table 1*
+      and 2*).
+
+      Data management:
+
+      Data will be recorded using electronic case report forms (eCRF) in OpenClinica and
+      transferred for analysis. After transfer from OpenClinica, data will be managed in a database
+      created using STATA version 14.0 or newer (StataCorp, College Station, TX). All data will be
+      handled in compliance with national and institutional data regulatory laws.
+
+      Statistical analysis:
+
+      Patient characteristics will be presented as means (with standard deviations; SD) or medians
+      (with interquartile ranges; IQR) depending on distributions. Categorical data will be
+      presented as proportions. Normality of the data will be assessed using P-P plots and
+      histograms. Linearity will be assessed using scatter plots. Differences between continuous
+      variables will be assessed using Student's t-tests or Mann-Whitney-U test where appropriate.
+      All analyses will be tested two-sided with statistical significance defined as a two-sided
+      p-value of &lt;0.05. Statistical analysis will performed using STATA version 14.0 or newer
+      (StataCorp, College Station, TX).
+
+      The investigators will construct the model using the following steps:
+
+        1. Candidate predictor selection criteria were described above. Definitions are displayed
+           in table 2*.
+
+        2. Missing variables (&lt;25%) will be imputed using multiple imputations. Missing variables
+           (&gt;25%) will be excluded. Multiple imputations for missing outcome data will not be
+           performed and patients with missing VTE data will be excluded from all analyses.
+
+        3. The investigators will construct a binary logistic regression model using in-hospital
+           VTE as dependent outcome and the candidate predictors as independent variables.
+           Continuous variables will not be converted to categorical variables. Regression analysis
+           will be conducted using a backward stepwise elimination model. The aim is to include as
+           few variables as reasonably possible to increase simplicity and enhance clinical
+           applicability. The investigators will therefore not use a prespecified significance
+           threshold for elimination. Results will be presented as adjusted Odds ratios (OR) with
+           95% confidence intervals (CI) and regression coefficients (β-values).
+
+        4. The logistic model will be converted to a clinically usable risk assessment model using
+           methods previously described in the Framingham Heart Study.
+
+        5. Several tests for evaluation of model performance will be used. Overall predictive
+           performance will be tested using Nagelkerke's R2. Discrimination, which is the ability
+           to distinguish patients with and without VTE, will be quantified using the concordance
+           (C), and is identical to the area under the curve in a receiver operating characteristic
+           curve. Calibration, which is the agreement between predicted and observed frequency,
+           will be tested by a calibration plot, by modeling a regression line with intercept (α)
+           and slope (β), and by using the Hosmer and Lemeshow goodness of fit test.
+
+        6. Internal validation (or reproducibility) will be performed using bootstrapping.
+
+      External validation is described in more detail below (phase 2).
+
+      Sample size:
+
+      Calculation of the total sample size required for developing a prediction model is difficult
+      as this depends heavily on the effective sample size (i.e. total numbers of VTE events). As a
+      rule of thumb there should be a minimum of ten outcome events for each screened candidate
+      predictor included in the multivariable logistic regression model to prevent over-fitting of
+      the model. Assuming a baseline risk of symptomatic VTE of 5% in the study sample implicates
+      that the investigators need to include 3.400 patients to register 170 events for evaluation
+      of seventeen candidate predictor variables.
+
+      Ethics:
+
+      The local institutional review board (Medisch Ethische Toetsingscommissie (METc) of the UMCG
+      has previously approved the SICS main study (M15.168207 and M18.228393), as well as
+      sub-studies (METc M11.104639 and M16.193856).
+
+      PHASE 2: EXTERNAL VALIDATION
+
+      Phase two, the external validation of the newly constructed risk assessment model, will be
+      conducted in an independent sample of critically ill patients in other hospitals. For this
+      purpose, the investigators will create a multicenter cohort based on prospectively collected
+      data derived from the Dutch National Intensive Care Evaluation (NICE) registry.
+
+      Study design:
+
+      Multicenter cohort study based on prospectively collected data within the National Intensive
+      Care Evaluation registry (from now on referred to as: NICE cohort).
+
+      Study setting:
+
+      Two Intensive Care Units (ICUs) in hospitals in the Northern part of the Netherlands.
+
+      Study participants:
+
+      All acutely admitted critically ill patients who fulfill the eligibility criteria and none of
+      the exclusion criteria will be included. Because of the retrospective design of this cohort,
+      eligibility criteria depart minimally from the criteria the investigators applied to the
+      derivation cohort as these data were derived from a prospective study. Please refer to the
+      'Eligibility' section below for detailed information.
+
+      Outcome and candidate predictors:
+
+      Outcomes in the external validation cohort are defined identical as in the derivation cohort
+      (Table 1*). Candidate predictor definitions are provided in table 2.
+
+      Data collection methods:
+
+      The investigators will request data from the Netherlands National Intensive Care Evaluation
+      (NICE) registry. The NICE registry has been developed for quality improvement, for comparing
+      outcomes between different ICUs, and for research purposes. Its dataset contains 96 items for
+      each patient admitted to one of the participating ICUs. Data collection occurs either
+      manually or automatically. Quality of data in this registry has previously been assessed as
+      'good'. Data on all but five candidate predictors (active cancer, central venous access,
+      exogenous estrogen, previous venous thromboembolism, thrombophilic disorder) are routinely
+      collected in this registry. VTE outcome data, use of prophylactic or therapeutic
+      anticoagulation, and the five remaining candidate predictor variables will be collected
+      retrospectively from patient files in the participating hospitals (Table 1* and 2*). In each
+      participating ICU inclusion will start with the most recently admitted patient for whom
+      complete outcome data (i.e. one 'complete hospital stay' with or without VTE) are available.
+      The investigators will then sequentially include all eligible patients, going back in time
+      until a total sample of 1.000 patients per ICU has been reached.
+
+      Data management:
+
+      Data will be recorded using eCRFs in OpenClinica and transferred for analysis. After transfer
+      from OpenClinica, all data will be managed in a database created using STATA version 14.0 or
+      newer (StataCorp, College Station, TX). All data will be handled in compliance with national
+      and institutional data regulatory laws.
+
+      Statistical analysis:
+
+      Descriptive statistics will be conducted following the same methods as described in 'phase 1'
+      of this protocol. For external validation, the investigators will test overall model
+      predictive performance, calibration and discrimination and compare this to the derivation
+      sample. Overall predictive performance will be tested using Nagelkerke's R2. Discrimination,
+      which is the ability to distinguish patients with and without VTE, will be quantified using
+      the concordance (C), and is identical to the area under the curve in a receiver operating
+      characteristic curve. Calibration, which is the agreement between predicted and observed
+      frequency, will be tested by a calibration plot, by modeling a regression line with intercept
+      (α) and slope (β), and by using the Hosmer and Lemeshow goodness of fit test.
+
+      The investigators will compare performance of the newly developed model to two existing VTE
+      risk assessment models (IMPROVE VTE and Padua prediction score) originally developed in
+      acutely ill medical patients using the same measures of overall predictive performance,
+      discrimination, and calibration as described above.
+
+      Sample size:
+
+      For assessing model performance in an external validation sample at least 100 events and 100
+      non-events are required as a rule of thumb. The investigators therefore expect a total sample
+      size of 2.000 patients (assuming a baseline VTE risk of 5%) or more is required. The
+      investigators intend to include 1.000 patients in each participating ICU.
+
+      Ethics:
+
+      Due to the observational nature of the investigations, the WMO is not applicable and formal
+      ethical review is not required. A waiver for informed consent for collecton of data will be
+      requested from the local institutional review board (Medisch Ethische Toetsingscommissie;
+      METc) of the participating hospitals.
+
+      PHASE 3: IMPLEMENTATION AND IMPACT ANALYSIS
+
+      The third and last phase comprises implementation of the model and impact analysis. The
+      investigators have not yet planned an impact analysis in this very early phase.
+
+      *Tables 1 and 2 are available upon request, please refer to the primary investigator.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 27, 2015</start_date>
+  <completion_date type="Anticipated">October 1, 2021</completion_date>
+  <primary_completion_date type="Anticipated">May 1, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>In-hospital VTE</measure>
+    <time_frame>Initial hospital admission</time_frame>
+    <description>VTE will be defined as any objectively proven event occurring during initial hospital admission. No screening protocol will be used. DVT will include acute thrombosis of lower-extremity veins (iliac, femoral or popliteal), confirmed by compression ultrasonography, venography, CT, MRI, or autopsy. Pulmonary embolism will be defined as acute thrombosis within the pulmonary vasculature as shown by ventilation-perfusion scan, CT angiography, or autopsy. Upper extremity DVT or venous thrombosis in another site will be excluded from the model but included in a sensitivity analysis. All VTE events will be adjudicated by the study coordinator before the development of the prediction model.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">5400</enrollment>
+  <condition>Venous Thrombosis</condition>
+  <condition>Critical Illness</condition>
+  <arm_group>
+    <arm_group_label>Derivation cohort</arm_group_label>
+    <description>Prospective cohort study based on the 'Simple Intensive Care Studies' (SICS) registry (NCT02912624, NCT03577405, and NCT03553069)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>External validation cohort</arm_group_label>
+    <description>We will create a multicenter cohort based on prospectively collected data derived from the Dutch National Intensive Care Evaluation (NICE) registry</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Critically ill patients
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Emergency admission
+
+          2. Expected stay &gt; 24 hours
+
+        Exclusion Criteria:
+
+          1. Age &lt; 18 years
+
+          2. Planned admission either after surgery or for other reasons
+
+          3. Unable to provide informed consent
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>I.C.C. van der Horst, Associate professor</last_name>
+    <email>i.c.c.van.der.horst@umcg.nl</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>University Medical Center Groningen</name>
+      <address>
+        <city>Groningen</city>
+        <zip>9713GZ</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>I.C.C. van der Horst, Associate professor</last_name>
+      <email>i.c.c.van.der.horst@umcg.nl</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Netherlands</country>
+  </location_countries>
+  <verification_date>December 2018</verification_date>
+  <study_first_submitted>December 11, 2018</study_first_submitted>
+  <study_first_submitted_qc>December 11, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 12, 2018</study_first_posted>
+  <last_update_submitted>January 12, 2019</last_update_submitted>
+  <last_update_submitted_qc>January 12, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 15, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University Medical Center Groningen</investigator_affiliation>
+    <investigator_full_name>I.C.C. van der Horst</investigator_full_name>
+    <investigator_title>Associate professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Thrombosis</mesh_term>
+    <mesh_term>Thromboembolism</mesh_term>
+    <mesh_term>Venous Thromboembolism</mesh_term>
+    <mesh_term>Venous Thrombosis</mesh_term>
+    <mesh_term>Critical Illness</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

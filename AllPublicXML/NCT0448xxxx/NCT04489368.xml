@@ -1,0 +1,201 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04489368</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RGCIRC/IRB/80/2020</org_study_id>
+    <nct_id>NCT04489368</nct_id>
+  </id_info>
+  <brief_title>Response Prediction to Neoadjuvant Chemoradiation in Esophageal Cancer Using Artificial Intelligence &amp; Machine Learning</brief_title>
+  <acronym>QARC</acronym>
+  <official_title>Pathological Response Prediction to Neo-adjuvant Chemoradiotherapy in Esophageal Carcinoma and Comparison of Engineered Features Versus Deep Learning Models</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Dr Kundan Singh Chufal</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Rajiv Gandhi Cancer Institute &amp; Research Center, India</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In esophageal carcinoma, neoadjuvant concurrent chemo-radiotherapy (NA-CCRT) followed by
+      surgery is the current standard of care and ample evidence has accumulated supporting the
+      view that complete pathological response (pCR) is a positive prognostic marker for improved
+      outcomes. Predicting the probability of achieving pCR prior to neoadjuvant treatment could
+      permit modification of treatment protocols for those patients unlikely to achieve pCR.
+
+      Radiomics is a new entrant in the field of imaging where specific features are derived from
+      the intensity and distribution pattern of pixels based on a region-of-interest (ROI). The
+      features thus extracted can then be used for prediction modelling similar to other -omics
+      datasets. Preliminary investigations examining its utility have been performed and its
+      applications have thus far focused on screening and survival prediction after treatment. Due
+      to the multi-dimensional nature of data extracted using radiomics, Artificial Intelligence
+      (AI) methods are ideally suited for analysing and modelling radiomic features.
+
+      Machine Learning (ML) and Deep Learning (DL)[utilising Convolutional Neural Networks (CNN)]
+      are both part of the AI framework. In contrast to ML, DL is a new entrant and has been
+      utilised by some medical researchers for modelling using prediction-type algorithms. Besides
+      significantly reducing the workflow associated with Radiomics-based research, feature
+      engineering and modelling using DL are immune to the effects of incorrect ROI delineation.
+      However, the main limitation of DL is the 'blackbox' effect, in which the underlying basis of
+      a CNN is not known. This has been mitigated in part by the visualisation of activation maps
+      directly on the image dataset to prove biological plausibility of predictions. The
+      comparative performance of both types of modelling is also not known.
+
+      Our objective is to investigate pCR probability in our study population using radiomics-based
+      ML and AI-based modelling. We will also investigate the comparative performance of both
+      modelling techniques. For DL based prediction modelling, we will attempt to provide
+      biological plausibility on the basis of activation maps.
+    </textblock>
+  </brief_summary>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">January 16, 2020</start_date>
+  <completion_date type="Anticipated">January 2021</completion_date>
+  <primary_completion_date type="Anticipated">September 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Develop models to predict pCR based on pre-neoadjuvant imaging modalities</measure>
+    <time_frame>August 2021</time_frame>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">150</enrollment>
+  <condition>Esophageal Neoplasm</condition>
+  <arm_group>
+    <arm_group_label>Study Group</arm_group_label>
+    <description>Patients undergoing NA-CCRT followed by Surgery</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>Neo-Adjuvant Radiotherapy</intervention_name>
+    <description>Neo-Adjuvant Radiotherapy via any technique, delivered concurrently with Neo-Adjuvant Chemotherapy.</description>
+    <arm_group_label>Study Group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Neo-Adjuvant Chemotherapy</intervention_name>
+    <description>Neo-Adjuvant Chemotherapy, delivered concurrently with Neo-Adjuvant Radiotherapy.</description>
+    <arm_group_label>Study Group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Esophagectomy</intervention_name>
+    <description>Esophagectomy, performed 4-6 weeks after completion of Neo-Adjuvant Concurrent ChemoRadiation</description>
+    <arm_group_label>Study Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patient records in each participating research center from January 2011 to 1st May 2020
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  ECOG Performance Status: 0-2
+
+          -  Patients with histopathological or cytopathological confirmed malignancy of the
+             esophagus
+
+          -  Histology: Squamous Cell Carcinoma and Adenocarcinoma
+
+          -  Patients should have received NeoAdjuvant Concurrent Chemoradiation (NACCRT) followed
+             by Surgery
+
+          -  All therapeutic interventions (Radiotherapy, Chemotherapy &amp; Surgery) delivered within
+             participating institutions
+
+          -  At least one pre-NACCRT DICOM imaging dataset (HRCT/ 18-FDG PET-CT/ Radiotherapy
+             planning CT) for each patient
+
+        Exclusion Criteria:
+
+          -  Patients with any metallic implants in the region of interest
+
+          -  Patient with locally advanced disease or metastatic disease (T4 disease, Fistula,
+             metastases)
+
+          -  Patients with prior history of radiotherapy in the same region
+
+          -  Patients developing a second malignancy in the esophagus
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Kundan S Chufal, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Rajiv Gandhi Cancer Institute &amp; Research Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Illawarra Cancer Care Centre</name>
+      <address>
+        <city>Wollongong</city>
+        <zip>2500</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Rajiv Gandhi Cancer Institute &amp; Research Center</name>
+      <address>
+        <city>New Delhi</city>
+        <state>Delhi</state>
+        <zip>110019</zip>
+        <country>India</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Australia</country>
+    <country>India</country>
+  </location_countries>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>July 23, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 23, 2020</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 28, 2020</study_first_posted>
+  <last_update_submitted>July 23, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 23, 2020</last_update_submitted_qc>
+  <last_update_posted type="Estimate">July 28, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Rajiv Gandhi Cancer Institute &amp; Research Center, India</investigator_affiliation>
+    <investigator_full_name>Dr Kundan Singh Chufal</investigator_full_name>
+    <investigator_title>Senior Consultant &amp; Chief of Thoracic Radiation Oncology, Department of Radiation Oncology</investigator_title>
+  </responsible_party>
+  <keyword>Artificial Intelligence</keyword>
+  <keyword>Deep Learning</keyword>
+  <keyword>Neoadjuvant Chemoradiation</keyword>
+  <keyword>Pathologic Response</keyword>
+  <keyword>Radiomics</keyword>
+  <keyword>Radiotherapy</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Esophageal Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,266 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03711656</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Nocturnal Hypoglycemia</org_study_id>
+    <nct_id>NCT03711656</nct_id>
+  </id_info>
+  <brief_title>Prediction and Prevention of Nocturnal Hypoglycemia in Persons With Type 1 Diabetes Using Machine Learning Techniques</brief_title>
+  <official_title>Prediction and Prevention of Nocturnal Hypoglycemia in Persons With Type 1 Diabetes With Multiple Doses of Insulin Using Machine Learning Techniques.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hospital Clinic of Barcelona</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Universitat de Girona</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Hospital Clinic of Barcelona</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective is to develop a novel system to predict and prevent nocturnal hypoglycemia in
+      type 1 diabetic (T1D) patients, focused in patients with multiple daily injections (MDI)
+      therapy. The general idea is to make use of previous-day information in the moment when
+      patients go to sleep, and then predict if in the next following hours any hypoglycemic event
+      will occur. If the system will have predicted any hypoglycemic event in that moment, it is
+      expected that it will be able to warn the patient to take some action: such as reduce basal
+      insulin dose or to consume a snack before sleep.
+
+      10 patients with T1D for more than five years will be included.
+
+      It is a longitudinal, prospective, interventional study in which every patient will use
+      intermittently scanned Continuous Glucose Monitoring (isCGM) and a physical activity tracker
+      during 12 weeks. Moreover, during this period, patients will store in a mobile application
+      (Freestyle LibreLink) or in a reader information regarding their diabetes management
+      activities, such as insulin delivery doses and meal consumption.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">October 10, 2018</start_date>
+  <completion_date type="Actual">April 30, 2019</completion_date>
+  <primary_completion_date type="Actual">March 1, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Longitudinal, prospective, interventional study</intervention_model_description>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity (SE) and specificity (SP) to predict Level 1 hypoglycemia</measure>
+    <time_frame>90 days</time_frame>
+    <description>Primary outcome will be sensitivity (SE) and specificity (SP) to predict Level 1 hypoglycemia.
+Level 1: a hypoglycemia alert glucose value between 54-70 mg/dL (3.0-3.9 mmol/L) with or without symptoms.
+A hypoglycemic event should be defined as follows. Beginning of a CGM event: readings below the threshold for at least 15 min are considered an event. For example, at least 15min, &lt;70 mg/dL (3.9 mmol/L) to define a significant hypoglycemic event. End of a CGM event: readings for 15 min at &gt;70 mg/dL (3.9 mmol/L).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity (SE) and specificity (SP) to predict Level 2 hypoglycemia</measure>
+    <time_frame>90 days</time_frame>
+    <description>Secondary outcome will be sensitivity (SE) and specificity (SP) to predict Level 2 hypoglycemia1.
+Level 2: a glucose level of &lt;54mg/dL (3.0 mmol/L) with or without symptoms. A hypoglycemic event should be defined as follows. Beginning of a CGM event: readings below the threshold for at least 15 min are considered an event. For example, at least 15min, &lt;54 mg/dL (3.0 mmol/L) to define a clinically significant hypoglycemic event. End of a CGM event: readings for 15 min at &gt;70 mg/dL (3.9 mmol/L).
+A second hypoglycemic event outcome of prolonged hypoglycemia is considered when CGM levels are &lt; 54 mg/dL (3.0 mmol/L) for consecutive 120 min or more.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Predicted HbA1c from the sensor data</measure>
+    <time_frame>90 days</time_frame>
+    <description>Predicted HbA1c from the sensor data</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>standard deviation (SD)</measure>
+    <time_frame>90 days</time_frame>
+    <description>Standard deviation (SD)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean glucose</measure>
+    <time_frame>90 days</time_frame>
+    <description>Mean glucose</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Level 3 hypoglycaemia</measure>
+    <time_frame>90 days</time_frame>
+    <description>Number of Severe hypoglycemia Clinical diagnosis: event requiring assistance (level 3)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of time in hypoglycemic ranges</measure>
+    <time_frame>90 days</time_frame>
+    <description>Percentage of time in hypoglycemic ranges, mg/dL (mmol/L), %:
+Clinically significant/very low/immediate action required &lt;54 (&lt;3.0) (level 2)
+Alert/low/monitor 70-54 (3.9-3.0) (level 1)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of time in target range</measure>
+    <time_frame>90 days</time_frame>
+    <description>Percentage of time in target range, mg/dL (mmol/L), %:
+Default 70-180 (3.9-10.0)
+Secondary 70-140 (3.9-7.8)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of time in hyperglycemic range &gt;180</measure>
+    <time_frame>90 days</time_frame>
+    <description>Percentage of time in hyperglycemic ranges, mg/dL (mmol/L), % Alert/elevated/monitor &gt; 180 (&gt;10)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of time in hyperglycemic range &gt;250</measure>
+    <time_frame>90 days</time_frame>
+    <description>Percentage of time in hyperglycemic ranges, mg/dL (mmol/L), % Clinically significant/very elevated &gt; 250 (&gt;13.9)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glucose variability LBGI</measure>
+    <time_frame>90 days</time_frame>
+    <description>Low Blood Glucose Index (LBGI)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glucose variability HBGI</measure>
+    <time_frame>90 days</time_frame>
+    <description>High Blood Glucose Index (HBGI)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Level 3: severe hypoglycemia</measure>
+    <time_frame>90 days</time_frame>
+    <description>Number of Level 3: severe hypoglycemia. This denotes cognitive impairment requiring external assistance for recovery but is not defined by a specific glucose value.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">10</enrollment>
+  <condition>Type1diabetes</condition>
+  <condition>Hypoglycemia</condition>
+  <arm_group>
+    <arm_group_label>isCGM and Physical exercise tracker</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will perform CGM during 12 weeks using an isCGM (intermittently scanned Continuous Glucose Monitoring), Freestyle Libre, (Abbott Diabetes Care, Witney, Oxon, UK). Insulin dose (rapid-acting and long acting), carbohydrates and Self-monitoring blood glucose (SMBG) per day will be recorded by the patient in the reader or in the App (LibreLink, Abbott Diabetes Care, Witney, Oxon, UK). Moreover, participants will be instructed to collect data about moderate or high intensity exercise, illness and other disturbances occurring during the study period at home.
+Patients will wear a physical exercise tracker (Fitbit Alta HR® wristband (Fitbit, Inc., San Francisco, California, USA)) to track physiological variables such as heart rate, steps, activity level and sleep quality.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>isCGM (intermittently scanned Continuous Glucose Monitoring)</intervention_name>
+    <description>Data collection</description>
+    <arm_group_label>isCGM and Physical exercise tracker</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Physical exercise tracker</intervention_name>
+    <description>Data collection</description>
+    <arm_group_label>isCGM and Physical exercise tracker</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients &gt; 18 years with Type 1 Diabetes:
+
+               -  &gt; 4 hypoglycemia / week (&lt; 70 mg/dl, including day and night), last 2 weeks and /
+                  or
+
+               -  One severe hypoglycemia during the last year and / or
+
+               -  Hypoglycemia unawareness (Clarke Test &gt;3)
+
+          -  Disease duration &gt; 5 years
+
+          -  On multiple doses of insulin (MDI) therapy using a rapid acting insulin analogue as
+             prandial insulin (lispro, aspart or glulisine) and any basal analogue as basal
+             insulin.
+
+          -  A1c 6.5 - 9.5 %
+
+          -  Able to use an intermittently scanned continuous glucose monitoring (isCGM) system.
+
+          -  Performing &gt;4 self-monitoring blood glucose (SMBG) per day
+
+          -  Using carb-counting
+
+          -  Providing an informed consent
+
+          -  No CGM user previously (during the last 3 months).
+
+        Exclusion Criteria:
+
+          -  Patients with a previous Diabetic Ketoacidosis (DKA) episode in the previous 6 months.
+
+          -  Patients with a severe hypoglycemia in the previous 6 months.
+
+          -  Severe diabetic complications or comorbidities: eye, renal, cardiovascular...from the
+             clinicians point of view.
+
+          -  Pregnancy and breastfeeding.
+
+          -  History of drug or alcohol abuse.
+
+          -  Scheduled surgery during the study period.
+
+          -  Mental conditions that prevent the subject to understand the nature, purpose and
+             possible consequences of the study.
+
+          -  Subjects those are unlikely to meet the clinical study protocol, eg uncooperative
+             attitude, inability to return for follow-up visits, or poor probability of completing
+             the study.
+
+          -  Using an experimental drug or device during the past 30 days.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ignacio Conget, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Hospital Clínic de Barcelona</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Hospital Clínic de Barcelona</name>
+      <address>
+        <city>Barcelona</city>
+        <state>Catalonia</state>
+        <zip>08036</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Spain</country>
+  </location_countries>
+  <verification_date>August 2019</verification_date>
+  <study_first_submitted>October 10, 2018</study_first_submitted>
+  <study_first_submitted_qc>October 16, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 18, 2018</study_first_posted>
+  <last_update_submitted>August 6, 2019</last_update_submitted>
+  <last_update_submitted_qc>August 6, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 7, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Hospital Clinic of Barcelona</investigator_affiliation>
+    <investigator_full_name>Ignacio Conget</investigator_full_name>
+    <investigator_title>Head of Endocrinology and Nutrition Department, Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Type 1 diabetes</keyword>
+  <keyword>intermittent continuous glucose monitoring</keyword>
+  <keyword>hypoglycemia</keyword>
+  <keyword>machine learning</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+    <mesh_term>Hypoglycemia</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,358 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03994341</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NEC-01</org_study_id>
+    <nct_id>NCT03994341</nct_id>
+  </id_info>
+  <brief_title>NEC Thermography Infrared Imaging Study</brief_title>
+  <official_title>Automated Infrared Imaging Tools for Discerning Necrotizing Enterocolitis From Normal Abdominal Thermograms: A Pilot Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Ottawa Hospital Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Carleton Unniversity</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Ottawa Hospital Research Institute</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Necrotizing enterocolitis (NEC) is a devastating disease affecting the intestines of
+      premature infants. It involves intestine swelling, tissue destruction, infection, and even
+      death. Improved outcome is highly dependent on early recognition and treatment, however the
+      signs and symptoms of NEC in early stages are not obvious making it difficult to diagnose.
+      Abdominal x-rays and ultrasound can be non-specific and may not show signs of the disease
+      until late in its course.
+
+      Infrared imaging is a non-invasive, non-radiation method that can measure the heat given off
+      of the surface of the body and create heat maps. It is being used clinically in other
+      situations but is still under investigation for use in preterm infants with suspected NEC.
+      Computer analysis of the measured heat maps can be used to detect changes in the intestine
+      such as the swelling or tissue destruction involved in NEC.
+
+      Our group has previously performed a pilot study that showed that infrared imaging on babies
+      in the NICU can be used to create heat maps that are different between normal babies and
+      those with NEC when analyzed using specialized computer programs. In this study the
+      investigators will improve the imaging process by using special vision sensors to automate
+      the imaging process and make it easier for bedside staff to use this technology. Special
+      programs will be developed to automatically select areas of interest over which temperature
+      maps will be analyzed. The investigators will use this new imaging technique to study a
+      population of newborns diagnosed with definitive NEC and a healthy population of newborns
+      without NEC, and compare the heat maps obtained from each group. From the analysis of the
+      images obtained from these two populations, the investigators will determine the suitability
+      and necessary fine-tuning of this new imaging technique with the hopes that this technology
+      can someday aid in the early diagnosis of NEC.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background information about NEC:
+
+      The best prognosis requires early recognition and treatment of NEC. Perforation or ongoing
+      deterioration may require surgical intervention. Mortality has improved in recent years but
+      is still about 15-30 % for non-surgical NEC and up to 50% for surgical NEC. Survivors may
+      suffer significant complications including long-term damage to bowel function.
+
+      The initial diagnosis is based on clinical exam and diagnostic imaging, usually involving
+      abdominal x-rays +/- ultrasound. Bell's staging criteria incorporates clinical, laboratory,
+      and radiographic findings, and is used to discern suspected NEC from definitive NEC. Bell's
+      stage 2 denotes proven NEC and involves the presence of pneumatosis intestinalis and/or
+      portal venous gas on x-ray.
+
+      The main difficulty when diagnosing NEC is that early/suspected stages of NEC present
+      clinically and radiographically in a similar way to benign feeding intolerance seen with
+      prematurity. Abdominal x-rays involve exposure of the patient to ionizing radiation and
+      ultrasound imaging is disruptive to the patient, takes time to perform, and requires skilled
+      operators who have limited availability. These modalities will only show non-specific changes
+      in early stages of NEC. Late findings are more discerning, however by the time these findings
+      are apparent the optimal time frame to initiate treatment is often missed.
+
+      Background Information About Medical Thermography:
+
+      Medical infrared (IR) imaging is a combination of medical technology, infrared camera
+      technology and computer multimedia technology. Infrared imaging devices record the human
+      thermal fields. The human body is a natural biological heating source and an infrared thermal
+      imager converts the far-infrared light wave radiated by the human body to an electrical
+      signal which is then converted into a digital quantity by analog/digital conversion. The
+      signals are processed by multimedia image processing technology into a color heat map,
+      showing the body's temperature field. A normal, healthy body has a characteristic heat map
+      while an abnormal body exhibits deviations from this heat map. Thus, comparing the
+      similarities and differences between the two, in combination with clinical diagnosis, doctors
+      and researchers can infer the nature and extent of a disease.
+
+      The investigators investigated various methods of computerized assessment of thermal images
+      obtained from premature babies with definitive NEC compared with normal babies with no
+      symptoms of feeding intolerance. The investigators showed that the discriminating power of
+      the surface temperature evolution data between healthy control babies and those who were
+      diagnosed with NEC was promising, with fairly high classification rate and a simple linear
+      classification scheme. In addition, our results suggested a slower rate of decrease of
+      abdominal skin temperature in the NEC babies, which might be explained by the presence of
+      inflamed bowel. Rice et al. also used medical thermography to help detect NEC in newborn
+      infants admitted to the NICU. By comparing temperature distribution over abdominal segments
+      to those of the chest, they were able to determine differences in normal babies vs those
+      diagnosed with NEC.
+
+      Background Information About Medical Microsoft Kinect Sensor:
+
+      The Kinect sensor is a widely used, consumer-grade, and safe color and depth camera
+      commercially marketed for use in computer gaming. It measures near infrared light reflected
+      off the body to form a surface map of the environment. The RGB-D Kinect sensor has recently
+      been applied to healthcare in a variety of applications where it has shown to be effective,
+      including the field of medical rehabilitation, where Kinect sensors are used for active
+      exercise training and rehabilitation of patients,for safe and automated radiotherapy
+      delivery, for chest wall motion analysis in cystic fibrosis patients, for facial feature
+      analysis of posture control in rehabilitation patients, in ICU patients for automated
+      mobility measurements, and even automated apnea monitoring in infants and children.
+
+      In this study, the RGB-D Kinect sensor's role will essentially consist of supporting the
+      automated segmentation, and retrieval of thermal distribution data from the co-located and
+      calibrated IR FLIR imager. Thanks to the color and depth maps that will be made available,
+      classical and robust image processing techniques will be leveraged to identify regions of
+      interest (the baby's body and eventually abdomen). This sort of precise segmentation cannot
+      be reliably performed solely from IR images, as it is well established that computer vision
+      and image processing techniques are not well adapted for IR images. Early laboratory tests
+      have already been conducted to determine that the operation of the RGB-D sensor in an
+      overlapping field of view with that of the IR imager does not influence the data collected in
+      the heat map. The combined operation is therefore safe and will provide an accurate thermal
+      distribution as if the IR imager was operating alone. The end goal is to combine the
+      strengths of three imaging technologies to improve medical diagnosis.
+
+      Study Rationale:
+
+      Previous studies investigating thermography and diagnosing NEC only used an infrared camera
+      to acquire images. Although the investigators were able to derive thermal distributions for
+      babies of various GA's, our previous study did not adopt a strict protocol for positioning
+      the IR sensor in an optimal configuration, leading to more variations in image quality and
+      size of region of interest. These limitations made it difficult to automate the selection of
+      accurate regions of interest within the thermal image and required manual intervention from
+      an image processing expert. In our current study the image acquisition process will be
+      improved upon and standardized; a Microsoft Kinect sensor utilizing thermal, color and active
+      depth vision will be integrated into a thermographic camera to allow for automated selection
+      of regions of interest and will facilitate ease of use by medical personal at the patient's
+      bedside. Embedded image processing algorithms will be developed to exploit the multi-spectral
+      nature of collected information in order to automatically segment and unclutter the region of
+      interest over which thermal distributions of relevance will be monitored.
+
+      Initial development of this system, including apparatus integration and assembly, rigorous
+      camera calibration procedures in between the RGB-D and IR sensors, and complete testing will
+      be performed in a laboratory environment, using only mock-up models of the clinical
+      environment. Then, in order to fully validate the application of this automated infrared
+      image processing system for early diagnosis of NEC, acquisition of relevant images from human
+      subjects is needed. The study will be pursued in the NICU environment to further validate the
+      newly developed non-invasive and automated imaging protocol on babies of various sizes and GA
+      in the NICU, since NEC can occur in babies ranging from extremely premature to those born at
+      term. Since the investigators hope to use this technology someday to help improve the
+      diagnosis of NEC, the experimental imaging procedure will be performed on two patient
+      populations. The investigators will first image the abdomens of a group of healthy newborns
+      with the newly developed apparatus and image processing protocol to set up a standard thermal
+      distribution. Then, the investigators will also image the abdomens of a group of newborns
+      with proven NEC, using the same equipment. From the analysis of images from these two
+      populations, the investigators will determine the suitability and necessary fine-tuning of
+      the proposed automated infrared imaging tools, with the objective of augmenting the
+      precision, usability, and reliability of the procedure for early diagnosis of NEC.
+
+      Objectives:
+
+        1. Develop an automated approach to the imaging and analysis of preterm infants' abdomens
+           using thermographic sensors and embedded image processing algorithms.
+
+        2. Derive thermographic temperature distributions of the abdomens of two groups of babies:
+           those who are normal (have no signs of feeding intolerance or signs of NEC), and those
+           who have been diagnosed with proven NEC.
+
+        3. Determine if the automated image processing algorithms can discern a statistically
+           significant difference between the normal thermal distributions and those derived from
+           babies with NEC.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">August 13, 2019</start_date>
+  <completion_date type="Anticipated">June 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">June 1, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Region of interest inclusion</measure>
+    <time_frame>2 years</time_frame>
+    <description>Categorization of heat map as either &quot;complete&quot; or &quot;incomplete&quot; based on the inclusion of the entire abdominal region of interest being captured by our automated thermographic imaging system.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Accurate classification of heat distribution maps as NEC versus Normal</measure>
+    <time_frame>2 years</time_frame>
+    <description>Using machine learning data analysis tools developed in our previous pilot study we will compare the accuracy (sensitivity and specificity and ROC value) of image classifier program to accurately categorize each adbominal thermal image as either Normal or NEC</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">15</enrollment>
+  <condition>Necrotizing Enterocolitis</condition>
+  <arm_group>
+    <arm_group_label>NEC Group</arm_group_label>
+    <description>Infrared images of the abdomen, timed at handling. A FLIR Thermovision a320M thermal IR camera bound with an Microsoft Kinect RGB-D sensor system connected to a laptop will be used. Both imaging technologies are non-invasive and represent no risk to the subject. The thermal images record the temperature distribution, the Kinect sensor will acquire color image and depth image that will be used to segment the subject from the background bedding surface. All three sets of images will be collected in synchronization. Thermography requires period of slight cooling of the skin surface to stabilize the body surface temperature. The room temperature will be maintained slightly below thermoneutrality. Thermographic camera will be positioned about 60-70 cm above the baby.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Normal Group</arm_group_label>
+    <description>Same procedure for both experimental and active comparator.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>A FLIR Thermovision a320M thermal IR camera</intervention_name>
+    <description>Clothing removed if necessary
+ECG leads, temperature probes, or transcutaneous monitors will be relocated for abdominal imaging.
+Axillary temperature prior to starting the thermographic imaging.
+Baby's mattress slid out of the isolette and warming bed will be turned off for no more than 60 seconds. This step is necessary since infrared radiation does not pass through the Plexiglas walls of an isolette and the infant's skin surface needs to cool off slightly.
+After surface cooling, thermal imaging will be recorded for ~60 sec to allow for the infrared radiation naturally emitted by the subject's body to be recorded by the infrared camera. The timestamp corresponding to the removal of the heat source will be noted, to indicate the start of the cooling of the abdomen.
+After ~60 seconds of image recording, the recording will stop, the mattress pushed back into isolette.
+Axillary temperature to ensure temperature stability, any clothes will be put back on.</description>
+    <arm_group_label>NEC Group</arm_group_label>
+    <arm_group_label>Normal Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Neonates admitted to the NICU at CHEO or TOH-GC
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        NEC Group:
+
+          1. Babies who are 26+0 - 42+0 weeks corrected gestational age and are admitted to the
+             CHEO or TOH-GC NICU.
+
+          2. Diagnosed with definitive, minimum Bell's stage 2 necrotizing enterocolitis
+
+          3. In stable condition (with respect to respiratory status, heart rate, blood pressure,
+             oxygen saturation and pain control) as determined by the study physician.
+
+        Normal Group:
+
+          1. Babies born at 26+0 - 42+0 weeks gestation who are admitted to the CHEO or TOH-GC
+             NICU.
+
+          2. No clinical or radiological, signs commonly associated with necrotizing enterocolitis,
+             no diagnosis of clinical sepsis or hypotension.
+
+          3. In stable condition (with respect to respiratory status, heart rate, blood pressure,
+             oxygen saturation and pain control) as determined by the study physician.
+
+        Exclusion Criteria:
+
+          1. Any baby with a known congenital anomaly involving the intra-abdominal organs or
+             abdominal wall.
+
+          2. Any baby with umbilical lines, tapes, or dressings applied to the abdomen that will
+             obscure the thermographic imaging.
+
+          3. Any baby who has had abdominal surgery within the previous 7 days.
+
+          4. Any baby deemed to be clinically unstable by the bedside nursing/physician team or the
+             study physician will be excluded from enrollment.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>26 Weeks</minimum_age>
+    <maximum_age>42 Weeks</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Erika Bariciak, Dr.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>CHEO and The Ottawa Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Erika Bariciak, Dr.</last_name>
+    <phone>613-737-7600</phone>
+    <phone_ext>2954</phone_ext>
+    <email>ebariciak@cheo.on.ca</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Chantal Horth</last_name>
+    <phone>613-737-7600</phone>
+    <phone_ext>6041</phone_ext>
+    <email>chorth@cheo.on.ca</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Children's Hospital of Eastern Ontario</name>
+      <address>
+        <city>Ottawa</city>
+        <state>Ontario</state>
+        <zip>K1H 8L1</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Erika Bariciak, MD</last_name>
+      <phone>613-737-7600</phone>
+      <phone_ext>2954</phone_ext>
+      <email>bariciak@cheo.on.ca</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>The Ottawa Hospital</name>
+      <address>
+        <city>Ottawa</city>
+        <state>Ontario</state>
+        <zip>K1H 8L6</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Erika Bariciak, MD</last_name>
+      <phone>613-737-7600</phone>
+      <phone_ext>2954</phone_ext>
+      <email>bariciak@cheo.on.ca</email>
+    </contact>
+    <investigator>
+      <last_name>Erika Bariciak, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>September 2019</verification_date>
+  <study_first_submitted>April 14, 2019</study_first_submitted>
+  <study_first_submitted_qc>June 20, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 21, 2019</study_first_posted>
+  <last_update_submitted>September 3, 2019</last_update_submitted>
+  <last_update_submitted_qc>September 3, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 6, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Neonates</keyword>
+  <keyword>Thermography imaging</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Enterocolitis</mesh_term>
+    <mesh_term>Enterocolitis, Necrotizing</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

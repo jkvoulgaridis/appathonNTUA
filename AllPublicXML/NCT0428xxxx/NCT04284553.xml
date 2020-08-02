@@ -1,0 +1,339 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04284553</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2019P002167</org_study_id>
+    <nct_id>NCT04284553</nct_id>
+  </id_info>
+  <brief_title>Optimizing Electronic Health Record Prompts With Behavioral Economics to Improve Prescribing for Older Adults</brief_title>
+  <acronym>NUDGE-EHR</acronym>
+  <official_title>Optimizing Electronic Health Record Prompts With Behavioral Economics to Improve Prescribing for Older Adults</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brigham and Women's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Atrius Health</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Institutes of Health (NIH)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Brigham and Women's Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Prescribing of potentially unsafe medications for older adults is extremely common;
+      benzodiazepines and sedative hypnotics are, for example, key drug classes frequently
+      implicated in adverse health consequences for vulnerable older adults, such as confusion or
+      sedation, leading to hospitalizations, falls, and fractures. Fortunately, most of these
+      consequences are preventable. Physicians' lack of awareness of alternatives, ambiguous
+      practice guidelines, and perceived pressure from patients or caregivers are among the reasons
+      why these drugs are used more than might be optimal. Reducing inappropriate use of these
+      drugs may be achieved through decision support tools for providers that are embedded in
+      electronic health record (EHR) systems. While EHR strategies are widely used to support the
+      informational needs of providers, these tools have demonstrated only modest effectiveness at
+      improving prescribing. The effectiveness of these tools could be enhanced by leveraging
+      principles of behavioral economics and related sciences.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is an adaptive cluster randomized control trial (RCT) to evaluate whether newly designed
+      EHR-based tools designed using behavioral principles reduce inappropriate prescribing and
+      adverse outcomes among older adults. This study will be conducted in outpatient and acute
+      care practices of Atrius Health, a large integrated delivery network in eastern and central
+      Massachusetts, which uses the Epic EHR system.
+
+      In Phase 1, approximately 200 primary care providers at Atrius Health will be randomized to
+      receive usual care or an active intervention. Providers randomized to the active intervention
+      will be randomly assigned to one of 15 active intervention arms. They will then be followed
+      for 6 months. Providers randomized to one of the 15 active intervention arms will receive a
+      newly-designed EHR tool to guide their care of eligible patients. Providers randomized to
+      usual care will receive no newly-designed EHR tool. Providers will receive these EHR tools
+      for their patients who meet the following criteria: 1) older adults (aged 65 years or more)
+      and 2) who have been prescribed at least 90 pills of benzodiazepine or sedative hypnotic in
+      the last 180 days.
+
+      At the end of Phase 1 follow-up, the 15 active intervention arms will be ranked based on
+      their observed effectiveness at reducing prescribing high-risk medications and select up to
+      the 5 more promising arms for Phase 2. In Phase 2, the providers assigned in Phase 1 to usual
+      care will be randomized with equal probability to be assigned to one of the 5 most promising
+      treatment arms identified or usual care. Providers randomized to one of up to the 5 selected
+      treatment arms will receive an EHR tool to guide their care of eligible patients. After this
+      analysis, the Phase 1 providers in the &quot;winning&quot; arms (i.e., the promising arms) will be
+      randomly assigned to continue to receive their original treatment assignments or to usual
+      care. Similarly, the Phase 1 providers assigned to treatment arms determined to be
+      statistically inferior will be randomly assigned in equal proportions to one of the winning
+      arms or to usual care.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">March 17, 2020</start_date>
+  <completion_date type="Anticipated">September 17, 2021</completion_date>
+  <primary_completion_date type="Anticipated">May 17, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Reduction in inappropriate prescribing</measure>
+    <time_frame>14 months</time_frame>
+    <description>Composite of 1) discontinuation of study high-risk medications or 2) ordering a gradual dose taper (for benzodiazepine or sedative hypnotics) using EHR data</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Quantity of high-risk medication prescribed</measure>
+    <time_frame>14 months</time_frame>
+    <description>Number of milligram equivalents of high-risk medications prescribed to patients in the follow-up period using EHR data</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Quantity of high-risk medication dispensed</measure>
+    <time_frame>14 months</time_frame>
+    <description>Number of milligram equivalents of high-risk medications filled by patients, in follow-up, using pharmacy claims data</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Occurrence of clinically-significant adverse drug events</measure>
+    <time_frame>14 months</time_frame>
+    <description>Occurrence of sedation or cognitive impairment, and all-cause hospitalizations and falls or fractures, measured in administrative claims data</description>
+  </other_outcome>
+  <number_of_arms>16</number_of_arms>
+  <enrollment type="Actual">206</enrollment>
+  <condition>Aging</condition>
+  <condition>Benzodiazepine Sedative Adverse Reaction</condition>
+  <condition>Anticholinergic Adverse Reaction</condition>
+  <condition>Adverse Drug Event</condition>
+  <arm_group>
+    <arm_group_label>Base Order Entry Alert</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Base Open Encounter Alert</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Order Entry + Follow-up booster Alert</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Open Encounter + Follow-up booster Alert</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Order Entry + Cold State outreach</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Open Encounter + Cold State outreach</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Order Entry + Simplified</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Open Encounter + Simplified</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Order Entry + Sign-off alert</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Open Encounter + Sign-off alert</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Order Entry + Pre-commitment</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Open Encounter + Pre-commitment</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Order Entry + Different Risks</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Open Encounter + Different Risks</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard Epic Basic Alert</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No Alert (Usual Care)</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Order Entry</intervention_name>
+    <description>An alert will display in the electronic health record when the provider orders one of the high-risk medications for an eligible patient.</description>
+    <arm_group_label>Base Order Entry Alert</arm_group_label>
+    <arm_group_label>Order Entry + Cold State outreach</arm_group_label>
+    <arm_group_label>Order Entry + Different Risks</arm_group_label>
+    <arm_group_label>Order Entry + Follow-up booster Alert</arm_group_label>
+    <arm_group_label>Order Entry + Pre-commitment</arm_group_label>
+    <arm_group_label>Order Entry + Sign-off alert</arm_group_label>
+    <arm_group_label>Order Entry + Simplified</arm_group_label>
+    <arm_group_label>Standard Epic Basic Alert</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Open Encounter</intervention_name>
+    <description>An alert will display in the electronic health record when the provider opens the chart of an eligible patient.</description>
+    <arm_group_label>Base Open Encounter Alert</arm_group_label>
+    <arm_group_label>Open Encounter + Cold State outreach</arm_group_label>
+    <arm_group_label>Open Encounter + Different Risks</arm_group_label>
+    <arm_group_label>Open Encounter + Follow-up booster Alert</arm_group_label>
+    <arm_group_label>Open Encounter + Pre-commitment</arm_group_label>
+    <arm_group_label>Open Encounter + Sign-off alert</arm_group_label>
+    <arm_group_label>Open Encounter + Simplified</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Follow-up booster Alert</intervention_name>
+    <description>Once the order entry or open encounter alert displays, the provider will have the option to schedule a follow-up message that will be sent 4 weeks after the alert is triggered</description>
+    <arm_group_label>Open Encounter + Follow-up booster Alert</arm_group_label>
+    <arm_group_label>Order Entry + Follow-up booster Alert</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Cold State outreach</intervention_name>
+    <description>An in-basket message will be sent to the eligible provider 2 days before the eligible patient is scheduled for an in-person visit.</description>
+    <arm_group_label>Open Encounter + Cold State outreach</arm_group_label>
+    <arm_group_label>Order Entry + Cold State outreach</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Simplified</intervention_name>
+    <description>The alert language itself will be simplified.</description>
+    <arm_group_label>Open Encounter + Simplified</arm_group_label>
+    <arm_group_label>Order Entry + Simplified</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Sign-off alert</intervention_name>
+    <description>An alert will display in the electronic health record when the medication is sent to sign-off for providers.</description>
+    <arm_group_label>Open Encounter + Sign-off alert</arm_group_label>
+    <arm_group_label>Order Entry + Sign-off alert</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Pre-commitment</intervention_name>
+    <description>A two-staged pre-commitment electronic health record alert will be used. In the 1st alert, the providers will be prompted to discuss risks of these high-risk medications and share a handout about the risks with their patients, at their own discretion. The second alert will be either an order entry or open encounter alert, depending on the arm the provider is assigned to.</description>
+    <arm_group_label>Open Encounter + Pre-commitment</arm_group_label>
+    <arm_group_label>Order Entry + Pre-commitment</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Different Risks</intervention_name>
+    <description>Risks of the high-risk medications will be framed differently.</description>
+    <arm_group_label>Open Encounter + Different Risks</arm_group_label>
+    <arm_group_label>Order Entry + Different Risks</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Standard Epic Basic Alert</intervention_name>
+    <description>This alert will be representative of the alerts currently firing in the Atrius system and not incorporate any functionality.</description>
+    <arm_group_label>Standard Epic Basic Alert</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Enhanced Alert</intervention_name>
+    <description>An enhanced alert (known as a Best Practice Advisory [BPA]) will appear on the provider's electronic health record screen and will contain several standard components such as information about why the medication is dangerous for their patient and an order set that will allow providers to order a gradual dose taper for their patient, order alternative medications, place a referral to a behavioral health specialist, provide instructions on how to make lifestyle modifications to improve patient symptoms, and add patient instructions for how to gradually taper off benzodiazepines and sedative hypnotics, as applicable.</description>
+    <arm_group_label>Base Open Encounter Alert</arm_group_label>
+    <arm_group_label>Base Order Entry Alert</arm_group_label>
+    <arm_group_label>Open Encounter + Cold State outreach</arm_group_label>
+    <arm_group_label>Open Encounter + Different Risks</arm_group_label>
+    <arm_group_label>Open Encounter + Follow-up booster Alert</arm_group_label>
+    <arm_group_label>Open Encounter + Pre-commitment</arm_group_label>
+    <arm_group_label>Open Encounter + Sign-off alert</arm_group_label>
+    <arm_group_label>Open Encounter + Simplified</arm_group_label>
+    <arm_group_label>Order Entry + Cold State outreach</arm_group_label>
+    <arm_group_label>Order Entry + Different Risks</arm_group_label>
+    <arm_group_label>Order Entry + Follow-up booster Alert</arm_group_label>
+    <arm_group_label>Order Entry + Pre-commitment</arm_group_label>
+    <arm_group_label>Order Entry + Sign-off alert</arm_group_label>
+    <arm_group_label>Order Entry + Simplified</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Primary care provider at Atrius Health
+
+        Providers will receive these EHR tools for their patients who meet the following criteria:
+
+          1. older adults (aged 65 years or more)
+
+          2. who have been prescribed at least 90 pills of benzodiazepine or sedative hypnotic in
+             the last 180 days.
+
+        Exclusion Criteria:
+
+          -  NA
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Atrius Health</name>
+      <address>
+        <city>Braintree</city>
+        <state>Massachusetts</state>
+        <zip>02184</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>February 23, 2020</study_first_submitted>
+  <study_first_submitted_qc>February 23, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 26, 2020</study_first_posted>
+  <last_update_submitted>March 20, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 20, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 24, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Brigham and Women's Hospital</investigator_affiliation>
+    <investigator_full_name>Niteesh K. Choudhry, MD, PhD</investigator_full_name>
+    <investigator_title>Niteesh K. Choudhry, MD, PhD, Professor, Harvard Medical School</investigator_title>
+  </responsible_party>
+  <keyword>Benzodiazepine</keyword>
+  <keyword>Sedative hypnotic</keyword>
+  <keyword>Overprescribing</keyword>
+  <keyword>Anticholinergic</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Drug-Related Side Effects and Adverse Reactions</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,296 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03962426</url>
+  </required_header>
+  <id_info>
+    <org_study_id>972_961_PNKT_LKI</org_study_id>
+    <nct_id>NCT03962426</nct_id>
+  </id_info>
+  <brief_title>Efficacy of Social Cognitive Training (SCT) in Recent-onset Psychosis</brief_title>
+  <official_title>Elucidating the Efficacy and Response to Social Cognitive Training (SCT) in Recent Onset Psychosis (ROP)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Ludwig-Maximilians - University of Munich</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Posit Science Corporation</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Ludwig-Maximilians - University of Munich</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Participants with recent onset psychosis (ROP) experience delusions, hallucinations, and
+      impairment in social, cognitive and emotional functioning. Although symptoms often improve
+      following pharmacological intervention, the marked cognitive deficits, that often precede the
+      onset of symptoms, continue to persist despite current treatment methods. Computerized
+      neurocognitive interventions (NCI) are a promising therapeutic approach in participants with
+      chronic schizophrenia and individuals at risk for psychosis. Specifically, focus has shifted
+      to social cognitive training (SCT) as treating social cognition have been shown to provide
+      improvements not only in general cognitive deficits but is also related to improvements in
+      functional outcome (occupational and social). NCIs include non-invasive computerized tasks
+      that are done on a tablet. This intervention can be conducted in a clinical setting, as well
+      as out of the comfort of one's home. Additionally, research has shown that NCIs have the
+      potential to elicit neuroplastic effects on the brain.
+
+      The purpose of this study is to explore the efficacy of a 10-hour SCT in improving the
+      primary outcome measure, global cognition, and secondary outcome measure, global functioning,
+      in ROP participants. It is hypothesized that participants receiving the intervention will
+      show gains in global cognition, as well as the subdomains of social cognition, processing
+      speed, and working memory. Additionally, participants undergoing active intervention are
+      expected to show gains in functional connectivity primarily between the prefrontal cortex and
+      amygdala and other brain areas, that are engaged in social cognition.
+
+      Furthermore, machine learning approach will be used(support vector classification) to
+      investigate how the decision scores of the resting state classifier, indicating health vs.
+      disease proneness, change in response to the training.
+
+      In this randomized controlled trial, participants with a ROP receive a 4-6-week treatment
+      with 10 hours of SCT, with 30-minute sessions 4-5 times per week or treatment as usual (TAU)
+      control condition. Baseline and follow-up (6 weeks after the baseline assessment) assessments
+      include clinical diagnostic and symptom assessment, standard neuropsychological testing, and
+      structural and functional imaging.
+
+      The already recruited part of the ROP sample counts 27 participants in SCT and 27 in the TAU
+      arm. The power analysis recommends to recruit at least 6 more participants in both study
+      arms.
+
+      For the purpose of machine learning part of the analysis an independent psychosis
+      (ROP)-healthy population (HC) classifier will be used, which takes the data from the
+      naturalistic multi-center european study, Personalized Prognostic Tools for Early Psychosis
+      Management, in order to be able to track the decision scores of the intervention SCT sample
+      without risk of overfitting.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">May 2016</start_date>
+  <completion_date type="Anticipated">February 29, 2020</completion_date>
+  <primary_completion_date type="Anticipated">February 29, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Triple (Care Provider, Investigator, Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Global cognition</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>An average of all cognitive domains (social cognition: [DANVA], speed of processing: [TMT-A, VFS, DSST], working memory: [Digit Span tests (Forward and Backward)], verbal learning: [RAVLT immediate recall], Attention: [CPT-IP], executive functioning: [TMT-B, VFP]) will be done to calculate the z-score transformed (from -4 to 4) global cognition score. The change will be made between endpoint and baseline.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Neural effects- Blood Oxygenation Level Dependent (BOLD) images</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>Changes in strength of BOLD images-resting state functional connectivity in the seeds medial prefrontal cortex (mPFC) and amygdala between baseline and follow-up testing. BOLD time series will first be extracted from a 10-millimeter (mm)-radius sphere centered at the coordinates (-1, 47, -4, Montreal Neurological Institute-MNI) for the mPFC. Similarly, BOLD time series will also be extracted for the amygdala, using a 6-mm-radius sphere centered at (-20, -5, -9). Using the Resting-State Data Analysis Toolkit, a correlation map will be produced by computing the Pearson correlation coefficients between the average time course that is extracted for each seed (mPFC and amygdala) and each voxel in the whole brain for every participant. Correlation coefficients will be then converted to z-values using Fisher's r-to-z transform to improve normality and allow for parametric testing. Higher correlational coefficients correspond to higher resting state functional connectivity.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Decision scores of the ROP-HC classifier</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>A linear Support Vector Machine (SVM) algorithm was used to develop an independent model distinguishing healthy control (HC) and recent-onset psychosis (ROP) participants based on resting-state functional connectivity (rsFC). This model will be built to identify disorder-related brain rsFC signatures and depict a spectrum of &quot;HC-likeness&quot; to &quot;ROP-likeness&quot; based on this neuroimaging modality. To measure changes in disorder-related brain signatures as a result of SCT, the HC-ROP classifier will be applied using out-of-sample-cross-validation (OOCV) to the ROP patients in the training study sample. This would allow us to determine whether decision scores of patients who received SCT were more likely to shift across the SVM hyperplane according to their rsFC pattern in a particular direction (ranging from -1.5 to 1.5). Patients in the SCT condition were expected to show greater shifts in the &quot;HC-like&quot; direction (-negative) as opposite to &quot;ROP-like&quot; (+positive).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Global functioning - Social (GF-S) and Role (GF-R)</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>This scale separates social and role functioning in early psychosis spectrum. The scale is rated from 0-10, the social scale assesses aspects of social functioning such as, peer relationships and conflicts, involvement with family and age appropriate intimate relationships. The role scale assesses aspects of role functioning including type of age appropriate role (school/work/homemaking), quality of role. Higher scores represent higher functioning.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Global Assessment of Functioning (GAF)</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>The Global Assessment of Functioning (GAF) is is used to rate symptoms and disability, ranging from the highest of a 100 (extremely high functioning) to the lowest rating 1 (severely impaired). An example of the scoring criterion can be as follows
+- 100 to 91: Superior functioning with no symptoms that impair functioning and 10 to 1: A person is in almost constant danger of hurting themselves or others, has made a serious suicidal act with clear expectation of death, or both (https://www. healthline.com/health/gaf-score/). It is also rated on 3 time points, namely: in lifetime, past year and past month.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Positive and Negative Syndrome Scale (PANSS)</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>The PANSS consists of 30 items meant to gauge the Positive, Negative, and General Psychopathology scales, each rated from 1-7. Higher values indicate higher rate of psychopathology whereas lower values indicate lower rates of psychopathology.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cognitive Domain - Social Cognition (SC)</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>The Diagnostic Analysis of Nonverbal Accuracy (DANVA) is a test of social cognition measuring the ability to read nonverbal social information. Scores range from 0 to 24 correct responses and were z-score transformed based on the study sample. Higher z-scores stand for better performance and lower z-scores stand for worse performance (min -4.0, max +4.0).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cognitive Domain - Speed of Processing (SoP)</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>Speed of processing was based on 3 neurocognitive tests:
+Trail Making Test: Part A (TMT-A)- A test of visual scanning and visuo- motor tracking (time to completion in milliseconds).
+Verbal Fluency: semantic (VFS)- A verbal index of speed of processing. The task is to recite as many words that belong to a particular category (animals) within 60 seconds (# of correct words).
+Wechsler Adult Intelligence Scale, 3rd ed., digit symbol coding task (DSST) - A measure of visuomotor speed within 90 seconds (# correct - maximum 90 items).
+The three scores were z-score transformed based on the study sample and then combined (DSST - TMT-A + VFS). We subtract TMT-A because higher values represent worse performance in this measure, whereas VFS and DSST have higher scores representing better performance. For the z-score transformed scores that we will use higher z-scores stand for better performance and lower z-scores stand for worse performance (min -4.0, max +4.0).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cognitive Domain - Working Memory (WM)</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>Wechsler Memory Scale, 3rd ed., digit span subtest (DS) - A measure of nonverbal working memory (sum of # correct forward and backwards - maximum 15). These scores were z-score transformed based on the study sample. Higher z-scores stand for better performance and lower z-scores stand for worse performance (min -4.0, max +4.0).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cognitive Domain - Verbal Learning (VL)</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>Rey Auditory Verbal Learning Test (RAVLT) - A list of 15 words presented 5 times, which must be recalled from memory (total sum of correctly recalled words across 5 repetitions - maximum 75). These scores were z-score transformed based on the study sample. Higher z-scores stand for better performance and lower z-scores stand for worse performance (min -4.0, max +4.0).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cognitive Domain - Attention (Attn)</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>Continuous Performance Task - Identical Pairs (CPT-IP) - A measure of attention and vigilance using the signal detection index (d' = hits - false alarms). These scores were also z-score transformed based on the study sample. Higher z-scores stand for better performance and lower z-scores stand for worse performance (min -4.0, max +4.0).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cognitive Domain - Executive Functioning (EF)</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>Trail Making Test: Part B (TMT-B) - A test measuring cognitive flexibility and set shifting ability, connecting circles with a line alternating between letters and numbers (time to completion in milliseconds). Verbal Fluency: phonetic (VFP) - A verbal index of executive ability (# correct words). The two scores were z-score transformed based on the study sample and then combined (VFP - TMT-B). We subtract TMT-B because higher values represent worse performance in this measure. Higher z-scores stand for better performance and lower z-scores stand for worse performance (min -4.0, max +4.0).</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">66</enrollment>
+  <condition>Psychosis</condition>
+  <arm_group>
+    <arm_group_label>Social Cognitive Training (SCT)</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>10 hours of computerized SCT using tablet with 30-minute sessions, 4-5 times per week</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Treatment as usual (TAU)</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>This arm is getting treatment as usual, meaning antipsychotic medication (any needed medication in general) and psychotherapy/occupational therapy</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>SocialVille Social Cognitive Training</intervention_name>
+    <description>SocialVille exercises in this study include 4 exercises:
+Recognition: a speeded face matching task
+Face to Face: a speeded facial emotion matching task
+Gaze Match: a speeded gaze matching task
+Face Poke: a continuous performance task with facial expressions</description>
+    <arm_group_label>Social Cognitive Training (SCT)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Language skills sufficient for participation
+
+          -  Sufficient capacity to consent
+
+          -  Presence of Psychotic Syndrome (POPS) based on the Structured Interview for Prodromal
+             Syndromes (any of the Scale of Prodromal Symptoms (SOPS) rated with a 6 + symptoms
+             occurring daily for more than one week AND any of the SOPS scales scored 6 + symptoms
+             seriously disorganizing or dangerous)
+
+        Exclusion Criteria:
+
+          -  Intelligence Quotient (IQ) below 70
+
+          -  insufficient hearing for neuro-cognitive testing
+
+          -  current or past head trauma with loss of consciousness &gt; 5 minutes
+
+          -  current or past known neurological disorder of the brain
+
+          -  current or past known somatic disorder potentially affecting the structure or
+             functioning of the brain
+
+          -  current or past alcohol dependency according to Diagnostic and Statistic Manual
+             (DSM-IV)
+
+          -  polytoxicomania within the past six months
+
+          -  inability to collect MRI data
+
+          -  antipsychotic medication for more than 90 cumulative days at or above the minimum
+             dosage allowed based on guidelines set by the German Association for Psychiatry,
+             Psychotherapy and Psychosomatics (DGPPN)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>15 Years</minimum_age>
+    <maximum_age>40 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Oliver Pogarell, Ph.D.</last_name>
+    <phone>089440053447</phone>
+    <email>oliver.pogarell@med.uni-muenchen.de</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>LudwigMaximilians</name>
+      <address>
+        <city>München</city>
+        <state>Deutschland</state>
+        <zip>80336</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Oliver Pogarell, PhD</last_name>
+      <phone>+49 89 4400</phone>
+      <phone_ext>55540</phone_ext>
+      <email>oliver.pogarell@med.uni-muenchen.de</email>
+    </contact>
+    <contact_backup>
+      <last_name>Thomas Görlitz, Dipl-Ing</last_name>
+      <phone>+49 89 4400</phone>
+      <phone_ext>55861</phone_ext>
+      <email>thomas.goerlitz@med.uni-muenchen.de</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Lana Kambeitz-Ilankovic, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Shalaila S Haas, MSc.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+  </location_countries>
+  <reference>
+    <citation>Koutsouleris N, Kambeitz-Ilankovic L, Ruhrmann S, Rosen M, Ruef A, Dwyer DB, Paolini M, Chisholm K, Kambeitz J, Haidl T, Schmidt A, Gillam J, Schultze-Lutter F, Falkai P, Reiser M, Riecher-Rössler A, Upthegrove R, Hietala J, Salokangas RKR, Pantelis C, Meisenzahl E, Wood SJ, Beque D, Brambilla P, Borgwardt S; PRONIA Consortium. Prediction Models of Functional Outcomes for Individuals in the Clinical High-Risk State for Psychosis or With Recent-Onset Depression: A Multimodal, Multisite Machine Learning Analysis. JAMA Psychiatry. 2018 Nov 1;75(11):1156-1172. doi: 10.1001/jamapsychiatry.2018.2165. Erratum in: JAMA Psychiatry. 2019 May 1;76(5):550.</citation>
+    <PMID>30267047</PMID>
+  </reference>
+  <reference>
+    <citation>Nahum M, Fisher M, Loewy R, Poelke G, Ventura J, Nuechterlein KH, Hooker CI, Green MF, Merzenich M, Vinogradov S. A novel, online social cognitive training program for young adults with schizophrenia: A pilot study. Schizophr Res Cogn. 2014 Mar 1;1(1):e11-e19.</citation>
+    <PMID>25267937</PMID>
+  </reference>
+  <reference>
+    <citation>Ramsay IS, Ma S, Fisher M, Loewy RL, Ragland JD, Niendam T, Carter CS, Vinogradov S. Model selection and prediction of outcomes in recent onset schizophrenia patients who undergo cognitive training. Schizophr Res Cogn. 2017 Nov 8;11:1-5. doi: 10.1016/j.scog.2017.10.001. eCollection 2018 Mar.</citation>
+    <PMID>29159134</PMID>
+  </reference>
+  <verification_date>January 2020</verification_date>
+  <study_first_submitted>May 15, 2019</study_first_submitted>
+  <study_first_submitted_qc>May 21, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 24, 2019</study_first_posted>
+  <last_update_submitted>January 8, 2020</last_update_submitted>
+  <last_update_submitted_qc>January 8, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 10, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Ludwig-Maximilians - University of Munich</investigator_affiliation>
+    <investigator_full_name>Lana Kambeitz-Ilankovic</investigator_full_name>
+    <investigator_title>Principal Investigator ,PhD</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Psychotic Disorders</mesh_term>
+    <mesh_term>Mental Disorders</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Data will be made available on request.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

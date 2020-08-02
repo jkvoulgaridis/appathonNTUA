@@ -1,0 +1,203 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04380181</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CHUB-ped_CS_inotropes</org_study_id>
+    <nct_id>NCT04380181</nct_id>
+  </id_info>
+  <brief_title>Influence of Inotropic Choice on Morbidity and Mortality in Complex Pediatric Heart Surgery</brief_title>
+  <acronym>CHUBpedCSino</acronym>
+  <official_title>Does the Choice of Perioperative Inotropes Has Influence on the Morbidity and Mortality of Infants Operated for Complex Heart Defects?</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brugmann University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Queen Fabiola Children's University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Brugmann University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Our study is based on the observation that management of the cardiopulmonary by-pass
+      withdrawal in pediatric heart surgery is quite variable between medical teams.
+
+      Indeed, in our center (HUDERF), the most common inotropic plan is dobutamine only or
+      combination of milrinone and adrenalin but their uses seem to be very anesthesiologist
+      dependent.
+
+      Despite the lack of sufficient evidence, the choice is probably multi-factorial, based mainly
+      on the inotrope pharmacology, the patient physiopathology and the anesthesiologist
+      preference.
+
+      The aim of this study is to determine if one of these inotropic strategy (dobutamine VS
+      milrinone + adrenaline) is better compared to the other in terms of morbi-mortality.
+
+      In order to do that, the investigators will realize a retrospective study based on files from
+      January 2008 to December 2018 concerning 250 selected patients.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      As use of inotropes is highly variable between anesthesiologists, the investigators want to
+      study if the choice of the inotropic drugs have an impact on morbid-mortality in paediatric
+      cardiac surgery.
+
+      The investigators will retrospectively review the files from patients operated from january
+      2008 to December 2018. The investigators will concentrate on high risk patients defined as
+      age ≤ 1 year, RACHS score ≥ 3 and complex heart surgery (Switch procedure, atrioventricular
+      canal defect, aortic coarctation or aortic arch interruption, truncus arteriosus, mitral
+      valvuloplasty). The investigators aim for a study population of about 250 patients. Primary
+      outcome will be MODS score defined by death or 2 organ dysfunction (circulatory, respiratory
+      or renal failure).
+
+      Statistical analysis:
+
+      One propensity score will be performed on two groups: Dobu and Milri. After 15 multiple
+      imputations of the datasets using the mice R package, the CBPS R package will be used to
+      perform the propensity score, estimating an Average Treatment Effect (ATE), using covariate
+      balancing and requesting an exact match, which has been showed to be superior to traditional
+      logistic regression approaches and boosted classification and regression trees . An absolute
+      standardized difference less than 10-15% will be considered to support the assumption of
+      balance between the groups because it is not affected by the sample size, unlike P-values,
+      and it may be used to compare the relative balance of variables measured in different units.
+      The mean and standard deviation obtained after matching for continuous variables, and the
+      percentage for categorical variables will be presented. After the propensity score, the
+      investigators will use the survey R package to perform logistic regressions for binary
+      outcome variables and linear regressions for continuous outcomes, which will include the
+      treatment group effect, the weight resulting from the matching and variables present in the
+      propensity score in order to obtain a doubly-robust estimator which will correct the last
+      remaining possible imbalance between the covariates and produces an unbiased treatment
+      effect. The survey R package includes the Huber-White corrected standard errors, which
+      maintains the standard errors unbiased even under heterogeneity of the residuals. Last, the
+      advantage of a doubly-robust estimator is that it needs only one of the two models
+      (propensity score and logistic regression after the propensity score) to be correctly
+      specified. The so-called 'within approach', that is averaging the treatment effects on the 15
+      logistic and linear regressions has been showed to produce less biased estimates than the
+      'Across approach' - that is, performing linear or logistic regressions on averaged imputed
+      matched datasets - especially when missing data is related to the treatment group. The R
+      software (R Core Team, 2019), version 3.6.2. will be used to produce the results.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">May 11, 2020</start_date>
+  <completion_date type="Actual">June 10, 2020</completion_date>
+  <primary_completion_date type="Actual">June 5, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>MODS2 score</measure>
+    <time_frame>Weaning from cardiopulmonary bypass in the operating room</time_frame>
+    <description>Impact of the inotropic plan on the morbi-mortality. Use of the MODS2 score who is defined by death or 2 organ's failures: circulation, respiratory or renal</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">250</enrollment>
+  <condition>Pediatric Cardiac Surgery</condition>
+  <arm_group>
+    <arm_group_label>Dobutamine</arm_group_label>
+    <description>Weaning from cardiopulmonary bypass using dobutamine as inotrope.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Milrinone-epinephrine</arm_group_label>
+    <description>Weaning from cardiopulmonary bypass using milrinone and epinephrine as inotropes.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>dobu</intervention_name>
+    <description>Use of dobutamine versus milrinone and epinephrine for separation from cardiopulmonary bypass</description>
+    <arm_group_label>Dobutamine</arm_group_label>
+    <other_name>milrinone-epinephrine</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Children under 1 year undergoing complex cardiac surgery with cardiopulmonary bypass
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Patient under 1 year old. Cardiac surgery with CPB between 2008-2018. RACHS-1 risk
+        categories &gt;3.
+
+        We selected the most relevant and common surgery in our center:
+
+          -  Transposition of the great arteries
+
+          -  Atrio-ventricular canal defect
+
+          -  Aortic coarctation or interruption
+
+          -  Truncus arteriosus
+
+          -  Mitral valvuloplasty
+
+        Exclusion Criteria:
+
+          -  None
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>1 Year</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Hôpital Universitaire des Enfants Reine Fabiola</name>
+      <address>
+        <city>Brussels</city>
+        <zip>1020</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+  </location_countries>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>May 5, 2020</study_first_submitted>
+  <study_first_submitted_qc>May 5, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 8, 2020</study_first_posted>
+  <last_update_submitted>June 10, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 10, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 11, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Brugmann University Hospital</investigator_affiliation>
+    <investigator_full_name>Denis SCHMARTZ</investigator_full_name>
+    <investigator_title>Head, Anesthesiology</investigator_title>
+  </responsible_party>
+  <keyword>pediatric cardiopulmonary bypass</keyword>
+  <keyword>milrinone</keyword>
+  <keyword>dobutamine</keyword>
+  <keyword>epinephrine</keyword>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Milrinone</mesh_term>
+    <mesh_term>Epinephrine</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

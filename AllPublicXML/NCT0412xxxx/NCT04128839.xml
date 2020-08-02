@@ -1,0 +1,312 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04128839</url>
+  </required_header>
+  <id_info>
+    <org_study_id>USDA-NIFA 2017-67018-26367</org_study_id>
+    <nct_id>NCT04128839</nct_id>
+  </id_info>
+  <brief_title>Impacts of Aronia on Inflammation and the Gut Microbiome</brief_title>
+  <official_title>Determining the Gut Microbiota-dependent Impacts of Anthocyanin-rich Aronia Berries on Obese Individuals of Distinct Inflammatory Phenotypes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Montana State University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Montana State University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The overall goal of this project is to determine the inflammation lowering impact of
+      anthocyanin-rich Aronia berries. Inflammation is an underlying mechanism driving the
+      development of several diseases. While an elevation in immune signals in the systemic
+      circulation is commonly attributed to adipose tissue, inflammation is not present in all
+      obese individuals. Adipose tissue must become inflamed, and the inflammation trigger may come
+      from other sources. Microorganisms (microbiome), host tissues, and immune cells residing in
+      the gastrointestinal tract (GIT) are a key source of pro-inflammatory signals that may cause
+      the host organism to become inflamed. Anthocyanins are bioactive compounds with established
+      anti-inflammatory and microbiome altering properties. We hypothesize that the GIT microbiome
+      is a key determinant of host inflammation than can be manipulated by anthocyanins-rich
+      berries to lower inflammation. We assembled a cohort of Low-INF and High-INF individuals and
+      characterize their GIT microbiome and performed anthropometric measurements, basal measures
+      of metabolism and metabolic health, and triglyceridemic, metabolomic, and inflammation
+      responses to a high-fat meal challenge. Following this clinical trial, germ-free mice will be
+      humanized with fecal microbial transplants from humans with distinct inflammation phenotypes
+      to determine the impact of Aronia supplementation on the gut microbiome, metabolism, and
+      inflammation.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Anthropometrics. Measurements were collected from participants using the validated segmental
+      multifrequency bioelectrical impedance analysis (SECA mBCA 515, Hamburg, Germany). Fat mass
+      (%) and estimated visceral adipose (L) were used for analysis.
+
+      High-Fat Meal Challenge. The high-fat meal contained salted butter (58.3 g, Tillamook) over 3
+      pieces of whole wheat toast (127.5 g; Wheat Montana). Total energy content of the meal was
+      714 kcal, with 43.1% from fat, with a macronutrient breakdown of 50 g fat, 54 g carbohydrate,
+      and 12 g protein. Water was provided with the meal; caffeinated black tea was provided
+      instead for participants who identified as habitual coffee consumers.
+
+      Blood Sampling. Participants were instructed to avoid alcohol consumption and strenuous
+      physical activity in the 24 hours before their visit and to complete an overnight fast (10 -
+      12 hours) before blood collection. Participant blood samples were collected by a certified
+      nurse or physician in the morning before ingestion of the meal and hourly for 4 hours after
+      meal ingestion, totaling five time points. Whole blood in serum separating tubes was allowed
+      to clot for 15 minutes before centrifugation at 1200 RPM for 15 minutes with resulting serum
+      aliquoted and stored at -80ºC until analysis.
+
+      Determination of blood markers. Blood markers of metabolic syndrome were determined from
+      whole blood run on Picollo Xpress Chemistry Analyzer lipid panels (Abaxis, Union City, USA).
+      Serum insulin (INS) was determined using an insulin ELISA kit (MP Biomedicals, Solon, OH)
+      performed according to manufacturer instructions. Cytokine measurement was performed using
+      high-sensitivity multiplexing technology (Bio-Rad Bio-Plex 200 HTS) following procedures by
+      Millipore (EMD Millipore Corporation, Billerica, USA). Classic systemic pro-inflammatory
+      cytokines were measured and include granulocyte macrophage colony stimulating factor
+      (GM-CSF), interleukin (IL)-1B, IL-6, tumor necrosis factor (TNF)-α. InterleukinI-17 and
+      IL-23, both of which serve a pro-inflammatory and regulatory role in the gut mucosa, were
+      also measured. Serum samples at each time point during the high-fat meal challenge were run
+      in duplicate.
+
+      Stool Sample Collection. Collection kits were provided and participants were asked to follow
+      included instructions for the self-collection of a stool sample in the 24 hours before their
+      blood collection visit. After initial collection into a sterile disposable commode, a small
+      portion of the sample was transferred into a sterile Eppendorf tube and transported to
+      researchers. Samples were prepared and aliquoted in an anaerobic chamber then frozen at -80ºC
+      until analysis.
+
+      Genomic DNA Extraction and Microbial Analysis. Extraction of bulk DNA from fecal samples was
+      performed using Powersoil DNA Isolation Kit (Mo Bio Laboratories, Inc.) and bead beating. DNA
+      was shipped overnight to the University of Michigan, Michigan Microbiome Project for Illumina
+      MiSeq amplicon sequencing of the 16S rRNA V4 region. After DNA quantification, V4 amplicon
+      libraries were generated with dual-index barcoded primers, then by library purification,
+      pooling, and MiSeq paired-end sequencing. Raw sequencing reads were processed and curated
+      using MOTHUR software (Version 1.35.1) following the MOTHUR standard operating procedure for
+      the MiSeq platform39. In brief review, paired-end reads were assembled into contiguous
+      sequences and screened for length and quality. The remaining contigs were aligned to the
+      SILVA ribosomal RNA database (Release 132), a comprehensive collection of aligned rRNA
+      sequences. Potentially chimeric sequences were identified and removed using the UCHIME
+      algorithm in MOTHUR. Taxonomic classifications were assigned using the Bayesian classifier of
+      the Ribosomal Database Project. Non-target reads were removed, and operational taxonomic
+      units (OTUs) were assigned using VSEARCH distance-based clustering at the 97% similarity
+      threshold. Alpha-, and β- diversity indices were generated using the vegan package in R40. An
+      OTU-based data matrix was constructed for participants included in the ppTG phenotype.
+
+      Metabolomic Analysis. Frozen serum samples were thawed and 20μL was placed in a clean tube.
+      80μL of HPLC grade methanol was added to the sample after which it was vortexed briefly and
+      placed in a -80 C freezer for 2 hours. After two hours, the sample was centrifuged at 20,000g
+      for 10 minutes. The metabolite supernatant was collected and concentrated in a Speed Vac to
+      dryness while the protein pellet was discarded. Samples were then stored at -80 C until ready
+      for LCMS analysis at which time they were reconstituted with 40μL of methanol:water (50:50)
+      and placed in a clean mass spectrometry vial. Analysis was completed on an Agilent 6538 Q-TOF
+      MS coupled to an Agilent 1290 UHPLC using a 130A, 1.7μm, 2.1mm X 10mm Acquity BEH-HILIC HPLC
+      column. Samples were ionized via electrospray ionization and runs were completed in positive
+      mode. Mobile phase A was 15mmol/L ammonium formate and mobile phase B was ACN using a 10-40%
+      A gradient over 6 minutes. Flow was kept at 400µL/minute and the column compartment
+      temperature was set at 30 C. MSMS analysis was completed using the same LC conditions while
+      targeting specific ions using retention time and m/z values from previous MS runs. After LCMS
+      analysis completion, raw data files were converted to .xml files using MSConvert. Data was
+      then mined with mzMine using an intensity minimum value of 1,000 based on a visual inspection
+      of the total ion chromatogram to remove noise. Blank samples were also ran and the resulting
+      features were removed from the biological data if present at a ratio under 5:1 in the sample
+      compared to the blank. Mined data was then input into MetaboAnalyst for statistical analysis.
+      Tandem MS data was analyzed with Sirius software to identify features.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">February 11, 2016</start_date>
+  <completion_date type="Actual">July 2, 2018</completion_date>
+  <primary_completion_date type="Actual">July 2, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Inflammation state</measure>
+    <time_frame>1 day</time_frame>
+    <description>Serum levels of a six cytokine panel: interleukin (IL)-1B, IL-6, IL-17, IL-23, tumor necrosis factor-alpha (TNF-a), granulocyte macrophage-colony stimulating factor (GM-CSF)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>C-reactive protein</measure>
+    <time_frame>1 day</time_frame>
+    <description>C-reactive protein (mg/l)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Gut microbiome</measure>
+    <time_frame>1 day</time_frame>
+    <description>Taxonomic composition of the gut microbiome measured from 16s rRNA sequencing of stool samples</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Gut Metabolome</measure>
+    <time_frame>1 day</time_frame>
+    <description>Stool sample metabolome</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Postprandial TG Response to a High-fat Meal Challenge</measure>
+    <time_frame>1 day</time_frame>
+    <description>TG concentrations before, 1, 2, 3, and 4 hours following consumption of a meal containing 50 g of fat (toast with butter)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Postprandial Inflammation Response to a High-fat Meal Challenge</measure>
+    <time_frame>1 day</time_frame>
+    <description>Cytokine panel (IL-1B, IL-6, IL-17, IL-23, TNF-a, and GM-CSF) before, 1, 2, 3, and 4 hours following consumption of a meal containing 50 g of fat (toast with butter)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Postprandial Metabolomic Response to a High-fat Meal Challenge</measure>
+    <time_frame>1 day</time_frame>
+    <description>Serum metabolome before, 1, 2, 3, and 4 hours following consumption of a meal containing 50 g of fat (toast with butter)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Glycemic control</measure>
+    <time_frame>1 day</time_frame>
+    <description>Hemoglobin A1c (% glycosylation)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Fasting glucose</measure>
+    <time_frame>1 day</time_frame>
+    <description>Fasting serum glucose (mM)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Fasting insulin</measure>
+    <time_frame>1 day</time_frame>
+    <description>Fasting serum insulin (pmol/l)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Lipid panel</measure>
+    <time_frame>1 day</time_frame>
+    <description>Fasting serum TG, LDL, HDL, and total cholesterol</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Fasting metabolites</measure>
+    <time_frame>1 day</time_frame>
+    <description>Serum metabolome measured after an overnight fast</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Cardiorespiratory Fitness</measure>
+    <time_frame>1 day</time_frame>
+    <description>Maximal aerobic capacity (ml of O2 per kg of body mass per min)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Self-reported physical activity</measure>
+    <time_frame>1 day</time_frame>
+    <description>Self report of the number of days each week in which aerobic, strength, and stretching type exercises are performed</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Blood pressure</measure>
+    <time_frame>1 day</time_frame>
+    <description>Resting systolic and diastolic blood pressure (mmHg)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Body composition</measure>
+    <time_frame>1 day</time_frame>
+    <description>Body composition (% fat, %lean)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Height</measure>
+    <time_frame>1 day</time_frame>
+    <description>Height (m)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Weight</measure>
+    <time_frame>1 day</time_frame>
+    <description>Weight (kg)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Waist circumference</measure>
+    <time_frame>1 day</time_frame>
+    <description>Waist circumference (cm)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Visceral adipose tissue</measure>
+    <time_frame>1 day</time_frame>
+    <description>Volume of visceral adipose tissue (l)</description>
+  </primary_outcome>
+  <enrollment type="Actual">40</enrollment>
+  <condition>Metabolic Syndrome</condition>
+  <condition>Inflammation</condition>
+  <condition>Hypertriglyceridemia</condition>
+  <condition>Obesity</condition>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Serum and fecal specimens (gut microbiome DNA)
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Individuals residing in the Bozeman, MT area
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  BMI 28-35 kg/m^2
+
+        Exclusion Criteria:
+
+          -  Antibiotics up to 90 days prior to enrollment
+
+          -  Anti-inflammatory medications
+
+          -  Allergy or intolerance to wheat or dairy
+
+          -  Hormone-based birth control (with exception of intrauterine device)
+
+          -  Pregnant
+
+          -  Heart disease
+
+          -  Other health conditions or concerns that may interfere with study participation
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>55 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Mary P Miles, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Montana State University</affiliation>
+  </overall_official>
+  <verification_date>October 2019</verification_date>
+  <study_first_submitted>October 14, 2019</study_first_submitted>
+  <study_first_submitted_qc>October 15, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 16, 2019</study_first_posted>
+  <last_update_submitted>October 15, 2019</last_update_submitted>
+  <last_update_submitted_qc>October 15, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 18, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>gut microbiome</keyword>
+  <keyword>metabolome</keyword>
+  <keyword>postprandial hypertriglyceridemia</keyword>
+  <keyword>low-grade inflammation</keyword>
+  <keyword>visceral adipose tissue</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Metabolic Syndrome</mesh_term>
+    <mesh_term>Hypertriglyceridemia</mesh_term>
+    <mesh_term>Inflammation</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

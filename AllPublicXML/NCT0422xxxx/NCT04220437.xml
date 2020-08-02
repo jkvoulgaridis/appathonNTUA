@@ -1,0 +1,237 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04220437</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AI-301-ISR</org_study_id>
+    <nct_id>NCT04220437</nct_id>
+  </id_info>
+  <brief_title>Identification of Neoatherosclerosis in ISR Patients Based on Artifical Intelligence</brief_title>
+  <official_title>Identification of Neoatherosclerosis in In-stent Restenosis Patients Based on Artifical Intelligence</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Chinese PLA General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Chinese PLA General Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Based on the large population of patients, in-stent restenosis (ISR) is still an important
+      problem in the field of cardiovascular disease. How to reduce the incidence of ISR and the
+      treatment of ISR has become the focus and hot spot. The 2018 ESC Guidelines for
+      Cardiovascular Intervention recommends treatment of ISR under the guidance of intravascular
+      ultrasound (IVUS), or optical coherent tomography (OCT). Circulation published a new Waksman
+      ISR classification based on mechanisms and components of the restenosis tissue, which
+      provides guidance for treatment strategy. Because of its good resolution, OCT makes it more
+      accurate to distinguish the components of vascular tissue, thus providing a decision-making
+      basis for interventional therapy. OCT examination can obtain the characteristics of the ISR
+      more precisely. Neoatherosclerosis (NA), is one of the ISR types and accounts for more stent
+      failure and target lesion failure than other types. Identification NA is important for
+      decision-making of interventional therapy. However, the acquisition and analysis of OCT
+      images not only need the digital angiography machine (DSA) equipped with the majority of
+      hospitals, but also need professional OCT imaging equipment and technicians. Patients with
+      severely CKD cannot bear OCT examination because of the large amount of contrast agent. OCT
+      catheter is more than ten times the price of the CAG catheter. Therefore, identification of
+      NA by the use of artificial intelligence (AI) is of significance to set therapeutic strategy
+      for ISR patients, especially in patients with CKD. Our study retrospectively analyzed CAG
+      images and OCT images of ISR patients obtained from Jan 1st,2015 to Jan 31st,2020. Identify
+      NA by analyzing OCT images, build up U-net and V-net to analyze the CAG and OCT images, and
+      finally build up an identification system of NA based on CAG images by AI. This study has
+      been approved by Ethics Committee of Chinese PLA General Hospital (S2018-033-01)
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Drug Eluting Stents (DES) reduce the rate of in-stent restenosis (ISR) to 3.6-10%. Based on
+      the large population of patients, ISR is still an important problem in the field of
+      cardiovascular disease. How to reduce the incidence of ISR and the treatment of ISR has
+      become the focus and hot spot. The 2018 ESC Guidelines for Cardiovascular Intervention
+      recommends treatment of ISR under the guidance of intravascular ultrasound (IVUS), or optical
+      coherent tomography (OCT). The European Expert Consensus on Intravascular Imaging, published
+      in 2018, recommends finding the underlying mechanisms of ISR through intravascular imaging
+      guidance (IVUS or OCT), and determining therapeutic strategies based on the mechanisms.
+      Circulation published a new Waksman ISR classification based on mechanisms and components of
+      the restenosis tissue, which provides guidance of treatment strategy. The use of
+      intravascular imaging to identify and classify the types and mechanisms is very important for
+      ISR treatment strategy. Because of its good resolution, OCT makes it more accurate to
+      distinguish the components of vascular tissue, thus providing a decision-making basis for
+      interventional therapy. OCT examination can obtain the characteristics of ISR more precisely.
+      Neoatherosclerosis (NA), is one of the ISR types and accounts for more stent failure and
+      target lesion failure than other types. Identification of NA is important for decision-making
+      of interventional therapy. However, the acquisition and analysis of OCT images not only need
+      the digital angiography machine (DSA) equipped with the majority of hospitals, but also need
+      professional OCT imaging equipment and technicians. Patients with severely CKD cannot bear
+      OCT examination because of the large amount of contrast agent. OCT catheter is more than ten
+      times the price of the CAG catheter. Therefore, identification of NA by the use of artificial
+      intelligence (AI) is of significance to set therapeutic strategy for ISR patients, especially
+      in patients with CKD. Our study retrospectively analyzed CAG images and OCT images of ISR
+      patients obtained from Jan 1st,2015 to Jan 31st,2020. Offline OCT analysis was performed
+      using dedicated software (Light Lab Imaging Inc, Westford, MA). All images were analyzed at
+      every frame in the stents by 2 independent investigators, who were blinded to the
+      angiographic and clinical findings. Identify NA by analyzing OCT images, build up U-net and
+      V-net to analyze the CAG and OCT images, and finally build up an identification system of NA
+      based on CAG images by AI. This study has been approved by Ethics Committee of Chinese PLA
+      General Hospital (S2018-033-01)
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">February 1, 2019</start_date>
+  <completion_date type="Anticipated">December 30, 2020</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The identification of NA</measure>
+    <time_frame>through the study completion, an average of 3 years</time_frame>
+    <description>a neointima containing a diffuse border and a signal‐poor region, with the struts underneath invisible because of the marked signal attenuation</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>neovascularizaion</measure>
+    <time_frame>through the study completion, an average of 3 years</time_frame>
+    <description>diameter 50-300um, cavity in the stent area, not connected with the vasular</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>ISR segment in the CAG images</measure>
+    <time_frame>through the study completion, an average of 3 years</time_frame>
+    <description>the segement in the stent area or within 5mm beside the stent,diameter stenosis rate&gt;50%</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>lipid‐core arc</measure>
+    <time_frame>through the study completion, an average of 3 years</time_frame>
+    <description>To quantify the circumferential extent of NA, the lipid‐core arc was measured at a 0.2‐mm interval throughout the segments showing NA.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Thin‐cap fibroatheroma‐like neointima</measure>
+    <time_frame>through the study completion, an average of 3 years</time_frame>
+    <description>defined as a neointima characterized by a fibrous cap thickness at the thinnest part of &lt;65 μm and an angle of lipid‐laden neointima of &gt;180 degrees</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>macrophage arc</measure>
+    <time_frame>through the study completion, an average of 3 years</time_frame>
+    <description>measured at 0.2‐mm intervals and divided into 5 groups: grade 0, no macrophages; grade 1, localized macrophage accumulation, &lt;30 degrees; grade 2, clustered accumulation, ≥30 and &lt;90 degrees; grade 3, clustered accumulation, ≥90 and &lt;270 degrees; and grade 4, clustered accumulation, ≥270 degrees.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">90</enrollment>
+  <condition>In-stent Restenosis</condition>
+  <condition>Neo-atherosclerosis</condition>
+  <condition>Retrospective</condition>
+  <arm_group>
+    <arm_group_label>CAG and OCT group</arm_group_label>
+    <description>Images of CAG and OCT patients obtained from ISR patients were retrospectively collected and analyzed.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>no interventin</intervention_name>
+    <description>Our stusy analysed the images obtained from ISR patients, no extra intervention was given based on this study.</description>
+    <arm_group_label>CAG and OCT group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        100 patients were enrolled
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        - all gender
+
+        18ys old to 80ys old
+
+        diagnosed of in-stent restenosis based on CAG
+
+        both CAG images and OCT images were obtained in the same patient on the same day
+
+        Exclusion Criteria:
+
+          -  CAG images and OCT images were not obtained on the same day in the same patient
+
+        low quality in CAG images
+
+        low qualitiy in OCT images
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Yundai Chen, M.D</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Chinese PLA General Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Yingqian Zhang, M.D</last_name>
+    <phone>15652505966</phone>
+    <phone_ext>15652505966</phone_ext>
+    <email>niniya731@163.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Hui Hui, PH.D</last_name>
+    <phone>010-55499309</phone>
+    <phone_ext>010-55499309</phone_ext>
+    <email>hui.hui@is.ac.cn</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>The General Hospital of PLA</name>
+      <address>
+        <city>Beijing</city>
+        <zip>100853</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Yundai Chen, MD</last_name>
+      <phone>+8613311119778</phone>
+      <email>cyundai@vip.163.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>January 2020</verification_date>
+  <study_first_submitted>December 21, 2019</study_first_submitted>
+  <study_first_submitted_qc>January 5, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 7, 2020</study_first_posted>
+  <last_update_submitted>January 5, 2020</last_update_submitted>
+  <last_update_submitted_qc>January 5, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 7, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Chinese PLA General Hospital</investigator_affiliation>
+    <investigator_full_name>Yun Dai Chen</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>Neoatherosclerosis</keyword>
+  <keyword>in-stent restenosis</keyword>
+  <keyword>Optical Coherence Tomography</keyword>
+  <keyword>angiography</keyword>
+  <keyword>artificial intelligence</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atherosclerosis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

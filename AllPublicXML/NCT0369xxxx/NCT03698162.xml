@@ -1,0 +1,259 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03698162</url>
+  </required_header>
+  <id_info>
+    <org_study_id>6B-17-2</org_study_id>
+    <secondary_id>NCI-2018-01890</secondary_id>
+    <secondary_id>6B-17-2</secondary_id>
+    <secondary_id>P30CA014089</secondary_id>
+    <secondary_id>R33CA225400</secondary_id>
+    <nct_id>NCT03698162</nct_id>
+  </id_info>
+  <brief_title>Precise DCE-MRI in Diagnosing Participants With Recurrent High Grade Glioma or Melanoma Brain Metastases</brief_title>
+  <official_title>Area B: Precise DCE-MRI Assessment of Brain Tumors</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Southern California</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Cancer Institute (NCI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Southern California</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Dynamic contrast-enhanced (DCE) magnetic resonance imaging (MRI) is a potentially powerful
+      diagnostic tool for the management of brain cancer and other conditions in which the
+      blood-brain barrier is compromised. This trial studies how well precise DCE MRI works in
+      diagnosing participants with high grade glioma that has come back or melanoma that has spread
+      to the brain. The specially-tailored acquisition and reconstruction (STAR) DCE MRI could
+      provide improved assessment of brain tumor status and response to therapy.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      PRIMARY OBJECTIVES:
+
+      I. To optimize and technically validate specially-tailored acquisition and reconstruction
+      (STAR) DCE-MRI based on the accuracy and reproducibility of whole-brain tracer-kinetic (TK)
+      parameter maps.
+
+      SECONDARY OBJECTIVES:
+
+      I. To develop a robust clinical implementation of STAR DCE-MRI. II. To clinically evaluate
+      STAR DCE-MRI in patients with brain tumors.
+
+      OUTLINE: Participants are assigned to 1 of 2 cohorts.
+
+      COHORT I: Participants with recurrent high-grade glioma undergo STAR DCE-MRI every 2 months,
+      and just prior to and 4-6 weeks after starting bevacizumab treatment. If there is concern for
+      tumor progression (i.e. increased contrast enhancement), more frequent MRI scans will be
+      scheduled.
+
+      COHORT II: Participants with melanoma brain metastases undergo STAR DCE-MRI at baseline and
+      4-6 weeks after therapy. Participants may undergo more frequent MRI if there is concern for
+      tumor progression.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 1, 2020</start_date>
+  <completion_date type="Anticipated">May 1, 2023</completion_date>
+  <primary_completion_date type="Anticipated">May 1, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Volume transfer constant (Ktrans)</measure>
+    <time_frame>Up to 3 years</time_frame>
+    <description>The raw data will be acquired at the voxel level. Then the analytic parameters will be extracted from voxel-wise data such as the mean, median, interquartile range, skewness and kurtosis. Receiver-operating characteristic curves (ROC) will be used to illustrate the univariate prediction accuracy for each parameter in predicting the clinically determined outcome. The pattern of change with different clinical response status will be visually illustrated using spaghetti plots or other graphical approaches. Classification and Regression Tree (CART) with 10-fold cross validation will be used for building the final prediction model and determine the diagnostic cut point(s). CART analysis will also include demographics, comorbidity information, and relevant biological variables including sex. The final model accuracy will be assessed using area under the curve (AUC) when fitting a ROC curve using predicted outcome against the actual outcome.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Fractional plasma volume (vp)</measure>
+    <time_frame>Up to 3 years</time_frame>
+    <description>The raw data will be acquired at the voxel level. Then the analytic parameters will be extracted from voxel-wise data such as the mean, median, interquartile range, skewness and kurtosis. ROC will be used to illustrate the univariate prediction accuracy for each parameter in predicting the clinically determined outcome. The pattern of change with different clinical response status will be visually illustrated using spaghetti plots or other graphical approaches. CART with 10-fold cross validation will be used for building the final prediction model and determine the diagnostic cut point(s). CART analysis will also include demographics, comorbidity information, and relevant biological variables including sex. The final model accuracy will be assessed using AUC when fitting a ROC curve using predicted outcome against the actual outcome.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Fractional extravascular-extracellular space volume (ve)</measure>
+    <time_frame>Up to 3 years</time_frame>
+    <description>The raw data will be acquired at the voxel level. Then the analytic parameters will be extracted from voxel-wise data such as the mean, median, interquartile range, skewness and kurtosis. ROC will be used to illustrate the univariate prediction accuracy for each parameter in predicting the clinically determined outcome. The pattern of change with different clinical response status will be visually illustrated using spaghetti plots or other graphical approaches. CART with 10-fold cross validation will be used for building the final prediction model and determine the diagnostic cut point(s). CART analysis will also include demographics, comorbidity information, and relevant biological variables including sex. The final model accuracy will be assessed using AUC when fitting a ROC curve using predicted outcome against the actual outcome.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Model-free initial area under the contrast agent concentration curve (iAUC)</measure>
+    <time_frame>Up to 3 years</time_frame>
+    <description>The raw data will be acquired at the voxel level. Then the analytic parameters will be extracted from voxel-wise data such as the mean, median, interquartile range, skewness and kurtosis. ROC will be used to illustrate the univariate prediction accuracy for each parameter in predicting the clinically determined outcome. The pattern of change with different clinical response status will be visually illustrated using spaghetti plots or other graphical approaches. CART with 10-fold cross validation will be used for building the final prediction model and determine the diagnostic cut point(s). CART analysis will also include demographics, comorbidity information, and relevant biological variables including sex. The final model accuracy will be assessed using AUC when fitting a ROC curve using predicted outcome against the actual outcome.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">150</enrollment>
+  <condition>Brain Metastases</condition>
+  <condition>Glioma of Brain</condition>
+  <condition>Brain Tumor</condition>
+  <condition>Metastatic Melanoma</condition>
+  <arm_group>
+    <arm_group_label>Cohort I (STAR DCE-MRI)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with recurrent high-grade glioma undergo STAR DCE-MRI every 2 months, and just prior to and 4-6 weeks after starting bevacizumab treatment. Participants may undergo more frequent MRI if there is concern for tumor progression.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cohort II (STAR DCE-MRI)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with melanoma brain metastases undergo STAR DCE-MRI at baseline and 4-6 weeks after therapy. Participants may undergo more frequent MRI if there is concern for tumor progression.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Dynamic Contrast-Enhanced Magnetic Resonance Imaging</intervention_name>
+    <description>Undergo STAR DCE-MRI</description>
+    <arm_group_label>Cohort I (STAR DCE-MRI)</arm_group_label>
+    <arm_group_label>Cohort II (STAR DCE-MRI)</arm_group_label>
+    <other_name>DCE MRI</other_name>
+    <other_name>DCE-MRI</other_name>
+    <other_name>DYNAMIC CONTRAST ENHANCED MRI</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Bevacizumab Injection</intervention_name>
+    <description>Bevacizumab will be give to participants who have recurrent high-grade glioma as part of standard of care.</description>
+    <arm_group_label>Cohort I (STAR DCE-MRI)</arm_group_label>
+    <other_name>Avastin</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  COHORT I: Recurrent high-grade glioma (often with thin areas of enhancement) treated
+             with bevacizumab.
+
+          -  COHORT I: We will include adult patients with histopathologically confirmed high-grade
+             glioma with evidence of tumor progression at baseline MRI who will undergo treatment
+             with an anti-angiogenic agent (bevacizumab) with or without concomitant chemotherapy,
+             and Karnofsky Performance Score &gt; 60%.
+
+          -  COHORT I: At least 30 days should have elapsed since prior therapy including surgery
+             and temozolomide chemoradiation.
+
+          -  COHORT I: Satisfactory renal, hepatic, and hematologic function is required.
+
+          -  COHORT II: Melanoma brain metastases (often small and spread throughout the brain)
+             treated with immunotherapy.
+
+          -  COHORT II: We will include adult patients with a tissue-proven history of melanoma who
+             have contrast enhancing brain masses who will undergo treatment with immunotherapy
+             with an anti-CTLA-4 or anti-PD-1 approach (e.g. ipilimumab, pembrolizumab, or
+             nivolumab), and Karnofsky Performance Score &gt; 60%.
+
+          -  COHORT II: At least 30 days should have elapsed since prior therapy including surgery,
+             stereotactic brain irradiation, and corticosteroid use.
+
+        Exclusion Criteria:
+
+          -  COHORT I: Exclusion criteria include treatment with any other anti-cancer treatment,
+             enzyme-inducing antiepileptic agents, anticoagulant treatment, pregnancy, other
+             anti-angiogenesis therapy and prior thrombo-embolic disorders.
+
+          -  COHORT I: Exclusion criteria will include the standard contraindications for MRI: 1)
+             prior work as a machinist or metal worker, or history of metal being removed from the
+             eyes, 2) cardiac pacemaker or internal pacing wires, 3) non-MRI compatible vena cava
+             filter, vascular aneurysm clip, heart valve, spinal or ventricular shunt, optic
+             implant, neuro-stimulator unit, ocular implant, or intrauterine device, or 4)
+             claustrophobia, or uncontrollable motion disorder.
+
+          -  COHORT I: Pregnant women, prisoners, and institutionalized individuals will be
+             excluded.
+
+          -  COHORT II: Exclusion criteria include treatment with any other anti-cancer treatment,
+             and other immunotherapy exclusion criteria.
+
+          -  COHORT II: Non-cutaneous melanomas will be excluded.
+
+          -  COHORT II: Exclusion criteria will include the standard contraindications for MRI: 1)
+             prior work as a machinist or metal worker, or history of metal being removed from the
+             eyes, 2) cardiac pacemaker or internal pacing wires, 3) non-MRI compatible vena cava
+             filter, vascular aneurysm clip, heart valve, spinal or ventricular shunt, optic
+             implant, neuro-stimulator unit, ocular implant, or intrauterine device, or 4)
+             claustrophobia, or uncontrollable motion disorder.
+
+          -  COHORT II: Pregnant women, prisoners, and institutionalized individuals will be
+             excluded.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Krishna Nayak, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Southern California</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Rosy Diaz</last_name>
+    <phone>323-442-7469</phone>
+    <email>Rosaura.diaz@med.usc.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>USC / Norris Comprehensive Cancer Center</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90033</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Krishna Nayak</last_name>
+      <phone>213-740-3494</phone>
+      <email>knayak@usc.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Krishna Nayak</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>October 1, 2018</study_first_submitted>
+  <study_first_submitted_qc>October 3, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 5, 2018</study_first_posted>
+  <last_update_submitted>March 25, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 25, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 27, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Melanoma</mesh_term>
+    <mesh_term>Neoplasm Metastasis</mesh_term>
+    <mesh_term>Glioma</mesh_term>
+    <mesh_term>Brain Neoplasms</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Bevacizumab</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

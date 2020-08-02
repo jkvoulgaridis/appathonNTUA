@@ -1,0 +1,430 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03569839</url>
+  </required_header>
+  <id_info>
+    <org_study_id>0120-438/2017</org_study_id>
+    <nct_id>NCT03569839</nct_id>
+  </id_info>
+  <brief_title>Modeling and Closed-loop Control of Depth of Anaesthesia</brief_title>
+  <official_title>Modeling and Closed-loop Control of Depth of Anaesthesia</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Ljubljana</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Ljubljana</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study evaluates the effect of anaesthetic agents to depth of anaesthesia. An improved
+      PK-PD model wil be developed that will provide the basis for understanding the mechanisms,
+      simulating various scenarios and developing algorithms for better and safer administration of
+      anaesthetic agents.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Scientific background
+
+      An increasing degree of automation and informatisation of dynamical processes enables higher
+      quality of achieved goals, lower costs and lower eventual impact on humans and nature alike.
+      Automatic control is an infrastructural field that comprises mathematical modelling,
+      simulation of dynamical systems and automatic control methods. The systematic approach
+      enables the use of control methods in various technical and nontechnical fields, therefore,
+      the advances in automatic control are very useful in interdisciplinary projects.
+
+      Likewise, there are many processes in medicine that can be improved by automatic control. In
+      the literature, there have been some approaches to closed-loop control of depth of
+      anaesthesia, but none seem to have influenced clinical practice. Within the project the
+      investigators will develop a system for closed-loop control of depth of anaesthesia using BIS
+      index, which will be based on a predictive model and will consider individual properties of
+      each patient that are obtained from the measurements.
+
+      Problem identification
+
+      To perform a general anaesthesia, it is necessary to use substances, which enable deep
+      unconsciousness, analgesia, amnesia and muscle relaxation, all required for performing a
+      surgery or a diagnostic procedure. General anaesthesia and related dynamic activities in the
+      human body is a complicated process, which includes pharmacokinetic and pharmacodynamic
+      mechanisms, which have not been fully studied yet.
+
+      During the general anaesthesia the anaesthesiologist needs to monitor the patient's vital
+      functions and maintain the functions of vital organs. To achieve anaesthesia, substances are
+      introduced in different manners into the patient's body. In clinical practice, the most
+      commonly used methods are the intravenous induction of an anaesthetic agent, i.e., injection
+      of the anaesthetic into a vein, and inhalation induction of anaesthesia, whereby the patient
+      inhales the substance from the breathing mixture. Total intravenous anaesthesia (TIVA) is an
+      anaesthesiologic technique, where substances are injected intravenously.
+
+      The anaesthesiologist needs to adjust the dosage of anaesthetic to maintain the appropriate
+      depth of general anaesthesia according to pharmacokinetics and pharmacodynamics of the
+      anaesthetic agent and considering the type of procedure. Inadequate depth of anaesthesia is
+      manifested with the activation of sympathetic nerves or in the most unlikely event with the
+      patient awakening. Too deep anaesthesia is manifested with a drop in blood pressure level and
+      heart rate frequency as well as slow post-operative awakening of the patient from general
+      anaesthesia. In modern clinical practice, the depth of anaesthesia is determined by assessing
+      the relevant clinical signs (iris, sweating, movements), by interpreting hemodynamic
+      measurements and by estimating the depth of anaesthesia from EEG signals, for which several
+      established measurement systems already exist, e.g. BIS index, Narcotrend, Scale Entropy and
+      Response Entropy. BIS index measurement is a non-invasive method, where a BIS monitor is
+      connected to electrodes on the patient's head. By measuring the EEG signals the bispectral
+      index is defined, representing the depth of anaesthesia. The BIS monitor provides a single
+      dimensionless number, which ranges from 0 (equivalent to EEG silence) to 100. A BIS value
+      between 40 and 60 indicates an appropriate level for general anaesthesia, whereas for
+      long-term sedation due to head injuries a value below 40 is appropriate. The reference can
+      thus be set to the applicable value; the manner and speed of approaching the reference value
+      depend on the specific characteristics of the procedure and the pharmacokinetics and
+      pharmacodynamics of the substance in the patient's body.
+
+      Objective of the proposed research with particular emphasis on the originality of the
+      proposed research and its potential impact for the development of new research directions
+
+      The anaesthesiologist adjusts the injection of intravenous anaesthetic agents regarding the
+      depth of anaesthesia. The closed-loop system for administration of intravenous anaesthetic
+      agent will enable immediate reaction and adjustment of the intravenous anaesthetic flow. In
+      this project the investigators will focus on the closed-loop control of flow in intravenous
+      administration of propofol . Induction of propofol affects the BIS index and an adequate
+      controller sets the infusion pump so that the BIS index follows as closely as possible the
+      trajectory, prescribed by the anaesthesiologist.
+
+      The proposed research project is divided in two parts:
+
+        -  the development of a mathematical model describing the impact of anaesthetic-agent
+           administration on the depth of anaesthesia (BIS);
+
+        -  the development of a closed-loop control system for depth of anaesthesia.
+
+      The first phase will begin with the modelling of dynamics of anaesthetic-agent administration
+      impacting the anaesthetic depth. The advantages of developing a mathematical dynamical model
+      are as follows: better comprehension of the process and its dynamics; the model presents the
+      basis for developing a simulator and for running simulation experiments that are useful in
+      the closed-loop control-system design phase; the dynamical mathematical model can be employed
+      in the control algorithm, especially for predictive control approaches.
+
+      The input of the controller is represented by two signals: the reference value of BIS index
+      and the actual value of BIS index. The controller uses these two signals to calculate the
+      suitable input signal of the infusion pump, which administers propofol with a flow set by the
+      controller. Once the propofol is administered into the body, its level in blood increases and
+      consequently the concentration at the effect site, i.e. central nervous system, increases,
+      too. Changing of the propofol concentration is a dynamic process, which depends on the
+      pharmacokinetic system of the patient. The concentration level of propofol at the effect site
+      represents the input of pharmacodynamic system, describing the depth of anaesthesia, which
+      could be treated as the output of pharmacodynamic system. The depth of anaesthesia affects
+      the brain waves, measured by electrodes for measuring EEG signals. The BIS monitor measures
+      the EEG signals and uses these measurements to establish the BIS index. The induction of
+      other anaesthetic agents (e.g. remifentanil analgesic), which also partially impacts the BIS
+      index, is considered as a disturbance.
+
+      The originality of the expected results
+
+      In this project, the depth of anaesthesia will be treated from 3 perspectives: modelling,
+      simulation, and control.
+
+      The problem of modelling the effect of propofol is described in literature in various ways.
+      Pharmacokinetic and pharmacodynamic models, such as Marsh, Schneider, Kataria, Schüttler,
+      White-Kenny have been developed for such purposes. The models typically define the basic
+      structure of the dynamic operating system of propofol and the parameters depend on individual
+      patients. The values of model's parameters are affected by the patient and his
+      characteristics (weight, height, age, sex etc.) as well as individual sensitivity to propofol
+      and the ability to excrete propofol.
+
+      A mathematical model of propofol affecting the dynamics of depth of anaesthesia will be
+      developed based on the existing models in literature. The investigators will develop the
+      model using classic modelling approaches, such as differential equations with the
+      Laplace-domain and state-space representations, as well as advanced approaches: nonlinear
+      dynamics will be treated using fuzzy logic, namely Takagi-Sugeno models. An appropriately
+      validated dynamical model for propofol activity will be the basis for developing a simulator
+      assisting the anaesthesiologist in safe study of anesthesiologic procedures. It will simplify
+      the understanding of the operating mechanism of propofol and enable testing of different
+      scenarios of administering propofol.
+
+      Several developed pharmacokinetic models are used in certain infusion pumps for target
+      controlled infusion (TCI), where the pump sets the proper flow of the medication with regard
+      to the model. The problem with these models is that they often do not reflect the real
+      dynamics, which also depends on individual sensitivity of the patients to the substance,
+      therefore such approaches, based on open-loop induction, often do not yield the best
+      performance.
+
+      The algorithm for closed-loop control of anaesthetic depth will be based on 2-DOF control,
+      which means that it can be functionally divided into two parts: the feedforward and the
+      feedback part. Hence, the algorithm merges the advantages of both open-loop and closed-loop
+      control. The feedforward part will use the model of propofol to calculate the flow according
+      to BIS index reference trajectory. On the other hand, the feedback part will provide the
+      appropriate flow corrections based on BIS index measurements. The advantage of the proposed
+      approach is that the feedforward part of the control algorithm can bring the actual BIS index
+      value close to the reference trajectory, whereas the feedback part compensates the control
+      error, which occurs due to inaccurate modelling, noise and eventual disturbances on the real
+      system, such as for instance the induction of remifentanil.
+
+      The control algorithm will be based on the developed dynamic model of propofol that will be
+      used for predicting the depth of anaesthesia. By online adaptation of the parameters of the
+      internal dynamic model, the algorithm will consider the individual patient's response to
+      propofol, estimated from the measurements during the procedure.
+
+      Working methods
+
+      The project work will begin with modelling and simulation studies of propofol effects. The
+      modelling procedure will involve theoretical and experimental approaches. Within the
+      theoretical modelling framework, the investigators will use the knowledge on pharmacokinetic
+      and pharmacodynamic mechanisms, whereas the experimental approach will complement the
+      theoretical one by using the appropriate measurements for identifying the structure and the
+      parameters of the model. Mathematical modelling of complex systems is an iterative procedure,
+      requiring verification and validation of the developed model in every consecutive step. The
+      quality of the data, obtained from suitably designed experiments, is of utmost importance.
+      The measured signals must be properly synchronized, appropriately filtered, sampled and
+      informationally-adequate segments have to be selected for identification.
+
+      The developed model will be tested in the Matlab-Simulink environment. The virtual simulation
+      environment will enable various experiments for validation of the model behaviour and
+      comparison to the measured dynamics of depth of anaesthesia. The investigators will develop a
+      user interface that will facilitate the conduction of simulation experiments. The developed
+      system for closed-loop control of depth of anaesthesia will be first tested in a virtual
+      environment. Finally, the investigators will also test it - under anaesthesiological
+      supervision - in clinical practice.
+
+      The anaesthesiological protocol with detailed descriptions of the course of operation and
+      induction of particular agents is described in the application that is being considered at
+      the National Medical Ethics Committee of Slovenia. Due to space restrictions the
+      aforementioned details are not stated here.
+
+      Relevance and potential impact of the results
+
+      Despite the obvious advantages of closed-loop control of anaesthetic depth, such approaches
+      are not yet used in clinical practice. Hence, the main result of this project will be the
+      development and the study of implementation potential of closed-loop control system for depth
+      of anaesthesia, based on BIS index measurements. In the first part of the project the
+      investigators will develop dynamical model dealing with the effects of anaesthesiological
+      agents on the depth of anaesthesia, whereas the second part will be devoted to the
+      development of a system for closed-loop control of depth of anaesthesia. The developed model
+      will be validated by comparing its outputs it to the measurements of dynamical processes on
+      real patients. Finally, the performance of the closed-loop control system will be assessed in
+      clinical practice.
+
+      We expect that by using the proposed concept of closed-loop control of depth of anaesthesia,
+      which is measured by BIS index and controlled by propofol administration, a better course of
+      depth anaesthesia than in manual operation will be achieved. The control system will avoid
+      excessive overshoots of BIS index trajectory, react instantly to unexpected dynamic
+      behaviour, effectively compensate disturbances and consider a priori unknown pharmacokinetic
+      and pharmacodynamic properties of a particular patient. On the other hand, the
+      anaesthesiologist will be notified only in cases of unpredicted value of BIS index or
+      propofol flow outside the prescribed constraints. In such a manner, the anaesthesiologist
+      will be able to devote his attention to other critical aspects of anaesthesia. Although the
+      anaesthesiologist will not have to continuously monitor the BIS index value, the automatic
+      system will decrease the deviation of depth of anaesthesia from the desired value. Improved
+      tracking of the reference trajectory will certainly be beneficial for the patients as it will
+      decrease the possibility of being awake during the procedure and at the same time prevent
+      excessive administration of propofol, which will ease the postoperative recovery and adverse
+      events of propofol. It will also decrease the amount of propofol used during the procedure.
+
+      Exceptional socio-economic or culturally relevant achievements of the project leader
+
+      The main field of research of the project leader Assist. Prof. Dr. Gorazd Karer are
+      modelling, simulation and control of dynamical systems. Since his PhD defence in 2009 he has
+      been intensively working especially on advanced approaches to mathematical modelling and on
+      control of dynamical processes. He is the author or co-author of 16 scientific papers, 28
+      conference papers, 1 scientific monograph, 1 chapter in a scientific monograph, 1
+      terminological dictionary, 3 studies and the supervisor of 14 successfully defended bachelor
+      theses.
+
+      He is involved in several courses in the field of modelling, system theory and automatic
+      control at the Faculty of Electrical Engineering, University of Ljubljana. The courses
+      Automatic Control Systems and Automatic Control are the basic courses in the Control
+      Engineering study programme. The courses Control Systems Instrumentation and Control
+      Technology Instrumentation deal with technological aspects and sensors. The courses Modelling
+      and Signal Processing and Modelling Methods treat modelling of dynamical systems. The
+      approaches from the latter will be useful especially for the first stage of the research
+      project.
+
+      In 2013, he published a scientific monograph with Springer Verlag titled Predictive
+      Approaches to Control of Complex Systems with his co-author Prof. Dr. Igor Škrjanc. The
+      monograph has been favourably accepted in the scientific community as it has been downloaded
+      in electronic form more than 11.000 times since it had been made available online at
+      Springer. The monograph deals with advanced control algorithms for systems with complex
+      dynamics, which also include the dynamic processes during anaesthesia. Therefore, the
+      approaches described in the monograph represent an excellent basis for the development of a
+      system for closed-loop control of depth of anaesthesia proposed in this project.
+
+      He was the initiator and one of the authors of the Dictionary of automatic control, systems
+      and robotics, published in 2014. In the preparation phase, the Terminological Section of the
+      Fran Ramovš Institute of the Slovenian Language at the Research Centre of the Slovenian
+      Academy of Sciences and Arts (ZRC SAZU) was involved. During the project he was intensively
+      working on the terminological definitions of concepts from his research field. Such a
+      terminological experience facilitates the communication in interdisciplinary teams,
+      especially with co-workers that are not familiar with the field of automatic control.
+      Therefore, it will also benefit the cooperation with anaesthesiologist involved in the
+      proposed project.
+
+      He was the secretary of the Automatic Control Society of Slovenia from 2010 to 2014 and has
+      been a member of the Executive Committee since 2014. The contacts within the society enable
+      connections to the experts working in the field of automatic control both in academia and in
+      industry, which provides a good overview of the state of automatic control in Slovenia.
+
+      He was involved in the Competence Centre for Advanced Control Technologies, where a control
+      approach, based on key performance indicators (KPI) and dynamic model identification was
+      developed. The approach is conceptually related to the proposed closed-loop control system
+      for depth of anaesthesia. The methods for acquiring knowledge from the history of KPI will
+      also be useful for developing the proposed control system, of course by considering the
+      anaesthesia-related particularities and by involving the knowledge of the collaborating
+      anaesthesiologists.
+
+      Organisational structure and feasibility of the project
+
+      The project will be realized in collaboration with a research group at the Department of
+      Anaesthesiology and Surgical Intensive Therapy (KOAIT) at the University Medical Centre (UKC)
+      Ljubljana, led by As. Dr. Iztok Potočnik. The group consists of anaesthesiologists that have
+      access to the equipment needed for the theoretical results of the project and the simulation
+      studies to be clinically validated. The clinical part of the research will be carried out at
+      the Department of Ophthalmology UKC Ljubljana for vitroretinal surgeries, at the
+      Neurosurgical Department UKC Ljubljana for patients undergoing surgery due to expansive
+      processes in the head, and at the Intensive Care Unit KOAIT UKC Ljubljana for patients
+      needing long-term sedation due to head injuries. For establishing the plasmatic
+      concentrations of anaesthetic agents the investigators will cooperate with the Institute of
+      Clinical Chemistry and Biochemistry UKC Ljubljana. The first measurements will be conducted
+      after obtaining the approval from the National Medical Ethics Committee of Slovenia.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date type="Actual">September 14, 2017</start_date>
+  <completion_date type="Anticipated">December 2019</completion_date>
+  <primary_completion_date type="Anticipated">December 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Depth of anaesthesia</measure>
+    <time_frame>Duration of operation.</time_frame>
+    <description>Depth of anaesthesia is primarily assessed by measuring the BIS index and hemodynamic signals.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Inflow of anaesthetic agents and the relevant concentrations</measure>
+    <time_frame>Duration of operation.</time_frame>
+    <description>The inflow of the agents (e.g. propofol, remifentanil) is measured by infusion pumps. The appropriate concentrations (plasmatic and effect-site) are calculated by the relevant PK models and the effect of the agents is assessed using PD models. The concentrations are compared to the measurements.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>The Focus is to Develop a Closed-loop Control System for Anaesthesia in Vitroretinal Surgery, Surgery Due to Expansive Processes in Head, and Long-term Sedation</condition>
+  <arm_group>
+    <arm_group_label>Patients undergoing surgery</arm_group_label>
+    <description>Patients subject to TIVA</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Propofol</intervention_name>
+    <description>Patients undergoing surgery, TIVA (total intravenous anaesthesia)</description>
+    <arm_group_label>Patients undergoing surgery</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients from the University medical centre Ljubljana planned for vitroretinal surgery,
+        brain surgery or sedation in ICU.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  patients having vitroretinal surgery in general anaesthesia
+
+          -  patients having brain surgery in general anaesthesia
+
+          -  patients needing sedation in ICU
+
+          -  ASA 1-3
+
+        Exclusion Criteria:
+
+          -  ASA &gt; 3
+
+          -  BMI &gt; 35
+
+          -  drug addicts
+
+          -  patients taking psychotropic medicines
+
+          -  patients taking opioid analgesics (including tramadol)
+
+          -  severe psychiatric disease
+
+          -  central nervous system disease (except the reason for surgery)
+
+          -  arrhythmia affecting or preventing the measurements (e.g. chronic atrial fibrillation)
+
+          -  patients that received benzodiazepines
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Gorazd Karer</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Ljubljana</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Iztok Potočnik</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Medical Centre Ljubljana</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Iztok Potočnik</last_name>
+    <phone>+386 1 522 87 75</phone>
+    <email>iztok.potocnik@kclj.si</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>University Medical Centre Ljubljana</name>
+      <address>
+        <city>Ljubljana</city>
+        <zip>1000</zip>
+        <country>Slovenia</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Iztok Potočnik</last_name>
+      <email>iztok.potocnik@kclj.si</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Slovenia</country>
+  </location_countries>
+  <verification_date>July 2018</verification_date>
+  <study_first_submitted>June 14, 2018</study_first_submitted>
+  <study_first_submitted_qc>June 14, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 26, 2018</study_first_posted>
+  <last_update_submitted>July 4, 2018</last_update_submitted>
+  <last_update_submitted_qc>July 4, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 6, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Propofol</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Data obtainable upon request. Possibility of sharing publicly available database on a website.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

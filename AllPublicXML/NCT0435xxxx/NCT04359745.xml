@@ -1,0 +1,193 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04359745</url>
+  </required_header>
+  <id_info>
+    <org_study_id>3.0 04/09/18</org_study_id>
+    <nct_id>NCT04359745</nct_id>
+  </id_info>
+  <brief_title>Improving Treatment of Glioblastoma: Distinguishing Progression From Pseudoprogression</brief_title>
+  <official_title>Improving Treatment of Glioblastoma by Distinguishing Progression From Pseudoprogression by Applying Machine Learning Techniques to Routine Clinical Data</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Guy's and St Thomas' NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>King's College London</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Guy's and St Thomas' NHS Foundation Trust</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Glioblastoma is the most aggressive kind of brain cancer and leads on average to 20 years of
+      life lost, more than any other cancer. MRI images of the brain are taken before the
+      operation, and every few months after treatment, to see if the cancer regrows. It can be hard
+      for doctors to tell if what they see in these images represent growing cancer or a sideeffect
+      of treatment. The similarity of the appearance of the treatment side-effects to cancer is
+      confusing and is known as &quot;pseudoprogression&quot; (as opposed to true cancer progression).
+
+      If doctors mistake the appearance of treatment side-effects for growing cancer, they may
+      think that the treatment is failing and change the patient's treatment too early or put them
+      into a clinical trial. This means that patients may not be given the full treatment and the
+      results from some clinical trials cannot be trusted.
+
+      The aim of this study is to provide doctors with a computer program that will use MRI images
+      of the brain that are routinely obtained throughout treatment, in order to help them more
+      accurately identify when the cancer regrows.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The impact of pseudoprogression is significant on patient care and medical research. The
+      existing evidence shows that it is feasible to use Support Vector Machine and Deep Learning
+      classification models for predicting survival using routine MRI images as well as
+      differentiating progression from pseudoprogression. The investigators wish to capture signal
+      changing over time in routine MRI images using parametric response maps (via a
+      state-of-the-art postoperative-to preoperative image registration method that they have
+      developed) and use such classifiers to differentiate progression from pseudoprogression. The
+      research the investigators are proposing is needed in order to provide a solution to the
+      problem of pseudoprogression and be implemented across the NHS easily and efficiently.
+      Importantly, this does not depend on advanced imaging techniques.
+
+      Data collected at KCH from the last 24 months shows that, even at a leading glioma imaging
+      centre, only 66% of patients had advanced imaging (e.g. DSC-MRI) performed at the time of
+      increase in contrast-enhancement i.e. possible progression. The primary aim of this research
+      is to use routine clinical MRI data in order to train the classifier. This will increase the
+      utility of the classifier, as such routine MRI data can be acquired by all imaging centres,
+      and the new classifier can therefore provide a much more cost-efficient solution than an
+      alternative classifier which may depend on advanced imaging techniques.
+
+      Initial training, testing and cross validation of a classification model will be carried out
+      using MRI data of glioblastoma obtained from publicly-accessible imaging archives and King's
+      College Hospital (KCH), London. For clinical validation, the trained model will undergo
+      testing using MRI data from patients recruited prospectively.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 21, 2019</start_date>
+  <completion_date type="Anticipated">May 26, 2023</completion_date>
+  <primary_completion_date type="Anticipated">May 26, 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy of the artificial intelligence model</measure>
+    <time_frame>Up to 36 months</time_frame>
+    <description>Defined by a confusion matrix of sensitivity and specificity to true positives and true negatives.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Failure rate of the artificial intelligence model</measure>
+    <time_frame>Up to 36 months</time_frame>
+    <description>The rate which the test cannot provide an outcome (e.g. due to poor quality or missing data)</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Glioblastoma</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with high-grade glioblastoma
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Diagnosed with glioblastoma (World Health Organisation grade IV)
+
+          -  Patient undergoing the standard Stupp treatment regimen
+
+          -  Have had a pre-surgery scan and at least one follow-up scan post-chemoradiation
+
+        Exclusion Criteria:
+
+          -  Insufficient clinical and radiological follow-up
+
+          -  There is deviation from the standard Stupp regimen (for example if recruited into
+             phase 2 trials)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Thomas C Booth, Dr</last_name>
+    <phone>02078489568</phone>
+    <email>thomas.booth@kcl.ac.uk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Haris Shuaib, MSc</last_name>
+    <email>mohammad_haris.shuaib@kcl.ac.uk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Guy's and St Thomas' NHS Foundation Trust</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Haris Shuaib, Msc</last_name>
+      <email>mohammad_haris.shuaib@kcl.ac.uk</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>King's College Hospital NHS Trust</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Thomas Booth, Dr</last_name>
+      <email>thomas.booth@kcl.ac.uk</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>April 21, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 21, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 24, 2020</study_first_posted>
+  <last_update_submitted>April 23, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 23, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 27, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>MRI imaging</keyword>
+  <keyword>Glioblastoma</keyword>
+  <keyword>Glioma</keyword>
+  <keyword>Neoplasms</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Glioblastoma</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Fully anonymised datasets (including imaging and relevant clinical data) may be shared at the end of the study with public repositories for the purposes of furthering research and extending collaborations as long as all the regulations related to the database have been fully approved by the HRA and REC.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

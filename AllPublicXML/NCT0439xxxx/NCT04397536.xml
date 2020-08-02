@@ -1,0 +1,221 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04397536</url>
+  </required_header>
+  <id_info>
+    <org_study_id>APHP190613</org_study_id>
+    <nct_id>NCT04397536</nct_id>
+  </id_info>
+  <brief_title>New Genomic Techniques and Management of Multidrug-resistant Tuberculosis</brief_title>
+  <acronym>GENO-MDR</acronym>
+  <official_title>Impact of New Genomic Tools on the Management of Patients With Multidrug-resistant Tuberculosis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Assistance Publique - Hôpitaux de Paris</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Assistance Publique - Hôpitaux de Paris</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In the context of the emergence of cases of multidrug-resistant tuberculosis (MDR-TB) it is
+      crucial to improve patient's management. Therefore, assessing the place of innovative
+      strategies enabling the diagnosis of those cases (e.g. WGS and Deeplex-MycTB) in the
+      personalized care of patients with MDR-TB and the rationalization of medical biology
+      procedures is a major issue. This project participates to these goals since the investigators
+      will : (i) assess the diagnostic qualities and the performance of the different innovatives
+      strategies enabling detection of resistance to anti-tuberculosis drugs, (ii) assess the
+      impact of these strategies in the implementation of personalized treatments for MDR-TB
+      patients, and (iii) assess the overall costs of these strategies.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Non-interventional monocentric study on the evaluation of the reliability and validity of a
+      diagnostic test based on a biological collection of M. tuberculosis MDR strains received at
+      the NRC-MyRMA. The study will apply to all strains and samples of multidrug-resistant M.
+      tuberculosis detected in France. These strains are all sent to NRC-MyRMA (National Reference
+      Center for Mycobacteria and resistance to anti-tuberculosis drugs) for Drug Susceptibility
+      testing (DST) to first and second line anti-tuberculosis drugs in accordance with the
+      national guidelines.
+
+      Currently, a genotypic and phenotypic diagnosis of antibiotic resistance is carried out upon
+      receipt of a strain of M. tuberculosis MDR at CNR-MyRMA, respectively by PCR-sequence
+      techniques and commercial kits and by phenotypic antibiogram by the method of reference
+      called proportions. In the case of a sample, only the genotypic diagnosis is immediately
+      feasible, the realization of the phenotypic diagnosis can only be carried out from a strain,
+      so the investigators must wait for a positive culture to be obtained.
+
+      In addition to this current strategy, two innovative strategies based on the sequencing of
+      the complete genome of the strains (WGS and Deeplex-MycTB) will be implemented. These
+      analyzes will not require an additional patient's samples.
+
+      The sensitivities and specificities and the area under the ROC curve of the different tests,
+      with respect to each resistance, will be calculated and their confidence interval will be
+      estimated by bootstrap. The comparison of the sensitivities, specificities and areas under
+      the curve between the different techniques will be carried out by a Gaussian test based on a
+      bootstrap. The agreement between the different tests will be measured by calculating a Cohen
+      kappa. A Kappa confidence interval will be estimated by bootstrap. The Kappa between each
+      genotypic method and the phenotypic method will be compared by a Gaussian test based on a
+      bootstrap.
+
+      The comparison of the results reporting times will be done by a comparison test of the
+      symmetry of the rows with respect to the median value (Mann Whithney Wilcoxon test.
+
+      In general, the quantitative variables will be described by the classic position measurements
+      (mean, median, 1st and 3rd quartile, minimum and maximum) and dispersion measures (standard
+      deviation). Qualitative variables will be described in terms of absolute value and
+      percentage.
+
+      Degree of statistical significance:
+
+      The significance level for the tests will be set for an alpha of 0.05.
+
+      Software:
+
+      All analyzes will be done at the URC on SAS software or R software in their latest version
+      available at the time they are performed.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">September 1, 2020</start_date>
+  <completion_date type="Anticipated">December 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">September 1, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity for the detection of bedaquiline resistance</measure>
+    <time_frame>At the end enrollment</time_frame>
+    <description>The sensitivity of WGS-based strategies will be compared to phenotypic strategy for the detection of bedaquiline's resistance</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Performances (deadlines to obtain results, sensitivity, specificity) to identify the species within the tuberculosis complex, and to diagnose resistance to anti-tuberculosis drugs</measure>
+    <time_frame>At the end enrollment</time_frame>
+    <description>Comparison of the performances (deadlines to obtain results, sensitivity, specificity) of WGS and Deeplex-MycTB strategies compared to the performances of the phenotypic reference method, to identify the species within the tuberculosis complex, and to diagnose resistance to anti-tuberculosis drugs from bacterial cultures and directly from positive samples on microscopic examination</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of anti-tuberculosis days</measure>
+    <time_frame>At the end enrollment</time_frame>
+    <description>Comparison of the number of anti-tuberculosis days that would have been prescribed by excess or by error between the date when the genotypic drug susceptibility testing results are available and the reception of the sample or strain for each of the strategies, and the date when the final drug susceptibility results are available (i.e. those obtained with the phenotypic method which is the reference method)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Performances (sensitivity, specificity) of the WGS strategy by using different pipelines</measure>
+    <time_frame>At the end enrollment</time_frame>
+    <description>The sensitivity and the specificity of the WGS results analysed with different pipeline ((BioNumerics, TB-Profiler, PhyResSe) as well as CNR-MyrMA own pipeline) will be compared to the drug susceptibility testing result of the phenotypic method, which is the reference method</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of laboratory procedures</measure>
+    <time_frame>At the end enrollment</time_frame>
+    <description>Number of laboratory procedures performed for WGS and Deeplex-MycTB strategies compared to the number of procedures performed for the current genotypic strategy used at the CNR-MyrMA</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Costs of personal time and laboratory procedures</measure>
+    <time_frame>At the end enrollment</time_frame>
+    <description>Costs of personal time (medical and non-medical) and laboratory procedures required for WGS and Deeplex-MycTB strategies compared to costs of personal time and laboratory procedures required for the genotypic methods used at CNR-MyrMA</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">172</enrollment>
+  <condition>Multi-Drug Resistant Tuberculosis</condition>
+  <arm_group>
+    <arm_group_label>Cohort</arm_group_label>
+    <description>Patients diagnosed with MDR-TB</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All the patients diagnosed with MDR-TB in France during the frame time of the project
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  age ≥ 18 years ;
+
+          -  patient with bacteriologically proven tuberculosis due to a multidrug resistance
+             strain (i.e. resistant to rifampin and isoniazid)
+
+          -  patient informed of the study and not opposed to participating in the research
+
+        Exclusion Criteria:
+
+          -  Patient with non MDR tuberculosis ;
+
+          -  Impossibility of carrying out a phenotypic antibiogram (absence of bacterial culture,
+             contaminated culture)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Alexandra AUBRY, Pr</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Pitié Salpêtrière Hospital AP-HP</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Alexandra AUBRY, Pr</last_name>
+    <phone>01 42 16 20 70</phone>
+    <email>alexandra.aubry@aphp.fr</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Pitié Salpêtrière Hospital</name>
+      <address>
+        <city>Paris</city>
+        <zip>75013</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Alexandra AUBRY, Pr</last_name>
+      <phone>01 42 16 20 70</phone>
+      <email>alexandra.aubry@aphp.fr</email>
+    </contact>
+    <contact_backup>
+      <last_name>Wladimir SOUGAKOFF, Dr</last_name>
+      <phone>01 42 16 20 70</phone>
+      <email>wladimir.sougakoff@sorbonne-universite.fr</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>May 2020</verification_date>
+  <study_first_submitted>May 12, 2020</study_first_submitted>
+  <study_first_submitted_qc>May 19, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 21, 2020</study_first_posted>
+  <last_update_submitted>May 19, 2020</last_update_submitted>
+  <last_update_submitted_qc>May 19, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 21, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Tuberculosis</keyword>
+  <keyword>Multi-Drug Resistance</keyword>
+  <keyword>Diagnosis</keyword>
+  <keyword>Whole Genome</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Tuberculosis</mesh_term>
+    <mesh_term>Tuberculosis, Multidrug-Resistant</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

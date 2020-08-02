@@ -1,0 +1,266 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03591250</url>
+  </required_header>
+  <id_info>
+    <org_study_id>38RC17.321</org_study_id>
+    <secondary_id>2017-A02831-52</secondary_id>
+    <nct_id>NCT03591250</nct_id>
+  </id_info>
+  <brief_title>Healthcare Renunciation in Respiratory Chronic Disease and Treatment Compliance (OBSERVE)</brief_title>
+  <acronym>OBSERVE</acronym>
+  <official_title>Healthcare Renunciation in Patient With Respiratory Chronic Disease and Treatment Compliance</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Grenoble</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>AGIR à Dom</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital, Grenoble</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Health care renunciation is a factor that can alter patients' health status and increase the
+      costs of its support.
+
+      To date, there is no national data on the renunciation of care. This study will initially
+      characterize the different forms of health care renunciation in patients with chronic
+      respiratory diseases, treated with continuous positive airway pressure (CPAP) or non-invasive
+      ventilation (NIV) , and analyze it impact on treatment compliance and health processes.
+
+      The follow-up of these patients during 5 years will define renunciation trajectories
+      (transition from the state of &quot;renouncing&quot; to &quot;non-renouncing&quot; and vice versa) and their
+      impact on treatment compliance.
+
+      The investigators hypothesize that a patient becoming renounced on a given treatment also
+      decreases his treatment compliance (CPAP or NIV ).
+
+      The impact of the renunciation trajectory on the patient's follow-up in terms of
+      hospitalizations and deaths will also be studied.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      A questionnaire of health care renunciation will be administered to the patient at Day 0 and
+      each year during 5 years, to determine whether or not he has given up one or more care in the
+      last 12 months.
+
+      The compliance to the CPAP or NIV will be extracted from the database of the Health care
+      provider (AGIR à dom).
+
+      The primary outcome is to determine the impact of health care renunciation on treatment
+      compliance and overall health care processes.
+
+      The analysis of the primary outcome (compliance) will be performed using a simple or
+      generalized linear model (based on its observed distribution). Variables most associated with
+      compliance will be introduced into a multivariate model, including healthcare renunciation
+      variables.
+
+      For the secondary objective (identifying the determinants of cessation of health care) a
+      first approach based on unsupervised learning will make it possible to classify patients
+      according to homogeneous profiles on the basis of the different information collected.
+
+      A classical multivariate analysis using a hierarchical logistic regression model will
+      quantify the weight of the different determinants in the renunciation of care. Finally, an
+      exploratory approach based on structural equation models based on latent variables will be
+      implemented to establish the direct and indirect relationships of the different qualitative
+      determinants collected in the questionnaires on caregiving.
+
+      Regarding the longitudinal approach, this will be the subject of several analysis steps.
+      Firstly, on an annual basis, a descriptive analysis will be carried out to investigate the
+      determinants of the cessation of care according to the status of patients (renouncing or not
+      renouncing) the previous year. Regarding the five-year follow-up, mixed models will be used
+      to identify different trajectories of patients with regard to the renunciation of care from
+      the initial follow-up and to study their impact on the prognosis at 5 years in terms of
+      deaths and number hospitalizations
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">June 7, 2018</start_date>
+  <completion_date type="Anticipated">November 8, 2024</completion_date>
+  <primary_completion_date type="Actual">November 8, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Treatment compliance to CPAP or NIV</measure>
+    <time_frame>Baseline and 1 year</time_frame>
+    <description>Extracted from the database of AGIR à dom</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Age (years)</measure>
+    <time_frame>Baseline and 1 year</time_frame>
+    <description>This variable will be used to characterize the different forms of health care renunciation and analyze its impact on treatment compliance and overall care processes in patients with chronic respiratory diseases.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Gender (male/female)</measure>
+    <time_frame>Baseline</time_frame>
+    <description>This variable will be used to characterize the different forms of health care renunciation and analyze its impact on treatment compliance and overall care</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Type of housing (urban , peri-urban or non-urban)</measure>
+    <time_frame>Baseline and 1 year</time_frame>
+    <description>This variable will be defined via the patient's address and used to characterize the different forms of health care renunciation and analyze its impact on treatment compliance and overall care</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Type of pathology (OSAS, Respiratory failure)</measure>
+    <time_frame>Baseline and 1 year</time_frame>
+    <description>This variable will be used to characterize the different forms of health care renunciation and analyze its impact on treatment compliance and overall care</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of hospitalizations per year</measure>
+    <time_frame>Baseline and 1 year</time_frame>
+    <description>This variable will be used to characterize the different forms of health care renunciation and analyze its impact on treatment compliance and overall care</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>BMI (Kg/m^2)</measure>
+    <time_frame>Baseline and 1 year</time_frame>
+    <description>This variable will be used to characterize the different forms of health care renunciation and analyze its impact on treatment compliance and overall care</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Epworth Sleepiness Scale (ESS)</measure>
+    <time_frame>Baseline and 1 year</time_frame>
+    <description>This scale range from 0 to 24 . ESS from 0 to 5 is interpreted as a lower normal daytime Sleepiness ESS from 6 to 10 is interpreted as a higher Normal Daytime Sleepiness ESS from 11 to 12 is interpreted as a mild Excessive Daytime Sleepiness ESS from 13 to 15 is interpreted as a moderate Excessive Daytime Sleepiness ESS from 16 to 24 is interpreted as a severe Excessive Daytime Sleepiness
+This variable will be used to characterize the different forms of health care renunciation and analyze its impact on treatment compliance and overall care</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>AHI (event/hour)</measure>
+    <time_frame>Baseline and 1 year</time_frame>
+    <description>This variable will be used to characterize the different forms of health care renunciation and analyze its impact on treatment compliance and overall care .
+The interpretation of the score :
+Score from 0 to 6: Good sleep; score 7 to 8: average; score&gt; 9: Risk of pathological somnolence.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Socio-Professional Category</measure>
+    <time_frame>Baseline and 1 year</time_frame>
+    <description>The modalities of the variables are :
+Farmers
+Craftsmen, traders and entrepreneurs
+Senior Managers and Professional Occupations
+Intermediate professions employees
+Workers
+Retired
+Other people without professional activity This variable will be used to characterize the different forms of health care renunciation and analyze its impact on treatment compliance and overall care.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Family situation The modalities of this variables are : - Alone - Alone with dependent children - Couples without dependent children - Couples with dependent children</measure>
+    <time_frame>Baseline and 1 year</time_frame>
+    <description>This variable will be used to characterize the different forms of health care renunciation and analyze its impact on treatment compliance and overall care</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Type of health insurance</measure>
+    <time_frame>Baseline and 1 year</time_frame>
+    <description>This variable will be used to characterize the different forms of health care renunciation and analyze its impact on treatment compliance and overall care</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Presence or absence and nature of complementary health insurance</measure>
+    <time_frame>Baseline and 1 year</time_frame>
+    <description>This variable will be used to characterize the different forms of health care renunciation and analyze its impact on treatment compliance and overall care</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">300</enrollment>
+  <condition>Obstructive Sleep Apnea</condition>
+  <condition>Respiratory Failure</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with chronic respiratory diseases treated for at least 12 months by CPAP, NIV
+        therapy and monitored by AGIR à dom.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Male or female over 18 years old
+
+          -  Patient with respiratory failure or obstructive sleep apnea
+
+          -  Treated with CPAP, NIV therapy for at least 12 months
+
+          -  Home monitoring by AGIR a dom
+
+          -  Voluntary patient to participate in research after adequate information and delivery
+             of the information note
+
+          -  Patient affiliated with social security or beneficiary of such a scheme
+
+        Exclusion Criteria:
+
+          -  Pregnant, lactating or parturient woman
+
+          -  Person deprived of liberty by judicial or administrative decision, person subject to a
+             measure of legal protection (patient under tutorship or curatorship) Article L1121-8
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>EFCR HP2 Laboratory</name>
+      <address>
+        <city>Grenoble</city>
+        <state>Rhone Alpes</state>
+        <zip>38000</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <reference>
+    <citation>Senaratna CV, Perret JL, Lodge CJ, Lowe AJ, Campbell BE, Matheson MC, Hamilton GS, Dharmage SC. Prevalence of obstructive sleep apnea in the general population: A systematic review. Sleep Med Rev. 2017 Aug;34:70-81. doi: 10.1016/j.smrv.2016.07.002. Epub 2016 Jul 18. Review.</citation>
+    <PMID>27568340</PMID>
+  </reference>
+  <reference>
+    <citation>Deniz S, Şengül A, Aydemir Y, Çeldir Emre J, Özhan MH. Clinical factors and comorbidities affecting the cost of hospital-treated COPD. Int J Chron Obstruct Pulmon Dis. 2016 Dec 2;11:3023-3030. eCollection 2016.</citation>
+    <PMID>27980399</PMID>
+  </reference>
+  <reference>
+    <citation>Borel JC, Pepin JL, Pison C, Vesin A, Gonzalez-Bermejo J, Court-Fortune I, Timsit JF. Long-term adherence with non-invasive ventilation improves prognosis in obese COPD patients. Respirology. 2014 Aug;19(6):857-65. doi: 10.1111/resp.12327. Epub 2014 Jun 9.</citation>
+    <PMID>24912564</PMID>
+  </reference>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>June 1, 2018</study_first_submitted>
+  <study_first_submitted_qc>July 6, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 19, 2018</study_first_posted>
+  <last_update_submitted>April 2, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 2, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 6, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Healthcare renunciation</keyword>
+  <keyword>Continuous positive airway pressure</keyword>
+  <keyword>Non-invasive ventilation</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sleep Apnea, Obstructive</mesh_term>
+    <mesh_term>Respiratory Insufficiency</mesh_term>
+    <mesh_term>Chronic Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

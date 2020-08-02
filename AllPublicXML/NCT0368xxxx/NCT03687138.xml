@@ -1,0 +1,374 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03687138</url>
+  </required_header>
+  <id_info>
+    <org_study_id>EstMcBasNL_001</org_study_id>
+    <nct_id>NCT03687138</nct_id>
+  </id_info>
+  <brief_title>Searching for Diagnostic/Prognostic Biomarkers in SLE With Renal Involvement by Proteomic Techniques</brief_title>
+  <acronym>SLE</acronym>
+  <official_title>Searching for Diagnostic/Prognostic Biomarkers in Systemic Lupus Erythematosus (SLE) With Renal Involvement by Proteomic Techniques. A Multicentre Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Natalia A. Rivera García</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>cic bioGune</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Hospital de Basurto</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Objective: To search for potential biomarkers obtained by non-invasive methods (24-hour urine
+      collection) that distinguish between patients diagnosed with systemic lupus erythematosus
+      with or without renal involvement, patients with non-autoimmune renal disease and healthy
+      donors.
+
+      Lupus nephritis is one of the most common and severe complications of systemic lupus
+      erythematosus, causing from asymptomatic mild proteinuria to rapidly progressive
+      glomerulonephritis with kidney failure. To date, kidney biopsy (an invasive medical procedure
+      with associated risks and complications) is essential for making a definitive diagnosis,
+      assessing the severity of the damage and deciding on the best treatment. In relation to this,
+      the identification of biomarkers using a non-invasive biological sample could help to
+      classify population groups, and this would be a great step forward in the clinical setting.
+
+      In this research project, we propose to conduct a case and control study. For this, we will
+      first carefully classify the study groups, using clinical data on patients and by testing a
+      pool of peptides described in the scientific literature in each of the sample groups, using
+      solid phase extraction combined with matrix-assisted laser desorption/ionization
+      time-of-flight mass spectrometry. Subsequently, we will carry out multivariate principal
+      component analysis on the data collected, and calculate corresponding receiver operating
+      characteristic curves, to enable us to identify the masses corresponding to peptides with
+      potential as biomarkers. We will then use classification algorithms to select sets of masses
+      that would allow us to distinguish the population groups, and generate statistical
+      classifiers for assessing the level of confidence in the model and its subsequent validation.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      BACKGROUND AND STATUS QUO IN THE FIELD
+
+      Systemic lupus erythematosus (SLE) is a systemic, chronic autoimmune disease, affecting
+      connective tissue, and is considered a rare disease by the Spanish Foundation for Rare
+      Diseases (FEDER). Its clinical manifestations are varied, being able to affect most types of
+      tissue and organs especially the skin, joints, blood-forming organs, heart, lung, kidney and
+      nervous system (Galindo, 2008). A complex disease, it has a variable clinical course and
+      prognosis, characterised by alternating periods of remission and exacerbation (flares). For
+      this reason, it is important to establish the prognosis of each patient, as well as develop
+      and validate measures of disease activity and accumulated damage (Irastorza et al., 2012;
+      Galindo, 2008; Cervera, 1993).
+
+      The aetiology of SLE is still unknown. As well as a variable production of autoantibodies,
+      genetic and environmental factors may be involved in its pathogenesis. Indeed, it is likely
+      that the involvement of various different pathogenic and aetiological agents explains the
+      biological and clinical heterogeneity observed in patients with the disease.
+
+      The incidence of SLE varies with age, sex and ethnic group, and other characteristics of the
+      population under study. In Europe, recent data suggest an incidence of 1.5 cases/100,000 and
+      a prevalence of 122 cases/100,000), while specifically in Spain, the EPISER study found a
+      prevalence of 9 cases/100,000. The disease is known to be more common in Afro-Americans,
+      Hispanics and Asians, and moreover, is more severe in these groups, probably due to a mixture
+      of genetic, economic and cultural factors. The female-to-male sex ratio is around 10:1,
+      though the proportion of cases in females is lower among those with onset occurring during
+      childhood or after 65 years of age. In most patients, signs and symptoms of SLE develop
+      between 15 and 40 years of age, with a mean age of disease onset of 29 to 32 years old
+      (Galindo, 2008; Ruiz-Irastorza et al., 2012).
+
+      Between 30 and 50% of patients with SLE develop kidney disease, this being one of the first
+      manifestations in 10% of patients. The most common clinical manifestations include
+      proteinuria, micro-haematuria, urinary casts, kidney failure, and high blood pressure. This
+      condition is associated with higher risks of end-stage renal disease (ESRD) 5 to 10 years
+      after diagnosis and of death (Galindo, 2008; Aran et al., 2008; Ruiz-Irastorza et al., 2012;
+      Sanz, 2014).
+
+      Lupus nephritis (LN), a common complication of SLE, may vary in severity from asymptomatic
+      mild proteinuria to rapidly progressive glomerulonephritis with kidney failure. It is
+      classified on the basis of pathological findings in the glomerulus, the WHO classification
+      and updates thereof, being the most widely used in both clinical trials and daily practice.
+      The WHO system identifies six different classes of LN, classes III and IV corresponding to
+      the proliferative forms of the disease. This pathology-based classification, based on renal
+      biopsy, is of great important for assessing the intensity of treatment required to prevent
+      progression to ESRD (Silva-Fernández et al., 2008; Sanz, 2014). On the other hand, renal
+      biopsy is an invasive medical procedure, which requires highly-qualified personnel and is not
+      free of risks and complications. Currently, this test is essential for making a definitive
+      diagnosis, assessing the severity of the damage (&quot;staging&quot;) and deciding on the best
+      treatment (Carpio, 2003; Ruiz-Irastorza et al., 2012).
+
+      Moreover, by the time patients are diagnosed, they may already be at an advanced stage of the
+      disease, making it more difficult to treat and manage. For this reason, methods for assessing
+      whether individuals are at risk of developing this condition at an earlier stage, enabling
+      them to be treated promptly, would increase the likelihood of treatments being successful and
+      thereby patient quality of life.
+
+      Proteomics provides key tools for obtaining data to improve diagnosis and/or prognosis, and
+      as such is one of the foundations of translational research. The proteome is a dynamic
+      entity, which is constantly changing in response to processes affecting cells, such as
+      stress, illness and medical treatments. Analysis of differences in protein and/or peptide
+      expression in samples from healthy individuals and patients with a given illness provides
+      very valuable information on the molecular and physiological basis of the illness (Pando &amp;
+      Ferreira, 2007; Ali et al., 2005; Arrollo, 2005).
+
+      Biomarkers are molecules associated with in vivo biological processes that significantly
+      change with physiological conditions. They may be used in clinical practice for screening, to
+      establish a diagnosis, monitor disease activity, estimate prognosis with a given treatment,
+      or detect disease recurrence. In relation to this, proteomic analysis based on solid phase
+      extraction (SPE) in combination with matrix-assisted laser desorption/ionization
+      (MALDI)-time-of-flight (TOF) profiling allows inexpensive and rapid screening of peptides and
+      small proteins present in biological fluids. In our case, the fluid to analyse would be
+      urine, and this would enable sampling to be non-invasive, avoiding the risks associated with
+      biopsies.
+
+      Urine is likely to be the best body fluid for obtaining biomarkers for a kidney disease for
+      two reasons: 1. It is produced by the kidney, and hence any biomarkers identified may
+      directly reflect kidney function (Tianfu W. et al., 2013). 2. Samples can be obtained easily
+      and non-invasively
+
+      Regarding the assessment of LN using SPE combined with laser desorption/ionization-TOF mass
+      spectrometry, studies have been published by Suzuki et al. (2007) on childhood nephritis, and
+      by Mosley et al. (2006), investigating the use of urine profiles to distinguish patients with
+      active and inactive disease. Both of these groups used surface-enhanced laser
+      desorption/ionization, techniques that are mainly being replaced by SPE combined with
+      MALDI-TOF mass spectrometry (Callensen, Proteomics review), which has a higher resolving
+      power, provides more accurate mass measurements and is more sensitive. In relation to this,
+      several studies have been performed including those of Gonzáles et al. (2012) in tears, to
+      differentiate between individuals; Iloro et al. (2013) in urine, to monitor the toxicity of a
+      drug. The combination of MALDI-TOF mass spectrometry with the selective ability of SPE
+      techniques using, for example, reverse-phase resins (C18) and/or ion exchange (weak cation or
+      anion exchange) would make it possible to obtain better results than those of the
+      aforementioned studies. One of the strengths of this type of profiling analysis is that, as
+      well as being rapid and inexpensive, it is based on the intensity of a panel of biomarkers.
+
+      In this sense, several groups have described some proteomic biomarkers potentially associated
+      with susceptibility to LN and the underlying pathogenesis (Li et al, 2013; Wu et al., 2013;
+      Masanori et al., 2013; Zhu X et al., 2012; Nakatani et al., 2012). Already, there are some
+      studies that have contributed in the health field, example is using proteomics studies in
+      kidney biopsies, which have helped the reclassification of membranoproliferative
+      glomerulonephritis (MPGN) (Caster et al., 2015 ; Stoskar et al, 2012).. Alaiya and
+      collaborator (2014) conducted a study using proteomics kidney biopsy in which they determined
+      that there is no strong evidence to differentiate the two subcategories of class IV lupus
+      nephritis. Bruschi et al (2014) observed with typical proteomics antibodies in kidney NL also
+      found in serum. Yajuan Li, et al (2013).; Tianfu et al, (2013).; Masanori H. et al, (2013).;
+      Xuejing Zhu et al, (2012).; Nakatani et al., (2012), perform a description of possible
+      proteomic biomarkers associated with susceptibility to and pathogenesis of NL. These studies
+      demonstrate the potential for information to both clinicians and scientists in prognosis and
+      diagnosis of pathology in improving treatments, and in terms related to the etiology,
+      pathogenesis and disease activity (Caster et al., 2015).
+
+      In a first pilot study performed in OSI BILBAO BASURTO patients diagnosed with SLE with and
+      without NL, a differential protein pattern was observed between the two groups of patients
+      and also among patients with mild and significant renal involvement, by analyzing the ANOVA
+      (162 proteins p &lt;0.01) (Rivera et al., 2018).
+
+      In this context and in order to delve into the molecular and physiological basis of disease,
+      it will seek to differentiate populations of patients diagnosed with SLE patients without NL
+      with no autoimmune nephropathy and healthy donors. The sample used is the 24-hour urine. Once
+      obtained and processed biological samples, analyzing them by MALDI TOF SPE in the Autoflex
+      III (bioGUNE) will be held.
+
+      METHODOLOGY
+
+      In this research project, we propose to conduct a case and control study. For this, we will
+      first carefully classify the study groups, using clinical data on patients. The Department of
+      Rheumatology at Basurto University Hospital provides consultations for autoimmune diseases,
+      mainly focusing on SLE, and these will be the source of the majority of patients with SLE and
+      LN and for comparison groups, as well as sample donors who are healthy or diagnosed with
+      non-immune diseases. Patients diagnosed with non-autoimmune lupus nephritis will be recruited
+      by the Nephrology Unit of the hospital.
+
+      Statistical analysis of the data
+
+      First, we will carry out a descriptive analysis of the variables and assess whether they are
+      associated with LN.
+
+      Second, we will determine whether the biomarkers tested are present in the study and
+      comparison populations, and then assess whether there are significant differences between the
+      study and comparison groups, for each of the candidate markers. Further, we will perform
+      multivariate analysis, and for this, as is common in profiling studies, we will use principal
+      component analysis. We will routinely calculate the receiver operating characteristic curves
+      as these will enable us to select masses corresponding to peptides with potential as
+      biomarkers. Finally, we will use classification algorithms (genetic algorithms and/or
+      supervised neural networks) to select sets of masses that would enable us to distinguish the
+      population groups, and generate statistical classifiers for assessing the level of confidence
+      in the model and its subsequent validation (Cellesen et al., 2009).
+
+      Limitations of the study:
+
+      Proteins are very labile and are prone to change under the influence of physical factors,
+      contact with plastic materials, among others. For this reason, to reduce potential noise in
+      the data associated with the plastic 24-hour urine collection containers to be used,
+      participants will each be provided with a container from the same batch. All samples will be
+      handed in to the research office of Basurto Hospital, standardising the way samples are
+      handled. Moreover, we will use protein LoBind tubes, plates, etc., to minimise binding of the
+      proteins to the plastic.
+
+      Ethical considerations.
+
+      The study will be conducted in accordance with the principles of the Declaration of Helsinki.
+      Copies of the Declaration and its amendments will be provided on request or can be found on
+      the website of the World Medical Association at http://wma.net/
+      en/30publications/10policies/b3/index.html.
+
+      The study is to be carried out according to the protocol and standard operating procedures
+      and this will ensure adherence to good practice guidelines, as described in the 1996
+      tripartite harmonised International Conference on Harmonisation Guideline on Good Clinical
+      Practice.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 15, 2018</start_date>
+  <completion_date type="Anticipated">June 15, 2020</completion_date>
+  <primary_completion_date type="Anticipated">June 15, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of specific endogenous peptides of each study population to help us differentiate among these by solid phase extraction and mass spectrometry that will be applied to urine samples</measure>
+    <time_frame>3 year</time_frame>
+    <description>Solid phase extraction and mass spectrometry will be applied to urine samples to get information about endogenous peptides that will allow the differentiation among above described populations (SLE patients, patients without NL with no autoimmune nephropathy and healthy donors). This may have a direct impact in future early diagnosis, facilitating clinicians to apply a better and more effective treatment.</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Lupus Nephritis</condition>
+  <condition>Lupus Erythematosus, Systemic</condition>
+  <arm_group>
+    <arm_group_label>Control 1</arm_group_label>
+    <description>This is the control population. The analysis will be done with a 24h urin sample. We will compare this population with the other two.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control 2</arm_group_label>
+    <description>This is the control LES population. The analysis will be done with a 24h urin sample. We will compare this population with the other control population and the study population.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Study population</arm_group_label>
+    <description>This is the study population. The analysis will be done with a 24h urin sample. We will compare this population with the other two controls populations.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>24h urin sample</intervention_name>
+    <description>The samples will analyzed by proteomic techniques</description>
+    <arm_group_label>Control 1</arm_group_label>
+    <arm_group_label>Control 2</arm_group_label>
+    <arm_group_label>Study population</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      24-hour urine sample
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study population is to be adult patients diagnosed with SLE, following the criteria of
+        the American College of Rheumatology (ACR), that is, individuals who meet at least 4 of the
+        11 classification criteria; and who have class III, IV, V or VI LN according to the
+        International Society of Nephrology (ISN)/Renal Pathology Society (RPS) 2003
+        classification, confirmed by kidney biopsy, or active disease activity according to the
+        British Isles Lupus Assessment Group (BILAG) index (Hay E et al., 1993).
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Healthy comparison group (controls)
+
+               1. People aged 18 years old and over
+
+               2. Negative results in serological tests for hepatitis B and C and HIV
+
+               3. No known autoimmune diseases when samples were taken
+
+               4. Matched to a patient by age, plus or minus 5 years
+
+               5. Willing and able to give informed consent to their participation in the study
+
+          2. First comparison group of patients
+
+               1. The same characteristics as the control group regarding points a, b, d, and e
+
+               2. Diagnosed with SLE, according to the ACR criteria (meeting 4 out of the 11
+                  criteria)
+
+               3. No known renal involvement
+
+        Exclusion Criteria:
+
+          -  People aged under 18 years old
+
+          -  Positive results in serological tests for hepatitis B and C and HIV
+
+          -  Not to give informed consent to their participation in the study
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Natalia A. Rivera García, PhD</last_name>
+    <phone>660930837</phone>
+    <email>NATALIAANDREA.RIVERAGARCIA@osakidetza.eus</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Basurto University Hospital</name>
+      <address>
+        <city>Bilbao</city>
+        <state>Bizkaia</state>
+        <zip>48013</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Natalia A. R Rivera García, PhD</last_name>
+      <phone>660930837</phone>
+      <email>NATALIAANDREA.RIVERAGARCIA@osakidetza.eus</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Spain</country>
+  </location_countries>
+  <verification_date>September 2018</verification_date>
+  <study_first_submitted>September 12, 2018</study_first_submitted>
+  <study_first_submitted_qc>September 26, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 27, 2018</study_first_posted>
+  <last_update_submitted>September 26, 2018</last_update_submitted>
+  <last_update_submitted_qc>September 26, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 27, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Hospital de Basurto</investigator_affiliation>
+    <investigator_full_name>Natalia A. Rivera García</investigator_full_name>
+    <investigator_title>Biology PhD</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Nephritis</mesh_term>
+    <mesh_term>Lupus Nephritis</mesh_term>
+    <mesh_term>Lupus Erythematosus, Systemic</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

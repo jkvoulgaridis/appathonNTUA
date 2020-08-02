@@ -1,0 +1,182 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03638479</url>
+  </required_header>
+  <id_info>
+    <org_study_id>VA111809</org_study_id>
+    <nct_id>NCT03638479</nct_id>
+  </id_info>
+  <brief_title>Utilizing Smart Devices to Identify New Phenotypical Characteristics in Movement Disorders</brief_title>
+  <official_title>Utilizing Smart Devices to Identify New Phenotypical Characteristics in Movement Disorders</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Westfälische Wilhelms-Universität Münster</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Westfälische Wilhelms-Universität Münster</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This observational and experimental study seeks to establish a Smart Device System (SDS) to
+      monitor high-resolution handtremor-based data using Smartphones, SmartWatches and Tablets. By
+      doing this, movement data will be analyzed in depth with advanced statistical and
+      Deep-Learning algorithms to identify new clinical phenotypical characteristics Parkinson's
+      Disease and Essential Tremor.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Current smart devices as smartphones and smartwatches have reached a level of technical
+      sophistication that enables high-resolution monitoring of movements not only for everyday
+      sports activities but also for movement disorders. Tremor-related diseases as Parkinson's
+      Disease (PD) and Essential Tremor (ET) are two of the most common movement disorders. Disease
+      classification is primarily based on clinical criteria and remains challenging. The primary
+      goal of this study is to identify new phenotypical characteristics based on the captured
+      movement data by the tremor-capturing smartwatches and tablets and smartphone-based
+      questionnaires.
+
+      The system will be applied and analyzed within an experimental and observational setting and
+      only captures from patients, which have received informed consent. Within the study period,
+      the SDS is not intended as clinical diagnostic support for physicians and will be not be used
+      as medical device.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 8, 2019</start_date>
+  <completion_date type="Anticipated">October 2020</completion_date>
+  <primary_completion_date type="Anticipated">October 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Acceleration data in all three axes (x,y,z) measured at both wrists via Smartwatches during 10 minutes of neurological examination. Aggregated data: Mean Frequency and Amplitude of Tremor.</measure>
+    <time_frame>2018-2020</time_frame>
+    <description>The raw time series data (acceleration data) and the aggregated data will be analyzed to train a neural network to classify the participant's movement disorder.</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Parkinson Disease</condition>
+  <condition>Essential Tremor</condition>
+  <condition>Movement Disorders</condition>
+  <condition>Parkinson's Syndrome</condition>
+  <condition>Atypical Parkinsonism</condition>
+  <arm_group>
+    <arm_group_label>Parkinson's Disease</arm_group_label>
+    <description>Participant's diagnosed with Parkinson's Disease</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Essential Tremor</arm_group_label>
+    <description>Participant's diagnosed with Essential Tremor</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No Parkinson's Disease and No Essential Tremor</arm_group_label>
+    <description>Participant's with no diagnosis of PD or ET</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Data Capture</intervention_name>
+    <description>This is no intervention. Participants of all groups will receive data Capture with smartphones, smartwatches and tablets.</description>
+    <arm_group_label>Essential Tremor</arm_group_label>
+    <arm_group_label>No Parkinson's Disease and No Essential Tremor</arm_group_label>
+    <arm_group_label>Parkinson's Disease</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Participants who attend the ambulatory clinicic for movement disorders at the University
+        Hospital Münster will be asked for inclusion.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Diagnosed with Parkinson's Disease (ICD-10-GM G20.-) or Essential Tremor (G25.0)
+
+          -  Comparison group: Other movement disorders including atypical Parkinsonian disorders
+             and healthy participants
+
+        Exclusion Criteria:
+
+          -  Unable to obtain informed consent
+
+          -  Skin-related conditions at one of the wrists or any other medical conditions that
+             could harm the participant's health by wearing the smartwatch at both wrists.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Julian Varghese, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>WWU Münster, Institut für Medizinische Informatik</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Julian Varghese, MD</last_name>
+    <phone>+492518354714</phone>
+    <email>julian.varghese@ukmuenster.de</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Institute of Medical Informatics, University of Münster</name>
+      <address>
+        <city>Münster</city>
+        <zip>48149</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Julian Varghese, MD</last_name>
+      <email>julian.varghese@ukmuenster.de</email>
+    </contact>
+    <investigator>
+      <last_name>Julian Varghese, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+  </location_countries>
+  <verification_date>May 2019</verification_date>
+  <study_first_submitted>August 13, 2018</study_first_submitted>
+  <study_first_submitted_qc>August 15, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 20, 2018</study_first_posted>
+  <last_update_submitted>May 24, 2019</last_update_submitted>
+  <last_update_submitted_qc>May 24, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 28, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Westfälische Wilhelms-Universität Münster</investigator_affiliation>
+    <investigator_full_name>Julian Varghese</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Parkinson Disease</mesh_term>
+    <mesh_term>Essential Tremor</mesh_term>
+    <mesh_term>Movement Disorders</mesh_term>
+    <mesh_term>Parkinsonian Disorders</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,206 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04097912</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20749</org_study_id>
+    <nct_id>NCT04097912</nct_id>
+  </id_info>
+  <brief_title>Study to Gather Information to What Extent Patients Follow the Treatment Regimen of Low-dose Aspirin for Primary and Secondary Prevention of Diseases of the Heart and Blood Vessels</brief_title>
+  <acronym>PALACE</acronym>
+  <official_title>Persistence and Adherence to Low-Dose Aspirin for Primary and Secondary Prevention of Cardiovascular DiseasE Using OHDSI</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Bayer</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Bayer</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study aims to gather information to what extent patients follow the treatment regimen of
+      low-dose aspirin for primary and secondary prevention of diseases of the heart and blood
+      vessels. Researcher will collect information about the percentage of time a patient has
+      access to the medication, how long patients continue with the medication and of the
+      proportion of patients who switch from dual-antiplatelet therapy (including low-dose aspirin)
+      to a single antiplatelet therapy. The study will make use of secondary healthcare data
+      sources converted in to Observational Medical Outcomes Partnership (OMOP) common data model
+      within the Observational Health Data Sciences and Informatics (OHDSI) network.
+    </textblock>
+  </brief_summary>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">September 30, 2019</start_date>
+  <completion_date type="Anticipated">August 31, 2020</completion_date>
+  <primary_completion_date type="Anticipated">August 31, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Adherence to low-dose aspirin</measure>
+    <time_frame>Retrospective analysis from 2007 to 2018</time_frame>
+    <description>Adherence low-dose aspirin use will be represented by the medication possession ratio (MPR)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Persistence to low-dose aspirin</measure>
+    <time_frame>Retrospective analysis from 2007 to 2018</time_frame>
+    <description>In terms of continuation and discontinuation:
+Continuation at 30 and 60 day gaps
+Discontinuation:
+If patients switched to another antiplatelet therapy
+If patients reinitiated low-dose aspirin &gt;30 days and &gt;60 days after end of supply i.e. of the pre-specified gap was exceeded
+If patients stopped low-dose aspirin therapy completely</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Time to switch from dual-antiplatelet to a monotherapy</measure>
+    <time_frame>Retrospective analysis from 2007 to 2018</time_frame>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">99999</enrollment>
+  <condition>Myocardial Infarction</condition>
+  <condition>Stroke (Including Ischaemic Stroke and Transient Ischaemic Attack)</condition>
+  <condition>Unstable Angina</condition>
+  <condition>Angina</condition>
+  <condition>Ischaemic Heart Disease</condition>
+  <arm_group>
+    <arm_group_label>Low-dose aspirin users</arm_group_label>
+    <description>Patients who receive low-dose aspirin (75-100mg) for either the primary or secondary prevention of cardiovascular disease (CVD).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Acetylsalicylic Acid (Aspirin, BAYE4465)</intervention_name>
+    <description>75-100mg</description>
+    <arm_group_label>Low-dose aspirin users</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The population included in the study cohort will consist of patients who receive low-dose
+        aspirin (75-100mg) for either the primary or secondary prevention of CVD.
+
+        For those being treated with low-dose aspirin for primary CVD prevention, no previous CVD
+        events must have occurred any time prior to initiation of low-dose aspirin treatment. CVD
+        events consist of myocardial infarction, stroke (including ischaemic stroke and transient
+        ischaemic attack), unstable angina, angina, and ischaemic heart disease.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Aged ≥18 years
+
+          -  Patients will be selected if they have had a prescription of low-dose aspirin with a
+             dosage of 75-100mg during the study period between 2007 and 2018 for either:
+
+               -  Primary prevention of CVD This is defined as patients who have no history of CVD
+                  any time prior to initiation of low-dose aspirin treatment are presumed to use
+                  for primary CVD prevention
+
+               -  Secondary prevention of CVD This is defined as patients who have a history of CVD
+                  any time prior to initiation of low-dose aspirin treatment
+
+          -  Patients with at least two prescriptions of low-dose aspirin with a dosage of 75-100mg
+             within the first year of the index date.
+
+          -  Restricted to patients with observation for at least 12 months before and 12 after the
+             index date.
+
+        Exclusion Criteria:
+
+        - Prescription of low-dose aspirin in 12 months before the index date.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Many Locations</name>
+      <address>
+        <city>Multiple Locations</city>
+        <country>Brazil</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Many Locations</name>
+      <address>
+        <city>Multiple Locations</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Many Locations</name>
+      <address>
+        <city>Multiple Locations</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Many Locations</name>
+      <address>
+        <city>Multiple Locations</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Brazil</country>
+    <country>Germany</country>
+    <country>Italy</country>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>September 19, 2019</study_first_submitted>
+  <study_first_submitted_qc>September 19, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 20, 2019</study_first_posted>
+  <last_update_submitted>July 27, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 27, 2020</last_update_submitted_qc>
+  <last_update_posted type="Estimate">July 28, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Ischemic Attack, Transient</mesh_term>
+    <mesh_term>Heart Diseases</mesh_term>
+    <mesh_term>Myocardial Infarction</mesh_term>
+    <mesh_term>Angina Pectoris</mesh_term>
+    <mesh_term>Myocardial Ischemia</mesh_term>
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Angina, Unstable</mesh_term>
+    <mesh_term>Ischemia</mesh_term>
+    <mesh_term>Infarction</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Aspirin</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Availability of this study's data will be determined according to Bayer's commitment to the EFPIA/PhRMA &quot;Principles for responsible clinical trial data sharing&quot;. This pertains to scope, timepoint and process of data access. As such, Bayer commits to sharing upon request from qualified researchers patient-level clinical trial data, study-level clinical trial data, and protocols from clinical trials in patients for medicines and indications approved in the US and EU as necessary for conducting legitimate research. This applies to data on new medicines and indications that have been approved by the EU and US regulatory agencies on or after January 01, 2014. Interested researchers can use www.clinicalstudydatarequest.com to request access to anonymized patient-level data and supporting documents from clinical studies to conduct research. Information on the Bayer criteria for listing studies and other relevant information is provided in the Study sponsors section of the portal.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

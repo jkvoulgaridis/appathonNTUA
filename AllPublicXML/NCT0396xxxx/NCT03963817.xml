@@ -1,0 +1,228 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03963817</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GCO 17-1999</org_study_id>
+    <secondary_id>1R01EY029397-01A1</secondary_id>
+    <nct_id>NCT03963817</nct_id>
+  </id_info>
+  <brief_title>Snapshot Camera for AMD</brief_title>
+  <official_title>Snapshot 3D Ultra-high-resolution OCT and Hyperspectral AF of In-vivo Retina</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Icahn School of Medicine at Mount Sinai</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Illinois at Urbana-Champaign</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Eye Institute (NEI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Icahn School of Medicine at Mount Sinai</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study proposes to use a new instrument (AO-OCT/AF: adaptive optics - optical coherence
+      tomography/autofluorescence) combined with a data processing method to image the retinal
+      pigment epithelium (RPE) of the eye in normal subjects and in subjects with age-related
+      macular degeneration. (AMD). While currently there is no cure, with early diagnosis, vision
+      loss can be slowed. The technology being developed for this project will be the first imaging
+      modality that can provide both structural and molecular information about the retina in vivo
+      and in 3D.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      An imaging modality that allows for fast, simultaneous, noninvasive probing of both 3D
+      cellular resolution retinal morphology by optical coherence tomography (OCT) and
+      molecular-specific functions by autofluorescence (AF) could substantially improve both basic
+      understanding and the early diagnosis of age-related macular degeneration (AMD), the leading
+      cause of blindness in the developed world. The evaluation and management of AMD utilize
+      several investigation modalities, but advancements in OCT technology have significantly
+      contributed to better understanding of the disease, and have helped with monitoring
+      progression and therapeutic efficacy. However, due to optical aberrations of the eye, the
+      transverse resolution of conventional OCT is generally limited to 10-15 µm, restricting its
+      use to visualize individual retinal cells in vivo. The integration of adaptive optics (AO)
+      into OCT has demonstrated an immense success in mitigating these aberrations. Among various
+      AO-OCT techniques, computation-based AO (CAO) becomes the spotlight of research because it
+      shows unique advantages in data postprocessing flexibility and a reduced system cost.
+      However, CAO is extremely sensitive to phase stability. The rapid motion of the eye can
+      easily scramble the phase of reflected photons, restricting imaging to a single en-face
+      layer.
+
+      To overcome this problem, the study team will integrate a snapshot hyperspectral imaging
+      method, Image Mapping Spectrometry (IMS), with full-field spectral-domain OCT. The integrated
+      system will first enable 3D CAO imaging of the retina because the single camera exposure (4
+      s),is too fast for eye movement to scramble phase between layers. Next, to improve resolution
+      in 3D, the study team will adapt an established CAO algorithm to correct for wavefront
+      aberrations. The resultant method, which the study team terms snapshot ultra-high-resolution
+      OCT, will allow an acquisition of a quarter million A-scans simultaneously. Given a typical
+      flash illumination duration (4us), the equivalent A-scan rate is 62.5 GHz, which is
+      approximately three orders of magnitude faster than the state-of-the-art methods.
+      Furthermore, to expand the system's functionality to molecular imaging, the study team will
+      add a second IMS imaging channel for simultaneous hyperspectral imaging of retinal pigment
+      epithelium (RPE) AF, enabling spectral biopsy of RPE and subRPE lesions such as drusen, the
+      hallmark lesion of early AMD. The resultant dual-channel AO-OCT/AF system will be the first
+      imaging modality that can provide both structural and molecular information about the retina
+      in vivo and in 3D. The study team envisions such a system would shift the landscape of AMD
+      evaluation and management. The insights so obtained will be of high value in clinical
+      diagnosis and treatment. In addition, such a system will accelerate translational research
+      with sensitive and early outcome testing of prospective therapeutic agents, saving sight and
+      thereby providing enormous benefit to society.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">February 2022</start_date>
+  <completion_date type="Anticipated">March 2024</completion_date>
+  <primary_completion_date type="Anticipated">February 2024</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Excitation spectra</measure>
+    <time_frame>3 years</time_frame>
+    <description>Excitation spectra of the retinal tissue at or near 436 nm, which will be considered representative of drusen or drusenoid material</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Emission spectra</measure>
+    <time_frame>3 years</time_frame>
+    <description>Emission spectra of the retinal tissue at or near 510 nm, which will be considered representative of drusen or drusenoid material</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Age Related Macular Degeneration</condition>
+  <arm_group>
+    <arm_group_label>Normals</arm_group_label>
+    <description>Imaging normal subjects for equipment refinement</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Subjects with AMD</arm_group_label>
+    <description>Imaging subjects with AMD</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>adaptive optics AO-OCT/AF instrument</intervention_name>
+    <description>Using the new adaptive optics AO-OCT/AF instrument, the study team will image 10 normal subjects in order to optimize image acquisition and interpretation.</description>
+    <arm_group_label>Normals</arm_group_label>
+    <other_name>Normals</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>adaptive optics AO-OCT/AF instrument</intervention_name>
+    <description>Using the new adaptive optics AO-OCT/AF instrument, the study team will image 40 adult subjects with age-related macular degeneration (AMD) who have non-neovascular AMD and soft drusen or subretinal drusenoid deposits in the macula.</description>
+    <arm_group_label>Subjects with AMD</arm_group_label>
+    <other_name>AMD</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Subjects will be recruited from referring physicians of the faculty practice of New York
+        Eye and Ear Infirmary of Mount Sinai
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients must be aged 60 and over and pseudophakic, with clear posterior capsule and
+             dilation to 6mm.
+
+          -  Patients must be diagnosed early/intermediate AMD in at least one eye (the study eye)
+             with soft drusen or reticular pseudodrusen in the macula.
+
+        Exclusion Criteria:
+
+          -  Retinopathy other than AMD.
+
+          -  Inability to give informed consent
+
+          -  Bilateral advanced AMD
+
+          -  Allergy to dilation eye drops
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>60 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ronald Theodore Smith, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Icahn School of Medicine at Mount Sinai</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Katy Tai</last_name>
+    <phone>212-979-4251</phone>
+    <email>ktai@nyee.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Harriet Lloyd</last_name>
+    <phone>212-979-4672</phone>
+    <email>hlloyd@nyee.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>New York Eye and Ear Infirmary of Mount Sinai</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10003</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://www.mountsinai.org/clinical-trials/use-of-aooctaf-camera-to-study-amd</url>
+    <description>Mount Sinai Clinical Trials Website</description>
+  </link>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>May 23, 2019</study_first_submitted>
+  <study_first_submitted_qc>May 24, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 28, 2019</study_first_posted>
+  <last_update_submitted>March 2, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 2, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 3, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Icahn School of Medicine at Mount Sinai</investigator_affiliation>
+    <investigator_full_name>Roland Theodore Smith</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>Imaging</keyword>
+  <keyword>Autofluorescence imaging</keyword>
+  <keyword>Spectral domain optical coherence tomography</keyword>
+  <keyword>Adaptive optics</keyword>
+  <keyword>Soft drusen</keyword>
+  <keyword>Reticular pseudodrusen</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Macular Degeneration</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Results of the study will be shared as publications in peer-reviewed journals and at scientific meetings.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

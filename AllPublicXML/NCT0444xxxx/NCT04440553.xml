@@ -1,0 +1,223 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04440553</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2019-04-12118</org_study_id>
+    <nct_id>NCT04440553</nct_id>
+  </id_info>
+  <brief_title>A Mobile App to Increase Physical Activity in Students</brief_title>
+  <official_title>An mHealth App Using Adaptive Learning to Increase Physical Activity in University Students</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of California, Berkeley</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of California, Berkeley</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Background: Insufficient physical activity is one of the leading risk factors of death
+      worldwide. Behavioral treatments delivered via smartphone apps, hold great promise for
+      helping people engage in healthy behaviors including becoming more physically active.
+      However, similar to 'face-to-face' treatments, effects typically do not seem to be sustained
+      over longer periods of time.
+
+      Methods: the investigators developed a smartphone application that uses different types of
+      motivational and feedback text-messaging to motivate individuals to increase physical
+      activity. Here, participants are randomized to either receive messages by a uniform random
+      distribution (n=50), or chosen by a reinforcement learning algorithm (n=50), which learns
+      from daily participant data to personalize the frequency and type of motivation of messages.
+
+      Objectives: In the current study, the investigators examine this application in undergraduate
+      and graduate students at the University of California, Berkeley. The investigators compare
+      whether participants in the uniform random or adaptive group have higher increases in steps
+      during the study. The investigators also examine the effect of the different types of
+      messages on step counts. Further the investigators assess the influence of patient
+      characteristics, such as socio-demographic, psychological questionnaire scores and baseline
+      physical activity on the effect of the adaptive arm and effectiveness of the messages.
+      Finally, the investigators assess participant qualitative feedback on the text-messaging
+      program, through feedback provided via questionnaires, text-message and phone interviews.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The investigators developed a smartphone application, the DIAMANTE app, that uses machine
+      learning to generate adaptive text messages, learning from daily participant data to
+      personalize the frequency and type of motivation of messages. In the current study, the
+      investigators will compare this application in undergraduate and graduate students at the
+      University of Berkeley, to text-messaging chosen randomly. This study will provide insight
+      into the effectiveness of this smartphone application for increasing physical activity in
+      university students. Further, it will provide preliminary knowledge on the working mechanisms
+      and variables that moderate the effectiveness of the intervention.
+
+      This study is characterized by a factorial design with a total of 3 factors representing
+      Motivational Messages (M), Feedback Messages (F) and the Time Frame (T) when the message was
+      sent, of 4, 5 and 4 levels each, respectively. One level of M and F corresponded to a control
+      treatment, i.e., no message sent. Each participant received one different combination of M, F
+      and T every day.
+
+      Both the adaptive and uniform random group will receive the same types of messages: feedback
+      (4 active categories plus no message) and motivation (3 active categories plus no message).
+      However, the message categories, timing and frequency will be optimized by a reinforcement
+      learning algorithm in the adaptive group, and will be delivered with equal probabilities in
+      the uniform random group (following a uniform random distribution).
+
+      For the reinforcement learner group, the algorithm training data consists of the historical
+      data of all participants (contextual variables), which include which messages were sent
+      previously and within which time periods, and select clinical/demographic data (such as age,
+      day of the week and depression scores) to improve prediction abilities. Subsequently, the
+      message is chosen based on the predicted effectiveness of messages, combined with a sampling
+      method. As such, it frequently picks out from the most rewarding messages and occasionally
+      explores the messages with uncertainty in their reward.
+
+      The aims of this study are:
+
+        1. to assess if participants in the reinforcement learning policy show a greater increase
+           in daily steps after six week follow-up, than participants receiving messages with a
+           uniform random distribution
+
+        2. to assess if sociodemographic, baseline physical activity behavior/attitudes and
+           psychological factors influence the effect of the adaptive intervention.
+
+        3. to assess which messages are most beneficial in increasing physical activity.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">September 12, 2019</start_date>
+  <completion_date type="Actual">December 20, 2019</completion_date>
+  <primary_completion_date type="Actual">December 10, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Participants were randomized to a uniform random group, or a reinforcement learning group. Within these groups, participants received the same types of text-messages, but the delivery schedule differed.</intervention_model_description>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>Single (Participant)</masking>
+    <masking_description>Participants were unaware of their group membership. Investigators were not blinded to group membership.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Steps (measured by phone pedometer)</measure>
+    <time_frame>24 hours (measured for a period of 6 weeks)</time_frame>
+    <description>Change in daily step counts (today's steps count minus yesterday's steps count)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Steps (measured by phone pedometer)</measure>
+    <time_frame>Change from baseline to 6 week follow-up</time_frame>
+    <description>Mean change in daily step counts during the course of the study</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Depression scores</measure>
+    <time_frame>Change from baseline to 6 week follow-up</time_frame>
+    <description>Patient Health Questionnaire 9 item (PHQ-9). The PHQ-9 has scores from 0 to 27. Higher scores mean a worse outcome.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Anxiety scores</measure>
+    <time_frame>Change from baseline to 6 week follow-up</time_frame>
+    <description>General Anxiety Disorder 7 item (GAD-7). The GAD-7 has scores from 0 to 21. Higher scores mean a worse outcome.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Behavioral Activation</measure>
+    <time_frame>Change from baseline to 6 week follow-up</time_frame>
+    <description>Behavioral Activation for Depression Scale - Short Form (BADS-SF). The BADS-SF has scores from 0-54. Higher scores mean better outcomes.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">103</enrollment>
+  <condition>Mobile Health</condition>
+  <condition>Physical Activity</condition>
+  <condition>Exercise</condition>
+  <condition>Mood</condition>
+  <condition>Machine Learning</condition>
+  <arm_group>
+    <arm_group_label>Uniform random</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>In this arm the types of messages were sent out randomly, i.e. with a uniform random distribution.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Reinforcement learning</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>In this arm the types of messages were chosen by a reinforcement learning algorithm. The decision about which message to send was based on several contextual variables, including data for the pedometer app, and consecutive days since messages from different categories were sent.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Uniform random message delivery</intervention_name>
+    <description>The uniform random intervention group receives feedback and motivational messages chosen from the messaging banks with equal probabilities.</description>
+    <arm_group_label>Uniform random</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Reinforcement learning message delivery</intervention_name>
+    <description>The adaptive intervention group receives messages chosen from the messaging banks by a reinforcement learning algorithm.</description>
+    <arm_group_label>Reinforcement learning</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria: We will include currently enrolled undergraduate and graduate students
+        ages 18 to 65.
+
+        -
+
+        Exclusion Criteria: Students that do not have a smartphone, are not able to exercise due to
+        disability, or have plans to leave the country during the 6 week study will be excluded.
+
+        -
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Adrian Aguilera, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of California, Berkeley</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Caroline Figueroa</name>
+      <address>
+        <city>Berkeley</city>
+        <state>California</state>
+        <zip>94709</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>June 17, 2020</study_first_submitted>
+  <study_first_submitted_qc>June 17, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 19, 2020</study_first_posted>
+  <last_update_submitted>June 22, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 22, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 24, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Individual participant data that underlies the results reported in the articles will be made available to researchers on request after deidentification.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_info_type>Analytic Code</ipd_info_type>
+    <ipd_time_frame>After publication of the data, no end date</ipd_time_frame>
+    <ipd_access_criteria>Anyone with a methodologically sound proposal.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

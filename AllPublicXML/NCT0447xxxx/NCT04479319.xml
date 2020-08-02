@@ -1,0 +1,203 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04479319</url>
+  </required_header>
+  <id_info>
+    <org_study_id>09081</org_study_id>
+    <nct_id>NCT04479319</nct_id>
+  </id_info>
+  <brief_title>Decision Support System Algorithm for COVID-19 Diagnosis</brief_title>
+  <official_title>Developing Hybrid Decision Support System Algorithm for COVID-19 Diagnosis Between RT-PCR Graphics and Thorax CT Images Using Deep Learning</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Ankara University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Presidency of Health Institute Turkey (TUSEB)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Ankara University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      COVID-19 is an infectious disease caused by a newly discovered Coronavirus which was first
+      identified in Wuhan, China in December 2019. Then the novel coronavirus outbreak was
+      described and announced as a pandemic by World Health Organization (WHO) on March 11, 2020.
+
+      Reverse transcription-polymerase chain reaction (RT-PCR) is currently the gold standard test
+      for diagnosis of COVID-19. Nevertheless, due to its high false-negative rates (%10-50),
+      diagnosis and treatment decisions do not depend on RT-PCR alone. Clinical presentation of
+      patient and radiological findings are also important. However, neither clinical presentation
+      nor computed tomography (CT) findings are specific for COVID-19. As a consequence of these
+      challenges, the diagnosis of the disease and the protection of the community health become
+      more difficult. The investigators of this study hypothesized that deep learning-based
+      decision support system may help for definitive diagnosis of COVID-19. The aim is to develop
+      a deep learning-based decision support system algorithm based on clinical presentation of
+      patient, laboratory and CT findings and RT-PCR data. Previously, deep learning algorithms
+      with the use of widely known deep neural network architectures such as Inception, UNet,
+      ResNet were developed. However all of these studies were based on CT findings. There are not
+      any deep learning study in literature combining the clinical, radiological, and laboratory
+      findings of patients.
+
+      The project is based on the available data of COVID-19 patients that will be obtained from
+      the Ministry of Health. Then the data will be evaluated for relevance and reliability and
+      labeled for the training of machine. Following the anonymization of data, data will be
+      processed according to the predetermined inclusion-exclusion criteria. Thorax CT data will be
+      labeled as typical / indeterminate / atypical / negative for COVID-19 pneumonia. Also, CT
+      images of patients with known non-COVID-19 diseases will be labeled for the training of
+      machine. Then, fever, lymphocyte count, neutrophil to lymphocyte ratio, contact information,
+      RT-PCR findings will be labeled. Subsequently, the patients will be labeled and the machine
+      will be trained with deep learning method with the help of this grouped and labeled data.
+      Following the training phase, the algorithm will be tested and if the machine reaches the
+      target specificity and sensitivity, the prototype will be tested. And then, the prototype
+      will be embedded into the hospital software system. This software and algorithm will serve as
+      an early warning system for clinicians and provide a better diagnostic rate especially with
+      decreasing false-negative results. The effects of a pandemic cannot be measured by only the
+      number of people diagnosed and isolated, or treatment provided. A pandemic affects not only
+      community health but also individuals' psychological status, education, teaching methods,
+      working models, daily lifestyles, producer/consumer behaviors, supply/demand balance; in
+      other words every single area of life. On top of that, a pandemic causes long-term damages
+      hard to reverse. The software will increase the diagnostic success rates, help to control the
+      pandemic and minimize the collateral damages mentioned above. The investigators believe that,
+      the product that will be produced at the end of this project will be of great benefit in
+      controlling the secondary wave of COVID-19 expected to occur.
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">August 2020</start_date>
+  <completion_date type="Anticipated">August 2021</completion_date>
+  <primary_completion_date type="Anticipated">February 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Diagnosing COVID-19</measure>
+    <time_frame>Through study completion, an average of 1 year</time_frame>
+    <description>Determination of sensitivity and specificity in predicting COVID-19 diagnosis of hybrid decision support system</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">10000</enrollment>
+  <condition>Covid19</condition>
+  <arm_group>
+    <arm_group_label>COVID-19 Pneumonia</arm_group_label>
+    <description>COVID-19 patients who have pneumonia on thorax CT
+either Thorax CT + SARS-CoV-2 RT-PCR + Clinical signs of COVID-19 +/- Any contact with someone with COVID-19 +/-
+or Thorax CT + SARS-CoV-2 RT-PCR - Clinical signs of COVID-19 +/- Any contact with someone with COVID-19 +</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>COVID-19, without Pneumonia</arm_group_label>
+    <description>COVID-19 patients who have not pneumonia on thorax CT
+Thorax CT - SARS-CoV-2 RT-PCR + Clinical signs of COVID-19 +/- Any contact with someone with COVID-19 +/-</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Non COVID-19</arm_group_label>
+    <description>Patients with viral infection symptoms who is not diagnosed with COVID-19
+either Thorax CT - SARS-CoV-2 RT-PCR - Clinical signs of COVID-19 +/- Any contact with someone with COVID-19 +/-
+or Thorax CT + SARS-CoV-2 RT-PCR - Clinical signs of COVID-19 +/- Any contact with someone with COVID-19 -</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Thorax CT</intervention_name>
+    <description>Subjects in all arms have a Thorax CT and RT-PCR for SARS-CoV-2.</description>
+    <arm_group_label>COVID-19 Pneumonia</arm_group_label>
+    <arm_group_label>COVID-19, without Pneumonia</arm_group_label>
+    <arm_group_label>Non COVID-19</arm_group_label>
+    <other_name>RT-PCR</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult patients with a differential diagnosis of COVID-19 and tested for it with Thorax CT
+        and RT-PCR in Turkey.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult patients with a differential diagnosis of COVID-19
+
+        Exclusion Criteria:
+
+          -  Patients who are under 18 year-old
+
+          -  Patients who have not either Thorax CT or SARS-CoV-2 RT-PCR
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Özlem Özdemir Kumbasar, Prof Dr</last_name>
+    <phone>0905322233988</phone>
+    <email>ozlem.ozdemir.kumbasar@ankara.edu.tr</email>
+  </overall_contact>
+  <reference>
+    <citation>Jan B, Farman H, Khan M, Imran M, Islam IU, Ahmad A, et al. Deep learning in big data analytics: a comparative study. Computers &amp; Electrical Engineering. 2019;75:275-87</citation>
+  </reference>
+  <reference>
+    <citation>Simpson S, Kay FU, Abbara S, Bhalla S, Chung JH, Chung M, Henry TS, Kanne JP, Kligerman S, Ko JP, Litt H. Radiological Society of North America Expert Consensus Statement on Reporting Chest CT Findings Related to COVID-19. Endorsed by the Society of Thoracic Radiology, the American College of Radiology, and RSNA - Secondary Publication. J Thorac Imaging. 2020 Jul;35(4):219-227. doi: 10.1097/RTI.0000000000000524.</citation>
+    <PMID>32324653</PMID>
+  </reference>
+  <reference>
+    <citation>Santosh KC. AI-Driven Tools for Coronavirus Outbreak: Need of Active Learning and Cross-Population Train/Test Models on Multitudinal/Multimodal Data. J Med Syst. 2020 Mar 18;44(5):93. doi: 10.1007/s10916-020-01562-1.</citation>
+    <PMID>32189081</PMID>
+  </reference>
+  <reference>
+    <citation>Vaishya R, Javaid M, Khan IH, Haleem A. Artificial Intelligence (AI) applications for COVID-19 pandemic. Diabetes Metab Syndr. 2020 Apr 14;14(4):337-339. doi: 10.1016/j.dsx.2020.04.012. [Epub ahead of print]</citation>
+    <PMID>32305024</PMID>
+  </reference>
+  <reference>
+    <citation>Li L, Qin L, Xu Z, Yin Y, Wang X, Kong B, Bai J, Lu Y, Fang Z, Song Q, Cao K, Liu D, Wang G, Xu Q, Fang X, Zhang S, Xia J, Xia J. Artificial Intelligence Distinguishes COVID-19 from Community Acquired Pneumonia on Chest CT. Radiology. 2020 Mar 19:200905. doi: 10.1148/radiol.2020200905. [Epub ahead of print]</citation>
+    <PMID>32191588</PMID>
+  </reference>
+  <reference>
+    <citation>Zhou Z, Siddiquee MMR, Tajbakhsh N, Liang J. UNet++: A Nested U-Net Architecture for Medical Image Segmentation. Deep Learn Med Image Anal Multimodal Learn Clin Decis Support (2018). 2018 Sep;11045:3-11. doi: 10.1007/978-3-030-00889-5_1. Epub 2018 Sep 20.</citation>
+    <PMID>32613207</PMID>
+  </reference>
+  <reference>
+    <citation>Li D, Wang D, Dong J, Wang N, Huang H, Xu H, Xia C. False-Negative Results of Real-Time Reverse-Transcriptase Polymerase Chain Reaction for Severe Acute Respiratory Syndrome Coronavirus 2: Role of Deep-Learning-Based CT Diagnosis and Insights from Two Cases. Korean J Radiol. 2020 Apr;21(4):505-508. doi: 10.3348/kjr.2020.0146. Epub 2020 Mar 5.</citation>
+    <PMID>32174053</PMID>
+  </reference>
+  <reference>
+    <citation>Li K, Wu J, Wu F, Guo D, Chen L, Fang Z, Li C. The Clinical and Chest CT Features Associated With Severe and Critical COVID-19 Pneumonia. Invest Radiol. 2020 Jun;55(6):327-331. doi: 10.1097/RLI.0000000000000672.</citation>
+    <PMID>32118615</PMID>
+  </reference>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>July 16, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 19, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 21, 2020</study_first_posted>
+  <last_update_submitted>July 19, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 19, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 21, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Ankara University</investigator_affiliation>
+    <investigator_full_name>Dr.Ozlem Ozdemir Kumbasar</investigator_full_name>
+    <investigator_title>Prof Dr</investigator_title>
+  </responsible_party>
+  <keyword>Deep learning</keyword>
+  <keyword>RT-PCR</keyword>
+  <keyword>Thorax CT</keyword>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

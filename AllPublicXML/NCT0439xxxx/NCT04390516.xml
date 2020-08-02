@@ -1,0 +1,132 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04390516</url>
+  </required_header>
+  <id_info>
+    <org_study_id>051420</org_study_id>
+    <nct_id>NCT04390516</nct_id>
+  </id_info>
+  <brief_title>Respiratory Decompensation and Model for the Triage of COVID-19 Patients</brief_title>
+  <acronym>READY</acronym>
+  <official_title>Prediction Of Respiratory Decompensation In Covid-19 Patients Using Machine Learning: The READY Trial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Dascena</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Dascena</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to prospectively evaluate a machine learning algorithm for the
+      prediction of outcomes in COVID-19 patients.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In a multi-center prospective clinical trial, a machine learning algorithm was deployed at
+      five partner hospitals to analyze live patient data, including blood pressure and Creatinine
+      levels, to determine the algorithm's ability to predict COVID-19 patient prognosis. The
+      primary endpoint was mechanical ventilation of study subjects within 24 hours after hospital
+      admission separate from a decompensation alert related to oxygen levels.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">March 24, 2020</start_date>
+  <completion_date type="Actual">May 30, 2020</completion_date>
+  <primary_completion_date type="Actual">May 4, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Mechanically ventilated patient outcome</measure>
+    <time_frame>Through study completion, an average of 2 months</time_frame>
+    <description>Ventilated or not ventilated within 24 hours</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Mortality or mechanically ventilated patient outcome</measure>
+    <time_frame>Through study completion, an average of 2 months</time_frame>
+    <description>Death or ventilated, or no death or not ventilated within 24 hours</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">197</enrollment>
+  <condition>COVID-19</condition>
+  <condition>Coronavirus</condition>
+  <condition>Mortality</condition>
+  <condition>Mechanical Ventilation</condition>
+  <arm_group>
+    <arm_group_label>COViage</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Machine learning intervention</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>COViage</intervention_name>
+    <description>The COViage machine learning algorithm is designed to predict mechanical ventilation and mortality within 24 hours after hospital admission.</description>
+    <arm_group_label>COViage</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients aged 18 years or older
+
+          -  Confirmed COVID-19 infection through RT-PCR test
+
+        Exclusion Criteria:
+
+          -  Patients aged less than 18 years
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Dascena</name>
+      <address>
+        <city>Oakland</city>
+        <state>California</state>
+        <zip>94612</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>May 14, 2020</study_first_submitted>
+  <study_first_submitted_qc>May 14, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 15, 2020</study_first_posted>
+  <last_update_submitted>June 10, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 10, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 12, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronavirus Infections</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

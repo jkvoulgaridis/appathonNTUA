@@ -1,0 +1,222 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04474652</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RD19/125787</org_study_id>
+    <nct_id>NCT04474652</nct_id>
+  </id_info>
+  <brief_title>Guide for Prioritisation of Patients for Referral to Breast Clinics</brief_title>
+  <official_title>Development of a Decision Support Tool for Ruling Out Cancer in Patients Referred From Primary Care for Possible Breast Cancer Diagnosis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The Leeds Teaching Hospitals NHS Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Innovate UK</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>PinPoint Data Science Ltd.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>The Leeds Teaching Hospitals NHS Trust</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      GPs in primary care in England currently refer over 2.17 million patients per year with vague
+      symptoms to the urgent cancer referral pathway. While this catches over 150,000 cancer cases
+      each year, 93% of the referred patients do not have cancer. For breast cancer, GPs refer
+      343,000 cases per year. Each of these patients are referred to a one stop clinic for
+      diagnosis. The Leeds teaching Hospitals' Trusts' Breast Unit, receives 10,000 per year, with
+      only 5% of patients actually being diagnosed with cancer.
+
+      The breast cancer pathway involves a triple assessment process, which includes a clinical
+      examination, imaging (mammogram or ultrasound) and possibly a biopsy test. It is a
+      particularly expensive process as it is an imagingintense pathway; this places considerable
+      strain on NHS diagnostic facilities. Small changes will not be enough to solve this problem -
+      a new approach is needed. The purpose of this study is to see if we can develop a blood test
+      that can support doctors in identifying patients for whom the likelihood of having breast
+      cancer is extremely low. This would avoid unnecessary referral for those patients to the one
+      stop clinic. Patients with higher chances of suspected breast cancer would be referred to the
+      one stop clinic in the usual way.
+
+      Key to the idea of safely &quot;ruling-out&quot; patients is that the test must not miss patients who
+      do have cancer. By measuring a broad range of indicators (markers) in blood, the test will
+      provide a more accurate picture of the underlying biology. The test is also being developed
+      within the NHS, so that it can be adopted quickly into NHS computer systems and laboratories
+      to maximise patient benefit, whilst being held to the NHS's high standards for clinical
+      evidence and value.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Following on from the service evaluation of retrospective TWW cases within The Leeds Teaching
+      Hospitals Trust (between 2011-2018), the aim is to undertake a prospective analysis of a
+      cohort of patients (4000) that have been referred from primary care (via their GP) for
+      possible breast cancer diagnosis in the Leeds area. The analysis will include de-identified
+      routine clinical data and blood tests from patients on the primary care referral cancer
+      diagnosis pathway for cancer risk assessment.
+
+      This is intended as a non-interventional study, where results from this study will not
+      influence patient care.
+
+      The study includes 3 phases/workstreams:
+
+        1. Validate previously developed prototype algorithm (computer instructions)
+
+        2. Update algorithm incorporating additional blood biomarkers and other relevant clinical
+           data
+
+        3. Validate diagnostic accuracy of updated algorithm The study will include 4000 patients
+           on TWW pathways. Note: The TWW pathway constitutes part of the urgent cancer referral
+           pathway. This study aims to address a major unmet clinical need for breast cancer
+           services within the NHS by safely combining the wealth of routinely collected clinical
+           data and testing of blood samples within the NHS, with secure IT infrastructure in the
+           NHS and the University of Leeds, to efficiently develop a risk assessment tool (guide)
+           to rule-out cancer within a routine NHS environment.
+
+      Inclusion criteria are:
+
+        -  Age ≥ 18 years old
+
+        -  Male and female patient must have been referred from primary care for possible breast
+           cancer diagnosis
+
+        -  Patient consented to have blood tests The data sets will be divided into a development
+           and validation data set (50:50 split). A range of statistical approaches will be
+           performed on the training data set. The algorithm parameters will then be 'locked down'
+           and validated on the remaining test data set. Performance will be assessed via ROC
+           (Receiver Operator Characteristic) curves, sensitivity and specificity,
+           Area-Under-Curve, negative/positive predictive values and diagnostic odds ratios. The
+           algorithm generation and data analysis will be conducted at the University of Leeds,
+           specifically within a secure VRE within the Leeds Institute for Data analytics (LIDA).
+           Particular scrutiny will be given to the test set patients most likely to be false
+           negatives in this analysis (i.e. those patients with cancer whose predicted probability
+           is very low). Key to further improvements in this approach will be to characterise this
+           sub-group and identify possible ways in which they might be identified by an improved
+           analysis in a future study. Eligible participants will be observed electronically for 2
+           years post blood testing to ensure any patients with undetected cancer, who develop
+           cancer within a year, are not missed. The study will end once the consented sample and
+           data retention periods have completed therefore the expected duration of project is 5
+           years.
+    </textblock>
+  </detailed_description>
+  <overall_status>Suspended</overall_status>
+  <why_stopped>
+    COVID-19
+  </why_stopped>
+  <start_date type="Actual">February 12, 2020</start_date>
+  <completion_date type="Anticipated">February 11, 2023</completion_date>
+  <primary_completion_date type="Anticipated">February 11, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Primary Outcome</measure>
+    <time_frame>3 years</time_frame>
+    <description>Positive diagnosis of cancer (as diagnosed by the TWW referral)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Secondary Outcome</measure>
+    <time_frame>3 years</time_frame>
+    <description>Positive outcome of non-cancer disease</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Secondary Outcome</measure>
+    <time_frame>3 years</time_frame>
+    <description>Positive diagnosis with an interval cancer, despite being given the all-clear by their TWW referral</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">4000</enrollment>
+  <condition>Breast Cancer</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Single Blood Draw from each participant</intervention_name>
+    <description>Health Professionals will seek informed consent and take a single blood collection from the participant. This will take place during the patient's visit to the breast one stop clinic as part of their routine urgent breast referral pathway.</description>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      We will be collecting a single blood collection from patients who have been referred in to
+      the breast LTHT clinic via the 'urgent cancer referral pathway' to have tests performed
+      through NHS blood sciences laboratories. These samples will be processed into serum and
+      plasma (i.e. not covered by the Human Tissues Act).
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        A cohort of patients (4000) that have been referred from primary care (via their GP) for
+        possible breast cancer diagnosis in the Leeds area. These patients will be on a Two Week
+        Wait (TWW) pathway.
+
+        Note: The TWW pathway constitutes part of the urgent cancer referral pathway.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age &gt; or = 18 years old.
+
+          -  Males and females referred from primary care for possible breast cancer diagnosis.
+
+          -  Informed consent to provide a single blood collection for analysis
+
+        Exclusion Criteria:
+
+          -  Age &lt; 18 years old.
+
+          -  Informed consent to provide a single blood collection for analysis not given
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>100 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Leeds Teaching Hospital NHS Trust</name>
+      <address>
+        <city>Leeds</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>April 3, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 13, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 17, 2020</study_first_posted>
+  <last_update_submitted>July 13, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 13, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 17, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

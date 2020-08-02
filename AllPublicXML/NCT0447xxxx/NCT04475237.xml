@@ -1,0 +1,144 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04475237</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SSM</org_study_id>
+    <nct_id>NCT04475237</nct_id>
+  </id_info>
+  <brief_title>Virtual Anatomical Reconstruction of Mandibular Bone Defects Using a Statistical Shape Model</brief_title>
+  <official_title>Virtual Anatomical Reconstruction of Mandibular Bone Defects Using a Statistical Shape Model</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>CADskills</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>CADskills</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Hundred already taken CT-scans (50 male and 50 female) will be anonymized. These scans will
+      be segmented and implemented into a statistical shape model that will be used to predict
+      missing hard tissue of a mandible based on the remaining bone.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Together with the radiology and Craniomaxillofacial (CMF) department, 100 scans will be
+      selected from the database (50 males and 50 females, between 20 and 60 years old). First,
+      they will be anonymized (except the sex and age/date of birth). Afterwards, they will be
+      segmented using Materialise Mimics software. The segmented mandibles will then be used to
+      create a statistical shape model (SSM) using principal component analysis. This model will
+      afterwards be used to predict the mandibular shapes.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Anticipated">August 2020</start_date>
+  <completion_date type="Anticipated">May 2021</completion_date>
+  <primary_completion_date type="Anticipated">May 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Ecologic or Community</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>A statistical shape model of a mandible</measure>
+    <time_frame>2 months</time_frame>
+    <description>A statistical shape model of a mandible</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Mandibular Diseases</condition>
+  <condition>SSM</condition>
+  <arm_group>
+    <arm_group_label>Healthy mandibles</arm_group_label>
+    <description>Belgian adults (between 20 and 60 years old), 50/50 male/female, with no major mandibular problems/deformities</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>CT-scan evaluation and segmentation</intervention_name>
+    <description>CT-scans will be evaluated (to see if they are included in the research group) and segmented if they are accepted.</description>
+    <arm_group_label>Healthy mandibles</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        European adults
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Healthy mandibles
+
+        Exclusion Criteria:
+
+          -  Mandibles with major deformities
+
+          -  Mandibles with obvious problems
+
+          -  Mandibles that already underwent surgery
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>60 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Stijn Huys, Drs</last_name>
+    <phone>+32 (0)9 395 12 25</phone>
+    <email>stijnhuys@cadskills.eu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>CADskills HQ</name>
+      <address>
+        <city>Ghent</city>
+        <state>East-Flanders</state>
+        <zip>9051</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Stijn Huys, Drs</last_name>
+      <phone>+32 (0)9 395 12 25</phone>
+      <email>stijnhuys@cadskills.eu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+  </location_countries>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>July 14, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 14, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 17, 2020</study_first_posted>
+  <last_update_submitted>July 14, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 14, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 17, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Mandibular Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

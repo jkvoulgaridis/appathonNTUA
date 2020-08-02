@@ -1,0 +1,246 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04292158</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2018/184</org_study_id>
+    <nct_id>NCT04292158</nct_id>
+  </id_info>
+  <brief_title>The New Golden Standard: the Early Warning Score Algorithm</brief_title>
+  <acronym>EAGLE</acronym>
+  <official_title>The New Golden Standard: the Early Warning Score Algorithm</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Liege</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Academisch Ziekenhuis Maastricht</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>KU Leuven</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Ziekenhuis Oost-Limburg</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Hasselt University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Maastricht University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Liege</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective is this study is the development and implementation of a smart algorithm to
+      compute an early warning indicator able to predict early patient deterioration.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Data will be collected at the three sites using the SomnoTouchTM and MOXTM devices,
+      commercially available and CE approved. Every month, the data will be sent to the KUL and UM
+      to develop the algorithm. Study centers will also send some pre-defined patient
+      characteristics extracted from the patient's EMR to better contextualize the data.
+
+      The EWS formula has a free interpretation of the vital parameters weighting and the vital
+      parameters to be taken into account in the scoring system. Therefore, many variants of the
+      EWS arose the past decade (i.e. MEWS, NEWS). The algorithm developed in this study should
+      define an objective approach for the EWS formula, diminishing the discordances regarding the
+      weight per parameter. Using a patient-personalized approach, the definite algorithm should be
+      based on the patient's vital parameter measured during his/her whole hospitalization,
+      generating a patient-personalized weight per parameter and an overall reliable EWS scoring
+      system.
+
+      The EWS score is often only measured twice per day per patient, creating a large window for
+      disease worsening. The algorithm developed in this study could be deployed along the wearable
+      device developed in the WearIT4Health project. The device would continuously feed the
+      algorithm with data acquired from its sensors. Thus, the EWS would be computed every 10
+      seconds.
+
+      The EWS scoring system has already been proven to be an effective approach in reducing
+      clinical deterioration, reducing the admission to intensive care units and thus overall
+      reducing mortality. However, as mentioned above the EWS is measured in a rather low
+      frequency. Therefore, estimation of the EWS score via continuous monitored parameters should
+      further increase patient survival.
+
+      The primary objective of the EAGLE study is to collect continuously monitored vital and
+      activity parameter data and use it to develop an algorithm that can early identify clinical
+      deterioration to optimize the application of the EWS system.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">April 1, 2019</start_date>
+  <completion_date type="Actual">April 30, 2020</completion_date>
+  <primary_completion_date type="Actual">November 4, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Precision of predictive early warning score algorithm</measure>
+    <time_frame>Up to 1 week</time_frame>
+    <description>Precision defined of truepositives divided by the sum of truepositives and truenegatives. This measure indicates how often the predictive EWS was right in identifying adverse events.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">80</enrollment>
+  <condition>Early Warning Score</condition>
+  <arm_group>
+    <arm_group_label>Main Group</arm_group_label>
+    <description>Hospitalized for at least 1 day clinic stay at the participating hospitals</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>SomnoTouch</intervention_name>
+    <description>The patient will be equipped with the SomnoTouch device. This device is able to record and estimate the following data:
+ECG data PPG data Heart rate Respiration rate Blood pressure (mmHg) Oxygen saturation (%).
+All patient will be stored for further analysis.</description>
+    <arm_group_label>Main Group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>MOX</intervention_name>
+    <description>The patient will be equipped with the MOX device. This device is able to record and estimate the following data:
+Accelerometers data Activity Body posture
+All patient will be stored for further analysis.</description>
+    <arm_group_label>Main Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Hospitalized for at least 1 day at the participating hospitals excluding patients admitted
+        at high intensity units: Intensive care units, Coronary care units, Emergency room.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Exclusion Criteria:
+
+          -  Suffering from infectious disease
+
+          -  Participating to another study that could intervene with the study results (e.g.
+             experimental medication that could affect the heart rate).
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Patrizio Lancellotti</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Liège University Hospital - CHU de Liège</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Pierre Delanaye</last_name>
+    <role>Study Director</role>
+    <affiliation>Liège University Hospital - CHU de Liège</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Arnaud Ancion</last_name>
+    <role>Study Director</role>
+    <affiliation>Liège University Hospital - CHU de Liège</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Pieter Vandervoort</last_name>
+    <role>Study Director</role>
+    <affiliation>Department of Cardiology and Department Future Health, Ziekenhuis Oost-Limburg</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Dianne de Korte-de Boer</last_name>
+    <role>Study Chair</role>
+    <affiliation>Maastricht University Medical Centre, department of Anesthesiology</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Ziekenhuis Oost-Limburg</name>
+      <address>
+        <city>Genk</city>
+        <state>Limbourg</state>
+        <zip>3600</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Centre Hospitalier Universitaire de Liège</name>
+      <address>
+        <city>Liège</city>
+        <zip>4000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Maastricht University Medical Center+</name>
+      <address>
+        <city>Maastricht</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+    <country>Netherlands</country>
+  </location_countries>
+  <reference>
+    <citation>Gerry S, Birks J, Bonnici T, Watkinson PJ, Kirtley S, Collins GS. Early warning scores for detecting deterioration in adult hospital patients: a systematic review protocol. BMJ Open. 2017 Dec 3;7(12):e019268. doi: 10.1136/bmjopen-2017-019268.</citation>
+    <PMID>29203508</PMID>
+  </reference>
+  <reference>
+    <citation>Jarvis S, Kovacs C, Briggs J, Meredith P, Schmidt PE, Featherstone PI, Prytherch DR, Smith GB. Aggregate National Early Warning Score (NEWS) values are more important than high scores for a single vital signs parameter for discriminating the risk of adverse outcomes. Resuscitation. 2015 Feb;87:75-80. doi: 10.1016/j.resuscitation.2014.11.014. Epub 2014 Nov 26.</citation>
+    <PMID>25433295</PMID>
+  </reference>
+  <reference>
+    <citation>Moon A, Cosgrove JF, Lea D, Fairs A, Cressey DM. An eight year audit before and after the introduction of modified early warning score (MEWS) charts, of patients admitted to a tertiary referral intensive care unit after CPR. Resuscitation. 2011 Feb;82(2):150-4. doi: 10.1016/j.resuscitation.2010.09.480. Epub 2010 Nov 5.</citation>
+    <PMID>21056524</PMID>
+  </reference>
+  <reference>
+    <citation>Ajami S, Teimouri F. Features and application of wearable biosensors in medical care. J Res Med Sci. 2015 Dec;20(12):1208-15. doi: 10.4103/1735-1995.172991. Review.</citation>
+    <PMID>26958058</PMID>
+  </reference>
+  <reference>
+    <citation>Smith MEB, Chiovaro JC, O'Neil M, Kansagara D, Quinones A, Freeman M, Motu'apuaka M, Slatore CG. Early Warning System Scores: A Systematic Review [Internet]. Washington (DC): Department of Veterans Affairs; 2014 Jan. Available from http://www.ncbi.nlm.nih.gov/books/NBK259026/</citation>
+    <PMID>25506953</PMID>
+  </reference>
+  <verification_date>May 2020</verification_date>
+  <study_first_submitted>October 1, 2019</study_first_submitted>
+  <study_first_submitted_qc>February 28, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 2, 2020</study_first_posted>
+  <last_update_submitted>May 14, 2020</last_update_submitted>
+  <last_update_submitted_qc>May 14, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 15, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Liege</investigator_affiliation>
+    <investigator_full_name>Patrizio Lancellotti</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>Early warning score</keyword>
+  <keyword>Vital parameters</keyword>
+  <keyword>Predictive algorithm</keyword>
+  <keyword>Medical Devices</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,433 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04420793</url>
+  </required_header>
+  <id_info>
+    <org_study_id>00089198</org_study_id>
+    <nct_id>NCT04420793</nct_id>
+  </id_info>
+  <brief_title>Voice Changes During ECT</brief_title>
+  <acronym>VAPRE</acronym>
+  <official_title>Voice Analysis in Patients Receiving Electroconvulsive Therapy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Medical University of South Carolina</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Medical University of South Carolina</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Depressed patients talk differently when they are depressed compared to when they are well.
+      But it is hard to actually measure what the differences are. The study team will record voice
+      samples from patients with mood disturbances, like depression, over the course of their
+      receiving an electroconvulsive therapy (ECT) series. The study team will try and measure or
+      quantify exactly what has changed in their speech and voice. The study team will choose ECT
+      as it is one of the most effective and rapid treatment for depression. The study team will
+      use a service provided by a company, NeuroLex, who has complex computer programs (artificial
+      intelligence, AI) to analyze the voice samples.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">November 7, 2019</start_date>
+  <completion_date type="Anticipated">June 30, 2021</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Acoustic feature: zero crossing rate</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy (ECT) which may last between 2 and 7 weeks.</time_frame>
+    <description>crossings per second</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Acoustic feature: energy and entropy</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>decibels</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Acoustic feature: spectral centroid, spectral spread, spectral entropy, spectral flux, spectral rolloff</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>hertz</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Acoustic feature: Mel-Frequency Cepstral Coefficients, Chroma Vectors, and Chroma Deviation</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>unitless</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Linguistic features: question ratio, filler ratio, number ratio, type token ratio</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>unitless ratio</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Linguistic features: verb frequency, noun frequency, pronoun frequency, adverb frequency, adjective frequency, particle frequency, conjunction frequency, pronoun frequency</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>percentage</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Linguistic features: standardized word entropy</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>decibels/log(total word count)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Linguistic features: Brunets index</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>W (lexical richness)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Linguistic features: Honores statistic</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>R (lexical richness)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Linguistic features: rate of speech</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>words per minute</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Meta-features: fatigue</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Machine learning approach to evaluate binary outcome: fatigued or awake</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Meta-features: audio quality</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Machine learning approach to evaluate binary outcome: bad or good</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Meta-features: sentiment</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Machine learning approach to evaluate binary outcome: sad or happy</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Meta-features: stress</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Machine learning approach to evaluate binary outcome: stressed or not stressed</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Meta-features: gender</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Machine learning approach to evaluate binary outcome: male or female</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Meta-features: accent</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Machine learning approach to evaluate a categorical outcome of accent region: england, indian, australian, etc.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Meta-features: length</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>seconds</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Meta-features: age</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Machine learning approach to evaluate estimated decade-age: 10s, 20s, 30s, 40s, 50s, 60s, 70s, 80s, 90s, etc.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Comparing the voice feature(s) with greatest statistically significant change to Patient Health Questionnaire (PHQ)-9 scores</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>The voice feature(s) found to have changed most significantly will be compared to Patient Health Questionnaire-9 scores which approach a total score that is less than 8, indicative of reduced depressive symptoms throughout Electroconvulsive Therapy</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Acoustic Feature Specific Changes within and across sessions</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Generalized mixed linear model will be used to evaluate which acoustic features change with P value threshold of &lt;0.05</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Linguistic Feature Specific Changes within and across sessions</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Generalized mixed linear model will be used to evaluate which linguistic features change with P value threshold of &lt;0.05</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Meta-Feature Specific Changes within and across sessions</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Generalized mixed linear model will be used to evaluate which meta features change with P value threshold of &lt;0.05</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Acoustic Feature Specific Changes between sessions</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Acoustic voice features will be evaluated using continuous averages using one sample t-tests and we will be testing the difference over time to a null hypothesis of 0 (for no change) in the one sample t-test.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Linguistic Feature Specific Changes between sessions</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Linguistic voice features will be evaluated using continuous averages using one sample t-tests and we will be testing the difference over time to a null hypothesis of 0 (for no change) in the one sample t-test.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Meta-Feature Specific Changes between sessions</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Meta-voice features will be evaluated using continuous averages using one sample t-tests and we will be testing the difference over time to a null hypothesis of 0 (for no change) in the one sample t-test.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: Age</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>years</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: inpatient/outpatient status</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>binary: inpatient or outpatient</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: gender</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>male, female, unspecified</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: race</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>african american, caucasian, hispanic, asian american, etc.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: Psychiatric diagnosis for ECT</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Diagnosis indicated for receiving ECT</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: PHQ-9 score at each session</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Total (0-27) on 9 question scale</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: Psychiatric hospitalizations</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Number</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: Past Psychiatric Medication Trials</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Number</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: Current Psychiatric Medication Trials</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Number</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: Classes of Current Psychiatric Medications</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Categorical: Sedative, Selective Serotonin Reuptake Inhibitor, etc.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: Suicidal Ideation at ECT consult</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Binary: yes/no</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: Past Suicide Attempts</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Number</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: Psychiatric Review of Systems</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Descriptive, categorical</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: Family Psychiatric History</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Categorical regarding psychiatric diagnoses of family members</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: Number of non-psychiatric medical diagnoses</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Number</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: Past non-psychiatric medication trials</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Number</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: Current non-psychiatric Medications</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Number</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: Tobacco use history</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Binary (yes/no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: Tobacco use pack year</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>pack-year (total years smoked*average packs per day)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: Prior ECT treatment</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Binary (yes/no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: total # of prior ECT treatments for response in the past</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Numerical</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: Prior transcranial magnetic stimulation (TMS) treatment</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Binary (yes/no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data: Prior response to ECT or TMS</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Categorical</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Chart Review Data against voice features</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>We will evaluate voice features with statistically significant changes against respective participant chart review data using a general linear model with a clustering component for repeated measures which may also be applied to contrast statements evaluating overall change over time (from baseline to end).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Generating ROC curves: stress</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Clinically determined stress level (mood) will be compared to meta-feature extractions of stressed vs. not stressed from voice recordings will be used to calculate an area under the receiver operating curve (AUOC)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Generating ROC curves: fatigue</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Clinically determined fatigue (motor) will be compared to meta-feature extractions of fatigued vs. awake from voice recordings will be used to calculate an area under the receiver operating curve (AUOC)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Generating ROC curves: sentiment</measure>
+    <time_frame>Throughout a course of electroconvulsive therapy which may last between 2 and 7 weeks.</time_frame>
+    <description>Clinically determined sentiment (affect and mood) will be compared to meta-feature extractions of happy vs. sad from voice recordings will be used to calculate an area under the receiver operating curve (AUOC)</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Unipolar Depression</condition>
+  <condition>Bipolar Depression</condition>
+  <condition>Bipolar Disorder, Manic</condition>
+  <arm_group>
+    <arm_group_label>ECT and Voice Recorded Group</arm_group_label>
+    <description>This is an add-on study of voice samples to be gathered during ECT clinical treatments. The ONLY research procedures are four tasks on an online form, one text task and three voice recording tasks. These voice recordings will take place in a private room on the 5th floor of the Institute of Psychiatry on the same day of a patient's ECT treatment. The questionnaire will take less than 10 minutes.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Questionnaire</intervention_name>
+    <description>3 voice recording tasks and 1 text entry task will be performed.</description>
+    <arm_group_label>ECT and Voice Recorded Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients undergoing electroconvulsive therapy (ECT) at the Medical University of South
+        Carolina on an outpatient or inpatient basis.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        INCLUSION CRITERIA:
+
+          -  Any candidate for electroconvulsive therapy who is about to initiate their ECT course
+             at Medical University of South Carolina (MUSC) for a clinically indicated diagnosis
+
+          -  Age 18 to 90 years old
+
+          -  Able to speak and understand English
+
+          -  Able to give consent to participate in the study
+
+        EXCLUSION CRITERIA:
+
+          -  Any medical condition that limits the ability to speak or speak clearly, for example a
+             history of head and/or neck cancer, spinal cord injury affecting speech, amyotrophic
+             lateral sclerosis, or those with absence of critical anatomical structures involved in
+             speech.
+
+          -  Any voice characteristics that may limit the ability to speak English clearly
+             including speech impediments or heavy accents (as evidenced by the pronunciation of
+             the English language in such a non-standard way that research staff). If study staff
+             have significant difficulty understanding the participant's responses in conversation,
+             this may warrant exclusion.
+
+          -  Patients who are receiving ECT by involuntary order, by order of their guardian, or by
+             a court order, as evidenced by patient report or brief chart review.
+
+          -  Patients who elect to not receive their full course of ECT at MUSC.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>89 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sean Christensen, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Medical University of South Carolina</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Sean Christensen, MD</last_name>
+    <phone>843-792-8013</phone>
+    <email>christse@musc.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Medical University of South Carolina</name>
+      <address>
+        <city>Charleston</city>
+        <state>South Carolina</state>
+        <zip>29425</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Emily Bristol</last_name>
+      <phone>843-792-4640</phone>
+      <email>bristole@musc.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Sean Christensen, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Mark George, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>March 10, 2020</study_first_submitted>
+  <study_first_submitted_qc>June 3, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 9, 2020</study_first_posted>
+  <last_update_submitted>June 3, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 3, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 9, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Medical University of South Carolina</investigator_affiliation>
+    <investigator_full_name>Sean Christensen</investigator_full_name>
+    <investigator_title>Resident Physician</investigator_title>
+  </responsible_party>
+  <keyword>VAPRE</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Depression</mesh_term>
+    <mesh_term>Depressive Disorder</mesh_term>
+    <mesh_term>Bipolar Disorder</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

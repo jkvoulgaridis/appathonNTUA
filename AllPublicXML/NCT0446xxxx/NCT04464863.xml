@@ -1,0 +1,239 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04464863</url>
+  </required_header>
+  <id_info>
+    <org_study_id>KAM-Study (PI-3787)</org_study_id>
+    <nct_id>NCT04464863</nct_id>
+  </id_info>
+  <brief_title>Kinematic Analysis in Stroke Patients Using Microsoft Kinect and Akira Software: Kinect-Akira Movement Study</brief_title>
+  <acronym>KAM</acronym>
+  <official_title>Kinematic Analysis in Stroke Patients Using Microsoft Kinect and Akira Software: Kinect-Akira Movement Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Instituto de Investigación Hospital Universitario La Paz</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Instituto de Investigación Hospital Universitario La Paz</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In this prospective, unicentric, case-control study, the main aim is to analyze joint
+      movement and walking patterns in patients with acute stroke with a marker-free motion capture
+      system. Case group: Stroke patients who fulfill the inclusion criteria are invited to
+      participate in the study during admission. The evaluation consists of a workout designed by
+      expert rehabilitation physicians and neurologists that is performed by the patient in front
+      of the Microsoft Kinect camera. The custom-built software Akira record the joint angles of
+      body trunk and upper limbs during the workout. The kinematic data will be analyzed with a
+      machine learning algorithm that classifies the participant according to the kinematic data in
+      normal movement or impaired movement (with the degree of impairment) by age decade. Control
+      group: healthy participants (without neurological or osteomuscular diseases) matched by age
+      and sex with cases 1:1. The correlation between kinematic and clinical scales (NIHSS) and
+      functional scales (modified Rankin Scale) will be analyzed. A secondary objective will be to
+      analyze the predictive value of the kinematic measurements with the functional outcome at
+      three months
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 29, 2020</start_date>
+  <completion_date type="Anticipated">June 29, 2021</completion_date>
+  <primary_completion_date type="Anticipated">January 29, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Kinematic metrics: join angles</measure>
+    <time_frame>The change between the first week of index stroke (acute phase) and at 3 months after index stroke</time_frame>
+    <description>The kinect camera together with the software Akira will be used to automatically measure the degree angle of the following body joints: shoulder in abduction, shoulder inflexion, elbow in extension and in flexion and the angle formed by the forearm and the trunk with the shoulder in abduction.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Kinematic metrics: movement acceleration</measure>
+    <time_frame>The change between the first week of index stroke (acute phase) and at 3 months after index stroke</time_frame>
+    <description>The kinect camera together with the software Akira will be used to automatically measure the acceleration of the following movements: shoulder abduction and shoulder flexion.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Kinematic metrics: movement pattern</measure>
+    <time_frame>The change between the first week of index stroke (acute phase) and at 3 months after index stroke</time_frame>
+    <description>The kinect camera together with the software Akira will be used to automatically measure the pattern of the following movements: trunk oscillation during standing position and during walking; and trunk oscillation during seating position with opened and closed eyes.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Relationship of kinematic measures with the degree of disability after stroke.</measure>
+    <time_frame>At 3 months after the index stroke</time_frame>
+    <description>Correlation between the kinematic metrics described before (joint angles, movement acceleration and movement pattern) and the degree of disability, measured y the modified Rankin scale. The modified Rankin Scale (mRS) is a extensively use scale to measure dependency after stroke. The minimum value is 0 (no sequels or disability) and the maximum value is 6 (dead). The lower the score in the scale, the better is the outcome.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">140</enrollment>
+  <condition>Stroke</condition>
+  <arm_group>
+    <arm_group_label>Cases</arm_group_label>
+    <description>Acute stroke patients during the first week of evolution</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <description>Age and sex 1:1 healthy participants</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Kinematic metrics</intervention_name>
+    <description>kinematic metrics recorded with Kinect (register brand) and extracted with Akira (register brand)</description>
+    <arm_group_label>Cases</arm_group_label>
+    <arm_group_label>Control</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Acute stroke patients and healthy controls, matched by age and sex. The inclusion and
+        exclusion criteria are defined below
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Acute Stroke patients (within the first week of index stroke)
+
+          -  Neurological deficit present at the moment of the evaluation.
+
+          -  Informed consent signed.
+
+        Exclusion Criteria:
+
+          -  Clinical instability
+
+          -  Aphasia or cognitive decline that prevents the understanding of the workout.
+
+          -  Refuse to participate
+
+          -  Previous neurological or osteomuscular conditions.
+
+          -  Previous conditions with less than 3 months of expectancy of life.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>María Alonso de Leciñana, MD PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Hospital Universitario La Paz, IdiPAZ</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>María Alonso de Leciñana, MD PhD</last_name>
+    <phone>+34 917 277 444</phone>
+    <email>malecinanacases@salud.madrid.org</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Raquel Gutiérrez Zúñiga, MD</last_name>
+    <phone>+34 917 277 444</phone>
+    <email>rgutierrezz@salud.madrid.org</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>La Paz University Hospital, IdiPAZ</name>
+      <address>
+        <city>Madrid</city>
+        <zip>28046</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Exuperio Díez Tejedor, MD, PhD, Prof.</last_name>
+      <phone>917277444</phone>
+      <phone_ext>+34</phone_ext>
+      <email>exuperio-diez@salud.madrid.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Raquel Gutiérrez Zúñiga, MD</last_name>
+      <phone>917277444</phone>
+      <phone_ext>+34</phone_ext>
+      <email>rgutierrezz@salud.madrid.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Blanca Fuentes Gimeno</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>María Alonso de Leciñana</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Elena de Celis Ruiz</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Raquel Gutiérrez Zúñiga</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Silvia Pastor Yvorra</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ricardo Riguel Bobillo</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Gerardo Ruiz Ares</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jorge Rodríguez Pardo</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Begoña Marín</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Lucía Millet</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Exuperio Díez Tejedor</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>David Hernández</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Spain</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>June 11, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 6, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 9, 2020</study_first_posted>
+  <last_update_submitted>July 6, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 6, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 9, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stroke</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Metronidazole</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

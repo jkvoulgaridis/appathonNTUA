@@ -1,0 +1,490 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00600717</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRB 06-04-23; 2012-0866</org_study_id>
+    <secondary_id>2008-1439</secondary_id>
+    <nct_id>NCT00600717</nct_id>
+  </id_info>
+  <brief_title>Clinical Applications of High-Frequency Oscillations</brief_title>
+  <acronym>HFOs</acronym>
+  <official_title>Localizing Functional Brain Cortices and Epileptogenic Zones With High Frequency Brain Signals</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Children's Hospital Medical Center, Cincinnati</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Cincinnati</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Children's Hospital Medical Center, Cincinnati</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of this study is to use high-frequency brain signals (HFBS) to localize
+      functional brain areas and to characterize HFBS epilepsy, migraine and other brain disorders.
+      We hope to build the world's first high-frequency MEG/MEG/ECoG/SEEG database for the
+      developing brain. HFBS include high-gamma activation/oscillations, high-frequency
+      oscillations (HFOs), ripples, fast ripples, and very high frequency oscillations (VHFOs) in
+      the brain.
+
+      To reach the goals, we have developed several new MEG/EEG methods: (1) accumulated
+      spectrogram; (2) accumulated source imaging; (3)frequency encoded source imaging; (4)
+      multi-frequency analysis; (5)artificial intelligence detection of HFOs; (6) Neural network
+      analysis (Graph Theory); and (7) others (e.g. ICA, virtual sensors).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      I. PURPOSE OF STUDY The purpose of this study is to go beyond the conventional analyses of
+      brain signals in a narrow frequency band (typically 1-30 Hz) by measuring brain signals from
+      infraslow to very fast (0.01 - 2800 Hz). Specifically, we propose to study physiological HFOs
+      in sensorimotor, auditory, visual and language evoked magnetic fields and to investigate
+      pathological HFOs in epilepsy, migraine and other disorders. This is clinical very important
+      for many reasons.
+
+      For example, There are 400,000 to 600,000 patients with refractory epilepsy in the United
+      States. Since those patients' seizures cannot be controlled by any drugs, epilepsy surgery is
+      one potential cure. Accurate identification of ictogenic zones, the brain areas cause
+      seizures, is essential to ensure a favorable surgical outcome. Unfortunately, the existing
+      method, electrocorticography (ECoG), needs to place electrodes upon the brain surface to
+      capture spikes (typically, 14-70 Hz), which is very risky and costly. The present study is to
+      use magnetoencephalography (MEG) and electroencephalography (EEG) to identification of
+      ictogenic zones noninvasively. To reach the goal, we proposed to detect high frequency
+      (70-2,500 Hz) and low frequency (&lt; 14 Hz) brain signals with advanced signal processing
+      methods. Our central hypothesis is that high frequency brain signals will lead to
+      significantly improved rates of seizure freedom as compared with spikes. This hypothesis is
+      based on recent reports that high frequency brain signals are localized to ictogenic zones.
+
+      Building on our unique resources and skills, we plan to address four aims. First, we will
+      quantify the spatial concordance between MEG and ECoG signals in both low and high frequency
+      ranges. We hypothesize that Ictogenic zones determined by invasive ECoG can be non-invasively
+      detected and localized by high frequency MEG signals. Second, we will quantify the occurrence
+      concordance between EEG and ECoG signals in both low and high frequency ranges. We
+      hypothesize that epileptic high frequency signals from the ictogenic zones determined by
+      invasive ECoG can also been non-invasively detected by EEG, although the localization of EEG
+      may be significantly inferior to that of MEG. Third, we will determine whether epilepsy
+      surgery based on multi-frequency signals (low frequency brain signals, spikes, and high
+      frequency brain signals), instead of spikes alone, leads to a better seizure outcome. We
+      hypothesize that epilepsy surgery guided by high frequency brain signals detected with
+      MEG/EEG will significantly improve surgical outcomes. Fourth, we will determine whether
+      multi-frequency analyses provide more information than single frequency analysis for
+      estimating epileptogenic zones for pre-surgical ECoG electrode implantation. We hypothesize
+      that covering all brain areas generating low to high frequency epileptic activity is the
+      prerequisite to localize multiple ictogenic zones for favorable post-surgical outcomes. To
+      yield definitive results, we propose a multi-center study to determine if high frequency
+      brain signals are new biomarkers for significantly improve epilepsy surgery outcomes.
+      According to our pilot data that localization of epileptogenic zones with MEG high frequency
+      signals can increase about 30-40% post-operative seizure freedom, the proposed study should
+      result in millions of intractable epilepsy patients being seizure free. This study also lays
+      a foundation for using low and high frequency brain signals as new biomarkers for diagnosis
+      and treatment of many other disorders (e.g. migraine, autism).
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">November 1, 2006</start_date>
+  <completion_date type="Anticipated">July 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">July 1, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">120</enrollment>
+  <condition>Healthy</condition>
+  <condition>Epilepsy</condition>
+  <condition>Migraine</condition>
+  <condition>Headache</condition>
+  <condition>Pain</condition>
+  <condition>Autism</condition>
+  <condition>Cerebral Palsy</condition>
+  <arm_group>
+    <arm_group_label>Pediatric Patients and Healthy Children</arm_group_label>
+    <description>Healthy children without dental works. Pediatric patients with epilepsy and migraine (headache).</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Since this study focuses on normal MEG data, only normal subjects will be studied. Since
+        women, girls, and minorities are included in the population to whom recruiting materials
+        are directed, we anticipate that subject selection will be equitable.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Healthy and cooperative
+
+          -  Ages 6-18 (male or female)
+
+          -  Normal hearing and vision
+
+          -  Normal hand movement
+
+          -  No history for neurological or psychiatric disease
+
+          -  No family history for genetic neurological or psychiatric diseases.
+
+          -  No metal implants such as pacemaker, neuron-stimulator, cochlear device, etc.
+
+        Exclusion Criteria:
+
+          -  If you are taking any medications for depression, neurologic, or psychiatric condition
+
+          -  If you do not feel well, have epilepsy or other brain disorders
+
+          -  If you have had a recent concussion or head injury
+
+          -  If you have any metal, such as dental braces, in your body that would cause &quot;magnetic
+             noise&quot;, you may not be able to be in this study. If you would like, we can do a
+             simple, quick &quot;magnetic noise screening&quot; in the MEG Center, which can tell us whether
+             you can be in the study.
+
+          -  If you have any electrical or metal implants such as pacemakers, neuro-stimulators, or
+             orthopedic pins or plates. The research nurse will discuss all exclusions with you in
+             further detail before the magnetic resonance imaging (MRI) scan.
+
+          -  If you could not pass the pre-experimental screening
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>6 Years</minimum_age>
+    <maximum_age>18 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jing Xiang, Ph.D M.D.</last_name>
+    <role>Study Director</role>
+    <affiliation>Children's Hospital Medical Center, Cincinnati</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>MEG</name>
+      <address>
+        <city>Cincinnati</city>
+        <state>Ohio</state>
+        <zip>45229</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://www.cincinnatichildrens.org/research/div/neurology/labs/xiang-lab/</url>
+    <description>Xiang Lab</description>
+  </link>
+  <reference>
+    <citation>Wu D, Zhou Y, Xiang J, Tang L, Liu H, Huang S, Wu T, Chen Q, Wang X. Multi-frequency analysis of brain connectivity networks in migraineurs: a magnetoencephalography study. J Headache Pain. 2016;17:38. doi: 10.1186/s10194-016-0636-7. Epub 2016 Apr 18.</citation>
+    <PMID>27090418</PMID>
+  </reference>
+  <results_reference>
+    <citation>Kotecha R, Xiang J, Wang Y, Huo X, Hemasilpin N, Fujiwara H, Rose D, deGrauw T. Time, frequency and volumetric differences of high-frequency neuromagnetic oscillation between left and right somatosensory cortices. Int J Psychophysiol. 2009 May;72(2):102-10. doi: 10.1016/j.ijpsycho.2008.10.009. Epub 2008 Nov 14.</citation>
+    <PMID>19041674</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Wang Y, Xiang J, Kotecha R, Vannest J, Liu Y, Rose D, Schapiro M, Degrauw T. Spatial and frequency differences of neuromagnetic activities between the perception of open- and closed-class words. Brain Topogr. 2008 Dec;21(2):75-85. doi: 10.1007/s10548-008-0060-7. Epub 2008 Aug 5.</citation>
+    <PMID>18679788</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Liu Y, Xiang J, Wang Y, Vannest JJ, Byars AW, Rose DF. Spatial and frequency differences of neuromagnetic activities in processing concrete and abstract words. Brain Topogr. 2008 Spring;20(3):123-9. Epub 2007 Dec 6.</citation>
+    <PMID>18058218</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Xiang J, Xiao Z. Spatiotemporal and frequency signatures of noun and verb processing: a wavelet-based beamformer study. J Clin Exp Neuropsychol. 2009 Aug;31(6):648-57. doi: 10.1080/13803390802448651. Epub 2008 Dec 22.</citation>
+    <PMID>19105073</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Guo X, Xiang J, Mun-Bryce S, Bryce M, Huang S, Huo X, Wang Y, Rose D, Degrauw T, Gartner K, Song T, Schmit J, Vargus-Adams J. Aberrant high-gamma oscillations in the somatosensory cortex of children with cerebral palsy: a meg study. Brain Dev. 2012 Aug;34(7):576-83. doi: 10.1016/j.braindev.2011.09.012. Epub 2011 Oct 21.</citation>
+    <PMID>22018901</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Korostenskaja M, Pardos M, Kujala T, Rose DF, Brown D, Horn P, Wang Y, Fujiwara H, Xiang J, Kabbouche MA, Powers SW, Hershey AD. Impaired auditory information processing during acute migraine: a magnetoencephalography study. Int J Neurosci. 2011 Jul;121(7):355-65. doi: 10.3109/00207454.2011.560312. Epub 2011 Mar 22.</citation>
+    <PMID>21425948</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Zhang R, Wu T, Wang Y, Liu H, Zou Y, Liu W, Xiang J, Xiao C, Yang L, Fu Z. Interictal magnetoencephalographic findings related with surgical outcomes in lesional and nonlesional neocortical epilepsy. Seizure. 2011 Nov;20(9):692-700. doi: 10.1016/j.seizure.2011.06.021. Epub 2011 Jul 22.</citation>
+    <PMID>21782477</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Wang Y, Xiang J, Vannest J, Holroyd T, Narmoneva D, Horn P, Liu Y, Rose D, deGrauw T, Holland S. Neuromagnetic measures of word processing in bilinguals and monolinguals. Clin Neurophysiol. 2011 Sep;122(9):1706-17. doi: 10.1016/j.clinph.2011.02.008. Epub 2011 Mar 16.</citation>
+    <PMID>21414839</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Korostenskaja M, Pardos M, Fujiwara H, Kujala T, Horn P, Rose D, Byars A, Brown D, Seo JH, Wang Y, Vannest J, Xiang J, Degrauw T, Näätänen R, Lee KH. Neuromagnetic evidence of impaired cortical auditory processing in pediatric intractable epilepsy. Epilepsy Res. 2010 Nov;92(1):63-73. doi: 10.1016/j.eplepsyres.2010.08.008. Epub 2010 Sep 21.</citation>
+    <PMID>20863661</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Meng L, Xiang J, Kotecha R, Rose D, Zhao H, Zhao D, Yang J, Degrauw T. White matter abnormalities in children and adolescents with temporal lobe epilepsy. Magn Reson Imaging. 2010 Nov;28(9):1290-8. doi: 10.1016/j.mri.2010.03.046. Epub 2010 Jul 24.</citation>
+    <PMID>20656430</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Huo X, Wang Y, Kotecha R, Kirtman EG, Fujiwara H, Hemasilpin N, Degrauw T, Rose DF, Xiang J. High gamma oscillations of sensorimotor cortex during unilateral movement in the developing brain: a MEG study. Brain Topogr. 2011 Jan;23(4):375-84. doi: 10.1007/s10548-010-0151-0. Epub 2010 Jun 25.</citation>
+    <PMID>20577795</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Wang X, Xiang J, Wang Y, Pardos M, Meng L, Huo X, Korostenskaja M, Powers SW, Kabbouche MA, Hershey AD. Identification of abnormal neuromagnetic signatures in the motor cortex of adolescent migraine. Headache. 2010 Jun;50(6):1005-16. doi: 10.1111/j.1526-4610.2010.01674.x. Epub 2010 May 7.</citation>
+    <PMID>20487034</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Chen Y, Xiang J, Kirtman EG, Wang Y, Kotecha R, Liu Y. Neuromagnetic biomarkers of visuocortical development in healthy children. Clin Neurophysiol. 2010 Sep;121(9):1555-1562. doi: 10.1016/j.clinph.2010.03.029. Epub 2010 Apr 14.</citation>
+    <PMID>20395171</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Huo X, Xiang J, Wang Y, Kirtman EG, Kotecha R, Fujiwara H, Hemasilpin N, Rose DF, Degrauw T. Gamma oscillations in the primary motor cortex studied with MEG. Brain Dev. 2010 Sep;32(8):619-24. doi: 10.1016/j.braindev.2009.09.021.</citation>
+    <PMID>19836911</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Xiang J, Liu Y, Wang Y, Kirtman EG, Kotecha R, Chen Y, Huo X, Fujiwara H, Hemasilpin N, Lee K, Mangano FT, Leach J, Jones B, DeGrauw T, Rose D. Frequency and spatial characteristics of high-frequency neuromagnetic signals in childhood epilepsy. Epileptic Disord. 2009 Jun;11(2):113-25. doi: 10.1684/epd.2009.0253. Epub 2009 May 27.</citation>
+    <PMID>19473946</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Xiang J, Liu Y, Wang Y, Kotecha R, Kirtman EG, Chen Y, Huo X, Fujiwara H, Hemasilpin N, DeGrauw T, Rose D. Neuromagnetic correlates of developmental changes in endogenous high-frequency brain oscillations in children: a wavelet-based beamformer study. Brain Res. 2009 Jun 5;1274:28-39. doi: 10.1016/j.brainres.2009.03.068. Epub 2009 Apr 9.</citation>
+    <PMID>19362072</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Leiken KA, Xiang J, Curry E, Fujiwara H, Rose DF, Allen JR, Kacperski JE, O'Brien HL, Kabbouche MA, Powers SW, Hershey AD. Quantitative neuromagnetic signatures of aberrant cortical excitability in pediatric chronic migraine. J Headache Pain. 2016;17:46. doi: 10.1186/s10194-016-0641-x. Epub 2016 Apr 26.</citation>
+    <PMID>27113076</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Meng L, Xiang J. Frequency specific patterns of resting-state networks development from childhood to adolescence: A magnetoencephalography study. Brain Dev. 2016 Nov;38(10):893-902. doi: 10.1016/j.braindev.2016.05.004. Epub 2016 Jun 7.</citation>
+    <PMID>27287665</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Li F, Xiang J, Wu T, Zhu D, Shi J. Abnormal resting-state brain activity in headache-free migraine patients: A magnetoencephalography study. Clin Neurophysiol. 2016 Aug;127(8):2855-2861. doi: 10.1016/j.clinph.2016.05.015. Epub 2016 May 26.</citation>
+    <PMID>27417062</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Xiang J, Leiken K, Degrauw X, Kay B, Fujiwara H, Rose DF, Allen JR, Kacperski JE, O'Brien HL, Kabbouche MA, Powers SW, Hershey AD. Spatial Heterogeneity of Cortical Excitability in Migraine Revealed by Multifrequency Neuromagnetic Signals. J Pain. 2016 Jun;17(6):694-706. doi: 10.1016/j.jpain.2016.02.009. Epub 2016 Mar 10.</citation>
+    <PMID>26970516</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Tang L, Xiang J, Huang S, Miao A, Ge H, Liu H, Wu D, Guan Q, Wu T, Chen Q, Yang L, Lu X, Hu Z, Wang X. Neuromagnetic high-frequency oscillations correlate with seizure severity in absence epilepsy. Clin Neurophysiol. 2016 Feb;127(2):1120-1129. doi: 10.1016/j.clinph.2015.08.016. Epub 2015 Sep 5.</citation>
+    <PMID>26384756</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Pardos M, Korostenskaja M, Xiang J, Fujiwara H, Lee KH, Horn PS, Byars A, Vannest J, Wang Y, Hemasilpin N, Rose DF. Physical Feature Encoding and Word Recognition Abilities Are Altered in Children with Intractable Epilepsy: Preliminary Neuromagnetic Evidence. Behav Neurol. 2015;2015:237436. doi: 10.1155/2015/237436. Epub 2015 Jun 3.</citation>
+    <PMID>26146459</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Liu H, Ge H, Xiang J, Miao A, Tang L, Wu T, Chen Q, Yang L, Wang X. Resting state brain activity in patients with migraine: a magnetoencephalography study. J Headache Pain. 2015;16:525. doi: 10.1186/s10194-015-0525-5. Epub 2015 May 7.</citation>
+    <PMID>25968099</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Xiang J, Korostenskaja M, Molloy C, deGrauw X, Leiken K, Gilman C, Meinzen-Derr J, Fujiwara H, Rose DF, Mitchell T, Murray DS. Multi-frequency localization of aberrant brain activity in autism spectrum disorder. Brain Dev. 2016 Jan;38(1):82-90. doi: 10.1016/j.braindev.2015.04.007. Epub 2015 Apr 27.</citation>
+    <PMID>25937458</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Leiken K, Xiang J, Zhang F, Shi J, Tang L, Liu H, Wang X. Magnetoencephalography detection of high-frequency oscillations in the developing brain. Front Hum Neurosci. 2014 Dec 12;8:969. doi: 10.3389/fnhum.2014.00969. eCollection 2014.</citation>
+    <PMID>25566015</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Xiang J, Korman A, Samarasinghe KM, Wang X, Zhang F, Qiao H, Sun B, Wang F, Fan HH, Thompson EA. Volumetric imaging of brain activity with spatial-frequency decoding of neuromagnetic signals. J Neurosci Methods. 2015 Jan 15;239:114-28. doi: 10.1016/j.jneumeth.2014.10.007. Epub 2014 Oct 18.</citation>
+    <PMID>25455340</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Xiang J, Tenney JR, Korman AM, Leiken K, Rose DF, Harris E, Yuan W, Horn PS, Holland K, Loring DW, Glauser TA. Quantification of Interictal Neuromagnetic Activity in Absence Epilepsy with Accumulated Source Imaging. Brain Topogr. 2015 Nov;28(6):904-14. doi: 10.1007/s10548-014-0411-5. Epub 2014 Oct 31.</citation>
+    <PMID>25359158</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Tenney JR, Fujiwara H, Horn PS, Vannest J, Xiang J, Glauser TA, Rose DF. Low- and high-frequency oscillations reveal distinct absence seizure networks. Ann Neurol. 2014 Oct;76(4):558-67. doi: 10.1002/ana.24231. Epub 2014 Sep 8.</citation>
+    <PMID>25042348</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Xiang J, Luo Q, Kotecha R, Korman A, Zhang F, Luo H, Fujiwara H, Hemasilpin N, Rose DF. Accumulated source imaging of brain activity with both low and high-frequency neuromagnetic signals. Front Neuroinform. 2014 May 21;8:57. doi: 10.3389/fninf.2014.00057. eCollection 2014.</citation>
+    <PMID>24904402</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Ge HT, Liu HX, Xiang J, Miao AL, Tang L, Guan QS, Wu T, Chen QQ, Yang L, Wang XS. Abnormal cortical activation in females with acute migraine: a magnetoencephalography study. Clin Neurophysiol. 2015 Jan;126(1):170-9. doi: 10.1016/j.clinph.2014.03.033. Epub 2014 Apr 16.</citation>
+    <PMID>24854723</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Miao A, Xiang J, Tang L, Ge H, Liu H, Wu T, Chen Q, Hu Z, Lu X, Wang X. Using ictal high-frequency oscillations (80-500Hz) to localize seizure onset zones in childhood absence epilepsy: a MEG study. Neurosci Lett. 2014 Apr 30;566:21-6. doi: 10.1016/j.neulet.2014.02.038. Epub 2014 Feb 26.</citation>
+    <PMID>24582907</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Miao A, Tang L, Xiang J, Guan Q, Ge H, Liu H, Wu T, Chen Q, Yang L, Lu X, Hu Z, Wang X. Dynamic magnetic source imaging of absence seizure initialization and propagation: a magnetoencephalography study. Epilepsy Res. 2014 Mar;108(3):468-80. doi: 10.1016/j.eplepsyres.2014.01.006. Epub 2014 Jan 29.</citation>
+    <PMID>24534760</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Xiang J, Degrauw X, Korman AM, Allen JR, O'Brien HL, Kabbouche MA, Powers SW, Hershey AD. Neuromagnetic abnormality of motor cortical activation and phases of headache attacks in childhood migraine. PLoS One. 2013 Dec 27;8(12):e83669. doi: 10.1371/journal.pone.0083669. eCollection 2013.</citation>
+    <PMID>24386250</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Xiang J, deGrauw X, Korostenskaja M, Korman AM, O'Brien HL, Kabbouche MA, Powers SW, Hershey AD. Altered cortical activation in adolescents with acute migraine: a magnetoencephalography study. J Pain. 2013 Dec;14(12):1553-63. doi: 10.1016/j.jpain.2013.04.009. Epub 2013 Jun 21.</citation>
+    <PMID>23792072</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Korostenskaja M, Harris E, Giovanetti C, Horn P, Wang Y, Rose D, Fujiwara H, Xiang J. Magnetoencephalography reveals altered auditory information processing in youth with obsessive-compulsive disorder. Psychiatry Res. 2013 May 30;212(2):132-40. doi: 10.1016/j.pscychresns.2012.11.011. Epub 2013 Mar 30.</citation>
+    <PMID>23545237</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Song PP, Xiang J, Jiang L, Chen HS, Liu BK, Hu Y. Dynamic Changes in Spectral and Spatial Signatures of High Frequency Oscillations in Rat Hippocampi during Epileptogenesis in Acute and Chronic Stages. Front Neurol. 2016 Nov 28;7:204. eCollection 2016.</citation>
+    <PMID>27965619</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Wu C, Xiang J, Sun J, Huang S, Tang L, Miao A, Zhou Y, Chen Q, Hu Z, Wang X. Quantify neuromagnetic network changes from pre-ictal to ictal activities in absence seizures. Neuroscience. 2017 Aug 15;357:134-144. doi: 10.1016/j.neuroscience.2017.05.038. Epub 2017 May 31.</citation>
+    <PMID>28576731</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Wu C, Xiang J, Jiang W, Huang S, Gao Y, Tang L, Zhou Y, Wu D, Chen Q, Hu Z, Wang X. Altered Effective Connectivity Network in Childhood Absence Epilepsy: A Multi-frequency MEG Study. Brain Topogr. 2017 Sep;30(5):673-684. doi: 10.1007/s10548-017-0555-1. Epub 2017 Mar 12.</citation>
+    <PMID>28286918</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Chen D, Wan S, Xiang J, Bao FS. A high-performance seizure detection algorithm based on Discrete Wavelet Transform (DWT) and EEG. PLoS One. 2017 Mar 9;12(3):e0173138. doi: 10.1371/journal.pone.0173138. eCollection 2017.</citation>
+    <PMID>28278203</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Feng YG; Xiang J; Wu J; Zhu D. Clinical application of magnetoencephalography with high frequency oscillations in epilepsy. Chin J Neuromed.2017; 16(10): 973-977</citation>
+  </results_reference>
+  <results_reference>
+    <citation>Du, J ; Shan, Y ; Li, L ; Fan, X ; An, Y ; Zhang, X; Xiang, ; Ren, L ; Wang, Y. Dynamic Propagation of Interictal Epileptic Spike of Medial Temporal Lobe Epilepsy Predict Seizure Network: A MEG combined with SEEG Study. Epilepsia, 2017, 58(SI, 5): 871</citation>
+  </results_reference>
+  <results_reference>
+    <citation>Wu J, Feng YG; Liu PF, Tan JL, Yan XQ, Zhu D, Xiang J. High frequency magnetoencephalographic signals in surgery of refractory temporal lobe epilepsy. Chin J Neuromed, 2017, 16(6): 620-624</citation>
+  </results_reference>
+  <results_reference>
+    <citation>Fan Y, Xiang J, Yang K. Multi-frequency analysis of neuromagnetic activity between eyes-open and eyes-closed in the developing brain. The Journal of Japan Biomagnetism and Bioelectromagnetics Society. 2017 May 20; 30(1):90</citation>
+  </results_reference>
+  <results_reference>
+    <citation>Wang F, wang XW, Yu T, Xiang J, Hu Y. Multi-band frequency analysis of neuromagnetic signals from primary epileptogenic foci and mirror foci. The Journal of Japan Biomagnetism and Bioelectromagnetics Society. 2017 May 20; 30(1):64.</citation>
+  </results_reference>
+  <results_reference>
+    <citation>Liang C, Earl B, Thompson I, Whitaker K, Cahn S, Xiang J, Fu QJ, Zhang F. Musicians Are Better than Non-musicians in Frequency Change Detection: Behavioral and Electrophysiological Evidence. Front Neurosci. 2016 Oct 25;10:464. eCollection 2016.</citation>
+    <PMID>27826221</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Qiu W, Yu C, Gao Y, Miao A, Tang L, Huang S, Jiang W, Sun J, Xiang J, Wang X. Disrupted topological organization of structural brain networks in childhood absence epilepsy. Sci Rep. 2017 Sep 20;7(1):11973. doi: 10.1038/s41598-017-10778-0.</citation>
+    <PMID>28931825</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Al-Marri F, Reza F, Begum T, Hitam WHW, Jin GK, Xiang J. Neural activation patterns and connectivity in visual attention during Number and Non-number processing: An ERP study using the Ishihara pseudoisochromatic plates. J Integr Neurosci. 2017 Oct 25. doi: 10.3233/JIN-170058. [Epub ahead of print]</citation>
+    <PMID>29081422</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Wu T, Zhang L, Wan S, Chen D, Xiang J, Shi Y, Chen Q, Zhang R, Jiang T, Liu H. Magnetoencephalography (MEG): A noninvasive technique for surgical treatment of epilepsy. Science. 2017 December 27; 358(6370):25</citation>
+  </results_reference>
+  <results_reference>
+    <citation>Xiang J, Leiken K, Assessment of epileptogenicity of multi-frequency neuromagnetic activity with frequency-encoded magnetic source imaging. The Journal of Japan Biomagnetism and Bioelectromagnetics Society. 2017 May 20; 30(1):39</citation>
+  </results_reference>
+  <results_reference>
+    <citation>Dinga S, Wu D, Huang S, Wu C, Wang X, Shi J, Hu Y, Liang C, Zhang F, Lu M, Leiken K, Xiang J. Neuromagnetic correlates of audiovisual word processing in the developing brain. Int J Psychophysiol. 2018 Jun;128:7-21. doi: 10.1016/j.ijpsycho.2018.03.016. Epub 2018 Mar 23.</citation>
+    <PMID>29580903</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Tenney JR, Kadis DS, Agler W, Rozhkov L, Altaye M, Xiang J, Vannest J, Glauser TA. Ictal connectivity in childhood absence epilepsy: Associations with outcome. Epilepsia. 2018 May;59(5):971-981. doi: 10.1111/epi.14067. Epub 2018 Apr 6.</citation>
+    <PMID>29633248</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Guo J, Yang K, Liu H, Yin C, Xiang J, Li H, Ji R, Gao Y. A Stacked Sparse Autoencoder-Based Detector for Automatic Identification of Neuromagnetic High Frequency Oscillations in Epilepsy. IEEE Trans Med Imaging. 2018 Nov;37(11):2474-2482. doi: 10.1109/TMI.2018.2836965. Epub 2018 May 15.</citation>
+    <PMID>29994761</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Ishii R, Pascual-Marqui RD, Canuet L, Xiang J, Gaetz WC. Editorial: New Insights on Basic and Clinical Aspects of EEG and MEG Connectome. Front Hum Neurosci. 2018 Jun 5;12:232. doi: 10.3389/fnhum.2018.00232. eCollection 2018.</citation>
+    <PMID>29922140</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Ran X, Xiang J, Song PP, Jiang L, Liu BK, Hu Y. Effects of gap junctions blockers on fast ripples and connexin in rat hippocampi after status epilepticus. Epilepsy Res. 2018 Oct;146:28-35. doi: 10.1016/j.eplepsyres.2018.07.010. Epub 2018 Jul 20.</citation>
+    <PMID>30056318</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Wu T, Fan J, Chen Y, Xiang J, Zhu D, Zhang J, Shi J, Jiang T. Interictal Abnormalities of Neuromagnetic Gamma Oscillations in Migraine Following Negative Emotional Stimulation. Front Behav Neurosci. 2018 Aug 17;12:169. doi: 10.3389/fnbeh.2018.00169. eCollection 2018.</citation>
+    <PMID>30174594</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Miao A, Wang Y, Xiang J, Liu Q, Chen Q, Qiu W, Liu H, Tang L, Gao Y, Wu C, Yu Y, Sun J, Jiang W, Shi Q, Zhang T, Hu Z, Wang X. Ictal Source Locations and Cortico-Thalamic Connectivity in Childhood Absence Epilepsy: Associations with Treatment Response. Brain Topogr. 2019 Jan;32(1):178-191. doi: 10.1007/s10548-018-0680-5. Epub 2018 Oct 5.</citation>
+    <PMID>30291582</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Zhou ZY, Yu YW, Wu D, Liu HX, Xiang J, Wu T, Chen QQ, Wang XS. Abnormality of visual neuromagnetic activation in female migraineurs without aura between attacks. J Headache Pain. 2019 Jan 16;20(1):7. doi: 10.1186/s10194-018-0957-9.</citation>
+    <PMID>30651072</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Ren J, Xiang J, Chen Y, Li F, Wu T, Shi J. Abnormal functional connectivity under somatosensory stimulation in migraine: a multi-frequency magnetoencephalography study. J Headache Pain. 2019 Jan 9;20(1):3. doi: 10.1186/s10194-019-0958-3.</citation>
+    <PMID>30626318</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Yang K, Chen J, Xiang J, Liu H, Zou Y, Kan W, Liu Y, Li L. Histopathologic and Clinical Correlation of Aberrant Neuromagnetic Activities with Low to High Frequency of Gliomas. World Neurosurg. 2019 Mar;123:e609-e620. doi: 10.1016/j.wneu.2018.11.235. Epub 2018 Dec 8.</citation>
+    <PMID>30529596</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Meng L, Xiang J. Brain Network Analysis and Classification Based on Convolutional Neural Network. Front Comput Neurosci. 2018 Dec 10;12:95. doi: 10.3389/fncom.2018.00095. eCollection 2018.</citation>
+    <PMID>30618690</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Leng X, Xiang J, Yang Y, Yu T, Qi X, Zhang X, Wu S, Wang Y. Frequency-specific changes in the default mode network in patients with cingulate gyrus epilepsy. Hum Brain Mapp. 2020 Jun 15;41(9):2447-2459. doi: 10.1002/hbm.24956. Epub 2020 Feb 25.</citation>
+    <PMID>32096905</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Shi Q, Zhang T, Miao A, Sun J, Sun Y, Chen Q, Hu Z, Xiang J, Wang X. Differences Between Interictal and Ictal Generalized Spike-Wave Discharges in Childhood Absence Epilepsy: A MEG Study. Front Neurol. 2020 Jan 24;10:1359. doi: 10.3389/fneur.2019.01359. eCollection 2019.</citation>
+    <PMID>32038453</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Yin C, Zhang X, Xiang J, Chen Z, Li X, Wu S, Lv P, Wang Y. Altered effective connectivity network in patients with insular epilepsy: A high-frequency oscillations magnetoencephalography study. Clin Neurophysiol. 2020 Feb;131(2):377-384. doi: 10.1016/j.clinph.2019.11.021. Epub 2019 Dec 6.</citation>
+    <PMID>31865139</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Jiang W, Wu C, Xiang J, Miao A, Qiu W, Tang L, Huang S, Chen Q, Hu Z, Wang X. Dynamic Neuromagnetic Network Changes of Seizure Termination in Absence Epilepsy: A Magnetoencephalography Study. Front Neurol. 2019 Jul 2;10:703. doi: 10.3389/fneur.2019.00703. eCollection 2019.</citation>
+    <PMID>31338058</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Liang C, Wenstrup LH, Samy RN, Xiang J, Zhang F. The Effect of Side of Implantation on the Cortical Processing of Frequency Changes in Adult Cochlear Implant Users. Front Neurosci. 2020 Apr 29;14:368. doi: 10.3389/fnins.2020.00368. eCollection 2020.</citation>
+    <PMID>32410947</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Firestone GM, McGuire K, Liang C, Zhang N, Blankenship CM, Xiang J, Zhang F. A Preliminary Study of the Effects of Attentive Music Listening on Cochlear Implant Users' Speech Perception, Quality of Life, and Behavioral and Objective Measures of Frequency Change Detection. Front Hum Neurosci. 2020 Mar 31;14:110. doi: 10.3389/fnhum.2020.00110. eCollection 2020.</citation>
+    <PMID>32296318</PMID>
+  </results_reference>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>June 14, 2007</study_first_submitted>
+  <study_first_submitted_qc>January 24, 2008</study_first_submitted_qc>
+  <study_first_posted type="Estimate">January 25, 2008</study_first_posted>
+  <last_update_submitted>July 13, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 13, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 15, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Children's Hospital Medical Center, Cincinnati</investigator_affiliation>
+    <investigator_full_name>Jing Xiang. MD</investigator_full_name>
+    <investigator_title>Director of MEG Research</investigator_title>
+  </responsible_party>
+  <keyword>Magnetoencephalography(MEG)</keyword>
+  <keyword>Electroencephalography (EEG)</keyword>
+  <keyword>Intracranial recordings (iEEG/ECoG/SEEG)</keyword>
+  <keyword>Functional Mapping</keyword>
+  <keyword>Epilepsy</keyword>
+  <keyword>Migraine</keyword>
+  <keyword>High frequency oscillations (HFOs)</keyword>
+  <keyword>ripples</keyword>
+  <keyword>fast ripples</keyword>
+  <keyword>high-gamma</keyword>
+  <keyword>very high frequency oscillations (VHFOs)</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Epilepsy</mesh_term>
+    <mesh_term>Migraine Disorders</mesh_term>
+    <mesh_term>Cerebral Palsy</mesh_term>
+    <mesh_term>Headache</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

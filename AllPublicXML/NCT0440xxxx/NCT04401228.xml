@@ -1,0 +1,158 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04401228</url>
+  </required_header>
+  <id_info>
+    <org_study_id>0410508057</org_study_id>
+    <nct_id>NCT04401228</nct_id>
+  </id_info>
+  <brief_title>Predictive Models for Intensive Care Admission and Death of COVID-19</brief_title>
+  <official_title>Development and Validation of Predictive Models for Intensive Care Admission and Death of COVID-19 Patients in a Secondary Care Hospital in Belgium.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Clinique Saint Pierre Ottignies</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Clinique Saint Pierre Ottignies</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To build simple and reliable predictive scores for intensive care admissions and deaths in
+      COVID19 patients. These scores adhere to the TRIPOD (transparent reporting of a multivariable
+      prediction model for individual prognosis or diagnosis) reporting guidelines.
+
+      The outcomes of the study are (i) admission in the Intensive Care Unit admission and (ii)
+      death.
+
+      All patients admitted in the Emergency Department with a positive reverse
+      transcription‐polymerase chain reaction SARS-COV2 test were included in the study. Routine
+      clinical and laboratory data were collected at their admission and during their stay. Chest
+      X-Rays and CT-Scans were performed and analyzed by a senior radiologist.
+
+      Generalized Linear Models using a binomial distribution with a logit link function (R
+      software version X) were used to develop predictive scores for (i) admission to ICU among
+      emergency ward patients; (ii) death among ICU patients. A first panel of Number Models with
+      the highest AIC (BIC) was preselected. Ten-fold cross-validation was then used to estimate
+      the out-of-sample prediction error among these preselected models. The one with the smallest
+      prediction error was in the end singled out .
+    </textblock>
+  </brief_summary>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">March 1, 2020</start_date>
+  <completion_date type="Anticipated">January 1, 2021</completion_date>
+  <primary_completion_date type="Actual">May 1, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>admission to ICU</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>death</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">60</enrollment>
+  <condition>COVID19</condition>
+  <condition>Pneumonia, Viral</condition>
+  <condition>Inflammatory Response</condition>
+  <arm_group>
+    <arm_group_label>covid ICU patients</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>covid conventionnal ward</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>predict admission of covid-19 patients to ICU and death with routine and quickly avalaible clinical, biological and radiological variables?</intervention_name>
+    <description>patients were questioned about their usual medication (Sartan, angiotensin-converting enzyme inhibitors, nonsteroidal anti-inflammatory drug, immunosuppressive drugs), their health condition (diabetes, hypertension, tobacco use, mental status). The Body mass index was computed.
+Age, gender, caucasian/african, weight, body mass index, number of days with symptoms before hospitalization, asthenia, pyrexia, dyspnea, chest pain, digestive sign, anosmia, ageusia, confusion, Travel or contact &lt; one month, cigarette consumption ,hypertension, diabetes, mental status, angiotensin-converting-enzyme inhibitors, Sartan, non-steroidal anti-inflammatory drugs, immunosuppressive drugs, SpO2,Thoracic Computerized Tomography : % of lung injury, Thoracic Computerized Tomography : density of lung injury, blood type, white blood cells, neutrophils, lymphocytes, blood platelets, fibrinogen, ferritin, triglycerides, LDH, troponin, CRP. The dates of admission to ICU and death were recorded</description>
+    <arm_group_label>covid ICU patients</arm_group_label>
+    <arm_group_label>covid conventionnal ward</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        all patient with COVID 19 with viral pneumonia
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  RT-PCR + SARS Cov2 pneumonia
+
+        Exclusion Criteria:
+
+          -  &lt; 18 ans -* GOLD 3 or 4 CPOD
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Clinique Saint-Pierre</name>
+      <address>
+        <city>Ottignies</city>
+        <state>Brabant Wallon</state>
+        <zip>1340</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+  </location_countries>
+  <reference>
+    <citation>Rubin GD, Ryerson CJ, Haramati LB, Sverzellati N, Kanne JP, Raoof S, Schluger NW, Volpi A, Yim JJ, Martin IBK, Anderson DJ, Kong C, Altes T, Bush A, Desai SR, Goldin J, Goo JM, Humbert M, Inoue Y, Kauczor HU, Luo F, Mazzone PJ, Prokop M, Remy-Jardin M, Richeldi L, Schaefer-Prokop CM, Tomiyama N, Wells AU, Leung AN. The Role of Chest Imaging in Patient Management During the COVID-19 Pandemic: A Multinational Consensus Statement From the Fleischner Society. Chest. 2020 Apr 7. pii: S0012-3692(20)30673-5. doi: 10.1016/j.chest.2020.04.003. [Epub ahead of print]</citation>
+    <PMID>32275978</PMID>
+  </reference>
+  <reference>
+    <citation>Wynants L, Van Calster B, Collins GS, Riley RD, Heinze G, Schuit E, Bonten MMJ, Damen JAA, Debray TPA, De Vos M, Dhiman P, Haller MC, Harhay MO, Henckaerts L, Kreuzberger N, Lohman A, Luijken K, Ma J, Andaur CL, Reitsma JB, Sergeant JC, Shi C, Skoetz N, Smits LJM, Snell KIE, Sperrin M, Spijker R, Steyerberg EW, Takada T, van Kuijk SMJ, van Royen FS, Wallisch C, Hooft L, Moons KGM, van Smeden M. Prediction models for diagnosis and prognosis of covid-19 infection: systematic review and critical appraisal. BMJ. 2020 Apr 7;369:m1328. doi: 10.1136/bmj.m1328. Erratum in: BMJ. 2020 Jun 3;369:m2204.</citation>
+    <PMID>32265220</PMID>
+  </reference>
+  <reference>
+    <citation>Collins GS, Reitsma JB, Altman DG, Moons KG. Transparent Reporting of a multivariable prediction model for Individual Prognosis or Diagnosis (TRIPOD): the TRIPOD statement. Ann Intern Med. 2015 Jan 6;162(1):55-63. doi: 10.7326/M14-0697. Erratum in: Ann Intern Med. 2015 Apr 21;162(8):600.</citation>
+    <PMID>25560714</PMID>
+  </reference>
+  <verification_date>May 2020</verification_date>
+  <study_first_submitted>May 21, 2020</study_first_submitted>
+  <study_first_submitted_qc>May 22, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 26, 2020</study_first_posted>
+  <last_update_submitted>May 22, 2020</last_update_submitted>
+  <last_update_submitted_qc>May 22, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 26, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Clinique Saint Pierre Ottignies</investigator_affiliation>
+    <investigator_full_name>Nicolas Parisi</investigator_full_name>
+    <investigator_title>MD</investigator_title>
+  </responsible_party>
+  <keyword>COVID19, prediction scores, ICU admission, death, TRIPOD.</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pneumonia, Viral</mesh_term>
+    <mesh_term>Pneumonia</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

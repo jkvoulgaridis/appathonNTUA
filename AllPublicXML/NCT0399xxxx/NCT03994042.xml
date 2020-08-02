@@ -1,0 +1,315 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03994042</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2019-01577</org_study_id>
+    <nct_id>NCT03994042</nct_id>
+  </id_info>
+  <brief_title>Mental Imagery Neurofeedback in Strokerehabilitation</brief_title>
+  <official_title>EEG-based Mental Imagery Feedback in Stroke Patients With Severe Hand Dysfunction</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Mälardalen University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Danderyd Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Vinnova</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Mälardalen University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This research project will investigate neurofeedback training in stroke rehabilitation during
+      which patients receive feedback in real time from their brain activity measured with
+      ElectroEncephaloGraphy (EEG). The investigators hypothesize that the feedback training allows
+      to internally stimulate brain motor networks in order to promote functional recovery of the
+      hand.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study will be carried out as a pilot study in order to optimize and set parameters for a
+      subsequent study that will involve more stroke patients. Stroke patients will be trained to
+      mentally imagine the opening and closing of the hand (hereafter named MI, Motor Imagery).
+      During the training, the patients will receive visual feedback in real time that reflects the
+      neural activity related to motor processes. The NeuroFeedback (NF) will be projected with
+      minimal time delay to maximize the neural learning. This type of brain training with feedback
+      is thought to have significant importance to stimulate the ability of the brain to reorganize
+      and compensate for a damaged region.
+
+      Each participant will go through the following data collection procedure (total of 27-28
+      measurement sessions per RP):
+
+        -  Clinical baseline evaluations, 1 time/week during 3 weeks
+
+        -  1 MRI measurement during one week
+
+        -  2-3 calibration EEG recordings during one week
+
+        -  MI-neurofeedback training [3 times/week] + Clinical intervention evaluation [1
+           time/week] during 4 weeks
+
+        -  1 MRI measurement + 1 calibration EEG recording during one week
+
+        -  Clinical intervention evaluations, 1 time/week during 3 weeks
+
+      Magnetic Resonance Imaging (MRI) measurements. The MRI exam will be carried out on a Siemens
+      MAGNETOM Prisma 3T scanner (head-coil with 20 channels) at baseline and at final assessment
+      session at Stockholm University Brain Imaging Centre. The MRI protocol comprises i)
+      anatomical whole brain spin-echo T1 and T2 weighted sequences for description of lesion size
+      and location ii) acquisition of T2*-weighted gradient echo EPI-BOLD images of the whole brain
+      for assessment of resting state functional connectivity of sensorimotor networks
+      (resting-state functional MRI (fMRI)), and iii) the same sequence as the previous with rest
+      interleaved by a motor imagery paradigm further described below.
+
+      Motor Imagery (MI) paradigm. The paradigm consists of instructing RP, by the use of a
+      mirrored computer screen, to either i) rest his/her mind with eyes open, ii) mentally imagine
+      a hand movement (MI), or ii) execute a hand movement. The hand movements that are instructed
+      are either to close the hand or to open the hand and extend the fingers. RP will perform
+      several repetitions of each hand movement (MI and execution) in order to collect a
+      statistical basis.
+
+      Calibration EEG recording. Calibration of EEG recordings will be performed at 2-3 times
+      during 1 week prior to the intervention and one time after the intervention while the
+      participant performs the mental imagery paradigm described above. RP will be seated in front
+      a computer screen and ratings will be registered by the use of a button-press. During these
+      session, EEG, EOG, EMG, and accelerometer-data will be collected and are further described
+      below.
+
+      ElectroEncephaloGram (EEG), ElectroOculoGram (EOG), ElectroMyoGram (EMG) and accelerometer
+      equipment. The EEG equipment consists of a 64-electrode scalp EEG acquisition system (Brain
+      Products ActiCHamp). The 64 electrodes (active Ag/AgCl) will be distributed according to the
+      extended 10-20 reference placement system. In addition to the EEG recording, 3 electrodes
+      (passive Ag/AgCl, Brain Products) will be placed on each side of both eyes and on the earlob
+      to measure eye-movements during the experiment (EOG). EMG electrodes (passive Ag/AgCl, Brain
+      Products) will be placed over four muscles controlling the wrist and fingers according to a
+      standardized protocol. Two accelerometer-sensors (Brain Products) will be placed on the hand
+      and the index finger in order to record movement-related activity.
+
+      EEG, EOG, EMG and accelerometer data analysis. The recorded data will be further analyzed
+      offline in order to evaluate the characteristic features in the data that best describe MI of
+      hand movements. This will be performed in Matlab and Labview combining custom-made scripts
+      with already developed toolboxes (such as EEGLab, Chronux). Features to be evaluated will
+      include the evoked activity, the time-frequency spectra, phase, correlation coefficients,
+      coherency among other. When the feature that best describes MI has been identified different
+      classifier and pattern recognition methods will be evaluated in extracting the information.
+      Intelligent algorithms, Support Vector Machine (SVM), regularized linear regression, naïve
+      Bayes classifiers among others will be evaluated and compared. These are commonly used
+      methods in the field of neurotechnology and a prior comparison-study using neural data from
+      invasive recordings shows the importance of choosing a well-adapted classifier for extracting
+      information.
+
+      MI-NeuroFeedback Training (NFT). EEG, EOG, EMG and accelerometer-data will be collected as
+      described in the section &quot;EEG, EMG and accelerometer equipment&quot;. RP will perform the MI
+      paradigm without the execution of hand movements. Real-time feedback from recorded
+      EEG-activity will be provided to RP during MI. The feedback consists of a virtual hand on a
+      computer screen whose movements reflect the brain activity of RP related to MI. The recorded
+      data will be further analyzed offline with the analytic tools that are described in previous
+      section.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">August 5, 2019</start_date>
+  <completion_date type="Actual">January 17, 2020</completion_date>
+  <primary_completion_date type="Actual">January 17, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change of Fugl-Meyer Upper Extremity scale score (0-66 points)</measure>
+    <time_frame>Up to 10 weeks</time_frame>
+    <description>Arm and hand function</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Change of EEG alpha and beta activity</measure>
+    <time_frame>Up to 7 weeks</time_frame>
+    <description>Brain motor network activity reflected in neurofeedback signal</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Change of fMRI BOLD activity</measure>
+    <time_frame>Up to 7 weeks</time_frame>
+    <description>Brain motor network activity</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change of monofilament test score</measure>
+    <time_frame>Up to 10 weeks</time_frame>
+    <description>Two point discrimination and monofilament test for sensory function</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of box and block test score (0-150)</measure>
+    <time_frame>Up to 10 weeks</time_frame>
+    <description>Gross manual dexterity</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of JAMAR® digital Hand Dynamometer scores (0-90)</measure>
+    <time_frame>Up to 10 weeks</time_frame>
+    <description>Grip strength</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of visuomotor force-tracking task scores</measure>
+    <time_frame>Up to 10 weeks</time_frame>
+    <description>Quantification of timing and precision aspects of force grip modulation</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of stroke Impact Scale 16 scores (15-80 points)</measure>
+    <time_frame>Up to 10 weeks</time_frame>
+    <description>Activity limitations related to physical function</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">2</enrollment>
+  <condition>Stroke</condition>
+  <condition>Hemiparesis</condition>
+  <arm_group>
+    <arm_group_label>Mental imagery neurofeedback training</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Complete intervention with mental imagery neurofeedback training. Patients recruited by physioterapists who underwent baseline evaluations with clinical tests, fMRI and EEG measurements. Patients will after intervention perform clinical tests, fMRI, and EEG measurements to evaluate outcomes of intervention.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Mental imagery neurofeedback training</intervention_name>
+    <description>Mental Imagery (MI)-neurofeedback training, 2-3 hours, 3 times/week for 4 weeks.</description>
+    <arm_group_label>Mental imagery neurofeedback training</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  More than 6 months since first time stroke onset and with remaining hemiparesis in
+             upper extremity;
+
+          -  able to participate fully in the intervention including screening of cognitive
+             function with the Cambridge Neuropsychological Test Automated Battery;
+
+          -  able to perform Functional Magnetic Resonance Imaging (fMRI);
+
+          -  able to passively extend the wrist 15 degrees and extend fingers fully with a neutral
+             position of the wrist.
+
+        Subgroup 1 (n=2):
+
+          -  be able to voluntarily control the power of their grip when requested according to the
+             Visuomotor force tracking method and/or according to the clinical assessment of a
+             therapist (while holding the patient´s hand).
+
+          -  Fugl-Meyer Upper Extremity (UE) scale (Fugl-Meyer 1975): &lt;14 points on the hand
+             subscale (C) in addition to &lt; 48 points on the total score (equivalent to moderate
+             disability in the upper extremity
+
+        Subgroup 2 (n=2):
+
+        - no detected voluntary grip or release function
+
+        Exclusion Criteria:
+
+          -  Other neurological or musculoskeletal disease/injury, contagious disease or treatment
+             with botulinum toxin in the upper extremity during the past 3 months.
+
+          -  current or history of epilepsy, hearing problems, metal implants in the brain/skull
+             cochlear implants, any implanted neurostimulator, cardiac pacemaker or cardiac
+             implants of metal, infusion device.
+
+          -  other neurological disorder, pregnancy, current or history of severe psychiatric
+             disorder with need for pharmacological treatment
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Elaine Astrand</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Mälardalen University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Stockholn University Brain Imaging C entre</name>
+      <address>
+        <city>Stockholm</city>
+        <zip>11418</zip>
+        <country>Sweden</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Department of rehabilitation medicine at Danderyd University</name>
+      <address>
+        <city>Stockholm</city>
+        <zip>18288</zip>
+        <country>Sweden</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Mälardalen University</name>
+      <address>
+        <city>Västerås</city>
+        <zip>72123</zip>
+        <country>Sweden</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Sweden</country>
+  </location_countries>
+  <reference>
+    <citation>Ramos-Murguialday A, Broetz D, Rea M, Läer L, Yilmaz O, Brasil FL, Liberati G, Curado MR, Garcia-Cossio E, Vyziotis A, Cho W, Agostini M, Soares E, Soekadar S, Caria A, Cohen LG, Birbaumer N. Brain-machine interface in chronic stroke rehabilitation: a controlled study. Ann Neurol. 2013 Jul;74(1):100-8. doi: 10.1002/ana.23879. Epub 2013 Aug 7.</citation>
+    <PMID>23494615</PMID>
+  </reference>
+  <reference>
+    <citation>Pichiorri F, Morone G, Petti M, Toppi J, Pisotta I, Molinari M, Paolucci S, Inghilleri M, Astolfi L, Cincotti F, Mattia D. Brain-computer interface boosts motor imagery practice during stroke recovery. Ann Neurol. 2015 May;77(5):851-65. doi: 10.1002/ana.24390. Epub 2015 Mar 27.</citation>
+    <PMID>25712802</PMID>
+  </reference>
+  <reference>
+    <citation>Sitaram R, Ros T, Stoeckel L, Haller S, Scharnowski F, Lewis-Peacock J, Weiskopf N, Blefari ML, Rana M, Oblak E, Birbaumer N, Sulzer J. Closed-loop brain training: the science of neurofeedback. Nat Rev Neurosci. 2017 Feb;18(2):86-100. doi: 10.1038/nrn.2016.164. Epub 2016 Dec 22. Review. Erratum in: Nat Rev Neurosci. 2019 May;20(5):314.</citation>
+    <PMID>28003656</PMID>
+  </reference>
+  <reference>
+    <citation>Takemi M, Maeda T, Masakado Y, Siebner HR, Ushiba J. Muscle-selective disinhibition of corticomotor representations using a motor imagery-based brain-computer interface. Neuroimage. 2018 Dec;183:597-605. doi: 10.1016/j.neuroimage.2018.08.070. Epub 2018 Aug 30.</citation>
+    <PMID>30172003</PMID>
+  </reference>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>April 15, 2019</study_first_submitted>
+  <study_first_submitted_qc>June 19, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 21, 2019</study_first_posted>
+  <last_update_submitted>June 29, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 29, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 30, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Paresis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

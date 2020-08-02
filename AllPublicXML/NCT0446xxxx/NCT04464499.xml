@@ -1,0 +1,317 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04464499</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2019-A03346-51</org_study_id>
+    <nct_id>NCT04464499</nct_id>
+  </id_info>
+  <brief_title>Validation Study of WITHINGS BPM Core for the Detection of Atrial Fibrillation</brief_title>
+  <acronym>Core AF</acronym>
+  <official_title>Validation Study of WITHINGS BPM Core for the Detection of Atrial Fibrillation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Withings</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Withings</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The proposed clinical study aims to validate the diagnostic performance, compared to a
+      reference ECG, of the electrocardiographic function of the BPM Core developed by Withings for
+      the automatic identification of atrial fibrillation (AF).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      BPM Core is a blood-pressure monitor with an build-in single-channel electrocardiogram
+      similar to a lead I.
+
+      Primary objective:
+
+      The primary objective is to demonstrate that Withings BPM Core has acceptable sensitivity and
+      specificity in the automatic identification of AF and SR in comparison with a gold-standard
+      diagnosis from a 12-lead ECG by board certified cardiologists.
+
+      The algorithm classifies the device signals into four categories: normal sinus rhythm (RSN),
+      AF, arrhythmia other than AF, or non-interpretable. The latter category includes signals of
+      insufficient quality to be interpreted with confidence.
+
+      This classification will be compared to the diagnosis made by three independent, blinded
+      cardiologists based on a 12-lead ECG. The final diagnosis retained will be decided by
+      majority with adjudication by a consensus of 3 to 6 cardiologists. The sensitivity and
+      specificity of the device will then be estimated.
+
+      Secondary objectives:
+
+      The first secondary objective is to assess the quality of tracings of the BPM Core armband
+      thanks to a qualitative and quantitative comparison between BPM Core tracings and reference
+      ECG ones, based on clinical evaluation criteria.
+
+      Firstly, three independent cardiologists who have not performed or read the reference ECG and
+      do not know the patient's clinical files will make a diagnosis from the recordings from the
+      BPM Core. There will be a majority vote to select the diagnosis. The cases where the three
+      readers reached three different diagnosis will be reviewed by a panel of 3 to 6 board
+      certified cardiologists who will decide by consensus. Sensitivity and specificity will be
+      calculated relative to the reference ECG.
+
+      Secondly, quantitative analyses will be performed to assess the quality of ECG tracings
+      provided by Withings BPM Core and its software, as follows:
+
+        -  The visibility and polarity of the ECG waves (namely P-waves, QRS complexes and T-waves)
+           will be determined by the cardiologists for each lead I signals recorded with Withings
+           BPM Core and with the 12-channel ECG device. The assessment will be made on the 5th
+           complete beat of the recording. For each of the waves (P, QRS and T), the agreement of
+           visibility and the agreement of polarity (when both are visible) between the signals of
+           Withings BPM Core and the reference ECG device will be computed.
+
+        -  The duration of the main ECG intervals (namely QT interval, QRS width and PR interval)
+           will be determined by the cardiologists for each lead I signal recorded by Withings BPM
+           Core and the 12-channel ECG device. The measurement will be made with a caliper on the
+           5th complete beat of the recording. For each interval (QT, QRS, PR), the difference of
+           length between the signals of Withings BPM Core and the reference ECG device will be
+           computed.
+
+        -  The heart rate will be first determined by the cardiologists for each lead I signal
+           (recorded by Withings BPM Core and the 12-channel ECG device) which are diagnosed as
+           NSR. The heart rate difference between the signals of Withings BPM Core and the
+           reference ECG device will be computed. Second, the heart rate of the signals recorded
+           with the BPM Core will be computed by the Withings software. The difference between the
+           heart rate estimated by Withings software on Withings BPM Core signals and the heart
+           rate determined by the cardiologists on the lead I signal from the ECG reference device
+           will also be calculated.
+
+      The sponsor will make sure that the same cardiologist will not be asked to annotate both a
+      Withings BPM Core signal and the corresponding lead I signal from the 12-channel ECG device.
+      The sponsor will then centralize the annotations of Withings BPM Core tracings and of the ECG
+      reference lead I signals and perform agreement calculations on synchronous pairs.
+
+      The second secondary objective is to verify the safety of use of the device by analyzing
+      adverse effects.
+
+      The safety of use of the device will be assessed by the number of adverse effects.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 6, 2020</start_date>
+  <completion_date type="Anticipated">November 1, 2020</completion_date>
+  <primary_completion_date type="Anticipated">November 1, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity of the automatic classification in AF by BPM Core single-lead ECG against reference 12-lead ECG</measure>
+    <time_frame>1 year</time_frame>
+    <description>sensitivity from the 2x2 confusion matrix AF vs 'non-AF'</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Sensitivity of the automatic classification in AF by BPM Core single-lead ECG against reference 12-lead ECG</measure>
+    <time_frame>1 year</time_frame>
+    <description>sensitivity from the 2x2 confusion matrix NSR vs 'non-NSR'</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity of the cardiologists' classification in AF from the BPM Core ECG</measure>
+    <time_frame>1 year</time_frame>
+    <description>sensitivity from the 2x2 confusion matrix AF vs 'non-AF'</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity of the cardiologists' classification in SR from the BPM Core ECG</measure>
+    <time_frame>1 year</time_frame>
+    <description>sensitivity from the 2x2 confusion matrix NSR vs 'non-NSR'</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of the visibility of P-waves of single-lead ECG from BPM Core</measure>
+    <time_frame>1 year</time_frame>
+    <description>(true positives + true negatives)/(sample size) from the 2x2 confusion matrix</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of the positivity of P-waves of single-lead ECG from BPM Core</measure>
+    <time_frame>1 year</time_frame>
+    <description>(true positives + true negatives)/(sample size) from the 2x2 confusion matrix</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of the visibility of QRS-complexes of single-lead ECG from BPM Core</measure>
+    <time_frame>1 year</time_frame>
+    <description>(true positives + true negatives)/(sample size) from the 2x2 confusion matrix</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of the positivity of QRS-complexes of single-lead ECG from BPM Core</measure>
+    <time_frame>1 year</time_frame>
+    <description>(true positives + true negatives)/(sample size) from the 2x2 confusion matrix</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of the visibility of T-waves of single-lead ECG from BPM Core</measure>
+    <time_frame>1 year</time_frame>
+    <description>(true positives + true negatives)/(sample size) from the 2x2 confusion matrix</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of the positivity of T-waves of single-lead ECG from BPM Core</measure>
+    <time_frame>1 year</time_frame>
+    <description>(true positives + true negatives)/(sample size) from the 2x2 confusion matrix</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">160</enrollment>
+  <condition>Atrial Fibrillation</condition>
+  <condition>Arrhythmias, Cardiac</condition>
+  <condition>Cardiovascular Diseases</condition>
+  <arm_group>
+    <arm_group_label>atrial fibrillation (AF)</arm_group_label>
+    <description>Patients diagnosed with AF during reference ECG</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>sinus rhythm (SR)</arm_group_label>
+    <description>Patients diagnosed with SR during reference ECG</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>ECG measurement</intervention_name>
+    <description>Simultaneous recording of a single-lead ECG signal with the Withings BPM Core and ECG signal for the reference 12-lead ECG</description>
+    <arm_group_label>atrial fibrillation (AF)</arm_group_label>
+    <arm_group_label>sinus rhythm (SR)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        in and out patients from cardiology services
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  male or female who are 18 years or older
+
+          -  Subject who signed the written informed consent form,
+
+          -  Able to communicate effectively with and follow instructions from the study staff
+
+          -  Person with an arm circumference between 22 and 42 cm
+
+        Exclusion Criteria:
+
+          -  Vulnerable subject with regard to regulations
+
+               -  Pregnant, parturient or breastfeeding woman,
+
+               -  Subject who is deprived of liberty by judicial, medical or administrative
+                  decision,
+
+               -  Underage subject,
+
+               -  Legally protected subject, or subject who is unable to sign the written informed
+                  consent form,
+
+               -  Subject who is not beneficiary or not affiliated to a social security scheme,
+
+               -  Subject within several of the above categories,
+
+          -  Subject who refused to participate in the study,
+
+          -  Subject in linguistic or psychic incapacity to sign a written informed consent form,
+
+          -  Subject in physical incapacity to wear a blood pressure monitor
+
+          -  Subject with electrical stimulation by pacemaker
+
+          -  Significant tremor that prevents subject from being able to hold still
+
+          -  Known sensitivity to medical adhesives, isopropyl alcohol, or ECG electrodes
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>100 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>David Campo, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Withings</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>David Campo, PhD</last_name>
+    <phone>+33 1 41 46 04 60</phone>
+    <email>david.campo@withings.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>David Campo, MD</last_name>
+    <email>fouassier@icpc.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>ICPC Floréale</name>
+      <address>
+        <city>Bagnolet</city>
+        <zip>93170</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Adrien Pasteur-Rousseau, MD</last_name>
+      <email>adrien.pasteur@gmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>ICPC Turin</name>
+      <address>
+        <city>Paris</city>
+        <zip>75004</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>David Fouassier, MD</last_name>
+      <email>fouassier@icpc.fr</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>July 3, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 3, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 9, 2020</study_first_posted>
+  <last_update_submitted>July 27, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 27, 2020</last_update_submitted_qc>
+  <last_update_posted type="Estimate">July 28, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>atrial fibrillation</keyword>
+  <keyword>arrhythmia, cardiac</keyword>
+  <keyword>cardiovascular disease</keyword>
+  <keyword>heart disease</keyword>
+  <keyword>wearable electronic device</keyword>
+  <keyword>ECG</keyword>
+  <keyword>blood pressure monitor</keyword>
+  <keyword>electrocardiography</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atrial Fibrillation</mesh_term>
+    <mesh_term>Arrhythmias, Cardiac</mesh_term>
+    <mesh_term>Cardiovascular Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Individual patient data (IPD) are considered as confidential in this study. After the end the final quality control, the database will be frozen and all the IPD will be archived.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

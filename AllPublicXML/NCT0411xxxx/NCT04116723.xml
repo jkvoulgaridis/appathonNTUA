@@ -1,0 +1,171 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04116723</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GRF2020</org_study_id>
+    <nct_id>NCT04116723</nct_id>
+  </id_info>
+  <brief_title>Trial of Personalized Flexible Bracing Treatment of Adolescents Idiopathic Scoliosis</brief_title>
+  <official_title>Trial of Personalized Flexible Bracing Treatment of Adolescents Idiopathic Scoliosis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The Hong Kong Polytechnic University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>The Hong Kong Polytechnic University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Scoliosis is the three-dimensional (3D) deformity of the spine and trunk. The majority or 80%
+      of the scoliosis cases are idiopathic which means that the cause is unknown. The progression
+      of scoliosis is much more frequently seen in females and severely scoliotic patients face a
+      higher risk of different health problems in their adult life Bracing is the most commonly
+      used non-invasive treatment for patients with smaller spinal curves which are usually between
+      21 and 40 degrees at Risser stage 0, 1 or 2. However, scoliosis braces are traditionally
+      constructed based on the experience of orthotists. Since 3D spinal deformities are complex,
+      the design and evaluation of braces are challenging with no consensus on an optimal brace
+      design. AI and ML methods therefore constitute a new approach to address the difficulties in
+      designing braces.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The designs of flexible brace include: an artificial hinge bone is used to stabilize the
+      corrective components. Corrective straps are attached to the artificial hinge to exert
+      corrective forces onto the scoliotic spine. Semi-rigid silicon pads with high conformability
+      to the body are used to enhance the corrective forces.
+
+      This study is a multi-disciplinary collaborative project with experts in computer science,
+      orthopaedics, materials science, garment technology, engineering and biomechanics. A
+      biomechanical computational model will be developed to recommend modifications to the
+      flexible brace design. The effectiveness of the flexible braces will be evaluated through
+      low-dose X-ray radiography at pre-, post-expert and post-ML designed treatment. A polynomial
+      scoring system will be created to assess the therapeutic similarity of the ML-designed
+      flexible brace to the expert-designed flexible brace based on an estimate of the corrective
+      forces applied through the braces. Reinforcement learning with scores based on estimated
+      pressure force will guide AI training towards superior therapeutic designs.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">January 1, 2021</start_date>
+  <completion_date type="Anticipated">December 31, 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2023</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>In-flexible brace Cobb angle measurements</measure>
+    <time_frame>2 hours after wearing the brace</time_frame>
+    <description>The lateral curve of vertebra on spine x-ray AP view (unit: degree) will be measured by using EOS® low dose x-ray.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Force measurements</measure>
+    <time_frame>2 hours after wearing the brace</time_frame>
+    <description>The pressure forces (unit: kpa) between the flexible brace and trunk will be measured by using Pliance® electronic analyser.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Visual analogue scale</measure>
+    <time_frame>2 hours after wearing the brace</time_frame>
+    <description>A visual analogue scale (VAS) for pain due to the flexible brace, a VAS for motivation and a VAS for quality of life graded 0 to 100 mm will also be used. For pain, 0 represents the absence of pain as a motivation, and 0 represents the absence of discomfort in daily life.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Scoliosis</condition>
+  <arm_group>
+    <arm_group_label>Flexible brace</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The design of the flexible brace incorporates different mechanisms, such as 1) compression and pulling forces through a close fit of the intimate apparel, 2) artificial hinge bone for the strategical application and fixation of corrective panel, 3) lumbar flexion by using supporting belt, 3) transverse forces applied by inserting pads inside the pocket lining by using the principle of the 3-point pressure system.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Flexible brace</intervention_name>
+    <description>Participants will be invited to undergo a fitting session of a flexible brace. After the fitting session, participants will join a two-hours wear trial of the flexible brace. Participants are required to wear the brace for two-hours and undergo assessments before and after the wear trial. The measurement outcomes of the assessment include 1) X-ray scan, 2) 3D body scan, 3) garment pressure, and 4) questionnaire.</description>
+    <arm_group_label>Flexible brace</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Teenagers diagnosed with adolescent idiopathic scoliosis
+
+          -  Cobb's angle between 20 to 45 degrees
+
+          -  Immature skeletons (Risser grade 0-2)
+
+          -  Types of scoliosis are classified by the Lenke classification system
+
+          -  Have received rigid brace treatment
+
+        Exclusion Criteria:
+
+          -  Contraindications for x-ray exposure
+
+          -  Diagnosis of other musculoskeletal or developmental illness that might be responsible
+             for the spinal curvature
+
+          -  History of previous surgical treatment for AIS
+
+          -  Contraindications for pulmonary and/ or exercise tests
+
+          -  Psychiatric disorders
+
+          -  Recent trauma
+
+          -  Recent traumatic (emotional) event
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>10 Years</minimum_age>
+    <maximum_age>15 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>The Hong Kong Polytechnic University</name>
+      <address>
+        <city>Hong Kong</city>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>October 2019</verification_date>
+  <study_first_submitted>October 3, 2019</study_first_submitted>
+  <study_first_submitted_qc>October 3, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 7, 2019</study_first_posted>
+  <last_update_submitted>October 8, 2019</last_update_submitted>
+  <last_update_submitted_qc>October 8, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 11, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>The Hong Kong Polytechnic University</investigator_affiliation>
+    <investigator_full_name>Joanne Yip</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <keyword>Flexible brace</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Scoliosis</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

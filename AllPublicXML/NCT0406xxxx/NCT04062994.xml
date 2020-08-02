@@ -1,0 +1,264 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04062994</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Anes-Hypotension</org_study_id>
+    <nct_id>NCT04062994</nct_id>
+  </id_info>
+  <brief_title>A Clinical Decision Support Trial to Reduce Intraoperative Hypotension</brief_title>
+  <official_title>A Clinical Decision Support Trial to Reduce Intraoperative Hypotension</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of California, Los Angeles</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of California, Los Angeles</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to provide messages to providers if their patient is at high
+      risk of developing intraoperative hypotension based on past medical history and
+      co-morbidities preoperatively and minutes of hypotension intraoperatively.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Preoperative decision support:
+
+      Based on the patient's past medical history and comorbidities providers received one of two
+      messages in the preoperative section of the chart. If the patient had a past medical history
+      of renal insufficiency, congestive heart failure, or ischemic heart disease the provider
+      received a message that the patient was at a high risk of developing sequale of hypotension.
+      If the patient had more than 15 minutes of hypotension (defined as a mean arterial pressure
+      (MAP)&lt;65mmHg) during a previous anesthetic, then the provider received a message that the
+      patient was at high risk of developing intraoperative hypotension. Based on the past medical
+      history of the patient, providers will receive zero, one or both messages.
+
+      Intraoperative decision support:
+
+      In the vitals signs section of the intraoperative record a line denoting the mean arterial
+      pressure (MAP) was added. If the patient had more than 10 cumulative minutes of hypotension
+      (defined as a MAP&lt;65 mmHg) then a yellow alert was displayed in the lower right section of
+      the screen. If the patient had more than 20 minutes of hypotension, then the alert was
+      changed to red.
+
+      Data Analysis:
+
+      All study data were acquired via our previously published Department of Anesthesiology and
+      Perioperative Medicine at University of California, Los Angeles (UCLA) perioperative data
+      ware- house (PDW). The PDW is a structured reporting schema that contains all the relevant
+      clinical data entered into the electronic medical record (EMR) via the use of Clarity, the
+      relational database created by EPIC for data analytics and reporting. While Clarity contains
+      raw clinical data, the PDW was designed to organize, filter, and improve data so that it can
+      be used reliably for creating these types of metrics. Last, the PDW servers interfaced with
+      other health system resources to allow for automated emailed reports and the generation of
+      web-based graphical dashboards.
+
+      Analysis of Hypotension:
+
+      For each case, hypotension was defined as the total number of minutes the patient spent with
+      a blood pressure below predefined MAP mmHG thresholds (as previously reported Salmasi paper):
+      60-65, 55-60, 50-55, and &lt;50. In order to determine the effect of the pathway roll out on the
+      incidence of intraoperative hypotension the investigators plan to carry out several analyses.
+
+        1. For each month from 12 months before pathway go-live until 12 months after go-live the
+           percentage of case that experienced hypotension as defined above in the ranges of 0-10
+           minutes, 11-20 minutes, and &gt;20 minutes (the cut-points used in the decision support
+           system) will be computed.
+
+        2. In essence patients were assigned to one of four pathways in the CDS program based on
+           their risk of hypotension or sequalae of hypotension. The investigators will carry out
+           sub-group analysis on each of the four pathways (hypotension message, high risk of
+           complications message, both messages, no message) to see if the response of providers
+           differed based on the message they received.
+
+      Analysis of the effect of decision support on postoperative AKI:
+
+      In order to determine the effect of the pathway to decrease postoperative AKI (defined by the
+      KDIGO criteria as a binary instance 0 vs stage 1,2,3) the investigators carried out the
+      following analysis
+
+      Patient characteristics (age, sex, ASA, etc…) and study variables (including hypotension,
+      AKI) will be summarized using means (SD) and frequencies (%) stratified by pre/post
+      intervention. The investigators will then create a risk score for postoperative AKI based
+      upon the risk factors identified by Sun et al. For each patient in the post implementation
+      group the investigators will identify a patient in the pre-implementation group who has a
+      similar risk of AKI using propensity score matching in R V3.5.1 (Vienna, AU www.r-project.org
+      ). The investigators will assess the performance of the matching algorithm by exploring
+      standardized mean difference (SMD) plots before and after matching. If the matching is deemed
+      to be inadequate (SMD &gt; 0.1 for any matching variable) the investigators will try more
+      complex models including squared terms, interactions, or widening the caliper width for what
+      the investigators consider an adequate match (from the standard starting width of 0.2*SD of
+      the logit of the propensity score). Once the matching has been deemed successful, the
+      investigators will then assess the effect of the intervention by analyzing the incidence of
+      hypotension in each month from the 12 months prior to roll until until the 12 months after
+      roll out after allowing for a 2 month washout period using an interrupted time series
+      approach as described by Wagner et. Al.
+
+      Since the effect of the intervention will likely have a negligible effect on low risk
+      patients, the investigators will carry out a subgroup analysis on those patients at high risk
+      of AKI and use methodology similar to those described above.
+
+      Finally, if the investigators observe a significant reduction in AKI according to the process
+      outlined above, the investigators hypothesize that this reduction would be mediated through
+      hypotension and test this using Baron and Kenny's steps for mediation:
+
+        1. First, on the risk matched cohort, the investigators will show that the rate of AKI went
+           down after implementation (a significant path C)
+
+        2. Next, the investigators will show that the intervention is associated with a reduction
+           in time spent in at least one hypotension category (60-65, 55-60, 50-55, &lt;50) in a
+           similar manner as above (significant path A)
+
+        3. Finally, the investigators will show that the association between the intervention and
+           AKI goes away (or is reduced) after including hypotension information in the model and
+           use Sobel's test to obtain a p-value to test for a significant reduction in the
+           intervention coefficient.
+
+      If any of these steps above fail (a,b,c) then the investigators cannot conclude that the
+      reduction in AKI was mediated exclusively through hypotension.
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">September 28, 2018</start_date>
+  <completion_date type="Anticipated">June 2020</completion_date>
+  <primary_completion_date type="Anticipated">September 2019</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>30 Days</target_duration>
+  <primary_outcome>
+    <measure>Acute Kidney Injury (AKI)</measure>
+    <time_frame>within 7 days post-surgery</time_frame>
+    <description>Risk adjusted rate of postoperative AKI</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Hypotension</measure>
+    <time_frame>1) For each month from 12 months before pathway go-live until 12 months after go-live.</time_frame>
+    <description>The total number of minutes the patient spent with a blood pressure below predefined MAP mmHG thresholds: 60-65, 55-60, 50-55, and &lt;50.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">50000</enrollment>
+  <condition>Hypotension</condition>
+  <condition>Acute Kidney Injury</condition>
+  <arm_group>
+    <arm_group_label>Intervention Group</arm_group_label>
+    <description>All patients scheduled for surgery at a UCLA site in the one year period after go-live</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Nudge to reduce intraoperative hypotension</intervention_name>
+    <description>Providers will be alerted if their patients are at high risk of hypotension or at increased risk of sequelae from hypotension. Intraoperatively, if patients have more than 10 minutes of hypotension an alert will be displayed on the screen.</description>
+    <arm_group_label>Intervention Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All patients undergoing surgery at any of the UCLA operative locations
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        - All patients undergoing surgery at any of the UCLA operative locations
+
+        Exclusion Criteria:
+
+          -  Patients less than age 18
+
+          -  Patients undergoing cardiac surgery or liver transplantation
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Jules Stein Eye Institute at UCLA</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90095</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Ronald Reagan UCLA Medical Center</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90095</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>UCLA Ambulatory Surgery Center</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90095</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>UCLA Medical Center, Santa Monica</name>
+      <address>
+        <city>Santa Monica</city>
+        <state>California</state>
+        <zip>90404</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>August 2019</verification_date>
+  <study_first_submitted>August 8, 2019</study_first_submitted>
+  <study_first_submitted_qc>August 19, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 20, 2019</study_first_posted>
+  <last_update_submitted>August 19, 2019</last_update_submitted>
+  <last_update_submitted_qc>August 19, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 20, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of California, Los Angeles</investigator_affiliation>
+    <investigator_full_name>Ira Hofer</investigator_full_name>
+    <investigator_title>Assistant Clinical Professor</investigator_title>
+  </responsible_party>
+  <keyword>Hypotension</keyword>
+  <keyword>AKI</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Acute Kidney Injury</mesh_term>
+    <mesh_term>Hypotension</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,237 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04397380</url>
+  </required_header>
+  <id_info>
+    <org_study_id>INGC20AE209</org_study_id>
+    <nct_id>NCT04397380</nct_id>
+  </id_info>
+  <brief_title>COVID-19 Thales Thermography Triage : Thermal Camera Feasibility Study</brief_title>
+  <acronym>COVID3T</acronym>
+  <official_title>COVID-19 Response - Thermography Based Fever Detection for Triaging of Patients - A Feasibility Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>NHS Greater Clyde and Glasgow</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>NHS Greater Clyde and Glasgow</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will refine and pilot the feasibility of introducing a thermal imaging test to
+      detect fever in 100 patients being triaged within the Emergency Department. The only
+      additional research requirement for the patient is to have a thermal image of their face
+      taken. Other triage tests will be routine.
+
+      The aims of the feasibility study are to:
+
+        -  Understand the acceptability of introducing the intervention within the Emergency
+           Department setting
+
+        -  Establish indicative patient recruitment numbers per week
+
+        -  Determine the likely proportion of patients recruited from this group who have a high
+           temperature
+
+        -  Provide preliminary evidence that the technology can identify a high temperature in this
+           diverse group of patients
+
+        -  Provide preliminary data for machine learning training to support classification of
+           patients as being with or without fever
+
+      The feasibility study will then inform the design and size of larger study to further develop
+      and validate the the thermal imaging screening test to provide a 'with/ without' fever
+      result.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Justification for research and project plan Background In the fifty years since the emergence
+      of thermal imaging technology, Thales in Glasgow has built up a world leading capability in
+      the design, manufacture and supply of Thermal Imaging cameras. In addition to the cameras,
+      Thales in Glasgow has a particular expertise in developing image processing algorithms
+      (conventional and artificial intelligence based) to allow the cameras to perform critical
+      user tasks beyond mere imaging.
+
+      COVID-19 [SARS-COV-2] has placed a huge challenge on the world. In response to the crisis,
+      Thales is engaged in a number of initiatives, including one aimed at the possible application
+      of thermal imaging cameras to detect people with a fever and hence those who may be suffering
+      from COVID-19. This initiative has received encouraging feedback from prospective users
+      around the world who are looking, not only at the immediate issue in the hospitals, but also
+      forward to a time beyond the current lockdowns, when cost effective techniques for surveying
+      groups of people for potential COVID-19 sufferers will be required. This surveillance, for
+      example, could be in hospitals, at airport gates, in buildings or outside in streets. As part
+      of the initiative Thales Glasgow has been performing analysis and experiments using cameras
+      looking at faces to confirm what temperature differences can be measured.
+
+      What Thales lacks is real world thermal images of patients suffering fever and access to
+      clinicians who can advise on the medical aspects of the work. This research would fill these
+      two voids.
+
+      Benefit and Rationale Existing thermal camera based fever detection systems suffer from two
+      main issues that restrict their current application: Cost and Sensitivity.In order to achieve
+      the required sensitivity, existing systems often require Black Body (BB) calibration sources
+      to be visible in the scene. These BB sources are often more expensive than the cameras (circa
+      one to two orders of magnitude more expensive). Thales believe they can achieve the required
+      sensitivity without the need for BB sources by using advanced thermal camera correction
+      algorithms.
+
+      The variability in skin emissivity makes conversions from irradiance as measured by a thermal
+      camera, to absolute skin temperature inaccurate. Previous work place the emissivity of human
+      skin between 0.990 and 0.999, however earlier research suggests that the value is 0.971 ±
+      0.005(SD). Typically in existing systems, this inaccurate, absolute temperature is used along
+      with a simple threshold algorithm to find skin above a certain temperature leading to both
+      false positives and false negatives.
+
+      Significant statistical correlation between the temperature of multiple facial features and
+      measured human temperature has been observed. Their research found that for most facial
+      features there was a correlation between multiple aspects of the facial view and recorded
+      oral and tympanic temperature, with correlations of 0.5 or greater observed for multiple
+      aspects of both the front and side of the face, with the ear offering the greatest
+      statistical correlation.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 20, 2020</start_date>
+  <completion_date type="Anticipated">July 1, 2020</completion_date>
+  <primary_completion_date type="Anticipated">June 3, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Temperature</measure>
+    <time_frame>During Emergency Department Stay (first 4 hours of hospitalisation)</time_frame>
+    <description>Measurement of temperature</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Pyrexia</condition>
+  <condition>COVID</condition>
+  <arm_group>
+    <arm_group_label>ED Patients</arm_group_label>
+    <description>Patients Presenting in Emergency Department</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Thermography</intervention_name>
+    <description>Measure Temperature using Thermal Camera</description>
+    <arm_group_label>ED Patients</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Tympanic Temperature</intervention_name>
+    <description>Measure Temperature using Tympanic Temperature</description>
+    <arm_group_label>ED Patients</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All patients attending Queen Elizabeth University Hospital Emergency Department requiring
+        triage
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients ≥ 16 years old
+
+          -  Patients able to read and understand English
+
+          -  Patients able to give informed consent
+
+          -  Patients being triaged through ED for any complaint (not necessarily COVID-19)
+
+        Exclusion Criteria:
+
+          -  Patients not meeting the inclusion criteria
+
+          -  Patients who do not have capacity to consent
+
+          -  Patients attending ED who are fast-tracked without triage
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>16 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>David J Lowe, MBChB</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>NHS Greater Glasgow and Clyde</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>David Lowe, MBChB</last_name>
+    <phone>01414522930</phone>
+    <email>david.lowe@nhs.net</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Queen Elizabeth University Hospital</name>
+      <address>
+        <city>Glasgow</city>
+        <zip>G52 4TF</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>David J Lowe, MBChB</last_name>
+    </contact>
+    <investigator>
+      <last_name>Malcolm WG Gordon, MBChb</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Iain D Carrie, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Barry Connor, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Dan Forbes, MBChB</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>May 2020</verification_date>
+  <study_first_submitted>May 16, 2020</study_first_submitted>
+  <study_first_submitted_qc>May 19, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 21, 2020</study_first_posted>
+  <last_update_submitted>May 20, 2020</last_update_submitted>
+  <last_update_submitted_qc>May 20, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 22, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>NHS Greater Clyde and Glasgow</investigator_affiliation>
+    <investigator_full_name>David Lowe</investigator_full_name>
+    <investigator_title>Dr David J Lowe</investigator_title>
+  </responsible_party>
+  <keyword>Thermography</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Fever</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

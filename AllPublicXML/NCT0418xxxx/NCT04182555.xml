@@ -1,0 +1,239 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04182555</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2018/1608</org_study_id>
+    <nct_id>NCT04182555</nct_id>
+  </id_info>
+  <brief_title>Identification of Jaundice in Newborns Using Smartphones</brief_title>
+  <official_title>Identification of Jaundice in Newborns Using Smartphones</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>St. Olavs Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Norwegian University of Science and Technology</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Helse Fonna</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>St. Olavs Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Neonatal jaundice is a common and most often harmless condition. However, when unrecognized
+      it can be fatal or cause serious brain injury. Three quarters of these deaths are estimated
+      to occur in the poorest regions of the world. The treatment of jaundice, phototherapy, is in
+      most cases easy, low-cost and harmless. The crucial point in reducing the burden of disease
+      is therefore to identify then children at risk. This results in the need for low-cost,
+      reliable and easy-to-use diagnostic tools that can identify newborns with jaundice.
+
+      Based on previous research on the bio-optics of jaundiced newborn skin, a prototype of a
+      smartphone application was developed and tested in a pilot study and the application refined.
+
+      This smartphone application will now be evaluated in a clinical trial set in two hospitals in
+      Norway. The smartphone application gives immediate estimates of bilirubin values in newborns,
+      and these estimates will be compared to the bilirubin levels measured in standard blood
+      samples, as well as the results from ordinary transcutaneous measurement devices.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The smartphone jaundice app system works by taking pictures of newborns with a custom-made
+      color calibration card placed on their chest. This makes it possible to measure the skin
+      color precisely regardless of the specific light source that is used to illuminate the
+      newborn. The measured skin color is then compared with items in a database of simulated
+      newborn skin colors. These simulated newborn skin colors have been created using numerical
+      simulations of how light moves through skin, with varying skin parameters including, but not
+      limited to, skin thickness, blood concentration, melanin, and of course bilirubin, the
+      pigment that causes jaundice. By comparing the measured skin color with the simulated skin
+      colors that are most similar to it, the investigators can then estimate the bilirubin
+      concentration in the newborn's skin by e.g. averaging the bilirubin concentrations used to
+      create these simulated skin colors.
+
+      In a group of 200 newborns with varying degree of jaundice, correlation between smartphone
+      bilirubin estimates will be compared with total serum bilirubin and standard transcutaneous
+      bilirubinometry.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">June 2020</start_date>
+  <completion_date type="Anticipated">June 15, 2022</completion_date>
+  <primary_completion_date type="Anticipated">June 15, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>200 newborns with varying degree of jaundice will be recruited.</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Smartphone application sensitivity</measure>
+    <time_frame>5 minutes</time_frame>
+    <description>Sensitivity of the smartphone application to detect severe jaundice, defined as total serum bilirubin value &gt; 250 umol/l.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Repeatability</measure>
+    <time_frame>5 min</time_frame>
+    <description>To evaluate the repeatability of multiple measurements with the new smartphone tool</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between bilirubin estimates by smartphone pictures and by total serum bilirubin</measure>
+    <time_frame>5 minutes</time_frame>
+    <description>Estimate of bilirubin levels from smartphone pictures, compared with bilirubin measurements in total serum. Correlation will be expressed by Pearson correlation coefficient, r.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between bilirubin estimates by smartphone pictures and by standard transcutaneous readings.</measure>
+    <time_frame>5 minutes</time_frame>
+    <description>To evaluate the correlation between bilirubin estimates from a smartphone application and bilirubin estimates from a standard transcutaneous device in newborns with varying degree of jaundice. Correlation will be expressed by Pearson correlation coefficient, r.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between bilirubin estimates by smartphone pictures and visual assessment of jaundice</measure>
+    <time_frame>5 min</time_frame>
+    <description>- To evaluate the correlation between bilirubin estimates from a smartphone application and bilirubin estimates from visual inspection in newborns with varying degree of jaundice</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Jaundice, Neonatal</condition>
+  <condition>Hyperbilirubinemia, Neonatal</condition>
+  <arm_group>
+    <arm_group_label>Newborns in St.Olavs Hospital and Haugesund Hospital</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>All newborns will be examined through 4 different methods of determining jaundice.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Bilirubin estimates from Smartphone Application</intervention_name>
+    <description>Bilirubin estimates through color analysis of digital images obtained through smartphone application.</description>
+    <arm_group_label>Newborns in St.Olavs Hospital and Haugesund Hospital</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Bilirubin concentration measured in standard blood samples</intervention_name>
+    <description>Bilirubin measured in total serum bilirubin.</description>
+    <arm_group_label>Newborns in St.Olavs Hospital and Haugesund Hospital</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Bilirubin estimates from standard transcutaneous device</intervention_name>
+    <description>Bilirubin estimates performed by transcutaneous device ( Dräger JM-105)</description>
+    <arm_group_label>Newborns in St.Olavs Hospital and Haugesund Hospital</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Visual assessment of jaundice</intervention_name>
+    <description>Degree of jaundice will be assessed by Kramer scale</description>
+    <arm_group_label>Newborns in St.Olavs Hospital and Haugesund Hospital</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Born in St.Olavs hospital, Trondheim or in Haugesund Hospital, Norway
+
+          -  Born with gestational age &gt;36+6
+
+          -  Birth weight ≥ 2500g and &lt;4500g
+
+          -  Age 1 - &lt;15 days
+
+          -  Are having a blood sample performed, as newborn screening or for jaundice assessment
+
+        Exclusion criteria:
+
+        Infants needing intensive treatment. This includes:
+
+          -  Infants in the need for respiratory support
+
+          -  Infants with conditions that could compromise skin circulation, as sepsis, heart
+             failure or other
+
+          -  Infants that have received phototherapy
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>14 Days</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Siri Forsmo, md prof</last_name>
+    <role>Study Director</role>
+    <affiliation>Norwegian University of Science and Technology</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Anders Aune</last_name>
+    <phone>0047 95034601</phone>
+    <email>a.aune@ntnu.no</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Haugesund Hospital</name>
+      <address>
+        <city>Haugesund</city>
+        <country>Norway</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Andreas Andreassen, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>St Olavs Hospital</name>
+      <address>
+        <city>Trondheim</city>
+        <country>Norway</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Norway</country>
+  </location_countries>
+  <verification_date>February 2020</verification_date>
+  <study_first_submitted>November 27, 2019</study_first_submitted>
+  <study_first_submitted_qc>November 27, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 2, 2019</study_first_posted>
+  <last_update_submitted>February 25, 2020</last_update_submitted>
+  <last_update_submitted_qc>February 25, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 26, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Diagnosis</keyword>
+  <keyword>Cell Phones</keyword>
+  <keyword>Infant, Newborn</keyword>
+  <keyword>Skin Pigmentation</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hyperbilirubinemia, Neonatal</mesh_term>
+    <mesh_term>Jaundice, Neonatal</mesh_term>
+    <mesh_term>Jaundice</mesh_term>
+    <mesh_term>Hyperbilirubinemia</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Bilirubin</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

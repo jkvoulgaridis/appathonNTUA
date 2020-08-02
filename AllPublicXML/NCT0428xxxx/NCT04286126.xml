@@ -1,0 +1,388 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04286126</url>
+  </required_header>
+  <id_info>
+    <org_study_id>53879</org_study_id>
+    <nct_id>NCT04286126</nct_id>
+  </id_info>
+  <brief_title>Neuroimaging Biomarkers for Predicting rTMS Response in OCD</brief_title>
+  <official_title>Individualized Neuroimaging Biomarkers for Predicting rTMS Response in OCD</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Stanford University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Stanford University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study evaluates an accelerated schedule of theta-burst stimulation using a Transcranial
+      Magnetic Stimulation (TMS) device for treatment-resistant Obsessive Compulsive Disorder
+      (OCD). In a randomized fashion, half the participants will receive accelerated theta-burst
+      stimulation at the dorsomedial prefrontal cortex (DMPFC), while half will receive accelerated
+      theta-burst stimulation at the right orbitofrontal (rOFC) site.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Medications (SSRIs and D2 antagonists) and cognitive-behavioral therapy are the mainstays of
+      treating OCD; however, many patients show only a partial response, and more than 25% of
+      patients show no improvement with these treatments. Repetitive transcranial magnetic
+      stimulation (rTMS) is a promising alternative, using powerful, focused magnetic field pulses
+      to stimulate target brain areas. So far, at least two stimulation targets have consistent
+      evidence of efficacy in OCD: the dorsomedial prefrontal cortex (DMPFC) and the orbitofrontal
+      cortex (OFC). Patients often show a strong response to one target but not the other. It is
+      not well understood why some patients respond, while others do not.
+
+      The investigators previously developed methods for discovering neurophysiological subtypes of
+      depression based on resting state functional Magnetic Resonance Imaging (fMRI) measures of
+      functional connectivity (RSFC) in relevant brain networks; diagnosing them in individual
+      patients; and using them to predict individual differences in rTMS response. Subsequently,
+      motivated by recent studies characterizing individual variability in the topology of these
+      functional networks, the investigators have optimized methods for improving the accuracy of
+      these predictions by accounting for individual variability, stabilizing the selection of
+      treatment-predictive features, and increasing robustness in replication samples through
+      regularization. Here, the investigators propose applying these methods to discover novel
+      network-based subtypes of OCD and develop prognostic neuroimaging biomarkers for predicting
+      differential treatment response to rTMS targeting the DMPFC or OFC, which could subsequently
+      be tested in a randomized clinical trial.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">July 1, 2020</start_date>
+  <completion_date type="Anticipated">December 2025</completion_date>
+  <primary_completion_date type="Anticipated">July 2025</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percentage change in Yale-Brown Obsessive-Compulsive Scale (YBOCS)</measure>
+    <time_frame>Baseline (Pretreatment), at the end of each treatment day, immediate post-treatment follow up</time_frame>
+    <description>The YBOCS is a 10-item clinician-rated questionnaire that assesses the impact and severity of an individual's obsessive thoughts and compulsive behaviors. The minimum and maximum scores are 0 and 36, respectively, with higher score indicating greater severity.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percentage change in Yale-Brown Obsessive-Compulsive Self-Report Scale (YBOCS-S)</measure>
+    <time_frame>At the end of each treatment day</time_frame>
+    <description>The YBOCS-S is a 10-item self report questionnaire that assesses the impact and severity of an individual's obsessive thoughts and compulsive behaviors.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage change in the Hamilton Rating Scale for Depression (HAMD-17)</measure>
+    <time_frame>4 weeks posttreatment</time_frame>
+    <description>The Hamilton Rating Scale for Depression (HAMD-17) is a provider administered questionnaire used to assess remission and recovery from depression.The minimum and maximum possible scores are 0 and 52, respectively, with higher scores indicating greater severity.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage change in the Hamilton Rating Scale for Depression (HAM-6)</measure>
+    <time_frame>Follow-up every 2 weeks for 6 months by telephone</time_frame>
+    <description>A 6 item questionnaire used to score the severity of depression. The minimum and maximum possible scores are 0 and 22, respectively, with higher scores indicating greater severity.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage change in the Hamilton Rating Scale for Depression (HAMD-17)</measure>
+    <time_frame>Baseline (Pretreatment), immediately posttreatment, 2 weeks posttreatment</time_frame>
+    <description>The Hamilton Rating Scale for Depression (HAMD-17) is a provider administered questionnaire used to assess remission and recovery from depression.The minimum and maximum possible scores are 0 and 52, respectively, with higher scores indicating greater severity.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change from baseline functional connectivity to immediate post-treatment</measure>
+    <time_frame>Baseline (Pretreatment), immediately post-treatment</time_frame>
+    <description>Functional connectivity of subcallosal cingulate to the default mode network and within the default mode network.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change from baseline functional connectivity to 1-month post-treatment</measure>
+    <time_frame>Baseline (Pretreatment), 1-month post-treatment</time_frame>
+    <description>The investigators will assess functional connectivity as seen on resting state fMRI, between the subcallosal cingulate to the default mode network and within the default mode network.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change from baseline functional connectivity to each day of treatment</measure>
+    <time_frame>Baseline (Pretreatment), on each treatment day</time_frame>
+    <description>The investigators will assess functional connectivity as seen on resting state fMRI, between the subcallosal cingulate to the default mode network and within the default mode network, and compare functional connectivity between baseline and treatment day 1, baseline and treatment day 2, baseline and treatment day 3, baseline and treatment day 4, and baseline and treatment day 5 to see if and when changes occur.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage change in the Immediate Mood Scaler (IMS)</measure>
+    <time_frame>Baseline, at the end of each treatment day, immediately post-treatment, and 1-month following treatment</time_frame>
+    <description>A 12-item self report questionnaire used to assess remission and recovery from depression. The minimum and maximum possible scores are 12 and 84, respectively, with higher scores indicating greater severity. The IMS measures individuals' current mood states on Likert scales and address mood states such as happy-sad, distracted-focused, sleepy-alert, fearful-fearless.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage change in Montgomery-Åsberg Depression Rating Scale (MADRS) score from pre-treatment to 1-month post-treatment.</measure>
+    <time_frame>Baseline (Pretreatment), 1-month posttreatment</time_frame>
+    <description>A 10 item diagnostic questionnaire used to measure the severity of depressive episodes in patients with mood disorders. The minimum and maximum possible scores are 0 and 60, respectively, with higher scores indicating greater severity.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage change in QIDS (Quick Inventory of Depression Symptoms)</measure>
+    <time_frame>Baseline (Pretreatment), at the end of each treatment day, immediate post-treatment follow up</time_frame>
+    <description>The Quick Inventory of Depression Symptoms (QIDS) is a 16-item self-report assessment that rates depression symptoms.The minimum and maximum possible scores are 0 and 48, respectively, with higher scores indicating greater severity.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage change in Beck Depression Inventory-2 (BDI-2)</measure>
+    <time_frame>Baseline (Pretreatment), at the end of each treatment day, immediate post-treatment follow up</time_frame>
+    <description>The BDI-2 is a 21 item self-report assessment that rates depression symptoms. The minimum and maximum possible scores are 0 and 63, respectively, with higher scores indicating greater severity.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage change in Patient Health Questionnaire 9 (PHQ9)</measure>
+    <time_frame>Baseline (Pretreatment), at the end of each treatment day, immediate post-treatment follow up</time_frame>
+    <description>The PHQ9 is a 9 item self-report assessment that rates depression symptoms. The minimum and maximum possible scores are 0 and 27, respectively, with higher scores indicating greater severity.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage change in the Beck Anxiety Inventory (BAI)</measure>
+    <time_frame>Baseline (Pretreatment), at the end of each treatment day, immediate post-treatment follow up</time_frame>
+    <description>The BAI is a 21 item self-report assessment that rates anxiety symptoms. The minimum and maximum possible scores are 0 and 63, respectively, with higher scores indicating greater severity.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage change in the Generalized Anxiety Disorder 7 (GAD7) questionnaire</measure>
+    <time_frame>Baseline (Pretreatment), at the end of each treatment day, immediate post-treatment follow up</time_frame>
+    <description>The GAD7 is a 7 item self-report assessment that rates anxiety symptoms. The minimum and maximum possible scores are 0 and 21, respectively, with higher scores indicating greater severity.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">180</enrollment>
+  <condition>Obsessive-Compulsive Disorder</condition>
+  <arm_group>
+    <arm_group_label>bilateral DMPFC</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>This arm will receive intermittent theta-burst stimulation to bilateral DMPFC site.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>right OFC</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>This arm will receive continuous theta-burst stimulation to the right OFC site.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Active bilateral DMPFC</intervention_name>
+    <description>Participants in this arm will receive rTMS to bilateral DMPFC. The DMPFC will be targeted utilizing either Nexstim's eField neuronavigation system or Localite's neuronavigation system. Stimulation intensity will be standardized at 90% of resting motor threshold (RMT) and adjusted to the skull to cortical surface distance (see Nahas 2004).</description>
+    <arm_group_label>bilateral DMPFC</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Active right-sided OFC</intervention_name>
+    <description>Participants in this arm will receive rTMS to the right OFC. The right OFC will be targeted utilizing either Nexstim's eField neuronavigation system or Localite's neuronavigation system. Stimulation intensity will be standardized at 90% of resting motor threshold (RMT) and adjusted to the skull to cortical surface distance (see Nahas 2004).</description>
+    <arm_group_label>right OFC</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. meets Diagnostic and Statistical Manual of Mental Disorders, 5th Edition (DSM-5)
+             criteria for OCD with a moderate level of severity as defined by a Yale-Brown
+             Obsessive Compulsive Scale (YBOCS) score of at least 18.
+
+          2. stable on Serotonin Re-uptake Inhibitor (SRI) medication for at least 8 weeks prior to
+             (with plans to continue throughout) the study Note: Medications that are known to
+             increase cortical excitability (e.g., buprorion, maprotiline, tricyclic
+             antidepressants, classical antipsychotics) or to have an inhibitory effect on brain
+             excitability (e.g., anti-convulsants, benzodiazepines, and atypical antipsychotics),
+             or any other medications with relative hazard for use in TMS will be allowed upon
+             review of medications and/or motor threshold determination by TMS specialist.
+
+          3. failed at least 1 prior trial of standard first-line OCD treatment per American
+             Psychological Association (APA) Practice Guidelines (serotonin reuptake inhibitor
+             [SRI] or cognitive behavioral therapy with exposure and response prevention)OR had
+             refused these treatments for individual reasons.
+
+          4. capacity to provide informed consent.
+
+          5. ability to tolerate clinical study procedures.
+
+          6. successfully complete the screening forms at the Stanford Center for Cognitive and
+             Neurobiological Imaging (CNI) without any contraindications.
+
+        Exclusion Criteria:
+
+          1. Current psychosis (re-assessed only if screening appointment was more than 30 days ago
+             - Structured Clinical Interview for DSM-IV (SCID) - 5 Module B)
+
+          2. Current bipolar disorder (assessed during baseline if screening appointment was more
+             than 30 days ago - SCID-5 Module D)
+
+          3. Severe depression [Note: 17-item Hamilton Depression Rating Scale (HDRS-17) must be
+             less or equal to 20 to enter study, assessed during baseline if last assessment was
+             more than 1 week ago]
+
+          4. Current active suicidality (as determined by C-SSRS at baseline of 3 or above)
+
+          5. Current moderate or severe Alcohol Usage Disorder or Substance Usage Disorder (except
+             nicotine and caffeine) according to the DSM-5 criteria (assessed only if screening
+             appointment was more than 12 months ago - SCID-5 Module E)
+
+          6. Current eating disorder (assessed during baseline if screening appointment was more
+             than 3 months ago - SCID-5 Module I)
+
+          7. History of seizure, having an EEG, stroke, head injury (including neurosurgery),
+             implanted devices, frequent or severe headaches, brain related conditions (e.g.,
+             intracranial mass lesions globe injuries, hydrocephalus), illness that caused brain
+             injury or first degree relative with seizure disorder (assessed during screening via
+             medical history assessment and TMS Safety Screen by study MD)
+
+          8. Individuals with primary hoarding disorder without a DSM-5 OCD diagnosis (as
+             determined by SCID-5 and YBOCS checklist assessed only if screening appointment was
+             more than 30 days ago)
+
+          9. Planning to commence Cognitive Behavioral Therapy (that includes exposure and response
+             prevention) during the period of the study or have begun Cognitive Behavioral Therapy
+             within 8 weeks prior to enrollment (assessed during baseline by study MD)
+
+         10. Pregnant or nursing females (assessed via urine dipstick if screening appointment was
+             more than 30 days ago)
+
+         11. Positive urine screen for illicit drugs (assessed via urine dipstick if screening
+             appointment was more than 30 days ago) [Exceptions: (1) any prescribed medication that
+             participant is currently taking and (2) positive cocaine metabolite after consumption
+             of coca tea]
+
+         12. History of any implanted device or psychosurgery (assessed during baseline by study
+             MD)
+
+         13. History of receiving Electroconvulsive Therapy (ECT) (assessed during baseline by
+             study MD)
+
+         14. Age of OCD symptom onset &gt;30
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Nolan Williams, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Romina Nejad, MSc</last_name>
+    <phone>650-497-3933</phone>
+    <email>rnejad@stanford.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Nicole Odenwald, MA</last_name>
+    <phone>650-736-2233</phone>
+    <email>nicole.odenwald@stanford.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Department of Psychiatry and Behavioral Sciences, Stanford School of Medicine</name>
+      <address>
+        <city>Stanford</city>
+        <state>California</state>
+        <zip>94305</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Romina Nejad, MSc</last_name>
+      <phone>650-497-3933</phone>
+      <email>rnejad@stanford.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Nolan Williams, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>George MS, Lisanby SH, Avery D, McDonald WM, Durkalski V, Pavlicova M, Anderson B, Nahas Z, Bulow P, Zarkowski P, Holtzheimer PE 3rd, Schwartz T, Sackeim HA. Daily left prefrontal transcranial magnetic stimulation therapy for major depressive disorder: a sham-controlled randomized trial. Arch Gen Psychiatry. 2010 May;67(5):507-16. doi: 10.1001/archgenpsychiatry.2010.46.</citation>
+    <PMID>20439832</PMID>
+  </reference>
+  <reference>
+    <citation>George MS, Wassermann EM, Williams WA, Callahan A, Ketter TA, Basser P, Hallett M, Post RM. Daily repetitive transcranial magnetic stimulation (rTMS) improves mood in depression. Neuroreport. 1995 Oct 2;6(14):1853-6.</citation>
+    <PMID>8547583</PMID>
+  </reference>
+  <reference>
+    <citation>Pascual-Leone A, Rubio B, Pallardó F, Catalá MD. Rapid-rate transcranial magnetic stimulation of left dorsolateral prefrontal cortex in drug-resistant depression. Lancet. 1996 Jul 27;348(9022):233-7.</citation>
+    <PMID>8684201</PMID>
+  </reference>
+  <reference>
+    <citation>Chung SW, Hill AT, Rogasch NC, Hoy KE, Fitzgerald PB. Use of theta-burst stimulation in changing excitability of motor cortex: A systematic review and meta-analysis. Neurosci Biobehav Rev. 2016 Apr;63:43-64. doi: 10.1016/j.neubiorev.2016.01.008. Epub 2016 Feb 3. Review.</citation>
+    <PMID>26850210</PMID>
+  </reference>
+  <reference>
+    <citation>Jelić MB, Milanović SD, Filipović SR. Differential effects of facilitatory and inhibitory theta burst stimulation of the primary motor cortex on motor learning. Clin Neurophysiol. 2015 May;126(5):1016-23. doi: 10.1016/j.clinph.2014.09.003. Epub 2014 Sep 16.</citation>
+    <PMID>25281475</PMID>
+  </reference>
+  <reference>
+    <citation>Chung SW, Hoy KE, Fitzgerald PB. Theta-burst stimulation: a new form of TMS treatment for depression? Depress Anxiety. 2015 Mar;32(3):182-92. doi: 10.1002/da.22335. Epub 2014 Nov 28. Review.</citation>
+    <PMID>25450537</PMID>
+  </reference>
+  <reference>
+    <citation>Plewnia C, Pasqualetti P, Große S, Schlipf S, Wasserka B, Zwissler B, Fallgatter A. Treatment of major depression with bilateral theta burst stimulation: a randomized controlled pilot trial. J Affect Disord. 2014 Mar;156:219-23. doi: 10.1016/j.jad.2013.12.025. Epub 2013 Dec 28.</citation>
+    <PMID>24411682</PMID>
+  </reference>
+  <reference>
+    <citation>Prasser J, Schecklmann M, Poeppl TB, Frank E, Kreuzer PM, Hajak G, Rupprecht R, Landgrebe M, Langguth B. Bilateral prefrontal rTMS and theta burst TMS as an add-on treatment for depression: a randomized placebo controlled trial. World J Biol Psychiatry. 2015 Jan;16(1):57-65. doi: 10.3109/15622975.2014.964768. Epub 2014 Nov 28.</citation>
+    <PMID>25430687</PMID>
+  </reference>
+  <reference>
+    <citation>Daskalakis ZJ. Theta-burst transcranial magnetic stimulation in depression: when less may be more. Brain. 2014 Jul;137(Pt 7):1860-2. doi: 10.1093/brain/awu123. Epub 2014 May 15.</citation>
+    <PMID>24833712</PMID>
+  </reference>
+  <reference>
+    <citation>Thut G, Pascual-Leone A. A review of combined TMS-EEG studies to characterize lasting effects of repetitive TMS and assess their usefulness in cognitive and clinical neuroscience. Brain Topogr. 2010 Jan;22(4):219-32. doi: 10.1007/s10548-009-0115-4. Epub 2009 Oct 28. Review.</citation>
+    <PMID>19862614</PMID>
+  </reference>
+  <reference>
+    <citation>Holtzheimer PE 3rd, McDonald WM, Mufti M, Kelley ME, Quinn S, Corso G, Epstein CM. Accelerated repetitive transcranial magnetic stimulation for treatment-resistant depression. Depress Anxiety. 2010 Oct;27(10):960-3. doi: 10.1002/da.20731.</citation>
+    <PMID>20734360</PMID>
+  </reference>
+  <reference>
+    <citation>Fung PK, Robinson PA. Neural field theory of synaptic metaplasticity with applications to theta burst stimulation. J Theor Biol. 2014 Jan 7;340:164-76. doi: 10.1016/j.jtbi.2013.09.021. Epub 2013 Sep 21.</citation>
+    <PMID>24060620</PMID>
+  </reference>
+  <reference>
+    <citation>Biswal B, Yetkin FZ, Haughton VM, Hyde JS. Functional connectivity in the motor cortex of resting human brain using echo-planar MRI. Magn Reson Med. 1995 Oct;34(4):537-41.</citation>
+    <PMID>8524021</PMID>
+  </reference>
+  <reference>
+    <citation>Greicius MD, Krasnow B, Reiss AL, Menon V. Functional connectivity in the resting brain: a network analysis of the default mode hypothesis. Proc Natl Acad Sci U S A. 2003 Jan 7;100(1):253-8. Epub 2002 Dec 27.</citation>
+    <PMID>12506194</PMID>
+  </reference>
+  <reference>
+    <citation>Fox MD, Snyder AZ, Vincent JL, Corbetta M, Van Essen DC, Raichle ME. The human brain is intrinsically organized into dynamic, anticorrelated functional networks. Proc Natl Acad Sci U S A. 2005 Jul 5;102(27):9673-8. Epub 2005 Jun 23.</citation>
+    <PMID>15976020</PMID>
+  </reference>
+  <reference>
+    <citation>Greicius MD, Supekar K, Menon V, Dougherty RF. Resting-state functional connectivity reflects structural connectivity in the default mode network. Cereb Cortex. 2009 Jan;19(1):72-8. doi: 10.1093/cercor/bhn059. Epub 2008 Apr 9.</citation>
+    <PMID>18403396</PMID>
+  </reference>
+  <verification_date>February 2020</verification_date>
+  <study_first_submitted>February 21, 2020</study_first_submitted>
+  <study_first_submitted_qc>February 24, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 26, 2020</study_first_posted>
+  <last_update_submitted>February 24, 2020</last_update_submitted>
+  <last_update_submitted_qc>February 24, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 26, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Stanford University</investigator_affiliation>
+    <investigator_full_name>Nolan R</investigator_full_name>
+    <investigator_title>Instructor of Psychiatry &amp; Behavioral Sciences, Director of the Brain Stimulation Laboratory at Stanford University School of Medicine, Stanford University</investigator_title>
+  </responsible_party>
+  <keyword>transcranial magnetic stimulation</keyword>
+  <keyword>theta burst</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Compulsive Personality Disorder</mesh_term>
+    <mesh_term>Obsessive-Compulsive Disorder</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

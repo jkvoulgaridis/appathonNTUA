@@ -1,0 +1,598 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04457102</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020/03FEV/065</org_study_id>
+    <nct_id>NCT04457102</nct_id>
+  </id_info>
+  <brief_title>Mechanically-Assisted and Non-Invasive Ventilation for Breathing-related Tumor Motion Mitigation.</brief_title>
+  <acronym>MANIV</acronym>
+  <official_title>Implementation and Clinical Validation of Mechanically-Assisted and Non-Invasive Ventilation (MANIV) in Radiotherapy for Breathing-related Tumor Motion Management.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Cliniques universitaires Saint-Luc- Université Catholique de Louvain</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Cliniques universitaires Saint-Luc- Université Catholique de Louvain</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Breathing motion still remains a major issue that jeopardizes the accuracy of photon- and
+      proton-therapy for thoracic and upper-abdominal tumors, which represent up to 40% of curative
+      radiotherapy treatments. Existing motion management strategies are either simple and costless
+      but lead to futile irradiation of healthy tissues (safety margins), or complex to implement
+      and expensive, limiting their availability in clinical routine (gating, deep-inspiration
+      breath-hold - DIBH, real-time tracking). In addition, the accuracy and efficiency of all
+      these techniques critically depend on tumor motion/position reproducibility over treatment
+      time, which is often degraded by variations of the spontaneous breathing or voluntary apnea.
+      Finally, these techniques are not easily transferrable to proton therapy (PT) in the presence
+      of proton range uncertainties in moving anatomy.
+
+      Therefore, we propose an innovative workaround to overcome these complex issues, namely,
+      Mechanically-Assisted and Non-Invasive Ventilation (MANIV). By taking control of the
+      patient's breathing, we previously demonstrated that MANIV can safely regularize and even
+      reduce tumor motion using a volume-controlled ventilation mode (VC), while a slow ventilation
+      mode (SL) can induce repeated DIBH during which the tumor motion is nearly suppressed.
+      Although promising, we have to go a step further into the prospective clinical validation of
+      MANIV applied to existing motion management techniques.
+
+      A. Preclinical phase:
+
+        1. Clinical implementation of MANIV: development of technical solutions to integrate MANIV
+           at each stage of a patient's clinical workflow in our radiotherapy department.
+
+        2. In-house validation and optimization of experimental mathematical models to compute the
+           trajectory and amplitude of residual tumor motion during treatment delivery.
+
+      B. Clinical phase:
+
+        1. Optimization of Respiratory Gating by reproducing repeated and stable DIBHs to fix the
+           tumor motion for radiotherapy treatment of lung, liver and breast tumors.
+
+        2. Optimization of Tracking procedures by regularizing the breathing and tumor motion with
+           VC mode to reduce the treatment duration for real-time lung and liver tumors tracking on
+           Accuray Cyberknife® robotic mounted LINAC.
+
+        3. In silico delivred dose assessment of MANIV-optimized Respiratory Gating by Pencil Beam
+           Scanning Proton Therapy (PBS-PT).
+
+      At the end of this project, we will provide recommendations for the clinical implementation
+      of a wide panel of advanced motion mitigation techniques, which would contribute to a major
+      step forward in the management of breathing motion in both photon and proton-therapy.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Radiotherapy of mobile tumors faces many challenges due to breathing-related geometrical
+      uncertainties. Breathing amplitude and frequency may deeply and unexpectedly vary from cycle
+      to cycle, during a treatment fraction (intra-fraction variation) or between fractions
+      (inter-fraction variation) [1]. In Protontherapy (PT), these uncertainties are even worsened
+      by the proton range variations within the traversed moving tissues and the interplay effect
+      between the tumor and spot scanning beam motions. These effects can unpredictively and
+      severely distort dose distribution, and still limit the current indications of PT for
+      thoracic/upper-abdomen cancers [2, 3]. Therefore, several motion mitigation strategies have
+      been developed:
+
+        -  Margin Strategy: this approach consists in calculating safety margins that encompass
+           motion-related uncertainties computed from a prior planning 4D-CT scan. Although simple
+           to implement, it inevitably results in futile dose exposure to organs at risk [4].
+
+        -  Gating Strategy: respiratory gating consists in delivering the beam within a time-window
+           of the breathing cycle, at the end-expiratory or inspiratory plateau, when the tumor is
+           in a predefined stable position. It prevents potentially harmful irradiation of healthy
+           tissues by reducing safety margins [4]. During Deep Inspiration Breath Hold (DIBH), the
+           patient is asked to hold apneas after deep inspirations to prolong the gating windows
+           and the time efficiency of the gating procedure. DIBH has become a standard of care for
+           left breast radiotherapy. Indeed, in addition of freezing the tumor motion, it moves
+           away the heart from the breast and inflates the lungs, allowing thus to reduce the dose
+           to these critical organs at risk [5]. However, for all tumor sites ( breast, lung,
+           liver), current beam delivery times typically entail several successive spontaneous BH
+           to complete treatment, hence require complex management with onboard imaging to monitor
+           the target position [6]. Moreover, repeating spontaneous DIBH requires a good patient's
+           compliance and comprehension, which may be a barrier for some patients, and may degrade
+           the accuracy of the gating procedure. Various techniques have been investigated to
+           improve the tumor position reproducibility over successive BH or to increase BH duration
+           to facilitate dose delivery [7,8,9]. However, the patient invariably remains actor of
+           his breathing with subsequent unpredictive tumor position variations from BH to BH. As a
+           consequence, the accuracy could suffer from residual motion and unpredictable changes
+           during spontaneous breath-holds.
+
+        -  Tracking Strategy: this approach relies on motion prediction models derived patient's
+           real-time breathing pattern, allowing for the synchronization of the tumor motion with
+           the beam motion. Accuray Cyberknife® is a LINAC mounted on a robotic arm designed for
+           real-time tumor tracking. A correlation model is built between external motion
+           continuously tracked by LEDs placed on the patient and internal tumor position, tracked
+           periodically by orthogonal x-rays imagers. The correlation model is updated whenever
+           deviations occur due to changes of the breathing pattern [10]. Tracking allows thus to
+           significantly reduce the safety margins and to adapt continuously the treatment delivery
+           to the breathing pattern [4]. However, the long delivery time of a single fraction, from
+           60 to 90 minutes [11], limits its current use in clinical practice. Again, erratic and
+           non-reproducible breathing may degrade the accuracy of tracking and will require
+           frequent updates of the motion correlation model, at the expense of even longer
+           treatment time and discomfort for the patient.
+
+      Until now, none of the current strategy provides an entirely satisfactory solution for motion
+      management. The more accurate a technique is, the less efficient it is (treatment time,
+      feasibility, ease of clinical implementation), and vice-versa. By taking control of the
+      patient breathing, MANIV could solve this complex problem. Parkes et al. showed first that
+      MANIV can safely impose a regular breathing pattern on conscious and unsedated patients [12],
+      and could mitigate respiratory motion [13, 14]. Our group has further investigated these
+      ventilation techniques on healthy volunteers [15] and patients [16] to broaden their
+      applicability to radiotherapy of moving tumors. Two ventilation modes appear to be of
+      particular interest for radiotherapy :
+
+        -  The Slow Controlled ventilation mode (SL) is a bi-level pressure mode of the mechanical
+           ventilator that induces reproducible and repeated DIBH without active patient
+           participation. This ventilation mode therefore offers a way to improve the efficiency
+           and accuracy of respiratory gating. Indeed, a good physical condition of the patient,
+           his compliance or his understanding of the instructions would no longer be necessary
+           prerequisites for the feasibility of the treatment. Thus, by relieving the patient of
+           his breathing control, MANIV would overcome the limitations of spontaneous DIBH and
+           would allow a larger number of patients to benefit from this technique. Moreover, the
+           intra- and inter-fraction baseline shift (= mean position variation over time) are
+           reduced with MANIV compared to voluntary DIBH [15] and should improve the accuracy of
+           the gating procedure. MANIV will thus facilitate both onboard imaging procedure for
+           patient positioning and the beam delivery accuracy. In the context of proton therapy,
+           freezing the tumor motion thanks to SL mode would allow to treat thoracic and abdominal
+           tumors by drastically reducing the motion-related geometrical uncertainties that have
+           been prohibitive until now to ensure satisfactory robustness of the planned dose
+           distribution.
+
+        -  The Volume Controlled ventilation mode (VC) constraints both breathing rate and tidal
+           volume measured from the patient's spontaneous breathing parameters, and imposes a
+           completely regular breathing pattern without increasing the tumor baseline shift
+           [15,16]. Stabilization of the respiratory pattern over time would be beneficial for
+           tracking strategy. We can hypothesize that the regular breathing and tumor motions
+           imposed by MANIV would reduce the number of model updates and the overall treatment
+           duration, with a substantial gain in efficiency of the technique. To a lesser extent,
+           the accuracy of the technique would also be improved [17].
+
+      In summary, our group has already demonstrated that MANIV was feasible and safe on small
+      cohorts of volunteers and patients, and significantly improved regularity of
+      breathing-related motion or BH monitored by real-time dynamic MRI [15,16]. Based on these
+      very encouraging pre-clinical results, MANIV might thus considerably simplify and improve all
+      motion management strategies in both photon- and proton therapies. However, further clinical
+      investigations are still required in real treatment conditions to validate its use for
+      clinical routine. These include the clinical implementation of the ventilator in a LINAC
+      environment, and the quantification of the added value of MANIV for the above-mentioned
+      mitigation techniques.
+
+      Research project We plan first to implement MANIV in the patient workflow and to validate and
+      optimize our onboard imaging procedure to quantify residual motion or motion regularity.
+      Then, we will conduct 4 clinical studies, each investigating the added value of MANIV for a
+      specific motion management strategy.
+
+      A) Preclinical phase :
+
+      MANIV has been interfaced with the control room of our LINACs to monitor the MANIV breathing
+      parameters. Intra-fraction motion will be monitored during gating treatments using Cone-Beam
+      CT (CBCT). Computing motion from these devices will require the use of experimental
+      mathematical models to infer the three-dimensional trajectory of a tumor from its
+      two-dimensional X-rays projections. Five models have been reported in the literature
+      [18,19,20,21,22]. The one of Poulsen et al [22] based on a probabilistic approach is the most
+      accurate with a submillimetric residual error [23]. We have already validated this method in
+      the environnement our treatment machines with a dynamic thorax phantom (model 008A CIRS®),
+      and we are now able to analyze intra-fraction motion from imaging data of patients treated on
+      our LINACs.
+
+      B) Clinical phase:
+
+      For all clinical studies, subjective and objective patient's tolerance will be monitored
+      during MANIV with comfort questionnaires (Likert scales and visual analogue scale) and vital
+      parameters (Heartbeat Rate, SpO2, etCO2). Statistical power analysis were performed using the
+      PASS 14.0.7 statistical software.
+
+        1. Improving respiratory gating with MANIV-induced DIBH for liver and lung cancers RT:
+
+             -  Design: Non-comparative prospective interventional study.
+
+             -  Population: Patients with primary or secondary hepatic or pulmonary neoplasia
+                eligible for radiotherapy.
+
+             -  Method: Irradiation will take place during DIBH induced by the MANIV (Bellavista
+                1000, IMTMedical®) with SL mode. Oxygen will be added (FiO2 60%) to safely and
+                easily prolong the DIBH duration up to 40-50 seconds to allow the complete delivery
+                of a treatment beam [13]. Prior to treatment, a radio-opaque fiducial will be
+                implanted in the tumor by an interventional radiologist, to facilitate the tumor
+                position monitoring from onboard imaging. Residual tumor baseline shift and motion
+                will thus be measured during beam delivery, and used to recompute the optimal
+                safety margins that ensure an adequate dose coverage of at least 90% of tumors,
+                according to literature recommendations [24]. We will also compare these safety
+                margins computed under MANIV condition with those routinely applied in
+                free-breathing condition (from a matched retrospective cohort) to estimate the gain
+                in terms of margin reduction.
+
+             -  Primary outcome: Proportion of tumors receiving the prescribed dose.
+
+             -  Secondary outcome: a) Recalculation of safety margins adapted to the MANIV in SL
+                mode and margin reduction compared to conventional free breathing RT.
+
+             -  Statistical power analysis : in order to demonstrate whether at least 90 % of the
+                tumors (cutoff conventionally accepted [24]) with a one sample proportion z-test
+                (one-tailed) and assuming that 99% of the tumors will receive the prescribed dose,
+                42 patients have to be included to reach a statistical power of 80 % (alpha error =
+                5%)
+
+        2. Improving respiratory gating with MANIV-Induced DIBH for breast RT:
+
+             -  Design: Randomized controlled trial with equiprobable randomization by block of 4
+                in 2 arms: the interventional arm will be treated with MANIV-induced DIBH and the
+                control arm treated in spontaneous DIBH
+
+             -  Population: Patients with left breast neoplasia eligible for treatment by
+                radiotherapy.
+
+             -  Method: Patients in the interventional arm will be treated under the same
+                conditions as described above. Optical surface imaging (VisionRT® - Identify®) will
+                be used to monitor in real-time the breast position during beam delivery. Based on
+                this information, the mean breast displacement will be compared between the two
+                arms. The planned dose to the organs at risk (heart, lung) will also be computed
+                and compared between both arms. The conversion ratio from the DIBH technique to a
+                free breathing treatment will be analyzed in each arm as a surrogate of the DIBH
+                strategy efficiency. The treatment will indeed be performed in free breathing when
+                the patient will not be able to hold a DIBH for a long enough time for the delivery
+                of the treatment.
+
+             -  Primary outcome: mean displacements of the mammary gland during treatment.
+
+             -  Secondary outcomes: a) Planned dose to organs at risk (especially heart and lung)
+                b) Proportion of conversion to free-breath in each arm.
+
+             -  Statistical power analysis : 50 patients should be included in each arm to
+                demonstrate a reduction of the mean displacements of the mammary gland during
+                treatment (effect size = 0.45) using an independent 2 samples proportion t-test
+                (one-tailed) to reach a statistical power of 80 % (alpha error = 5 %).
+
+        3. Improving respiratory real-time tracking by VC mode:
+
+             -  Design: Non-comparative prospective interventional study.
+
+             -  Population: Patients with primary or secondary hepatic neoplasia eligible for a
+                radiotherapy treatment.
+
+             -  Method: Patients will be ventilated by VC mode during their treatment. For each
+                fraction, the treatment time, the number of reconstructions of the tracking model
+                and the correlation errors of the model will be collected. The same information
+                will be extracted from a matched retrospective cohort treated by tracking in
+                spontaneous breathing.
+
+             -  Primary outcome: Mean duration of a fraction.
+
+             -  Secondary outcomes: a) Correlation errors of the model, b) accuracy of the tracking
+
+             -  Statistical power analysis : 35 patients should be included in both cohorts (the
+                prospective and retrospective one) to demonstrate a reduction of the mean treatment
+                time (effect size = 0.6) with an independent 2 samples t-test (one tailed) to reach
+                a statistical power of 80 % (apha error = 5%).
+
+        4. Mechanically-induced breath-holds for gated PBS-PT:
+
+             -  Design: Non-comparative observational prospective study.
+
+             -  Population: Patients included in study n°1
+
+             -  Method: data on tumor position and its residual motion from patients included in
+                the study n°1 will be used to compute the planned and in silico delivered dose
+                distribution with PBS PT. The MIRO lab (UCL-IREC ) has developed comprehensive
+                tools for simulating treatment delivery on patients CT images using the Monte Carlo
+                dose engine MCsquare [25], coupled with log-file acquisitions [26]. In this way, we
+                will be able to validate our approach in silico in collaboration with IBA, as a
+                first step before conducting prospective trials for the clinical validation of this
+                approach.
+
+             -  Primary outcome: dose delivered at 95, 98 and 100% of the volume of each tumor.
+
+             -  Statistical power analysis : not applicable. Patients from study n°1 (Improving
+                respiratory gating by SL mode) will be included.
+
+                  1. Dhont, J., Vandemeulebroucke, J., Burghelea, M., Poels, K., Depuydt, T., Van
+                     Den Begin, R., … Verellen, D. (2018). The long- and short-term variability of
+                     breathing induced tumor motion in lung and liver over the course of a
+                     radiotherapy treatment. Radiotherapy and Oncology, 126(2), 339 346.
+                     https://doi.org/10.1016/j.radonc.2017.09.001
+
+                  2. Bert, C., &amp; Durante, M. (2011). Motion in radiotherapy: particle therapy.
+                     Physics in Medicine and Biology, 56(16), R113 R144.
+                     https://doi.org/10.1088/0031-9155/56/16/r01
+
+                  3. Korreman, S. S. (2012). Motion in radiotherapy: photon therapy. Physics in
+                     Medicine and Biology, 57(23), R161 R191.
+                     https://doi.org/10.1088/0031-9155/57/23/r161
+
+                  4. Wolthaus, J. W. H., Sonke, J.-J., van Herk, M., Belderbos, J. S. A., Rossi, M.
+                     M. G., Lebesque, J. V., &amp; Damen, E. M. F. (2008). Comparison of Different
+                     Strategies to Use Four-Dimensional Computed Tomography in Treatment Planning
+                     for Lung Cancer Patients. International Journal of Radiation
+                     Oncology*Biology*Physics, 70(4), 1229 1238.
+                     https://doi.org/10.1016/j.ijrobp.2007.11.042
+
+                  5. Nissen, H. D., &amp; Appelt, A. L. (2013). Improved heart, lung and target dose
+                     with deep inspiration breath hold in a large clinical series of breast cancer
+                     patients. Radiotherapy and Oncology, 106(1), 28 32.
+                     https://doi.org/10.1016/j.radonc.2012.10.016
+
+                  6. Shiinoki, T., Hanazawa, H., Yuasa, Y., Fujimoto, K., Uehara, T., &amp; Shibuya, K.
+                     (2017). Verification of respiratory-gated radiotherapy with new real-time
+                     tumour-tracking radiotherapy system using cine EPID images and a log file.
+                     Physics in Medicine and Biology, 62(4), 1585 1599.
+                     https://doi.org/10.1088/1361-6560/aa587d
+
+                  7. Bartlett, F. R., Colgan, R. M., Carr, K., Donovan, E. M., McNair, H. A.,
+                     Locke, I., … Kirby, A. M. (2013). The UK HeartSpare Study: Randomised
+                     evaluation of voluntary deep-inspiratory breath-hold in women undergoing
+                     breast radiotherapy. Radiotherapy and Oncology, 108(2), 242 247.
+                     https://doi.org/10.1016/j.radonc.2013.04.021
+
+                  8. Roth, J., Engenhart-Cabillic, R., Eberhardt, L., Timmesfeld, N., &amp; Strassmann,
+                     G. (2011). Preoxygenated hyperventilated hypocapnic apnea-induced radiation
+                     (PHAIR) in breast cancer patients. Radiotherapy and Oncology, 100(2), 231 235.
+                     https://doi.org/10.1016/j.radonc.2011.02.017
+
+                  9. Kaza, E., Dunlop, A., Panek, R., Collins, D. J., Orton, M., Symonds-Tayler,
+                     R., … Leach, M. O. (2017). Lung volume reproducibility under ABC control and
+                     self-sustained breath-holding. Journal of Applied Clinical Medical Physics,
+                     18(2), 154 162. https://doi.org/10.1002/acm2.12034
+
+                 10. Dieterich, S., Green, O., &amp; Booth, J. (2018). SBRT targets that move with
+                     respiration. Physica Medica, 56, 19 24.
+                     https://doi.org/10.1016/j.ejmp.2018.10.021
+
+                 11. Crop, F., Lacornerie, T., Szymczak, H., Felin, A., Bailleux, C., Mirabel, X.,
+                     &amp; Lartigau, E. (2014). Treatment and Technical Intervention Time Analysis of a
+                     Robotic Stereotactic Radiotherapy System. Technology in Cancer Research &amp;
+                     Treatment, 13(1), 29 35. https://doi.org/10.7785/tcrt.2012.500359
+
+                 12. Parkes, M. J., Green, S., Stevens, A. M., Parveen, S., Stephens, R., &amp;
+                     Clutton-Brock, T. H. (2016). Reducing the within-patient variability of
+                     breathing for radiotherapy delivery in conscious, unsedated cancer patients
+                     using a mechanical ventilator. The British Journal of Radiology, 89(1062),
+                     20150741. https://doi.org/10.1259/bjr.20150741
+
+                 13. Parkes, M. J., Green, S., Stevens, A. M., Parveen, S., Stephens, R., &amp;
+                     Clutton-Brock, T. H. (2016b). Safely prolonging single breath-holds to &gt;5 min
+                     in patients with cancer; feasibility and applications for radiotherapy. The
+                     British Journal of Radiology, 89(1063), 20160194.
+                     https://doi.org/10.1259/bjr.20160194
+
+                 14. West, N. S., Parkes, M. J., Snowden, C., Prentis, J., McKenna, J., Iqbal, M.
+                     S., … Walker, C. (2019). Mitigating Respiratory Motion in Radiation Therapy:
+                     Rapid, Shallow, Non-invasive Mechanical Ventilation for Internal Thoracic
+                     Targets. International Journal of Radiation Oncology*Biology*Physics, 103(4),
+                     1004 1010. https://doi.org/10.1016/j.ijrobp.2018.11.040
+
+                 15. Van Ooteghem, G., Dasnoy-Sumell, D., Lambrecht, M., Reychler, G., Liistro, G.,
+                     Sterpin, E., &amp; Geets, X. (2019). Mechanically-assisted non-invasive
+                     ventilation: A step forward to modulate and to improve the reproducibility of
+                     breathing-related motion in radiation therapy. Radiotherapy and Oncology, 133,
+                     132 139. https://doi.org/10.1016/j.radonc.2018.12.026
+
+                 16. Van Ooteghem, G., Dasnoy-Sumell, D., Lee, J. A., &amp; Geets, X. (2019).
+                     Mechanically-assisted and non-invasive ventilation for radiation therapy: A
+                     safe technique to regularize and modulate internal tumour motion. Radiotherapy
+                     and Oncology, 141, 283 291. https://doi.org/10.1016/j.radonc.2019.09.021
+
+                 17. Akino, Y., Sumida, I., Shiomi, H., Higashinaka, N., Murashima, Y., Hayashida,
+                     M., … Ogawa, K. (2018). Evaluation of the accuracy of the CyberKnife
+                     SynchronyTM Respiratory Tracking System using a plastic scintillator. Medical
+                     Physics, 45(8), 3506 3515. https://doi.org/10.1002/mp.13028
+
+                 18. Chi, Y., Rezaeian, N. H., Shen, C., Zhou, Y., Lu, W., Yang, M., … Jia, X.
+                     (2017). A new method to reconstruct intra-fractional prostate motion in
+                     volumetric modulated arc therapy. Physics in Medicine &amp; Biology, 62(13), 5509
+                     5530. https://doi.org/10.1088/1361-6560/aa6e37
+
+                 19. Li, R., Fahimian, B. P., &amp; Xing, L. (2011). A Bayesian approach to real-time
+                     3D tumor localization via monoscopic x-ray imaging during treatment delivery.
+                     Medical Physics, 38(7), 4205 4214. https://doi.org/10.1118/1.3598435
+
+                 20. Shieh, C.-C., Caillet, V., Dunbar, M., Keall, P. J., Booth, J. T., Hardcastle,
+                     N., … Feain, I. (2017). A Bayesian approach for three-dimensional markerless
+                     tumor tracking using kV imaging during lung radiotherapy. Physics in Medicine
+                     and Biology, 62(8), 3065 3080. https://doi.org/10.1088/1361-6560/aa6393
+
+                 21. Chung, H., Poulsen, P. R., Keall, P. J., Cho, S., &amp; Cho, B. (2016).
+                     Reconstruction of implanted marker trajectories from cone-beam CT projection
+                     images using interdimensional correlation modeling. Medical Physics,
+                     43(8Part1), 4643 4654. https://doi.org/10.1118/1.4958678
+
+                 22. Poulsen, P. R., Cho, B., &amp; Keall, P. J. (2008). A Method to Estimate Mean
+                     Position, Motion Magnitude, Motion Correlation, and Trajectory of a Tumor From
+                     Cone-Beam CT Projections for Image-Guided Radiotherapy. International Journal
+                     of Radiation Oncology*Biology*Physics, 72(5), 1587 1596.
+                     https://doi.org/10.1016/j.ijrobp.2008.07.037
+
+                 23. Montanaro, T., Nguyen, D. T., Keall, P. J., Booth, J., Caillet, V., Eade, T.,
+                     … Shieh, C.-C. (2018). A comparison of gantry-mounted x-ray-based real-time
+                     target tracking methods. Medical Physics, 45(3), 1222 1232.
+                     https://doi.org/10.1002/mp.12765
+
+                 24. van Herk, M., Remeijer, P., Rasch, C., &amp; Lebesque, J. V. (2000). The
+                     probability of correct target dosage: dose-population histograms for deriving
+                     treatment margins in radiotherapy. International Journal of Radiation
+                     Oncology*Biology*Physics, 47(4), 1121 1135.
+                     https://doi.org/10.1016/s0360-3016(00)00518-6
+
+                 25. Souris, K., Lee, J. A., &amp; Sterpin, E. (2016). Fast multipurpose Monte Carlo
+                     simulation for proton therapy using multi- and many-core CPU architectures.
+                     Medical Physics, 43(4), 1700 1712. https://doi.org/10.1118/1.4943377
+
+                 26. Toscano, S., Souris, K., Gomà, C., Barragán-Montero, A., Puydupin, S.,
+                     Stappen, F. V., … Sterpin, E. (2019). Impact of machine log-files
+                     uncertainties on the quality assurance of proton pencil beam scanning
+                     treatment delivery. Physics in Medicine &amp; Biology, 64(9), 095021.
+                     https://doi.org/10.1088/1361-6560/ab120c
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">July 3, 2020</start_date>
+  <completion_date type="Anticipated">September 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">September 30, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Multicentric prospective interventional or retrospective observational study depending on the sub-part considered. It is segmented into 5 sub-parts each investigating the interest of MANIV for a specific motion management technique.</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Validation of MANIV-optimized Gating strategy for breast tumors</measure>
+    <time_frame>through study completion, an average of 3 weeks</time_frame>
+    <description>mean breast gland 3D displacements during treatment delivery.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Validation of MANIV-optimized Gating strategy for lung and liver tumors</measure>
+    <time_frame>through study completion, an average of 2 weeks</time_frame>
+    <description>Proportion of tumors receiving the prescribed dose within each cohort</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Validation of MANIV-optimized Tracking strategy</measure>
+    <time_frame>through study completion, an average of 2 weeks</time_frame>
+    <description>Average time required to deliver a fraction</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>In silico evaluation of viability with treatment by protontherapy in SL mode</measure>
+    <time_frame>through study completion, an average of 2 weeks</time_frame>
+    <description>% of CTV volume receiving at least a given dose level by patient</description>
+  </primary_outcome>
+  <number_of_arms>5</number_of_arms>
+  <enrollment type="Anticipated">241</enrollment>
+  <condition>Optimization of Motion Mitigation Strategies by Mechanically-Assisted Non-Invasive Ventilation</condition>
+  <arm_group>
+    <arm_group_label>Arm N°1 - Standard treatment-Breast DIBH</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Patients will be treated during spontaneous breath hold wich is considered as the gold-standard radiotherapy treatment for left breast cancer.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm N°2 - Interventional -Breast MANIV DIBH</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Irradiation will take place during DIBH induced by MANIV (Bellavista 1000, IMTMedical®) with SL mode. Oxygen will be added (FiO2 60%) to safely and easily prolong the DIBH duration up to 40-50 seconds to allow the complete delivery of a treatment beam.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm N°3 - Interventional -Liver/Lung MANIV DIBH</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Irradiation will take place during DIBH induced by the MANIV (Bellavista 1000, IMTMedical®) with SL mode. Oxygen will be added (FiO2 60%) to safely and easily prolong the DIBH duration up to 40-50 seconds to allow the complete delivery of a treatment beam [13]. Prior to treatment, a radio-opaque fiducial will be implanted in the tumor by an interventional radiologist, to facilitate the tumor position monitoring from onboard imaging. Residual tumor baseline shift and motion will thus be measured during beam delivery, and used to recompute the optimal safety margins that ensure an adequate dose coverage of at least 90% of tumors, according to literature recommendations [24]. We will also compare these safety margins computed under MANIV condition with those routinely applied in free-breathing condition (from a matched retrospective cohort) to estimate the gain in terms of margin reduction.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm N°4 - Interventional -Liver/Lung MANIV VC</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients will be ventilated by VC mode during their treatment. For each fraction, the treatment time, the number of reconstructions of the tracking model and the correlation errors of the model will be collected. The same information will be extracted from a matched retrospective cohort treated by tracking in spontaneous breathing.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm N°5 -Liver/Lung MANIV DIBH for PT</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Data on tumor position and its residual motion from patients included in the arm n°3 will be used to compute the planned and in silico delivered dose distribution with PBS PT. The MIRO lab (UCLouvain - IREC) has developed comprehensive tools for simulating treatment delivery on patients CT images using the Monte Carlo dose engine MCsquare [25], coupled with log-file acquisitions [26]. In this way, we will be able to validate our approach in silico in collaboration with IBA, as a first step before conducting prospective trials for the clinical validation of this approach.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>MANIV</intervention_name>
+    <description>mechanical ventilator (Bellavista 1000, IMTmedical) will be used on Varian® Halcyon LINAC and Infinity Elekta® linac</description>
+    <arm_group_label>Arm N°2 - Interventional -Breast MANIV DIBH</arm_group_label>
+    <arm_group_label>Arm N°3 - Interventional -Liver/Lung MANIV DIBH</arm_group_label>
+    <arm_group_label>Arm N°4 - Interventional -Liver/Lung MANIV VC</arm_group_label>
+    <arm_group_label>Arm N°5 -Liver/Lung MANIV DIBH for PT</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Spontaneous DIBH</intervention_name>
+    <description>performed on Varian® Halcyon LINAC and Infinity Elekta® linac</description>
+    <arm_group_label>Arm N°1 - Standard treatment-Breast DIBH</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        -  Inclusion Criteria:
+
+               1. Validation of the MANIV-optimized gating strategy for breasrt tumors :
+
+                  Patients with left breast tumors eligible for radiation therapy with breath hold
+                  technique.
+
+               2. Validation of the MANIV optimized Gating strategy for lung/liver tumors:
+
+                  Patients with lung (primary or secondary) or liver (primary or secondary) tumors
+                  eligible for stereotactic radiation therapy.
+
+               3. Validation of the MANIV-optimized Tracking strategy for liver tumors:
+
+                  Part 1: Patients with hepatic neoplasia (primary or secondary) eligible for
+                  stereotactic radiation therapy on the Cyberknife® of the Oscar Lambret center in
+                  Lille (France)..
+
+                  Part 2: Patients with hepatic neoplasia (primary or secondary) treated by
+                  respiratory tracking on the Cyberknife® of the Oscar Lambret center in Lille
+                  (France).
+
+             4 - Evaluation of a proton therapy treatment delivered in silico to mobile tumors with
+             MANIV in DIBH mode : Patients included in the study on the optimization of the Gating
+             strategy.
+
+          -  Exclusion Criteria:
+
+               -  history of spontaneous pneumothorax
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Geneviève Van Ooteghem, MD,PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Cliniques Universitaires Saint-Luc, Brussels, Belgium</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>David Pasquier, MD,PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Centre Oscar Lambret, Lille, France</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Xavier Geets, MD,PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Cliniques Universitaires Saint-Luc, Brussels, Belgium</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Loïc Vander Veken, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Cliniques Universitaires Saint-Luc,Brussels, Belgium</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Xavier Geets, MD,PhD</last_name>
+    <phone>+32 2 7644719</phone>
+    <email>xavier.geets@uclouvain.be</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Loïc Vander Veken, MD</last_name>
+    <phone>+32 2 7645468</phone>
+    <email>loic.vanderveken@uclouvain.be</email>
+  </overall_contact_backup>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>June 25, 2020</study_first_submitted>
+  <study_first_submitted_qc>June 29, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 7, 2020</study_first_posted>
+  <last_update_submitted>June 29, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 29, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 7, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Respiratory Aspiration</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

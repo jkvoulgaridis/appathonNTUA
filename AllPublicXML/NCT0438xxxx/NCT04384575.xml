@@ -1,0 +1,159 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04384575</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PX2020047</org_study_id>
+    <nct_id>NCT04384575</nct_id>
+  </id_info>
+  <brief_title>Study on the Effectiveness of Gastroscope Operation Quality Control Based on Artificial Intelligence Technology</brief_title>
+  <official_title>Study on the Effectiveness of Gastroscope Operation Quality Control Based on Artificial Intelligence Technology</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Peking University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Peking University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study aims to construct a real-time quality monitoring system based on artificial
+      intelligence technology.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Gastroscopy plays an important role in the detection and diagnosis of upper gastrointestinal
+      diseases. It is necessary for endoscopists to operate gastroscope according to the
+      standardized process, in order to avoid missing early lesions. However, with the rapid
+      increase in the number of endoscopies, the workload of endoscopists increases further. High
+      workload reduces the quality of endoscopy, resulting in incomplete observation of anatomical
+      parts that are easy to be missed in the process of gastroscopy. There are significant
+      differences in the operation level of different endoscopists. Therefore, carrying out
+      artificial intelligence methods has good academic research and practical value for improving
+      the quality of endoscopic diagnosis and treatment.
+
+      Artificial intelligence devices need to use a large number of endoscopic images, based on
+      this, we intends to collect endoscopic image data from our hospitals for training and
+      validation of the model.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">February 22, 2020</start_date>
+  <completion_date type="Anticipated">July 2020</completion_date>
+  <primary_completion_date type="Anticipated">June 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy</measure>
+    <time_frame>2020.2.22-2020.7.1</time_frame>
+    <description>Calculate the accuracy of AI's judgment on images</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Sensitivity</measure>
+    <time_frame>2020.2.22-2020.7.1</time_frame>
+    <description>number of images in which AI correctly diagnosed positive/all images with positive</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Specificity</measure>
+    <time_frame>2020.2.22-2020.7.1</time_frame>
+    <description>number of images in which AI correctly diagnosed negative/all images negative</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">700</enrollment>
+  <condition>Gastric Cancer</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients who meet the criteria for gastroscopy examination.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Patiens aged 18 years or above undergoing gastroscopy；
+
+          2. Be able to read, understand and sign informed consent；
+
+        Exclusion Criteria:
+
+          1. Patients with absolute contraindications to endoscopy examination;
+
+          2. pregnant women;
+
+          3. previous history of gastric surgery;
+
+          4. the researcher considers that the subject is not suitable for clinical trial.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Qi Wu, MD.</last_name>
+    <role>Study Chair</role>
+    <affiliation>Beijing Cancer Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Peng Yuan, MD.</last_name>
+    <phone>+86 010-88196403</phone>
+    <email>peng8264503@126.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Beijing Cancer Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <state>Haidian</state>
+        <zip>100142</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Pemg Yuan, MD.</last_name>
+      <phone>+86 010-88196403</phone>
+      <email>peng8264503@126.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>May 2020</verification_date>
+  <study_first_submitted>May 8, 2020</study_first_submitted>
+  <study_first_submitted_qc>May 8, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 12, 2020</study_first_posted>
+  <last_update_submitted>May 8, 2020</last_update_submitted>
+  <last_update_submitted_qc>May 8, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 12, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Peking University</investigator_affiliation>
+    <investigator_full_name>Peng Yuan</investigator_full_name>
+    <investigator_title>MD,PHD</investigator_title>
+  </responsible_party>
+  <keyword>gastric cancer</keyword>
+  <keyword>artificial intelligence</keyword>
+  <keyword>endoscopy</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stomach Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

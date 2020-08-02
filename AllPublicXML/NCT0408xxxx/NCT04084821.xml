@@ -1,0 +1,291 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04084821</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Delirium-Retrospective Cohort</org_study_id>
+    <nct_id>NCT04084821</nct_id>
+  </id_info>
+  <brief_title>Estimation of Delirium Data Completeness</brief_title>
+  <official_title>Estimation of Delirium Data Completeness and Analysis of Underlying Systems Factors in a Retrospective Cohort</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Efficacy Care R&amp;D Ltd</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Hadassah Medical Organization</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Efficacy Care R&amp;D Ltd</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Currently physicians and nurses rely on their own clinical skills and experience to diagnose
+      and record 'delirium' in the Electronic Health Records (EHR). This study aims to determine
+      how delirium as a diagnosis is documented by clinicians in the EHR at Hadassah Hospital. The
+      knowledge gained from this study will support the design of a better surveillance approach to
+      monitoring delirium events in postoperative patients using electronic healthcare recorded
+      data.
+
+      There is considerable uncertainty surrounding the quality of 'delirium' records in the
+      Electronic Health Records (EHR). The reliability of this chart estimation has become
+      questionable in the absence of an objective definition of 'delirium' and a lack of highly
+      accurate diagnostic tools in the hospital setting.
+
+      Given the difficulty of accurately identifying delirium and the deficiency in the quality of
+      EHR documentation, it is not surprising that delirium is grossly underestimated,
+      undertreated, not properly recorded in the EHR or misreported. Data concordance plays a major
+      role in documentation quality, especially for data-mining and knowledge extraction analysis,
+      and therefore it is essential to address the reliability of 'delirium' labeled data within
+      the EHR system.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Clinical Background::
+
+      Postoperative encephalopathy known as &quot;delirium&quot; is a deleterious, potentially risky, and
+      often preventable complication representing a serious &quot;brain failure&quot; condition, commonly
+      seen in the intensive care unit (ICU) setting.
+
+      The etiology of postoperative delirium (POD) is likely to be a consequence of the
+      physiological and biochemical derangement induced by the underlying surgical pathology,
+      surgical trauma, pain, analgesia, and anesthesia. Common pathophysiological factors,
+      processes, and conditions leading to delirium are multifactorial and could involve
+      neurotransmitters, inflammatory processes, drugs, and oxygenation impairment. Multifactorial
+      perioperative factors, such as anesthesia and adjuvant drugs, also play important roles in
+      contributing to postoperative delirium. Perioperative care is, therefore, a potential focus
+      for investigation of data-driven evidence to understand the POD prior to developing effective
+      intervention tool.
+
+      Delirium Burden::
+
+      Delirium creates distinct emotional distress in patients, family and caregivers.
+
+      The burden of illness due to delirium is significant, with a higher incidence of
+      postoperative complications, prolonged length of ICU and hospital stay, resulting in 30-day
+      mortality and unplanned readmission when compared to patients without delirium. The long-term
+      prospects of delirious patients show poor quality of life ('QoL') indicators related to
+      functional decline, new institutionalization, persistent cognitive impairments and higher
+      mortality, with persistent cognitive impairments in 12% of previously &quot;cognitively well&quot;
+      patients, and an even higher percentage in elderly, obese, and previously admitted patients.
+      The postoperative delirium is associated with longer-term cognitive decline and potentially
+      'portends descent to dementia' .
+
+      The mortality rate associated with delirium is approximately 40% , as high as acute
+      myocardial infarction. The total cost estimates attributable to delirium ranged from $16,303
+      to $64,421 per patient, implying that the national burden of delirium on the health care
+      system ranges from $38 billion to $152 billion each year in US. This cost is highly
+      comparable to the substantial costs of falls and diabetes, which emphasizes the need to
+      address this costly disorder with increased timeliness and urgency.
+
+      Standard of Care::
+
+      Efforts to detect delirium have relied upon two major methods , both of which fall short of
+      the practical needs of a modern hospital environment. Screening instruments, largely based
+      upon chart review, well-investigated risk factors and patient interview, have been
+      unsuccessful due to the challenges of implementing these into clinical workflows and
+      providing ongoing training for healthcare providers to use such instruments. In addition,
+      they exhibit poor sensitivity in routine use. While the early detection of delirium provides
+      clear and significant advantages in effective treatment, the screening tools available for
+      the disorder are not efficient or effective enough to do so. Delirium is often
+      underrecognized and misdiagnosed, exemplified in a 2014 study that found that the successful
+      detection of the disorder by staff was only at 23%, even after extensive multimodal education
+      about the disorder and how best to detect it.
+
+      Despite its importance for patient safety and public health, delirium is often unrecognized
+      by clinicians, therefore the effective strategies of intervention remain elusive. Moreover,
+      the presentation of delirium is heterogeneous and multifaceted, and measurement of delirium
+      and its severity pose unique challenges.
+
+      Unmet Need::
+
+      The need exists for an objective, affordable and reliable modern assessment with the ability
+      of early recognition, improved screening, and continuous monitoring of postoperative
+      encephalopathy. The potential impact of such a tool has been recognized as highly important
+      for the establishment of evidence-based data for better tracking prognosis, monitoring
+      response to treatment and estimating the burden of care both during and after
+      hospitalization. Nurses themselves recognize this unmet need. Many have argued that the
+      current screening tests are too subjective and rely on each tester's interpretation.
+
+      Concept Creation::
+
+      The era of &quot;Medical Big Data&quot; and next-generation health analytics is well upon us.
+      Conceptually, &quot;Big Data&quot; may include data-driven clinical features considered to be hidden,
+      uncertain, unrecoverable and unmanageable for human interpretation without the help of
+      computerized data processing and advance data-driven algorithms. As delirium in post-surgical
+      patients is often hard to recognize and remains a largely untreated condition, it is
+      hypothesized that an exploratory analysis of historical medical records by using an advanced
+      algorithm could reveal novel and improved knowledge about the nature of delirium. However,
+      the quality, computability, reliability, accuracy and completeness of the data are
+      questionable.
+
+      Therefore this study aims to perform a retrospective exploratory analysis of historical
+      records locked in one or more clinical databases (i.e. Metavision, EHR, AIMS, etc.), and/or
+      in one or more hospital settings.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">October 2019</start_date>
+  <completion_date type="Anticipated">November 2020</completion_date>
+  <primary_completion_date type="Anticipated">November 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Postoperative Delirium</measure>
+    <time_frame>12 months</time_frame>
+    <description>The primary outcomes measured in this study are the number of cases determining the presence, absence, or likelihood of subsequent development of postoperative delirium.
+(ICD-9-CM Codes Considered Evidence of Delirium: 290.3 Senile dementia with delirium; or 291 Alcohol-induced mental disorders; or 291.0 Alcohol withdrawal delirium; or 292 Drug-induced mental disorders; or 292.81 Drug-induced delirium; or 293 Transient mental disorders due to conditions classified elsewhere; or 293.1 Subacute delirium; or 780.09 Other alteration of consciousness )</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Severity of delirium</measure>
+    <time_frame>30 days</time_frame>
+    <description>CAM-S Score::
+Delirium severity measure based on the Confusion Assessment Method (CAM-S). The severity score is created by an additive summary of the ratings ranging from 0-19 (long form). Higher scores indicate more severe delirium.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Severity of delirium</measure>
+    <time_frame>30 days</time_frame>
+    <description>DRS-R98 Score::
+The Delirium Rating Scale (DRS) is a widely used delirium rating instrument that specifically, sensitively, and reliably measures delirium symptoms as rated by a psychiatrist or trained clinician.
+Severity items are rated on a scale of 0-3 and diagnostic items are rated on a scale of 0-2 or 0-3. The maximum possible score for severity items is 39, while the maximum total score is 46. Higher scores indicate more severe delirium; score of 0 indicates no delirium.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ICU LOS</measure>
+    <time_frame>30 days</time_frame>
+    <description>days of Unplanned ICU hospitalization</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>In-patient mortality</measure>
+    <time_frame>12 months</time_frame>
+    <description>In-patient mortality</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ICER</measure>
+    <time_frame>12 months</time_frame>
+    <description>The incremental cost-effectiveness ratio (ICER)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Readmission</measure>
+    <time_frame>30 days</time_frame>
+    <description>30-day readmission</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>in hospital mortality</measure>
+    <time_frame>30 days</time_frame>
+    <description>30-day hospital mortality</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Direct Costs of Hospitalisation</measure>
+    <time_frame>30 days</time_frame>
+    <description>Total Hospitalization costs, including procedural complication costs, and/or any costs of pre-discharge treatment, drug, procedure-related complications and re-interventions;</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>LOS</measure>
+    <time_frame>30 days</time_frame>
+    <description>days of none-ICU hospitalization</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">50000</enrollment>
+  <condition>Delirium</condition>
+  <condition>Delirium Drug-Induced</condition>
+  <condition>Delirium Confusional State</condition>
+  <condition>Delirium, Cause Unknown</condition>
+  <condition>Delirium of Mixed Origin</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>none - observation only</intervention_name>
+    <description>Observational retrospective cohort to describe data validity; and Data reliability; and Completeness of the data</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Sample Size: 50,000 Gender: M - 25,000; F - 25000 approx. Age: 18 and older General Health
+        Status: All postoperative patients undergoing unplanned admission to an intensive care unit
+        (ICU).
+
+        Total Number of Subjects Projected: It is expected that approximately 75,000 subjects will
+        be enrolled (identified for further review) to produce 50,000 evaluable subjects.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. All postoperative patients aged 18 years and older; and
+
+          2. Undergoing unplanned admission to an intensive care unit (ICU); or
+
+          3. Major complications associated with either operating room procedure or anesthesia.
+             Example: Cardiac or circulatory event and/or Cardiac arrest during or within 24 hours
+             of operation or administration of anesthesia; or Acute myocardial infarction (AMI)
+             during or within 48 hours of operation or administration of anesthesia; or
+
+          4. Postoperative Central Nervous System (CNS) event (e.g., CVA, seizures, coma) during or
+             within 48 hours of operation or administration of anesthesia; AND
+
+          5. Respiratory failure not present prior to the 25th hour of hospitalization or not
+             present before surgery;
+
+        Exclusion Criteria:
+
+          1. Delirium present on admission; or
+
+          2. any psychotic or degenerative related diagnosis on admission (e.g. Senile and
+             presentile dementias such as Alzheimer's or Pick's dementia, Creutzfeldt-Jakob
+             disease, Huntington's chorea, Wilson's disease).
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Haddasah Medical Center</name>
+      <address>
+        <city>Jerusalem</city>
+        <state>IL</state>
+        <country>Israel</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Israel</country>
+  </location_countries>
+  <verification_date>September 2019</verification_date>
+  <study_first_submitted>September 5, 2019</study_first_submitted>
+  <study_first_submitted_qc>September 7, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 10, 2019</study_first_posted>
+  <last_update_submitted>September 7, 2019</last_update_submitted>
+  <last_update_submitted_qc>September 7, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 10, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Delirium</mesh_term>
+    <mesh_term>Confusion</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

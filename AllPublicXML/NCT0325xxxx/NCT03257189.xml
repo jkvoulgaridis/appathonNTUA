@@ -1,0 +1,987 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03257189</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MC10-PTL-103</org_study_id>
+    <nct_id>NCT03257189</nct_id>
+  </id_info>
+  <brief_title>Evaluation of Performance, Usability, and Reliability of a Novel Device for Continuous Collection of Physiological Data</brief_title>
+  <official_title>A Study to Evaluate the Performance, Usability, and Reliability of a Novel Device for Continuous Collection of Physiological Data in Healthcare and Remote Settings</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>MC10 Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>MC10 Inc.</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Study objective: The primary objective of the clinical investigation is to evaluate the
+      accuracy of BioStamp nPoint system algorithm measurements.
+
+      Study design: A single-site, non-significant risk, open-label, prospective non-randomized
+      clinical investigation designed to validate the accuracy of the various physiological
+      parameters that the Wearable Sensor Patches acquire and the system processes.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 31, 2017</start_date>
+  <completion_date type="Actual">August 30, 2017</completion_date>
+  <primary_completion_date type="Actual">August 25, 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy of Heart Rate Measured in Beats Per Minute Compared to Reference Device</measure>
+    <time_frame>2 days after informed consent</time_frame>
+    <description>Heart rate as measured by the subject device in beats per minute will be compared to the reference device. The Mean Absolute Error (MAE) between measurements from each device is presented.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy of Heart Rate Variability Measured by Root Mean Square of Successive Differences (HRV RMSSD) Compared to the Reference Device</measure>
+    <time_frame>2 days after informed consent</time_frame>
+    <description>Heart Rate Variability RMSSD is measured by the subject device determined by root mean square of successive differences in neighboring RR intervals and will be compared to the reference device. The Mean Absolute Error (MAE) between measurements from each device is presented.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy of Heart Rate Variability Measured by Low Frequency Content to High Frequency Content Ratio (HRV Ratio) Compared to the Reference Device</measure>
+    <time_frame>2 days after informed consent</time_frame>
+    <description>HRV Ratio as measured by the subject device determined by low frequency content to high frequency content ratio (HRV Ratio) in beats per minute will be compared to the reference device. The Mean Absolute Error (MAE) between measurements from each device is presented.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy of Respiration Rate Measured in Breaths Per Minute Compared to the Reference Device</measure>
+    <time_frame>2 days after informed consent</time_frame>
+    <description>Respiration rate as measured by the subject device in breaths per minute will be compared to the reference device. The Mean Absolute Error (MAE) between measurements from each device is presented.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy of Activity Classification as Compared to Visual Annotation</measure>
+    <time_frame>2 days after informed consent</time_frame>
+    <description>The device under test will classify a subjects activity into sleeping, standing, sitting, lying, walking and other activities as the subject performs various predefined activities, which are annotated by an observer. The device's Activity Classification will be compared to the observer's annotation. The percentage of correct classifications by the device against indicated visual observation is presented. The percent correct is not a per subject average, but is the percentage of all activity classifications which were correct when compared to ground truth observation.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy of Step Count Compared to an Observer's Manual Count</measure>
+    <time_frame>2 days after informed consent</time_frame>
+    <description>The number of steps reported by the device under test during a 6 minute walk test will be compared to an observer's manual count of the number of steps taken.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy of Sleep Onset Time (Hours, Minutes, and Seconds), Sleep Wake Time (Hours, Minutes, and Seconds) as Compared to an Observer's Visual Annotation</measure>
+    <time_frame>2 days after informed consent</time_frame>
+    <description>Sleep onset and wake times as reported by the device under test will be compared to an observer's visual annotation of the sleep onset and wake times. The Mean Absolute Error (MAE) between times as indicated by the device and observed times is presented.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy of Posture Classification as Compared to Visual Annotation</measure>
+    <time_frame>2 days after informed consent</time_frame>
+    <description>The device under test will classify a subjects activity into sleep posture, standing posture, and sitting posture as the subject performs various predefined activities, which are annotated by an observer. The device's Posture Classification will be compared to the observer's annotation. The percentage of correct classifications by the device against indicated visual observation is presented. The percent correct is not a per subject average, but is the percentage of all posture classifications which were correct when compared to ground truth observation.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Sensors That Remained Sufficiently Adhered to Subjects for 24 Hours as Assessed by a 5 Point Scale</measure>
+    <time_frame>2 days after informed consent</time_frame>
+    <description>The level of sensor adhesion will be assessed by a 5 point scale (0- sensor is greater than or equal to 90% of sensor adhered, 4-sensor completely detached from subject). Sensors receiving scores of 0 and 1 will be determined to have acceptable adhesion, while scores of 2, 3, and 4 will be considered unacceptable adhesion. The percentage of sensors which had acceptable adhesion at sensor removal is presented.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">30</enrollment>
+  <condition>Healthy Normals</condition>
+  <arm_group>
+    <arm_group_label>Single Arm</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>This single arm consists of all subjects which will interact with the device under investigation as well as comparator devices.
+This includes the Physiological signal monitor intervention, Heart rate and heart rate variability comparison device intervention, Respiration rate comparison device intervention, and Activity classification intervention.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Physiological signal monitor</intervention_name>
+    <description>Wireless remote monitoring system intended for use by researchers and healthcare professionals for continuous collection of physiological data in home and healthcare settings.</description>
+    <arm_group_label>Single Arm</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Heart rate and heart rate variability comparison device</intervention_name>
+    <description>FDA cleared reference device that monitors heart rate and heart rate variability in subjects</description>
+    <arm_group_label>Single Arm</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Respiration rate comparison device</intervention_name>
+    <description>FDA cleared reference device that monitors respiration rate in subjects</description>
+    <arm_group_label>Single Arm</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Activity classification</intervention_name>
+    <description>Visual annotation of subject posture and other activities used for reference</description>
+    <arm_group_label>Single Arm</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Male or female volunteers, at least 18 years of age at the time of screening visit;
+
+          2. Fluent in English;
+
+          3. The subject is willing to comply with the protocol specified evaluations;
+
+          4. Subject is willing and cognitively able to sign informed consent
+
+        Exclusion Criteria:
+
+          1. Pregnancy;
+
+          2. Positive urine drug screen
+
+          3. History of active (clinically significant) skin disorders;
+
+          4. History of allergic response to silicones or adhesives;
+
+          5. Subjects with electronic implants of any kind (e.g. pacemaker)
+
+          6. History of sleep disorders or self-reported insomnia or other sleep conditions;
+
+          7. Broken, damaged or irritated skin or rashes near the sensor application sites;
+
+          8. Subjects that are MC10 employees or shareholders, or a spouse or child of an MC10
+             employee or shareholder;
+
+          9. Subjects who are physically or cognitively unable to normally perform activities of
+             daily living, assessed at the discretion of the investigator.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>99 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>CTI Clinical Research Center</name>
+      <address>
+        <city>Cincinnati</city>
+        <state>Ohio</state>
+        <zip>45212</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2019</verification_date>
+  <study_first_submitted>August 16, 2017</study_first_submitted>
+  <study_first_submitted_qc>August 17, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 22, 2017</study_first_posted>
+  <results_first_submitted>December 4, 2018</results_first_submitted>
+  <results_first_submitted_qc>January 22, 2019</results_first_submitted_qc>
+  <results_first_posted type="Actual">January 25, 2019</results_first_posted>
+  <last_update_submitted>January 22, 2019</last_update_submitted>
+  <last_update_submitted_qc>January 22, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 25, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>June 21, 2017</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/89/NCT03257189/Prot_000.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Statistical Analysis Plan</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>September 14, 2017</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/89/NCT03257189/SAP_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>Participants were recruited via an established database at the clinical site, with the use of IRB approved flyers and posting on the clinical site website. The completely voluntary nature of participation in the study was emphasized.
+Subject recruitment and screening began July 17, 2017 and completed July 21, 2017.</recruitment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Device Monitoring</title>
+          <description>This single arm consists of all subjects which will interact with the device under investigation as well as comparator devices.
+This includes the Physiological signal monitor intervention, Heart rate and heart rate variability comparison device intervention, Respiration rate comparison device intervention, and Activity classification intervention.
+Physiological signal monitor: Wireless remote monitoring system intended for use by researchers and healthcare professionals for continuous collection of physiological data in home and healthcare settings.
+Heart rate and heart rate variability comparison device: FDA cleared reference device that monitors heart rate and heart rate variability in subjects
+Respiration rate comparison device: FDA cleared reference device that monitors respiration rate in subjects
+Activity classification: Visual annotation of subject posture and other activities used for reference</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="30"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="30"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Device Monitoring</title>
+          <description>This single arm consists of all subjects which will interact with the device under investigation as well as comparator devices.
+This includes the Physiological signal monitor intervention, Heart rate and heart rate variability comparison device intervention, Respiration rate comparison device intervention, and Activity classification intervention.
+Physiological signal monitor: Wireless remote monitoring system intended for use by researchers and healthcare professionals for continuous collection of physiological data in home and healthcare settings.
+Heart rate and heart rate variability comparison device: FDA cleared reference device that monitors heart rate and heart rate variability in subjects
+Respiration rate comparison device: FDA cleared reference device that monitors respiration rate in subjects
+Activity classification: Visual annotation of subject posture and other activities used for reference</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="30"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="30"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="35.9" spread="10.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <description>Subject sex documented at first visit to the clinic.</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="30"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="23"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race and Ethnicity Not Collected</title>
+          <population>Race and Ethnicity were not collected from any participant.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="0"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="30"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="30"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Height (cm)</title>
+          <description>Subject height measured and documented at first visit to the clinic.</description>
+          <units>centimeters</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="30"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="172.17" spread="8.61"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Weight (kg)</title>
+          <description>Subject weight measured and documented at first visit to the clinic.</description>
+          <units>kilograms</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="30"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="83.33" spread="11.63"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>BMI</title>
+          <description>Subject BMI calculated from subject height and weight.</description>
+          <units>kg/m^2</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="30"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="28.12" spread="3.57"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Accuracy of Heart Rate Measured in Beats Per Minute Compared to Reference Device</title>
+        <description>Heart rate as measured by the subject device in beats per minute will be compared to the reference device. The Mean Absolute Error (MAE) between measurements from each device is presented.</description>
+        <time_frame>2 days after informed consent</time_frame>
+        <population>Once comparator device malfunctioned resulting in a complete loss of Heart Rate data for one subject. All other subjects were analyzed, with n = 24 HR data pairs sampled at random (n = 8 samples each from sleeping, resting, and moving activities) per subject when available.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Device Monitoring</title>
+            <description>This single arm consists of all subjects which will interact with the device under investigation as well as comparator devices.
+This includes the Physiological signal monitor intervention, Heart rate and heart rate variability comparison device intervention, Respiration rate comparison device intervention, and Activity classification intervention.
+Physiological signal monitor: Wireless remote monitoring system intended for use by researchers and healthcare professionals for continuous collection of physiological data in home and healthcare settings.
+Heart rate and heart rate variability comparison device: FDA cleared reference device that monitors heart rate and heart rate variability in subjects
+Respiration rate comparison device: FDA cleared reference device that monitors respiration rate in subjects
+Activity classification: Visual annotation of subject posture and other activities used for reference</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Accuracy of Heart Rate Measured in Beats Per Minute Compared to Reference Device</title>
+          <description>Heart rate as measured by the subject device in beats per minute will be compared to the reference device. The Mean Absolute Error (MAE) between measurements from each device is presented.</description>
+          <population>Once comparator device malfunctioned resulting in a complete loss of Heart Rate data for one subject. All other subjects were analyzed, with n = 24 HR data pairs sampled at random (n = 8 samples each from sleeping, resting, and moving activities) per subject when available.</population>
+          <units>beats per minute</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="29"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.0" spread="5.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Accuracy of Heart Rate Variability Measured by Root Mean Square of Successive Differences (HRV RMSSD) Compared to the Reference Device</title>
+        <description>Heart Rate Variability RMSSD is measured by the subject device determined by root mean square of successive differences in neighboring RR intervals and will be compared to the reference device. The Mean Absolute Error (MAE) between measurements from each device is presented.</description>
+        <time_frame>2 days after informed consent</time_frame>
+        <population>One comparator device malfunctioned, resulting in a complete loss of data for one subject. All other subjects were analyzed, with n = 24 HRV RMSSD data pairs sampled at random (n = 8 samples each from sleeping, resting, and moving activities) per subject when available.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Device Monitoring</title>
+            <description>This single arm consists of all subjects which will interact with the device under investigation as well as comparator devices.
+This includes the Physiological signal monitor intervention, Heart rate and heart rate variability comparison device intervention, Respiration rate comparison device intervention, and Activity classification intervention.
+Physiological signal monitor: Wireless remote monitoring system intended for use by researchers and healthcare professionals for continuous collection of physiological data in home and healthcare settings.
+Heart rate and heart rate variability comparison device: FDA cleared reference device that monitors heart rate and heart rate variability in subjects
+Respiration rate comparison device: FDA cleared reference device that monitors respiration rate in subjects
+Activity classification: Visual annotation of subject posture and other activities used for reference</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Accuracy of Heart Rate Variability Measured by Root Mean Square of Successive Differences (HRV RMSSD) Compared to the Reference Device</title>
+          <description>Heart Rate Variability RMSSD is measured by the subject device determined by root mean square of successive differences in neighboring RR intervals and will be compared to the reference device. The Mean Absolute Error (MAE) between measurements from each device is presented.</description>
+          <population>One comparator device malfunctioned, resulting in a complete loss of data for one subject. All other subjects were analyzed, with n = 24 HRV RMSSD data pairs sampled at random (n = 8 samples each from sleeping, resting, and moving activities) per subject when available.</population>
+          <units>milliseconds</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="29"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5.1" spread="24.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Accuracy of Heart Rate Variability Measured by Low Frequency Content to High Frequency Content Ratio (HRV Ratio) Compared to the Reference Device</title>
+        <description>HRV Ratio as measured by the subject device determined by low frequency content to high frequency content ratio (HRV Ratio) in beats per minute will be compared to the reference device. The Mean Absolute Error (MAE) between measurements from each device is presented.</description>
+        <time_frame>2 days after informed consent</time_frame>
+        <population>One comparator device malfunctioned, resulting in a complete loss of data for one subject. All other subjects were analyzed, with n = 24 HRV Ratio data pairs sampled at random (n = 8 samples each from sleeping, resting, and moving activities) per subject when available.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Device Monitoring</title>
+            <description>This single arm consists of all subjects which will interact with the device under investigation as well as comparator devices.
+This includes the Physiological signal monitor intervention, Heart rate and heart rate variability comparison device intervention, Respiration rate comparison device intervention, and Activity classification intervention.
+Physiological signal monitor: Wireless remote monitoring system intended for use by researchers and healthcare professionals for continuous collection of physiological data in home and healthcare settings.
+Heart rate and heart rate variability comparison device: FDA cleared reference device that monitors heart rate and heart rate variability in subjects
+Respiration rate comparison device: FDA cleared reference device that monitors respiration rate in subjects
+Activity classification: Visual annotation of subject posture and other activities used for reference</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Accuracy of Heart Rate Variability Measured by Low Frequency Content to High Frequency Content Ratio (HRV Ratio) Compared to the Reference Device</title>
+          <description>HRV Ratio as measured by the subject device determined by low frequency content to high frequency content ratio (HRV Ratio) in beats per minute will be compared to the reference device. The Mean Absolute Error (MAE) between measurements from each device is presented.</description>
+          <population>One comparator device malfunctioned, resulting in a complete loss of data for one subject. All other subjects were analyzed, with n = 24 HRV Ratio data pairs sampled at random (n = 8 samples each from sleeping, resting, and moving activities) per subject when available.</population>
+          <units>unitless</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="29"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.1" spread="1.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Accuracy of Respiration Rate Measured in Breaths Per Minute Compared to the Reference Device</title>
+        <description>Respiration rate as measured by the subject device in breaths per minute will be compared to the reference device. The Mean Absolute Error (MAE) between measurements from each device is presented.</description>
+        <time_frame>2 days after informed consent</time_frame>
+        <population>All subjects were analyzed, with n = 8 total respiration rate data pairs sampled at random across the two nights of sleep per subject.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Device Monitoring</title>
+            <description>This single arm consists of all subjects which will interact with the device under investigation as well as comparator devices.
+This includes the Physiological signal monitor intervention, Heart rate and heart rate variability comparison device intervention, Respiration rate comparison device intervention, and Activity classification intervention.
+Physiological signal monitor: Wireless remote monitoring system intended for use by researchers and healthcare professionals for continuous collection of physiological data in home and healthcare settings.
+Heart rate and heart rate variability comparison device: FDA cleared reference device that monitors heart rate and heart rate variability in subjects
+Respiration rate comparison device: FDA cleared reference device that monitors respiration rate in subjects
+Activity classification: Visual annotation of subject posture and other activities used for reference</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Accuracy of Respiration Rate Measured in Breaths Per Minute Compared to the Reference Device</title>
+          <description>Respiration rate as measured by the subject device in breaths per minute will be compared to the reference device. The Mean Absolute Error (MAE) between measurements from each device is presented.</description>
+          <population>All subjects were analyzed, with n = 8 total respiration rate data pairs sampled at random across the two nights of sleep per subject.</population>
+          <units>breaths per minute</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="30"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.3" spread="2.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Accuracy of Activity Classification as Compared to Visual Annotation</title>
+        <description>The device under test will classify a subjects activity into sleeping, standing, sitting, lying, walking and other activities as the subject performs various predefined activities, which are annotated by an observer. The device's Activity Classification will be compared to the observer's annotation. The percentage of correct classifications by the device against indicated visual observation is presented. The percent correct is not a per subject average, but is the percentage of all activity classifications which were correct when compared to ground truth observation.</description>
+        <time_frame>2 days after informed consent</time_frame>
+        <population>All subjects were analyzed, with classifications compared against n = 5 clinician observed one minute long activities (lying, sitting, standing, walking, and stationary biking for &quot;other&quot; classification) per subject. For analysis of sleep classification accuracy, n = 5 one minute long samples were sampled across both nights of sleep per subject.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Device Monitoring</title>
+            <description>This single arm consists of all subjects which will interact with the device under investigation as well as comparator devices.
+This includes the Physiological signal monitor intervention, Heart rate and heart rate variability comparison device intervention, Respiration rate comparison device intervention, and Activity classification intervention.
+Physiological signal monitor: Wireless remote monitoring system intended for use by researchers and healthcare professionals for continuous collection of physiological data in home and healthcare settings.
+Heart rate and heart rate variability comparison device: FDA cleared reference device that monitors heart rate and heart rate variability in subjects
+Respiration rate comparison device: FDA cleared reference device that monitors respiration rate in subjects
+Activity classification: Visual annotation of subject posture and other activities used for reference</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Accuracy of Activity Classification as Compared to Visual Annotation</title>
+          <description>The device under test will classify a subjects activity into sleeping, standing, sitting, lying, walking and other activities as the subject performs various predefined activities, which are annotated by an observer. The device's Activity Classification will be compared to the observer's annotation. The percentage of correct classifications by the device against indicated visual observation is presented. The percent correct is not a per subject average, but is the percentage of all activity classifications which were correct when compared to ground truth observation.</description>
+          <population>All subjects were analyzed, with classifications compared against n = 5 clinician observed one minute long activities (lying, sitting, standing, walking, and stationary biking for &quot;other&quot; classification) per subject. For analysis of sleep classification accuracy, n = 5 one minute long samples were sampled across both nights of sleep per subject.</population>
+          <units>percent correct</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="30"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="98.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Accuracy of Step Count Compared to an Observer's Manual Count</title>
+        <description>The number of steps reported by the device under test during a 6 minute walk test will be compared to an observer's manual count of the number of steps taken.</description>
+        <time_frame>2 days after informed consent</time_frame>
+        <population>All subjects performed n=5 six minute walk tests on a treadmill. Instances in which the system classified the subject as &quot;walking&quot; for at least 95% of the activity were analyzed. The study device step count was compared to the manually observed step count, with the percent error of each test calculated. These errors were averaged and are presented.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Device Monitoring</title>
+            <description>This single arm consists of all subjects which will interact with the device under investigation as well as comparator devices.
+This includes the Physiological signal monitor intervention, Heart rate and heart rate variability comparison device intervention, Respiration rate comparison device intervention, and Activity classification intervention.
+Physiological signal monitor: Wireless remote monitoring system intended for use by researchers and healthcare professionals for continuous collection of physiological data in home and healthcare settings.
+Heart rate and heart rate variability comparison device: FDA cleared reference device that monitors heart rate and heart rate variability in subjects
+Respiration rate comparison device: FDA cleared reference device that monitors respiration rate in subjects
+Activity classification: Visual annotation of subject posture and other activities used for reference</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Accuracy of Step Count Compared to an Observer's Manual Count</title>
+          <description>The number of steps reported by the device under test during a 6 minute walk test will be compared to an observer's manual count of the number of steps taken.</description>
+          <population>All subjects performed n=5 six minute walk tests on a treadmill. Instances in which the system classified the subject as &quot;walking&quot; for at least 95% of the activity were analyzed. The study device step count was compared to the manually observed step count, with the percent error of each test calculated. These errors were averaged and are presented.</population>
+          <units>percent error</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="30"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.4" spread="1.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Accuracy of Sleep Onset Time (Hours, Minutes, and Seconds), Sleep Wake Time (Hours, Minutes, and Seconds) as Compared to an Observer's Visual Annotation</title>
+        <description>Sleep onset and wake times as reported by the device under test will be compared to an observer's visual annotation of the sleep onset and wake times. The Mean Absolute Error (MAE) between times as indicated by the device and observed times is presented.</description>
+        <time_frame>2 days after informed consent</time_frame>
+        <population>All subjects were analyzed, with n = 2 sleep onset and n = 2 sleep wake times compared per subject against sleep technician observations</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Device Monitoring</title>
+            <description>This single arm consists of all subjects which will interact with the device under investigation as well as comparator devices.
+This includes the Physiological signal monitor intervention, Heart rate and heart rate variability comparison device intervention, Respiration rate comparison device intervention, and Activity classification intervention.
+Physiological signal monitor: Wireless remote monitoring system intended for use by researchers and healthcare professionals for continuous collection of physiological data in home and healthcare settings.
+Heart rate and heart rate variability comparison device: FDA cleared reference device that monitors heart rate and heart rate variability in subjects
+Respiration rate comparison device: FDA cleared reference device that monitors respiration rate in subjects
+Activity classification: Visual annotation of subject posture and other activities used for reference</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Accuracy of Sleep Onset Time (Hours, Minutes, and Seconds), Sleep Wake Time (Hours, Minutes, and Seconds) as Compared to an Observer's Visual Annotation</title>
+          <description>Sleep onset and wake times as reported by the device under test will be compared to an observer's visual annotation of the sleep onset and wake times. The Mean Absolute Error (MAE) between times as indicated by the device and observed times is presented.</description>
+          <population>All subjects were analyzed, with n = 2 sleep onset and n = 2 sleep wake times compared per subject against sleep technician observations</population>
+          <units>minutes</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="30"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Sleep Onset</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6.8" spread="8.43"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Sleep Wake</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="11.5" spread="28.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Accuracy of Posture Classification as Compared to Visual Annotation</title>
+        <description>The device under test will classify a subjects activity into sleep posture, standing posture, and sitting posture as the subject performs various predefined activities, which are annotated by an observer. The device's Posture Classification will be compared to the observer's annotation. The percentage of correct classifications by the device against indicated visual observation is presented. The percent correct is not a per subject average, but is the percentage of all posture classifications which were correct when compared to ground truth observation.</description>
+        <time_frame>2 days after informed consent</time_frame>
+        <population>All subjects were analyzed, with each subject completing n = 5 repetitions of each sleeping / lying (supine, prone, lying left, lying right) and sitting / standing (upright, leaning backward, leaning forward, leaning left, leaning right) postures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Device Monitoring</title>
+            <description>This single arm consists of all subjects which will interact with the device under investigation as well as comparator devices.
+This includes the Physiological signal monitor intervention, Heart rate and heart rate variability comparison device intervention, Respiration rate comparison device intervention, and Activity classification intervention.
+Physiological signal monitor: Wireless remote monitoring system intended for use by researchers and healthcare professionals for continuous collection of physiological data in home and healthcare settings.
+Heart rate and heart rate variability comparison device: FDA cleared reference device that monitors heart rate and heart rate variability in subjects
+Respiration rate comparison device: FDA cleared reference device that monitors respiration rate in subjects
+Activity classification: Visual annotation of subject posture and other activities used for reference</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Accuracy of Posture Classification as Compared to Visual Annotation</title>
+          <description>The device under test will classify a subjects activity into sleep posture, standing posture, and sitting posture as the subject performs various predefined activities, which are annotated by an observer. The device's Posture Classification will be compared to the observer's annotation. The percentage of correct classifications by the device against indicated visual observation is presented. The percent correct is not a per subject average, but is the percentage of all posture classifications which were correct when compared to ground truth observation.</description>
+          <population>All subjects were analyzed, with each subject completing n = 5 repetitions of each sleeping / lying (supine, prone, lying left, lying right) and sitting / standing (upright, leaning backward, leaning forward, leaning left, leaning right) postures.</population>
+          <units>percent correct</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="30"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="92.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Sensors That Remained Sufficiently Adhered to Subjects for 24 Hours as Assessed by a 5 Point Scale</title>
+        <description>The level of sensor adhesion will be assessed by a 5 point scale (0- sensor is greater than or equal to 90% of sensor adhered, 4-sensor completely detached from subject). Sensors receiving scores of 0 and 1 will be determined to have acceptable adhesion, while scores of 2, 3, and 4 will be considered unacceptable adhesion. The percentage of sensors which had acceptable adhesion at sensor removal is presented.</description>
+        <time_frame>2 days after informed consent</time_frame>
+        <population>All subjects analyzed, with 6 sensor locations per subject evaluated for adhesion to skin at device removal. Subjects wore n = 4 sensors (two sensors at chest and thigh locations required for algorithmic outputs, and one sensor at shank and one at forearm locations) on Day 1 and n = 2 sensors (chest and thigh algorithm location sensors) on Day 2.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Device Monitoring</title>
+            <description>This single arm consists of all subjects which will interact with the device under investigation as well as comparator devices.
+This includes the Physiological signal monitor intervention, Heart rate and heart rate variability comparison device intervention, Respiration rate comparison device intervention, and Activity classification intervention.
+Physiological signal monitor: Wireless remote monitoring system intended for use by researchers and healthcare professionals for continuous collection of physiological data in home and healthcare settings.
+Heart rate and heart rate variability comparison device: FDA cleared reference device that monitors heart rate and heart rate variability in subjects
+Respiration rate comparison device: FDA cleared reference device that monitors respiration rate in subjects
+Activity classification: Visual annotation of subject posture and other activities used for reference</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Sensors That Remained Sufficiently Adhered to Subjects for 24 Hours as Assessed by a 5 Point Scale</title>
+          <description>The level of sensor adhesion will be assessed by a 5 point scale (0- sensor is greater than or equal to 90% of sensor adhered, 4-sensor completely detached from subject). Sensors receiving scores of 0 and 1 will be determined to have acceptable adhesion, while scores of 2, 3, and 4 will be considered unacceptable adhesion. The percentage of sensors which had acceptable adhesion at sensor removal is presented.</description>
+          <population>All subjects analyzed, with 6 sensor locations per subject evaluated for adhesion to skin at device removal. Subjects wore n = 4 sensors (two sensors at chest and thigh locations required for algorithmic outputs, and one sensor at shank and one at forearm locations) on Day 1 and n = 2 sensors (chest and thigh algorithm location sensors) on Day 2.</population>
+          <units>percent passing</units>
+          <param>Number</param>
+          <units_analyzed>Total Sensors Evaluated for Adhesion</units_analyzed>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="30"/>
+              </count_list>
+            </analyzed>
+            <analyzed>
+              <units>Total Sensors Evaluated for Adhesion</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="180"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>All Sensors</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="83"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Sensors for Algorithm Outputs (Chest and Thigh)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="92"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Adverse event data was available for collection for 3 days after the subject left the clinic. Subjects were evaluated throughout their 3 days at the clinic and a safety follow up phone call was conducted 3 days after their last clinic visit.</time_frame>
+      <desc>All adverse events (all-cause mortality, serious, and non-serious) were collected. The study was inherently low risk, as the test device is a non-significant risk device and study population was limited to healthy volunteers.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Device Monitoring</title>
+          <description>This single arm consists of all subjects which will interact with the device under investigation as well as comparator devices.
+This includes the Physiological signal monitor intervention, Heart rate and heart rate variability comparison device intervention, Respiration rate comparison device intervention, and Activity classification intervention.
+Physiological signal monitor: Wireless remote monitoring system intended for use by researchers and healthcare professionals for continuous collection of physiological data in home and healthcare settings.
+Heart rate and heart rate variability comparison device: FDA cleared reference device that monitors heart rate and heart rate variability in subjects
+Respiration rate comparison device: FDA cleared reference device that monitors respiration rate in subjects
+Activity classification: Visual annotation of subject posture and other activities used for reference</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="30"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="30"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <default_assessment>Non-systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="30"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Respiratory, thoracic and mediastinal disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Nasal Congestion</sub_title>
+                <description>A single non-serious adverse event was reported during the evaluation period. A subject self reported mild nasal congestion after spending the night at the clinical site. This was deemed unrelated to the test device.</description>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="30"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>This study design was based off of the predicate device's pivotal study design. It was limited to healthy subjects only.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Chief Medical Officer</name_or_title>
+      <organization>MC10 Inc</organization>
+      <phone>8572145600</phone>
+      <email>ACombs@mc10inc.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

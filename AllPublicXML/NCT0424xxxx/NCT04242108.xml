@@ -1,0 +1,179 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04242108</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2018KYPJ074</org_study_id>
+    <nct_id>NCT04242108</nct_id>
+  </id_info>
+  <brief_title>Diagnostic Performance of Deep Learning for Angle Closre</brief_title>
+  <official_title>Diagnostic Performance of Deep Convolutional Neural Networks for Angle Closre Glaucoma: an International Multicenter Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sun Yat-sen University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Sun Yat-sen University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Primary angle closure diseases (PACD) are commonly seen in Asia. In clinical practice,
+      gonioscopy is the gold standard for angle width classification in PACD patietns. However,
+      gonioscopy is a contact examination and needs a long learning curve. Anterior segment optical
+      coherence tomography (AS-OCT) is a non-contact test which can obtain three dimensional images
+      of the anterior segment within seconds. Therefore, the investigators designed the study to
+      verify if AS-OCT based deep learning algorithm is able to detect the PACD subjects diagnosed
+      by gonioscopy.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 15, 2020</start_date>
+  <completion_date type="Anticipated">December 2020</completion_date>
+  <primary_completion_date type="Anticipated">June 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Area under curve (AUC)</measure>
+    <time_frame>Immediately after obtaining the AS-OCT images</time_frame>
+    <description>AUC value of the automated algorithm in angle width classfication and synechia detection</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity and specificity</measure>
+    <time_frame>Immediately after obtaining the AS-OCT images</time_frame>
+    <description>Sensitivity and specificity of the automated algorithm in angle width classfication and synechia detection</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">10000</enrollment>
+  <condition>Angle Closure Glaucoma</condition>
+  <arm_group>
+    <arm_group_label>Angle Closure</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Open angle</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Deep learning algorithm based on AS-OCT</intervention_name>
+    <description>The OCT scans of study subjects would be imported into the algorithm. Automated classfication of angle width and detection of synechia would be performed by the algorithm. The diagnostic performance of the algorithm would be compared with gonioscopy records.</description>
+    <arm_group_label>Angle Closure</arm_group_label>
+    <arm_group_label>Open angle</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Inclusion Criteria:
+
+          1. All participants must be ≥ 18 years old;
+
+          2. Study subjects had definite diagnosis based on gonioscopy, optical coherence
+             tomography (OCT) and medical history records.
+
+        Exclusion Criteria:
+
+          1. Poor compliance in receiving gonioscopy examination;
+
+          2. Unclear anterior segment OCT scans due to blinking or out of focus;
+
+          3. Recent use of miotics within a month;
+
+          4. Secondary angle closure sue to subluxation or dislocation, uveitis, neovascular
+             glaucoma;
+
+          5. History of ocular surgery or laser; 6) Patients who previously had an episode of acute
+             attack.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. All participants must be ≥ 18 years old;
+
+          2. Study subjects had definite diagnosis based on gonioscopy, optical coherence
+             tomography (OCT) and medical history records.
+
+        Exclusion Criteria:
+
+          1. Poor compliance in receiving gonioscopy examination;
+
+          2. Unclear anterior segment OCT scans due to blinking or out of focus;
+
+          3. Recent use of miotics within a month;
+
+          4. Secondary angle closure sue to subluxation or dislocation, uveitis, neovascular
+             glaucoma;
+
+          5. History of ocular surgery or laser; 6) Patients who previously had an episode of acute
+             attack.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Xiulan Zhang, MD, PhD</last_name>
+    <phone>8613570166308</phone>
+    <email>zhangxl2@mail.sysu.edu.cn</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Zhongshan Ophthalmic Center</name>
+      <address>
+        <city>Guangzhou</city>
+        <state>Guangdong</state>
+        <zip>51000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Xiulan Zhang, MD, Phd</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>January 2020</verification_date>
+  <study_first_submitted>January 23, 2020</study_first_submitted>
+  <study_first_submitted_qc>January 23, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 27, 2020</study_first_posted>
+  <last_update_submitted>January 27, 2020</last_update_submitted>
+  <last_update_submitted_qc>January 27, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 29, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Zhongshan Ophthalmic Center, Sun Yat-sen University</investigator_affiliation>
+    <investigator_full_name>Xiulan Zhang</investigator_full_name>
+    <investigator_title>Director of Clinical Research Center</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Glaucoma</mesh_term>
+    <mesh_term>Glaucoma, Angle-Closure</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>The imaging data of study subjects would be available to other researchers upon reasonable request. Part of the data would be open as public datasets after the related article is published.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Analytic Code</ipd_info_type>
+    <ipd_time_frame>Part of the data would be open as public datasets after the related article is published.</ipd_time_frame>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

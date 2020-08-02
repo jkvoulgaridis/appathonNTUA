@@ -1,0 +1,211 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03777670</url>
+  </required_header>
+  <id_info>
+    <org_study_id>248404</org_study_id>
+    <nct_id>NCT03777670</nct_id>
+  </id_info>
+  <brief_title>nSeP: Detecting Neonatal Sepsis by Immune-Metabolic Network Analysis</brief_title>
+  <acronym>nSeP</acronym>
+  <official_title>Detecting Neonatal Sepsis by Immune-Metabolic Network Analysis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Cardiff and Vale University Health Board</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Cardiff University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Cardiff and Vale University Health Board</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Diagnosis of neonatal sepsis remains a challenge due to non-specific signs and diagnostic
+      inaccuracies. Studies have shown that this could lead to overdiagnosis and overuse of
+      antibiotic treatment, with potential long-term adverse effects.
+
+      A systems approach towards diagnosing neonatal sepsis has been shown to have high accuracy in
+      initial studies. This study aims to recruit a large validation cohort to confirm findings.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Several studies have shown that changes in host gene expression may occur pre-
+      symptomatically in response to infection in any part of the body, with the continuous
+      interaction between blood and tissue allowing blood cells to act as biosensors for the
+      changes (Manger and Relman, 2000, Liew et al., 2006). Genome wide analysis reveals coordinate
+      expression that develop networks causally linked through pathways.
+
+      Earlier studies from our group investigating optimal methods for the sampling and extraction
+      of neonatal whole transcription products (RNA) demonstrated the first feasibility studies for
+      using genome wide RNA analysis as a methodological approach for identifying host biomarkers
+      of infection and vaccination in early life (Smith et al., 2007, Flanagan et al., 2013). The
+      sampling methods were further refined in 2015 with the development of a single drop
+      methodology that has been extensively tested in a wide range of settings including the
+      collection of neonatal samples in the home, at the point of Guthrie testing by mid-wives.
+      Details of these methods have been recently submitted to the Nature Protocols journal.
+      Further, we conducted early on virtual clinical trials using a super computing framework that
+      simulated several 100,000 neonatal whole blood samples for predicting infection (Khondoker et
+      al., 2010). Those investigations showed the requirement for multiple markers and ideally in
+      discrete biological pathways underpinning causality (Khondoker et al., 2010, Watterson and
+      Ghazal, 2010). Those investigations provided a strong foundation for initiating a
+      case-control of neonatal sepsis (Dickinson et al., 2015). Accordingly, we were the first
+      group to publish studies investigating the systemic immune response in neonates to sepsis by
+      measuring the activity of all known human genes (Smith et al Nature comm. 2014). These
+      computationally intensive investigations led to uncovering, for the first time, the pathway
+      biology underlying neonatal sepsis with blood samples taken at the first clinical signs of
+      suspecting an infection. A combination of machine learning, statistical and deep pathway
+      biology analyses led to the identification of a 52-gene panel of biologically connected
+      network modules. The modules comprise three central pathways, innate-immune or inflammatory,
+      adaptive-immune and unexpectedly metabolic. The expression levels of particular combinations
+      of biomarkers, and specifically those of a pathway previously unconnected to immune
+      responses, gives an unusually high diagnostic quality. Despite patient heterogeneity, the
+      52-node dual biomarker network had greater than 99% accuracy for detecting bacterial
+      infection with 100% sensitivity showing superior performance to previously characterised
+      markers. Furthermore, these specific combinations of biomarkers allowed the detection of
+      neonatal sepsis in samples which had displayed blood-culture negative results, illustrating
+      the specific diagnostic benefits of the particular combinations of biomarkers. The
+      unexpectedly high accuracy and sensitivity values could not have resulted from the
+      investigation of any of the individual biomarkers alone, nor could they have been predicted.
+      A critical part of these findings is the requirement of metabolic pathways for increasing
+      both sensitivity and specificity. A subset of the metabolic markers encompass ligands
+      (specifically small and medium chain fatty acids) that are derived from microbial metabolism,
+      in particular from commensals and which are reflected in the faecal microbiome. To date these
+      studies provide a proof of concept but need independent confirmatory studies as well as
+      investigating specificity against non-bacterial (viral and fungal) infections and sterile
+      inflammation. The urgent unmet medical question is whether predictive host pathways of
+      infection can be used to first identify whether a patient is infected at or before clinical
+      presentation and, to further discriminate between the type of infection (in particular
+      bacterial or viral) and predictability of sepsis.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">February 26, 2020</start_date>
+  <completion_date type="Anticipated">February 28, 2024</completion_date>
+  <primary_completion_date type="Anticipated">February 28, 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sepsis</measure>
+    <time_frame>5-years</time_frame>
+    <description>Immune signature of sepsis</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Sepsis</condition>
+  <arm_group>
+    <arm_group_label>Cases</arm_group_label>
+    <description>Infants with suspected sepsis</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Controls</arm_group_label>
+    <description>Infants with no suspicion of sepsis</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Blood test</intervention_name>
+    <description>Drop of blood for RNA and metabolic analysis</description>
+    <arm_group_label>Cases</arm_group_label>
+    <arm_group_label>Controls</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      RNA
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Newborn infants in the neonatal unit with a suspicion of sepsis
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Screened with traditional tests (full-blood count [FBC], inflammatory markers like
+             C-reactive protein [CRP], and blood-culture) for suspected sepsis (including
+             non-infective inflammatory conditions) and started on antibiotics - potential cases.
+
+          -  Being sampled for non-septic conditions (bloods sampling for routine monitoring,
+             jaundice, hypoglycaemia, etc.) - controls.
+
+          -  Informed consent from parents to use blood and stool samples (initial sample and
+             24-hour sample) and clinical data for study.
+
+        Exclusion Criteria:
+
+          -  Language and communication issues, which will make it difficult to explain study and
+             request informed consent.
+
+          -  When an infant has a high chance of mortality in the next 24-hours.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>4 Months</maximum_age>
+  </eligibility>
+  <overall_contact>
+    <last_name>Peter Ghazal, PhD</last_name>
+    <phone>29207 44721</phone>
+    <email>ghazalp@cardiff.ac.uk</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>University Hospital of Wales</name>
+      <address>
+        <city>Cardiff</city>
+        <state>South Glamorgan</state>
+        <zip>CF14 4XN</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Mallinath Chakraborty, PhD</last_name>
+      <phone>+44 2920 742276</phone>
+      <email>chakrabortym@cardiff.ac.uk</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>December 13, 2018</study_first_submitted>
+  <study_first_submitted_qc>December 14, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 17, 2018</study_first_posted>
+  <last_update_submitted>April 4, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 4, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 7, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Cardiff and Vale University Health Board</investigator_affiliation>
+    <investigator_full_name>Mallinath Chakraborty</investigator_full_name>
+    <investigator_title>Consultant in Neonatal Medicine</investigator_title>
+  </responsible_party>
+  <keyword>Newborn</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sepsis</mesh_term>
+    <mesh_term>Toxemia</mesh_term>
+    <mesh_term>Neonatal Sepsis</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

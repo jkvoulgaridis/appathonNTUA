@@ -1,0 +1,174 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03661450</url>
+  </required_header>
+  <id_info>
+    <org_study_id>7804_BO_S_2018</org_study_id>
+    <nct_id>NCT03661450</nct_id>
+  </id_info>
+  <brief_title>Evaluation of CDSS in Detection of SIRS and Sepsis in Pediatric Patients</brief_title>
+  <acronym>CADDIE2</acronym>
+  <official_title>Evaluation of the Accuracy of a Clinical Decision-Support System (CDSS) to Support Detection of SIRS and Sepsis in Paediatric Intensive Care Patients Compared to Medical Specialists</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hannover Medical School</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Technische Universitaet Braunschweig</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Helmholtz Centre for Infection Research</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Hannover Medical School</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This trial aims to evaluate the accuracy of a Clinical Decision-Support System to support
+      early recognition of SIRS in paediatric intensive care patients. This assessment will be
+      rated by the primary goals, the sensitivity and specificity of the system. Two experienced
+      paediatric intensivists, who are blinded for the CDSS results, will analyse the electronic
+      patient file (EPF) for SIRS criteria and thus establish our Goldstandard. All SIRS events
+      recognized by the CDSS during the patient's stay are taken into account and will be compared
+      with the established Goldstandard.
+
+      The secondary goal of this trial is to evaluate the CDSS-results with the assessment of SIRS
+      by paediatric doctors during their routine work on the PICU.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Clinical decision-support systems (CDSS) are designed to solve knowledge-intensive tasks for
+      supporting decision-making processes. Although many approaches for designing CDSS have been
+      proposed, due to high implementation costs, as well as the lack of interoperability features,
+      current solutions are not wellestablished across different institutions. Recently, the use of
+      standardized formalisms for knowledge representation as terminologies as well as the
+      integration of semantically enriched clinical information models, as openEHR Archetypes, and
+      their reuse within CDSS are theoretically considered as key factors for reusable CDSS. The
+      investigators already successfully transferred their concept into a prototype and evaluated
+      the practicability on clinical data sets and in close cooperation between the clinicians and
+      the technical experts. To the author's knowledge, currently, there are no openEHR based CDSS
+      approaches which have been implemented and evaluated with such complex and important clinical
+      contexts. Hence, the first clinically evaluated CDSS based on openEHR was successfully
+      designed. When enhancing the described approach and implementing a live system, it might
+      support clinicians to identify the patient's course of disease at an early stage, which can
+      lead to better outcome for the patient. Furthermore, the system can serve as a basis for
+      integrating (cross-institutional) machine learning components that could facilitate dealing
+      with other high-complex decision problems or revealing yet unknown disease patterns.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">August 1, 2018</start_date>
+  <completion_date type="Actual">March 31, 2019</completion_date>
+  <primary_completion_date type="Actual">March 31, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity and specificity of CDSS compared to Goldstandard</measure>
+    <time_frame>8 months</time_frame>
+    <description>Assessment of sensitivity and specificity of a CDSS compared to Goldstandard established by two independed blinded paediatric intensivists, the analysis will be done with Wald-Confidence interval and comparison of the lower limit of the confidence interval with the defined range of the null hypothesis.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity and specificity of CDSS on daily level</measure>
+    <time_frame>8 months</time_frame>
+    <description>Evaluation of sensitivity and specificity of the CDSS on daily levels compared with the Goldstandard with respect to correlation of days within one patient's course with general estimating equations.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Comparison of CDSS with assessment of MDs taking care of the patients</measure>
+    <time_frame>10 months</time_frame>
+    <description>Evaluation of sensitivity and specificity of the CDSS on daily level and patient level compared with recognition of SIRS by paediatric doctors during daily routine with McNemar testing and general estimating equations.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">177</enrollment>
+  <condition>SIRS</condition>
+  <condition>Sepsis</condition>
+  <condition>Pediatric SIRS</condition>
+  <arm_group>
+    <arm_group_label>PICU-Patients</arm_group_label>
+    <description>Pediatric patients admitted after 01.08.2018</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Clinical Decision-Support System</intervention_name>
+    <description>Patient Data is evaluated by a Clinical Decision-Support System searching for age-adapted pediatric SIRS-criteria, aiming for a high sensitivity and specificity</description>
+    <arm_group_label>PICU-Patients</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Pediatric patients from newborn to young adults up to 18 years that are admitted to our
+        PICU, there is a wide range from infectious causes, post-operative-care of pediatric
+        surgery, cardiac surgery, organ-transplants etc, newborns connatal syndromes and
+        organdysplasia.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  all pediatric patients admitted to our PICU
+
+        Exclusion Criteria:
+
+          -  patients that are supposed to stay for less than 12 hours on our PICU
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>18 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Michael Marschollek, PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Hannover Medical School</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Hannover Medical School</name>
+      <address>
+        <city>Hannover</city>
+        <state>Lower Saxony</state>
+        <zip>30625</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+  </location_countries>
+  <verification_date>August 2019</verification_date>
+  <study_first_submitted>September 5, 2018</study_first_submitted>
+  <study_first_submitted_qc>September 5, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 7, 2018</study_first_posted>
+  <last_update_submitted>August 12, 2019</last_update_submitted>
+  <last_update_submitted_qc>August 12, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 14, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Clinical Decision-Support System</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sepsis</mesh_term>
+    <mesh_term>Toxemia</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,148 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03979079</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IB2010-PREDYC</org_study_id>
+    <nct_id>NCT03979079</nct_id>
+  </id_info>
+  <brief_title>Modeling Clinical Failure in Prostate Cancer Patients Based on a Two-stage Statistical Model</brief_title>
+  <acronym>PREDYC</acronym>
+  <official_title>Modeling Clinical Failure in Prostate Cancer Patients Based on a Two-stage Statistical Model</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Institut Bergonié</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Institut National de la Santé Et de la Recherche Médicale, France</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Institut Bergonié</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Biomarker series can indicate disease progression and predict clinical endpoints. When a
+      treatment is prescribed depending on the biomarker, confounding by indication might be
+      introduced if the treatment modifies the marker profile and risk of failure.
+
+      The two-stage model fitted within a Bayesian Markov Chain Monte Carlo framework is
+      particularly flexible to account for such data. Prostate-specific antigens in prostate cancer
+      patients treated with external beam radiation therapy can be monitored. In the presence of
+      rising prostate-specific antigens after external beam radiation therapy, salvage hormone
+      therapy can be prescribed to reduce both the prostate-specific antigens concentration and the
+      risk of clinical failure, an illustration of confounding by indication. The prognostic value
+      of hormone therapy and prostate-specific antigens trajectory on the risk of failure based on
+      a two-stage model within a Bayesian framework to assess the role of the prostate-specific
+      antigens profile on clinical failure while accounting for a secondary treatment prescribed by
+      indication. the aim of this research is to model prostate specific antigens using a
+      hierarchical piecewise linear trajectory with a random changepoint. Residual
+      prostate-specific antigens variability can be expressed as a function of prostate-specific
+      antigens concentration. Covariates in the survival model can include : hormone therapy,
+      baseline characteristics, and individual predictions of the prostate-specific antigens nadir
+      and timing and prostate-specific antigens slopes before and after the nadir as provided by
+      the longitudinal process.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 2010</start_date>
+  <completion_date type="Actual">December 2018</completion_date>
+  <primary_completion_date type="Actual">December 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Time to Clinical failure</measure>
+    <time_frame>10 years</time_frame>
+    <description>time from radiation therapy to first of following events: distant metastases, nodal recurrence, or any palpable or biopsy-detected local recurrence three years after radiation; any local recurrence within three years of RT if the most previous prostate-specific antigens (PSA) was greater than2 ng/ml; death from prostate cancer.</description>
+  </primary_outcome>
+  <enrollment type="Actual">2400</enrollment>
+  <condition>Prostate Cancer</condition>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>external beam radiation therapy</intervention_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Dataset of 2384 men included in three cohorts: University of Michigan, Ann Arbor, MI, USA
+        (UM); Radiation Therapy Oncology Group (RTOG 9406); and William Beaumont Hospital, Detroit,
+        MI, USA.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  clinically localized prostate cancer
+
+          -  Clinical stage T1 to T4
+
+          -  Node and metastasis negative
+
+          -  Treated with external beam radiation therapy (RT).
+
+        Exclusion Criteria:
+
+          -  Patients with baseline or planned hormonotherapy
+      </textblock>
+    </criteria>
+    <gender>Male</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Carine Bellera, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Institut Bergonié</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>INSERM</name>
+      <address>
+        <city>Bordeaux</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <results_reference>
+    <citation>Bellera C, Proust-Lima C, Joseph L, Richaud P, Taylor J, Sandler H, Hanley J, Mathoulin-Pélissier S. A two-stage model in a Bayesian framework to estimate a survival endpoint in the presence of confounding by indication. Stat Methods Med Res. 2018 Apr;27(4):1271-1281. doi: 10.1177/0962280216660127. Epub 2016 Sep 1.</citation>
+    <PMID>27587597</PMID>
+  </results_reference>
+  <verification_date>June 2019</verification_date>
+  <study_first_submitted>June 4, 2019</study_first_submitted>
+  <study_first_submitted_qc>June 6, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 7, 2019</study_first_posted>
+  <last_update_submitted>June 6, 2019</last_update_submitted>
+  <last_update_submitted_qc>June 6, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 7, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Prostatic Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,306 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03556644</url>
+  </required_header>
+  <id_info>
+    <org_study_id>17/0328</org_study_id>
+    <nct_id>NCT03556644</nct_id>
+  </id_info>
+  <brief_title>Evaluation of CTCA in Assessing Plaque Pathology and Physiology</brief_title>
+  <official_title>Evaluation of the Efficacy of Computed Tomographic Coronary Angiography in Assessing Coronary Artery Morphology and Physiology</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University College, London</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University College, London</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Computed tomographic coronary angiography (CTCA) has been recently introduced to
+      non-invasively evaluate coronary artery pathology. Histology and intravascular ultrasound
+      imaging studies have demonstrated that CTCA enables identification of plaque characteristics
+      associated with increased vulnerability (i.e., plaque burden and composition) and allows
+      assessment of vessel physiology (i.e., local haemodynamic forces), and reports have shown
+      that CTCA can predict atherosclerotic evolution and detect lesions that will progress and
+      cause cardiovascular events. Despite the wealth of data provided, CTCA has still a limited
+      role in the study of atherosclerosis. Prior to unlocking the full potential of CTCA and
+      enable its broad use, further work is needed to develop user-friendly processing tools that
+      will allow fast and accurate analysis of CTCA, and examine in detail the accuracy of modern
+      CTCA imaging in assessing plaque pathology. In this application, the investigators aim 1) to
+      develop a CTCA analysis system that will enable fast segmentation, reliable coronary
+      reconstruction and blood flow simulation in a user-friendly environment and 2) validate the
+      efficacy of state-of-the-art CTCA for assessment of coronary plaque morphology and physiology
+      against intravascular plaque imaging using hybrid near infrared spectroscopy-intravascular
+      ultrasound.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      STUDY DESIGN
+
+        1. Patent recruitment Seventy patients with typical angina symptoms who had elective
+           coronary angiography showing at least one complex (i.e., bifurcation lesion, long
+           lesion, calcified lesion) obstructive lesion (&gt;70% diameter stenosis on coronary
+           angiography, or a fractional flow reserve &lt;0.80) that is considered suitable for
+           percutaneous coronary intervention (PCI) under IVUS guidance will be included in the
+           study. Exclusion criteria are: 1) age &gt;75 years, 2) ACS within &lt;3 months, 2) eGFR
+           &lt;60ml/min/1.73m², 3) previous coronary artery bypass surgery, 3) decompensated heart
+           failure, or left ventricular ejection fraction ≤30%, 4) intravenous contrast allergy or
+           inability to receive treatment with aspirin, heparin, or thienopyridines, 5) anticipated
+           life expectancy &lt;1 year, 6) history of heart transplantation, 7) patient that requires
+           surgical revascularization, and 8) extensive coronary artery disease (i.e., multiple
+           chronic total occlusions) or tortuous coronary anatomy that does not allow assessment of
+           the coronary arteries with NIRS-IVUS imaging. The recruited patients will provide
+           informed consent and undergo CTCA imaging using a dedicated 3rd generation CT
+           dual-source scanner (Siemens Force). The first 4 months of the study effort will be made
+           to optimise image acquisition protocols so as the obtained CTCA data to be suitable for
+           automated segmentation. Efficient imaging matrixes will be used to improve in-plane
+           spatial resolution and sharper reconstruction kernels and iterative reconstruction
+           algorithms will be implemented to enhance image segmentation.
+
+           Two weeks after CTCA imaging the patients will undergo planned PCI. During PCI effort
+           will be made to study all the 3 epicardial coronary arteries - including the stenotic
+           lesion - and some of their major side branches (i.e., large diagonals, obtuse marginals,
+           the posterior descending artery or the left ventricular branch of the right coronary
+           artery) with the combined NIRS-IVUS catheter. Following PCI the participants will be
+           discharged on optimal medical treatment.
+
+        2. Segmentation of the CTCA imaging data and reconstruction of coronary artery anatomy
+           Imaging data will be anonymised and analysed blinded to clinical details by an expert
+           operator using dedicated workstation. Anatomical landmarks (i.e., side branches) will be
+           identified in the CTCA and NIRS-IVUS imaging data and will be used to define segments of
+           interest.
+
+           Analysis of the CTCA data will be performed using dedicated software that enables
+           automated extraction of the luminal centreline, semi-automated detection of the lumen
+           and outer vessel wall borders, and quantification of the plaque burden and incorporates
+           a plaque characterisation algorithm that allows automated characterisation of the
+           composition of the plaque. The plaque characterisation algorithm takes into account
+           predefined fixed intensity cut-off values of the Hounsfield units and an adaptive
+           approach that allows modification of these cut-off values according to image
+           attenuation. Currently the segmentation process takes on average 3h per patient. In this
+           project the investigators aim to optimise CTCA image acquisition and segmentation
+           algorithms so as this process to become automated and reduce the time for CTCA
+           segmentation to &lt;1 hour.
+
+        3. Segmentation of the NIRS-IVUS imaging data and reconstruction of coronary artery anatomy
+           The NIRS-IVUS data portraying the segments of interest will be analysed by an expert
+           operator, blinded to the clinical details and CTCA imaging data, with a 3-month interval
+           from the analysis of the CTCA data using a software that enables detection of the lumen
+           and outer vessel wall borders, quantification of plaque burden and annotation of the
+           calcific tissue component in IVUS. The output of the analysis of the NIRS imaging data
+           is the chemogram which is a colour coded map of the distribution of the lipid component
+           along the vessel wall (yellow indicates increased probability and red low probability of
+           lipid tissue). A metric of the lipid burden is the lipid core burden index (LCBI) which
+           is computed as the fraction of the yellow pixels that correspond to lipid component
+           divided by 1000. In addition, for each 2mm segments the block chemogram is generated
+           that provides a summary of the chemogram for this segment and displays the probability
+           of the presence of lipid tissue in a 2mm block of the coronary artery. The block
+           chemogram has been validated against histology and it has been shown that it enables
+           accurate detection of lipid-rich plaques.
+
+           The segmented NIRS-IVUS data will be used to reconstruct the coronary anatomy using an
+           established and well-validated methodology. Side branches with a diameter &gt;1.5mm will be
+           reconstructed from the angiographic data and fused with the main vessel geometry
+           reconstructed from the NIRS-IVUS, since it has been shown that side branches affect ESS
+           distribution.
+
+        4. Blood flow simulation Identical boundary conditions will be applied to both IVUS-based
+           and CTCA-based models. Blood will be considered to be a laminar and incompressible
+           Newtonian fluid with a dynamic viscosity of 0.0035 Pa•s and a density of 1,050 kg/m3. A
+           steady flow profile will be imposed at the inflow of the lumen as this reduces
+           computation time and there is evidence that there is no significant difference in the
+           estimated ESS when a steady or a pulsatile flow profile is used. Murray's theory of
+           constant ESS will be used to derive boundary conditions in the main and side branches.
+           The arterial wall will be considered to be rigid and no-slip conditions will be applied
+           at the luminal surface. Flow velocity will be estimated from the angiographic data by
+           measuring the number of frames required for the contrast agent to pass from the inlet to
+           the outlet of the reconstructed segment, the volume of the segment at baseline, and the
+           cine frame rate.
+
+        5. Analysis of the NIRS-IVUS and CTCA imaging data It is anticipated that NIRS-IVUS imaging
+           will be performed on average in 2.5 vessels per patient; from these 40 randomly selected
+           vessels will be used to train the algorithms for CTCA segmentation and plaque
+           characterisation (training dataset) and the remaining for validation purposes
+           (validation dataset).
+
+      In the training set, the segments of interest reconstructed from the CTCA and NIRS-IVUS data
+      will be divided in 2mm segments and corresponding 2mm segments will be identified in the CTCA
+      and NIRS-IVUS models. For each 2mm segment the following metrics will be estimated in the
+      NIRS-IVUS models: mean lumen area, mean outer vessel wall area, mean plaque area, mean plaque
+      burden (defined as: 100 x plaque area/vessel area), mean calcific area, the LCBI and the
+      predominant ESS. In addition each segment will be classified as lipid-rich or non-lipid rich
+      according to the block chemogram.
+
+      Similarly, in the CTCA models the mean lumen area, outer vessel wall area, plaque area,
+      plaque burden, calcific area and the mean predominant ESS will be estimated for every 2mm
+      segment and compared with the estimations of NIRS-IVUS. Several approaches will be tested to
+      optimise the segmentation of the vessel wall borders and the best will be adopted. Segments
+      with increased calcific burden and blooming artifacts will be identified and in case of
+      significant differences between CTCA and NIRS-IVUS annotations, machine learning techniques,
+      that take advantage of the information provided by NIRS-IVUS, will be implemented to optimise
+      CTCA segmentation. The adaptive Hounsfield unit cut-offs that best identify lipid and
+      calcific tissue will be defined. Spread-out vessel plots portraying the distribution of the
+      lipid tissue in the CTCA models will be created and in these the LCBICT will be estimated for
+      each 2mm segment and compared with the output of NIRS. Area under the curve (AUC) analysis
+      will be used to identify the best CT-derived plaque burden, LCBI and ESS cut-off values that
+      correspond to the NIRS-IVUS cutoff values that indicate high-risk plaques (plaque burden:
+      67%, LCBI: 178 and ESS: 1Pa). The block chemogram in NIRS-IVUS will be used to identify the
+      2mm LCBICT cut-off that enables accurate classification of the 2mm segments in as lipid or
+      non-lipid rich. The accuracy of these cut-offs will be tested in the validation dataset.
+
+      In addition, in the validation dataset the NIRS-IVUS data will be used to identify coronary
+      lesions - defined as segments with a plaque burden &gt;40% in 3 consecutive frames. For each
+      lesion its remodelling index will be estimated and used to classify them as lesions with a
+      positive or negative remodelling. The NIRS-IVUS data will be used to characterise their
+      phenotype and classify them as: pathological intimal thickening/fibrotic plaques,
+      fibro-calcific plaques, fibroatheromas (FA), and calcified fibroatheromas. The NIRS-IVUS
+      lesion classification will be used as reference standard in order to assess the accuracy of
+      CTCA in characterising lesion phenotype.
+
+      STATISTICAL ANALYSIS - POWER CALCULATION The primary endpoint of the study is the ability of
+      CTCA in detecting FA. In a study of Garcia-Garcia that included 129 patients undergoing singe
+      vessel IVUS imaging, 1.7 lesions were identified per patient. In the study of Puri et al.,
+      45% of the lesions were FA on histology. In that study NIRS combined with IVUS enabled
+      detection of FA with an excellent accuracy (c-index: 0.80). We anticipate that we will be
+      able to perform NIRS-IVUS imaging in 2.5 coronary arteries per patient and that CTCA imaging
+      quality will be optimal in 93% of the studied patients. If we recruit 70 patients we
+      anticipate to successfully study with NIRS-IVUS and CTCA 162 vessels of which 120 (203
+      lesions - 92 FA) will be used as a validation dataset. This dataset is anticipated to give an
+      80% power to demonstrate using the 5% significance level, that the sensitivity of CTCA in
+      identifying FA is not different from NIRS-IVUS (AUC of CTCA range: 0.89-0.71), assuming a
+      true sensitivity of 0.80 for NIRS-IVUS.
+
+      Secondary endpoints of the study are the accuracy of CTCA to identify: a) lipid-rich segments
+      (using the block chemogram of NIRS-IVUS as gold standard), and b) segments exposed to low ESS
+      (&lt;1Pa, using the ESS estimated in the NIRS-IVUS models as reference standard).
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">March 1, 2018</start_date>
+  <completion_date type="Actual">August 1, 2019</completion_date>
+  <primary_completion_date type="Actual">August 1, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Ability of CTCA in detecting fibroatheromas</measure>
+    <time_frame>Baseline CTCA</time_frame>
+    <description>Evaluation of the efficacy of CTCA in detecting fibroatheromas using NIRS-IVUS estimations as gold standard</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Efficacy of CTCA in detecting lipid rich segments</measure>
+    <time_frame>Baseline CTCA</time_frame>
+    <description>Assessment of the accuracy of CTCA in detecting lipid rich plaques using NIRS-IVUS estimations as gold standard</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Efficacy of CTCA in detecting segments exposed to a low ESS environment</measure>
+    <time_frame>Baseline CTCA</time_frame>
+    <description>Comparison of the estimations of the ESS computed in CTCA-based and NIRS-IVUS based reconstructions and evaluation of the accuracy of the CTCA based modeling in detecting low &lt;1Pa ESS using the estimations of NIRS-IVUS based modeling as gold standard</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">70</enrollment>
+  <condition>Coronary Artery Disease</condition>
+  <arm_group>
+    <arm_group_label>Single arm study</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>70 patients with coronary artery disease will have CTCA imaging and 3 vessel intravascular imaging with NIRS-IVUS during percutaneous coronary intervention and the obtained imaging data will be used to assess the efficacy of CTCA in detecting plaque morphology and shear stress distribution.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>CTCA imaging</intervention_name>
+    <description>All the studied patients will have CTCA before percutaneous coronary intervention and 3 vessel NIRS-IVUS imaging during percutaneous coronary intervention</description>
+    <arm_group_label>Single arm study</arm_group_label>
+    <other_name>NIRS-IVUS imaging</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Patients with typical angina symptoms who had elective coronary angiography showing at
+        least one lesion that requires further evaluation with intravascular coronary imaging or
+        fractional flow reserve or it is considered suitable for percutaneous coronary intervention
+        (PCI) under IVUS guidance will be included in the study
+
+        Exclusion Criteria:
+
+          1. age &gt;75 years
+
+          2. ACS within &lt;3 months
+
+          3. eGFR &lt;60ml/min/1.73m²
+
+          4. previous coronary artery bypass surgery
+
+          5. decompensated heart failure, or left ventricular ejection fraction ≤30%
+
+          6. intravenous contrast allergy or inability to receive treatment with aspirin, heparin,
+             or thienopyridines
+
+          7. anticipated life expectancy &lt;1 year
+
+          8. history of heart transplantation
+
+          9. patient that requires surgical revascularization
+
+         10. extensive coronary artery disease (i.e., multiple chronic total occlusions) or
+             tortuous coronary anatomy that does not allow assessment of the coronary arteries with
+             NIRS-IVUS imaging
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Barts Health NHS Trust</name>
+      <address>
+        <city>London</city>
+        <zip>EC1A 7BE</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>September 2019</verification_date>
+  <study_first_submitted>June 1, 2018</study_first_submitted>
+  <study_first_submitted_qc>June 1, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 14, 2018</study_first_posted>
+  <last_update_submitted>September 16, 2019</last_update_submitted>
+  <last_update_submitted_qc>September 16, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 17, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Near Infrared Spectroscopy</keyword>
+  <keyword>Computed Tomography Coronary Angiography</keyword>
+  <keyword>Atherosclerosis</keyword>
+  <keyword>Endothelial Shear Stress</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronary Artery Disease</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

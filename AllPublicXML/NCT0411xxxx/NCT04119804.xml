@@ -1,0 +1,328 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04119804</url>
+  </required_header>
+  <id_info>
+    <org_study_id>438/2019/Oss/IOR</org_study_id>
+    <nct_id>NCT04119804</nct_id>
+  </id_info>
+  <brief_title>Early Discrimination of Periprosthetic Hip Infections Using Neural Networks (SEPTIC-ANNR)</brief_title>
+  <acronym>SEPTIC-ANNR</acronym>
+  <official_title>Early Discrimination of Periprosthetic Hip Infections Using Neural Networks: a Pilot Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Istituto Ortopedico Rizzoli</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Università degli studi di Messina</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Istituto Ortopedico Rizzoli</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study is about the role of cellular neural networks-genetic algorithm in the diagnosis of
+      periprosthetic hip infections. A retrospective case series of septic and aseptic loosening of
+      primary hip arthroplasties is selected. The diagnosis of septic loosening is made according
+      to well-established criteria (CDC 2014 and culture samples). The serial radiographs of the
+      selected patients are processed using cellular neural networks-genetic algorithm. The purpose
+      of this study is to evaluate whether neural networks (cellular neural networks-genetic
+      algorithm), applied to conventional radiographies, are accurate, sensitive and specific for
+      the early-discrimination of a periprosthetic hip infection, already diagnosed with
+      well-recognized methods (CDC 2014).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Periprosthetic hip infections are an hot topic in orthopedic surgery, whose incidence is
+      about 1%. The morbidity, mortality and additional costs associated with prolonged
+      hospitalization and further treatments are the main concerns. Periprosthetic infections are
+      generally diagnosed using the CDC (Center for Disease Control and Prevention) criteria
+      (2014). The diagnosis is based on major and minor criteria, including pre-operative and
+      intra-operative parameters. In order to achieve a reliable diagnosis of infection, when
+      fistula are not present, synovial fluid aspiration or tissue samples are required. However,
+      these techniques are expensive and invasive. Moreover, sensitivity is not always so accurate,
+      as shown by some series of revision surgeries performed for presumed aseptic loosening, which
+      turned out to be septic after cultures. Therefore, diagnosis of infection often occurs late
+      and after a long, complex, expensive and not always decisive diagnostic workup, impacting on
+      the timing and success of the treatment.
+
+      A practical, rapid, reliable and non-invasive (possibly outpatient) diagnostic procedure for
+      periprosthetic infections would be desirable. It may rely on diagnostic imaging, limiting the
+      collection of liquid or tissues to doubtful cases. Currently, CT and nuclear medicine imaging
+      techniques are not routinely adopted in the diagnosis of infection, due to the modest
+      reliability, costs and exposure to radiant agents.
+
+      Recently, neural networks have been introduced: they consist of many simple parallel
+      processors, deeply connected, realizing a computational model. Neural networks mimic brain
+      and its ability to learn. Computational models recognize of visual signals, manage complex
+      situations in real time, classify and manage noise, use associative memory with real-time
+      access to large amounts of data and reconstruct partial or corrupted information. Neural
+      networks have been already used to predict the onset of infections, metastases and treatment
+      failures, integrating clinical and diagnostic imaging data. To date, no studies about neural
+      networks in periprosthetic infection have been conducted. The purpose of this study is to
+      evaluate whether neural networks (cellular neural networks-genetic algorithm), applied to
+      conventional radiographies, are accurate, sensitive and specific for the early-discrimination
+      of a periprosthetic hip infection, already diagnosed with well-recognized methods (CDC 2014).
+
+      Specifically, a population of patients, with a complete radiographic history (pre-operative
+      X-rays and a series of other post-operative X-rays), treated for septic or aseptic loosening,
+      is selected.
+
+      Both cases are necessary to &quot;instruct&quot; a neural network. The first step consists in
+      identifying a consecutive series of patients with septic or aseptic loosening diagnosis,
+      consulting the hospital database. Thus, patients are categorically divided into septic, or
+      aseptic, loosening. The 2014 CDC criteria are used (as routinely performed in the clinical
+      setting), adding another major and necessary criterion: at least 3 positive intraoperative
+      tissue samples (same micro-organism). In case of aseptic loosening, the case must not meet
+      the CDC 2014 criteria. Thus, the imaging and clinical data of the patients are collected.
+      Having ascertained the diagnosis, the radiographic material is processed (cellular neural
+      networks-genetic algorithm). The proposed procedure processes the radiographic images using
+      the following pipeline and the MatLab software (Mathworks, Natick, US):
+
+        -  baseline: the first post-implant image is compared to the pre-implant radiographic
+           image;
+
+        -  progresses are recorded by periodical radiographs using standard and repeatable
+           projections (pelvis X-rays);
+
+        -  the features are extracted from each image, in the manually segmented area (region of
+           interest - ROI). Three steps take place: 1) image pre-processing, to create uniform
+           frameworks of input data (gray-level images). Color Histogram Equalization; 2) features
+           extracted from neural networks are applied to ROI. Cloning templates using genetic
+           algorithms. The features will be processed by a fully connected layer + SoftMax; 3)
+           features extracted from AutoEconder with fully-connected layer + SoftMax;
+
+        -  analysis of differential radiographic features (analysis of cellular and convolutive
+           sides) and comparison to the baseline. Post-processing in the following way: 1)
+           fully-connected regression layer and multiclass classifier: will produce the percentage
+           of septic progression risk; 2) fully-connected regression layer and binary classifier:
+           features in the septic / aseptic clusters;
+
+        -  a final decision tree: fusion of the above-mentioned data, providing a percentage of
+           septic progression risk at the indexed imaging. The aim is to verify whether the neural
+           networks applied to radiographic imaging can accurately, sensitively and specifically
+           recognize a late, chronic periprosthetic hip infection diagnosed according to validated
+           and certain criteria.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 3, 2019</start_date>
+  <completion_date type="Anticipated">October 2, 2020</completion_date>
+  <primary_completion_date type="Anticipated">March 3, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy</measure>
+    <time_frame>15 years</time_frame>
+    <description>Definition: ability of the cellular neural network to discriminate between septic and aseptic loosening. Technique: the diagnostic accuracy will be measured as a receiver operating characteristic (ROC) curve, according to the maximum likelihood method (binomial approximation).
+Metric: percentage. Minimum-maximum values: 0-100.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Sensitivity</measure>
+    <time_frame>15 years</time_frame>
+    <description>Definition: the probability of being septic in septic hips with ascertained CDC criteria.
+Technique: true positive / (true positive + false negative). Metric: percentage. Minimum-maximum values: 0-100.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Specificity</measure>
+    <time_frame>15 years</time_frame>
+    <description>Definition: proportion of aseptic loosening in total of aseptic loosening ascertained using CDC criteria Technique: True negative / (true negative + false positive) Metric: percentage. Minimum-maximum values: 0-100.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Hip Prosthesis Infection</condition>
+  <arm_group>
+    <arm_group_label>septic loosening</arm_group_label>
+    <description>Septic loosening of primary hip implants according to the 2014 CDC criteria (as routinely performed in the clinical setting), adding another major and necessary criterion: at least 3 positive intraoperative tissue samples (same micro-organism).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>aseptic loosening</arm_group_label>
+    <description>aseptic loosening of primary hip implants not meeting the CDC 2014 criteria</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>cellular neural networks-genetic algorithm</intervention_name>
+    <description>Cellular neural networks-genetic algorithm applied to conventional radiographs of hip implants with a well-established diagnosis of loosening. The study is not intended to use a software without a CE mark as a medical device, or to use the software as a tool to diagnose or prevent human disease, according to Directive 93/42 / European Economic Community. The study will evaluate if the software, properly calibrated, is able to recognize with adequate accuracy infections already diagnosed with validated methods.</description>
+    <arm_group_label>aseptic loosening</arm_group_label>
+    <arm_group_label>septic loosening</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        A consecutive series of adult patients treated for aseptic and septic loosening of primary
+        hip implants at IRCCS Istituto Ortopedico Rizzoli.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion criteria:
+
+          -  Revisions of primary total hip arthroplasty due to septic and aseptic loosening
+
+          -  In case of septic loosening, diagnosis of late chronic periprosthetic hip infection
+
+          -  Complete clinical data
+
+          -  Complete lab data (pre-revision erythrocyte sedimentation rate and C-reactive protein,
+             at least 5 intraoperative tissue samples).
+
+          -  Complete radiographic assessment (pre-implant X-ray, a series of post-operative
+             X-rays, pre-revision X-ray)
+
+        Exclusion criteria
+
+          -  Hip re-revisions
+
+          -  Incomplete or inadequate radiographic assessment
+
+          -  Inadequate data to diagnose infection according to 2014 CDC criteria and tissue
+             samples
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Francesco Traina, PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>IRCCS Istituto Ortopedico Rizzoli</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Enrico Tassinari, MD</last_name>
+    <phone>+390516366148</phone>
+    <email>enrico.tassinari@ior.it</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Francesco Castagnini, MD</last_name>
+    <phone>+390516366148</phone>
+    <email>francescocastagnini@hotmail.it</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>IRCCS Istituto Ortopedico Rizzoli</name>
+      <address>
+        <city>Bologna</city>
+        <zip>40136</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Enrico Tassinari, MD</last_name>
+      <phone>+390516366148</phone>
+      <email>enrico.tassinari@ior.it</email>
+    </contact>
+    <contact_backup>
+      <last_name>Francesco Castagnini, MD</last_name>
+      <phone>+390516366148</phone>
+      <email>francescocastagnini@hotmail.it</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Francesco Rundo, BS</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sabrina Conoci, BS</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <link>
+    <url>http://it.mathworks.com/?s_tid=gn_logo</url>
+    <description>MatLab</description>
+  </link>
+  <link>
+    <url>http://www.scientificliterature.org/Oncology/Oncology-17-111.pdf</url>
+    <description>Reference</description>
+  </link>
+  <results_reference>
+    <citation>Verberne SJ, Raijmakers PG, Temmerman OP. The Accuracy of Imaging Techniques in the Assessment of Periprosthetic Hip Infection: A Systematic Review and Meta-Analysis. J Bone Joint Surg Am. 2016 Oct 5;98(19):1638-1645. Review.</citation>
+    <PMID>27707850</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Peel TN, Spelman T, Dylla BL, Hughes JG, Greenwood-Quaintance KE, Cheng AC, Mandrekar JN, Patel R. Optimal Periprosthetic Tissue Specimen Number for Diagnosis of Prosthetic Joint Infection. J Clin Microbiol. 2016 Dec 28;55(1):234-243. doi: 10.1128/JCM.01914-16. Print 2017 Jan.</citation>
+    <PMID>27807152</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Bargon R, Bruenke J, Carli A, Fabritius M, Goel R, Goswami K, Graf P, Groff H, Grupp T, Malchau H, Mohaddes M, Novaes de Santana C, Phillips KS, Rohde H, Rolfson O, Rondon A, Schaer T, Sculco P, Svensson K. General Assembly, Research Caveats: Proceedings of International Consensus on Orthopedic Infections. J Arthroplasty. 2019 Feb;34(2S):S245-S253.e1. doi: 10.1016/j.arth.2018.09.076. Epub 2018 Oct 19.</citation>
+    <PMID>30348560</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Abdel Karim M, Andrawis J, Bengoa F, Bracho C, Compagnoni R, Cross M, Danoff J, Della Valle CJ, Foguet P, Fraguas T, Gehrke T, Goswami K, Guerra E, Ha YC, Klaber I, Komnos G, Lachiewicz P, Lausmann C, Levine B, Leyton-Mange A, McArthur BA, Mihalič R, Neyt J, Nuñez J, Nunziato C, Parvizi J, Perka C, Reisener MJ, Rocha CH, Schweitzer D, Shivji F, Shohat N, Sierra RJ, Suleiman L, Tan TL, Vasquez J, Ward D, Wolf M, Zahar A. Hip and Knee Section, Diagnosis, Algorithm: Proceedings of International Consensus on Orthopedic Infections. J Arthroplasty. 2019 Feb;34(2S):S339-S350. doi: 10.1016/j.arth.2018.09.018. Epub 2018 Oct 19.</citation>
+    <PMID>30348566</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Chotanaphuti T, Courtney PM, Fram B, In den Kleef NJ, Kim TK, Kuo FC, Lustig S, Moojen DJ, Nijhof M, Oliashirazi A, Poolman R, Purtill JJ, Rapisarda A, Rivero-Boschert S, Veltman ES. Hip and Knee Section, Treatment, Algorithm: Proceedings of International Consensus on Orthopedic Infections. J Arthroplasty. 2019 Feb;34(2S):S393-S397. doi: 10.1016/j.arth.2018.09.024. Epub 2018 Oct 19.</citation>
+    <PMID>30348575</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Amanatullah D, Dennis D, Oltra EG, Marcelino Gomes LS, Goodman SB, Hamlin B, Hansen E, Hashemi-Nejad A, Holst DC, Komnos G, Koutalos A, Malizos K, Martinez Pastor JC, McPherson E, Meermans G, Mooney JA, Mortazavi J, Parsa A, Pécora JR, Pereira GA, Martos MS, Shohat N, Shope AJ, Zullo SS. Hip and Knee Section, Diagnosis, Definitions: Proceedings of International Consensus on Orthopedic Infections. J Arthroplasty. 2019 Feb;34(2S):S329-S337. doi: 10.1016/j.arth.2018.09.044. Epub 2018 Oct 19.</citation>
+    <PMID>30348576</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Ting NT, Della Valle CJ. Diagnosis of Periprosthetic Joint Infection-An Algorithm-Based Approach. J Arthroplasty. 2017 Jul;32(7):2047-2050. doi: 10.1016/j.arth.2017.02.070. Epub 2017 Mar 2. Review.</citation>
+    <PMID>28343826</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Heckerling PS, Canaris GJ, Flach SD, Tape TG, Wigton RS, Gerber BS. Predictors of urinary tract infection based on artificial neural networks and genetic algorithms. Int J Med Inform. 2007 Apr;76(4):289-96. Epub 2006 Feb 15.</citation>
+    <PMID>16469531</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Yamashita R, Nishio M, Do RKG, Togashi K. Convolutional neural networks: an overview and application in radiology. Insights Imaging. 2018 Aug;9(4):611-629. doi: 10.1007/s13244-018-0639-9. Epub 2018 Jun 22. Review.</citation>
+    <PMID>29934920</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Fazal MI, Patel ME, Tye J, Gupta Y. The past, present and future role of artificial intelligence in imaging. Eur J Radiol. 2018 Aug;105:246-250. doi: 10.1016/j.ejrad.2018.06.020. Epub 2018 Jun 22. Review.</citation>
+    <PMID>30017288</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Osmon DR, Berbari EF, Berendt AR, Lew D, Zimmerli W, Steckelberg JM, Rao N, Hanssen A, Wilson WR; Infectious Diseases Society of America. Diagnosis and management of prosthetic joint infection: clinical practice guidelines by the Infectious Diseases Society of America. Clin Infect Dis. 2013 Jan;56(1):e1-e25. doi: 10.1093/cid/cis803. Epub 2012 Dec 6.</citation>
+    <PMID>23223583</PMID>
+  </results_reference>
+  <verification_date>October 2019</verification_date>
+  <study_first_submitted>October 7, 2019</study_first_submitted>
+  <study_first_submitted_qc>October 7, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 8, 2019</study_first_posted>
+  <last_update_submitted>October 21, 2019</last_update_submitted>
+  <last_update_submitted_qc>October 21, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 23, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>periprosthetic hip infection</keyword>
+  <keyword>cellular neural networks</keyword>
+  <keyword>genetic algorithm</keyword>
+  <keyword>radiography</keyword>
+  <keyword>accuracy</keyword>
+  <keyword>early discrimination</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Infection</mesh_term>
+    <mesh_term>Communicable Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

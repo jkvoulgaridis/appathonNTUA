@@ -1,0 +1,157 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03842059</url>
+  </required_header>
+  <id_info>
+    <org_study_id>107-2314-B-016 -011-MY2</org_study_id>
+    <nct_id>NCT03842059</nct_id>
+  </id_info>
+  <brief_title>Computer-aided Detection for Colonoscopy</brief_title>
+  <official_title>Computer-aided Detection With Deep Learning for Colorectal Adenoma During Colonoscopic Examination</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Tri-Service General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Tri-Service General Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      We developed an artificial intelligent computer system with a deep neural network to analyze
+      real-time video signals from the endoscopy station. This randomised controlled trial compared
+      adenoma detection rate between computer-assisted colonoscopy and standard colonoscopy.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Colonoscopy is a primary screening and follow-up tool to detect colorectal cancer, a third
+      leading cause of cancer death in Taiwan. Most colorectal cancers (CRCs) arise from
+      preexisting adenomas, and the adenoma-carcinoma sequence offers an opportunity for the
+      screening and prevention of CRCs. The removal of adenomatous polyps can lower the incidence
+      of CRCs and result in reduced motality from CRCs. The adenoma detection rate, the proportion
+      of screening colonoscopies performed by a endoscopist that detect at least one colorectal
+      adenoma or adenocarcinoma, has been recommended as a quality indicator. The adenoma detection
+      rate was inversely associated with the risks of interval colorectal cancer, advanced-stage
+      interval cancer, and fatal interval cancer. However, adenoma detection rates vary widely
+      among endoscopists in both academic and community settings. Polyp miss rates as high as 20%
+      have been reported for high definition resolution colonoscopy. An improvement in adenoma
+      detection rate at screening colonoscopy, translates into reduced risks of interval colorectal
+      cancer and colorectal cancer death. Computer-aided detection of polyps might assist
+      endoscopists to reduce the miss rate and enhance screening performance during colonoscopy.
+      Computer-aided diagnosis and computer-aided detection are computerized systems that learn and
+      inference in medical fields. Computer-aided diagnosis has been developed in colon polyp
+      classification.
+
+      Computer-assisted image analysis has the potential to further aid adenoma detection but has
+      remained underdeveloped. A notable benefit of such a system is that no alteration of the
+      colonoscope or procedure is necessary. Machine learning with a deep neural network has been
+      successfully applied to many areas of science and technology, such as object recognition and
+      detection of computer vision, speech recognition, natural language processing. We developed
+      an artificial intelligent computer system (PX-1) with a deep neural network to analyze
+      real-time video signals from the endoscopy station. This randomised controlled trial compared
+      ADR between computer-assisted colonoscopy and standard colonoscopy.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">March 1, 2019</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Screening</primary_purpose>
+    <masking>Double (Participant, Care Provider)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Adenoma detection rate</measure>
+    <time_frame>During colonoscopic examination procedure</time_frame>
+    <description>Adenoma detection rate</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>adenomas detected per subject</measure>
+    <time_frame>During colonoscopic examination procedure</time_frame>
+    <description>adenomas detected per subject</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Compare Between Computer-assisted Colonoscopy and Standard Colonoscopy</condition>
+  <arm_group>
+    <arm_group_label>Computer-aided detection</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard colonoscopy</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Computer-aided detection</intervention_name>
+    <description>We developed an artificial intelligent computer system with a deep neural network (PX-1) to analyze real-time video signals from the endoscopy station</description>
+    <arm_group_label>Computer-aided detection</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Standard colonoscopy</intervention_name>
+    <description>Standard colonoscopy</description>
+    <arm_group_label>Standard colonoscopy</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Patients aged ≥20 years, scheduled for colonoscopy for one of the following indications for
+        colonoscopy, were invited to participate in this study: polyp surveillance, changed bowel
+        habits and/or bloody stools, bowel complaints, a positive family history for CRC, a
+        positive FOBT, abdominal pain, diarrhoea, post-polypectomy surveillance.
+
+        Exclusion Criteria:
+
+        We excluded patients from this study if: (1) they had known colonic neoplasia or
+        inflammatory or other significant colonic disease, such as patients specifically presenting
+        for polypectomy; (2) there was open bleeding or they were receiving an emergency
+        colonoscopy; (3) they had previously previous colonic resection; (4) they were in poor
+        general condition (more than American Society of Anesthesiologists grade III); (5) they
+        were receiving anticoagulant medication; (6) they had severe comorbidity, including
+        end-stage cardiovascular, pulmonary, liver or renal disease); (7) they were not able or
+        refused to give informed written consent; (8) following enrolment and randomisation to one
+        of the arms, those subjects who had inadequate colon preparation or in whom the caecum
+        could not be reached were also excluded.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <verification_date>February 2019</verification_date>
+  <study_first_submitted>February 13, 2019</study_first_submitted>
+  <study_first_submitted_qc>February 14, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 15, 2019</study_first_posted>
+  <last_update_submitted>February 14, 2019</last_update_submitted>
+  <last_update_submitted_qc>February 14, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 15, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Tri-Service General Hospital</investigator_affiliation>
+    <investigator_full_name>Peng-Jen Chen</investigator_full_name>
+    <investigator_title>Chief</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

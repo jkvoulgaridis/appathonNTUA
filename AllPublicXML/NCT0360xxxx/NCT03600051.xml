@@ -1,0 +1,146 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03600051</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GRZ03 (PbE)</org_study_id>
+    <nct_id>NCT03600051</nct_id>
+  </id_info>
+  <brief_title>Automated Phonocardiography Analysis in Adults</brief_title>
+  <official_title>Phonokardiographie Bei Erwachsenen</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>CSD Labs GmbH</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>CSD Labs GmbH</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Background: Computer aided auscultation in the differentiation of pathologic (AHA class I)
+      from no- or innocent murmurs (AHA class III) via artificial intelligence algorithms could be
+      a useful tool to assist healthcare providers in identifying pathological heart murmurs and
+      may avoid unnecessary referrals to medical specialists.
+
+      Objective: Assess the quality of the artificial intelligence (AI) algorithm that autonomously
+      detects and classifies heart murmurs as either pathologic (AHA class I) or as no- or innocent
+      (AHA class III).
+
+      Hypothesis: The algorithm used in this study is able to analyze and identify pathologic heart
+      murmurs (AHA class I) in an adult population with valve defects with a similar sensitivity
+      compared to medical specialist.
+
+      Methods: Each patient is auscultated and diagnosed independently by a medical specialist by
+      means of standard auscultation. Auscultation findings are verified via gold-standard
+      echocardiogram diagnosis. For each patient, a phonocardiogram (PCG) - a digital recording of
+      the heart sounds - is acquired. The recordings are later analyzed using the AI algorithm. The
+      algorithm results are compared to the findings of the medical professionals as well as to the
+      echocardiogram findings.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">December 10, 2015</start_date>
+  <completion_date type="Actual">January 31, 2017</completion_date>
+  <primary_completion_date type="Actual">January 18, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity for pathological heart murmur detection</measure>
+    <time_frame>2 months</time_frame>
+    <description>Ability to detect a pathological heart murmur in digital heart sound recordings obtained from an elderly population with heart valve disease.</description>
+  </primary_outcome>
+  <enrollment type="Actual">90</enrollment>
+  <condition>Aortic Insufficiency</condition>
+  <condition>Aortic Stenosis</condition>
+  <condition>Mitral Insufficiency</condition>
+  <condition>Mitral Insufficiency and Aortic Stenosis</condition>
+  <condition>Tricuspid Regurgitation</condition>
+  <condition>Insufficiency, Pulmonary</condition>
+  <condition>Insufficiency, Tricuspid</condition>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Automated Heart Murmur Detection AI</intervention_name>
+    <description>Automated AI algorithm-based analysis of digital heart sound recordings to detect pathological heart murmurs. Heart sound recordings were fully blinded before undergoing one-time automated analysis. Algorithm results for each recording included: AHA classification (I &quot;pathologic&quot; versus III &quot;innocent/no murmur&quot;), murmur timing, murmur grade, heart rate and S1/S2 identification.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Elderly in-patient subjects admitted to the Division of Cardiology, University Hospital
+        Graz, Austria. All patients had known pathological murmurs caused by multiple valve
+        defects, confirmed by gold standard echocardiography. Defects were interpreted by the
+        cardiologist as &quot;low, medium or high&quot; severity. Altogether, 155 valve defects were
+        observed, including insufficiencies of the aortic, mitral, tricuspid, and pulmonary valves;
+        and stenosis of the aortic and mitral valves.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adults with a heart defect verified by echocardiography
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Rita Riedlbauer, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Medical University of Graz</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University Hospital</name>
+      <address>
+        <city>Graz</city>
+        <state>Styria</state>
+        <zip>8010</zip>
+        <country>Austria</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Austria</country>
+  </location_countries>
+  <verification_date>July 2018</verification_date>
+  <study_first_submitted>July 16, 2018</study_first_submitted>
+  <study_first_submitted_qc>July 16, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 26, 2018</study_first_posted>
+  <last_update_submitted>July 16, 2018</last_update_submitted>
+  <last_update_submitted_qc>July 16, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 26, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Respiratory Insufficiency</mesh_term>
+    <mesh_term>Aortic Valve Stenosis</mesh_term>
+    <mesh_term>Tricuspid Valve Insufficiency</mesh_term>
+    <mesh_term>Mitral Valve Insufficiency</mesh_term>
+    <mesh_term>Aortic Valve Insufficiency</mesh_term>
+    <mesh_term>Pulmonary Valve Insufficiency</mesh_term>
+    <mesh_term>Constriction, Pathologic</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

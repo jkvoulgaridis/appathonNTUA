@@ -1,0 +1,260 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03721601</url>
+  </required_header>
+  <id_info>
+    <org_study_id>KUH507E015</org_study_id>
+    <nct_id>NCT03721601</nct_id>
+  </id_info>
+  <brief_title>Novel Methods for Arrhythmia Detection: Preliminary Study</brief_title>
+  <official_title>Novel Methods for Arrhythmia Detection: Chest Strap ECG and Wrist Band Photoplethysmography Compared to Holter-device for Atrial Fibrillation Detection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Kuopio University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Kuopio University Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Approximately 20-25% of strokes are of cardioembolic origin, atrial fibrillation (AF) being a
+      significant cause of cardioembolic strokes. AF is often symptomless and intermittent, making
+      its detection a clinical challenge. Currently the golden standard for diagnosis of AF is by
+      12-lead electrocardiogram (ECG) or any other ECG-strip.
+
+      The aim of the study is to assess the potential of chest strap as an ECG monitor, especially
+      in arrhythmia detection by cardiologist and algorithm.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Study design was a prospective case-control multicenter study at three sites in Finland.
+      Study material was collected in internal medicine emergency departments, cardiology wards and
+      cardiology examination units of participating hospitals, Kuopio University Hospital, Helsinki
+      University Central Hospital, Meilahti and North Karelia Central Hospital, Joensuu. The study
+      design was approved by University of Eastern Finland ethics committee (237/2017).
+
+      Study participants received a written information sheet about the study and were provided
+      with an opportunity to ask questions concerning the study. A written informed consent was
+      signed by the participants, including a permission to use patient's medical records.
+
+      Screening of study participants was made in participating hospitals from admitted patients in
+      May - September 2017. The inclusion criteria for study group patients was atrial fibrillation
+      confirmed by a doctor-interpreted 12-lead ECG, taken for medical reasons. Exclusion criteria
+      were: body mass index (BMI) over 33; implanted pacemaker device; 12-lead ECG findings of left
+      bundle branch block (LBBB) or right bundle branch block (RBBB); medical condition requiring
+      immediate treatment that would be delayed by the study measurements; serious infectious
+      disease. Control group consisted of patients with normal sinus rhythm in 12-lead ECG.
+
+      Demographics of study patients, including age, gender, previous medical history (as reported
+      by patient or from patient medical records), length, weight and BMI, was recorded.
+
+      First, a 12-lead ECG was taken over a period of 10 seconds for rhythm confirmation, after
+      which the ECG electrodes were removed. In the next step, altogether 5 wet electrodes were
+      attached to patient to record ECG with Faros 360 Holter device (Mega Elektroniikka, Kuopio,
+      Finland; device 1) to be used as golden standard for rhythm monitoring. Simultaneously a
+      heart rate monitoring chest strap (Suunto Movesense, Suunto, Vantaa, Finland; device 2) and
+      wrist band photoplethysmography (PPG) (Empatica E4, Empatica inc., Cambridge, United States)
+      was applied. A total of 5 min recording was made.
+
+      The data from heart rate chest strap was sent via Bluetooth connection to a mobile phone,
+      from which it was transferred via a cable to study computer; the data from Faros Holter
+      device was recorded to device´s internal memory card and transferred to analyzing software.
+      PPG data were transferred to MATLAB® software version R2017b for pre-processing and analysis.
+      The data collected was anonymized and ECG data from chest strap and Holter device was
+      analyzed using MATLAB software.
+
+      The quality of the ECG-strip was defined as good (no or only minor artefacts), average
+      (artefacts but QRS and/or P-wave identifiable) or poor (major artefacts, no identifiable QRS
+      and/or P-wave) by the cardiologist. The rhythm from the ECG-strips was divided to three
+      categories: sinus rhythm (SR), atrial fibrillation (AF) or other/inconclusive. The
+      cardiologists also assessed the possibility to detect P-waves from the ECG-strips with sinus
+      rhythm (yes/no).
+
+      The study population consisted of total 220 patients. According to the initial 12-lead ECG,
+      total 110 patients with atrial fibrillation were collected, and control group consisted of
+      110 patients with normal sinus rhythm. The initial 12-lead ECG was only used to recruitment
+      process of patients; later the division to sinus rhythm, atrial fibrillation or other rhythm
+      used in the final analysis was made according to the cardiologist-interpreted Holter ECG.
+
+      Two commonly used AF detection algorithms were used in this work. Algorithms were used to
+      demonstrate possibilities of automatic screening of AF using chest strap ECG devices with
+      automated analysis.
+
+      Holter ECG serving as golden standard a total of 218 patients were included and 2 were
+      excluded in the analysis. 2 of 220 3-lead Holter ECGs could be classified neither as sinus
+      rhythm nor atrial fibrillation. One of them converted from atrial flutter to sinus rhythm
+      during analysis and the quality of other ECG was insufficient for rhythm analysis. These two
+      Holter ECGs and the corresponding chest strap ECGs were excluded from final analysis.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">May 1, 2017</start_date>
+  <completion_date type="Actual">September 30, 2017</completion_date>
+  <primary_completion_date type="Actual">September 30, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Chest strap and PPG-device data quality</measure>
+    <time_frame>5 minutes</time_frame>
+    <description>Sensitivity and positive predictive value for the beat detection of chest strap ECG and PPG measurements and sensitivity and specificity for the atrial fibrillation detection</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Chest strap and PPG-device data quality to enable arrhythmia diagnosis</measure>
+    <time_frame>5 minutes</time_frame>
+    <description>Sensitivity and Specificity for the atrial fibrillation detection of chest strap ECG and PPG measurements.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">220</enrollment>
+  <condition>Stroke</condition>
+  <condition>Atrial Fibrillation</condition>
+  <arm_group>
+    <arm_group_label>Atrial fibrillation</arm_group_label>
+    <description>Patients in atrial fibrillation as recorded by 3-lead Holter.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Sinus rhythm</arm_group_label>
+    <description>Patients in sinus rhythm as recorded by 3-lead Holter.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Heart rate monitor chest strap</intervention_name>
+    <description>Simultaneously with 5min Holter recording, 5min recording of chest strap ECG.</description>
+    <arm_group_label>Atrial fibrillation</arm_group_label>
+    <arm_group_label>Sinus rhythm</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Wrist band photoplethysmography</intervention_name>
+    <description>Simultaneously with 5min Holter recording, 5min recording wrist band photoplethysmography.</description>
+    <arm_group_label>Atrial fibrillation</arm_group_label>
+    <arm_group_label>Sinus rhythm</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients in internal medicine emergency department, cardiology ward, cardiology examination
+        unit
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Atrial fibrillation in 12-lead ECG
+
+        Exclusion Criteria:
+
+          -  body mass index (BMI) over 33
+
+          -  implanted pacemaker device
+
+          -  12-lead ECG findings of left bundle branch block (LBBB) or right bundle branch block
+             (RBBB)
+
+          -  medical condition requiring immediate treatment that would be delayed by the study
+             measurements
+
+          -  serious infectious disease
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Tero Martikainen, MD, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Kuopio University Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Helsinki University hospital</name>
+      <address>
+        <city>Helsinki</city>
+        <zip>00029</zip>
+        <country>Finland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>North Carelia central hospital</name>
+      <address>
+        <city>Joensuu</city>
+        <zip>80210</zip>
+        <country>Finland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Kuopio University Hospital</name>
+      <address>
+        <city>Kuopio</city>
+        <zip>70029</zip>
+        <country>Finland</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Finland</country>
+  </location_countries>
+  <reference>
+    <citation>Freedman B, Camm J, Calkins H, Healey JS, Rosenqvist M, Wang J, Albert CM, Anderson CS, Antoniou S, Benjamin EJ, Boriani G, Brachmann J, Brandes A, Chao TF, Conen D, Engdahl J, Fauchier L, Fitzmaurice DA, Friberg L, Gersh BJ, Gladstone DJ, Glotzer TV, Gwynne K, Hankey GJ, Harbison J, Hillis GS, Hills MT, Kamel H, Kirchhof P, Kowey PR, Krieger D, Lee VWY, Levin LÅ, Lip GYH, Lobban T, Lowres N, Mairesse GH, Martinez C, Neubeck L, Orchard J, Piccini JP, Poppe K, Potpara TS, Puererfellner H, Rienstra M, Sandhu RK, Schnabel RB, Siu CW, Steinhubl S, Svendsen JH, Svennberg E, Themistoclakis S, Tieleman RG, Turakhia MP, Tveit A, Uittenbogaart SB, Van Gelder IC, Verma A, Wachter R, Yan BP; AF-Screen Collaborators. Screening for Atrial Fibrillation: A Report of the AF-SCREEN International Collaboration. Circulation. 2017 May 9;135(19):1851-1867. doi: 10.1161/CIRCULATIONAHA.116.026693. Review.</citation>
+    <PMID>28483832</PMID>
+  </reference>
+  <reference>
+    <citation>Kirchhof P, Benussi S, Kotecha D, Ahlsson A, Atar D, Casadei B, Castellá M, Diener HC, Heidbuchel H, Hendriks J, Hindricks G, Manolis AS, Oldgren J, Alexandru Popescu B, Schotten U, Van Putte B, Vardas P. 2016 ESC Guidelines for the Management of Atrial Fibrillation Developed in Collaboration With EACTS. Rev Esp Cardiol (Engl Ed). 2017 Jan;70(1):50. doi: 10.1016/j.rec.2016.11.033. English, Spanish. Erratum in: Rev Esp Cardiol (Engl Ed). 2017 Nov;70(11):1031.</citation>
+    <PMID>28038729</PMID>
+  </reference>
+  <reference>
+    <citation>Nemati S, Ghassemi MM, Ambai V, Isakadze N, Levantsevych O, Shah A, Clifford GD. Monitoring and detecting atrial fibrillation using wearable technology. Conf Proc IEEE Eng Med Biol Soc. 2016 Aug;2016:3394-3397. doi: 10.1109/EMBC.2016.7591456.</citation>
+    <PMID>28269032</PMID>
+  </reference>
+  <reference>
+    <citation>Thijs V. Atrial Fibrillation Detection: Fishing for An Irregular Heartbeat Before and After Stroke. Stroke. 2017 Oct;48(10):2671-2677. doi: 10.1161/STROKEAHA.117.017083. Epub 2017 Sep 15. Review.</citation>
+    <PMID>28916671</PMID>
+  </reference>
+  <reference>
+    <citation>Mairesse GH, Moran P, Van Gelder IC, Elsner C, Rosenqvist M, Mant J, Banerjee A, Gorenek B, Brachmann J, Varma N, Glotz de Lima G, Kalman J, Claes N, Lobban T, Lane D, Lip GYH, Boriani G; ESC Scientific Document Group. Screening for atrial fibrillation: a European Heart Rhythm Association (EHRA) consensus document endorsed by the Heart Rhythm Society (HRS), Asia Pacific Heart Rhythm Society (APHRS), and Sociedad Latinoamericana de Estimulación Cardíaca y Electrofisiología (SOLAECE). Europace. 2017 Oct 1;19(10):1589-1623. doi: 10.1093/europace/eux177. Review. Erratum in: Europace. 2018 Apr 1;20(4):658.</citation>
+    <PMID>29048522</PMID>
+  </reference>
+  <verification_date>November 2018</verification_date>
+  <study_first_submitted>February 28, 2018</study_first_submitted>
+  <study_first_submitted_qc>October 24, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 26, 2018</study_first_posted>
+  <last_update_submitted>November 1, 2018</last_update_submitted>
+  <last_update_submitted_qc>November 1, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 5, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>atrial fibrillation</keyword>
+  <keyword>stroke</keyword>
+  <keyword>atrial fibrillation screening</keyword>
+  <keyword>heart rate monitoring</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atrial Fibrillation</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

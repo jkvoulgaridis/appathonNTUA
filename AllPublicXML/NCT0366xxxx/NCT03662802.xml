@@ -1,0 +1,203 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03662802</url>
+  </required_header>
+  <id_info>
+    <org_study_id>027527</org_study_id>
+    <nct_id>NCT03662802</nct_id>
+  </id_info>
+  <brief_title>Development of a Novel Convolution Neural Network for Arrhythmia Classification</brief_title>
+  <acronym>AI-ECG</acronym>
+  <official_title>Development of a Novel Convolution Neural Network for Arrhythmia Classification: The REVIVE-ECG Validation Trial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Scripps Clinic</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Scripps Health</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Identifying the correct arrhythmia at the time of a clinic event including cardiac arrest is
+      of high priority to patients, healthcare organizations, and to public health. Recent
+      developments in artificial intelligence and machine learning are providing new opportunities
+      to rapidly and accurately diagnose cardiac arrhythmias and for how new mobile health and
+      cardiac telemetry devices are used in patient care. The current investigation aims to
+      validate a new artificial intelligence statistical approach called 'convolution neural
+      network classifier' and its performance to different arrhythmias diagnosed on 12-lead ECGs
+      and single-lead Holter/event monitoring. These arrhythmias include; atrial fibrillation,
+      supraventricular tachycardia, AV-block, asystole, ventricular tachycardia and ventricular
+      fibrillation, and will be benchmarked to the American Heart Association performance criteria
+      (95% one-sided confidence interval of 67-92% based on arrhythmia type). In order to do so,
+      the study approach is to create a large ECG database of de-identified raw ECG data, and to
+      train the neural network on the ECG data in order to improve the diagnostic accuracy.
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">October 2018</start_date>
+  <completion_date type="Anticipated">October 2019</completion_date>
+  <primary_completion_date type="Anticipated">October 2019</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <target_duration>1 Year</target_duration>
+  <primary_outcome>
+    <measure>Diagnostic Accuracy</measure>
+    <time_frame>1 YEAR</time_frame>
+    <description>American Heart Association ECG Performance Criteria</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">2000</enrollment>
+  <condition>Arrhythmias, Cardiac</condition>
+  <condition>Cardiac Arrest</condition>
+  <condition>Cardiac Arrythmias</condition>
+  <arm_group>
+    <arm_group_label>ECG Data</arm_group_label>
+    <description>Coded data including; wavelengths, amplitude, intervals, timing, frequence</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Neural Network Classifier</intervention_name>
+    <description>The convolutional neural network is configured to receive an electrocardiogram segment as an input and to generate an output indicative of whether the received electrocardiogram segment represents a cardiac arrhythmia. No specific features of the electrocardiogram are identified to the convolutional neural network, and the received electrocardiogram segment is not filtered, transformed, or processed prior to reception by the algorithm. The algorithm is trained in a similar manner - the electrocardiogram segments are the sole input to the convolutional neural network.</description>
+    <arm_group_label>ECG Data</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Individuals undergoing a 12-lead ECG or Holter/Event monitoring
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All ECG data compiled from 12-lead ECG, single, and multiple lead databases
+
+        Exclusion Criteria:
+
+          -  None
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sanjeev Bhavnani, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Scripps Clinic and Research Institute</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Sanjeev Bhavnani, MD</last_name>
+    <phone>6308028202</phone>
+    <email>bhavnani.sanjeev@scrippshealth.org</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Scripps Clinic</name>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <zip>92037</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Johnson KW, Torres Soto J, Glicksberg BS, Shameer K, Miotto R, Ali M, Ashley E, Dudley JT. Artificial Intelligence in Cardiology. J Am Coll Cardiol. 2018 Jun 12;71(23):2668-2679. doi: 10.1016/j.jacc.2018.03.521. Review.</citation>
+    <PMID>29880128</PMID>
+  </reference>
+  <reference>
+    <citation>Kiranyaz S, Ince T, Gabbouj M. Real-Time Patient-Specific ECG Classification by 1-D Convolutional Neural Networks. IEEE Trans Biomed Eng. 2016 Mar;63(3):664-75. doi: 10.1109/TBME.2015.2468589. Epub 2015 Aug 14.</citation>
+    <PMID>26285054</PMID>
+  </reference>
+  <results_reference>
+    <citation>Bhavnani SP, Parakh K, Atreja A, Druz R, Graham GN, Hayek SS, Krumholz HM, Maddox TM, Majmudar MD, Rumsfeld JS, Shah BR. 2017 Roadmap for Innovation-ACC Health Policy Statement on Healthcare Transformation in the Era of Digital Health, Big Data, and Precision Health: A Report of the American College of Cardiology Task Force on Health Policy Statements and Systems of Care. J Am Coll Cardiol. 2017 Nov 28;70(21):2696-2718. doi: 10.1016/j.jacc.2017.10.018.</citation>
+    <PMID>29169478</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Bhavnani SP, Narula J, Sengupta PP. Mobile technology and the digitization of healthcare. Eur Heart J. 2016 May 7;37(18):1428-38. doi: 10.1093/eurheartj/ehv770. Epub 2016 Feb 11. Review.</citation>
+    <PMID>26873093</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Vandendriessche B, Abas M, Dick TE, Loparo KA, Jacono FJ. A Framework for Patient State Tracking by Classifying Multiscalar Physiologic Waveform Features. IEEE Trans Biomed Eng. 2017 Dec;64(12):2890-2900. doi: 10.1109/TBME.2017.2684244. Epub 2017 Mar 17.</citation>
+    <PMID>28328498</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Arvanaghi R, Daneshvar S, Seyedarabi H, Goshvarpour A. Fusion of ECG and ABP signals based on wavelet transform for cardiac arrhythmias classification. Comput Methods Programs Biomed. 2017 Nov;151:71-78. doi: 10.1016/j.cmpb.2017.08.013. Epub 2017 Aug 24.</citation>
+    <PMID>28947007</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Figuera C, Irusta U, Morgado E, Aramendi E, Ayala U, Wik L, Kramer-Johansen J, Eftestøl T, Alonso-Atienza F. Machine Learning Techniques for the Detection of Shockable Rhythms in Automated External Defibrillators. PLoS One. 2016 Jul 21;11(7):e0159654. doi: 10.1371/journal.pone.0159654. eCollection 2016.</citation>
+    <PMID>27441719</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Li Q, Rajagopalan C, Clifford GD. Ventricular fibrillation and tachycardia classification using a machine learning approach. IEEE Trans Biomed Eng. 2014 Jun;61(6):1607-13. doi: 10.1109/TBME.2013.2275000. Epub 2013 Jul 26.</citation>
+    <PMID>23899591</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Lyon A, Mincholé A, Martínez JP, Laguna P, Rodriguez B. Computational techniques for ECG analysis and interpretation in light of their contribution to medical advances. J R Soc Interface. 2018 Jan;15(138). pii: 20170821. doi: 10.1098/rsif.2017.0821. Review.</citation>
+    <PMID>29321268</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Mjahad A, Rosado-Muñoz A, Bataller-Mompeán M, Francés-Víllora JV, Guerrero-Martínez JF. Ventricular Fibrillation and Tachycardia detection from surface ECG using time-frequency representation images as input dataset for machine learning. Comput Methods Programs Biomed. 2017 Apr;141:119-127. doi: 10.1016/j.cmpb.2017.02.010. Epub 2017 Feb 10.</citation>
+    <PMID>28241963</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Xiong Z, Nash MP, Cheng E, Fedorov VV, Stiles MK, Zhao J. ECG signal classification for the detection of cardiac arrhythmias using a convolutional recurrent neural network. Physiol Meas. 2018 Sep 24;39(9):094006. doi: 10.1088/1361-6579/aad9ed.</citation>
+    <PMID>30102248</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Fan X, Yao Q, Cai Y, Miao F, Sun F, Li Y. Multiscaled Fusion of Deep Convolutional Neural Networks for Screening Atrial Fibrillation From Single Lead Short ECG Recordings. IEEE J Biomed Health Inform. 2018 Nov;22(6):1744-1753. doi: 10.1109/JBHI.2018.2858789. Epub 2018 Aug 7.</citation>
+    <PMID>30106699</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Warrick PA, Nabhan Homsi M. Ensembling convolutional and long short-term memory networks for electrocardiogram arrhythmia detection. Physiol Meas. 2018 Oct 30;39(11):114002. doi: 10.1088/1361-6579/aad386.</citation>
+    <PMID>30010088</PMID>
+  </results_reference>
+  <verification_date>September 2018</verification_date>
+  <study_first_submitted>September 5, 2018</study_first_submitted>
+  <study_first_submitted_qc>September 5, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 7, 2018</study_first_posted>
+  <last_update_submitted>September 5, 2018</last_update_submitted>
+  <last_update_submitted_qc>September 5, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 7, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Scripps Clinic</investigator_affiliation>
+    <investigator_full_name>Sanjeev Bhavnani MD</investigator_full_name>
+    <investigator_title>Principal Investigator - Healthcare Innovation</investigator_title>
+  </responsible_party>
+  <keyword>artificial intelligence</keyword>
+  <keyword>machine learning</keyword>
+  <keyword>neural network</keyword>
+  <keyword>cardiac arrhythmia</keyword>
+  <keyword>ECG</keyword>
+  <keyword>EKG</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Arrhythmias, Cardiac</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

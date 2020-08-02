@@ -1,0 +1,241 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04261062</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1-2019-0080</org_study_id>
+    <nct_id>NCT04261062</nct_id>
+  </id_info>
+  <brief_title>Validity Test of Wearable Continuous Blood Pressure Measuring System</brief_title>
+  <official_title>Validity Test of Wearable Continuous Blood Pressure Measuring System</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Yonsei University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Yonsei University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      1. Purpose of Research For the feasibility test of a wearable blood pressure measuring
+           device, biometric data of patients in surgical intensive care is simultaneously obtained
+           and stored from the device and a patient monitor.
+
+        2. Overview of Research Design This research is simply to obtain and store the data: 1)
+           invasive arterial blood pressure measured with a patient monitor from one wrist, and 2)
+           multi-wavelength photoplethysmography and pressure signal measured with the developed
+           wearable device from the other wrist.
+
+        3. Medical Device for Clinical Trial Patient monitor (IntelliVue MX700, Philips, NED) and
+           wearable blood pressure measuring device
+
+        4. Target Recruiting Number of Participants Considering the expected patient number in
+           intensive care and 10% dropout rate during the research period, the target recurring
+           number of participants is 220.
+
+        5. Criteria of Participant Inclusion
+
+             1. Adult patient in surgical intensive care of Severance Hospital
+
+             2. Voluntarily agreed to participate the research and not included to the exclusion
+                criteria
+
+        6. Criteria of Participant Exclusion
+
+             1. Patient with occlusive peripheral arterial disease
+
+             2. Patient with cardiovascular disease of serious arrhythmia except atrial
+                fibrillation
+
+             3. Patient administered high-dose of pressor agent over 15 mcg/min
+
+             4. Patient who is not available for measurement of invasive arterial blood pressure
+
+             5. Patient who is not available to wear an wearable device on the wrist
+
+             6. Pregnant woman, minor
+
+        7. Evaluation Parameter
+
+             1. Systolic and diastolic blood pressure, which extracted in mmHg unit from the
+                continuous blood pressure output of patient monitor.
+
+             2. Blood pressure, which estimated by the signal analysis of multi-wavelength
+                photoplethysmography and pressure signal measured with the wearable device.
+
+        8. Data Analysis and Statistical Methods
+
+             1. From the multi-wavelength photoplethysmography and multi-channel pressure signal
+                measured, continuous blood pressure will be estimated through the hemodynamic model
+                and machine learning model.
+
+             2. For the machine learning model, the data obtained will be divided into the training
+                data and evaluation data, with the ratio of 80% and 20%.
+
+             3. In order to evaluate the accuracy of the estimated blood pressure, the invasive
+                arterial blood pressure will be considered as the reference blood pressure. Between
+                the estimated blood pressure and the reference blood pressure, the correlation and
+                root mean square error (RMSE) will be calculated.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      1. Recruit participants.
+
+        2. Explain the research purpose and details, and then have the participant sign the consent
+           form.
+
+        3. Before starting the measurement, gather the participant's information such as age,
+           length, and weight.
+
+        4. Measure noninvasive blood pressure in both arms. Compared to the blood pressure in the
+           arm where inserted a catheter, confirm if difference of systolic or diastolic blood
+           pressure in the other side of arm is not more than 10%.
+
+        5. Wear the wearable device on the opposite wrist from the catheter-inserted.
+
+        6. For 10 minutes, simultaneously obtain the data: 1) invasive arterial blood pressure
+           measured with a patient monitor, and 2) multi-wavelength photoplethysmography and
+           pressure signal measured with the developed wearable device.
+
+        7. For accuracy of data acquisition, repeat twice the procedure 5-7 by performing it in the
+           morning and in the afternoon with the 5 hours interval.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">May 7, 2020</start_date>
+  <completion_date type="Anticipated">January 2022</completion_date>
+  <primary_completion_date type="Anticipated">January 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Title quality of pulsewave</measure>
+    <time_frame>2 years</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>User Comfortability</measure>
+    <time_frame>2 years</time_frame>
+    <description>Abnormal symptoms or discomforts reported in wearing device</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">220</enrollment>
+  <condition>Patients in Surgical Intensive Care</condition>
+  <arm_group>
+    <arm_group_label>Subject</arm_group_label>
+    <description>Patients in surgical intensive unit</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients in surgical intensive care
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Adult patient in surgical intensive care of Severance Hospital
+
+          2. Voluntarily agreed to participate the research and not included to the exclusion
+             criteria
+
+        Exclusion Criteria:
+
+          1. Patient with occlusive peripheral arterial disease
+
+          2. Patient with cardiovascular disease of serious arrhythmia except atrial fibrillation
+
+          3. Patient administered high-dose of pressor agent over 15 mcg/min
+
+          4. Patient who is not available for measurement of invasive arterial blood pressure
+
+          5. Patient who is not available to wear an wearable device on the wrist
+
+          6. Pregnant woman, minor
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Yonsei University College of Medicine, Department of Anesthesiology and Pain Medicine</name>
+      <address>
+        <city>Seoul</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jeongmin Kim</last_name>
+      <phone>82-2-2227-3569</phone>
+      <email>anesjeongmin@yuhs.ac</email>
+    </contact>
+    <investigator>
+      <last_name>Jeongmin Kim</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>KwanHyung Kim</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <reference>
+    <citation>Hughes DJ, Babbs CF, Geddes LA, Bourland JD. Measurements of Young's modulus of elasticity of the canine aorta with ultrasound. Ultrason Imaging. 1979 Oct;1(4):356-67.</citation>
+    <PMID>575833</PMID>
+  </reference>
+  <reference>
+    <citation>Liu J, Yan BP, Dai WX, Ding XR, Zhang YT, Zhao N. Multi-wavelength photoplethysmography method for skin arterial pulse extraction. Biomed Opt Express. 2016 Sep 27;7(10):4313-4326. eCollection 2016 Oct 1.</citation>
+    <PMID>27867733</PMID>
+  </reference>
+  <reference>
+    <citation>Guanqun Zhang, Cottrell AC, Henry IC, McCombie DB. Assessment of pre-ejection period in ambulatory subjects using seismocardiogram in a wearable blood pressure monitor. Conf Proc IEEE Eng Med Biol Soc. 2016 Aug;2016:3386-3389. doi: 10.1109/EMBC.2016.7591454.</citation>
+    <PMID>28269030</PMID>
+  </reference>
+  <reference>
+    <citation>Corino VD, Lombardi F, Mainardi LT. Blood pressure variability in patients with atrial fibrillation. Auton Neurosci. 2014 Oct;185:129-33. doi: 10.1016/j.autneu.2014.08.002. Epub 2014 Aug 17.</citation>
+    <PMID>25183309</PMID>
+  </reference>
+  <reference>
+    <citation>Michard F. Changes in arterial pressure during mechanical ventilation. Anesthesiology. 2005 Aug;103(2):419-28; quiz 449-5. Review.</citation>
+    <PMID>16052125</PMID>
+  </reference>
+  <reference>
+    <citation>Russell JA, Walley KR, Singer J, Gordon AC, Hébert PC, Cooper DJ, Holmes CL, Mehta S, Granton JT, Storms MM, Cook DJ, Presneill JJ, Ayers D; VASST Investigators. Vasopressin versus norepinephrine infusion in patients with septic shock. N Engl J Med. 2008 Feb 28;358(9):877-87. doi: 10.1056/NEJMoa067373.</citation>
+    <PMID>18305265</PMID>
+  </reference>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>February 6, 2020</study_first_submitted>
+  <study_first_submitted_qc>February 6, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 7, 2020</study_first_posted>
+  <last_update_submitted>July 21, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 21, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 23, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

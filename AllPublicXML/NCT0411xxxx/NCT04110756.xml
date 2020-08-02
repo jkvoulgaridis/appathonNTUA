@@ -1,0 +1,267 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04110756</url>
+  </required_header>
+  <id_info>
+    <org_study_id>19-28893</org_study_id>
+    <nct_id>NCT04110756</nct_id>
+  </id_info>
+  <brief_title>ChangeGradients: Promoting Adolescent Health Behavior Change</brief_title>
+  <official_title>Promoting Adolescent Health Behavior Change With Clinically Integrated Sample-Efficient Policy Gradient Methods</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of California, San Francisco</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>North Carolina State University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of California, San Francisco</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      As most adolescents visit a healthcare provider once a year, health behavior change
+      interventions linked to clinic-based health information technologies hold significant promise
+      for improving healthcare quality and subsequent behavioral health outcomes for adolescents
+      (Baird, 2014, Harris, 2017). Recognizing the potential to leverage recent advances in machine
+      learning and interactive narrative environments, the investigators are now well positioned to
+      design health behavior change systems that extend the reach of clinicians to realize
+      significant impacts on behavior change for adolescent preventive health.
+
+      The proposed project centers on the design, development, and evaluation of a
+      clinically-integrated health behavior change system for adolescents. CHANGEGRADIENTS will
+      introduce an innovative reinforcement learning-based feedback loop in which adolescent
+      patients interact with personalized behavior change interactive narratives that are
+      dynamically personalized and realized in a rich narrative-centered virtual environment.
+      CHANGEGRADIENTS will iteratively improve its behavior change models using policy gradient
+      methods for Reinforcement Learning (RL) designed to optimize adolescents' achieved behavior
+      change outcomes. This in turn will enable CHANGEGRADIENTS to generate more effective behavior
+      change narratives, which will then lead to further improved behavior change outcomes. With a
+      focus on risky behaviors and an emphasis on alcohol use, adolescents will interact with
+      CHANGEGRADIENTS to develop an experiential understanding of the dynamics and consequences of
+      their alcohol use decisions. The proposed project holds significant transformative potential
+      for (1) producing theoretical and practical advances in how to realize significant impacts on
+      adolescent health behavior change through novel interactive narrative technologies integrated
+      with policy-based reinforcement learning, (2) devising sample-efficient policy gradient
+      methods for RL that produce personalized behavior change experiences by integrating
+      theoretically based models of health behavior change with data-driven models of interactive
+      narrative generation, and (3) promoting new models for integrating personalized health
+      behavior change technologies into clinical care that extend the effective reach of
+      clinicians.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Because the majority of adolescent health problems are amenable to behavioral intervention
+      and most adolescents visit a healthcare provider once a year, health behavior change
+      interventions linked to clinic- based health information technologies hold significant
+      promise for improving healthcare quality and subsequent behavioral health outcomes for
+      adolescents. Recognizing the potential to leverage advances in machine learning and virtual
+      narrative environments, the field of health behavior change is now well-positioned to design
+      health behavior change systems that extend the reach of clinicians to realize significant
+      impacts on behavior change for adolescent preventive health.
+
+      With a focus on risky behaviors and an emphasis on alcohol use, the project has two specific
+      aims: (1) design, develop, and iteratively refine a policy-based reinforcement learning
+      behavior change system for preventive adolescent health, and (2) investigate the impact of a
+      clinically integrated sample-efficient policy gradient-based behavior change system on
+      adolescent behavior. The project will culminate with an investigation of the behavioral
+      effects of the CHANGEGRADIENTS system using adolescent patients recruited from two outpatient
+      primary care clinics within the UCSF Department of Pediatrics: Mt. Zion Pediatrics and the
+      Adolescent/Young Adult Clinic. It is hypothesized that adolescents who interact with
+      CHANGEGRADIENTS will reduce number of days of alcohol use, reduce binge drinking, and
+      increase self-efficacy to engage in healthy behavior and avoid risky substance use.
+
+      It is anticipated that CHANGEGRADIENTS will provide a testbed for a broad range of health
+      behavior change research and serve as the foundation for next-generation personalized
+      preventive healthcare through computationally-enabled behavior change that is designed to be
+      tightly integrated into clinical practice workflow. By taking advantage of the high degree of
+      adaptive interactivity offered by its personalized behavior change environment,
+      CHANGEGRADIENTS holds significant potential for creating compelling interactions that promote
+      self-efficacy and engagement in healthy lifestyle behaviors to prevent cancer through
+      improving cancer-related behaviors and risk factors.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">October 2020</start_date>
+  <completion_date type="Anticipated">March 2023</completion_date>
+  <primary_completion_date type="Anticipated">March 2023</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>In Year 4 of the study, we will investigate the effect of the CHANGEGRADIENTS system on behavior related to alcohol use:100 adolescents will be enrolled in the CHANGEGRADIENTS intervention, and 100 will be enrolled in the comparison, non-intervention condition, for a total of 200 participants.</intervention_model_description>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Alcohol use</measure>
+    <time_frame>30 days</time_frame>
+    <description>Standard validated questions taken from the &quot;Alcohol and other Drug Use&quot; scale of the Youth Risk Behavior Surveillance Survey (CDC surveillance system that monitors adolescent risk behavior).
+Measures include quantity and frequency of use and safety (drinking and driving).
+Current use of alcohol measured by quantity and frequency of use in the past 30 days (Centers for Disease Control and Prevention, 2018)
+Scale ranges vary based on questions:
+Questions are scored individually. Questions about alcohol use in general (past 12 months and ever) are binary Yes/No questions, No = 0, Yes = 1.
+Values on the questions about alcohol use in the past 30 days are scored on a scale from 0-7, with higher values corresponding to greater alcohol consumption.
+Questions about drinking and driving are scored from 0-5 with higher numbers corresponding to more frequent instances of driving/being driven by others after alcohol was consumed</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Self-efficacy: tool developed by Drs Elizabeth Ozer and Dr. Albert Bandura</measure>
+    <time_frame>30 days</time_frame>
+    <description>Self-efficacy will be measured by a tool developed by Drs Elizabeth Ozer and Dr. Albert Bandura for this study.
+The tool assesses confidence in avoiding drinking in various scenarios. Participants are asked, &quot;Please rate how confident you are that you can avoid drinking in each situation on a scale from 0 to 10. A rating of 0 indicates that you are not at all confident that you can avoid drinking. A rating of 5 indicates that you are moderately confident that you can avoid drinking. A rating of 10 indicates that you are completely confident that you can avoid drinking.&quot; Scenarios include, &quot;When a close friend offers you a drink,&quot; and, &quot;When you feel depressed or nervous.&quot; This scale is scored by summing participant responses and dividing by the number of questions to obtain a mean self-efficacy score.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Quality of Care: Adolescent Report of the Visit (AROV)</measure>
+    <time_frame>Immediately following baseline clinic visit</time_frame>
+    <description>The Adolescent Report of the Visit (AROV) is a validated measure to assess the quality of care delivered to adolescents (Ozer, 2004), which has been utilized in clinics nationally and internationally (Sanci, 2015).
+We are specifically using questions from this measure assessing provider rates of screening and counseling adolescents for alcohol use during adolescent visits.
+All questions are scored separately and are binary Yes/No with No = 0 and Yes = 1. An answer of Yes indicates higher quality of care, as questions probe for information such as: if the patient's doctor asked about their alcohol use habits, expressed concern about alcohol use, counseled against alcohol use, etc.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Alcohol Drinking</condition>
+  <condition>Self Efficacy</condition>
+  <condition>Adolescent Behavior</condition>
+  <condition>Risk-Taking</condition>
+  <condition>Cancer</condition>
+  <arm_group>
+    <arm_group_label>ChangeGradients</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>100 adolescents will be enrolled in the CHANGEGRADIENTS intervention.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Comparison, non-intervention condition</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>100 participants will not participate in the ChangeGradients intervention, and will continue to have treatment as usual at the clinic.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>ChangeGradients</intervention_name>
+    <description>In the proposed intervention, adolescents at the UCSF clinics who endorse alcohol use on the Health e-Check screen, a 5-minute confidential risk behavior module, will be randomly assigned to either the CHANGEGRADIENTS Intervention or Comparison (no intervention). The CHANGEGRADIENTS system will generate behavior change narrative episodes that are tailored to the adolescent (e.g. level of alcohol use) while also universally addressing a core set of topics related to health behavior change. Shortly following the clinic visit, through 4 weekly, 20 minute episodes, adolescent participants will interact with the CHANGEGRADIENTS health behavior change environment outside of clinic. Adolescents will complete a brief alcohol screening—past 7-day use—at the beginning of each episode. At the end of the final episode, the system will produce an individualized adolescent report that summarizes use of the CHANGEGRADIENTS modules as well as self-reported alcohol use since clinic visit baseline.</description>
+    <arm_group_label>ChangeGradients</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adolescents between the ages of 15 and 17 years of age
+
+          -  Report current alcohol use
+
+          -  Presenting for a well-visit at UCSF Pediatric primary care clinics (the Mt. Zion
+             Pediatric Primary Care Practices at UCSF and The Adolescent/Young Adult Clinic at
+             UCSF)
+
+        Exclusion Criteria:
+
+          -  Non-English speakers
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>15 Years</minimum_age>
+    <maximum_age>17 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Elizabeth Ozer, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of California, San Francisco</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of California, San Francisco</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94118</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Alison Giovanelli, PhD</last_name>
+      <phone>805-405-0772</phone>
+      <email>alison.giovanelli@ucsf.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Elizabeth Ozer, PhD</last_name>
+      <phone>415-502-4851</phone>
+      <email>Elizabeth.Ozer@ucsf.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Elizabeth M Ozer, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://www.cdc.gov/alcohol/fact-sheets/underage-drinking.htm</url>
+    <description>Centers for Disease Control and Prevention. Fact sheets-underage drinking - Alcohol 2018</description>
+  </link>
+  <reference>
+    <citation>Baird A, Nowak S. Why primary care practices should become digital health information hubs for their patients. BMC Fam Pract. 2014 Nov 25;15:190. doi: 10.1186/s12875-014-0190-9.</citation>
+    <PMID>25421733</PMID>
+  </reference>
+  <reference>
+    <citation>Harris SK, Aalsma MC, Weitzman ER, Garcia-Huidobro D, Wong C, Hadland SE, Santelli J, Park MJ, Ozer EM. Research on Clinical Preventive Services for Adolescents and Young Adults: Where Are We and Where Do We Need to Go? J Adolesc Health. 2017 Mar;60(3):249-260. doi: 10.1016/j.jadohealth.2016.10.005. Epub 2016 Dec 20. Review.</citation>
+    <PMID>28011064</PMID>
+  </reference>
+  <reference>
+    <citation>Ozer EM, Bandura A. Mechanisms governing empowerment effects: a self-efficacy analysis. J Pers Soc Psychol. 1990 Mar;58(3):472-86.</citation>
+    <PMID>2324938</PMID>
+  </reference>
+  <reference>
+    <citation>Ozer EM, Adams SH, Orrell-Valente JK, Wibbelsman CJ, Lustig JL, Millstein SG, Garber AK, Irwin CE Jr. Does delivering preventive services in primary care reduce adolescent risky behavior? J Adolesc Health. 2011 Nov;49(5):476-82. doi: 10.1016/j.jadohealth.2011.02.011. Epub 2011 Jun 8.</citation>
+    <PMID>22018561</PMID>
+  </reference>
+  <reference>
+    <citation>Sanci L, Chondros P, Sawyer S, Pirkis J, Ozer E, Hegarty K, Yang F, Grabsch B, Shiell A, Cahill H, Ambresin AE, Patterson E, Patton G. Responding to Young People's Health Risks in Primary Care: A Cluster Randomised Trial of Training Clinicians in Screening and Motivational Interviewing. PLoS One. 2015 Sep 30;10(9):e0137581. doi: 10.1371/journal.pone.0137581. eCollection 2015.</citation>
+    <PMID>26422235</PMID>
+  </reference>
+  <reference>
+    <citation>Ozer EM, Adams SH, Lustig JL, Millstein SG, Wibbelsman CJ, Babb J. The effect of preventive services on adolescent behavior (abstract). Pediatric Research. 2004;53(suppl. 4, pt. 2):265A.</citation>
+  </reference>
+  <reference>
+    <citation>Ozer EM. The impact of childcare responsibility and self-efficacy on the psychological health of working mothers. Psychology of Women Quarterly. 1995;19:315-35.</citation>
+  </reference>
+  <reference>
+    <citation>Ozer E, Rowe J, Tebb K, Culbertson K, Berna M, Jasik C, et al. A self-adaptive personalized behavior change system for adolescent preventive care. The Indian Journal of Pediatrics, Special Supplement The International Association for Adolescent Health, 11th World Congress on Adolescent Health, 27-29 October, 2017, New Delhi, India2017. p. SS-1.</citation>
+  </reference>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>September 10, 2019</study_first_submitted>
+  <study_first_submitted_qc>September 30, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 1, 2019</study_first_posted>
+  <last_update_submitted>March 23, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 23, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 25, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Alcohol- Prevention/Control</keyword>
+  <keyword>Adolescent behavior</keyword>
+  <keyword>Video games- psychology</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Alcohol Drinking</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

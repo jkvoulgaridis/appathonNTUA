@@ -1,0 +1,815 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02430337</url>
+  </required_header>
+  <id_info>
+    <org_study_id>5R21MH098244-02</org_study_id>
+    <nct_id>NCT02430337</nct_id>
+  </id_info>
+  <brief_title>A Technology-Enhanced Approach for Implementing Evidence-Based Practices in Child Welfare</brief_title>
+  <official_title>A Technology-Enhanced Approach for Implementing Evidence-Based Practices in Child Welfare</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Georgia State University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Georgia State University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In this study, a computer-assisted adaptation of SafeCare, an evidence-based home visiting
+      program, will be developed and tested in child welfare. This approach will assist home
+      visitors with the delivery of SafeCare to families, with the goal of improving provider
+      fidelity and implementation success. In the computer-assisted SafeCare sessions, a portion of
+      the session will be delivered on a tablet computer that the home visitor brings to the
+      family's home. The computer software will deliver the educational piece, or explain a piece
+      of each session, along with modeling videos of the skills. The home visitor will follow up
+      with the practice and feedback portions of the session. A randomized feasibility trial will
+      be conducted to test the technology-based approach against the standard SafeCare
+      implementation approach in terms of feasibility of implementation, provider job demands, and
+      resources, as well as client outcomes such as skill acquisition and mental health.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      SafeCare contains three, six-session modules that target risk factors for child physical
+      abuse and neglect, including (1) child health, (2) home safety, and (3) parent-child
+      interaction. The focus of the child health module is to train parents to make effective
+      decisions related to child health, to prevent child illness and injury, and assist parents in
+      seeking appropriate health treatment for children when an illness or injury occurs. Parents
+      are also taught to use health reference materials, including a validated SafeCare health
+      manual. Home safety focuses on making the home a safe place where the risk for child injury
+      is reduced. Parents identify and eliminate common household hazards and learn the appropriate
+      levels of supervision for children across developmental stages. The parent- child interaction
+      module focuses on the parent-child relationship, with the goal of improving interactions
+      between the child and parent as well as child behavior by teaching parents structured skills
+      to use in a consistent and predictable way with children across daily routine activities.
+      Each of the three SafeCare modules is structured according to an assess-train-assess
+      approach, with six sessions each. Session 1 is a pretest of baseline skills and knowledge of
+      the particular module. Sessions 2-5 are training sessions, which include explanation of
+      target skills, modeling of target skills by the provider, practice of the target skills by
+      the parent, and feedback from the provider about the parent's mastery and competence in
+      skills. Session 6 is a second assessment session, which allows the provider to examine parent
+      mastery of target skills across each module. Providers train the parents in each module to a
+      level of mastery, which is the demonstration of at least 80% of target skills at the Session
+      6 assessment.
+
+      Conditions:
+
+      SafeCare-Implementation as Usual (SC-IU): The SC-IU condition followed the protocol used in
+      standard SafeCare implementation, which includes the following phases: (1) Agency readiness -
+      NSTRC reviews the requisite organizational communication, service system and SafeCare funding
+      plan, implementation requirements, and budgetary information with interested agencies to
+      ensure fit of SafeCare within the organizational context of the agency, (2) SafeCare workshop
+      training —This includes a 4-day classroom-based training that involves didactic
+      presentations, modeling of the instruction, and role-playing for SafeCare trainees as well as
+      structured assessments of the skills taught, (3) SafeCare provider certification process
+      —Providers receive support from NSTRC as they begin SafeCare delivery with families. The
+      support includes the SafeCare trainers listening to audio recordings of the providers'
+      SafeCare sessions, assessing these sessions for fidelity, and then providing a follow-up
+      coaching session to provide feedback to the provider. Once trainees demonstrate mastery of
+      SafeCare, defined as meeting session fidelity of _ 85% , in three sessions per module (nine
+      total), they are certified as a SafeCare provider, (4) SafeCare postcertification support and
+      sustainability - Once a provider achieves certification, the provider moves into this phase
+      that consists of monthly submissions of one SafeCare session recording monitored for fidelity
+      by an NSTRC trainer or trained SafeCare coach at the implementing agency.
+
+      SafeCare-Tech-Assisted (SC-TA). This implementation followed the four phases described above,
+      but the delivery of SafeCare was adapted to include technology assistance delivered on a
+      tablet via a web-based SafeCare program entitled SafeCare Takes Care. SafeCare Takes Care
+      includes a combination of video, audio narration, and engaging questions and was developed
+      through an alpha and beta testing process with parenting experts and parents similar in
+      education and socioeconomic status to the parents served with the SafeCare program. The
+      videos are presented in a manner similar to a talk show. For each module and session, the
+      host of SafeCare Takes Care presents a new topic (i.e., the session content for that day)
+      with video modeling of the skills from &quot;at-home viewers.&quot; For example, in the parent-child
+      interaction module, a video begins with the talk show host explaining the skills being
+      covered in the session, followed by a video of a parent (i.e., an at-home viewer) modeling
+      these skills, and the host may take some questions from studio audience members or from fans
+      on the &quot;street cam.&quot; SafeCare Takes Care uses an open-source systems and languages to input
+      text, picture, and video-related content into website interventions. All text was narrated to
+      minimize literacy requirements. The architecture is based on the Python programming language
+      using a Django web framework and Foundation an advanced responsive front-end framework, to
+      ensure mobile friendliness. This framework consists of Cascading Style Sheets and Javascript
+      to ensure proper display of the web application across multiple devices with differing screen
+      sizes and resolutions. SafeCare Takes Care was hosted at Oregon Research Institute (ORI) on a
+      Linux server with MySQL, an open-source language for relational database development. Data
+      collection components were securely transmitted to ORI servers using Secure Sockets Layer
+      protocol. This platform has been successfully used for the delivery of other evidence-based
+      parenting programs to highrisk parents (see Baggett et al., 2010). SafeCare providers
+      assigned to the SC-TA condition participated in the standard SafeCare workshop and also
+      received training in the technology-mediated approach to SafeCare delivery. The technology
+      training took approximately 2 hr and focused on how the provider utilizes the technology in
+      each session. Specifically, after greeting the parent, the provider was instructed to connect
+      the parent to the web-based program, during which the parent participates in the multimodal
+      learning (e.g., explanation and modeling of skills) of SafeCare target skills. When the
+      parent completes the web-directed portion of the session, the provider is prompted by the
+      web-based program to take over the session delivery, revisit any explanation and modeling the
+      parent has questions about, and then engage the parent in live practice of the skills
+      presented in the web program. Lastly, the provider offers positive and constructive feedback
+      about the practice and closes the SafeCare session. In addition to the technology-mediated
+      delivery, there were some slight adaptations to the scoring instructions of the Safe- Care
+      Fidelity checklist for the SC-TA to accommodate the use of the web-based program into the
+      session. Specifically, fidelity items pertaining to explanation and modeling were scored as
+      completed by a coach if it was clear in the audio recording of the session that the provider
+      connected the parentparticipant to the web-based program. All other fidelity items on the
+      SafeCare Fidelity Checklist remained the same. That is, SafeCare providers were fully
+      expected to deliver the session opening, SafeCare target skills practice and feedback, and
+      session closing. Additionally, if parents had questions about the explanation or modeling
+      components reviewed in the webbased program, providers were trained to address these
+      concerns, and fidelity was rated as it would be in standard implementation for these items.
+      Lastly, SafeCare coaches were instructed to include the providers' technology equipment under
+      their scoring of &quot;has materials ready&quot; on the fidelity checklist. Providers in both groups
+      participated in coaching calls with their assigned SafeCare coach following the coach's
+      scoring of fidelity, as is the protocol for SC-IU. These calls serve as an opportunity for
+      the coach to provide positive and constructive feedback to the provider regarding their
+      session delivery.
+
+      Provider demographics and professional background factors were measured by a form developed
+      for the project and asked questions regarding provider age, education, race/ethnicity, and
+      field experience. SafeCare delivery time demands: Time diaries were completed by providers
+      who were delivering SafeCare to families. Providers were instructed to complete a time diary
+      following each Safe- Care session and submit them to the research team on a monthly basis.
+      Information reported on the time diary form included the specific amount of time in minutes
+      spent on SafeCare-related activities prior to, during, and following each session. These
+      activities were determined by the research team in consultation with SafeCare trainers who
+      are familiar with the common activities conducted by SafeCare providers. Provider fidelity:
+      Fidelity was measured utilizing the SafeCare Provider Fidelity Checklist. The checklist
+      includes a number of concrete behaviors providers should perform during the SafeCare session.
+      Providers submit audio recordings to NSTRC and expert coders rate fidelity using this
+      checklist based on the verbal behaviors performed by the provider in the SafeCare session.
+      Provider implementation progress: SafeCare provider implementation progress was documented by
+      research team members based on the implementation record review. Records were maintained by
+      the NSTRC trainer who noted the progress of each provider through the training and
+      certification process. To meet certification, the provider has to achieve 85% fidelity on
+      three sessions in each SafeCare module (parent-child interaction, child health, and child
+      safety), for a total of nine sessions. Provider implementation progress was coded as
+      &quot;workshop only&quot; if the provider completed the training workshop but did not begin working
+      with families. Providers were coded as &quot;Began certification, SafeCare inactive,&quot; if they
+      began certification after workshop training but discontinued SafeCare delivery before
+      reaching certification. Providers coded as &quot;Began certification, SafeCare active&quot; were still
+      delivering SafeCare services at the end of the study period but had not yet achieved
+      certification. Lastly, providers coded as SafeCare certified achieved at least 85% fidelity
+      on nine SafeCare sessions during the study period. SC-TA qualitative interview: A
+      semi-structured qualitative interview was conducted upon completion of the study to gather
+      feedback on satisfaction and recommendations for SC-TA and learn how the SC-TA implementation
+      delivery approach compared to SC-IU.
+
+      Data Analysis Plan: Quantitative and qualitative data were analyzed using a convergence
+      mixed-methods approach. Quantitative data were analyzed using Fisher's exact tests,
+      chi-square tests, and independent samples t tests. Data for qualitative analyses included
+      transcripts of audio recorded semi-structured interviews among providers. Thematic analysis
+      was used to analyze all transcripts by the principal investigator and two other members of
+      the research team. Derived codes from these transcripts were compared for consistency and
+      overlap. Codes were grouped into themes. Differences in coding were explored and discussed
+      until 95% agreement was reached across all transcripts. Periodic checks were made for
+      intercoder agreement. Interrater discrepancies in coding were reviewed and discussed until
+      100% consensus was reached.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">April 2013</start_date>
+  <completion_date type="Actual">December 2016</completion_date>
+  <primary_completion_date type="Actual">June 2014</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of Providers Reporting Satisfaction With Technology</measure>
+    <time_frame>Approximately six months after completing the baseline assessment</time_frame>
+    <description>The investigators examined provider qualitative feedback to count the number of participants reporting that the Technology-Assisted SafeCare was acceptable and feasible. Interview data was transcribed and summarized to examine themes reported by the Tech-Assisted SafeCare providers' at the time of their exit interview (approximately six months after the baseline assessment).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>SafeCare Fidelity</measure>
+    <time_frame>The average of up to 9 scores across 6 months</time_frame>
+    <description>The SafeCare fidelity checklist measures 30+ clinical behaviors that SafeCare providers are expected to deliver during an hour long SafeCare session. Fidelity on each behavior is scored as a + if occurs and a - if does not occur. Percentages are computed for the number of +'s divided by the number of total behaviors. Scores range from 0 to 100%, with higher numbers indicating higher fidelity. A score of 85% or greater is indicative of high competence with SafeCare delivery. SafeCare providers receive fidelity monitoring for nine sessions (three in each of three modules) until they reach certification and once per month thereafter. All fidelity scores for the participants will be collected from baseline assessment to six-month follow-up in order to assess the effect of implementation condition on fidelity scores. The frequency of fidelity assessment will vary depending on the caseload of each home visitor participant.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>SafeCare Provider Implementation Status</measure>
+    <time_frame>Status of provider at end of study participation</time_frame>
+    <description>The investigators used 4 categories to indicate the status of the SafeCare providers at the end of their study participation, these groups: completed were workshop only, started SafeCare but became inactive, started and continued SafeCare active (but not certified), SafeCare certified (completed 9 family sessions with 85% fidelity)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>SafeCare Time Diary</measure>
+    <time_frame>average of provider time preparing for and completing SafeCare sessions during the study period (6 months)</time_frame>
+    <description>Provider participants documented their time spent on SafeCare session preparation, completion, and follow-up using a time diary. This form was used to document the time home visitors spend on job-related activities such as preparing for home visits, conducting home visits, and completing notes, among other activities. All participants completed the form following each SafeCare session they complete during the six months of the study. The total number of time diaries completed will vary depending on the home visitor's caseload. Means were computed based on an average of the time diaries submitted per study arm and wer compared for differences.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">31</enrollment>
+  <condition>Child Maltreatment</condition>
+  <condition>Implementation</condition>
+  <condition>Technology</condition>
+  <arm_group>
+    <arm_group_label>Technology-Assisted SafeCare</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>A modified version of SafeCare, using a tablet and online program to complete a portion of the session</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SafeCare-as-usual</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>SafeCare as it is usually delivered</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Technology-Assisted SafeCare</intervention_name>
+    <description>A technology-enhanced version of SafeCare</description>
+    <arm_group_label>Technology-Assisted SafeCare</arm_group_label>
+    <other_name>SafeCareTech</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>SafeCare</intervention_name>
+    <description>SafeCare, an evidence-based home visiting program</description>
+    <arm_group_label>SafeCare-as-usual</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Home Visitors: Home Visitors who are being trained in SafeCare
+
+          -  Parents: English-speaking SafeCare parents with a child between the ages of 1.5-5
+             years who are receiving services from a Home Visitor who is in this study
+
+        Exclusion Criteria:
+
+          -  Home Visitors: Home Visitors not being trained in SafeCare; Home Visitors who
+             exclusively serve Spanish-speaking families
+
+          -  Parents: Parents not receiving SafeCare; parents whose Home Visitor is not a
+             participant in this study; parents under age 18 or who have a child outside of the
+             ages of 1.5-5 years
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Shannon Self-Brown, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Georgia State University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Georgia State University, School of Public Health, National SafeCare Training &amp; Research Center</name>
+      <address>
+        <city>Atlanta</city>
+        <state>Georgia</state>
+        <zip>30303</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <results_reference>
+    <citation>Cowart-Osborne M, Jackson M, Chege E, Baker E, Whitaker D, Self-Brown S. Technology-Based Innovations in Child Maltreatment Prevention Programs: Examples from SafeCare®. Soc Sci (Basel). 2014 Aug 15;3(3):427-440.</citation>
+    <PMID>25606347</PMID>
+  </results_reference>
+  <verification_date>January 2020</verification_date>
+  <study_first_submitted>April 2, 2015</study_first_submitted>
+  <study_first_submitted_qc>April 26, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 30, 2015</study_first_posted>
+  <results_first_submitted>July 29, 2019</results_first_submitted>
+  <results_first_submitted_qc>January 21, 2020</results_first_submitted_qc>
+  <results_first_posted type="Actual">January 22, 2020</results_first_posted>
+  <last_update_submitted>January 21, 2020</last_update_submitted>
+  <last_update_submitted_qc>January 21, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 22, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Georgia State University</investigator_affiliation>
+    <investigator_full_name>Shannon Self-Brown</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>SafeCare- Intervention as Usual (SC-IU)</title>
+          <description>The SC-IU condition followed the protocol used in standard SafeCare implementation, which includes the following phases: (1) Agency readiness—NSTRC reviews the requisite organizational communication, service system and SafeCare funding plan, implementation requirements, and budgetary information with interested agencies to ensure fit of SafeCare within the organizational context of the agency, (2) SafeCare workshop training—This includes a 4-day classroom-based training that involves didactic presentations, modeling of the instruction, and role-playing for SafeCare trainees as well as structured assessments of the skills taught, (3) SafeCare provider certification process—Providers receive support from NSTRC as they begin SafeCare delivery with families. The support includes the SafeCare trainers listening to audio recordings of the providers’ SafeCare sessions, assessing these sessions for fidelity, and then providing a follow-up coaching session to provide feedback to</description>
+        </group>
+        <group group_id="P2">
+          <title>SafeCare Technology-Assisted (SC-TA)</title>
+          <description>SafeCare providers assigned to the SC-TA condition participated in the standard SafeCare workshop and also received training in the technology-mediated approach to SafeCare delivery. The technology training took approximately 2 hr and focused on how the provider utilizes the technology in each session. Specifically, after greeting the parent, the provider was instructed to connect the parent to the web-based program, during which the parent participates in the multimodal learning (e.g., explanation and modeling of skills) of SafeCare target skills. When the parent completes the web-directed portion of the session, the provider is prompted by the web-based program to take over the session delivery, revisit any explanation and modeling the parent has questions about, and then engage the parent in live practice of the skills presented in the web program. Lastly, the provider offers positive and constructive feedback about the practice and closes the SafeCare session.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="11"/>
+                <participants group_id="P2" count="20"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="11"/>
+                <participants group_id="P2" count="20"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>SafeCare-as-usual</title>
+          <description>SafeCare as it is usually delivered
+SafeCare: SafeCare, an evidence-based home visiting program</description>
+        </group>
+        <group group_id="B2">
+          <title>Technology-Assisted SafeCare</title>
+          <description>A modified version of SafeCare, using a tablet and online program to complete a portion of the session
+Technology-Assisted SafeCare: A technology-enhanced version of SafeCare</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="11"/>
+            <count group_id="B2" value="20"/>
+            <count group_id="B3" value="31"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <description>While this information was not directly collected from study participants, the PI recently collected this information from agency directors whose providers were study participants. Directors confirmed that all participants were of professional workforce age, between 18 and 65 years.</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="11"/>
+                    <measurement group_id="B2" value="20"/>
+                    <measurement group_id="B3" value="31"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                    <measurement group_id="B2" value="19"/>
+                    <measurement group_id="B3" value="27"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                    <measurement group_id="B2" value="4"/>
+                    <measurement group_id="B3" value="9"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6"/>
+                    <measurement group_id="B2" value="16"/>
+                    <measurement group_id="B3" value="22"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                    <measurement group_id="B2" value="2"/>
+                    <measurement group_id="B3" value="4"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                    <measurement group_id="B2" value="5"/>
+                    <measurement group_id="B3" value="7"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                    <measurement group_id="B2" value="10"/>
+                    <measurement group_id="B3" value="14"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="2"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                    <measurement group_id="B2" value="2"/>
+                    <measurement group_id="B3" value="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="11"/>
+                    <measurement group_id="B2" value="20"/>
+                    <measurement group_id="B3" value="31"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Providers Reporting Satisfaction With Technology</title>
+        <description>The investigators examined provider qualitative feedback to count the number of participants reporting that the Technology-Assisted SafeCare was acceptable and feasible. Interview data was transcribed and summarized to examine themes reported by the Tech-Assisted SafeCare providers' at the time of their exit interview (approximately six months after the baseline assessment).</description>
+        <time_frame>Approximately six months after completing the baseline assessment</time_frame>
+        <population>Qualitative data were summarized for 14 of the 20 SafeCare Technology-Assisted Providers, who completed an exit interview regarding the technology usability</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Technology-Assisted SafeCare</title>
+            <description>A modified version of SafeCare, using a tablet and online program to complete a portion of the session
+Technology-Assisted SafeCare: A technology-enhanced version of SafeCare</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Providers Reporting Satisfaction With Technology</title>
+          <description>The investigators examined provider qualitative feedback to count the number of participants reporting that the Technology-Assisted SafeCare was acceptable and feasible. Interview data was transcribed and summarized to examine themes reported by the Tech-Assisted SafeCare providers' at the time of their exit interview (approximately six months after the baseline assessment).</description>
+          <population>Qualitative data were summarized for 14 of the 20 SafeCare Technology-Assisted Providers, who completed an exit interview regarding the technology usability</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="14"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="14"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>SafeCare Fidelity</title>
+        <description>The SafeCare fidelity checklist measures 30+ clinical behaviors that SafeCare providers are expected to deliver during an hour long SafeCare session. Fidelity on each behavior is scored as a + if occurs and a - if does not occur. Percentages are computed for the number of +'s divided by the number of total behaviors. Scores range from 0 to 100%, with higher numbers indicating higher fidelity. A score of 85% or greater is indicative of high competence with SafeCare delivery. SafeCare providers receive fidelity monitoring for nine sessions (three in each of three modules) until they reach certification and once per month thereafter. All fidelity scores for the participants will be collected from baseline assessment to six-month follow-up in order to assess the effect of implementation condition on fidelity scores. The frequency of fidelity assessment will vary depending on the caseload of each home visitor participant.</description>
+        <time_frame>The average of up to 9 scores across 6 months</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Technology-Assisted SafeCare</title>
+            <description>A modified version of SafeCare, using a tablet and online program to complete a portion of the session
+Technology-Assisted SafeCare: A technology-enhanced version of SafeCare</description>
+          </group>
+          <group group_id="O2">
+            <title>SafeCare-as-usual</title>
+            <description>SafeCare as it is usually delivered
+SafeCare: SafeCare, an evidence-based home visiting program</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>SafeCare Fidelity</title>
+          <description>The SafeCare fidelity checklist measures 30+ clinical behaviors that SafeCare providers are expected to deliver during an hour long SafeCare session. Fidelity on each behavior is scored as a + if occurs and a - if does not occur. Percentages are computed for the number of +'s divided by the number of total behaviors. Scores range from 0 to 100%, with higher numbers indicating higher fidelity. A score of 85% or greater is indicative of high competence with SafeCare delivery. SafeCare providers receive fidelity monitoring for nine sessions (three in each of three modules) until they reach certification and once per month thereafter. All fidelity scores for the participants will be collected from baseline assessment to six-month follow-up in order to assess the effect of implementation condition on fidelity scores. The frequency of fidelity assessment will vary depending on the caseload of each home visitor participant.</description>
+          <units>percentage of behaviors implemented</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+                <count group_id="O2" value="11"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="91.94" spread="5.98"/>
+                    <measurement group_id="O2" value="91.14" spread="8.81"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>SafeCare Provider Implementation Status</title>
+        <description>The investigators used 4 categories to indicate the status of the SafeCare providers at the end of their study participation, these groups: completed were workshop only, started SafeCare but became inactive, started and continued SafeCare active (but not certified), SafeCare certified (completed 9 family sessions with 85% fidelity)</description>
+        <time_frame>Status of provider at end of study participation</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>SafeCare-as-usual</title>
+            <description>SafeCare as it is usually delivered
+SafeCare: SafeCare, an evidence-based home visiting program</description>
+          </group>
+          <group group_id="O2">
+            <title>Technology-Assisted SafeCare</title>
+            <description>A modified version of SafeCare, using a tablet and online program to complete a portion of the session
+Technology-Assisted SafeCare: A technology-enhanced version of SafeCare</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>SafeCare Provider Implementation Status</title>
+          <description>The investigators used 4 categories to indicate the status of the SafeCare providers at the end of their study participation, these groups: completed were workshop only, started SafeCare but became inactive, started and continued SafeCare active (but not certified), SafeCare certified (completed 9 family sessions with 85% fidelity)</description>
+          <units>percentage of providers certified</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="11"/>
+                <count group_id="O2" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="36.8"/>
+                    <measurement group_id="O2" value="36.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>SafeCare Time Diary</title>
+        <description>Provider participants documented their time spent on SafeCare session preparation, completion, and follow-up using a time diary. This form was used to document the time home visitors spend on job-related activities such as preparing for home visits, conducting home visits, and completing notes, among other activities. All participants completed the form following each SafeCare session they complete during the six months of the study. The total number of time diaries completed will vary depending on the home visitor's caseload. Means were computed based on an average of the time diaries submitted per study arm and wer compared for differences.</description>
+        <time_frame>average of provider time preparing for and completing SafeCare sessions during the study period (6 months)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>SafeCare-as-usual</title>
+            <description>SafeCare as it is usually delivered
+SafeCare: SafeCare, an evidence-based home visiting program</description>
+          </group>
+          <group group_id="O2">
+            <title>Technology-Assisted SafeCare</title>
+            <description>A modified version of SafeCare, using a tablet and online program to complete a portion of the session
+Technology-Assisted SafeCare: A technology-enhanced version of SafeCare</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>SafeCare Time Diary</title>
+          <description>Provider participants documented their time spent on SafeCare session preparation, completion, and follow-up using a time diary. This form was used to document the time home visitors spend on job-related activities such as preparing for home visits, conducting home visits, and completing notes, among other activities. All participants completed the form following each SafeCare session they complete during the six months of the study. The total number of time diaries completed will vary depending on the home visitor's caseload. Means were computed based on an average of the time diaries submitted per study arm and wer compared for differences.</description>
+          <units>Minutes</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="11"/>
+                <count group_id="O2" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="14.66" spread="4.56"/>
+                    <measurement group_id="O2" value="13.23" spread="4.29"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>1 year, 8 months</time_frame>
+      <desc>Participants were trained to disseminate a parenting intervention training. No participants died, were injured, or were at risk for serious adverse events as a result of this training.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>SafeCare-as-usual</title>
+          <description>SafeCare as it is usually delivered
+SafeCare: SafeCare, an evidence-based home visiting program</description>
+        </group>
+        <group group_id="E2">
+          <title>Technology-Assisted SafeCare</title>
+          <description>A modified version of SafeCare, using a tablet and online program to complete a portion of the session
+Technology-Assisted SafeCare: A technology-enhanced version of SafeCare</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="11"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="11"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="11"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>Small sample; limited power: fidelity &amp; certification; tablets provided: generalizability; assessment battery was limited-restricted data collected on potential implementation barriers; abbreviated study period; no family-level data.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Shannon Self Brown, PhD</name_or_title>
+      <organization>Georgia State University</organization>
+      <phone>404-413-1283</phone>
+      <email>sselfbrown@gsu.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

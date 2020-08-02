@@ -1,0 +1,226 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04058379</url>
+  </required_header>
+  <id_info>
+    <org_study_id>38RC19.193</org_study_id>
+    <nct_id>NCT04058379</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence Analysis of Initial Scan Evolution of Traumatic Brain Injured Patient to Predict Neurological Outcome</brief_title>
+  <acronym>RADIOMIC-TBI</acronym>
+  <official_title>Artificial Intelligence Analysis of Initial Scan Evolution of Traumatic Brain Injured Patient to Predict Neurological Outcome: Pilot Translational an Exploratory Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Grenoble</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University Hospital, Grenoble</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      We assume that an early iterative automatic CT scan analysis (D0, D1 and D3) by different AI
+      approaches will allow an early differentiation of the tissues evolution after TBI. Our
+      objective is to couple theses scan profiles to a neurological evolution, measured by
+      therapeutic intensity.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Traumatic brain injury is a common and serious pathology, responsible of an important
+      morbi-mortality. The TBI can be consider as a complex set of nosological entities of
+      different evolution with difficult early identification whereas the main issue of this
+      pathology depends on prevention and management of the lesions caused by the initial cerebral
+      aggression.
+
+      Different evolutionary profiles seems to exist and sometimes coexists: edema evolution,
+      hemorrhagic transformation and/or cerebrospinal fluid (CSF) resorption issues with
+      hydrocephalus apparition.
+
+      Currently, there is no Imaging methods that can be used in every day clinical management that
+      allows a visualization, quantification and prediction of these different lesional evolutions
+
+      CT scan is the reference imaging method for TBI patient monitoring. It allows a lesion
+      description, a therapeutic adaptation and an evaluation of the prognostic.
+
+      Even if it is used as a routine examination, the analysis of cerebral scanners remains manual
+      and a non-quantitative one, which make a little informative analysis as far as lesions
+      evolution is concerned.
+
+      Recently it has been established the automatic MRI analysis with AI approach allows:
+
+        1. - To show aspects of images that can't be seen to the naked eye
+
+        2. - To automatically segment and quantify the different tissues (edema, hemorrhage...).
+           First tests on this kind of analysis on CT scans shows that this technology can be
+           transferred from MRI to CT scans and more importantly it brings out new quantitative
+           informations on cerebral lesions evolution.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 1, 2020</start_date>
+  <completion_date type="Anticipated">April 1, 2021</completion_date>
+  <primary_completion_date type="Anticipated">October 1, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Clinical evolution during first 7 days in ICU with therapeutic intensity level (TILsum)</measure>
+    <time_frame>7 days after TBI</time_frame>
+    <description>Composite criteria : Head position, depth, sort and objective of sedation, presence or absence of a CSF draining system, management of ventilation, presence or absence of a hyperosmolar therapy, management of body temperature, surgical intervention for intracranial hypertension.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Mortality according to scan profiles</measure>
+    <time_frame>28 days after TBI and 6 month after TBI</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Morbidity (consequences of the trauma) according to scan profiles</measure>
+    <time_frame>28 days after TBI</time_frame>
+    <description>Lenght of stay in ICU with more than 20 mmHg of intracranial pressure with no stimulation</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Morbidity (consequences of the trauma) according to scan profiles</measure>
+    <time_frame>28 days after TBI</time_frame>
+    <description>length of stay in ICU with a therapeutic intensity level &gt; or = 8,</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Morbidity (consequences of the trauma) according to scan profiles</measure>
+    <time_frame>28 days after TBI</time_frame>
+    <description>Hospital stay length</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Morbidity (consequences of the trauma) according to scan profiles</measure>
+    <time_frame>28 days after TBI</time_frame>
+    <description>ICU stay length days with mechanical ventilation</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Morbidity (consequences of the trauma) according to scan profiles</measure>
+    <time_frame>6 months after TBI</time_frame>
+    <description>Glasgow Outcome Scale (GOSe)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Comparison and Description of correlation between early scan profiles evolution signature by AI and to clinical evolution (with TILSum)</measure>
+    <time_frame>7 days after TBI</time_frame>
+    <description>Analysis of main outcome (TIL sum after 7 days in ICU maximum) according to a kinetic scan evolution between D0, D1 and D3</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Neurological Pupil Index</measure>
+    <time_frame>1 day after TBI</time_frame>
+    <description>Measure of neurological pupilla index within 1h after admission and at D1</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Trauma, Brain</condition>
+  <arm_group>
+    <arm_group_label>CT scan</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>During this study each patient will have 3 CT scans : D0, D1 and D3. A daily follow up during first seven days in ICU, then a follow up at D28 if still in hospital, and a phone call at M6 for neurological outcome</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>CT scan</intervention_name>
+    <description>3 ct scans : D0, D1 and D3</description>
+    <arm_group_label>CT scan</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age &gt; or = 18 years old
+
+          -  Closed TBI
+
+          -  Primary admission in Grenoble University Hospital
+
+          -  Initial CT scan with visible cerebral lesion rated at least 3 on abbreviated injury
+             score (AIS)
+
+          -  In ICU for an expected length of 48 hours
+
+          -  Social security system affiliation
+
+        Exclusion Criteria:
+
+          -  Life expectation &lt;48 hours
+
+          -  In ICU for more than 24h
+
+          -  Transferred from another hospital
+
+          -  Patients corresponding to articles L1121-5, L1121-6, L1121-7, L1121-8 (under legal
+             protection) of French Public Health Code
+
+          -  Patient in exclusion time of another study
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Pierre BOUZAT</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Hospital, Grenoble</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Pierre BOUZAT, Pr</last_name>
+    <phone>04.76.76.75.75</phone>
+    <email>PBouzat@chu-grenoble.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Marion RICHARD</last_name>
+    <phone>04.76.76.68.29</phone>
+    <email>MRichard7@chu-grenoble.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University Hospital Grenoble</name>
+      <address>
+        <city>Grenoble</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Pierre BOUZAT</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>July 15, 2019</study_first_submitted>
+  <study_first_submitted_qc>August 13, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 15, 2019</study_first_posted>
+  <last_update_submitted>March 24, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 24, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 25, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Brain Injuries, Traumatic</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

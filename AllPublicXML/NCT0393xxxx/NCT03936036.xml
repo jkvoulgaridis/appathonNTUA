@@ -1,0 +1,325 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03936036</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DUPLICATE-CARMELINA</org_study_id>
+    <nct_id>NCT03936036</nct_id>
+  </id_info>
+  <brief_title>Replication of the CARMELINA Diabetes Trial in Healthcare Claims</brief_title>
+  <official_title>Replication of the CARMELINA Diabetes Trial in Healthcare Claims</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brigham and Women's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Brigham and Women's Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Investigators are building an empirical evidence base for real world data through large-scale
+      replication of randomized controlled trials. The investigators' goal is to understand for
+      what types of clinical questions real world data analyses can be conducted with confidence
+      and how to implement such studies.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a non-randomized, non-interventional study that is part of the RCT DUPLICATE
+      initiative (www.rctduplicate.org) of the Brigham and Women's Hospital, Harvard Medical
+      School. It is intended to replicate, as closely as is possible in healthcare insurance claims
+      data, the trial listed below/above. Although many features of the trial cannot be directly
+      replicated in healthcare claims, key design features, including outcomes, exposures, and
+      inclusion/exclusion criteria, were selected to proxy those features from the trial.
+      Randomization is also not replicable in healthcare claims data but was proxied through a
+      statistical balancing of measured covariates according to standard practice. Investigators
+      assume that the RCT provides the reference standard treatment effect estimate and that
+      failure to replicate RCT findings is indicative of the inadequacy of the healthcare claims
+      data for replication for a range of possible reasons and does not provide information on the
+      validity of the original RCT finding.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">September 22, 2017</start_date>
+  <completion_date type="Anticipated">September 22, 2020</completion_date>
+  <primary_completion_date type="Anticipated">September 22, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Relative hazard of composite outcome of Stroke, MI, and Mortality</measure>
+    <time_frame>Through study completion (a median of 118-123 days)</time_frame>
+    <description>Relative hazard of composite outcome of MI, stroke, and mortality - Please refer to uploaded protocol for full definition due to size limitations.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">101830</enrollment>
+  <condition>Diabetes</condition>
+  <arm_group>
+    <arm_group_label>2nd generation sulfonylureas</arm_group_label>
+    <description>Reference group</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Linagliptin</arm_group_label>
+    <description>Exposure group</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Linagliptin</intervention_name>
+    <description>Linagliptin dispensing claim is used as the exposure</description>
+    <arm_group_label>Linagliptin</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sulfonylurea</intervention_name>
+    <description>2nd generation sulfonylurea dispensing claim is used as the reference</description>
+    <arm_group_label>2nd generation sulfonylureas</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        This study will involve a new user, parallel group, cohort study design comparing
+        linagliptin to the 2nd generation sulfonylurea (SU) antidiabetic class as a proxy for
+        placebo. SUs are not known to have an impact on the outcome of interest. In addition, SUs
+        were the most frequent background treatment in CARMELINA (after metformin), and DPP4i and
+        SUs are preferentially prescribed to similarly older patients in real world (Patorno et
+        al., 2019). The patients will be required to have continuous enrollment during the baseline
+        period of 180 days before initiation of linagliptin or a comparator drug (cohort entry
+        date). Follow-up for the outcome (3P-MACE), begins the day after drug initiation. As in the
+        trial, patients are allowed to take other antidiabetic medications during study follow-up.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Please see: https://drive.google.com/drive/folders/1WD618wrywYjEaXzfLTcuK-VCcnb6b-gV for
+        full code and algorithm definitions.
+
+        Eligible cohort entry dates Market availability of linagliptin in the U.S. started on May
+        2, 2011. For Marketscan and Medicare: May 2, 2011-Dec 31, 2016 (end of data availability).
+
+        For Optum: May 2, 2011-Sep 30, 2017 (end of data availability).
+
+        Inclusion Criteria:
+
+          1. Documented diagnosis of T2DM before visit 1 (screening).
+
+          2. Male or female patients who are drug-naïve or pre-treated with any antidiabetic
+             background therapy, excluding treatment with GLP-1 receptor agonists, DPP-4 inhibitors
+             or SGLT-2 inhibitors if ≥ 7 consecutive days.
+
+          3. Stable antidiabetic background medication (unchanged daily dose) for at least 8 weeks
+             prior to randomization. If insulin is part of the background therapy, the average
+             daily insulin dose should not have been changed by more than 10% within the 8 weeks
+             prior to randomization compared with the daily insulin dose at randomization.
+
+          4. HbA1c of ≥ 6.5% and ≤ 10.0% at visit 1 (screening).
+
+          5. Age ≥ 18 years at visit 1 (screening). For Japan only: Age ≥ 20 years at Visit 1.
+
+          6. Body Mass Index (BMI) 45 kg/m2 at visit 1 (screening).
+
+          7. Signed and dated written informed consent by date of visit 1 (screening) in accordance
+             with GCP and local legislation prior to any study related procedure.
+
+          8. High risk of CV events (I and/or II):
+
+        Albuminuria (UACR ≥ 30 mg/g creatinine or ≥ 30 µg/min [microgram albumin per minute] or ≥
+        30 mg/24 h [milligram albumin per 24 hours] in two out of three unrelated spot urine or
+        timed samples in the last 24 months prior to randomization)*
+
+        AND previous macrovascular disease, defined as either one or more:
+
+        Confirmed history of MI (&gt; 2 months prior to Visit 1)
+
+        Advanced coronary artery disease, defined by any one of the following:
+
+          -  ≥ 50% narrowing of the luminal diameter in 2 or more major coronary arteries by
+             coronary angiography, MRI angiography or CT angiography; Definition of major coronary
+             arteries: LAD (Left Anterior Descending). CX (Circumflex) or RCA (right coronary
+             artery)
+
+          -  Left main stem coronary artery with ≥ 50% narrowing of the luminal diameter by
+             coronary angiography, MRI angiography or CT angiography;
+
+          -  Prior percutaneous or surgical revascularization of 2 major coronary arteries at least
+             2 months prior to Visit 1 (screening);
+
+          -  The combination of prior percutaneous or surgical revascularization of 1 major
+             coronary artery at least 2 months prior to visit 1 (screening), and ≥ 50% narrowing of
+             the luminal diameter by coronary angiography, MRI angiography or CT angiography of at
+             least 1 additional major coronary artery.
+
+             10) High-risk single-vessel coronary artery disease, defined as the presence of 50%
+             narrowing of the luminal diameter of one major coronary artery by coronary
+             angiography, MRI angiography or CT angiography in patients not revascularised:
+
+        AND at least one of the following:
+
+          -  A positive non invasive stress test, confirmed by either:
+
+          -  a positive ECG exercise tolerance test in patients without left bundle branch block,
+             Wolff-Parkinson-White syndrome, left ventricular hypertrophy with repolarization
+             abnormality, or paced ventricular rhythm, atrial fibrillation in case of abnormal ST-T
+             segments;
+
+          -  a positive stress echocardiogram showing induced regional systolic wall motion
+             abnormalities;
+
+          -  a positive nuclear myocardial perfusion imaging stress test showing stress- induced
+             reversible perfusion abnormality;
+
+          -  a positive cardiac stress perfusion MRI showing a stress induced perfusion defect;
+
+          -  Patient discharged from hospital with a documented diagnosis of unstable angina
+             pectoris between 2 and 12 months prior to visit 1 (screening).
+
+             10) History of ischemic or haemorrhagic stroke (&gt;3 months prior to visit 1) 11)
+             Presence of carotid artery disease (symptomatic or not) documented by either:
+
+          -  imaging techniques with at least one lesion estimated to be ≥50% narrowing of the
+             luminal diameter;
+
+          -  prior percutaneous or surgical carotid revascularization. 12) Presence of peripheral
+             artery disease documented by either:
+
+          -  previous limb angioplasty, stenting or bypass surgery;
+
+          -  previous limb or foot amputation due to macrocirculatory insufficiency;
+
+          -  angiographic evidence of peripheral artery stenosis 50% narrowing of the luminal
+             diameter in at least one limb (definition of peripheral artery: common iliac artery,
+             internal iliac artery, external iliac artery, femoral artery, popliteal artery).
+
+             13) Evidence of impaired renal function with predefined UACR, with or without CV co-
+             morbidities, defined as follows (and/or criteria):
+
+               -  Impaired renal function (as defined by MDRD formula) with an eGFR: 15- &lt;45
+                  mL/min/1.73 m2 at visit 1 (screening) with any UACR.
+
+               -  Impaired renal function (as defined by MDRD formula) with an eGFR ≥ 45-75
+                  mL/min/1.73 m2 at visit 1 (screening) with an UACR &gt; 200 mg/g creatinine or &gt; 200
+                  µg/min (microgram albumin per minute) or &gt; 200 mg/24 h [milligram albumin per 24
+                  hours] demonstrated in two out of three unrelated spot urine or timed samples in
+                  the last 24 months prior to randomization.
+
+        Exclusion Criteria:
+
+          1. Type 1 diabetes mellitus.
+
+          2. Treatment (≥ 7 consecutive days) with GLP-1 receptor agonists, other DPP-4 inhibitors
+             or SGLT-2 inhibitors prior to informed consent. Note: This also includes clinical
+             trials where these antidiabetic drugs have been provided to the patient.
+
+          3. Active liver disease or impaired hepatic function, defined by serum levels of either
+             ALT (SGPT), AST (SGOT), or alkaline phosphatase (AP) ≥3 x upper limit of normal (ULN)
+             as determined at Visit 1.
+
+          4. eGFR &lt;15 ml/min/1.73 m2 (severe renal impairment or ESRD, MDRD formula), as determined
+             during screening at Visit 1 and/or the need for maintenance dialysis.
+
+          5. Any previous (or planned within next 12 months) bariatric surgery (open or
+             laparoscopic) or intervention (gastric sleeve).
+
+          6. Pre-planned coronary artery re-vascularisation (PCI, CABG) or any previous PCI and/or
+             CABG ≤ 2 months prior informed consent&quot;
+
+          7. Known hypersensitivity or allergy to the investigational products or its excipients.
+
+          8. Any previous or current alcohol or drug abuse that would interfere with trial
+             participation in the opinion of the investigator.
+
+          9. Participation in another trial with an investigational drug ongoing or within 2 months
+             prior to visit 1 (screening)*.
+
+         10. Pre-menopausal women (last menstruation 1 year prior to informed consent) who:
+
+               -  are nursing or pregnant,
+
+               -  or are of child-bearing potential and are not practicing an acceptable method of
+                  birth control (acceptable methods of birth control include tubal ligation,
+                  transdermal patch, intra uterine devices/systems (IUDs/IUSs), oral, implantable
+                  or injectable contraceptives, sexual abstinence (if allowed by local
+                  authorities), double barrier method and vasectomised partner) or do not plan to
+                  continue using acceptable method of birth control throughout the study and do not
+                  agree to submit to periodic pregnancy testing during participation in the trial.
+
+         11. Patients considered unreliable by the investigator concerning the requirements for
+             follow- up during the study and/or compliance with study drug administration, have a
+             life expectancy less than 5 years for non-CV causes, or have cancer other than
+             non-melanoma skin cancer within last 3 years, or has any other condition than
+             mentioned which in the opinion of the investigator, would not allow safe participation
+             in the study.&quot;
+
+         12. Acute coronary syndrome (ACS), diagnosed ≤ 2 months prior to visit 1 (screening).
+
+         13. Stroke or TIA ≤ 3 months prior to visit 1 (screening).
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Jessica M Franklin, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Brigham and Women's Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Brigham &amp; Women's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02120</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2020</verification_date>
+  <study_first_submitted>April 29, 2019</study_first_submitted>
+  <study_first_submitted_qc>April 30, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 3, 2019</study_first_posted>
+  <last_update_submitted>January 28, 2020</last_update_submitted>
+  <last_update_submitted_qc>January 28, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 30, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Brigham and Women's Hospital</investigator_affiliation>
+    <investigator_full_name>Jessica Franklin</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Linagliptin</mesh_term>
+  </intervention_browse>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>December 27, 2019</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/36/NCT03936036/Prot_SAP_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

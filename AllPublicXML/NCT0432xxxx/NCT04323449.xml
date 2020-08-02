@@ -1,0 +1,234 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04323449</url>
+  </required_header>
+  <id_info>
+    <org_study_id>B3242-R</org_study_id>
+    <nct_id>NCT04323449</nct_id>
+  </id_info>
+  <brief_title>Evaluation of Vision-Guided Shared Control for Assistive Robotics Manipulators</brief_title>
+  <acronym>ARM Control</acronym>
+  <official_title>Development of Vision-Guided Shared Control for Assistive Robotic Manipulators</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>VA Office of Research and Development</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>VA Office of Research and Development</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to evaluate a new control (i.e., the vision-guided shared
+      control) for a wheelchair-mounted assistive robotic manipulator among powered wheelchair
+      users. This study will consist of a questionnaire about general demographics, health
+      information, and previous experience with assistive technology. Several tests will also be
+      administered to test upper extremity function and ability as well as to test spatial
+      orientation and visualization ability. Participants till then undergo a training phase with
+      the assistive robotic manipulator mounted on a table to assess if they will be eligible for
+      participation in the study. Eligible participants will move on to a second training phase
+      where they will be asked to learn and practice slightly more complex tasks while using the
+      vision-guided shared controller. After this training the assistive robotic manipulator will
+      be mounted to the participants wheelchair and they will be asked to complete a number of
+      everyday tasks from a task list. At the conclusion of the study, researchers will conduct a
+      brief semi-structured interview with each participant and obtain more insight on how
+      participants perceive the ease-of-use and usefulness of the vision-guided shared control.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Veterans who use powered mobility devices including those with high-level spinal cord injury
+      (SCI), amyotrophic lateral sclerosis (ALS), and multiple sclerosis (MS) often experience
+      serious upper extremity impairments. Management and care of upper extremity impairments often
+      involve a range of assistive solutions. However, product availability and technological
+      advancement for manipulation assistance fall far behind those for mobility. Many of these
+      individuals, despite their independent mobility, cannot reach for a glass of water, make a
+      simple meal, and pick up a tooth brush. They still require assistance from a personal
+      caregiver for essential activities of daily living (ADLs) involving reaching and object
+      handling/manipulation. With the rapid advancement of robotics technology, assistive robotic
+      manipulators (ARMs) emerge as a viable solution for assisting Veterans with upper extremity
+      impairments to complete daily tasks involving reaching, object handling, and manipulation.
+      ARMs are often equipped with many degrees of freedom (DOF), but users cannot control all of
+      the DOFs at the same time with a conventional joystick, and need to switch modes quite often
+      to complete even simple manipulation tasks, especially when an ARM gets close to the target
+      and need to be aligned appropriately for manipulation. Thus existing ARMs suffer from the
+      lack of efficiency and effectiveness especially in an unstructured environment. The goal of
+      this project is to combine vision-guided shared (VGS) control with two types of environment
+      modifications to address the effectiveness and efficiency of ARMs for real-world use. The two
+      types of environment modifications include using commercial or custom adaptive tools (e.g., a
+      holder that can hold a bottle or jar so an ARM can open it), and adding fiducial markers
+      (similar to QR codes) to objects or adaptive tools to make vision-based tracking robust and
+      reliable for real-world applications. Built upon the environment modifications, the VGS
+      control will allow a user to initiate any task by moving an ARM close to a tagged object, and
+      the ARM to take over fine manipulation upon detecting the target. This project is to evaluate
+      the new control among 16 powered wheelchair users who will use a wheelchair-mounted ARM to
+      complete a set of everyday manipulation tasks. Participants will complete a set of 10
+      manipulation tasks using the default control method and the new VGS control method.
+      Researchers will collect outcome measures in terms of efficiency (i.e., task completion time
+      and mode switching frequency), effectiveness (i.e., task completion success rate), and
+      usability (i.e., NASA Task Load Index, and System Usability Scale). Investigators expect to
+      improve manipulation functions of Veterans with upper limb impairments through a more
+      practical and usable implementation of vision-based robotic control and human-robot
+      interaction technologies.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">April 1, 2021</start_date>
+  <completion_date type="Anticipated">March 31, 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <intervention_model_description>After baseline, participants will be asked to complete the tasks with two control methods (the new vision-guided control vs the default control). The tasks will be randomly presented to each participant and the sequence of the two control methods will be counterbalanced.</intervention_model_description>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Task completion time</measure>
+    <time_frame>After participants complete each task using each control method during the lab visit (which lasts about three hours for each control method)</time_frame>
+    <description>The time it takes to complete each task successfully. Average time will be calculated over the total number of tasks selected by the participants.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Mode Switching Frequency</measure>
+    <time_frame>After participants complete each task using each control method during the lab visit (which lasts about three hours for each control method)</time_frame>
+    <description>The number of times a participant has to switch modes for task completion based on logged control commands. The average number of times will be calculated over the total number of tasks selected by the participants.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Success rate</measure>
+    <time_frame>After participants complete all tasks using each control method during the lab visit (which lasts about three hours for each control method)</time_frame>
+    <description>The number of tasks that can be completed successfully within the maximum assigned time over the total number of tasks selected by the participants.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>NASA Task Load Index (TLX)</measure>
+    <time_frame>After participants complete all tasks with each control method during the lab visit (which lasts about three hours for each control method)</time_frame>
+    <description>NASA TLX is to assess the subjective workload of participant after participants complete all the task using each control method. It consists of six dimensions: mental demands, physical demands, temporal demands, performance, effort and frustration. The score for each dimension ranges from 0 to 100 with a higher score indicating a higher workload. The overall task load index will be a weighted average of all six dimensions, where the weight for each dimension is obtained through pairwise comparisons of these dimensions.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>System Usability Scale (SUS)</measure>
+    <time_frame>After participants complete all tasks with each control method during the lab visit (which lasts about three hours for each control method)</time_frame>
+    <description>SUS is to collect perceived ease-of-use after each intervention. The SUS score ranges from 0 to 100 with a higher score indicating better usability and overall satisfaction.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">16</enrollment>
+  <condition>Spinal Cord Injury/Disorder</condition>
+  <arm_group>
+    <arm_group_label>Vision-guided control</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>New custom control method</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Default control</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Default control method (joystick or switch)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Compare two control methods for a wheelchair-mounted robotic manipulator</intervention_name>
+    <description>Participants will pay one visit to the lab where they will be asked to complete a set of manipulation tasks using a wheelchair-mounted robotic manipulator using the new custom vision-guided control and default joystick or switch control. The sequence of the two control methods will be counterbalanced.</description>
+    <arm_group_label>Default control</arm_group_label>
+    <arm_group_label>Vision-guided control</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  18 years of age and older
+
+          -  using a power wheelchair as primary means of mobility
+
+          -  having self reported difficulties in performing everyday manipulation tasks such as
+             reaching for a glass of water, opening a refrigerator, and picking up a toothbrush
+
+        Exclusion Criteria:
+
+          -  people with impaired vision
+
+          -  people with pressure ulcers that prevent them from sitting continuously for an
+             extended period of time
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Dan Ding, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>VA Pittsburgh Healthcare System University Drive Division, Pittsburgh, PA</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Dan Ding, PhD</last_name>
+    <phone>(412) 688-6000</phone>
+    <email>dad5@pitt.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Rory A Cooper, PhD</last_name>
+    <phone>(412) 365-4850</phone>
+    <email>rcooper@pitt.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>VA Pittsburgh Healthcare System University Drive Division, Pittsburgh, PA</name>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <zip>15240</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Stacy Eckstein, BS</last_name>
+      <phone>412-822-3671</phone>
+      <email>Stacy.Eckstein@va.gov</email>
+    </contact>
+    <contact_backup>
+      <last_name>Andrea M Bagay</last_name>
+      <phone>(412) 822-3661</phone>
+      <email>Andrea.Bagay@va.gov</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Dan Ding, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>March 18, 2020</study_first_submitted>
+  <study_first_submitted_qc>March 24, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 26, 2020</study_first_posted>
+  <last_update_submitted>March 24, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 24, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 26, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Assistive devices</keyword>
+  <keyword>Wheelchairs</keyword>
+  <keyword>Activities of daily living</keyword>
+  <keyword>Assistive robotic manipulators</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Spinal Cord Injuries</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

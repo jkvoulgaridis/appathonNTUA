@@ -1,0 +1,242 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04193475</url>
+  </required_header>
+  <id_info>
+    <org_study_id>R2458</org_study_id>
+    <nct_id>NCT04193475</nct_id>
+  </id_info>
+  <brief_title>Machine Learning in Quantitative Stress Echocardiography</brief_title>
+  <acronym>MLQSE</acronym>
+  <official_title>Machine Learning in Quantitative Stress Echocardiography</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hull University Teaching Hospitals NHS Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Barts &amp; The London NHS Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Cardiff and Vale University Health Board</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Hull University Teaching Hospitals NHS Trust</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Greater diagnostic accuracy is required to find out who is at risk of a heart attack as this
+      can reduce the requirement of more invasive downstream tests and thereby improve the patient
+      experience and also reduce their exposure to risk. Stress echocardiography is a routine
+      clinical test that involves using ultrasound to image the heart whilst it is under stress to
+      assess the risk of a heart attack.
+
+      This study will focus on developing more accurate analysis tools to interpret the results of
+      these stress echocardiographic scans. New methods will be tested to measure the function of
+      each part of the heart muscle, using advanced analysis of the information obtained when
+      high-frequency sound waves are bounced off the heart inside the chest. The researchers will
+      measure and report exact heart function during stress, so that they will be able to recognise
+      normal hearts and those with any disease. New computer methods will be developed to display
+      any abnormality, which will make it easier for doctors to choose the best treatment for
+      patients who are at risk.
+
+      The goals and potential benefits of this research proposal are to update the interpretation
+      of a routinely used clinical test (stress echocardiography) to produce a reliable new method
+      for diagnosing the precise effects of diseased arteries on the function of the heart muscle;
+      to develop new computer graphics that adapt to show individual risks for each patient; and to
+      implement new computer models that can be constantly updated
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      New onset chest pain is a common presenting complaint and can be a marker of significant
+      cardiovascular disease and risk of myocardial infarction and death; therefore obtaining an
+      accurate diagnosis is critical to guide patient management. It is noteworthy that only 40-50%
+      of patients who have invasive arteriography subsequently undergo revascularisation. This
+      underscores the imprecision of the initial tests employed prior to arteriography.
+
+      Historically electrocardiographic stress testing during exercise has been used to detect
+      inducible myocardial ischaemia but its diagnostic sensitivity and specificity are low (about
+      65%). Diagnostic accuracy can be improved by by incorporating echocardiography or single
+      photon emission computed tomography. Current NICE guidelines recommend that patients with
+      chest pain of recent onset should be investigated with CT coronary angiography as a first
+      line, and if this reveals a significant stenosis then a functional imaging test should be
+      performed.
+
+      The Myocardial Doppler in Stress Echocardiography (MYDISE) study assessed the diagnostic
+      value of quantitative stress echocardiography during the infusion of dobutamine, a
+      short-acting synthetic catecholamine that acts on β-1 adrenergic receptors to increase heart
+      rate and myocardial contractility. Measuring the systolic velocities of LV long-axis function
+      at peak stress had good reproducibility (coefficients of variation in basal segments 9-14% at
+      rest and 11-18% at peak stress) and similar sensitivities and specificities (about 70%) to
+      published studies in which expert observers reported wall motion scores. When adjusted for
+      the independent effects of age, gender and heart rate, however, diagnostic accuracy increased
+      significantly with C statistics (area under receiver-operator curves) up to 90%.
+
+      Visual analysis of stress echocardiography to detect myocardial ischaemia depends on
+      qualitative assessment of multiple parameters. Major studies of quantitative stress
+      echocardiography have been limited to identifying the single best echocardiographic variable,
+      and they have used diameter stenosis as the reference criterion. Progressive subclinical
+      reductions of regional (long-axis) myocardial function have been demonstrated in subjects
+      with cardiovascular risk factors, affecting myocardial deformation (strain and strain rate)
+      as well as velocities. Ischaemia changes the timing of events during the cardiac cycle - for
+      example prolonging pre-ejection and post-ejection phases. These factors confirm the clinical
+      need for objective measurement of regional myocardial function throughout the cardiac cycle.
+
+      It is now possible to create algorithms that are based not just on a single time point (e.g.,
+      peak velocity) but instead rely on analysis of the whole of the velocity trace. This concept
+      can also be extended to include strain and strain rate curves. Investigators at Universitat
+      Pompeu Fabra, Barcelona, have developed this approach to create a statistical atlas of the
+      heart to detect dyssynchrony. A similar concept has been applied using multiple kernel
+      learning to patients with dyspnoea who have undergone exercise stress testing to identify
+      those with evidence of diastolic heart failure.This has enabled velocity traces taken from
+      the whole of the cardiac cycle to be compared and discriminated between control subjects
+      (with and without dyspnoea) and those diagnosed with heart failure with preserved ejection
+      fraction (HFpEF); the major differences observed are in early diastolic function. This
+      application has not previously been used to explore inducible myocardial ischaemia in stress
+      echocardiography, but similar findings might be expected, as changes during diastole are
+      amongst the earliest and most sensitive indicators of myocardial ischaemia. Individuals at
+      the University of Leuven (Prof Jan D'hooge) have recently developed supervised
+      machine-learning methods that allow for automatic classification of myocardial segments based
+      on their local mechanical behaviour (i.e. velocity/strain/strain rate) after going through a
+      training phase; the proposed machine-learning approach outperforms expert wall motion
+      readings as well as expert interpretation of segmental strain (rate) traces in classifying
+      ischemic segments.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">November 22, 2019</start_date>
+  <completion_date type="Anticipated">June 2023</completion_date>
+  <primary_completion_date type="Anticipated">May 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Inducible myocardial ischaemia</measure>
+    <time_frame>3 years</time_frame>
+    <description>Diagnostic performance of the machine learning classifier for the detection of inducible myocardial ischaemia as determined by reduced coronary flow reserve</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Workload</measure>
+    <time_frame>3 years</time_frame>
+    <description>Diagnostic performance of workload (units = watts) for the detection of inducible myocardial ischaemia as determined by reduced coronary flow reserve.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Velocity</measure>
+    <time_frame>3 years</time_frame>
+    <description>Diagnostic performance of velocity (units = m/s) for the detection of myocardial functional reserve compared with quantitative coronary arteriography and with coronary flow reserve.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Strain rate</measure>
+    <time_frame>3 years</time_frame>
+    <description>Diagnostic performance of strain rate (units = s^-1) for the detection of myocardial functional reserve compared with quantitative coronary arteriography and with coronary flow reserve.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Strain</measure>
+    <time_frame>3 years</time_frame>
+    <description>Diagnostic performance of strain (units = s) for the detection of myocardial functional reserve compared with quantitative coronary arteriography and with coronary flow reserve.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">1250</enrollment>
+  <condition>Cardiovascular Diseases</condition>
+  <condition>Ischaemic Heart Disease</condition>
+  <arm_group>
+    <arm_group_label>Chest pain</arm_group_label>
+    <description>Individuals presenting with chest pain requiring a stress echocardiogram.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Analysis</intervention_name>
+    <description>No intervention planned. Novel analysis of echocardiographic data.</description>
+    <arm_group_label>Chest pain</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All patients will be recruited into this study as a single group, with an age range of 20 -
+        89 years and with no restriction according to their pre-test probabilities of coronary
+        artery disease. They will be eligible for inclusion so long as they have chest pain or
+        another clinical indication for stress testing.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Clinically suitable for stress echocardiography examination
+
+        Exclusion Criteria:
+
+          -  None
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>89 Years</maximum_age>
+  </eligibility>
+  <overall_contact>
+    <last_name>Imran Sunderji, MBBS</last_name>
+    <phone>07540844481</phone>
+    <email>imran.sunderji@nhs.net</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Castle Hill Hospital</name>
+      <address>
+        <city>Cottingham</city>
+        <zip>HU165JQ</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Imran Sunderji</last_name>
+      <email>imran.sunderji@nhs.net</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>November 2019</verification_date>
+  <study_first_submitted>November 18, 2019</study_first_submitted>
+  <study_first_submitted_qc>December 9, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 10, 2019</study_first_posted>
+  <last_update_submitted>February 3, 2020</last_update_submitted>
+  <last_update_submitted_qc>February 3, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 5, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Chest pain</keyword>
+  <keyword>Angina</keyword>
+  <keyword>Deformation imaging</keyword>
+  <keyword>Tissue doppler imaging</keyword>
+  <keyword>Strain</keyword>
+  <keyword>Velocity</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Diseases</mesh_term>
+    <mesh_term>Myocardial Ischemia</mesh_term>
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Cardiovascular Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

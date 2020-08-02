@@ -1,0 +1,427 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03341546</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2017RA01</org_study_id>
+    <nct_id>NCT03341546</nct_id>
+  </id_info>
+  <brief_title>Estimating Patient Size From a Single Radiograph</brief_title>
+  <acronym>VocMepAdar</acronym>
+  <official_title>Validation of a Computational Model to Estimate Patient Anterior-posterior Dimension From an Abdominal Radiograph</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>NHS Tayside</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Dundee</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>NHS Tayside</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      A computational model has been created to estimate the abdominal depth of a patient from a
+      single x-ray image. The model has been tested using phantoms and found to be accurate; this
+      study aims to test the accuracy of the model with patients and in a clinical setting.
+
+      This will be achieved by enrolling patient's who have already been referred for an
+      anterior-posterior abdomen x-ray examination to the trial, taking a physical measurement of
+      their anterior-posterior abdominal depth and then comparing this measured value with a value
+      as estimated using the computational model based on the patient's x-ray image.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      A non-commercial computational model has been developed in-house to estimate the patient's
+      anterior-posterior or lateral depth using the radiographic image and the known exposure
+      factors with which it was undertaken. This model has been tested using single composition
+      phantoms and found to be accurate. If it was found to be accurate for real clinical
+      examinations, this would automate the measurement of patient size and give institutions the
+      estimate of patient size required for local paediatric patient dose audit. In turn, this
+      would provide the national data required to propose national reference values for paediatric
+      x-ray examinations, which would give all institutions an important comparator for their
+      performance. This would lead to optimisation in those sites most requiring it; nationally,
+      paediatric x-ray imaging would improve in time.
+
+      This pilot study is necessary to determine if the computational model is accurate enough to
+      be relied upon. Accuracy will be determined by comparing the estimate made by the
+      computational model for each patient with an actual measurement of the patient's
+      anterior-posterior abdomen depth made at the time of the examination.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">March 13, 2018</start_date>
+  <completion_date type="Actual">August 24, 2018</completion_date>
+  <primary_completion_date type="Actual">May 7, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy of the Computational Model</measure>
+    <time_frame>2 months</time_frame>
+    <description>The computational model was used to estimate the patient's anterior-posterior abdominal depth using the digital radiographic image, the exposure factors with which it was acquired and a priori knowledge relating to the x-ray unit and digital detector.
+The outcome measure was the accuracy with which the computational model estimates the patient's anterior-posterior abdominal depth. It was determined by comparing the estimate to measured anterior-posterior abdominal depth (measured at the time of the x-ray examination). Results are expressed as a percentage deviation; a low % deviation is more accurate, a high % deviation less accurate.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">20</enrollment>
+  <condition>Testing a Computational Model to Estimate Patient Size</condition>
+  <arm_group>
+    <arm_group_label>Patient cohort</arm_group_label>
+    <description>20 patients referred to Ninewells Hospital radiology department for an anterior-posterior abdomen x-ray examination. All of these patients will have a measurement of their anterior-posterior depth before undergoing their x-ray examination. An estimate of their anterior-posterior depth will then be made from their x-ray image using the computational model.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>A single measurement of the patient's abdominal depth</intervention_name>
+    <description>A single measurement of the patient's anterior-posterior abdominal depth</description>
+    <arm_group_label>Patient cohort</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Ambulatory outpatients attending Ninewells Hospital's radiology department for an
+        anterior-posterior abdomen x-ray examination
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult
+
+          -  Referred to Ninewells Hospital for an anterior-posterior abdomen x-ray examination
+
+        Exclusion Criteria:
+
+          -  Patients unable to give consent
+
+          -  Patients who have had a contrast injection in the previous 24 hours
+
+          -  Patients suffering abdominal pain at the time of the examination
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>17 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sarah Vinnicombe, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>University of Dundee</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>NHS Tayside</name>
+      <address>
+        <city>Dundee</city>
+        <state>Angus</state>
+        <zip>DD1 9SY</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>June 2019</verification_date>
+  <study_first_submitted>October 31, 2017</study_first_submitted>
+  <study_first_submitted_qc>November 13, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 14, 2017</study_first_posted>
+  <results_first_submitted>February 27, 2019</results_first_submitted>
+  <results_first_submitted_qc>June 10, 2019</results_first_submitted_qc>
+  <results_first_posted type="Actual">June 11, 2019</results_first_posted>
+  <last_update_submitted>June 10, 2019</last_update_submitted>
+  <last_update_submitted_qc>June 10, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 11, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>NHS Tayside</investigator_affiliation>
+    <investigator_full_name>Mark Worrall</investigator_full_name>
+    <investigator_title>Radiation Protection Adviser</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>December 22, 2017</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/46/NCT03341546/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Patient Cohort</title>
+          <description>20 patients referred to Ninewells Hospital radiology department for an anterior-posterior abdomen x-ray examination. All of these patients will have a measurement of their anterior-posterior depth before undergoing their x-ray examination. An estimate of their anterior-posterior depth will then be made from their x-ray image using the computational model.
+A single measurement of the patient's abdominal depth: A single measurement of the patient's anterior-posterior abdominal depth</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="20"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="20"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Patient Cohort</title>
+          <description>20 patients referred to Ninewells Hospital radiology department for an anterior-posterior abdomen x-ray examination. All of these patients will have a measurement of their anterior-posterior depth before undergoing their x-ray examination. An estimate of their anterior-posterior depth will then be made from their x-ray image using the computational model.
+A single measurement of the patient's abdominal depth: A single measurement of the patient's anterior-posterior abdominal depth</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="20"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="15"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="20"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United Kingdom</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="20"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Accuracy of the Computational Model</title>
+        <description>The computational model was used to estimate the patient's anterior-posterior abdominal depth using the digital radiographic image, the exposure factors with which it was acquired and a priori knowledge relating to the x-ray unit and digital detector.
+The outcome measure was the accuracy with which the computational model estimates the patient's anterior-posterior abdominal depth. It was determined by comparing the estimate to measured anterior-posterior abdominal depth (measured at the time of the x-ray examination). Results are expressed as a percentage deviation; a low % deviation is more accurate, a high % deviation less accurate.</description>
+        <time_frame>2 months</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Patient Cohort</title>
+            <description>20 patients referred to Ninewells Hospital radiology department for an anterior-posterior abdomen x-ray examination. All of these patients will have a measurement of their anterior-posterior depth before undergoing their x-ray examination. An estimate of their anterior-posterior depth will then be made from their x-ray image using the computational model.
+A single measurement of the patient's abdominal depth: A single measurement of the patient's anterior-posterior abdominal depth</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Accuracy of the Computational Model</title>
+          <description>The computational model was used to estimate the patient's anterior-posterior abdominal depth using the digital radiographic image, the exposure factors with which it was acquired and a priori knowledge relating to the x-ray unit and digital detector.
+The outcome measure was the accuracy with which the computational model estimates the patient's anterior-posterior abdominal depth. It was determined by comparing the estimate to measured anterior-posterior abdominal depth (measured at the time of the x-ray examination). Results are expressed as a percentage deviation; a low % deviation is more accurate, a high % deviation less accurate.</description>
+          <units>percentage agreement (est/measured)</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5.8" spread="4.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>1 day</time_frame>
+      <desc>There was no harm possible as a result of this trial. Therefore, all-cause mortality, serious and other [not including serious] adverse events were not monitored or assessed.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Patient Cohort</title>
+          <description>20 patients referred to Ninewells Hospital radiology department for an anterior-posterior abdomen x-ray examination. All of these patients will have a measurement of their anterior-posterior depth before undergoing their x-ray examination. An estimate of their anterior-posterior depth will then be made from their x-ray image using the computational model.
+A single measurement of the patient's abdominal depth: A single measurement of the patient's anterior-posterior abdominal depth</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Mark Worrall</name_or_title>
+      <organization>NHS Tayside</organization>
+      <phone>01382632177</phone>
+      <email>markworrall@nhs.net</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

@@ -1,0 +1,309 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03768999</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRB00196000</org_study_id>
+    <nct_id>NCT03768999</nct_id>
+  </id_info>
+  <brief_title>Comparison of Magnetic Resonance Coronary Angiography (MRCA) With Coronary Computed Tomography Angiography (CTA)</brief_title>
+  <official_title>Development of Magnetic Resonance Coronary Angiography (MRCA) Stenosis Assessment Quantification Method by Comparison With Coronary Computed Tomography Angiography (CTA)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Johns Hopkins University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Canon Medical Systems</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Johns Hopkins University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Magnetic resonance coronary angiography (MRCA) has its advantage in its ability to assess the
+      coronary artery morphology without radiation or contrast media. The clinical application of
+      MRCA is still challenging mainly because of technical limitations such as: its time-consuming
+      image acquisition, inconsistent image quality, and low spatial resolution. Optimization of
+      MRCA image acquisition method is in progress and compressed sensing (CS) with post-processing
+      (de-noising) by deep learning reconstruction (DLR) is promising to solve these problems.
+
+      The lack of a consensus method to assess the coronary stenosis on MRCA is another issue.
+      Generally, a stenosis in MRCA is observed as a signal intensity (SI) drop along the artery
+      compared to the healthy segments. A previous study has reported from its comparison of MRCA
+      with coronary angiography (CAG) that the SI drop of 35% in MRCA stenosis lesion corresponded
+      to the significant stenosis in CAG. Although this SI drop phenomenon was not observed in a
+      different study on chronic total obstruction cases. One of the hypothesized reasons is that
+      the SI drop in MRCA is affected not only by the stenosis severity but also the plaque
+      characteristics, which is not assessable by CAG. To investigate this hypothesis coronary CTA
+      is needed, which is a robust modality to assess coronary stenosis and plaque characteristics.
+      Comparison between MRCA with CTA has the potential to give better information for developing
+      a robust method to assess MRCA.
+
+      In this study, the investigators aim to evaluate the feasibility of MRCA scanned with
+      optimized protocol and post-processing, and to develop robust coronary artery assessment
+      method on MRCA, by comparison with clinical coronary CTA.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background:
+
+      Diagnosis of significant stenosis of the coronary artery and managing the ischemia is
+      important to prevent cardiac events. Coronary CT angiography (CTA) is one of the current gold
+      standard methods to assess coronary stenosis as well as coronary angiography (CAG), but both
+      coronary CTA and CAG are limited by radiation exposure or contrast media administration.
+
+      Magnetic resonance coronary angiography (MRCA) has its advantage in its ability to assess the
+      coronary artery morphology without radiation or contrast media. Unfortunately, the clinical
+      application of MRCA is still challenging mainly because of technical limitation such as its
+      time-consuming image acquisition, inconsistent image quality, and low spatial resolution.
+
+      Optimization of MRCA image acquisition process is under great interest and compressed sensing
+      (CS) is one of the promising methods to reduce the acquisition time. Although it's noise-like
+      granular characteristics is a weakness due to its random k-space data acquisition. The
+      granularity may affect the interpretation of the MRCA images considering the small diameter
+      of the coronary arteries. To solve this problem, post-processing denoising approach with deep
+      learning reconstruction (dDLR) is proposed, however too much image smoothing may lead to
+      unfavorable image blurring or produce artefactual smoothing leading to the removal of
+      clinically meaningful signal intensity drops across the artery. Hence, merely assessing the
+      noise level is insufficient. Evaluation of the optimized images with coronary CTA, which is
+      one of the current gold standards, is inevitable to assess its clinical feasibility.
+
+      The lack of a consensus method to assess the coronary stenosis on MRCA is another problem.
+      MRCA interpretation is generally performed visually, but its quantification is clinically
+      important to detect the significant stenosis. A previous study has reported by investigating
+      the signal intensity (SI) profile across the coronary artery and its drop of 35% corresponded
+      to significant stenosis by coronary angiography (CAG). Although this SI drop phenomenon was
+      not observed in a different study on chronic total obstruction cases. One of the hypothesized
+      reasons is that the SI drop in MRCA is affected not only by the stenosis severity but also
+      the plaque characteristics, which is not assessable by CAG. To confirm this hypothesis
+      coronary CTA is needed, which is a robust modality to assess coronary stenosis and plaque
+      characteristics. Comparison between MRCA with CTA has the potential to give better
+      information for developing a robust method to assess MRCA.
+
+      In this study, the investigators aim to evaluate the feasibility of MRCA scanned with
+      optimized protocol and post-processing, and to develop robust coronary artery assessment
+      method on MRCA, by comparison with clinical coronary CTA.
+
+      Study Procedures:
+
+      This is a prospective, non-randomized study. Overall 50 participants in total will be
+      recruited within 12 months. Each participant will undergo one non-contrast MRI.
+
+      The candidate for recruitment will be clinical patients who underwent clinical coronary CTA
+      within 6 months. Candidate participant selection will be performed by investigating the
+      electronic medical record (EMR). Then the candidate participants will receive a phone
+      screening using a questionnaire which contents are corresponding to the inclusion and
+      exclusion criteria (which will be described later). When the candidate fulfills all the
+      criteria and if the person gives consent, the investigators will recruit the person into this
+      study. The written consent will be obtained at the MRI preparation room from one of the study
+      team members. The consent to use the previously scanned coronary CTA is obtained at the same
+      time of consent for the MRI, although the investigators do not include the clinical CTA
+      acquisition into this study protocol because it is a routine clinical care that performed
+      previously.
+
+      Before the MRI scanning, the participant will get blood pressure measurement to confirm the
+      systolic blood pressure (SBP) ≥110 mmHg, which is an inclusion criteria for a sublingual
+      nitro tablet be administered to the participant in advance to the MRI. Sublingual nitro
+      tablet administration is aimed to dilate the coronary artery, which is a routine procedure in
+      coronary CTA as well. When the SBP was &lt;110 mmHg, then the participant will not receive the
+      sublingual nitro. The participant will undergo non-contrast cardiac MRI, including
+      non-contrast whole heart MRI with T2-prepared segmented fast low-angle shot 3D spoiled
+      gradient echo sequence with ECG-gating, diaphragm navigator-gating, and fat suppression. All
+      the scans will be performed with a 3 Tesla Vantage Galan scanner (Canon Medical systems).
+      After the acquisition, the MRI data will be reconstructed and then undergo post-processing
+      denoising. The DICOM images will be anonymized and stored in a folder for this study inside
+      Hopkins network.
+
+      The MRCA and CTA image assessment will be performed from anonymized images on workstations
+      with suitable function.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">September 3, 2019</start_date>
+  <completion_date type="Anticipated">April 2021</completion_date>
+  <primary_completion_date type="Anticipated">April 2021</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>1 Day</target_duration>
+  <primary_outcome>
+    <measure>The SI drop (%) threshold that corresponds to the significant stenosis in coronary CTA.</measure>
+    <time_frame>After the last participant MRI scan, up to 6 months</time_frame>
+    <description>MRCA signal intensity change compared to the proximal or distal segments of the coronary artery will be measured and compared with corresponding lesion of coronary CTA. The threshold of SI drop (%) which corresponds to the significant stenosis in CTA will be assessed.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Semi-quantitative image quality assessment score for each segments in MRCA</measure>
+    <time_frame>After participant's MRI scan, up to 2 weeks</time_frame>
+    <description>Image quality assessed by categorical numbers score ranging from 1 to 4 with higher scores indicating better image quality.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Visible coronary length in MRCA</measure>
+    <time_frame>After participant's MRI scan, up to 2 weeks</time_frame>
+    <description>The length of the coronary arteries in mm that is visually assessable which are compared with coronary CTA</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Magnetic Resonance Angiography</condition>
+  <arm_group>
+    <arm_group_label>Study group</arm_group_label>
+    <description>All participants in the study to receive Non-contrast magnetic resonance coronary angiography (MRCA)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Non-contrast magnetic resonance coronary angiography (MRCA)</intervention_name>
+    <description>Scan non-contrast MRCA and compare the image with clinically scanned coronary computed tomography angiography (CTA).</description>
+    <arm_group_label>Study group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The candidate for recruitment will be clinical patients who underwent clinical coronary CTA
+        within 6 months.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Participants who underwent clinical coronary CTA within 6 months and allow the study
+             to use the image.
+
+          -  Willing to sign a consent.
+
+          -  Overall health status is rated as good/healthy other than suspected coronary artery
+             disease
+
+          -  Weight is &lt;300 pounds
+
+          -  Not claustrophobic
+
+          -  Age: 18 or older
+
+          -  No clear contraindication against the sublingual nitro administration
+
+        Exclusion Criteria:
+
+          -  Previous history of bypass surgery or percutaneous coronary intervention (PCI)
+
+          -  Metal fragments in the eyes, brain, or spinal cord
+
+          -  Internal electrical devices, such as a cochlear implant, spinal cord stimulator,
+             pacemaker, or defibrillator
+
+          -  Pregnancy
+
+          -  Claustrophobia
+
+          -  Unstable angina pectoris patients
+
+          -  Taking phosphodiesterase V inhibitors (If the participant is taking this medication
+             for erectile dysfunction and allowed to stop it for 72 hours before the MRI, the
+             participant can be included in this study.)
+
+          -  Contraindication to use sublingual nitro administration, such as occlusive glaucoma,
+             known allergy or severe intolerance, critical aortic stenosis. Blood pressure is not
+             included in the exclusion criteria, but when the SBP&lt;110 mmHg just before the cardiac
+             MRI, the participant will not be administered the sublingual nitro.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Joao AC Lima, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Johns Hopkins University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Yoko Kato, MD, Ph.D</last_name>
+    <phone>4105024856</phone>
+    <email>ykato8@jhmi.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Jaclyn C Sesso, BSN</last_name>
+    <phone>8475736861</phone>
+    <email>jsesso1@jhmi.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Division of Cardiology, Johns Hopkins University School of Medicine</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21287</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Joao AC Lima, MD, PhD</last_name>
+      <phone>410-614-1284</phone>
+      <email>jlima@jhmi.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Sakuma H, Ichikawa Y, Suzawa N, Hirano T, Makino K, Koyama N, Van Cauteren M, Takeda K. Assessment of coronary arteries with total study time of less than 30 minutes by using whole-heart coronary MR angiography. Radiology. 2005 Oct;237(1):316-21. Epub 2005 Aug 26.</citation>
+    <PMID>16126921</PMID>
+  </reference>
+  <reference>
+    <citation>Akçakaya M, Basha TA, Chan RH, Rayatzadeh H, Kissinger KV, Goddu B, Goepfert LA, Manning WJ, Nezafat R. Accelerated contrast-enhanced whole-heart coronary MRI using low-dimensional-structure self-learning and thresholding. Magn Reson Med. 2012 May;67(5):1434-43. doi: 10.1002/mrm.24242. Epub 2012 Mar 5.</citation>
+    <PMID>22392654</PMID>
+  </reference>
+  <reference>
+    <citation>Akçakaya M, Basha TA, Chan RH, Manning WJ, Nezafat R. Accelerated isotropic sub-millimeter whole-heart coronary MRI: compressed sensing versus parallel imaging. Magn Reson Med. 2014 Feb;71(2):815-22. doi: 10.1002/mrm.24683.</citation>
+    <PMID>23440946</PMID>
+  </reference>
+  <reference>
+    <citation>Nam S, Akçakaya M, Basha T, Stehning C, Manning WJ, Tarokh V, Nezafat R. Compressed sensing reconstruction for whole-heart imaging with 3D radial trajectories: a graphics processing unit implementation. Magn Reson Med. 2013 Jan;69(1):91-102. doi: 10.1002/mrm.24234. Epub 2012 Mar 5.</citation>
+    <PMID>22392604</PMID>
+  </reference>
+  <reference>
+    <citation>Nakamura M, Kido T, Kido T, Watanabe K, Schmidt M, Forman C, Mochizuki T. Non-contrast compressed sensing whole-heart coronary magnetic resonance angiography at 3T: A comparison with conventional imaging. Eur J Radiol. 2018 Jul;104:43-48. doi: 10.1016/j.ejrad.2018.04.025. Epub 2018 Apr 27.</citation>
+    <PMID>29857865</PMID>
+  </reference>
+  <reference>
+    <citation>Isogawa K, Ida T, Shiodera T, Takeguchi T. Deep Shrinkage Convolutional Neural Network for Adaptive Noise Reduction. IEEE Signal Process Lett. 2018;25: 224-228. doi:10.1109/LSP.2017.2782270</citation>
+  </reference>
+  <reference>
+    <citation>Yonezawa M, Nagata M, Kitagawa K, Kato S, Yoon Y, Nakajima H, Nakamori S, Sakuma H, Hatakenaka M, Honda H. Quantitative analysis of 1.5-T whole-heart coronary MR angiograms obtained with 32-channel cardiac coils: a comparison with conventional quantitative coronary angiography. Radiology. 2014 May;271(2):356-64. doi: 10.1148/radiol.13122491. Epub 2013 Dec 12.</citation>
+    <PMID>24475794</PMID>
+  </reference>
+  <reference>
+    <citation>Kim SM, Choi JH, Choe YH. Coronary Artery Total Occlusion: MR Angiographic Imaging Findings and Success Rates of Percutaneous Coronary Intervention according to Intraluminal Signal Intensity Patterns. Radiology. 2016 Apr;279(1):84-92. doi: 10.1148/radiol.2015150191. Epub 2015 Oct 13.</citation>
+    <PMID>26465057</PMID>
+  </reference>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>December 4, 2018</study_first_submitted>
+  <study_first_submitted_qc>December 6, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 7, 2018</study_first_posted>
+  <last_update_submitted>April 23, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 23, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 24, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

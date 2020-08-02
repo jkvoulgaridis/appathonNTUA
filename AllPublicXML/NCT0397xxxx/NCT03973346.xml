@@ -1,0 +1,178 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03973346</url>
+  </required_header>
+  <id_info>
+    <org_study_id>VEST-RWJF-PHASE2</org_study_id>
+    <nct_id>NCT03973346</nct_id>
+  </id_info>
+  <brief_title>Impact of Social Risk Decision Support</brief_title>
+  <official_title>Improving Population and Clinical Health With Integrated Services and Advanced Analytics</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Indiana University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Robert Wood Johnson Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Indiana University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to determine the impact of embedding a risk-stratification tool,
+      designed to identify patient needs for services that address social determinant of health
+      related needs, in a commercial electronic health record system (EHR).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Social determinant of health related needs and social risk factors complicate care delivery
+      and drive health and well-being. Social needs are common among undeserved patient
+      populations, but health care providers are often not equipped to routinely identify and
+      address patients in need.
+
+      Using a combination of health information exchange, electronic health record, and aggregate
+      datasets the investigators developed predictive algorithms to identify patients a highest
+      risk for a need for a referral to a social worker, dietitian, behavioral health, or other
+      wraparound service provider. Risk scores are available to primary care providers in two ways
+      within the electronic health record system (EHR): 1) a graphical summary of individual risk
+      or 2) a line listing of all scheduled patients.
+
+      The investigators are introducing the risk-stratification tool in an urban safety-net primary
+      care provider on a voluntary usage basis.
+    </textblock>
+  </detailed_description>
+  <overall_status>Suspended</overall_status>
+  <why_stopped>
+    The implementation of the tool has been delayed due to technology governance issues and
+    requests for changes in the end user design.
+  </why_stopped>
+  <start_date type="Actual">June 1, 2019</start_date>
+  <completion_date type="Anticipated">December 2020</completion_date>
+  <primary_completion_date type="Anticipated">December 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Multiple observation, pre-post with a secondary data source comparison group design, and a difference-in-difference modeling approach.</intervention_model_description>
+    <primary_purpose>Screening</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>ED utilization rate</measure>
+    <time_frame>6 months</time_frame>
+    <description>Rate of potentially avoidable emergency department utilization as determined by encounters recorded in health information exchange data and categorized using the NYU ED Algorithm.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Missed primary care appointments rate</measure>
+    <time_frame>6 months</time_frame>
+    <description>Rate of no show / cancelled appointments at the intervention site primary care clinics as recorded in the intervention site's electronic health record system</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Hospitalization rate</measure>
+    <time_frame>6 months</time_frame>
+    <description>Rate of all cause and potentially preventable hospitalization as determined by encounters recorded in health information exchange data and categorized using AHRQ's prevention quality indicator definitions</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">180000</enrollment>
+  <condition>Health Social Determinant</condition>
+  <arm_group>
+    <arm_group_label>Intervention group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Encounters at primary care clinics with the risk screening tool</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Comparison group</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Propensity score matched comparison encounters</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Risk screening tool exposure</intervention_name>
+    <description>Risk screening tool is available to providers</description>
+    <arm_group_label>Intervention group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Encounters among patients seeking primary care service at any of the 9 Eskenazi Health
+             FQHC clinics in Indianapolis, IN from January 2017 to May 2020.
+
+          -  The propensity score matched primary care encounters from non-Eskenazi facilities.
+
+        Exclusion Criteria:
+
+          -  Emergency encounters or hospitalizations
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Joshua R Vest, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Associte Professor</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Eskenazi Health</name>
+      <address>
+        <city>Indianapolis</city>
+        <state>Indiana</state>
+        <zip>46202</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Kasthurirathne SN, Vest JR, Menachemi N, Halverson PK, Grannis SJ. Assessing the capacity of social determinants of health data to augment predictive models identifying patients in need of wraparound social services. J Am Med Inform Assoc. 2018 Jan 1;25(1):47-53. doi: 10.1093/jamia/ocx130.</citation>
+    <PMID>29177457</PMID>
+  </reference>
+  <reference>
+    <citation>Vest JR, Grannis SJ, Haut DP, Halverson PK, Menachemi N. Using structured and unstructured data to identify patients' need for services that address the social determinants of health. Int J Med Inform. 2017 Nov;107:101-106. doi: 10.1016/j.ijmedinf.2017.09.008. Epub 2017 Sep 20.</citation>
+    <PMID>29029685</PMID>
+  </reference>
+  <reference>
+    <citation>Vest JR, Menachemi N, Grannis SJ, Ferrell JL, Kasthurirathne SN, Zhang Y, Tong Y, Halverson PK. Impact of Risk Stratification on Referrals and Uptake of Wraparound Services That Address Social Determinants: A Stepped Wedged Trial. Am J Prev Med. 2019 Apr;56(4):e125-e133. doi: 10.1016/j.amepre.2018.11.009. Epub 2019 Feb 14.</citation>
+    <PMID>30772150</PMID>
+  </reference>
+  <verification_date>February 2020</verification_date>
+  <study_first_submitted>May 28, 2019</study_first_submitted>
+  <study_first_submitted_qc>May 31, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 4, 2019</study_first_posted>
+  <last_update_submitted>February 24, 2020</last_update_submitted>
+  <last_update_submitted_qc>February 24, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 25, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Indiana University</investigator_affiliation>
+    <investigator_full_name>Joshua R. Vest, PhD</investigator_full_name>
+    <investigator_title>Associate Professor &amp; Center Director</investigator_title>
+  </responsible_party>
+  <keyword>risk prediction</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

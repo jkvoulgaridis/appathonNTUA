@@ -1,0 +1,260 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03659526</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRAS Project ID 136434</org_study_id>
+    <nct_id>NCT03659526</nct_id>
+  </id_info>
+  <brief_title>Quantitative Stress Echocardiography to Diagnose Myocardial Ischaemia</brief_title>
+  <acronym>DEVISE</acronym>
+  <official_title>Development, Validation and Implementation of a New Quantitative Stress Echocardiographic Test for Myocardial Ischaemia</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital of Wales</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Leuven University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Universitat Pompeu Fabra</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Hull University Teaching Hospitals NHS Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Danderyd Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital of Wales</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Patients with chest pain on exertion need a reliable non-invasive test to identify if they
+      have inducible myocardial ischaemia. This would reduce the use of diagnostic coronary
+      arteriography, avoid its risks and costs, and guide clinical decisions. Conventional stress
+      echocardiography has poor reproducibility because it relies on qualitative and subjective
+      interpretation. Quantitative approaches based on precise and reliable measurements of
+      myocardial velocity, strain, strain rate and global longitudinal strain have been shown to be
+      able to accurately diagnose myocardial ischaemia. A more accurate test using myocardial
+      velocity imaging was not implemented by ultrasound vendors although it provided an objective
+      measurement of myocardial functional reserve on a continuous scale from normality to severe
+      ischaemia.
+
+      The investigators propose an original approach to create a diagnostic software tool that can
+      be used in routine clinical practice. The investigators will extract and compare quantitative
+      data obtained through myocardial velocity imaging and speckle tracking in subjects who
+      undergo dobutamine stress echocardiography.
+
+      The data will be analysed using advanced computational mathematics including multiple kernel
+      learning and joint statistics applied to multivariate data across multiple dimensions
+      (including velocity, strain and strain rate traces). This approach will be validated against
+      quantitative coronary arteriography and fractional flow reserve. The results will be
+      displayed as parametric images and placed into a reporting tool. The output will determine
+      the presence and severity of myocardial ischaemia. These new tools will have the capacity for
+      iterative learning so that the precision of the diagnostic conclusions can be continuously
+      refined.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 21, 2016</start_date>
+  <completion_date type="Anticipated">October 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">October 31, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Diagnostic accuracy of quantitative measures of dobutamine stress echocardiography</measure>
+    <time_frame>18 months</time_frame>
+    <description>Echocardiographic measurements of segmental myocardial velocity, strain, strain rate and wall motion scoring referenced against measurements derived from coronary angiography.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Lowest dose of dobutamine to provoke measurable marker of inducible myocardial ischaemia</measure>
+    <time_frame>18 months</time_frame>
+    <description>Using modelling techniques applied predict lowest dose of dobutamine to maintain diagnostic accuracy</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic accuracy of using machine learning to interpret multiparametric and multidimensional datasets to diagnose myocardial ischaemia</measure>
+    <time_frame>18 months</time_frame>
+    <description>Use modelling to combine pre-test probabilities (based on risk factors such as age), physiological factors (e.g., heart rate) that are associated with longitudinal function and data derived throughout the cardiac cycle (i.e., based on analysis of velocity or strain curves and not just a single value like peak velocity or strain).</description>
+  </secondary_outcome>
+  <number_of_groups>4</number_of_groups>
+  <enrollment type="Anticipated">390</enrollment>
+  <condition>Ischemia, Myocardial</condition>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <description>Healthy volunteers or if they have had normal invasive or CT coronary arteriography or other functional imaging test</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Deformation imaging</arm_group_label>
+    <description>Significant coronary disease (diameter stenosis &gt;50%) has been diagnosed on arteriography or on CT angiography. Fractional flow reserve will be measured as the reference criterion.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>High p(CAD)</arm_group_label>
+    <description>Intermediate-to-high probability of significant epicardial coronary disease (&gt;50%).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>All comers</arm_group_label>
+    <description>Probability of severe disease ranging from 15 to 85%.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Deformation imaging</intervention_name>
+    <description>Deformation parameters derived using myocardial velocity imaging or speckle tracking</description>
+    <arm_group_label>All comers</arm_group_label>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_label>Deformation imaging</arm_group_label>
+    <arm_group_label>High p(CAD)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Secondary care referrals
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Chest pain, chest pain equivalent
+
+        Exclusion Criteria:
+
+          -  acute coronary syndrome with elevated troponin, severe heart valve disease,
+             uncontrolled hypertension (resting SBP &gt;200mmHg), cardiomyopathy, contraindication to
+             dobutamine, pregnancy
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>89 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Alan G Fraser</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Hospital Wales</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Imran D Sunderji</last_name>
+    <phone>+441482 875875</phone>
+    <email>imran.sunderji@nhs.net</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Alan G Fraser</last_name>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>UZ Leuven</name>
+      <address>
+        <city>Leuven</city>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Jens Voigt</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Danderyd Hospital</name>
+      <address>
+        <city>Stockholm</city>
+        <country>Sweden</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Reidar Winter</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University Hospital Wales</name>
+      <address>
+        <city>Cardiff</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alan G Fraser</last_name>
+    </contact>
+    <investigator>
+      <last_name>Alan G Fraser</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Castle Hill Hospital</name>
+      <address>
+        <city>Cottingham</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Imran D Sunderji</last_name>
+    </contact>
+    <investigator>
+      <last_name>Imran D Sunderji</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+    <country>Sweden</country>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>September 2018</verification_date>
+  <study_first_submitted>August 17, 2018</study_first_submitted>
+  <study_first_submitted_qc>September 2, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 6, 2018</study_first_posted>
+  <last_update_submitted>September 2, 2018</last_update_submitted>
+  <last_update_submitted_qc>September 2, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 6, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University Hospital of Wales</investigator_affiliation>
+    <investigator_full_name>Professor Alan G Fraser</investigator_full_name>
+    <investigator_title>Professor of Cardiology</investigator_title>
+  </responsible_party>
+  <keyword>Myocardial velocity imaging</keyword>
+  <keyword>Strain</keyword>
+  <keyword>Strain rate</keyword>
+  <keyword>Speckle tracking</keyword>
+  <keyword>Deformation</keyword>
+  <keyword>Quantitative</keyword>
+  <keyword>Echocardiography</keyword>
+  <keyword>Machine learning</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Myocardial Ischemia</mesh_term>
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Ischemia</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

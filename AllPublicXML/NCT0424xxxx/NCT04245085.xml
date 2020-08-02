@@ -1,0 +1,802 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04245085</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ETOP 15-19</org_study_id>
+    <secondary_id>MO40586</secondary_id>
+    <nct_id>NCT04245085</nct_id>
+  </id_info>
+  <brief_title>ABC-lung: Atezolizumab, Bevacizumab and Chemotherapy in EGFR-mutant Non-small Cell Lung Carcinoma</brief_title>
+  <acronym>ABC-lung</acronym>
+  <official_title>A Randomised Non-comparative Open Label Phase II Trial of Atezolizumab Plus Bevacizumab, With Carboplatin-paclitaxel or Pemetrexed, in EGFR-mutant Non-small Cell Lung Carcinoma With Acquired Resistance</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>European Thoracic Oncology Platform</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Roche Pharma AG</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>European Thoracic Oncology Platform</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      ETOP 15-19 ABC-lung is an international, multi-centre open-label, randomized phase II trial
+      with two non-comparative parallel arms of atezolizumab plus bevacizumab with
+      carboplatin-paclitaxel (Arm A) or atezolizumab, bevacizumab and pemetrexed (Arm B) in
+      patients with stage IIIB-IV non-squamous non-small cell lung cancer (NSCLC) harbouring EGFR
+      mutations after failure of standard EGFR tyrosine kinase inhibitors (TKIs).
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Anticipated">July 30, 2020</start_date>
+  <completion_date type="Anticipated">March 30, 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 30, 2022</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Progression-free survival (PFS) rate at 12 months according to RECIST v1.1</measure>
+    <time_frame>12 months from randomisation</time_frame>
+    <description>The primary objective of this study is to explore the clinical efficacy of atezolizumab and bevacizumab combined with chemotherapy in patients with EGFR-mutant advanced NSCLC after failure of standard EGFR TKIs.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Adverse events according to CTCAE v5.0</measure>
+    <time_frame>from the date of randomisation until 90 days after the last dose of protocol treatment</time_frame>
+    <description>To assess the safety and tolerability of the treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Overall survival</measure>
+    <time_frame>through study completion, from the date of randomisation until death, including OS rate at 12 months.</time_frame>
+    <description>OS is defined as the time from the date of randomisation until death from any cause. Censoring will occur at the last follow-up date.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Objective response</measure>
+    <time_frame>From date of randomisation until date of treatment completion (until documented disease progression, death or any other causes), assessed up to 2 years.</time_frame>
+    <description>Objective response is defined as best overall response (CR or PR) across all assessment time-points according to RECIST criteria v1.1, from randomisation until the end of protocol treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Quality of Life Core Questionnaire (EORTC QLQ-C30)</measure>
+    <time_frame>from baseline up to 12 months or until disease progression, whatever is first.</time_frame>
+    <description>Quality of life will be assessed by the European Organization for Research and Treatment of Cancer Quality of Life Core Questionnaire (EORTC QLQ-C30). The key QoL outcome is the time to deterioration (TTD) in the QLQ-C30 global health status/global QoL.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Quality of Life lung cancer-specific module (QLQ-LC13)</measure>
+    <time_frame>from baseline up to 12 months or until disease progression, whatever is first.</time_frame>
+    <description>Lung cancer associated symptoms will be measured by the lung cancer-specific module (QLQ-LC13).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Extra-cranial PFS</measure>
+    <time_frame>through study completion, from date of randomisation to documentation of PD outside the CNS, assessed up to 2 years</time_frame>
+    <description>Extra-cranial progression-free-survival is the time from randomisation to documentation of disease progression outside the central nervous system (CNS) as per RECIST criteria or death, whichever occurred first.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intracranial PFS</measure>
+    <time_frame>through study completion, from date of randomisation to first documented radiographic evidence of CNS progression, assessed up to 2 years.</time_frame>
+    <description>Intracranial progression-free-survival is defined as the time from randomisation to first documented radiographic evidence of CNS progression. CNS progression is defined as progression due to newly developed CNS lesions and/or progression of pre-existing baseline CNS lesions.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">95</enrollment>
+  <condition>EGFRmutant Stage IIIB/C or IV Non-squamous NSCLC</condition>
+  <arm_group>
+    <arm_group_label>Arm A</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Atezolizumab (1200 mg) Q3W, until PD
+Bevacizumab (15 mg/kg), Q3W, until PD
+Carboplatin (AUC5) Q3W, 4-6 cycles
+Paclitaxel (200 mg/m2), Q3W, 4-6 cycles</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm B</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Atezolizumab (1200 mg), Q3W, until PD
+Bevacizumab (15 mg/kg), Q3W, until PD
+Pemetrexed (500 mg/m2), Q3W, until PD</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Atezolizumab</intervention_name>
+    <description>Patients in both treatment arms will receive atezolizumab at a fixed dose of 1200 mg i.v. on day one of every 3-week (3 days) cycle, until progression of disease determined according to RECIST v1.1 or lack of tolerability, or patient declines further treatment.
+Treatment beyond RECIST-defined progression will be allowed if patient is continuing to derive clinical benefit.</description>
+    <arm_group_label>Arm A</arm_group_label>
+    <arm_group_label>Arm B</arm_group_label>
+    <other_name>Tecentriq</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Bevacizumab</intervention_name>
+    <description>Patients in both treatment arms will receive bevacizumab at a dose of 15 mg/kg i.v. on day one of every 3-week (+/- 3 days) cycle, until progression of disease determined according to RECIST v1.1 or lack of tolerability, or patient declines further treatment.</description>
+    <arm_group_label>Arm A</arm_group_label>
+    <arm_group_label>Arm B</arm_group_label>
+    <other_name>Avastin</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Carboplatin</intervention_name>
+    <description>Patients in treatment Arm A will receive carboplatin, AUC5 every 3 weeks for 4-6 cycles.</description>
+    <arm_group_label>Arm A</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Paclitaxel</intervention_name>
+    <description>Patients in treatment Arm A will receive paclitaxel, 200 mg/m2, every 3 weeks for 4-6 cycles.</description>
+    <arm_group_label>Arm A</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Pemetrexed</intervention_name>
+    <description>Patients in treatment Arm B will receive Pemetrexed, 500 mg/m2 every 3 weeks until progression of disease determined according to RECIST v1.1 or lack of tolerability, or patient declines further treatment.</description>
+    <arm_group_label>Arm B</arm_group_label>
+    <other_name>Alimta</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Patients (male/female) must be ≥18 years of age.
+
+          2. Chemotherapy naïve, non-squamous NSCLC, stage IIIB/C (not amenable to radical therapy)
+             or IV. Patients who have received previous adjuvant or neoadjuvant chemotherapy are
+             eligible if the date of last dose of treatment was at least 12 months before
+             randomisation.
+
+          3. Known EGFR mutations genotypes by tissue or ctDNA, patients with common mutations
+             (L858R or Del19) and other rare mutations (e.g. S768I, G719X) are eligible.
+
+          4. Measurable or evaluable disease by RECIST v1.1.
+
+          5. Disease progression (during or after) or unacceptable side effects from prior
+             treatment with at least one EGFR TKI (washout period = 7 days).
+
+             If most recent line of treatment (1st or 2nd line) was a third-generation EGFR TKI
+             (e.g. osimertinib):
+
+               -  Patient must be known to be EGFR mutation positive, either on fresh tumour biopsy
+                  taken &gt;7 days prior to protocol treatment start or by recent ctDNA analysis
+                  (informative ctDNA test, local test).
+
+               -  T790M genotype is allowed
+
+             If most recent line of treatment (1st or 2nd line) was a first- or second-generation
+             EGFR TKI (e.g. afatinib, dacomitinib, erlotinib, gefitinib):
+
+             - Patient must be known to be tissue EGFR T790M wild type (local test) on most recent
+             line of EGFR TKI or if no tissue re-biopsy, no evidence of T790M on ctDNA but
+             identified L858R, del19, S768I or G719X genotypes (informative ctDNA test, local test)
+
+          6. Treatment with an EGFR TKI therapy for at least 10 days
+
+          7. Adequate haematological function:
+
+               -  Haemoglobin greater or equal 90 g/L
+
+               -  Absolute neutrophils count (ANC) greater or equal 1.5× 109/L
+
+               -  Platelet count greater or equal 100× 109/L
+
+          8. Adequate renal function:
+
+               -  Creatinine less or equal 1.5× ULN OR
+
+               -  Creatinine clearance greater or equal 45 mL/min (using the Cockcroft-Gault
+                  formula)
+
+          9. Adequate liver function:
+
+               -  ALT and AST less or equal 2.5× ULN. If the patient has liver metastases, ALT and
+                  AST must be less or equal 5× ULN
+
+               -  Total bilirubin less or equal 1.5x ULN.
+
+         10. Willingness to provide any surplus tumour sample obtained at the time of acquired
+             resistance to prior EGFR TKI
+
+         11. Men and women of childbearing potential must agree to use adequate contraception
+
+         12. Eastern Cooperative Oncology Group (ECOG) performance status 0-1
+
+         13. Life expectancy greater or equal 12 weeks
+
+         14. Women of childbearing potential, including women who had their last menstrual period
+             in the last 2 years, must have a negative serum or urine pregnancy test within 7 days
+             before randomisation.
+
+         15. Patient is willing and able to comply with the protocol for the duration of the trial
+             including undergoing treatment and scheduled visits and examinations including follow
+             up.
+
+        Exclusion Criteria:
+
+          1. Prior systemic cytotoxic chemotherapy for advanced stage NSCLC Patients who had
+             received previous adjuvant or neoadjuvant chemotherapy are eligible if the last dose
+             of treatment was at least 12 months before randomisation.
+
+          2. Prior therapy with bevacizumab or other anti-angiogenic agent
+
+          3. Prior immune checkpoint inhibitor therapy
+
+          4. More than two lines of EGFR TKI therapy
+
+          5. Known small-cell lung carcinoma (SCLC) or high grade neuroendocrine carcinoma (if
+             progression biopsy has been performed locally).
+
+          6. Squamous cell histologic subtype
+
+          7. Known EGFR T790M positive genotype by tissue on most recent EGFR TKI progression or
+             ctDNA and have not received an approved EGFR TKI targeting T790M (e.g. a
+             third-generation EGFR TKI such as osimertinib).
+
+          8. Active or untreated CNS metastases as determined by brain MRI
+
+             - Patients with CNS metastases must be non-progressive by RECIST and symptomatically
+             stable with no ongoing requirement for corticosteroids as therapy for CNS disease;
+             anticonvulsants at a stable dose allowed
+
+          9. Radiotherapy treatment to more than 30% of the bone marrow or with a wide field of
+             radiation within 4 weeks of randomization.
+
+         10. Presence or history of a malignant disease that has been diagnosed and/or required
+             therapy within the past 3 years. Exceptions to this exclusion include the following:
+             completely resected basal cell and squamous cell skin cancers, and completely resected
+             carcinoma in situ of any type.
+
+         11. Clear tumour infiltration into the thoracic great vessels (seen on imaging)
+
+         12. QTc of grade ≥3 according to CTCAE v5.0
+
+         13. Active autoimmune disease that has required systemic treatment in past 2 years.
+             Patients with vitiligo, controlled type I diabetes mellitus on stable insulin, or
+             residual autoimmune-related hypothyroidism only requiring hormone replacement or
+             psoriasis not requiring systemic treatment are permitted
+
+         14. Active or uncontrolled HIV, tuberculosis, hepatitis B or C infection
+
+         15. Live attenuated vaccination within 4 weeks prior to randomisation.
+
+         16. Subject receiving any biologic drugs targeting the immune system (for example, TNF
+             blockers, anakinra, rituximab, abatacept, or tocilizumab).
+
+         17. History of idiopathic pulmonary fibrosis, organizing pneumonia, drug-induced
+             pneumonitis, idiopathic pneumonitis, or evidence of active pneumonitis on screening
+             chest computed tomography scan. History of radiation pneumonitis in the radiation
+             field (fibrosis) is permitted
+
+         18. Inadequately controlled hypertension (defined as systolic blood pressure &gt;150 mmHg
+             and/or diastolic blood pressure &gt;100 mmHg)
+
+             - Anti-hypertensive therapy to achieve these parameters is allowable.
+
+         19. Prior history of hypertensive crisis or hypertensive encephalopathy
+
+         20. Significant vascular disease (e.g. aortic aneurysm requiring surgical repair or recent
+             peripheral arterial thrombosis) within 6 months prior to randomization
+
+         21. History of haemoptysis (greater or equal 2.5mL of bright red blood per episode) within
+             1 month prior to randomization
+
+         22. Evidence of bleeding diathesis or coagulopathy (in the absence of therapeutic
+             anticoagulation)
+
+         23. Current or recent (within 10 days of randomization) use of aspirin (&gt;325 mg/day) or
+             treatment with dipyramidole, ticlopidine, clopidogrel, and clostazol
+
+         24. Current use of full-dose oral or parenteral anticoagulants or thrombolytic agents for
+             therapeutic purposes that has not been stable for &gt;2 weeks prior to randomization
+
+               -  The use of full-dose oral or parenteral anticoagulants is permitted as long as
+                  the INR or aPTT is within therapeutic limits (according to the medical standard
+                  of the enrolling institution) and the patient has been on a stable dose of
+                  anticoagulants for at least 2 weeks prior to randomization.
+
+               -  Prophylactic anticoagulation for the patency of venous access devices is allowed,
+                  provided the activity of the agent results in an INR &lt;1.5× ULN and aPTT is within
+                  normal limits within 14 days prior to randomization.
+
+               -  Prophylactic use of low-molecular-weight heparin (i.e., enoxaparin 40 mg/day) is
+                  permitted.
+
+         25. Core biopsy or other minor surgical procedure, excluding placement of a vascular
+             access device, within 7 days prior to the first dose of bevacizumab
+
+         26. History of abdominal or tracheoesophageal fistula or gastrointestinal perforation
+             within 6 months prior to randomization
+
+         27. Clinical signs of gastrointestinal obstruction or requirement for routine parenteral
+             hydration, parenteral nutrition, or tube feeding
+
+         28. Evidence of abdominal free air not explained by paracentesis or recent surgical
+             procedure
+
+         29. Serious, non-healing wound, active ulcer, or untreated bone fracture
+
+         30. Proteinuria, as demonstrated by urine dipstick or &gt;1.0 g of protein in a 24-hour urine
+             collection
+
+             - All patients with greater or equal 2+ protein on dipstick urine alysis at baseline
+             must undergo a 24 hour urine collection and must demonstrate lesser or equal 1 g of
+             protein in 24 hours.
+
+         31. Any unresolved toxicities from prior therapy greater than CTCAE v5.0 grade 1 at the
+             time of starting trial treatment with the exception of alopecia
+
+         32. History of hypersensitivity to the known active substances (atezolizumab, bevacizumab
+             and chemotherapy drugs) or to any of the excipients.
+
+         33. History of hypersensitivity to Chinese Hamster Ovary (CHO) cell products or other
+             recombinant human or humanised antibodies.
+
+         34. Judgment by the Investigator that the patient should not participate in the study if
+             the patient is unlikely to comply with study procedures, restrictions and
+             requirements.
+
+         35. Women who are pregnant or in the period of lactation.
+
+         36. Sexually active men and women of childbearing potential who are not willing to use an
+             effective contraceptive method during the trial and up to 6 months after discontinuing
+             trial treatment
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>99 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Susanne Roux</last_name>
+    <phone>+41 31 511 94 17</phone>
+    <email>ABC-lung@etop-eu.org</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Heidi Roschitzki</last_name>
+    <phone>+41 31 511 94 18</phone>
+    <email>Heidi.Roschitzki@etop-eu.org</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>LungenClinic Grosshansdorf</name>
+      <address>
+        <city>Großhansdorf</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Martin Reck, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Martin Reck, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Thoraxklinik Heidelberg</name>
+      <address>
+        <city>Heidelberg</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Farastuk Bozorgmehr, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Farastuk Bozorgmehr, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Asklepios Fachkliniken München-Gauting</name>
+      <address>
+        <city>München</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Niels Reinmuth, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Niels Reinmuth, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>National Cancer Center</name>
+      <address>
+        <city>Goyang</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Ji-Youn Han, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Ji-Youn Han, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Severance Hospital, Yonsei University Health System</name>
+      <address>
+        <city>Seoul</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Byoung Chul Cho, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Byoung Chul Cho, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>National University Hospital</name>
+      <address>
+        <city>Singapore</city>
+        <country>Singapore</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Ross Soo, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Ross Soo, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>ICO - Hospital Universitari Germans Trias i Pujol</name>
+      <address>
+        <city>Badalona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Teresa Moran, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Teresa Moran, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital De La Santa Creu I Sant Pau</name>
+      <address>
+        <city>Barcelona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Margarita Majem, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Margarita Majem, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Vall d'Hebron University Hospital</name>
+      <address>
+        <city>Barcelona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Enriqueta Felip, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Enriqueta Felip, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>OSI Bilbao Basurto</name>
+      <address>
+        <city>Bilbao</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Maria A Sala González, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Maria A Sala González, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Complejo Hospitalario de Jaén</name>
+      <address>
+        <city>Jaén</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Ana L Ortega Granados, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Ana L Ortega Granados, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Teresa Herrera</name>
+      <address>
+        <city>La Coruña</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Rosario Garcia Campelo, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Rosario Garcia Campelo, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Insular Gran Canaria</name>
+      <address>
+        <city>Las Palmas De Gran Canaria</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Delvys Rodriguez Abreu, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Delvys Rodriguez Abreu, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Puerta de Hierro</name>
+      <address>
+        <city>Madrid</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Mariano Provencio, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Mariano Provencio, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Fundacion Jimenez Díaz</name>
+      <address>
+        <city>Madrid</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Manuel Domine, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Manuel Domine, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital General de Valencia</name>
+      <address>
+        <city>Valencia</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Ana Blasco, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Ana Blasco, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hôpitaux Universitaires de Genève</name>
+      <address>
+        <city>Geneva</city>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alfredo Addeo, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Alfredo Addeo, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kantonsspital St. Gallen</name>
+      <address>
+        <city>St. Gallen</city>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Martin Früh, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Martin Früh, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>UniversitätsSpital Zürich</name>
+      <address>
+        <city>Zürich</city>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Alessandra Curioni, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Alessandra Curioni, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Clatterbridge Cancer Centre</name>
+      <address>
+        <city>Liverpool</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Carles Escriu, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Carles Escriu, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Royal Marsden Hospital (Fulham Road)</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Sanjay Popat, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Sanjay Popat, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Royal Marsden Hospital (Sutton)</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Sanjay Popat, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Sanjay Popat, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kent Oncology Centre</name>
+      <address>
+        <city>Maidstone</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Riyaz Shah, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Riyaz Shah, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+    <country>Korea, Republic of</country>
+    <country>Singapore</country>
+    <country>Spain</country>
+    <country>Switzerland</country>
+    <country>United Kingdom</country>
+  </location_countries>
+  <removed_countries>
+    <country>Hong Kong</country>
+  </removed_countries>
+  <verification_date>January 2020</verification_date>
+  <study_first_submitted>December 16, 2019</study_first_submitted>
+  <study_first_submitted_qc>January 27, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 28, 2020</study_first_posted>
+  <last_update_submitted>July 15, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 15, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 17, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lung Neoplasms</mesh_term>
+    <mesh_term>Carcinoma, Non-Small-Cell Lung</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Paclitaxel</mesh_term>
+    <mesh_term>Bevacizumab</mesh_term>
+    <mesh_term>Carboplatin</mesh_term>
+    <mesh_term>Pemetrexed</mesh_term>
+    <mesh_term>Atezolizumab</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,978 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03752151</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MDT18024</org_study_id>
+    <nct_id>NCT03752151</nct_id>
+  </id_info>
+  <brief_title>Micra Atrial TRacking Using A Ventricular AccELerometer 2</brief_title>
+  <acronym>MARVEL2</acronym>
+  <official_title>Micra Atrial TRacking Using A Ventricular AccELerometer 2</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Medtronic Cardiac Rhythm and Heart Failure</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Medtronic Cardiac Rhythm and Heart Failure</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of the Micra Atrial TRacking Using A Ventricular AccELerometer 2 (MARVEL 2) study
+      is to demonstrate safe and effective operation of the MARVEL 2 features for providing AV
+      synchronous pacing in patients with normal sinus node function and AV block
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The MARVEL 2 study is an acute, prospective, global, multi-center, software-download clinical
+      study. The study is planned to be conducted in US, Europe, and Asia. The study is expected to
+      be conducted at approximately 15-20 centers in up to 100 subjects to obtain at least 70
+      usable Holter datasets to meet the objectives of the study. The expected total study duration
+      (from first subject enrollment to the exit of the last subject) is approximately 6-months;
+      this represents the time necessary to enroll the target sample size of at least 70 subjects
+      with usable Holter datasets. Software will be downloaded into patients implanted with a Micra
+      device to allow the new algorithm performance to be measured in patients where a Micra device
+      has already been chosen as most appropriate for the patient.
+
+      Most enrolled subjects will complete the study procedures during a single study visit.
+      However, subjects enrolling in the study at the time of their Micra implant (anticipated to
+      be approximately 10 subjects) will have the investigational algorithm downloaded following
+      Micra implant, prior to hospital discharge, and approximately 1-month post-implant. This
+      subset of subjects with de novo Micra implants will allow the MARVEL 2 features to be tested
+      at multiple points in the device life cycle.
+
+      Since the download algorithm running in a Micra device significantly increases current drain,
+      a 2-4 hour acute study is used to limit the reduction in device longevity.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 22, 2019</start_date>
+  <completion_date type="Actual">August 7, 2019</completion_date>
+  <primary_completion_date type="Actual">August 7, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Sequential Assignment</intervention_model>
+    <intervention_model_description>Subjects enrolled in the MARVEL 2 study. Enrolled subjects will have the MARVEL 2 algorithm downloaded into their implanted market released Micra device. Each subject will be tested during when the MARVEL 2 algorithm is in monitor mode (VVI pacing) and in adaptive mode (VDD pacing).</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+    <masking_description>Echocardiogram core lab will be masked to the individual patient subjects and MARVEL 2 algorithm mode.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Atrial Ventricular Pacing Synchrony Success During Rest</measure>
+    <time_frame>40 Minutes</time_frame>
+    <description>A subject will meet the primary endpoint if a paced or sensed ventricular beat is within 300 ms following an ECG confirmed P-wave for at least 70% of the ECG confirmed P-waves. The primary endpoint will be evaluated during the MARVEL 2 setup phase during MARVEL 2 Algorithm monitor mode (VDI pacing which is effectively VVI pacing) and during the 20-minute resting period in which the MARVEL 2 Algorithm is programmed to Adaptive mode (VDD pacing)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Participants Free From Inappropriate Pacemaker Function Events</measure>
+    <time_frame>Through study completion an average of one day</time_frame>
+    <description>A participant will meet the primary endpoint if they are free from the following MARVEL 2 software related events during the entire Holter monitoring period where the MARVEL 2 features are enabled.
+Inappropriate pacemaker function events are defined as:
+Cardiac pauses lasting longer than 2 cardiac cycles (where cardiac cycle length is defined by the programmed lower rate interval of the pacemaker), OR
+Pacemaker oversensing induced tachycardia exceeding 3-minutes, defined as oversensing of the pacemaker's accelerometer signal leading to a heart rate exceeding 100 beats per minute.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Left Ventricular Outflow Tract Velocity Time Integral</measure>
+    <time_frame>12 cardiac cycles</time_frame>
+    <description>The secondary endpoint is left ventricular outflow tract (LVOT) velocity time integral (VTI) as obtained from echocardiogram while the MARVEL 2 features are in adaptive mode (VDD pacing) and while the MARVEL 2 features are in monitor mode (VDI pacing which is effectively VVI pacing). This was measured by the echo core laboratory that was blinded to the study participant and MARVEL 2 algorithm mode.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">77</enrollment>
+  <condition>Atrioventricular Conduction Block</condition>
+  <arm_group>
+    <arm_group_label>MARVEL 2 Algorithm Monitor Mode, Then MARVEL 2 Adaptive Mode</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants first received MARVEL 2 algorithm monitor mode which provides standard VVI pacing for approximately 20 minutes followed by MARVEL 2 algorithm adaptive mode for approximately 2 hours which provides VDD pacing.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>MARVEL 2 Algorithm Monitor Mode then Adaptive Mode</intervention_name>
+    <description>Software download into implanted Micra device and programmed to MARVEL 2 Monitor Mode then MARVEL 2 Adaptive Mode</description>
+    <arm_group_label>MARVEL 2 Algorithm Monitor Mode, Then MARVEL 2 Adaptive Mode</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Subject has been implanted with a Micra TPS (Model MC1VR01) with remaining device
+             longevity of 6 years or more or is expected to be implanted with a Micra TPS.
+
+          -  Subject has history of AV block*
+
+          -  Subject is ≥ 18 years old and as per required local law.
+
+          -  Subject (and/or witness as applicable per local regulations) provides signed and dated
+             authorization and/or consent per institution and local requirements.
+
+          -  Subject is willing and able to comply with the protocol. *This includes subjects with
+             normal sinus function and persistent 3rd degree AV block and subjects with other forms
+             of AV block.
+
+        Exclusion Criteria:
+
+          -  Subject is currently enrolled or planning to participate in a potentially confounding
+             drug or device trial during the study. Co-enrollment in concurrent trials is only
+             allowed when documented pre-approval is obtained from the Medtronic Clinical Research
+             Specialist.
+
+          -  Subject is pregnant (if required by local law, women of child-bearing potential must
+             undergo a pregnancy test within seven days prior to MARVEL 2 study procedures).
+
+          -  Subject meets any exclusion criteria required by local law (age or other).
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Baptist Medical Center Jacksonville</name>
+      <address>
+        <city>Jacksonville</city>
+        <state>Florida</state>
+        <zip>32207</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Baptist Hospital</name>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <zip>33176</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>North Shore University Hospital- Northwell</name>
+      <address>
+        <city>Manhasset</city>
+        <state>New York</state>
+        <zip>11030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>NYU Langone Medical Center</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10016</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Duke University Medical Center</name>
+      <address>
+        <city>Durham</city>
+        <state>North Carolina</state>
+        <zip>27710</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Kepler Universitätsklinikum Med Campus III</name>
+      <address>
+        <city>Linz</city>
+        <zip>4020</zip>
+        <country>Austria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>UZ Leuven - Campus Gasthuisberg</name>
+      <address>
+        <city>Leuven</city>
+        <zip>3000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Odense Universitetshospital</name>
+      <address>
+        <city>Odense C</city>
+        <country>Denmark</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hôpital Haut-Lévêque - CHU de Bordeaux</name>
+      <address>
+        <city>Pessac</city>
+        <zip>33604</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Prince of Wales Hospital</name>
+      <address>
+        <city>Hong Kong</city>
+        <country>Hong Kong</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Institut Jantung Negara</name>
+      <address>
+        <city>Kuala Lumpur</city>
+        <zip>50400</zip>
+        <country>Malaysia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitari Clínic de Barcelona</name>
+      <address>
+        <city>Barcelona</city>
+        <zip>08036</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Austria</country>
+    <country>Belgium</country>
+    <country>Denmark</country>
+    <country>France</country>
+    <country>Hong Kong</country>
+    <country>Malaysia</country>
+    <country>Spain</country>
+    <country>United States</country>
+  </location_countries>
+  <removed_countries>
+    <country>Czechia</country>
+    <country>Italy</country>
+  </removed_countries>
+  <verification_date>May 2020</verification_date>
+  <study_first_submitted>November 14, 2018</study_first_submitted>
+  <study_first_submitted_qc>November 21, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 23, 2018</study_first_posted>
+  <results_first_submitted>May 14, 2020</results_first_submitted>
+  <results_first_submitted_qc>May 14, 2020</results_first_submitted_qc>
+  <results_first_posted type="Actual">June 1, 2020</results_first_posted>
+  <last_update_submitted>May 29, 2020</last_update_submitted>
+  <last_update_submitted_qc>May 29, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 4, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atrioventricular Block</mesh_term>
+  </condition_browse>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>November 1, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/51/NCT03752151/Prot_000.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Statistical Analysis Plan</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>March 18, 2019</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/51/NCT03752151/SAP_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>Subjects were considered enrolled when they signed informed consent Subjects were enrolled between 22 January 2019 and 14 June 2019 at 12 study centers in 8 countries</recruitment_details>
+      <pre_assignment_details>Following enrollment, the MARVEL 2 algorithm was downloaded into the subject's implanted Micra pacemaker. Following download subjects were programmed to MARVEL 2 Algorithm monitor mode followed by MARVEL 2 adaptive mode. Two subjects exited prior to MARVEL 2 download; one did not meet the study inclusion/exclusion and one withdrew consent.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>MARVEL 2 Monitor Mode Then MARVEL 2 Adaptive Mode</title>
+          <description>Participants were programmed to MARVEL 2 algorithm monitor mode which provides standard VVI pacing for approximately 20 minutes. Then the MARVEL 2 algorithm was programmed to adaptive mode which provides VDD pacing for approximately 2 hours.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="77"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="75"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="2"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Withdrawal by Subject</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Protocol Violation</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>The baseline population is the number of participants who signed the study's informed consent</population>
+      <group_list>
+        <group group_id="B1">
+          <title>MARVEL 2 Monitor Mode Then MARVEL 2 Adaptive</title>
+          <description>Participants were programmed to MARVEL 2 algorithm monitor mode which provides standard VVI pacing for approximately 20 minutes. Then the MARVEL 2 algorithm was programmed to adaptive mode which provides VDD pacing for approximately 2 hours.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="77"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <population>One patient who withdrew prior to download of the MARVEL 2 algorithm did not complete the baseline procedures.</population>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="76"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="77.6" spread="11.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <population>One patient who withdrew prior to download of the MARVEL 2 algorithm did not complete the baseline procedures.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="76"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="31"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="45"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race and Ethnicity Not Collected</title>
+          <population>Race and Ethnicity were not collected from any participant.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="0"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Austria</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="77"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Belgium</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="77"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="20"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Hong Kong</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="77"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="11"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>United States</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="77"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="14"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Denmark</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="77"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Malaysia</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="77"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="15"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>France</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="77"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Spain</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="77"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Predominant heart rhythm</title>
+          <description>Predominant heart rhythm as assessed on electrocardiogram during Holter monitoring</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="77"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Persistent 3rd degree AV block with normal sinus</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="40"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Intact atrioventricular conduction</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="18"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Other rhythm</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="15"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Rhythm indeterminate</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Participant exited prior to software download</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Atrial Ventricular Pacing Synchrony Success During Rest</title>
+        <description>A subject will meet the primary endpoint if a paced or sensed ventricular beat is within 300 ms following an ECG confirmed P-wave for at least 70% of the ECG confirmed P-waves. The primary endpoint will be evaluated during the MARVEL 2 setup phase during MARVEL 2 Algorithm monitor mode (VDI pacing which is effectively VVI pacing) and during the 20-minute resting period in which the MARVEL 2 Algorithm is programmed to Adaptive mode (VDD pacing)</description>
+        <time_frame>40 Minutes</time_frame>
+        <population>Participants with a predominant heart rhythm of 3rd degree atrioventricular block and normal sinus function during the study period.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>MARVEL 2 Monitor Mode Then MARVEL 2 Adaptive</title>
+            <description>Participants were programmed to MARVEL 2 algorithm monitor mode which provides standard VVI pacing for approximately 20 minutes. Then the MARVEL 2 algorithm was programmed to adaptive mode which provides VDD pacing for approximately 2 hours.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Atrial Ventricular Pacing Synchrony Success During Rest</title>
+          <description>A subject will meet the primary endpoint if a paced or sensed ventricular beat is within 300 ms following an ECG confirmed P-wave for at least 70% of the ECG confirmed P-waves. The primary endpoint will be evaluated during the MARVEL 2 setup phase during MARVEL 2 Algorithm monitor mode (VDI pacing which is effectively VVI pacing) and during the 20-minute resting period in which the MARVEL 2 Algorithm is programmed to Adaptive mode (VDD pacing)</description>
+          <population>Participants with a predominant heart rhythm of 3rd degree atrioventricular block and normal sinus function during the study period.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="40"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Monitor Mode Success and Adaptive Mode Success</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Monitor Mode Failed and Adaptive Mode Success</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="38"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Monitor Mode Success and Adaptive Mode Fail</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Monitor Mode Fail and Adaptive Mode Fail</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>The null hypothesis was that the probability of meeting the endpoint (Atrioventricular synchrony &gt;70%) was the same in MARVEL 2 Monitor Mode and MARVEL 2 Adaptive Mode. A sample size of 35 participants with a predominant rhythm of 3rd degree atrioventricular block and normal sinus function provided &gt;90% power at a type I error rate of 0.05 assuming the proportion of patients meeting the endpoint in one mode, but not the other exceeded 50% and 90% of these pairs favored the Adaptive mode.</groups_desc>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>&lt;0.001</p_value>
+            <method>McNemar</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Participants Free From Inappropriate Pacemaker Function Events</title>
+        <description>A participant will meet the primary endpoint if they are free from the following MARVEL 2 software related events during the entire Holter monitoring period where the MARVEL 2 features are enabled.
+Inappropriate pacemaker function events are defined as:
+Cardiac pauses lasting longer than 2 cardiac cycles (where cardiac cycle length is defined by the programmed lower rate interval of the pacemaker), OR
+Pacemaker oversensing induced tachycardia exceeding 3-minutes, defined as oversensing of the pacemaker's accelerometer signal leading to a heart rate exceeding 100 beats per minute.</description>
+        <time_frame>Through study completion an average of one day</time_frame>
+        <population>Number of participants with the MARVEL 2 software downloaded onto their Micra implanted pacemaker</population>
+        <group_list>
+          <group group_id="O1">
+            <title>MARVEL 2 Monitor Mode Then MARVEL 2 Adaptive Mode</title>
+            <description>Participants were programmed to MARVEL 2 algorithm monitor mode which provides standard VVI pacing for approximately 20 minutes. Then the MARVEL 2 algorithm was programmed to adaptive mode which provides VDD pacing for approximately 2 hours.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants Free From Inappropriate Pacemaker Function Events</title>
+          <description>A participant will meet the primary endpoint if they are free from the following MARVEL 2 software related events during the entire Holter monitoring period where the MARVEL 2 features are enabled.
+Inappropriate pacemaker function events are defined as:
+Cardiac pauses lasting longer than 2 cardiac cycles (where cardiac cycle length is defined by the programmed lower rate interval of the pacemaker), OR
+Pacemaker oversensing induced tachycardia exceeding 3-minutes, defined as oversensing of the pacemaker's accelerometer signal leading to a heart rate exceeding 100 beats per minute.</description>
+          <population>Number of participants with the MARVEL 2 software downloaded onto their Micra implanted pacemaker</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="75"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="75"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>The null hypothesis is that 87% or fewer participants will achieve the endpoint. The alternative hypothesis is that more than 87% of participants will achieve the endpoint. A sample size of 70 participants provides at least 90% power to test the null hypothesis assuming the true rate of meeting the endpoint in the population is 98% at a type I error rate of 2.5%.</groups_desc>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>&lt;0.001</p_value>
+            <method>Exact binomial test</method>
+            <param_type>proportion expressed as a percentage</param_type>
+            <param_value>100</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>95.2</ci_lower_limit>
+            <ci_upper_limit>100</ci_upper_limit>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Left Ventricular Outflow Tract Velocity Time Integral</title>
+        <description>The secondary endpoint is left ventricular outflow tract (LVOT) velocity time integral (VTI) as obtained from echocardiogram while the MARVEL 2 features are in adaptive mode (VDD pacing) and while the MARVEL 2 features are in monitor mode (VDI pacing which is effectively VVI pacing). This was measured by the echo core laboratory that was blinded to the study participant and MARVEL 2 algorithm mode.</description>
+        <time_frame>12 cardiac cycles</time_frame>
+        <population>Participants with paired LVOT VTI measurements during MARVEL 2 Adaptive mode (VDD pacing mode) and MARVEL 2 Monitor mode (VDI pacing which is effectively VVI pacing) with a predominant heart rhythm of persistent 3rd degree atrioventricular block and normal sinus rhythm</population>
+        <group_list>
+          <group group_id="O1">
+            <title>MARVEL 2 Monitor Mode Then MARVEL 2 Adaptive Mode</title>
+            <description>Participants were programmed to MARVEL 2 algorithm monitor mode which provides standard VVI pacing for approximately 20 minutes. Then the MARVEL 2 algorithm was programmed to adaptive mode which provides VDD pacing for approximately 2 hours.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Left Ventricular Outflow Tract Velocity Time Integral</title>
+          <description>The secondary endpoint is left ventricular outflow tract (LVOT) velocity time integral (VTI) as obtained from echocardiogram while the MARVEL 2 features are in adaptive mode (VDD pacing) and while the MARVEL 2 features are in monitor mode (VDI pacing which is effectively VVI pacing). This was measured by the echo core laboratory that was blinded to the study participant and MARVEL 2 algorithm mode.</description>
+          <population>Participants with paired LVOT VTI measurements during MARVEL 2 Adaptive mode (VDD pacing mode) and MARVEL 2 Monitor mode (VDI pacing which is effectively VVI pacing) with a predominant heart rhythm of persistent 3rd degree atrioventricular block and normal sinus rhythm</population>
+          <units>cm</units>
+          <param>Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="39"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.7" lower_limit="0.7" upper_limit="2.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>The null hypothesis is that the mean LVOT VTI during MARVEL 2 Adaptive mode equals the mean LVOT VTI during MARVEL 2 Monitor mode. A sample size of 35 participants with paired LVOT VTI measurements provides 89% power at a type I error rate of 5% to reject the null hypothesis assuming the true difference in LVOT VTI is 2.1 cm with a standard deviation of 3.8 cm.</groups_desc>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.002</p_value>
+            <method>t-test, 2 sided</method>
+            <method_desc>Paired t-test since each participant had LVOT VTI measurements in MARVEL 2 Adaptive and Monitor modes</method_desc>
+            <param_type>Mean Difference (Final Values)</param_type>
+            <param_value>1.7</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.7</ci_lower_limit>
+            <ci_upper_limit>2.7</ci_upper_limit>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>1 day</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>MARVEL 2 Monitor Mode Then MARVEL 2 Adaptive Mode</title>
+          <description>Participants were programmed to MARVEL 2 algorithm monitor mode which provides standard VVI pacing for approximately 20 minutes. Then the MARVEL 2 algorithm was programmed to adaptive mode which provides VDD pacing for approximately 2 hours.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <default_vocab>MedDRA 22.0</default_vocab>
+        <default_assessment>Non-systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="75"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="3" subjects_at_risk="75"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Cardiac disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Ventricular tachycardia</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="75"/>
+              </event>
+              <event>
+                <sub_title>Myocardial haemorrhage</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="75"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Vascular disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Hypotension</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="75"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <default_vocab>MedDRA 22.0</default_vocab>
+        <default_assessment>Non-systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="3" subjects_at_risk="75"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Cardiac disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Tricuspid valve incompetence</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="75"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Ear and labyrinth disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Vertigo</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="75"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Gastrointestinal disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Abdominal pain</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="75"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>In most cases, the contract allows the principal investigator to publish their data after release of a multi-center publication per the publication strategy following Medtronic's review for disclosure of confidential information (&quot;CI&quot;), technical correctness, disclosure of patentable or copyrightable material, and selection and order of publications by the publications committee. Any such CI and/or item identified as not technically correct is deleted prior to publication/presentation.</restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Dana Wigert, Sr Prin Clinical Research Specialist</name_or_title>
+      <organization>Medtronic, Plc</organization>
+      <phone>+17635262802</phone>
+      <email>dana.wigert@medtronic.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

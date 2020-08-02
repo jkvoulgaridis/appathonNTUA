@@ -1,0 +1,218 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03602989</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AIDRScreening</org_study_id>
+    <nct_id>NCT03602989</nct_id>
+  </id_info>
+  <brief_title>A Multi-center Study on the Artificial Intelligence Enabled Diabetic Retinopathy Screening Based on Fundus Images</brief_title>
+  <official_title>A Prospective, Multi-center Clinical Study on the Application of An Artificial Intelligence Enabled Disease Detection Software to Diabetic Retinopathy Screening Based on Fundus Images</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shenzhen SiBright Co., Ltd.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Zhongshan Ophthalmic Center, Sun Yat-sen University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Peking University People's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The Eye Hospital of Wenzhou Medical University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Shenzhen SiBright Co., Ltd.</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Early detection and intervention of diabetic retinopathy (DR) is critical in preventing
+      DR-related vision loss among type 1 (T1DM) and type 2 diabetic mellitus (T2DM) patients,
+      currently estimated at over 100 million in China alone. Yet the healthcare resources,
+      particularly retinal specialists, are in short supply and unevenly distributed. In order to
+      help address this enormous mismatch and implement population-based screening, an artificial
+      intelligence (AI) enabled, cloud based software is developed by training a custom-built
+      convolutional neural network.
+
+      This study is designed to evaluate the safety and efficacy of such device in detecting
+      referable diabetic retinopathy (moderate non-proliferative DR or worse).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This prospective, multi-center clinical study is designed to validate the performance of an
+      AI enabled software - Shenzhen SiBright AIDRScreening - in detecting referable diabetic
+      retinopathy (RDR, defined as more than mild NPDR) among study subjects primarily by
+      evaluating its sensitivity and specificity.
+
+      The subjects enrolled in this trial are patients with T1DM and T2DM. For those who qualify,
+      color fundus images of each eyes are taken and then independently graded for RDR by both the
+      device under test and a centralized reading center, which, for the purpose of this trial, is
+      the Image Reading Center at Zhongshan Ophthalmic Center, Sun Yat-sen University (ZIRC). The
+      grading from ZIRC serves as the gold standard to compare the device performance against.
+
+      The trial plans to enroll 1000 subjects. With a 95% confidence interval, the sensitivity is
+      expected to be at least 85% whereas the specificity at 90% or above.
+
+      Fundus image quality assessment is performed according to the National DR Screening Imaging
+      and Grading Guideline jointly published by Chinese Ophthalmological Society and Chinese
+      Medical Doctor Association in 2017.
+
+      The diagnosis of RDR is based on the National DR Clinical Diagnosis and Treatment Guideline
+      published by Chinese Ophthalmological Society in 2014.
+
+      A brief overview of the clinical protocol is as follows:
+
+        1. Candidate screening phase: recruiting qualified trial subjects;
+
+        2. Clinical phase: imaging and grading by AI and ZIRC;
+
+        3. Statistical analysis phase: comparing two outputs;
+
+        4. Closing phase: final report and archiving
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">July 5, 2018</start_date>
+  <completion_date type="Anticipated">August 31, 2019</completion_date>
+  <primary_completion_date type="Actual">November 30, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity and specificity</measure>
+    <time_frame>No more than 1 day for each subject</time_frame>
+    <description>To evaluate the sensitivity and specificity of the device in detecting referable DR (more than mild NPDR)</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Diabetic Retinopathy</condition>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>AI-enabled Diabetic Retinopathy Screening Software</intervention_name>
+    <description>Color fundus images of both eyes are captured on site before being uploaded to and analyzed by the cloud-based Artificial Intelligence software</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with T1DM and T2DM under clinical setting. Invitation to volunteer
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Subject must understand the study, has chosen to participate voluntarily, and has
+             signed informed consent
+
+          2. Age 18 or older, no limitations on gender identity
+
+          3. Type 1 Diabetes Mellitus and Type 2 Diabetes Mellitus
+
+        Exclusion Criteria:
+
+          1. As it is difficult to obtain fundus images of satisfactory quality with small pupils,
+             mydriasis is advisable under certain circumstances except if:
+
+               1. the subject is allergic to mydriatic drugs;
+
+               2. the subject's intraocular pressure (IOP) ≥ 22 mmHg;
+
+               3. the subject is prone to post-dilation angle closure, pupillary block, etc.;
+
+          2. The subject has refractive media opacity and/or pupil abnormalities that affect fundus
+             examination and imaging;
+
+          3. The subject has severe vitreous hemorrhage;
+
+          4. The subject has received fundus laser treatment;
+
+          5. The subject has had eye surgery such as scleral buckling, vitrectomy, macular
+             transposition, etc., BUT cataract surgery or external eye surgery are exempt from
+             exclusion criteria;
+
+          6. The subject is participating in other ophthalmic clinical trials;
+
+          7. In cases when the researchers believe the subject is not suitable for taking fundus
+             photograph, including but not limited to:
+
+               1. The subject had nystagmus and could not obtain a gradable fundus photograph;
+
+               2. other disqualifying condition deemed by the researcher.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Xiaofeng Lin, M.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Zhongshan Ophthalmic Center, Sun Yat-sen University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Peking University People's Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Zhongshan Ophthalmic Center</name>
+      <address>
+        <city>Guangzhou</city>
+        <state>Guangdong</state>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>The Eye Hospital of Wenzhou Medical University</name>
+      <address>
+        <city>Wenzhou</city>
+        <state>Zhejiang</state>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>May 2019</verification_date>
+  <study_first_submitted>July 17, 2018</study_first_submitted>
+  <study_first_submitted_qc>July 25, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 27, 2018</study_first_posted>
+  <last_update_submitted>May 17, 2019</last_update_submitted>
+  <last_update_submitted_qc>May 17, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 20, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Retinal Diseases</mesh_term>
+    <mesh_term>Diabetic Retinopathy</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

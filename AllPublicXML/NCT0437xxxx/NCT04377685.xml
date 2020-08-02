@@ -1,0 +1,199 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04377685</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20CH109</org_study_id>
+    <secondary_id>IRBN652020/CHUSTE</secondary_id>
+    <nct_id>NCT04377685</nct_id>
+  </id_info>
+  <brief_title>Prediction of Clinical Course in COVID19 Patients</brief_title>
+  <acronym>COVID-CTPRED</acronym>
+  <official_title>Prediction of Clinical Course in COVID19 Patients Using Unsupervised Classification Approaches of Clinical, Biological and the Multiparametric Signature of the Chest CT Scan Performed at Admission</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Centre Hospitalier Universitaire de Saint Etienne</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Institut National des Sciences Appliquées (INSA)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Institut National de la Santé Et de la Recherche Médicale, France</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Centre National pour le Recherche Scientifique (CNRS)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Université de Lyon</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Université Jean Monnet</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Centre Hospitalier Universitaire de Saint Etienne</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In the context of the COVID19 pandemic and containment, chest CT is currently frequently
+      performed on admission, looking for suggestive signs and basic abnormalities of COVID19
+      compatible viral pneumonitis pending confirmation of identification of viral RNA by
+      reverse-transcription polymerase chain reaction(PCR), with a reported sensitivity of 56-88%
+      in the first few days, slightly higher than PCR (60%) (1). Nevertheless, currently
+      established radiological abnormalities are not specific for COVID19 and the specificity of
+      the chest CT is ~25% when PCR is used as a reference (1). Deconfinement and its consequences
+      will complicate the triage of COVID patients and the role of the scanner, with the expected
+      impact of a decrease in the prevalence of infection in the emergency department and an
+      increase in the number of &quot;all-round&quot; patients, including patients with non-COVID viral
+      infiltrates or pneumopathies.
+
+      In addition, there are currently no imaging criteria to complement the clinical and
+      biological data that can predict the progression of lung disease from the initial data.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In image processing, computational medical imaging has demonstrated its ability to predict a
+      therapeutic response or a particular evolution after extracting relevant anatomical,
+      functional or even non-visually perceptible information from the volume of images, making it
+      possible to construct a powerful radiomic signature or to use robust anatomical/functional
+      measurements to provide estimates of ventilation or vascular state. By combining these data
+      extracted from the scanner with the standard clinical-biological data produced at admission
+      during triage, our ambition is to build a predictive model using unsupervised classification
+      approaches capable of helping predict clinical evolution with the aim of optimizing the
+      management of the resource.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 1, 2020</start_date>
+  <completion_date type="Anticipated">September 30, 2020</completion_date>
+  <primary_completion_date type="Anticipated">September 30, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>diagnostic of COVID disease composite</measure>
+    <time_frame>On admission to the hospital</time_frame>
+    <description>The diagnostoc of COVID disease is composite of:
+CT features wich will include presence/location/laterality of morphological CT abonormal densities (ground glass opacities, consolidations, reticulations),
+pulmonary vessels size,
+distribution and abnormalities,
+local / global CT-ventilation index (CT-VI) severity,
+radiomic features (shape features, 1st-order and 2nd order statistics)
+Analysis of CT-Scan results.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">800</enrollment>
+  <condition>COVID 19</condition>
+  <arm_group>
+    <arm_group_label>COVID19 patients</arm_group_label>
+    <description>Patient tested positive for SARS-CoV-2 who had a CT scan</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>CT-Scan</intervention_name>
+    <description>Chest CT scan on admission to the hospital</description>
+    <arm_group_label>COVID19 patients</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        patient admitted to the emergency room of COVID-19 confirmed by RT-PCR
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  age ≥ 18 years
+
+          -  clinical suspicion of COVID-19 confirmed by RT-PCR
+
+          -  CT scan at ER admission
+
+          -  RT-PCR sampling
+
+        Exclusion Criteria:
+
+          -  CT scan failure or loss of CT data
+
+          -  RT-PCR initial results unavailable
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Pierre CROISILLE, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>CHU SAINT-ETIENNE</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Pierre CROISILLE, PhD</last_name>
+    <phone>0477127584</phone>
+    <phone_ext>33</phone_ext>
+    <email>pierre.croisille@chu-st-etienne.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Béatrice DEYGAS</last_name>
+    <email>beatrice.deygas@chu-st-etienne.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Chu Saint-Etienne</name>
+      <address>
+        <city>Saint-Étienne</city>
+        <zip>42100</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Pierre CROISILLE, PhD</last_name>
+      <phone>0477127584</phone>
+      <email>Pierre.croisille@chu-st-etienne.fr</email>
+    </contact>
+    <investigator>
+      <last_name>Pierre CROISILLE, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>May 2020</verification_date>
+  <study_first_submitted>May 5, 2020</study_first_submitted>
+  <study_first_submitted_qc>May 5, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 6, 2020</study_first_posted>
+  <last_update_submitted>May 15, 2020</last_update_submitted>
+  <last_update_submitted_qc>May 15, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 18, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>COVID 19</keyword>
+  <keyword>chest CT scan</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

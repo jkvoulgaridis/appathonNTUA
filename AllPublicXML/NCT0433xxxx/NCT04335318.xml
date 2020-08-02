@@ -1,0 +1,199 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04335318</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AI01</org_study_id>
+    <nct_id>NCT04335318</nct_id>
+  </id_info>
+  <brief_title>Real Life AI in Polyp Detection</brief_title>
+  <acronym>RELIANT</acronym>
+  <official_title>Real Life AI in Polyp Detection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Wuerzburg University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Wuerzburg University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of this study is to compare the polyp detection rate (PDR) of endoscopists
+      unaware of a commercially available artificial intelligence (AI) device for polyp detection
+      during colonoscopy and the PDR of endoscopists with the aid of such a device. Moreover, an
+      extensive characterization of the performance of this device will be done.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Recently, there have been remarkable breakthroughs in the introduction of deep learning
+      techniques, especially convolutional neural networks (CNNs), in assisting clinical diagnosis
+      in different medical fields. One of these artificial intelligence (AI) devices to diagnose
+      colon polyps during colonoscopy was launched in October 2019. Its intended use is to work as
+      an adjunct to the endoscopist during a colonoscopy with the purpose of highlighting regions
+      with visual characteristics consistent with different types of mucosal abnormalities.
+
+      It is essential to know whether deep learning algorithms can really help endoscopists during
+      colonoscopies. Several studies have already addressed this issue with different approaches
+      and results. However, one common drawback of these type of Machine vs Human retrospective
+      studies is endoscopist bias. It is usually generated because of human natural competitive
+      spirit against machine or human relaxation because of AI-reliance. This can have an effect in
+      the overall results.
+
+      The investigators perfomed colonoscopies with the use of a commercially available AI system
+      to detect colonic polyps and recorded them during clinical routine. Additionally from March
+      2019 - May 2019, 120 colonoscopy videos were performed and captured prospectively without the
+      use of AI.
+
+      In this study, the investigators plan to retrospectively compare those two video sets
+      regarding the polyp detection rate, withdrawal time and polyp identification characteristics
+      of the AI system.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">May 1, 2020</start_date>
+  <completion_date type="Anticipated">November 2020</completion_date>
+  <primary_completion_date type="Anticipated">August 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Polyp detection rate comparison</measure>
+    <time_frame>45 minutes</time_frame>
+    <description>Number of polyps detected divided by number of colonoscopies</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Mean withdrawal time comparison</measure>
+    <time_frame>45 minutes</time_frame>
+    <description>Mean withdrawal time comparison</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>AI-Polyp bounding boxes - True Positive Evaluation</measure>
+    <time_frame>45 minutes</time_frame>
+    <description>2 approaches: frame by frame analysis and temporal coherence analysis</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>AI-Polyp bounding boxes - False Positive Quantitative Evaluation</measure>
+    <time_frame>45 minutes</time_frame>
+    <description>3 approaches depending on window-time detection</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>AI-Polyp bounding boxes - False Negative Evaluation</measure>
+    <time_frame>45 minutes</time_frame>
+    <description>Number of by bounding box missed polyps</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Reaction Time Analysis</measure>
+    <time_frame>45 minutes</time_frame>
+    <description>Comparison time of polyp detection in a human vs machine approach</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">230</enrollment>
+  <condition>Colonic Polyp</condition>
+  <arm_group>
+    <arm_group_label>Colonoscopy with AI-assistance group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Colonoscopies were performed with AI-assistance.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard Colonoscopy group</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Standard clinical procedure</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>AI-assisted colonoscopy</intervention_name>
+    <description>Colonoscopies performed with assistance of an AI tool that highlights the areas that are susceptible to be a polyp.</description>
+    <arm_group_label>Colonoscopy with AI-assistance group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Colonoscopies for Polyp detection
+
+        Exclusion Criteria:
+
+          -  Colonoscopies for Inflammatory Bowel Disease (IBD).
+
+          -  Colonoscopies for work up of an active bleeding
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Alexander Hann, PD Dr. Med</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Wuerzburg University Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Alexander Hann, PD Dr. Med.</last_name>
+    <phone>+49 931 201-45918</phone>
+    <email>Hann_A@ukw.de</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Universitätsklinikum Würzburg</name>
+      <address>
+        <city>Würzburg</city>
+        <state>Bayern</state>
+        <zip>97080</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alexander Hann, PD Dr. Med.</last_name>
+      <phone>+49 931 201-45918</phone>
+      <email>Hann_A@ukw.de</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+  </location_countries>
+  <verification_date>May 2020</verification_date>
+  <study_first_submitted>April 2, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 2, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 6, 2020</study_first_posted>
+  <last_update_submitted>May 19, 2020</last_update_submitted>
+  <last_update_submitted_qc>May 19, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 21, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Wuerzburg University Hospital</investigator_affiliation>
+    <investigator_full_name>Alexander Hann</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Deep Learning</keyword>
+  <keyword>Polyp detection rate</keyword>
+  <keyword>CNN</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Polyps</mesh_term>
+    <mesh_term>Colonic Polyps</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,259 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03976297</url>
+  </required_header>
+  <id_info>
+    <org_study_id>19-002315</org_study_id>
+    <nct_id>NCT03976297</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence/Machine Learning Modeling on Time to Palliative Care Review in an Inpatient Hospital Population</brief_title>
+  <official_title>The Impact of Artificial Intelligence/Machine Learning (AI/ML) on Time to Palliative Care Review in an Inpatient Hospital Population</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Mayo Clinic</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Mayo Clinic</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Investigators are testing whether machine learning prediction models integrated into a health
+      care model will accurately identify participants who may benefit from a comprehensive review
+      by a palliative care specialist, and decrease time to receiving a palliative care consult in
+      an inpatient setting.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The need for timely palliative care is crucial. Aging patient populations are becoming more
+      complex, often needing care from multiple specialties. There has been a growing mismatch
+      between clinical care and patient preferences particularly with regards to services near
+      end-of-life. Research has shown that that most people prefer to die at home despite the
+      majority dying outside of the home (nursing home or hospital). Given the current model of
+      care and incentives palliative care is considered the care of last resort after all attempts
+      at cure have been exhausted. This delay can lead to sub-optimal symptom management for pain
+      and lower quality of life. As the demand for palliative care increases, policy initiatives
+      and referral triage tools to that lead to quality palliative care services are needed.
+
+      In 2018 the Mayo Clinic developed a fully integrated information technology (IT) solution
+      focusing on the identification of patients who may benefit from early palliative care review.
+      The tool, known as Control Tower, pulls disparate data sources centered on a machine learning
+      algorithm which predicts the need for palliative care in hospital. This algorithm was put
+      into production as of December 2018 into a silent mode. The algorithm along with other key
+      patient indicators are integrated into a graphical user interface (GUI) which allows a human
+      operator to review the algorithm predictions and subsequently record the operator's
+      assessment. The tool is expected to enhance risk assessment and create a healthcare model in
+      which palliative care can pro-actively and effectively screen for patient need. Anticipated
+      benefits of the approach include improved symptom control and patient satisfaction as well as
+      a measurable impact on inpatient hospital mortality.
+
+      The overall objective of this study is to assess the effectiveness and implementation of the
+      Control Tower palliative care algorithm into hospital practice by creating a stepped wedge
+      cluster randomized trial in 16 inpatient units. By creating an algorithm that automatically
+      screens and monitors patient health status during inpatient hospitalization, the
+      investigators hypothesize that participants will receive needed palliative care earlier than
+      under the usual course of care. In addition to testing clinical effectiveness study members
+      will also collect data for process measures to assess the algorithm and healthcare
+      performance after translation of the prediction algorithm from a research domain to a
+      practice setting.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">August 19, 2019</start_date>
+  <completion_date type="Anticipated">October 2020</completion_date>
+  <primary_completion_date type="Anticipated">August 19, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <intervention_model_description>Pragmatic Stepped Wedge Cluster Randomized Trial</intervention_model_description>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Timely identification for need of palliative care</measure>
+    <time_frame>12 months</time_frame>
+    <description>Measured as time in hours to the electronic record of consult by the palliative care team in the inpatient setting.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The number of inpatient palliative care consults</measure>
+    <time_frame>12 months</time_frame>
+    <description>Measured by the rate of palliative care consults in the inpatient units of interest</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Timely identification for need of palliative care per unit</measure>
+    <time_frame>12 months</time_frame>
+    <description>Measured as time in hours to the electronic record of consult by the palliative care team in the inpatient setting for each of the 16 nursing units.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Transition time to hospice-designated bed</measure>
+    <time_frame>12 months</time_frame>
+    <description>For all patients with Medicare insurance the time until transferred to a hospice-designated bed from admission.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to hospice designation</measure>
+    <time_frame>12 months</time_frame>
+    <description>Measured as time in hours to the electronic record of consult by the hospice care team in the inpatient setting.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Emergency Department visit within 30 days of discharge</measure>
+    <time_frame>12 months</time_frame>
+    <description>Measured by the number of study participants who upon discharge from the inpatient setting are readmitted to the Emergency Department at any Mayo Clinic facility within 30 days.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hospitalization or readmission within 30 days of discharge</measure>
+    <time_frame>12 months</time_frame>
+    <description>Measured by the number of study participants who upon discharge from the inpatient setting are readmitted to an inpatient unit at any Mayo Clinic facility within 30 days (excluding transfers and planned readmits).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ICU transfers</measure>
+    <time_frame>12 months</time_frame>
+    <description>Measured by the number of study participants who transferred to a intensive care unit during their inpatient stay.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Ratio of inpatient hospice death to non-hospice hospital deaths</measure>
+    <time_frame>12 months</time_frame>
+    <description>Measured by the number of deaths of study participants in hospice designated beds by the number of deaths in non-hospice beds.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of discharge to external hospice</measure>
+    <time_frame>12 months</time_frame>
+    <description>Measured by the number of participants whose electronic health record indicates discharge to external hospice.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Inpatient length of stay</measure>
+    <time_frame>12 months</time_frame>
+    <description>Measured by the difference between admission to first unit to discharge from hospital for all study participants.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">20000</enrollment>
+  <condition>Palliative Care</condition>
+  <arm_group>
+    <arm_group_label>Control Tower Intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>For participants in the intervention arm, the results of the prediction model will be presented through a GUI interface hereby known as the Control Tower. Participants receive scores from Control Tower (0-100; higher score indicating increased need) for palliative care and are subsequently ranked from highest to lowest. Red (7 or greater) is considered high risk. The intervention will include a Control Tower operator who will interact with the inpatient palliative care consult service. The operator will monitor the Control Tower during weekday normal business hours and select daily a cohort of participants in the intervention units with the highest need of palliative care review. The final list of participants will then be sent to palliative care. The palliative care team who is on service will also assess the need for each participants, and those participants which they agree could benefit they will approach the attending clinical team to suggest a palliative care referral.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard of Care</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>For participants who are not in an intervention period they will receive the standard of care commensurate with their clinical unit. This is feasible given that this is a pragmatic clinical trial where the investigators can easily control the communication between the control tower operator and palliative care team to prevent any contamination between clusters. In addition to the usual source of care control the investigators intentionally have calibrated the prediction model and the Control Tower review to match the average capacity of the palliative care service, knowing that that the team will still receive palliative care consults through the traditional pathway i.e. the attending care team consulting palliative care directly.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Control Tower</intervention_name>
+    <description>A workstation and software tool that extracts medical data from Mayo's data mart and electronic health record, and processes it through a prediction model that determines whether a patient is suited for a palliative care consult.</description>
+    <arm_group_label>Control Tower Intervention</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Admitted to Mayo Clinic St. Mary's Hospital and Methodist Hospital during August 19,
+             2019 - August 19, 2020.
+
+          -  Once a day Monday through Friday, the CT operator selects 12 patients from all of the
+             nursing units that are participating in the trial (whether or not they are currently
+             in the intervention group) with palliative scores of at least 7 (out of 100), i.e.,
+             those that are high risk and displayed as red in the CT GUI (unless they are already
+             being seen by palliative care.)
+
+          -  The CT operator chooses the selected patients by looking at the patients in sorted
+             order starting with the highest score and proceeding down the list, evaluating each
+             patient for exclusion criteria.
+
+          -  Once the CT operator identifies 12 appropriate patients or once they reaches the end
+             of the high-risk patients (score of 7 or higher) they stop.
+
+        Exclusion Criteria:
+
+          -  We will exclude all patients who do not provide research authorization to review their
+             medical records for general research studies in accordance with Minnesota Statute
+             144.335.
+
+          -  We will exclude patients under the age of 18 years of age.
+
+          -  We will exclude patients previously seen by Palliative care during the index hospital
+             visit (i.e., green icon within CT user interface regardless of score)
+
+          -  We will exclude patient who no longer have an active encounter (patients who have died
+             or patients who have transferred to another facility are excluded) at the time of the
+             review
+
+          -  We will exclude patients currently enrolled with the Hospice service at Mayo
+
+          -  We will exclude patients currently enrolled in the Palliative Homebound program (an
+             alternative healthcare model at Mayo)
+
+          -  We will exclude patients who are about to be discharged in the next 24 hours through
+             indication of note
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jon O Ebbert, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Mayo Clinic</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Mayo Clinic</name>
+      <address>
+        <city>Rochester</city>
+        <state>Minnesota</state>
+        <zip>55906</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Patrick M Wilson, MPH</last_name>
+      <phone>507-293-0176</phone>
+      <email>wilson.patrick@mayo.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://www.mayo.edu/research/clinical-trials</url>
+    <description>Mayo Clinic Clinical Trials</description>
+  </link>
+  <verification_date>August 2019</verification_date>
+  <study_first_submitted>June 3, 2019</study_first_submitted>
+  <study_first_submitted_qc>June 3, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 6, 2019</study_first_posted>
+  <last_update_submitted>August 22, 2019</last_update_submitted>
+  <last_update_submitted_qc>August 22, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 28, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Mayo Clinic</investigator_affiliation>
+    <investigator_full_name>Jon Ebbert</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Machine learning</keyword>
+  <keyword>Artificial Intelligence</keyword>
+  <keyword>Pragmatic Clinical Trial</keyword>
+  <keyword>Healthcare Delivery</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

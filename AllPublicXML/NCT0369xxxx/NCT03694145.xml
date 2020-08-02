@@ -1,0 +1,260 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03694145</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1218589-3</org_study_id>
+    <secondary_id>R01LM012309</secondary_id>
+    <nct_id>NCT03694145</nct_id>
+  </id_info>
+  <brief_title>Predicting Diabetic Retinopathy From Risk Factor Data and Digital Retinal Images</brief_title>
+  <official_title>Predicting Diabetic Retinopathy From Risk Factor Data and Digital Retinal Images</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Charles Drew University of Medicine and Science</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Library of Medicine (NLM)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Los Angeles County Department of Public Health</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of California, Los Angeles</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Charles Drew University of Medicine and Science</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of this study is to compare the results of a deep learning approach to diabetic
+      retinopathy assessment with results from (1) an in-person examination with an
+      ophthalmologist, and (2) the assessments of optometrists involved in a teleretinal screening
+      program.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study represents the third aim of a grant with five aims. The study will compare and
+      evaluate the predictive accuracy of: (a) machine learning models developed to grade diabetic
+      retinopathy and assess the presence or absence of diabetic macular edema and (b) the
+      assessments of optometrist readers, both from digital retinal images, against standard of
+      care dilated retinal examinations by board-certified ophthalmologists and/or
+      retinal-specialty fellows for 300 diabetic patients utilizing a Los Angeles County reading
+      center.
+
+      For the study, the investigators will recruit 300-500 eligible diabetic patients for
+      in-person eye examinations performed by board certified ophthalmologists and/or
+      retinal-specialty fellows at Los Angeles County reading centers. The study will take place
+      over the course of two visits: a teleretinal screening and an in-person eye examination.
+
+      The in-person dilated eye examinations that the study participants will participate in and be
+      compensated for follow the usual standard of care that patients receive in a setting that
+      does not utilize teleretinal screening. Yearly dilated eye examinations are standard of care
+      for all persons with diabetes.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 25, 2018</start_date>
+  <completion_date type="Anticipated">September 2020</completion_date>
+  <primary_completion_date type="Anticipated">September 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Proportion of patients accurately diagnosed with retinopathy</measure>
+    <time_frame>09/2019</time_frame>
+    <description>Proportion of patients accurately diagnosed with retinopathy using machine learning versus proportion accurately diagnosed by teleretinal screening optometrists with in-person eye examinations by ophthalmologists used as a gold standard.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Diabetic Retinopathy</condition>
+  <condition>Diabetic Macular Edema</condition>
+  <arm_group>
+    <arm_group_label>Diabetic patients w. risk of retinopathy</arm_group_label>
+    <description>The 300-500 patients to be enrolled for the study are diabetic patients normally seen by the Los Angeles County Department of Health Services (LACDHS) Teleretinal Diabetic Retinopathy Screening Program and Reading Center. In addition to receiving their recommended LACDHS annual teleretinal screening, for the study, participants will receive an additional in-person eye examination.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>In-Person Eye Examination</intervention_name>
+    <description>Dilated in-person eye examination by a board-certified ophthalmologist or retinal fellow.</description>
+    <arm_group_label>Diabetic patients w. risk of retinopathy</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study population comprises patients with Type I or Type II diabetes who are normally
+        seen at LACDHS clinics and usually screened for diabetic retinopathy via teleretinal
+        screening.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients diagnosed with Type I or Type II Diabetes
+
+          -  Patients who are over the age of 18 years
+
+          -  Patients who have not previously been seen in the current year by the LACDHS
+             Teleretinal Diabetic Retinopathy Screening Program and Reading Center
+
+          -  Patients whose teleretinal screening exam images yield readable results
+
+        Exclusion Criteria:
+
+          -  Patients under the age of 18 years
+
+          -  Patients with gestational diabetes
+
+          -  Patients who have previously been seen in the current year by LACDHS's Teleretinal
+             Diabetic Retinopathy Screening Program and Reading Center
+
+          -  Patients whose teleretinal screening exam images do not yield readable results, as
+             gradable images are needed for later comparison against ophthalmologist reads.
+
+          -  Previously eligible patients who do not return for an in-person eye exam within 3
+             months of receiving a teleretinal screening (In order for the results of the
+             teleretinal screening and in-person eye examinations to yield similar information,
+             patients who do not return for their in-person eye exam within 3 months of their
+             teleretinal screening will not be able to remain in the study. This is because
+             significant eye changes not documented by the teleretinal screening may occur after a
+             3-month period).
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Omolola Ogunyemi, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Charles Drew University of Medicine and Science</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Junko Nishitani, PhD</last_name>
+    <phone>323-563-4966</phone>
+    <email>junkonishitani@cdrewu.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Los Angeles Department of Public Health</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90012</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Lauren Daskivich, MD</last_name>
+      <email>lpdaskivich@dhs.lacounty.gov</email>
+    </contact>
+    <contact_backup>
+      <last_name>David Hindman, PhD</last_name>
+      <email>dhindman@ph.lacounty.gov</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Lauren Daskivich, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>David Hindman, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>University of California - Los Angeles</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90024</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Ricky Taira, PhD</last_name>
+      <email>rtaira@ucla.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Ricky Taira, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Charles R. Drew University of Medicine and Science</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90059</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Omolola Ogunyemi, PhD</last_name>
+      <email>lolaogunyemi@cdrewu.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Muhsinah Saleem, MA</last_name>
+      <email>muhsinahsaleem@cdrewu.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Omolola Ogunyemi, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Lauren Daskivich, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ricky Taira, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>December 2019</verification_date>
+  <study_first_submitted>October 1, 2018</study_first_submitted>
+  <study_first_submitted_qc>October 1, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 3, 2018</study_first_posted>
+  <last_update_submitted>December 6, 2019</last_update_submitted>
+  <last_update_submitted_qc>December 6, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 9, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Macular Edema</mesh_term>
+    <mesh_term>Retinal Diseases</mesh_term>
+    <mesh_term>Diabetic Retinopathy</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

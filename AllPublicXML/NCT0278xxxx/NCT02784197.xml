@@ -1,0 +1,165 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02784197</url>
+  </required_header>
+  <id_info>
+    <org_study_id>BSA-CD-001</org_study_id>
+    <nct_id>NCT02784197</nct_id>
+  </id_info>
+  <brief_title>cPSTA System CADLAD Study</brief_title>
+  <acronym>CADLAD</acronym>
+  <official_title>Cardiac Phase Space Tomography Analysis (cPSTA) System: Coronary Artery Disease Learning and Development Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Analytics For Life</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Analytics For Life</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is primarily designed to collect resting phase signals from eligible subjects
+      using the Phase Signal Recorder (PSR) prior to coronary angiography to machine learn and test
+      an algorithm for detecting the presence of significant coronary artery disease in symptomatic
+      adult patient.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This clinical protocol is primarily designed to collect resting phase signals from eligible
+      subjects using the Phase Signal Recorder (PSR) prior to coronary angiography to machine learn
+      and test an algorithm for detecting the presence of significant coronary artery disease in
+      symptomatic adult patient. In addition to this primary objective, machine-learned algorithms
+      will be developed and tested to report the left ventricular ejection fraction and to identify
+      the location of significant coronary artery disease. The performance of the machine-learned
+      algorithm will be evaluated using a comparative paired trial design. In this study, the
+      physician will not be provided the results of analysis performed and, accordingly, the
+      results of the analyses will not be used to guide treatment decisions for the patient.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">May 2016</start_date>
+  <completion_date type="Actual">May 2018</completion_date>
+  <primary_completion_date type="Actual">December 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Machine-learned algorithm</measure>
+    <time_frame>7 day</time_frame>
+    <description>Develop and test a machine-learned algorithm which maximizes the area under the receiver-operating characteristic (AUC-ROC) curve to 0.70 (expected) and clinically significant sensitivity and specificity to detect CAD when compared to clinical diagnosis of significant coronary artery disease (i.e., presence of ≥70% stenosis by angiography or reduced fraction flow of &lt;=0.80) in at least one of the major coronary arteries (LMA, LAD, RCA, or LCX) or their distributions.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">2622</enrollment>
+  <condition>Coronary Artery Disease</condition>
+  <arm_group>
+    <arm_group_label>Enrolled Subjects (PSR)</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Patients who meet the study's inclusion and exclusion criteria, including signing the informed consent form, subjects will undergo signal acquisition prior to their scheduled cardiac catheterization on the day of the procedure.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Phase Signal Recorder</intervention_name>
+    <description>The cPSTA System is a medical device system that uses passive tomography to analyze a patient's phase space data to identify the presence of significant coronary artery disease. The cPSTA System consists of several components that work together to obtain, transmit, analyze the data, and display the results, including the Phase Signal Acquisition System (PSAQ System), which is the Phase Signal Recorder (PSR) and the Phase Signal Data Repository (PSDR); analytical software; and secure web portal. For this study only the PSAQ System is used by the clinical site for the purposes of acquiring and transmitting the signal.</description>
+    <arm_group_label>Enrolled Subjects (PSR)</arm_group_label>
+    <other_name>PSR</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Age ≥21 years of age at the time of screening
+
+          2. Meets criteria for coronary angiography
+
+          3. Scheduled to undergo cardiac catheterization with coronary angiography
+
+          4. Ability to understand the requirements of the study and to provide written informed
+             consent
+
+        Exclusion Criteria:
+
+          1. Prior documented myocardial infarction (MI)
+
+          2. Prior coronary artery bypass grafting (CABG) or previous coronary interventions (PCI)
+
+          3. Indication for invasive coronary angiography other than to assess for obstructive CAD
+             (e.g., arrhythmia, cardiomyopathy, valvular abnormality)
+
+          4. Previous heart valve replacement
+
+          5. Previous sustained or paroxysmal atrial or ventricular arrhythmia
+
+          6. Infiltrative myocardial disease (Amyloid, Sarcoid, Right ventricular dysplasia)
+
+          7. Presence of cardiac implantable electronic device (CIED), including implantable
+             cardioverter defibrillator (ICD), pacemaker (PM), implantable loop recorders and other
+             monitors
+
+          8. Implantable Neuro-stimulators
+
+          9. Congenital Heart Disease
+
+         10. Pregnancy (breast feeding)
+
+         11. Currently taking any Type IA, IC or III antiarrhythmic
+
+         12. Any history of Amiodarone therapy
+
+         13. Clinically significant chest deformity (e.g., pectus excavatum or pectus carnitatum)
+
+         14. Breast implants
+
+         15. Neuromuscular Disease if the condition results in tremor or muscle fasciculations
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>William E Sanders, Jr., MD MBA FHRS</last_name>
+    <role>Study Director</role>
+    <affiliation>Analytics For Life</affiliation>
+  </overall_official>
+  <verification_date>June 2019</verification_date>
+  <study_first_submitted>May 24, 2016</study_first_submitted>
+  <study_first_submitted_qc>May 24, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 27, 2016</study_first_posted>
+  <last_update_submitted>June 10, 2019</last_update_submitted>
+  <last_update_submitted_qc>June 10, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 12, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>coronary angiography</keyword>
+  <keyword>ventricular ejection fraction</keyword>
+  <keyword>coronary artery disease</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Myocardial Ischemia</mesh_term>
+    <mesh_term>Coronary Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

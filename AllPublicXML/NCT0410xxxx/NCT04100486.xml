@@ -1,0 +1,594 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04100486</url>
+  </required_header>
+  <id_info>
+    <org_study_id>19-0461</org_study_id>
+    <nct_id>NCT04100486</nct_id>
+  </id_info>
+  <brief_title>Non-Invasive Bioelectronic Analytics</brief_title>
+  <acronym>NIBA</acronym>
+  <official_title>A Pilot Study to Quantify the Autonomic Nervous System Balance in Healthy, Able-Bodied Individuals</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Northwell Health</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Northwell Health</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>Yes</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Biomarkers can be evaluated to provide information about disease presence or intensity and
+      treatment efficacy. By recording these biomarkers through noninvasive clinical techniques, it
+      is possible to gain information about the autonomic nervous system (ANS), which involuntarily
+      regulates and adapts organ systems in the body. Machine learning and signal processing
+      methods have made it possible to quantify the behavior of the ANS by statistically analyzing
+      recorded signals. This work will aim to systematically measure ANS function by multiple
+      modalities and use decoding algorithms to derive an index that reflects overall ANS function
+      and/or balance in healthy able-bodied individuals. Additionally, this study will determine
+      how transcutaneous auricular vagus nerve stimulation (taVNS), a noninvasive method of
+      stimulating the vagus nerve without surgery, affects the ANS function. Data from this
+      research will enable the possibility of detecting early and significant changes in ANS from
+      &quot;normal&quot; homeostasis to diagnose disease onset and assess severity to improve treatment
+      protocols.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Biomarkers that reflect disease presence or intensity, or treatment efficacy are central to
+      medical advancements. Recorded biomarkers provide information about physiological processes
+      regulated by the autonomic nervous system (ANS), which include blood pressure, heart rate,
+      sweating, and body temperature. The ANS has two major divisions: sympathetic and
+      parasympathetic systems. Most organs receive reciprocal input from both systems to achieve
+      homeostasis through ANS balance. This regulation occurs without conscious control (i.e.,
+      autonomously). Dysregulation of the ANS can occur as the result of disorders or injuries,
+      including diabetes, sepsis, spinal cord injuries (SCI), Parkinson's disease, and many other
+      conditions.
+
+      The ANS is the part of the nervous system that regulates and integrates bodily functions that
+      typically run involuntary, particularly internal organs including blood vessels, lungs,
+      pupils, heart, sweat, and salivary glands. Along with immunological systems, it controls and
+      adapts homeostasis of the internal environment based on changes in the external environment.
+      Disturbances in autonomic regulation have been described in a variety of diseases and
+      disorders, including those that directly affect the nervous system, such as spinal cord
+      injuries and stroke, and those that afflict other organ systems, such as sepsis and
+      infection, rheumatoid arthritis, Crohn's disease, diabetes mellitus, and numerous heart
+      conditions. This dysregulation manifests differently for each of these conditions, even
+      inconsistently across patients, and the significance of symptoms due to ANS dysfunction are
+      not well understood.
+
+      The ANS can be divided into two major branches: the sympathetic and parasympathetic systems.
+      All internal organs are innervated by one or both component systems through the ANS main
+      conduits, which include the brainstem, spinal cord, and cranial nerves, such as the vagus
+      nerve. The branches typically function opposite and complementary of each other;
+      physiological changes associated with the sympathetic system include accelerating heart rate,
+      dilating pupils, and perspiration, while the parasympathetic system slows the heart, lowers
+      blood pressure, and relaxes muscles. Both systems work in tandem to modulate and maintain
+      blood pressure, vagal tone, heart rate, respiration, and cardiac contractility. While both
+      systems operate to maintain homeostasis, the sympathetic system can be considered a quick
+      response and mobilizing system, while the parasympathetic is a more slowly activated and
+      dampening system.
+
+      Instead of measuring the ANS directly from the central or peripheral nervous system through
+      invasive implants, it is possible to record physiological signals through advances in
+      noninvasive clinical testing. Laboratories are able to test autonomic function and rely on
+      batteries of accepted, noninvasive tests. According to the American Academy of Neurology
+      (AAN), standard techniques of autonomic testing include measuring heart rate and blood
+      pressure variability during deep breathing, tilt table, and the Valsalva maneuver to assess
+      cardiovagal (parasympathetic) and sudomotor (sympathetic) function. It is straightforward to
+      add to the limited necessary equipment (blood pressure cuff, electrocardiogram [ECG]) by
+      including electroencephalography (EEG) to measure brain activity, electromyography (EMG) to
+      measure muscle activity, and eye tracking glasses to measure pupillometry during this
+      battery. All noninvasive signals can be measured during controlled perturbations to
+      characterize the ANS. Assessment of ANS function is now used in multiple disciplines,
+      including neurology, cardiology, psychology, psychophysiology, obstetrics, anesthesiology,
+      and psychiatry.
+
+      Neural reflexes control responses in the cardiovascular, pulmonary, gastrointestinal, renal,
+      hepatic, and endocrine systems. The vagus nerve-based inflammatory reflex is of particularly
+      interest at the Feinstein Institute for Medical Research and has been shown to regulate
+      immune function. The nervous system interacts with the immune system by this pathway;
+      molecular mediators of innate immunity activate afferent signals in the vagus nerve to the
+      brainstem, which sends efferent signals down the vagus nerve to regulate inflammation and
+      cytokine release. Vagus nerve stimulation (VNS) has been shown to decrease production and
+      release of pro-inflammatory cytokines; bioelectronic devices have been used in preclinical
+      and pilot clinical trials to reduce inflammation in patients with rheumatoid arthritis and
+      Crohn's disease.
+
+      The auricular branch of the vagus nerve comes from the vagus and innervates cutaneous areas
+      of the outer ear. Transcutaneous auricular vagus nerve stimulation (taVNS) offers a
+      non-invasive means of stimulating the vagus nerve without surgical intervention. The device
+      consists of a clip that supplies electrical signals to processes of the auricle, and it has
+      been used in previous clinical studies for multiple conditions, including refractory
+      epilepsy, depression, pre-diabetes, tinnitus, memory, stroke, oromotor dysfunction, and
+      rheumatoid arthritis, with additional studies planned for therapy or treatment of stroke,
+      atrial fibrillation, and heart failure. These studies have used a range of electrical
+      stimulation settings and sites; the mechanism of taVNS and responses are not well understood,
+      as well as the effects of changes in stimulation parameters on ANS.
+
+      Recently, application of machine learning models and decoding algorithms permits utilizing
+      commonly used clinical measurement of physiological signals to better understand broader
+      phenomena of autonomic function and dysregulation. Research has been focused on developing
+      quantitative standards based on biomarkers to aid with diagnosis, prognosis, and estimates of
+      treatment efficacy. Autonomic data could potentially capture objective measures of disease
+      states, and machine learning techniques can be used to extract relevant features towards
+      building a predictive model of ANS balance. By training such a model on recordings from
+      healthy, able-bodied individuals, the investigators plan to characterize ANS balance, and
+      then apply this model to new data sets and individuals to diagnose or predict disease states.
+
+      Modern methods of computational science have been used to decode complex clinical and
+      experimental data by detecting patterns, classifying signals, and extracting information
+      towards new knowledge. Through signal processing techniques, it has been possible to decode
+      autonomic nervous system signals conveyed through the vagus nerve by identifying groups of
+      vagal neurons that fire in response to the administration of specific cytokines.
+      Additionally, machine learning has been used to quantify clinical pain using multimodal
+      autonomic metrics and neuroimaging, and large-scale ambulatory data has been used to monitor
+      physiological signals and develop multi-sensor models to detect stress in daily life.
+
+      Additionally, the investigators want to examine how these measurements are affected by the
+      use of non-invasive transcutaneous electrical stimulation of the vagus nerve. Stimulation of
+      the vagus nerve by a surgically implanted stimulator regulates and suppresses
+      pro-inflammatory cytokine release. This has now been used in a successful clinical trial to
+      treat rheumatoid arthritis and Crohn's disease. Non-invasive transcutaneous stimulation of
+      the vagus nerve has also been showing promising early results, indicating that non-invasive
+      methods of activating a specific part of the autonomic nervous system can be used
+      successfully to treat disease. However, real-time biomarkers of efficacy of this treatment
+      are not available.
+
+      Here, the study will develop a framework to decode a multitude of noninvasive physiological
+      signals during controlled autonomic testing to form a model that can quantify ANS balance, as
+      well as the effects of taVNS on the system, in healthy and able-bodied individuals. Data
+      derived from this study will enable the ability to detect early and significant deviations
+      from &quot;normal&quot; homeostasis and provide novel non-invasive real-time biomarkers that could be
+      used to assess disease onset or severity, as well as efficacy of a therapy in activating the
+      ANS in a specific way. In the long-term, this will improve current treatment protocols and
+      suggest new therapeutic opportunities.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">August 29, 2019</start_date>
+  <completion_date type="Anticipated">September 2020</completion_date>
+  <primary_completion_date type="Anticipated">May 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Changes in Heart Rate (Electrocardiography) related to Autonomic Nervous System Perturbations</measure>
+    <time_frame>4 2-hour sessions over 2 weeks</time_frame>
+    <description>The primary objective is to measure changes in ANS balance in healthy able-bodied individuals by discovering a multi-modal index to quantify the activation status of the sympathetic and parasympathetic nervous systems during a battery of clinically relevant tasks. Changes in electrocardiography (EKG) signals will be measured to measure heart rates while purposefully activating the sympathetic (e.g. cold pressor test) or parasympathetic nervous systems (e.g. deep breathing) with safe, established tests to measure responses to changes in ANS function in healthy, able-bodied individuals. Heart rates will be assessed as percent change during tasks, with a comparison to baseline (before and after each autonomic test).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Changes in Brain Activity (Electroencephalography) related to Autonomic Nervous System Perturbations</measure>
+    <time_frame>4 2-hour sessions over 2 weeks</time_frame>
+    <description>Changes in electroencephalography (EEG) signals by a dry and noninvasive electrode cap will be measured to measure brain activity while purposefully activating the sympathetic (e.g. cold pressor test) or parasympathetic nervous systems (e.g. deep breathing) with safe, established tests to measure responses to changes in ANS function in healthy, able-bodied individuals. EEG activity will be analyzed by measuring changes in power in specific frequency bands (delta, theta, alpha, beta, and gamma). Brain activity will be assessed as percent change during tasks, with a comparison to baseline (before and after each autonomic test).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Changes in Respiratory Rate related to Autonomic Nervous System Perturbations</measure>
+    <time_frame>4 2-hour sessions over 2 weeks</time_frame>
+    <description>Changes in respiratory rate will be measured by a belt while purposefully activating the sympathetic (e.g. cold pressor test) or parasympathetic nervous systems (e.g. deep breathing) with safe, established tests to measure responses to changes in ANS function in healthy, able-bodied individuals. The belt stretches and relaxes during inspiration (inhalation) and experiation (exhalation), respectively, to infer respiration rate. Respiration changes will be assessed as percent change during tasks, with a comparison to baseline (before and after each autonomic test).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Changes in Sweat Gland Activity (Galvanic Skin Response) related to Autonomic Nervous System Perturbations</measure>
+    <time_frame>4 2-hour sessions over 2 weeks</time_frame>
+    <description>Changes in sweat gland activity will be measured by dry metal electrodes on two fingers while purposefully activating the sympathetic (e.g. cold pressor test) or parasympathetic nervous systems (e.g. deep breathing) with safe, established tests to measure responses to changes in ANS function in healthy, able-bodied individuals. The electrodes measure the galvanic skin response (GSR), a measure of electrical activity that changes depends on the sweat response. Sweat responses will be assessed as percent change during tasks, with a comparison to baseline (before and after each autonomic test).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Changes in Blood Pressure related to Autonomic Nervous System Perturbations</measure>
+    <time_frame>4 2-hour sessions over 2 weeks</time_frame>
+    <description>Changes in blood pressure will be measured by an inflatable cuff on one finger while purposefully activating the sympathetic (e.g. cold pressor test) or parasympathetic nervous systems (e.g. deep breathing) with safe, established tests to measure responses to changes in ANS function in healthy, able-bodied individuals. A wrist device is placed with a Velcro strap on the wrist to provide air and power for the finger cuff to inflate and deflate with changes in blood pressure. Blood pressure will be assessed as percent change during tasks, with a comparison to baseline (before and after each autonomic test).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Changes in Skin Temperature related to Autonomic Nervous System Perturbations</measure>
+    <time_frame>4 2-hour sessions over 2 weeks</time_frame>
+    <description>Changes in skin temperature will be measured by a circular probe (smaller than a dime) placed on the skin while purposefully activating the sympathetic (e.g. cold pressor test) or parasympathetic nervous systems (e.g. deep breathing) with safe, established tests to measure responses to changes in ANS function in healthy, able-bodied individuals. Temperature will be assessed as percent change during tasks, with a comparison to baseline (before and after each autonomic test).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Changes in Pupil Size related to Autonomic Nervous System Perturbations</measure>
+    <time_frame>4 2-hour sessions over 2 weeks</time_frame>
+    <description>Changes in pupil size will be measured by eye tracking glasses while purposefully activating the sympathetic (e.g. cold pressor test) or parasympathetic nervous systems (e.g. deep breathing) with safe, established tests to measure responses to changes in ANS function in healthy, able-bodied individuals. The glasses are easily wearable and mobile glasses with multiple small cameras to track gaze and pupil size. Pupil sizes will be assessed as percent change during tasks, with a comparison to baseline (before and after each autonomic test).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Changes in Heart Rate (Electrocardiography) due to taVNS</measure>
+    <time_frame>4 2-hour sessions over 2 weeks</time_frame>
+    <description>A secondary objective is to examine how the physiological measurements and the derived ANS index are affected by non-invasive taVNS. The efficacy and specificity of taVNS as it relates to autonomic perturbations will be analyzed while maintaining safety and tolerability in healthy, able-bodied individuals. Heart rates will be assessed as percent change during taVNS, with a comparison to baseline (before and after stimulation).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Changes in Brain Activity (Electroencephalography) due to taVNS</measure>
+    <time_frame>4 2-hour sessions over 2 weeks</time_frame>
+    <description>Power in EEG frequency bands will be assessed as percent change during taVNS, with a comparison to baseline (before and after stimulation).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Changes in Respiratory Rate due to taVNS</measure>
+    <time_frame>4 2-hour sessions over 2 weeks</time_frame>
+    <description>Respiratory rates will be assessed as percent change during taVNS, with a comparison to baseline (before and after stimulation).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Changes in Sweat Gland Activity (Galvanic Skin Response) due to taVNS</measure>
+    <time_frame>4 2-hour sessions over 2 weeks</time_frame>
+    <description>GSR will be assessed as percent change during taVNS, with a comparison to baseline (before and after stimulation).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Changes in Blood Pressure due to taVNS</measure>
+    <time_frame>4 2-hour sessions over 2 weeks</time_frame>
+    <description>Blood pressure will be assessed as percent change during taVNS, with a comparison to baseline (before and after stimulation).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Changes in Skin Temperature due to taVNS</measure>
+    <time_frame>4 2-hour sessions over 2 weeks</time_frame>
+    <description>Skin temperature will be assessed as percent change during taVNS, with a comparison to baseline (before and after stimulation).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Changes in Pupil Size due to taVNS</measure>
+    <time_frame>4 2-hour sessions over 2 weeks</time_frame>
+    <description>Pupil size will be assessed as percent change during taVNS, with a comparison to baseline (before and after stimulation).</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">48</enrollment>
+  <condition>Autonomic Dysfunction</condition>
+  <condition>Autonomic Imbalance</condition>
+  <condition>Autonomic Nervous System Diseases</condition>
+  <condition>Vagus Nerve Autonomic Disorder</condition>
+  <arm_group>
+    <arm_group_label>Healthy, Able-Bodied Individuals</arm_group_label>
+    <description>This study will only enroll healthy, able-bodied individuals.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Standing-Squatting-Standing Test</intervention_name>
+    <description>The participant will begin by actively standing for one minute, followed by a transition to a squat for one minute, and one last transition to one minute of standing.</description>
+    <arm_group_label>Healthy, Able-Bodied Individuals</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Deep Breathing Test</intervention_name>
+    <description>The participant will be asked to lay down for seven minutes and take long, controlled breaths at a rate within 4 to 10 breaths per minute.</description>
+    <arm_group_label>Healthy, Able-Bodied Individuals</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Cold Pressor Test</intervention_name>
+    <description>The participant will be asked to immerse their hand into ice water (1- 10°C) for up to three minutes, followed by removal of the hand from the bath and continuation for recording for a further three to five minutes. The participant will be informed that he or she can remove his or her hand at any point if there is discomfort.</description>
+    <arm_group_label>Healthy, Able-Bodied Individuals</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Cold Face Test</intervention_name>
+    <description>The cold stimulus will be applied with refrigerated gel-filled compresses places on the forehead and cheeks of the participant for one minute.</description>
+    <arm_group_label>Healthy, Able-Bodied Individuals</arm_group_label>
+    <other_name>Diving Reflex Text</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Valsalva Maneuver</intervention_name>
+    <description>The participant will be asked to inhale deeply, pinch his or her nose, close his or her mouth, and forcibly exhale, while bearing down with tight chest and stomach muscles, for approximately 10 to 15 seconds. The sensors will continue recording as the participant recovers to normal breathing over the next one minute.</description>
+    <arm_group_label>Healthy, Able-Bodied Individuals</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Transcutaneous Auricular Vagus Nerve Stimulation (taVNS)</intervention_name>
+    <description>The participant will receive electrical stimulation applied to their ear for five minutes. The threshold for stimulation will be determined before the test begins at a level that may elicit sensation (tickling, vibrating, pricking), but no pain. There is a possibility that the participant will receive sham stimulation, or inactive stimulation, for this test.</description>
+    <arm_group_label>Healthy, Able-Bodied Individuals</arm_group_label>
+    <other_name>Noninvasive Vagus Nerve Stimulation at the Ear</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study will only enroll healthy able-bodied individuals. To be eligible to participate
+        in this study, individuals must be between the ages of 18 and 60 years (to avoid changes in
+        ANS with age), proficient in English, BMI less than 30 based on height and weight, and able
+        and willing to provide informed consent and comply with the requirement of the study
+        protocol.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Individuals between 18-60 years of age (to avoid changes in ANS with age)
+
+          -  Individuals that are considered English Proficient due to the study requirements to
+             follow verbal commands
+
+          -  Able-bodied persons with no known health conditions
+
+          -  BMI &lt; 30.0, based on height and weight (to limit known effects of high BMI on ANS
+             activity [Costa et al., 2019])
+
+          -  Able and willing to give written informed consent and comply with the requirements of
+             the study protocol
+
+        Exclusion Criteria:
+
+          -  History of any of the following: cardiac arrhythmia, coronary artery disease,
+             autoimmune disease, chronic inflammatory disease, anemia, malignancy, depression,
+             neurologic disease, diabetes mellitus, renal disease, dementia, psychiatric illness
+             including active psychosis, or any other chronic medical condition
+
+          -  Evidence of active infection
+
+          -  Family history of inflammatory disease
+
+          -  Treatment with an anti-cholinergic medication, including over-the-counter medications
+             for allergy and sleep-aid within the past 1 week, including all drugs with
+             Amitriptyline, Atropine, Benztropine, Chlorpheniramine, Chlorpromazine, Clomipramine,
+             Clozapine, Cyclobenzaprine, Cyproheptadine, Desipramine, Dexchlorpheniramine,
+             Dicyclomine, Diphenhydramine (Benadryl), Doxepin, Fesoterodine, Hydroxyzine,
+             Hyoscyamine, Imipramine, Meclizine, Nortriptyline, Olanzapine, Orphenadrine,
+             Oxybutynin, Paroxetine, Perphenazine, Prochlorperazine, Promethazine, Protriptyline,
+             Pseudoephedrine, Scopolamine, Thioridazine, Tolterodine, Trifluoperazine, and
+             Trimipramine
+
+          -  Implantable electronic devices such as pacemakers, defibrillators, hearing aids,
+             cochlear implants, deep brain stimulators, or vagus nerve stimulators
+
+          -  Current tobacco or nicotine use (to limit any potentially confounding effects of
+             exposure to nicotine), which includes any use within the past 1 week
+
+          -  Chronic inflammatory disorders
+
+          -  Pre-existing neurological disease, which indicates any significant neurological
+             condition, including multiple sclerosis, amyotrophic lateral sclerosis, Parkinson's
+             Disease, or stroke
+
+          -  Pregnancy or lactation (determined by self-report), as early pregnancy may potentially
+             impact ANS measurements
+
+          -  Active ear infection (otitis media or externa) or any other afflictions of the ear
+
+          -  Any condition that, in the investigator's opinion, would jeopardize the participant's
+             safety following exposure to a study intervention
+
+          -  Inability to comply with study procedures and methods
+
+          -  Prisoners
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>60 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Theodoros P Zanos, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Northwell Health</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Shubham Debnath, PhD</last_name>
+    <phone>5165620487</phone>
+    <email>sdebnath@northwell.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Theodoros P Zanos, PhD</last_name>
+    <phone>5165620484</phone>
+    <email>tzanos@northwell.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>The Feinstein Institutes for Medical Research</name>
+      <address>
+        <city>Manhasset</city>
+        <state>New York</state>
+        <zip>11030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Shubham Debnath, PhD</last_name>
+      <phone>516-562-0487</phone>
+      <email>sdebnath@northwell.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Theodoros P Zanos, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Addorisio ME, Imperato GH, de Vos AF, Forti S, Goldstein RS, Pavlov VA, van der Poll T, Yang H, Diamond B, Tracey KJ, Chavan SS. Investigational treatment of rheumatoid arthritis with a vibrotactile device applied to the external ear. Bioelectron Med. 2019 Apr 17;5:4. doi: 10.1186/s42234-019-0020-4. eCollection 2019.</citation>
+    <PMID>32232095</PMID>
+  </reference>
+  <reference>
+    <citation>Andersson U, Tracey KJ. Neural reflexes in inflammation and immunity. J Exp Med. 2012 Jun 4;209(6):1057-68. doi: 10.1084/jem.20120571. Review.</citation>
+    <PMID>22665702</PMID>
+  </reference>
+  <reference>
+    <citation>Badke CM, Marsillio LE, Weese-Mayer DE, Sanchez-Pinto LN. Autonomic Nervous System Dysfunction in Pediatric Sepsis. Front Pediatr. 2018 Oct 9;6:280. doi: 10.3389/fped.2018.00280. eCollection 2018. Review.</citation>
+    <PMID>30356758</PMID>
+  </reference>
+  <reference>
+    <citation>Badran BW, Mithoefer OJ, Summer CE, LaBate NT, Glusman CE, Badran AW, DeVries WH, Summers PM, Austelle CW, McTeague LM, Borckardt JJ, George MS. Short trains of transcutaneous auricular vagus nerve stimulation (taVNS) have parameter-specific effects on heart rate. Brain Stimul. 2018 Jul - Aug;11(4):699-708. doi: 10.1016/j.brs.2018.04.004. Epub 2018 Apr 6.</citation>
+    <PMID>29716843</PMID>
+  </reference>
+  <reference>
+    <citation>Bonaz B, Sinniger V, Hoffmann D, Clarençon D, Mathieu N, Dantzer C, Vercueil L, Picq C, Trocmé C, Faure P, Cracowski JL, Pellissier S. Chronic vagus nerve stimulation in Crohn's disease: a 6-month follow-up pilot study. Neurogastroenterol Motil. 2016 Jun;28(6):948-53. doi: 10.1111/nmo.12792. Epub 2016 Feb 27.</citation>
+    <PMID>26920654</PMID>
+  </reference>
+  <reference>
+    <citation>Carthy ER. Autonomic dysfunction in essential hypertension: A systematic review. Ann Med Surg (Lond). 2013 Dec 11;3(1):2-7. doi: 10.1016/j.amsu.2013.11.002. eCollection 2014 Mar. Review.</citation>
+    <PMID>25568776</PMID>
+  </reference>
+  <reference>
+    <citation>Chavan SS, Pavlov VA, Tracey KJ. Mechanisms and Therapeutic Relevance of Neuro-immune Communication. Immunity. 2017 Jun 20;46(6):927-942. doi: 10.1016/j.immuni.2017.06.008. Review.</citation>
+    <PMID>28636960</PMID>
+  </reference>
+  <reference>
+    <citation>Coote JH, Chauhan RA. The sympathetic innervation of the heart: Important new insights. Auton Neurosci. 2016 Aug;199:17-23. doi: 10.1016/j.autneu.2016.08.014. Epub 2016 Aug 24. Review.</citation>
+    <PMID>27568995</PMID>
+  </reference>
+  <reference>
+    <citation>Costa J, Moreira A, Moreira P, Delgado L, Silva D. Effects of weight changes in the autonomic nervous system: A systematic review and meta-analysis. Clin Nutr. 2019 Feb;38(1):110-126. doi: 10.1016/j.clnu.2018.01.006. Epub 2018 Jan 9.</citation>
+    <PMID>29395374</PMID>
+  </reference>
+  <reference>
+    <citation>Engel T, Ben-Horin S, Beer-Gabel M. Autonomic Dysfunction Correlates with Clinical and Inflammatory Activity in Patients with Crohn's Disease. Inflamm Bowel Dis. 2015 Oct;21(10):2320-6. doi: 10.1097/MIB.0000000000000508.</citation>
+    <PMID>26181429</PMID>
+  </reference>
+  <reference>
+    <citation>Ferreira JA, Bissell BD. Misdirected Sympathy: The Role of Sympatholysis in Sepsis and Septic Shock. J Intensive Care Med. 2018 Feb;33(2):74-86. doi: 10.1177/0885066616689548. Epub 2017 Jan 31. Review.</citation>
+    <PMID>28142307</PMID>
+  </reference>
+  <reference>
+    <citation>Freeman, R., &amp; Chapleau, M. W. (2013). Testing the Autonomic Nervous System. In Handbook of Clinical Neurology (1st ed., Vol. 115). https://doi.org/10.1055/s-2004-817725</citation>
+  </reference>
+  <reference>
+    <citation>Gibbons, C. H., Cheshire, W. P., &amp; Fife, T. D. (2014). Autonomic Testing. American Academy of Neurology, (October), 1-10. Retrieved from https://pdfs.semanticscholar.org/2ca5/0a89aa14e473b4ba3db9eeb7434eaf0b9c6f.pdf</citation>
+  </reference>
+  <reference>
+    <citation>Hilz MJ, Stemper B, Sauer P, Haertl U, Singer W, Axelrod FB. Cold face test demonstrates parasympathetic cardiac dysfunction in familial dysautonomia. Am J Physiol. 1999 Jun;276(6):R1833-9. doi: 10.1152/ajpregu.1999.276.6.R1833.</citation>
+    <PMID>10362767</PMID>
+  </reference>
+  <reference>
+    <citation>Huang F, Dong J, Kong J, Wang H, Meng H, Spaeth RB, Camhi S, Liao X, Li X, Zhai X, Li S, Zhu B, Rong P. Erratum to: Effect of transcutaneous auricular vagus nerve stimulation on impaired glucose tolerance: a pilot randomized study. BMC Complement Altern Med. 2016 Jul 13;16(1):218.</citation>
+    <PMID>27411374</PMID>
+  </reference>
+  <reference>
+    <citation>Kishi T. Heart failure as an autonomic nervous system dysfunction. J Cardiol. 2012 Mar;59(2):117-22. doi: 10.1016/j.jjcc.2011.12.006. Epub 2012 Feb 16. Review.</citation>
+    <PMID>22341431</PMID>
+  </reference>
+  <reference>
+    <citation>Kong J, Fang J, Park J, Li S, Rong P. Treating Depression with Transcutaneous Auricular Vagus Nerve Stimulation: State of the Art and Future Perspectives. Front Psychiatry. 2018 Feb 5;9:20. doi: 10.3389/fpsyt.2018.00020. eCollection 2018.</citation>
+    <PMID>29459836</PMID>
+  </reference>
+  <reference>
+    <citation>Koopman FA, Tang MW, Vermeij J, de Hair MJ, Choi IY, Vervoordeldonk MJ, Gerlag DM, Karemaker JM, Tak PP. Autonomic Dysfunction Precedes Development of Rheumatoid Arthritis: A Prospective Cohort Study. EBioMedicine. 2016 Apr;6:231-237. doi: 10.1016/j.ebiom.2016.02.029. Epub 2016 Feb 19.</citation>
+    <PMID>27211565</PMID>
+  </reference>
+  <reference>
+    <citation>Koopman FA, Chavan SS, Miljko S, Grazio S, Sokolovic S, Schuurman PR, Mehta AD, Levine YA, Faltys M, Zitnik R, Tracey KJ, Tak PP. Vagus nerve stimulation inhibits cytokine production and attenuates disease severity in rheumatoid arthritis. Proc Natl Acad Sci U S A. 2016 Jul 19;113(29):8284-9. doi: 10.1073/pnas.1605635113. Epub 2016 Jul 5.</citation>
+    <PMID>27382171</PMID>
+  </reference>
+  <reference>
+    <citation>Krassioukov, A., Biering-Sorensen, F., Donovan, W., Kennelly, M., Kirshblum, S., Krogh, K., … Wecht, J. (2012). International standards to document remaining autonomic function after spinal cord injury. Spinal Cord, 47(1), 36-43. https://doi.org/10.1038/sc.2008.121</citation>
+  </reference>
+  <reference>
+    <citation>Broadstone VL, Roy T, Self M, Pfeifer MA. Cardiovascular autonomic dysfunction: diagnosis and prognosis. Diabet Med. 1991;8 Spec No:S88-93. Review.</citation>
+    <PMID>1825967</PMID>
+  </reference>
+  <reference>
+    <citation>Lee J, Mawla I, Kim J, Loggia ML, Ortiz A, Jung C, Chan ST, Gerber J, Schmithorst VJ, Edwards RR, Wasan AD, Berna C, Kong J, Kaptchuk TJ, Gollub RL, Rosen BR, Napadow V. Machine learning-based prediction of clinical pain using multimodal neuroimaging and autonomic metrics. Pain. 2019 Mar;160(3):550-560. doi: 10.1097/j.pain.0000000000001417.</citation>
+    <PMID>30540621</PMID>
+  </reference>
+  <reference>
+    <citation>Levine YA, Koopman FA, Faltys M, Caravaca A, Bendele A, Zitnik R, Vervoordeldonk MJ, Tak PP. Neurostimulation of the cholinergic anti-inflammatory pathway ameliorates disease in rat collagen-induced arthritis. PLoS One. 2014 Aug 11;9(8):e104530. doi: 10.1371/journal.pone.0104530. eCollection 2014.</citation>
+    <PMID>25110981</PMID>
+  </reference>
+  <reference>
+    <citation>Lötsch J, Ultsch A. Machine learning in pain research. Pain. 2018 Apr;159(4):623-630. doi: 10.1097/j.pain.0000000000001118. Review.</citation>
+    <PMID>29194126</PMID>
+  </reference>
+  <reference>
+    <citation>Dütsch M, Burger M, Dörfler C, Schwab S, Hilz MJ. Cardiovascular autonomic function in poststroke patients. Neurology. 2007 Dec 11;69(24):2249-55.</citation>
+    <PMID>18071145</PMID>
+  </reference>
+  <reference>
+    <citation>Mourot L, Bouhaddi M, Regnard J. Effects of the cold pressor test on cardiac autonomic control in normal subjects. Physiol Res. 2009;58(1):83-91. Epub 2008 Jan 17.</citation>
+    <PMID>18198985</PMID>
+  </reference>
+  <reference>
+    <citation>Olofsson PS, Tracey KJ. Bioelectronic medicine: technology targeting molecular mechanisms for therapy. J Intern Med. 2017 Jul;282(1):3-4. doi: 10.1111/joim.12624.</citation>
+    <PMID>28621493</PMID>
+  </reference>
+  <reference>
+    <citation>Pavlov VA, Chavan SS, Tracey KJ. Molecular and Functional Neuroscience in Immunity. Annu Rev Immunol. 2018 Apr 26;36:783-812. doi: 10.1146/annurev-immunol-042617-053158. Review.</citation>
+    <PMID>29677475</PMID>
+  </reference>
+  <reference>
+    <citation>Redgrave JN, Moore L, Oyekunle T, Ebrahim M, Falidas K, Snowdon N, Ali A, Majid A. Transcutaneous Auricular Vagus Nerve Stimulation with Concurrent Upper Limb Repetitive Task Practice for Poststroke Motor Recovery: A Pilot Study. J Stroke Cerebrovasc Dis. 2018 Jul;27(7):1998-2005. doi: 10.1016/j.jstrokecerebrovasdis.2018.02.056. Epub 2018 Mar 23.</citation>
+    <PMID>29580658</PMID>
+  </reference>
+  <reference>
+    <citation>Rong P, Liu J, Wang L, Liu R, Fang J, Zhao J, Zhao Y, Wang H, Vangel M, Sun S, Ben H, Park J, Li S, Meng H, Zhu B, Kong J. Effect of transcutaneous auricular vagus nerve stimulation on major depressive disorder: A nonrandomized controlled pilot study. J Affect Disord. 2016 May;195:172-9. doi: 10.1016/j.jad.2016.02.031. Epub 2016 Feb 10.</citation>
+    <PMID>26896810</PMID>
+  </reference>
+  <reference>
+    <citation>Scheen AJ, Philips JC. Squatting test: a dynamic postural manoeuvre to study baroreflex sensitivity. Clin Auton Res. 2012 Feb;22(1):35-41. doi: 10.1007/s10286-011-0140-8. Epub 2011 Aug 4.</citation>
+    <PMID>21845435</PMID>
+  </reference>
+  <reference>
+    <citation>Serhiyenko VA, Serhiyenko AA. Cardiac autonomic neuropathy: Risk factors, diagnosis and treatment. World J Diabetes. 2018 Jan 15;9(1):1-24. doi: 10.4239/wjd.v9.i1.1. Review.</citation>
+    <PMID>29359025</PMID>
+  </reference>
+  <reference>
+    <citation>Shen MJ, Zipes DP. Role of the autonomic nervous system in modulating cardiac arrhythmias. Circ Res. 2014 Mar 14;114(6):1004-21. doi: 10.1161/CIRCRESAHA.113.302549. Review.</citation>
+    <PMID>24625726</PMID>
+  </reference>
+  <reference>
+    <citation>Shim HJ, Kwak MY, An YH, Kim DH, Kim YJ, Kim HJ. Feasibility and Safety of Transcutaneous Vagus Nerve Stimulation Paired with Notched Music Therapy for the Treatment of Chronic Tinnitus. J Audiol Otol. 2015 Dec;19(3):159-67. doi: 10.7874/jao.2015.19.3.159. Epub 2015 Dec 18.</citation>
+    <PMID>26771015</PMID>
+  </reference>
+  <reference>
+    <citation>Smets E, Rios Velazquez E, Schiavone G, Chakroun I, D'Hondt E, De Raedt W, Cornelis J, Janssens O, Van Hoecke S, Claes S, Van Diest I, Van Hoof C. Large-scale wearable data reveal digital phenotypes for daily-life stress detection. NPJ Digit Med. 2018 Dec 12;1:67. doi: 10.1038/s41746-018-0074-9. eCollection 2018.</citation>
+    <PMID>31304344</PMID>
+  </reference>
+  <reference>
+    <citation>Stefan H, Kreiselmeyer G, Kerling F, Kurzbuch K, Rauch C, Heers M, Kasper BS, Hammen T, Rzonsa M, Pauli E, Ellrich J, Graf W, Hopfengärtner R. Transcutaneous vagus nerve stimulation (t-VNS) in pharmacoresistant epilepsies: a proof of concept trial. Epilepsia. 2012 Jul;53(7):e115-8. doi: 10.1111/j.1528-1167.2012.03492.x. Epub 2012 May 3.</citation>
+    <PMID>22554199</PMID>
+  </reference>
+  <reference>
+    <citation>Tracey KJ. The inflammatory reflex. Nature. 2002 Dec 19-26;420(6917):853-9. Review.</citation>
+    <PMID>12490958</PMID>
+  </reference>
+  <reference>
+    <citation>Verrotti, A., Prezioso, G., Scattoni, R., &amp; Chiarelli, F. (2014). Autonomic neuropathy in diabetes mellitus. Frontiers in Endocrinology, 5. https://doi.org/10.3389/fendo.2014.00205</citation>
+  </reference>
+  <reference>
+    <citation>Vinik AI, Erbas T, Casellini CM. Diabetic cardiac autonomic neuropathy, inflammation and cardiovascular disease. J Diabetes Investig. 2013 Jan;4(1):4-18. Epub 2013 Jan 29.</citation>
+    <PMID>23550085</PMID>
+  </reference>
+  <reference>
+    <citation>Weimer, L. H. (2010). Autonomic testing. The Neurologist, 16(4), 215-224. https://doi.org/10.1016/S1567-4231(09)70083-8</citation>
+  </reference>
+  <reference>
+    <citation>Zanos TP, Silverman HA, Levy T, Tsaava T, Battinelli E, Lorraine PW, Ashe JM, Chavan SS, Tracey KJ, Bouton CE. Identification of cytokine-specific sensory neural signals by decoding murine vagus nerve activity. Proc Natl Acad Sci U S A. 2018 May 22;115(21):E4843-E4852. doi: 10.1073/pnas.1719083115. Epub 2018 May 7.</citation>
+    <PMID>29735654</PMID>
+  </reference>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>September 16, 2019</study_first_submitted>
+  <study_first_submitted_qc>September 20, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 24, 2019</study_first_posted>
+  <last_update_submitted>March 3, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 3, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 4, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Northwell Health</investigator_affiliation>
+    <investigator_full_name>Theodoros Zanos</investigator_full_name>
+    <investigator_title>Assistant Professor, Neural and Data Science Laboratory</investigator_title>
+  </responsible_party>
+  <keyword>Vagus Nerve Stimulation</keyword>
+  <keyword>Noninvasive</keyword>
+  <keyword>Autonomic Nervous System</keyword>
+  <keyword>Biosensors</keyword>
+  <keyword>Vitals Monitoring</keyword>
+  <keyword>Machine Learning</keyword>
+  <keyword>Deep Learning</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Autonomic Nervous System Diseases</mesh_term>
+    <mesh_term>Primary Dysautonomias</mesh_term>
+    <mesh_term>Nervous System Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

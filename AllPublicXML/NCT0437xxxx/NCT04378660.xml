@@ -1,0 +1,188 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04378660</url>
+  </required_header>
+  <id_info>
+    <org_study_id>s59405</org_study_id>
+    <nct_id>NCT04378660</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence (AI) Validation Study for Polyp Detection</brief_title>
+  <official_title>Artificial Intelligence Validation Trial for Polyp Detection: Pilot Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Universitaire Ziekenhuizen Leuven</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Nuovo Regina Margherita Hospital, Rome, Italy</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Universitäts Medizin, Mainz, Germany</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Universitaire Ziekenhuizen Leuven</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Interventional prospective multicenter study: Polyp detection by an automated endoscopic tool
+      as second observer during routine diagnostic colonoscopy
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is an investigator-initiated multicentre non-randomized prospective interventional trial
+      to validate the performance of a novel state-of-the-art computer-aided diagnostic (CAD) tool
+      in polyp detection implemented as second observer during routine diagnostic colonoscopy and
+      to evaluate its feasibility in daily endoscopy. Patients referred for a screening
+      surveillance or therapeutic colonoscopy will undergo a colonoscopy performed by an
+      endoscopist with moderate to high adenoma detection rate (ADR &gt; 20% and &lt; 50%) while a second
+      observer will follow the procedure on a bedside AI-tool to count the number of detections
+      made by the AI system and categorize the results into positive or negative results as follows
+      (1) true positive, (2) false negative, (3) other positive and (4) obvious false positive.
+      When a doubtful detection is made by the AI-system, the second observer will ask to
+      re-evaluate the indicated region. When the detection is clear, the endoscopist and second
+      observer do not communicate. The entire procedure is recorded.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">October 30, 2019</start_date>
+  <completion_date type="Actual">April 18, 2020</completion_date>
+  <primary_completion_date type="Actual">April 18, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Diagnostic accuracy of the novel AI system compared to endoscopic diagnosis as gold standard</measure>
+    <time_frame>4 months</time_frame>
+    <description>Determination of the diagnostic accuracy of the novel AI system as second observer</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Endoscopist's polyp miss rate as number of extra AI detections</measure>
+    <time_frame>4 months</time_frame>
+    <description>Determination of the AI system's precision and extra value as second observer</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">357</enrollment>
+  <condition>Polyp of Colon</condition>
+  <arm_group>
+    <arm_group_label>Intervention arm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Colonoscopy with AI</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Artificial intelligence for polyp detection</intervention_name>
+    <description>Colonoscopy enriched with artificial intelligence tool developed for polyp detection, implemented as a second observer</description>
+    <arm_group_label>Intervention arm</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  &gt; 18 years
+
+          -  Diagnostic or screening colonoscopy
+
+          -  Therapeutic colonoscopy
+
+        Exclusion Criteria:
+
+          -  Inability to give informed consent by the patient or legal representative
+
+          -  &lt; 18 years old
+
+          -  Any contraindication for colonoscopy or biopsies of the colon
+
+          -  Uncontrolled coagulopathy
+
+          -  Confirmed diagnosis of inflammatory bowel disease
+
+          -  Short bowel or ileostomy
+
+          -  Pregnancy
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>16 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Raf Bisschops</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>UZ Leuven</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University Hospitals Leuven</name>
+      <address>
+        <city>Leuven</city>
+        <state>Vlaams-Brabant</state>
+        <zip>3000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>April 20, 2020</study_first_submitted>
+  <study_first_submitted_qc>May 5, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 7, 2020</study_first_posted>
+  <last_update_submitted>May 5, 2020</last_update_submitted>
+  <last_update_submitted_qc>May 5, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 7, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Colonic polyp</keyword>
+  <keyword>Artificial intelligence</keyword>
+  <keyword>Second observer</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Polyps</mesh_term>
+    <mesh_term>Colonic Polyps</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>We don't share any patient information with other researchers, nor when it's anonymized</ipd_description>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>October 30, 2019</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/60/NCT04378660/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Informed Consent Form</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>May 4, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/60/NCT04378660/ICF_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,199 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04314349</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRB108-249-A</org_study_id>
+    <nct_id>NCT04314349</nct_id>
+  </id_info>
+  <brief_title>Radiogenomics in Aerodigestive Tract Cancers</brief_title>
+  <official_title>Radiogenomics in Aerodigestive Tract Cancers</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Buddhist Tzu Chi General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Buddhist Tzu Chi General Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Aerodigestive tract cancers are common malignancies. These cancers were ranked to be top-ten
+      cancer-related deaths in Taiwan. Although many new target therapies and immunotherapies have
+      emerged, many of the treatment eventually fail. For example, a 30-40% failure rate has been
+      reported for target therapy, and, even higher for immune checkpoint inhibitors. A reliable
+      model to more accurately predict treatment response and survival is warranted. The radiomic
+      features extracted from F-18 fluorodeoxyglucose (18F-FDG) positron emission tomography (PET)
+      can be used to figure tumor biology such as metabolome and heterogeneity. It can therefore be
+      used to predict treatment response and individual survival. On the other hand, genomic data
+      derived from next-generation sequencing (NGS) can interrogate the genetic alteration of
+      cancer cells. It can be used to feature genetic identification of the tumor and can also be
+      used to identify target genes. However, both modalities have their weakness; a combination of
+      the two may devise a more powerful predictive model for more precise clinical decision. The
+      investigators plan to recruit patients aged at least 20-year with the diagnosis of
+      aerodigestive tract cancers for radiogenomic study. Our previous studies have found that
+      radiomic features derived from 18F-FDG PET can predict treatment response and survival in
+      patients with esophageal cancer treated with tri-modality method. The investigators also
+      discovered that radiomics could predict survival in patients with EGFR-mutated lung
+      adenocarcinoma treated with target therapy. In addition, our study results showed that the
+      level of PD-L1 expression is associated with radiomics as well. The investigators plan to add
+      genomic data into radiomics and interrogate cancers from different aspects. The investigators
+      seek to devise a more precise model to predict the treatment response and survival in
+      patients with aerodigestive tract cancers.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a prospective study and The investigators use the routine pathological specimens for
+      next generation sequencing (NGS), microsatellite instability (MSI) and immunohistochemical
+      stains.
+
+      Pathological examinations including PD-L1, EGFR status, ALK and ROS-1.
+
+      NGS (Next Generation Sequencing)： Total DNA were extracted from EDTA-peripheral venous blood
+      and paraffin-embedded tumor specimens with the QIAamp® DNA Blood Mini Kit and QIAamp DNA FFPE
+      Tissue Kit (QIAGEN GmbH, Hilden, Germany), respectively. For DNA whole exome sequence,
+      briefly, tumor and blood DNA were sonicated by Covaris M220 sonicator (Life Technologies
+      Europe, Gent, Belgium) and then ligated to adaptor for further amplification (Illumina®
+      TruSeq Exome Library Prep, USA). All of library preparation were performed in the Cancer
+      Translational Core Facility of Taipei Medical University. After library preparation, all
+      samples were sequenced using the NextSeq500 system according to the manufacturer's
+      instructions (Illumina, San Diego, USA). After sequencing performance, quality of reads file
+      (fastq) was assessed by FastQC and then mapped using human Hg19 as the reference. Bam files
+      were used as input for the Varscan algorithm to identify germline and somatic mutations.
+      Variants annotated and filtered were manually checked using IGV (Integrative Genomics
+      Viewer), then confirmed by Sanger sequence.
+
+      To calculate the TMB (total mutation burden) per megabase, the total number of mutations
+      counted is divided by the size of the coding region of the targeted territory.
+
+      To calculate MATH (mutant-allele tumor heterogeneity), The investigators will first obtain
+      the MAF (the fraction of DNA that shows the mutated allele at a gene locus) of each tumor
+      specimen. The MAF distribution will be used to calculate the median (center of distribution)
+      and the MD (median deviation) of MAFs in a tumor. The MD is determined by obtaining the
+      absolute differences of all MAFs from the median MAF. Then the median of the absolute
+      differences is multiplied by a factor of 1.4826 to obtain the MD. The MATH value is
+      calculated as the percentage ratio of the MD to the median: MATH = (MD/median)×100.
+
+      MSI (Microsatellite instability) Microsatellite instability polymerase chain reaction
+      (MSI-PCR) MSI-PCR testing was performed by the Cancer Translational Core Facility of Taipei
+      Medical University using Promega MSI analysis kit (Promega). The MSI analysis consists of
+      five nearly monomorphic mononucleotide markers (BAT-25, BAT-26, NR- 21, NR-24, and MONO-27)
+      for MSI determination. MSI analysis was performed according to the manufacturer's directions
+      (Promega). Products were analyzed by capillary electrophoresis and the investigators
+      interpreted microsatellite instability at 2 or more of the 5 mononucleotide loci as MSI-high,
+      microsatellite instability at a single mononucleotide locus as MSI-low, and no instability at
+      any of the loci as microsatellite stable (MSS).
+
+      The image features of FDG PET the investigators extracted as followed:
+
+      The traditional image parameters include SUVmax, metabolic tumor volume (MTV) and total
+      lesion glycolysis (TLG) of the primary tumor. The traditional FDG PET parameters were
+      calculated using commercialized software (PBAS, PMOD 4.0). Radiomics (texture analysis) will
+      be calculated only for pre-treatment FDG PET. The matrices of radiomic analysis include
+      histogram analysis, Gray-level co-occurrence matrix (GLCM)、texture feature coding
+      co-occurrence matrix (TFCCM)、gray-level run-length matrix (GLRLM)、gray-level size zone matrix
+      (GLSZM)、neighborhood gray-tone difference matrix (NGTDM)、Texture Feature Coding Matrix
+      (TFCM)、Texture Feature Coding Co-Occurrence Matrix (TFCCM) and Neighbouring Gray Level
+      Dependence Matrix (NGLD).
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">August 1, 2020</start_date>
+  <completion_date type="Anticipated">July 31, 2027</completion_date>
+  <primary_completion_date type="Anticipated">July 31, 2023</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>3 Years</target_duration>
+  <primary_outcome>
+    <measure>Correlation of radiogenomics</measure>
+    <time_frame>3 months</time_frame>
+    <description>Study the correlation of radiomics and genomics and pathological features</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Treatment response and survival</measure>
+    <time_frame>3 years</time_frame>
+    <description>Study the association of radiogenomics with the treatment response and survival</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Cancer, Lung</condition>
+  <condition>Cancer of Esophagus</condition>
+  <condition>Cancer of Head and Neck</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with aerodigestive tract cancer only, and able to be analyzed with radiomics of
+        FDG PET.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age at least 20-years
+
+          -  Pathological proven aerodigestive tract cancers and received complete staging work-up
+
+          -  Pathological specimen of the primary tumor
+
+          -  The solid part of the primary tumor should be at least 2 cm for the lung or head and
+             neck cancers. The primary tumor of the esophageal cancer should be at least cT2.
+
+        Exclusion Criteria:
+
+          -  Coexistence of non-aerodigestive tract cancer.
+
+          -  Only receive best supportive care after diagnosis.
+
+          -  Unable to comply to FDG PET/CT exam.
+
+          -  Unable to determine the primary tumor.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Yu-Hung Chen, M.D.</last_name>
+    <phone>886-3-8561825</phone>
+    <phone_ext>12024</phone_ext>
+    <email>jedimasterchen@hotmail.com</email>
+  </overall_contact>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>March 17, 2020</study_first_submitted>
+  <study_first_submitted_qc>March 17, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 19, 2020</study_first_posted>
+  <last_update_submitted>March 18, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 18, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 20, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Aerodigestive tract cancers</keyword>
+  <keyword>Radiogenomics</keyword>
+  <keyword>F-18 FDG PET</keyword>
+  <keyword>Next generation sequencing</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Head and Neck Neoplasms</mesh_term>
+    <mesh_term>Lung Neoplasms</mesh_term>
+    <mesh_term>Esophageal Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

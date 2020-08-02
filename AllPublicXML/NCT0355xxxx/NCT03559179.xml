@@ -1,0 +1,763 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03559179</url>
+  </required_header>
+  <id_info>
+    <org_study_id>0076-ot</org_study_id>
+    <secondary_id>3UG1DA040316-03S1</secondary_id>
+    <nct_id>NCT03559179</nct_id>
+  </id_info>
+  <brief_title>Clinical Decision Support for Opioid Use Disorders in Medical Settings: Usability Testing in an EMR</brief_title>
+  <acronym>COMPUTE</acronym>
+  <official_title>Clinical Decision Support for Opioid Use Disorders in Medical Settings: Pilot Usability Testing in an EMR</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>HealthPartners Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute on Drug Abuse (NIDA)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Hennepin Healthcare Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>HealthPartners Institute</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The primary objective of this pilot study is to program an opioid use disorder (OUD) clinical
+      decision support (CDS) tool for use in an electronic medical record (EMR) and obtain high
+      primary care physician (PCP) usability and acceptability. The OUD-CDS is based on the
+      NIDA-Blending Initiative white paper, &quot;Clinical Decision Support for Opioid Use Disorders:
+      Working Group Report,&quot; which itself is based on national evidence-based guidelines (American
+      Society of Addiction Medicine (ASAM 2015), VA (VA 2015). As such, this pilot study aims to
+      help PCPs achieve accepted standards of care in OUD treatment. The secondary objectives of
+      this pilot study are to evaluate the usefulness of the tool by comparing OUD case-finding,
+      medication-assisted therapy (MAT) and referral patterns pre- and post-CDS deployment for PCPs
+      with and without CDS access.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">April 30, 2018</start_date>
+  <completion_date type="Actual">February 14, 2019</completion_date>
+  <primary_completion_date type="Actual">February 14, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Intervention PCP Confidence in Assessing and Treating OUD</measure>
+    <time_frame>This outcome measure was calculated at approximately month 10 of the pilot study</time_frame>
+    <description># of intervention PCPs who report feeling &quot;moderately&quot; or &quot;very&quot; confident in assessing and treating OUD.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Intervention PCP Likeliness to Recommend Use of the OUD-CDS</measure>
+    <time_frame>This was calculated after PCP surveys were completed, approximately month 10</time_frame>
+    <description># of PCPs with CDS access who rate the OUD-CDS &gt;4 on a 5-point Likert scale of likeliness to recommend use of the tool to their colleagues. The scale ranges from 1-&quot;not at all likely&quot; to 5-&quot;very likely,&quot; with higher values representing a higher likelihood of recommending the OUD-CDS to other colleagues.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Compare Pre- and Post-intervention Rates of OUD Diagnosis in High-risk Patients.</measure>
+    <time_frame>This was calculated at the end of the pilot study (month 8).</time_frame>
+    <description>Calculate and compare the number of patients diagnosed with OUD pre- and post-intervention. This will be presented as rate of OUD diagnoses per patient year.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Compare Pre- and Post-intervention Rates of Medication-assisted Therapy (MAT) Use.</measure>
+    <time_frame>This was calculated at the end of the pilot study (month 8).</time_frame>
+    <description>Calculate and compare the rate of MAT use among patients with OUD pre- and post-intervention. This is presented as a pre/post ratio of MAT rx per patient year.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Compare Post-intervention Referral Patterns Between Intervention and Control Groups</measure>
+    <time_frame>This was calculated at the end of the pilot study (month 8).</time_frame>
+    <description>Calculate and compare how often patients diagnosed with OUD are referred to specialty care or inpatient treatment post-intervention. Compare these rates between intervention and control groups.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">55</enrollment>
+  <condition>Opioid-use Disorder</condition>
+  <arm_group>
+    <arm_group_label>Waivered Providers Receive the Opioid Wizard</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>All providers who have a buprenorphine waiver will receive the OUD clinical decision support tool (Opioid Wizard).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Does not Receive the Opioid Wizard</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>All non-buprenorphine waivered providers will be randomized to receive or not receive the Opioid Wizard. This arm of providers will continue to treat their patients as usual.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Non-Waivered Providers who receive Opioid Wizard</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>All non-buprenorphine waivered providers will be randomized to receive or not receive the Opioid. This arm of providers will receive the OUD clinical decision support tool (Opioid Wizard).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Opioid Wizard</intervention_name>
+    <description>The Opioid Wizard is an OUD clinical decision support tool for primary care providers.</description>
+    <arm_group_label>Non-Waivered Providers who receive Opioid Wizard</arm_group_label>
+    <arm_group_label>Waivered Providers Receive the Opioid Wizard</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Be an MD, Doctor of Osteopathy, Nurse Practitioner or Physician's Assistant engaged in
+             independent primary care of adults at HealthPartners or Park Nicollet
+
+          -  Have at least schedule 3 DEA prescribing privileges
+
+          -  Voluntarily provide written informed consent to participate in this study
+
+        Exclusion Criteria:
+
+          -  Less than half-time clinical primary care responsibilities
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>HealthPartners</name>
+      <address>
+        <city>Bloomington</city>
+        <state>Minnesota</state>
+        <zip>55425</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>February 2019</verification_date>
+  <study_first_submitted>May 9, 2018</study_first_submitted>
+  <study_first_submitted_qc>June 5, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 18, 2018</study_first_posted>
+  <results_first_submitted>January 29, 2020</results_first_submitted>
+  <results_first_submitted_qc>February 25, 2020</results_first_submitted_qc>
+  <results_first_posted type="Actual">March 10, 2020</results_first_posted>
+  <last_update_submitted>March 9, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 9, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 17, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>CDS</keyword>
+  <keyword>Medication Assisted Therapy</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Substance-Related Disorders</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Analgesics, Opioid</mesh_term>
+  </intervention_browse>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>May 8, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/79/NCT03559179/Prot_001.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Statistical Analysis Plan</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>May 8, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/79/NCT03559179/SAP_002.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Informed Consent Form</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>April 17, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/79/NCT03559179/ICF_003.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Waivered Providers Received the Opioid Wizard</title>
+          <description>All Buprenorphine-Waivered providers received the OUD clinical decision support tool (Opioid Wizard).
+Opioid Wizard: The Opioid Wizard is an OUD clinical decision support tool for primary care providers.</description>
+        </group>
+        <group group_id="P2">
+          <title>Non-Waivered Providers Received The Opioid Wizard</title>
+          <description>Non-buprenorphine waivered providers were randomized to receive/not receive the Opioid Wizard. This arm represents providers who received the Opioid Wizard.</description>
+        </group>
+        <group group_id="P3">
+          <title>Non-Waivered Providers Who Did Not Receive the Opioid Wizard</title>
+          <description>Non-Buprenorphine waivered providers are randomized to receive/not receive the Opioid Wizard. This arm represents providers who did not receive the Opioid Wizard. These providers continued to treat their patients as usual.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="8"/>
+                <participants group_id="P2" count="24"/>
+                <participants group_id="P3" count="23"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="8"/>
+                <participants group_id="P2" count="23"/>
+                <participants group_id="P3" count="23"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="1"/>
+                <participants group_id="P3" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Waivered Providers Received the Opioid Wizard</title>
+          <description>These providers received the OUD clinical decision support tool (Opioid Wizard).
+Opioid Wizard: The Opioid Wizard is an OUD clinical decision support tool for primary care providers.</description>
+        </group>
+        <group group_id="B2">
+          <title>Non-Waivered Providers Who Received the Opioid Wizard</title>
+          <description>Non-Buprenorphine waivered providers were randomized to receive/not receive the Opioid Wizard. This arm represents non-waivered providers who received the OUD clinical decision support tool (Opioid Wizard).
+Opioid Wizard: The Opioid Wizard is an OUD clinical decision support tool for primary care providers.</description>
+        </group>
+        <group group_id="B3">
+          <title>Non-Waivered Providers Who do Not Receive the Opioid Wizard</title>
+          <description>These are non-buprenorphine waivered providers continued to treat their patients as usual.</description>
+        </group>
+        <group group_id="B4">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="8"/>
+            <count group_id="B2" value="24"/>
+            <count group_id="B3" value="23"/>
+            <count group_id="B4" value="55"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                    <measurement group_id="B4" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                    <measurement group_id="B2" value="23"/>
+                    <measurement group_id="B3" value="23"/>
+                    <measurement group_id="B4" value="54"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="0"/>
+                    <measurement group_id="B4" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                    <measurement group_id="B2" value="13"/>
+                    <measurement group_id="B3" value="16"/>
+                    <measurement group_id="B4" value="33"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                    <measurement group_id="B2" value="11"/>
+                    <measurement group_id="B3" value="7"/>
+                    <measurement group_id="B4" value="22"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race/Ethnicity, Customized</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>White</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                    <measurement group_id="B2" value="19"/>
+                    <measurement group_id="B3" value="18"/>
+                    <measurement group_id="B4" value="42"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Black</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="1"/>
+                    <measurement group_id="B4" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Asian</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="4"/>
+                    <measurement group_id="B3" value="2"/>
+                    <measurement group_id="B4" value="6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Multiple</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="1"/>
+                    <measurement group_id="B4" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Unknown</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="1"/>
+                    <measurement group_id="B4" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Intervention PCP Confidence in Assessing and Treating OUD</title>
+        <description># of intervention PCPs who report feeling &quot;moderately&quot; or &quot;very&quot; confident in assessing and treating OUD.</description>
+        <time_frame>This outcome measure was calculated at approximately month 10 of the pilot study</time_frame>
+        <population>This outcome was to help show proof of the OUD-CDS concept using responses from intervention PCPs. One intervention provider stopped working for the organization during the intervention. Two additional intervention providers in the &quot;Non-Waivered providers who received the Opioid Wizard&quot; arm did not complete follow-up surveys.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Waivered Providers Received the Opioid Wizard</title>
+            <description>All Buprenorphine-Waivered providers received the OUD clinical decision support tool (Opioid Wizard).
+Opioid Wizard: The Opioid Wizard is an OUD clinical decision support tool for primary care providers.</description>
+          </group>
+          <group group_id="O2">
+            <title>Non-Waivered Providers Who Received the Opioid Wizard</title>
+            <description>Non-Buprenorphine waivered providers were randomized to receive/not receive the Opioid Wizard. This arm represents providers who received the Opioid Wizard.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Intervention PCP Confidence in Assessing and Treating OUD</title>
+          <description># of intervention PCPs who report feeling &quot;moderately&quot; or &quot;very&quot; confident in assessing and treating OUD.</description>
+          <population>This outcome was to help show proof of the OUD-CDS concept using responses from intervention PCPs. One intervention provider stopped working for the organization during the intervention. Two additional intervention providers in the &quot;Non-Waivered providers who received the Opioid Wizard&quot; arm did not complete follow-up surveys.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="8"/>
+                <count group_id="O2" value="21"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title># of INT PCPs reporting confidence assessing OUD</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6"/>
+                    <measurement group_id="O2" value="11"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title># of INT PCPs reporting confidence treating OUD</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="8"/>
+                    <measurement group_id="O2" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Intervention PCP Likeliness to Recommend Use of the OUD-CDS</title>
+        <description># of PCPs with CDS access who rate the OUD-CDS &gt;4 on a 5-point Likert scale of likeliness to recommend use of the tool to their colleagues. The scale ranges from 1-&quot;not at all likely&quot; to 5-&quot;very likely,&quot; with higher values representing a higher likelihood of recommending the OUD-CDS to other colleagues.</description>
+        <time_frame>This was calculated after PCP surveys were completed, approximately month 10</time_frame>
+        <population>One non-waivered intervention provider stopped working for the organization and two additional non-waivered intervention providers did not complete the follow-up survey.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Waivered Providers Receive the Opioid Wizard</title>
+            <description>All providers who have a buprenorphine waiver received the OUD clinical decision support tool (Opioid Wizard).
+Opioid Wizard: The Opioid Wizard is an OUD clinical decision support tool for primary care providers.</description>
+          </group>
+          <group group_id="O2">
+            <title>Non-Waivered Providers Who Receive Opioid Wizard</title>
+            <description>All non-buprenorphine waivered providers were randomized to receive or not receive the Opioid. This arm of providers received the OUD clinical decision support tool (Opioid Wizard).
+Opioid Wizard: The Opioid Wizard is an OUD clinical decision support tool for primary care providers.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Intervention PCP Likeliness to Recommend Use of the OUD-CDS</title>
+          <description># of PCPs with CDS access who rate the OUD-CDS &gt;4 on a 5-point Likert scale of likeliness to recommend use of the tool to their colleagues. The scale ranges from 1-&quot;not at all likely&quot; to 5-&quot;very likely,&quot; with higher values representing a higher likelihood of recommending the OUD-CDS to other colleagues.</description>
+          <population>One non-waivered intervention provider stopped working for the organization and two additional non-waivered intervention providers did not complete the follow-up survey.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="8"/>
+                <count group_id="O2" value="21"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6"/>
+                    <measurement group_id="O2" value="13"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Compare Pre- and Post-intervention Rates of OUD Diagnosis in High-risk Patients.</title>
+        <description>Calculate and compare the number of patients diagnosed with OUD pre- and post-intervention. This will be presented as rate of OUD diagnoses per patient year.</description>
+        <time_frame>This was calculated at the end of the pilot study (month 8).</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Waivered Providers Received the Opioid Wizard</title>
+            <description>All providers who have a buprenorphine waiver received the OUD clinical decision support tool (Opioid Wizard).
+Opioid Wizard: The Opioid Wizard is an OUD clinical decision support tool for primary care providers.</description>
+          </group>
+          <group group_id="O2">
+            <title>Non-Waivered Providers Who Received Opioid Wizard</title>
+            <description>All non-buprenorphine waivered providers were randomized to receive or not receive the Opioid. This arm of providers received the OUD clinical decision support tool (Opioid Wizard).
+Opioid Wizard: The Opioid Wizard is an OUD clinical decision support tool for primary care providers.</description>
+          </group>
+          <group group_id="O3">
+            <title>Did Not Receive the Opioid Wizard</title>
+            <description>All non-buprenorphine waivered providers were randomized to receive or not receive the Opioid Wizard. This arm of providers continued to treat their patients as usual.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Compare Pre- and Post-intervention Rates of OUD Diagnosis in High-risk Patients.</title>
+          <description>Calculate and compare the number of patients diagnosed with OUD pre- and post-intervention. This will be presented as rate of OUD diagnoses per patient year.</description>
+          <units>OUD diagnosis per patient year</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="8"/>
+                <count group_id="O2" value="24"/>
+                <count group_id="O3" value="23"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="11.3"/>
+                    <measurement group_id="O2" value="28.54"/>
+                    <measurement group_id="O3" value="7.87"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Compare Pre- and Post-intervention Rates of Medication-assisted Therapy (MAT) Use.</title>
+        <description>Calculate and compare the rate of MAT use among patients with OUD pre- and post-intervention. This is presented as a pre/post ratio of MAT rx per patient year.</description>
+        <time_frame>This was calculated at the end of the pilot study (month 8).</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Waivered Providers Received the Opioid Wizard</title>
+            <description>These providers received the OUD clinical decision support tool (Opioid Wizard).
+Opioid Wizard: The Opioid Wizard is an OUD clinical decision support tool for primary care providers.</description>
+          </group>
+          <group group_id="O2">
+            <title>Non-Waivered Providers Who Receive the Opioid Wizard</title>
+            <description>Non-Buprenorphine waivered providers were randomized to receive/not receive the Opioid Wizard. This arm represents non-waivered providers who received the OUD clinical decision support tool (Opioid Wizard).
+Opioid Wizard: The Opioid Wizard is an OUD clinical decision support tool for primary care providers.</description>
+          </group>
+          <group group_id="O3">
+            <title>Non-Waivered Providers Who do Not Receive the Opioid Wizard</title>
+            <description>These are non-buprenorphine waivered providers continued to treat their patients as usual.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Compare Pre- and Post-intervention Rates of Medication-assisted Therapy (MAT) Use.</title>
+          <description>Calculate and compare the rate of MAT use among patients with OUD pre- and post-intervention. This is presented as a pre/post ratio of MAT rx per patient year.</description>
+          <units>pre/post ratio MAT Rx per patient year</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="8"/>
+                <count group_id="O2" value="24"/>
+                <count group_id="O3" value="23"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.4"/>
+                    <measurement group_id="O2" value="1.1"/>
+                    <measurement group_id="O3" value="1.03"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Compare Post-intervention Referral Patterns Between Intervention and Control Groups</title>
+        <description>Calculate and compare how often patients diagnosed with OUD are referred to specialty care or inpatient treatment post-intervention. Compare these rates between intervention and control groups.</description>
+        <time_frame>This was calculated at the end of the pilot study (month 8).</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Waivered Providers Received the Opioid Wizard</title>
+            <description>These providers received the OUD clinical decision support tool (Opioid Wizard).
+Opioid Wizard: The Opioid Wizard is an OUD clinical decision support tool for primary care providers.</description>
+          </group>
+          <group group_id="O2">
+            <title>Non-Waivered Providers Who Received the Opioid Wizard</title>
+            <description>Non-Buprenorphine waivered providers were randomized to receive/not receive the Opioid Wizard. This arm represents non-waivered providers who received the OUD clinical decision support tool (Opioid Wizard).
+Opioid Wizard: The Opioid Wizard is an OUD clinical decision support tool for primary care providers.</description>
+          </group>
+          <group group_id="O3">
+            <title>Non-Waivered Providers Who Did Not Receive the Opioid Wizard</title>
+            <description>These are non-buprenorphine waivered providers continued to treat their patients as usual.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Compare Post-intervention Referral Patterns Between Intervention and Control Groups</title>
+          <description>Calculate and compare how often patients diagnosed with OUD are referred to specialty care or inpatient treatment post-intervention. Compare these rates between intervention and control groups.</description>
+          <units>post/pre ratio of referral per pt. year</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="8"/>
+                <count group_id="O2" value="24"/>
+                <count group_id="O3" value="23"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.99"/>
+                    <measurement group_id="O2" value="1.21"/>
+                    <measurement group_id="O3" value="1.04"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>These data were collected during the entire active intervention period, from 6/6/2018-12/6/2018</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Waivered Providers Who Received the Opioid Wizard</title>
+          <description>These providers received the OUD clinical decision support tool (Opioid Wizard).
+Opioid Wizard: The Opioid Wizard is an OUD clinical decision support tool for primary care providers.</description>
+        </group>
+        <group group_id="E2">
+          <title>Non-Waivered Providers Who Received the Opioid Wizard</title>
+          <description>Non-waivered providers were randomized to receive/not receive the Opioid Wizard.
+This arm represents the providers who received access to the opioid wizard.</description>
+        </group>
+        <group group_id="E3">
+          <title>Non-Waivered Providers Who Did Not Receive the Opioid Wizard</title>
+          <description>Non-waivered providers were randomized to receive/not receive the Opioid Wizard.
+This arm represents the providers who did not receive access to the opioid wizard.These providers continued to treat their patients as usual.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="8"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="24"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="23"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="8"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="24"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="23"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="8"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="24"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="23"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Dr. Rebecca C Rossom</name_or_title>
+      <organization>HealthPartners Institute</organization>
+      <phone>952-883-5466</phone>
+      <email>Rebecca.C.Rossom@HealthPartners.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

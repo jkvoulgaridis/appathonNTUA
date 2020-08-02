@@ -1,0 +1,414 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04468919</url>
+  </required_header>
+  <id_info>
+    <org_study_id>STUDY00015331</org_study_id>
+    <nct_id>NCT04468919</nct_id>
+  </id_info>
+  <brief_title>Optimizing BCI-FIT: Brain Computer Interface - Functional Implementation Toolkit</brief_title>
+  <acronym>BCI-FIT</acronym>
+  <official_title>Optimizing BCI-FIT: Brain Computer Interface - Functional Implementation Toolkit</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Oregon Health and Science University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Oregon Health and Science University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This project adds to non-invasive BCIs for communication for adults with severe speech and
+      physical impairments due to neurodegenerative diseases. Researchers will optimize &amp; adapt BCI
+      signal acquisition, signal processing, natural language processing, &amp; clinical
+      implementation. BCI-FIT relies on active inference and transfer learning to customize a
+      completely adaptive intent estimation classifier to each user's multi-modality signals
+      simultaneously. 3 specific aims are: 1. develop &amp; evaluate methods for on-line &amp; robust
+      adaptation of multi-modal signal models to infer user intent; 2. develop &amp; evaluate methods
+      for efficient user intent inference through active querying, and 3. integrate partner &amp;
+      environment-supported language interaction &amp; letter/word supplementation as input modality.
+      The same 4 dependent variables are measured in each SA: typing speed, typing accuracy,
+      information transfer rate (ITR), &amp; user experience (UX) feedback. Four alternating-treatments
+      single case experimental research designs will test hypotheses about optimizing user
+      performance and technology performance for each aim.Tasks include copy-spelling with BCI-FIT
+      to explore the effects of multi-modal access method configurations (SA1.4a), adaptive signal
+      modeling (SA1.4b), &amp; active querying (SA2.2), and story retell to examine the effects of
+      language model enhancements. Five people with SSPI will be recruited for each study. Healthy
+      control participants will be recruited for experiments in SA2.2 and SA3.4. Study hypotheses
+      are: (SA1.4a) A customized BCI-FIT configuration based on multi-modal input and personal
+      metadata will improve typing accuracy on a copy-spelling task compared to a user's existing
+      AAC access method. (SA1.4b) Adaptive signal modeling will mitigate the effects of changes in
+      user state on typing accuracy during a copy-spelling task with BCI-FIT. (SA2.2) Either of two
+      methods of adaptive querying will improve BCI-FIT typing accuracy for users with mediocre AUC
+      scores. (SA3.4) Language model enhancements, including a combination of partner and
+      environmental input and word completion during typing, will improve typing performance with
+      BCI-FIT, as measured by ITR during a story-retell task. Optimized recommendations for a
+      multi-modal BCI for each end user will be established, based on an innovative combination of
+      clinical expertise, user feedback, customized multi-modal sensor fusion, and reinforcement
+      learning.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      For each specific aim, the development of new assistive technology BCI access methods will be
+      evaluated in one or more experiments using alternating-treatments single-case research design
+      (SCRD) with healthy controls and/or participants with SSPI. SCRD is ideal for examining
+      small, heterogenous populations such as individuals with SSPI. It allows for detailed
+      examination of performance trends and changes over time, and for participant-specific
+      modifications to the intervention as part of an iterative design process. Because each
+      participant serves as their own control, a sample size of five is sufficient to demonstrate
+      and replicate an initial effect. Please see the Statistical Design and Power section for
+      additional information about SCRD and data visualization and analysis.
+
+      A total of 60 participants will evaluate the BCI advancements; 45 individuals with SSPI and
+      15 healthy controls. Participants with SSPI who currently have a reliable means of
+      communication, either using speech and/or an AAC device, will be enrolled. All participants
+      will be within the ages of 18-75 years (NIH-defined adults), with an equal number of men and
+      women. Healthy controls will be matched for age, gender, and education level. In SCRD
+      studies, each participant serves as their own control, so participants will experience all of
+      the baseline and intervention conditions included in each individual study, as described
+      below. Condition order will be randomized in the alternating-treatments, controlled such that
+      each participant completes an equal number of sessions with each intervention, with no more
+      than two consecutive sessions with the same intervention. Blinding is not possible as each
+      subject must know their condition in an alternating treatment design.
+
+      All study visits with people with SSPI will be conducted in participants' homes by OHSU
+      staff. Study visits with healthy controls will take place at the OHSU BCI laboratory. For all
+      typing tasks, participants are seated approximately 75cm from an LCD display, set up for the
+      BCI-FIT system. Depending on the user's customized BCI-FIT configuration (procedures
+      described in SA1.1), one or more of the following control signals will be used in each typing
+      session: EEG (ERP, Code or SSVEP, SMR), EOG, eye movements (gaze position or velocity), head
+      movements, EMG, or binary switches. The experiments for SA1.4a, SA1.4b, and SA2.2 all involve
+      copy-spelling tasks, in which participants will copy five common 5-letter English words of
+      approximately equal typing difficulty (according to LM input), and correct mistakes by
+      choosing the backspace character when appropriate. Individual signal models will be
+      initialized to population models and will be personalized and refined with each acquired
+      copy-spelling task data set. The experiment for SA3.4 involves a story-retell task, described
+      below in the paragraph about that experiment.
+
+      Experiment 1.4a will test the hypothesis that a customized BCI-FIT configuration based on
+      multi-modal input and/or data from the clinical relational database will improve typing
+      accuracy on a copy-spelling task compared to a user's existing AAC access method. It will
+      include five participants with SSPI in an alternating-treatments SCRD and will concentrate on
+      typing accuracy as the primary DV. An initial baseline phase will involve weekly
+      copy-spelling sessions with each participant's existing access method. Three or more baseline
+      sessions will be conducted until stable performance is observed, then the
+      alternating-treatments phase will begin. Treatments consist of two different BCI-FIT
+      configurations: 1) a multi-modal configuration that adds a custom control signal (chosen in
+      SA1.2) to the participant's existing control signal and 2) a multi-modal configuration chosen
+      by a combination of the approaches described in SA1.1 (clinically-supported and performance
+      data-supported). In weekly data-collection visits, participants will complete copy-spelling
+      sessions with each BCI-FIT configuration, with counterbalanced session order. Participants
+      complete at least five sessions with each configuration, more if needed to achieve stable
+      performance. Finally, participants will complete five weekly copy-spelling sessions with the
+      most successful BCI-FIT configuration alone, to control for potential interaction effects on
+      performance resulting from rapidly alternating experience with both configurations.
+
+      In Experiment 1.4b, it is hypothesized that adaptive signal modeling will mitigate the
+      effects of changes in user state (e.g., fatigue or medication) on typing accuracy during a
+      copy-spelling task with BCI-FIT. This experiment will also include five participants with
+      SSPI in an alternating-treatments SCRD with typing accuracy as the primary DV. In this study,
+      no baseline is planned, as the comparison of interest is between versions of BCI-FIT with and
+      without adaptive signal modeling. Initially, each participant will complete system
+      optimization procedures described in SA1.1 and SA1.2 to identify their customized BCI-FIT
+      configuration. In the alternating-treatments phase, participants will complete two
+      data-collection visits on the same day each week, one in the morning (or whenever the
+      participant is typically most alert/attentive) and one in the late afternoon (or at a time of
+      day when the participant is typically more fatigued/inattentive). During each visit, the
+      participant will attempt two copy-spelling sessions with their customized BCI-FIT
+      configuration, once with and once without adaptive signal modeling (with counterbalanced
+      condition order). Data will be graphed and analyzed separately (following procedures in the
+      Statistical Design and Power section) to evaluate effects on performance with both system
+      versions.
+
+      The experiment in SA2.2 will test the hypothesis that either of two methods of adaptive
+      querying will improve BCI-FIT typing accuracy for users with mediocre AUC scores. It will
+      include five healthy controls and five participants with SSPI, each with an AUC score in the
+      range of 70-80%. (Based on pilot testing, adaptive querying is expected to provide the most
+      benefit to users with this level of baseline performance.) The experiment will follow an
+      alternating-treatments SCRD with a baseline phase. Initially, each participant will complete
+      the optimization procedures described in SA1.1 and SA1.2 to identify a customized BCI-FIT
+      configuration which will be used throughout the experiment, and to confirm that their AUC
+      score falls within the 70-80% range. In the baseline phase, participants will complete weekly
+      copy-spelling sessions with BCI-FIT without adaptive querying. After three or more baseline
+      sessions, when performance is stable, the alternating-treatments phase will begin, with
+      weekly visits, each including two copy-spelling sessions with BCI-FIT using either one of the
+      proposed adaptive querying techniques. Condition order will be counterbalanced such that
+      conditions occur in random order (with no more than two instances of the same condition in a
+      row) and participants will experience each condition an equal number of times (at least five
+      times each, until stable performance is achieved).
+
+      The experiment in SA3.4 will use an alternating-treatments SCRD experiment to test the
+      hypothesis that language model enhancements, including a combination of partner and
+      environmental input and word completion during typing, will improve typing performance with
+      BCI-FIT, as measured by ITR during a story-retell task. This experiment will include five
+      healthy controls and five participants with SSPI, each paired with a healthy-control partner
+      to provide partner input (total enrollment of 10 dyads). Initially, each BCI-FIT user
+      participant will complete the optimization procedures described in SA1.1 and SA1.2 to
+      identify a customized BCI-FIT configuration which will be used throughout the experiment. A
+      baseline phase is unnecessary, as two versions of BCI-FIT are being compared. In each weekly
+      data-collection visit, participants will engage in two structured story-retell activities,
+      one with and one without the enhanced language model features. Condition order will be
+      counterbalanced such that conditions occur in random order (with no more than two instances
+      of the same condition in a row) and participants will experience each condition an equal
+      number of times (at least five times each, until stable performance is achieved). The
+      story-retell activity will involve the participant watching a short video along with a
+      communication partner, then using BCI-FIT to answer questions posed by a third person. In one
+      condition, the BCI-FIT user participant will use the basic version of BCI-FIT without the
+      proposed language model enhancements, and the partner will simply be present, with no means
+      of providing language support to the user. In the other condition, the enhanced features will
+      be available: the partner will have a companion app on a Bluetooth-connected tablet8,
+      allowing them to remotely suggest words to the BCI-FIT language model, and the participant
+      will be able to choose to type or complete words suggested both by the communication partner
+      and by BCI-FIT based on automatic speech recognition of the questioner's utterances. The
+      primary DV in this experiment will be ITR.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">July 1, 2021</start_date>
+  <completion_date type="Anticipated">June 30, 2025</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2025</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Sequential Assignment</intervention_model>
+    <intervention_model_description>Single case research design with:
+Alternating treatments with baseline for experiments 1.4a, 2.2; Alternating treatments without baseline for experiments 1.4b and 3.4</intervention_model_description>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+    <masking_description>In single case research design, each participant is their own control. The proposed intervention is behavioral and study personnel are aware of each data collection condition.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Typing Accuracy</measure>
+    <time_frame>12 data collection sessions over 12 weeks (1 session/week) to assess change</time_frame>
+    <description>Correct character selections divided by the total character selections in a copy spelling task.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Typing Speed</measure>
+    <time_frame>12 data collection sessions over 12 weeks (1 session/week) to assess change</time_frame>
+    <description>Correct character selections per minute in a copy spelling task.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Information transfer rate</measure>
+    <time_frame>12 data collection sessions over 12 weeks (1 session/week) to assess change</time_frame>
+    <description>Time-averaged mutual information between intended and typed symbols from the alphabet, computed using probability distributions in accordance with a language model</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>User experience</measure>
+    <time_frame>12 data collection sessions over 12 weeks (1 session/week) to assess change</time_frame>
+    <description>Responses to 10 items on the NASA TLX questionnaire about comfort, workload and satisfaction using the brain-computer interface system during all typing tasks</description>
+  </primary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Amyotrophic Lateral Sclerosis</condition>
+  <condition>Brainstem Stroke</condition>
+  <condition>Muscular Dystrophies</condition>
+  <condition>Parkinson's Disease and Parkinsonism</condition>
+  <condition>Multiple System Atrophy</condition>
+  <condition>Brain Tumor Adult</condition>
+  <condition>Spinal Cord Injuries</condition>
+  <condition>Locked-in Syndrome</condition>
+  <arm_group>
+    <arm_group_label>BCI-FIT multi-modal configuration</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>For this single case research design with alternating treatments with baseline, 5 participants with severe speech and physical impairment will complete copy spelling tasks with their existing alternative access method (baseline) and then with the multi-modal configurations optimized from the BCI-FIT algorithms (experimental). Outcome measures are typing accuracy, typing speed and user experience.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Adaptive signal modeling</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>For this single case research design with alternating treatments without baseline, 5 participants with severe speech and physical impairment will complete copy spelling tasks when the BCI-FIT adaptive modeling is on and when the BCI-FIT adaptive modeling is off. Outcome measures are typing accuracy, typing speed and user experience.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Active querying techniques</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>For this single case research design with alternating treatments with baseline, 5 healthy control volunteers and 5 participants with severe speech and physical impairment who have AUC scores between 79-80% will complete copy spelling tasks with BCI-FIT active querying technique on and with BCI-FIT active querying technique off. Outcome measures are typing accuracy, typing speed and user experience.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Language modeling</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>For this single case research design with alternating treatments, 5 healthy control volunteers and 5 participants with severe speech and physical impairment, each with a healthy-control partner for partner input will complete a story retell task with BCI-FIT language modeling features on and with BCI-FIT language modeling features off. Outcome measures are information transfer rate and user experience.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>BCI-FIT multi-modal access</intervention_name>
+    <description>Adding a personalized multi-modal access protocol to customize a BCI-FIT access method configuration for each individual end user, based on a combination of user characteristics, clinical expertise, user feedback, and system performance data in the software.</description>
+    <arm_group_label>BCI-FIT multi-modal configuration</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>BCI-FIT adaptive signal modeling</intervention_name>
+    <description>Adding a BCI-FIT adaptive signal modeling that employs transfer learning and on-line model adaptation techniques with noisy labels in the software of this brain-computer interface to eliminate the need for data collection exclusively for model calibration, as well as to address model drift issues associated with drowsiness, fatigue, and other human and environmental factors.</description>
+    <arm_group_label>Adaptive signal modeling</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>BCI-FIT active querying</intervention_name>
+    <description>Adding BCI-FIT active querying techniques which are software-based optimal action control policies in the brain-computer interface developed with active and reinforcement learning techniques in order to perform efficient user intent inference to improve the entire speed-accuracy trade-off curve for alternative communication.</description>
+    <arm_group_label>Active querying techniques</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>BCI-FIT language modeling</intervention_name>
+    <description>Adding vocabulary and location information (called partner and environmental input) to the language models in the brain-computer interface from a user's communication partner and from automatic speech recognition on the spoken utterances of interlocutors.</description>
+    <arm_group_label>Language modeling</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Healthy controls
+
+          -  Able to read and communicate in English
+
+          -  Capable of participating in study visits lasting 1-3 hours
+
+          -  Adequate visuospatial skills to select letters, words, or icons to copy or generate
+             messages
+
+          -  Live within a 2-hour drive of OHSU or is willing to travel to OHSU
+
+        Participants with severe speech and physical impairment:
+
+          -  Adults between 18-75 years of age
+
+          -  SSPI that may result from a variety of degenerative or neurodevelopmental conditions,
+             including but not limited to: Duchenne muscular dystrophy, Rett Syndrome, severe
+             spastic cerebral palsy, ALS, brainstem CVA, SCI, and Parkinson-plus disorders (MSA,
+             PSP)
+
+               -  Able to read and communicate in English with speech or AAC device
+
+               -  Capable of participating in study visits lasting 1-3 hours
+
+          -  Completion of the BCI screening protocol with 80% accuracy.25
+
+          -  Adequate visuospatial skills to select letters, words or icons to copy or generate
+             basic messages
+
+          -  Scores on the ALS Functional Rating Scale will range from 0 to 13,67
+
+          -  Level of impairment on the ALS speech severity scale with be 4 or 5,68 indicating the
+             need for AAC
+
+          -  Life expectancy greater than 6 months
+
+          -  Able to give informed consent or assent according to IRB approved policy
+
+        Exclusion Criteria:
+
+          -  Participants with severe speech and physical impairment:
+
+               -  Unstable medical conditions (fluctuating health status resulting in multiple
+                  hospitalizations within a 6 week interval)
+
+                    -  Unable to tolerate weekly data collection visits
+
+                    -  Photosensitive seizure disorder
+
+                    -  Presence of implanted hydrocephalus shunt, cochlear implant or deep brain
+                       stimulator
+
+                    -  High risk of skin breakdown from contact with data acquisition hardware.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <gender_based>Yes</gender_based>
+    <gender_description>Participant eligibility is based on self-representation of gender identity.</gender_description>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Melanie Fried-Oken, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Oregon Health and Science University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Melanie Fried-Oken, PhD</last_name>
+    <phone>503-494-7587</phone>
+    <email>friedm@ohsu.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Betts Peters, MA</last_name>
+    <phone>503-494-2732</phone>
+    <email>petersbe@ohsu.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Oregon Health &amp; Science University</name>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <zip>97239</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Melanie Fried-Oken, PhD</last_name>
+      <phone>503-702-2108</phone>
+      <email>friedm@ohsu.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Betts Peters, MA</last_name>
+      <phone>5034942732</phone>
+      <email>petersbe@ohsu.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Melanie Fried-Oken, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>July 8, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 8, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 13, 2020</study_first_posted>
+  <last_update_submitted>July 13, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 13, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 15, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Oregon Health and Science University</investigator_affiliation>
+    <investigator_full_name>Melanie Fried-Oken</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>brain-computer interface</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Muscular Dystrophies</mesh_term>
+    <mesh_term>Parkinson Disease</mesh_term>
+    <mesh_term>Spinal Cord Injuries</mesh_term>
+    <mesh_term>Motor Neuron Disease</mesh_term>
+    <mesh_term>Amyotrophic Lateral Sclerosis</mesh_term>
+    <mesh_term>Multiple System Atrophy</mesh_term>
+    <mesh_term>Shy-Drager Syndrome</mesh_term>
+    <mesh_term>Parkinsonian Disorders</mesh_term>
+    <mesh_term>Quadriplegia</mesh_term>
+    <mesh_term>Brain Stem Infarctions</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Three types of information will be available to other researchers.
+The Python code (called BciPy) that runs the BCI-FIT system is open sourced and available to other laboratories that are building and implementing non-invasive brain-computer interfaces.
+The datasets of neurophysiological data (EEG, EOG, EMG) collected during use of BciPy in different experimental configurations will be made available. All data are de-identified and maintained in an OHSU-secure BOX folder, an OHSU REDCap database and OHSU approved and compliant human subjects research repository. 3. The typing speed, typing accuracy and user experience data from the four single case research studies will be de-identified and stored in an OHSU REDCap database and OHSU approved and compliant human subjects research repository.</ipd_description>
+    <ipd_info_type>Analytic Code</ipd_info_type>
+    <ipd_time_frame>A bcipy.github.io website will be built to share the BCI Python code that is used to collect data and run the brain-computer interface. It is expected that the website will be available in June, 2021 until June, 2025 (during years 2-5 of this award).</ipd_time_frame>
+    <ipd_access_criteria>Other researchers will have access to neurophysiologic data and outcomes data from the different experimental arms under a data-sharing agreement that provides for: (1) a commitment to using the data only for research purposes and not to identify any individual participant; (2) a commitment to securing the data using appropriate computer technology; and (3) a commitment to destroying or returning the data after analyses are completed.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

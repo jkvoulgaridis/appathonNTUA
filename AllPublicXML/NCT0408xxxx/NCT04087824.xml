@@ -1,0 +1,152 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04087824</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2019SDU-QILU-G003</org_study_id>
+    <nct_id>NCT04087824</nct_id>
+  </id_info>
+  <brief_title>Deep Learning Algorithm for Recognition of Colonic Segments.</brief_title>
+  <official_title>Development and Validation of a Deep Learning Algorithm for Real-time Recognition of Colonic Segments.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shandong University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Shandong University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to develop and validate a deep learning algorithm to realize
+      automatic recognition of colonic segments under conventional colonoscopy. Then, evaluate the
+      accuracy this new artificial intelligence(AI) assisted recognition system in clinic practice.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Colonoscopy is recommended as a routine examination for colorectal cancer screening. Complete
+      inspection of all colon segments is the basis of colonoscopy quality control, and furthermore
+      improves the detection rates of small adenomas. Recently, deep learning algorithm based on
+      central neural networks (CNN) has shown multiple potential in computer-aided detection and
+      computer-aided diagnose of gastrointestinal lesions. However, there is still a blank in
+      recognition of anatomic sites, which restricts the realization of AI-aided lesions detection
+      and disease severity scoring. This study aim to train an algorithm to recognize key colonic
+      segments, and testify the accuracy of each segments recognition as compared to endoscopic
+      physicians.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">September 15, 2019</start_date>
+  <completion_date type="Anticipated">December 15, 2019</completion_date>
+  <primary_completion_date type="Anticipated">November 15, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The accuracy of each colonic segment real-time recognition with deep learning algorithm.</measure>
+    <time_frame>3 months.</time_frame>
+    <description>The segmental recognition accuracy is the proportion of correctly recognized segments divided by the number of involved patients. The accuracy rate of ileocecal valve, ascending colon, transverse colon, descending colon, sigmoid colon and rectum will be separately calculated.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The accuracy of total colonic segments recognition with deep learning algorithm as compared to endoscopic experts group.</measure>
+    <time_frame>3 months.</time_frame>
+    <description>The total recognition accuracy is the proportion of correctly recognized images divided by the number of AI captured images. Then all AI captured images will be reviewed by experts group to give a human evaluating rate. Two rates will be compared by student t test to analyze the difference.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Colonic Diseases</condition>
+  <arm_group>
+    <arm_group_label>AI monitoring colonoscopy</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients in this group go through colonoscopy under the AI monitoring device.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>AI assisted recognition of colonic segments</intervention_name>
+    <description>After receiving standard bowel preparation regimen, patients go through colonoscopy under the AI monitoring device. The whole withdrawal process is monitored by AI associated recognition system. Key colonic segments include ileocecal valve, ascending colon, transverse colon, descending colon, sigmoid colon and rectum. When typical anatomic sites are detected, the AI device will automatically captured relevant images and report the name of each segment on the screen. The operating endoscopy expert will give the final answer and judge the performance of AI, which is set as a golden standard. Then all the AI captured images will be reviewed by human group, which consists of three to five experienced endoscopic physicians.</description>
+    <arm_group_label>AI monitoring colonoscopy</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients aged 18-70 years undergoing conventional colonoscopy
+
+        Exclusion Criteria:
+
+          -  Known or suspected bowel obstruction, stricture or perforation
+
+          -  Compromised swallowing reflex or mental status
+
+          -  Severe chronic renal failure(creatinine clearance &lt; 30 ml/min)
+
+          -  Severe congestive heart failure (New York Heart Association class III or IV)
+
+          -  Uncontrolled hypertension (systolic blood pressure &gt; 170 mm Hg, diastolic blood
+             pressure &gt; 100 mm Hg)
+
+          -  Dehydration
+
+          -  Disturbance of electrolytes
+
+          -  Pregnancy or lactation
+
+          -  Hemodynamically unstable
+
+          -  Unable to give informed consent
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Xiuli Zuo, MD,PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Qilu Hospital of Shandong University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Xiuli Zuo, MD,PhD</last_name>
+    <phone>15588818685</phone>
+    <email>zuoxiuli@sdu.edu.cn</email>
+  </overall_contact>
+  <verification_date>September 2019</verification_date>
+  <study_first_submitted>September 11, 2019</study_first_submitted>
+  <study_first_submitted_qc>September 11, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 12, 2019</study_first_posted>
+  <last_update_submitted>September 11, 2019</last_update_submitted>
+  <last_update_submitted_qc>September 11, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 12, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Shandong University</investigator_affiliation>
+    <investigator_full_name>Xiuli Zuo</investigator_full_name>
+    <investigator_title>director of Qilu Hospital gastroenterology department</investigator_title>
+  </responsible_party>
+  <keyword>Deep learning</keyword>
+  <keyword>Colonoscopy</keyword>
+  <keyword>Central Neural Networks</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Colonic Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

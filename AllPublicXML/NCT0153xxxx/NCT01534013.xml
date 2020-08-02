@@ -1,0 +1,665 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01534013</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CRO1710</org_study_id>
+    <nct_id>NCT01534013</nct_id>
+  </id_info>
+  <brief_title>Clinical Assessment of a Closed-loop Insulin Delivery System</brief_title>
+  <official_title>Clinical Assessment of a Closed-loop Insulin Delivery System</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Imperial College London</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Imperial College London</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of the study is to assess the safety and efficacy of the Imperial College closed
+      loop insulin delivery system (artificial pancreas) in subjects with type 1 diabetes.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background:
+
+      Type 1 diabetes is caused by antibodies attacking insulin-producing β-cells in the pancreas.
+      Treatment is usually by regular insulin injections, informed by glucose measurements from
+      fingerprick blood samples. However, injections do not mimic the normal behaviour of the
+      β-cell and this leads to suboptimal blood glucose control and complications including kidney
+      failure, blindness, nerve damage and heart disease. Aggressive treatment can help but may
+      lead to potentially-dangerous low blood glucose levels (hypoglycaemia). Glucose control is
+      measured by HbA1c (normal range 4 to 6%), a measure of the amount of haemoglobin exposed to
+      glucose over a period of around 3 months.
+
+      Current regimens for treating Type 1 diabetes in clinical practice are mainly based on
+      injections of subcutaneous insulin several times daily in dosages determined by intermittent
+      blood glucose measurements. The DCCT (Diabetes Control and Complications Trial) demonstrated
+      that intensive management using these principles reduced complications by 50-76%. This was at
+      the expense of increased hypoglycaemia, especially at HbA1c levels &lt;7.5%. In other studies,
+      intensive management resulted in people spending 30% of the day with glucose values &gt;10mM and
+      &gt;2 hours/day in hypoglycaemia, often at night.
+
+      A closed loop system provides the potential to improve HbA1c while avoiding hypoglycaemia. It
+      requires continuous glucose measurement, a control device and a pump for insulin delivery.
+      The subject has been extensively reviewed. Intelligent control devices have been developed by
+      others, using the principles of feedback control or predictive modelling. These were
+      initially cumbersome e.g. the 'biostator' but more recent systems have been miniaturised and
+      are capable of achieving blood glucose control in the fasting state, when provided with an
+      input of interstitial glucose levels. They have not yet proven robust, may be associated with
+      hypoglycaemia and are not capable of achieving adequate post-prandial control nor of coping
+      with intercurrent illness outside hospital environments.
+
+      This clinical trial protocol assesses the Imperial College closed loop insulin delivery
+      system. The closed loop insulin delivery comprises 3 main components: the glucose sensor, the
+      control algorithm and the insulin delivery system.
+
+      The glucose sensor that will be used throughout the clinical validation studies is a CE
+      marked, MHRA approved device manufactured by Medtronic. It is a subcutaneous sensor which
+      sits just under the skin and samples interstitial fluid using an enzyme electrode. A small
+      voltage is applied across the sensor and a current is fed back to the sensor instrumentation.
+      This current is proportional to the glucose concentration in interstitial fluid and is
+      calibrated against blood glucose a minimum of 12 hourly.
+
+      The control algorithm is derived from physiological experiments carried out by other groups
+      which have demonstrated how the beta cells in the pancreas produce insulin in people without
+      diabetes. Utilising the data from these experiments it has been possible to implement the
+      behaviour of the beta cell in software and we have used a simulator with 200 virtual patients
+      to demonstrate the safety and efficacy of the software. The data from the simulator is
+      attached to this application as an appendix. The simulator was developed from human data and
+      takes into account sensor errors, sensor placement, route of insulin administration and
+      meal-time glucose absorption. It has been approved by the FDA in the United States as a step
+      in the pathway of developing an artificial pancreas and has been validated against human
+      data. In the clinical validation device the control algorithm is implemented on a printed
+      circuit board using a programmable micro-controller.
+
+      The insulin pump device used throughout the clinical validation is the Roche Accu-Check Combo
+      Spirit. This is a CE marked MHRA approved device and will be supplied by Roche with
+      capability for direct communication from the motor so that we can verify the pump is doing
+      what the software commands and with a license to use the communications protocol for research
+      purposes. This ensures safe communication between the control algorithm and the pump and
+      provides a fail-safe to ensure that the pump motor is responding appropriately to the control
+      algorithm.
+
+      Clinical validation of the closed loop insulin delivery device follows a path of incremental
+      challenges to the algorithm and hardware, starting with a fasting basal study in advisory
+      mode and progressing to ambulatory, meal studies in full closed loop.
+
+      The aim of this trial is to assess the safety and efficacy of the closed loop device by
+      applying the technology to participants with type 1 diabetes in a variety of scenarios,
+      starting with a fasting test and progressing to overnight control, mealtime control and,
+      finally, an ambulatory test.
+
+      Brief outline of each of the 5 visits within the trial period:
+
+        -  Visit 1: Screening including clinical examination, fasting blood tests, completion of
+           diabetes quality of life questionnaire, continuous glucose monitor attached to subject
+
+        -  Visit 2: Review of continuous glucose monitoring results after 5 days
+
+        -  Visit 3: Short Duration Fasting Closed Loop (6 hours of closed-loop assessment)
+
+        -  Visit 4: Long Duration/ Overnight Fasting Closed Loop and Standard Meal Challenge (13
+           hours of closed-loop assessment)
+
+        -  Visit 5: 24 Hour Ambulatory Automatic Closed Loop
+
+      During visits 3-5 blood sampling for capillary glucose &amp; ketones, venous glucose and insulin
+      levels will take place every 15-30 minutes while the closed-loop insulin delivery system is
+      running.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>August 2011</start_date>
+  <completion_date type="Actual">August 2018</completion_date>
+  <primary_completion_date type="Actual">August 2014</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percentage Time in Euglycaemia</measure>
+    <time_frame>18 months</time_frame>
+    <description>Interstitial blood glucose will be measured every 5 minutes and venous blood glucose every 15 minutes during subject visits 3, 4 and 5 when insulin is being delivered using the closed-loop insulin delivery system. The % time in euglycaemia is to be calculated using these blood glucose values.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>% Time in Hypoglycaemia</measure>
+    <time_frame>18 months</time_frame>
+    <description>Interstitial blood glucose will be measured every 5 minutes and venous blood glucose every 15 minutes during subject visits 3, 4 and 5 when insulin is being delivered using the closed-loop insulin delivery system. The % time in hypoglycaemia is to be calculated using these blood glucose values.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>% Time Spent in Hyperglycaemia</measure>
+    <time_frame>18 months</time_frame>
+    <description>Interstitial blood glucose will be measured every 5 minutes and venous blood glucose every 15 minutes during patient visits 3, 4 and 5 when insulin is being delivered using the closed-loop insulin delivery system. The % time in euglycaemia is to be calculated using these blood glucose values.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glycaemic Variability as Measured by MAGE and SD</measure>
+    <time_frame>18 months</time_frame>
+    <description>Glycaemic variability as measured by MAGE and SD Calculation using CGM data</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glycaemic Risk as Measured by LBGI and HBG</measure>
+    <time_frame>18 months</time_frame>
+    <description>Glycaemic risk as measured by LBGI and HBG Calculation using CGM data</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Closed Loop Error Grid Analysis</measure>
+    <time_frame>18 months</time_frame>
+    <description>Closed loop error grid analysis Calculation using CGM data</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glucose Area Under the Curve</measure>
+    <time_frame>18 months</time_frame>
+    <description>Glucose area under the curve Calculation using CGM data</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Insulin Requirement in Units/kg/hr</measure>
+    <time_frame>18 months</time_frame>
+    <description>Calculation using average insulin delivered per hour and bodyweight</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">23</enrollment>
+  <condition>Type 1 Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>Closed-loop insulin delivery</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The closed loop device (bio-inspired artificial pancreas device, subcutaneous glucose monitor and insulin pump) will be applied to participants with type 1 diabetes</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Open-loop (Control visit)</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Subcutaneous glucose monitor and pump will be applied to participants with type 1 diabetes</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>The Imperial College Closed-Loop Insulin Delivery System</intervention_name>
+    <description>The Imperial College closed-loop insulin delivery system comprises 3 main components: the glucose sensor, the control algorithm and the insulin delivery system.</description>
+    <arm_group_label>Closed-loop insulin delivery</arm_group_label>
+    <other_name>Closed-loop insulin delivery system</other_name>
+    <other_name>Artificial pancreas</other_name>
+    <other_name>Bio-inspired artificial pancreas</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Open loop</intervention_name>
+    <description>glucose sensor and pump</description>
+    <arm_group_label>Open-loop (Control visit)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adults over 18 years of age
+
+          -  Type 1 diabetes confirmed on the basis of clinical features and a fasting c-peptide
+             &lt;200nmol/L
+
+          -  Type 1 diabetes for greater than 1 year
+
+          -  Continuous subcutaneous insulin infusion for greater than 6 months
+
+          -  HbA1c &lt; 8.5% (69mmol/mol)
+
+        Exclusion Criteria:
+
+          -  Recurrent severe hypoglycaemia
+
+          -  Pregnant or planning pregnancy
+
+          -  Breastfeeding
+
+          -  Enrolled in other clinical trials
+
+          -  Have active malignancy or under investigation for malignancy
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Desmond Johnston, MBChB,PhD,FRCP</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Imperial College London</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Imperial College London, St Mary's Campus</name>
+      <address>
+        <city>London</city>
+        <zip>W2 1NY</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <reference>
+    <citation>Georgiou P, Toumazou C. A silicon pancreatic Beta cell for diabetes. IEEE Trans Biomed Circuits Syst. 2007 Mar;1(1):39-49. doi: 10.1109/TBCAS.2007.893178.</citation>
+    <PMID>23851519</PMID>
+  </reference>
+  <reference>
+    <citation>Georgiou P, Toumazou C. Towards an ultra low power chemically inspired electronic beta cell for diabetes. Circuits and Systems, 2006. ISCAS 2006. Proceedings. 2006 IEEE International Symposium on, p. 173, 2006.</citation>
+  </reference>
+  <reference>
+    <citation>Ho M, Georgiou P, Singhal S, Oliver NS, Toumazou C. A bio-inspired closed loop insulin delivery based on the silicon pancreatic beta-cell. Circuits and Systems, 2008. ISCAS 2008. IEEE International Symposium on, pp. 1052-1055, 2008</citation>
+  </reference>
+  <reference>
+    <citation>Oliver N, Georgiou P, Johnston D, Toumazou C. A benchtop closed-loop system controlled by a bio-inspired silicon implementation of the pancreatic beta cell. J Diabetes Sci Technol. 2009 Nov 1;3(6):1419-24.</citation>
+    <PMID>20144397</PMID>
+  </reference>
+  <reference>
+    <citation>Hovorka R. Continuous glucose monitoring and closed-loop systems. Diabet Med. 2006 Jan;23(1):1-12. Review.</citation>
+    <PMID>16409558</PMID>
+  </reference>
+  <reference>
+    <citation>Nathan DM, Cleary PA, Backlund JY, Genuth SM, Lachin JM, Orchard TJ, Raskin P, Zinman B; Diabetes Control and Complications Trial/Epidemiology of Diabetes Interventions and Complications (DCCT/EDIC) Study Research Group. Intensive diabetes treatment and cardiovascular disease in patients with type 1 diabetes. N Engl J Med. 2005 Dec 22;353(25):2643-53.</citation>
+    <PMID>16371630</PMID>
+  </reference>
+  <reference>
+    <citation>Albisser AM, Leibel BS, Ewart TG, Davidovac Z, Botz CK, Zingg W. An artificial endocrine pancreas. Diabetes. 1974 May;23(5):389-96.</citation>
+    <PMID>4598089</PMID>
+  </reference>
+  <reference>
+    <citation>Schaller HC, Schaupp L, Bodenlenz M, Wilinska ME, Chassin LJ, Wach P, Vering T, Hovorka R, Pieber TR. On-line adaptive algorithm with glucose prediction capacity for subcutaneous closed loop control of glucose: evaluation under fasting conditions in patients with Type 1 diabetes. Diabet Med. 2006 Jan;23(1):90-3.</citation>
+    <PMID>16409572</PMID>
+  </reference>
+  <reference>
+    <citation>Kovatchev BP, Breton M, Man CD, Cobelli C. In silico preclinical trials: a proof of concept in closed-loop control of type 1 diabetes. J Diabetes Sci Technol. 2009 Jan;3(1):44-55.</citation>
+    <PMID>19444330</PMID>
+  </reference>
+  <reference>
+    <citation>Thomé-Duret V, Reach G, Gangnerau MN, Lemonnier F, Klein JC, Zhang Y, Hu Y, Wilson GS. Use of a subcutaneous glucose sensor to detect decreases in glucose concentration prior to observation in blood. Anal Chem. 1996 Nov 1;68(21):3822-6.</citation>
+    <PMID>8914483</PMID>
+  </reference>
+  <verification_date>July 2019</verification_date>
+  <study_first_submitted>January 30, 2012</study_first_submitted>
+  <study_first_submitted_qc>February 15, 2012</study_first_submitted_qc>
+  <study_first_posted type="Estimate">February 16, 2012</study_first_posted>
+  <results_first_submitted>March 20, 2019</results_first_submitted>
+  <results_first_submitted_qc>July 17, 2019</results_first_submitted_qc>
+  <results_first_posted type="Actual">August 28, 2019</results_first_posted>
+  <last_update_submitted>July 17, 2019</last_update_submitted>
+  <last_update_submitted_qc>July 17, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 28, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Closed loop insulin delivery</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin</mesh_term>
+    <mesh_term>Insulin, Globin Zinc</mesh_term>
+    <mesh_term>Pancrelipase</mesh_term>
+    <mesh_term>Pancreatin</mesh_term>
+  </intervention_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Closed-loop Insulin Delivery</title>
+          <description>The closed loop device (bio-inspired artificial pancreas device, subcutaneous glucose monitor and insulin pump) will be applied to participants with type 1 diabetes
+The Imperial College Closed-Loop Insulin Delivery System: The Imperial College closed-loop insulin delivery system comprises 3 main components: the glucose sensor, the control algorithm and the insulin delivery system.</description>
+        </group>
+        <group group_id="P2">
+          <title>Open-loop Insulin Delivery</title>
+          <description>glucose sensor and insulin pump</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="8"/>
+                <participants group_id="P2" count="6"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="6"/>
+                <participants group_id="P2" count="6"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="2"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Closed-loop Insulin Delivery</title>
+          <description>The closed loop device (bio-inspired artificial pancreas device, subcutaneous glucose monitor and insulin pump) will be applied to participants with type 1 diabetes
+The Imperial College Closed-Loop Insulin Delivery System: The Imperial College closed-loop insulin delivery system comprises 3 main components: the glucose sensor, the control algorithm and the insulin delivery system.</description>
+        </group>
+        <group group_id="B2">
+          <title>Open-loop Insulin Delivery</title>
+          <description>standard insulin pump therapy</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="8"/>
+            <count group_id="B2" value="6"/>
+            <count group_id="B3" value="14"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="8"/>
+                    <count group_id="B2" value="6"/>
+                    <count group_id="B3" value="14"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="45" spread="10"/>
+                    <measurement group_id="B2" value="45" spread="10"/>
+                    <measurement group_id="B3" value="45" spread="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="8"/>
+                    <count group_id="B2" value="6"/>
+                    <count group_id="B3" value="14"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                    <measurement group_id="B2" value="4"/>
+                    <measurement group_id="B3" value="9"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3"/>
+                    <measurement group_id="B2" value="2"/>
+                    <measurement group_id="B3" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race and Ethnicity Not Collected</title>
+          <population>Race and Ethnicity were not collected from any participant.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="0"/>
+                    <count group_id="B2" value="0"/>
+                    <count group_id="B3" value="0"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>HbA1c</title>
+          <units>percentage</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="8"/>
+                    <count group_id="B2" value="6"/>
+                    <count group_id="B3" value="14"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7.4" spread="0.7"/>
+                    <measurement group_id="B2" value="7.4" spread="0.7"/>
+                    <measurement group_id="B3" value="7.4" spread="0.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Percentage Time in Euglycaemia</title>
+        <description>Interstitial blood glucose will be measured every 5 minutes and venous blood glucose every 15 minutes during subject visits 3, 4 and 5 when insulin is being delivered using the closed-loop insulin delivery system. The % time in euglycaemia is to be calculated using these blood glucose values.</description>
+        <time_frame>18 months</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed-loop Insulin Delivery</title>
+            <description>The closed loop device (bio-inspired artificial pancreas device, subcutaneous glucose monitor and insulin pump) will be applied to participants with type 1 diabetes
+The Imperial College Closed-Loop Insulin Delivery System: The Imperial College closed-loop insulin delivery system comprises 3 main components: the glucose sensor, the control algorithm and the insulin delivery system.</description>
+          </group>
+          <group group_id="O2">
+            <title>Open-loop Insulin Delivery</title>
+            <description>sensor augmented pump therapy</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage Time in Euglycaemia</title>
+          <description>Interstitial blood glucose will be measured every 5 minutes and venous blood glucose every 15 minutes during subject visits 3, 4 and 5 when insulin is being delivered using the closed-loop insulin delivery system. The % time in euglycaemia is to be calculated using these blood glucose values.</description>
+          <units>percentage of time</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="8"/>
+                <count group_id="O2" value="6"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="71"/>
+                    <measurement group_id="O2" value="66.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>% Time in Hypoglycaemia</title>
+        <description>Interstitial blood glucose will be measured every 5 minutes and venous blood glucose every 15 minutes during subject visits 3, 4 and 5 when insulin is being delivered using the closed-loop insulin delivery system. The % time in hypoglycaemia is to be calculated using these blood glucose values.</description>
+        <time_frame>18 months</time_frame>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>% Time Spent in Hyperglycaemia</title>
+        <description>Interstitial blood glucose will be measured every 5 minutes and venous blood glucose every 15 minutes during patient visits 3, 4 and 5 when insulin is being delivered using the closed-loop insulin delivery system. The % time in euglycaemia is to be calculated using these blood glucose values.</description>
+        <time_frame>18 months</time_frame>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Glycaemic Variability as Measured by MAGE and SD</title>
+        <description>Glycaemic variability as measured by MAGE and SD Calculation using CGM data</description>
+        <time_frame>18 months</time_frame>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Glycaemic Risk as Measured by LBGI and HBG</title>
+        <description>Glycaemic risk as measured by LBGI and HBG Calculation using CGM data</description>
+        <time_frame>18 months</time_frame>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Closed Loop Error Grid Analysis</title>
+        <description>Closed loop error grid analysis Calculation using CGM data</description>
+        <time_frame>18 months</time_frame>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Glucose Area Under the Curve</title>
+        <description>Glucose area under the curve Calculation using CGM data</description>
+        <time_frame>18 months</time_frame>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Insulin Requirement in Units/kg/hr</title>
+        <description>Calculation using average insulin delivered per hour and bodyweight</description>
+        <time_frame>18 months</time_frame>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>18 months</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Closed-loop Insulin Delivery</title>
+          <description>The closed loop device (bio-inspired artificial pancreas device, subcutaneous glucose monitor and insulin pump) will be applied to participants with type 1 diabetes
+The Imperial College Closed-Loop Insulin Delivery System: The Imperial College closed-loop insulin delivery system comprises 3 main components: the glucose sensor, the control algorithm and the insulin delivery system.</description>
+        </group>
+        <group group_id="E2">
+          <title>Open-loop</title>
+          <description>sensor augmented pump</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="12"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="12"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="12"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="12"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Prof Nick Oliver</name_or_title>
+      <organization>Imperial College London</organization>
+      <phone>02075942433</phone>
+      <email>nick.oliver@imperial.ac.uk</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

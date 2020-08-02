@@ -1,0 +1,240 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04326413</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HKWC-2019-0666</org_study_id>
+    <nct_id>NCT04326413</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence Evaluation of Periodontal Health Using Selfie Intraoral Photography</brief_title>
+  <official_title>Artificial Intelligence Evaluation of Periodontal Health Using Selfie Intraoral Photography</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The University of Hong Kong</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>The University of Hong Kong</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Periodontal (gum) disease affecting more than 90% of the population globally. The soft and
+      hard tissues that supporting the teeth are being affected. If untreated, the disease
+      progresses from the mild and reversible form (i.e. gingivitis) that involves superficial gum
+      only to the more severe and irreversible form (i.e. periodontitis) that involves loss of
+      periodontal ligament and bone. Teeth will be lost eventually and significantly impairs the
+      function and the oral health related quality of health. Moreover, periodontal disease has
+      been strongly linked to the systemic diseases via centrally or local routes with significant
+      health implications.
+
+      Periodontal disease is initiated by bacteria (plaque) adhere on tooth surfaces and the body
+      defense by eliciting inflammatory response. The disease and associated inflammation is
+      site-specific and the affected gum is manifested with the cardinal signs of inflammation such
+      as redness (color), swelling (increased volume), edema (loss of surface characteristics) and
+      bleeds easily. Dentists are trained to identify the disease sites by visual (redness and
+      swelling) and by mechanical probing (bleeding). Traditionally these give rises to clinical
+      gum indices showing the degree of inflammation and are important to the clinical monitoring
+      and management of gum diseases.
+
+      The management of periodontal disease involves the removal of bacteria plaque by both
+      dentists' tooth cleaning and maintained by patients' daily home-care. Home-care plaque
+      removal has been shown by many studies to prevent and/or cease the development of
+      periodontitis. However, most patients do not able to remove plaque effectively and it only
+      takes few days for a health site to development inflammation. Professional monitoring and
+      feedback are highly desirable but many patients only have monthly or even yearly appointment
+      which is too late. Such &quot;non-compliance&quot; increase the treatment cost/time, patient discomfort
+      and reduce treatment efficacy. Moreover, many patients do not receive regular dental checkup
+      and they seek dentists when the gum problem becomes irreversible that complicated and
+      expensive treatment such as tooth extraction and rehabilitation is required.
+
+      This study consists of 1) collecting the standardized clinical photography with clinical gum
+      indices/ marked by an experienced clinician, 2) import into computer for training, and 3)
+      longitudinally monitoring and analyze of gum condition in a group of gingivitis patients
+      receiving gum treatment.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The first part of this study will collect buccal view of intraoral photo and clinical gum
+      indices from 300 patients visiting Prince Philip Dental Hospital (PPDH). These intraoral
+      photo will be taken by patients using smartphone (iphone) mounted with apparatus (Scanbox) in
+      a standardized way and the quality supervised by clinical staff. Clinical gum indices will be
+      taken by a trained and calibrated clinical staff. Alternatively clinical photo may be
+      assessed by an experienced clinician to locate the inflamed/health gum. This synthesized data
+      set imported into neural network to learn the image characteristics of inflamed and health
+      gum and train the computer.
+
+      The second part of this study will recruit 150 patients with gingivitis and longitudinally
+      follow up their gum condition pre- and post- gum treatment in PPDH using standardized
+      intraoral photo and clinical gum indices. The clinical gum indices are the gold standard
+      reflecting the changes in the gum condition.
+
+      All photos collected would be analyzed by computer (software: MatLab) to identify key
+      features that help with screening and monitoring of gum condition. Data would then be
+      collected for building a program that quantifies the identified features which may include
+      the following:
+
+        1. Color of marginal gum tissues
+
+        2. Texture of marginal gum tissues
+
+        3. Volume of marginal gum tissues, with reference to the clinical gum indices.
+
+      Data and sample size analysis: The computer will be trained with the photo and clinical
+      indices/assessment obtained in the part I of this study. The trained computer will then use
+      to monitor changes of periodontal condition of patients in part II of this study based on
+      photo only. The sensitivity (detect true disease), specificity (detect true health) and the
+      area under these curves (with reference to the gold standard clinical gum indices) will be
+      calculated and are the main outcome of this study. The training of computer is a continuous
+      process and the endpoint comes when the sensitivity, specificity and the area under these
+      curves (AUC) reach plateau (saturation). Therefore, the training of computer will be staged
+      into three phrases with 100, 200 and 300 of cases in the part I of this study and observe the
+      changes in the sensitivity, specificity and AUC.
+
+      Patient reported outcome on the use of smartphone selfie would be recorded in visual analogue
+      scale (VAS) as secondary outcome.
+
+      Sample size determination: Each tooth represents one unit and assume each subject has 20
+      teeth, there will be more than 300 subjects X 20 teeth =6000 units for training. For the part
+      2 study, 150 subjects will be recruited and 130X20=2600 units for testing of the computer.
+
+      All new patients attending Prince Philip Dental Hospital will be screen for gum inflammation
+      and periodontal diseases by clinical examination.
+
+      Basic periodontal examination (BPE, including visual examination and mechanical probing of
+      gum) will be performed for all of them and assign to the undergraduate students for patient
+      care according to the severity.
+
+      Computer record can retrieve patients with gum inflammation (BPE score 2). Data handling All
+      data will be kept reviewed by unblended member (YHL) to check the quality. Only the data that
+      related to the study outcomes will be disclosed. All the data will be kept for another two
+      years since the study finishes. After that, the data will be destroyed completely. Primary
+      investigator will have access to the personal data during and after the study.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">January 1, 2021</start_date>
+  <completion_date type="Anticipated">June 30, 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Clinical gingival inflammation at 3 month</measure>
+    <time_frame>3-month</time_frame>
+    <description>Mean number/Percentage of sites with, as determined by the plaque index (Silness and Loe 1965 from 0 to 3) by observation of patient's mouth</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Photographic gingival inflammation at 3 month</measure>
+    <time_frame>3-month</time_frame>
+    <description>Mean number/Percentage of sites with, as determined by the plaque index (Silness and Loe 1965 from 0 to 3) by observation of patient's standardized photo</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Photographic gingival inflammation at baseline</measure>
+    <time_frame>baseline</time_frame>
+    <description>Mean number/Percentage of sites with, as determined by the plaque index (Silness and Loe 1965 from 0 to 3) by observation of patient's standardized photo</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Clinical gingival inflammation at baseline</measure>
+    <time_frame>baseline</time_frame>
+    <description>Mean number/Percentage of sites with, as determined by the plaque index (Silness and Loe 1965 from 0 to 3) by observation of patient's mouth</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Patient reported outcome on the use of smartphone selfie</measure>
+    <time_frame>3-month</time_frame>
+    <description>Satisfactory in Visual analogue scale (VAS) from 0 (not satisfactory) to 100 (satisfactory)</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Gingivitis</condition>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Oral hygiene instruction and simple scaling</intervention_name>
+    <description>Monitor the changes of gum condition</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Healthy dentate patients with gingivitis only and have 24 or more teeth
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult subjects attending PPDH and are able to give informed consent
+
+          -  Subjects who diagnosed to have gingivitis only and have 24 or more teeth
+
+          -  Subjects who are otherwise medically health
+
+          -  Subjects who are able to attend multiple dental visits
+
+        Exclusion Criteria:
+
+          -  Subjects who are in acute dental infection or in pain
+
+          -  Subjects who have oral mucosal diseases that preclude retraction of soft tissues for
+             photos
+
+          -  Subjects who are in fixed appliance for orthodontic treatment
+
+          -  Subjects who are pregnancy, or medically unfit for periodontal charting or requires
+             antibiotic coverage (e.g. risk of infective endocarditis)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Prince Philip Dental Hospital</name>
+      <address>
+        <city>Sai Ying Pun</city>
+        <country>Hong Kong</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Walter Lam, BDS, MDS</last_name>
+      <phone>28590306</phone>
+      <email>retlaw@hku.hk</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Hong Kong</country>
+  </location_countries>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>March 25, 2020</study_first_submitted>
+  <study_first_submitted_qc>March 27, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 30, 2020</study_first_posted>
+  <last_update_submitted>March 29, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 29, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 31, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>The University of Hong Kong</investigator_affiliation>
+    <investigator_full_name>Dr. Walter Y.H. Lam</investigator_full_name>
+    <investigator_title>Clinical Assistant Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Gingivitis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,589 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04082819</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MCD307-007-1920</org_study_id>
+    <nct_id>NCT04082819</nct_id>
+  </id_info>
+  <brief_title>MediBeat - HeartBeat Observation Trial</brief_title>
+  <official_title>Determining the Accuracy of the HeartBeat Algorithm for Calculating Blood Pressure</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>SE Health</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Centre for Aging and Brain Health Innovation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>SE Health</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>Yes</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The goal of the study was to compare the current gold standard blood pressure instrument (a
+      mercury-filled sphygmomanometer with cuff and stethoscope) with the new experimental
+      algorithm developed by HeartBeat Technologies Ltd. To that end, participants were recruited
+      from Markham, Ontario and participated in a series of alternating blood pressure measurements
+      over a period of 45 minutes. Comparisons were made between manual measurements and device
+      measurements to determine the quality of the device readings. Measurements were taken by
+      trained nurses and staff were consistent across the study duration.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The gold standard instrument for blood pressure measurement is a mercury-filled
+      sphygmomanometer with cuff and stethoscope (Canadian Agency for Drugs and Technologies in
+      Health; Canadian Electronic Library, 2012). However, such a device is not the most convenient
+      for client self-monitoring or virtual (remote) care. Thus, there is a desire for an accurate,
+      reliable alternative for the traditional mercury-containing sphygmomanometer.
+
+      HeartBeat Technologies Ltd. (&quot;Heartbeat&quot;) has developed a novel approach to measuring blood
+      pressure after an initial blood pressure reading using the conventional measurement method,
+      supplemented by specific characteristics of a person (age, gender, height, weight, and heart
+      rate), has established a &quot;baseline measurement&quot; for the person. The &quot;novel approach&quot; uses a
+      finger pulse oximeter, the Contec CMS50EW device (Figure 1) (manufactured by Contec Medical
+      Systems Co., Ltd., Shanghai, People's Republic of China). The finger pulse oximeter detects
+      the changes in blood volume directly below the person's skin and indirectly measures oxygen
+      saturation in the blood. The measurement is in the form of a photoplethysmogram (PPG) which
+      is captured by the Contec oximeter and then, by Bluetooth technology, transmitted to a
+      smartphone or tablet. A HeartBeat application, called MediBeat, on the smartphone or tablet
+      then transmits the PPG to a server where a proprietary algorithm analyzes the baseline
+      measurement for the person and the PPG to calculate the person's current blood pressure.
+
+      Heartbeat's intent is that the current blood pressure reading would then be made available to
+      both the client and the health provider through separate web-based interfaces. Providers
+      would be able to log onto the HeartBeat web-based application from anywhere to review and
+      monitor the blood pressure of multiple clients, while clients can log onto the application to
+      track their own measurements.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">October 4, 2019</start_date>
+  <completion_date type="Actual">December 17, 2019</completion_date>
+  <primary_completion_date type="Actual">November 22, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>Double (Investigator, Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Difference Between Systolic Manual Sphygmomanometer and Finger Pulse Oximeter Readings</measure>
+    <time_frame>45 - 60 minutes</time_frame>
+    <description>Each device reading was compared to the manual blood pressure reading taken before (R1) and after it (R2). The degree of alignment for systolic blood pressure was calculated by taking the difference between the two scores (manual and device). The reading with the best alignment was used.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Difference Between Diastolic Manual and Device Blood Pressure Readings</measure>
+    <time_frame>45-60 minutes</time_frame>
+    <description>Each device reading was compared to the manual reading before (R1) and after (R2) it, to calculate the degree of alignment. The difference of the device and R1, and the device and R2 were taken. The smaller number was used for results reporting.</description>
+  </primary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">94</enrollment>
+  <condition>Low Blood Pressure</condition>
+  <condition>Blood Pressure</condition>
+  <condition>High Blood Pressure</condition>
+  <condition>Hypertension</condition>
+  <condition>Hypotension</condition>
+  <arm_group>
+    <arm_group_label>Low Blood Pressure</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Low blood pressure (systolic: 0-129, diastolic: 0-79)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Medium Blood Pressure</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Medium blood pressure (systolic: 130-160, diastolic: 80-100)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>High Blood Pressure</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>High blood pressure (systolic: 161 or higher, diastolic: 101 or higher)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Contec CMS50EW</intervention_name>
+    <description>Participants' blood pressure will be measured 3 times with the wearable finger pulse oximeter at their study visit.</description>
+    <arm_group_label>High Blood Pressure</arm_group_label>
+    <arm_group_label>Low Blood Pressure</arm_group_label>
+    <arm_group_label>Medium Blood Pressure</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Sphygmomanometer</intervention_name>
+    <description>Participants' blood pressure will be measured 4 times manually with a blood pressure cuff at their study visit.</description>
+    <arm_group_label>High Blood Pressure</arm_group_label>
+    <arm_group_label>Low Blood Pressure</arm_group_label>
+    <arm_group_label>Medium Blood Pressure</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  adult over 25 years of age
+
+        Exclusion Criteria:
+
+          -  those who have heart arrhythmias,
+
+          -  atrial fibrillations or atrial flutters,
+
+          -  an inaudible Korotkoff sound,
+
+          -  wounds of the upper arms/wrists, missing fingers, and/or
+
+          -  an arm circumference of more than 55 cm will be excluded
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>25 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Paul Holyoke, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>SE Health</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>SE Health</name>
+      <address>
+        <city>Markham</city>
+        <state>Ontario</state>
+        <zip>L3R 6H3</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>September 4, 2019</study_first_submitted>
+  <study_first_submitted_qc>September 6, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 9, 2019</study_first_posted>
+  <results_first_submitted>December 17, 2019</results_first_submitted>
+  <results_first_submitted_qc>March 17, 2020</results_first_submitted_qc>
+  <results_first_posted type="Actual">April 1, 2020</results_first_posted>
+  <last_update_submitted>March 17, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 17, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 1, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hypertension</mesh_term>
+    <mesh_term>Hypotension</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>November 4, 2019</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/19/NCT04082819/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>Healthy participants who were 25 years old and worked in Markham were recruited. Only healthy subjects were included; those who were under 25, had heart arrhythmias, atrial fibrillations or atrial flutters, an inaudible Korotkoff sound, wounds of the upper arms/wrists, missing fingers, and/or an arm circumference of more than 55 cm were excluded.</recruitment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Low Blood Pressure</title>
+          <description>Low blood pressure (systolic: 0-129, diastolic: 0-79)
+Contec CMS50EW: Participants' blood pressure will be measured 3 times with the wearable finger pulse oximeter at their study visit.
+Sphygmomanometer: Participants' blood pressure will be measured 4 times manually with a blood pressure cuff at their study visit.</description>
+        </group>
+        <group group_id="P2">
+          <title>Medium Blood Pressure</title>
+          <description>Medium blood pressure (systolic: 130-160, diastolic: 80-100)
+Contec CMS50EW: Participants' blood pressure will be measured 3 times with the wearable finger pulse oximeter at their study visit.
+Sphygmomanometer: Participants' blood pressure will be measured 4 times manually with a blood pressure cuff at their study visit.</description>
+        </group>
+        <group group_id="P3">
+          <title>High Blood Pressure</title>
+          <description>High blood pressure (systolic: 161 or higher, diastolic: 101 or higher)
+Contec CMS50EW: Participants' blood pressure will be measured 3 times with the wearable finger pulse oximeter at their study visit.
+Sphygmomanometer: Participants' blood pressure will be measured 4 times manually with a blood pressure cuff at their study visit.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="37"/>
+                <participants group_id="P2" count="54"/>
+                <participants group_id="P3" count="3"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="37"/>
+                <participants group_id="P2" count="54"/>
+                <participants group_id="P3" count="3"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Low Blood Pressure</title>
+          <description>Low blood pressure (systolic: 0-129, diastolic: 0-79)
+Contec CMS50EW: Participants' blood pressure will be measured 3 times with the wearable finger pulse oximeter at their study visit.
+Sphygmomanometer: Participants' blood pressure will be measured 4 times manually with a blood pressure cuff at their study visit.</description>
+        </group>
+        <group group_id="B2">
+          <title>Medium Blood Pressure</title>
+          <description>Medium blood pressure (systolic: 130-160, diastolic: 80-100)
+Contec CMS50EW: Participants' blood pressure will be measured 3 times with the wearable finger pulse oximeter at their study visit.
+Sphygmomanometer: Participants' blood pressure will be measured 4 times manually with a blood pressure cuff at their study visit.</description>
+        </group>
+        <group group_id="B3">
+          <title>High Blood Pressure</title>
+          <description>High blood pressure (systolic: 161 or higher, diastolic: 101 or higher)
+Contec CMS50EW: Participants' blood pressure will be measured 3 times with the wearable finger pulse oximeter at their study visit.
+Sphygmomanometer: Participants' blood pressure will be measured 4 times manually with a blood pressure cuff at their study visit.</description>
+        </group>
+        <group group_id="B4">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="37"/>
+            <count group_id="B2" value="54"/>
+            <count group_id="B3" value="3"/>
+            <count group_id="B4" value="94"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="37"/>
+                    <count group_id="B2" value="54"/>
+                    <count group_id="B3" value="3"/>
+                    <count group_id="B4" value="94"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="40.1" spread="10.1"/>
+                    <measurement group_id="B2" value="44.2" spread="10.6"/>
+                    <measurement group_id="B3" value="48.0" spread="12.2"/>
+                    <measurement group_id="B4" value="42.7" spread="10.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="37"/>
+                    <count group_id="B2" value="54"/>
+                    <count group_id="B3" value="3"/>
+                    <count group_id="B4" value="94"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="32"/>
+                    <measurement group_id="B2" value="31"/>
+                    <measurement group_id="B3" value="2"/>
+                    <measurement group_id="B4" value="65"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                    <measurement group_id="B2" value="23"/>
+                    <measurement group_id="B3" value="1"/>
+                    <measurement group_id="B4" value="29"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race and Ethnicity Not Collected</title>
+          <population>Race and Ethnicity were not collected from any participant.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="0"/>
+                    <count group_id="B2" value="0"/>
+                    <count group_id="B3" value="0"/>
+                    <count group_id="B4" value="0"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B4" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Difference Between Systolic Manual Sphygmomanometer and Finger Pulse Oximeter Readings</title>
+        <description>Each device reading was compared to the manual blood pressure reading taken before (R1) and after it (R2). The degree of alignment for systolic blood pressure was calculated by taking the difference between the two scores (manual and device). The reading with the best alignment was used.</description>
+        <time_frame>45 - 60 minutes</time_frame>
+        <population>The overall participants analyzed indicate the number of individuals who matched the ranges listed in the description for low, medium or high blood pressure categories, where they had blood pressure ranges falling between the respective values indicated for the systolic pressure measured.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Low Blood Pressure</title>
+            <description>Systolic score between 90 - 120mmHg.</description>
+          </group>
+          <group group_id="O2">
+            <title>Medium Blood Pressure</title>
+            <description>Systolic score between 130 - 160mmHg.</description>
+          </group>
+          <group group_id="O3">
+            <title>High Blood Pressure</title>
+            <description>Systolic score greater than 161mmHg.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Difference Between Systolic Manual Sphygmomanometer and Finger Pulse Oximeter Readings</title>
+          <description>Each device reading was compared to the manual blood pressure reading taken before (R1) and after it (R2). The degree of alignment for systolic blood pressure was calculated by taking the difference between the two scores (manual and device). The reading with the best alignment was used.</description>
+          <population>The overall participants analyzed indicate the number of individuals who matched the ranges listed in the description for low, medium or high blood pressure categories, where they had blood pressure ranges falling between the respective values indicated for the systolic pressure measured.</population>
+          <units>mmHg</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="37"/>
+                <count group_id="O2" value="54"/>
+                <count group_id="O3" value="3"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3" spread="6"/>
+                    <measurement group_id="O2" value="3" spread="6"/>
+                    <measurement group_id="O3" value="11" spread="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Difference Between Diastolic Manual and Device Blood Pressure Readings</title>
+        <description>Each device reading was compared to the manual reading before (R1) and after (R2) it, to calculate the degree of alignment. The difference of the device and R1, and the device and R2 were taken. The smaller number was used for results reporting.</description>
+        <time_frame>45-60 minutes</time_frame>
+        <population>The overall participants analyzed indicate the number of individuals who matched the ranges listed in the description for low, medium or high blood pressure categories, where they had blood pressure ranges falling between the respective values indicated for the diastolic pressure measured.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Low Diastolic Blood Pressure</title>
+            <description>Diastolic score between 40-79mmHg.</description>
+          </group>
+          <group group_id="O2">
+            <title>Medium Diastolic Blood Pressure</title>
+            <description>Diastolic score between 80-100mmHg.</description>
+          </group>
+          <group group_id="O3">
+            <title>High Diastolic Blood Pressure</title>
+            <description>Diastolic score greater than 101mmHg.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Difference Between Diastolic Manual and Device Blood Pressure Readings</title>
+          <description>Each device reading was compared to the manual reading before (R1) and after (R2) it, to calculate the degree of alignment. The difference of the device and R1, and the device and R2 were taken. The smaller number was used for results reporting.</description>
+          <population>The overall participants analyzed indicate the number of individuals who matched the ranges listed in the description for low, medium or high blood pressure categories, where they had blood pressure ranges falling between the respective values indicated for the diastolic pressure measured.</population>
+          <units>mmHg</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="37"/>
+                <count group_id="O2" value="54"/>
+                <count group_id="O3" value="3"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1" spread="4"/>
+                    <measurement group_id="O2" value="0" spread="6"/>
+                    <measurement group_id="O3" value="3" spread="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>For each participant, adverse event phenomena were monitored from the initial informed consent process and up to the remuneration process in the data gathering visit. This took approximately 45 minutes for each participant, during which they were continuously in the presence of trained medical professionals. Following this active assessment period, there was no follow-up conducted with participants, but participants were able to contact the research team with any concerns that may have arisen.</time_frame>
+      <desc>Adverse events or risks (for all-cause mortality, serious, or non-serious) were monitored throughout study duration, however, none were observed across the 94 study participants.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Low Blood Pressure</title>
+          <description>Low blood pressure (systolic: 0-129, diastolic: 0-79)
+Contec CMS50EW: Participants' blood pressure will be measured 3 times with the wearable finger pulse oximeter at their study visit.
+Sphygmomanometer: Participants' blood pressure will be measured 4 times manually with a blood pressure cuff at their study visit.</description>
+        </group>
+        <group group_id="E2">
+          <title>Medium Blood Pressure</title>
+          <description>Medium blood pressure (systolic: 130-160, diastolic: 80-100)
+Contec CMS50EW: Participants' blood pressure will be measured 3 times with the wearable finger pulse oximeter at their study visit.
+Sphygmomanometer: Participants' blood pressure will be measured 4 times manually with a blood pressure cuff at their study visit.</description>
+        </group>
+        <group group_id="E3">
+          <title>High Blood Pressure</title>
+          <description>High blood pressure (systolic: 161 or higher, diastolic: 101 or higher)
+Contec CMS50EW: Participants' blood pressure will be measured 3 times with the wearable finger pulse oximeter at their study visit.
+Sphygmomanometer: Participants' blood pressure will be measured 4 times manually with a blood pressure cuff at their study visit.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="94"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="94"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="94"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="94"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="94"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="94"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="94"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="94"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="94"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>SE Research Centre</name_or_title>
+      <organization>SE Health</organization>
+      <email>research@sehc.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

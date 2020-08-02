@@ -1,0 +1,266 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04271657</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RPAI-pCR2020</org_study_id>
+    <nct_id>NCT04271657</nct_id>
+  </id_info>
+  <brief_title>RadioPathomics Artificial Intelligence Model to Predict nCRT Response in Locally Advanced Rectal Cancer</brief_title>
+  <acronym>RPAI-pCR</acronym>
+  <official_title>A RadioPathomics Integrated Artificial Intelligence System to Predict Neoadjuvant Chemoradiotherapy Response for Locally Advanced Rectal Cancer: A Multicenter, Prospective and Observational Clinical Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sixth Affiliated Hospital, Sun Yat-sen University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>The Third Affiliated Hospital of Kunming Medical College.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Sir Run Run Shaw Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Sixth Affiliated Hospital, Sun Yat-sen University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In this study, investigators utilize a radiopathomics integrated Artificial Intelligence (AI)
+      supportive system to predict tumor response to neoadjuvant chemoradiotherapy (nCRT) before
+      its administration for patients with locally advanced rectal cancer (LARC). By the system,
+      whether the participants achieve the pathologic complete response (pCR) will be identified
+      based on the radiopathomics features extracted from the pre-nCRT Magnetic Resonance Imaging
+      (MRI) and biopsy images. The predictive power to discriminate the pCR individuals from
+      non-pCR patients, will be validated in this multicenter, prospective clinical study.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a multicenter, prospective, observational clinical study for validation of a
+      radiopathomics artificial intelligence (AI) system. Patients who have been pathologically
+      diagnosed as rectal adenocarcinoma and defined as clinical II-III staging without distant
+      metastasis by enhanced Magnetic Resonance Imaging (MRI) will be enrolled from the Sixth
+      Affiliated Hospital of Sun Yat-sen University, the Third Affiliated Hospital of Kunming
+      Medical College and Sir Run Run Shaw Hospital Affiliated by Zhejiang University School of
+      Medicine. All participants should follow a very standard treatment protocol, including of
+      concurrent neoadjuvant chemoradiotherapy (nCRT), total mesorectum excision (TME) surgery and
+      adjuvant chemotherapy. The MRI and biopsy examination should be completed before the nCRT and
+      the images will be subjected to the manual delineation of the tumor regions of interest (ROI)
+      by experienced radiologists and pathologists. Subsequently, the outlined MRI and biopsy
+      slides images will be employed to the radiopathomics AI system to generate the predicted
+      response (&quot;predicted pathologic complete response (pCR)&quot; vs. &quot;predicted non-pCR&quot;) of
+      individual patient, whereas the actual response (&quot;pathologic confirmed as pCR&quot; vs.
+      &quot;pathologic confirmed as non-pCR&quot;) will be diagnosed at surgery excised specimen. Through
+      comparisons of the predicted responses and true pathologic responses, investigators calculate
+      the prediction accuracy, specificity, sensitivity as well as the Area Under Curve (AUC) of
+      Receiver Operating Characteristic (ROC) curves. This study is aimed to validate the high
+      accuracy and robustness of the radiopathomics AI system for identifying pCR candidates from
+      non-pCR individuals before nCRT which will facilitate further precision therapy for patients
+      with locally advanced rectal cancer.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 10, 2020</start_date>
+  <completion_date type="Anticipated">December 2020</completion_date>
+  <primary_completion_date type="Anticipated">July 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The prediction accuracy of the radiopathomics artificial intelligence model</measure>
+    <time_frame>baseline</time_frame>
+    <description>The prediction accuracy of the radiopathomics artificial intelligence model for identifying pCR candidates from non-pCR individuals among nCRT treated LARC patients will be calculated.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The specificity of the radiopathomics artificial intelligence model</measure>
+    <time_frame>baseline</time_frame>
+    <description>The specificity of the radiopathomics artificial intelligence model for identifying pCR candidates from non-pCR individuals among nCRT treated LARC patients will be calculated.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The sensitivity of the radiopathomics artificial intelligence model</measure>
+    <time_frame>baseline</time_frame>
+    <description>The sensitivity of the radiopathomics artificial intelligence model for identifying pCR candidates from non-pCR individuals among nCRT treated LARC patients will be calculated.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The area under curve (AUC) of Receiver Operating Characteristic (ROC) curves of the radiopathomics artificial intelligence model</measure>
+    <time_frame>baseline</time_frame>
+    <description>The area under curve (AUC) of Receiver Operating Characteristic (ROC) curves of the radiopathomics artificial intelligence model for identifying pCR candidates from non-pCR individuals among nCRT treated LARC patients will be calculated.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Rectal Cancer</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The population in the study are the patients with LARC, who are intended to receive or
+        undergoing standard, neoadjuvant concurrent chemoradiotherapy with tumor pathologic
+        response unknown.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  pathologically diagnosed as rectal adenocarcinoma
+
+          -  defined as clinical II-III staging (≥T3, and/or positive nodal status) without distant
+             metastasis by enhanced Magnetic Resonance Imaging (MRI)
+
+          -  intending to receive or undergoing neoadjuvant concurrent chemoradiotherapy
+             (5-fluorouracil based chemotherapy, given orally or intravenously; Intensity-Modulated
+             Radiotherapy or Volume-Modulated Radiotherapy delivered at 50 gray (Gy) in gross tumor
+             volume (GTV) and 45 Gy in clinical target volume (CTV) by 25 fractions)
+
+          -  intending to receive total mesorectum excision (TME) surgery after neoadjuvant therapy
+             (not completed at the enrollment), and adjuvant chemotherapy
+
+          -  MRI (high-solution T2-weighted imaging, contrast-enhanced T1-weighted imaging, and
+             diffusion-weighted imaging are required) examination is completed before the
+             neoadjuvant chemoradiotherapy
+
+          -  biopsy H&amp;E stained slides are available and scanned with high resolution before the
+             neoadjuvant chemoradiotherapy
+
+        Exclusion Criteria:
+
+          -  with history of other cancer
+
+          -  insufficient imaging quality of MRI to delineate tumor volume or obtain measurements
+             (e.g., lack of sequence, motion artifacts)
+
+          -  insufficient imaging quality of biopsy slides imaging to delineate tumor volume or
+             obtain measurements (e.g., tissue dissection, color anomaly)
+
+          -  incomplete neoadjuvant chemoradiotherapy
+
+          -  no surgery after neoadjuvant chemoradiotherapy resulting in lack of pathologic
+             assessment of tumor response
+
+          -  tumor recurrence or distant metastasis during neoadjuvant chemoradiotherapy
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Xinjuan Fan, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Sixth Affiliated Hospital, Sun Yat-sen University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Xiangbo Wan, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Sixth Affiliated Hospital, Sun Yat-sen University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Xinjuan Fan, MD, PhD</last_name>
+    <phone>020-38254037</phone>
+    <email>fanxjuan@mail.sysu.edu.cn</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Xiangbo Wan, MD, PhD</last_name>
+    <phone>+86 13826017157</phone>
+    <email>wanxbo@mail.sysu.edu.cn</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>the Sixth Affiliated Hospital of Sun Yat-sen University</name>
+      <address>
+        <city>Guangzhou</city>
+        <state>Guangdong</state>
+        <zip>510655</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Xinjuan Fan, MD, PhD</last_name>
+      <phone>020-38254037</phone>
+      <email>fanxjuan@mail.sysu.edu.cn</email>
+    </contact>
+    <contact_backup>
+      <last_name>Xiangbo Wan, MD, PhD</last_name>
+      <phone>+86 13826017157</phone>
+      <email>wanxbo@mail.sysu.edu.cn</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>The Third Affiliated Hospital of Kunming Medical College</name>
+      <address>
+        <city>Kunming</city>
+        <state>Yunnan</state>
+        <zip>650000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Zhenhui Li, MD</last_name>
+      <phone>+86 13698736132</phone>
+      <email>lizhenhui621@163.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Sir Run Run Shaw Hospital</name>
+      <address>
+        <city>Hangzhou</city>
+        <state>Zhejiang</state>
+        <zip>310000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Weidong Han, MD, PhD</last_name>
+      <phone>+86 13819124503</phone>
+      <email>hanwd@zju.edu.cn</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>February 2020</verification_date>
+  <study_first_submitted>February 13, 2020</study_first_submitted>
+  <study_first_submitted_qc>February 13, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 17, 2020</study_first_posted>
+  <last_update_submitted>February 13, 2020</last_update_submitted>
+  <last_update_submitted_qc>February 13, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 17, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Sixth Affiliated Hospital, Sun Yat-sen University</investigator_affiliation>
+    <investigator_full_name>wanxiangbo</investigator_full_name>
+    <investigator_title>Associate Professor of Radiation Oncology, Vice Director, Department of Radiation Oncology</investigator_title>
+  </responsible_party>
+  <keyword>Radiopathomics features</keyword>
+  <keyword>Artificial intelligence</keyword>
+  <keyword>Locally advanced rectal cancer</keyword>
+  <keyword>Pathologic complete response</keyword>
+  <keyword>Neoadjuvant chemoradiotherapy</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Rectal Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

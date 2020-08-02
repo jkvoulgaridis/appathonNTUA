@@ -1,0 +1,154 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03631069</url>
+  </required_header>
+  <id_info>
+    <org_study_id>KEAP1004</org_study_id>
+    <nct_id>NCT03631069</nct_id>
+  </id_info>
+  <brief_title>Detecting Dementia in the Retina Using Optical Coherence Tomography</brief_title>
+  <official_title>Detecting Dementia in the Retina: a Big Data Machine Learning Approach</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Moorfields Eye Hospital NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Moorfields Eye Hospital NHS Foundation Trust</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This retrospective case control explores the retinal features of dementia associated with
+      neurodegenerative diseases, particularly Alzheimer's disease. By linking a pseudonymised
+      dataset of three-dimensional retinal scans, called optical coherence tomography, with
+      nationally held data on dementia, corresponding characteristics will be evaluated through
+      descriptive statistics and machine learning techniques.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      By 2025, it is estimated that approximately 1 million people in the United Kingdom (UK) will
+      suffer from dementia, a syndrome associated with progressive decline in brain function. While
+      there is currently no cure for most types of dementia, early diagnosis can help patients
+      receive the appropriate treatment and support to help maintain mental function.
+
+      The focus of this project is to identify changes in retinal structure associated with
+      dementia. In collaboration with bioinformatics experts at University College London (UCL),
+      the investigators propose to analyse our repository of &gt;1 million retinal scans, termed
+      optical coherence tomography (OCT), performed regularly on patients since 2008. OCT scans
+      will be linked at a patient level to data from the Hospital Episode Statistics (HES) database
+      to identify those who have been diagnosed with dementia or went on the develop dementia.
+      Thus, a pseudonymised classified dataset of retinal scans will be generated for qualitative
+      and quantitative analysis. The primary objective is to characterise changes in the layers of
+      the retina associated with dementia. Machine learning techniques may also be employed to
+      identify novel patterns of retinal change associated with dementia.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">September 1, 2019</start_date>
+  <completion_date type="Anticipated">August 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">August 1, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Retinal nerve fiber layer thickness</measure>
+    <time_frame>1 year</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Ganglion cell layer thickness</measure>
+    <time_frame>1 year</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Macular volume</measure>
+    <time_frame>1 year</time_frame>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">280000</enrollment>
+  <condition>Dementia Alzheimers</condition>
+  <condition>Dementia</condition>
+  <condition>Dementia, Vascular</condition>
+  <condition>Dementia Senile</condition>
+  <arm_group>
+    <arm_group_label>Dementia</arm_group_label>
+    <description>People with hospital episode statistics labels of dementia</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Normal</arm_group_label>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All patients over the age of 40 who have undergone an optical coherence tomography scan at
+        Moorfields Eye Hospital NHS Foundation Trust.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        All patients over the age of 40 who have undergone an optical coherence tomography scan at
+        Moorfields Eye Hospital NHS Foundation Trust
+
+        Exclusion Criteria:
+
+        Poor quality image
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Pearse Keane, MD FRCOphth</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University College, London</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Moorfields Eye Hospital NHS Foundation Trust</name>
+      <address>
+        <city>London</city>
+        <zip>EC1V 2PD</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>August 10, 2018</study_first_submitted>
+  <study_first_submitted_qc>August 10, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 15, 2018</study_first_posted>
+  <last_update_submitted>July 16, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 16, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 17, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Dementia</mesh_term>
+    <mesh_term>Alzheimer Disease</mesh_term>
+    <mesh_term>Dementia, Vascular</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

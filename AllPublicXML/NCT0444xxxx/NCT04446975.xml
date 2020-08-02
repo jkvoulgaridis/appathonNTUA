@@ -1,0 +1,238 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04446975</url>
+  </required_header>
+  <id_info>
+    <org_study_id>19-3095</org_study_id>
+    <secondary_id>5K23DA040923</secondary_id>
+    <nct_id>NCT04446975</nct_id>
+  </id_info>
+  <brief_title>Best Practice Alert for Opioid Prescribing</brief_title>
+  <official_title>Best Practice Alert for Post-Surgical Opioid Prescribing At Discharge</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Colorado, Denver</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute on Drug Abuse (NIDA)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Colorado, Denver</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators will embed a developed decision support tool into the electronic health
+      record (EHR) to individualize pain therapy in surgical patients after hospital discharge and
+      test its performance in a pragmatic clinical trial.
+
+      Preliminary data indicate that current opioid prescription practice after surgery follows a
+      &quot;one size fits all&quot; pattern. In-hospital opioid use prior to discharge serves as a reliable
+      indicator to estimate needs for analgesic medications at home. The investigators will test
+      the hypothesis that the existing tool will enable providers to write need-based prescriptions
+      based on prior-to-discharge opioid use, empower patients to maximize alternatives to opioids
+      (ALTO) therapies at home, while minimizing the need for rescue prescriptions. The
+      investigators will test this tool prospectively in a cohort of ~1,000 providers (primary
+      subjects) and ~39,000 surgical patients (secondary subjects) in four University of Colorado
+      Health (UCHealth) hospitals (clusters to be exposed versus (vs.) non-exposed to the
+      intervention).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Converting knowledge on actual need for opioid pain medications after surgery into tangible
+      benefits can prevent over-prescription of opioids that become available for non-medical use.
+      The objective of this aim is to prescribe pain medications after surgery in a
+      patient-centered fashion. The investigators have used the average amount of opioid
+      medications (in milligram morphine equivalents - MME) taken prior to discharge to inform the
+      clinical decision support tool. This tool will reduce the amount of opioid medications
+      prescribed while maintaining patient post-operative pain control. The calculated &quot;prior to
+      discharge daily MME dose&quot; will be applied to generate a recommendation for the prescription
+      of a cumulative opioid dose that will be displayed when the electronic order entry for the
+      post-discharge pain medication is made in the EHR using a best-practice alert (BPA). In
+      addition, the provider will be prompted to also prescribe non-opioid analgesic medications.
+      This BPA was developed by the Principal Investigator under guidance of the UCHealth System
+      Multidisciplinary Opioid/Pain Management Committee as well as published guidelines.
+
+      Based on the relationship between opioids taken prior to discharge and post-discharge opioid
+      intake described above as well as published guidelines for post-discharge prescriptions after
+      surgery will use a tiered approach towards determining the total amount of opioids to be
+      prescribed. Accordingly, the investigators have integrated an algorithm into the BPA such
+      that opioid intake from the EHR only triggers the BPA if the total amount of prescribed
+      opioids exceeds the predicted thresholds.
+
+      The opioid prescribing BPA will be assessed over a 44-week period in all eligible patients.
+      At the time of writing the prescription an automatic notification will appear on the care
+      provider's screen that identifies a suggested post-discharge opioid dose within the
+      electronic prescription pad. If approved by the provider, opioid-only prescriptions will be
+      written as suggested. Final dosing decisions and drug choices will remain at the discretion
+      of the treating provider and will be tracked. The investigators will use an all &quot;ON&quot; vs. all
+      &quot;OFF&quot; configuration to answer the questions if the average amount of total opioids per
+      post-discharge prescription is lower with the BPA active. The investigation will commence
+      with two &quot;OFF&quot; periods to assess if reduction in prescribing patterns occurs over time
+      regardless of the intervention. Two &quot;ON&quot; periods at the end of the study will determine if
+      any observed changes in prescribing patterns stabilize or continued changes take place.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 7, 2020</start_date>
+  <completion_date type="Anticipated">July 2022</completion_date>
+  <primary_completion_date type="Anticipated">October 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Sequential Assignment</intervention_model>
+    <intervention_model_description>This trial will be designed using a stepped wedge design with randomization occurring based on timing and location of enrollment according to PRECIS-2 (PRagmatic Explanatory Continuum Indicator Summary) to maximize applicability. The BPA will be turned &quot;OFF&quot; vs. &quot;ON&quot; in the participating hospitals according to each 8-week study interval. OFF and ON periods will be separated by 4-week washout intervals. An 8-week period prior to study start will provide baseline trends in prescription patterns. The investigation will commence with two &quot;OFF&quot; periods to assess if reduction in prescribing patterns occurs over time regardless of the intervention. Two &quot;ON&quot; periods at the end of the study will determine if any observed changes in prescribing patterns stabilize or continued changes take place.</intervention_model_description>
+    <primary_purpose>Other</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Opioids prescribed at discharge</measure>
+    <time_frame>1 day, on discharge date from hospital</time_frame>
+    <description>Prescribed mean milligram morphine equivalents (MME) discharge opioid dose as recorded in the electronic health record</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Non-opioid pain medications prescribed on day of discharge</measure>
+    <time_frame>1 day, on discharge date from hospital</time_frame>
+    <description>Prescribed discharge non-opioid analgesic medications as recorded in the electronic health record</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Opioid prescriptions after discharge</measure>
+    <time_frame>&quot;Day of discharge +1&quot; until 28 days after discharge</time_frame>
+    <description>Number of opioid scripts and total milligram morphine equivalents (MME) as recorded in the electronic health record</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">40000</enrollment>
+  <condition>Opioid Use</condition>
+  <arm_group>
+    <arm_group_label>BPA Off</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>No BPA message is displayed to providers.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>BPA On</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>BPA message is displayed to providers based on patient opioid intake as reported in the EHR.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>BPA</intervention_name>
+    <description>At the time of writing the prescription an automatic notification will appear on the care provider's screen that identifies a suggested post-discharge opioid dose within the electronic prescription pad. If approved by the provider, opioid-only prescriptions will be written as suggested. Final dosing decisions and drug choices will remain at the discretion of the treating provider.</description>
+    <arm_group_label>BPA On</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Primary subjects:
+
+        • Credentialed providers (attending, fellow, and resident physicians, advanced practice
+        providers including nurse practitioners and physician assistants) at each UCH (UC Health)
+        site writing a discharge opioid prescription are eligible to receive the intervention.
+
+        Secondary subjects:
+
+        • Adult surgical inpatients age 18 and older within the UCHealth system at 4 different
+        hospitals including UCH Metro, UCH Memorial Central, Medical Center of the Rockies, and
+        Poudre Valley Hospital.
+
+        Exclusion Criteria:
+
+        Primary subjects:
+
+        • None
+
+        Secondary subjects:
+
+        • Less than 18 years of age.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Karsten Bartels, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Colorado, Denver</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Karsten Bartels, MD, PhD</last_name>
+    <phone>303-724-0166</phone>
+    <email>karsten.bartels@cuanschutz.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Kristen Raymond, BA</last_name>
+    <phone>303-724-3196</phone>
+    <email>kristen.raymond@cuanschutz.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of Colorado</name>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Karsten Bartels, MD, PhD</last_name>
+      <phone>720-848-6752</phone>
+      <email>karsten.bartels@cuanschutz.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Kristen Raymond, BA</last_name>
+      <phone>303-724=3196</phone>
+      <email>kristen.raymond@cuanschutz.edu</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Bartels K, Mayes LM, Dingmann C, Bullard KJ, Hopfer CJ, Binswanger IA. Opioid Use and Storage Patterns by Patients after Hospital Discharge following Surgery. PLoS One. 2016 Jan 29;11(1):e0147972. doi: 10.1371/journal.pone.0147972. eCollection 2016.</citation>
+    <PMID>26824844</PMID>
+  </reference>
+  <reference>
+    <citation>Loudon K, Treweek S, Sullivan F, Donnan P, Thorpe KE, Zwarenstein M. The PRECIS-2 tool: designing trials that are fit for purpose. BMJ. 2015 May 8;350:h2147. doi: 10.1136/bmj.h2147.</citation>
+    <PMID>25956159</PMID>
+  </reference>
+  <reference>
+    <citation>Bartels K, Fernandez-Bustamante A, McWilliams SK, Hopfer CJ, Mikulich-Gilbertson SK. Long-term opioid use after inpatient surgery - A retrospective cohort study. Drug Alcohol Depend. 2018 Jun 1;187:61-65. doi: 10.1016/j.drugalcdep.2018.02.013. Epub 2018 Mar 27.</citation>
+    <PMID>29627407</PMID>
+  </reference>
+  <reference>
+    <citation>Chen EY, Marcantonio A, Tornetta P 3rd. Correlation Between 24-Hour Predischarge Opioid Use and Amount of Opioids Prescribed at Hospital Discharge. JAMA Surg. 2018 Feb 21;153(2):e174859. doi: 10.1001/jamasurg.2017.4859. Epub 2018 Feb 21.</citation>
+    <PMID>29238810</PMID>
+  </reference>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>June 22, 2020</study_first_submitted>
+  <study_first_submitted_qc>June 23, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 25, 2020</study_first_posted>
+  <last_update_submitted>July 7, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 7, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 9, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

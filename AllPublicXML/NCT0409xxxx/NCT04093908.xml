@@ -1,0 +1,180 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04093908</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2019-0739-A9</org_study_id>
+    <nct_id>NCT04093908</nct_id>
+  </id_info>
+  <brief_title>Prediction of STN DBS Motor Response in PD</brief_title>
+  <acronym>DBS-PREDICT</acronym>
+  <official_title>Machine Learning Prediction of Motor Response After STN DBS in Parkinson Patients, a Retrospective Multicenter Validation Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Maastricht University Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Maastricht University Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Despite careful patient selection for subthalamic nucleus deep brain stimulation (STN DBS),
+      some Parkinson's disease (PD) patients show limited improvement of motor disability.
+      Non-conclusive results and the lack of a practical implantable prediction algorithm from
+      previous prediction studies maintain the need for a simple tool for neurologists that
+      provides a reliable prediction on postoperative motor improvement for individual patients.
+
+      In this study, a prior developed prediction model for motor response after STN DBS in PD
+      patients is validated. The model generates individual probabilities for becoming a weak
+      responder one year after surgery. The model will be validated in a validation cohort
+      collected from several international centers.
+
+      The predictive model is made public accessible before data collection on:
+      https://github.com/jgvhabets/DBSPREDICT
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Predicting motor outcome after STN DBS in Parkinson Disease can be challenging for the
+      clinician. Current prediction studies report non-conclusive results on the most important
+      predictors and are limited by used computational methods. Traditional statistical analyses
+      which focus on correlations are biased by predictor- and confounder-selection by the
+      investigators. Modern computational methods like machine learning prediction models are less
+      limited by sample size and can consider a wider range of predictors which leads to less
+      selection-bias.
+
+      Retrospective patient data is collected from multiple international centers. This
+      retrospective, multicenter cohort is used to validate the model which is developed based on a
+      single-center retrospective cohort.
+
+      The goal is to develop a prediction tool that provides the clinician with a probability for
+      weak response during the preoperative phase. This could support the clinician in including or
+      informing the patient during preoperative counseling.
+
+      The predictive model is made public accessible before data collection on:
+      https://github.com/jgvhabets/DBSPREDICT.
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">August 1, 2019</start_date>
+  <completion_date type="Anticipated">May 2020</completion_date>
+  <primary_completion_date type="Actual">December 17, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>area under the curve of the receiver operator curve</measure>
+    <time_frame>one-year postoperative</time_frame>
+    <description>Motor outcome is categorised in a binary outcome variable. The model will predict to which outcome group the patient will belong one-year postoperatively. The primary outcome measure is the performance of the predicted outcome categories with the actual outcome categories.
+Performance of prediction models is expressed as area under the curve of the receiver operator curve, predictive accuracy, true positive prediction rate, and false positive prediction rate.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>predictive accuracy</measure>
+    <time_frame>one-year postoperative</time_frame>
+    <description>See description primary outcome 1.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>true positive prediction rate</measure>
+    <time_frame>one-year postoperative</time_frame>
+    <description>See description primary outcome 1.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>false positive prediction rate</measure>
+    <time_frame>one-year postoperative</time_frame>
+    <description>See description primary outcome 1.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">300</enrollment>
+  <condition>Parkinson Disease</condition>
+  <arm_group>
+    <arm_group_label>multi-center validation cohort</arm_group_label>
+    <description>We collect retrospective data from several international centers containing preoperative variables (demographical and clinical) and postoperative outcome (UPDRS II, III, IV) one year postoperatively, and merge these data to one validation cohort.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Prediction of motor outcome after STN DBS based on preoperative variables</intervention_name>
+    <description>Generating individual probabilities for motor response based on preoperative variables</description>
+    <arm_group_label>multi-center validation cohort</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        One cohort consisting of PD patients who underwent STN DBS in several international
+        centers.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  underwent STN DBS for Parkinson's disease
+
+          -  completed one year follow up after surgery
+
+        Exclusion Criteria:
+
+        - missing data in postoperative UPDRS II, III, IV
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>MaastrichtUMC</name>
+      <address>
+        <city>Maastricht</city>
+        <state>Limburg</state>
+        <zip>6229 AZ</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Netherlands</country>
+  </location_countries>
+  <verification_date>February 2020</verification_date>
+  <study_first_submitted>September 17, 2019</study_first_submitted>
+  <study_first_submitted_qc>September 17, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 18, 2019</study_first_posted>
+  <last_update_submitted>February 19, 2020</last_update_submitted>
+  <last_update_submitted_qc>February 19, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 21, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>deep brain stimulation</keyword>
+  <keyword>motor outcome</keyword>
+  <keyword>prediction model</keyword>
+  <keyword>machine learning</keyword>
+  <keyword>Subthalamic nucleus</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Parkinson Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Anonymized data will be shared after completing analysing</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Analytic Code</ipd_info_type>
+    <ipd_time_frame>After data collection and analysis.</ipd_time_frame>
+    <ipd_access_criteria>Data can be made available on request.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

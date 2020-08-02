@@ -1,0 +1,193 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04482114</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PI2020_843_0052</org_study_id>
+    <nct_id>NCT04482114</nct_id>
+  </id_info>
+  <brief_title>Detection and Volumetry of Pulmonary Nodules on Ultra-low Dose Chest CT Scan With Deeplearning Image Reconstruction Algorithm (DLIR)</brief_title>
+  <acronym>DLIRTHORAX</acronym>
+  <official_title>Detection and Volumetry of Pulmonary Nodules on Ultra-low Dose Chest CT Scan With Deeplearning Image Reconstruction Algorithm (DLIR)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Centre Hospitalier Universitaire, Amiens</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Centre Hospitalier Universitaire, Amiens</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      evaluate the diagnostic performance of ultra-low dose CT using deep learning-based
+      reconstruction in the detection of pulmonary nodules.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      -  Background: Lung cancer is the leading cause of cancer deaths. Patients with pulmonary
+           nodules often undergo multiple computed tomography (CT) examinations for diagnostic and
+           follow-up purposes.
+
+        -  Purpose: The main objective of this study is to evaluate the diagnostic performance of
+           ultra-low dose CT using deep learning-based reconstruction in the detection of pulmonary
+           nodules.
+
+        -  Abstract: Despite recent advances, lung cancer remains the most commonly diagnosed
+           cancer and the leading cause of cancer death worldwide because it is often diagnosed at
+           advanced stages that are not surgically curable. Nevertheless, early detection of lung
+           cancer allows surgical resection, offers curative treatment and the best chance of
+           survival. There is currently no screening program in France, but individual screening
+           can be carried out depending on risk factors. Many pulmonary nodules are discovered each
+           year, most of which are benign. The challenge is to distinguish malignant lesions from
+           the multitude of benign lesions. One of the most effective criteria is the doubling time
+           of the nodules which leads to multiple follow-up examinations requiring ionizing
+           radiation to assess the size and growth of the nodules. Great efforts are currently
+           being made by CT manufacturers in order to reduce the radiation with equivalent
+           diagnostic performance. Patients who were referred to our department for an unenhanced
+           low-dose chest CT (LD CT) for pulmonary nodules check-up or follow-up, and had consented
+           to participate in the study, will undergo an additional ultra-low dose acquisition
+           (ULDCT, &lt;0,25 mSv, similar to standard two-view chest X-Ray) with deep learning-based
+           reconstruction (DLIR). The main objective of this study is to evaluate the diagnostic
+           performance between ULD and LD CT protocols for the detection of pulmonary nodules. The
+           impact of dose reduction will be assessed in this context. The data from each
+           examination will be blindly interpreted from the results of the other one. No follow-up
+           will be required for the study.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Anticipated">July 2020</start_date>
+  <completion_date type="Anticipated">July 2022</completion_date>
+  <primary_completion_date type="Anticipated">July 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>prospective transversal monocentric study</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Diagnostic accuracy</measure>
+    <time_frame>Day 0</time_frame>
+    <description>The study aimed to investigate the diagnostic accuracy (Sensibility and Specificity) of ultra-low dose CT using DLIR reconstruction for the detection of pulmonary nodules in comparison with the low dose CT reference protocol.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Image quality</measure>
+    <time_frame>Day 0</time_frame>
+    <description>The signal-to-noise ratio or SNR is calculated on areas of interest placed manually on the image (pulmonary parenchyma, axillary fat and surrounding air).
+This ratio is calculated by the average signal strength in these areas, divided by the standard deviation of the signal in outdoor areas such as the surrounding air.
+The quality of the image is estimated by a score ranging from 0 (poor quality) to 3 (excellent quality) determined subjectively by the operator.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pulmonary nodules volume</measure>
+    <time_frame>Day 0</time_frame>
+    <description>Difference of pulmonary nodules volume between images acquired at low dose CT and ultra-low dose CT.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">110</enrollment>
+  <condition>Pulmonary Nodules, Multiple</condition>
+  <arm_group>
+    <arm_group_label>ultra-low dose CT</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>All the examinations are part of the routine care. Addition of the ULD CT protocol does not require injection of contrast agent and does not extend the duration of the examination.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>ULD CT</intervention_name>
+    <description>All the examinations are part of the routine care. Addition of the ULD CT protocol does not require injection of contrast agent and does not extend the duration of the examination.</description>
+    <arm_group_label>ultra-low dose CT</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age ≥ 18 years old,
+
+          -  Patient referred for non-enhanced chest CT for lung nodule check-up or follow-up,
+
+          -  Affiliation to a social security program,
+
+          -  Ability of the subject to understand and express opposition
+
+        Exclusion Criteria:
+
+          -  Age &lt;18 years old,
+
+          -  Person under guardianship or curatorship,
+
+          -  Pregnant woman,
+
+          -  Any contraindications to CT
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Cédric Renard, Dr</last_name>
+    <phone>0322087500</phone>
+    <email>renard.cedric@chu-amiens.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Salah Mattoug</last_name>
+    <phone>0322088385</phone>
+    <email>mattoug.salah@chu-amiens.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>CHU Amiens-Picardie</name>
+      <address>
+        <city>Amiens</city>
+        <zip>80000</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Cédric RENARD, Dr</last_name>
+      <email>renard.cedric@chu-amiens.fr</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>July 15, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 20, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 22, 2020</study_first_posted>
+  <last_update_submitted>July 20, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 20, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 22, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>lung nodules</keyword>
+  <keyword>pulmonary nodules</keyword>
+  <keyword>lung cancer</keyword>
+  <keyword>radiation dose</keyword>
+  <keyword>dose reduction</keyword>
+  <keyword>low dose CT</keyword>
+  <keyword>ultra-low dose CT</keyword>
+  <keyword>DLIR</keyword>
+  <keyword>deep learning reconstruction</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Multiple Pulmonary Nodules</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

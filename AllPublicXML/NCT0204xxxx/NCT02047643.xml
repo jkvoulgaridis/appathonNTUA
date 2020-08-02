@@ -1,0 +1,686 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02047643</url>
+  </required_header>
+  <id_info>
+    <org_study_id>29205</org_study_id>
+    <nct_id>NCT02047643</nct_id>
+  </id_info>
+  <brief_title>Accelerometer Use in the Prevention of Exercise-Associated Hypoglycemia in Type 1 Diabetes: Outpatient Exercise Protocol</brief_title>
+  <official_title>Accelerometer Use in the Prevention of Exercise-Associated Hypoglycemia in Type 1 Diabetes: Outpatient Exercise Protocol</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Stanford University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Stanford University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Manually suspending an insulin pump at the beginning of aerobic exercise reduces the risk of
+      exercise-associated hypoglycemia (low blood sugar) in patients with type 1 diabetes (T1D).
+      However, since patients with T1D often do not make exercise-related adjustments to their
+      insulin regimen, our group has developed an algorithm to initiate pump suspension in a
+      user-independent manner upon projecting exercise-associated hypoglycemia. The current study
+      seeks to test the efficacy of this algorithm by asking users to participate in a sports camp
+      while wearing an insulin pump, continuous glucose monitor, and accelerometer/heart rate
+      monitor (to detect exercise), which will communicate electronically to a pump shutoff
+      algorithm. On one of the days the algorithm will be used, while on the other day their normal
+      insulin rate will continue for comparative purposes.
+
+      The investigators hypothesize that the use of an accelerometer-augmented computer algorithm
+      for insulin pump suspension during exercise will result in significantly fewer episodes of
+      hypoglycemia (both during exercise and in post-exercise monitoring) than in exercise without
+      a pump suspension algorithm.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Regular aerobic exercise confers a plethora of health benefits to all individuals and is
+      considered an essential component of the management of type 1 diabetes (T1D) [1]. However, in
+      contrast to non-diabetic subjects - in whom the increased muscle energy requirement during
+      exercise leads to suppression of endogenous insulin secretion - patients with T1D are
+      dependent upon exogenous insulin and are thus at risk for exercise-associated hypoglycemia
+      [1]. Exercise-associated hypoglycemia is the most frequently reported adverse event related
+      to exercise in diabetes [2] and hypoglycemia can occur during exercise or several hours
+      afterwards [3,4]. Although previous research has shown that pre-meal dose reduction of
+      subcutaneous insulin can be effective at decreasing the incidence of exercise-associated
+      hypoglycemia [5], patients with T1D often do not perform such adjustments [6,7].
+
+      In contrast to subcutaneous insulin injections, which are reliant upon the patient or
+      caretaker to determine dosage, the insulin pump provides a unique opportunity to avoid
+      hypoglycemia via user-independent, computer-based algorithms for determining insulin
+      delivery. Previous research conducted here at Stanford has demonstrated that algorithms based
+      on continuous glucose monitor (CGM) data can prevent hypoglycemia in the sedentary setting by
+      inducing insulin pump suspension [8-10]. In addition, a study of children and adolescents
+      conducted at Stanford (as a center in the DirecNet group) demonstrated that suspending an
+      insulin pump at the beginning of a period of moderate aerobic exercise reduces the risk of
+      hypoglycemia during that exercise period and subsequently overnight [11]. Thus, by utilizing
+      exercise-detecting accelerometers and an algorithm to initiate pump suspension during
+      exercise, it is likely possible that people with diabetes could avoid exercise-associated
+      hypoglycemia even if they failed to manually alter their pump settings. However, to date, no
+      published studies have utilized accelerometer-derived data in an insulin pump suspension
+      algorithm during exercise.
+
+      Accelerometers are light-weight motion-sensing devices that can be worn to provide
+      information about the intensity and duration of physical activity [12]. They are small,
+      inexpensive, and could easily be incorporated into current sensors and &quot;patch&quot; pumps. They
+      can also be used independently or combined with a heart rate monitor (HRM) [13], although
+      most commercially available HRMs currently require a chest strap that can be uncomfortable to
+      wear. Previous studies evaluating the effect of physical activity on insulin sensitivity have
+      utilized accelerometers (worn on a belt at the small of the back, the right side of the trunk
+      in the mid-axillary line, or the left side of the chest) with and without HRMs for activity
+      recognition during subjects' everyday lives. These data were used to classify activity as
+      sedentary, light, moderate, or vigorous based on acceleration signal counts measured over
+      one-minute intervals [13-17]. One study investigated four different accelerometers in a
+      clinical research setting and found each to be very accurate in assessing the intensity of
+      physical activity, regardless of subjects' body habitus [18]. Thus, these devices can provide
+      a reliable means by which the onset, duration, and intensity of exercise can be recognized
+      and reported in real-time to the other components of an artificial pancreas. When combined
+      with CGM and insulin delivery data, this exercise information is a valuable tool in designing
+      an algorithm to decrease or stop insulin delivery in order to decrease the risk of
+      exercise-associated hypoglycemia.
+
+      In the first phase of this study (in press), 22 subjects with type 1 diabetes went about
+      their everyday lives while wearing an insulin pump, CGM, and accelerometer/heart rate
+      monitor. After the monitoring period, the devices were downloaded and the data were used to
+      augment an existing predictive low glucose suspend (PLGS) algorithm to incorporate activity.
+      In a computer simulator, the PLGS algorithm reduced hypoglycemia by 64%, compared to 73% and
+      76% reductions for the accelerometer-augmented and HRM-augmented algorithms, respectively.
+
+      In the next phase of this study, we seek to test the newly developed algorithm in a real-life
+      setting in the form of a structured sports (soccer) camp to further see if modifications to
+      the algorithm are required.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">March 12, 2014</start_date>
+  <completion_date type="Actual">May 1, 2014</completion_date>
+  <primary_completion_date type="Actual">May 1, 2014</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <intervention_model_description>randomized crossover design. Subjects with type 1 diabetes participated in a structured soccer session on two separate dates at least one week apart. During one session a subject's basal insulin rate was continued (&quot;off-algorithm&quot;), while during the other session the algorithm (see &quot;algorithm monitoring&quot; below) was in effect (&quot;on-algorithm&quot;); the order of on- versus off-algorithm was chosen at random. The rate of hypoglycemia during exercise were compared between each group.
+Hypoglycemia was defined as (1) any meter blood glu
+cose (BG) reading of =60 mg/dl, (2) two consecutive meter
+BG readings =70 mg/dl done within one hour, or (3) any instance in which carbohydrates were given at a subject's request for symptoms of hypoglycemia (regardless of corre sponding meter BG reading).</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Count of Participants Experiencing a Hypoglycemic Event During Scheduled Exercise</measure>
+    <time_frame>Measurements occurring during exercise (up to 8 hours)</time_frame>
+    <description>The primary outcome will be a hypoglycemic event defined as (1) any meter blood glucose (BG) reading of ≤60 mg/dl, (2) two consecutive meter BG readings ≤70 mg/dl done within one hour, or (3) any instance in which carbohydrates were given at a subject's request for symptoms of hypoglycemia</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Count of Participants With Hypoglycemia in the Post Exercise Period</measure>
+    <time_frame>In the time following exercise until the following morning (up to 24 hours)</time_frame>
+    <description>A hypoglycemic event was defined as (1) any meter blood glucose (BG) reading of ≤60 mg/dl, (2) two consecutive meter BG readings ≤70 mg/dl done within one hour, or (3) any instance in which carbohydrates were given at a subject's request for symptoms of hypoglycemia</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">18</enrollment>
+  <condition>Type 1 Diabetes</condition>
+  <arm_group>
+    <arm_group_label>On-algorithm first, then Off-algorithm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Users will participate in two sports camp sessions while wearing an insulin pump, continuous glucose monitor, and accelerometer/heart rate monitor (to detect exercise), which can communicate electronically to a pump shutoff algorithm that insulin delivery should be shut off. On one sports day, the algorithm is turned on; on the other day, the algorithm is turned off.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Off-algorithm first, then On-algorithm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Users will participate in two sports camp sessions while wearing an insulin pump, continuous glucose monitor, and accelerometer/heart rate monitor (to detect exercise), which can communicate electronically to a pump shutoff algorithm that insulin delivery should be shut off. On one sports day, the algorithm is turned on; on the other day, the algorithm is turned off.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Computer algorithm to initiate pump suspension</intervention_name>
+    <description>If the computer algorithm senses impending risk for hypoglycemia it sends an alert to an on-site physician to recommend a manual suspension of the subject's insulin pump</description>
+    <arm_group_label>Off-algorithm first, then On-algorithm</arm_group_label>
+    <arm_group_label>On-algorithm first, then Off-algorithm</arm_group_label>
+    <other_name>Augmented predictive low glucose suspend algorithm</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Clinical diagnosis of type 1 diabetes for 1-20 years. The diagnosis of type 1 diabetes
+             is based on the investigator's judgment; C peptide level and antibody determinations
+             are not needed.
+
+          -  Age 8 to 25 years old.
+
+          -  On daily use of an insulin pump and not anticipating a change prior to the subject's
+             completion of the study.
+
+          -  Willingness to allow for CGM insertion (if not already using a study-designated CGM)
+             for use during the study.
+
+          -  HbA1c &lt;10%.
+
+          -  Parent/guardian and subject understand the study protocol and agree to comply with it.
+
+          -  Informed Consent Form signed by the parent/guardian and Child Assent Form signed.
+
+        Exclusion Criteria:
+
+          -  A history of recent injury to body or limb, Addison's disease, muscular disorder,
+             organ/bone marrow transplant, heart disease, or use of any medication or other
+             significant medical disorder if that injury, medication or disease in the judgment of
+             the investigator will affect the completion of the exercise protocol.
+
+          -  Current use of glucocorticoid medication (by any route of administration).
+
+          -  Current use of a beta blocker medication.
+
+          -  Severe hypoglycemia resulting in seizure or loss of consciousness in the four weeks
+             prior to sports camp (if a severe episode occurs after the first but prior to the
+             scheduled second admission, the visit will be deferred).
+
+          -  Active infection (if at the time of the planned second visit an infection is present,
+             the visit will be deferred).
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>8 Years</minimum_age>
+    <maximum_age>25 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Bruce A Buckingham, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Stanford University</name>
+      <address>
+        <city>Stanford</city>
+        <state>California</state>
+        <zip>94305</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>American Diabetes Association. Physical activity/exercise and diabetes. Diabetes Care. 2004 Jan;27 Suppl 1:S58-62.</citation>
+    <PMID>14693927</PMID>
+  </reference>
+  <reference>
+    <citation>Sonnenberg GE, Kemmer FW, Berger M. Exercise in type 1 (insulin-dependent) diabetic patients treated with continuous subcutaneous insulin infusion. Prevention of exercise induced hypoglycaemia. Diabetologia. 1990 Nov;33(11):696-703.</citation>
+    <PMID>2076801</PMID>
+  </reference>
+  <reference>
+    <citation>MacDonald MJ. Postexercise late-onset hypoglycemia in insulin-dependent diabetic patients. Diabetes Care. 1987 Sep-Oct;10(5):584-8.</citation>
+    <PMID>3677976</PMID>
+  </reference>
+  <reference>
+    <citation>Tuominen JA, Karonen SL, Melamies L, Bolli G, Koivisto VA. Exercise-induced hypoglycaemia in IDDM patients treated with a short-acting insulin analogue. Diabetologia. 1995 Jan;38(1):106-11.</citation>
+    <PMID>7744214</PMID>
+  </reference>
+  <reference>
+    <citation>Rabasa-Lhoret R, Bourque J, Ducros F, Chiasson JL. Guidelines for premeal insulin dose reduction for postprandial exercise of different intensities and durations in type 1 diabetic subjects treated intensively with a basal-bolus insulin regimen (ultralente-lispro). Diabetes Care. 2001 Apr;24(4):625-30.</citation>
+    <PMID>11315820</PMID>
+  </reference>
+  <reference>
+    <citation>Bernardini AL, Vanelli M, Chiari G, Iovane B, Gelmetti C, Vitale R, Errico MK. Adherence to physical activity in young people with type 1 diabetes. Acta Biomed. 2004 Dec;75(3):153-7.</citation>
+    <PMID>15796088</PMID>
+  </reference>
+  <reference>
+    <citation>Devadoss M, Kennedy L, Herbold N. Endurance athletes and type 1 diabetes. Diabetes Educ. 2011 Mar-Apr;37(2):193-207. doi: 10.1177/0145721710395782. Epub 2011 Feb 15.</citation>
+    <PMID>21325065</PMID>
+  </reference>
+  <reference>
+    <citation>Buckingham B, Cobry E, Clinton P, Gage V, Caswell K, Kunselman E, Cameron F, Chase HP. Preventing hypoglycemia using predictive alarm algorithms and insulin pump suspension. Diabetes Technol Ther. 2009 Feb;11(2):93-7. doi: 10.1089/dia.2008.0032.</citation>
+    <PMID>19848575</PMID>
+  </reference>
+  <reference>
+    <citation>Cengiz E, Swan KL, Tamborlane WV, Steil GM, Steffen AT, Weinzimer SA. Is an automatic pump suspension feature safe for children with type 1 diabetes? An exploratory analysis with a closed-loop system. Diabetes Technol Ther. 2009 Apr;11(4):207-10. doi: 10.1089/dia.2008.0102.</citation>
+    <PMID>19344194</PMID>
+  </reference>
+  <reference>
+    <citation>Buckingham B, Chase HP, Dassau E, Cobry E, Clinton P, Gage V, Caswell K, Wilkinson J, Cameron F, Lee H, Bequette BW, Doyle FJ 3rd. Prevention of nocturnal hypoglycemia using predictive alarm algorithms and insulin pump suspension. Diabetes Care. 2010 May;33(5):1013-7. doi: 10.2337/dc09-2303. Epub 2010 Mar 3.</citation>
+    <PMID>20200307</PMID>
+  </reference>
+  <reference>
+    <citation>Diabetes Research in Children Network (DirecNet) Study Group, Tsalikian E, Kollman C, Tamborlane WB, Beck RW, Fiallo-Scharer R, Fox L, Janz KF, Ruedy KJ, Wilson D, Xing D, Weinzimer SA. Prevention of hypoglycemia during exercise in children with type 1 diabetes by suspending basal insulin. Diabetes Care. 2006 Oct;29(10):2200-4.</citation>
+    <PMID>17003293</PMID>
+  </reference>
+  <reference>
+    <citation>Plasqui G, Westerterp KR. Physical activity assessment with accelerometers: an evaluation against doubly labeled water. Obesity (Silver Spring). 2007 Oct;15(10):2371-9. Review.</citation>
+    <PMID>17925461</PMID>
+  </reference>
+  <reference>
+    <citation>Gradmark A, Pomeroy J, Renström F, Steiginga S, Persson M, Wright A, Bluck L, Domellöf M, Kahn SE, Mogren I, Franks PW. Physical activity, sedentary behaviors, and estimated insulin sensitivity and secretion in pregnant and non-pregnant women. BMC Pregnancy Childbirth. 2011 Jun 16;11:44. doi: 10.1186/1471-2393-11-44.</citation>
+    <PMID>21679399</PMID>
+  </reference>
+  <reference>
+    <citation>Balkau B, Mhamdi L, Oppert JM, Nolan J, Golay A, Porcellati F, Laakso M, Ferrannini E; EGIR-RISC Study Group. Physical activity and insulin sensitivity: the RISC study. Diabetes. 2008 Oct;57(10):2613-8. doi: 10.2337/db07-1605. Epub 2008 Jun 30.</citation>
+    <PMID>18591396</PMID>
+  </reference>
+  <reference>
+    <citation>Ekelund U, Griffin SJ, Wareham NJ. Physical activity and metabolic risk in individuals with a family history of type 2 diabetes. Diabetes Care. 2007 Feb;30(2):337-42.</citation>
+    <PMID>17259504</PMID>
+  </reference>
+  <reference>
+    <citation>Simmons RK, Griffin SJ, Steele R, Wareham NJ, Ekelund U; ProActive Research Team. Increasing overall physical activity and aerobic fitness is associated with improvements in metabolic risk: cohort analysis of the ProActive trial. Diabetologia. 2008 May;51(5):787-94. doi: 10.1007/s00125-008-0949-4. Epub 2008 Mar 4.</citation>
+    <PMID>18317727</PMID>
+  </reference>
+  <reference>
+    <citation>Healy GN, Wijndaele K, Dunstan DW, Shaw JE, Salmon J, Zimmet PZ, Owen N. Objectively measured sedentary time, physical activity, and metabolic risk: the Australian Diabetes, Obesity and Lifestyle Study (AusDiab). Diabetes Care. 2008 Feb;31(2):369-71. Epub 2007 Nov 13.</citation>
+    <PMID>18000181</PMID>
+  </reference>
+  <reference>
+    <citation>Arvidsson D, Fitch M, Hudes ML, Tudor-Locke C, Fleming SE. Accelerometer response to physical activity intensity in normal-weight versus overweight African American children. J Phys Act Health. 2011 Jul;8(5):682-92.</citation>
+    <PMID>21734314</PMID>
+  </reference>
+  <results_reference>
+    <citation>Stenerson M, Cameron F, Payne SR, Payne SL, Ly TT, Wilson DM, Buckingham BA. The impact of accelerometer use in exercise-associated hypoglycemia prevention in type 1 diabetes. J Diabetes Sci Technol. 2015 Jan;9(1):80-5. doi: 10.1177/1932296814551045. Epub 2014 Sep 17.</citation>
+    <PMID>25231116</PMID>
+  </results_reference>
+  <verification_date>December 2019</verification_date>
+  <study_first_submitted>January 17, 2014</study_first_submitted>
+  <study_first_submitted_qc>January 24, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">January 28, 2014</study_first_posted>
+  <results_first_submitted>October 2, 2019</results_first_submitted>
+  <results_first_submitted_qc>October 2, 2019</results_first_submitted_qc>
+  <results_first_posted type="Actual">October 22, 2019</results_first_posted>
+  <last_update_submitted>December 17, 2019</last_update_submitted>
+  <last_update_submitted_qc>December 17, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 27, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Stanford University</investigator_affiliation>
+    <investigator_full_name>Bruce Buckingham</investigator_full_name>
+    <investigator_title>Professor of Pediatric Endocrinology</investigator_title>
+  </responsible_party>
+  <keyword>Type 1 diabetes</keyword>
+  <keyword>Hypoglycemia</keyword>
+  <keyword>Accelerometer</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+    <mesh_term>Hypoglycemia</mesh_term>
+  </condition_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>On-algorithm First, Then Off-algorithm</title>
+          <description>Users participated in two sports camp sessions while wearing an insulin pump, continuous glucose monitor, and accelerometer/heart rate monitor (to detect exercise), which can communicate electronically to a pump shutoff algorithm that insulin delivery should be shut off. On one sports day, the algorithm was turned on; on the other day, the algorithm was turned off. If the computer algorithm senses impending risk for hypoglycemia it sends an alert to an on-site physician to recommend a manual suspension of the subject's insulin pump.</description>
+        </group>
+        <group group_id="P2">
+          <title>Off-algorithm First, Then On-algorithm</title>
+          <description>Users participated in two sports camp sessions while wearing an insulin pump, continuous glucose monitor, and accelerometer/heart rate monitor (to detect exercise), which can communicate electronically to a pump shutoff algorithm that insulin delivery should be shut off. On one sports day, the algorithm was turned on; on the other day, the algorithm was turned off. If the computer algorithm senses impending risk for hypoglycemia it sends an alert to an on-site physician to recommend a manual suspension of the subject's insulin pump.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="9"/>
+                <participants group_id="P2" count="9"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="9"/>
+                <participants group_id="P2" count="9"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>All Participants</title>
+          <description>Users participated in two sports camp sessions while wearing an insulin pump, continuous glucose monitor, and accelerometer/heart rate monitor (to detect exercise), which can communicate electronically to a pump shutoff algorithm that insulin delivery should be shut off. On one sports day, the algorithm was turned on; on the other day, the algorithm was turned off. If the computer algorithm senses impending risk for hypoglycemia it sends an alert to an on-site physician to recommend a manual suspension of the subject's insulin pump.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="18"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="13.4" spread="3.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="18"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Hemoglobin A1c</title>
+          <units>percentage of glycosylated hemoglobin</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8.0" spread="1.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Insulin pump type</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>Medtronic</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="11"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>OmniPod</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Animas</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Tandem</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Count of Participants Experiencing a Hypoglycemic Event During Scheduled Exercise</title>
+        <description>The primary outcome will be a hypoglycemic event defined as (1) any meter blood glucose (BG) reading of ≤60 mg/dl, (2) two consecutive meter BG readings ≤70 mg/dl done within one hour, or (3) any instance in which carbohydrates were given at a subject's request for symptoms of hypoglycemia</description>
+        <time_frame>Measurements occurring during exercise (up to 8 hours)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>On-algorithm</title>
+            <description>Users participated in two sports camp sessions while wearing an insulin pump, continuous glucose monitor, and accelerometer/heart rate monitor (to detect exercise), which can communicate electronically to a pump shutoff algorithm that insulin delivery should be shut off. On one sports day, the algorithm was turned on; on the other day, the algorithm was turned off. If the computer algorithm senses impending risk for hypoglycemia it sends an alert to an on-site physician to recommend a manual suspension of the subject's insulin pump.</description>
+          </group>
+          <group group_id="O2">
+            <title>Off-algorithm</title>
+            <description>Users participated in two sports camp sessions while wearing an insulin pump, continuous glucose monitor, and accelerometer/heart rate monitor (to detect exercise), which can communicate electronically to a pump shutoff algorithm that insulin delivery should be shut off. On one sports day, the algorithm was turned on; on the other day, the algorithm was turned off. If the computer algorithm senses impending risk for hypoglycemia it sends an alert to an on-site physician to recommend a manual suspension of the subject's insulin pump.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Count of Participants Experiencing a Hypoglycemic Event During Scheduled Exercise</title>
+          <description>The primary outcome will be a hypoglycemic event defined as (1) any meter blood glucose (BG) reading of ≤60 mg/dl, (2) two consecutive meter BG readings ≤70 mg/dl done within one hour, or (3) any instance in which carbohydrates were given at a subject's request for symptoms of hypoglycemia</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="18"/>
+                <count group_id="O2" value="18"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3"/>
+                    <measurement group_id="O2" value="6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Other</non_inferiority_type>
+            <p_value>.45</p_value>
+            <method>Fisher Exact</method>
+            <method_desc>Two-sided Fisher Exact test</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Count of Participants With Hypoglycemia in the Post Exercise Period</title>
+        <description>A hypoglycemic event was defined as (1) any meter blood glucose (BG) reading of ≤60 mg/dl, (2) two consecutive meter BG readings ≤70 mg/dl done within one hour, or (3) any instance in which carbohydrates were given at a subject's request for symptoms of hypoglycemia</description>
+        <time_frame>In the time following exercise until the following morning (up to 24 hours)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>On-algorithm</title>
+            <description>Users participated in two sports camp sessions while wearing an insulin pump, continuous glucose monitor, and accelerometer/heart rate monitor (to detect exercise), which can communicate electronically to a pump shutoff algorithm that insulin delivery should be shut off. On one sports day, the algorithm was turned on; on the other day, the algorithm was turned off. If the computer algorithm senses impending risk for hypoglycemia it sends an alert to an on-site physician to recommend a manual suspension of the subject's insulin pump.</description>
+          </group>
+          <group group_id="O2">
+            <title>Off-algorithm</title>
+            <description>Users participated in two sports camp sessions while wearing an insulin pump, continuous glucose monitor, and accelerometer/heart rate monitor (to detect exercise), which can communicate electronically to a pump shutoff algorithm that insulin delivery should be shut off. On one sports day, the algorithm was turned on; on the other day, the algorithm was turned off. If the computer algorithm senses impending risk for hypoglycemia it sends an alert to an on-site physician to recommend a manual suspension of the subject's insulin pump.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Count of Participants With Hypoglycemia in the Post Exercise Period</title>
+          <description>A hypoglycemic event was defined as (1) any meter blood glucose (BG) reading of ≤60 mg/dl, (2) two consecutive meter BG readings ≤70 mg/dl done within one hour, or (3) any instance in which carbohydrates were given at a subject's request for symptoms of hypoglycemia</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="18"/>
+                <count group_id="O2" value="18"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                    <measurement group_id="O2" value="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Other</non_inferiority_type>
+            <p_value>.66</p_value>
+            <method>Fisher Exact</method>
+            <method_desc>Two-sided Fisher Exact test</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Two 24-hour periods</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>On-algorithm</title>
+          <description>Users participated in two sports camp sessions while wearing an insulin pump, continuous glucose monitor, and accelerometer/heart rate monitor (to detect exercise), which can communicate electronically to a pump shutoff algorithm that insulin delivery should be shut off. On one sports day, the algorithm was turned on; on the other day, the algorithm was turned off. If the computer algorithm senses impending risk for hypoglycemia it sends an alert to an on-site physician to recommend a manual suspension of the subject's insulin pump.</description>
+        </group>
+        <group group_id="E2">
+          <title>Off-algorithm</title>
+          <description>Users participated in two sports camp sessions while wearing an insulin pump, continuous glucose monitor, and accelerometer/heart rate monitor (to detect exercise), which can communicate electronically to a pump shutoff algorithm that insulin delivery should be shut off. On one sports day, the algorithm was turned on; on the other day, the algorithm was turned off. If the computer algorithm senses impending risk for hypoglycemia it sends an alert to an on-site physician to recommend a manual suspension of the subject's insulin pump.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="18"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="18"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="3" subjects_at_risk="18"/>
+                <counts group_id="E2" subjects_affected="6" subjects_at_risk="18"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Metabolism and nutrition disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Hypoglycemia</sub_title>
+                <counts group_id="E1" subjects_affected="3" subjects_at_risk="18"/>
+                <counts group_id="E2" subjects_affected="6" subjects_at_risk="18"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Bruce Buckingham, M.D.</name_or_title>
+      <organization>Stanford University</organization>
+      <phone>408-356-0911</phone>
+      <email>buckingham@stanford.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

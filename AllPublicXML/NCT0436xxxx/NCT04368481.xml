@@ -1,0 +1,193 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04368481</url>
+  </required_header>
+  <id_info>
+    <org_study_id>KCH18-197</org_study_id>
+    <nct_id>NCT04368481</nct_id>
+  </id_info>
+  <brief_title>MRI Incidental Finding Deep Learning Identification</brief_title>
+  <acronym>MIDI</acronym>
+  <official_title>Deep Learning for Identification of Incidental Findings on Cranial MRI</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>King's College Hospital NHS Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>King's College Hospital NHS Trust</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Unexpected abnormalities with potential clinical relevance (incidental findings) occur in
+      2.7% of head MRI studies. There is a wide variation in how incidental findings (IFs)
+      discovered in 'healthy volunteers' are managed. Routine reporting of 'healthy volunteers' by
+      a radiologist is a challenging logistic and financial burden and in a survey of UK
+      institutions performing research imaging, just 14% of institutions had this as policy. It
+      would be valuable to devise automated strategies to ensure that IFs could be reliably and
+      accurately identified which potentially would remove 90% of scans requiring routine
+      radiological review, thereby increasing the feasibility of implementing a routine reporting
+      strategy.
+
+      Deep learning is a new technique in computer science that automatically learns hierarchies of
+      relevant features directly from the raw inputs (e.g. MRI) using multilayered neural networks.
+      Previous studies have demonstrated the potential of deep learning methods in the basic
+      interpretation of neuroradiological studies including MRI scans.
+
+      A deep learning algorithm will be trained using both retrospective and prospective head MRI
+      studies to recognise studies with abnormalities. Retrospective and prospective data will be
+      obtained from secondary and tertiary NHS centres across the UK. A deep learning algorithm
+      will be trained that classifies a subset of these studies as normal or abnormal. The
+      technique will then be tested on an independent subset to determine its validity.
+
+      Retrospective MRI scans will be collected from NHS databases by the direct care team and then
+      anonymised before being transferred to the research team for training and testing.
+      Prospective MRI scans will be obtained by recruiting patients who are undergoing head MRI
+      scans as part of their routine medical care and then anonymised before being transferred to
+      the research team.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 1, 2019</start_date>
+  <completion_date type="Anticipated">November 20, 2023</completion_date>
+  <primary_completion_date type="Anticipated">October 20, 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity and specificity of a deep learning computer algorithm (termed a convolutional neural network) to recognise abnormalities on cranial MRI scans.</measure>
+    <time_frame>At end of study (5-year study)</time_frame>
+    <description>Sensitivity, specificity, positive predictive value, and negative predictive values.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity and specificity of a deep learning computer algorithm to broadly categorise abnormalities on cranial MRI scans.</measure>
+    <time_frame>At end of study (5-year study)</time_frame>
+    <description>Sensitivity, specificity, positive predictive value, and negative predictive values.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">30000</enrollment>
+  <condition>Neurological Disorder</condition>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Deep Learning Algorithm</intervention_name>
+    <description>The study involves the development and testing of a diagnostic test. We will develop the computer algorithm using a dataset of retrospective and prospective head MRI scans, to train convolutional networks using software developed at the Department of Biomedical Engineering, King's College London. The reference standard will be consultant radiologist reports of the MRI studies.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All adult cranial MRI scan patients presenting at the radiology departments of secondary
+        and tertiary NHS centres across the UK for any indication.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All cranial MRI scans with compatible sequences
+
+          -  &gt; 18 years old
+
+        Exclusion Criteria:
+
+          -  No corresponding radiologist report for the retrospective analyses
+
+          -  No consent for future use of the research images held within the historic database
+             stored at The Centre for Neuroimaging Sciences (Kings College London).
+
+          -  Poor image quality
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Thomas Booth</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>King's College Hospital NHS Trust</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Alima Rahman</last_name>
+    <phone>+44(0)20 7848 9670</phone>
+    <email>alima.rahman@kcl.ac.uk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Thomas Booth</last_name>
+    <email>tombooth@doctors.org.uk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Guy's Hospital</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>King's College Hospital</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Research Team</last_name>
+      <email>research.kch@gmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>St George's Hospital</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>St Thomas' Hospital</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>February 2020</verification_date>
+  <study_first_submitted>February 18, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 27, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 29, 2020</study_first_posted>
+  <last_update_submitted>April 27, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 27, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 29, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Nervous System Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

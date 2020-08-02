@@ -1,0 +1,494 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04289259</url>
+  </required_header>
+  <id_info>
+    <org_study_id>APHP180023</org_study_id>
+    <secondary_id>2019-A00129-48</secondary_id>
+    <secondary_id>CA209-8RK</secondary_id>
+    <nct_id>NCT04289259</nct_id>
+  </id_info>
+  <brief_title>Tumor Mutational Burden in Lung Cancer Patients</brief_title>
+  <acronym>MUBULUC</acronym>
+  <official_title>National Real-life Study of Tumor Mutational Burden Assessment in First-line Lung Cancer</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Assistance Publique - Hôpitaux de Paris</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Bristol-Myers Squibb</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Assistance Publique - Hôpitaux de Paris</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Tumor mutational burden (TMB) seems to be is an important marker for immune checkpoint
+      inhibitors efficacy. This study aims to assess the feasibility of the TMB assessment in
+      first-line lung cancer in routine practice both on biopsy and surgical tumor samples. Results
+      will be an element of discussion for the generalization of the TMB implementation in cancer
+      centers.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      1. Current knowledge about the field under investigation
+
+           Clinical evidence demonstrates that treatment with immune checkpoint blocker (ICB)
+           agents benefit to patients across multiple tumor type. However, development of
+           predictive biomarkers is needed to identify patients who are most likely to respond to
+           immunotherapy.
+
+           An emerging biomarker for response to immunotherapy is the total number of mutations
+           present in a tumor specimen. This biomarker is named mutation load or tumor mutational
+           burden (TMB). It is hypothesized that highly mutated tumors are more likely to harbor
+           neoantigens targeted by activated immune cells. This metric, allowed by recent advances
+           in next-generation sequencing (NGS) technologies, notably whole-exome sequencing (WES)
+           and RNA-sequencing (RNA-seq), has been shown, in several tumor types, to correlate with
+           patient response to ICB. Indeed, the TMB has been correlated with clinical benefits of
+           anti-PD-1 and anti-CTLA-4 therapy in various tumor types, including malignant melanoma
+           (Snyder et al., 2014; Van Allen et al., 2015) with a threshold of more than 100
+           nonsynonymous single-nucleotide variants (nsSNV) per exome, non-small cell lung cancers
+           (NSCLC) (Rizvi et al., 2015) with a threshold defined as superior to 178 nsSNVs per
+           exome, and several DNA repair-deficient tumors (Howitt et al., 2015; Le et al., 2015,
+           2017). A recent study prospectively confirmed that the PFS among patients with a high
+           tumor mutational burden was significantly longer with nivolumab plus ipilimumab than
+           with chemotherapy in NSCLC (Hellmann et al., 2018). Overall, a direct link between DNA
+           repair deficiency, mutational landscape, predicted neoantigen load, and clinical
+           activity of ICB is suggested.
+
+           TMB was defined as the number of somatic, coding, base substitution, and indel mutations
+           per megabase of genome examined. All base substitutions and indels in the coding region
+           of targeted genes. It has been shown that TMB calculated using cancer gene panel (CGP)
+           assay agrees well with whole exome measures of mutation burden (Chalmers et al., 2017).
+           This indicates that CGP, targeting the entire coding region of several hundred genes,
+           covers sufficient genomic size to accurately assess WES mutational burden. It was found
+           that filtering out germline alterations and rare variants was important to obtaining
+           accurate measurements of TMB, and this will especially be important in patients from
+           ethnic backgrounds not well represented in sequencing datasets. These findings indicate
+           that CGP is an accurate, cost-effective, and clinically available tool for measuring
+           TMB. The results of down sampling analysis show that the variation in measurement due to
+           sampling when sequencing 1.1 Mb is acceptably low, resulting in highly accurate calling
+           of TMB at a range of TMB levels. This sampling variation increases as the number of
+           megabases sequenced decreases, especially at lower levels of TMB. While targeted CGP can
+           be used to accurately assess TMB, it is not currently suited for identification of
+           neoantigens, which might occur in any gene. Nevertheless, the theragnostic impact of TMB
+           has been also determined with a targeted CGP by the FoundationOne CDx assay (Hellmann et
+           al., 2018).
+
+           The failure to assess the TMB may occur at different steps in the analytical process. It
+           can be at the sample acquisition with a low level of DNA (5-10%). The NGS processing
+           depending on the method can lead to a process failure around 2-3%. And finally, the
+           bioinformatic curation will lead to a 3-5% of failure. At the end, the TMB will be
+           undetermined with an attrition rate at 15% of the samples (Fondation Medicine Personal
+           communication).
+
+           The implementation of tumor mutational burden assessment in a nation-wide perspective is
+           challenging and large efforts should be done. Whatever the method, WES or large CGP, the
+           measurements of TMB will change the scale of gene sequencing in the molecular platforms.
+
+           It is important that the platforms, where the tumor mutational burden measurement will
+           be implemented can be able to calibrate their CGP and compared it to a standard
+           reference for the measurement of TMB. Moreover, with the limited quantity of DNA, the
+           implemented method needs to produce reliable result for most of the samples. The
+           platforms need also to deploy their wet benches processes and their bioinformatics
+           pipeline to be able to produce the TMB in a turnaround time compatible with clinical
+           patients management.
+
+        2. Description of the population of study participants and justification for the choice of
+           participants
+
+           As mentioned above the TMB seems to be is an important marker for ICB efficacy. It is
+           therefore important to implement the TMB measurement at a nationwide level to assure the
+           equal access to the ICB.
+
+           The French National Cancer Institute (INCa) has labelled molecular platforms which are
+           in charge of the different molecular tests should establish their processes to be able
+           to face to this new test. This study is designated to test different CGP methods to
+           assess tumor mutational burden in lung cancers in order to compare the different methods
+           and to identify the drawbacks and failures of the different methods. Results of this
+           study should allow to estimate the needs for the implementation of TMB at the nationwide
+           level, recommend cancer gene panels, propose validated bioinformatics pipelines and
+           finally recommend preanalytical processes for reducing the failure rate of the tests.
+
+           For this purpose this study will determine the TMB on patients with a lung cancer. 200
+           patients with a non-small cell lung cancer (NSCLC) and naive of treatment will be
+           recruited.
+
+           Three cohorts will be recruited:
+
+             -  100 patients will be included without resection and we will determine the TMB on
+                the biopsy specimen
+
+             -  100 patients will be included after surgical resection of their tumor and we will
+                determine the TMB on the resected specimen
+
+                  -  Within this cohort, TMB will be assessed both on the biopsy specimen and on
+                     the resected specimen for 20 patients 200 patients will be enrolled in order
+                     to perform 220 TMB analysis.
+
+           Participating sites are large platforms which were selected on the basis of their
+           capacity to implement new tests and which have all facilities for conducting the
+           described research. The patients included in this study will correspond to those that
+           will receive immune checkpoint inhibitors during the course of their disease. This study
+           in a non-interventional study, as it will not modify the clinical care of the patients.
+           The tissue sampling will be taken during clinical procedure needed for patient care. The
+           study will be proposed to patients after the verification that tissues have been
+           collected in a way that is compatible with the present study. Only tumor material and no
+           germline DNA will be collected.
+
+           Selected patients will be close to those that receive ICB and the target population will
+           be enriched with patients who had been surgically resected, in order to be able to have
+           enough tissues to compare in these samples different methods to assess TMB and also to
+           compare pre surgical biopsies and surgical specimen.
+
+        3. Description of the element or elements under investigation
+
+      Elements under investigation are the TMB of NSCLC patients. The attrition rate (number of
+      cases without result) in the TMB estimation will be assessed. The gold standard for the
+      determination of TMB is the WES as it covers all coding regions. Several others Cancer Gene
+      Panel methods (CGP) have been described based on cancer gene panels sequencing. The CGP
+      included in this study will be the panel from Illumina (TS500), Thermofisher (Oncomine Tumor
+      Mutation Load Assay), home-made panel with Agilent technology (Dedicated XT HS) and
+      Foundation medicine F1 CDx. It is recognized that size of the cancer gene panels should be
+      close to 1Mb to be able to measure reliably the TMB in different type of cancer.
+
+      Different methods of measurement of TMB will be compared in this series on NSCLC in order to
+      validate different CGP available on the market or in the different INCa platforms.
+      Bioinformatics modelling will try to correlate the TMB results from WES and CGP. For this
+      purpose, based on results of mutational load calculated from results of WES, results of
+      mutation load will be extrapolated based on a random selection of 1000 genes repeated 1000
+      times. The mean of the correlation coefficient (R2) between the tumor mutational burden
+      calculated by the whole exome sequencing and by the different random gene panels is 0.88 IQR
+      [0.84-0.91] showing that the selection of genes to estimate the TMB should be evaluated
+      carefully before to be used in clinical practice (unpublished results). The material that
+      will be collected during the study will allow to determine the performance of the CGP
+      implemented in the molecular biology platforms.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">March 10, 2020</start_date>
+  <completion_date type="Anticipated">May 10, 2021</completion_date>
+  <primary_completion_date type="Anticipated">May 10, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Global attrition rate</measure>
+    <time_frame>Time of sample analysis</time_frame>
+    <description>Number of cases without result</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Turnaround time to determine tumor mutational burden (TMB)</measure>
+    <time_frame>3 weeks</time_frame>
+    <description>Time between the reception of the tissues samples on platforms and TMB results availability</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Attrition rate for RNA-sequencing (RNAseq)</measure>
+    <time_frame>Time of sample analysis</time_frame>
+    <description>Number of cases analyzed by RNAseq approach without result</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of misclassification for TMB determined by RNA-seq</measure>
+    <time_frame>Time of sample analysis</time_frame>
+    <description>Compared to the TMB determined by whole exome sequencing (WES) as a gold standard</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of misclassification for TMB determined by Cancer Genome Panel (CGP)</measure>
+    <time_frame>Time of sample analysis</time_frame>
+    <description>Compared to the TMB determined by whole exome sequencing (WES) as a gold standard</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of misclassification for TMB determined by FoundationOne CDx assay panel</measure>
+    <time_frame>Time of sample analysis</time_frame>
+    <description>Compared to the TMB determined by whole exome sequencing (WES) as a gold standard</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Molecular druggable alterations detected by CPG or WES and RNAseq</measure>
+    <time_frame>Time of sample analysis</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Concordance of the TMB value in pre-surgical biopsies to surgical specimen for the same patients</measure>
+    <time_frame>Time of sample analysis</time_frame>
+  </secondary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Non Small Cell Lung Cancer</condition>
+  <condition>Non-Small Cell Carcinoma of Lung</condition>
+  <condition>Non Small Cell Lung Cancer Stage III</condition>
+  <condition>Non-small Cell Lung Cancer Stage IV</condition>
+  <arm_group>
+    <arm_group_label>Biopsy sample</arm_group_label>
+    <description>Tumor mutational burden (TMB) will be assessed on a sample of the biopsy done during standard care of patients.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Surgical sample</arm_group_label>
+    <description>TMB will be assessed on a sample of the tumor surgical specimen resected during standard care of patients.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Biopsy sample + surgical sample</arm_group_label>
+    <description>TMB will be assessed both on a sample of the biopsy and a sample of the tumor surgical specimen resected during standard care of patients.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>TMB assessment</intervention_name>
+    <description>Tumor mutational burden could be calculated by cancer gene panel (CGP), whole-exome sequencing (WES), RNA-sequencing (RNA-seq), FoundationOne CDx assay panel (FMI).</description>
+    <arm_group_label>Biopsy sample</arm_group_label>
+    <arm_group_label>Biopsy sample + surgical sample</arm_group_label>
+    <arm_group_label>Surgical sample</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      20 ml of blood samples will be collected to reach 10 ml of plasma
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adults with a non-small cell lung cancer (NSCLC) and naive of treatment
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patient with any NSCLC, stage III and IV with a molecular analysis on the French
+             platform. There will be no exclusion criteria on the presence of an oncogenic mutation
+             as EGFR, KRAS, ALK.
+
+          -  Patient age will be ≥ 18 years old and &lt; 85 years old
+
+          -  The pre-analytical features of the patient's sample are compatible with the CGP / WES
+             analysis.
+
+          -  Patient has signed the ICF.
+
+          -  The FFPE material from the patient's sample needs to be available to be analyzed on
+             site and sent for central analyses. If FFPE sample is not available within 1 month,
+             on-site analysis can begin on extracted DNA previously screened in small panel NGS.
+
+          -  The neoplastic cells in the patient's sample should be superior to 30%.
+
+        Exclusion Criteria:
+
+          -  The TMB in patient's NSCLC is already known or estimated in the case of a clinical
+             trial.
+
+          -  Patient with relapsing NSCLC if the initial cancer has received a neoadjuvant /
+             adjuvant treatment.
+
+          -  Patient under legal protection
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>85 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jacques Cadranel, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>AP-HP - Hôpital Tenon</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Benjamin Besse, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Gustave Roussy, Cancer Campus, Grand Paris</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Pierre Laurent-Puig, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>AP-HP - Hôpital Européen Georges-Pompidou</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Etienne Rouleau, PharmD, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Gustave Roussy, Cancer Campus, Grand Paris</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Etienne Rouleau, PharmD, PhD</last_name>
+    <email>etienne.rouleau@gustaveroussy.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Yvann Frigout</last_name>
+    <email>yvann.frigout@aphp.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Centre Jean Perrin</name>
+      <address>
+        <city>Clermont-Ferrand</city>
+        <state>Auvergne-Rhône-Alpes</state>
+        <zip>63000</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Pascale Dubray-Longeras, MD</last_name>
+      <email>pascale.dubray-longeras@clermont.unicancer.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Centre Léon Bérard</name>
+      <address>
+        <city>Lyon</city>
+        <state>Auvergne-Rhône-Alpes</state>
+        <zip>69008</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Maurice Perol, MD</last_name>
+      <email>maurice.perol@lyon.unicancer.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Institut Bergonié</name>
+      <address>
+        <city>Bordeaux</city>
+        <state>Nouvelle-Aquitaine</state>
+        <zip>33000</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Sophie Cousin, MD</last_name>
+      <email>s.cousin@bordeaux.unicancer.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Institut Curie</name>
+      <address>
+        <city>Paris</city>
+        <state>Île-de-France</state>
+        <zip>75005</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Nicolas Girard, MD</last_name>
+      <email>nicolas.girard2@curie.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>AP-HP - Hôpital Cochin</name>
+      <address>
+        <city>Paris</city>
+        <state>Île-de-France</state>
+        <zip>75014</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Marie Wislez, MD</last_name>
+      <email>marie.wislez@aphp.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>AP-HP - Hôpital Européen Georges-Pompidou</name>
+      <address>
+        <city>Paris</city>
+        <state>Île-de-France</state>
+        <zip>75015</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Elizabeth Fabre, MD</last_name>
+      <email>elizabeth.fabre@aphp.fr</email>
+    </contact>
+    <contact_backup>
+      <last_name>Pierre Laurent-Puig, MD</last_name>
+      <email>pierre.laurent-puig@parisdescartes.fr</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>AP-HP - Hôpital Tenon</name>
+      <address>
+        <city>Paris</city>
+        <state>Île-de-France</state>
+        <zip>75020</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Jacques Cadranel, MD</last_name>
+      <email>jacques.cadranel@aphp.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Gustave Roussy</name>
+      <address>
+        <city>Villejuif</city>
+        <state>Île-de-France</state>
+        <zip>94800</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Benjamin Besse, MD</last_name>
+      <email>benjamin.besse@gustaveroussy.fr</email>
+    </contact>
+    <contact_backup>
+      <last_name>Etienne Rouleau, PharmD, PhD</last_name>
+      <email>etienne.rouleau@gustaveroussy.fr</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>September 2019</verification_date>
+  <study_first_submitted>February 26, 2020</study_first_submitted>
+  <study_first_submitted_qc>February 26, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 28, 2020</study_first_posted>
+  <last_update_submitted>March 6, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 6, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 10, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Tumor mutational burden</keyword>
+  <keyword>Cancer gene panel</keyword>
+  <keyword>Whole-exome sequencing</keyword>
+  <keyword>FoundationOne CDx assay panel</keyword>
+  <keyword>RNA-sequencing</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lung Neoplasms</mesh_term>
+    <mesh_term>Carcinoma, Non-Small-Cell Lung</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Individual participant data (IPD) that underlie results in publication could be shared.
+IPD detailed in the protocol of a planned metaanalysis could be shared.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_time_frame>One year after the last publication</ipd_time_frame>
+    <ipd_access_criteria>Data sharing must be accepted by the sponsor and the PI based on scientific project and scientific involvement of the PI team. The founder could be involved in the decision.
+Teams wishing obtain IPD must meet the sponsor and IP team to present scientifics (and commercial) purpose, IPD needed, format of data transmission, and timeframe. Technical feasibility and financial support will be discussed before mandatory contractualization.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

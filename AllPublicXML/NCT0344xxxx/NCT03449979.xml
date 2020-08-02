@@ -1,0 +1,982 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03449979</url>
+  </required_header>
+  <id_info>
+    <org_study_id>16-1911b</org_study_id>
+    <secondary_id>R01MH101547</secondary_id>
+    <nct_id>NCT03449979</nct_id>
+  </id_info>
+  <brief_title>Single Session of tACS in a Depressive Episode</brief_title>
+  <acronym>SSDE</acronym>
+  <official_title>Rational Optimization of tACS for Targeting Thalamo-Cortical Oscillations (Experiment 3)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of North Carolina, Chapel Hill</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Mental Health (NIMH)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of North Carolina, Chapel Hill</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Purpose: Investigating the effects of non-invasive transcranial alternating current
+      stimulation (tACS) on healthy participants and participants with mood disorders.
+
+      Participants: 40 males and females, ages 18-65, with depressed mood; 40 healthy males and
+      females, ages 18-65, free of neurological or psychiatric conditions.
+
+      Procedures: This is a single visit study with two stimulation conditions (tACS and sham
+      tACS). The session will begin with clinical assessments (including confirmation of
+      diagnosis), followed by an interactive EEG task, then a 7 minute resting state EEG (2 minutes
+      eyes closed, 5 minutes eyes open), followed by the stimulation session (40 minutes of tACS or
+      sham tACS), followed by an additional 5 minute resting state EEG. The stimulation will
+      involved 40 minutes of transcranial alternating current stimulation, 2 mA in amplitude and at
+      individualized alpha frequency (determined by the 2 minutes eyes closed EEG recording;
+      between 8 and 12Hz).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Participants will report for a study visit and will review and sign a consent form.
+
+      Participants will complete several clinical assessments and also take a urine drug test and
+      urine pregnancy test (if applicable). Eligibility will be re-assessed by the investigators
+      before the participant moves on to the next phase.
+
+      If the participant still qualifies, the participant will first be fitted with two 5x5cm
+      electrodes placed over F3/F4 (10-20 measurement system) and one 5x7cm electrode placed over
+      Cz. In addition, the participant will have a 128-channel EEG net placed on their head.
+      Participants will provide a saliva sample to assess for brain-derived neurotrophic factor
+      (BDNF), which may affect how the participant's brain responds to stimulation. Once the
+      participant is fitted with this equipment, the participant will complete two interactive EEG
+      tasks, then 2-minute resting state EEG with the participant's eyes closed, then a 5-minute
+      resting state EEG with the participant's eyes open.
+
+      Following these recordings, participants will respond to additional questionnaires.
+      Immediately following this, the participant will receive 40 minutes of stimulation (tACS or
+      sham tACS). During this stimulation, participants will sit comfortably upright and awake.
+
+      After stimulation has completed, participants will respond to additional questionnaires. Once
+      completed, participants will then complete an additional 5-minute resting state EEG with the
+      participant's eyes open, as well as complete one of the additional interactive EEG tasks.
+
+      Finally, participants will respond to a blinding questionnaire to assess if the participant
+      thought that the participant received stimulation. Once complete, the participant will leave.
+      This session is estimated to last about 4 hours.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">September 19, 2018</start_date>
+  <completion_date type="Actual">August 16, 2019</completion_date>
+  <primary_completion_date type="Actual">August 16, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>This study recruits both participants currently experiencing a depressive episode (regardless of diagnosis) and those with no history of neurological or psychiatric illness. Randomization will occur in a 1:1 ratio for both of these groups, with half of each group receiving transcranial alternating current stimulation (tACS) at 10 Hz and the other half receiving placebo (or sham) stimulation.</intervention_model_description>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>Double (Participant, Investigator)</masking>
+    <masking_description>This is a double-blind study, meaning that neither the participant nor the experimenter knows what kind of stimulation the participant is receiving. An unblinded monitor (separate from the staff that interacts with the participant) is responsible for creating the stimulation codes that run each session and for ensuring that these codes worked correctly.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in Alpha Frequency Electrical Activity in Left Frontal Cortex From Stimulation</measure>
+    <time_frame>5 minute recording before and after intervention</time_frame>
+    <description>Fast Fourier transform is applied to 5 minutes of EEG data before and after intervention. Primary outcome is the difference in alpha frequency amplitude (8-12 Hz) in the left frontal cortex from baseline as a result of intervention.</description>
+  </primary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Actual">84</enrollment>
+  <condition>Depression</condition>
+  <condition>Major Depressive Disorder</condition>
+  <condition>Premenstrual Dysphoric Disorder</condition>
+  <condition>Depressive Episode</condition>
+  <arm_group>
+    <arm_group_label>alpha stimulation in participants in a depressive episode</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants in a depressive episode will receive 2 mA of alternating current stimulation at individualized alpha stimulation (between 8 and 12Hz; determined by an EEG recording prior to stimulation) for 40 minutes. tACS stimulation is delivered using the XCSITE100 Stimulator tACS.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>sham stimulation in participants in a depressive episode</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Sham Stimulation mimics the physical effects of stimulation, with up to one minute of stimulation during the session. Sham stimulation to participants in a depressive episode is delivered using the XCSITE100 Stimulator Sham.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>alpha stimulation in healthy participants</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Healthy participants will receive 2 mA of alternating current stimulation at individualized alpha stimulation (between 8 and 12Hz; determined by an EEG recording prior to stimulation) for 40 minutes. tACS stimulation is delivered using the XCSITE100 Stimulator tACS.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>sham stimulation in healthy participants</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Sham Stimulation mimics the physical effects of stimulation, with up to one minute of stimulation during the session. Sham stimulation to healthy participants is delivered using the XCSITE100 Stimulator Sham.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>XCSITE100 Stimulator Sham</intervention_name>
+    <description>The participant will receive up to one minute of tACS stimulation until the stimulation fades. Sham stimulation mimics the skin sensations a participant would experience during a tACS session.</description>
+    <arm_group_label>sham stimulation in healthy participants</arm_group_label>
+    <arm_group_label>sham stimulation in participants in a depressive episode</arm_group_label>
+    <other_name>Sham tACS</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>XCSITE100 Stimulator tACS</intervention_name>
+    <description>Transcranial alternating current stimulation (tACS) is a method of noninvasive brain stimulation in which weak electrical current are applied to the scalp in a sine wave pattern to induce cortical oscillations at the frequency at which they are applied.</description>
+    <arm_group_label>alpha stimulation in healthy participants</arm_group_label>
+    <arm_group_label>alpha stimulation in participants in a depressive episode</arm_group_label>
+    <other_name>tACS</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria for individuals with depressed mood:
+
+          -  Ages 18-65 years
+
+          -  Hamilton Depression Rating Scale score &gt;8
+
+          -  Capacity to understand all relevant risks and potential benefits of the study
+             (informed consent)
+
+          -  Low suicide risk which will be determined through the use of both the Structured
+             Clinical Interview for the DSM-5 and by scoring less than 3 (0,1, or 2) in the
+             Hamilton rating depression scale.
+
+          -  Negative pregnancy test for female participants
+
+        Exclusion Criteria for individuals with depressed mood:
+
+          -  DSM-5 diagnosis of alcohol of substance abuse (other than nicotine) within the 12
+             months
+
+          -  DSM-5 diagnosis of alcohol or substance dependence (other than nicotine) within the
+             last 12 months
+
+          -  DSM-5 diagnosis of personality disorder
+
+          -  Eating disorder (current or within the past 3 months)
+
+          -  Anything that, in the opinion of the investigator, would place the participant at
+             increased risk or preclude the participant's full compliance with or completion of the
+             study
+
+          -  Neurological disorders, including but not limited to history of seizures (except
+             childhood febrile seizures and electro-convulsive therapy (ECT) induced seizures),
+             dementia, history of stroke, Parkinson's disease, multiple sclerosis, cerebral
+             aneurysm.
+
+          -  Medical or neurological illness (unstable cardiac disease, AIDS, malignancy, liver or
+             renal impairment) or treatment for a medical disorder that could interfere with study
+             participation
+
+          -  History of traumatic brain injury, reoccurring seizures or later cognitive
+             rehabilitation or causing cognitive sequelae
+
+          -  History of childhood trauma (determined by the Childhood Trauma Questionnaire)
+
+          -  Prior brain surgery
+
+          -  Any brain devices/implants, including cochlear implants and aneurysm clips
+
+          -  Co-morbid neurological condition (i.e. seizure disorder, brain tumor)
+
+          -  Use of illicit drugs, confirmed by a drug test
+
+          -  Non English speakers
+
+          -  Pregnant or nursing females
+
+          -  Current use of benzodiazepines or anti-epileptic drugs
+
+        Inclusion Criteria for healthy controls:
+
+          -  Ages 18-65 years
+
+          -  Hamilton Depression Rating Scale score ≤8
+
+          -  Capacity to understand all relevant risks and potential benefits of the study
+             (informed consent)
+
+          -  Negative pregnancy test for female participants
+
+        Exclusion Criteria for healthy controls:
+
+          -  History of major neurological or psychiatric illness, including epilepsy
+
+          -  Medication use associated with neurological or psychiatric illnesses
+
+          -  Currently undergoing counseling or psychotherapy treatment for depression, anxiety,
+             eating disorders, PTSD or other behavioral conditions
+
+          -  DSM-5 diagnosis of personality disorder
+
+          -  First degree relative (parent, sibling, child) with major neurological or psychiatric
+             illness
+
+          -  Prior brain surgery
+
+          -  Major head injury
+
+          -  Any brain devices/implants (including cochlear implants and aneurysm clips)
+
+          -  History of childhood trauma (determined by the Childhood Trauma Questionnaire)
+
+          -  Use of illicit drugs, confirmed by a drug test
+
+          -  Braids or other hair styling that prevents direct access to the scalp (if removal not
+             possible)
+
+          -  Skin allergies or very sensitive skin
+
+          -  Non English speakers
+
+          -  Pregnant or nursing females
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Flavio Frohlich, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>UNC Chapel Hill</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of North Carolina Chapel Hill</name>
+      <address>
+        <city>Chapel Hill</city>
+        <state>North Carolina</state>
+        <zip>27599</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>September 2019</verification_date>
+  <study_first_submitted>February 15, 2018</study_first_submitted>
+  <study_first_submitted_qc>February 22, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 28, 2018</study_first_posted>
+  <results_first_submitted>May 18, 2020</results_first_submitted>
+  <results_first_submitted_qc>May 18, 2020</results_first_submitted_qc>
+  <results_first_posted type="Actual">June 4, 2020</results_first_posted>
+  <last_update_submitted>May 18, 2020</last_update_submitted>
+  <last_update_submitted_qc>May 18, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 4, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>tACS</keyword>
+  <keyword>transcranial alternating current stimulation</keyword>
+  <keyword>stimulation</keyword>
+  <keyword>heart rate variability</keyword>
+  <keyword>electroencephalogram</keyword>
+  <keyword>EEG</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Disease</mesh_term>
+    <mesh_term>Premenstrual Dysphoric Disorder</mesh_term>
+    <mesh_term>Depression</mesh_term>
+    <mesh_term>Depressive Disorder</mesh_term>
+    <mesh_term>Depressive Disorder, Major</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>April 29, 2019</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/79/NCT03449979/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Alpha Stimulation in Participants in a Depressive Episode</title>
+          <description>Participants in a depressive episode will receive 2 mA of alternating current stimulation at individualized alpha stimulation (between 8 and 12 Hz; determined by an EEG recording prior to stimulation) for 40 minutes. tACS stimulation is delivered using the XCSITE100 Stimulator tACS.
+XCSITE100 Stimulator tACS: Transcranial alternating current stimulation (tACS) is a method of noninvasive brain stimulation in which weak electrical current are applied to the scalp in a sine wave pattern to induce cortical oscillations at the frequency at which they are applied.</description>
+        </group>
+        <group group_id="P2">
+          <title>Sham Stimulation in Participants in a Depressive Episode</title>
+          <description>Sham Stimulation mimics the physical effects of stimulation, with up to one minute of stimulation during the session. Sham stimulation to participants in a depressive episode is delivered using the XCSITE100 Stimulator Sham.
+XCSITE100 Stimulator Sham: The participant will receive up to one minute of tACS stimulation until the stimulation fades. Sham stimulation mimics the skin sensations a participant would experience during a tACS session.</description>
+        </group>
+        <group group_id="P3">
+          <title>Alpha Stimulation in Healthy Participants</title>
+          <description>Healthy participants will receive 2 mA of alternating current stimulation at individualized alpha stimulation (between 8 and 12 Hz; determined by an EEG recording prior to stimulation) for 40 minutes. tACS stimulation is delivered using the XCSITE100 Stimulator tACS.
+XCSITE100 Stimulator tACS: Transcranial alternating current stimulation (tACS) is a method of noninvasive brain stimulation in which weak electrical current are applied to the scalp in a sine wave pattern to induce cortical oscillations at the frequency at which they are applied.</description>
+        </group>
+        <group group_id="P4">
+          <title>Sham Stimulation in Healthy Participants</title>
+          <description>Sham Stimulation mimics the physical effects of stimulation, with up to one minute of stimulation during the session. Sham stimulation to healthy participants is delivered using the XCSITE100 Stimulator Sham.
+XCSITE100 Stimulator Sham: The participant will receive up to one minute of tACS stimulation until the stimulation fades. Sham stimulation mimics the skin sensations a participant would experience during a tACS session.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="21"/>
+                <participants group_id="P2" count="20"/>
+                <participants group_id="P3" count="21"/>
+                <participants group_id="P4" count="22"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="21"/>
+                <participants group_id="P2" count="20"/>
+                <participants group_id="P3" count="21"/>
+                <participants group_id="P4" count="21"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+                <participants group_id="P4" count="1"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Technical difficulty</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+                <participants group_id="P4" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>One healthy control participant that received sham stimulation was excluded from analysis as we were unable to find an age and sex matched participant. One healthy control participant that received sham stimulation did not complete the study due to technical difficulties.</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Alpha Stimulation in Participants in a Depressive Episode</title>
+          <description>Participants in a depressive episode will receive 2 mA of alternating current stimulation at individualized alpha stimulation (between 8 and 12 Hz; determined by an EEG recording prior to stimulation) for 40 minutes. tACS stimulation is delivered using the XCSITE100 Stimulator tACS.
+XCSITE100 Stimulator tACS: Transcranial alternating current stimulation (tACS) is a method of noninvasive brain stimulation in which weak electrical current are applied to the scalp in a sine wave pattern to induce cortical oscillations at the frequency at which they are applied.</description>
+        </group>
+        <group group_id="B2">
+          <title>Sham Stimulation in Participants in a Depressive Episode</title>
+          <description>Sham Stimulation mimics the physical effects of stimulation, with up to one minute of stimulation during the session. Sham stimulation to participants in a depressive episode is delivered using the XCSITE100 Stimulator Sham.
+XCSITE100 Stimulator Sham: The participant will receive up to one minute of tACS stimulation until the stimulation fades. Sham stimulation mimics the skin sensations a participant would experience during a tACS session.</description>
+        </group>
+        <group group_id="B3">
+          <title>Alpha Stimulation in Healthy Participants</title>
+          <description>Healthy participants will receive 2 mA of alternating current stimulation at individualized alpha stimulation (between 8 and 12 Hz; determined by an EEG recording prior to stimulation) for 40 minutes. tACS stimulation is delivered using the XCSITE100 Stimulator tACS.
+XCSITE100 Stimulator tACS: Transcranial alternating current stimulation (tACS) is a method of noninvasive brain stimulation in which weak electrical current are applied to the scalp in a sine wave pattern to induce cortical oscillations at the frequency at which they are applied.</description>
+        </group>
+        <group group_id="B4">
+          <title>Sham Stimulation in Healthy Participants</title>
+          <description>Sham Stimulation mimics the physical effects of stimulation, with up to one minute of stimulation during the session. Sham stimulation to healthy participants is delivered using the XCSITE100 Stimulator Sham.
+XCSITE100 Stimulator Sham: The participant will receive up to one minute of tACS stimulation until the stimulation fades. Sham stimulation mimics the skin sensations a participant would experience during a tACS session.</description>
+        </group>
+        <group group_id="B5">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="21"/>
+            <count group_id="B2" value="20"/>
+            <count group_id="B3" value="21"/>
+            <count group_id="B4" value="22"/>
+            <count group_id="B5" value="84"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="21"/>
+                    <count group_id="B2" value="20"/>
+                    <count group_id="B3" value="21"/>
+                    <count group_id="B4" value="22"/>
+                    <count group_id="B5" value="84"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="28.429" spread="11.902"/>
+                    <measurement group_id="B2" value="27.65" spread="12.227"/>
+                    <measurement group_id="B3" value="28.095" spread="11.432"/>
+                    <measurement group_id="B4" value="27.182" spread="12.133"/>
+                    <measurement group_id="B5" value="27.796" spread="11.831"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="21"/>
+                    <count group_id="B2" value="20"/>
+                    <count group_id="B3" value="21"/>
+                    <count group_id="B4" value="22"/>
+                    <count group_id="B5" value="84"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="17"/>
+                    <measurement group_id="B2" value="16"/>
+                    <measurement group_id="B3" value="17"/>
+                    <measurement group_id="B4" value="17"/>
+                    <measurement group_id="B5" value="67"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                    <measurement group_id="B2" value="4"/>
+                    <measurement group_id="B3" value="4"/>
+                    <measurement group_id="B4" value="5"/>
+                    <measurement group_id="B5" value="17"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="21"/>
+                    <count group_id="B2" value="20"/>
+                    <count group_id="B3" value="21"/>
+                    <count group_id="B4" value="22"/>
+                    <count group_id="B5" value="84"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="6"/>
+                    <measurement group_id="B4" value="2"/>
+                    <measurement group_id="B5" value="9"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="20"/>
+                    <measurement group_id="B2" value="19"/>
+                    <measurement group_id="B3" value="14"/>
+                    <measurement group_id="B4" value="17"/>
+                    <measurement group_id="B5" value="70"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="1"/>
+                    <measurement group_id="B4" value="3"/>
+                    <measurement group_id="B5" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="21"/>
+                    <count group_id="B2" value="20"/>
+                    <count group_id="B3" value="21"/>
+                    <count group_id="B4" value="22"/>
+                    <count group_id="B5" value="84"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                    <measurement group_id="B4" value="0"/>
+                    <measurement group_id="B5" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="4"/>
+                    <measurement group_id="B4" value="7"/>
+                    <measurement group_id="B5" value="13"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                    <measurement group_id="B4" value="0"/>
+                    <measurement group_id="B5" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                    <measurement group_id="B2" value="2"/>
+                    <measurement group_id="B3" value="2"/>
+                    <measurement group_id="B4" value="4"/>
+                    <measurement group_id="B5" value="12"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="15"/>
+                    <measurement group_id="B2" value="16"/>
+                    <measurement group_id="B3" value="13"/>
+                    <measurement group_id="B4" value="10"/>
+                    <measurement group_id="B5" value="54"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="2"/>
+                    <measurement group_id="B4" value="1"/>
+                    <measurement group_id="B5" value="5"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                    <measurement group_id="B4" value="0"/>
+                    <measurement group_id="B5" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="21"/>
+                    <count group_id="B2" value="20"/>
+                    <count group_id="B3" value="21"/>
+                    <count group_id="B4" value="22"/>
+                    <count group_id="B5" value="84"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="21"/>
+                    <measurement group_id="B2" value="20"/>
+                    <measurement group_id="B3" value="21"/>
+                    <measurement group_id="B4" value="22"/>
+                    <measurement group_id="B5" value="84"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Alpha oscillations in left frontal cortex before stimulation</title>
+          <population>One healthy control participant that received sham stimulation was excluded from analysis as we were unable to find an age and sex matched participant. One healthy control participant that received sham stimulation did not complete the study due to technical difficulties.</population>
+          <units>microvolts</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="21"/>
+                    <count group_id="B2" value="20"/>
+                    <count group_id="B3" value="21"/>
+                    <count group_id="B4" value="20"/>
+                    <count group_id="B5" value="82"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0.789" spread="0.088"/>
+                    <measurement group_id="B2" value="0.812" spread="0.056"/>
+                    <measurement group_id="B3" value="0.826" spread="0.076"/>
+                    <measurement group_id="B4" value="0.845" spread="0.095"/>
+                    <measurement group_id="B5" value="0.818" spread="0.081"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Change in Alpha Frequency Electrical Activity in Left Frontal Cortex From Stimulation</title>
+        <description>Fast Fourier transform is applied to 5 minutes of EEG data before and after intervention. Primary outcome is the difference in alpha frequency amplitude (8-12 Hz) in the left frontal cortex from baseline as a result of intervention.</description>
+        <time_frame>5 minute recording before and after intervention</time_frame>
+        <population>One of the healthy participants that received sham stimulation could not be age and sex matched, therefore, we did not analyze this participant.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Alpha Stimulation in Participants in a Depressive Episode</title>
+            <description>Participants in a depressive episode will receive 2 mA of alternating current stimulation at individualized alpha stimulation (between 8 and 12 Hz; determined by an EEG recording prior to stimulation) for 40 minutes. tACS stimulation is delivered using the XCSITE100 Stimulator tACS.
+XCSITE100 Stimulator tACS: Transcranial alternating current stimulation (tACS) is a method of noninvasive brain stimulation in which weak electrical current are applied to the scalp in a sine wave pattern to induce cortical oscillations at the frequency at which they are applied.</description>
+          </group>
+          <group group_id="O2">
+            <title>Sham Stimulation in Participants in a Depressive Episode</title>
+            <description>Sham Stimulation mimics the physical effects of stimulation, with up to one minute of stimulation during the session. Sham stimulation to participants in a depressive episode is delivered using the XCSITE100 Stimulator Sham.
+XCSITE100 Stimulator Sham: The participant will receive up to one minute of tACS stimulation until the stimulation fades. Sham stimulation mimics the skin sensations a participant would experience during a tACS session.</description>
+          </group>
+          <group group_id="O3">
+            <title>Alpha Stimulation in Healthy Participants</title>
+            <description>Healthy participants will receive 2 mA of alternating current stimulation at individualized alpha stimulation (between 8 and 12 Hz; determined by an EEG recording prior to stimulation) for 40 minutes. tACS stimulation is delivered using the XCSITE100 Stimulator tACS.
+XCSITE100 Stimulator tACS: Transcranial alternating current stimulation (tACS) is a method of noninvasive brain stimulation in which weak electrical current are applied to the scalp in a sine wave pattern to induce cortical oscillations at the frequency at which they are applied.</description>
+          </group>
+          <group group_id="O4">
+            <title>Sham Stimulation in Healthy Participants</title>
+            <description>Sham Stimulation mimics the physical effects of stimulation, with up to one minute of stimulation during the session. Sham stimulation to healthy participants is delivered using the XCSITE100 Stimulator Sham.
+XCSITE100 Stimulator Sham: The participant will receive up to one minute of tACS stimulation until the stimulation fades. Sham stimulation mimics the skin sensations a participant would experience during a tACS session.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Change in Alpha Frequency Electrical Activity in Left Frontal Cortex From Stimulation</title>
+          <description>Fast Fourier transform is applied to 5 minutes of EEG data before and after intervention. Primary outcome is the difference in alpha frequency amplitude (8-12 Hz) in the left frontal cortex from baseline as a result of intervention.</description>
+          <population>One of the healthy participants that received sham stimulation could not be age and sex matched, therefore, we did not analyze this participant.</population>
+          <units>microvolts</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="21"/>
+                <count group_id="O2" value="20"/>
+                <count group_id="O3" value="21"/>
+                <count group_id="O4" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.005" spread="0.022"/>
+                    <measurement group_id="O2" value="0.008" spread="0.023"/>
+                    <measurement group_id="O3" value="0.004" spread="0.017"/>
+                    <measurement group_id="O4" value="0.007" spread="0.022"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Interaction in the effect of tACS on left frontal alpha oscillation in the depressed group. Two-way interaction of within-participant factor of before/after tACS and between-participant factor of alpha-tACS/placebo.</groups_desc>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.0852</p_value>
+            <method>ANOVA</method>
+            <method_desc>degrees of freedom = (1,39); F-statistic = 3.119</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <groups_desc>Interaction in the effect of tACS on left frontal alpha oscillation in the healthy group. Two-way interaction of within-participant factor of before/after tACS and between-participant factor of alpha-tACS/placebo.</groups_desc>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.6676</p_value>
+            <method>ANOVA</method>
+            <method_desc>degrees of freedom = (1,39); F-statistic = 0.187</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Main effect of alpha-tACS on session (before and after) on left frontal alpha oscillations across both groups (healthy and patient).</groups_desc>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.929</p_value>
+            <p_value_desc>degrees of freedom = (1,41); F-statistic = 0.008</p_value_desc>
+            <method>ANOVA</method>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Difference in alpha oscillations after versus before in the depressed cohort (one-tailed Student’s t-test) with the hypothesis to decrease pathologically elevate left frontal alpha oscillations</groups_desc>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.1950</p_value>
+            <method>t-test, 1 sided</method>
+            <method_desc>degrees of freedom = 20; t-statistic = -0.08789</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Difference in alpha oscillations after versus before in the healthy cohort (one-tailed Student’s t-test) run as a control analysis</groups_desc>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.8603</p_value>
+            <method>t-test, 1 sided</method>
+            <method_desc>degrees of freedom = 20; t-statistic = 1.1117</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Adverse events were collected over the 5 hours of the single session experiment</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Alpha Stimulation in Patients in a Depressive Episode</title>
+          <description>Participants in a depressive episode will receive 2 mA of alternating current stimulation at individualized alpha stimulation (between 8 and 12 Hz; determined by an EEG recording prior to stimulation) for 40 minutes. tACS stimulation is delivered using the XCSITE100 Stimulator tACS.
+XCSITE100 Stimulator tACS: Transcranial alternating current stimulation (tACS) is a method of noninvasive brain stimulation in which weak electrical current are applied to the scalp in a sine wave pattern to induce cortical oscillations at the frequency at which they are applied.</description>
+        </group>
+        <group group_id="E2">
+          <title>Sham Stimulation in Patients in a Depressive Episode</title>
+          <description>Sham Stimulation mimics the physical effects of stimulation, with up to one minute of stimulation during the session. Sham stimulation to participants in a depressive episode is delivered using the XCSITE100 Stimulator Sham.
+XCSITE100 Stimulator Sham: The participant will receive up to one minute of tACS stimulation until the stimulation fades. Sham stimulation mimics the skin sensations a participant would experience during a tACS session.</description>
+        </group>
+        <group group_id="E3">
+          <title>Alpha Stimulation in Healthy Participants</title>
+          <description>Healthy participants will receive 2 mA of alternating current stimulation at individualized alpha stimulation (between 8 and 12 Hz; determined by an EEG recording prior to stimulation) for 40 minutes. tACS stimulation is delivered using the XCSITE100 Stimulator tACS.
+XCSITE100 Stimulator tACS: Transcranial alternating current stimulation (tACS) is a method of noninvasive brain stimulation in which weak electrical current are applied to the scalp in a sine wave pattern to induce cortical oscillations at the frequency at which they are applied.</description>
+        </group>
+        <group group_id="E4">
+          <title>Sham Stimulation in Healthy Participants</title>
+          <description>Sham Stimulation mimics the physical effects of stimulation, with up to one minute of stimulation during the session. Sham stimulation to healthy participants is delivered using the XCSITE100 Stimulator Sham.
+XCSITE100 Stimulator Sham: The participant will receive up to one minute of tACS stimulation until the stimulation fades. Sham stimulation mimics the skin sensations a participant would experience during a tACS session.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="21"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="20"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="21"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="22"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="21"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="20"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="21"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="22"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="12" subjects_at_risk="21"/>
+                <counts group_id="E2" subjects_affected="7" subjects_at_risk="20"/>
+                <counts group_id="E3" subjects_affected="9" subjects_at_risk="21"/>
+                <counts group_id="E4" subjects_affected="5" subjects_at_risk="22"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Investigations</title>
+            <event_list>
+              <event>
+                <sub_title>Tingling</sub_title>
+                <counts group_id="E1" events="7" subjects_affected="7" subjects_at_risk="21"/>
+                <counts group_id="E2" events="2" subjects_affected="2" subjects_at_risk="20"/>
+                <counts group_id="E3" events="7" subjects_affected="7" subjects_at_risk="21"/>
+                <counts group_id="E4" events="4" subjects_affected="4" subjects_at_risk="22"/>
+              </event>
+              <event>
+                <sub_title>Flickering Lights</sub_title>
+                <counts group_id="E1" events="3" subjects_affected="3" subjects_at_risk="21"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="20"/>
+                <counts group_id="E3" events="3" subjects_affected="3" subjects_at_risk="21"/>
+                <counts group_id="E4" events="2" subjects_affected="2" subjects_at_risk="22"/>
+              </event>
+              <event>
+                <sub_title>Itching</sub_title>
+                <counts group_id="E1" events="3" subjects_affected="3" subjects_at_risk="21"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="20"/>
+                <counts group_id="E3" events="0" subjects_affected="0" subjects_at_risk="21"/>
+                <counts group_id="E4" events="1" subjects_affected="1" subjects_at_risk="22"/>
+              </event>
+              <event>
+                <sub_title>Burning sensation</sub_title>
+                <counts group_id="E1" events="7" subjects_affected="7" subjects_at_risk="21"/>
+                <counts group_id="E2" events="3" subjects_affected="3" subjects_at_risk="20"/>
+                <counts group_id="E3" events="3" subjects_affected="3" subjects_at_risk="21"/>
+                <counts group_id="E4" events="3" subjects_affected="3" subjects_at_risk="22"/>
+              </event>
+              <event>
+                <sub_title>Scalp pain</sub_title>
+                <counts group_id="E1" events="3" subjects_affected="3" subjects_at_risk="21"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="20"/>
+                <counts group_id="E3" events="1" subjects_affected="1" subjects_at_risk="21"/>
+                <counts group_id="E4" events="2" subjects_affected="2" subjects_at_risk="22"/>
+              </event>
+              <event>
+                <sub_title>Neck pain</sub_title>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="21"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="20"/>
+                <counts group_id="E3" events="0" subjects_affected="0" subjects_at_risk="21"/>
+                <counts group_id="E4" events="0" subjects_affected="0" subjects_at_risk="22"/>
+              </event>
+              <event>
+                <sub_title>Headache</sub_title>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="21"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="20"/>
+                <counts group_id="E3" events="0" subjects_affected="0" subjects_at_risk="21"/>
+                <counts group_id="E4" events="0" subjects_affected="0" subjects_at_risk="22"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Justin Riddle, PhD</name_or_title>
+      <organization>University of North Carolina at Chapel Hill</organization>
+      <phone>6617131602</phone>
+      <email>justin_riddle@med.unc.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

@@ -1,0 +1,234 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03574272</url>
+  </required_header>
+  <id_info>
+    <org_study_id>C2018-00554</org_study_id>
+    <nct_id>NCT03574272</nct_id>
+  </id_info>
+  <brief_title>Patient Transfer Monitoring System in Hospital Using Mobile IoT Technology</brief_title>
+  <official_title>Demonstration and Multi-center Verification of the Patient Transfer Monitoring System in Hospital Using Mobile IoT Technology</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Asan Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Korea Health Industry Development Institute</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Asan Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This trial is multi-center prospective study to develop Patient Transfer Monitoring system
+      using mobile lot network and the Risk Factor Detection System and apply to real In-Hospital
+      Patients and verify the efficacy.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Hospitalized patients who need transfer for a diagnostic examination or rehabilitation
+      therapy during hospitalization, and have a risk of hypoxemia during transfer will be enrolled
+      in this trial. The subjects will be provided with a portable oximeter and a smart-phone which
+      application for monitoring is installed, and oxygen saturation and pulse rate will be checked
+      in real time during transfer. The collected data will be transferred to cloud system via Iot
+      network, and the transmitted data will be monitored in real time via monitoring equipment in
+      the (Patient-hospitalized) ward. If there is a risk, the alarm system is activated so that
+      the medical team is able to check risk factor and manage it immediately.
+
+      All the risk factors and severity will be collected during transfer, also these are checked
+      whether the monitoring system and the data transmission system work properly or not, the time
+      from detecting risk factor to medical response, the composition of medical staffs who
+      responding to alarmed risk factors and improvement of the subjects.
+
+      Pilot study will be conducted with 20 subjects in Asan medical center. In pilot study,
+      monitoring machines (HR, SpO2 monitor) commonly used in wards or hospitals will be used to
+      verify the stability of oximeter used in this study and the developed risk detection system.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">May 16, 2018</start_date>
+  <completion_date type="Actual">December 28, 2018</completion_date>
+  <primary_completion_date type="Actual">November 28, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>frequency of risk factors which are detected during transfer</measure>
+    <time_frame>from the beginning to immediately after the end of the patient transfer</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>severity of risk factors which are detected during transfer</measure>
+    <time_frame>from the beginning to immediately after the end of the patient transfer</time_frame>
+    <description>The severity is assessed as mild(risk factor was resolved without medical staff), moderate(resolved by medical staffs, but returned to the ward), and severe(not resolved by medical staffs, needs other method such as CPCR call, invasive intervention).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>reason of decreased oxygen saturation</measure>
+    <time_frame>from the beginning to immediately after the end of the patient transfer</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>duration of decreased oxygen saturation</measure>
+    <time_frame>from the beginning to immediately after the end of the patient transfer</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>change from baseline in Oxygen saturation</measure>
+    <time_frame>from the beginning to immediately after the end of the patient transfer</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>the time from detecting risk factor to medical response</measure>
+    <time_frame>from the beginning to immediately after the end of the patient transfer</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Death</measure>
+    <time_frame>from admission to discharge, up to 8 months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>admission to intensive care units</measure>
+    <time_frame>from admission to discharge, up to 8 months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Adverse events related to the study</measure>
+    <time_frame>from the beginning to immediately after the end of the patient transfer</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>medical staffs who managed the alarmed event during transfer</measure>
+    <time_frame>from the beginning to immediately after the end of the patient transfer</time_frame>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">143</enrollment>
+  <condition>Patient Monitoring</condition>
+  <arm_group>
+    <arm_group_label>Patient Transfer Monitoring System</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Patient Transfer Monitoring System</intervention_name>
+    <description>The subjects will be provided with portable oximeter and smart-phone which application for monitoring is installed, and the transmitted data will be monitored in real time via monitoring equipment in the (Patient-hospitalized) ward.</description>
+    <arm_group_label>Patient Transfer Monitoring System</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  A hospitalized patients in pulmonology department or rehabilitation hospital who have
+             a risk of decreasing oxygen saturation
+
+          -  A patients who require transfer in the hospital for a diagnostic examination or
+             rehabilitation therapy during hospitalization
+
+          -  Patients who need oxygen saturation monitoring according to the investigator's
+             judgment
+
+          -  Patients who voluntarily agree to study participation and provide written informed
+             consent form
+
+        Exclusion Criteria:
+
+          -  Patients who don't agree with the study procedure or are uncooperative
+
+          -  Repeated monitoring of the same patient who already registered in the tiral
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Chang-Min Choi, MD, Ph. D</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Asan Medical Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Kangwon National Univeristy Hospital</name>
+      <address>
+        <city>Chuncheon</city>
+        <state>Gangwon-Do</state>
+        <zip>24289</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>DAVINCI hospital</name>
+      <address>
+        <city>Daejeon</city>
+        <zip>35262</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>KyungHee University Medical Center</name>
+      <address>
+        <city>Seoul</city>
+        <zip>02447</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Asan Medical Center</name>
+      <address>
+        <city>Seoul</city>
+        <zip>05505</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Wonju Severance Christian Hospital</name>
+      <address>
+        <city>Wonju</city>
+        <zip>26426</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <verification_date>March 2019</verification_date>
+  <study_first_submitted>May 27, 2018</study_first_submitted>
+  <study_first_submitted_qc>June 28, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 29, 2018</study_first_posted>
+  <last_update_submitted>March 6, 2019</last_update_submitted>
+  <last_update_submitted_qc>March 6, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 8, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Asan Medical Center</investigator_affiliation>
+    <investigator_full_name>Chang-Min Choi</investigator_full_name>
+    <investigator_title>associate professor</investigator_title>
+  </responsible_party>
+  <keyword>mobile IoT technology</keyword>
+  <keyword>Patient Transfer Monitoring System</keyword>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

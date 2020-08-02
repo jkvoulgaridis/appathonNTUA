@@ -1,0 +1,236 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03952494</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1806019379</org_study_id>
+    <nct_id>NCT03952494</nct_id>
+  </id_info>
+  <brief_title>Individualizing Antidepressant Treatment Using Pharmacogenomics and EHR-driven Clinical Decision Support</brief_title>
+  <acronym>MyGenes</acronym>
+  <official_title>The myGenes Study:Individualizing Antidepressant Treatment Using Pharmacogenomics and EHR-driven Clinical Decision Support</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Weill Medical College of Cornell University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Leon Lowenstein Foundation Inc.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Weill Medical College of Cornell University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to understand the effectiveness of pharmacogenomic testing in
+      using antidepressants and to understand how EHR - driven clinical decision support system can
+      be used to deliver PGx test results by healhcare providers.
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">August 1, 2020</start_date>
+  <completion_date type="Anticipated">July 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">July 31, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Response, as defined by &gt; 50% reduction in Hamilton Depressing Rating Scale ( HAM-D)</measure>
+    <time_frame>24 weeks</time_frame>
+    <description>The Hamilton Depression Rating Scale is used for rating the severity of depressive symptoms. Scores range from 0 to 50, with higher scores indicating greater severity of depression. The scoring system is as follows- 0-7 = Normal 8-13 = Mild Depression 14-18 = Moderate Depression 19-23 = Severe Depression &gt; 23 = Very severe Depression.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Remission, as defined by &lt; 8 on Hamilton Depressing Rating Scale ( HAM-D).</measure>
+    <time_frame>24 weeks</time_frame>
+    <description>The Hamilton Depression Rating Scale is used for rating the severity of depressive symptoms. Scores range from 0 to 50, with higher scores indicating greater severity of depression. The scoring system is as follows- 0-7 = Normal 8-13 = Mild Depression 14-18 = Moderate Depression 19-23 = Severe Depression &gt; 23 = Very severe Depression.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Conformance between antidepressant medication prescription changes and recommendations from the pharmacogenomics testing</measure>
+    <time_frame>24 weeks</time_frame>
+    <description>Conformance is defined as the number of prescriptions that are in agreement with clinical decision support recommendations based on pharmacogenomics test results.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Self-reported side effects</measure>
+    <time_frame>24 weeks</time_frame>
+    <description>FIBSER (Frequency, intensity and burden of side effects rating) questionnaire will be administered to assess the frequency, severity and degree of impairment related to side effects including nausea, headache, vomiting, GI distress, and sexual dysfunction. Frequency of side-effects are rated from 0-6, with 0 signifying no side effects and score of 6 showing that the effects are present all the time. Similarly intensity is also rated from 0-6 with 0 demonstrating no side effects and 6 signifying that the intensity is intolerable. Interference of side effects in day to day function is also rated in the same way. A reading of 0 tells us that there is no impairment of day-to-day functions and a reading of 6 depicts inability to function.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Provider Attitude</measure>
+    <time_frame>24 weeks</time_frame>
+    <description>Number of overwritten CDS alerts regarding PGx testing will be used to determine if PGx-related CDS alerts will result in higher provider uptake compared to non-PGx-related CDS.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Depression</condition>
+  <arm_group>
+    <arm_group_label>Intervention group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Intervention group will have the PGx test results available via Epic, three days after the biospecimen is received.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The control group will be considered in TAU(treatment as usual) group but will have the PGx test results available after 24 weeks.
+Note: Patient in both the groups will be followed for 24 weeks and will take questionnaires every other week.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Genetic</intervention_type>
+    <intervention_name>Genomind®Professional PGx Express TM</intervention_name>
+    <description>The current test includes the analysis of fifteen pharmacodynamic genes and nine pharmacokinetic genes that have been shown in numerous clinical studies to have implications for response to treatments used for depression, anxiety, obsessive-compulsive disorder (OCD), attention-deficit/hyperactivity disorder (ADHD), bipolar disorder, Posttraumatic Stress Disorder (PTSD), autism, schizophrenia, chronic pain and substance abuse. The genes assessed by the assay target major hepatic enzymes and key neurotransmitter pathways including serotonin, dopamine, norepinephrine and glutamate.</description>
+    <arm_group_label>Control group</arm_group_label>
+    <arm_group_label>Intervention group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Patients who quality the criteria below:
+
+          -  Patients with nonpsychotic MDD
+
+          -  Patients who would like to either start a new antidepressant or change their existing
+             antidepressant treatment
+
+          -  Patients for whom antidepressant treatment is deemed appropriate by the treating
+             clinician
+
+          -  &gt;18 years of age
+
+          -  Willingness to provide signed informed consent to participate in the study
+
+          -  Will be following up or continuously visiting their physician
+
+        Providers:
+
+          -  Outpatient practice providers
+
+          -  Providers who are familiar with Epic
+
+        Exclusion Criteria:
+
+        Patients:
+
+          -  Patients with medical contraindications that preclude antidepressant treatment
+
+          -  Patients with schizophrenia, schizoaffective disorder, or who have Bipolar I disorder
+
+          -  Patients currently on antipsychotic medications (e.g., typical and atypical
+             antipsychotic drugs) and mood stabilizing agents (e.g., lithium, carbamazepine,
+             valproate, lamotrigine, gabapentin, or other anticonvulsants)
+
+          -  Patients who are pregnant or have severe cognitive impairment
+
+          -  Patients requiring urgent care or inpatient hospitalization at the time of consent
+
+        Providers:
+
+        • Unable or unwilling to commit time to introduce myGenes study to patients
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>89 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jyotishman Pathak, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Weill Cornell Medicine</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jyotishman Pathak, PhD</last_name>
+    <phone>(646) 962-9415</phone>
+    <email>Jyp2001@med.cornell.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Yiye Zhang, PhD</last_name>
+    <phone>(646) 962-9437</phone>
+    <email>yiz2014@med.cornell.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Weill Cornell Medicine</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10065</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Mohit Manoj Sharma</last_name>
+      <phone>979-985-8794</phone>
+      <email>mos4004@med.cornell.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Jyotishman Pathak, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://apps.who.int/iris/handle/10665/41864</url>
+    <description>Murray CJ, Lopez AD, Organization WH. The global burden of disease: a comprehensive assessment of mortality and disability from diseases, injuries, and risk factors in 1990 and projected to 2020: summary. 1996.</description>
+  </link>
+  <link>
+    <url>http://nrs.harvard.edu/urn-3:HUL.InstRepos:34493166</url>
+    <description>Najafzadeh, Mehdi, Jorge A. Garces, and Alejandra Maciel. 2017. &quot;Economic Evaluation of Implementing a Novel Pharmacogenomic Test (IDgenetix®) to Guide Treatment of Patients with Depression and/or Anxiety.&quot;</description>
+  </link>
+  <reference>
+    <citation>Al-Harbi KS. Treatment-resistant depression: therapeutic trends, challenges, and future directions. Patient Prefer Adherence. 2012;6:369-88. doi: 10.2147/PPA.S29716. Epub 2012 May 1.</citation>
+    <PMID>22654508</PMID>
+  </reference>
+  <reference>
+    <citation>Murray CJ, Atkinson C, Bhalla K, Birbeck G, Burstein R, Chou D, Dellavalle R, Danaei G, Ezzati M, Fahimi A, Flaxman D, Foreman, Gabriel S, Gakidou E, Kassebaum N, Khatibzadeh S, Lim S, Lipshultz SE, London S, Lopez, MacIntyre MF, Mokdad AH, Moran A, Moran AE, Mozaffarian D, Murphy T, Naghavi M, Pope C, Roberts T, Salomon J, Schwebel DC, Shahraz S, Sleet DA, Murray, Abraham J, Ali MK, Atkinson C, Bartels DH, Bhalla K, Birbeck G, Burstein R, Chen H, Criqui MH, Dahodwala, Jarlais, Ding EL, Dorsey ER, Ebel BE, Ezzati M, Fahami, Flaxman S, Flaxman AD, Gonzalez-Medina D, Grant B, Hagan H, Hoffman H, Kassebaum N, Khatibzadeh S, Leasher JL, Lin J, Lipshultz SE, Lozano R, Lu Y, Mallinger L, McDermott MM, Micha R, Miller TR, Mokdad AA, Mokdad AH, Mozaffarian D, Naghavi M, Narayan KM, Omer SB, Pelizzari PM, Phillips D, Ranganathan D, Rivara FP, Roberts T, Sampson U, Sanman E, Sapkota A, Schwebel DC, Sharaz S, Shivakoti R, Singh GM, Singh D, Tavakkoli M, Towbin JA, Wilkinson JD, Zabetian A, Murray, Abraham J, Ali MK, Alvardo M, Atkinson C, Baddour LM, Benjamin EJ, Bhalla K, Birbeck G, Bolliger I, Burstein R, Carnahan E, Chou D, Chugh SS, Cohen A, Colson KE, Cooper LT, Couser W, Criqui MH, Dabhadkar KC, Dellavalle RP, Jarlais, Dicker D, Dorsey ER, Duber H, Ebel BE, Engell RE, Ezzati M, Felson DT, Finucane MM, Flaxman S, Flaxman AD, Fleming T, Foreman, Forouzanfar MH, Freedman G, Freeman MK, Gakidou E, Gillum RF, Gonzalez-Medina D, Gosselin R, Gutierrez HR, Hagan H, Havmoeller R, Hoffman H, Jacobsen KH, James SL, Jasrasaria R, Jayarman S, Johns N, Kassebaum N, Khatibzadeh S, Lan Q, Leasher JL, Lim S, Lipshultz SE, London S, Lopez, Lozano R, Lu Y, Mallinger L, Meltzer M, Mensah GA, Michaud C, Miller TR, Mock C, Moffitt TE, Mokdad AA, Mokdad AH, Moran A, Naghavi M, Narayan KM, Nelson RG, Olives C, Omer SB, Ortblad K, Ostro B, Pelizzari PM, Phillips D, Raju M, Razavi H, Ritz B, Roberts T, Sacco RL, Salomon J, Sampson U, Schwebel DC, Shahraz S, Shibuya K, Silberberg D, Singh JA, Steenland K, Taylor JA, Thurston GD, Vavilala MS, Vos T, Wagner GR, Weinstock MA, Weisskopf MG, Wulf S, Murray; U.S. Burden of Disease Collaborators. The state of US health, 1990-2010: burden of diseases, injuries, and risk factors. JAMA. 2013 Aug 14;310(6):591-608. doi: 10.1001/jama.2013.13805.</citation>
+    <PMID>23842577</PMID>
+  </reference>
+  <reference>
+    <citation>Pérez V, Salavert A, Espadaler J, Tuson M, Saiz-Ruiz J, Sáez-Navarro C, Bobes J, Baca-García E, Vieta E, Olivares JM, Rodriguez-Jimenez R, Villagrán JM, Gascón J, Cañete-Crespillo J, Solé M, Saiz PA, Ibáñez Á, de Diego-Adeliño J; AB-GEN Collaborative Group, Menchón JM. Efficacy of prospective pharmacogenetic testing in the treatment of major depressive disorder: results of a randomized, double-blind clinical trial. BMC Psychiatry. 2017 Jul 14;17(1):250. doi: 10.1186/s12888-017-1412-1.</citation>
+    <PMID>28705252</PMID>
+  </reference>
+  <reference>
+    <citation>Han C, Wang SM, Bahk WM, Lee SJ, Patkar AA, Masand PS, Mandelli L, Pae CU, Serretti A. A Pharmacogenomic-based Antidepressant Treatment for Patients with Major Depressive Disorder: Results from an 8-week, Randomized, Single-blinded Clinical Trial. Clin Psychopharmacol Neurosci. 2018 Nov 30;16(4):469-480. doi: 10.9758/cpn.2018.16.4.469.</citation>
+    <PMID>30466219</PMID>
+  </reference>
+  <reference>
+    <citation>Altar CA, Carhart J, Allen JD, Hall-Flavin D, Winner J, Dechairo B. Clinical Utility of Combinatorial Pharmacogenomics-Guided Antidepressant Therapy: Evidence from Three Clinical Studies. Mol Neuropsychiatry. 2015 Oct;1(3):145-55. doi: 10.1159/000430915. Epub 2015 Jul 31.</citation>
+    <PMID>27606312</PMID>
+  </reference>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>May 3, 2019</study_first_submitted>
+  <study_first_submitted_qc>May 14, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 16, 2019</study_first_posted>
+  <last_update_submitted>July 9, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 9, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 14, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Depression</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

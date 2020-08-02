@@ -1,0 +1,244 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03963219</url>
+  </required_header>
+  <id_info>
+    <org_study_id>15SM2847</org_study_id>
+    <secondary_id>DOCUMAS NUMBER</secondary_id>
+    <nct_id>NCT03963219</nct_id>
+  </id_info>
+  <brief_title>Clinical Assessment of a Novel Advanced Bolus Calculator for Type 1 Diabetes 5</brief_title>
+  <acronym>ABC4D5</acronym>
+  <official_title>Clinical Assessment of a Novel Advanced Bolus Calculator for Type 1 Diabetes 5</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Imperial College London</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>DexCom, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Imperial College London</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The main objective of this study is to assess safety and efficacy of the ABC4D compared to
+      standard therapy (standard bolus calculator) in adults with type 1 diabetes on multiple daily
+      injections (MDI) of insulin in an out-of-clinic setting.
+
+      Hypothesis: ABC4D is non-inferior to a standard bolus calculator and has an equivalent impact
+      on time in target in adults with type 1 diabetes on MDI
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The novel decision support algorithm is based on case-based reasoning (CBR). CBR is an
+      artificial intelligence technique that tries to solve newly encountered problems by applying
+      the solutions learned from solved problems encountered in the past (10).
+
+      The CBR algorithm requires the following input for each insulin dose recommendation:
+
+        -  Time of day
+
+        -  Capillary blood glucose
+
+        -  Meal carbohydrate intake (g)
+
+        -  Type of meal CHO (fast, medium or slow absorption)
+
+        -  Pre- or post-meal exercise if within 4 hours of the meal (intensity: moderate or
+           intense) These parameters make up the case problem presented to the CBR algorithm. Using
+           this information the algorithm will find a similar case scenario from the pool of
+           previously encountered cases and recommend an improved solution (insulin dose) to
+           achieve the best possible outcome (post-prandial blood glucose).
+
+      The insulin recommendation application runs locally on a standard operating system such as
+      iOs5.x or Android within a commercially available smartphone. It contains the CBR based
+      decision support algorithm as well as information of past successful cases. Opening the
+      decision support application on the smartphone leads to the main menu, which provides a link
+      to the submenu for requesting a new recommendation. Every calculated recommendation needs to
+      be accepted or declined manually, and the latter option requires the user to enter the
+      adjusted amount of insulin that has been delivered. In addition, the main menu enables the
+      user to view logged data such as recent glucose levels, meal/exercise events and previous
+      insulin dose advices.
+
+      The glucose sensors that will be used throughout the clinical validation studies are the
+      Enlite sensor (CE marked,manufactured by Medtronic) or the Dexcom sensor (CE marked,
+      manufactured by Dexcom). They are subcutaneous sensor which sit just under the skin and
+      sample interstitial fluid using an enzyme electrode. A small voltage is applied across the
+      sensor and a current is fed back to the sensor instrumentation. This current is proportional
+      to the glucose concentration in interstitial fluid and is calibrated against blood glucose a
+      minimum of 12-hourly. In phase 2 and 3 the CGM will be blinded and either calibrated
+      retrospectively using the iPro2 system (CE marked, manufactured by Medtronic) or calibrated
+      in real-time using the Dexcom CGM system (however the CGM will be blinded to the subject).
+      The iPro2 consist of a recorder that will be attached to the Enlite sensor and at the end of
+      6 days the data will be downloaded to the Medtronic Carelink iPro software. The Dexcom CGM
+      data will be downloaded to the DiaSend/Dexcom Studio software. In phase 4 Dexcom real-time
+      CGM (i.e subjects will be able to see their CGM data at all times) will be used continuously
+      throughout the study. In Phase 5 the latest commercially available version of the Dexcom
+      RT-CGM (Dexcom G6) will be used in accordance with manufacturer's user guide and data will
+      automatically be stored to Dexcom Clarity. All data will be anonymised. The non-CE marked
+      component of the intervention (The ABC4D device which is a novel bolus calculator for type 1
+      diabetes) remains the same and any adjustments to the algorithm will be documented with new
+      version numbers as usual. The latest commercially available version of the Dexcom RT-CGM
+      (Dexcom G6) will be used and this has got CE-mark approval. Two additional components to
+      automatically collect additional information will be used in Phase 5:
+
+        1. Insulin pen caps allow automatic logging insulin doses delivered from the insulin pen.
+           The participant will be provided with the pen cap that is compatible with their insulin
+           pen.
+
+           InPen (Companion Medical). The InPen is a CE-marked device. GoCap (Common Sensing). The
+           GoCap is classed as a non-medical device and therefore does not require CE-mark in
+           Europe.
+
+        2. FitBit Charge 2 HR (Fitbit) to collect physical activity data. The Fitbit Charge 2 HR is
+           classed as a non-medical device.
+
+      An overview of the components of the ABC4D system for Phase 5 has been included in the Phase
+      5 section of the protocol and in the corresponding PIS.
+
+      In order to demonstrate safety and efficacy of the CBR algorithm, an in-silico study using
+      the UVa-Padova T1DM simulator (11) was done and showed good results. The simulator was
+      developed from human data and takes into account sensor errors, sensor placement, route of
+      insulin administration and meal-time glucose absorption.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">August 22, 2019</start_date>
+  <completion_date type="Anticipated">June 30, 2020</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <intervention_model_description>Randomised controlled non-inferiority crossover study</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>% Time blood glucose in target, day time assess by device</measure>
+    <time_frame>32 weeks</time_frame>
+    <description>% time blood glucose spent in target (3.9-10mmol/L, 70-180mg/dL) during daytime (0700-2200)</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">37</enrollment>
+  <condition>Type 1 Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>ABC4D</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The complete integrated system consists of a smartphone that holds the advanced decision support algorithm. The system requires regular updates of cases derived from continuous glucose monitoring (CGM) data. Each new case includes information about the problem (e.g. capillary blood glucose, meal information and physical exercise), solution (recommended insulin dose) and outcome (post-prandial blood glucose).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard Bolus Calculator</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Standard bolus calculator</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>ABC4D</intervention_name>
+    <description>The complete integrated system consists of a smartphone that holds the advanced decision support algorithm. The system requires regular updates of cases derived from continuous glucose monitoring (CGM) data. Each new case includes information about the problem (e.g. capillary blood glucose, meal information and physical exercise), solution (recommended insulin dose) and outcome (post-prandial blood glucose).</description>
+    <arm_group_label>ABC4D</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Standard Bolus Calculator</intervention_name>
+    <description>Standard bolus calculator</description>
+    <arm_group_label>Standard Bolus Calculator</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adults over 18 years of age
+
+          -  HbA1c between 7.0% and 9.0%
+
+          -  Type 1 diabetes confirmed on the basis of clinical features and a fasting c-peptide
+             &lt;200 pmol/L
+
+          -  Type 1 diabetes for greater than 3 years
+
+          -  On an intensified multiple dose insulin injection regimen for &gt; 6 months (MDI)
+
+          -  Structured education (either group or 1:1)
+
+        Exclusion Criteria:
+
+          -  Pregnant or planning pregnancy
+
+          -  Breastfeeding
+
+          -  Enrolled in other clinical trials
+
+          -  Have active malignancy or under investigation for malignancy
+
+          -  Severe visual impairment
+
+          -  Reduced manual dexterity
+
+          -  Unable to participate due to other factors, as assessed by the Chief Investigator
+
+          -  Shift worker
+
+          -  Allergy or intolerance to insulin aspart
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Monika Reddy</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Imperial College London</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Imperial College Clinical Research Facility</name>
+      <address>
+        <city>London</city>
+        <zip>W12 0HS</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>May 8, 2019</study_first_submitted>
+  <study_first_submitted_qc>May 23, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 24, 2019</study_first_posted>
+  <last_update_submitted>March 23, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 23, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 24, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Type 1 Diabetes Mellitus</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

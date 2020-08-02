@@ -1,0 +1,237 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03694912</url>
+  </required_header>
+  <id_info>
+    <org_study_id>4-2018-0753</org_study_id>
+    <nct_id>NCT03694912</nct_id>
+  </id_info>
+  <brief_title>Development and Evaluation of High Risk Group Prediction Model in T1 Stage Renal Cell Cancer Using Molecular Biomarkers</brief_title>
+  <official_title>Development and Evaluation of High Risk Group Prediction Model in T1 Stage Renal Cell Cancer Using Molecular Biomarkers</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Yonsei University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Yonsei University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      For the appropriate individualized treatment of T1-stage renal cell carcinoma with
+      heterogeneous biological features, the expression of PBRM1, SETD2, BAP1, KDM5C and the newly
+      proposed FOXC2 and CLIP4, are compared with clinical features. The investigators evaluated
+      the efficacy of FOXC2 and CLIP4 as prognostic biomarkers and developed a high risk prediction
+      model based on these results. In a previous study, the investigators evaluated the efficacy
+      of FOXC2 and CLIP4 as prognostic biomarkers and reported their association with synchronous
+      metastasis in renal cell carcinomas less than 7 cm in size. The investigators analyzed the
+      expression level of renal cell carcinoma according to the size and malignancy (Fuhrman grade)
+      of renal cell carcinoma in T1-stage clear cell type renal cell carcinoma of tumor size less
+      than 7cm. The aim of this study was to analyze the association of tumor recurrence or
+      metastasis, cancer specific survival rate, overall survival rate, tumor size, malignancy and
+      T stage in postoperative biopsy. For expression analysis, PCR amplification and bidirectional
+      Sanger sequencing and mRNA expression analysis (qRT-PCR) were used. For statistical analysis,
+      Fisher exact test, Wilcoxon exact 2-tailed test, Cox proportional hazard regression analysis
+      and competing risk method were used. In this study, the investigators compared the expression
+      of PBRM1, SETD2, BAP1, and KDM5 with newly proposed biomarkers, FOXC2 and CLIP4 and
+      demonstrate the prognostic value of FOXC2 and CLIP4 as new prognostic biomarkers and compared
+      the clinical outcomes with the clinical outcome. Based on these results, the investigators
+      propose a high risk prediction model for individualized treatment of T1-stage renal cell
+      carcinoma. This study is expected to establish a new prediction model and molecular biologic
+      stage for risk stratification of T1-stage renal cell carcinoma patients and apply genetic
+      test for selection of optimal tailored treatment for T1-stage renal cell carcinoma. In
+      addition, it will be an important basic data of the molecular biologic mechanism of
+      metastasis in early renal cell carcinoma and may be used as a basic data for the development
+      and selection of customized therapeutic agents in patients with distant metastasis.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      -  collection of FFPE samples: collection of primary or metastatic site
+
+        -  micro-dissection: only when the tumor contents are more than 90% are analyzed.
+
+      B. Data analysis and model development
+
+        -  Development goals - Analysis of prospective biomarker expression in FFPE, and frozen
+           tissue specimens
+
+           - Development of a high-risk prediction model for post-surgical morbidity in T1-stage
+           RCC
+
+             -  Contents and scope
+
+                  1. Expression analysis of prospective biomarkers in FFPE and frozen tissue
+                     samples of T1-stage clear cell type RCC
+
+                       -  PBRM1, SETD2, BAP1, and KDM5C expressed as prognostic biomarkers of renal
+                          cell carcinoma in other studies
+
+                       -  The newly proposed FOXC2, CLIP4
+
+                          1) Mutational analysis (Transcriptome sequencing with variant calling) 2)
+                          mRNA expression analysis (qRT-PCR) - only when the tumor contents are
+                          more than 90% are analyzed.
+
+                          - Analysis of tumor size and malignancy as a prognostic predictor of RCC
+
+                          - The expression of primary and metastatic lesions was analyzed by
+                          considering intratumor heterogeneity in RCC (Fisher exact test, Wilcoxon
+                          exact 2-tailed test)
+
+                            -  Analysis of association with postoperative local recurrence or
+                               distant metastasis, cancer-specific survival, and overall survival
+                               (Cox proportional hazard regression analysis: Time to recurrence and
+                               distant metastasis, overall survival, competing risk method: cancer
+                               specific survival)
+
+                  2. Development of predictive model for high-risk molecular disease in T1-Stage
+                     RCC (survival rate)
+
+                     - elastic net Cox model in glmnet, version 1.7.3
+
+                       -  prediction accuracy was evaluated using Harrel concordance probability
+                          (C-index), internal validation was performed using bootstrap
+
+                  3. Development of predictive model for preoperative molecular high risk in T1-
+                     Stage RCC (for Poor Pathologic Findings)
+
+                       -  multivariate logistic/linear regression model
+
+                       -  prediction accuracy was evaluated using Harrel concordance probability
+                          (C-index), internal validation was performed using bootstrap
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">November 1, 2018</start_date>
+  <completion_date type="Anticipated">September 22, 2023</completion_date>
+  <primary_completion_date type="Anticipated">September 22, 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Assessment of gene expression of biomarkers using reverse-transcription polymerase chain reaction (qRT-PCR) according to groups</measure>
+    <time_frame>1 week after the procedure</time_frame>
+    <description>Assessment of gene expression of biomarkers using reverse-transcription polymerase chain reaction (qRT-PCR) according to groups</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>association of tumor size</measure>
+    <time_frame>1 week after the procedure</time_frame>
+    <description>association of tumor size (Fuhrman grade 1-2: low, 3-4: high)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>association of tumor malignancy</measure>
+    <time_frame>1 week after the procedure</time_frame>
+    <description>association of tumor malignancy (Fuhrman grade 1-2: low, 3-4: high)</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">426</enrollment>
+  <condition>Clear Renal Cell Cancer (&lt; 7cm Size)</condition>
+  <arm_group>
+    <arm_group_label>Aggressive RCC Group</arm_group_label>
+    <description>RCC with synchronous metastasis, recurrence, or cancer-specific death</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Non-aggressive RCC Group</arm_group_label>
+    <description>RCC without synchronous metastasis, recurrence, or cancer-specific death</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Partial or radical nephrectomy</intervention_name>
+    <description>The investigators perform partial or radical nephrectomy those diagnosed as RCC.</description>
+    <arm_group_label>Aggressive RCC Group</arm_group_label>
+    <arm_group_label>Non-aggressive RCC Group</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      FFPE (formalin-fixed paraffin-embedded), frozen tissue, blood, and urine samples
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients who have undergone partial or radical nephrectomy in Severance Hospital(Sinchon)
+        from 2018.11 and 2019.10 were selected.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients diagnosed as clear cell renal cell caner T1 stage
+
+          -  Patients who have undergone partial or radical nephrectomy in Severance Hospital,
+             Sinchon from 2018.11 and 2019.10
+
+          -  Those who agree to give permission to use their human source information
+
+          -  Those who agree with this study
+
+        Exclusion Criteria:
+
+          -  Vulnerable Participants
+
+          -  Those who don't agree with this study
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Department of Urology, Urological Science Institute, Yonsei University, Colleage of Medicine</name>
+      <address>
+        <city>Seoul</city>
+        <zip>03722</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Won Sik Ham, MD</last_name>
+      <phone>82-2-2228-2313</phone>
+      <email>uroham@yuhs.ac</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <verification_date>September 2019</verification_date>
+  <study_first_submitted>September 28, 2018</study_first_submitted>
+  <study_first_submitted_qc>October 2, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 3, 2018</study_first_posted>
+  <last_update_submitted>September 15, 2019</last_update_submitted>
+  <last_update_submitted_qc>September 15, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 17, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>renal cell cancer</keyword>
+  <keyword>high risk group</keyword>
+  <keyword>bio-marker</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma, Renal Cell</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>The investigators are going to share study protocol of our study, statistical analysis plan, informed consent form, and clinical study report.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

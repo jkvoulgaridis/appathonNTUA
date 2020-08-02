@@ -1,0 +1,129 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03968094</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MOD00005932</org_study_id>
+    <nct_id>NCT03968094</nct_id>
+  </id_info>
+  <brief_title>Early Detection of Respiratory Compromise to Prevent Harm of the Hospitalized Opioid Treated Patient</brief_title>
+  <official_title>Early Detection of Respiratory Compromise to Prevent Harm of the Hospitalized Opioid Treated Patient</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>State University of New York at Buffalo</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>State University of New York at Buffalo</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Imagine a hospital or ambulatory surgical work environment where clinicians could look at an
+      electronic respiratory monitoring device and observe the patient's data over time, and be
+      cued by the monitor before the patient exhibits dangerous opioid induced respiratory
+      depression/respiratory compromise. Currently, clinicians use electronic monitoring data for
+      real-time assessment of respiratory status. Alarms set at thresholds alert a clinician when
+      the patient is currently experiencing respiratory compromise. Adverse events secondary to
+      opioid induced respiratory compromise (OIRC) continue to occur in 0.5-4.2% of hospitalized
+      patients receiving opioids for acute pain. Opioids continue to be a staple for acute pain
+      management. In this environment of litigation around adequate pain management and the use of
+      opioids, clinicians need a more sensitive and specific way to determine which patients are at
+      risk of severe respiratory depression when using opioids for acute pain management in the
+      hospital setting.
+
+      This study proposes to evaluate algorithms preliminarily developed in the computer
+      laboratory. This translational research will compare and test replication of our algorithms
+      in a new sample of patients. Patients' electronic monitor data will be used to further
+      develop our algorithms for identifying patients who exhibit OIRC and predicting OIRC events.
+      Explicitly, we will monitor post-operative patients using pulse oximetry, capnography, minute
+      ventilation, and transcutaneous PCO2 during recovery from anesthesia (in PACU), and on the
+      general care floor for up to 72 hours. This data, along with covariates collected from the
+      electronic medical record and environment will be used in machine learning models to develop
+      our algorithms in an iterative process. Future studies will involve instituting these
+      algorithms into a monitoring interface and testing in simulation and in real-time on
+      patients. Please see AHRQ summary sheets from a submission that occurred earlier this year.
+    </textblock>
+  </brief_summary>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Anticipated">June 1, 2019</start_date>
+  <completion_date type="Anticipated">March 30, 2020</completion_date>
+  <primary_completion_date type="Anticipated">September 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Opioid Induced Respiratory Depression</measure>
+    <time_frame>48 hours post-operative</time_frame>
+    <description>Electronic Respiratory Data</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Pain</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adults undergoing elective surgery of the abdomen, limbs, back.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria: Undergoing Surgical Procedure and will receive Opioid medications as
+        part of usual care.
+
+        -
+
+        Exclusion Criteria: No admission to general care floor
+
+          -  Oxygen Dependent (wears supplemental oxygen at home)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Buffalo General Medical Center</name>
+      <address>
+        <city>Buffalo</city>
+        <state>New York</state>
+        <zip>14203</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2019</verification_date>
+  <study_first_submitted>May 28, 2019</study_first_submitted>
+  <study_first_submitted_qc>May 28, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 30, 2019</study_first_posted>
+  <last_update_submitted>May 28, 2019</last_update_submitted>
+  <last_update_submitted_qc>May 28, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 30, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>State University of New York at Buffalo</investigator_affiliation>
+    <investigator_full_name>Carla Jungquist</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <keyword>Respiratory Compromise</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,153 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03949218</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CRC2018DSJ01-1</org_study_id>
+    <nct_id>NCT03949218</nct_id>
+  </id_info>
+  <brief_title>Bipolar Disorder and Oxidative Stress Injury Mechanism - Clinical Big Data Analysis Based on Machine Learning</brief_title>
+  <official_title>Bipolar Disorder and Oxidative Stress Injury Mechanism - Clinical Big Data Analysis Based on Machine Learning</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shanghai Mental Health Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Shanghai Mental Health Center</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is a single-center, retrospective, cross-sectional study. We plan to work with our
+      network information center to analysis the related indicators of oxidative stress injury in
+      patients with bipolar disorder based on oxidative stress data. During the study, machine
+      learning was used as a data analysis method to screen out the biomarker risk factors with
+      sensitivity and specificity for early recognition of bipolar disorder from major depression
+      disorder with oxidative stress injury as the core. And then build up effective clinical
+      predictive models for early identification of bipolar disorder, which can predict the early
+      quantitative probabilistic of the onset of bipolar disorder.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">November 20, 2018</start_date>
+  <completion_date type="Actual">November 20, 2018</completion_date>
+  <primary_completion_date type="Actual">November 20, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Early prediction model of bipolar disorder with oxidative stress index as the core</measure>
+    <time_frame>at August 2019</time_frame>
+    <description>Based on the oxidative stress data, the study will analysis related indicators of oxidative stress injury in patients with bipolar disorder. Then use the method of machine learning to build up the early prediction model of bipolar disorder.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">3702</enrollment>
+  <condition>Bipolar Disorder</condition>
+  <arm_group>
+    <arm_group_label>bipolar disorder(BD)</arm_group_label>
+    <description>hospitalized patients BD patients in SMHC from 2009 to 2018; meet ICD-10 diagnosis of F31 bipolar disorder criteria and its subtype (mental examination was conducted by three levels of doctors including at least one attending physician and one chief physician in psychiatric); available relevant HIS system biochemical data; hospitalized patients need to the first admission; age and gender is not limited</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>major depressive disorder（MDD）</arm_group_label>
+    <description>hospitalized patients MDD patients in SMHC from 2009 to 2018; meet ICD-10 diagnosis of F32 depressive disorder criteria and its subtype (mental examination was conducted by three levels of doctors including at least one attending physician and one chief physician in psychiatric); available relevant HIS system biochemical data; hospitalized patients need to the first admission; age and gender is not limited</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Subjects are hospitalized patients in SMHC from 2009 to 2018; meet ICD-10 diagnosis of F31
+        bipolar disorder, F32 depressive disorder criteria and its subtype (mental examination was
+        conducted by three levels of doctors including at least one attending physician and one
+        chief physician in psychiatric); available relevant HIS system biochemical data;
+        hospitalized patients need to the first admission; age and gender is not limited
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  age is not limited
+
+          -  gender is not limited
+
+          -  meets the diagnostic criteria for bipolar disorder of ICD-10 F31,F32 and its
+             sub-categories
+
+          -  has relevant HIS system data that can be utilized.
+
+        Exclusion Criteria:
+
+          -  patients who did not meet the appeal diagnosis after three-level rounds of ward
+
+          -  patients who met the above three diagnoses but had severe data loss (missing value ≥
+             estimated data value of 30%)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Yiru Fang</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Shanghai Mental Health Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Shanghai Mental Health Center</name>
+      <address>
+        <city>Shanghai</city>
+        <state>Shanghai</state>
+        <zip>200030</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <results_reference>
+    <citation>Fang Y, Yuan C, Xu Y, Chen J, Wu Z, Cao L, Yi Z, Hong W, Wang Y, Jiang K, Cui X, Calabrese JR, Gao K; OPERATION Study Team. A pilot study of the efficacy and safety of paroxetine augmented with risperidone, valproate, buspirone, trazodone, or thyroid hormone in adult Chinese patients with treatment-resistant major depression. J Clin Psychopharmacol. 2011 Oct;31(5):638-42. doi: 10.1097/JCP.0b013e31822bb1d9.</citation>
+    <PMID>21869688</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Zhang C, Lu W, Wang Z, Ni J, Zhang J, Tang W, Fang Y. A comprehensive analysis of NDST3 for schizophrenia and bipolar disorder in Han Chinese. Transl Psychiatry. 2016 Jan 5;6:e701. doi: 10.1038/tp.2015.199.</citation>
+    <PMID>26731438</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Guo X, Li Z, Zhang C, Yi Z, Li H, Cao L, Yuan C, Hong W, Wu Z, Peng D, Chen J, Xia W, Zhao G, Wang F, Yu S, Cui D, Xu Y, Golam CM, Smith AK, Wang T, Fang Y. Down-regulation of PRKCB1 expression in Han Chinese patients with subsyndromal symptomatic depression. J Psychiatr Res. 2015 Oct;69:1-6. doi: 10.1016/j.jpsychires.2015.07.011. Epub 2015 Jul 17.</citation>
+    <PMID>26343587</PMID>
+  </results_reference>
+  <verification_date>May 2019</verification_date>
+  <study_first_submitted>May 13, 2019</study_first_submitted>
+  <study_first_submitted_qc>May 13, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 14, 2019</study_first_posted>
+  <last_update_submitted>May 13, 2019</last_update_submitted>
+  <last_update_submitted_qc>May 13, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 14, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Shanghai Mental Health Center</investigator_affiliation>
+    <investigator_full_name>Yiru FANG M.D., Ph.D.</investigator_full_name>
+    <investigator_title>director of clinical research center &amp; division of mood disorders</investigator_title>
+  </responsible_party>
+  <keyword>bipolar disorder</keyword>
+  <keyword>machine learning</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Disease</mesh_term>
+    <mesh_term>Bipolar Disorder</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

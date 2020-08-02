@@ -1,0 +1,182 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04092543</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DRAGON</org_study_id>
+    <nct_id>NCT04092543</nct_id>
+  </id_info>
+  <brief_title>Validation of DRAGON Versus a Simplified DRAGON/Machine Learning</brief_title>
+  <official_title>Prediction of Outcome After Acute Stroke: Validation of CT-DRAGON Versus a Simplified CT-DRAGON Score</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Ziekenhuis Oost-Limburg</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University Hospital, Ghent</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Ziekenhuis Oost-Limburg</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The CT-DRAGON score can predict long-term functional outcome after acute stroke treated by
+      thrombolysis. However, implementation in clinical practice is hampered by a lack of
+      validation in the broad spectrum of stroke patients undergoing thrombectomy, whether or not
+      in combination with thrombolysis or conservative treatment. Furthermore, the CT-DRAGON score
+      considers multiple items, which are not always readily available in every setting. This study
+      aims to investigate whether either a simplified version of the CT-DRAGON score with only
+      three clinical items or a machine learning technique could be as powerful and more feasible.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The investigators aim to validate the CT-DRAGON score in all ischaemic stroke localisations
+      and for all treatment options, including a conservative treatment policy. The predictability
+      will then be compared with on the one hand simplified prognostic models that include only a
+      selective set of highly predictive parameters that have already been described in the
+      literature, such as patient age, National Institutes of Health Stroke Scale (NIHSS) and
+      pre-stroke modified Rankin Scale (mRS). On the other hand, machine learning techniques, that
+      incorporate a large set of variables and have recently shown some promising results, will
+      also be applied to predict long-term outcome after ischaemic stroke.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 1, 2019</start_date>
+  <completion_date type="Anticipated">November 1, 2021</completion_date>
+  <primary_completion_date type="Anticipated">August 1, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Modified Rankin Scale at day 90</measure>
+    <time_frame>90 days after the onset of stroke</time_frame>
+    <description>The modified rankin scale will be assessed at 90 days at a consultation or by a telephonic interview which is standard of care in the hospital. The scale runs from 0-6, running from perfect health without symptoms to death.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Modified Rankin Scale at 7 days after discharge</measure>
+    <time_frame>7 days after discharge at the hospital</time_frame>
+    <description>The modified rankin scale will be assessed at 7 days after discharge by a telephonic interview which is standard of care in the hospital. he scale runs from 0-6, running from perfect health without symptoms to death.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>PROMIS 10 questionnaire at 7 days after discharge</measure>
+    <time_frame>7 days after discharge</time_frame>
+    <description>The Patient-Reported Outcomes Measurement Information System (PROMIS) is a publically available global health assessment tool that allows measurements of symptoms, functioning, and healthcare-related quality of life.The scoring system of the PROMIS Global-10 allows each of the individual items to be examined separately to provide specific information about perceptions of physical function, pain, fatigue, emotional distress, social health and general perceptions of health.The summed total is reported as 0 to 48 with higher scores reflecting less pain and better function.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>PROMIS 10 questionnaire at 90 days after the onset of stroke</measure>
+    <time_frame>90 days after the onset of stroke</time_frame>
+    <description>The Patient-Reported Outcomes Measurement Information System (PROMIS) is a publically available global health assessment tool that allows measurements of symptoms, functioning, and healthcare-related quality of life.The scoring system of the PROMIS Global-10 allows each of the individual items to be examined separately to provide specific information about perceptions of physical function, pain, fatigue, emotional distress, social health and general perceptions of health. The summed total is reported as 0 to 48 with higher scores reflecting less pain and better function.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>NIHSS at 90 days after the onset of stroke</measure>
+    <time_frame>90 days after the onset of stroke</time_frame>
+    <description>Change in NIHSS over time: baseline (diagnosis stroke), 3 months and one year follow-up. The National Institutes of Health Stroke Scale (NIHSS) is a tool used by healthcare providers to objectively quantify the impairment caused by a stroke. The NIHSS is composed of 11 items, each of which scores a specific ability between a 0 and 4. For each item, a score of 0 typically indicates normal function in that specific ability, while a higher score is indicative of some level of impairment. The individual scores from each item are summed in order to calculate a patient's total NIHSS score. The maximum possible score is 42, with the minimum score being a 0.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Analysis of the hospitalization cost after the onset of stroke</measure>
+    <time_frame>90 days after the onset of stroke</time_frame>
+    <description>90 days after the onset of stroke, all hospitalization costs will be analyzed per patient. All costs related to stroke in our hospital will be analyzed (surgery, clinical investigations, revalidation therapy etc) by our financial department.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">700</enrollment>
+  <condition>Stroke, Acute</condition>
+  <arm_group>
+    <arm_group_label>Stroke patients</arm_group_label>
+    <description>All patients diagnosed with a stroke are collected in the database.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All patients diagnosed with a stroke will be analyzed in the database starting from March
+        1, 2019 until August 1 2021
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  all patients diagnosed with a stroke
+
+        Exclusion Criteria:
+
+        -
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>dieter Mesotten, MD PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Ziekenhuis Oost-Limburg</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Dieter Mesotten, MD PhD</last_name>
+    <phone>+3289325407</phone>
+    <email>elly.vandermeulen@zol.be</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Elly Vandermeulen, PhD</last_name>
+    <phone>+3289325407</phone>
+    <email>elly.vandermeulen@zol.be</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Ziekenhuis Oost-Limburg</name>
+      <address>
+        <city>Genk</city>
+        <zip>3600</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ziekenhuis Oost-Limburg</last_name>
+      <phone>03289325407</phone>
+      <email>elly.vandermeulen@zol.be</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+  </location_countries>
+  <verification_date>September 2019</verification_date>
+  <study_first_submitted>August 14, 2019</study_first_submitted>
+  <study_first_submitted_qc>September 16, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 17, 2019</study_first_posted>
+  <last_update_submitted>September 16, 2019</last_update_submitted>
+  <last_update_submitted_qc>September 16, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 17, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Ziekenhuis Oost-Limburg</investigator_affiliation>
+    <investigator_full_name>Dieter Mesotten</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>CT-DRAGON score</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stroke</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

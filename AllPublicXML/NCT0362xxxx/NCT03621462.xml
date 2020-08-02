@@ -1,0 +1,202 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03621462</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AIDA-PRO-001</org_study_id>
+    <nct_id>NCT03621462</nct_id>
+  </id_info>
+  <brief_title>Elucid Labs AIDA™ - Labelled Image Acquisition Protocol</brief_title>
+  <official_title>Acquiring Images of Pigmented Skin Lesions With the Artificial Intelligence Dermatology Assistant (AIDA™) and Concurrent in Vivo Assessment for the Evaluation of Diagnostic Accuracy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Elucid Labs Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Elucid Labs Inc.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Diagnosis of melanoma involves physical examination of the lesion with many dermatologists
+      adjunctively employing dermoscopes. The rate of misdiagnosis of melanoma remains significant,
+      along with a high rate of referral to biopsy. Elucid Labs (Waterloo, Ontario) has developed a
+      novel handheld, digital dermoscope with accompanying visualization and analysis software -
+      the Artificial Intelligence Dermatology Assistant (AIDA™). Apart from collecting conventional
+      demoscopic images, AIDA also collects images at various spectral bands. The aim of this study
+      is to understand and quantify the value of this novel adjunctive information for
+      dermatologists diagnosing atypical skin lesions.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Patients presenting with atypical skin lesions will undergo assessment by an investigator as
+      per their standard clinical practice (not utilizing AIDA™). If a lesion meeting the
+      inclusion-exclusion criteria is referred for biopsy, informed consent will be obtained and
+      the subject will be enrolled. Subjects will then have images acquired by the AIDA™ system.
+      All lesions scheduled for biopsy (Subgroup A) will be imaged along with at most 2 additional
+      lesions meeting inclusion/exclusion criteria but not referred for biopsy (Subgroup B). For
+      each lesion imaged using AIDA™, the investigator will manually segment the lesion image and
+      list any lesion features which contributed to their recommendation to biopsy or not biopsy.
+      The investigator will first score the lesion according to the ABCD rule using the standard
+      dermoscopy image displayed. They will then state their diagnosis (malignant, dyplastic, or
+      benign) and their diagnostic confidence using a visual analog scale. Once standard demoscopy
+      diagnosis has been collected, the process will be repeated with the use of AIDA™ software
+      outputs. Investigators will also provide an estimate of lesion depth based on AIDA™ depth
+      images. All biopsy results will be recorded by the pathologist. Histopathology determination
+      will be used as the definitive diagnosis of either positive (malignant/dysplastic) or
+      negative (benign). Complete de-identified pathology reports may also be collected.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">October 15, 2018</start_date>
+  <completion_date type="Anticipated">October 15, 2020</completion_date>
+  <primary_completion_date type="Anticipated">September 1, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity of in-clinic dermatologist diagnosis using AIDA™ compared to standard dermoscopy and physical examination alone</measure>
+    <time_frame>Average of 4 weeks</time_frame>
+    <description>The investigator will review the standard dermoscopy image for the lesion, score it according to the ABCD rule, and state their diagnosis (malignant, dysplastic, or benign) and their diagnostic confidence using a visual analog scale. Subsequently, the investigator will review the AIDA™ outputs and again state their diagnosis and confidence. The sensitivity of those in-clinic diagnoses will be determined by using the definitive diagnoses established in the histopathology reports.
+The sensitivity of a diagnostic technique determines the probability of a positive test result in a person who has the disease. This is defined according to the equation: TP/(TP + FN) . In this equation, TP is the number of true-positive and FN is the number of false-negative results.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Specificity of in-clinic dermatologist diagnosis using AIDA™ compared to standard dermoscopy and physical examination alone</measure>
+    <time_frame>Average of 4 weeks</time_frame>
+    <description>The investigator will review the standard dermoscopy image for the lesion, score it according to the ABCD rule, and state their diagnosis (malignant, dysplastic, or benign) and their diagnostic confidence using a visual analog scale. Subsequently, the investigator will review the AIDA™ outputs and again state their diagnosis and confidence. The specificity of those in-clinic diagnoses will be determined by using the definitive diagnoses established in the histopathology reports.
+The specificity of a diagnostic technique refers to the probability of a negative test result in a person who does not have the disease according to the equation: TN/(TN + FP). In this equation, TN is the number of true-negative and FP is the number of false-positive results.</description>
+  </primary_outcome>
+  <other_outcome>
+    <measure>Concordance of investigators' AIDA™-based lesion depth estimate to actual depth measurement on biopsy report</measure>
+    <time_frame>Average of 4 weeks</time_frame>
+    <description>For all melanoma lesions biopsied in toto (completely excised), the lesion depth is stated within the histopathology report. As this cannot be established prior to biopsy, the investigator will estimate the depth of all lesions referred based on the AIDA™ software output. The concordance of that estimate will be compared to the actual depth stated in the histopathology reports for melanoma lesions biopsied in toto.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Overall diagnostic accuracy (AUC of the ROC) of in-clinic dermatologist diagnosis using AIDA™ compared to standard dermoscopy and physical examination alone</measure>
+    <time_frame>Average of 4 weeks</time_frame>
+    <description>Based on the sensitivity and specificity of dermatologists established when using AIDA™ output vs. standard dermoscopy and physical examination alone images, receiver operating characteristic (ROC) curves will be generated. The diagnostic accuracy, also known as the area under the curve (AUC) of the ROC will be calculated for each ROC curve and compared.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Positive and Negative predictive values (PPV and NPV) of in-clinic dermatologist diagnosis using AIDA™ compared to standard dermoscopy and physical examination alone</measure>
+    <time_frame>Average of 4 weeks</time_frame>
+    <description>The predictive value of a diagnostic test is important in determining the applicability of the diagnostic technique. The positive predictive value (PPV) is determined by the equation TP/(TP + FP) and is the probability that a patient has the condition given a positive test result. The negative predictive value (NPV) is determined by the equation TN/(TN + FN) and is the probability that a patient does not have the condition given a negative test result.
+The investigator will review the standard dermoscopy image for the lesion, score it according to the ABCD rule, and state their diagnosis (malignant, dysplastic, or benign) and their diagnostic confidence using a visual analog scale. Subsequently, the investigator will review the AIDA™ outputs and again state their diagnosis and confidence. The PPV and NPV of those in-clinic diagnoses will be determined by using the definitive diagnoses established in the histopathology reports.</description>
+  </other_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">4000</enrollment>
+  <condition>Melanoma (Skin)</condition>
+  <condition>Basal Cell Carcinoma of the Skin</condition>
+  <condition>Squamous Cell Carcinoma of the Skin</condition>
+  <arm_group>
+    <arm_group_label>Acquisition of Lesion Images with AIDA</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects presenting with atypical skin lesions referred for biopsy will have their lesion imaged using the Artificial Intelligence Dermatology Assistant (AIDA™) study device</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Artificial Intelligence Dermatology Assistant (AIDA™)</intervention_name>
+    <description>The Artificial Intelligence Dermatology Assistant (AIDA™) collects conventional demoscopic images and images at various spectral bands. Following image acquisition, the AIDA™ software presents users with (1) similar lesion images from the International Skin Imaging Collaboration archive, (2) Hypodermoscopy™ images, and (3) images providing an indication of lesion depth, based on the spectral data.</description>
+    <arm_group_label>Acquisition of Lesion Images with AIDA</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Is 18 years of age or older
+
+          2. Has provided informed consent to participate in the study
+
+          3. Is being evaluated by a dermatologist for at least one pigmented skin lesionscheduled
+             for biopsy and meeting the following:
+
+               1. Has a diameter of at least 1 mm and at most 10 mm
+
+               2. Is accessible to the study device (allows for complete seal of device with
+                  skin-ie. no ambient light leakage)
+
+               3. Is not within 1 cm of the eyes, on mucosal surfaces, palmar hands, plantarfeet,
+                  or under nails
+
+               4. Is intact (eg. no open sores, ulcers, bleeding)
+
+               5. Has not previously been biopsied, excised or traumatized
+
+               6. Does not contain visible scarring or foreign material (eg. tattoos, etc.)
+
+        Exclusion Criteria:
+
+        1. Any allergy to isopropyl alcohol
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>John Arlette, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Total Skincare Centre</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Behnoud Kazemzadeh</last_name>
+    <phone>647-467-0706</phone>
+    <email>behnoud@elucidlabs.ca</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Total Skincare Centre</name>
+      <address>
+        <city>Calgary</city>
+        <state>Alberta</state>
+        <zip>T3C2G2</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>John Arlette, MD</last_name>
+      <phone>403-216-4685</phone>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>August 2018</verification_date>
+  <study_first_submitted>August 1, 2018</study_first_submitted>
+  <study_first_submitted_qc>August 3, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 8, 2018</study_first_posted>
+  <last_update_submitted>August 3, 2018</last_update_submitted>
+  <last_update_submitted_qc>August 3, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 8, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma</mesh_term>
+    <mesh_term>Carcinoma, Basal Cell</mesh_term>
+    <mesh_term>Skin Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

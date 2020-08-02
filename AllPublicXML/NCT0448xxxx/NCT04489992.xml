@@ -1,0 +1,289 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04489992</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020-3</org_study_id>
+    <nct_id>NCT04489992</nct_id>
+  </id_info>
+  <brief_title>Experiment on the Use of Innovative Computer Vision Technologies for Analysis of Medical Images in the Moscow Healthcare System</brief_title>
+  <official_title>Experiment on the Use of Innovative Computer Vision Technologies for Analysis of Medical Images in the Moscow Healthcare System</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Research and Practical Clinical Center for Diagnostics and Telemedicine Technologies of the Moscow Health Care Department</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Research and Practical Clinical Center for Diagnostics and Telemedicine Technologies of the Moscow Health Care Department</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      It is planned to integrate various services based on computer vision technologies for
+      analysis of the certain type of x-ray study into Moscow Unified Radiological Information
+      Service (hereinafter referred to as URIS).
+
+      As a result of using computer vision-based services, it is expected:
+
+        1. Reducing the number of false negative and false positive diagnoses;
+
+        2. Reducing the time between conducting a study and obtaining a report by the referring
+           physician;
+
+        3. Increasing the average number of radiology reports provided by a radiologist per shift.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Recently a growth in the number of radiology studies across multiple modalities has been
+      observed alongside the modest increase in staffing levels. This carries higher risks of
+      increased workload and efficiency losses. The integration of computer vision-based services
+      into URIS will improve the radiologists' productivity and job performance.
+
+      Existing prerequisites for conducting the study:
+
+        1. Increasing the number of preventive and diagnostic radiological studies entails the
+           growing workload for radiologists and increased risk of interpretation errors, which in
+           turn leads to the decrease in quality of medical care.
+
+        2. When a radiologist opens a worklist of studies, in the absence of special notes, he/she
+           writes a report in the random order, not being able to select from the list the studies
+           that require the most attention and prompt response (studies with pathological
+           findings), which increases the time of diagnosis.
+
+        3. The absence of the structured pre-filled template of report leads to the increase in
+           time for preparing reports.
+
+        4. A radiologist has to spend considerable time evaluating the dynamics of pathological
+           changes, which also increases the time to prepare a report as well as the risk of error.
+
+        5. Interpretation of preventive studies requires double reading, which is implemented
+           inefficiently due to the staff shortage.
+
+      Study objectives:
+
+        1. Study the diagnostic accuracy of the Services in accordance with the methodological
+           guidelines No. 43 &quot;Clinical trials of software based on intelligent technologies
+           (diagnostic radiology)&quot; (recommended by the Expert Council on Science of the Moscow
+           Healthcare Department, Protocol No. 8 of June 25, 2019).
+
+        2. Audit the studies conducted with Services application in order to determine the number
+           of interpretation errors, and compare it with the audit result without their application
+           (hypothesis 1).
+
+        3. Conduct timekeeping to estimate time for preparing a report and the total number of
+           evaluated studies with and without using the Services (hypothesis 2,3).
+
+        4. Conduct a survey of radiologists who use the Services in their work, in order to
+           determine their opinion about the implementation of innovative technologies in the
+           diagnostic process.
+
+      METHODOLOGY
+
+        1. The Experiment is carried out by the Moscow Healthcare Department in accordance with
+           Regulation No. 43 of January 24, 2020 &quot;On approval of the procedure and conditions for
+           conducting the Experiment on the use of innovative computer vision technologies for
+           analysis of medical images and further application in Moscow healthcare system&quot;.
+
+        2. The experiment is conducted on three types of studies:
+
+      1) Chest Computed tomography and Low-Dose Computed Tomography for lung cancer detection
+      (hereinafter referred to as CT/LDCT); 2) Chest X-ray for lung pathology detection
+      (hereinafter referred to as XR); 3) Mammography for breast cancer detection (hereinafter
+      referred to as ММГ).
+
+      3. For each Service during the Experiment, a certain number of studies is provided for
+      processing based on their type:
+
+        1. CT/LDCT - 30 250 studies;
+
+        2. XR - 55 000 studies;
+
+        3. MMG - 48 500 studies.
+
+      4. A methodology for including services in the Experiment has been developed. For each
+      Service, the participation process in the Experiment consists of the following stages:
+
+        1. selection;
+
+        2. the preparatory stage;
+
+        3. the main stage;
+
+        4. the final stage.
+
+      During the Experiment, a radiologist will routinely be able to:
+
+        -  work on a sorted list of patients (triage);
+
+        -  work with images processed by the Service;
+
+        -  work with a pre-filled template of the radiological report on each study;
+
+        -  evaluate the work of the Service according to the developed questionnaire. During the
+           Experiment, a patient will receive the individual plan of the follow-up support. It
+           includes preventive examinations or observation as well as treatment by a specialist.
+
+      Systematization and final analysis of the Experiment results is carried out within three
+      months from the completion date of the last Service participation in the Experiment.
+
+      Based on the results of the Experiment, recommendations can be prepared on the possibility to
+      register certain services as a medical device (software).
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">February 21, 2020</start_date>
+  <completion_date type="Anticipated">December 31, 2020</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Crossover</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of errors</measure>
+    <time_frame>Upon completion, up to 1 year</time_frame>
+    <description>Change of at least 30% in the number of errors in interpretation of the studies with using computer vision-based services compared to the number of errors in interpretation without their application.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Report turnaround time</measure>
+    <time_frame>Upon completion, up to 1 year</time_frame>
+    <description>Change of at least 30% of the time from the study completion to report finalization by a radiologist.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of reports</measure>
+    <time_frame>Upon completion, up to 1 year</time_frame>
+    <description>Change of at least 30% in the number of radiology reports provided by a radiologist per shift.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Feedback from radiologists</measure>
+    <time_frame>Upon completion, up to 1 year</time_frame>
+    <description>Change of at least 30% in computer vision-based services acceptance and satisfaction as per periodic questionnaires for radiologists.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">133000</enrollment>
+  <condition>AI (Artificial Intelligence)</condition>
+  <condition>Mammary Cancer</condition>
+  <condition>Lung Cancer</condition>
+  <condition>X-Rays; Lesion</condition>
+  <arm_group>
+    <arm_group_label>Standard radiology studies with AI</arm_group_label>
+    <description>The experiment is conducted on three types of studies:
+Chest Computed tomography and Low-Dose Computed Tomography for lung cancer detection (hereinafter referred to as CT/LDCT) with artificial intelligence results;
+Chest X-ray for lung pathology detection (hereinafter referred to as XR) with artificial intelligence results;
+Mammography for breast cancer detection (hereinafter referred to as MG) with artificial intelligence results;</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard radiology studies without AI</arm_group_label>
+    <description>The experiment is conducted on three types of studies:
+Chest Computed tomography and Low-Dose Computed Tomography for lung cancer detection (hereinafter referred to as CT/LDCT) without artificial intelligence results;
+Chest X-ray for lung pathology detection (hereinafter referred to as XR) without artificial intelligence results;
+Mammography for breast cancer detection (hereinafter referred to as MG) without artificial intelligence results;</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        patients over the age of 18 attending outpatient clinics
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age (over 18 years)
+
+          -  Gender (male and female)
+
+          -  Referral for the study
+
+          -  Signed informed consent to participate in the Experiment
+
+          -  Chest computed tomography and Low-dose computed tomography for lung cancer detection
+             or mammography for breast cancer detection or chest X-ray for lung pathology detection
+
+        Exclusion Criteria:
+
+          -  Another type of study (including a different modality and anatomical area)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sergey Morozov</last_name>
+    <role>Study Director</role>
+    <affiliation>Research and Practical Clinical Center for Diagnostics and Telemedicine Technologies of the Moscow Health Care Department</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Anna Andreychenko, PhD</last_name>
+    <phone>+31 6 24218452</phone>
+    <email>a.andreychenko@npcmr.ru</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Victor Gombolevskiy, PhD</last_name>
+    <phone>+79263948149</phone>
+    <email>gombolevskiy@npcmr.ru</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Research and Practical Clinical Center for Diagnostics and Telemedicine Technologies of the Moscow Health Care Department</name>
+      <address>
+        <city>Moscow</city>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Victor Gombolevskiy, PhD</last_name>
+      <phone>+79263948149</phone>
+      <email>g_victor@mail.ru</email>
+    </contact>
+    <contact_backup>
+      <last_name>Anna Andreychenko, PhD</last_name>
+      <phone>+31 6 24218452</phone>
+      <email>a.andreychenko@npcmr.ru</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Russian Federation</country>
+  </location_countries>
+  <link>
+    <url>http://mosmed.ai</url>
+    <description>Experiment on the use of innovative computer vision technologies for analysis of medical images in the Moscow healthcare system</description>
+  </link>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>July 17, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 24, 2020</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 28, 2020</study_first_posted>
+  <last_update_submitted>July 24, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 24, 2020</last_update_submitted_qc>
+  <last_update_posted type="Estimate">July 28, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>AI (Artificial Intelligence)</keyword>
+  <keyword>Computed tomography</keyword>
+  <keyword>Low-dose CT</keyword>
+  <keyword>X-ray chest</keyword>
+  <keyword>mammography</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

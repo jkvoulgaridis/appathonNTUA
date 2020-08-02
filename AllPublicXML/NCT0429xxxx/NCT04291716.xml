@@ -1,0 +1,273 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04291716</url>
+  </required_header>
+  <id_info>
+    <org_study_id>OW012019</org_study_id>
+    <nct_id>NCT04291716</nct_id>
+  </id_info>
+  <brief_title>Study to Validate Novel Seizure-Detection Algorithm</brief_title>
+  <official_title>Validation of an Algorithm for Identification and Notification of Generalized Major Motor Seizures</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Overwatch Digital Health</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Bracane Company</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Overwatch Digital Health</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The specificity and sensitivity of a novel seizure-detection mobile software application with
+      a generalized tonic/clonic seizure detection algorithm (Motor Seizure Detection Algorithm
+      [mSDA]) installed on a wearable device to be worn by the subject. The software will be tested
+      using subjects from a patient population in an epilepsy monitoring unit (EMU) undergoing
+      video and electroencephalograph (VEEG) observation. The number of generalized major motor
+      seizures detected by the mSDA will be compared with those detected by VEEG.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Seizures are paroxysmal, abnormal behaviors which usually are associated with altered
+      awareness and amnesia. The frequency of seizures is not easily documented. The individual who
+      suffers from seizures may be unaware that a seizure is occurring. Many seizures, including
+      generalized major motor seizures, have stereotyped, vigorous motor activity associated with
+      the events.
+
+      Currently, accurate seizure detection relies on EEG and video which are limited by time, size
+      and mobility. Seizure detection can also use biomarkers such as movement patterns described
+      by gyroscopes. These devices can monitor patterns of movement which correspond to the
+      activity during seizures and kept in a log of seizures without patient input. The log can be
+      used to notify patients or caregivers of seizures.
+
+      This study is to determine the accuracy of a system using a commercial, wearable device
+      linked to a computer algorithm based in the cloud which stores the movement pattern and
+      notifies the patient and others of a generalized major motor seizure. The accuracy will be
+      determined by a comparison of the system detections to simultaneously recorded video
+      electroencephalogram, considered the &quot;gold standard&quot; of seizure detection.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">March 2020</start_date>
+  <completion_date type="Anticipated">December 2020</completion_date>
+  <primary_completion_date type="Anticipated">October 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>This is a single cohort of subjects male or female, aged 18 and above who are epilepsy patients who have been admitted to an epilepsy monitoring unit (EMU).</intervention_model_description>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity</measure>
+    <time_frame>1 to 5 days</time_frame>
+    <description>Number of major motor seizure detections by algorithm with detection by video encephalogram data.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>False positive rate</measure>
+    <time_frame>1 to 5 days</time_frame>
+    <description>Total number of false positives and number of false positives per day.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean detection latency</measure>
+    <time_frame>1 to 5 days</time_frame>
+    <description>Time between algorithm detection and application notification</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Notifications</measure>
+    <time_frame>1 to 5 days</time_frame>
+    <description>Total number of seizure notifications received on subject's assigned email</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cancellations</measure>
+    <time_frame>1 to 5 days</time_frame>
+    <description>Total number of cancellations of false positive alerts made by the subject.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">15</enrollment>
+  <condition>Seizures, Motor</condition>
+  <condition>Seizures</condition>
+  <condition>Seizure Disorder</condition>
+  <condition>Epilepsy</condition>
+  <condition>Epileptic Seizures</condition>
+  <condition>Epileptic</condition>
+  <arm_group>
+    <arm_group_label>Single Arm</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>This is a single-arm study. All subjects enrolled in the study will wear the device during stay in the EMU.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Motor Seizure Detection Algorithm (mSDA)</intervention_name>
+    <description>A seizure detection algorithm installed on a propriety mobile application to be used on a commercially available watch with a gyroscope to detect movement.</description>
+    <arm_group_label>Single Arm</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Provision of signed and dated informed consent form.
+
+          2. Stated willingness to comply with all study procedures and availability for the
+             duration of the study.
+
+          3. Meets the standard of care criteria for admission to an epilepsy monitoring unit
+             (EMU).
+
+          4. Male or female.
+
+          5. Aged 18 and above.
+
+          6. The patient has experienced at least one generalized major motor seizure prior to
+             admission.
+
+          7. Agreement to wear a wristwatch throughout the duration of the study on the left wrist.
+
+          8. Ability to cancel false positive alarms via interaction with the application on the
+             watch.
+
+        Exclusion Criteria:
+
+          1. Concurrent physiological diseases with movement disorders (Parkinson's, tremor,
+             ataxia, Huntington's, paralysis of the upper body, pseudo-seizures).
+
+          2. Known allergic reactions to components of the (watch materials).
+
+          3. Treatment with another investigational drug or other intervention within the study
+
+          4. Children under the age of 18.
+
+          5. Women who are pregnant or nursing.
+
+          6. Inability to give consent to the study.
+
+          7. Active skin infection or rash on the upper extremities
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Haytham Elgammal, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Overwatch Digital Health</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Subha Sarcar, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Bracane Company</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Chis Czura, PhD</last_name>
+    <phone>214-662-7322</phone>
+    <email>chris.czura@overwatchdh.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Pamela J Nelson, PhD</last_name>
+    <phone>469.814.0658</phone>
+    <email>pjnelson@bracaneco.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Covenant Hospital and Covenant Medical Group</name>
+      <address>
+        <city>Lubbock</city>
+        <state>Texas</state>
+        <zip>79410</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://overwatchdh.com/</url>
+    <description>Sponsor website</description>
+  </link>
+  <reference>
+    <citation>Fisher RS, Cross JH, French JA, Higurashi N, Hirsch E, Jansen FE, Lagae L, Moshé SL, Peltola J, Roulet Perez E, Scheffer IE, Zuberi SM. Operational classification of seizure types by the International League Against Epilepsy: Position Paper of the ILAE Commission for Classification and Terminology. Epilepsia. 2017 Apr;58(4):522-530. doi: 10.1111/epi.13670. Epub 2017 Mar 8.</citation>
+    <PMID>28276060</PMID>
+  </reference>
+  <reference>
+    <citation>Proposal for revised clinical and electroencephalographic classification of epileptic seizures. From the Commission on Classification and Terminology of the International League Against Epilepsy. Epilepsia. 1981 Aug;22(4):489-501.</citation>
+    <PMID>6790275</PMID>
+  </reference>
+  <reference>
+    <citation>Kramer U, Kipervasser S, Shlitner A, Kuzniecky R. A novel portable seizure detection alarm system: preliminary results. J Clin Neurophysiol. 2011 Feb;28(1):36-8. doi: 10.1097/WNP.0b013e3182051320.</citation>
+    <PMID>21221012</PMID>
+  </reference>
+  <reference>
+    <citation>Janse SA, Dumanis SB, Huwig T, Hyman S, Fureman BE, Bridges JFP. Patient and caregiver preferences for the potential benefits and risks of a seizure forecasting device: A best-worst scaling. Epilepsy Behav. 2019 Jul;96:183-191. doi: 10.1016/j.yebeh.2019.04.018. Epub 2019 May 29.</citation>
+    <PMID>31150998</PMID>
+  </reference>
+  <reference>
+    <citation>Jalloul N. Wearable sensors for the monitoring of movement disorders. Biomed J. 2018 Aug;41(4):249-253. doi: 10.1016/j.bj.2018.06.003. Epub 2018 Sep 11.</citation>
+    <PMID>30348268</PMID>
+  </reference>
+  <reference>
+    <citation>Muennig PA, Glied SA. What changes in survival rates tell us about us health care. Health Aff (Millwood). 2010 Nov;29(11):2105-13. doi: 10.1377/hlthaff.2010.0073. Epub 2010 Oct 7.</citation>
+    <PMID>20930036</PMID>
+  </reference>
+  <reference>
+    <citation>Johansson D, Malmgren K, Alt Murphy M. Wearable sensors for clinical applications in epilepsy, Parkinson's disease, and stroke: a mixed-methods systematic review. J Neurol. 2018 Aug;265(8):1740-1752. doi: 10.1007/s00415-018-8786-y. Epub 2018 Feb 9. Review.</citation>
+    <PMID>29427026</PMID>
+  </reference>
+  <reference>
+    <citation>Nijsen TM, Arends JB, Griep PA, Cluitmans PJ. The potential value of three-dimensional accelerometry for detection of motor seizures in severe epilepsy. Epilepsy Behav. 2005 Aug;7(1):74-84.</citation>
+    <PMID>15975855</PMID>
+  </reference>
+  <reference>
+    <citation>Horne MK, McGregor S, Bergquist F. An objective fluctuation score for Parkinson's disease. PLoS One. 2015 Apr 30;10(4):e0124522. doi: 10.1371/journal.pone.0124522. eCollection 2015.</citation>
+    <PMID>25928634</PMID>
+  </reference>
+  <reference>
+    <citation>Beniczky S, Polster T, Kjaer TW, Hjalgrim H. Detection of generalized tonic-clonic seizures by a wireless wrist accelerometer: a prospective, multicenter study. Epilepsia. 2013 Apr;54(4):e58-61. doi: 10.1111/epi.12120. Epub 2013 Feb 8.</citation>
+    <PMID>23398578</PMID>
+  </reference>
+  <verification_date>February 2020</verification_date>
+  <study_first_submitted>February 24, 2020</study_first_submitted>
+  <study_first_submitted_qc>February 27, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 2, 2020</study_first_posted>
+  <last_update_submitted>February 27, 2020</last_update_submitted>
+  <last_update_submitted_qc>February 27, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 2, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Epilepsy</keyword>
+  <keyword>Mobile Health</keyword>
+  <keyword>Seizure</keyword>
+  <keyword>Major motor seizure</keyword>
+  <keyword>Epileptic convulsion</keyword>
+  <keyword>Epilepsy monitoring</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Epilepsy</mesh_term>
+    <mesh_term>Seizures</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

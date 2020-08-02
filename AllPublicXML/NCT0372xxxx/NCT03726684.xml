@@ -1,0 +1,340 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03726684</url>
+  </required_header>
+  <id_info>
+    <org_study_id>EBCS</org_study_id>
+    <nct_id>NCT03726684</nct_id>
+  </id_info>
+  <brief_title>Evaluation of a Bio-inspired Coding Strategy for Cochlear Implant Users</brief_title>
+  <acronym>EBCS</acronym>
+  <official_title>Evaluation of a Bio-inspired Coding Strategy for Cochlear Implant Users</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Zurich</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Zurich</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will determine the facilitation, refractoriness and spatial spread effects of
+      auditory nerve fiber responses to electrical stimulation via a cochlear implant.
+
+      The performance of CI users in melody contour and speech recognition in noise tests with
+      their own clinical sound processor and a MATLAB implementation of their coding strategy will
+      be compared and a bioinspired coding strategy will be evaluated in comparison with the
+      conventional ACE coding strategy.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The advanced combination encoder (ACE) strategy, one of the most widely used clinical speech
+      processing strategies available to cochlear implant (CI) users, attempts to optimize
+      transmission of input acoustic signals, but does not explicitly consider the auditory nerve
+      fibers' (ANFs) capacity for conveying this information. The ACE strategy decomposes temporal
+      frames of the incoming sound signal into frequency bands with a bank of band-pass Fast
+      Fourier Transform (FFT) filters. The temporal envelopes in each band are then extracted and
+      typically eight to ten bands with the highest energy content are selected to amplitude
+      modulate the biphasic pulses. This selection is performed irrespective of the ANFs responses
+      to the electrical stimulation. However, some studies have shown that temporal response
+      properties of ANFs impose limitations for electrical stimulation. Apart from that, the degree
+      of spread of neural excitation which is typically larger than in the acoustic case, may
+      result in responses which can diminish information provided on the individual channels. Thus,
+      a coding strategy taking into account temporal properties of ANFs as well as spatial spread
+      of the electric field could be beneficial for CI users.
+
+      One of the prominent temporal characteristics of ANFs in response to the electrical
+      stimulation is refractoriness. This phenomenon can be defined as a reduction in the
+      excitability of ANFs immediately following an action potential and has been observed in CI
+      recipients via measuring the electrically evoked compound action potential (ECAP). The
+      refractory period can be divided into an absolute refractory period (ARP) during which the
+      auditory nerve is incapable of responding to the following pulse and a relative refractory
+      period (RRP) during which a response from the neuron is possible under specific
+      circumstances. Refractoriness can impose limitations on the maximum stimulation rate of CIs
+      since ANFs cannot respond to a stimulus presented during the ARP.
+
+      Apart from refractoriness, an ongoing high rate pulse train produces spike rate adaptation
+      (SRA) in ANFs in which the neurons progressively lose their ability to respond to every
+      pulse. This decrement in neural excitability is even larger than can be explained by
+      refractoriness. Animal studies of ANFs at high rate pulse trains have shown SRA and
+      adaptation has also been observed in the ECAP amplitude of human CI users in which the
+      amplitude decreased as the stimulation rate increased. In parallel to spike rate adaptation,
+      accommodation can contribute to the spike rate decrement. Accommodation reduces excitability
+      for the second pulse (probe) response when there is a subthreshold response to the first
+      pulse (masker) and the masker-probe interval (MPI) is large enough to allow the membrane
+      potential to decay back near or below the resting potential. Accommodation in addition to SRA
+      is considered as reduction in the excitability of ANFs and its effect accumulates over
+      sequential non-spiking responses.
+
+      Electrical stimulation of ANFs in animals with pairs of pulses has also shown facilitation
+      which is defined as an increase in nerve excitability caused by sub-threshold stimulation in
+      short intervals. Apart from animal studies, the facilitation effect has also been observed in
+      human CI recipients. Facilitation happens when the neuron does not respond to the first
+      pulse, but if the membrane potential remains near the threshold long enough, the second pulse
+      can produce a response. It was shown that facilitation is more evident at a low MPI and for a
+      masker with an intensity equal or less than that of a probe. Although the facilitation effect
+      was observed in human CI users, systematic ECAP measurement to quantify this effect were not
+      yet performed. Thus, neural response telemetry (NRT) measurements with negative masker offset
+      and short MPIs need to be done to determine a non-monotonic behaviour of facilitation and
+      confirm the predictions by Cohen in his model simulations.
+
+      Apart from ANFs temporal considerations, electrical current spreads out widely along the
+      cochlea and excites a wide range of populations of ANFs which leads to a decrease in the
+      selectivity and the number of effective channels. Thus, spatial spread of the electric field
+      has a major impact on the spectral resolution of CI users and decreases the excitability of
+      the affected ANF population.
+
+      In the planned study refractoriness, spatial spread and facilitation effects will first be
+      determined from NRT measurements with CI participants. Then, all the aforementioned phenomena
+      are integrated in a bio-inspired coding strategy for a better selection of channels with
+      highest energy content. This new strategy will be compared to the conventional ACE coding
+      strategy.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 2, 2018</start_date>
+  <completion_date type="Anticipated">October 31, 2018</completion_date>
+  <primary_completion_date type="Anticipated">October 31, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Single center, single-armed, parallel design with four laboratory sessions for CI subjects</intervention_model_description>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Melody contour identification (MCI) test (% correct)</measure>
+    <time_frame>6 months</time_frame>
+    <description>In the MCI test, five different melody contour patterns with three tones in each pattern are presented in a five alternative forced choice paradigm. The complex tones are synthesized to resemble a clarinet musical instrument. Three separations of fundamental tone frequency varying from one to three semitones are used to vary the difficulties for pattern identification. Every pattern is repeated 10 times in random order which amounts to a total of 150 melody contour presentations per condition. Overall percent correct results and percent correct results for each of the five patterns are determined for the reference and the intervention conditions. Tests are performed with the conventional ACE coding strategy (reference condition) and the bioinspired coding strategy whose parameters are determined from electrophysiological measures of sound-evoked neural responses (intervention condition).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Adaptive Oldenburg sentence test (OLSA) in noise (SRT in dB)</measure>
+    <time_frame>6 months</time_frame>
+    <description>The Adaptive Oldenburg sentence test (OLSA) in noise is used to evaluate speech intelligibility in a noisy environment. The noise level is kept constant at 65 dB sound pressure Level (SPL, in dB) and the speech level is adjusted adaptively to determine the speech reception threshold (SRT, in dB, for 50% speech intelligibility in noise). Lower SRT values indicate better speech recognition in noise. Tests are performed with the conventional ACE coding strategy (reference condition) and the bioinspired coding strategy whose parameters are determined from electrophysiological measures of sound-evoked neural responses (intervention condition).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time constants (usec) of recovery functions of electrically stimulated auditory nerve fibers, measured by electrically evoked compound action potential (ECAP)</measure>
+    <time_frame>6 months</time_frame>
+    <description>Time constants of recovery functions of electrically stimulated auditory nerve fiber groups can be assessed by ECAP measures through the cochlear implant for various electrode positions. Series of two stimulation pulses are presented whereby the interval between the two pulses is increased from 100 usec to 10'000 usec. The nerve response amplitude grows with increasing interpulse delay from zero up to a saturation level.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Width of spread of excitation function (in mm) of electrically evoked compound action potential (ECAP) measures</measure>
+    <time_frame>6 months</time_frame>
+    <description>Spread of excitation (SOE) is measured with a fixed probe and varying masker electrodes along the electrode array. The width of exponentially fitted SOE curves (in mm) is the main measurement parameter. Outcome variations depend on the amount and distribution of remaining auditory nerve fibers and the geometrical properties of the implanted electrode array relative to the anatomical situation of the patient's inner ear.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">10</enrollment>
+  <condition>Hearing Loss, Complete</condition>
+  <arm_group>
+    <arm_group_label>Coding strategy for cochlear implants</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Measure neural responses of cochlear implant recipient Use measured values of refractoriness, spread of excitation and facilitation as parameters for a bioinspired coding strategy perform listening tests to compare new coding strategy with standard clinical coding strategy</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Coding strategy for cochlear implants</intervention_name>
+    <description>Comparison of two variations of a coding strategy based on electrophysiological objective measures with standard reference coding strategy</description>
+    <arm_group_label>Coding strategy for cochlear implants</arm_group_label>
+    <other_name>Nucleus Cochlear Implant System</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  having Nucleus System 4, System 5, System 6 or System 7 sound processor
+
+          -  having 20 or more active electrodes
+
+          -  using one of these implant types: System 4, System 5, System 6, System 7
+
+          -  using ACE coding strategy
+
+          -  speech recognition score of at least 70% on Oldenburg Speech Test (OLSA) in quiet
+
+          -  ability to perform an adaptive speech recognition test in noise
+
+          -  experience with their CI for at least six months
+
+          -  ability for speech understanding in the presence of competing noise without any
+             assistance from lip-reading
+
+          -  ability to hear differences between musical notes at least for the easiest condition
+             (3 semitones difference between successive notes in a pattern)
+
+          -  ability to provide subjective feedback in a certain listening situation
+
+          -  proficiency in reading and writing in German
+
+        Exclusion Criteria:
+
+          -  Acute inflammation or pain in head-/neck area
+
+          -  Dizziness
+
+          -  Other known illness which would prevent regular participation in test sessions
+
+          -  Age of participants &lt; 18 years
+
+          -  Age of participants &gt; 80 years
+
+          -  Non-standard clinical sound processor program
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Norbert Dillier, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Zurich</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Andrea Kegel, MA</last_name>
+    <phone>+41 44 255 5808</phone>
+    <email>andrea.kegel@usz.ch</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Sonia Tabibi, MSc</last_name>
+    <phone>+41 44 255 5808</phone>
+    <email>sonia.tabibi@usz.ch</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University Hospital Zurich, ENT Department</name>
+      <address>
+        <city>Zurich</city>
+        <zip>8091</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Andrea Kegel, MA</last_name>
+      <phone>+41 44 2555801</phone>
+      <email>andrea.kegel@usz.ch</email>
+    </contact>
+    <contact_backup>
+      <last_name>Sonia Tabibi, MSc</last_name>
+      <phone>+41 44 2555801</phone>
+      <email>sonia.tabibi@usz.ch</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <reference>
+    <citation>Abbas PJ, Hughes ML, Brown CJ, Miller CA, South H. Channel interaction in cochlear implant users evaluated using the electrically evoked compound action potential. Audiol Neurootol. 2004 Jul-Aug;9(4):203-13.</citation>
+    <PMID>15205548</PMID>
+  </reference>
+  <reference>
+    <citation>Botros A, Psarros C. Neural response telemetry reconsidered: II. The influence of neural population on the ECAP recovery function and refractoriness. Ear Hear. 2010 Jun;31(3):380-91. doi: 10.1097/AUD.0b013e3181cb41aa.</citation>
+    <PMID>20090532</PMID>
+  </reference>
+  <reference>
+    <citation>Boulet J, White M, Bruce IC. Temporal Considerations for Stimulating Spiral Ganglion Neurons with Cochlear Implants. J Assoc Res Otolaryngol. 2016 Feb;17(1):1-17. Review.</citation>
+    <PMID>26501873</PMID>
+  </reference>
+  <reference>
+    <citation>Bruce IC, Irlicht LS, White MW, O'Leary SJ, Dynes S, Javel E, Clark GM. A stochastic model of the electrically stimulated auditory nerve: pulse-train response. IEEE Trans Biomed Eng. 1999 Jun;46(6):630-7.</citation>
+    <PMID>10356869</PMID>
+  </reference>
+  <reference>
+    <citation>Cohen LT, Richardson LM, Saunders E, Cowan RS. Spatial spread of neural excitation in cochlear implant recipients: comparison of improved ECAP method and psychophysical forward masking. Hear Res. 2003 May;179(1-2):72-87.</citation>
+    <PMID>12742240</PMID>
+  </reference>
+  <reference>
+    <citation>Cohen LT. Practical model description of peripheral neural excitation in cochlear implant recipients: 5. refractory recovery and facilitation. Hear Res. 2009 Feb;248(1-2):1-14. doi: 10.1016/j.heares.2008.11.007. Epub 2008 Dec 7.</citation>
+    <PMID>19110048</PMID>
+  </reference>
+  <reference>
+    <citation>Galvin JJ 3rd, Fu QJ, Nogaki G. Melodic contour identification by cochlear implant listeners. Ear Hear. 2007 Jun;28(3):302-19.</citation>
+    <PMID>17485980</PMID>
+  </reference>
+  <reference>
+    <citation>Heffer LF, Sly DJ, Fallon JB, White MW, Shepherd RK, O'Leary SJ. Examining the auditory nerve fiber response to high rate cochlear implant stimulation: chronic sensorineural hearing loss and facilitation. J Neurophysiol. 2010 Dec;104(6):3124-35. doi: 10.1152/jn.00500.2010. Epub 2010 Oct 6.</citation>
+    <PMID>20926607</PMID>
+  </reference>
+  <reference>
+    <citation>Hughes ML, Castioni EE, Goehring JL, Baudhuin JL. Temporal response properties of the auditory nerve: data from human cochlear-implant recipients. Hear Res. 2012 Mar;285(1-2):46-57. doi: 10.1016/j.heares.2012.01.010. Epub 2012 Feb 8.</citation>
+    <PMID>22326590</PMID>
+  </reference>
+  <reference>
+    <citation>Lai W, Dillier N. Neural adaptation and the ECAP response threshold: a pilot study. Cochlear Implants Int. 2009;10 Suppl 1:63-7. doi: 10.1179/cim.2009.10.Supplement-1.63.</citation>
+    <PMID>19194964</PMID>
+  </reference>
+  <reference>
+    <citation>Miller CA, Abbas PJ, Brown CJ. An improved method of reducing stimulus artifact in the electrically evoked whole-nerve potential. Ear Hear. 2000 Aug;21(4):280-90.</citation>
+    <PMID>10981604</PMID>
+  </reference>
+  <reference>
+    <citation>Miller CA, Abbas PJ, Robinson BK. Response properties of the refractory auditory nerve fiber. J Assoc Res Otolaryngol. 2001 Sep;2(3):216-32.</citation>
+    <PMID>11669395</PMID>
+  </reference>
+  <reference>
+    <citation>Miller CA, Hu N, Zhang F, Robinson BK, Abbas PJ. Changes across time in the temporal responses of auditory nerve fibers stimulated by electric pulse trains. J Assoc Res Otolaryngol. 2008 Mar;9(1):122-37. doi: 10.1007/s10162-007-0108-5. Epub 2008 Jan 17.</citation>
+    <PMID>18204987</PMID>
+  </reference>
+  <reference>
+    <citation>Morsnowski A, Charasse B, Collet L, Killian M, Müller-Deile J. Measuring the refractoriness of the electrically stimulated auditory nerve. Audiol Neurootol. 2006;11(6):389-402. Epub 2006 Sep 27.</citation>
+    <PMID>17008774</PMID>
+  </reference>
+  <reference>
+    <citation>Negm MH, Bruce IC. The effects of HCN and KLT ion channels on adaptation and refractoriness in a stochastic auditory nerve model. IEEE Trans Biomed Eng. 2014 Nov;61(11):2749-59. doi: 10.1109/TBME.2014.2327055. Epub 2014 May 29.</citation>
+    <PMID>24893366</PMID>
+  </reference>
+  <reference>
+    <citation>Omran SA, Lai W, Dillier N. Pitch ranking, Melody contour and instrument recognition tests using two semitone frequency maps for Nucleus Cochlear Implants. EURASIP Journal on Audio, Speech, and Music Processing, 2011; 1-16.</citation>
+  </reference>
+  <reference>
+    <citation>Undurraga JA, Carlyon RP, Macherey O, Wouters J, van Wieringen A. Spread of excitation varies for different electrical pulse shapes and stimulation modes in cochlear implants. Hear Res. 2012 Aug;290(1-2):21-36. doi: 10.1016/j.heares.2012.05.003. Epub 2012 May 11.</citation>
+    <PMID>22583921</PMID>
+  </reference>
+  <reference>
+    <citation>Zeng FG, Rebscher S, Harrison W, Sun X, Feng H. Cochlear implants: system design, integration, and evaluation. IEEE Rev Biomed Eng. 2008;1:115-42. doi: 10.1109/RBME.2008.2008250. Epub 2008 Nov 5. Review.</citation>
+    <PMID>19946565</PMID>
+  </reference>
+  <reference>
+    <citation>Zhang F, Miller CA, Robinson BK, Abbas PJ, Hu N. Changes across time in spike rate and spike amplitude of auditory nerve fibers stimulated by electric pulse trains. J Assoc Res Otolaryngol. 2007 Sep;8(3):356-72. Epub 2007 Jun 12.</citation>
+    <PMID>17562109</PMID>
+  </reference>
+  <verification_date>October 2018</verification_date>
+  <study_first_submitted>August 13, 2018</study_first_submitted>
+  <study_first_submitted_qc>October 29, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 31, 2018</study_first_posted>
+  <last_update_submitted>October 29, 2018</last_update_submitted>
+  <last_update_submitted_qc>October 29, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 31, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>cochlear implant</keyword>
+  <keyword>coding strategy</keyword>
+  <keyword>objective measures</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hearing Loss</mesh_term>
+    <mesh_term>Deafness</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

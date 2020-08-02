@@ -1,0 +1,161 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04293432</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PV-TdP</org_study_id>
+    <nct_id>NCT04293432</nct_id>
+  </id_info>
+  <brief_title>A Pharmacovigilance Study of Torsade de Pointes</brief_title>
+  <official_title>A Pharmacovigilance Study of Torsade de Pointes in the Food and Drug Administration Adverse Event Reporting System Using Data Mining Algorithms</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Peshawar</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Peshawar</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>Yes</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Many cardiac and non-cardiac drugs are associated with TdP that may constitute a significant
+      problem because of sudden cardiac death. This study aims to present a comprehensive overview
+      and disproportionality analysis of TdP cases reported to the Food and Drug Administration
+      Adverse Event Reporting System (FAERS) in order to identify new signals of TdP.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Drug-induced Torsade de Pointes (TdP) is a serious but an overlooked adverse drug reaction
+      because a wide range of marketed drugs associated with TdP are commonly prescribed in routine
+      practice. Owing to the heightened concern of a vast number of drug-TdP associations including
+      newly approved drugs, the investigators, therefore, aims to investigate drug-TdP associations
+      by performing disproportionality analysis in order to identify new signals of TdP utilizing
+      the individual case reports of TdP in the FAERS database.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">May 15, 2019</start_date>
+  <completion_date type="Actual">January 1, 2020</completion_date>
+  <primary_completion_date type="Actual">December 22, 2019</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <target_duration>1 Day</target_duration>
+  <primary_outcome>
+    <measure>Identification of drugs associated with TdP</measure>
+    <time_frame>Cases reported to the FAERS database till 31/03/2019</time_frame>
+    <description>The search includes MedDRA (v-22) Preferred Term, &quot;Torsade de Pointes (MedDRA code: 10044066) for the identification of all TdP case reports and drugs.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Identification of new signals of TdP</measure>
+    <time_frame>Cases reported to the FAERS database till 31/03/2019</time_frame>
+    <description>Signal detection using disproportionality analysis</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Validation of already known drug-TdP associations</measure>
+    <time_frame>Cases reported to the FAERS database till 31/03/2019</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Stratification of new signals with respect to age</measure>
+    <time_frame>Cases reported to the FAERS database till 31/03/2019</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Stratification of new signals with respect to gender</measure>
+    <time_frame>Cases reported to the FAERS database till 31/03/2019</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Trends of TdP reports in FAERS database</measure>
+    <time_frame>Cases reported to the FAERS database till 31/03/2019</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Description of the population of patients having TdP</measure>
+    <time_frame>Cases reported to the FAERS database till 31/03/2019</time_frame>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">6670</enrollment>
+  <condition>Torsades de Pointe Caused by Drug</condition>
+  <arm_group>
+    <arm_group_label>Group/Cohort</arm_group_label>
+    <description>Torsade de Pointes induced by drugs reported to the FAERS database from inception till first quarter of 2019 (1990-2019)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Drugs, Generic</intervention_name>
+    <description>All drugs having ≥10 TdP cases reported in the FAERS database</description>
+    <arm_group_label>Group/Cohort</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients presented with TdP treated for any disease
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  TdP cases reported in the FAERS database till 31/03/2019
+
+          -  Adverse event reported was including the MedDRA term: Torsade de Pointes
+
+        Exclusion Criteria:
+
+          -  Drugs with less than 10 TdP reports
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Department of Pharmacy, University of Peshawar</name>
+      <address>
+        <city>Peshawar</city>
+        <state>Khyber Pakhtunkhwa</state>
+        <zip>25000</zip>
+        <country>Pakistan</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Pakistan</country>
+  </location_countries>
+  <verification_date>February 2020</verification_date>
+  <study_first_submitted>February 14, 2020</study_first_submitted>
+  <study_first_submitted_qc>February 28, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 3, 2020</study_first_posted>
+  <last_update_submitted>February 28, 2020</last_update_submitted>
+  <last_update_submitted_qc>February 28, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 3, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Peshawar</investigator_affiliation>
+    <investigator_full_name>Mohammad Ismail</investigator_full_name>
+    <investigator_title>Assistant Professor, Department of Pharmacy</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Torsades de Pointes</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

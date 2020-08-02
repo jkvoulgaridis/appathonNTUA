@@ -1,0 +1,167 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03907683</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HL142732</org_study_id>
+    <nct_id>NCT03907683</nct_id>
+  </id_info>
+  <brief_title>Random Assignment of Intervention Messages for Developing Personalized Decision Rules to Promote Physical Activity</brief_title>
+  <acronym>Random AIM</acronym>
+  <official_title>Phase 1 Clinical Trial to Develop a Personalized Adaptive Text Message Intervention Using Control Systems Engineering Tools to Increase Physical Activity in Early Adulthood</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Penn State University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Penn State University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Our goal is to develop personalized decision rules for selecting the frequency, timing, and
+      content of messages to promote physical activity. The objective of this project is to develop
+      personalized dynamical models of physical activity (PA) under different weather and temporal
+      conditions as well as in response to different types of intervention messages. This approach
+      relies on having extensive observations within the person under varying conditions to develop
+      a dynamical model of how different conditions interact with each other to predict how
+      behavior changes in response to text messages. Complementary sub-models will be estimated for
+      each participant to describe their behavioral responses under different weather conditions.
+      Healthy but insufficiently active young adults (n=80) will wear an activity monitor and
+      receive a variety of randomly-timed and randomly-selected notifications via smartphone. GPS
+      coordinates at the time of messages delivery and receipt are recorded and used to look up
+      weather indices at that location at that time. The work is exploratory/descriptive as we will
+      be developing models to describe participants' responses to messages under different weather
+      conditions. This work is needed to develop the decision rules for a subsequent behavioral
+      intervention that will be developed and tested in a future project.
+    </textblock>
+  </brief_summary>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">April 3, 2019</start_date>
+  <completion_date type="Anticipated">August 31, 2020</completion_date>
+  <primary_completion_date type="Anticipated">August 31, 2020</primary_completion_date>
+  <phase>Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in moderate (or higher) physical activity duration following message receipt</measure>
+    <time_frame>15-minute epochs for the remainder of the walking day</time_frame>
+    <description>Fitbit-assessed minutes with step counts &gt;= 100 steps/min in 15-minute epochs</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in total physical activity duration from run-in to 6 months</measure>
+    <time_frame>Baseline and 6 months</time_frame>
+    <description>Actigraph-assessed min/week of moderate (or higher) physical activity duration during 1 week monitoring period</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in total physical activity volume from run-in to 6 months</measure>
+    <time_frame>Baseline and 6 months</time_frame>
+    <description>Actigraph-assessed total activity counts during 1 week monitoring period</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">80</enrollment>
+  <condition>Cardiovascular Risk Factor</condition>
+  <arm_group>
+    <arm_group_label>Random Messaging</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive 0-5 messages/day from the Random AIM app. Messages are only delivered outside of a participant-specific Do Not Disturb window (e.g., 11pm-8am). Messages are selected randomly from three content domains: Move More (40%), Sit Less (40%), and Inspirational Quotes Unrelated to Movement (20%). Half of the messages are accompanied by images. Message selection and timing are determined randomly each night for the following day.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Short Message with Text and Optional Image</intervention_name>
+    <description>Messages can be up to 256 characters of text and with or without an image. &quot;Move more&quot; and &quot;sit less&quot; messages were written to target established cognitive and affective constructs associated with physical activity (e.g., prompts to action plan, guidance for maximizing pleasure by regulating intensity).</description>
+    <arm_group_label>Random Messaging</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Participants capable of reading, speaking and understanding English and of giving
+             informed consent.
+
+          -  Participants between the ages of 18-29 years.
+
+          -  Participants must be free of visual impairment that would interfere with the use of a
+             smartphone.
+
+          -  Participants must own and carry an iPhone (running iOS version 10 or higher) or
+             Android (running operating system 7 or higher) smartphone during waking hours.
+
+        Exclusion Criteria:
+
+          -  Participants engaging in 90 or more minutes of moderate- or greater intensity PA each
+             week.
+
+          -  Participants engaged in organized programs with mandated physical activity (e.g.,
+             varsity sports, ROTC).
+
+          -  Participants with contraindications to normal physical activity on the Physical
+             Activity Readiness Questionnaire.
+
+          -  Participants who require an assistive device for mobility or have any other condition
+             that may limit or prevent participation in moderate-intensity physical activity.
+
+          -  Participants who are pregnant or planning to become pregnant within the next 6 months.
+
+          -  Participants with a prior diagnosis of cancer, cardiovascular disease, diabetes or
+             metabolic syndrome.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>29 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>David E Conroy, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The Pennsylvania State University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>The Pennsylvania State University</name>
+      <address>
+        <city>University Park</city>
+        <state>Pennsylvania</state>
+        <zip>16802</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>April 5, 2019</study_first_submitted>
+  <study_first_submitted_qc>April 5, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 9, 2019</study_first_posted>
+  <last_update_submitted>April 15, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 15, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 17, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Penn State University</investigator_affiliation>
+    <investigator_full_name>David E Conroy</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

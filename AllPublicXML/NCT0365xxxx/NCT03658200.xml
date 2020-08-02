@@ -1,0 +1,297 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03658200</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NL63106.068.17</org_study_id>
+    <nct_id>NCT03658200</nct_id>
+  </id_info>
+  <brief_title>Fully Automated Scan Technique Optimisation of Scan Timing in Chest CT</brief_title>
+  <acronym>[FAST-START]</acronym>
+  <official_title>Fully Automated Scan Technique Optimisation of Scan Timing in Chest CT</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Maastricht University Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Maastricht University Medical Center</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Computed Tomography Angiography (CTA) is a non-invasive imaging tool widely used for various
+      indications. Contrast media (CM) is used to enhance the intravascular lumen and organ
+      parenchyma, depending on the indication. Recent technical advances in CT scan techniques
+      allow for a very fast scan acquisition with substantially increased image quality in terms of
+      temporal and spatial resolution. However, with faster scan acquisition, challenges arise with
+      regard to CM bolus timing. The risk of outrunning the CM bolus in these fast acquisitions is
+      higher, resulting in a decreased intravascular attenuation and subsequent hypothetical
+      increase in non-diagnostic image quality.
+
+      Previous studies have investigated the reduction of CM volume. When reducing the CM volume,
+      the total injection time decreases and the window of peak enhancement shortens and becomes
+      more narrow. The latter increases when injecting small CM volumes with higher flow rates.
+      Although the peak enhancement increases, the window of peak enhancement decreases more
+      rapidly. Thus, when administered with the same flow rate, the peak of the enhancement curve
+      will be lower, narrower and faster compared to larger CM volumes. This, in combination with
+      the faster scan acquisition makes the timing of the start of the scan highly important, since
+      scanning at the peak enhancement is necessary to achieve a diagnostic image quality.
+
+      New bolus tracking auto-delay software (Fully Automated Scan Technique, FAST, Siemens
+      Healthineers) automatically estimates the delay needed to scan at the peak of the enhancement
+      curve. With help of this software, the optimal individual scan delay and enhancement can be
+      achieved, and the risk of non-diagnostic scans should decrease. Therefore, this study aims to
+      evaluate the performance of the Bolus Tracking Auto-Delay (FAST) software in patients
+      receiving a standard chest CT with regard to the number of non-diagnostic scans (&lt; 300 HU)
+      and compare this with standard care (manual set pre-scan delay).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Computed Tomography Angiography (CTA) is a non-invasive imaging tool widely used for various
+      indications. Contrast media (CM) is used to enhance the intravascular lumen and organ
+      parenchyma, depending on the indication. Recent technical advances in CT scan techniques
+      allow for a very fast scan acquisition with substantially increased image quality in terms of
+      temporal and spatial resolution. These faster scan times account for a significant reduction
+      in radiation dose, which is desirable in light of the &quot;As Low As Reasonably Achievable&quot;
+      (ALARA) principle. Another advantage of the newer 'high-end' scanners is the use of lower
+      tube voltages and lower CM volumes, since many studies have shown that CM volumes can be
+      reduced with usage of lower tube voltages.
+
+      However, with faster scan acquisition, challenges arise with regard to CM bolus timing. The
+      risk of outrunning the CM bolus in these fast acquisitions is higher, subsequently leading to
+      a decreased or even non-diagnostic enhancement (in Hounsfield Units (HU)). In addition,
+      decreased CM volumes due to usage of lower tube voltages also add to the risk of outrunning
+      the bolus. When reducing the CM bolus, the injection time decreases and the window of peak
+      enhancement is shorter and more narrow. Also, when injecting these smaller CM volumes at
+      higher flow rates, although the peak enhancement is increased, the window of peak enhancement
+      decreases more rapidly. Thus, when administered with the same flow rate, the peak of the
+      enhancement curve will be lower, narrower and faster compared to larger CM volumes. This, in
+      combination with the faster scan acquisition makes the timing of the start of the scan (scan
+      start delay) highly important, since scanning at the peak enhancement is necessary to achieve
+      a diagnostic image quality.
+
+      To determine scan delay, two techniques frequently used in daily clinical routine are the
+      'test bolus' and 'bolus tracking' technique. With the first, a smaller CM bolus is
+      administered before the actual scan, and the time to peak of the intravascular enhancement is
+      determined with help of dedicated software (DynEva, Siemens Healthineers, Forchheim,
+      Germany). When using the 'bolus tracking' technique, no additional CM volume is administered.
+      A region of interest (ROI) is placed in a large artery of interest (e.g. ascending or
+      descending aorta), and a threshold enhancement is set prior to the scan (e.g. 100 HU).
+      Repetitive low dose scans are acquired at the same level and the arrival of the CM bolus is
+      followed. Once the threshold is reached, the scanner automatically starts the scan. Between
+      reaching the threshold and the actual start of the scan, a manual post-tracking delay is set
+      prior to scanning. This delay is necessary for both the table movement of the scanner to the
+      start of the scan and the breath hold command. The problem is that this manual post-tracking
+      delay is set prior to the scan, without information of the patient's cardiovascular dynamics
+      (e.g. cardiac output). Since cardiac output can vary greatly inter- and intra-patient, this
+      fixed post-tracking delay may not be appropriate for all patients. Scanning with a
+      sub-optimal post tracking delay could potentially result in suboptimal arterial enhancement
+      and insufficient diagnostic quality.
+
+      With new bolus tracking auto-delay software (Fully Automated Scan Technique, FAST, Siemens
+      Healthineers) the incidence of scans made at a suboptimal attenuation could be reduced. This
+      software is similar to the 'bolus tracking' technique, the difference is that the manual
+      post-tracking delay is calculated automatically by the software. During the low-dose
+      repetitive scans at the level of the ROI, the attenuation in the ROI is used to predict the
+      optimal enhancement curve. The software takes the injection protocol, tube voltage and
+      patient parameters into account. A previously acquired database of numerous enhancement
+      curves is consulted to predict a best fitted enhancement curve of the individual patient. The
+      software then calculates the optimal post-tracking scan delay to scan at the peak
+      enhancement. Thus, the optimal individual scan delay and enhancement based on the patients
+      physiology can be achieved, and the risk of non-diagnostic scans should decrease. Therefore,
+      this study aims to evaluate the performance of the FAST software in patients receiving
+      standard chest CT with regard to the number of non-diagnostic scans (&lt; 300 HU) and compare
+      this with standard care (manual set pre-scan delay).
+    </textblock>
+  </detailed_description>
+  <overall_status>Terminated</overall_status>
+  <why_stopped>
+    Interim analysis showed primary outcome was not going to be achieved.
+  </why_stopped>
+  <start_date type="Actual">April 5, 2018</start_date>
+  <completion_date type="Actual">December 31, 2018</completion_date>
+  <primary_completion_date type="Actual">December 31, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Supportive Care</primary_purpose>
+    <masking>Single (Investigator)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Intravascular enhancement</measure>
+    <time_frame>2 years</time_frame>
+    <description>To evaluate the performance of the FAST software in patients receiving a thoracic CTA with regard to the number of non-diagnostic scans (&lt; 300 HU) in comparison with standard care (manual scan delay).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Enhancement curves</measure>
+    <time_frame>2 years</time_frame>
+    <description>To assess the enhancement curves calculated by the FAST software with regards to scan timing and delay and compare it with the scan timing and delay of the control group.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intravascular attenuation</measure>
+    <time_frame>2 years</time_frame>
+    <description>To assess the objective image quality with regard to intravascular attenuation in patients receiving standard CTA of the thorax with the FAST software.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Image noise</measure>
+    <time_frame>2 years</time_frame>
+    <description>To assess the objective image quality with regard to image noise in patients receiving standard CTA of the thorax with the FAST software.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Signal-to-noise</measure>
+    <time_frame>2 years</time_frame>
+    <description>To assess the objective image quality with regard to signal-to-noise in patients receiving standard CTA of the thorax with the FAST software.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Contrast-to-noise</measure>
+    <time_frame>2 years</time_frame>
+    <description>To assess the objective image quality with regard to contrast-to-noise in patients receiving standard CTA of the thorax with the FAST software.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Subjective image quality</measure>
+    <time_frame>2 years</time_frame>
+    <description>To assess the subjective (Likert scale) image quality parameters in patients receiving standard CTA of the thorax with the FAST software. a 4-point Likert scale will be used:
+4: Excellent, absence of any image-degrading artefacts related to breathing or noise;
+3: Good, presence of few minor image-degrading artefacts related to breathing or noise;
+2: Moderate, presence of some image-degrading artefacts related to breathing or noise, with influence on image and diagnostic quality;
+1: Poor, presence of image-degrading artefacts related to breathing or noise with severe influence on image and diagnostic quality.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">223</enrollment>
+  <condition>Pulmonary Disease</condition>
+  <arm_group>
+    <arm_group_label>FAST software</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Patient referred for chest CT and scanned with delay based on bolus tracking with FAST software. intervention: FAST START Software delay</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Patient referred for chest CT and scanned with delay based on bolus tracking without FAST software. Intervention: Manual bolus tracking delay</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>FAST start software delay</intervention_name>
+    <description>Scan delay will be determined by the FAST software bolus tracking technique. Before the start of bolus tracking (the time between start injection and start bolus tracking), a delay of 8 s is chosen. Bolus tracking threshold is set at 100 HU with a cycle time of 1.13 s and scan time of 0.25 s. After reaching the 100 HU threshold the FAST START software calculates the delay.</description>
+    <arm_group_label>FAST software</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Manual bolus tracking delay</intervention_name>
+    <description>Scan delay will be determined by the standard bolus tracking technique. Before the start of bolus tracking (the time between start injection and start bolus tracking), a delay of 8 s is chosen. Bolus tracking threshold is set at 100 HU with a cycle time of 1.13 s and scan time of 0.25 s. After reaching the 100 HU threshold a delay of 6 s is chosen (table movement and breath hold command) and the scan starts.</description>
+    <arm_group_label>Control</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients referred for standard chest CT
+
+          -  Patients older than 18 years and competent to give informed consent
+
+        Exclusion Criteria:
+
+          -  Hemodynamic instability;
+
+          -  Pregnancy;
+
+          -  Renal insufficiency (defined as Glomerular Filtration Rate (GFR) &lt; 30 mL/min (Odin
+             protocol 004720));
+
+          -  Iodine allergy;
+
+          -  Age &lt;18 years;
+
+          -  Absence of informed consent
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Joachim E Wildberger, Prof.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Maastricht University Medical Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Maastricht University Medical Center</name>
+      <address>
+        <city>Maastricht</city>
+        <state>Limburg</state>
+        <zip>6202 AZ</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Netherlands</country>
+  </location_countries>
+  <reference>
+    <citation>Bae KT. Intravenous contrast medium administration and scan timing at CT: considerations and approaches. Radiology. 2010 Jul;256(1):32-61. doi: 10.1148/radiol.10090908. Review.</citation>
+    <PMID>20574084</PMID>
+  </reference>
+  <reference>
+    <citation>Funama Y, Awai K, Nakayama Y, Kakei K, Nagasue N, Shimamura M, Sato N, Sultana S, Morishita S, Yamashita Y. Radiation dose reduction without degradation of low-contrast detectability at abdominal multisection CT with a low-tube voltage technique: phantom study. Radiology. 2005 Dec;237(3):905-10. Epub 2005 Oct 19.</citation>
+    <PMID>16237139</PMID>
+  </reference>
+  <reference>
+    <citation>Huda W, Scalzetti EM, Levin G. Technique factors and image quality as functions of patient weight at abdominal CT. Radiology. 2000 Nov;217(2):430-5.</citation>
+    <PMID>11058640</PMID>
+  </reference>
+  <reference>
+    <citation>Nakayama Y, Awai K, Funama Y, Hatemura M, Imuta M, Nakaura T, Ryu D, Morishita S, Sultana S, Sato N, Yamashita Y. Abdominal CT with low tube voltage: preliminary observations about radiation dose, contrast enhancement, image quality, and noise. Radiology. 2005 Dec;237(3):945-51. Epub 2005 Oct 19.</citation>
+    <PMID>16237140</PMID>
+  </reference>
+  <reference>
+    <citation>Kok M, Mihl C, Hendriks BM, Altintas S, Kietselaer BL, Wildberger JE, Das M. Optimizing contrast media application in coronary CT angiography at lower tube voltage: Evaluation in a circulation phantom and sixty patients. Eur J Radiol. 2016 Jun;85(6):1068-74. doi: 10.1016/j.ejrad.2016.03.022. Epub 2016 Mar 22.</citation>
+    <PMID>27161054</PMID>
+  </reference>
+  <reference>
+    <citation>Kok M, Mihl C, Seehofnerová A, Turek J, Jost G, Pietsch H, Haberland U, Wildberger JE, Das M. Automated Tube Voltage Selection for Radiation Dose Reduction in CT Angiography Using Different Contrast Media Concentrations and a Constant Iodine Delivery Rate. AJR Am J Roentgenol. 2015 Dec;205(6):1332-8. doi: 10.2214/AJR.14.13957.</citation>
+    <PMID>26587942</PMID>
+  </reference>
+  <reference>
+    <citation>Korporaal JG, Bischoff B, Arnoldi E, Sommer WH, Flohr TG, Schmidt B. Evaluation of A New Bolus Tracking-Based Algorithm for Predicting A Patient-Specific Time of Arterial Peak Enhancement in Computed Tomography Angiography. Invest Radiol. 2015 Aug;50(8):531-8. doi: 10.1097/RLI.0000000000000160.</citation>
+    <PMID>25900084</PMID>
+  </reference>
+  <verification_date>March 2019</verification_date>
+  <study_first_submitted>April 25, 2018</study_first_submitted>
+  <study_first_submitted_qc>September 3, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 5, 2018</study_first_posted>
+  <last_update_submitted>March 19, 2019</last_update_submitted>
+  <last_update_submitted_qc>March 19, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 21, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Maastricht University Medical Center</investigator_affiliation>
+    <investigator_full_name>Joachim Wildberger</investigator_full_name>
+    <investigator_title>Prof. Dr. J.E. Wildberger</investigator_title>
+  </responsible_party>
+  <keyword>Chest CT</keyword>
+  <keyword>Bolus tracking</keyword>
+  <keyword>Image quality</keyword>
+  <keyword>Contrast media</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lung Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

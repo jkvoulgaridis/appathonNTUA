@@ -1,0 +1,289 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04139369</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PEDIATRIC DIABETOLOGY</org_study_id>
+    <nct_id>NCT04139369</nct_id>
+  </id_info>
+  <brief_title>Methylation of DNA in Children and Adolescents With Type 1 Diabetes Mellitus (METHYLDIAB)</brief_title>
+  <acronym>METHYLDIAB</acronym>
+  <official_title>Study of DNA Methylation in Children and Adolescents With Type 1 Diabetes Mellitus</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Aristotle University Of Thessaloniki</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Aristotle University Of Thessaloniki</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Type 1 Diabetes Mellitus (T1DM) is a well-studied autoimmune disease resulting in insulin
+      deficiency due to selective β-cell destruction. Epigenetics is a novel field of biology
+      studying the inherited changes in deoxyribonucleic acid (DNA) expression which cannot be
+      attributed to base sequence alteration. A relatively limited number of studies are published
+      until now concerning T1DM in children and adolescents addressing epigenetics changes in DNA
+      expression. The purpose of the present study is to analyze the methylation status of DNA
+      within the promoter region of specific susceptibility genes such as Protein tyrosine
+      phosphatase, non-receptor type 22 (PTPN-22), Insulin (INS) and Human leukocyte antigen G
+      (HLA-G) genes.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Type 1 Diabetes Mellitus (T1DM) is a well-studied autoimmune disease resulting in insulin
+      deficiency due to selective β-cell loss. Environmental and genetics factors seem to have a
+      complex interplay in genetically susceptible individuals leading to T1DM development.
+
+      Epigenetics is a new field of biology studying the inherited changes in deoxyribonucleic acid
+      (DNA) expression which cannot be attributed to DNA sequence alteration via DNA methylation,
+      histone modification, and micro-RNAs acting as post-transcriptional regulators.
+
+      The methylation of cytosine - guanosine dinucleotides (CpGs), located at the promoter region
+      of the genes, play a vital role in transcription and gene expression and is catalyzed at the
+      5' cytosine position via enzymes called DNA methyltransferases (DNMTs).
+
+      A limited number of studies regarding epigenetics in T1DM paediatric patients have been
+      published so far. The purpose of the present study is to investigate the CpG islet
+      methylation pattern in the promoter regions of specific susceptibility genes such as Protein
+      tyrosine phosphatase, non-receptor type 22 (PTPN-22), Insulin (INS) and Human leukocyte
+      antigen G (HLA-G) genes, extracted from White Blood Cells (WBCs) from T1DM and healthy
+      controls children and adolescents .
+
+      Twenty patients and twenty age and gender matched controls were recruited. A detailed
+      personal, family, gestational/perinatal history was obtained and a thorough physical
+      examination was performed in all study participants. Both groups and their first grade
+      relatives had no history of other autoimmune diseases.
+
+      Parents provided written informed consent for the participation of their children, according
+      to the declaration of Helsinki for research. involving human subjects .
+
+      Protocols were approved by Bioethics Committee of School of Medicine, Faculty of Health
+      Sciences, Aristotle University of Thessaloniki, Thessaloniki, Greece (Protocol No
+      185/30.12.2015).
+
+      Whole blood samples were collected from both groups after a 12-hour period of fast and stored
+      immediately at -80 oC.
+
+      DNA was extracted from blood samples using the DNA extraction kit QIAamp® DNA Blood Mini Kit
+      (QIAGEN Inc, CA, USA), as suggested by the manufacturer. Isolated samples were quantified
+      spectrophotometrically using the odds ratio (OD ratio) 260/280 (1 OD = 50 μg/ml),
+      (BioPhotometer 6131 Eppendorf AG, Germany). Bisulfite-treatment was conducted on 300ng DNA of
+      each sample by using the EZ DNA Methylation-Gold kit (Zymo Research, Methylation-Gold, USA),
+      as recommended by the manufacturer. Treatment with sodium bisulphate converts unmethylated
+      cytosines into uracils, whereas methylated cytosines remain unchanged under the same stable
+      conditions.
+
+      For INS gene promoter amplification, gene-specific primers were used as follows: INS-Forward
+      5'-TATTTTGGAATTTTGAGTTTATT-3'and INS-Reverse 5'-AACAAAAATCTAAAAACAACAA-3', for
+      PTPN-22-Forward 5'-TTTTGGTTTATGTTGTAGAGT -3΄ and PTPN-22 Reverse 5΄-
+      ATTTTATTTTATTATTTATATGTAA-3' and for HLA-G- Forward 5'-TAGGGAGTTTAGTTTAGGGAT -3' and Reverse
+      5'- TTAAGGATGGTGGTTATGG -3'.
+
+      Additional, overhang adapter sequence was added to the locus-specific primers for the regions
+      to be targeted (Nextera Transposase Adaptors, Illumina), in order of prompt construction of
+      Next Generation Sequencing (NGS) libraries. Polymerase Chain Reaction (PCR) products were
+      amplified on a low temperature ramping instrument, the 9700 thermal cycler (Eppendorf AG
+      No5341, 9600 emulation mode) using the AmpliTaq Gold DNA Polymerase.
+
+      After purification of PCR products with highly reactive super magnetic beads NucleoMag NGS
+      Clean-up and Size Select (Macherey-Nagel. Cat. Number 744970.5.), they were pooled at similar
+      molar quantities and submitted for library construction according to manufacturer
+      instructions, Nextera XT DNA Library Preparation kit, Research Illumina.
+
+      For NGS paired-end reads were selected at 2 x 250 base pair read length formation, on a
+      platform Illumina's MiSeq.
+
+      Sequence analysis reads were carried out using FASTQ files and methylation status was
+      estimated with the tool ampliMethProfiler, a python-based pipeline for targeted deep
+      bisulfite sequenced amplicons.The methylation status was analyzed at ten CpG sites of INS
+      gene promoter, four CpG sites of PTPN-22 gene and nineteen CpG sites of HLA-G gene around the
+      transcriptional start site (TSS).
+
+      The sequences and the identification of the methylated and unmethylated sites will be
+      interpreted by bioinformatics scientists.
+
+      A Data-Base will be created and all the data will undergo statistical analysis.The results
+      and the conclusions of the present study will be published in peer- review journals and
+      presented in National and International Meetings.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">May 2012</start_date>
+  <completion_date type="Actual">August 2018</completion_date>
+  <primary_completion_date type="Actual">May 2015</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Overall mean methylation percentage (%) of CpGs cytosine-guanosine islands within the promoter regions of INS, PTPN-22,HLA-G genes between T1DM and healthy children and adolescents</measure>
+    <time_frame>5 years</time_frame>
+    <description>Calculation of the overall mean methylation percentage (%) of 10 cytosine-guanosine islands (CpGs) around the Transcription Start Site (TSS) of the INS gene promoter region, of 4 CpGs of PTPN-22 gene and of 19 CpG sites of HLA-G gene respectively between T1DM and control group</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">40</enrollment>
+  <condition>Type 1 Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>Type 1 Diabetes Mellitus (T1DM)</arm_group_label>
+    <description>Type 1 Diabetes Mellitus (T1DM) Children and adolescents with Type 1 Diabetes Mellitus</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Controls (C)</arm_group_label>
+    <description>Controls (C) Healthy individuals matched for gender and age without any autoimmune disease of their own or their first degree relatives</description>
+  </arm_group>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      DNA from white blood cells from peripheral blood samples
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Children and adolescents of Greek origin, aged 2-18 years old with a diagnosis of Type 1
+        Diabetes Mellitus as well as healthy controls age and gender matched.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria for both groups are:
+
+          -  no history of T1DM or other autoimmune disease of their first degree relatives
+
+          -  Greek origin (at least for 3 generations back to be Greek)
+
+          -  sign written consent form
+
+        Inclusion Criteria for patients are:
+
+          -  males and females 2-18 years of age, with the diagnosis of T1DM
+
+          -  T1DM diagnosis according to the criteria of International Society for Pediatric and
+             Adolescent Diabetes (ISPAD) and ADA (American Diabetes Association)
+
+        Inclusion Criteria for Controls are:
+
+          -  healthy males and females 2-18 years of age, with no consaguinity with the patients
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>2 Years</minimum_age>
+    <maximum_age>18 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Assimina Galli-Tsinopoulou, MD,PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Unit of Pediatric Endocrinology/Diabetes/Metabolism 4thDepartment of Pediatrics</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Unit of Pediatric Endocrinology, Diabetes and Metabolism-4th Department of Pediatrics, Medical School of Aristotle University of Thessaloniki</name>
+      <address>
+        <city>Thessaloniki</city>
+        <zip>56403</zip>
+        <country>Greece</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Greece</country>
+  </location_countries>
+  <reference>
+    <citation>Liu L, Li Y, Tollefsbol TO. Gene-environment interactions and epigenetic basis of human diseases. Curr Issues Mol Biol. 2008;10(1-2):25-36. Review.</citation>
+    <PMID>18525104</PMID>
+  </reference>
+  <reference>
+    <citation>Dang MN, Buzzetti R, Pozzilli P. Epigenetics in autoimmune diseases with focus on type 1 diabetes. Diabetes Metab Res Rev. 2013 Jan;29(1):8-18. doi: 10.1002/dmrr.2375. Review.</citation>
+    <PMID>23180441</PMID>
+  </reference>
+  <reference>
+    <citation>Barrett JC, Clayton DG, Concannon P, Akolkar B, Cooper JD, Erlich HA, Julier C, Morahan G, Nerup J, Nierras C, Plagnol V, Pociot F, Schuilenburg H, Smyth DJ, Stevens H, Todd JA, Walker NM, Rich SS; Type 1 Diabetes Genetics Consortium. Genome-wide association study and meta-analysis find that over 40 loci affect risk of type 1 diabetes. Nat Genet. 2009 Jun;41(6):703-7. doi: 10.1038/ng.381. Epub 2009 May 10.</citation>
+    <PMID>19430480</PMID>
+  </reference>
+  <reference>
+    <citation>Cooper JD, Simmonds MJ, Walker NM, Burren O, Brand OJ, Guo H, Wallace C, Stevens H, Coleman G; Wellcome Trust Case Control Consortium, Franklyn JA, Todd JA, Gough SC. Seven newly identified loci for autoimmune thyroid disease. Hum Mol Genet. 2012 Dec 1;21(23):5202-8. doi: 10.1093/hmg/dds357. Epub 2012 Aug 24.</citation>
+    <PMID>22922229</PMID>
+  </reference>
+  <reference>
+    <citation>Lu Q. The critical importance of epigenetics in autoimmunity. J Autoimmun. 2013 Mar;41:1-5. doi: 10.1016/j.jaut.2013.01.010. Epub 2013 Feb 1. Review.</citation>
+    <PMID>23375849</PMID>
+  </reference>
+  <reference>
+    <citation>Quintero-Ronderos P, Montoya-Ortiz G. Epigenetics and autoimmune diseases. Autoimmune Dis. 2012;2012:593720. doi: 10.1155/2012/593720. Epub 2012 Mar 22.</citation>
+    <PMID>22536485</PMID>
+  </reference>
+  <reference>
+    <citation>Rakyan VK, Beyan H, Down TA, Hawa MI, Maslau S, Aden D, Daunay A, Busato F, Mein CA, Manfras B, Dias KR, Bell CG, Tost J, Boehm BO, Beck S, Leslie RD. Identification of type 1 diabetes-associated DNA methylation variable positions that precede disease diagnosis. PLoS Genet. 2011 Sep;7(9):e1002300. doi: 10.1371/journal.pgen.1002300. Epub 2011 Sep 29.</citation>
+    <PMID>21980303</PMID>
+  </reference>
+  <reference>
+    <citation>Saxonov S, Berg P, Brutlag DL. A genome-wide analysis of CpG dinucleotides in the human genome distinguishes two distinct classes of promoters. Proc Natl Acad Sci U S A. 2006 Jan 31;103(5):1412-7. Epub 2006 Jan 23.</citation>
+    <PMID>16432200</PMID>
+  </reference>
+  <reference>
+    <citation>Fradin D, Le Fur S, Mille C, Naoui N, Groves C, Zelenika D, McCarthy MI, Lathrop M, Bougnères P. Association of the CpG methylation pattern of the proximal insulin gene promoter with type 1 diabetes. PLoS One. 2012;7(5):e36278. doi: 10.1371/journal.pone.0036278. Epub 2012 May 2.</citation>
+    <PMID>22567146</PMID>
+  </reference>
+  <reference>
+    <citation>Grada A, Weinbrecht K. Next-generation sequencing: methodology and application. J Invest Dermatol. 2013 Aug;133(8):e11. doi: 10.1038/jid.2013.248.</citation>
+    <PMID>23856935</PMID>
+  </reference>
+  <reference>
+    <citation>Behjati S, Tarpey PS. What is next generation sequencing? Arch Dis Child Educ Pract Ed. 2013 Dec;98(6):236-8. doi: 10.1136/archdischild-2013-304340. Epub 2013 Aug 28. Review.</citation>
+    <PMID>23986538</PMID>
+  </reference>
+  <reference>
+    <citation>Fisher MM, Watkins RA, Blum J, Evans-Molina C, Chalasani N, DiMeglio LA, Mather KJ, Tersey SA, Mirmira RG. Elevations in Circulating Methylated and Unmethylated Preproinsulin DNA in New-Onset Type 1 Diabetes. Diabetes. 2015 Nov;64(11):3867-72. doi: 10.2337/db15-0430. Epub 2015 Jul 27.</citation>
+    <PMID>26216854</PMID>
+  </reference>
+  <reference>
+    <citation>Lehmann-Werman R, Neiman D, Zemmour H, Moss J, Magenheim J, Vaknin-Dembinsky A, Rubertsson S, Nellgård B, Blennow K, Zetterberg H, Spalding K, Haller MJ, Wasserfall CH, Schatz DA, Greenbaum CJ, Dorrell C, Grompe M, Zick A, Hubert A, Maoz M, Fendrich V, Bartsch DK, Golan T, Ben Sasson SA, Zamir G, Razin A, Cedar H, Shapiro AM, Glaser B, Shemer R, Dor Y. Identification of tissue-specific cell death using methylation patterns of circulating DNA. Proc Natl Acad Sci U S A. 2016 Mar 29;113(13):E1826-34. doi: 10.1073/pnas.1519286113. Epub 2016 Mar 14.</citation>
+    <PMID>26976580</PMID>
+  </reference>
+  <reference>
+    <citation>World Medical Association. World Medical Association Declaration of Helsinki: ethical principles for medical research involving human subjects. JAMA. 2013 Nov 27;310(20):2191-4. doi: 10.1001/jama.2013.281053.</citation>
+    <PMID>24141714</PMID>
+  </reference>
+  <reference>
+    <citation>Fisher MM, Perez Chumbiauca CN, Mather KJ, Mirmira RG, Tersey SA. Detection of islet β-cell death in vivo by multiplex PCR analysis of differentially methylated DNA. Endocrinology. 2013 Sep;154(9):3476-81. doi: 10.1210/en.2013-1223. Epub 2013 Jul 3.</citation>
+    <PMID>23825129</PMID>
+  </reference>
+  <verification_date>October 2019</verification_date>
+  <study_first_submitted>January 9, 2016</study_first_submitted>
+  <study_first_submitted_qc>October 23, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 25, 2019</study_first_posted>
+  <last_update_submitted>October 23, 2019</last_update_submitted>
+  <last_update_submitted_qc>October 23, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 25, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Aristotle University Of Thessaloniki</investigator_affiliation>
+    <investigator_full_name>Assimina Galli-Tsinopoulou</investigator_full_name>
+    <investigator_title>PROFESSOR</investigator_title>
+  </responsible_party>
+  <keyword>INS gene</keyword>
+  <keyword>methylation</keyword>
+  <keyword>next generation sequencing</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

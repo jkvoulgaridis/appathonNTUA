@@ -1,0 +1,319 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04434898</url>
+  </required_header>
+  <id_info>
+    <org_study_id>201701093B0</org_study_id>
+    <nct_id>NCT04434898</nct_id>
+  </id_info>
+  <brief_title>The Assessment of the Diagnosis and Prognosis of Patients With Alzheimer Disease or Parkinson Disease With Cognitive Impairment by Using Diffusion MRI</brief_title>
+  <official_title>The Assessment of the Diagnosis and Prognosis of Patients With Alzheimer Disease or Parkinson Disease With Cognitive Impairment by Using Diffusion MRI</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Chang Gung Memorial Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Chang Gung Memorial Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The hypothesis is that the differential extent of microstructural damages in the affected
+      brain regions can be specific to the disease of interest and could reflect the clinical
+      severity. Therefore, the investigator propose that whole brain parcellation of diffusion MRI
+      can be used to improve diagnosis and prediction of clinical outcomes in Parkinson's Disease.
+
+        1. A regression model between clinical severity and two year clinical outcomes and
+           diffusion properties from multiple parcellated regions will be developed.
+
+        2. Blind validation will be performed.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Currently, Alzheimer's Disease (AD) and Parkinson's Disease (PD) are diagnosed mainly by
+      neurologists, based on clinical symptoms. However, there are no objective criteria available
+      for their diagnosis. Although magnetic resonance imaging (MRI) is often employed in
+      conjunction with clinical judgement, the images are mostly used to eliminate other diseases,
+      rather than to confirm the diagnosis. Other imaging methods, such as Position Emission
+      Tomography or Computed Tomography, may help in the diagnosis of AD and PD, but have harmful
+      effects on the human body.
+
+      Diffusion MRI, and in particular Diffusion Tensor Imaging, are often employed in the
+      evaluation of changes in connectivity in the central nervous system. As it is non-invasive
+      and does not involve radiation, diffusion MRI is suitable to be used for longitudinal
+      studies. It has been used for the evaluation of fiber density and cross-section in many
+      diseases, including epilepsy, multiple sclerosis, and brain tumours, with good results.
+      Several measurements can be obtained from diffusion MRI, including fractional anisotropy and
+      mean, radial and axial diffusivity. Changes observed in diffusion MRI are related to changes
+      in water content inside and outside of cells, so an increase in the diffusion coefficient
+      could reflect an increase in cell membrane permeability, which may be attributed to cell
+      death and rupturing. A higher diffusion coefficient may be indicative of more neuronal death.
+      Therefore, using diffusion kurtosis, the investigator may be able to improve diagnoses of PD.
+
+      From research on AD, the investigator found that the diffusion coefficient of patients with
+      mild cognitive impairment and AD is significantly higher than control patients. The
+      investigator will carry out analysis on 90 brain regions, including the fusiform gyrus,
+      hippocampus, parahippocampus and cingulum. The listed regions have been observed to have
+      differences in mean diffusivity for AD patients and those at risk for AD, as compared to
+      normal controls. In previous studies, overlaps were observed between areas where the mean
+      diffusivity increases and areas where brain regions shrink, but there are more regions and
+      larger areas where the diffusion coefficient increases. Therefore, the mean diffusivity may
+      be a more suitable clinical index than the current method of brain volume. In addition, there
+      is a correlation between increased mean diffusivity and the severity of mild cognitive
+      impairment or AD. Amyloid deposition is consistent with disease progression, further
+      supporting that mean diffusivity can be used to reflect the progression of mild cognitive
+      impairment and AD.
+
+      The investigator plan to use Compressed Sensing to increase the speed of diffusion MRI. This
+      includes image preprocessing, acquisition of Compressed Sensing observations, rebuilding the
+      model, and reconstructing the algorithm. The investigator also plan to overcome the current
+      limitations of region-of-interest analysis. One way of achieving this is by voxelwise
+      analysis, however it has limitations caused by normalization of the image to a template
+      space, and possible problems in tractography caused by rotation or distortion of the image.
+      Furthermore, the use of a study specific template prevents the results from being available
+      in Brodmann or Talairach coordinates. Most importantly, voxel analysis is not based on brain
+      regions, so it is difficult to determine the properties of each region, and according to our
+      algorithm, a large amount of voxel data would greatly reduce the resolution of the statistics
+      and cause problems in statistical analysis. Therefore, the investigator have to use a common
+      standard space, and develop a suitable imaging technique.
+
+      The investigator choose to use Automatic Anatomical Labelling (AAL), as this is a commonly
+      used system used in neuroscience research. The investigator also use the Montreal
+      Neuroscience Institute 152 Template (MNI152) as out standard template. In the imaging and
+      processing of the whole brain, the investigator use Affine Transformation, as this is
+      commonly used for MRI and diffusion MRI. This includes Camino, FSL, and SPM. The investigator
+      will study how the aging of a healthy brain changes the diffusion MRI and make comparisons
+      between aging in males and females.
+
+      The investigator will also use Deep Learning to increase the sensitivity and specificity and
+      to improve the accuracy of classification and diagnosis, by data set sample allocation data
+      preprocessing, and deep neural network design.
+
+      Using AAL, whole brain parcellation will be performed to obtain diffusion MRI information of
+      regions in the brain. Affected regions will be identified and analysed. The investigator hope
+      that diffusion MRI using whole brain regions can be used for differential diagnosis and for
+      identifying regions that have high correlation with clinical severity, and for accurate
+      disease diagnosis and prognosis, to serve as a reference for clinicians.
+
+      The investigator aim to use diffusion MRI to assess cognitive function and evaluate if it
+      deteriorates in patients with neurodegenerative diseases. In addition, the investigator hope
+      to use diffusion MRI to determine the disease severity and prognosis. Worsening of
+      neurodegeneration and cognitive ability brings about increased mortality and poorer quality
+      of life. The relationship between diffusion MRI results and disease severity may provide an
+      objective method allowing clinicians to diagnose these diseases with greater confidence and
+      earlier on in disease onset, before the worsening of symptoms.
+
+      The study will be completed in three phases, over three years. In the first year, the
+      investigator hope to establish an optimal high-quality imaging compression sensing scheme and
+      image data restoration process for diffusion MRI. The investigator also hope to develop an
+      optimal method for brain parcellation, and to use deep learning to improve diagnosis of
+      patients with mild cognitive impairment.
+
+      In the second year, the investigator hope to establish a process for predicting the prognosis
+      of patients with typical and atypical PD, using deep learning. The investigator also hope to
+      complete our evaluation of using deep learning for the diagnosis of mild cognitive
+      impairment.
+
+      In the third year, the investigator aim to complete the development of a method for
+      predicting the prognosis of patients with typical and atypical PD. The investigator will also
+      establish and complete our method of using deep learning to evaluate if patients with mild
+      cognitive development will develop AD. Furthermore, the investigator will complete the user
+      interface for image processing.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">October 1, 2017</start_date>
+  <completion_date type="Anticipated">September 30, 2020</completion_date>
+  <primary_completion_date type="Actual">October 1, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>An objective image-based evidence for the diagnosis, differential diagnosis and prognosis of Parkinson's Disease</measure>
+    <time_frame>end of the third year</time_frame>
+    <description>The following will be measured for the diagnostic performance of diffusion MRI:
+Regression between cognitive performance and baseline diffusion MRI using Pearson correlation
+Leave one out cross validation</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Imaging</measure>
+    <time_frame>end of the third year</time_frame>
+    <description>High-quality diffusion MRI for compressed sensing and image data restoration</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Imaging</measure>
+    <time_frame>end of the third year</time_frame>
+    <description>High-quality diffusion MRI imaging standards, parcellation methods and image processing protocol</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Deep learning techniques</measure>
+    <time_frame>end of the third year</time_frame>
+    <description>Deep learning techniques based on high-quality diffusion MRI</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Prognosis</measure>
+    <time_frame>end of the third year</time_frame>
+    <description>Methods for evaluation of worsening cognitive function in neurodegenerative disease</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Prognosis</measure>
+    <time_frame>end of the third year</time_frame>
+    <description>Methods for evaluation of clinical severity and prognosis of neurodegenerative disease</description>
+  </secondary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Actual">212</enrollment>
+  <condition>Alzheimer Disease</condition>
+  <condition>Parkinson Disease</condition>
+  <arm_group>
+    <arm_group_label>Ｍild cognitive impairment patients</arm_group_label>
+    <description>The patients with mild cognitive impairment have a Clinical Dementia Rating score of 0.5. First, we will evaluate the correlation between diffusion MRI and the clinical severity and cognitive decline of patients. Second, we will evaluate if diffusion MRI can predict if these patients will develop Alzheimer's Disease and hence be involved in the third year of the study. Patients with mild cognitive impairment should meet the following criteria:
+Between 50-80 years old
+Right-handed
+Clinical Dementia Rating score equal to 0.5
+For patients who have a CDR score of 0.5, should be diagnosed by clinician's judgement of clinical information, daily living activities, and extent of neuropsychological disorders
+Able to understand study requirements and give informed consent</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Parkinson's Disease patients</arm_group_label>
+    <description>This group consists of patients starting from 2012 to 2013 and includes 87 patients with typical Parkinson's Disease (PD), 15 patients with Progressive Supranuclear Paralysis (PSP), 15 patients with Multiple System Atrophy (MSA), and 15 patients with Cortico-Basal Degeneration (CBD). In differential diagnosis in the first year of the study, diffusion MRI will be used for a retrospective study.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy volunteers</arm_group_label>
+    <description>The healthy volunteers should meet the following criteria:
+Between 50-80 years old
+Right-handed
+MMSE score greater than or equal to 26
+Able to understand study requirements and give informed consent</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        For each specific disease group, the following criteria should be meet:
+
+        Healthy volunteers: MMSE score greater than or equal to 26. Mild cognitive impairment
+        patients: a) Clinical Dementia Rating score equal to 0.5, b) Be diagnosed by clinician's
+        judgement of clinical information. MSA patients should fulfill the National Institute of
+        Neurological Disorders and Stroke (NINDS), National Institutes of Health criteria. PSP
+        patients should fulfil the NINDS-SPSP and Litvan criteria. CBD patients should fulfil the
+        NINDS-SPSP criteria, including limb stiffness or hypokinesia, dystonia, myoclonus, speaking
+        disorders, and cortical sensory loss. The PD patients should be besides the age of onset,
+        fulfil the NINDS-SPSP criteria.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        All subjects should meet the following criteria:
+
+          1. Between 50-80 years old
+
+          2. Right-handed
+
+          3. Able to understand study requirements and give informed consent
+
+          4. Agree to return for follow-up checks
+
+          5. Able to suspend intake of medication for at least 12 hours
+
+        Exclusion Criteria:
+
+          -  Cardiac pacemaker or defibrillator implantation Intracranial metal device implantation
+
+          -  Other major systemic diseases, such as renal failure, heart failure, stroke,
+             AMI/unstable angina, poorly controlled diabetes mellitus, poorly controlled
+             hypertension
+
+          -  Alcohol or drug abuse
+
+          -  Moderate to severe dementia
+
+          -  Severe movement disorders
+
+          -  Imaging data is similar to a nuclear medical examination, exclusion criteria is any
+             abnormality that may affect cognitive function as reflected in computer tomography or
+             MRI records, such as hydrocephalus or encephalitis. Mild cortical atrophy is
+             acceptable.
+
+          -  History of intracranial surgery including thalamotomy, pallidotomy, and/or deep brain
+             stimulation
+
+          -  Major physical or neuropsychiatric disorders
+
+          -  Structural abnormalities that may cause dementia, such as cortical infarction, tumour,
+             or subdural hematoma
+
+          -  Besides medication for Parkinson's Disease, taking other medication with substances
+             that can pass through the blood-brain barrier
+
+          -  Besides medication for Parkinson's Disease, taking other medication for more than 10
+             years
+
+          -  Treatments or concurrent illnesses other than Alzheimer's Disease that could interfere
+             with cognitive function
+
+          -  Meet the criteria for dementia (DSM-IV)
+
+          -  Head trauma with loss of consciousness greater than 10 minutes
+
+          -  Severe loss of sensation
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>50 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>ChangGung Memorial Hospital, Linkou</name>
+      <address>
+        <city>Taoyuan</city>
+        <zip>333</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>July 17, 2018</study_first_submitted>
+  <study_first_submitted_qc>June 14, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 17, 2020</study_first_posted>
+  <last_update_submitted>June 14, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 14, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 17, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Chang Gung Memorial Hospital</investigator_affiliation>
+    <investigator_full_name>Wang . Jiun-Jie</investigator_full_name>
+    <investigator_title>Study Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>magnetic resonance imaging</keyword>
+  <keyword>neurodegeneration disease</keyword>
+  <keyword>cognitive impairment</keyword>
+  <keyword>diagnosis</keyword>
+  <keyword>prognosis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Parkinson Disease</mesh_term>
+    <mesh_term>Alzheimer Disease</mesh_term>
+    <mesh_term>Cognitive Dysfunction</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

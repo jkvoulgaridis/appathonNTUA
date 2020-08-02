@@ -1,0 +1,241 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04128124</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Tauli entropy-ICU</org_study_id>
+    <nct_id>NCT04128124</nct_id>
+  </id_info>
+  <brief_title>Entropy Analysis and Complex Patient-ventilator Interactions During Mechanical Ventilation</brief_title>
+  <acronym>ENTROPY-ICU</acronym>
+  <official_title>Entropy Analysis and Complex Patient-ventilator Interactions During Invasive Mechanical Ventilation at Intensive Care Unit Setting</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Corporacion Parc Tauli</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Corporacion Parc Tauli</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Complex patterns of patient-ventilator interactions could be miscalculated by visual
+      observation of mechanical ventilator screens or current algorithms based on physiologic
+      waveforms to detect patient-ventilator asynchronies. Therefore, we aim to characterize,
+      validate and study the clinical distribution and implications of an automated and
+      personalized non-invasive tool based on Entropy to detect Complex Patient-Ventilator
+      Interactions (CP-VI) during mechanical ventilation, defined as breathing pattern change
+      and/or clusters of asynchronies, over the signals of airway pressure (Paw) and airway flow
+      (Flow).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Methods
+
+        1. Defining complex patient ventilator interactions The Investigators defined &quot;Complex
+           Patient-Ventilator Interactions&quot; (CP-VI) as the presence alone or in combination of a
+           change in the respiratory rate of more than 50%, and/or the occurrence of any kind of
+           asynchronies
+
+        2. Data acquisition and data analysis Paw and Flow signals will continuously recorded
+           throughout patient's stay in the Intensive Care Unit (UCI) using BetterCare® system
+           (Better Care®, Barcelona, Spain). BetterCare uses drivers specifically designed to
+           interact with the output signal of mechanical ventilators and bedside monitors rather
+           than directly with patients. Recorded signals are synchronized and stored for further
+           analysis. MATLAB (The MathWorks, Inc., vR2018b, Natick, MA, USA) will be used to perform
+           the signal processing, data analysis and visual assessment.
+
+        3. Study Population The Investigators will obtain data from an prospectively constructed
+           database from a connectivity platform (Better Care®) to interoperate signals from
+           different ventilators and monitors and subsequently compute algorithms to diagnose
+           patient-ventilator asynchronies (ClinicalTrial.gov, NCT03451461). All of those patients
+           corresponding to a self-extubation event previously recorded will be recruited for the
+           characterization and validation process, in order to guarantee at patient-ventilator
+           interactions and episodes when they fight the ventilator. Also, patients in whom an
+           spontaneous breathing trial previous to an attempt to librate him/her from the
+           ventilator will be recruited in order to obtain signals of Paw and Flow. Clinical and
+           demographic data will obtained from the medical chart. The institutional review board
+           approved the protocol and waived informed consent because the study was
+           non-interventional, posed no added risk to patients, and did not interfere with usual
+           care.
+
+        4. Visual validation of CP-VI Three researchers will visually review the Flow and Paw
+           recordings of events. The segments duration will selected based on previous studies
+           where asynchronous clusters are evaluated. The dataset will be previously selected by an
+           expert in mechanical ventilation ensuring balance by ventilation modes (grouped by
+           Pressure Support Ventilation (PSV) and Assist-Control Ventilation modes) and equal
+           distribution of CP-VI presence or absence. The controlled modes included volume
+           assist-control ventilation (VACV) and pressure assist-control ventilation (PACV). Flow
+           and Paw tracings will be randomly ordered in MATLAB prior to visual analysis to ensure
+           blinding of the scorers. Scorers will be provided with written description of CP-VI
+           characteristics before visual analysis, as a reference. On base of CP-VI definition
+           previously described, each researcher will score for the presence or absence of CP-VI
+           events, without time limitation. The visual assessment will considered as the gold
+           standard.
+
+        5. Entropy Entropy is a non-linear measure that allows assessing the randomness of a series
+           of data. Entropy calculation requires three parameters: the embedding dimension, m (a
+           positive integer); the tolerance value or similarity criterion, r (a positive real
+           number); and the total length, N, of the analysed series.
+
+        6. Automatic CP-VI detection An automated algorithm for CP-VI detection based on Entropy
+           tool will be implemented.
+
+        7. Statistical analysis Fleiss's kappa coefficient will be used as reliability of agreement
+           among raters for visual assessment. The automated algorithm for CP-VI detection will be
+           applied over the entropy series derived from the same Flow and Paw. The performance of
+           the automated algorithm will be evaluated on base of sensitivity (Se), specificity (Sp),
+           positive and negative predictive values (PPV and NPV, respectively), accuracy (ACC) and
+           Matthews correlation coefficient (MCC).
+
+        8. Selection of m, r and N In entropy studies, an important step is to determine the
+           optimal settings to robust extract the randomness of a series of data. Therefore, an
+           optimization procedure of m, r and N will performed to properly estimate CP-VI.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">September 1, 2019</start_date>
+  <completion_date type="Actual">December 1, 2019</completion_date>
+  <primary_completion_date type="Actual">December 1, 2019</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>1 Week</target_duration>
+  <primary_outcome>
+    <measure>validation of entropy to detect complex patient-ventilator interactions</measure>
+    <time_frame>3 months</time_frame>
+    <description>validation process of a the novel tool of entropy to detect properly complex patient-ventilator interactions compared to a group of experts physicians in mechanical ventilation</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>successful extubation (remaining free of mechanical ventilation 72 hours after extubation) in those patients with complex patient-ventilator interactions</measure>
+    <time_frame>6 month</time_frame>
+    <description>analizing the clinical course during the first week after extubation obtaining data from the medical chart and quantifier the distribution over time of complex patient-ventilator interactions detected by entropy.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Rate of reintubation</measure>
+    <time_frame>6 months</time_frame>
+    <description>quantifier the distribution over time of complex patient ventilator interactions detected by entropy in those patients who requiere reintubation in both cohorts</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intensive care unit and hospital length of stay</measure>
+    <time_frame>6 months</time_frame>
+    <description>quantifier the distribution over time of complex patient ventilator interactions detected by entropy in all patients included and in both cohorts and study the duration of their hospitalization</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">107</enrollment>
+  <condition>Patient Ventilator Interactions</condition>
+  <condition>Spontaneous Breathing Trial</condition>
+  <arm_group>
+    <arm_group_label>self-extubation</arm_group_label>
+    <description>patients receiving invasive mechanical ventilation who develops an episode of self-removal (voluntary) of the endotracheal tube. Excluding those accidentally removed.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>spontaneous breathing trial</arm_group_label>
+    <description>patients who, according to the attending physician, are clinically ready to initiate and begin a protocolized test (acording to the institutions or unit) to evaluate the readiness to be liberated from mechanical ventilation.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>processing signals of airway pressure and airway flow to calculate entropy</intervention_name>
+    <description>processing of previously recorded data from a dedicated software of airway pressure and airway flow in order to calculate entropy</description>
+    <arm_group_label>self-extubation</arm_group_label>
+    <arm_group_label>spontaneous breathing trial</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adults patients admitted to the Intensive Care Unit without exclusion criteria and who
+        develop a self-extuation episode or a spontaneous breathing trial will be recruited.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Admission to a ICU bed equipped with BetterCare software and intubated fo mechanical
+             ventilation expected to last more than 24hs
+
+          -  patients who develops a self-extubation episode or a spontaneous breathing trial.
+
+        Exclusion Criteria:
+
+          -  &lt;18 years
+
+          -  &lt;48hs of recorded data
+
+          -  moribund state
+
+          -  admission for organ donation
+
+          -  chest tubes with suspected bronchopleural fistula
+
+          -  accidental extubation
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Lluis Blanch, M.D., Ph.D.</last_name>
+    <role>Study Director</role>
+    <affiliation>Critical Care Center, Hospital Universitari Parc Tauli. Institut d'Investigació i Innovació Parc Taulí.</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Hospital Universitari Parc Taulí</name>
+      <address>
+        <city>Sabadell</city>
+        <state>Barcelona</state>
+        <zip>08208</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Spain</country>
+  </location_countries>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>October 14, 2019</study_first_submitted>
+  <study_first_submitted_qc>October 14, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 16, 2019</study_first_posted>
+  <last_update_submitted>July 3, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 3, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 7, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Corporacion Parc Tauli</investigator_affiliation>
+    <investigator_full_name>Candelaria de Haro</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>asynchronies</keyword>
+  <keyword>mechanical ventilation</keyword>
+  <keyword>irregularity</keyword>
+  <keyword>complexity</keyword>
+  <keyword>breathing pattern</keyword>
+  <keyword>self-extubation</keyword>
+  <keyword>weaning</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Respiratory Aspiration</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>The protocol as well as the study outcomes does not stipulate ta IPD should be shared.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

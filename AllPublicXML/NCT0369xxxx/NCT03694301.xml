@@ -1,0 +1,200 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03694301</url>
+  </required_header>
+  <id_info>
+    <org_study_id>V107C-209L</org_study_id>
+    <nct_id>NCT03694301</nct_id>
+  </id_info>
+  <brief_title>Physiological Data Analysis of Patients Undergoing Anesthesia for Liver Transplantation</brief_title>
+  <official_title>Record and Analyze the Data of Patient Undergoing Anesthesia for Liver Transplantation From Patient Monitoring Instruments</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Taipei Veterans General Hospital, Taiwan</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Duke University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Taipei Veterans General Hospital, Taiwan</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To record the intra-operative digital data from the standard monitoring instruments
+      containing cardiovascular system information, and from depth-of-anesthesia monitoring modules
+      (Bispectral index, Entropy module, Surgical Plethysmography Index) containing neurological
+      system information captured in the patient monitor, as well as the physiological data
+      regarding anesthetic dosage, respiratory gas analysis and the standard monitoring requirement
+      of anesthesia. All above data comes from patients undergoing liver transplantation surgery
+      for medical reason. The investigators also record the precise time points of detail surgical
+      stages during the surgery . Clinical data collected from these monitoring instrument will be
+      used to gain more understanding of the complex interaction between anesthetic effect,
+      surgical procedure, autonomic response and drug modeling. The goal is to obtain the clinical
+      value of various features extracted from physiological data, in particular the waveform data
+      from cardiovascular system.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Liver transplantation surgery brings huge influences on the human body of the recipient
+      intra-operatively. Anesthesiologists facing challenges from hemodynamic function,
+      neurological function, coagulation function use monitoring instruments as a guide to make
+      timely anesthetic judgement. As good as those well designed monitoring instruments displaying
+      vital information, the investigators would like to explore any possible hidden data features
+      which is not perceivable with naked eye.
+
+      In this prospective observational study, the investigators will enroll 40 patients undergoing
+      liver transplantation surgery for medical reason. Anesthetic management and surgery will be
+      performed as usual clinical practice.
+
+      The investigators will record the digital data exported from standard monitoring instruments,
+      including cardiovascular system information (electrocardiography, photo-plethysmography ,
+      blood pressure, cardiac output, and any additional monitoring items clinically required),
+      parameters derived from pulse contour analysis (cardiac output, stroke volume, stroke volume
+      variation... etc.), neurological system information (Bispectral index, Entropy, Surgical
+      Plethysmography Index, cerebral oximeter ) and the respiratory gas monitoring (gas analyzer,
+      respiratory waveform). All above data are provided by monitoring instruments routinely used
+      for liver transplantation, including CARESCAPE Monitor B850 (GE Healthcare) FloTrac system
+      (Edwards Lifesciences).
+
+      The surgical steps will be noted with precise time stamps to establish temporal
+      relationships. Registered events including anesthetic induction, intubation, disinfection,
+      dissection stage, anhepatic stage , inferior vena cava clamping, reperfusion, neohepatic
+      stage and other important surgical steps. The recording is ended before the end of monitoring
+      in the operating room. All physiological data and demographic data will be stored in digital
+      media after being de-linked from personal identification.
+
+      Data analysis and Statistics will be particularly performed to explore the temporal effect
+      and relationship. Methods including signal processing, modeling, classification and
+      non-parametric spectral estimation will be used.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">October 2018</start_date>
+  <completion_date type="Anticipated">October 2020</completion_date>
+  <primary_completion_date type="Anticipated">October 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Correlation between SPI value and heart rate variability at predefined surgical step</measure>
+    <time_frame>During dissection, anhepatic and neohepatic phases. Of IVC clamp, reperfusion, and hepatic artery anatomises, the moment, 10 minutes before, 15 minutes after, 1 hour and 2 hours after the surgical steps.</time_frame>
+    <description>Surgical Pleth Index (SPI) is a newly developed pain monitor derived from analysis of pulse oximetry signal. Such analysis is based on heart rate variability for autonomic nervous system activity. However the accuracy of SPI is questioned for interference of vasculopathy upon pulse oximeter signal quality. For liver transplant, there are three stages as followed: dissection phase, anhepatic phase and neohepatic phase. Liver plays an important role in renin-angiotensin-aldosterone system which affects the vessel tone. Therefore, the investigators will explore the correlation of heart rate variability calculated from ECG QRS complex and SPI at these three different stages in liver transplant. The Spearman rank correlation &gt; 0.7 and the prediction probability vale &gt; 0.7 are positive outcome result.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Correlation between Arterial waveform and Flotrac(TM) cardiac output analysis</measure>
+    <time_frame>During dissection, anhepatic and neohepatic phases. Of IVC clamp, reperfusion, and hepatic artery anatomises, the moment, 10 minutes before, 15 minutes after, 1 hour and 2 hours after the surgical steps.</time_frame>
+    <description>Liver plays an important role in renin-angiotensin-aldosterone system which affects vessel tone. At anhepatic phase in liver transplant, it was noticed that the reflected wave in arterial waveform disappears but the forward waveform remains. The investigators hypothesize that this is caused by the inability to transform angiotensinogen without liver. Flotrac by Edward lifescience is a device to calculate cardiac output and stroke volume variation from arterial waveform. The investigators will explore the correlation of Flotrac cardiac output with arterial waveform in anhepatic phase. The arterial waveform analysis includes area under arterial waveform, the slope for forward wave and pulse pressure. Also high dimensional method including diffusion map and locally linear embedding will be used to transform the whole waveform into more meaningful quantitative indices. The Spearman rank correlation &gt; 0.7 and the prediction probability vale &gt; 0.7 are positive outcome result.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between waveform analysis, graft and patient survival</measure>
+    <time_frame>For first week after operation, data will be recorded daily including INR, blood transfusion, serum creatinine and PaO2/Fio2. Kidney and lung injury will be specified. Also the investigators will record days for ICU stay and ventilator use.</time_frame>
+    <description>Liver plays an important role in renin-angiotensin-aldosterone system which affects vessel tone. At anhepatic phase in liver transplant, it was noticed that the reflected wave in arterial waveform disappears but the forward waveform remains. The investigators hypothesize that this is caused by unabling to transform angiotensinogen without liver. The investigators hypothesized that the reflected wave in arterial waveform could represent graft function. Therefore the investigator will analyze reflected waveform after reperfusion and record patient outcome as 30-day mortality, ventilator use, ICU stay and kidney injury. The Spearman rank correlation &gt; 0.6 is positive outcome result.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">40</enrollment>
+  <condition>Liver Transplantation</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients have been registered or treated in the investigator's hospital as candidates for
+        liver transplantation recipient.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult patient undergoing living donor liver transplant with MELD score &lt; 20
+
+        Exclusion Criteria:
+
+          -  Vulnerable populations per institutional regulation, including under-age, history of
+             drug abuse, HIV carrier, AIDS, aborigine, prisoner.
+
+          -  Unable to communicate, for example hepatoencephalopathy, on endotracheal tube with
+             ventilator support
+
+          -  Complicated liver transplant procedure, for example domino liver donation
+
+          -  Poor liver graft condition, donor have fatty liver (&gt;15% adipose tissue by liver
+             biopsy pathologic report)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Chien-Kun Ting, Dr.</last_name>
+    <role>Study Chair</role>
+    <affiliation>Department of Anesthesiology, Taipei Veterans General Hospital, Taiwan</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Shen-Chih Wang, Dr.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Department of Anesthesiology, Taipei Veterans General Hospital, Taiwan</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Hsin-Lin Tsai, Dr.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Department of Surgery, Taipei Veterans General Hospital, Taiwan</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Kuang-Yi Chang, Dr.</last_name>
+    <phone>+886-938593159</phone>
+    <email>sufentanil@gmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Chien-Kun Ting, Dr.</last_name>
+    <phone>+886-938593137</phone>
+    <email>ckting@vghtpe.gov.tw</email>
+  </overall_contact_backup>
+  <reference>
+    <citation>Wang SC, Lin HT, Chang KY, Mandell MS, Ting CK, Chu YC, Loong CC, Chan KH, Tsou MY. Use of higher thromboelastogram transfusion values is not associated with greater blood loss in liver transplant surgery. Liver Transpl. 2012 Oct;18(10):1254-8. doi: 10.1002/lt.23494.</citation>
+    <PMID>22730210</PMID>
+  </reference>
+  <reference>
+    <citation>Wang SC, Teng WN, Chang KY, Susan Mandell M, Ting CK, Chu YC, Loong CC, Chan KH, Tsou MY. Fluid management guided by stroke volume variation failed to decrease the incidence of acute kidney injury, 30-day mortality, and 1-year survival in living donor liver transplant recipients. J Chin Med Assoc. 2012 Dec;75(12):654-9. doi: 10.1016/j.jcma.2012.08.007. Epub 2012 Nov 17.</citation>
+    <PMID>23245482</PMID>
+  </reference>
+  <verification_date>October 2018</verification_date>
+  <study_first_submitted>September 18, 2018</study_first_submitted>
+  <study_first_submitted_qc>October 1, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 3, 2018</study_first_posted>
+  <last_update_submitted>October 2, 2018</last_update_submitted>
+  <last_update_submitted_qc>October 2, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 4, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Monitoring, Intraoperative</keyword>
+  <keyword>Pulse Wave Analysis</keyword>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>De-identified individual participant data for all primary and secondary outcome will be made available at Dataverse. (https://dataverse.harvard.edu/)</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_info_type>Clinical Study Report (CSR)</ipd_info_type>
+    <ipd_info_type>Analytic Code</ipd_info_type>
+    <ipd_time_frame>Data will be available within 6 months of study completion</ipd_time_frame>
+    <ipd_access_criteria>Data access will be under the term of use of Dataverse website.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

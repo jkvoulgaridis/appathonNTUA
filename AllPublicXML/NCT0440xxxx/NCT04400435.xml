@@ -1,0 +1,172 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04400435</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020.4</org_study_id>
+    <nct_id>NCT04400435</nct_id>
+  </id_info>
+  <brief_title>Detection of Heart Conditions With Single Lead ECG Using Artificial Intelligence</brief_title>
+  <acronym>DAVID1</acronym>
+  <official_title>Detection of Reduced Left Ventricular Ejection Fraction and Atrial Arrhythmias With Single Lead ECG Using Artificial Intelligence</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Eko Devices, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Eko Devices, Inc.</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this research is to prospectively test and validate the single-lead Low EF
+      algorithm in outpatients in order to test the performance of a single-lead ECG based
+      algorithm to identify people with decreased left ventricular EF.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Heart failure with reduced left ventricular ejection fraction (EF) is a relatively common
+      cardiac pathology with major clinical implications. People with reduced left ventricular EF
+      are at increased risk for sudden death, ventricular and atrial arrhythmias, and acute
+      hemodynamic decompensation due to heart failure. There are proven medical interventions that
+      prevent sudden cardiac death and complications in people with decreased left ventricular EF.
+      Unfortunately, some people with decreased left ventricular EF are asymptomatic, or have
+      non-specific symptoms like dyspnea, and would not receive those interventions in a timely
+      manner. Currently, there are no effective ways to screen for asymptomatic decreased left
+      ventricular EF in the population, because detection of low EF requires the use of
+      echocardiography. There is a significant need to identify novel technologies that can help to
+      detect people with decreased left ventricular EF in a simple, effective, and reliable manner.
+
+      Eko Devices features a cloud-based platform of point-of-care cardiac screening devices and
+      machine learning algorithms that enables more effective detection and management of
+      cardiovascular disease. In this study, we will use the Eko DUO device to collect single-lead
+      ECG data.
+
+      The Eko DUO is an FDA-cleared and CE-marked electronic stethoscope that allows audio
+      recording of heart sound to produce a phonocardiogram (PCG) as well as recording a
+      single-lead electrocardiogram (ECG). The DUO features 60x audio amplification, ambient noise
+      reduction, a 4000Hz sample rate, and 4 audio filters. The ECG component is made up of 2
+      stainless steel electrodes, 0.01Hz high-pass filter, selectable 50/60Hz mains filter, and a
+      500Hz sample rate. The de-identified auscultatory DUO recordings transmit wirelessly via
+      Bluetooth to the secure, HIPAA-compliant Eko application on a smartphone or tablet, which
+      allows the user to playback heart sound recordings, annotate notes on recorded audio, and
+      save recordings. This data is synced in real-time to a secure, HIPAA-compliant, cloud-based
+      Amazon Web Services (AWS) database server managed by Eko Devices.
+
+      It has been previously demonstrated that artificial intelligence processing information from
+      a 12-lead ECG can help to identify people with decreased left ventricular EF1. Using paired
+      12-lead ECG and echocardiogram data, including the left ventricular ejection fraction, from
+      44,959 patients at the Mayo Clinic, a convolutional neural was trained to identify patients
+      with low ejection fraction. When tested on an independent set of 52,870 patients, the model
+      showed an Area Under the Curve (&quot;AUC&quot;) of 0.93 and an accuracy of 86%. We have also developed
+      a single-lead version of the same algorithm, which will be more easily accessible in a
+      clinical setting since it can be used with a single-lead ECG device like the Eko DUO device.
+      We propose to validate performance of this new model using the current study.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Anticipated">July 2020</start_date>
+  <completion_date type="Anticipated">March 2021</completion_date>
+  <primary_completion_date type="Anticipated">March 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Single-lead ECG based algorithm development</measure>
+    <time_frame>Within two minutes of device use</time_frame>
+    <description>Evaluate performance of single-lead ECG based algorithm to identify individuals with reduced ejection fraction.</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">600</enrollment>
+  <condition>Left Ventricular Dysfunction</condition>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Use of Eko DUO electronic stethoscope</intervention_name>
+    <description>Auscultation of heart sounds using electronic stethoscope</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients undergoing a transthoracic echocardiogram will be enrolled. Patients who are over
+        the age of 60 or who are at risk for heart failure (hypertension, murmur, etc.) will be
+        targeted for enrollment. We will also target patients with a referral diagnosis of dyspnea
+        on exertion, orthopnea, lower extremity edema, and possible heart failure.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  English-speaking adults who are 18 years and older
+
+          -  Able and willing to provide informed consent
+
+          -  Complete a clinical echocardiogram within 7 days before or after study procedures
+
+        Exclusion Criteria:
+
+          -  Unwilling or unable to provide informed consent
+
+          -  Patients who are hospitalized
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_contact>
+    <last_name>Catherine Brooks</last_name>
+    <phone>4109605922</phone>
+    <email>catherine.brooks@ekohealth.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Albert Einstein Medical Center</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19141</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Rachel Phillips</last_name>
+      <phone>215-456-1959</phone>
+      <email>MurphyRa@einstein.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>May 19, 2020</study_first_submitted>
+  <study_first_submitted_qc>May 21, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 22, 2020</study_first_posted>
+  <last_update_submitted>July 24, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 24, 2020</last_update_submitted_qc>
+  <last_update_posted type="Estimate">July 28, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Ejection Fraction</keyword>
+  <keyword>machine learning</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Ventricular Dysfunction</mesh_term>
+    <mesh_term>Ventricular Dysfunction, Left</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

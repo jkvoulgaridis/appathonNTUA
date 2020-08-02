@@ -1,0 +1,352 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04301102</url>
+  </required_header>
+  <id_info>
+    <org_study_id>FPS-HPI-2019-02</org_study_id>
+    <nct_id>NCT04301102</nct_id>
+  </id_info>
+  <brief_title>Intraoperative Hemodynamic Optimization Using HPI: Relationship With Microcirculation: Detection of Acute Kidney Damage</brief_title>
+  <official_title>Intraoperative Hemodynamic Optimization Using Hypotension Prediction Index (HPI) and Its Relationship With Microcirculation: Detection of Acute Kidney Damage. The pReDict H Trial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Fundación Pública Andaluza Progreso y Salud</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Edwards Lifesciences</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Andalusian Network for Design and Translation of Advanced Therapies</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Determine the relationship between a non-physiological parameter obtained by Machine
+      Learning, the Hypotension Prediction Index (HPI) and two physiological parameters
+      representative of the microcirculation and the presence of renal damage associated with
+      surgery: oxygen saturation in tissue (StO2) and the risk of acute kidney damage (AKIRisk),
+      respectively.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The objective of this study is to evaluate the relationship between a non-physiological
+      parameter obtained through Machine Learning (HPI) and physiological parameters such as StO
+      and the Integration of tissue inhibitor of metalloproteinase 2 (TIMP-2) and the factor
+      binding protein of insulin growth 7 (IGFBP-7), as a representation of microcirculation and
+      the presence of renal damage respectively associated with surgery. The integration of this
+      non-physiological parameter (HPI) in daily clinical practice would achieve an improvement in
+      the care of the surgical patient, improving their postoperative prognosis.
+
+      The most recent recommendations of the Societies of Experts in the treatment of perioperative
+      acute renal failure promote early detection of renal damage, even before it causes organ
+      dysfunction. For this purpose, they recommend measuring biomarkers of kidney damage,
+      including their alteration, within the definition of IRA. In this sense, to solve the great
+      inaccuracy of creatinine when defining renal failure and to detect and treat kidney damage
+      before it progresses to dysfunction, renal biomarkers emerge promisingly (TIMP-2 and IGFBP-7
+      are the two most promising biomarkers).
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">June 1, 2020</start_date>
+  <completion_date type="Anticipated">May 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">June 1, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>Triple (Participant, Care Provider, Investigator)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Arterial Hypotension</measure>
+    <time_frame>Intraoperatively</time_frame>
+    <description>Hemodynamic event to avoid, the fall of the Average Arterial tension below 65 mmHg for a minimum duration of 1 minute (3 consecutive records from one minute to more between two consecutive falls).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accumulated Hypotension Time</measure>
+    <time_frame>Intraoperatively</time_frame>
+    <description>The cumulative hypotension time is defined and calculated as the sum of all the Average Blood Pressure records below 65 mmHg, with a minimum duration of 1 minute in the data download (3 consecutive PAM records &lt;65mmHg in downloading data in Microsoft Excel® Spreadsheet format).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Area Under the Curve (AUC) of the Average Arterial Pressure</measure>
+    <time_frame>Intraoperatively</time_frame>
+    <description>In this protocol, the AUC of the Average Arterial Pressure will be calculated to quantify the arterial hypotension event defined as the MAP below 65mmHg.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Total fluid therapy during surgery</measure>
+    <time_frame>Intraoperatively</time_frame>
+    <description>Types and total amounts</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accumulated dose of Fentanyl, remifentanyl and/or morphine.</measure>
+    <time_frame>Intraoperatively</time_frame>
+    <description>Accumulated dose during the intraoperative period</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accumulated dose during the intraoperative period of vasoactive</measure>
+    <time_frame>Intraoperatively</time_frame>
+    <description>Specify by drugs used and method of infusion (bolus / continuous infusion pump)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accumulated dose during the intraoperative period of ionotopic drug</measure>
+    <time_frame>Intraoperatively</time_frame>
+    <description>In case of indication.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Need and accumulated dose of drugs not included in previous groups</measure>
+    <time_frame>Intraoperatively</time_frame>
+    <description>Dexmedetomidine, esmolol or other drugs with hemodynamic impact</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Total intraoperative diuresis.</measure>
+    <time_frame>Intraoperatively</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Transfusion of total blood products during surgery</measure>
+    <time_frame>Intraoperatively</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Lactate</measure>
+    <time_frame>Intraoperatively</time_frame>
+    <description>As part of perioperative blood tests</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>pH</measure>
+    <time_frame>Intraoperatively</time_frame>
+    <description>As part of perioperative blood tests</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Excess base</measure>
+    <time_frame>Intraoperatively</time_frame>
+    <description>As part of perioperative blood tests</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Hemoglobin</measure>
+    <time_frame>Preoperative, Intraoperatively, From day 1 to day 5 in Postoperative</time_frame>
+    <description>As part of perioperative blood tests</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Urea</measure>
+    <time_frame>Preoperative, Intraoperatively, From day 1 to day 5 in Postoperative</time_frame>
+    <description>As part of perioperative blood tests</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Creatinine</measure>
+    <time_frame>Preoperative, Intraoperatively, From day 1 to day 5 in Postoperative</time_frame>
+    <description>As part of perioperative blood tests</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Microcirculation monitoring, StO2</measure>
+    <time_frame>During surgery</time_frame>
+    <description>During the intervention, using the mentioned NIRS technique, StO2 will be recorded non-invasively, continuously, in the brachioradial muscle. Its value will be obtained every 2 seconds during the intraoperative period by downloading the clinical platform used for its measurement (Hemosphere-Edwards Lifesciencies SL).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Kidney damage variables: TIMP2-IGFBP7:</measure>
+    <time_frame>NC1: after anestesic induction // NC2: First 4 hours after the patient is admitted to the UCI/REA // NC3: 12 hours after NC2.</time_frame>
+    <description>Urine immunoassay, commercially known as Nephrocheck® (Biomerieux). The first sample (NC1) will be collected after anesthetic induction, when performing bladder catheterization. The first postoperative sample (NC2) will be collected during the first 4 hours after the patient is admitted to the UCI / REA for their postoperative stay. If the AKIRisk value in that first postoperative sample (NC2) is less than 0.3, no new Nephrocheck® determinations will be collected. If the AKIRisk value in the first postoperative sample (NC2) is greater than 2, no further Nephrocheck® determinations will be made. If the AKIRisk value in that first postoperative sample (NC2) is between 0.3 and 2, we will collect a second postoperative sample (NC3) at 12 hours of the first. No more Nephrocheck® determinations will be made.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Postoperative variables</measure>
+    <time_frame>Postoperatively</time_frame>
+    <description>Presence of postoperative treatment with: diuretics, IECA. ARA-II, beta blockers, AINES and other postoperative nephrotoxics, as well as daily fluid therapy.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Postoperative complications</measure>
+    <time_frame>Postoperatively</time_frame>
+    <description>The analysis of postoperative complications will be carried out in accordance with European EPCO recommendations.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Postoperative hyperglycemia</measure>
+    <time_frame>In the first 72 hours after surgery</time_frame>
+    <description>Defined as blood glucose level ≥150 mg / dl&gt; 3 h</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Length of hospital stay</measure>
+    <time_frame>At 30 days</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Mortality</measure>
+    <time_frame>At 30 days</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Time spent in the Post-Anaesthesia Recovery Unit/ICU after surgery (until discharge to a conventional hospital ward)</measure>
+    <time_frame>At the moment to transfer the patient to the hospital floor</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Surgery time.</measure>
+    <time_frame>Intraoperatively</time_frame>
+    <description>Not related to the subject</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">80</enrollment>
+  <condition>Intraoperative Hypotension</condition>
+  <arm_group>
+    <arm_group_label>Experimental</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Hemodynamic management will be based on the advanced functional hemodynamic parameters provided by the Hemosphere platform® and the FloTrac Acumen IQ sensor® (Edwards Lifesciencies SL Appendix 3) such as cardiac output, cardiac index, systolic volume, systolic volume variation, including additional parameters of the secondary display: dP / dt and EaDyn.
+As a pattern replacement of interstitial space, we will use balanced crystalloid (Isofundin®) at 1-3 ml / kg / h in case of laparoscopic surgery and 5 to 7 ml / kg / h in case of open surgery.
+The protocol of action on the intravascular space will be based on the maintenance of systolic volume with colloids (hydroxyethyl starch - Voluvén®).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Hemodynamic management will be based on the functional hemodynamic parameters provided by the hemosphere platform® hemodynamic monitor together with the FloTrac sensor® (Edwards Lifesciencies SL Appendix 3), such as cardiac output, cardiac index, systolic volume, systolic volume variation.
+As a pattern replacement of interstitial space, we use balanced crystalloid (Isofundin®) at 1-3 ml / kg / h in case of laparoscopic surgery and 5 to 7 ml / kg / h in case of open surgery.
+The protocol action for the intravascular space will be based on a recently published hemodynamic optimization algorithm (Heming N, Moine P, Coscas R, Annane D. Perioperative fluid management for major elective surgery. British Journal of Surgery. 2020;107:e56-62). The fluid used will be hydroxyethyl starch (Voluven®).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Hemosphere platform® together with the FloTrac Acumen IQ® sensor</intervention_name>
+    <description>Clinical platform that, analyzing the pulse wave contour, obtained from the previously catheterized radial artery, is able to make available to the clinician both a continuous monitoring of blood pressure and advanced hemodynamic parameters that help patient management. It incorporates predictive parameters such as the hypotension prediction index and decision support parameters such as dynamic arterial elastance and maximum dP / dT.
+It also has the possibility of assessing regional oxygen saturation, measured by near-infrared light photoplethysmography, and the sensor can be applied in different locations (cerebral, muscular ...).</description>
+    <arm_group_label>Experimental</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Hemosphere platform® together with the FloTrac® sensor</intervention_name>
+    <description>Clinical platform that, analyzing the pulse wave contour, obtained from the previously catheterized radial artery, is able to make available to the clinician both a continuous monitoring of blood pressure and advanced hemodynamic parameters that help patient management.
+It also has the possibility of assessing regional oxygen saturation, measured by near-infrared light photoplethysmography, and the sensor can be applied in different locations (cerebral, muscular ...).</description>
+    <arm_group_label>Control</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients who are over 65 years of age and / or physical condition ASA III or IV.
+
+          -  Patients who have indicated major elective surgery: abdominal, urological,
+             gynecological or orthopedic surgery through laparoscopic or open approaches.
+
+          -  Patients of both sexes who are going to undergo general / combined anesthesia.
+
+          -  Patients who sign the informed consent, agreeing to participate in the study
+
+        Exclusion Criteria:
+
+          -  Patients undergoing only regional anaesthesia.
+
+          -  Patients under 65 years of age and/or ASA I or II physical condition.
+
+          -  Patients with preoperative glomerular filtrate less than 60 ml/min/1.73m2, calculated
+             according to the formula CKD-EPI 2009 (Milik A, Hrynkiewicz E. KDIGO 2012 Clinical
+             Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. KDIGO
+             Guidelines. 2012; 19:4477-83)
+
+          -  Patients with persistent/permanent Atrial Fibrillation
+
+          -  Patients who have received a kidney transplant.
+
+          -  Patients with known cardiac shunts.
+
+          -  Patients whose surgical indication is urgent or emergency.
+
+          -  Patients scheduled for surgery with the need for a microscope, in general, and
+             intracranial surgery, in particular.
+
+          -  Patients with intraoperative need for methylene blue
+
+          -  Not having the express consent of the patient.
+
+          -  Patients with any clinical condition that, according to the anaesthesiologist
+             responsible, contraindicates performance of the surgical procedure.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>65 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Juan Víctor Lorente Olazábal</last_name>
+    <phone>695881448</phone>
+    <email>juanv.lorente.sspa@juntadeandalucia.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>María del Mar Benjumea Vargas</last_name>
+    <phone>955 040 460</phone>
+    <email>gestionensayosclinicos.fps@juntadeandalucia.es</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Hospital Universitario de Jerez de la Frontera</name>
+      <address>
+        <city>Jerez De La Frontera</city>
+        <state>Cádiz</state>
+        <zip>11407</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario de Badajoz</name>
+      <address>
+        <city>Badajoz</city>
+        <zip>06080</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Juan Ramón Jiménez</name>
+      <address>
+        <city>Huelva</city>
+        <zip>21005</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Infanta Leonor</name>
+      <address>
+        <city>Madrid</city>
+        <zip>28031</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Virgen del Rocío</name>
+      <address>
+        <city>Sevilla</city>
+        <zip>41013</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Spain</country>
+  </location_countries>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>February 19, 2020</study_first_submitted>
+  <study_first_submitted_qc>March 5, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 10, 2020</study_first_posted>
+  <last_update_submitted>March 5, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 5, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 10, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hypotension</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

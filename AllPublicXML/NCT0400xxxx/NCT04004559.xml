@@ -1,0 +1,315 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04004559</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SYSEC-KY-KS-2019-055-001</org_study_id>
+    <nct_id>NCT04004559</nct_id>
+  </id_info>
+  <brief_title>MRI Radiomics Assessing Neoadjuvant Chemotherapy in Breast Cancer to Predict Lymph Node Metastasis and Prognosis(RBC-02)</brief_title>
+  <acronym>RBC-02</acronym>
+  <official_title>Novel Radiomics Signature on MRI Before and After Neoadjuvant Chemotherapy in Breast Cancer to Predict Axillary Lymph Node Metastasis and Prognosis (RBC-02)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Sun Yat-sen University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Tungwah Hospital of Sun Yat-Sen University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is aimed to illustrate whether Radiomics combining multiparametric MRI before and
+      after neoadjuvant chemotherapy (NACT) with clinical data is a good way to predict axillary
+      lymph node metastasis and prognosis in invasive-breast-cancer.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study proposes to build a clinical predictive model to predict axillary lymph node
+      metastasis and prognosis in invasive-breast-cancer patients who received neoadjuvant
+      chemotherapy before surgery. The model is built based on breast MRI signatures extracted and
+      analyzed via deep machine-learning algorithm methods. Invasive breast cancer patients undergo
+      multiparametric MRI at baseline, then undergo multiparametric MRI after received neoadjuvant
+      chemotherapy for at least 4 cycles as planned. After the surgery, responses to neoadjuvant
+      chemotherapy are determined according to the histopathologically examination of the
+      surgically resected specimens. After completion of treatment procedure, patients are followed
+      up for 5 years.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">May 28, 2019</start_date>
+  <completion_date type="Anticipated">May 30, 2025</completion_date>
+  <primary_completion_date type="Anticipated">October 30, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Disease free survival (DFS)</measure>
+    <time_frame>5 years</time_frame>
+    <description>The association between Radiomics of multiparametric MRI and disease free survival (DFS), which defined as the time from the diagnosis of breast cancer to the confirmed time of metastatic disease, or death due to any other cause.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>pathological complete response (pCR)</measure>
+    <time_frame>Pathologic evaluation will be performed for each patient within 1 week after surgery</time_frame>
+    <description>The value of Radiomics of breast MRI in predicting responses to neoadjuvant chemotherapy, including reaching pCR and not reaching pCR.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pathological axillary lymph node status</measure>
+    <time_frame>Pathologic evaluation will be performed for each patient within 1 week after surgery</time_frame>
+    <description>The value of Radiomics of breast MRI in predicting pathological axillary lymph node status is defined as axillary lymph node metastasis exists or not.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Overall survival (OS)</measure>
+    <time_frame>5 years</time_frame>
+    <description>The association between Radiomics of multiparametric MRI and overall survival (OS), which defined as the time from the beginning of diagnosis of breast cancer to the death with any causes.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Breast cancer specific motality (BCSM)</measure>
+    <time_frame>5 years</time_frame>
+    <description>Defined as time between randomization and the time of death occur specific due to breast cancer</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Recurrence free survival (RFS)</measure>
+    <time_frame>5 years</time_frame>
+    <description>Defined as time between randomization and the time of any recurrence of ipsilateral chest, breast, regional lymph node recurrence, distant metastases, or death occurred</description>
+  </secondary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">600</enrollment>
+  <condition>Invasive Breast Cancer</condition>
+  <condition>Neoadjuvant Chemotherapy</condition>
+  <condition>Radiomics</condition>
+  <condition>Axillary Lymph Node</condition>
+  <condition>Prognosis</condition>
+  <arm_group>
+    <arm_group_label>Sun Yat-Sen Memorial Hospital of Sun Yat-sen University</arm_group_label>
+    <description>Cohort of Sun Yat-Sen Memorial Hospital of Sun Yat-sen University is the training cohort.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Sun Yat-sen University Cancer Center</arm_group_label>
+    <description>Cohort of Sun Yat-sen University Cancer Center is validation cohort 1.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Tungwah Hospital of Sun Yat-Sen University</arm_group_label>
+    <description>Cohort of Tungwah Hospital of Sun Yat-Sen University is validation cohort 2.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>No interventions</intervention_name>
+    <description>As this is a patient registry, there are no interventions.</description>
+    <arm_group_label>Sun Yat-Sen Memorial Hospital of Sun Yat-sen University</arm_group_label>
+    <arm_group_label>Sun Yat-sen University Cancer Center</arm_group_label>
+    <arm_group_label>Tungwah Hospital of Sun Yat-Sen University</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Invasive breast cancer patients with no distant organ metastasis who had neoadjuvant
+        chemotherapy before the surgery
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Primary lesion diagnosed as invasive breast cancer;
+
+          2. Imaging examination confirmed no distant organ metastasis;
+
+          3. Received neoadjuvant chemotherapy for drugs such as taxanes, anthracyclines, and
+             platinum as planned;
+
+          4. Completed breast MRI examination before or after neoadjuvant chemotherapy;
+
+          5. Accepted breast cancer surgery and axillary lymph node dissection;
+
+          6. Eastern Cooperative Oncology Group performance status 0-2.
+
+        Exclusion Criteria:
+
+          1. History of ipsilateral axillary or breast surgery;
+
+          2. Inflammatory breast cancer;
+
+          3. Bilateral breast cancer;
+
+          4. Malignant tumor history in 5 years;
+
+          5. Patients with cervical or contralateral axillary lymph node metastasis;
+
+          6. Incomplete imaging or medical history data.
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <gender_based>Yes</gender_based>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Herui Yao, PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Chuanmiao Xie, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Sun Yat-sen University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Haotian Lin, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Zhongshan Ophthalmic Center, Sun Yat-sen University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Herui Yao, Ph. D</last_name>
+    <phone>+8613500018020</phone>
+    <email>yaoherui@mail.sysu.edu.cn</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Yunfang Yu, MD</last_name>
+    <phone>+8613660238987</phone>
+    <email>yuyf9@mail.sysu.edu.cn</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Sun Yat-sen University Cancer Center</name>
+      <address>
+        <city>Guangzhou</city>
+        <state>Guangdong</state>
+        <zip>510000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Chuanmiao Xie, PhD</last_name>
+      <phone>+8618903050011</phone>
+      <email>xiechm@sysucc.org.cn</email>
+    </contact>
+    <investigator>
+      <last_name>Chuanmiao Xie, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Nian Lu, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Zhongshan Ophthalmic Center, Sun Yat-Sen University</name>
+      <address>
+        <city>Guangzhou</city>
+        <state>Guangdong</state>
+        <zip>510060</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Haotian Lin, PhD</last_name>
+      <phone>+8613802793086</phone>
+      <email>gddlht@aliyun.com</email>
+    </contact>
+    <investigator>
+      <last_name>Haotian Lin, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Wenben Chen, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Sun Yat-Sen Memorial Hospital of Sun Yat-sen University</name>
+      <address>
+        <city>Guangzhou</city>
+        <state>Guangdong</state>
+        <zip>510120</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Herui Yao, PhD</last_name>
+      <phone>+8613500018020</phone>
+      <email>yaoherui@mail.sysu.edu.cn</email>
+    </contact>
+    <contact_backup>
+      <last_name>Yunfang Yu, MD</last_name>
+      <phone>+8613660238987</phone>
+      <email>yuyf9@mail.sysu.edu.cn</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Herui Yao, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Yunfang Yu, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Chenchen Li, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kai Chen, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>June 30, 2019</study_first_submitted>
+  <study_first_submitted_qc>June 30, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 2, 2019</study_first_posted>
+  <last_update_submitted>June 25, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 25, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 29, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University</investigator_affiliation>
+    <investigator_full_name>Herui Yao</investigator_full_name>
+    <investigator_title>Principal Investigation</investigator_title>
+  </responsible_party>
+  <keyword>Invasive Breast Cancer</keyword>
+  <keyword>Neoadjuvant Chemotherapy</keyword>
+  <keyword>Radiomics</keyword>
+  <keyword>Axillary Lymph Node Metastasis</keyword>
+  <keyword>Survival</keyword>
+  <keyword>Machine Learning Analysis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Neoplasms</mesh_term>
+    <mesh_term>Neoplasm Metastasis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Requests for the individual data or study documents will be considered where the proposed use aligns with public good purposes, does not conflict with other requests, and the requestor is willing to sign a data access agreement. Contact is though the corresponding author.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

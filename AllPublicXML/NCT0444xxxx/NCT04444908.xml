@@ -1,0 +1,322 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04444908</url>
+  </required_header>
+  <id_info>
+    <org_study_id>WDRY2019-KK073</org_study_id>
+    <nct_id>NCT04444908</nct_id>
+  </id_info>
+  <brief_title>Development and Validation of an Artificial Intelligence-assisted Strategy Selection System for Colonoscopy Cleaning</brief_title>
+  <official_title>Development and Validation of an Artificial Intelligence-assisted Strategy Selection System for Colonoscopy Cleaning</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Renmin Hospital of Wuhan University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Renmin Hospital of Wuhan University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Patients with poor inadequate bowel preparation need to undergo secondary colonoscopy. but
+      the evaluation of intestinal cleanliness is judged by doctors subjectively. there are no
+      objective and effective criteria to guide the evaluation. We use the deep learning technique
+      to develop the EndoAngel with real-time intestinal cleanliness assessment. It can derive a
+      decision curve for bowel cleanliness based on the relationship between the percentage of
+      bowel segments with a Boston score of 1 and the rate of missed adenomas. It can help doctors
+      to identify patients who need a second colonoscopy, and provide a new way for artificial
+      intelligence in improving the detection rate of colonoscopic adenomas.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Colorectal disease as a common human disease seriously affects the health of human life. With
+      the aging of the population, the change of diet structure and the aggravation of
+      environmental pollution, the incidence of colorectal diseases, such as colon cancer, Colon
+      Polyp and inflammatory bowel disease, has gradually increased.
+
+      Colonoscopy is the simplest and most widely available screening procedure for colorectal
+      cancer(CRC) prevention and early detection. Colonoscopy can clearly observe the small changes
+      in the terminal ileum and the colorectal, such as erosion, ulcers, bleeding, congestion,
+      edema, polyps, early cancer, and so on. Colonoscopy can biopsy the lesion site for
+      pathological examination, to histologically qualitative the characterization of mucosal
+      lesions, such as inflammation, polyp nature, the degree of differentiation of cancer, and so
+      on. It is helpful to understand the severity of the lesion and guide the formulation of the
+      correct treatment plan or judgment of treatment effect. Colonoscopy can also be the minimally
+      invasive endoscopic treatment of colorectal polyps, early cancer, bleeding, foreign bodies
+      and other diseases.
+
+      Because the quality of bowel preparation affects the colonoscopy's ability to detect adenomas
+      and polyps, adequate bowel preparation is necessary to ensure optimal use of colonoscopy in
+      CRC prevention. Almost all clinical guidelines recommend adequate bowel preparation before
+      colonoscopy. However, up to one third of colonoscopies have been found to show inadequate
+      bowel preparation, which is estimated to increase the cost of colonoscopies by 12% to 22%.
+      And there are 20% of patients' bowel is not adequately prepared. When the patient's bowel
+      preparation is inadequate, the difficulty of flushing may lead to missed detection of
+      adenomas. so doctors need to accurately identify such patients and tell them to have a second
+      colonoscopy after a full bowel cleanse. However, the evaluation of intestinal cleanliness is
+      decided by doctors subjectively, and there is no objective and effective scoring standard to
+      guide the patients to accept the second colonoscopy.
+
+      Deep learning is an important breakthrough in the field of artificial intelligence in the
+      past decade. It has great potential in extracting tiny features in image analysis and image
+      classification. In 2017, the journal Nature published a paper showing that using artificial
+      intelligence to diagnose skin diseases can reach the level of experts. Subsequently, in the
+      field of digestive endoscopy, more and more studies began to apply artificial intelligence to
+      assist doctors to find polyps and improve the detection rate of polyps and adenomas.Urban, G.
+      team used artificial intelligence to identify polyps with 95% sensitivity. Misawa, M team
+      used artificial intelligence to identify polyps with 90% sensitivity. The purpose of our
+      research group is to develop the EndoAngel with real-time intestinal cleanliness assessment.
+      It can derive a decision curve for bowel cleanliness based on the relationship between the
+      percentage of bowel segments with a Boston score of 1 and the detection rate of missed
+      adenomas. It can help endoscopists to identify patients who need a second colonoscopy, to
+      avoid the detection of missed adenomas and the high cost of cleaning time caused by the wrong
+      decision-making. At the same time, artificial intelligence is in the preliminary research
+      stage in the field of digestive endoscopy, our research results are expected to provide new
+      ideas in improving the detection rate of colonoscopic adenomas.
+
+      The study Process is: Subjects who met all inclusion criteria and did not meet all exclusion
+      criteria were included in the study before colonoscopy. During the colonoscopy, the
+      endoscopists need to remain in the same without withdrawal while flushing the bowel. The
+      biopsied patients are followed up for one week. the non-biopsied patients are followed up at
+      the end of their colonoscopy , and the results are sent to an independent data analysis team
+      for review. We will collect the patients' video and exclude the clips of irrigation, biopsy,
+      and observation of polyp. Then the EndoAngel evaluates the Boston Bowel Preparation Scale of
+      the ascending colon, transverse colon and descending colon, and calculates the proportion of
+      1 Score.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">May 11, 2020</start_date>
+  <completion_date type="Anticipated">August 31, 2020</completion_date>
+  <primary_completion_date type="Anticipated">August 1, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The adenoma detection rate (ADR)</measure>
+    <time_frame>2020.08.7</time_frame>
+    <description>ADR was calculated by dividing the total number of patients being detected adenomas by the number of colonoscopies.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Cleanliness assessment of different intestinal segment in the artificial intelligence system</measure>
+    <time_frame>2020.08.7</time_frame>
+    <description>The Artificial intelligence evaluates the Boston Bowel Preparation score of the ascending colon, transverse colon and descending colon in real-time, and calculates the proportion of 1 Score</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The polyp detection rate (PDR)</measure>
+    <time_frame>2020.08.7</time_frame>
+    <description>PDR was calculated by dividing the total number of patients being detected polyps by the number of colonoscopies</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The mean number of polyps per patient (MNP)</measure>
+    <time_frame>2020.08.7</time_frame>
+    <description>MNP was calculated by dividing the total number of polyps by the number of colonoscopies.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The mean number of adenomas per patient (MAP)</measure>
+    <time_frame>2020.08.7</time_frame>
+    <description>MAP was calculated by dividing the total number of adenomas by the number of colonoscopies</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>PDR of different sizes</measure>
+    <time_frame>2020.08.7</time_frame>
+    <description>It was calculated by dividing the number of patients with polyps that large (≥10 mm), small (6-9 mm) and diminutive (≤5 mm) by the number of patients undergoing colonoscopy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>MNP of different sizes</measure>
+    <time_frame>2020.08.07</time_frame>
+    <description>It was calculated by dividing the number of polyps that large (≥10 mm), small (6-9 mm) and diminutive≤5 mm) by the number of patients undergoing colonoscopy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ADR of different sizes</measure>
+    <time_frame>2020.08.07</time_frame>
+    <description>It was calculated by dividing the number of patients with adenomas that large (≥10 mm), small (6-9 mm) and diminutive≤5 mm) by the number of patients undergoing colonoscopy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>MAP of different sizes</measure>
+    <time_frame>2020.08.07</time_frame>
+    <description>It was calculated by dividing the number of adenomas that large (≥10 mm), small (6-9 mm) and diminutive≤5 mm) by the number of patients undergoing colonoscopy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ADR of different location</measure>
+    <time_frame>2020.08.07</time_frame>
+    <description>It was calculated by dividing the number of patients with adenomas detected in the rectum, sigmoid colon, descending colon, transverse colon, ascending colon, ileocecal region etc. by the Total number of patients undergoing colonoscopy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>MAP of different location</measure>
+    <time_frame>2020.08.07</time_frame>
+    <description>It was calculated by dividing the number of adenomas detected in the rectum, sigmoid colon, descending colon, transverse colon, ascending colon, ileocecal region etc. by the Total number of patients undergoing colonoscopy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Scope-forward time and Withdrawal time</measure>
+    <time_frame>2020.08.07</time_frame>
+    <description>Scope-forward time: The time is taken to go from the the rectum to the ileocecal region. Withdrawal time. The time is taken to finish the examination from the beginning of the ileocecal region.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Boston Bowel Preparation Score of endoscopists</measure>
+    <time_frame>2020.08.07</time_frame>
+    <description>Endoscopists evaluate the different intestinal segment according Boston Bowel Preparation Scale(BBPS)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cecal intubation rate</measure>
+    <time_frame>2020.08.07</time_frame>
+    <description>It was calculated by dividing the number of colonoscopies that get to the ileocecal region by the total number of colonoscopies.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Colorectal Adenoma</condition>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Patient colonoscopy videos and photodocumentation
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The primary endpoint was the detection rate of Adenomas and the percentage of 1 score to
+        get a correlation curve. In order to calculate the sample size more accurately, we prepare
+        to collect 200 colonoscopies to explore the sample distribution, and then calculate the
+        sample size according to the sample distribution.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Male or female aged 18 or above;
+
+          -  Colonoscopy is needed to further clarify the characteristics of digestive tract
+             diseases;
+
+          -  Patients able to give informed consent were eligible to participate.
+
+          -  Able and willing to comply with all study process.
+
+          -  No intestinal organic disease.
+
+        Exclusion Criteria:
+
+          -  Has participated in other clinical trials, signed informed consent and was in the
+             follow-up period of other clinical trials.
+
+          -  Has participated in clinical trials of the drug and is in the elution period of the
+             experimental drug or control drug.
+
+          -  Drug or alcohol abuse or psychological disorder in the last 5 years.
+
+          -  Patients in pregnancy or lactation.
+
+          -  Known polyposis syndromes.
+
+          -  Gastrointestinal Bleeding.
+
+          -  A history of inflammatory bowel disease, colorectal cancer and colorectal surgery.
+
+          -  A history of colorectal surgery.
+
+          -  Patients with a contraindication for biopsy.
+
+          -  Previous history of allergy to ingredient of bowel cleanser.
+
+          -  Patients with intestinal obstruction or perforation, toxic megacolon, Colectomy, heart
+             failure (Grade III or IV) , severe cardiovascular disease, severe liver failure or
+             renal insufficiency, etc. .
+
+          -  Patients with poor bowel preparation that are unable to reach their blindness.
+
+          -  Researchers believe that the patient is not suitable to participate in the trial.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Honggang Yu, Doctor</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Renmin Hospital of Wuhan University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Honggang Yu, Doctor</last_name>
+    <phone>13871281899</phone>
+    <email>yuhonggang@whu.edu.cn</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Huiling Wu, Doctor</last_name>
+    <phone>13260647836</phone>
+    <email>3405291416@qq.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Renmin hospital</name>
+      <address>
+        <city>Wuhan</city>
+        <state>Hubei</state>
+        <zip>430000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Honggang Yu, Doctor</last_name>
+      <phone>13871281899</phone>
+      <email>yuhonggang@wnu.edu.cn</email>
+    </contact>
+    <contact_backup>
+      <last_name>Huiling Wu, Doctor</last_name>
+      <phone>13260647836</phone>
+      <email>3405291416@qq.com</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>May 2020</verification_date>
+  <study_first_submitted>June 20, 2020</study_first_submitted>
+  <study_first_submitted_qc>June 20, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 24, 2020</study_first_posted>
+  <last_update_submitted>June 30, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 30, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 7, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Adenoma</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Individual de-identified participant data that underlie the results reported in this article and study protocol will be shared for investigators whose proposed use of the data has been approved by an independent review committee. Data can only be used to achieve aims in the approved proposal. Data disclosure begins 9 months and ends 36 months after article publication. To gain access, data requesters will need to sign a data access agreement. Proposals should be directed to the corresponding author.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_time_frame>Data disclosure begins 9 months and ends 36 months after article publication.</ipd_time_frame>
+    <ipd_access_criteria>To gain access, data requesters will need to sign a data access agreement. Proposals should be directed to the corresponding author.</ipd_access_criteria>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol, Statistical Analysis Plan, and Informed Consent Form</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>December 12, 2019</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/08/NCT04444908/Prot_SAP_ICF_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

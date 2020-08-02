@@ -1,0 +1,151 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04358510</url>
+  </required_header>
+  <id_info>
+    <org_study_id>04202001</org_study_id>
+    <nct_id>NCT04358510</nct_id>
+  </id_info>
+  <brief_title>COVID-19 Mortality Prediction Model</brief_title>
+  <official_title>Mortality Prediction Model for the Triage of COVID-19, Pneumonia and Mechanically Ventilated ICU Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Dascena</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Dascena</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of this study is to develop and evaluate an algorithm which accurately predicts
+      mortality in COVID-19, pneumonia and mechanically ventilated ICU patients.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Retrospective study of 53,001 total ICU patients, including 9,166 patients with pneumonia and
+      25,895 mechanically ventilated patients, performed on the MIMIC dataset. The NPH patient
+      dataset includes 114 patients positive for SARS-COV-2 by PCR test.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">April 1, 2020</start_date>
+  <completion_date type="Actual">April 17, 2020</completion_date>
+  <primary_completion_date type="Actual">April 17, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Mortality outcome in COVID-19 ICU patients</measure>
+    <time_frame>Through study completion, an average of 2 months</time_frame>
+    <description>Deceased or not deceased</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Mortality outcome in mechanically ventilated ICU patients</measure>
+    <time_frame>Through study completion, an average of 2 months</time_frame>
+    <description>Deceased or not deceased</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Mortality outcome in pneumonia ICU patients</measure>
+    <time_frame>Through study completion, an average of 2 months</time_frame>
+    <description>Deceased or not deceased</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">114</enrollment>
+  <condition>COVID-19</condition>
+  <condition>Pneumonia</condition>
+  <condition>Mechanical Ventilation</condition>
+  <arm_group>
+    <arm_group_label>COViage</arm_group_label>
+    <description>Machine learning intervention</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>COViage</intervention_name>
+    <description>The COViage machine learning algorithm is designed to predict mortality in COVID-19, pneumonia and mechanically ventilated ICU patients.</description>
+    <arm_group_label>COViage</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Retrospective study of 53,001 total ICU patients, including 9,166 patients with pneumonia
+        and 25,895 mechanically ventilated patients, performed on the MIMIC dataset. The community
+        hospital patient dataset included 114 patients positive for SARS-COV-2 by PCR test.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients aged 18 years or older
+
+          -  Record of ICU stay
+
+        Exclusion Criteria:
+
+          -  Patients aged less than 18 years
+
+          -  Patients for which there were no records of raw data or no discharge or death dates.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Dascena</name>
+      <address>
+        <city>Oakland</city>
+        <state>California</state>
+        <zip>94612-2603</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://www.dascena.com</url>
+    <description>Related Info</description>
+  </link>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>April 20, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 21, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 24, 2020</study_first_posted>
+  <last_update_submitted>April 21, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 21, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 24, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>machine learning</keyword>
+  <keyword>COVID-19</keyword>
+  <keyword>mortality</keyword>
+  <keyword>prediction</keyword>
+  <keyword>pneumonia</keyword>
+  <keyword>mechanical ventilation</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pneumonia</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,263 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03826290</url>
+  </required_header>
+  <id_info>
+    <org_study_id>UUtah_00109162</org_study_id>
+    <nct_id>NCT03826290</nct_id>
+  </id_info>
+  <brief_title>Evaluation of a Dashboard for Diabetes Care Integrated With the Electronic Health Record</brief_title>
+  <official_title>Evaluation of an EHR-Integrated Dashboard for Diabetes Care</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Utah</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Hitachi, Ltd.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Utah</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Diabetes is a significant medical problem in the United States and across the world. Despite
+      significant progress in understanding how to better manage diabetes, there is oftentimes
+      still uncertainty in the optimal management strategy for a specific patient. As a result,
+      providers and patients must often use a trial-and-error approach to identify an effective
+      treatment regimen.
+
+      The objective of this research is to evaluate a diabetes dashboard integrated with the
+      electronic health record (EHR) that has been developed as a collaborative project between the
+      University of Utah and Hitachi, Ltd. This dashboard tool provides a graphical overview of the
+      patient's relevant data parameters as well as information on the impact of different
+      treatment options on previous patients with similar characteristics. The different treatment
+      options compare the predicted impact of relevant medication regimens as well as weight loss.
+      Primary care clinics are randomized to either an intervention condition where the tool is
+      available or to a control condition where the tool is not yet available. Patients' hemoglobin
+      A1c levels (a measure of diabetes control) are the main outcome variable. Other secondary
+      analyses will also be conducted. Use of the tool will be encouraged but optional. Following
+      any suggestions made in the tool will also be optional and up to the discretion of the
+      clinician.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study is a pragmatic clinic-randomized controlled trial of a diabetes dashboard
+      integrated with the electronic health record (EHR). The diabetes dashboard is available as a
+      tab in the EHR and enables clinicians to confirm relevant patient parameters, select
+      treatment goals, and review likely outcomes from alternative treatment strategies through an
+      interactive graphical user interface. In the review process, it enables providers and
+      patients to compare up to three potential therapies side-by side including weight-loss in
+      terms of a) personalized-predicted probability of achieving treatment goals; b) general
+      potential risks, benefits, and medication costs; and c) relevant financial information
+      specific to the patient's insurance. The personalized prediction is performed by a predictive
+      model developed by analyzing a data set of primary care clinic patients with diabetes
+      mellitus. The diabetes dashboard is seamlessly integrated with the EHR using an
+      interoperability standard known as SMART on FHIR (short for Substitutable Medical Apps
+      Reusable Technologies on Fast Healthcare Interoperability Resources).
+
+      The study is being conducted at University of Utah primary care clinics. In the intervention
+      group clinics, providers will be introduced to the tool and supported using targeted
+      implementation techniques including education feedback and tailored facilitation. Iterative
+      enhancements will be made to the tool if warranted based on the results of a formative
+      evaluation during the 1-year trial. Use of the tool and associated suggestions will be
+      optional and up to the discretion of the clinician. When patients are seen at clinics
+      randomized to the control arm, clinical providers will not have access to the tool. Following
+      introduction of the tool across intervention clinics, a 1-year trial will be conducted. Use
+      of the tool will be encouraged and supported through targeted implementation strategies. Use
+      of the tool will be regularly monitored, and a mixed-methods evaluation will be conducted of
+      the tool and its impact. The primary outcome measure will be hemoglobin A1c (HbA1c) levels,
+      which are an important physiological marker of diabetes control. Secondary measures will
+      include body mass index (BMI) and the cost of diabetes medications prescribed. Other measures
+      will include usage of the tool and clinical users' opinions of the tool.
+
+      The evaluation period will start once all intervention clinics have been educated/trained on
+      use of the tool. The primary study analyses will be limited to adult patients who were seen
+      at least twice in the intervention or control clinics during the evaluation period for office
+      visits with a visit diagnosis of diabetes mellitus, who are known to have diabetes mellitus
+      (but not type-1 diabetes mellitus), who had at least one HbA1c of &gt;= 7.5% during the
+      evaluation period, and who are not already on maximal diabetes therapy (as defined by the use
+      of short-acting insulin) at the start of the study. Secondary study analyses will be
+      conducted on patient subsets, including a per protocol analysis of cases where the tool was
+      used.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 9, 2019</start_date>
+  <completion_date type="Anticipated">May 2020</completion_date>
+  <primary_completion_date type="Anticipated">January 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Clinic randomized trial</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Per-patient change in Hemoglobin A1c (HbA1c) levels from beginning to end of evaluation period</measure>
+    <time_frame>Assessed through study completion (estimated to be 1.5 years), for Day 1 and Day 365</time_frame>
+    <description>Each patient's HbA1c level will be estimated for the beginning and end of the evaluation period. For each of these time points, the value at that time point will be estimated as follows. If a value exists for that date, use that. Otherwise, for the beginning date, first take the earliest value within the evaluation period (anchor value). If there are no values before the evaluation period, then use the anchor value. Otherwise, take the latest value before the evaluation period, and interpolate with the anchor value to estimate the value. For the value on the end date, first take the latest value within the evaluation period (anchor value). If there are no values after the evaluation period, then use the anchor value. Otherwise, take the earliest value after the evaluation period, and interpolate with the anchor value to estimate the value. Finally, calculate the change in values by comparing the end value to the beginning value.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Per-patient change in body mass index (BMI) from beginning to end of evaluation period</measure>
+    <time_frame>Assessed through study completion (estimated to be 1.5 years), for Day 1 and Day 365</time_frame>
+    <description>The beginning and end values will be estimated using the same approach used for the primary outcome measure.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cost of diabetes medications prescribed</measure>
+    <time_frame>Assessed through study completion (estimated to be 1.5 years), for Day 1 through Day 365</time_frame>
+    <description>The cost of diabetes medications prescribed will be estimated using National Average Drug Acquisition Costs</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Use of the diabetes dashboard</measure>
+    <time_frame>Assessed through study completion (estimated to be 1.5 years), for Day 1 through Day 365</time_frame>
+    <description>Providers' use of the diabetes dashboard will be measured. We will also seek to model patient, provider, and context predictors of tool usage.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>User opinions of the diabetes dashboard</measure>
+    <time_frame>Assessed through study completion (estimated to be 1.5 years), for Day 1 through Day 365</time_frame>
+    <description>User opinions of the diabetes dashboard will be solicited during the study to support the implementation and make adjustments to the dashboard as needed. Towards the end of the evaluation period, formal evaluations will be conducted of user opinions of the diabetes dashboard, including through surveys such as the System Usability Scale, user interviews, and focus groups as appropriate.</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">17000</enrollment>
+  <condition>Diabetes Mellitus</condition>
+  <condition>Diabetes Mellitus, Type 2</condition>
+  <arm_group>
+    <arm_group_label>Intervention arm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>When patients are seen in clinics in this arm, the clinical providers will have access to the intervention (EHR-integrated diabetes dashboard).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control arm</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>When patients are seen in clinics in this arm, the clinical providers will not have access to the intervention (EHR-integrated diabetes dashboard). The providers will have access to the usual decision support tools and information sources.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>EHR-integrated diabetes dashboard</intervention_name>
+    <description>The diabetes dashboard is available as a tab in the electronic health record (EHR) system and enables clinicians to confirm relevant patient parameters, select treatment goals, and review likely outcomes from alternative treatment strategies through an interactive graphical user interface.</description>
+    <arm_group_label>Intervention arm</arm_group_label>
+    <other_name>Pharmacotherapy decision support system (PDSS)</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  &gt;= 18 years old
+
+          -  Are being seen at a University of Utah primary care clinic
+
+          -  Has diabetes mellitus
+
+        Exclusion Criteria:
+
+          -  None
+
+        Note that the primary study analyses will be on a subset of these patients. See the
+        Detailed Description subsection in the Study Description section for details.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Kensaku Kawamoto, MD, PhD, MHS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Utah</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Kensaku Kawamoto, MD, PhD, MHS</last_name>
+    <phone>801-587-8076</phone>
+    <email>kensaku.kawamoto@utah.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Charlene R Weir, PhD, RN</last_name>
+    <email>charlene.weir@utah.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of Utah Health</name>
+      <address>
+        <city>Salt Lake City</city>
+        <state>Utah</state>
+        <zip>84132</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Kensaku Kawamoto, MD, PhD, MHS</last_name>
+      <phone>801-587-8076</phone>
+      <email>kensaku.kawamoto@utah.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Charlene R Weir, PhD, RN</last_name>
+      <email>charlene.weir@utah.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Kensaku Kawamoto, MD, PhD, MHS</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Charlene R Weir, PhD, RN</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>American Diabetes Association. Diagnosis and classification of diabetes mellitus. Diabetes Care. 2004 Jan;27 Suppl 1:S5-S10.</citation>
+    <PMID>14693921</PMID>
+  </reference>
+  <reference>
+    <citation>American Diabetes Association. Economic costs of diabetes in the U.S. in 2012. Diabetes Care. 2013 Apr;36(4):1033-46. doi: 10.2337/dc12-2625. Epub 2013 Mar 6.</citation>
+    <PMID>23468086</PMID>
+  </reference>
+  <reference>
+    <citation>American Diabetes Association. 7. Approaches to Glycemic Treatment. Diabetes Care. 2016 Jan;39 Suppl 1:S52-9. doi: 10.2337/dc16-S010. Review.</citation>
+    <PMID>26696682</PMID>
+  </reference>
+  <verification_date>January 2019</verification_date>
+  <study_first_submitted>January 24, 2019</study_first_submitted>
+  <study_first_submitted_qc>January 30, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 1, 2019</study_first_posted>
+  <last_update_submitted>January 30, 2019</last_update_submitted>
+  <last_update_submitted_qc>January 30, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 1, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Utah</investigator_affiliation>
+    <investigator_full_name>Kensaku Kawamoto, MD, PhD, MHS</investigator_full_name>
+    <investigator_title>Associate Professor, Department of Biomedical Informatics</investigator_title>
+  </responsible_party>
+  <keyword>Decision Support Systems, Clinical</keyword>
+  <keyword>Machine Learning</keyword>
+  <keyword>Data Visualization</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 2</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

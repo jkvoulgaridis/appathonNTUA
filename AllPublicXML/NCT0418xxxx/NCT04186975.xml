@@ -1,0 +1,167 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04186975</url>
+  </required_header>
+  <id_info>
+    <org_study_id>0529-19-RMB</org_study_id>
+    <nct_id>NCT04186975</nct_id>
+  </id_info>
+  <brief_title>Computerized Antepartum Monitoring Using Non-invasive Fetal Ecg for High Risk Pregnancy</brief_title>
+  <official_title>Computerized Antepartum Monitoring Using Non-invasive Fetal Ecg for High Risk Pregnancy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Rambam Health Care Campus</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Technion, Israel Institute of Technology</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Rambam Health Care Campus</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The long term aim of this research is to evaluate a portable NI-FECG (Non-invasive fetal ECG)
+      monitor (Holter NI-FECG) which can be used for regular remote assessment of fetal health in
+      pregnancies at risk or to follow-up on treatments. The elaboration of a NI-FECG Holter device
+      will offer new opportunities for fetal diagnosis and remote monitoring of problematic
+      pregnancies because of its low-cost, non-invasiveness, portability and minimal set-up
+      requirements.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Pregnant patients that are of gestational age in which fetal heart rate monitoring is
+      recommended and feasible will be enrolled to this cohort study. Each patient will be
+      monitored via conventional fetal heart rate monitoring in addition to the NI-FECG method and
+      both methods will be directly compared. Each patient will be her own control. NI-FECG is a
+      non-invasive method of fetal monitoring' thus no ethical issues are relevant. Nevertheless,
+      each patient will sign informed consent before participating in the study.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">December 1, 2019</start_date>
+  <completion_date type="Anticipated">December 1, 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 1, 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Identification of abnormal fetal heart rate from NI-FECG</measure>
+    <time_frame>2 years</time_frame>
+    <description>To compare the clinical interpretation of the NI-FECG obtained fetal heart rate trace to the fetal heart rate interpretation from the fetal heart rate obtained from conventional CTG. This will involve blinded reading and scoring of FHR obtained from the NI-FECG and CTG from a panel of expert clinician.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Computerized NI-FECG for the prediction of abnormal FHR traces</measure>
+    <time_frame>2 years</time_frame>
+    <description>To compare the computerized analysis of the FHR trace obtained using NI-FECG to the clinician visual interpretation of the FHR trace obtained using CTG (usual care). This will involve the implementation of algorithms that can detect standard14 and new features assessing the Fetal HRV (FHRV) and the elaboration of a machine learning model which can predict abnormal traces from these features</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Comparison between computerized CTG and NI-FECG</measure>
+    <time_frame>4 years</time_frame>
+    <description>To compare the predictive power of computerized CTG versus computerized NI-FECG for the assessment of abnormal traces. For that purpose, a machine learning model will be trained (1) on features extracted from the FHR trace obtained using CTG and (2) on features extracted from the FHR obtained using the NI-FECG trace</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Develop a portable NI-FECG monitor for remote fetal monitoring.</measure>
+    <time_frame>4 years</time_frame>
+    <description>To develop a portable NI-FECG monitor which can be used to record the fetal ECG at the patient's home. The monitor will transfer the data to a remote server where source separation will be performed to extract the fetal ECG. Algorithms implemented for extracting characteristic features and the machine learning model will be run to predict whether the traces are normal or abnormal. The elaboration of such algorithm is particularly relevant for resource constrained region where medical experts is scarce.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Cardiotocography</condition>
+  <arm_group>
+    <arm_group_label>Low-risk pregnant women</arm_group_label>
+    <description>Normal cohort: this cohort consists of pregnancies which are not at risk. Data are recorded during the normal checkup happening as part of the usual care pathway</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>High-risk pregnant women</arm_group_label>
+    <description>Risk cohort: this cohort consists of pregnancies at risk and which are regularly recorded for the purpose of fetal surveillance. Specifically, the investigators recruit pregnancies with intra uterine growth restricted fetuses for this study.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Non-Invasive fetal ECG</intervention_name>
+    <description>Non-Invasive fetal ECG</description>
+    <arm_group_label>High-risk pregnant women</arm_group_label>
+    <arm_group_label>Low-risk pregnant women</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Fetal heart rate monitor</intervention_name>
+    <description>Fetal heart rate monitor</description>
+    <arm_group_label>High-risk pregnant women</arm_group_label>
+    <arm_group_label>Low-risk pregnant women</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Low risk and High risk pregnancies. Low risk post date patients. High risk intra uterine
+        growth restricted fetuses.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Singleton pregnancies.
+
+          -  low-risk pregnancy: women from the post-date clinic (after 40 weeks' gestation) in
+             which we perform routinely Non stress test and ultrasound.
+
+          -  High-risk pregnancy: women who are hospitalized for different indications: IUGR,
+             diabetes, hypertension, non-reassuring fetal heart rate, Decreased fetal movements
+
+        Exclusion Criteria:
+
+          -  Non singleton pregnancies.
+
+          -  Do not want to participate in the study
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>50 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Oren Grunwald, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Rambam Health Care Campus</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Oren Grunwald, MD</last_name>
+    <phone>+972506914415</phone>
+    <email>oren.grunwald@gmail.com</email>
+  </overall_contact>
+  <verification_date>December 2019</verification_date>
+  <study_first_submitted>December 2, 2019</study_first_submitted>
+  <study_first_submitted_qc>December 4, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 5, 2019</study_first_posted>
+  <last_update_submitted>December 4, 2019</last_update_submitted>
+  <last_update_submitted_qc>December 4, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 5, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Rambam Health Care Campus</investigator_affiliation>
+    <investigator_full_name>Oren Grunwald MD</investigator_full_name>
+    <investigator_title>Oren Grunwald MD</investigator_title>
+  </responsible_party>
+  <keyword>FETAL MONITORING, CARDIOTOCOGRAPHY</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

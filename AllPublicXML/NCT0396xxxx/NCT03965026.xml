@@ -1,0 +1,156 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03965026</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MODELSAN</org_study_id>
+    <nct_id>NCT03965026</nct_id>
+  </id_info>
+  <brief_title>Activity Modeling in Birth Room</brief_title>
+  <official_title>Activity Modeling in Birth Room</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Groupe Hospitalier Paris Saint Joseph</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Groupe Hospitalier Paris Saint Joseph</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      At this time, two methods exist to calculate a pregnant woman's presumed delivery date (DPA)
+      : one adds 280 days to last menstruation date (Naegele rule), other estimates early
+      pregnancy's date by imagery and adds 270 days. Unless pathology requires a trigger, this DPA
+      estimated a early pregnancy is not re-estimated. These methods are simple and arbitrary :
+      Mongelli and al. in 1996 found that out of nearly 40 000 unique pregnancies, only 4% give
+      birth at determined DPA by echography and 70% at more or less 5 days. Jukic and al. in 2013
+      they estimate a natural variation of 37 days between pregnancy durations. Face of these poor
+      performances, the calculating DPA method seems to be open to improvement.
+
+      Thus, the DPA calculation formula does not take into account the individual patients
+      characteristics (age, occupation, antecedents ...), nor the follow-up data collected during
+      pregnancy. Jukic and al. in 2013 propose a first model with some individual characteristics
+      and medical measures (period between ovulation and early pregnancy, hormone peak) to refine
+      the estimation. Their study gives promising results but their small patients number (a
+      hundred) does not allow them to detect all interactions. Moreover, their method calculation
+      is not dynamic, i.e it does not refine the DPA as pregnancy progresses. To our knowledge, no
+      studies developing an evolutionary model over time for the DPA exist. However, objectives of
+      a more accurate estimate of expected date are multiple and important. The investigators will
+      mention here the two main ones :
+
+        -  A better understanding of mecanisms leading to early labour or abnormally long gestation
+           in order to anticipate patients at risk
+
+        -  A better material and human needs anticipation, allowing a more efficient organization
+           more adapted to activity and a care of each parturient in optimal conditions.
+
+      Our study will focus on predictive model elaboration of pregnancy duration that will evolve
+      as the pregnancy progresses and new data collected. The investigators are considering a
+      machine learning methodology by patient's medical record computerization at the Groupe
+      Hospitalier Paris Saint-Joseph (GHPSJ) since early 2016. Thus, for patients who gave birth
+      from end of 2016, the investigators have a large amount of information on their pregnancy and
+      follow-up on hospital servers, which motivates an automatic approach based on massive data
+      analysis.
+
+      This study thus intends to implement advanced techniques in Machine Learning (Online
+      Learning, Support Vector Machine ...) to advance a powerful calculation model.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">June 22, 2018</start_date>
+  <completion_date type="Actual">December 22, 2018</completion_date>
+  <primary_completion_date type="Actual">September 30, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Anticipate deliveries number 48 hours in advance</measure>
+    <time_frame>Day 0</time_frame>
+    <description>Number of anticipate deliveries -H48 Number of deliveries at day 0
+So the investigators reported the mean difference between expected and actual delivery date for included patients.</description>
+  </primary_outcome>
+  <enrollment type="Actual">5100</enrollment>
+  <condition>Delivery</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patient who gave birth at GHPSJ maternity between 01/01/2017 and 02/28/2018.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patient whose age ≥ 18 years old
+
+          -  Patient who gave birth at GHPSJ maternity between 01/01/2017 and 02/28/2018
+
+        Exclusion Criteria:
+
+          -  Patient who expressed her opposition to participate in the study
+
+          -  Patient under guardianship or curatorship (unless consent is provided)
+
+          -  Patient who gave birth at less than 32 weeks amenorrhea
+
+          -  Pregnancy marked by MFIU (fetal death in utero)
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Elie AZRIA, Professor</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Groupe Hospitalier Paris Saint Joseph</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Groupe Hospitalier Paris Saint Joseph</name>
+      <address>
+        <city>Paris</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <results_reference>
+    <citation>Mongelli M, Wilcox M, Gardosi J. Estimating the date of confinement: ultrasonographic biometry versus certain menstrual dates. Am J Obstet Gynecol. 1996 Jan;174(1 Pt 1):278-81.</citation>
+    <PMID>8572021</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Jukic AM, Baird DD, Weinberg CR, McConnaughey DR, Wilcox AJ. Length of human pregnancy and contributors to its natural variation. Hum Reprod. 2013 Oct;28(10):2848-55. doi: 10.1093/humrep/det297. Epub 2013 Aug 6.</citation>
+    <PMID>23922246</PMID>
+  </results_reference>
+  <verification_date>May 2019</verification_date>
+  <study_first_submitted>May 22, 2019</study_first_submitted>
+  <study_first_submitted_qc>May 24, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 28, 2019</study_first_posted>
+  <last_update_submitted>May 24, 2019</last_update_submitted>
+  <last_update_submitted_qc>May 24, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 28, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

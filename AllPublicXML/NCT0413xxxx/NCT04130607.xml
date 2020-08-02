@@ -1,0 +1,164 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04130607</url>
+  </required_header>
+  <id_info>
+    <org_study_id>18-04-EX-0062</org_study_id>
+    <nct_id>NCT04130607</nct_id>
+  </id_info>
+  <brief_title>A Study to Evaluate Strategies for Teaching Effective Use of Diagnostic Tests</brief_title>
+  <official_title>A Study to Evaluate Strategies for Teaching Effective Use of Diagnostic Tests</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sentara Norfolk General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>McMaster University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Sentara Norfolk General Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      A recent Institute of Medicine monograph brought attention to high rates of diagnostic error
+      and called for better educational efforts to improve diagnostic accuracy.1 Educational
+      methods, however, are rarely tested and some educational efforts may be ineffective and
+      wasteful.2 In this study, we plan to examine whether explicit instruction on diagnostic
+      methods will have an effect on diagnostic accuracy of 2nd-year medical students and internal
+      medicine residents.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Research has shown that expert diagnosticians use a two-step process to confirm a diagnosis:
+      hypothesis generation to generate diagnostic possibilities, followed by hypothesis
+      verification to confirm the most likely diagnostic possibility.3-5 The first step appears to
+      be non-analytical, related to pattern recognition. The second step could be calculated using
+      analytical reasoning, however, physicians rarely make an overt calculation of conditional
+      probabilities. Instead, experienced clinicians typically use an implicit habit or heuristic
+      called &quot;anchoring and adjusting&quot; to incorporate diagnostic testing information into their
+      thinking.6,7 Cognitive psychologists have postulated that anchoring and adjusting provides a
+      way that probability estimates can be updated based on additional new evidence. Most of the
+      discussion in the literature focuses on how this heuristic can lead to biased thinking
+      because of base-rate neglect or anchoring.6 Very little discussion is on how this heuristic
+      could be improved to yield more accurate probability estimates and whether proper use of the
+      heuristic could be taught.
+
+      The degree to which a diagnostic test should lead to an adjustment of a probability estimate
+      depends on the operating characteristics of a test, that is, the sensitivity and specificity.
+      Likelihood ratios, once understood, are easier to incorporate into one's thinking, and thus
+      could be used to calibrate the anchoring and adjusting heuristic.7
+
+      In this randomized trial, we tested whether explicit conceptual instruction on Bayesian
+      reasoning and likelihood ratios would improve Bayesian updating, compared with a second
+      intervention where we provided multiple (27) examples of clinical problem solving. The third
+      arm provided minimal teaching about diagnosis, but no explicit teaching or examples.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">May 15, 2018</start_date>
+  <completion_date type="Actual">October 15, 2019</completion_date>
+  <primary_completion_date type="Actual">January 1, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Randomized trial of teaching methods with 3 arms.</intervention_model_description>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>Single (Participant)</masking>
+    <masking_description>Participants are not aware of the other arms in the trial</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy of participants probability revisions were compared to posttest probability revisions that were calculated using Bayes Rule. An effect size was calculated to measure how close students matched the calculated revision.</measure>
+    <time_frame>Post-test was taken within 72 hours of instructional phase completion.</time_frame>
+    <description>To perform the effect size analysis, two transformations were performed. First, the difference between the subjective estimate and the Bayesian calculation of post-test probability was squared to remove negative differences and permit combining of the effects of positive and negative test results. Second, a correction based on the intrinsic error of a probability estimate was applied by dividing each squared difference by p(1-p). In this manner, we transformed each raw difference to a squared effect size (difference / error of difference). Finally, the square root was computed, to transform the data back to an effect size. The resulting effect size was then used for statistical analysis. For this primary analysis, a mixed model ANOVA was used.</description>
+  </primary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">65</enrollment>
+  <condition>Instructional Methods</condition>
+  <arm_group>
+    <arm_group_label>Analytical</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Students will receive brief instruction in probability, sensitivity, specificity, and likelihood ratios, with distributions and calculations. Pretest and posttest probabilities will be computed for two cases for each of the three conditions listed above.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Experiential</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Students will receive a brief instruction conceptually discussing sensitivity and specificity (e.g. &quot;a sensitive test will be positive at even low levels of disease. However, this can lead to a number of false positive errors, when the test is positive even when there is no disease. As a result, it is most useful for ruling out a diagnosis&quot;). They will then work through a total of 30 cases, 10 for each condition, in blocked sequence. For each brief written case they will be asked for a probability of diagnosis after the clinical information is presented. The test result will then be given and they will be asked for a post-test probability. Their estimate will be compared to the computed value based on published estimates of sensitivity and specificity and feedback provided.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No Explicit Instruction or Examples</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Students will receive 3 passages from a clinical text related to each of the 3 conditions in the study and asked to study them for 15 min each.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Conceptual teaching</intervention_name>
+    <description>The present study is designed to contrast two instructional methods - explicit instruction in likelihood ratios and pretest/posttest probabilities versus implicit instruction based on presentation of multiple cases. These will be compared to a &quot;no intervention&quot; control group.</description>
+    <arm_group_label>Analytical</arm_group_label>
+    <arm_group_label>Experiential</arm_group_label>
+    <arm_group_label>No Explicit Instruction or Examples</arm_group_label>
+    <other_name>Teaching through examples</other_name>
+    <other_name>No active teaching</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Medical Student at McMaster University or Eastern Virginia Medical School
+
+          -  Completed 18 months of coursework
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Sentara Norfolk General Hospital</name>
+      <address>
+        <city>Norfolk</city>
+        <state>Virginia</state>
+        <zip>23507</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>October 2019</verification_date>
+  <study_first_submitted>October 15, 2019</study_first_submitted>
+  <study_first_submitted_qc>October 15, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 17, 2019</study_first_posted>
+  <last_update_submitted>October 15, 2019</last_update_submitted>
+  <last_update_submitted_qc>October 15, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 17, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Sentara Norfolk General Hospital</investigator_affiliation>
+    <investigator_full_name>John Brush</investigator_full_name>
+    <investigator_title>Cardiologist</investigator_title>
+  </responsible_party>
+  <keyword>Teaching Strategies, Diagnostic reasoning</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

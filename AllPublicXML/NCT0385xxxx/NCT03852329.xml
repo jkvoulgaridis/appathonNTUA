@@ -1,0 +1,180 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03852329</url>
+  </required_header>
+  <id_info>
+    <org_study_id>0001-0001</org_study_id>
+    <nct_id>NCT03852329</nct_id>
+  </id_info>
+  <brief_title>Feasibility of Stereotactic Image Guidance on the Lateral Skull Base</brief_title>
+  <acronym>LSBN</acronym>
+  <official_title>Feasibility of Stereotactic Image Guidance on the Lateral Skull Base</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital Inselspital, Berne</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University Hospital Inselspital, Berne</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      A clinical trial to asses the accuracy, usefulness and usability of a stereotactic
+      image-guidance system during lateral skull base surgery.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Stereotactic image guidance aims to provide for accurate and precise instrument localization
+      in patient-specific image data. Image guidance is effectively used in various surgical
+      domains such as neurosurgery, nose-surgery and orthopaedic surgery with benefits for patients
+      such as less invasiveness and reduced surgery time. Its application for lateral skull base
+      surgery was proposed and is considered an unmet clinical need. However, the small geometric
+      scale (~0.5 mm) of the anatomical structures within the lateral skull base prevents the
+      effective application of commercially available systems due to their insufficient guidance
+      accuracy. Within the context of robotic cochlear implantation, stereotactic image guidance
+      technology with a guidance accuracy &lt;0.5 mm was developed. The aim of this study is to apply
+      the developed technology in lateral skull base surgery other than robotic cochlear
+      implantation.
+
+      This study primarily seeks to determine the effective end-to-end image guidance accuracy of
+      the investigational device at predefined artificial landmarks on a task-specific registration
+      device attached to the skull.
+
+      The main secondary objective is to qualitatively assess the available accuracy at predefined
+      anatomical landmarks by visual inspection through surgeons in the absence of quantifiable
+      ground truth information.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 1, 2020</start_date>
+  <completion_date type="Anticipated">December 2020</completion_date>
+  <primary_completion_date type="Anticipated">December 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Prospective, single-arm, non-controlled</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Quantitative accuracy</measure>
+    <time_frame>Until the end of the intervention, expected to be up to 4.5 hours</time_frame>
+    <description>The primary endpoint is the localization accuracy of predefined artificial target positions on the registration tripod measured in millimetres.
+The tracked instrument is positioned on the target positions. The Euclidean distance between the location of the instrument in the image data as indicated by the stereotactic image guidance system and to the true location of the target point in the image data is measured. The true location of the target points in the image data is determined by alignment of the 3D model of the tripod (including the known target positions on the tripod) with the image data.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Qualitative accuracy</measure>
+    <time_frame>Until the end of the intervention, expected to be up to 4.5 hours</time_frame>
+    <description>The main secondary endpoint is the qualitative assessment of the guidance accuracy at anatomical landmarks through user rating.
+While the tracked pointer is placed on a landmark, a screenshot of the microscope view is taken. Additionally, the pose of the pointer instrument in the image data indicated by the navigation system is stored. Postoperatively, the alignment of the pointer with the anatomical models compared to the microscope view is rated by multiple surgeons using a questionnaire. A five-level Likert scale (Strongly agree, Agree, Undecided, Disagree, Strongly disagree) is used to measure agreement with statements concerning
+Accuracy: The position indicated in the navigation view is correct at a clinically relevant geometric scale
+Usefulness: The information provided by the navigation view is useful to identify anatomical structures during the surgery
+Usability: The application of the navigation system during the surgical procedure is straightforward.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Otologic Disease</condition>
+  <arm_group>
+    <arm_group_label>Navigated</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Lateral skull base navigation intervention is applied</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Lateral skull base navigation</intervention_name>
+    <description>Patient preparation: The participant is prepared for the surgery according to clinical standards.
+System setup: The hardware components of the investigational device are set up
+Tripod fixation: The tripod with integrated registration fiducials is fixed on the participant's skull.
+CBCT imaging: A CBCT image of the participant is acquired
+Image processing: The CBCT data is loaded on the navigation platform. The registration fiducials are automatically detected in the image data and relevant anatomy is segmented using an otologic planning software.
+Measurements: The navigation software is started, and the fiducial positions and segmentations loaded. The measurements are conducted.
+Treatment: The surgery is conducted by the surgeon according to clinical standards</description>
+    <arm_group_label>Navigated</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients which are regularly scheduled for an otologic surgical procedure
+
+          -  Informed Consent as documented by signature
+
+          -  Age &gt;= 18 years
+
+        Exclusion Criteria:
+
+          -  Other clinically condition or disease that would (as deemed by the operating surgeon)
+             significantly increase the risk of surgery
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Marco Caversaccio, Prof.</last_name>
+    <role>Study Chair</role>
+    <affiliation>Inselspital university hospital of Bern</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Marco Caversaccio, Prof.</last_name>
+    <phone>+41 31 632 29 21</phone>
+    <email>marco.caversaccio@insel.ch</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Stefan Weber, Prof.</last_name>
+    <phone>+41 31 632 75 74</phone>
+    <email>stefan.weber@artorg.unibe.ch</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Inselspital University hospital of Bern</name>
+      <address>
+        <city>Bern</city>
+        <zip>3008</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Marco Caversaccio, Prof.</last_name>
+      <phone>+41 31 632 29 21</phone>
+      <email>marco.caversaccio@insel.ch</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>February 19, 2019</study_first_submitted>
+  <study_first_submitted_qc>February 20, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 25, 2019</study_first_posted>
+  <last_update_submitted>April 2, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 2, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 6, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Image-guidance</keyword>
+  <keyword>Lateral skull base surgery</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Ear Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

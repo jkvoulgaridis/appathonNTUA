@@ -1,0 +1,593 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03739957</url>
+  </required_header>
+  <id_info>
+    <org_study_id>10/2018/CE</org_study_id>
+    <nct_id>NCT03739957</nct_id>
+  </id_info>
+  <brief_title>Telemonitoring System for Early Diagnosis of COPD Exacerbations.</brief_title>
+  <official_title>Telemonitoring System for Early Diagnosis of COPD Exacerbations.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Laboratori di Informatica Applicata</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Campus Bio-Medico University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Laboratori di Informatica Applicata</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      A tailored management of COPD patients would obviously allow to reduce costs for
+      hospitalizations and improve quality of life. This management could benefit of the
+      Information and Comunication Technology support, which can offer the possibility of
+      telemonitoring patients without the need of repeated hospital visits and improving the
+      efficacy of healthcare services. Moreover, the high frequency of exacerbations and their
+      often atypical clinical presentation in the aged patient make particularly desirable the
+      availability of a telemonitoring system which could guarantee continuous control and early
+      intervention in case of necessity. The aim of the present study is to test an innovative
+      telemonitoring system in patients with COPD.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Chronic obstructive pulmonary disease (COPD) is a global health problem throughout the world.
+      It's not only the fourth cause of death with 600 million deaths every year, but it's also the
+      most rapidly increasing pathology in terms of mortality in industrialized countries and in
+      2020 it will become the second cause of death (WHO data). Moreover it's impact is largely
+      underestimated. Only one patient on four is diagnosed, often with delay, and this obviously
+      reduces therapeutic chance. Consequently, COPD is often identified and cured only in late
+      stages, while it constitutes an important health problem also in younger people (from 45-50
+      years). Recent studies estimated an average cost of 1.300 euro per patient every year, which
+      can increase to 7.000 euro in more severe stages. A tailored management of COPD patients
+      would obviously allow to reduce costs for hospitalizations and improve quality of life. This
+      management could benefit of the Information and Comunication Technology support, which can
+      offer the possibility of telemonitoring patients without the need of repeated hospital visits
+      and improving the efficacy of healthcare services. Moreover, the high frequency of
+      exacerbations and their often atypical clinical presentation in the aged patient make
+      particularly desirable the availability of a telemonitoring system which could guarantee
+      continuous control and early intervention in case of necessity. The use of telemonitoring
+      systems in COPD patients has already demonstrated a moderate efficacy in reducing
+      hospidalizations and other related outcomes (Pedone C et al. BMC Health Serv Res 2003), but
+      evidence is not homogeneous (Pedone C e Lelli D Pneumonol Alergol Pol 2015). A further
+      improvement of the impact of telemonitoring systems on health status of COPD patients could
+      derive from Decision Support System (DSS), able to predict clinical events (i.e.
+      exacerbations) and to assist healthcare providers in monitoring or predicting events on the
+      basis of variation of clinical parameters, not directly collected with conventional
+      strategies.
+
+      Our research group (L.I.A., Università Campus Biomedico di Roma, Asl n. 4 Lanusei) has
+      already developed a predictive algorithm for exacerbations or clinical worrisome events
+      before the onset of symptoms. The project has been financed by Provincia Autonoma di Bolzano
+      (Italy) and presented at the IEEE-EMBS International Conference on Biomedical and Health
+      Informatics (BHI) in Las Vegas on February 24-27th 2016 [&quot;On the Remote Detection of
+      COPD-Related Worrisome Events&quot; - BHI 2016]. The full paper has been published on the IEEE
+      Journal of Biomedical and Health Informatics [&quot;A decision support system for tele-monitoring
+      COPD-related worrisome events&quot;] on March 2017.
+
+      Exploiting our results, an innovative medical device for health status monitoring has been
+      developed to detect exacerbations or clinical worrisome events through the consideration of
+      early signs the patient is not still aware of and, accordingly, suggesting him to refer to
+      doctors before the onset of symptoms. The device is made up of a Bluetooth digital pulse
+      oximeter and of an APP. The APP connects with the pulse oximeter that measure heart rate and
+      blood oxygen saturation. The APP, at first, adapts to the physiological characteristics of
+      each patient, thus personalizing its responses, setting its own coefficients for the analysis
+      of the parameters used on the basis of the continuous flow of data received from the pulse
+      oximeter. The initial period of &quot;adaptation&quot; for the basic setting of the machine has been
+      estimated in 5 days, after which the device will continue to model itself on the patient both
+      through self-learning using the input data, and through a possible, but not obligatory,
+      intervention from medical doctors modifying the configuration parameters for a better
+      response from the machine. Our results suggest the algorithm is able to detect potentially
+      critical situations with a sensitivity index of 98% and a specificity of 100%.
+
+      3. Study objectives
+
+      To test the algorithm on a larger population to verify the performance of the current system.
+      Based on the number of descriptors used by the system, considering a drop-off rate of 15%,
+      error margin of 0.02, p = 0.05, the number of patients enrolled is 120.
+
+      To train the algorithm for the recognition of exacerbations, defined as worsening of dyspnoea
+      or sputum of entities superior to the normal circadian variability and requiring treatment
+      modifications, ascertained through clinical evaluation; To calibrate and validate the
+      algorithm for recognition of exacerbation episodes.
+
+      To evaluate the effectiveness of the system in terms of costs and quality of life of the
+      patient:
+
+      Efficacy:
+
+      it will be based on the comparison of the frequency of ER and hospital admissions in the
+      three years before the intervention and during the intervention period in order to verify the
+      expected decline in the need for extraordinary care. To this end, after authorization, the
+      File A and File L of the Scheda di Dimissione Ospedaliera (SDO) will be used. In this way,
+      all the data concerning ER and hospital admissions, causes and days of hospitalization will
+      be retrieved for each patients. A significant reduction in the cumulative frequency of the
+      outcome will be considered proof of efficacy. The comparison between the year of intervention
+      and the previous year will be supplemented by the analysis of the time series including the
+      previous 3 years and the intervention to avoid that an apparently significant difference
+      between the year of intervention and the previous year reflects only the evolution of a
+      trend. Moreover, since detected parameters can be modified also by incident not only
+      respiratory, but also of other origin (e.g. cardiac) pathology, the causes of ER or hospital
+      admissions will be detected and catalogued for the purpose of an analytical evaluation of the
+      effects of the intervention.
+
+      the analysis of objective outcomes, that are expression of the care needs (efficacy check 1),
+      will be complemented by that of the health effects expressed by a baseline and final
+      oligodimensional evaluation including a measure of dyspnea (MRC), a physical performance
+      index ( 6'WT), a personal autonomy scale (ADL, IADL) and a health status questionnaire
+      correlated with respiratory disease (CAT). Since there is no comparison for this outcome, the
+      same will be considered achieved in the case of stability of performance compared to
+      baseline.
+
+      Cost/effectiveness: assuming a weighted average cost of hospitalization for exacerbated COPD
+      and estimating the cost of the proposed intervention (see the attached analytical scheme),
+      the intervention will be considered cost / effective if the savings achieved will exceed at
+      least 25% the expenditure incurred. This threshold, albeit arbitrary, is convenient and
+      reasonable because lower values could be penalized by variously localized defects in the
+      procedure for calculating the variables involved.
+
+      Patients with COPD with frequent exacerbations will be enrolled regardless from bronchial
+      obstruction degree or GOLD stage. According to the 2018 GOLD guidelines, two or more
+      exacerbations every year or at least one leading to hospitalization are considered frequent.
+      Exacerbation means any change in respiratory health that requires a change in drug therapy,
+      regardless of the need for ER or hospital admission, which conversely characterize the
+      proportion of exacerbations constituting the first efficacy outcome. Patients in long-term
+      oxygen therapy, with cognitive impairment hampering, in the opinion of the investigator, the
+      possibility of adhering to the protocol and with a life expectancy limited to one year, will
+      be excluded. No other exclusion criteria will be foreseen, in particular co-morbidity, since
+      the study is designed for a real life dimension and the algorithm can be used to convey
+      information of interest for worsening of non-respiratory pathology.
+
+      Each patient will be provided with the BPCOmedia Kit for measuring the status of patient's
+      health COPD. The kit is composed of a Bluetooth pulse oximeter and an APP for Android system
+      downloadable from Google Play and installed on the Android smartphone of the patient from
+      version 4.1 on.
+
+      During sperimentation, a dedicated case manager nurse will care, for the professional team
+      leader (GP) and for the entire team where the specialist pneumologist is present, an
+      impartial and transversal approach for the development of a personalized treatment plan,
+      facilitating the coordination and appropriate use of the various services.
+
+      Measurements of oxyhemoglobinic saturation and heart rate will be performed 3 times a day,
+      according to a predefined monitoring plan, and whenever the patient experiences symptoms. The
+      patient will firstly refer to the case manager nurse or to the GP, if the first is
+      unavailable, whenever the algorithm will detect a potentially dangerous situation or when its
+      perceived health status will deviate from measurement performed by the telemonitoring system.
+      On the other hand, the case manager nurse and the GP will daily monitor the parameters and
+      will evaluate if the received values are compatible with an ongoing or imminent deterioration
+      of the state of health (&quot;worrisome event&quot;). In this case, the patient will be contacted by
+      telephone to investigate the symptoms or the presence of signs of exacerbation (dyspnoea,
+      asthenia, increased secretions). On the basis of the obtained data, the worrisome event will
+      be reclassified as follows:
+
+      False alarm; Minor event (clinical worsening not requiring therapeutical intervention or
+      other interventions) Possible exacerbation. In case of possible exacerbation, the patient
+      will be visited by the GP who will establish the actual presence of an exacerbation (with
+      consequent modification of therapy, indication of further diagnostic investigations, or
+      sending to higher levels of treatment, depending on the indication), or reclassify the event
+      as &quot;Minor Event&quot;.
+
+      The pneumologist will be always available for the interpretation of situations involving
+      specialist knowledge and will be contacted by both the case manager nurse and the GP
+      depending on availability. In case of particular situations, for example important
+      desaturations, preferential routes will be activated so that the specialist pneumologist can
+      intervene promptly.
+
+      In order to obtain a sufficient number of events for the objectives of the project, it is
+      planned to enroll at least 120 patients, who will be followed for a period of 12 months.
+
+      The main outcome will be bronchial exacerbations, which are assumed to have a Poisson
+      distribution with an average of 2/patient/year. Considering as clinically significant a
+      reduction of 0.25 exacerbations/patient/year, using Lehr's equation with Type I and Type II
+      error of 5% and 20%, respectively, we obtain an estimate of the sample size of 480 people
+      followed for a year; it is considered appropriate to increase to 500 to offset any losses
+      during follow-up.
+
+      This sample size is also sufficient for the development of the event prediction algorithm: in
+      fact, based on the number of descriptors used by the system and considering a drop-off rate
+      of 15%, error margin of 0.02, p = 0.05 , the number of patients required is 120.
+
+      The instrumentation will be delivered within a training session in which the patient will be
+      instructed on the functioning of the telemonitoring system and on the behavior to be taken in
+      case of changes in health status.
+
+      Appropriate understanding will be verified at the end of the session, and the study staff
+      will offer the patient additional sessions even after some time in case of need.
+
+      The patient will also be specified that the investigating system is not substitutive of the
+      usual assistance and that in case of any variation of the symptoms it is necessary to follow
+      the usual procedures by contacting the primary care physician or the specialist as needed.
+
+      All patients will sign an informed consent. The telemonitoring system used is not intended as
+      a substitute for normal assistance and the study procedures do not provide emergency
+      interventions, therefore participants will be advised to contact their doctor for the
+      evaluation of any health problems and to activate the usual emergency procedures in case of
+      critical situations.
+
+      Data analysis Data will be analyzed according to descriptive statistics methods to evaluate
+      the performance, calculating accuracy, precision, specificity and sensitivity. Initially, the
+      training phase will use data from a reference population. Subsequently, using the leave-one
+      person out, the system training will be evaluated again using the data acquired during the
+      present experimentation, then proceeding to the estimate of the performances.
+
+      5. Telemonitoring system
+
+      Basic characteristics are summarized below:
+
+      The system consisting of the app and of a pulse oximeter and is certified as a medical device
+      (next June 2017); The patient receives a kit consisting of a pulse oximeter and the Android
+      app that can be downloaded from Google Play and can be installed on your Android smartphone
+      from version 4.1 and up; The patient uses the app to perform measurements at home, without
+      the need for external support; The app works in three modes: configuration, training /
+      calibration, monitoring; During configuration, the user creates an account associated with
+      the purchased pulse oximeter and the app, in order to reduce the abuse of the device by
+      people who have not purchased it; During the training phase, the app acquires the necessary
+      information to calibrate the algorithm and to make it able to identify the occurrence of one
+      of the aforementioned dangerous events; During the monitoring phase the patient uses the app
+      to monitor the onset of one of the aforementioned dangerous events; The user, using the
+      credentials provided during the configuration, can access a web portal called the patient
+      portal where he can check the history of the performed measurements; The patient portal
+      allows the end user to view their data in a graphical and intuitive form and to share
+      measurements with their doctor; Doctors access a portal dedicated to them and called the
+      medical portal; In the medical portal, the doctor can consult the measurements performed by
+      his patients provided that the patient has enabled the doctor to consult his data;
+      Possibility for the doctor to obtain reports of the measures performed by the patients; The
+      app and both the patient portal and the medical portal support the main European languages
+      starting from Italian and English.
+
+      Installation and configuration phase The user downloads the Android app from the Google Play
+      store. At the time of installation, the app guides the user to register a new account, if not
+      already in possession of one, and to register the pulse oximeter purchased, by entering the
+      alphanumeric commercial code available inside the package.
+
+      A single account can be linked to the commercial code.
+
+      During the account creation and association with the pulse oximetry wizard, the app requires
+      the minimum information necessary for registration and user profiling:
+
+      Name and surname Email address Telephone number Username and password In order to proceed
+      with registration, the patient must view the privacy statement and consent to the processing
+      of personal health data as required by current legislation.
+
+      At the end of the installation / configuration phase the app starts in training / calibration
+      mode.
+
+      Training and calibration phase For the correct functioning, the app needs an initial training
+      phase of the predefined duration of N = 5 days.
+
+      The training phase is based on a monitoring plan consisting of three measurements / day
+      divided by predefined time period: morning, afternoon, evening. A measurement is required for
+      each time slot.
+
+      The monitoring plan includes a series of reminders that, through the push notification
+      associated with a sound signal, remind the patient of the measurements to be performed. The
+      monitoring plan can be consulted in read only on the app in a special section.
+
+      At each measurement indicated by M the app acquires the value of the percentage of hemoglobin
+      saturation SpO2, the value of the HR heart rate measured by the pulse oximeter and the date
+      and time when the measurement takes place. The input data are formally indicated with the
+      triad (SPO2, HR, t), where the value t indicates both the date and the time of measurement M
+      and therefore serves to classify the band of measurement: morning, afternoon, evening.
+
+      At the end of the 5 days, ie of the training phase, using the measurements and a dataset of
+      patient profiles pre-stored in the APP, it is automatically passed during the monitoring
+      phase.
+
+      The APP displays in a special band always clearly visible the phase in which it finds:
+      training or monitoring.
+
+      During the training phase, the app stores the data of the individual measurements and the
+      result of the calibration on the backend at the end of the training phase. The app also works
+      in an independent way from the backend so the data are synchronized in the background in a
+      transparent way to the user even in the absence of connectivity.
+
+      Monitoring phase Once the training and calibration phase is complete, the app goes into the
+      monitoring phase in which the patient performs the measures to keep his health checked and
+      monitored.
+
+      The information to be memorized in this phase are:
+
+      HR heart rate; SpO2 hemoglobin saturation; Date and Time of detection According to the
+      monitoring plan, the app invites the user to perform the measurement by wearing and turning
+      on the pulse oximeter. Upon detection, the app alerts the user by inviting him to remove the
+      pulse oximeter. The single measurement, completely transparent to the user, is implemented as
+      a series of measures more appropriately filtered (indicatively the average of the
+      measurements performed in 5 - 10 seconds).
+
+      At each measurement, the app, received the parameters from the pulse oximeter, queries the
+      algorithm by sending SpO2, heart rate, date and time and displays the result of the
+      processing by the algorithm. This result is presented to the patient through easily
+      comprehensible text and with appropriate icons that provide a clear and immediate
+      understanding of the patient's state of health.
+
+      The app is able to perform the measurement even in the absence of connectivity, so all
+      configuration parameters (see monitoring plan) are stored locally to the app and from time to
+      time synchronized with what is present remotely to the backend.
+
+      After the measurement, the parameters of the measurement itself and the result of the
+      processing are stored locally and, if possible, on the cloud. In case it is not possible to
+      immediately store them on the cloud due to lack of connection, the alignment of the data will
+      happen in a transparent way to the patient.
+
+      The app also keeps a measurement history locally so as to allow the patient to consult the
+      measurements directly from the app. These measures are presented in tabular and graphic mode.
+
+      During the monitoring phase the patient must have the possibility to contact the relative
+      doctor in case of a worsening of the perceived conditions and if he finds a disagreement
+      between his / her perceived condition and the result of the app. It is therefore possible
+      directly from the app to start a new training / training phase to recalibrate the algorithm.
+
+      Settings The app provides a special section dedicated to personal settings. In this section
+      the patient can consult his personal data, the monitoring plan and perform a reset to restart
+      the training and calibration phase.
+
+      Algorithm library The algorithm is encapsulated in a library developed by the Biomedical
+      Campus of the University of Rome and owned by the L.I.A of Giuseppe Capasso.
+
+      Patients' interface
+
+      Using the credentials chosen during the initial configuration phase, the patient can access a
+      web portal dedicated to patients. After access to this portal the patient has the possibility
+      of:
+
+      Manage your personal data and change the password for accessing the portal and the app.
+
+      Consult the standard monitoring plan available as read-only. Consult the list of measurements
+      made and display them in graphical mode, with the possibility to filter and view them for
+      time periods.
+
+      Set up your own doctor with whom you can then share your monitoring data. The patient invites
+      the doctor to access his data in a manner similar to that used by the most common social
+      networks to share information.
+
+      Doctors' interface This portal allows treating physicians to access their patients' data via
+      the web. By following the appropriate link 'Register as a doctor on the login page of the
+      medical portal, the doctor can register at the portal. The activation must take place after
+      adequate verification by the administrators, who may request further documentation to
+      ascertain the identity of the doctor requesting registration.
+
+      Once registered, the doctor can use his credentials to access the portal where he can manage
+      his personal data entered during registration and access the measurements of patients who
+      have shared access. The doctor can in turn search for patients and send a request for access
+      to data. The patient can then accept the request or not.
+
+      The doctor can not make any changes to the patient's data, he has them read-only. There are
+      known fields where you can enter other information deriving from a medical history or a
+      visit.
+
+      Doctors' interface - specific features In order to support the achievement of the objectives
+      of the study / experimentation, a series of functionalities are foreseen in order to collect
+      a set of &quot;certain&quot; data, that is validated by the doctor near the detected measure so that
+      the same doctor has the possibility to confront the patient and confirm or redirect the
+      result generated by the algorithm. From a technical point of view it is about collecting the
+      data sent by the app in the backend but allows the doctor to confirm the data or reclassify
+      the result that, according to his opinion, should have been generated. Therefore, as already
+      foreseen, the doctor will access the back end with the possibility to select the patient in
+      question, to examine the measures interested in the judgment confirming the outcome or
+      modifying it according to a series of labels that will be indicated by the scientific
+      committee.
+
+      The information can then be extracted ad hoc and provided for analysis at the Biomedical
+      Campus.
+
+      Working scheme The following diagram represents the logical architecture of the whole system.
+      The diagram also shows which parts reside in the smartphone (Smarpthone area) and which are
+      instead ancillary components that reside in the web (Web area). It is important to keep in
+      mind that the medical device consists of the app and the algorithm included in the area
+      marked as Smartphone. The users of the system are the patient and the doctor. The patient
+      uses the smartphone for monitoring and consultation, while the web part is used for simple
+      consultation both by the patient and by the doctor in the appropriate web portals.
+
+      Principal components are described below.
+
+      App This represents the app installed in the patient's smartphone. The app receives
+      measurements from the pulse oximetry during the monitoring phase and interacts with the
+      predictive algorithm to determine the patient's health status. The data useful for processing
+      health status and for consultation are then saved in a local database so that you can work
+      independently from the web-side connectivity. The app interacts with the backend for the sole
+      purpose of saving measurements and health data remotely.
+
+      Predictive algorithm Although it is physically integrated into the app, the algorithm is
+      locally a block in itself, given its criticality. The app takes care of managing the time
+      slots of the measures based on the monitoring plan and to call accordingly the predictive
+      algorithm passing the information collected by the pulse oximeter and other information
+      processed from the historical data stored in the local database. Starting from this
+      information, the algorithm determines the patient's health status.
+
+      Local database The local database is used by the app to maintain locally the necessary
+      measures in the first instance to the algorithm to perform the processing and to determine
+      the health status of the patient, and secondly to allow the patient to consult the previous
+      measures directly on the smartphone . For the correct processing the algorithm requires the
+      measurements of the last 90 days. These are the measures stored in the local database.
+
+      Pulse oximeter. It is the medical device used by the patient to perform the measurement of
+      SpO2 and heart rate. Interacts via bluetooth with the app to share the measurement performed.
+
+      Backend
+
+      This is the remote hardware / software component on which the measurements made by the
+      various patients and the patient profiles are saved. Here the data are stored in a remote
+      database and are always available to be downloaded on smartphones in case of need, to be
+      consulted by patients and doctors through the appropriate portals, or to be used by
+      researchers of the Rome Biomedical Campus to refine and further develop the algorithm. The
+      following section dedicated to the detailed architecture will also describe the various
+      protocols used for the interaction with the other components of the system.
+
+      Remote Database Remote database on which patient measurements and patient and medical profile
+      data are saved.
+
+      Web interface These are the components of the system that allow patients and physicians to
+      consult the data stored in the backend.
+
+      Structure The following diagram represents the physical architecture of the whole system and
+      how the components of the whole system interact / communicate with each other.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 1, 2019</start_date>
+  <completion_date type="Anticipated">January 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">January 1, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of participants needing ER or hospital admission for bronchial exacerbation</measure>
+    <time_frame>One year</time_frame>
+    <description>The cause of ER or hospital admission will be referred to bronchial exacerbation if any change occurred in respiratory health that requires a change in drug therapy.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>COPD Exacerbation</condition>
+  <condition>COPD</condition>
+  <arm_group>
+    <arm_group_label>BPCO Media Kit</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The kit is composed of a Bluetooth pulse oximeter and an APP for Android system downloadable from Google Play and installed on the Android smartphone of the patient from version 4.1 on.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>BPCO Media Kit</intervention_name>
+    <description>Telemonitoring system for patients with COPD</description>
+    <arm_group_label>BPCO Media Kit</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients with COPD with two or more exacerbations every year or at least one leading
+             to hospitalization.
+
+        Exclusion Criteria:
+
+          -  long-term oxygen therapy
+
+          -  cognitive impairment
+
+          -  a life expectancy limited to one year
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Raffaele Antonelli Incalzi, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Campus BioMedico</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Antonio De Vincentis, MD</last_name>
+    <phone>003906225411</phone>
+    <email>a.devincentis@unicampus.it</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>ASSL Cagliari - Pneumologia Territoriale di Cagliari Area Vasta</name>
+      <address>
+        <city>Cagliari</city>
+        <state>Sardegna</state>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Cesare Severino</last_name>
+    </contact>
+    <investigator>
+      <last_name>Cesare Severino</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>ASSL Lanusei - Distretto di Tortolì</name>
+      <address>
+        <city>Lanusei</city>
+        <state>Sardegna</state>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Sandro Rubiu</last_name>
+    </contact>
+    <investigator>
+      <last_name>Sandro Rubiu</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Angela Maria Bussu</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>ASSL Nuoro - Distretto di Nuoro</name>
+      <address>
+        <city>Nuoro</city>
+        <state>Sardegna</state>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Gesuina Cherchi</last_name>
+    </contact>
+    <investigator>
+      <last_name>Gesuina Cherchi</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Gianfranca Piredda</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <reference>
+    <citation>Merone M, Pedone C, Capasso G, Incalzi RA, Soda P. A Decision Support System for Tele-Monitoring COPD-Related Worrisome Events. IEEE J Biomed Health Inform. 2017 Mar;21(2):296-302. doi: 10.1109/JBHI.2017.2654682. Epub 2017 Jan 17.</citation>
+    <PMID>28103562</PMID>
+  </reference>
+  <verification_date>February 2020</verification_date>
+  <study_first_submitted>November 5, 2018</study_first_submitted>
+  <study_first_submitted_qc>November 9, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 14, 2018</study_first_posted>
+  <last_update_submitted>February 18, 2020</last_update_submitted>
+  <last_update_submitted_qc>February 18, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 20, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>COPD</keyword>
+  <keyword>Telemonitoring systems</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pulmonary Disease, Chronic Obstructive</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

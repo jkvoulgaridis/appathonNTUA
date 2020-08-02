@@ -1,0 +1,141 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03759756</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2018SDU-QILU-2</org_study_id>
+    <nct_id>NCT03759756</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence for Early Diagnosis of Esophageal Squamous Cell Carcinoma</brief_title>
+  <official_title>Application of Artificial Intelligence for Early Diagnosis of Esophageal Squamous Cell Carcinoma During Optical Enhancement Magnifying Endoscopy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shandong University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Shandong University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Esophageal squamous cell carcinoma is one of the most common malignant tumor of upper
+      digestive tract. However, the detection rate and diagnosis accuracy of early esophageal
+      squamous cell cancer is low. The aim of this study is to develop a computer-assisted
+      diagnosis tool combining with optical magnifying endoscopy for early detection and accurate
+      diagnosis of it.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">December 1, 2018</start_date>
+  <completion_date type="Actual">April 1, 2020</completion_date>
+  <primary_completion_date type="Actual">March 1, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>the diagnosis efficiency of the AI model</measure>
+    <time_frame>12 months</time_frame>
+    <description>the sensitivity, specificity and accuracy of the AI model</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">119</enrollment>
+  <condition>Artificial Intelligence</condition>
+  <condition>Optical Enhancement Endoscopy</condition>
+  <condition>Magnifying Endoscopy</condition>
+  <arm_group>
+    <arm_group_label>AI visible group</arm_group_label>
+    <description>the endoscopic novices analyzing the images can see the automatic diagnosis of AI during the process</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>AI invisible group</arm_group_label>
+    <description>the endoscopic novice analyzing the images can not see the automatic diagnosis of AI during the process</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>AI presentation</intervention_name>
+    <description>AI presentation means the automatic diagnosis information of AI and AI presentation means it is visible in the group.</description>
+    <arm_group_label>AI visible group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>no AI presentation</intervention_name>
+    <description>AI presentation means the automatic diagnosis information of AI and no AI presentation means it is invisible in the group.</description>
+    <arm_group_label>AI invisible group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Consecutive patients who came to Qilu Hospital of Shandong University and received optical
+        magnifying OE endoscopy examination
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  high risk patients for esophageal cancer aged 18 years or older;
+
+          -  Histologically verified early esophageal squamous cell cancer.
+
+        Exclusion Criteria:
+
+          -  patients whose images of esophagus not suitable for the training, validation and
+             testing the computer-assist diagnosis tool.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Yanqing Li, PHD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Qilu Hospital, Shandong University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Department of Gastroenterology, Qilu Hospital, Shandong University</name>
+      <address>
+        <city>Jinan</city>
+        <state>Shandong</state>
+        <zip>250012</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>November 28, 2018</study_first_submitted>
+  <study_first_submitted_qc>November 28, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 30, 2018</study_first_posted>
+  <last_update_submitted>April 25, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 25, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 28, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Shandong University</investigator_affiliation>
+    <investigator_full_name>Yanqing Li</investigator_full_name>
+    <investigator_title>Vice president of Qilu Hospital</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma, Squamous Cell</mesh_term>
+    <mesh_term>Esophageal Squamous Cell Carcinoma</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

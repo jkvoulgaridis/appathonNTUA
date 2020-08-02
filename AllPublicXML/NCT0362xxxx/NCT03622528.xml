@@ -1,0 +1,184 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03622528</url>
+  </required_header>
+  <id_info>
+    <org_study_id>201603824</org_study_id>
+    <nct_id>NCT03622528</nct_id>
+  </id_info>
+  <brief_title>Quantitative Lung Cancer Screening</brief_title>
+  <official_title>Precision, Pulmonary Disease Evaluation and Lung Cancer Detection Using Quantitative Low-dose CT</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Jessica Sieren</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Vida Diagnostics, Inc</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Iowa</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this project is to validate quantitative lung structure assessment using an
+      automated analysis software (VIDA), for application to low dose computed tomography (LDCT)
+      acquired for lung cancer screening. Currently the software runs on standard dose CT data. In
+      addition, it is the plan to incorporate algorithms into the software to address assessment of
+      any identified pulmonary lesions.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The purpose of this project is to validate quantitative lung structure assessment using an
+      automated analysis software (VIDA), for application to low dose computed tomography (LDCT)
+      acquired for lung cancer screening. Currently the software runs on standard dose CT data. In
+      addition, it is the plan to incorporate algorithms into the software to address assessment of
+      any identified pulmonary lesions.
+
+      The Lung Cancer Screening Clinic is a new program that screens a group of patients that meet
+      a predetermined criteria, set by the program, for lung cancer. At this time primary care
+      providers, within the UIowa network, have the ability to place an order for this screening
+      process for their patients. The hope is to expand this program to any primary care provider
+      in the future. Clinic staff look over the patients past medical history to determine if they
+      fit the clinic criteria.
+
+      For this study, the study team will ask the patients seen in the lung cancer screening clinic
+      at the University of Iowa to undergo an additional standard dose CT scan during that same
+      visit(for comparison/validation of the software performance). For those subjects that agree
+      to participate, the study team will also ask to collect the data and CT scans that were also
+      collected for their clinical Lung Cancer Screening visit. For this group the study team will
+      also ask to collect all medical records associated with nodules found at this Lung Cancer
+      Screening visit.
+
+      The study team propose to test the performance of VIDA's existing image analysis tools for
+      the assessment of chronic obstructive pulmonary disease (COPD), when applied to the LDCT data
+      acquired for lung cancer screening. The study team will also develop new lung nodule
+      evaluation functions to specifically address the clinical needs within the at-risk lung
+      cancer patient population.
+
+      To carry out the work, the study team propose two specific aims:
+
+        1. Validate VIDA's quantitative computed tomography (QCT) metrics for COPD and emphysema
+           utilizing the lung cancer LDCT screening cohort as compared to the standard quantitative
+           high resolution computed tomography (HRCT) scanning protocol. With collaboration between
+           the University of Iowa and VIDA, the study team will establish a tightly controlled, CT
+           data acquisition protocol in our local lung cancer screening program. Data collected
+           will incorporate thin-slice and iterative reconstructions, breath coaching to target
+           lung inflation levels for patients and HRCT data acquisition in a sub-cohort. The VIDA
+           analysis will be refined and the appropriate reconstruction setting identified such that
+           the outputs from the LDCT data correlate to the HRCT (current standard) outputs.
+
+        2. Complete and refine development of VIDA's novel lung nodule segmentation algorithm for
+           solid and non-solid nodules using the standardized lung cancer LDCT screening protocol.
+           Automated nodule segmentation in CT scans is challenging due to border ambiguity with
+           neighboring structures (such as vessels and the pleura), poor boundary contrast of more
+           subtle nodules, and noise associated with LDCT. The study team will develop a novel
+           method that robustly segments pulmonary lesions by allowing mutual interaction between
+           the nodules and surrounding structures, leading to a highly accurate segmentation with
+           less manual corrective actions for a high volume lung cancer screening workflow.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">July 2019</start_date>
+  <completion_date type="Anticipated">October 2023</completion_date>
+  <primary_completion_date type="Anticipated">October 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Segmental Airway Branch Differences</measure>
+    <time_frame>1 day of Study Visit</time_frame>
+    <description>Segmental airway branch differences will be measured by comparing the clinical low dose chest CT scan and the standard dose chest CT scan.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">75</enrollment>
+  <condition>Pulmonary Disease</condition>
+  <condition>Chronic Obstructive Pulmonary Disease</condition>
+  <condition>Cancer, Lung</condition>
+  <arm_group>
+    <arm_group_label>Lung Cancer Screening Cohort</arm_group_label>
+    <description>Patients who are seen in the UIHC lung cancer screening clinic will be asked to undergo an additional standard chest CT scan during their UIHC clinical lung cancer screening CT scan. Additionally, data from that clinical scan and all medical records associated with nodules that were discovered by the Lung Cancer Screening, will also be collected.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>Chest CT scan</intervention_name>
+    <description>Standard dose chest CT scan</description>
+    <arm_group_label>Lung Cancer Screening Cohort</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Subjects will be patients at the University of Iowa Hospitals and Clinics that are
+        participating in the Lung Cancer Screening clinic and have met those guidelines for being
+        included in that screening program.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Subjects that meet the clinical Lung Cancer Screening guidelines and participate in
+             that clinical screening.
+
+        Exclusion Criteria:
+
+          -  Subjects that do not meet the clinical Lung Cancer Screening guidelines.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>50 Years</minimum_age>
+    <maximum_age>74 Years</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Jessica Sieren, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Iowa</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jessica Sieren, PhD</last_name>
+    <phone>319-353-8862</phone>
+    <email>jessica-sieren@uiowa.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Debra OConnell Moore, MBA</last_name>
+    <phone>319-356-1693</phone>
+    <email>debra-oconnell-moore@uiowa.edu</email>
+  </overall_contact_backup>
+  <verification_date>April 2019</verification_date>
+  <study_first_submitted>August 6, 2018</study_first_submitted>
+  <study_first_submitted_qc>August 8, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 9, 2018</study_first_posted>
+  <last_update_submitted>April 15, 2019</last_update_submitted>
+  <last_update_submitted_qc>April 15, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 16, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>University of Iowa</investigator_affiliation>
+    <investigator_full_name>Jessica Sieren</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lung Neoplasms</mesh_term>
+    <mesh_term>Lung Diseases</mesh_term>
+    <mesh_term>Lung Diseases, Obstructive</mesh_term>
+    <mesh_term>Pulmonary Disease, Chronic Obstructive</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

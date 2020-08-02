@@ -1,0 +1,197 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04046458</url>
+  </required_header>
+  <id_info>
+    <org_study_id>nightvitals</org_study_id>
+    <nct_id>NCT04046458</nct_id>
+  </id_info>
+  <brief_title>De-escalating Vital Sign Checks</brief_title>
+  <official_title>Using Predictive Analytics to Reduce Vital Sign Checks in Stable Hospitalized Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of California, San Francisco</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of California, San Francisco</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The overall goals for this study are: 1) to develop a predictive model to identify patients
+      who are stable enough to forego vital sign checks overnight, 2) incorporate this predictive
+      model into the hospital electronic health record so physicians can view its output and use it
+      to guide their decision-making around ordering reduced vital sign checks for select patients.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Patients in the hospital often report poor sleep. A lack of sleep not only affects a
+      patient's recovery from illness and their overall feeling of wellness, but it is a leading
+      factor in the development of delirium in the hospital. One method for improving sleep in the
+      hospital is to reduce the number of patient care related interruptions that a patient
+      experiences. Vital sign checks at night are one example. In hospitalized patients who are
+      clinically stable, vital sign checks that interrupt sleep are often unnecessary. However,
+      identifying which patients can forego these checks is not a simple task. Currently, the
+      hospital's quality improvement team asks physicians to think about this issue every day and
+      order reduced, or &quot;sleep promotion&quot;, vital sign checks on patients they believe could safely
+      tolerate it. The investigators goal is to use a predictive analytics tool to reduce the
+      cognitive burden of this task for busy physicians.
+
+      The investigators plan to develop a logistic regression model, trained on data from the
+      electronic health record (EHR), to predict, for a given patient on a given night, whether
+      they could safely tolerate the reduction of overnight vital sign checks. The model will use
+      variables, such as the patient's age, the number of days they have been in the hospital, the
+      vital signs from that day, the lab values from that day, and other clinical variables to make
+      its prediction. The outcome is a binary variable, whether the patient will or will not have
+      abnormal vital signs that night. The training data is retrospective therefore it contains the
+      nighttime vitals that were observed, which the investigators will code as a binary variable
+      and use as the outcome variable for the model to train against.
+
+      The investigators will incorporate this algorithm into an EHR alert so physicians can observe
+      its output during their work, and use this information, complemented by their own clinical
+      judgment, to decide about ordering reduced vital sign checks for a given patient.
+
+      The investigators will study the effect of this EHR alert on several outcomes: in-hospital
+      delirium (measured by nurse assessment), sleep opportunity (a measurement, based on
+      observational EHR data, of patient care related sleep interruptions), and patient
+      satisfaction (measured by nationally-administered post-hospitalization HCAHPS surveys).
+      Balancing measures, to ensure that reduced vital sign checks do not cause patient harm, will
+      be rapid response calls and code blue calls.
+
+      Physician teams will be randomized to either see the EHR alert (intervention arm) or not see
+      the EHR alert.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">March 11, 2019</start_date>
+  <completion_date type="Actual">November 4, 2019</completion_date>
+  <primary_completion_date type="Actual">November 4, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>The investigators' intervention, which is a notification to the physician that is seen in the EHR, is randomized at the patient level. The patients randomized to the control group do not have a notification shown to their physician while the intervention patients do.</intervention_model_description>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>delirium</measure>
+    <time_frame>average will be measured at study completion (6 months from study start date - Sep 11, 2019)</time_frame>
+    <description>Nursing Delirium Screening Scale (Nu-DESC score) - assessed by the nurse, can range from zero to ten, a score &gt; 2 has good accuracy for delirium</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>sleep opportunity</measure>
+    <time_frame>average will be calculated at study completion (6 months from study start date - Sep 11, 2019)</time_frame>
+    <description>a *novel* measurement based on observational EHR data - for every night in the hospital, the investigators can extract from the EHR all event timestamps that could have interrupted the patient's sleep (measured between 11 pm and 6 am). These are blood pressure recordings, fingerstick glucose checks, blood draws for labs, and not-as-needed medication administrations. The maximum time period between such events is considered the patient's sleep opportunity for that night (measured in hours). A higher sleep-opportunity on a given night is better. The investigators can calculate an average sleep-opportunity for a hospital encounter and then an average sleep-opportunity for all encounters in a clinical trial arm.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>patient satisfaction</measure>
+    <time_frame>average score will be measured at study completion (6 months from study start date - Sep 11, 2019)</time_frame>
+    <description>results from Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS) surveys administered to patients after discharge from the hospital (scale is a categorical response: never, sometimes, usually, or always)</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>number of code blue events</measure>
+    <time_frame>average number will be calculated at study completion (6 months from study start date - Sep 11, 2019)</time_frame>
+    <description>when a patient has a code blue (respiratory or cardiac arrest) called on them in the hospital, the resuscitation team that responds then writes a note documenting the event; the investigators can count these notes as a proxy for counting code blue events themselves (lower number is better)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>number of rapid response calls</measure>
+    <time_frame>average number will be calculated at study completion (6 months from study start date - Sep 11, 2019)</time_frame>
+    <description>when a patient has a rapid response (significant change in vital signs or alertness) called on them in the hospital, the team that responds writes a note documenting the event and the investigators can count these notes as a proxy for counting rapid response events themselves (lower number is better)</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">1436</enrollment>
+  <condition>Delirium</condition>
+  <condition>Sleep Disturbance</condition>
+  <arm_group>
+    <arm_group_label>EHR Alert</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Physician teams will observe the EHR alert as they perform their clinical duties in the EHR.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No Alert</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Physician teams will perform their clinical duties in the EHR as usual, with no visible alert.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Nighttime Vital Sign EHR Alert</intervention_name>
+    <description>A pop-up window in the EHR will notify a physician that their patient has been judged by a predictive algorithm to be safe for reduced overnight vital sign checks.</description>
+    <arm_group_label>EHR Alert</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>No EHR alert</intervention_name>
+    <description>No change to EHR function; no alert visible to providers</description>
+    <arm_group_label>No Alert</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All physician teams that operate under the UCSF Division of Hospital Medicine
+
+        Exclusion Criteria:
+
+          -  N/A
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Mark Pletcher, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Director of the UCSF Informatics and Research Innovation Program</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>UCSF</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94143</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>December 2019</verification_date>
+  <study_first_submitted>March 9, 2018</study_first_submitted>
+  <study_first_submitted_qc>August 2, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 6, 2019</study_first_posted>
+  <last_update_submitted>December 2, 2019</last_update_submitted>
+  <last_update_submitted_qc>December 2, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 4, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Delirium</mesh_term>
+    <mesh_term>Dyssomnias</mesh_term>
+    <mesh_term>Parasomnias</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Participants are physician teams. The investigators may submit their alert-response data to an online resource.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,212 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04213872</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GME Study</org_study_id>
+    <nct_id>NCT04213872</nct_id>
+  </id_info>
+  <brief_title>Gene Expression, Meditative Movement, and Emotional Distress (GME)</brief_title>
+  <acronym>GME</acronym>
+  <official_title>Gene Expression, Meditative Movement, and Emotional Distress (GME): A Pilot Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Arizona State University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Pomona Valley Hospital Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Children's Hospital Los Angeles</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Arizona State University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Study Title: Gene Expression, Meditative Movement and Emotional Distress (GME)
+
+      Background and Objectives:
+
+      Breast cancer survivors (BCS) often report decrements in cognitive functioning. Cognitive
+      impairment (CI) is generally understood as resulting from chemotherapy or radiation, but may
+      also result from chronic emotional distress experienced by breast cancer patients and
+      survivors. Meditation and exercise are both known to reduce stress, with growing evidence for
+      the potential of each to also improve cognitive functioning in cancer patients and survivors.
+      A Meditative Movement (MM) program (Qigong/Tai Chi Easy) offers the potential of combining
+      both benefits of meditation and exercise for breast cancer survivors. This is a pilot study,
+      testing the MM program to effect changes in cognitive functioning and associated
+      symptoms/conditions such as anxiety, depression, sleep quality and using gene expression
+      factors as biomarkers to potentially measure the molecular signature of these changes. Forty
+      BCS will be consented and assigned to an intensive eight week MM program. Cognitive
+      functioning and associated symptoms/conditions will be assessed before and after the 8-week
+      MM program to examine the participants' behaviors and symptoms. Peripheral blood samples will
+      be collected before and after the 8-week MM program and will be analyzed for gene expression
+      changes. If successful, this study may provide preliminary data for a full powered randomized
+      control trial if results show promise in the psycho-behavioral outcomes and genomic
+      expression results.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a single-group pilot study on the effects of 8 weeks of MM practice on changes in
+      cognitive function, anxiety, sleep quality, depression, and selected gene expression factors.
+      Forty BCS will be consented and assigned to an intensive eight-week MM program. The forty BCS
+      will be nonrandomly assigned to the eight-week MM program with no control group. The forty
+      BCS will be organized in cohorts of 10 for the 8-week MM program. Cognitive functioning and
+      associated symptoms/conditions data will be collected before and after the 8-week MM program
+      to assess cognitive functioning, anxiety, depression, and sleep-quality. This data will be
+      analyzed using the IBM SPSS Statistics program. Peripheral blood samples will be collected
+      before and after the 8-week MM program. The gene expression data will be processed and
+      analyzed by the bioinformatics team at the Single-Cell, Sequencing, and CyTOF Core (SC2),
+      Children's Hospital Los Angeles (CHLA), Los Angeles.
+
+      Endpoints:
+
+      Endpoint 1: The Meditative Movement (MM) program will affect cognitive impairment.
+
+      Endpoint 2: The Meditative Movement (MM) program will affect anxiety, depression, and sleep
+      quality.
+
+      Endpoint 3: The MM program will affect gene expression associated with cognitive impairment
+      and associated symptoms.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">July 17, 2017</start_date>
+  <completion_date type="Anticipated">February 15, 2020</completion_date>
+  <primary_completion_date type="Actual">November 15, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>This is a single-group nonrandomized pilot study on the effects of 8 weeks of MM program on changes in cognitive function, anxiety, sleep quality, depression, and selected gene expression factors.</intervention_model_description>
+    <primary_purpose>Supportive Care</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Changes in Cognitive Functioning</measure>
+    <time_frame>The research participants will complete the FACT-COG pre- and post-8 week intervention within two weeks prior to and subsequent to the 8-week intervention. The PI will administer WAIS-III measures within two weeks before and after 8-week intervention.</time_frame>
+    <description>Cognitive function self-report will be assessed using the Functional Assessment of Cancer Therapy-Cognitive Function (FACT-COG), 33 items, validated, including 3 subscales including perceived cognitive impairment (PCI), perceptions of effects of cognitive function on quality of life (PCQOL), and perceived cognitive abilities (CA) Two brief measures of attention/working memory from the Wechsler Adult Intelligence Scale-Third Edition (WAIS-III) assess CP: Digit Span and Letter-Number Sequencing, with reliability ratings of .90 and .82 respectively.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Changes in BDNF Expression (associated with learning and memory).</measure>
+    <time_frame>Blood samples will be collected within two weeks before and after 8 week intervention.</time_frame>
+    <description>RNA sequencing: Sequencing libraries will be prepared from previously purified RNA using the Illumina TruSeq Stranded mRNA Library Prep kit following the manufacturer's instructions. Sequencing will be performed on a NextSeq 500 platform using 2×75bp chemistry. Data analysis: Quality control and adapter trimming will be performed using trim galore (v0.4.2) with default parameters. Reads will be aligned to the GRCh38 reference genome and transcriptome using HISAT2 (v2.1.0), and transcript quantification will be performed using featureCounts (v1.5.1). Differential expression analysis will be performed using the 'DESeq2' R package (v1.16.1), and a rank score calculated as -log10(q-val)*sign (log2 FoldChange) will be used as input to the GSEA Preranked tool for pathway analysis.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Changes in anxiety, depression, and sleep quality.</measure>
+    <time_frame>The research participants will complete these measures pre- and post-8 week intervention within two weeks prior to and subsequent to the 8-week intervention.</time_frame>
+    <description>Profile of Mood States Short Form (POMS-SF): 37 items, adjectives scored on a 5-point Likert scale. The POMS is one of the most frequently used and validated scales in studies of psychosocial interventions with BCSs. POMS consists of the Total Mood Disturbance (TMD) dimensions (tension-anxiety; depression-dejection; anger-hostility; confusion-bewilderment. The Pittsburgh Sleep Quality Index (PSQI): 19 items assess sleep, including subscales for subjective sleep quality, sleep latency, sleep duration, sleep disturbance, habitual sleep efficiency, daytime dysfunction and use of sleep medications.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Changes in BDNF gene expression associated with changes in NF-kB and TP53 gene expression (associated with inflammation and tumor suppression).</measure>
+    <time_frame>Blood samples will be collected within two weeks before and after 8 week intervention.</time_frame>
+    <description>RNA sequencing: Sequencing libraries will be prepared from previously purified RNA using the Illumina TruSeq Stranded mRNA Library Prep kit following the manufacturer's instructions. Sequencing will be performed on a NextSeq 500 platform using 2×75bp chemistry. Data analysis: Quality control and adapter trimming will be performed using trim galore (v0.4.2) with default parameters. Reads will be aligned to the GRCh38 reference genome and transcriptome using HISAT2 (v2.1.0), and transcript quantification will be performed using featureCounts (v1.5.1). Differential expression analysis will be performed using the 'DESeq2' R package (v1.16.1), and a rank score calculated as -log10(q-val)*sign (log2 FoldChange) will be used as input to the GSEA Preranked tool for pathway analysis.</description>
+  </other_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">27</enrollment>
+  <condition>Cognitive Impairment</condition>
+  <arm_group>
+    <arm_group_label>Meditative Movement (MM)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The Meditative Movement (Qigong/Tai Chi Easy) program will be 8 weeks in duration with sessions once a week. Each session is approximately one hour. The PI will lead the MM sessions. The PI and the CRC will maintain contact with the MM group during the 8 weeks by telephone or in person.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Meditative Movement</intervention_name>
+    <description>The Meditative Movement program is a blend of meditation and exercise based on Tai Chi and Qigong.</description>
+    <arm_group_label>Meditative Movement (MM)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Female patients diagnosed with breast cancer, Stage 0- III
+
+          -  Between 6 months and 5 years past primary treatment
+
+          -  45 years of age and older
+
+          -  Post-menopausal
+
+          -  Speak or understand English
+
+        Exclusion Criteria:
+
+          -  Women who are unable to stand (e.g., wheelchair or walker bound)
+
+          -  Patients who are too weak or ill
+
+          -  Women on antibiotics.
+
+          -  Working night shift
+
+          -  Anemia
+
+          -  Uncontrolled diabetes
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <gender_based>Yes</gender_based>
+    <gender_description>Biologically Female</gender_description>
+    <minimum_age>45 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Francisco V Munoz, Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Arizona State University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Robert and Beverly Lewis Family Cancer Care Center</name>
+      <address>
+        <city>Pomona</city>
+        <state>California</state>
+        <zip>91767</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>December 2019</verification_date>
+  <study_first_submitted>January 8, 2018</study_first_submitted>
+  <study_first_submitted_qc>December 27, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 30, 2019</study_first_posted>
+  <last_update_submitted>December 27, 2019</last_update_submitted>
+  <last_update_submitted_qc>December 27, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 30, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>breast cancer survivors</keyword>
+  <keyword>gene expression</keyword>
+  <keyword>emotional distress</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cognitive Dysfunction</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

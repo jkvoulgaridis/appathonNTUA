@@ -1,0 +1,172 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03551405</url>
+  </required_header>
+  <id_info>
+    <org_study_id>STU 082014-030</org_study_id>
+    <nct_id>NCT03551405</nct_id>
+  </id_info>
+  <brief_title>4D Cone Beam CT Reconstruction for Radiotherapy Via Motion Vector Optimization</brief_title>
+  <official_title>4D Cone Beam CT Reconstruction for Radiotherapy Via Motion Vector Optimization</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Texas Southwestern Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Texas Southwestern Medical Center</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To validate a new 4D Cone Beam CT (4DCBCT) reconstruction algorithm that was developed in our
+      research group recently in terms of its geometry and intensity accuracy through real patient
+      studies. Dose calculation found out in this study will not be used on the subject
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Before patient studies, we will have conducted experimental studies on a lung phantom.
+
+      The purpose of this step is to comprehensively evaluate the system performance and gain
+      confidence prior to its applications to real patient cases. We will operate the phantom to
+      simulate motion patterns with different motion amplitude/frequency. 4DCBCT images will be
+      reconstructed using our method and the conventional FDK algorithm. The validation will focus
+      on two aspects: HU value accuracy and anatomy location accuracy.
+
+      Imaging dose in these scans will be also measured in phantom studies to make sure the
+      radiation dose level is acceptable for patient studies. adiation dose level is acceptable for
+      patient studies.
+
+      After testing the reconstruction algorithm on phantoms, we will move on to real patient
+      cases. We will conduct patient studies on lung cancer patients treated under Image Guided
+      Radiation Therapy (IGRT) at Department of Radiation Oncology, UT Southwestern Medical Center.
+      CBCT projection data will be collected (4 gantry rotations, each within 1 minute) in only one
+      treatment fraction. 4DCBCT images will be reconstructed from the current standard FDK
+      algorithm using all the projection data, and from our system using data only in the first
+      gantry rotation. Patient 4DCT image will also be used, which have been acquired during
+      treatment planning stage per standard treatment protocol at UTSW.
+
+      The image quality of our 4DCBCT will be assessed in two aspects:
+
+      1) geometry accuracy, by comparing selected anatomical landmark locations with those in
+      4DCBCT reconstructed by the FDK algorithm. 2) HU accuracy, by comparing HU values in selected
+      regions of interest (ROIs) with those in 4DCT.
+
+      The 4DCT images will be extracted from radiation therapy information system MOSAIQ.
+
+      The CBCT projection data will be exported from a computer that controls the image acquisition
+      system
+    </textblock>
+  </detailed_description>
+  <overall_status>Terminated</overall_status>
+  <start_date type="Actual">November 15, 2014</start_date>
+  <completion_date type="Actual">April 12, 2018</completion_date>
+  <primary_completion_date type="Actual">April 2, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Potential Benefits:</measure>
+    <time_frame>10 years</time_frame>
+    <description>There is no direct benefit from the study to the subjects. All participants will be clearly informed about this. The individual patient's treatment will not be changed based on the data collected from these procedures.The study will use the CTCAE version 4.0 for reporting of acute and late adverse events related to Lung will be reported by the physician through exam/assessment during research visit, encompassing events since last research visit. Upon completion, the project will lead to an accurate and safe 4DCBCT imaging procedure for patient positioning to facilitate lung IGRT treatment.where the image quality is much improved compared to current standard 4DCBCT method and the scan time and hence radiation dose is greatly reduced.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Risk/Benefit Ratio:</measure>
+    <time_frame>10 years</time_frame>
+    <description>The benefits greatly outweigh the risks in this study. Considering the patient typically receives 60~80 Gy radiation dose for radiation treatment, the additional radiation dose from three additional CBCT scans is very small, and the risk is minimal. We have also established a set of procedures to ensure the safe use of medical data to protect patient confidentiality.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">18</enrollment>
+  <condition>Lung Cancer</condition>
+  <arm_group>
+    <arm_group_label>Intensity accuracy</arm_group_label>
+    <description>The difference of the HU values in corresponding ROIs in the two image sets will be compared with zero using one sample t-test.
+In addition, we will also use these patient cases to test the computational efficiency of our algorithm. Based on our preliminary study, it is expected that the computation time will be 5~10 sec per phase. The reconstruction time will be recorded in these patient cases and will be assessed.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>CBCT scan</intervention_name>
+    <description>CBCT is a standard image guidance procedure for patient setup in image-guided radiation therapy at the Department of Radiation Oncology, UTSW. Our study will deliver three additional CBCT scans to each patient in only one fraction. These additional scans will increase radiation doses to the patients, which elevate the radiation-associated risks of secondary cancer.The other risk involved in this study is a possible violation of patient confidentiality. The imaging data will be completely anonymized, since the patient related information is not needed for this study.</description>
+    <arm_group_label>Intensity accuracy</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients will be identified by physician co-investigator during CT-simulation stage. One of
+        the investigators or research coordinators will verbally explain the study to the patient.
+
+        It will be clearly explained that patient's treatment will not be modified based on the
+        data collected in this study. If the patient agrees to participate, an informed consent
+        form will be signed by both the patient and the investigator/research coordinator and a
+        copy of the signed form will be given to the patient. All of the key investigators and
+        research coordinators in this project are experienced in clinical studies and clinical
+        trials and have undergone appropriate protection of human research subjects training and
+        HIPAA training.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Patients that have been diagnosed with lung cancer, and are treated at Department of
+             Radiation Oncology, UTSW.
+
+          2. Patients are greater than 18 years of age.
+
+          3. Patients understand a written informed consent document and are willing to sign the
+             consent form.
+
+        Exclusion Criteria:
+
+          1. Women who are pregnant or trying to get pregnant
+
+          2. Children (under age of 18)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>99 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>UT Southwestern Medical Centre</name>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <zip>75390</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2018</verification_date>
+  <study_first_submitted>May 18, 2018</study_first_submitted>
+  <study_first_submitted_qc>June 8, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 11, 2018</study_first_posted>
+  <last_update_submitted>June 8, 2018</last_update_submitted>
+  <last_update_submitted_qc>June 8, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 11, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

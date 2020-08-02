@@ -1,0 +1,829 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01760239</url>
+  </required_header>
+  <id_info>
+    <org_study_id>11-090</org_study_id>
+    <secondary_id>R01HL115082</secondary_id>
+    <nct_id>NCT01760239</nct_id>
+  </id_info>
+  <brief_title>Electronic Health Record-Based Clinical Decision Support to Improve Blood Pressure Management in Adolescents</brief_title>
+  <official_title>Electronic Health Record-Based Clinical Decision Support to Improve Blood Pressure Management in Adolescents</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>HealthPartners Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Heart, Lung, and Blood Institute (NHLBI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>HealthPartners Institute</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The goal of this project is to improve detection and management of elevated blood pressure in
+      adolescents. It (a) uses electronic health record (EHR) technology to deliver
+      patient-specific clinical decision support (CDS) to providers at the point of care, (b)
+      assesses the impact of this intervention on identification and clinical care of hypertension
+      in adolescents, and (c) assesses the impact of the intervention on costs of care.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Hypertension (HT) during adolescence tracks into adulthood, contributing to adult
+      cardiovascular morbidity and mortality. National guidelines for the diagnosis and treatment
+      of hypertension in children and adolescents were developed by the National High Blood
+      Pressure Education Program (NHBPEP); their Fourth Report was published in 2004. Despite
+      heightened awareness of hypertension in pediatric populations, most adolescents with elevated
+      blood pressure remain clinically unrecognized. Factors that contribute to this gap in care
+      include: the need to translate adolescent blood pressure (BP) measures into blood pressure
+      percentiles on the basis of age, gender, and height, lack of familiarity with National High
+      Blood Pressure Education Program (NHBPEP) clinical guidelines, and competing demands at
+      clinical encounters.
+
+      Electronic health record (EHR)-based clinical decision support (CDS) can be used to address
+      these barriers and support better care of elevated blood pressure (BP) and Hypertension (HT)
+      in adolescents. In this project, the investigators integrate EHR-extracted data with
+      sophisticated Web-based CDS algorithms to provide patient-specific point-of-care clinical
+      recommendations, in accordance with NHBPEP guidelines. To evaluate the impact of this
+      innovation on quality and cost of care, the investigators randomize 18 clinics with their 130
+      pediatric care providers (PCP) and their estimated 17,000 adolescent patients to receive or
+      not receive this EHR-based CDS intervention. The investigators hypothesize that the
+      intervention will improve recognition and early management of elevated BP and that short-term
+      increases in outpatient care costs will be offset by longer-term clinical benefits, estimated
+      using established econometric models.
+
+      This innovative project (a) addresses the under-recognized high-risk patient population of
+      adolescents, (b) integrates EHR and Web-based CDS technology to provide sophisticated
+      patient-specific point-of-care CDS, (c) develops and implements novel and intuitive visual
+      interfaces to communicate CDS recommendations to PCPs, and (d) provides both clinical and
+      cost outcome data useful to clinicians and policymakers. If the EHR-based CDS intervention
+      improves adherence to NHBPEP recommendations, it will provide a much-needed tool to combat
+      the burgeoning problem of rising cardiovascular risk factors in children and adolescents.
+      Further, regardless of outcome, the technology that is developed and tested will provide many
+      useful insights to advance the science of EHR-based CDS. This will, in turn, help translate
+      the massive public and private investments in EHR technology into improved adolescent health
+      outcomes.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>April 2014</start_date>
+  <completion_date type="Actual">April 16, 2017</completion_date>
+  <primary_completion_date type="Actual">April 16, 2016</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Participants With Clinical Recognition of Hypertension</measure>
+    <time_frame>6 months</time_frame>
+    <description>Clinical recognition of hypertension as determined by one or more of the following; 1) hypertension or elevated BP as discharge diagnosis, 2) hypertension or elevated BP in the clinical note, 3) hypertension or elevated BP in discharge instructions, 4) hypertension or elevated BP added to the problem list.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Participants With Appropriate Workup for Secondary Causes of Hypertension</measure>
+    <time_frame>6 months</time_frame>
+    <description>Appropriate workup for those with incident hypertension included an initiated workup for secondary causes of hypertension or end organ damage, defined as referral to cardiology, nephrology, or endocrinology, and/or orders for echocardiogram, ECG, or renal ultrasound.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Participants With Appropriate Lifestyle Referral</measure>
+    <time_frame>6 months</time_frame>
+    <description>Appropriate lifestyle referral is defined as referral to dietitian, weight loss, or exercise program within 6 months of meeting criteria for incident hypertension.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">31579</enrollment>
+  <condition>Hypertension</condition>
+  <condition>Pre Hypertension</condition>
+  <condition>Obesity</condition>
+  <arm_group>
+    <arm_group_label>Clinical Decision Support (CDS)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The Clinical Decision Support (CDS) tool will be activated when a BP is entered in the vital sign section of the EHR during any visit to a family practice or pediatric clinic (including both preventive care and sick visits, excluding prenatal and postpartum visits). The algorithm will be embedded in the EHR. In most cases, when a normal BP &lt;90% and &lt;120/80 mm Hg is entered, no alerts will be triggered. In some cases, clinical staff may receive up to two alerts, either to measure height or to repeat a first elevated BP reading. In cases with confirmed elevated BP measures, providers will receive a single CDS message summarizing that patient's current BP status and recommending specific clinical actions.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Patients in this group will receive usual care from their clinic. The CDS tool will not be activated.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Clinical Decision Support (CDS)</intervention_name>
+    <description>The Clinical Decision Support (CDS) tool will be activated when a BP is entered in the vital sign section of the EHR. The CDS tool includes six key features: (i) prompts regarding the need for height data to classify the BP by percentile (ii) prompts to repeat any BP that is ≥90% or ≥120/80 mm Hg (iii) classification of BPs by percentile, including classification of those in pre-HT, stage 1 HT and stage 2 HT range (iv) review of previous HT diagnoses and BPs in order to classify elevated BPs as incident (first or second elevated BP) or persistent (third or greater elevated BP) (v) tailored CDS based on HT category and previous diagnoses (vi) graphical representation of current and historical BP data by age and BP percentile.</description>
+    <arm_group_label>Clinical Decision Support (CDS)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adolescents age 10-17
+
+          -  Pediatric and Family Medicine Providers
+
+        Exclusion Criteria:
+
+          -  Pregnant adolescents
+
+          -  Within 12 weeks post partum
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>10 Years</minimum_age>
+    <maximum_age>17 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Elyse O Kharbanda, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>HealthPartners Institute</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>HealthPartners Medical Group</name>
+      <address>
+        <city>Minneapolis</city>
+        <state>Minnesota</state>
+        <zip>55440</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>National High Blood Pressure Education Program Working Group on High Blood Pressure in Children and Adolescents. The fourth report on the diagnosis, evaluation, and treatment of high blood pressure in children and adolescents. Pediatrics. 2004 Aug;114(2 Suppl 4th Report):555-76.</citation>
+    <PMID>15286277</PMID>
+  </reference>
+  <verification_date>June 2017</verification_date>
+  <study_first_submitted>January 2, 2013</study_first_submitted>
+  <study_first_submitted_qc>January 3, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">January 4, 2013</study_first_posted>
+  <results_first_submitted>August 16, 2019</results_first_submitted>
+  <results_first_submitted_qc>October 2, 2019</results_first_submitted_qc>
+  <results_first_posted type="Actual">October 22, 2019</results_first_posted>
+  <last_update_submitted>October 2, 2019</last_update_submitted>
+  <last_update_submitted_qc>October 2, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 22, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Adolescent Hypertension</keyword>
+  <keyword>Adolescent Pre Hypertension</keyword>
+  <keyword>Adolescent Pre Hypertension and Obesity</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hypertension</mesh_term>
+    <mesh_term>Prehypertension</mesh_term>
+  </condition_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>Primary care providers (physicians, physician assistants,nurse practitioners) as of April 2014 were eligible. Providers received a letter inviting them to complete surveys (pre and post intervention). Completing surveys was considered implied consent. Patient consent was waived as no direct contact between patients and study team occurred.</recruitment_details>
+      <pre_assignment_details>31,579 patients 10-17 years of age with &gt;=1 BP measurement were assessed for eligibility for the primary analysis. After excluding for non-incident hypertension, and restricting to patients with BPs at &gt;=3 visits with BP &gt;=95th percentile who meet case definitions for new onset hypertension, the analytic denominator equals 522.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Clincal Decision Support (CDS)</title>
+          <description>The Clinical Decision Support (CDS) tool will be activated when a BP is entered in the vital sign section of the electronic health record (EHR). Data is exchanged between the EHR and the CDS that runs the data through algorithms and returns a response with appropriate action to the EHR. The CDS tool, includes six key features: (i) prompts regarding the need for height data to classify the BP by percentile (ii) prompts to repeat any BP that is ≥90% or ≥120/80 mm Hg (iii) classification of BPs by percentile, including classification of those in pre-hypertension, stage 1 hypertension and stage 2 hypertension range (iv) review of previous hypertension diagnoses and BPs in order to classify elevated BPs as incident (first or second elevated BP) or persistent (third or greater elevated BP) (v) tailored CDS based on hypertension category and previous diagnoses (vi) graphical representation of current and historical BP data by age and BP percentile.</description>
+        </group>
+        <group group_id="P2">
+          <title>Control</title>
+          <description>Patients in this group will receive usual care from their clinic. The CDS tool will not be activated.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="17037"/>
+                <participants group_id="P2" count="14542"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="296"/>
+                <participants group_id="P2" count="226"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="16741"/>
+                <participants group_id="P2" count="14316"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Clincal Decision Support (CDS)</title>
+          <description>The Clinical Decision Support (CDS) tool will be activated when a BP is entered in the vital sign section of the EHR. Data is exchanged between the EHR and the CDS that runs the data through algorithms and returns a response with appropriate action to the EHR. The CDS tool, called Peds &amp; TeenBP, includes six key features: (i) prompts regarding the need for height data to classify the BP by percentile (ii) prompts to repeat any BP that is ≥90% or ≥120/80 mm Hg (iii) classification of BPs by percentile, including classification of those in pre-HT, stage 1 HT and stage 2 HT range (iv) review of previous HT diagnoses and BPs in order to classify elevated BPs as incident (first or second elevated BP) or persistent (third or greater elevated BP) (v) tailored CDS based on HT category and previous diagnoses (vi) graphical representation of current and historical BP data by age and BP percentile.</description>
+        </group>
+        <group group_id="B2">
+          <title>Control</title>
+          <description>Patients in this group will receive usual care from their clinic. The CDS tool will not be activated.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="296"/>
+            <count group_id="B2" value="226"/>
+            <count group_id="B3" value="522"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="14.5" spread="2.1"/>
+                    <measurement group_id="B2" value="14.4" spread="2.0"/>
+                    <measurement group_id="B3" value="14.5" spread="2.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="171"/>
+                    <measurement group_id="B2" value="125"/>
+                    <measurement group_id="B3" value="296"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="125"/>
+                    <measurement group_id="B2" value="101"/>
+                    <measurement group_id="B3" value="226"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="28"/>
+                    <measurement group_id="B2" value="14"/>
+                    <measurement group_id="B3" value="42"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="268"/>
+                    <measurement group_id="B2" value="212"/>
+                    <measurement group_id="B3" value="480"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="9"/>
+                    <measurement group_id="B2" value="8"/>
+                    <measurement group_id="B3" value="17"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="25"/>
+                    <measurement group_id="B2" value="25"/>
+                    <measurement group_id="B3" value="50"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="53"/>
+                    <measurement group_id="B2" value="45"/>
+                    <measurement group_id="B3" value="98"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="195"/>
+                    <measurement group_id="B2" value="131"/>
+                    <measurement group_id="B3" value="326"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="14"/>
+                    <measurement group_id="B2" value="16"/>
+                    <measurement group_id="B3" value="30"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="296"/>
+                    <measurement group_id="B2" value="226"/>
+                    <measurement group_id="B3" value="522"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Body Mass Index (BMI)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>Body Mass Index &lt;85th</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="104"/>
+                    <measurement group_id="B2" value="68"/>
+                    <measurement group_id="B3" value="172"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Body Mass Index 85-&lt;=95th</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="67"/>
+                    <measurement group_id="B2" value="51"/>
+                    <measurement group_id="B3" value="118"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Body Mass Index &gt;=95th</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="125"/>
+                    <measurement group_id="B2" value="107"/>
+                    <measurement group_id="B3" value="232"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Participants With Clinical Recognition of Hypertension</title>
+        <description>Clinical recognition of hypertension as determined by one or more of the following; 1) hypertension or elevated BP as discharge diagnosis, 2) hypertension or elevated BP in the clinical note, 3) hypertension or elevated BP in discharge instructions, 4) hypertension or elevated BP added to the problem list.</description>
+        <time_frame>6 months</time_frame>
+        <population>The sample was restricted to patients with blood pressures at &gt;=3 visits with blood pressure &gt;=95th percentile, who were then passively monitored for study endpoints. Patients with a previous hypertension diagnosis were excluded.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Clinical Decision Support (CDS)</title>
+            <description>The Clinical Decision Support (CDS) tool will be activated when a BP is entered in the vital sign section of the EHR. Data is exchanged between the EHR and the CDS that runs the data through algorithms and returns a response with appropriate action to the EHR. The CDS tool, called Peds &amp; TeenBP, includes six key features: (i) prompts regarding the need for height data to classify the BP by percentile (ii) prompts to repeat any BP that is ≥90% or ≥120/80 mm Hg (iii) classification of BPs by percentile, including classification of those in pre-HT, stage 1 HT and stage 2 HT range (iv) review of previous HT diagnoses and BPs in order to classify elevated BPs as incident (first or second elevated BP) or persistent (third or greater elevated BP) (v) tailored CDS based on HT category and previous diagnoses (vi) graphical representation of current and historical BP data by age and BP percentile.</description>
+          </group>
+          <group group_id="O2">
+            <title>Control</title>
+            <description>Patients in this group will receive usual care from their clinic. The CDS tool will not be activated.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Participants With Clinical Recognition of Hypertension</title>
+          <description>Clinical recognition of hypertension as determined by one or more of the following; 1) hypertension or elevated BP as discharge diagnosis, 2) hypertension or elevated BP in the clinical note, 3) hypertension or elevated BP in discharge instructions, 4) hypertension or elevated BP added to the problem list.</description>
+          <population>The sample was restricted to patients with blood pressures at &gt;=3 visits with blood pressure &gt;=95th percentile, who were then passively monitored for study endpoints. Patients with a previous hypertension diagnosis were excluded.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="296"/>
+                <count group_id="O2" value="226"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="160"/>
+                    <measurement group_id="O2" value="51"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>&lt;.001</p_value>
+            <method>Mixed Models Analysis</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>4.51</param_value>
+            <ci_n_sides>2-Sided</ci_n_sides>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Participants With Appropriate Workup for Secondary Causes of Hypertension</title>
+        <description>Appropriate workup for those with incident hypertension included an initiated workup for secondary causes of hypertension or end organ damage, defined as referral to cardiology, nephrology, or endocrinology, and/or orders for echocardiogram, ECG, or renal ultrasound.</description>
+        <time_frame>6 months</time_frame>
+        <population>The sample was restricted to patients with BPs at &gt;=3 visits with BP &gt;=95th percentile, who were then passively monitored for study endpoints. Patients with a previous HT diagnosis were excluded.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Clincal Decision Support (CDS)</title>
+            <description>The Clinical Decision Support (CDS) tool will be activated when a BP is entered in the vital sign section of the EHR. Data is exchanged between the EHR and the CDS that runs the data through algorithms and returns a response with appropriate action to the EHR. The CDS tool, called Peds &amp; TeenBP, includes six key features: (i) prompts regarding the need for height data to classify the BP by percentile (ii) prompts to repeat any BP that is ≥90% or ≥120/80 mm Hg (iii) classification of BPs by percentile, including classification of those in pre-HT, stage 1 HT and stage 2 HT range (iv) review of previous HT diagnoses and BPs in order to classify elevated BPs as incident (first or second elevated BP) or persistent (third or greater elevated BP) (v) tailored CDS based on HT category and previous diagnoses (vi) graphical representation of current and historical BP data by age and BP percentile.</description>
+          </group>
+          <group group_id="O2">
+            <title>Control</title>
+            <description>Patients in this group will receive usual care from their clinic. The CDS tool will not be activated.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Participants With Appropriate Workup for Secondary Causes of Hypertension</title>
+          <description>Appropriate workup for those with incident hypertension included an initiated workup for secondary causes of hypertension or end organ damage, defined as referral to cardiology, nephrology, or endocrinology, and/or orders for echocardiogram, ECG, or renal ultrasound.</description>
+          <population>The sample was restricted to patients with BPs at &gt;=3 visits with BP &gt;=95th percentile, who were then passively monitored for study endpoints. Patients with a previous HT diagnosis were excluded.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="296"/>
+                <count group_id="O2" value="226"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="29"/>
+                    <measurement group_id="O2" value="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>.046</p_value>
+            <method>Mixed Models Analysis</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>2.36</param_value>
+            <ci_n_sides>2-Sided</ci_n_sides>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Participants With Appropriate Lifestyle Referral</title>
+        <description>Appropriate lifestyle referral is defined as referral to dietitian, weight loss, or exercise program within 6 months of meeting criteria for incident hypertension.</description>
+        <time_frame>6 months</time_frame>
+        <population>The sample was restricted to patients with BPs at &gt;=3 visits with BP &gt;=95th percentile, who were then passively monitored for study endpoints. Patients with a previous HT diagnosis were excluded.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Clincal Decision Support (CDS)</title>
+            <description>The Clinical Decision Support (CDS) tool will be activated when a BP is entered in the vital sign section of the EHR. Data is exchanged between the EHR and the CDS that runs the data through algorithms and returns a response with appropriate action to the EHR. The CDS tool, called Peds &amp; TeenBP, includes six key features: (i) prompts regarding the need for height data to classify the BP by percentile (ii) prompts to repeat any BP that is ≥90% or ≥120/80 mm Hg (iii) classification of BPs by percentile, including classification of those in pre-HT, stage 1 HT and stage 2 HT range (iv) review of previous HT diagnoses and BPs in order to classify elevated BPs as incident (first or second elevated BP) or persistent (third or greater elevated BP) (v) tailored CDS based on HT category and previous diagnoses (vi) graphical representation of current and historical BP data by age and BP percentile.</description>
+          </group>
+          <group group_id="O2">
+            <title>Control</title>
+            <description>Patients in this group will receive usual care from their clinic. The CDS tool will not be activated.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Participants With Appropriate Lifestyle Referral</title>
+          <description>Appropriate lifestyle referral is defined as referral to dietitian, weight loss, or exercise program within 6 months of meeting criteria for incident hypertension.</description>
+          <population>The sample was restricted to patients with BPs at &gt;=3 visits with BP &gt;=95th percentile, who were then passively monitored for study endpoints. Patients with a previous HT diagnosis were excluded.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="296"/>
+                <count group_id="O2" value="226"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="55"/>
+                    <measurement group_id="O2" value="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>.001</p_value>
+            <method>Mixed Models Analysis</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>5.13</param_value>
+            <ci_n_sides>2-Sided</ci_n_sides>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Safety events were passively monitored every 6 months during the 2 year intervention period. Patients were monitored for events occurring within 3 months of meeting hypertension criteria.</time_frame>
+      <desc>We conducted passive safety surveillance for patients in control and intervention sites using routinely collected electronic health record data to monitor for potential safety events. Neurological complications were not identified but include increased intracranial pressure, hypertensive encephalopathy, or cerebral edema at any point during the intervention period. Since no cases were identified, they are pooled here for the sake of simplicity.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Clincal Decision Support (CDS)</title>
+          <description>The Clinical Decision Support (CDS) tool will be activated when a BP is entered in the vital sign section of the EHR. Data is exchanged between the EHR and the CDS that runs the data through algorithms and returns a response with appropriate action to the EHR. The CDS tool, called Peds &amp; TeenBP, includes six key features: (i) prompts regarding the need for height data to classify the BP by percentile (ii) prompts to repeat any BP that is ≥90% or ≥120/80 mm Hg (iii) classification of BPs by percentile, including classification of those in pre-HT, stage 1 HT and stage 2 HT range (iv) review of previous HT diagnoses and BPs in order to classify elevated BPs as incident (first or second elevated BP) or persistent (third or greater elevated BP) (v) tailored CDS based on HT category and previous diagnoses (vi) graphical representation of current and historical BP data by age and BP percentile.</description>
+        </group>
+        <group group_id="E2">
+          <title>Control</title>
+          <description>Patients in this group will receive usual care from their clinic. The CDS tool will not be activated.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="2" subjects_at_risk="296"/>
+                <counts group_id="E2" subjects_affected="1" subjects_at_risk="226"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Eye disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Hypertensive retinopathy</sub_title>
+                <description>Hypertensive retinopathy at any point during the intervention period.</description>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="296"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="226"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Nervous system disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Neurological complications</sub_title>
+                <description>Neurologic complications were pooled as none were identified. They include increased intracranial pressure, hypertensive encephalopathy, or cerebral edema at any point during the intervention period.</description>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="296"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="226"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Renal and urinary disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Acute renal failure</sub_title>
+                <description>Acute renal failure at any point during the intervention period.</description>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="296"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="226"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Vascular disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Very high blood pressure</sub_title>
+                <description>Blood pressure greater than 160/100 at any point in the intervention period.</description>
+                <counts group_id="E1" subjects_affected="2" subjects_at_risk="296"/>
+                <counts group_id="E2" subjects_affected="1" subjects_at_risk="226"/>
+              </event>
+              <event>
+                <sub_title>Stroke/transient ischemic attack (TIA)</sub_title>
+                <description>Stroke or TIA occurring in any point during the intervention period.</description>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="296"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="226"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="32" subjects_at_risk="296"/>
+                <counts group_id="E2" subjects_affected="15" subjects_at_risk="226"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Cardiac disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Left ventricular hypertrophy</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="296"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="226"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>General disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Hospitalization for any cause</sub_title>
+                <counts group_id="E1" subjects_affected="11" subjects_at_risk="296"/>
+                <counts group_id="E2" subjects_affected="8" subjects_at_risk="226"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Renal and urinary disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Elevated serum creatinine</sub_title>
+                <counts group_id="E1" subjects_affected="3" subjects_at_risk="296"/>
+                <counts group_id="E2" subjects_affected="3" subjects_at_risk="226"/>
+              </event>
+              <event>
+                <sub_title>Abnormality on renal ultrasound</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="296"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="226"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Surgical and medical procedures</title>
+            <event_list>
+              <event>
+                <sub_title>Echocardiogram conducted</sub_title>
+                <counts group_id="E1" subjects_affected="7" subjects_at_risk="296"/>
+                <counts group_id="E2" subjects_affected="1" subjects_at_risk="226"/>
+              </event>
+              <event>
+                <sub_title>Renal ultrasound conducted</sub_title>
+                <counts group_id="E1" subjects_affected="8" subjects_at_risk="296"/>
+                <counts group_id="E2" subjects_affected="2" subjects_at_risk="226"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Vascular disorders</title>
+            <event_list>
+              <event>
+                <sub_title>New medication for hypertension</sub_title>
+                <counts group_id="E1" subjects_affected="3" subjects_at_risk="296"/>
+                <counts group_id="E2" subjects_affected="1" subjects_at_risk="226"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>Because this study was conducted at a single medical group, generalizability of results to other care delivery systems or patient populations is uncertain.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Elyse Kharbanda, MD MPH</name_or_title>
+      <organization>HealthPartners Institute</organization>
+      <phone>952-967-5038</phone>
+      <email>Elyse.O.Kharbanda@healthpartners.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

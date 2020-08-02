@@ -1,0 +1,286 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04459520</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRB#20-000980</org_study_id>
+    <nct_id>NCT04459520</nct_id>
+  </id_info>
+  <brief_title>Effect of Availability of COVID-19 Testing on Choice to Isolate and Socially Distance</brief_title>
+  <official_title>Effect of Availability of COVID-19 Testing on Choice to Isolate and Socially Distance</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of California, Los Angeles</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of California, Los Angeles</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this research is to conduct a cross-sectional survey to investigate how
+      people's lifestyle decisions and social distancing choices are affected by the medical
+      information they receive. The hypothesis is that a positive COVID-19 test result will lead to
+      study participants having the greatest self-isolation intentions compared to those who are
+      only clinically diagnosed for COVID-19 without a confirmatory diagnostic test result or those
+      who receive a negative COVID-19 test result.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      When people make choices about how to socially distance, they may make different choices when
+      they have information from a doctor or other medical provider versus when they have
+      information from a test result. Are people's lifestyle decisions and choices to socially
+      distance or isolate affected by how information about their health status is communicated?
+      Does the presence of testing change the lifestyle decisions people make? We study and attempt
+      to answer these questions through a cross-sectional, online survey.
+
+      Two pilot studies will be run prior to the launching the main survey. The preliminary results
+      from these two surveys will be analyzed through EFA (exploratory factor analysis) and power
+      analysis in order to determine subscales, effect size, and appropriate sample size for the
+      main study. Additionally, a focus group consisting of approximately 15 college-educated
+      individuals will be asked to take the main survey in order to evaluate a reasonable time of
+      completion for the survey. The lower bound of this study completion duration will then be
+      utilized to establish reasonable survey completion time and thus create an exclusion
+      criterion based on time to survey completion.
+
+      Study participants will be first invited to complete a 9 question, pre-test survey on
+      Amazon's Mechanical Turk. Respondents who pass the 4 attention check questions within the
+      pre-test will then be invited to complete the main survey.
+
+      An estimated 1400 participants will be recruited using Amazon's Mechanical Turk to complete
+      the main survey. Of those, we anticipate 1194 participants to meet all inclusion criteria who
+      will then be included in the main study analysis. Participants will be included in the main
+      survey analysis if they read and agree to the English language consent form, are U.S.
+      residents (based on zip code data), correctly answer the attention check questions in both
+      the pre-test and main survey, and complete the main survey within a reasonable amount of time
+      (deemed to be 120 seconds or more).
+
+      Participants will be first invited to complete a 9 question, pre-test survey on Amazon's
+      Mechanical Turk. Respondents who pass the 4 attention check questions within the pre-test
+      will then be invited to complete the main survey. After consenting to participate,
+      participants will be randomized to take one of three surveys each describing a different
+      scenario: one where they likely have COVID-19 but testing is not available, one where they
+      likely have COVID-19 and testing results show a positive result, and one where they likely
+      have COVID-19 and testing results show a negative result. Then, participants will be asked
+      questions about their activity and behavior intentions (e.g., stay in a specific room in my
+      home and stay away from all other people and pets, visit a friend or family member in
+      person). Participants will also be asked construct questions based off of Theory of Planned
+      Behavior/Reason Action Approach (located in the pre-test survey), along with a set of
+      demographic questions.
+
+      Survey responses will be summarized for the full sample, as well as stratified by testing
+      scenario. Quantitative responses will be summarized using means, standard deviations and
+      quartiles, and categorical and ordinal responses will be summarized using frequency
+      distributions. Comparisons between scenarios will be performed using one-way analysis of
+      variance (ANOVA) for quantitative variables, Kruskal-Wallis tests for ordinal variables, and
+      chi-squared or Fisher's exact tests as appropriate for categorical variables.
+
+      The primary outcome is a difference in the behavioral sum score constructed using 11 items,
+      composed of two subscales. Secondary outcomes include the 'personal decisions' and 'social
+      expectations' subscales respectively. The 'personal decisions' subscale will consist of the
+      items pertaining to masking, self-isolation, visiting friends, purchasing supplies,
+      undertaking physical activity, eating at a restaurant and having dinner at home with friends.
+      The 'social expectations' subscale will consist of the items pertaining to getting a haircut,
+      attending weddings, funerals, and birthday parties. Other secondary outcomes including
+      likelihood of voting, protesting/political gathering, and public transportation 1-item
+      questions will also be analyzed in a similar fashion across the three different arms.
+
+      The primary hypothesis is that there will be a statistically significant difference in
+      willingness to engage in risky behavior based on COVID test results. This will be evaluated
+      using a linear regression model of the total 11-item score. The primary model term will be
+      scenario, and covariates will include age, sex, race/ethnicity, political affiliation,
+      education level, location, and type of residence. We will perform pairwise comparisons of the
+      3 scenarios, and use an 0.017 significance level (3-fold Bonferroni correction for an overall
+      alpha of 0.05). Secondary analyses will evaluate the subscales separately using a similar
+      approach. We will also perform exploratory analyses evaluating individual item responses
+      using ordinal logistic regression models with similar specifications. A 5% significance level
+      will be used for all secondary and exploratory hypothesis tests. All analyses will be
+      performed using R v. 3.6.2 (http://www.r-project.org).
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">July 2020</start_date>
+  <completion_date type="Anticipated">July 2020</completion_date>
+  <primary_completion_date type="Anticipated">July 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Parallel 3-arm, cross-sectional, behavioral intervention study</intervention_model_description>
+    <primary_purpose>Screening</primary_purpose>
+    <masking>None (Open Label)</masking>
+    <masking_description>Open label (participants will be randomized to receive different scenarios, but will not be aware of the other two scenario types)</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Behavioral Intentions</measure>
+    <time_frame>Immediate (cross-sectional survey)</time_frame>
+    <description>Sum score constructed of 11 behavior items from 2 subscales (Personal Decisions and Social Expectations)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Personal Decisions Subscale</measure>
+    <time_frame>Immediate (cross-sectional survey)</time_frame>
+    <description>This 7-item subscale will consist of the items pertaining to masking, self-isolation, visiting friends, purchasing supplies, undertaking physical activity, eating at a restaurant and having dinner at home with friends</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Social Expectations Subscale</measure>
+    <time_frame>Immediate (cross-sectional survey)</time_frame>
+    <description>This 4-item subscale will consist of the items pertaining to getting a haircut, attending weddings, funerals, and birthday parties.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Voting Behavior Question</measure>
+    <time_frame>Immediate (cross-sectional survey)</time_frame>
+    <description>1-item question assessing likelihood of voting across the three different study arms</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Protest Question</measure>
+    <time_frame>Immediate (cross-sectional survey)</time_frame>
+    <description>1-item question assessing likelihood to protest or engage in political gatherings across the three different study arms.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Transportation</measure>
+    <time_frame>Immediate (cross-sectional survey)</time_frame>
+    <description>1-item question assessing likelihood of avoiding public transportation (e.g. ridesharing, bus, metro, etc.) across the three different study arms.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">1400</enrollment>
+  <condition>COVID-19</condition>
+  <arm_group>
+    <arm_group_label>Testing Unavailable Group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>This arm will complete an online survey where they will be presented a vignette asking them to imagine they have symptoms consistent with COVID-19, a physician telling them they likely have COVID-19, but that COVID-19 testing is not available. All arms will then be asked to fill out the same questions regarding behavior intentions and demographic questions. All participants will have completed five construct questions based off of Theory of Planned Behavior/Reason Action Approch during the pre-test survey.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Positive Test Result</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>This arm will complete an online survey where they will be presented a vignette asking them to imagine they have symptoms consistent with COVID-19, a physician telling them they likely have COVID-19, and a positive COVID-19 test result. All arms will then be asked to fill out the same questions regarding behavior intentions and demographic questions. All participants will have completed five construct questions based off of Theory of Planned Behavior/Reason Action Approch during the pre-test survey.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Negative Test Result</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>This arm will complete an online survey where they will be presented a vignette asking them to imagine they have symptoms consistent with COVID-19, a physician telling them they likely have COVID-19, and a negative COVID-19 test result. All arms will then be asked to fill out the same questions regarding behavior intentions and demographic questions. All participants will have completed five construct questions based off of Theory of Planned Behavior/Reason Action Approch during the pre-test survey.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Positive COVID Test Result - Hypothetical Scenario</intervention_name>
+    <description>Participants will be asked to imagine that they have tested positive (PCR) for an active COVID-19 infection and that their physician has clinically diagnosed them with COVID-19.</description>
+    <arm_group_label>Positive Test Result</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Negative COVID Test Result - Hypothetical Scenario</intervention_name>
+    <description>Participants will be asked to imagine that they have tested negative (PCR) for an active COVID-19 infection.</description>
+    <arm_group_label>Negative Test Result</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Unavailable COVID Test Result - Hypothetical Scenario</intervention_name>
+    <description>Participants will be asked to imagine that testing is not available for active COVID-19 infections but that their physician has clinically diagnosed them with COVID-19.</description>
+    <arm_group_label>Testing Unavailable Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  18 years of age or older
+
+          -  U.S.-based (based off self-reported zip code)
+
+          -  Able to read and agree to English-based consent form
+
+          -  Able to pass the attention check questions in the pre-test survey
+
+          -  Able to pass the attention check questions in the main survey
+
+          -  Complete the main survey in 120 seconds or more
+
+        Exclusion Criteria
+
+          -  &lt;18 years of age
+
+          -  Unable to complete English-based consent form
+
+          -  Fail any of the attention check questions from the pre-test and main survey
+
+          -  Complete the main survey in 119 seconds or under
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>110 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Daniel M Croymans, MD</last_name>
+    <phone>818-271-7926</phone>
+    <email>dcroymans@mednet.ucla.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>UCLA Health Department of Medicine, Quality Office</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90095</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Teasdale E, Yardley L. Understanding responses to government health recommendations: public perceptions of government advice for managing the H1N1 (swine flu) influenza pandemic. Patient Educ Couns. 2011 Dec;85(3):413-8. doi: 10.1016/j.pec.2010.12.026. Epub 2011 Feb 3.</citation>
+    <PMID>21295434</PMID>
+  </reference>
+  <reference>
+    <citation>Qazi A, Qazi J, Naseer K, Zeeshan M, Hardaker G, Maitama JZ, Haruna K. Analyzing situational awareness through public opinion to predict adoption of social distancing amid pandemic COVID-19. J Med Virol. 2020 Jul;92(7):849-855. doi: 10.1002/jmv.25840. Epub 2020 Apr 15.</citation>
+    <PMID>32266990</PMID>
+  </reference>
+  <reference>
+    <citation>Lees et al. Intentions to Comply with COVID-19 Preventive Behaviors are Associated with Personal Beliefs, Independent of Perceived Social Norms. OSF. 2020.</citation>
+  </reference>
+  <reference>
+    <citation>Bults M, Beaujean DJ, de Zwart O, Kok G, van Empelen P, van Steenbergen JE, Richardus JH, Voeten HA. Perceived risk, anxiety, and behavioural responses of the general public during the early phase of the Influenza A (H1N1) pandemic in the Netherlands: results of three consecutive online surveys. BMC Public Health. 2011 Jan 3;11:2. doi: 10.1186/1471-2458-11-2.</citation>
+    <PMID>21199571</PMID>
+  </reference>
+  <reference>
+    <citation>Teasdale E, Yardley L, Schlotz W, Michie S. The importance of coping appraisal in behavioural responses to pandemic flu. Br J Health Psychol. 2012 Feb;17(1):44-59. doi: 10.1111/j.2044-8287.2011.02017.x. Epub 2011 Mar 7.</citation>
+    <PMID>22233104</PMID>
+  </reference>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>July 5, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 5, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 7, 2020</study_first_posted>
+  <last_update_submitted>July 22, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 22, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 24, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of California, Los Angeles</investigator_affiliation>
+    <investigator_full_name>Daniel M. Croymans, MD, MBA, MS</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Behavior intentions</keyword>
+  <keyword>Testing</keyword>
+  <keyword>COVID-19</keyword>
+  <keyword>Theory of Planned Behavior</keyword>
+  <keyword>Reason Action Approch</keyword>
+  <keyword>SARS-CoV-2</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,192 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04460638</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020-COVID19-15</org_study_id>
+    <nct_id>NCT04460638</nct_id>
+  </id_info>
+  <brief_title>SARS-CoV2 (COVID-19) Diagnosis in Human Saliva by MALDI-TOF MS Profiling</brief_title>
+  <acronym>CoviDiagMS</acronym>
+  <official_title>SARS-CoV2 (COVID-19) Diagnosis in Human Saliva by MALDI-TOF MS Profiling</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Direction Centrale du Service de Santé des Armées</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Direction Centrale du Service de Santé des Armées</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Since March 2020, SARS-CoV2 virus (nCoV19; COVID-19) is considered pandemic. Its high rate of
+      spread and infection in the human population and the lack of effective and validated
+      treatment have led the authorities of several countries to confine their populations to slow
+      the spread of COVID-19. As part of the management of this health crisis, the screening of
+      individuals is essential in order to isolate &quot;infected cases&quot;. These screening tests are
+      currently performed on nasopharyngeal swabs using RT-PCR for the detection of viral RNA.
+      Although sensitive and specific, these tests remain relatively long (2-5 hours), expensive
+      and the strong international demand for nucleic extraction kits and enzymes are factors
+      limiting the implementation of widespread screening (problem of supply of swabs, molecular
+      biology consumables).
+
+      In order to prevent the risks of a shortage of screening means, we propose to develop an
+      innovative alternative strategy, PCR-free, based on the detection of specific protein
+      signatures in human saliva by MALDI-TOF MS profiling. MALDI-TOF MS profiling is a method used
+      in routine diagnostics by microbiology laboratories for the identification of microorganisms.
+      MALDI-TOF MS profiling has been successfully used to classify individuals according to their
+      infectious status (oral pathologies) based on the analysis of their saliva, but also as a
+      tool for the identification of respiratory viruses from cell culture supernatants. In
+      addition, we have expertise and skills in the field of MALDI-TOF MS profiling and have
+      implemented new strategies to improve the quality of profiles and their analysis,
+      particularly in the context of entomological and vector identification projects. Finally,
+      recent Chinese studies have reported that COVID-19 was detectable in saliva by RT-PCR.
+
+      The main objective of this study is to develop a test based on the MALDI-TOF profiling method
+      to detect individuals infected with SARS-CoV2 from saliva sample.
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">August 2020</start_date>
+  <completion_date type="Anticipated">August 2022</completion_date>
+  <primary_completion_date type="Anticipated">August 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Development of a test based on the MALDI-TOF profiling method to detect individuals infected with SARS-CoV2 from saliva sample.</measure>
+    <time_frame>Day 30</time_frame>
+    <description>The development of this test is based on machine learning techniques, which involve &quot;training&quot; a mathematical model, in which the results of the mass spectrometry analysis of saliva samples and clinical data will be used to determine the information needed to distinguish a saliva sample from a SARS-CoV2-infected participant from a healthy saliva sample.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Rate of correct classification by the test (MALDI-TOF MS profiling) from saliva sample</measure>
+    <time_frame>Day 30</time_frame>
+    <description>For each saliva sample, the status (&quot;correct&quot; or &quot;incorrect&quot;) of the classification of the sample (&quot;infected&quot; or &quot;not infected&quot;) by the test (MALDI-TOF MS profiling) will be determined. Then the rate of correct classification will be calculated. The test will be considered efficient when it has reached a correct classification rate of more than 95%.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of correct classification by RT-PCR from saliva sample</measure>
+    <time_frame>Day 30</time_frame>
+    <description>For each saliva sample, the status (&quot;correct&quot; or &quot;incorrect&quot;) of the classification of the sample (&quot;infected&quot; or &quot;not infected&quot;) by RT-PCR will be determined. Then the rate of correct classification by RT-PCR will be calculated.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Identification of proteins specific to the SARS-CoV2 infection</measure>
+    <time_frame>Day 30</time_frame>
+    <description>On each saliva sample, the expression of proteins will be determined using mass spectrometry. By comparison between SARS-CoV2 infected saliva samples and non-infected saliva samples, the presence of proteins that are specifically expressed in SARS-CoV2 infected saliva samples will be determined.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Presence of a positive anti-SARS-CoV2 antibody response by RT-PCR</measure>
+    <time_frame>Day 30</time_frame>
+    <description>On each SARS-CoV2 infected saliva sample, the presence of anti-SARS-CoV2 antibodies, by RT-PCR, will be determined.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between the identified protein markers and the clinical course of the participants.</measure>
+    <time_frame>Day 30</time_frame>
+    <description>In SARS-CoV2 infected participants (Covid+ hospitalization group and Covid+ outpatient group), the presence of a correlation between the presence of proteins specific to the SARS-CoV2 infection and the clinical evolution of patients will be determined.</description>
+  </secondary_outcome>
+  <number_of_groups>4</number_of_groups>
+  <enrollment type="Anticipated">600</enrollment>
+  <condition>SARS-CoV 2</condition>
+  <arm_group>
+    <arm_group_label>Covid+ hospitalization group</arm_group_label>
+    <description>Patients hospitalized with SARS-CoV2 infection</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Covid+ outpatient group</arm_group_label>
+    <description>Patients or caregivers followed on an outpatient basis for an SARS-CoV2 infection</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Covid- group</arm_group_label>
+    <description>Caregivers not infected with an SARS-CoV2</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Non-SARS pathology group</arm_group_label>
+    <description>Individuals not infected with SARS-CoV2 but with another acute and/or infectious non-SARS pathology</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Saliva collection</intervention_name>
+    <description>Saliva samples are regularly collected over a period of up to 30 consecutive days.</description>
+    <arm_group_label>Covid+ hospitalization group</arm_group_label>
+    <arm_group_label>Covid+ outpatient group</arm_group_label>
+    <arm_group_label>Covid- group</arm_group_label>
+    <arm_group_label>Non-SARS pathology group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Clinical assessment</intervention_name>
+    <description>The participant's clinical data will be collected regularly over a period of up to 30 consecutive days.</description>
+    <arm_group_label>Covid+ hospitalization group</arm_group_label>
+    <arm_group_label>Covid+ outpatient group</arm_group_label>
+    <arm_group_label>Covid- group</arm_group_label>
+    <arm_group_label>Non-SARS pathology group</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Saliva samples
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study population consists of patients and caregivers infected and uninfected with
+        CoV2-SARS.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  18 years of age;
+
+          -  screened for SARS-CoV2 by RT-PCR from a nasopharyngeal swab within 96 hours prior to
+             inclusion.
+
+        Exclusion Criteria:
+
+          -  Patient admitted to intensive care;
+
+          -  Pregnant woman.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Lionel ALMERAS, PhD</last_name>
+    <email>almeras.lionel@gmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Emilie JAVELLE, MD</last_name>
+    <phone>491617459</phone>
+    <phone_ext>+33</phone_ext>
+    <email>emilie.javelle@intradef.gouv.fr</email>
+  </overall_contact_backup>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>July 6, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 6, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 7, 2020</study_first_posted>
+  <last_update_submitted>July 8, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 8, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 10, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>MALDI-TOF MS</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

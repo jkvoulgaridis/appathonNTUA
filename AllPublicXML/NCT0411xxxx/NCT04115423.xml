@@ -1,0 +1,209 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04115423</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SKKU-2019-TCZ</org_study_id>
+    <nct_id>NCT04115423</nct_id>
+  </id_info>
+  <brief_title>A Retrospective Cohort Study on the Risk of Serious Infections in Rheumatoid Arthritis Patients Receiving Tocilizumab</brief_title>
+  <official_title>A Retrospective Cohort Study to Examine the Risk of Serious Infections in Rheumatoid Arthritis Patients Receiving Tocilizumab Compared With Tumor Necrosis Factor Inhibitors Using the National Health Insurance Database</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sungkyunkwan University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Ministry of Food and Drug Safety, Korea</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Sungkyunkwan University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>Yes</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to evaluate whether the risk of serious infections in rheumatoid
+      arthritis patients with tocilizumab is higher than in those with tumor necrosis factor
+      inhibitors using the nationwide real-world data.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This observational, retrospective cohort study using the Korean National Health Insurance
+      (NHI) data will evaluate whether the risk of serious infections (SIs) in rheumatoid arthritis
+      patients treated with tocilizumab is higher than in those with tumor necrosis factor
+      inhibitors. We will compare incidence rates between two groups and estimate relative risks of
+      SIs in tocilizumab users using the time-dependent Cox proportional hazard regression. Various
+      covariates potentially related to RA severity and occurrence of infection will be assessed
+      and used for adjustment.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">April 1, 2020</start_date>
+  <completion_date type="Anticipated">October 1, 2021</completion_date>
+  <primary_completion_date type="Anticipated">October 1, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Hazard ratio for serious infections</measure>
+    <time_frame>January 2013 to December 2018</time_frame>
+    <description>The ratio of the hazard rates of the serious infections in tocilizumab initiators vs. TNFi users</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Hazard ratio for six subdivided groups of serious infections by organ class</measure>
+    <time_frame>January 2013 to December 2018</time_frame>
+    <description>The ratio of the hazard rates of six subdivided organ-specific serious infections (respiratory tract, gastrointestinal tract, urological and gynecological infections, skin and subcutaneous tissue, sepsis, and others) in tocilizumab initiators vs. TNFi users</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">4540</enrollment>
+  <condition>Infection</condition>
+  <condition>Rheumatoid Arthritis</condition>
+  <arm_group>
+    <arm_group_label>Tocilizumab initiators</arm_group_label>
+    <description>Patients over 18 years of age with a diagnosis of RA (ICD-10 codes: M05-06) and receiving tocilizumab at least once from January 2013 to December 2018. Tocilizumab initiators are required to have no record of tocilizumab within 1 year prior to the first prescription of tocilizumab.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Tumor necrosis factor inhibitors (TNFi) users</arm_group_label>
+    <description>Patients over 18 years of age with a diagnosis of RA (ICD-10 codes: M05-06) and receiving TNFi at least once from January 2013 to December 2018. TNFi users will be patients who had no record of tocilizumab and given specific TNFi during 1 year before the first prescription of TNFi.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Tocilizumab</intervention_name>
+    <description>A humanized monoclonal antibody against the interleukin-6 receptor, which is mainly for the treatment of rheumatoid arthritis.</description>
+    <arm_group_label>Tocilizumab initiators</arm_group_label>
+    <other_name>ACTEMRA</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Tumor Necrosis Factor Inhibitor (etanercept, infliximab, adalimumab, and golimumab)</intervention_name>
+    <description>Tumor Necrosis Factor inhibitors (TNFi) are a group of medicines that suppresses the physiologic response to TNF, a protein involved in early inflammatory events. We will include etanercept, infliximab, adalimumab, and golimumab as TNFis since these drugs are commercialized in Korea.</description>
+    <arm_group_label>Tumor necrosis factor inhibitors (TNFi) users</arm_group_label>
+    <other_name>ENBREL, REMICADE, HUIMIRA, and SIMPONI</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients who had a diagnosis of rheumatoid arthritis (ICD-10 codes: M05-06) and received
+        tocilizumab or TNFi (etanercept, infliximab, adalimumab, and golimumab) at least once
+        between 2013 and 2018.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Individuals who had a diagnosis of rheumatoid arthritis (ICD-10 codes: M05-06) between
+             2013 and 2018
+
+        Exclusion Criteria:
+
+          -  Individuals less than 18 years of age
+
+          -  Having no records of prescription of tocilizumab or TNFi at least once between 2013
+             and 2018
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ju-Young Shin, Ph.D</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Sungkyunkwan University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Ha-Lim Jeon, MS</last_name>
+    <phone>+82-31-299-4377</phone>
+    <email>hrjeon@skku.edu</email>
+  </overall_contact>
+  <reference>
+    <citation>Jones G, Panova E. New insights and long-term safety of tocilizumab in rheumatoid arthritis. Ther Adv Musculoskelet Dis. 2018 Oct 7;10(10):195-199. doi: 10.1177/1759720X18798462. eCollection 2018 Oct. Review.</citation>
+    <PMID>30327685</PMID>
+  </reference>
+  <reference>
+    <citation>Ramiro S, Sepriano A, Chatzidionysiou K, Nam JL, Smolen JS, van der Heijde D, Dougados M, van Vollenhoven R, Bijlsma JW, Burmester GR, Scholte-Voshaar M, Falzon L, Landewé RBM. Safety of synthetic and biological DMARDs: a systematic literature review informing the 2016 update of the EULAR recommendations for management of rheumatoid arthritis. Ann Rheum Dis. 2017 Jun;76(6):1101-1136. doi: 10.1136/annrheumdis-2016-210708. Epub 2017 Mar 15. Review.</citation>
+    <PMID>28298374</PMID>
+  </reference>
+  <reference>
+    <citation>Singh JA. Infections With Biologics in Rheumatoid Arthritis and Related Conditions: a Scoping Review of Serious or Hospitalized Infections in Observational Studies. Curr Rheumatol Rep. 2016 Oct;18(10):61. doi: 10.1007/s11926-016-0609-5. Review.</citation>
+    <PMID>27613285</PMID>
+  </reference>
+  <reference>
+    <citation>Singh JA, Hossain A, Tanjong Ghogomu E, Mudano AS, Maxwell LJ, Buchbinder R, Lopez-Olivo MA, Suarez-Almazor ME, Tugwell P, Wells GA. Biologics or tofacitinib for people with rheumatoid arthritis unsuccessfully treated with biologics: a systematic review and network meta-analysis. Cochrane Database Syst Rev. 2017 Mar 10;3:CD012591. doi: 10.1002/14651858.CD012591. Review.</citation>
+    <PMID>28282491</PMID>
+  </reference>
+  <reference>
+    <citation>Nishimoto N, Ito K, Takagi N. Safety and efficacy profiles of tocilizumab monotherapy in Japanese patients with rheumatoid arthritis: meta-analysis of six initial trials and five long-term extensions. Mod Rheumatol. 2010 Jun;20(3):222-32. doi: 10.1007/s10165-010-0279-5. Epub 2010 Mar 11.</citation>
+    <PMID>20221663</PMID>
+  </reference>
+  <reference>
+    <citation>Sakai R, Cho SK, Nanki T, Watanabe K, Yamazaki H, Tanaka M, Koike R, Tanaka Y, Saito K, Hirata S, Amano K, Nagasawa H, Sumida T, Hayashi T, Sugihara T, Dobashi H, Yasuda S, Sawada T, Ezawa K, Ueda A, Fujii T, Migita K, Miyasaka N, Harigai M; REAL Study Group. Head-to-head comparison of the safety of tocilizumab and tumor necrosis factor inhibitors in rheumatoid arthritis patients (RA) in clinical practice: results from the registry of Japanese RA patients on biologics for long-term safety (REAL) registry. Arthritis Res Ther. 2015 Mar 23;17:74. doi: 10.1186/s13075-015-0583-8.</citation>
+    <PMID>25880658</PMID>
+  </reference>
+  <reference>
+    <citation>Pawar A, Desai RJ, Solomon DH, Santiago Ortiz AJ, Gale S, Bao M, Sarsour K, Schneeweiss S, Kim SC. Risk of serious infections in tocilizumab versus other biologic drugs in patients with rheumatoid arthritis: a multidatabase cohort study. Ann Rheum Dis. 2019 Apr;78(4):456-464. doi: 10.1136/annrheumdis-2018-214367. Epub 2019 Jan 24.</citation>
+    <PMID>30679153</PMID>
+  </reference>
+  <reference>
+    <citation>Grøn KL, Arkema EV, Glintborg B, Mehnert F, Østergaard M, Dreyer L, Nørgaard M, Krogh NS, Askling J, Hetland ML; ARTIS Study Group. Risk of serious infections in patients with rheumatoid arthritis treated in routine care with abatacept, rituximab and tocilizumab in Denmark and Sweden. Ann Rheum Dis. 2019 Mar;78(3):320-327. doi: 10.1136/annrheumdis-2018-214326. Epub 2019 Jan 5.</citation>
+    <PMID>30612115</PMID>
+  </reference>
+  <reference>
+    <citation>Yun H, Xie F, Delzell E, Levitan EB, Chen L, Lewis JD, Saag KG, Beukelman T, Winthrop KL, Baddley JW, Curtis JR. Comparative Risk of Hospitalized Infection Associated With Biologic Agents in Rheumatoid Arthritis Patients Enrolled in Medicare. Arthritis Rheumatol. 2016 Jan;68(1):56-66. doi: 10.1002/art.39399.</citation>
+    <PMID>26315675</PMID>
+  </reference>
+  <reference>
+    <citation>Rutherford AI, Subesinghe S, Hyrich KL, Galloway JB. Serious infection across biologic-treated patients with rheumatoid arthritis: results from the British Society for Rheumatology Biologics Register for Rheumatoid Arthritis. Ann Rheum Dis. 2018 Jun;77(6):905-910. doi: 10.1136/annrheumdis-2017-212825. Epub 2018 Mar 28.</citation>
+    <PMID>29592917</PMID>
+  </reference>
+  <verification_date>March 2020</verification_date>
+  <study_first_submitted>October 2, 2019</study_first_submitted>
+  <study_first_submitted_qc>October 2, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 4, 2019</study_first_posted>
+  <last_update_submitted>March 19, 2020</last_update_submitted>
+  <last_update_submitted_qc>March 19, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 23, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Sungkyunkwan University</investigator_affiliation>
+    <investigator_full_name>Ju-Young Shin</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <keyword>Tocilizumab</keyword>
+  <keyword>Serious Infection</keyword>
+  <keyword>Rheumatoid Arthritis</keyword>
+  <keyword>Tumor necrosis factor inhibitors</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Infection</mesh_term>
+    <mesh_term>Communicable Diseases</mesh_term>
+    <mesh_term>Arthritis</mesh_term>
+    <mesh_term>Arthritis, Rheumatoid</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Adalimumab</mesh_term>
+    <mesh_term>Etanercept</mesh_term>
+    <mesh_term>Infliximab</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

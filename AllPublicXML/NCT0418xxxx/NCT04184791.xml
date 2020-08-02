@@ -1,0 +1,210 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04184791</url>
+  </required_header>
+  <id_info>
+    <org_study_id>19-0217</org_study_id>
+    <secondary_id>R21NS111301</secondary_id>
+    <nct_id>NCT04184791</nct_id>
+  </id_info>
+  <brief_title>Computational Modeling of 60 Hz Subthalamic Nucleus Deep Brain Stimulation for Gait Disorder in Parkinson's Disease</brief_title>
+  <official_title>Computational Modeling of 60 Hz Subthalamic Nucleus Deep Brain Stimulation for Gait Disorder in Parkinson's Disease</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Northwell Health</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Neurological Disorders and Stroke (NINDS)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The University of Tennessee, Knoxville</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Northwell Health</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>Yes</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of this study is to further the understanding and application of 60Hz
+      subthalamic deep brain stimulation (STN-DBS) in Parkinson's patients with gait disorder. The
+      investigators will achieve this through 2 study aims:
+
+        1. Determine the impact of 60Hz subthalamic deep brain stimulation on gait kinematics using
+           wearable sensors
+
+        2. Develop machine learning models to predict optimal subthalamic deep brain stimulation
+           frequency based on wearable sensors
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Gait disorder, which manifests as shuffling, reduction in speed, multistep turning, and/or
+      freezing of gait (FOG), can arise later in the Parkinson's disease (PD) course and cause
+      significant disability. Ultimately, patients are at risk for falls and can become socially
+      isolated due to their mobility limitations. These symptoms tend not to respond to high
+      frequency STN-DBS. However, lower frequency stimulation (60-80Hz) of the STN in treating gait
+      disorder and/or freezing of gait has demonstrated benefit. This study potentially can expand
+      knowledge of 60hz DBS while improving its utilization in combination with PD
+      medications—enabling sustainable and possibly predictable therapeutic benefit.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 15, 2020</start_date>
+  <completion_date type="Anticipated">December 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Double (Participant, Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in Gait and Balance using Wearable Sensors</measure>
+    <time_frame>1-2 minute period with each stimulation condition</time_frame>
+    <description>Inertial Sensors will be used to quantify gait metrics (postural sway, gait cycle, circumduction) as participants conduct two 7meter walking trials for each stimulation condition ( 60Hz frequency or High Frequency) across DBS electrode pairs in both the medicated and unmedicated states.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy of Predicting Gait Response to 60hz with Machine Learning</measure>
+    <time_frame>2 years</time_frame>
+    <description>Regression models will be created using non-linear regression analysis based on random forest (RF) classifier on the raw gait sensor data acquired from the medicated and unmedicated states.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy of Predicting Best Stimulation Frequency (60hz vs. High Frequency) with Machine Learning</measure>
+    <time_frame>2 years</time_frame>
+    <description>Regression models will be created using non-linear regression analysis based on random forest (RF) classifier on all raw sensor data (gait and balance, tremor, and speed of limb movements) acquired in the medicated and unmedicated states.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in Hand Tremor Severity</measure>
+    <time_frame>1 minute test session for each stimulation condition</time_frame>
+    <description>The difference in tremor (e.g. rest, postural, kinetic) severity will be measured with an Inertial sensor for each DBS electrode stimulation pair (60hz or High Frequency) in both the medicated and unmedicated states.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in Speed of Limb Movements</measure>
+    <time_frame>1 minute test session for each stimulation condition</time_frame>
+    <description>The difference in the speed of limb movements (e.g. finger taps, hand grasps, wrist rotation, leg lifts, toe taps) will be measured with an Inertial sensor for each DBS electrode stimulation pair (60hz or High Frequency) in both the medicated and unmedicated states.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Parkinson Disease</condition>
+  <arm_group>
+    <arm_group_label>Deep Brain Stimulation(DBS) OFF Medication</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subthalamic-DBS in the Levodopa OFF state.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Deep Brain Stimulation(DBS) ON Medication</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subthalamic-DBS in the Levodopa ON state.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Deep Brain Stimulation</intervention_name>
+    <description>Each DBS electrode contact will be reprogrammed in 60hz and High Frequency Stimulation (180hz) in the Levodopa ON (medicated) and OFF (unmedicated) conditions.</description>
+    <arm_group_label>Deep Brain Stimulation(DBS) OFF Medication</arm_group_label>
+    <arm_group_label>Deep Brain Stimulation(DBS) ON Medication</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Male or female, aged 21-80
+
+          2. Patients diagnosed with Parkinson's disease (PD)
+
+          3. PD subjects who have bilateral STN-DBS (greater than 6 months) or in the preoperative
+             stage of being implanted with bilateral STN-DBS
+
+          4. Have underlying gait disorder
+
+          5. Currently treated with oral levodopa therapy
+
+          6. Willingness to comply with all study procedures
+
+        Exclusion Criteria:
+
+          1. Non-English speaking
+
+          2. Cognitive deficits based on historical record that limit participant compliance with
+             study protocol
+
+          3. Vestibular disorder or musculoskeletal problems affecting gait or balance
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ritesh Ramdhani, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Northwell Health</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Toni Fitzpatrick</last_name>
+    <phone>516-562-2685</phone>
+    <email>tfitzpatrick@northwell.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Northwell Health</name>
+      <address>
+        <city>Great Neck</city>
+        <state>New York</state>
+        <zip>11021</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Toni Fitzpatrick</last_name>
+    </contact>
+    <investigator>
+      <last_name>Ritesh A Ramdhani, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2020</verification_date>
+  <study_first_submitted>November 22, 2019</study_first_submitted>
+  <study_first_submitted_qc>November 29, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 4, 2019</study_first_posted>
+  <last_update_submitted>April 29, 2020</last_update_submitted>
+  <last_update_submitted_qc>April 29, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 1, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Northwell Health</investigator_affiliation>
+    <investigator_full_name>Ritesh Ramdhani, MD</investigator_full_name>
+    <investigator_title>Assistant Professor of Neurology</investigator_title>
+  </responsible_party>
+  <keyword>Deep Brain Stimulation</keyword>
+  <keyword>Parkinson's Disease</keyword>
+  <keyword>Wearable Sensors</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Parkinson Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

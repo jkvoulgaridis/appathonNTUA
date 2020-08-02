@@ -1,0 +1,169 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on July 28, 2020</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03883061</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20190319</org_study_id>
+    <nct_id>NCT03883061</nct_id>
+  </id_info>
+  <brief_title>Mathematical Modeling and Risk Factor Analysis for Mortality of Sepsis</brief_title>
+  <official_title>Mathematical Modeling and Risk Factor Analysis for Mortality of Sepsis Based on Real World Data in China</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shanghai Tongji Hospital, Tongji University School of Medicine</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Department of Emergence, The First Hospital Affiliated to South China University, Hengyang, Hunan, China.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Department of Integrative Medicine, Huashan Hospital of Fudan University, Shanghai, China</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Department of Biomedical Informatics and Statistics, Insitute of Integrative Medicine, Fudan University, Shanghai, China</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Department of emergence, Hunan people's hospital, Changhai, Hunan, China</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Department of emergence, The hospital affiliated to Jining medical college, Jining, Shandong, China</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Department of emergence, Huaihua people's hospital, Huaihua, Hunan, China</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Shanghai Tongji Hospital, Tongji University School of Medicine</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study was to investigate the risk factors for mortality of sepsis and to
+      create mathematical models to predict the survival rate based on electronic health records
+      that extracted from hospital information system. More than 1000 records should be collected
+      and used to data analysis. Univariate and multivariable logistic regression model were
+      applied to risk factors analysis for the outcome, and machine learn algorithms were employed
+      to generate predictive models for the outcome.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 1, 2017</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Actual">March 1, 2019</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <target_duration>1 Month</target_duration>
+  <primary_outcome>
+    <measure>mortality of sepsis</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>mortality of sepsis</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">2000</enrollment>
+  <condition>Morality</condition>
+  <condition>Risk Factor, Sepsis</condition>
+  <condition>Predictive Model</condition>
+  <arm_group>
+    <arm_group_label>mortality of sepsis</arm_group_label>
+    <description>the study sample would be extracted from electronic health records in emergence departments. risk factor analysis and mathematical modeling would be performed to evaluate the significant and independent risk factors and predictive models.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>regular medical treatment</intervention_name>
+    <description>regular medical treatment</description>
+    <arm_group_label>mortality of sepsis</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        all patients with sepsis in emergence department of hospitals
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  all records with sepsis in emergence department of hospitals
+
+        Exclusion Criteria:
+
+          -  subjects with major missing data
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>14 Years</minimum_age>
+    <maximum_age>99 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Zihui Tang</name>
+      <address>
+        <city>Shanghai</city>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Zihui Tang, Dr</last_name>
+      <phone>15821993541</phone>
+      <phone_ext>021</phone_ext>
+      <email>albert.tang@163.com</email>
+    </contact>
+    <investigator>
+      <last_name>Yu Lu, Dr</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Zihui Tang, Dr</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <reference>
+    <citation>Lu Y, Tang ZH, Zeng F, Li Y, Zhou L. The association and predictive value analysis of metabolic syndrome combined with resting heart rate on cardiovascular autonomic neuropathy in the general Chinese population. Diabetol Metab Syndr. 2013 Nov 17;5(1):73. doi: 10.1186/1758-5996-5-73.</citation>
+    <PMID>24238358</PMID>
+  </reference>
+  <verification_date>July 2019</verification_date>
+  <study_first_submitted>March 19, 2019</study_first_submitted>
+  <study_first_submitted_qc>March 19, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 20, 2019</study_first_posted>
+  <last_update_submitted>July 4, 2019</last_update_submitted>
+  <last_update_submitted_qc>July 4, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 8, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Huashan Hospital</investigator_affiliation>
+    <investigator_full_name>Zihui Tang</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sepsis</mesh_term>
+    <mesh_term>Toxemia</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+
