@@ -30,7 +30,7 @@ con.connect(error => {
 });
 
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to bezkoder application." });
+  res.json({ message: "Welcome to application." });
 });
 
 //test querry : con.querry('insert into CriteriaDb (Type,CriterionText,StudyId) values("ins", "text", 2mkj) ;' 
@@ -43,13 +43,13 @@ app.get("/test" ,(req,res) => {
   res.json({querry : querryToExec , status : 'completed' });
 });
 
-app.post("/insert/" , (req,res) => {
+app.post("/insert" , (req,res) => {
     var type = req.body.type
     var main_txt = req.body.criteriaTXT
     var studyId = req.body.studyID
+    console.clear()
     console.log(`got type = ${type} , text = ${main_txt} , studyId = ${studyId}`)
     var querryToExec = `INSERT INTO Criterion (Type,CriterionText,StudyId) VALUES ("${type}", "${main_txt}", "${studyId}")`
-    
     con.query(querryToExec ,(err,res) => {
     if(err) {
       console.log('exception thrown from /insert/ endpoint')

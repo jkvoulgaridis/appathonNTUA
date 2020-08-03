@@ -29,7 +29,8 @@ USAGE
 # Commands
 <!-- commands -->
 * [`clinic_studies bye [FILE]`](#clinic_studies-bye-file)
-* [`clinic_studies filldb [FILE]`](#clinic_studies-filldb-file)
+* [`clinic_studies fillall [FILE]`](#clinic_studies-fillall-file)
+* [`clinic_studies filldb`](#clinic_studies-filldb)
 * [`clinic_studies hello [FILE]`](#clinic_studies-hello-file)
 * [`clinic_studies help [COMMAND]`](#clinic_studies-help-command)
 
@@ -49,18 +50,29 @@ OPTIONS
 
 _See code: [src/commands/bye.ts](https://github.com/jkvoulgaridis/appathonNTUA/blob/v0.0.0/src/commands/bye.ts)_
 
-## `clinic_studies filldb [FILE]`
+## `clinic_studies fillall [FILE]`
 
 describe the command here
 
 ```
 USAGE
-  $ clinic_studies filldb [FILE]
+  $ clinic_studies fillall [FILE]
 
 OPTIONS
   -f, --force
   -h, --help       show CLI help
   -n, --name=name  name to print
+```
+
+_See code: [src/commands/fillall.ts](https://github.com/jkvoulgaridis/appathonNTUA/blob/v0.0.0/src/commands/fillall.ts)_
+
+## `clinic_studies filldb`
+
+description of this example command
+
+```
+USAGE
+  $ clinic_studies filldb
 ```
 
 _See code: [src/commands/filldb.ts](https://github.com/jkvoulgaridis/appathonNTUA/blob/v0.0.0/src/commands/filldb.ts)_

@@ -4,54 +4,67 @@ import {XMLHttpRequest} from 'xmlhttprequest'
 import {document, Element} from 'document'
 import {fs} from 'fs'
 
+axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"
 const qs = require('querystring')
 var fs = require('fs')
-
-axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
+var util = require('util');
+var async = require('async')
 var counter = 0;
 var limit = 100;
 var txt ;
 var  i = 0;
+var k;
 var crit;
 var j;
 var study_id;
-var requestBody
-var inclusion
-var start, end
+var inclusion;
+var start, end;
+//var base_dir = '/home/user/Desktop/appathonNTUA/AllPublicXML/'
+var bodys = []
+const stat = util.promisify(fs.stat)
+const readDIR = util.promisify(fs.readdir)
 
 export class Fill extends Command {
-  static description = 'description of this example command'
-  
-
+  static description = 'description of this example command';
+  static flags = {
+    baseDIR : flags.string({required : true})
+  }
   async run() {
     console.log('running filldb command...')
+    const {flags} = this.parse(Fill)
+    var base_dir = flags.baseDIR
+    console.log(flags)
     //var fileToRead = '/home/user/Desktop/appathonNTUA/AllPublicXML/NCT0000xxxx/NCT00000102.xml'
     //pushStudyToDb(fileToRead)
-    var base_dir = '/home/user/Desktop/appathonNTUA/AllPublicXML/'
-    fs.readdir(base_dir, (err, files) => {
-        files.forEach((file,index) => {
-          fs.stat(base_dir + file, (error,stat) => {
-            if(error) throw error;
-            if(stat.isFile()){
-              console.log('file %s' , file)
-            }
-            else if(stat.isDirectory()){
-              //console.log('directory %s' , file)
-              fs.readdir(base_dir + file + '/' , (err2,files2) => {
-                files2.forEach((file2,index) => {
-                  fs.stat(base_dir + file + '/' + file2, (error2,stat2) => {
-                    if(error2) throw error2;
-                    if(stat2.isFile()){
-                      if(counter === limit ){
-                        console.log('loaded records done :)');
-                        process.exit(0)
-                      }
-                      else{ 
-                        counter += 1;
-                        console.log(`counter ${counter}`)
-                        console.log(base_dir + file + '/' + file2)
-                        txt = fs.readFileSync(base_dir + file + '/' + file2).toString()
+    /*
+    *get files form file system
+    */
+    //axios.post('http://localhost:3000/insert', qs.stringify(requestBody)).catch((error) => {console.log(error)})
+    //var ff = await getFileSystem()
+    var paths = []
+    var main_parse = await readDIR(base_dir)
+    for(i=0;i<main_parse.length;i++){
+      //console.log(main_parse[i])
+      var ff = await stat(base_dir + main_parse[i])
+      if(ff.isDirectory){
+        var second_parse = await readDIR(base_dir + main_parse[i])
+        for (j=0;j<second_parse.length;j++){
+          var path = base_dir + main_parse[i] + '/' + second_parse[j]
+          /*
+          *main
+          */
+            paths.push(path)
+          /*
+          *main
+          */
+        }
+      }
+    }
+    const paths2 = await paths;
+    for(k=0;k<1000;k++){
+        console.log(`file ${k} preparing...`)
+        txt = fs.readFileSync(paths2[k]).toString()
                         // /txt = fs.readFileSync(fileToRead).toString()
                         txt = txt.split('\r\n')
                         //console.log(txt)
@@ -75,35 +88,37 @@ export class Fill extends Command {
                           }
                           if(crit[j][0] === '-'){
                             if(inclusion === 1){
-                                requestBody = {
+                                var requestBody = {
                                   type : 'inclusion',
                                   criteriaTXT : crit[j].replace(/-/,' ').trim(),
                                   studyID : study_id
                                 }
-                                var obj = axios.post('http://localhost:3000/insert/', qs.stringify(requestBody))
-                                console.log(requestBody)
+                                bodys.push(requestBody)
+                                //var obj =  axios.post('http://localhost:3000/insert/', qs.stringify(requestBody))
+                                //console.log(requestBody)
                             }
                             if(inclusion === 0){
-                              requestBody = {
+                              var requestBody = {
                                 type : 'exclusion',
                                 criteriaTXT : crit[j].replace(/-/,' ').trim(),
                                 studyID : study_id
                               }
-                              var obj = axios.post('http://localhost:3000/insert/', qs.stringify(requestBody))
-                              console.log(requestBody)
+                              bodys.push(requestBody)
+                              //var obj = axios.post('http://localhost:3000/insert/', qs.stringify(requestBody))
+                              //console.log(requestBody)
                             }
                           }
                         }
-                      }
-                    }
-                  })
-                })
-              })
-            }
-          })
+    }
 
-        })
-    })
-    console.log('\n')
-   } 
+    await print_files(bodys)
+   }; 
+}
+
+async function print_files(files){
+    console.log('entering async loop...')
+    for(let i=0;i<files.length;i++){
+      var obj = axios.post('http://localhost:3000/insert', qs.stringify(files[i])).catch(error => {})
+      console.log(`body ${i} out of ${files.length}`)
+    }
 }
