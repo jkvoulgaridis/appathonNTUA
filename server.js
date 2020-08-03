@@ -11,7 +11,7 @@ app.use(cors())
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true })) 
-
+app.timeout = 0;
 const mysql = require('mysql')
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
 
@@ -43,7 +43,7 @@ app.get("/test" ,(req,res) => {
   res.json({querry : querryToExec , status : 'completed' });
 });
 
-app.post("/insert" , (req,res) => {
+app.post("/insert/" , (req,res) => {
     var type = req.body.type
     var main_txt = req.body.criteriaTXT
     var studyId = req.body.studyID
@@ -53,11 +53,10 @@ app.post("/insert" , (req,res) => {
     con.query(querryToExec ,(err,res) => {
     if(err) {
       console.log('exception thrown from /insert/ endpoint')
-      throw err;
+      res.send('400')
     }
-
     });
-  
+    res.send('200')
 });
 
 app.listen(3000, () => {
