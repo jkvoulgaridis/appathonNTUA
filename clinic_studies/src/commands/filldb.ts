@@ -1,6 +1,6 @@
 import {Command, flags} from '@oclif/command'
 import axios from 'axios'
-import {document, Element} from 'document'
+//import {document, Element} from 'document'
 import {fs} from 'fs'
 
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
