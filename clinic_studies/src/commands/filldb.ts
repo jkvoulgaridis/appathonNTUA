@@ -36,20 +36,33 @@ export class Fill extends Command {
     var base_dir = flags.baseDIR
     console.log(flags)
     var paths = []
-    var main_parse = await readDIR(base_dir)
-    for(i=0;i<main_parse.length;i++){
-      var ff = await stat(base_dir + main_parse[i])
-      if(ff.isDirectory){
-        var second_parse = await readDIR(base_dir + main_parse[i])
-        for (j=0;j<second_parse.length;j++){
-          var path = base_dir + main_parse[i] + '/' + second_parse[j]
-          /*
-          *main
-          */
-            paths.push(path)
-          /*
-          *main
-          */
+
+    var tst =await stat(base_dir)
+    if(tst.isFile){
+      paths.push(base_dir)
+    }
+    else{
+      var main_parse = await readDIR(base_dir)
+      for(i=0;i<main_parse.length;i++){
+        var ff = await stat(base_dir + main_parse[i])
+        if(ff.isDirectory){
+          var second_parse = await readDIR(base_dir + main_parse[i])
+          for (j=0;j<second_parse.length;j++){
+            var path = base_dir + main_parse[i] + '/' + second_parse[j]
+            /*
+            *main
+            */
+              paths.push(path)
+            /*
+            *main
+            */
+          }
+        }
+        else if(ff.isFile){
+          paths.push(base_dir+main_parse[i])
+        }
+        else{
+          console.log('error occured...')
         }
       }
     }
