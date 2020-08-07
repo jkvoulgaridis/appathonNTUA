@@ -33,7 +33,7 @@
 5) Εκκίνηση της εφαρμογής:
 			`.clinic_studies/bin/run filldb --baseDIR <path_to_ALLXML>`
 
-Η παράμετρος baseDIR πρέπει να είναι μονοπάτι του συστήματος αρχείων που να δείχνει σε φάκελο με υποφακέλους οι οποίοι περιέχουν .xml αρχεία τα οποία έχουν συνταξη τέτοια όπως και το αρχικό dataset.
+Η παράμετρος baseDIR μπορεί να είναι μονοπάτι του συστήματος αρχείων που να δείχνει σε φάκελο με υποφακέλους οι οποίοι περιέχουν .xml, ή φάκελος ο οποίος περιέχει .xml αρχεία ή ένα  .xml αρχείο.  Τα αρχεία .xml πρέπει να έχουν συνταξη τέτοια όπως και το αρχικό dataset.
    			 
 ### Παράδειγμα 
 Αν ο φάκελος της εργασίας εγκατασταθεί στο Desktop του χρήστη user ως AppathonNtua τότε το βήμα 1 θα είναι:
@@ -86,8 +86,6 @@ This project was developed and tested on Ubuntu 20.04 and the instalation instru
 
 		  `.clinic_studies/bin/run filldb --baseDIR <path_to_ALLXML>`
 		  
-	Quick Reminder: --baseDIR parameter is a folder whose subfolders contain .xml files. 
-	
 
 		
 
