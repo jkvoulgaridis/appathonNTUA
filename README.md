@@ -28,8 +28,12 @@
 			 `source criteria_db.sql`
 
 4) Εκκίνηση του Server :
-			`node server.js`
+			`node server.js <mysql_username> <mysql_password>`
 			
+<mysql_username> : Όνομα χρήστη για την επικοινωνία με την βάση. Η βάση φτιάχνει έναν χρήστη ονόματι "appuser". Ωστόσο, λόγω ρυθμίσεων της mysql σε κάποιο μηχάνημα αυτός ο χρήστης μπορει να μην πιστοποιείται, και τότε  μπορεί να χρησιμοποιηθεί ο χρήστης root της sql του εκάστοτε υπολογιστή. 
+
+<mysql_password> : Ο κωδικός για που αντιστοιχεί στο <mysql_username>. Για τον 'appuser' είναι 'appuser123!ABChello9045'. Σε περίπτωση που χρησιμοποιηθεί ο root, ο κωδικός είναι αυτός που έχει οριστεί από τον κάθε χρήστη.
+
 5) Εκκίνηση της εφαρμογής:
 			`.clinic_studies/bin/run filldb --baseDIR <path_to_ALLXML>`
 
