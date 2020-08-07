@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const app = express();
 const cors = require('cors')
 const axios = require('axios')
-
+const mysql = require('mysql')
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -12,15 +12,15 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true })) 
 app.timeout = 0;
-const mysql = require('mysql')
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
 
 const con = mysql.createConnection({
   host: 'localhost',
-  user: 'root',
-  password: 'rootroot',
+  user: process.argv[2],
+  password: process.argv[3],
   database: 'CriteriaDB',
-  insecureAuth : true
+  insecureAuth : true,
+  connectTimeout : 100000,
 });
 
 

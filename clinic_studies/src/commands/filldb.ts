@@ -25,16 +25,26 @@ var bodys = []
 const stat = util.promisify(fs.stat)
 const readDIR = util.promisify(fs.readdir)
 var tasks = [] 
+var counter=0;
+
 export class Fill extends Command {
   static description = 'description of this example command';
   static flags = {
-    baseDIR : flags.string({required : true})
+    baseDIR : flags.string({required : true}),
+    limit : flags.string()
   }
   async run() {
     console.log('running filldb command...')
     const {flags} = this.parse(Fill)
     var base_dir = flags.baseDIR
-    console.log(flags)
+    var limit = flags.limit
+    if(limit === undefined){
+      limit = 10000000
+    }
+    else{
+      limit = parseInt(limit)
+    }
+    console.log(limit)
     var paths = []
 
     var tst =await stat(base_dir)
@@ -55,6 +65,7 @@ export class Fill extends Command {
             *main
             */
               paths.push(path)
+              counter ++ 
             /*
             *main
             */
@@ -68,18 +79,20 @@ export class Fill extends Command {
         }
       }
     }
+    /*
+     * START proccessign files
+     */
+
     const paths2 = await paths;
     console.log('loeaded all paths...')
     for(k=0;k<paths2.length;k++){
         console.log(`loading file ${k} of ${paths2.length}`)
-        /*if(k%500 === 0 && k>0){
-          console.log(`file ${k} preparing...`)
-          console.log('time for action!')
-          await print_by_popping(bodys)
-        }*/
+        counter ++ 
+        if(counter > limit) {
+                break;
+        }
         txt = fs.readFileSync(paths2[k]).toString()
         txt = txt.split('\r\n')
-        //console.log(txt)
         for (i=0;i<txt.length;i++){
           if(txt[i].trim().localeCompare('<id_info>') === 0 ) {
             study_id = txt[i+1].split('<')[1].split('>')[1]
@@ -128,35 +141,5 @@ export class Fill extends Command {
           }
         }
     }
-    //await print_files(bodys)
-    //await print_by_popping(bodys)
-    //setTimeout(terminate,300000);
    }; 
 }
-
-async function print_files(files){
-    console.log('entering async loop...')
-    for(let i=0;i<files.length;i++){
-      var obj = await axios.post('http://localhost:3000/insert/', qs.stringify(files[i])).catch(error => {})
-      if(i % 1000 === 0) { 
-      console.log(`body ${i} out of ${files.length}`)
-      }
-    }
-}
-
-function terminate(){
-  process.exit(0)
-}
-
-async function print_by_popping(files){
-  console.log('entering popping async')
-  while(files.length > 0){
-      var qq = files.pop()
-      var obj = axios.post('http://localhost:3000/insert/', qs.stringify(qq)).catch(error => {}) 
-      if(files.length % 1000 === 0){
-      //await console.log(`files lenght :  ${files.length}`)      
-      }
-  }
-}
-
-

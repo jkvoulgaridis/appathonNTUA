@@ -4,6 +4,11 @@ CREATE DATABASE CriteriaDB;
 
 USE CriteriaDB;
 
+
+CREATE USER IF NOT EXISTS 'appuser'@'localhost' IDENTIFIED BY 'appuser123!ABChello9045';
+GRANT ALL PRIVILEGES ON CriteriaDB.* TO 'appuser'@'localhost';
+FLUSH PRIVILEGES;
+
 CREATE TABLE Criterion(
 	Id int NOT NULL AUTO_INCREMENT,
 	Type VARCHAR(10),
