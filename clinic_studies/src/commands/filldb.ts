@@ -44,7 +44,7 @@ export class Fill extends Command {
     else{
       limit = parseInt(limit)
     }
-    console.log(limit)
+    //console.log(limit)
     var paths = []
 
     var tst =await stat(base_dir)
@@ -79,6 +79,7 @@ export class Fill extends Command {
         }
       }
     }
+
     /*
      * START proccessign files
      */
@@ -104,7 +105,11 @@ export class Fill extends Command {
             end = i
           }
         }
+        var filename = paths2[k].split('/')
+        filename = filename[filename.length-1]
+        //console.log(filename)
         crit = txt.slice(start,end)
+        //console.log(crit)
         inclusion = 1
         for (j=0;j<crit.length;j++){
           crit[j] = crit[j].trim()
@@ -116,8 +121,10 @@ export class Fill extends Command {
                 var requestBody = {
                   type : 'inclusion',
                   criteriaTXT : crit[j].replace(/-/,' ').trim(),
-                  studyID : study_id
+                  studyID : study_id,
+                  report : filename
                 }
+               // console.log(requestBody)
                 //bodys.push(requestBody)
                const obj = await axios.post('http://localhost:3000/insert', qs.stringify(requestBody))
                 if(obj.data!=200){
@@ -129,13 +136,15 @@ export class Fill extends Command {
               var requestBody = {
                 type : 'exclusion',
                 criteriaTXT : crit[j].replace(/-/,' ').trim(),
-                studyID : study_id
+                studyID : study_id,
+                report : filename
               }
+              //console.log(requestBody)
               //bodys.push(requestBody)
               const obj = await axios.post('http://localhost:3000/insert', qs.stringify(requestBody))
               if(obj.data != 200){
                   console.log('some error occured, aborting...')
-                  process.exit(1 )
+                  process.exit(1)
               }
             }
           }

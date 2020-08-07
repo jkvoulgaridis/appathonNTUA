@@ -14,6 +14,7 @@ CREATE TABLE Criterion(
 	Type VARCHAR(10),
 	CriterionText VARCHAR(100),
 	StudyId VARCHAR(50),
+	Filename VARCHAR(40),
 	CONSTRAINT Criterion PRIMARY KEY (Id)
 );
 

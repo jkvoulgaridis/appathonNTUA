@@ -47,9 +47,10 @@ app.post("/insert/" , (req,res) => {
     var type = req.body.type
     var main_txt = req.body.criteriaTXT
     var studyId = req.body.studyID
+    var filename = req.body.report
     console.clear()
-    console.log(`got type = ${type} , text = ${main_txt} , studyId = ${studyId}`)
-    var querryToExec = `INSERT INTO Criterion (Type,CriterionText,StudyId) VALUES ("${type}", "${main_txt}", "${studyId}")`
+    console.log(`loading file ${filename}`)
+    var querryToExec = `INSERT INTO Criterion (Type,CriterionText,StudyId,Filename) VALUES ("${type}", "${main_txt}", "${studyId}", "${filename}")`
     con.query(querryToExec ,(err,res) => {
     if(err) {
       console.log('exception thrown from /insert/ endpoint')
