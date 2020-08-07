@@ -23,18 +23,14 @@
 
    Για απεγκατάσταση του npm, nodejs : 
    			`sudo apt remove nodejs npm`
-   			
-3) Εγκατάσταση των εξαρτήσεων: Το bash script install_dependancies :
-			`sudo chmod +x install_dependancies.sh`
-			`./install_dependancies.sh`
 
-4) Εκκαθάριση της Βάσης:
+3) Εκκαθάριση της Βάσης:
 			 `source criteria_db.sql`
 
-5) Εκκίνηση του Server :
+4) Εκκίνηση του Server :
 			`node server.js`
 			
-6) Εκκίνηση της εφαρμογής:
+5) Εκκίνηση της εφαρμογής:
 			`.clinic_studies/bin/run filldb --baseDIR <path_to_ALLXML>`
 
 Η παράμετρος baseDIR πρέπει να είναι μονοπάτι του συστήματος αρχείων που να δείχνει σε φάκελο με υποφακέλους οι οποίοι περιέχουν .xml αρχεία τα οποία έχουν συνταξη τέτοια όπως και το αρχικό dataset.
@@ -77,21 +73,16 @@ This project was developed and tested on Ubuntu 20.04 and the instalation instru
    
    		`node --version`
    		`npm --version`
-
-3) Install dependancies (by running install_dependancies.sh script):
-
-		 `sudo chmod +x install_dependancies.sh`
-		 `./install_dependancies.sh`
 		 
-4) build and reset the Database: 
+3) build and reset the Database: 
 
 		  `source criteria_db.sql`
 		  
-5) Start the server:
+4) Start the server:
 
 		  `node server.js`
 		  
-6) Run the application:
+5) Run the application:
 
 		  `.clinic_studies/bin/run filldb --baseDIR <path_to_ALLXML>`
 		  

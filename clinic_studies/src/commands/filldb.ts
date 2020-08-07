@@ -38,14 +38,16 @@ export class Fill extends Command {
     var paths = []
 
     var tst =await stat(base_dir)
-    if(tst.isFile){
+
+    if(tst.isFile()){
+      console.log(1)
       paths.push(base_dir)
     }
     else{
       var main_parse = await readDIR(base_dir)
       for(i=0;i<main_parse.length;i++){
         var ff = await stat(base_dir + main_parse[i])
-        if(ff.isDirectory){
+        if(ff.isDirectory()){
           var second_parse = await readDIR(base_dir + main_parse[i])
           for (j=0;j<second_parse.length;j++){
             var path = base_dir + main_parse[i] + '/' + second_parse[j]
@@ -58,7 +60,7 @@ export class Fill extends Command {
             */
           }
         }
-        else if(ff.isFile){
+        else if(ff.isFile()){
           paths.push(base_dir+main_parse[i])
         }
         else{
