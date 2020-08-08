@@ -65,7 +65,6 @@ export class Fill extends Command {
             *main
             */
               paths.push(path)
-              counter ++ 
             /*
             *main
             */

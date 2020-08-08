@@ -20,7 +20,10 @@
    Ελέγχος για σωστή εγκατάσταση :	
    			`node --version`
    			`npm --version`
-
+   
+   Για την εγκατάσταση των εξαρτήσεων :
+   			`npm install`
+   
    Για απεγκατάσταση του npm, nodejs : 
    			`sudo apt remove nodejs npm`
 
@@ -35,7 +38,7 @@
 <mysql_password> : Ο κωδικός για που αντιστοιχεί στο <mysql_username>. Για τον 'appuser' είναι 'appuser123!ABChello9045'. Σε περίπτωση που χρησιμοποιηθεί ο root, ο κωδικός είναι αυτός που έχει οριστεί από τον κάθε χρήστη.
 
 5) Εκκίνηση της εφαρμογής:
-			`.clinic_studies/bin/run filldb --baseDIR <path_to_ALLXML>`
+			`./clinic_studies/bin/run filldb --baseDIR <path_to_ALLXML>`
 
 Η παράμετρος baseDIR μπορεί να είναι μονοπάτι του συστήματος αρχείων που να δείχνει σε φάκελο με υποφακέλους οι οποίοι περιέχουν .xml, ή φάκελος ο οποίος περιέχει .xml αρχεία ή ένα  .xml αρχείο.  Τα αρχεία .xml πρέπει να έχουν συνταξη τέτοια όπως και το αρχικό dataset.
    			 
